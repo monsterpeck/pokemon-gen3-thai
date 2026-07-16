@@ -3,93 +3,145 @@ from pathlib import Path
 from PIL import Image
 
 
-FONT_PATH = Path("graphics/fonts/latin_normal.png")
+REFERENCE_PATH = Path(
+    "tools/thai/generated/reference/"
+    "leelawadee_18_threshold_128.png"
+)
+
+FONT_PATH = Path(
+    "graphics/fonts/latin_normal.png"
+)
+
 OUTPUT_PATH = Path(
     "graphics/fonts/thai/glyphs/0118_ko_kai.png"
 )
 
 GLYPH_SIZE = 16
-BACKGROUND_INDEX = 0
+
+BACKGROUND = 0
+MAIN_STROKE = 1
+SHADOW = 2
 
 
-# รูปร่างตัว ก รุ่นทดสอบ
-# แต่ละคู่คือพิกัด (x, y) ภายในพื้นที่ 16x16
-KO_KAI_PIXELS = [
-    # ส่วนหัว
-    (5, 3), (6, 3), (7, 3), (8, 3), (9, 3),
-    (4, 4), (10, 4),
+def load_reference_grid() -> Image.Image:
+    """
+    ภาพ Reference ที่บันทึกไว้เป็น Preview ขนาด 256×256
+    แต่ต้นทางจริงคือกริด 16×16
 
-    # เส้นตั้งด้านซ้าย
-    (4, 5), (4, 6), (4, 7), (4, 8),
-    (4, 9), (4, 10), (4, 11),
+    จึงย่อกลับเป็น 16×16 ด้วย NEAREST เพียงครั้งเดียว
+    และไม่ครอปหรือเปลี่ยนสัดส่วนเพิ่มเติม
+    """
+    if not REFERENCE_PATH.exists():
+        raise SystemExit(
+            f"ไม่พบภาพอ้างอิง: {REFERENCE_PATH}"
+        )
 
-    # ส่วนด้านขวา
-    (10, 5), (10, 6), (10, 7),
-    (9, 8), (8, 8),
+    reference = Image.open(
+        REFERENCE_PATH
+    ).convert("L")
 
-    # เส้นฐาน
-    (5, 11), (6, 11), (7, 11),
-    (8, 11), (9, 11),
+    grid = reference.resize(
+        (GLYPH_SIZE, GLYPH_SIZE),
+        resample=Image.Resampling.NEAREST,
+    )
 
-    # หาง
-    (9, 9), (10, 10), (11, 11),
-]
+    binary = grid.point(
+        lambda value: 255 if value >= 128 else 0
+    )
+
+    return binary
 
 
 def main() -> None:
-    # เปิด Font Sheet หลัก เพื่อคัดลอก Palette เดิม
+    if not FONT_PATH.exists():
+        raise SystemExit(
+            f"ไม่พบ Font Sheet: {FONT_PATH}"
+        )
+
     font_sheet = Image.open(FONT_PATH)
+
+    if font_sheet.mode != "P":
+        raise SystemExit(
+            f"Font Sheet ต้องเป็นโหมด P "
+            f"แต่พบโหมด {font_sheet.mode}"
+        )
 
     palette = font_sheet.getpalette()
 
     if palette is None:
         raise SystemExit(
-            "ไม่พบ Palette ใน graphics/fonts/latin_normal.png"
+            f"ไม่พบ Palette ใน {FONT_PATH}"
         )
 
-    # ดูว่า Font Sheet ใช้ Palette index อะไรอยู่บ้าง
-    used_indices = sorted(set(font_sheet.getdata()))
+    mask = load_reference_grid()
 
-    foreground_candidates = [
-        index
-        for index in used_indices
-        if index != BACKGROUND_INDEX
-    ]
-
-    if not foreground_candidates:
-        raise SystemExit(
-            "ไม่พบ Palette index สำหรับสีตัวอักษร"
-        )
-
-    foreground_index = foreground_candidates[0]
-
-    # สร้างภาพ Glyph ขนาด 16x16
-    image = Image.new(
+    glyph = Image.new(
         mode="P",
         size=(GLYPH_SIZE, GLYPH_SIZE),
-        color=BACKGROUND_INDEX,
+        color=BACKGROUND,
     )
 
-    # ใช้ Palette ชุดเดียวกับ Font Sheet
-    image.putpalette(palette)
+    glyph.putpalette(palette)
 
-    # วาดพิกเซลตัว ก
-    for x, y in KO_KAI_PIXELS:
-        image.putpixel((x, y), foreground_index)
+    main_pixels: set[tuple[int, int]] = set()
+
+    for y in range(GLYPH_SIZE):
+        for x in range(GLYPH_SIZE):
+            if mask.getpixel((x, y)) >= 128:
+                main_pixels.add((x, y))
+
+    if not main_pixels:
+        raise SystemExit(
+            "ไม่พบพิกเซลตัวอักษรในภาพอ้างอิง"
+        )
+
+    shadow_pixels: set[tuple[int, int]] = set()
+
+    # เพิ่มเงาเฉพาะด้านขวา
+    # ไม่เพิ่มด้านล่าง เพื่อลดความอ้วนของ Glyph
+    for x, y in main_pixels:
+        shadow_position = (x + 1, y)
+
+        if x + 1 >= GLYPH_SIZE:
+            continue
+
+        if shadow_position not in main_pixels:
+            shadow_pixels.add(shadow_position)
+
+    # วาดเงาก่อน
+    for x, y in shadow_pixels:
+        glyph.putpixel(
+            (x, y),
+            SHADOW,
+        )
+
+    # วาดเส้นหลักทับ
+    for x, y in main_pixels:
+        glyph.putpixel(
+            (x, y),
+            MAIN_STROKE,
+        )
 
     OUTPUT_PATH.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    image.save(OUTPUT_PATH)
+    glyph.save(OUTPUT_PATH)
 
-    print(f"Glyph created     : {OUTPUT_PATH}")
-    print(f"Size              : {image.width} x {image.height}")
-    print(f"Mode              : {image.mode}")
-    print(f"Palette indices   : {used_indices}")
-    print(f"Background index  : {BACKGROUND_INDEX}")
-    print(f"Foreground index  : {foreground_index}")
+    min_x = min(x for x, _ in main_pixels)
+    max_x = max(x for x, _ in main_pixels)
+    min_y = min(y for _, y in main_pixels)
+    max_y = max(y for _, y in main_pixels)
+
+    print("=== Ko Kai Glyph Created ===")
+    print(f"Reference     : {REFERENCE_PATH}")
+    print(f"Output        : {OUTPUT_PATH}")
+    print(f"Size          : {glyph.width} x {glyph.height}")
+    print(f"Main pixels   : {len(main_pixels)}")
+    print(f"Shadow pixels : {len(shadow_pixels)}")
+    print(f"Main bounds   : X={min_x}-{max_x}, Y={min_y}-{max_y}")
+    print("Palette used  : 0, 1, 2")
 
 
 if __name__ == "__main__":
