@@ -6,13 +6,14 @@ from PIL import Image
 
 FONT_PATH = Path("graphics/fonts/latin_normal.png")
 OUTPUT_DIR = Path("tools/thai")
+
 GLYPH_SIZE = 16
 PREVIEW_SCALE = 16
 
 
 def parse_glyph_id(value: str) -> int:
     """
-    รับหมายเลข Glyph ได้หลายรูปแบบ เช่น:
+    รับ Glyph ID เป็นเลขฐานสิบหก เช่น:
     118
     0x118
     01A
@@ -37,26 +38,107 @@ def parse_glyph_id(value: str) -> int:
     return glyph_id
 
 
+def scan_range(
+    image: Image.Image,
+    start: int,
+    end: int,
+) -> None:
+    columns = image.width // GLYPH_SIZE
+    background_index = image.getpixel((0, 0))
+
+    empty_glyphs: list[int] = []
+    used_glyphs: list[int] = []
+
+    for glyph_id in range(start, end + 1):
+        column = glyph_id % columns
+        row = glyph_id // columns
+
+        pixel_x = column * GLYPH_SIZE
+        pixel_y = row * GLYPH_SIZE
+
+        box = (
+            pixel_x,
+            pixel_y,
+            pixel_x + GLYPH_SIZE,
+            pixel_y + GLYPH_SIZE,
+        )
+
+        glyph_image = image.crop(box)
+        pixels = list(glyph_image.getdata())
+
+        non_background_pixels = sum(
+            pixel != background_index
+            for pixel in pixels
+        )
+
+        if non_background_pixels == 0:
+            empty_glyphs.append(glyph_id)
+        else:
+            used_glyphs.append(glyph_id)
+
+    print("\n=== Glyph Range Scan ===")
+    print(f"Range       : 0x{start:03X} - 0x{end:03X}")
+    print(f"Total       : {end - start + 1}")
+    print(f"Empty       : {len(empty_glyphs)}")
+    print(f"Used        : {len(used_glyphs)}")
+
+    print("\nUsed Glyph IDs:")
+
+    if used_glyphs:
+        print(" ".join(
+            f"{glyph_id:03X}"
+            for glyph_id in used_glyphs
+        ))
+    else:
+        print("(none)")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="ตรวจสอบตำแหน่ง Glyph ใน latin_normal.png"
+        description="ตรวจสอบ Glyph ใน Font Sheet"
     )
+
     parser.add_argument(
         "glyph_id",
         type=parse_glyph_id,
-        help="หมายเลข Glyph ฐานสิบหก เช่น 118 หรือ 0x118",
+        help="Glyph ID ฐานสิบหก เช่น 118 หรือ 0x118",
     )
+
+    parser.add_argument(
+        "--font",
+        type=Path,
+        default=FONT_PATH,
+        help="Font Sheet ที่ต้องการตรวจ",
+    )
+
     args = parser.parse_args()
 
-    image = Image.open(FONT_PATH)
-    
-    scan_range(image, 0x118, 0x1CF)
+    font_path: Path = args.font
+
+    if not font_path.exists():
+        raise SystemExit(
+            f"ไม่พบ Font Sheet: {font_path}"
+        )
+
+    image = Image.open(font_path)
+
+    if image.width % GLYPH_SIZE != 0:
+        raise SystemExit(
+            f"ความกว้างของภาพ {image.width} "
+            f"หารด้วย {GLYPH_SIZE} ไม่ลงตัว"
+        )
+
+    if image.height % GLYPH_SIZE != 0:
+        raise SystemExit(
+            f"ความสูงของภาพ {image.height} "
+            f"หารด้วย {GLYPH_SIZE} ไม่ลงตัว"
+        )
 
     columns = image.width // GLYPH_SIZE
     rows = image.height // GLYPH_SIZE
     total_glyphs = columns * rows
 
-    glyph_id = args.glyph_id
+    glyph_id: int = args.glyph_id
 
     if glyph_id >= total_glyphs:
         raise SystemExit(
@@ -71,6 +153,7 @@ def main() -> None:
     pixel_y = row * GLYPH_SIZE
 
     print("=== Font Information ===")
+    print(f"Font     : {font_path}")
     print(f"Size     : {image.width} x {image.height}")
     print(f"Mode     : {image.mode}")
     print(f"Columns  : {columns}")
@@ -94,13 +177,12 @@ def main() -> None:
 
     glyph_image = image.crop(box)
 
-        # ตรวจว่าสีใดเป็นสีพื้นหลัง โดยใช้พิกเซลมุมซ้ายบนของ Font Sheet
     background_index = image.getpixel((0, 0))
-
-    # ตรวจพิกเซลทุกจุดภายใน Glyph
     glyph_pixels = list(glyph_image.getdata())
+
     non_background_pixels = sum(
-        pixel != background_index for pixel in glyph_pixels
+        pixel != background_index
+        for pixel in glyph_pixels
     )
 
     is_empty = non_background_pixels == 0
@@ -108,7 +190,12 @@ def main() -> None:
     print("\n=== Glyph Content ===")
     print(f"Background index      : {background_index}")
     print(f"Non-background pixels : {non_background_pixels}")
-    print(f"Status                : {'EMPTY' if is_empty else 'USED'}")
+    print(
+        f"Status                : "
+        f"{'EMPTY' if is_empty else 'USED'}"
+    )
+
+    scan_range(image, 0x118, 0x1CF)
 
     preview = glyph_image.resize(
         (
@@ -118,57 +205,20 @@ def main() -> None:
         resample=Image.Resampling.NEAREST,
     )
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    output_path = OUTPUT_DIR / f"glyph_{glyph_id:04X}_preview.png"
+    output_path = (
+        OUTPUT_DIR
+        / f"glyph_{glyph_id:04X}_preview.png"
+    )
+
     preview.save(output_path)
 
     print(f"\nPreview saved: {output_path}")
 
-def scan_range(image: Image.Image, start: int, end: int) -> None:
-    columns = image.width // GLYPH_SIZE
-    background_index = image.getpixel((0, 0))
-
-    empty_glyphs = []
-    used_glyphs = []
-
-    for glyph_id in range(start, end + 1):
-        column = glyph_id % columns
-        row = glyph_id // columns
-
-        pixel_x = column * GLYPH_SIZE
-        pixel_y = row * GLYPH_SIZE
-
-        box = (
-            pixel_x,
-            pixel_y,
-            pixel_x + GLYPH_SIZE,
-            pixel_y + GLYPH_SIZE,
-        )
-
-        glyph_image = image.crop(box)
-        pixels = list(glyph_image.getdata())
-
-        non_background_pixels = sum(
-            pixel != background_index for pixel in pixels
-        )
-
-        if non_background_pixels == 0:
-            empty_glyphs.append(glyph_id)
-        else:
-            used_glyphs.append(glyph_id)
-
-    print("\n=== Glyph Range Scan ===")
-    print(f"Range       : 0x{start:03X} - 0x{end:03X}")
-    print(f"Total       : {end - start + 1}")
-    print(f"Empty       : {len(empty_glyphs)}")
-    print(f"Used        : {len(used_glyphs)}")
-
-    print("\nEmpty Glyph IDs:")
-    print(" ".join(f"{glyph_id:03X}" for glyph_id in empty_glyphs))
-
-    print("\nUsed Glyph IDs:")
-    print(" ".join(f"{glyph_id:03X}" for glyph_id in used_glyphs))
 
 if __name__ == "__main__":
     main()
