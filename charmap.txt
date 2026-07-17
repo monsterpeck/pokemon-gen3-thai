@@ -1092,3 +1092,5 @@ EMOJI_BIGANGER = F9 FE
 'ค' = F9 1A
 'ง' = F9 1B
 'า' = F9 1C
+'จ' = F9 1D
+'ฉ' = F9 1E
