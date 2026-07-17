@@ -1089,3 +1089,4 @@ EMOJI_BIGANGER = F9 FE
 '\n' = FE @ new line
 'ก' = F9 18
 'ข' = F9 19
+'ค' = F9 1A
