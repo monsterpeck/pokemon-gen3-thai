@@ -1088,3 +1088,4 @@ EMOJI_BIGANGER = F9 FE
 '\p' = FB @ new paragraph
 '\n' = FE @ new line
 'ก' = F9 18
+'ข' = F9 19
