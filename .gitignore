@@ -46,5 +46,8 @@ prefabs.json
 /pokeemerald_modern-*.png
 
 # Thai font toolkit generated files
-tools/thai/generated/
+tools/thai/generated/*
+!tools/thai/generated/toolchain_report.md
 tools/thai/glyph_*_preview.png
+tools/thai/__pycache__/
+tools/thai/tests/__pycache__/

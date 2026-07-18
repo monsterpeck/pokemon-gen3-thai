@@ -387,3 +387,19 @@ $(ROM): $(ELF)
 # Symbol file (`make syms`)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
+
+.PHONY: thai-font check-thai-font test-thai-toolchain thai-review-sheet check-thai-review-sheet import-thai-review-sheet test-thai-menu
+
+thai-font:
+	python3 -B tools/thai/build_thai_font.py
+
+check-thai-font:
+	python3 -B tools/thai/build_thai_font.py --check
+	python3 -B tools/thai/validate_thai_font.py
+
+test-thai-toolchain:
+	python3 -B -m unittest discover -s tools/thai/tests -v
+
+include make_thai.mk
+
+include make_thai_candidates.mk
