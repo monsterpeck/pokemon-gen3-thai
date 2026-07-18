@@ -12,6 +12,7 @@
 #include "menu.h"
 #include "dynamic_placeholder_text_util.h"
 #include "fonts.h"
+#include "thai_text.h"
 
 static u16 RenderText(struct TextPrinter *);
 static u32 RenderFont(struct TextPrinter *);
@@ -34,6 +35,10 @@ static u32 GetGlyphWidth_Normal(u16, bool32);
 static u32 GetGlyphWidth_Short(u16, bool32);
 static u32 GetGlyphWidth_Narrow(u16, bool32);
 static u32 GetGlyphWidth_SmallNarrow(u16, bool32);
+static void ResetThaiTextState(struct TextPrinter *);
+static void DecompressGlyphForPrinter(struct TextPrinter *, u8, u16);
+static void AdvanceCurrentGlyph(struct TextPrinter *);
+static bool32 RenderThaiGlyph(struct TextPrinter *, u8, u16);
 
 static EWRAM_DATA struct TextPrinter sTempTextPrinter = {0};
 static EWRAM_DATA struct TextPrinter sTextPrinters[WINDOWS_MAX] = {0};
@@ -284,6 +289,7 @@ bool16 AddTextPrinter(struct TextPrinterTemplate *printerTemplate, u8 speed, Tex
 
     for (i = 0; i < (int)ARRAY_COUNT(sTempTextPrinter.subStructFields); i++)
         sTempTextPrinter.subStructFields[i] = 0;
+    ResetThaiTextState(&sTempTextPrinter);
 
     sTempTextPrinter.printerTemplate = *printerTemplate;
     sTempTextPrinter.callback = callback;
@@ -931,6 +937,193 @@ void DrawDownArrow(u8 windowId, u16 x, u16 y, u8 bgColor, bool8 drawArrow, u8 *c
     }
 }
 
+static void ResetThaiTextState(struct TextPrinter *textPrinter)
+{
+    textPrinter->thai.hasBase = FALSE;
+    textPrinter->thai.baseGlyphId = 0;
+    textPrinter->thai.baseDrawX = 0;
+    textPrinter->thai.baseDrawY = 0;
+    textPrinter->thai.hasUpperVowel = FALSE;
+    textPrinter->thai.hasLowerVowel = FALSE;
+    textPrinter->thai.upperStackLevel = 0;
+    textPrinter->thai.lowerStackLevel = 0;
+    textPrinter->thai.baseMetrics = NULL;
+}
+
+static void DecompressGlyphForPrinter(struct TextPrinter *textPrinter, u8 fontId, u16 glyphId)
+{
+    switch (fontId)
+    {
+    case FONT_SMALL:
+        DecompressGlyph_Small(glyphId, textPrinter->japanese);
+        break;
+    case FONT_NORMAL:
+        DecompressGlyph_Normal(glyphId, textPrinter->japanese);
+        break;
+    case FONT_SHORT:
+    case FONT_SHORT_COPY_1:
+    case FONT_SHORT_COPY_2:
+    case FONT_SHORT_COPY_3:
+        DecompressGlyph_Short(glyphId, textPrinter->japanese);
+        break;
+    case FONT_NARROW:
+        DecompressGlyph_Narrow(glyphId, textPrinter->japanese);
+        break;
+    case FONT_SMALL_NARROW:
+        DecompressGlyph_SmallNarrow(glyphId, textPrinter->japanese);
+        break;
+    case FONT_BRAILLE:
+        break;
+    }
+}
+
+static void AdvanceCurrentGlyph(struct TextPrinter *textPrinter)
+{
+    s32 width;
+
+    if (textPrinter->minLetterSpacing)
+    {
+        textPrinter->printerTemplate.currentX += gCurGlyph.width;
+        width = textPrinter->minLetterSpacing - gCurGlyph.width;
+        if (width > 0)
+        {
+            ClearTextSpan(textPrinter, width);
+            textPrinter->printerTemplate.currentX += width;
+        }
+    }
+    else if (textPrinter->japanese)
+    {
+        textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
+    }
+    else
+    {
+        textPrinter->printerTemplate.currentX += gCurGlyph.width;
+    }
+}
+
+static void DrawThaiMarkAt(struct TextPrinter *textPrinter, const struct ThaiGlyphInfo *info, u8 glyphClass)
+{
+    const struct ThaiBaseMetrics *metrics = textPrinter->thai.baseMetrics;
+    s16 drawX = textPrinter->thai.baseDrawX;
+    s16 drawY = textPrinter->thai.baseDrawY;
+
+    if (metrics == NULL)
+        return;
+
+    switch (glyphClass)
+    {
+    case THAI_CLASS_UPPER_VOWEL:
+        drawX += metrics->upperAnchorX + info->markOffsetX;
+        drawY += metrics->upperAnchorY + info->markOffsetY - (textPrinter->thai.upperStackLevel * 2);
+        textPrinter->thai.hasUpperVowel = TRUE;
+        textPrinter->thai.upperStackLevel++;
+        break;
+    case THAI_CLASS_LOWER_VOWEL:
+        drawX += metrics->lowerAnchorX + info->markOffsetX;
+        drawY += metrics->lowerAnchorY + info->markOffsetY + (textPrinter->thai.lowerStackLevel * 2);
+        textPrinter->thai.hasLowerVowel = TRUE;
+        textPrinter->thai.lowerStackLevel++;
+        break;
+    case THAI_CLASS_TONE:
+    case THAI_CLASS_THAN_THAKHAT:
+        drawX += metrics->toneAnchorX + info->markOffsetX;
+        drawY += metrics->toneAnchorY + info->markOffsetY;
+        if (textPrinter->thai.hasUpperVowel)
+            drawY += info->secondLevelOffsetY;
+        textPrinter->thai.upperStackLevel++;
+        break;
+    case THAI_CLASS_NIKHAHIT:
+        drawX += metrics->upperAnchorX + info->markOffsetX;
+        drawY += metrics->upperAnchorY + info->markOffsetY;
+        if (textPrinter->thai.hasUpperVowel)
+            drawY += info->secondLevelOffsetY;
+        textPrinter->thai.hasUpperVowel = TRUE;
+        textPrinter->thai.upperStackLevel++;
+        break;
+    }
+
+    if (drawX < 0)
+        drawX = 0;
+    if (drawY < 0)
+        drawY = 0;
+    textPrinter->printerTemplate.currentX = drawX;
+    textPrinter->printerTemplate.currentY = drawY;
+    CopyGlyphToWindow(textPrinter);
+}
+
+static bool32 RenderThaiGlyph(struct TextPrinter *textPrinter, u8 fontId, u16 glyphId)
+{
+    const struct ThaiGlyphInfo *info;
+    u8 savedX;
+    u8 savedY;
+
+    if (fontId != FONT_NORMAL || textPrinter->japanese)
+        return FALSE;
+
+    info = GetThaiGlyphInfo(glyphId);
+    if (info == NULL || info->class == THAI_CLASS_NONE)
+        return FALSE;
+
+    savedX = textPrinter->printerTemplate.currentX;
+    savedY = textPrinter->printerTemplate.currentY;
+
+    if (info->class == THAI_CLASS_SARA_AM)
+    {
+        const struct ThaiGlyphInfo *nikhahit = GetThaiGlyphInfo(info->componentGlyphId);
+        DecompressGlyphForPrinter(textPrinter, fontId, info->componentGlyphId);
+        if (textPrinter->thai.hasBase && nikhahit != NULL)
+            DrawThaiMarkAt(textPrinter, nikhahit, THAI_CLASS_NIKHAHIT);
+        else
+            CopyGlyphToWindow(textPrinter);
+        textPrinter->printerTemplate.currentX = savedX;
+        textPrinter->printerTemplate.currentY = savedY;
+        DecompressGlyphForPrinter(textPrinter, fontId, THAI_GLYPH_SARA_AA);
+        CopyGlyphToWindow(textPrinter);
+        textPrinter->printerTemplate.currentX = savedX + info->advance;
+        ResetThaiTextState(textPrinter);
+        return TRUE;
+    }
+
+    DecompressGlyphForPrinter(textPrinter, fontId, glyphId);
+    if (IsThaiCombiningClass(info->class))
+    {
+        if (textPrinter->thai.hasBase && GetThaiBaseMetrics(textPrinter->thai.baseGlyphId) != NULL)
+        {
+            DrawThaiMarkAt(textPrinter, info, info->class);
+            textPrinter->printerTemplate.currentX = savedX;
+            textPrinter->printerTemplate.currentY = savedY;
+        }
+        else
+        {
+            CopyGlyphToWindow(textPrinter);
+            textPrinter->printerTemplate.currentX += THAI_FALLBACK_MARK_ADVANCE;
+            ResetThaiTextState(textPrinter);
+        }
+        return TRUE;
+    }
+
+    if (info->class == THAI_CLASS_LEADING_VOWEL)
+        ResetThaiTextState(textPrinter);
+
+    CopyGlyphToWindow(textPrinter);
+    AdvanceCurrentGlyph(textPrinter);
+
+    if (info->class == THAI_CLASS_BASE)
+    {
+        ResetThaiTextState(textPrinter);
+        textPrinter->thai.hasBase = TRUE;
+        textPrinter->thai.baseGlyphId = glyphId;
+        textPrinter->thai.baseDrawX = savedX;
+        textPrinter->thai.baseDrawY = savedY;
+        textPrinter->thai.baseMetrics = GetThaiBaseMetrics(glyphId);
+    }
+    else if (info->class == THAI_CLASS_SPACING_VOWEL || info->class == THAI_CLASS_PUNCTUATION)
+    {
+        ResetThaiTextState(textPrinter);
+    }
+    return TRUE;
+}
+
 static u16 RenderText(struct TextPrinter *textPrinter)
 {
     struct TextPrinterSubStruct *subStruct = (struct TextPrinterSubStruct *)(&textPrinter->subStructFields);
@@ -966,6 +1159,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
         switch (currChar)
         {
         case CHAR_NEWLINE:
+            ResetThaiTextState(textPrinter);
             textPrinter->printerTemplate.currentX = textPrinter->printerTemplate.x;
             textPrinter->printerTemplate.currentY += (gFonts[textPrinter->printerTemplate.fontId].maxLetterHeight + textPrinter->printerTemplate.lineSpacing);
             return RENDER_REPEAT;
@@ -973,6 +1167,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->printerTemplate.currentChar++;
             return RENDER_REPEAT;
         case EXT_CTRL_CODE_BEGIN:
+            ResetThaiTextState(textPrinter);
             currChar = *textPrinter->printerTemplate.currentChar;
             textPrinter->printerTemplate.currentChar++;
             switch (currChar)
@@ -1100,10 +1295,12 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             }
             break;
         case CHAR_PROMPT_CLEAR:
+            ResetThaiTextState(textPrinter);
             textPrinter->state = RENDER_STATE_CLEAR;
             TextPrinterInitDownArrowCounters(textPrinter);
             return RENDER_UPDATE;
         case CHAR_PROMPT_SCROLL:
+            ResetThaiTextState(textPrinter);
             textPrinter->state = RENDER_STATE_SCROLL_START;
             TextPrinterInitDownArrowCounters(textPrinter);
             return RENDER_UPDATE;
@@ -1117,52 +1314,17 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->printerTemplate.currentX += gCurGlyph.width + textPrinter->printerTemplate.letterSpacing;
             return RENDER_PRINT;
         case EOS:
+            ResetThaiTextState(textPrinter);
             return RENDER_FINISH;
         }
 
-        switch (subStruct->fontId)
-        {
-        case FONT_SMALL:
-            DecompressGlyph_Small(currChar, textPrinter->japanese);
-            break;
-        case FONT_NORMAL:
-            DecompressGlyph_Normal(currChar, textPrinter->japanese);
-            break;
-        case FONT_SHORT:
-        case FONT_SHORT_COPY_1:
-        case FONT_SHORT_COPY_2:
-        case FONT_SHORT_COPY_3:
-            DecompressGlyph_Short(currChar, textPrinter->japanese);
-            break;
-        case FONT_NARROW:
-            DecompressGlyph_Narrow(currChar, textPrinter->japanese);
-            break;
-        case FONT_SMALL_NARROW:
-            DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese);
-            break;
-        case FONT_BRAILLE:
-            break;
-        }
+        if (RenderThaiGlyph(textPrinter, subStruct->fontId, currChar))
+            return RENDER_PRINT;
 
+        DecompressGlyphForPrinter(textPrinter, subStruct->fontId, currChar);
         CopyGlyphToWindow(textPrinter);
-
-        if (textPrinter->minLetterSpacing)
-        {
-            textPrinter->printerTemplate.currentX += gCurGlyph.width;
-            width = textPrinter->minLetterSpacing - gCurGlyph.width;
-            if (width > 0)
-            {
-                ClearTextSpan(textPrinter, width);
-                textPrinter->printerTemplate.currentX += width;
-            }
-        }
-        else
-        {
-            if (textPrinter->japanese)
-                textPrinter->printerTemplate.currentX += (gCurGlyph.width + textPrinter->printerTemplate.letterSpacing);
-            else
-                textPrinter->printerTemplate.currentX += gCurGlyph.width;
-        }
+        AdvanceCurrentGlyph(textPrinter);
+        ResetThaiTextState(textPrinter);
         return RENDER_PRINT;
     case RENDER_STATE_WAIT:
         if (TextPrinterWait(textPrinter))
@@ -1335,6 +1497,7 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
     const u8 *bufferPointer;
     int glyphWidth;
     s32 width;
+    const struct ThaiGlyphInfo *thaiInfo;
 
     isJapanese = 0;
     minGlyphWidth = 0;
@@ -1454,6 +1617,12 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case CHAR_EXTRA_SYMBOL:
             if (*str == CHAR_EXTRA_SYMBOL)
                 glyphWidth = func(*++str | 0x100, isJapanese);
+            if (*str != CHAR_KEYPAD_ICON && fontId == FONT_NORMAL && !isJapanese)
+            {
+                thaiInfo = GetThaiGlyphInfo(*str | 0x100);
+                if (thaiInfo != NULL)
+                    glyphWidth = thaiInfo->advance;
+            }
             else
                 glyphWidth = GetKeypadIconWidth(*++str);
 

@@ -1,9 +1,10 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "เริ่มเกมส์\n"
+	.string "โปเกมอน\p"
+	.string "ผู้เล่น\n"
+	.string "น้ำ เก็บไว้\p"
+	.string "ญี่ปุ่น\n"
+	.string "ความสามารถ\p"
 	.string "$"
 
 gText_Birch_Pokemon::

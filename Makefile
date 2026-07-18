@@ -391,9 +391,11 @@ $(SYM): $(ELF)
 .PHONY: thai-font check-thai-font test-thai-toolchain thai-review-sheet check-thai-review-sheet import-thai-review-sheet test-thai-menu
 
 thai-font:
+	python3 -B tools/thai/generate_thai_metadata.py
 	python3 -B tools/thai/build_thai_font.py
 
 check-thai-font:
+	python3 -B tools/thai/generate_thai_metadata.py --check
 	python3 -B tools/thai/build_thai_font.py --check
 	python3 -B tools/thai/validate_thai_font.py
 

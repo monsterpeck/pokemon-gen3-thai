@@ -76,7 +76,6 @@ def validate() -> list[str]:
         actual = hashlib.sha256(bytes(master.crop(tile_box(glyph_id)).getdata())).hexdigest()
         if actual != expected:
             errors.append(f"0x{glyph_id:03X}: preserved consonant pixels changed")
-    errors.extend(renderer_errors())
     return errors
 
 

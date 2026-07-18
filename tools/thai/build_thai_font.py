@@ -36,9 +36,11 @@ def render_charmap(text: str, glyphs) -> str:
         "THAI_MI", "THAI_MO_MA_EK", "THAI_SARA_E",
         "THAI_RO_RUEA_SARA_I_MAI_EK", "THAI_SO_SUEA_THANTHAKHAT",
     }
+    characters = {glyph.display for glyph in glyphs if glyph.status != "unused" and len(glyph.display) == 1}
     kept = []
     for line in text.splitlines():
-        if line.split("=", 1)[0].strip() in tokens | legacy:
+        left = line.split("=", 1)[0].strip()
+        if left in tokens | legacy or (len(left) == 3 and left[0] == chr(39) and left[2] == chr(39) and left[1] in characters):
             continue
         kept.append(line)
     while kept and not kept[-1].strip():
@@ -47,7 +49,11 @@ def render_charmap(text: str, glyphs) -> str:
         f"{glyph.token} = F9 {glyph.glyph_id - 0x100:02X}"
         for glyph in glyphs if glyph.status != "unused"
     ]
-    return "\n".join(kept) + "\n\n" + "\n".join(constants) + "\n"
+    mappings = [
+        f"'{glyph.display}' = F9 {glyph.glyph_id - 0x100:02X}"
+        for glyph in glyphs if glyph.status != "unused" and len(glyph.display) == 1
+    ]
+    return "\n".join(kept) + "\n\n" + "\n".join(mappings) + "\n\n" + "\n".join(constants) + "\n"
 
 
 def build_outputs(font_path=FONT_PATH, widths_path=WIDTHS_PATH, charmap_path=CHARMAP_PATH):

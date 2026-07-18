@@ -2,6 +2,7 @@
 #define GUARD_TEXT_H
 
 #include "constants/characters.h"
+#include "thai_text.h"
 
 // Given as a text speed when all the text should be
 // loaded at once but not copied to vram yet.
@@ -78,6 +79,19 @@ struct TextPrinterTemplate
     u8 shadowColor:4;
 };
 
+struct ThaiTextState
+{
+    bool8 hasBase;
+    u16 baseGlyphId;
+    s16 baseDrawX;
+    s16 baseDrawY;
+    bool8 hasUpperVowel;
+    bool8 hasLowerVowel;
+    u8 upperStackLevel;
+    u8 lowerStackLevel;
+    const struct ThaiBaseMetrics *baseMetrics;
+};
+
 typedef void (*TextPrinterCallback)(struct TextPrinterTemplate *printerTemplate, u16 renderCmd);
 
 struct TextPrinter
@@ -94,6 +108,7 @@ struct TextPrinter
     u8 scrollDistance;
     u8 minLetterSpacing;  // 0x20
     u8 japanese;
+    struct ThaiTextState thai;
 };
 
 struct FontInfo
