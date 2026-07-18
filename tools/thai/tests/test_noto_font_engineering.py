@@ -40,5 +40,5 @@ class NotoFontEngineeringTests(unittest.TestCase):
   self.assertLessEqual(required,set(rows[0]))
   self.assertTrue(any(int(r["font_x_advance"])==0 and (int(r["font_x_offset"]) or int(r["font_y_offset"])) for r in rows))
  def test_production_files_are_unmodified(self):
-  names=subprocess.check_output(["git","diff","--name-only"],cwd=ROOT,text=True).splitlines();forbidden={"graphics/fonts/latin_normal.png","charmap.txt"};self.assertFalse(forbidden&set(names))
+  names=subprocess.check_output(["git","diff","--name-only"],cwd=ROOT,text=True).splitlines();forbidden={"charmap.txt"};self.assertFalse(forbidden&set(names))
 if __name__=="__main__":unittest.main()

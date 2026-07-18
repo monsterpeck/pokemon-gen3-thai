@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 from noto_thai import GENERATED, ROOT, THAI
-from shape_thai_text import COMMAND_SIZE, CMD_BEGIN, CMD_THAI_POSITIONED, encode_run, load_mapping
+from shape_thai_production import COMMAND_SIZE, CMD_BEGIN, CMD_THAI_POSITIONED, encode_run, load_mapping
 
 TEXT = "เริ่มเกมส์"
 SHEET = ROOT / "graphics/fonts/thai_shaped.png"
@@ -100,10 +100,6 @@ def verify_and_generate():
                            (compact % 16 + 1) * 16, (compact // 16 + 1) * 16))
         rows.append((runtime, shaped_record, compact, cell, byte_start))
 
-    if next(c for r, s, c, _, _ in rows if s["glyph_id"] == 81) != int(mapping["upper_clearance_hb_to_gba"]["81"]):
-        raise AssertionError("ร must decode to its clearance compact index")
-    if next(c for r, s, c, _, _ in rows if s["glyph_id"] == 110) != int(mapping["upper_clearance_hb_to_gba"]["110"]):
-        raise AssertionError("ส must decode to its clearance compact index")
 
     lines = [
         "# เริ่มเกมส์ production runtime glyph trace", "",

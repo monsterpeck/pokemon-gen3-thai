@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the build-time Thai shaping implementation report."""
 from noto_thai import *
-from shape_thai_text import *
+from shape_thai_production import *
 
 def build(build_result="passed"):
     mapping=load_mapping()
@@ -35,7 +35,7 @@ their existing formats. The command does not redefine any English character byte
 
 ## Build-time preprocessing
 
-\x60tools/thai/shape_thai_text.py\x60 filters only compiler/preprocessor streams.
+\x60tools/thai/shape_thai_production.py\x60 filters only compiler/preprocessor streams.
 Repository C and assembly sources remain ordinary Unicode. Thai runs inside string
 literals are shaped, converted to numeric brace bytes, and then handled by the
 existing project text preprocessor. Non-Thai literals are emitted byte-for-byte.

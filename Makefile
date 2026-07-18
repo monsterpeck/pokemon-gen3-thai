@@ -296,7 +296,7 @@ $(C_BUILDDIR)/berry_crush.o: override CFLAGS += -Wno-address-of-packed-member
 endif
 
 # Build-time Thai shaping. Source files remain ordinary Unicode; only the compiler stream is rewritten.
-THAI_SHAPER := PYTHONPATH=tools/thai/cache/python:tools/thai python3 -B tools/thai/shape_thai_text.py
+THAI_SHAPER := PYTHONPATH=tools/thai/cache/python:tools/thai python3 -B tools/thai/shape_thai_production.py
 
 # Dependency rules (for the *.c & *.s sources to .o files)
 # Have to be explicit or else missing files won't be reported.

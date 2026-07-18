@@ -24,7 +24,7 @@ their existing formats. The command does not redefine any English character byte
 
 ## Build-time preprocessing
 
-`tools/thai/shape_thai_text.py` filters only compiler/preprocessor streams.
+`tools/thai/shape_thai_production.py` filters only compiler/preprocessor streams.
 Repository C and assembly sources remain ordinary Unicode. Thai runs inside string
 literals are shaped, converted to numeric brace bytes, and then handled by the
 existing project text preprocessor. Non-Thai literals are emitted byte-for-byte.
@@ -40,7 +40,7 @@ segment properties, OpenType shaping, a 1000-unit font scale, and the exact
 glyph-index checks used by the accepted corrected proof. HarfBuzz IDs are never
 mapped back to Unicode.
 
-`tools/thai/font/thai_shaped_glyph_map.json` maps 40
+`tools/thai/font/thai_shaped_glyph_map.json` maps 38
 required HarfBuzz glyph IDs deterministically to dense GBA IDs. The generated
 `graphics/fonts/thai_shaped.png` stores those exact glyph-index outlines
 at one global 14 px/em scale without per-glyph resizing.
@@ -82,7 +82,7 @@ Because the repository output and linked ROM contain the edited cells while the 
 ### Line 1: เริ่มเกมส์
 
 - Final advance: 49px
-- Bytes: `fc 19 13 00 01 f8 04 01 fc 19 24 00 01 f8 07 01 fc 19 14 00 f9 f6 00 00 fc 19 06 00 fe f3 00 00 fc 19 0a 00 01 f8 08 01 fc 19 13 00 01 f8 05 01 fc 19 02 00 01 f8 08 01 fc 19 0a 00 01 f8 09 01 fc 19 25 00 01 f8 08 01 fc 19 1b 00 fc f5 00 00`
+- Bytes: `fc 19 13 00 01 f8 04 01 fc 19 10 00 01 f8 07 01 fc 19 14 00 f9 f6 00 00 fc 19 23 00 fe f4 00 00 fc 19 0a 00 01 f8 08 01 fc 19 13 00 01 f8 05 01 fc 19 02 00 01 f8 08 01 fc 19 0a 00 01 f8 09 01 fc 19 19 00 01 f8 08 01 fc 19 1b 00 fc f5 00 00`
 
 ### Line 2: โปเกมอน
 
@@ -92,17 +92,17 @@ Because the repository output and linked ROM contain the edited cells while the 
 ### Line 3: ผู้เล่น
 
 - Final advance: 30px
-- Bytes: `fc 19 22 00 01 f8 09 01 fc 19 18 00 fb 01 00 00 fc 19 07 00 fb f4 00 00 fc 19 13 00 01 f8 04 01 fc 19 20 00 01 f8 08 01 fc 19 04 00 fd f4 00 00 fc 19 0c 00 01 f8 09 01`
+- Bytes: `fc 19 0e 00 01 f8 09 01 fc 19 18 00 fb 00 00 00 fc 19 07 00 fb f4 00 00 fc 19 13 00 01 f8 04 01 fc 19 03 00 01 f8 08 01 fc 19 04 00 fd f4 00 00 fc 19 0c 00 01 f8 09 01`
 
 ### Line 4: น้ำ เก็บไว้
 
 - Final advance: 50px
-- Bytes: `fc 19 21 00 01 f8 09 01 fc 19 0b 00 fc f5 00 00 fc 19 08 00 fc f2 00 00 fc 19 11 00 00 f8 05 00 fc 19 1a 00 00 00 04 01 fc 19 13 00 01 f8 04 01 fc 19 1f 00 01 f8 08 01 fc 19 09 00 fa f4 00 00 fc 19 00 00 01 f8 09 01 fc 19 12 00 00 f4 04 01 fc 19 26 00 01 f8 07 01 fc 19 07 00 fb f4 00 00`
+- Bytes: `fc 19 1f 00 01 f8 09 01 fc 19 0b 00 fc f5 00 00 fc 19 25 00 fc f4 00 00 fc 19 11 00 00 f8 05 00 fc 19 1a 00 00 00 04 01 fc 19 13 00 01 f8 04 01 fc 19 02 00 01 f8 08 01 fc 19 09 00 fa f4 00 00 fc 19 00 00 01 f8 09 01 fc 19 12 00 00 f4 04 01 fc 19 1d 00 01 f8 07 01 fc 19 07 00 fb f4 00 00`
 
 ### Line 5: ญี่ปุ่น
 
 - Final advance: 30px
-- Bytes: `fc 19 27 00 01 f8 0d 01 fc 19 15 00 f9 f5 00 00 fc 19 06 00 fd f2 00 00 fc 19 23 00 01 f5 08 01 fc 19 17 00 fd 01 00 00 fc 19 05 00 fb f4 00 00 fc 19 0c 00 01 f8 09 01`
+- Bytes: `fc 19 21 00 01 f8 0d 01 fc 19 22 00 f9 f7 00 00 fc 19 24 00 fd f4 00 00 fc 19 0f 00 01 f5 08 01 fc 19 17 00 fd 00 00 00 fc 19 05 00 fb f4 00 00 fc 19 0c 00 01 f8 09 01`
 
 ### Line 6: ความสามารถ
 

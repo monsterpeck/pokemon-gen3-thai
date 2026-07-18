@@ -47,7 +47,7 @@ make -j$(nproc)
 
 ## Build-time shaping and renderer behavior
 
-`shape_thai_text.py` runs before the existing C and assembly text preprocessor. It shapes Thai runs with the pinned Noto font, maps exact HarfBuzz glyph IDs through `font/thai_shaped_glyph_map.json`, and emits `FC 19` positioned-glyph commands. `RenderThaiPositionedGlyph` draws the mapped bitmap at its encoded signed offset and advances only by the encoded advance. Spaces, newlines, controls, colors, shadows, printer speed, and non-Thai paths retain their existing behavior.
+`shape_thai_production.py` runs before the existing C and assembly text preprocessor. It shapes Thai runs with the pinned Noto font, maps exact HarfBuzz glyph IDs through `font/thai_shaped_glyph_map.json`, and emits `FC 19` positioned-glyph commands. `RenderThaiPositionedGlyph` draws the mapped bitmap at its encoded signed offset and advances only by the encoded advance. Spaces, newlines, controls, colors, shadows, printer speed, and non-Thai paths retain their existing behavior.
 
 Run `make thai-noto-font`, `make test-thai-shaped-text`, and the normal ROM build. A missing shaped glyph mapping fails the build. The Professor Birch opening screen contains the six controlled acceptance strings; visual completion still requires an mGBA screenshot.
 

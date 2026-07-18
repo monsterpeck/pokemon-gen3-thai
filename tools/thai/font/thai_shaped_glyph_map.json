@@ -1,8 +1,14 @@
 {
-  "format_version": 2,
+  "format_version": 3,
   "font_sha256": "404ddfb5ed0aaa6b6ec8a85700d682978992062d67da93903967b56cbd9a4acc",
   "units_per_em": 1000,
   "scale": 0.014,
+  "baseline": 12,
+  "palette_convention": {
+    "0": "transparent",
+    "1": "dark main",
+    "2": "light shadow"
+  },
   "command_begin": 252,
   "command_id": 25,
   "command_size": 8,
@@ -39,346 +45,799 @@
     "134": 29,
     "137": 30
   },
-  "upper_clearance_hb_to_gba": {
-    "29": 31,
-    "33": 32,
-    "71": 33,
-    "78": 34,
-    "80": 35,
-    "81": 36,
-    "110": 37,
-    "134": 38,
-    "137": 39
-  },
   "glyphs": [
     {
+      "compact_index": 0,
       "gba_glyph_id": 0,
       "hb_glyph_id": 5,
       "glyph_name": "uni0E1A",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "f544c53ed9088609fa0a8c091f4aabad9ccc4757947f270b1f2009955a65411d",
+      "production_bitmap_hash": "f544c53ed9088609fa0a8c091f4aabad9ccc4757947f270b1f2009955a65411d",
+      "palette_index_1_count": 34,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 1,
       "gba_glyph_id": 1,
       "hb_glyph_id": 26,
       "glyph_name": "uni0E04",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "788b016c5e422f0d1b5885860b3ad2c68873f80768de8d45891759564a08de25",
+      "production_bitmap_hash": "788b016c5e422f0d1b5885860b3ad2c68873f80768de8d45891759564a08de25",
+      "palette_index_1_count": 35,
+      "palette_index_2_count": 20,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 2,
       "gba_glyph_id": 2,
       "hb_glyph_id": 29,
       "glyph_name": "uni0E01",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "c1256810b212f0eeeb1184dff493d50d1b7ebfb2114ed8e9d67fa3f03fffd22d",
+      "production_bitmap_hash": "c1256810b212f0eeeb1184dff493d50d1b7ebfb2114ed8e9d67fa3f03fffd22d",
+      "palette_index_1_count": 33,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 3,
       "gba_glyph_id": 3,
       "hb_glyph_id": 33,
       "glyph_name": "uni0E25",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "ca79ecb34226af57be2d9cbdb77853fcf0d16a3e51d737246e8df9ecbab8e7d3",
+      "production_bitmap_hash": "ca79ecb34226af57be2d9cbdb77853fcf0d16a3e51d737246e8df9ecbab8e7d3",
+      "palette_index_1_count": 38,
+      "palette_index_2_count": 18,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 4,
       "gba_glyph_id": 4,
       "hb_glyph_id": 42,
       "glyph_name": "uni0E48",
       "variant": "normal",
-      "bitmap_width": 2,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "production_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "palette_index_1_count": 6,
+      "palette_index_2_count": 4,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 5,
       "gba_glyph_id": 5,
       "hb_glyph_id": 43,
       "glyph_name": "uni0E48.narrow",
       "variant": "normal",
-      "bitmap_width": 2,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "production_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "palette_index_1_count": 6,
+      "palette_index_2_count": 4,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 6,
       "gba_glyph_id": 6,
       "hb_glyph_id": 44,
       "glyph_name": "uni0E48.small",
       "variant": "normal",
-      "bitmap_width": 2,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "production_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "palette_index_1_count": 6,
+      "palette_index_2_count": 4,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 7,
       "gba_glyph_id": 7,
       "hb_glyph_id": 47,
       "glyph_name": "uni0E49",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "1208a0896cfdfae1303d7e107c470ab51e8ebffe156525c473c8ef713dda9302",
+      "production_bitmap_hash": "1208a0896cfdfae1303d7e107c470ab51e8ebffe156525c473c8ef713dda9302",
+      "palette_index_1_count": 10,
+      "palette_index_2_count": 6,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 8,
       "gba_glyph_id": 8,
       "hb_glyph_id": 49,
       "glyph_name": "uni0E49.small",
       "variant": "normal",
-      "bitmap_width": 4,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "d240bb1cfd22b4c2b84d9b266bf5eff301b2e495fa44bd4684a077c87d95c280",
+      "production_bitmap_hash": "d240bb1cfd22b4c2b84d9b266bf5eff301b2e495fa44bd4684a077c87d95c280",
+      "palette_index_1_count": 7,
+      "palette_index_2_count": 5,
+      "bitmap_bbox": [
+        0,
+        0,
+        4,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 9,
       "gba_glyph_id": 9,
       "hb_glyph_id": 53,
       "glyph_name": "uni0E47",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 4
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "bf42db42201b4d11986cee1ea5b2a1d176fc9ae58c7f947edaf5d62b609d31ba",
+      "production_bitmap_hash": "bf42db42201b4d11986cee1ea5b2a1d176fc9ae58c7f947edaf5d62b609d31ba",
+      "palette_index_1_count": 14,
+      "palette_index_2_count": 10,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        4
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 10,
       "gba_glyph_id": 10,
       "hb_glyph_id": 56,
       "glyph_name": "uni0E21",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "5c85269245dbf86cbcae1e0143cab9a1cf77bdb61bcb2772b68cce803289897e",
+      "production_bitmap_hash": "5c85269245dbf86cbcae1e0143cab9a1cf77bdb61bcb2772b68cce803289897e",
+      "palette_index_1_count": 34,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 11,
       "gba_glyph_id": 11,
       "hb_glyph_id": 59,
       "glyph_name": "uni0E4D",
       "variant": "normal",
-      "bitmap_width": 4,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "6390f55efc348c00b1c6cdc12c3787b8548b6deaa30f7b8237eca823189f8f58",
+      "production_bitmap_hash": "6390f55efc348c00b1c6cdc12c3787b8548b6deaa30f7b8237eca823189f8f58",
+      "palette_index_1_count": 10,
+      "palette_index_2_count": 8,
+      "bitmap_bbox": [
+        0,
+        0,
+        4,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 12,
       "gba_glyph_id": 12,
       "hb_glyph_id": 71,
       "glyph_name": "uni0E19",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "de0a84a63e82626e209dc398e18f371bb9e4d47238ad0be72a255bc7a0c1b8a5",
+      "production_bitmap_hash": "de0a84a63e82626e209dc398e18f371bb9e4d47238ad0be72a255bc7a0c1b8a5",
+      "palette_index_1_count": 34,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 13,
       "gba_glyph_id": 13,
       "hb_glyph_id": 72,
       "glyph_name": "uni0E2D",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "ad0ff3868967bbae27d3f3c727f720300ef0a7e6b772fe29e21fc0a73667c8da",
+      "production_bitmap_hash": "ad0ff3868967bbae27d3f3c727f720300ef0a7e6b772fe29e21fc0a73667c8da",
+      "palette_index_1_count": 34,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 14,
       "gba_glyph_id": 14,
       "hb_glyph_id": 78,
       "glyph_name": "uni0E1C",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "f521864944d47e34349400083dfd18933f2127aad4bbeddedd3b56b638774211",
+      "production_bitmap_hash": "f521864944d47e34349400083dfd18933f2127aad4bbeddedd3b56b638774211",
+      "palette_index_1_count": 31,
+      "palette_index_2_count": 21,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 15,
       "gba_glyph_id": 15,
       "hb_glyph_id": 80,
       "glyph_name": "uni0E1B",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 11
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "cf674c285c0f4959e4728fdad1035b461ea12137c06bf772582b5d0c153a22e0",
+      "production_bitmap_hash": "cf674c285c0f4959e4728fdad1035b461ea12137c06bf772582b5d0c153a22e0",
+      "palette_index_1_count": 40,
+      "palette_index_2_count": 22,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        11
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 16,
       "gba_glyph_id": 16,
       "hb_glyph_id": 81,
       "glyph_name": "uni0E23",
       "variant": "normal",
-      "bitmap_width": 6,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "41eb3fd349e2b2b96aa868098bb2efe6e9f66ed5b6211d53b2aa6d609929ee18",
+      "production_bitmap_hash": "41eb3fd349e2b2b96aa868098bb2efe6e9f66ed5b6211d53b2aa6d609929ee18",
+      "palette_index_1_count": 30,
+      "palette_index_2_count": 16,
+      "bitmap_bbox": [
+        0,
+        0,
+        6,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 17,
       "gba_glyph_id": 17,
       "hb_glyph_id": 86,
       "glyph_name": "uni0E32",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "0efb8c8d266ecf182dad9fac3e6d2df1c3b7895c9e577266307820f37b478bcb",
+      "production_bitmap_hash": "0efb8c8d266ecf182dad9fac3e6d2df1c3b7895c9e577266307820f37b478bcb",
+      "palette_index_1_count": 19,
+      "palette_index_2_count": 11,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 18,
       "gba_glyph_id": 18,
       "hb_glyph_id": 88,
       "glyph_name": "uni0E44",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 12
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "9b1b10bddd2412c34add8a68d145b1dacdb08f6459b63edf0285186d3821c841",
+      "production_bitmap_hash": "9b1b10bddd2412c34add8a68d145b1dacdb08f6459b63edf0285186d3821c841",
+      "palette_index_1_count": 28,
+      "palette_index_2_count": 15,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        12
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 19,
       "gba_glyph_id": 19,
       "hb_glyph_id": 91,
       "glyph_name": "uni0E40",
       "variant": "normal",
-      "bitmap_width": 3,
-      "bitmap_height": 8
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "5fbeca4012a71360f2eed88b0e79344ed34f0e4109c8d70cce2073c49d3300aa",
+      "production_bitmap_hash": "5fbeca4012a71360f2eed88b0e79344ed34f0e4109c8d70cce2073c49d3300aa",
+      "palette_index_1_count": 17,
+      "palette_index_2_count": 9,
+      "bitmap_bbox": [
+        0,
+        0,
+        3,
+        8
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 20,
       "gba_glyph_id": 20,
       "hb_glyph_id": 92,
       "glyph_name": "uni0E34",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 2
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "bb38262fe2aa1e5847b2381850c30da3d20c25a072f2ce89581940499885b5ec",
+      "production_bitmap_hash": "bb38262fe2aa1e5847b2381850c30da3d20c25a072f2ce89581940499885b5ec",
+      "palette_index_1_count": 14,
+      "palette_index_2_count": 8,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        2
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 21,
       "gba_glyph_id": 21,
       "hb_glyph_id": 94,
       "glyph_name": "uni0E35",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "a0f994b4ca23eca40db2c184f5814d771e6227c468a787e2770e362afcaf6707",
+      "production_bitmap_hash": "a0f994b4ca23eca40db2c184f5814d771e6227c468a787e2770e362afcaf6707",
+      "palette_index_1_count": 11,
+      "palette_index_2_count": 9,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 22,
       "gba_glyph_id": 22,
       "hb_glyph_id": 96,
       "glyph_name": "uni0E42",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 12
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "97222f4cc14b9a23adc6f38f17f405c0a05760ddcd35913672ebf1d739b076e1",
+      "production_bitmap_hash": "97222f4cc14b9a23adc6f38f17f405c0a05760ddcd35913672ebf1d739b076e1",
+      "palette_index_1_count": 27,
+      "palette_index_2_count": 14,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        12
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 23,
       "gba_glyph_id": 23,
       "hb_glyph_id": 97,
       "glyph_name": "uni0E38",
       "variant": "normal",
-      "bitmap_width": 2,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "dd7962373670319380b21ca22fa4ee1237cb20b9921f29485423fe4183b7009f",
+      "production_bitmap_hash": "dd7962373670319380b21ca22fa4ee1237cb20b9921f29485423fe4183b7009f",
+      "palette_index_1_count": 4,
+      "palette_index_2_count": 3,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 24,
       "gba_glyph_id": 24,
       "hb_glyph_id": 103,
       "glyph_name": "uni0E39",
       "variant": "normal",
-      "bitmap_width": 5,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "41c960980930714ca989e718ad5b9b98a807da05d7c156551a00c8c3fa6b21ac",
+      "production_bitmap_hash": "41c960980930714ca989e718ad5b9b98a807da05d7c156551a00c8c3fa6b21ac",
+      "palette_index_1_count": 11,
+      "palette_index_2_count": 7,
+      "bitmap_bbox": [
+        0,
+        0,
+        5,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 25,
       "gba_glyph_id": 25,
       "hb_glyph_id": 110,
       "glyph_name": "uni0E2A",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "5a5a4ff9daa681dee89fb67ea3d7ec172e5869b1627c29cb1ed71d81b9131835",
+      "production_bitmap_hash": "5a5a4ff9daa681dee89fb67ea3d7ec172e5869b1627c29cb1ed71d81b9131835",
+      "palette_index_1_count": 35,
+      "palette_index_2_count": 21,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 26,
       "gba_glyph_id": 26,
       "hb_glyph_id": 111,
       "glyph_name": "space",
       "variant": "normal",
-      "bitmap_width": 0,
-      "bitmap_height": 0
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "production_bitmap_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "palette_index_1_count": 0,
+      "palette_index_2_count": 0,
+      "bitmap_bbox": null,
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 27,
       "gba_glyph_id": 27,
       "hb_glyph_id": 112,
       "glyph_name": "uni0E4C",
       "variant": "normal",
-      "bitmap_width": 4,
-      "bitmap_height": 3
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "7729faa00ff194fe425fe4fc9741ddc41f77e7150cf72a40882b9d5e802b632d",
+      "production_bitmap_hash": "7729faa00ff194fe425fe4fc9741ddc41f77e7150cf72a40882b9d5e802b632d",
+      "palette_index_1_count": 10,
+      "palette_index_2_count": 6,
+      "bitmap_bbox": [
+        0,
+        0,
+        4,
+        3
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 28,
       "gba_glyph_id": 28,
       "hb_glyph_id": 121,
       "glyph_name": "uni0E16",
       "variant": "normal",
-      "bitmap_width": 7,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "3e3b4e3bd19fbb2e25caa5062517dcb9af5feff094e7b839507fee63e5c9aaf3",
+      "production_bitmap_hash": "3e3b4e3bd19fbb2e25caa5062517dcb9af5feff094e7b839507fee63e5c9aaf3",
+      "palette_index_1_count": 37,
+      "palette_index_2_count": 18,
+      "bitmap_bbox": [
+        0,
+        0,
+        7,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 29,
       "gba_glyph_id": 29,
       "hb_glyph_id": 134,
       "glyph_name": "uni0E27",
       "variant": "normal",
-      "bitmap_width": 6,
-      "bitmap_height": 9
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "1fbcd45c1cb2988b3b476fa95039bf235fe792e629bc452c30b673ab96f1ae09",
+      "production_bitmap_hash": "1fbcd45c1cb2988b3b476fa95039bf235fe792e629bc452c30b673ab96f1ae09",
+      "palette_index_1_count": 26,
+      "palette_index_2_count": 15,
+      "bitmap_bbox": [
+        0,
+        0,
+        6,
+        9
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 30,
       "gba_glyph_id": 30,
       "hb_glyph_id": 137,
       "glyph_name": "uni0E0D",
       "variant": "normal",
-      "bitmap_width": 11,
-      "bitmap_height": 11
+      "source_cluster_class": "normal",
+      "source_bitmap_hash": "569b85c2cead4f31bd97cd159dfb5048ba5490a6947c9de428977f4e41d77813",
+      "production_bitmap_hash": "569b85c2cead4f31bd97cd159dfb5048ba5490a6947c9de428977f4e41d77813",
+      "palette_index_1_count": 54,
+      "palette_index_2_count": 32,
+      "bitmap_bbox": [
+        0,
+        0,
+        11,
+        11
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
+      "compact_index": 31,
       "gba_glyph_id": 31,
-      "hb_glyph_id": 29,
-      "glyph_name": "uni0E01",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 2,
-      "bitmap_width": 7,
-      "bitmap_height": 8
-    },
-    {
-      "gba_glyph_id": 32,
-      "hb_glyph_id": 33,
-      "glyph_name": "uni0E25",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 3,
-      "bitmap_width": 7,
-      "bitmap_height": 9
-    },
-    {
-      "gba_glyph_id": 33,
       "hb_glyph_id": 71,
       "glyph_name": "uni0E19",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 12,
-      "bitmap_width": 7,
-      "bitmap_height": 8
+      "variant": "upper_clearance_2",
+      "source_cluster_class": "base",
+      "source_bitmap_hash": "de0a84a63e82626e209dc398e18f371bb9e4d47238ad0be72a255bc7a0c1b8a5",
+      "production_bitmap_hash": "3346d39fa09ca6b0f3d05a881114247f5b5fd4d8b24e1180191b20b40d689a24",
+      "palette_index_1_count": 34,
+      "palette_index_2_count": 19,
+      "bitmap_bbox": [
+        0,
+        2,
+        7,
+        10
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
-      "gba_glyph_id": 34,
-      "hb_glyph_id": 78,
-      "glyph_name": "uni0E1C",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 14,
-      "bitmap_width": 7,
-      "bitmap_height": 8
-    },
-    {
-      "gba_glyph_id": 35,
-      "hb_glyph_id": 80,
-      "glyph_name": "uni0E1B",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 15,
-      "bitmap_width": 7,
-      "bitmap_height": 11
-    },
-    {
-      "gba_glyph_id": 36,
+      "compact_index": 32,
+      "gba_glyph_id": 32,
       "hb_glyph_id": 81,
       "glyph_name": "uni0E23",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 16,
-      "bitmap_width": 6,
-      "bitmap_height": 9
+      "variant": "upper_clearance_2",
+      "source_cluster_class": "base",
+      "source_bitmap_hash": "41eb3fd349e2b2b96aa868098bb2efe6e9f66ed5b6211d53b2aa6d609929ee18",
+      "production_bitmap_hash": "482ce3f9b64740fbf3705bd02edc8fdcf2307e1770648414abe88f847545f848",
+      "palette_index_1_count": 30,
+      "palette_index_2_count": 16,
+      "bitmap_bbox": [
+        0,
+        2,
+        6,
+        11
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     },
     {
-      "gba_glyph_id": 37,
-      "hb_glyph_id": 110,
-      "glyph_name": "uni0E2A",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 25,
-      "bitmap_width": 7,
-      "bitmap_height": 9
-    },
-    {
-      "gba_glyph_id": 38,
-      "hb_glyph_id": 134,
-      "glyph_name": "uni0E27",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 29,
-      "bitmap_width": 6,
-      "bitmap_height": 9
-    },
-    {
-      "gba_glyph_id": 39,
+      "compact_index": 33,
+      "gba_glyph_id": 33,
       "hb_glyph_id": 137,
       "glyph_name": "uni0E0D",
-      "variant": "upper_clearance",
-      "source_gba_glyph_id": 30,
-      "bitmap_width": 11,
-      "bitmap_height": 11
+      "variant": "upper_clearance_2",
+      "source_cluster_class": "base",
+      "source_bitmap_hash": "569b85c2cead4f31bd97cd159dfb5048ba5490a6947c9de428977f4e41d77813",
+      "production_bitmap_hash": "82e0d3310c9f2be8bedcaa802a81f3430cb4173ebad913931c1784f01d044179",
+      "palette_index_1_count": 48,
+      "palette_index_2_count": 30,
+      "bitmap_bbox": [
+        0,
+        1,
+        11,
+        11
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
+    },
+    {
+      "compact_index": 34,
+      "gba_glyph_id": 34,
+      "hb_glyph_id": 94,
+      "glyph_name": "uni0E35",
+      "variant": "compact_upper_mark_high",
+      "source_cluster_class": "mark",
+      "source_bitmap_hash": "a0f994b4ca23eca40db2c184f5814d771e6227c468a787e2770e362afcaf6707",
+      "production_bitmap_hash": "6a06b60a82290495ff3e713d20ae53e154bedc1b26c272379304520ba5032dd9",
+      "palette_index_1_count": 2,
+      "palette_index_2_count": 8,
+      "bitmap_bbox": [
+        1,
+        0,
+        7,
+        1
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
+    },
+    {
+      "compact_index": 35,
+      "gba_glyph_id": 35,
+      "hb_glyph_id": 44,
+      "glyph_name": "uni0E48.small",
+      "variant": "compact_tone",
+      "source_cluster_class": "mark",
+      "source_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "production_bitmap_hash": "d7a586f57fd1b1fac42ba04941eaf5f1c551bd8836645541189c354cc27d12b9",
+      "palette_index_1_count": 4,
+      "palette_index_2_count": 3,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
+    },
+    {
+      "compact_index": 36,
+      "gba_glyph_id": 36,
+      "hb_glyph_id": 44,
+      "glyph_name": "uni0E48.small",
+      "variant": "compact_tone_high",
+      "source_cluster_class": "mark",
+      "source_bitmap_hash": "d1fb0e764a6c0daa7877afa02c8dc4fb013f5533fbcf653591cd840263c9beb8",
+      "production_bitmap_hash": "20763d1ffca51eed52ee231c057f63337fc09c349efcd85258f99cf5a846c22f",
+      "palette_index_1_count": 2,
+      "palette_index_2_count": 3,
+      "bitmap_bbox": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
+    },
+    {
+      "compact_index": 37,
+      "gba_glyph_id": 37,
+      "hb_glyph_id": 49,
+      "glyph_name": "uni0E49.small",
+      "variant": "compact_tone_high",
+      "source_cluster_class": "mark",
+      "source_bitmap_hash": "d240bb1cfd22b4c2b84d9b266bf5eff301b2e495fa44bd4684a077c87d95c280",
+      "production_bitmap_hash": "faf0fe8e4abbf1ce9ac6dae6d90d8cf3b6603bff81731c8fe113a81b17785e0e",
+      "palette_index_1_count": 1,
+      "palette_index_2_count": 5,
+      "bitmap_bbox": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "baseline": 12,
+      "contextual_shift_x": 0,
+      "contextual_shift_y": 0
     }
   ]
 }
