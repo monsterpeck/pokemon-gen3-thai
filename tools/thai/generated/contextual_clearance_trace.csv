@@ -1,0 +1,38 @@
+input_text,cluster,unicode_sequence,glyph_id,glyph_name,base_variant,cluster_has_upper_marks,original_compact_index,selected_compact_index,x_offset,y_offset,x_advance,main_pixel_count_index_1,shadow_pixel_count_index_2
+เรม,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,4,17,9
+เรม,ร,U+0E23,81,uni0E23,normal,False,16,16,1,-8,7,30,16
+เรม,ม,U+0E21,56,uni0E21,normal,False,10,10,1,-8,8,34,19
+เริ่ม,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,4,17,9
+เริ่ม,ริ่,U+0E23 U+0E34 U+0E48,81,uni0E23,upper_clearance,True,16,36,1,-8,7,30,16
+เริ่ม,ริ่,U+0E23 U+0E34 U+0E48,92,uni0E34,normal,True,20,20,-7,-10,0,14,8
+เริ่ม,ริ่,U+0E23 U+0E34 U+0E48,44,uni0E48.small,normal,True,6,6,-2,-13,0,6,4
+เริ่ม,ม,U+0E21,56,uni0E21,normal,False,10,10,1,-8,8,34,19
+เกมส์,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,4,17,9
+เกมส์,ก,U+0E01,29,uni0E01,normal,False,2,2,1,-8,9,33,19
+เกมส์,ม,U+0E21,56,uni0E21,normal,False,10,10,1,-8,8,34,19
+เกมส์,ส์,U+0E2A U+0E4C,110,uni0E2A,upper_clearance,True,25,37,1,-8,8,35,21
+เกมส์,ส์,U+0E2A U+0E4C,112,uni0E4C,normal,True,27,27,-4,-11,0,10,6
+เริ่มเกมส์,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,4,17,9
+เริ่มเกมส์,ริ่,U+0E23 U+0E34 U+0E48,81,uni0E23,upper_clearance,True,16,36,1,-8,7,30,16
+เริ่มเกมส์,ริ่,U+0E23 U+0E34 U+0E48,92,uni0E34,normal,True,20,20,-7,-10,0,14,8
+เริ่มเกมส์,ริ่,U+0E23 U+0E34 U+0E48,44,uni0E48.small,normal,True,6,6,-2,-13,0,6,4
+เริ่มเกมส์,ม,U+0E21,56,uni0E21,normal,False,10,10,1,-8,8,34,19
+เริ่มเกมส์,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,5,17,9
+เริ่มเกมส์,ก,U+0E01,29,uni0E01,normal,False,2,2,1,-8,8,33,19
+เริ่มเกมส์,ม,U+0E21,56,uni0E21,normal,False,10,10,1,-8,9,34,19
+เริ่มเกมส์,ส์,U+0E2A U+0E4C,110,uni0E2A,upper_clearance,True,25,37,1,-8,8,35,21
+เริ่มเกมส์,ส์,U+0E2A U+0E4C,112,uni0E4C,normal,True,27,27,-4,-11,0,10,6
+ผู้เล่น,ผู้,U+0E1C U+0E39 U+0E49,78,uni0E1C,upper_clearance,True,14,34,1,-8,9,31,21
+ผู้เล่น,ผู้,U+0E1C U+0E39 U+0E49,103,uni0E39,normal,True,24,24,-5,1,0,11,7
+ผู้เล่น,ผู้,U+0E1C U+0E39 U+0E49,47,uni0E49,normal,True,7,7,-5,-12,0,10,6
+ผู้เล่น,เ,U+0E40,91,uni0E40,normal,False,19,19,1,-8,4,17,9
+ผู้เล่น,ล่,U+0E25 U+0E48,33,uni0E25,upper_clearance,True,3,32,1,-8,8,38,18
+ผู้เล่น,ล่,U+0E25 U+0E48,42,uni0E48,normal,True,4,4,-3,-12,0,6,4
+ผู้เล่น,น,U+0E19,71,uni0E19,normal,False,12,12,1,-8,9,34,19
+ญี่ปุ่น,ญี่,U+0E0D U+0E35 U+0E48,137,uni0E0D,upper_clearance,True,30,39,1,-8,13,54,32
+ญี่ปุ่น,ญี่,U+0E0D U+0E35 U+0E48,94,uni0E35,normal,True,21,21,-7,-11,0,11,9
+ญี่ปุ่น,ญี่,U+0E0D U+0E35 U+0E48,44,uni0E48.small,normal,True,6,6,-3,-14,0,6,4
+ญี่ปุ่น,ปุ่,U+0E1B U+0E38 U+0E48,80,uni0E1B,upper_clearance,True,15,35,1,-11,8,40,22
+ญี่ปุ่น,ปุ่,U+0E1B U+0E38 U+0E48,97,uni0E38,normal,True,23,23,-3,1,0,4,3
+ญี่ปุ่น,ปุ่,U+0E1B U+0E38 U+0E48,43,uni0E48.narrow,normal,True,5,5,-5,-12,0,6,4
+ญี่ปุ่น,น,U+0E19,71,uni0E19,normal,False,12,12,1,-8,9,34,19

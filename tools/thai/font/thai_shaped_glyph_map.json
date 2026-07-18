@@ -1,0 +1,384 @@
+{
+  "format_version": 2,
+  "font_sha256": "404ddfb5ed0aaa6b6ec8a85700d682978992062d67da93903967b56cbd9a4acc",
+  "units_per_em": 1000,
+  "scale": 0.014,
+  "command_begin": 252,
+  "command_id": 25,
+  "command_size": 8,
+  "hb_to_gba": {
+    "5": 0,
+    "26": 1,
+    "29": 2,
+    "33": 3,
+    "42": 4,
+    "43": 5,
+    "44": 6,
+    "47": 7,
+    "49": 8,
+    "53": 9,
+    "56": 10,
+    "59": 11,
+    "71": 12,
+    "72": 13,
+    "78": 14,
+    "80": 15,
+    "81": 16,
+    "86": 17,
+    "88": 18,
+    "91": 19,
+    "92": 20,
+    "94": 21,
+    "96": 22,
+    "97": 23,
+    "103": 24,
+    "110": 25,
+    "111": 26,
+    "112": 27,
+    "121": 28,
+    "134": 29,
+    "137": 30
+  },
+  "upper_clearance_hb_to_gba": {
+    "29": 31,
+    "33": 32,
+    "71": 33,
+    "78": 34,
+    "80": 35,
+    "81": 36,
+    "110": 37,
+    "134": 38,
+    "137": 39
+  },
+  "glyphs": [
+    {
+      "gba_glyph_id": 0,
+      "hb_glyph_id": 5,
+      "glyph_name": "uni0E1A",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 1,
+      "hb_glyph_id": 26,
+      "glyph_name": "uni0E04",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 2,
+      "hb_glyph_id": 29,
+      "glyph_name": "uni0E01",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 3,
+      "hb_glyph_id": 33,
+      "glyph_name": "uni0E25",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 4,
+      "hb_glyph_id": 42,
+      "glyph_name": "uni0E48",
+      "variant": "normal",
+      "bitmap_width": 2,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 5,
+      "hb_glyph_id": 43,
+      "glyph_name": "uni0E48.narrow",
+      "variant": "normal",
+      "bitmap_width": 2,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 6,
+      "hb_glyph_id": 44,
+      "glyph_name": "uni0E48.small",
+      "variant": "normal",
+      "bitmap_width": 2,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 7,
+      "hb_glyph_id": 47,
+      "glyph_name": "uni0E49",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 8,
+      "hb_glyph_id": 49,
+      "glyph_name": "uni0E49.small",
+      "variant": "normal",
+      "bitmap_width": 4,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 9,
+      "hb_glyph_id": 53,
+      "glyph_name": "uni0E47",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 4
+    },
+    {
+      "gba_glyph_id": 10,
+      "hb_glyph_id": 56,
+      "glyph_name": "uni0E21",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 11,
+      "hb_glyph_id": 59,
+      "glyph_name": "uni0E4D",
+      "variant": "normal",
+      "bitmap_width": 4,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 12,
+      "hb_glyph_id": 71,
+      "glyph_name": "uni0E19",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 13,
+      "hb_glyph_id": 72,
+      "glyph_name": "uni0E2D",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 14,
+      "hb_glyph_id": 78,
+      "glyph_name": "uni0E1C",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 15,
+      "hb_glyph_id": 80,
+      "glyph_name": "uni0E1B",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 11
+    },
+    {
+      "gba_glyph_id": 16,
+      "hb_glyph_id": 81,
+      "glyph_name": "uni0E23",
+      "variant": "normal",
+      "bitmap_width": 6,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 17,
+      "hb_glyph_id": 86,
+      "glyph_name": "uni0E32",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 18,
+      "hb_glyph_id": 88,
+      "glyph_name": "uni0E44",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 12
+    },
+    {
+      "gba_glyph_id": 19,
+      "hb_glyph_id": 91,
+      "glyph_name": "uni0E40",
+      "variant": "normal",
+      "bitmap_width": 3,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 20,
+      "hb_glyph_id": 92,
+      "glyph_name": "uni0E34",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 2
+    },
+    {
+      "gba_glyph_id": 21,
+      "hb_glyph_id": 94,
+      "glyph_name": "uni0E35",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 22,
+      "hb_glyph_id": 96,
+      "glyph_name": "uni0E42",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 12
+    },
+    {
+      "gba_glyph_id": 23,
+      "hb_glyph_id": 97,
+      "glyph_name": "uni0E38",
+      "variant": "normal",
+      "bitmap_width": 2,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 24,
+      "hb_glyph_id": 103,
+      "glyph_name": "uni0E39",
+      "variant": "normal",
+      "bitmap_width": 5,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 25,
+      "hb_glyph_id": 110,
+      "glyph_name": "uni0E2A",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 26,
+      "hb_glyph_id": 111,
+      "glyph_name": "space",
+      "variant": "normal",
+      "bitmap_width": 0,
+      "bitmap_height": 0
+    },
+    {
+      "gba_glyph_id": 27,
+      "hb_glyph_id": 112,
+      "glyph_name": "uni0E4C",
+      "variant": "normal",
+      "bitmap_width": 4,
+      "bitmap_height": 3
+    },
+    {
+      "gba_glyph_id": 28,
+      "hb_glyph_id": 121,
+      "glyph_name": "uni0E16",
+      "variant": "normal",
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 29,
+      "hb_glyph_id": 134,
+      "glyph_name": "uni0E27",
+      "variant": "normal",
+      "bitmap_width": 6,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 30,
+      "hb_glyph_id": 137,
+      "glyph_name": "uni0E0D",
+      "variant": "normal",
+      "bitmap_width": 11,
+      "bitmap_height": 11
+    },
+    {
+      "gba_glyph_id": 31,
+      "hb_glyph_id": 29,
+      "glyph_name": "uni0E01",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 2,
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 32,
+      "hb_glyph_id": 33,
+      "glyph_name": "uni0E25",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 3,
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 33,
+      "hb_glyph_id": 71,
+      "glyph_name": "uni0E19",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 12,
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 34,
+      "hb_glyph_id": 78,
+      "glyph_name": "uni0E1C",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 14,
+      "bitmap_width": 7,
+      "bitmap_height": 8
+    },
+    {
+      "gba_glyph_id": 35,
+      "hb_glyph_id": 80,
+      "glyph_name": "uni0E1B",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 15,
+      "bitmap_width": 7,
+      "bitmap_height": 11
+    },
+    {
+      "gba_glyph_id": 36,
+      "hb_glyph_id": 81,
+      "glyph_name": "uni0E23",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 16,
+      "bitmap_width": 6,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 37,
+      "hb_glyph_id": 110,
+      "glyph_name": "uni0E2A",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 25,
+      "bitmap_width": 7,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 38,
+      "hb_glyph_id": 134,
+      "glyph_name": "uni0E27",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 29,
+      "bitmap_width": 6,
+      "bitmap_height": 9
+    },
+    {
+      "gba_glyph_id": 39,
+      "hb_glyph_id": 137,
+      "glyph_name": "uni0E0D",
+      "variant": "upper_clearance",
+      "source_gba_glyph_id": 30,
+      "bitmap_width": 11,
+      "bitmap_height": 11
+    }
+  ]
+}

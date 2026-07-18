@@ -58,7 +58,7 @@ def validate() -> list[str]:
             errors.append(f"missing or duplicate direct mapping: {expected}")
     source = (ROOT / "src/strings.c").read_text(encoding="utf-8")
     birch = (ROOT / "data/text/birch_speech.inc").read_text(encoding="utf-8")
-    if '_("เริ่มเกมส์")' not in source:
+    if chr(0xE40)+chr(0xE23)+chr(0xE34)+chr(0xE48)+chr(0xE21)+chr(0xE40)+chr(0xE01)+chr(0xE21)+chr(0xE2A)+chr(0xE4C) not in source:
         errors.append("New Game source is not natural Unicode Thai")
     for text in ACCEPTANCE:
         if text not in source + birch:

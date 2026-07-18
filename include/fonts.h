@@ -2,6 +2,8 @@
 #define GUARD_FONTS_H
 
 extern const u16 gFontNormalLatinGlyphs[];
+extern const u16 gFontThaiShapedGlyphs[];
+extern const u16 gFontThaiShapedGlyphCount;
 extern const u8 gFontNormalLatinGlyphWidths[];
 extern const u16 gFontNormalJapaneseGlyphs[];
 extern const u16 gFontSmallLatinGlyphs[];

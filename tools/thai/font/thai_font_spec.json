@@ -1,0 +1,80 @@
+{
+    "source_font_family":  "Noto Sans Thai",
+    "source_font_style":  "Regular",
+    "source_font_file":  "NotoSansThai-Regular.ttf",
+    "source_font_url":  "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansThai/NotoSansThai-Regular.ttf",
+    "source_font_sha256":  "404ddfb5ed0aaa6b6ec8a85700d682978992062d67da93903967b56cbd9a4acc",
+    "source_license":  "SIL Open Font License 1.1",
+    "license_url":  "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansthai/OFL.txt",
+    "target_cell_width":  16,
+    "target_cell_height":  16,
+    "target_baseline":  12,
+    "top_mark_zone":  [
+                          0,
+                          2
+                      ],
+    "upper_vowel_zone":  [
+                             2,
+                             5
+                         ],
+    "base_consonant_zone":  [
+                                3,
+                                13
+                            ],
+    "lower_vowel_zone":  [
+                             13,
+                             15
+                         ],
+    "left_safe_margin":  1,
+    "right_safe_margin":  1,
+    "logical_scale":  0.014,
+    "font_size_pixels":  14,
+    "oversample":  8,
+    "rasterization_threshold":  0.35,
+    "shadow_generation_rule":  "one-pixel down-right shadow index 1 behind foreground index 2",
+    "allowed_indexed_palette_entries":  [
+                                            0,
+                                            1,
+                                            2
+                                        ],
+    "palette_rgb":  [
+                        [
+                            144,
+                            200,
+                            255
+                        ],
+                        [
+                            56,
+                            56,
+                            56
+                        ],
+                        [
+                            216,
+                            216,
+                            216
+                        ],
+                        [
+                            255,
+                            255,
+                            255
+                        ]
+                    ],
+    "class_baseline_y":  {
+                             "base":  12,
+                             "leading":  14,
+                             "spacing":  12,
+                             "upper":  14,
+                             "lower":  7,
+                             "tone":  17,
+                             "punctuation":  12
+                         },
+    "class_origin_x":  {
+                           "base":  1,
+                           "leading":  2,
+                           "spacing":  7,
+                           "upper":  11,
+                           "lower":  11,
+                           "tone":  11,
+                           "punctuation":  1
+                       }
+}

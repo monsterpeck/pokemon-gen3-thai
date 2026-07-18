@@ -230,6 +230,7 @@
 #define EXT_CTRL_CODE_ENG                    0x16
 #define EXT_CTRL_CODE_PAUSE_MUSIC            0x17
 #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
+#define EXT_CTRL_CODE_THAI_POSITIONED_GLYPH  0x19 // u16 glyph, s8 x/y offset, u8 advance, u8 flags
 
 #define TEXT_COLOR_TRANSPARENT  0x0
 #define TEXT_COLOR_WHITE        0x1

@@ -39,6 +39,8 @@ static void ResetThaiTextState(struct TextPrinter *);
 static void DecompressGlyphForPrinter(struct TextPrinter *, u8, u16);
 static void AdvanceCurrentGlyph(struct TextPrinter *);
 static bool32 RenderThaiGlyph(struct TextPrinter *, u8, u16);
+static void DecompressThaiShapedGlyph(u16);
+static u16 RenderThaiPositionedGlyph(struct TextPrinter *);
 
 static EWRAM_DATA struct TextPrinter sTempTextPrinter = {0};
 static EWRAM_DATA struct TextPrinter sTextPrinters[WINDOWS_MAX] = {0};
@@ -1124,6 +1126,49 @@ static bool32 RenderThaiGlyph(struct TextPrinter *textPrinter, u8 fontId, u16 gl
     return TRUE;
 }
 
+static void DecompressThaiShapedGlyph(u16 glyphId)
+{
+    const u16 *glyphs = gFontThaiShapedGlyphs + (0x20 * glyphId);
+
+    DecompressGlyphTile(glyphs, gCurGlyph.gfxBufferTop);
+    DecompressGlyphTile(glyphs + 0x8, gCurGlyph.gfxBufferTop + 8);
+    DecompressGlyphTile(glyphs + 0x10, gCurGlyph.gfxBufferBottom);
+    DecompressGlyphTile(glyphs + 0x18, gCurGlyph.gfxBufferBottom + 8);
+    gCurGlyph.width = 16;
+    gCurGlyph.height = 16;
+}
+
+static u16 RenderThaiPositionedGlyph(struct TextPrinter *textPrinter)
+{
+    const u8 *payload = textPrinter->printerTemplate.currentChar;
+    u8 savedX = textPrinter->printerTemplate.currentX;
+    u8 savedY = textPrinter->printerTemplate.currentY;
+    u16 glyphId = payload[0] | (payload[1] << 8);
+    s16 drawX = (s16)textPrinter->printerTemplate.currentX + (s8)payload[2];
+    s16 drawY = (s16)textPrinter->printerTemplate.currentY + 12 + (s8)payload[3];
+    u8 advance = payload[4];
+
+    textPrinter->printerTemplate.currentChar += 6;
+    if (glyphId >= gFontThaiShapedGlyphCount)
+        return RENDER_REPEAT;
+
+    DecompressThaiShapedGlyph(glyphId);
+    if (drawX < 0)
+        drawX = 0;
+    if (drawY < 0)
+        drawY = 0;
+    if (drawX > 255)
+        drawX = 255;
+    if (drawY > 255)
+        drawY = 255;
+
+    textPrinter->printerTemplate.currentX = drawX;
+    textPrinter->printerTemplate.currentY = drawY;
+    CopyGlyphToWindow(textPrinter);
+    textPrinter->printerTemplate.currentX = savedX + advance;
+    textPrinter->printerTemplate.currentY = savedY;
+    return RENDER_PRINT;
+}
 static u16 RenderText(struct TextPrinter *textPrinter)
 {
     struct TextPrinterSubStruct *subStruct = (struct TextPrinterSubStruct *)(&textPrinter->subStructFields);
@@ -1172,6 +1217,8 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->printerTemplate.currentChar++;
             switch (currChar)
             {
+            case EXT_CTRL_CODE_THAI_POSITIONED_GLYPH:
+                return RenderThaiPositionedGlyph(textPrinter);
             case EXT_CTRL_CODE_COLOR:
                 textPrinter->printerTemplate.fgColor = *textPrinter->printerTemplate.currentChar;
                 textPrinter->printerTemplate.currentChar++;
@@ -1419,6 +1466,9 @@ static u32 UNUSED GetStringWidthFixedWidthFont(const u8 *str, u8 fontId, u8 lett
             temp2 = strLocal[strPos++];
             switch (temp2)
             {
+            case EXT_CTRL_CODE_THAI_POSITIONED_GLYPH:
+                strPos += 6;
+                break;
             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
                 ++strPos;
             case EXT_CTRL_CODE_PLAY_BGM:
@@ -1563,6 +1613,10 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case EXT_CTRL_CODE_BEGIN:
             switch (*++str)
             {
+            case EXT_CTRL_CODE_THAI_POSITIONED_GLYPH:
+                lineWidth += str[5];
+                str += 6;
+                break;
             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
                 ++str;
             case EXT_CTRL_CODE_PLAY_BGM:
@@ -1696,6 +1750,9 @@ u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str)
             temp2 = strLocal[strPos++];
             switch (temp2)
             {
+            case EXT_CTRL_CODE_THAI_POSITIONED_GLYPH:
+                strPos += 6;
+                break;
             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
                 fgColor = strLocal[strPos++];
                 bgColor = strLocal[strPos++];

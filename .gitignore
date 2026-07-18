@@ -48,6 +48,12 @@ prefabs.json
 # Thai font toolkit generated files
 tools/thai/generated/*
 !tools/thai/generated/toolchain_report.md
+!tools/thai/generated/thai_font_engineering_report.md
+!tools/thai/generated/thai_proof_pipeline_report.md
+!tools/thai/generated/thai_build_time_shaping_report.md
 tools/thai/glyph_*_preview.png
 tools/thai/__pycache__/
 tools/thai/tests/__pycache__/
+
+# Noto Thai font engineering cache
+tools/thai/cache/

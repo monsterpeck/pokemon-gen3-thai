@@ -1,9 +1,6 @@
 # Thai localization toolchain
 
-Production Thai text uses literal, single-codepoint Unicode mappings and the
-combining-mark layer in `src/text.c`. Translators write ordinary Thai inside
-`_()` strings. The longest-match/precomposed workflow is obsolete and retained
-only as recovery evidence.
+Production Thai text remains ordinary Unicode in source and is shaped by HarfBuzz during the build. The compiler stream contains explicit positioned-glyph commands consumed by a small renderer decoder; the GBA performs no Thai grammatical shaping. The former runtime combining layer remains only as recovery compatibility code and is not used by build-time-shaped source strings.
 
 ## Canonical production sources
 
@@ -48,17 +45,11 @@ make -j$(nproc)
 `make thai-font` regenerates runtime metadata before rebuilding font outputs.
 `make check-thai-font` fails if generated metadata or font outputs are stale.
 
-## Renderer behavior
+## Build-time shaping and renderer behavior
 
-The renderer tracks the most recent Thai base and its explicit metrics. Upper
-and lower vowels, tone marks, thanthakhat, and nikhahit draw relative to that
-base with zero logical advance. Sara-am composes nikhahit plus spacing sara-aa.
-State resets at spaces, newlines, positioning/control boundaries, font changes,
-non-Thai spacing glyphs, printer resets, and end-of-string. An invalid standalone
-combining mark remains visible and advances by `THAI_FALLBACK_MARK_ADVANCE`.
+`shape_thai_text.py` runs before the existing C and assembly text preprocessor. It shapes Thai runs with the pinned Noto font, maps exact HarfBuzz glyph IDs through `font/thai_shaped_glyph_map.json`, and emits `FC 19` positioned-glyph commands. `RenderThaiPositionedGlyph` draws the mapped bitmap at its encoded signed offset and advances only by the encoded advance. Spaces, newlines, controls, colors, shadows, printer speed, and non-Thai paths retain their existing behavior.
 
-English and Japanese continue through the original renderer paths. Thai handling
-activates only for registered Thai glyph IDs in `FONT_NORMAL` English-mode text.
+Run `make thai-noto-font`, `make test-thai-shaped-text`, and the normal ROM build. A missing shaped glyph mapping fails the build. The Professor Birch opening screen contains the six controlled acceptance strings; visual completion still requires an mGBA screenshot.
 
 ## Obsolete recovery workflows
 
@@ -68,3 +59,8 @@ see `archive/experimental/README.md` and `archive/precomposed/tests/`. Do not us
 precomposed word/cluster tokens for normal Thai translation.
 
 New vowel and mark artwork remains draft until reviewed in an emulator screenshot.
+## Noto Sans Thai font-engineering proofs
+
+The candidate-only engineering pipeline uses Noto Sans Thai Regular from the official Noto Fonts repository. The exact source URL and SHA-256 are pinned in `font/thai_font_spec.json`; the cached TTF is intentionally ignored by Git. `licenses/OFL-NotoSansThai.txt` preserves the SIL Open Font License 1.1 text.
+
+Run `make thai-noto-font`, `make check-thai-noto-font`, and `make thai-noto-proof`. These commands create derivative 16x16 indexed proof tiles, OpenType metric/anchor evidence, a HarfBuzz shaping trace, and comparison images under `tools/thai/generated/`. They do not install or replace any game font glyph. The derivatives remain candidates pending pixel review and in-game screenshot acceptance.
