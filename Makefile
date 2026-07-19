@@ -391,7 +391,27 @@ $(ROM): $(ELF)
 $(SYM): $(ELF)
 	$(OBJDUMP) -t $< | sort -u | grep -E "^0[2389]" | $(PERL) -p -e 's/^(\w{8}) (\w).{6} \S+\t(\w{8}) (\S+)$$/\1 \2 \3 \4/g' > $@
 
-.PHONY: thai-font check-thai-font test-thai-toolchain thai-review-sheet check-thai-review-sheet import-thai-review-sheet test-thai-menu
+.PHONY: thai-font check-thai-font test-thai-toolchain thai-review-sheet check-thai-review-sheet import-thai-review-sheet test-thai-menu extract-dialogue check-dialogue test-dialogue-extraction
+
+extract-dialogue:
+	python3 -B tools/thai/extract_dialogue.py
+
+check-dialogue:
+	python3 -B tools/thai/extract_dialogue.py --check
+
+test-dialogue-extraction:
+	python3 -B -m unittest tools.thai.tests.test_dialogue_extraction -v
+
+.PHONY: build-story-scope check-story-scope test-story-scope
+
+build-story-scope:
+	python3 -B tools/thai/build_story_scope.py
+
+check-story-scope:
+	python3 -B tools/thai/validate_story_scope.py
+
+test-story-scope:
+	python3 -B -m unittest tools.thai.tests.test_story_scope_and_chronology -v
 
 thai-font:
 	python3 -B tools/thai/generate_thai_metadata.py

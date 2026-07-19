@@ -1,0 +1,59 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_d918d79168cfccf1,167,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,1,Archie,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,483,MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo,"ARCHIE: TEAM MAGMA's MAXIE got ahead\nof us, but we also got what we wanted.\pThe RED ORB preserved at MT. PYRE…\nI, ARCHIE, now have it in my possession!\pFufufu… Now we can bring our ultimate\nobjective to fruition!\pOkay, TEAM!\nWe're pulling out!$","ARCHIE: TEAM MAGMA's MAXIE got ahead
+of us, but we also got what we wanted.
+[PAGE]
+The RED ORB preserved at MT. PYRE…
+I, ARCHIE, now have it in my possession!
+[PAGE]
+Fufufu… Now we can bring our ultimate
+objective to fruition!
+[PAGE]
+Okay, TEAM!
+We're pulling out!",,untranslated,\n | \p | \n | \pF | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e6adbb836d10aa0,168,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,2,,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,493,MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis,"Oh, no…\nThis cannot happen…\pNot only the BLUE ORB, but even\nthe RED ORB has been taken…\pThe BLUE ORB and RED ORB must never\nbe separated. They belong together.\pWhat are those men trying to do with\nthe two ORBS?\p… … … … … …\n… … … … … …\pOh, yes. Was it TEAM MAGMA who came\nand took the BLUE ORB first?\pWell, in their haste, they left this\nbehind.\pI couldn't imagine what exactly it\ncould be.\pI would like you to have it.\nPerhaps it will be useful in some way.$","Oh, no…
+This cannot happen…
+[PAGE]
+Not only the BLUE ORB, but even
+the RED ORB has been taken…
+[PAGE]
+The BLUE ORB and RED ORB must never
+be separated. They belong together.
+[PAGE]
+What are those men trying to do with
+the two ORBS?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Oh, yes. Was it TEAM MAGMA who came
+and took the BLUE ORB first?
+[PAGE]
+Well, in their haste, they left this
+behind.
+[PAGE]
+I couldn't imagine what exactly it
+could be.
+[PAGE]
+I would like you to have it.
+Perhaps it will be useful in some way.",,untranslated,\n | \p | \n | \p | \nbe | \p | \n | \p | \n | \p | \na | \p | \nbe | \p | \nc | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_735f1ef23f4ce480,169,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,3,,MtPyre_Summit_EventScript_OldLadyOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,533,MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs,The two men who took the ORBS came\nback to return them on their own.\pThose men…\nPerhaps they are not so evil after all…$,"The two men who took the ORBS came
+back to return them on their own.
+[PAGE]
+Those men…
+Perhaps they are not so evil after all…",,untranslated,\nba | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_99952122a38c4d6b,170,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,4,,MtPyre_Summit_EventScript_OldLadyAfterOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,539,MtPyre_Summit_Text_SuperAncientPokemonTaughtUs,"The embodiments of the land, sea,\nand the sky…\pThat is said to be the identities of\nthe super-ancient POKéMON…\pIn the same way that we humans and\nPOKéMON have life, our world, too,\lis alive…\pThe super-ancient POKéMON have\ntaught us that…$","The embodiments of the land, sea,
+and the sky…
+[PAGE]
+That is said to be the identities of
+the super-ancient POKéMON…
+[PAGE]
+In the same way that we humans and
+POKéMON have life, our world, too,
+is alive…
+[PAGE]
+The super-ancient POKéMON have
+taught us that…",,untranslated,\na | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e5b724b2524196f4,171,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,5,Maxie,MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs,data/maps/MtPyre_Summit/scripts.inc,585,MtPyre_Summit_Text_MaxieSilence,MAXIE: {PLAYER}…\p… … … … … …\n… … … … … …$,"MAXIE: {PLAYER}…
+[PAGE]
+… … … … … …
+… … … … … …",,untranslated,{PLAYER} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

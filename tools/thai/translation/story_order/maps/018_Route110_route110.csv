@@ -1,0 +1,44 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_28a099c0293fe293,102,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,1,May,Route110_EventScript_MayBattle,data/maps/Route110/scripts.inc,756,Route110_Text_MayLetsBattle,"MAY: Hi, {PLAYER}{KUN}, long time no see!\pWhile I was searching for other\nPOKéMON, my POKéMON grew stronger.\pSo…\nHow about a little battle?$","MAY: Hi, {PLAYER}{KUN}, long time no see!
+[PAGE]
+While I was searching for other
+POKéMON, my POKéMON grew stronger.
+[PAGE]
+So…
+How about a little battle?",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_1d20082a3ecc7ddc,103,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,2,May,Route110_EventScript_MayDefeated,data/maps/Route110/scripts.inc,767,Route110_Text_MayTakeThis,"MAY: {PLAYER}{KUN}, you've been busy\ntraining, too, haven't you?\pI think you deserve a reward!\nThis is from me!$","MAY: {PLAYER}{KUN}, you've been busy
+training, too, haven't you?
+[PAGE]
+I think you deserve a reward!
+This is from me!",,untranslated,{PLAYER} | {KUN} | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_871ba96348530430,104,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,3,May,Route110_EventScript_MayDefeated,data/maps/Route110/scripts.inc,773,Route110_Text_MayExplainItemfinder,"MAY: That's an ITEMFINDER.\pTry it out. If there is an item that's\nnot visible, it emits a sound.\pOkay, {PLAYER}{KUN}, let's meet again!\pI know it's a little silly coming from\nme, but I think you should train a lot\lharder for the next time.$","MAY: That's an ITEMFINDER.
+[PAGE]
+Try it out. If there is an item that's
+not visible, it emits a sound.
+[PAGE]
+Okay, {PLAYER}{KUN}, let's meet again!
+[PAGE]
+I know it's a little silly coming from
+me, but I think you should train a lot
+harder for the next time.",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fd31a8d537ec357f,105,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,4,Brendan,Route110_EventScript_BrendanBattle,data/maps/Route110/scripts.inc,782,Route110_Text_BrendanLetsBattle,"BRENDAN: Hey, {PLAYER}.\nSo this is where you were.\lHow's it going?\pHave you been raising your POKéMON?\nI'll check for you.$","BRENDAN: Hey, {PLAYER}.
+So this is where you were.
+How's it going?
+[PAGE]
+Have you been raising your POKéMON?
+I'll check for you.",,untranslated,{PLAYER} | \n | \l | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d3ccced86c75df3a,106,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,5,Brendan,Route110_EventScript_BrendanDefeated,data/maps/Route110/scripts.inc,793,Route110_Text_BrendanTakeThis,"BRENDAN: {PLAYER}, you've trained\nwithout me noticing…\pGood enough!\nHere, take this.$","BRENDAN: {PLAYER}, you've trained
+without me noticing…
+[PAGE]
+Good enough!
+Here, take this.",,untranslated,{PLAYER} | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d281b79c13882f2a,107,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,19,route110_rival,Route 110 rival,,19,Route110,route110,Route110,6,Brendan,Route110_EventScript_BrendanDefeated,data/maps/Route110/scripts.inc,799,Route110_Text_BrendanExplainItemfinder,"BRENDAN: That's an ITEMFINDER.\pUse it to root around for items that\naren't visible.\pIf it senses something, it emits\na sound.\pAnyway, I'm off to look for new\nPOKéMON.$","BRENDAN: That's an ITEMFINDER.
+[PAGE]
+Use it to root around for items that
+aren't visible.
+[PAGE]
+If it senses something, it emits
+a sound.
+[PAGE]
+Anyway, I'm off to look for new
+POKéMON.",,untranslated,\p | \na | \p | \na | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

@@ -1,0 +1,62 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_a1cf42cc4332f130,12,02,littleroot,Littleroot,ลิตเติลรูต,4,rival_intro,Rival introduction,,4,LittlerootTown_BrendansHouse_1F,rival_intro,LittlerootTown BrendansHouse 1F,1,Brendan,LittlerootTown_BrendansHouse_1F_EventScript_MeetRival,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc,381,RivalsHouse_1F_Text_BrendanWhoAreYou,"Hey!\nYou…\pWho are you?\pOh, you're {PLAYER}, aren't you?\nMoved in next door, right?\pI didn't know that you're a girl.\pDad, PROF. BIRCH, said that our new\nnext-door neighbor is a GYM LEADER's\lkid, so I assumed you'd be a guy.\pMy name's BRENDAN.\nSo, hi, neighbor!\pHuh? Hey, {PLAYER}, don't you have\na POKéMON?\pDo you want me to go catch you one?\pAw, darn, I forgot…\pI'm supposed to go help my dad catch\nsome wild POKéMON.\pSome other time, okay?$","Hey!
+You…
+[PAGE]
+Who are you?
+[PAGE]
+Oh, you're {PLAYER}, aren't you?
+Moved in next door, right?
+[PAGE]
+I didn't know that you're a girl.
+[PAGE]
+Dad, PROF. BIRCH, said that our new
+next-door neighbor is a GYM LEADER's
+kid, so I assumed you'd be a guy.
+[PAGE]
+My name's BRENDAN.
+So, hi, neighbor!
+[PAGE]
+Huh? Hey, {PLAYER}, don't you have
+a POKéMON?
+[PAGE]
+Do you want me to go catch you one?
+[PAGE]
+Aw, darn, I forgot…
+[PAGE]
+I'm supposed to go help my dad catch
+some wild POKéMON.
+[PAGE]
+Some other time, okay?",,untranslated,\n | \p | \p | {PLAYER} | \n | \p | \pDa | \n | \l | \p | \n | \p | {PLAYER} | \na | \pD | \pA | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7cc549bb2e89937d,13,02,littleroot,Littleroot,ลิตเติลรูต,4,rival_intro,Rival introduction,,4,LittlerootTown_BrendansHouse_1F,rival_intro,LittlerootTown BrendansHouse 1F,2,May,LittlerootTown_MaysHouse_1F_EventScript_MeetRival,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc,357,RivalsHouse_1F_Text_MayWhoAreYou,"Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$","Huh?
+Who… Who are you?
+[PAGE]
+… … … … … … … …
+… … … … … … … …
+[PAGE]
+Oh, you're {PLAYER}{KUN}.
+So your move was today.
+[PAGE]
+Um… I'm MAY.
+Glad to meet you!
+[PAGE]
+I…
+I have this dream of becoming friends
+with POKéMON all over the world.
+[PAGE]
+I… I heard about you, {PLAYER}{KUN}, from
+my dad, PROF. BIRCH.
+[PAGE]
+I was hoping that you would be nice,
+{PLAYER}{KUN}, and that we could be friends.
+[PAGE]
+Oh, this is silly, isn't it?
+I… I've just met you, {PLAYER}{KUN}.
+[PAGE]
+Eheheh…
+[PAGE]
+Oh, no! I forgot!
+[PAGE]
+I was supposed to go help Dad catch
+some wild POKéMON!
+[PAGE]
+{PLAYER}{KUN}, I'll catch you later!",,untranslated,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \pE | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

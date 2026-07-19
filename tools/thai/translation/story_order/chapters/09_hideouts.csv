@@ -1,0 +1,172 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_d918d79168cfccf1,167,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,1,Archie,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,483,MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo,"ARCHIE: TEAM MAGMA's MAXIE got ahead\nof us, but we also got what we wanted.\pThe RED ORB preserved at MT. PYRE…\nI, ARCHIE, now have it in my possession!\pFufufu… Now we can bring our ultimate\nobjective to fruition!\pOkay, TEAM!\nWe're pulling out!$","ARCHIE: TEAM MAGMA's MAXIE got ahead
+of us, but we also got what we wanted.
+[PAGE]
+The RED ORB preserved at MT. PYRE…
+I, ARCHIE, now have it in my possession!
+[PAGE]
+Fufufu… Now we can bring our ultimate
+objective to fruition!
+[PAGE]
+Okay, TEAM!
+We're pulling out!",,untranslated,\n | \p | \n | \pF | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e6adbb836d10aa0,168,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,2,,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,493,MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis,"Oh, no…\nThis cannot happen…\pNot only the BLUE ORB, but even\nthe RED ORB has been taken…\pThe BLUE ORB and RED ORB must never\nbe separated. They belong together.\pWhat are those men trying to do with\nthe two ORBS?\p… … … … … …\n… … … … … …\pOh, yes. Was it TEAM MAGMA who came\nand took the BLUE ORB first?\pWell, in their haste, they left this\nbehind.\pI couldn't imagine what exactly it\ncould be.\pI would like you to have it.\nPerhaps it will be useful in some way.$","Oh, no…
+This cannot happen…
+[PAGE]
+Not only the BLUE ORB, but even
+the RED ORB has been taken…
+[PAGE]
+The BLUE ORB and RED ORB must never
+be separated. They belong together.
+[PAGE]
+What are those men trying to do with
+the two ORBS?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Oh, yes. Was it TEAM MAGMA who came
+and took the BLUE ORB first?
+[PAGE]
+Well, in their haste, they left this
+behind.
+[PAGE]
+I couldn't imagine what exactly it
+could be.
+[PAGE]
+I would like you to have it.
+Perhaps it will be useful in some way.",,untranslated,\n | \p | \n | \p | \nbe | \p | \n | \p | \n | \p | \na | \p | \nbe | \p | \nc | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_735f1ef23f4ce480,169,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,3,,MtPyre_Summit_EventScript_OldLadyOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,533,MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs,The two men who took the ORBS came\nback to return them on their own.\pThose men…\nPerhaps they are not so evil after all…$,"The two men who took the ORBS came
+back to return them on their own.
+[PAGE]
+Those men…
+Perhaps they are not so evil after all…",,untranslated,\nba | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_99952122a38c4d6b,170,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,4,,MtPyre_Summit_EventScript_OldLadyAfterOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,539,MtPyre_Summit_Text_SuperAncientPokemonTaughtUs,"The embodiments of the land, sea,\nand the sky…\pThat is said to be the identities of\nthe super-ancient POKéMON…\pIn the same way that we humans and\nPOKéMON have life, our world, too,\lis alive…\pThe super-ancient POKéMON have\ntaught us that…$","The embodiments of the land, sea,
+and the sky…
+[PAGE]
+That is said to be the identities of
+the super-ancient POKéMON…
+[PAGE]
+In the same way that we humans and
+POKéMON have life, our world, too,
+is alive…
+[PAGE]
+The super-ancient POKéMON have
+taught us that…",,untranslated,\na | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e5b724b2524196f4,171,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,,29,MtPyre_Summit,mt_pyre,MtPyre Summit,5,Maxie,MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs,data/maps/MtPyre_Summit/scripts.inc,585,MtPyre_Summit_Text_MaxieSilence,MAXIE: {PLAYER}…\p… … … … … …\n… … … … … …$,"MAXIE: {PLAYER}…
+[PAGE]
+… … … … … …
+… … … … … …",,untranslated,{PLAYER} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_36ea63b7ce608519,172,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,1,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,181,MagmaHideout_4F_Text_MaxieAwakenGroudon,MAXIE: GROUDON…\pNothing could awaken you from your\nsleep bathed in magma…\pThis BLUE ORB is what you sought.\nWasn't it?\pI have brought you the BLUE ORB.\nLet its shine awaken you!\pAnd show me…\nShow me the full extent of your power!$,"MAXIE: GROUDON…
+[PAGE]
+Nothing could awaken you from your
+sleep bathed in magma…
+[PAGE]
+This BLUE ORB is what you sought.
+Wasn't it?
+[PAGE]
+I have brought you the BLUE ORB.
+Let its shine awaken you!
+[PAGE]
+And show me…
+Show me the full extent of your power!",,untranslated,\p | \n | \p | \n | \p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f34fbe4729fcf204,173,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,2,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,192,MagmaHideout_4F_Text_MaxieGroudonWhatsWrong,MAXIE: GROUDON!\nWhat's wrong?\pWasn't the BLUE ORB the key?\pGROUDON!\nWhere have you gone…$,"MAXIE: GROUDON!
+What's wrong?
+[PAGE]
+Wasn't the BLUE ORB the key?
+[PAGE]
+GROUDON!
+Where have you gone…",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4943951ba089dba9,174,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,3,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,199,MagmaHideout_4F_Text_MaxieOhItWasYou,"MAXIE: Oh, so it was you?\pI've seen you poking around uninvited\nhere and there…\pI get it now!\nYou must have pulled a cheap stunt!$","MAXIE: Oh, so it was you?
+[PAGE]
+I've seen you poking around uninvited
+here and there…
+[PAGE]
+I get it now!
+You must have pulled a cheap stunt!",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_0ced0caff1c00ef9,175,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,4,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,210,MagmaHideout_4F_Text_MaxieImGoingAfterGroudon,"MAXIE: There has to be some reason\nwhy GROUDON fled…\pThat's what you're trying to say,\naren't you?\p… … … … … …\n… … … … … …\pHumph…\nYou think I didn't know that?\pWith GROUDON gone, there is no longer\nany need for this blasted volcano.\pI am going after GROUDON, so this\nis where we part!$","MAXIE: There has to be some reason
+why GROUDON fled…
+[PAGE]
+That's what you're trying to say,
+aren't you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Humph…
+You think I didn't know that?
+[PAGE]
+With GROUDON gone, there is no longer
+any need for this blasted volcano.
+[PAGE]
+I am going after GROUDON, so this
+is where we part!",,untranslated,\n | \p | \na | \p | \n | \p | \n | \p | \na | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4eda68ad2ec20a56,176,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,1,,SlateportCity_EventScript_OldWomanSternInterview,data/maps/SlateportCity/scripts.inc,1106,SlateportCity_Text_CaptSternBeingInterviewed,I was hoping that it was a famous star\nso I could get an autograph.\pBut who's that being interviewed?\nIsn't that CAPT. STERN?$,"I was hoping that it was a famous star
+so I could get an autograph.
+[PAGE]
+But who's that being interviewed?
+Isn't that CAPT. STERN?",,untranslated,\n | \pB | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7f0709929860c17b,177,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,2,,SlateportCity_EventScript_RichBoySternInterview,data/maps/SlateportCity/scripts.inc,1118,SlateportCity_Text_SternSaysDiscoveredSomething,CAPT. STERN says they discovered\nsomething at the bottom of the sea.\pI wonder what it is?\nWhat could it be?$,"CAPT. STERN says they discovered
+something at the bottom of the sea.
+[PAGE]
+I wonder what it is?
+What could it be?",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_29e6bfe52cbe76dc,178,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,3,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1145,SlateportCity_Text_SternMoveAheadWithExploration,"CAPT. STERN: Yes, indeed. We intend to\nmove ahead with our exploration.$","CAPT. STERN: Yes, indeed. We intend to
+move ahead with our exploration.",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a24a9e2b5d3b180d,179,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,4,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1156,SlateportCity_Text_SternWhewFirstInterview,CAPT. STERN: Whew…\pThat was my first time to be filmed for\nTV. That was nerve-wracking.$,"CAPT. STERN: Whew…
+[PAGE]
+That was my first time to be filmed for
+TV. That was nerve-wracking.",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f70b830d8ec236fd,180,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,5,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1161,SlateportCity_Text_OhPlayerWeMadeDiscovery,Oh! {PLAYER}{KUN}!\nYou're looking great!\pWe made a huge discovery on our last\nseafloor exploration.\pWe found an underwater cavern on\nROUTE 128.\pWe think it's the habitat of a POKéMON\nthat's said to have been long extinct.$,"Oh! {PLAYER}{KUN}!
+You're looking great!
+[PAGE]
+We made a huge discovery on our last
+seafloor exploration.
+[PAGE]
+We found an underwater cavern on
+ROUTE 128.
+[PAGE]
+We think it's the habitat of a POKéMON
+that's said to have been long extinct.",,untranslated,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ac6bacd443ddc584,181,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,6,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1171,SlateportCity_Text_AquaWillAssumeControlOfSubmarine,"Fufufu…\nCAPT. STERN, I presume.\pWe of TEAM AQUA will assume\ncontrol of your submarine!\pYour objections are meaningless!\nWe expect your total cooperation!\pFufufu…\nJust watch and learn what TEAM\lAQUA has planned!$","Fufufu…
+CAPT. STERN, I presume.
+[PAGE]
+We of TEAM AQUA will assume
+control of your submarine!
+[PAGE]
+Your objections are meaningless!
+We expect your total cooperation!
+[PAGE]
+Fufufu…
+Just watch and learn what TEAM
+AQUA has planned!",,untranslated,\nCA | \p | \nc | \p | \n | \pF | \n | \lA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_0b38356a9d2a5891,182,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,7,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1182,SlateportCity_Text_SternWhatWasAllThat,CAPT. STERN: What was that all about?\pIt sounded like someone using\na megaphone…\pWhere did it come from?$,"CAPT. STERN: What was that all about?
+[PAGE]
+It sounded like someone using
+a megaphone…
+[PAGE]
+Where did it come from?",,untranslated,\p | \na | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b97c111ae0282f20,183,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,8,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1188,SlateportCity_Text_FromHarborTryingToTakeSub,It's from the HARBOR!\pThe submarine!\nThey're trying to take it!$,"It's from the HARBOR!
+[PAGE]
+The submarine!
+They're trying to take it!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5d595593ae009b8a,184,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,9,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1193,SlateportCity_Text_PleaseComeWithMe,"{PLAYER}{KUN}!\nPlease, come with me!$","{PLAYER}{KUN}!
+Please, come with me!",,untranslated,{PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_40ef2cebfda60ee7,185,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,10,,SlateportCity_Harbor_EventScript_CaptStern,data/maps/SlateportCity_Harbor/scripts.inc,442,SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum,CAPT. STERN: Those thugs…\pThey're the same lot who tried to rob\nthe DEVON GOODS at the MUSEUM.$,"CAPT. STERN: Those thugs…
+[PAGE]
+They're the same lot who tried to rob
+the DEVON GOODS at the MUSEUM.",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_85246ab6bfa6b21d,186,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,,31,SlateportCity,submarine,SlateportCity,11,,SlateportCity_Harbor_EventScript_WhyStealSubmarine,data/maps/SlateportCity_Harbor/scripts.inc,458,SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine,"CAPT. STERN: Why…\pWhy would TEAM AQUA steal my\nSUBMARINE EXPLORER 1?\pThey can't be after the slumbering\nPOKéMON at the bottom of the sea…\pBut even if I were to chase them,\nI don't stand a chance against them…$","CAPT. STERN: Why…
+[PAGE]
+Why would TEAM AQUA steal my
+SUBMARINE EXPLORER 1?
+[PAGE]
+They can't be after the slumbering
+POKéMON at the bottom of the sea…
+[PAGE]
+But even if I were to chase them,
+I don't stand a chance against them…",,untranslated,\p | \n | \p | \n | \pB | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4df79a104565cdd7,187,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,32,aqua_hideout,Aqua Hideout,,32,AquaHideout_1F,aqua_hideout,AquaHideout 1F,1,,AquaHideout_B2F_EventScript_SubmarineEscape,data/maps/AquaHideout_B2F/scripts.inc,102,AquaHideout_B2F_Text_OurBossGotThroughHisPreparations,"Hehehe!\pWhile I was toying with you, our BOSS\ngot through his preparations!$","Hehehe!
+[PAGE]
+While I was toying with you, our BOSS
+got through his preparations!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

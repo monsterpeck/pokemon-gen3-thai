@@ -1,0 +1,21 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_a3524918d5d08235,14,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,,5,Route101,birch_rescue,Route101,1,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,258,Route101_Text_HelpMe,H-help me!$,H-help me!,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_45ae69cb30f2cd90,15,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,,5,Route101,birch_rescue,Route101,2,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,261,Route101_Text_PleaseHelp,Hello! You over there!\nPlease! Help!\pIn my BAG!\nThere's a POKé BALL!$,"Hello! You over there!
+Please! Help!
+[PAGE]
+In my BAG!
+There's a POKé BALL!",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_df2e8d10a02d0a58,16,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,,5,Route101,birch_rescue,Route101,3,,Route101_EventScript_BirchsBag,data/maps/Route101/scripts.inc,271,Route101_Text_YouSavedMe,"PROF. BIRCH: Whew…\pI was in the tall grass studying wild\nPOKéMON when I was jumped.\pYou saved me.\nThanks a lot!\pOh?\pHi, you're {PLAYER}{KUN}!\pThis is not the place to chat, so come\nby my POKéMON LAB later, okay?$","PROF. BIRCH: Whew…
+[PAGE]
+I was in the tall grass studying wild
+POKéMON when I was jumped.
+[PAGE]
+You saved me.
+Thanks a lot!
+[PAGE]
+Oh?
+[PAGE]
+Hi, you're {PLAYER}{KUN}!
+[PAGE]
+This is not the place to chat, so come
+by my POKéMON LAB later, okay?",,untranslated,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \nb,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

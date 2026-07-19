@@ -1,0 +1,92 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_3a084ac6783a9ce7,133,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,1,Archie,MtChimney_EventScript_ArchieGoStopTeamMagma,data/maps/MtChimney/scripts.inc,652,MtChimney_Text_ArchieGoStopTeamMagma,"ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$","ARCHIE: Grr, {PLAYER}!
+I should've guessed you'd show up!
+[PAGE]
+See for yourself what the fanatics
+of TEAM MAGMA are up to!
+[PAGE]
+They're trying to inject the stolen
+METEORITE's power into the volcano!
+[PAGE]
+Doing something like that will cause
+the volcano's eruption!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \pD | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e2b11896ebb1637,134,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,2,Archie,MtChimney_EventScript_ArchieBusyFighting,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
+[PAGE]
+I want to stop that MAXIE,
+but I can't!
+[PAGE]
+Not when I have my hands full battling
+three opponents at once!",,untranslated,\p | \nb | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ed68ce020b1d6ba1,135,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,3,,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
+[PAGE]
+By amplifying its power with this
+machine, MT. CHIMNEY's volcanic
+activity will instantly intensify…
+[PAGE]
+Its energy will grow deep inside
+the crater and…
+Fufufu…",,untranslated,\pB | \n | \lac | \p | \n | \lF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e5fe9110f8a82454,136,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,4,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
+Who are you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+I'd heard ARCHIE bemoaning a child
+who's been meddling in TEAM AQUA's
+affairs.
+[PAGE]
+It must be you he meant.
+[PAGE]
+Humph! So you're thinking of
+interfering with us, TEAM MAGMA?
+[PAGE]
+Now you listen.
+Long ago, living things used the
+land to live and grow.
+[PAGE]
+That is why land is all important!
+It is the cradle of all!
+[PAGE]
+That is why TEAM MAGMA is dedicated
+to the expansion of the land mass.
+[PAGE]
+It is for further advancement of
+humankind and POKéMON!
+[PAGE]
+And for that, we need the power of
+what sleeps within this mountain…
+[PAGE]
+Oh! There was no need for you to
+learn that much.
+[PAGE]
+But, no matter!
+I'll teach you the consequences of
+meddling in our grand design!",,untranslated,\n | \p | \n | \p | \n | \laf | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \pA | \n | \p | \n | \pB | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6d5968a287374b4b,137,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,5,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
+I will back off this time.
+[PAGE]
+But don't think that this is the last
+you've seen of TEAM MAGMA.
+[PAGE]
+Fufufu…
+[PAGE]
+Even without the METEORITE, if we
+obtain that ORB… Fufufu…",,untranslated,\n | \pB | \n | \pF | \pE | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_31d1999313c6eb44,138,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,6,Archie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,669,MtChimney_Text_ArchieThankYou,"ARCHIE: {PLAYER}!\nThank you!\pWith your help, we thwarted TEAM\nMAGMA's destructive plan!\pBut… You…\nWhose side are you on?\pAh, it doesn't matter.\pWe will remain vigilant and keep up\nour pursuit of TEAM MAGMA.\p{PLAYER}, we shall meet again!$","ARCHIE: {PLAYER}!
+Thank you!
+[PAGE]
+With your help, we thwarted TEAM
+MAGMA's destructive plan!
+[PAGE]
+But… You…
+Whose side are you on?
+[PAGE]
+Ah, it doesn't matter.
+[PAGE]
+We will remain vigilant and keep up
+our pursuit of TEAM MAGMA.
+[PAGE]
+{PLAYER}, we shall meet again!",,untranslated,{PLAYER} | \n | \p | \n | \pB | \n | \pA | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_42c985b1510208be,139,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,7,,MtChimney_EventScript_MeteoriteMachine,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
+the mysterious machine.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

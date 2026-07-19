@@ -1,0 +1,85 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_f3193871c666b294,91,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,1,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,269,SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts,"Yes? If you're looking for STERN,\nthat would be me.\pAh! Those must be the parts I ordered\nfrom MR. STONE of DEVON.\pThank you! That's great!\nWe can prepare for our expedition now.$","Yes? If you're looking for STERN,
+that would be me.
+[PAGE]
+Ah! Those must be the parts I ordered
+from MR. STONE of DEVON.
+[PAGE]
+Thank you! That's great!
+We can prepare for our expedition now.",,untranslated,\n | \pA | \nf | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_bccdea658542d0e8,92,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,2,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,277,SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts,"Hehehe, hold it!\nWe'll take those parts!$","Hehehe, hold it!
+We'll take those parts!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6c9bfdabbe559c34,93,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,3,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,281,SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou,CAPT. STERN: Wh-what?\nWho are you people?$,"CAPT. STERN: Wh-what?
+Who are you people?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_9758a7ae075cd9a8,94,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,4,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,285,SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua,We're TEAM AQUA!\pOur BOSS wants those parts!\nShut your yap and fork them over!$,"We're TEAM AQUA!
+[PAGE]
+Our BOSS wants those parts!
+Shut your yap and fork them over!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_636ae9a849ca1131,95,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,5,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,294,SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious,"Oh, man, what a disaster…\nThe BOSS is going to be furious…$","Oh, man, what a disaster…
+The BOSS is going to be furious…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e8971e4703accf6a,96,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,6,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,298,SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis,"Humph, sniveling wimp!\nLet me take care of this!$","Humph, sniveling wimp!
+Let me take care of this!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_aa04df9ea54fa8e8,97,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,7,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,306,SlateportCity_OceanicMuseum_2F_Text_MeddlingKid,"Now what? If we don't get the parts,\nwe're in for it!\pArrgh, I didn't count on being meddled\nwith by some meddling kid!$","Now what? If we don't get the parts,
+we're in for it!
+[PAGE]
+Arrgh, I didn't count on being meddled
+with by some meddling kid!",,untranslated,\n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f04999e65407c9f5,98,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,8,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,312,SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong,"I came to see what was taking so\nlong to snatch some parts, and you\lsimps are held up by a mere child?$","I came to see what was taking so
+long to snatch some parts, and you
+simps are held up by a mere child?",,untranslated,\n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6e3b14603f596d92,99,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,9,Archie,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,317,SlateportCity_OceanicMuseum_2F_Text_ArchieWarning,"We are TEAM AQUA,\nand we love the sea!\pAnd I am TEAM AQUA's leader,\nARCHIE!\pWhat makes you interfere with us?\p…No! You can't be!\nYou're not one of TEAM MAGMA?\pWait, that can't be right.\nYou're not dressed for the part.\p… … … … … …\n… … … … … …\pPOKéMON, people… All life depends on\nthe sea.\pSo, TEAM AQUA is dedicated to\nthe expansion of the sea.\pDon't you agree? What we are doing\nis a magnificent undertaking.\pAh, fine…\nYou're still too young to understand\lour noble objective.\pBut, I warn you, don't even consider\ninterfering with our plans again.\pThe consequences will cost you\ndearly!\pAnd don't you forget it!$","We are TEAM AQUA,
+and we love the sea!
+[PAGE]
+And I am TEAM AQUA's leader,
+ARCHIE!
+[PAGE]
+What makes you interfere with us?
+[PAGE]
+…No! You can't be!
+You're not one of TEAM MAGMA?
+[PAGE]
+Wait, that can't be right.
+You're not dressed for the part.
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+POKéMON, people… All life depends on
+the sea.
+[PAGE]
+So, TEAM AQUA is dedicated to
+the expansion of the sea.
+[PAGE]
+Don't you agree? What we are doing
+is a magnificent undertaking.
+[PAGE]
+Ah, fine…
+You're still too young to understand
+our noble objective.
+[PAGE]
+But, I warn you, don't even consider
+interfering with our plans again.
+[PAGE]
+The consequences will cost you
+dearly!
+[PAGE]
+And don't you forget it!",,untranslated,\na | \pA | \nA | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \pD | \n | \pA | \n | \l | \pB | \n | \p | \nde | \pA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_9d72999ead10d4fe,100,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,10,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,344,SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs,"CAPT. STERN: You're…\nAh, okay, you're {PLAYER}{KUN}…\pAnyway, that was a tense situation!\nThank you for saving us!\pOh, yes, I almost forgot that you\neven brought the parts from DEVON!$","CAPT. STERN: You're…
+Ah, okay, you're {PLAYER}{KUN}…
+[PAGE]
+Anyway, that was a tense situation!
+Thank you for saving us!
+[PAGE]
+Oh, yes, I almost forgot that you
+even brought the parts from DEVON!",,untranslated,\nA | {PLAYER} | {KUN} | \pA | \n | \p | \ne,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d19a36b6538ce9c5,101,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,18,museum,Slateport Museum,,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,11,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,352,SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo,"CAPT. STERN: Whoops!\nThere's no time to lose!\pWe have to set out on our ocean-floor\nexpedition really soon.\pThanks again, but now I've got\nto go!\pFeel free to wander around and check\nout our facilities, though.$","CAPT. STERN: Whoops!
+There's no time to lose!
+[PAGE]
+We have to set out on our ocean-floor
+expedition really soon.
+[PAGE]
+Thanks again, but now I've got
+to go!
+[PAGE]
+Feel free to wander around and check
+out our facilities, though.",,untranslated,\n | \p | \ne | \p | \n | \pFe | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

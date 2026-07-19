@@ -1,0 +1,32 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_62cd9667f8720313,229,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,1,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,141,SkyPillar_Outside_Text_OpenedDoorToSkyPillar,"WALLACE: Oh, my, I'm terribly sorry!\pIn my haste, I didn't notice that\nI'd left you behind!\pI've opened the locked door of\nthe SKY PILLAR.\p{PLAYER}{KUN}, let's be on our way!$","WALLACE: Oh, my, I'm terribly sorry!
+[PAGE]
+In my haste, I didn't notice that
+I'd left you behind!
+[PAGE]
+I've opened the locked door of
+the SKY PILLAR.
+[PAGE]
+{PLAYER}{KUN}, let's be on our way!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5ed157f43a6632fb,230,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,2,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,149,SkyPillar_Outside_Text_EarthquakeNotMomentToWaste,WALLACE: It's an earthquake!\pThere's not a moment to waste!\nWe've got to hurry!$,"WALLACE: It's an earthquake!
+[PAGE]
+There's not a moment to waste!
+We've got to hurry!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_847ea0c983f7e391,231,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,3,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,154,SkyPillar_Outside_Text_SituationGettingWorse,WALLACE: Hmm…\nThe situation is getting worse…$,"WALLACE: Hmm…
+The situation is getting worse…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7ff2392c13cba811,232,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,4,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,158,SkyPillar_Outside_Text_GotToGoBackForSootopolis,WALLACE: This isn't good…\pThe weather distortion is spreading\neven here…\p{PLAYER}{KUN}.\pRAYQUAZA should be farther up\nfrom here.\pI'm worried about SOOTOPOLIS.\nI've got to go back.\pEverything is in your hands now.\nDon't fail us!$,"WALLACE: This isn't good…
+[PAGE]
+The weather distortion is spreading
+even here…
+[PAGE]
+{PLAYER}{KUN}.
+[PAGE]
+RAYQUAZA should be farther up
+from here.
+[PAGE]
+I'm worried about SOOTOPOLIS.
+I've got to go back.
+[PAGE]
+Everything is in your hands now.
+Don't fail us!",,untranslated,\p | \ne | \p | {PLAYER} | {KUN} | \p | \nf | \p | \n | \pE | \nD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6b211e62d63b8b92,233,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,5,,SkyPillar_Top_EventScript_AwakenRayquaza,data/maps/SkyPillar_Top/scripts.inc,179,SkyPillar_Top_Text_RayquazaFlewOff,The awakened RAYQUAZA flew off…$,The awakened RAYQUAZA flew off…,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,

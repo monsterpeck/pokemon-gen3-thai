@@ -1,0 +1,100 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_be3cc677576abfad,108,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,1,,MauvilleCity_EventScript_WallysUncle,data/maps/MauvilleCity/scripts.inc,460,MauvilleCity_Text_UncleHesTooPeppy,"UNCLE: It's because of POKéMON that\nthis boy's got more pep, I suppose…\lBut he's become a bit too peppy…$","UNCLE: It's because of POKéMON that
+this boy's got more pep, I suppose…
+But he's become a bit too peppy…",,untranslated,\n | \lB,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f4f5fe77c8bb1be0,109,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,2,Wally,MauvilleCity_EventScript_UncleAskPlayerToBattleWally,data/maps/MauvilleCity/scripts.inc,497,MauvilleCity_Text_UncleCanYouBattleWally,"UNCLE: {PLAYER}{KUN}, was it?\nOn WALLY's behalf, can I ask you to\lbattle with him just this once?\pI don't think he's going to listen to\nany reason the way he is now.$","UNCLE: {PLAYER}{KUN}, was it?
+On WALLY's behalf, can I ask you to
+battle with him just this once?
+[PAGE]
+I don't think he's going to listen to
+any reason the way he is now.",,untranslated,{PLAYER} | {KUN} | \n | \lba | \p | \na,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_48288662c4edf402,110,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,3,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,465,MauvilleCity_Text_WallyWantToChallengeGym,"WALLY: Aww, UNCLE, please?\pI want to challenge this GYM and see\nhow much better I've become.\pPlease? May I, please?$","WALLY: Aww, UNCLE, please?
+[PAGE]
+I want to challenge this GYM and see
+how much better I've become.
+[PAGE]
+Please? May I, please?",,untranslated,\p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_776b6560c3cc25d0,111,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,4,,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,471,MauvilleCity_Text_UncleYourePushingIt,"UNCLE: Now hold on, WALLY.\pSince you started living with POKéMON,\nyou have grown quite a lot stronger.\pBut don't you think you're pushing it\nto suddenly challenge a GYM?$","UNCLE: Now hold on, WALLY.
+[PAGE]
+Since you started living with POKéMON,
+you have grown quite a lot stronger.
+[PAGE]
+But don't you think you're pushing it
+to suddenly challenge a GYM?",,untranslated,\p | \n | \pB | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ea21b86b9428270d,112,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,5,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,478,MauvilleCity_Text_WallyWeCanBeatAnyone,"WALLY: I'm not pushing it.\pIf I combine forces with RALTS,\nwe can beat anyone!$","WALLY: I'm not pushing it.
+[PAGE]
+If I combine forces with RALTS,
+we can beat anyone!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_9c9adfc531c27500,113,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,6,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,483,MauvilleCity_Text_WallyWillYouBattleMe,"WALLY: Oh! Hi, {PLAYER}!\pI've gotten a lot stronger since\nwe met.\p{PLAYER}, I want you and my UNCLE to\nunderstand that.\p{PLAYER}, please, will you have\na battle with me?$","WALLY: Oh! Hi, {PLAYER}!
+[PAGE]
+I've gotten a lot stronger since
+we met.
+[PAGE]
+{PLAYER}, I want you and my UNCLE to
+understand that.
+[PAGE]
+{PLAYER}, please, will you have
+a battle with me?",,untranslated,{PLAYER} | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \na,{PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_cb17948871baa56c,114,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,7,,MauvilleCity_EventScript_WallyAndUncleExitNorth,data/maps/MauvilleCity/scripts.inc,536,MauvilleCity_Text_UncleVisitUsSometime,"UNCLE: {PLAYER}{KUN}, it just dawned on me\nthat you must be the TRAINER who kept\lan eye out for WALLY when he caught\lhis POKéMON.\pWhy don't you visit us in VERDANTURF\nsometime?\lI'm sure WALLY would enjoy it.$","UNCLE: {PLAYER}{KUN}, it just dawned on me
+that you must be the TRAINER who kept
+an eye out for WALLY when he caught
+his POKéMON.
+[PAGE]
+Why don't you visit us in VERDANTURF
+sometime?
+I'm sure WALLY would enjoy it.",,untranslated,{PLAYER} | {KUN} | \n | \la | \l | \p | \n | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a2a0edd5b970588e,115,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,8,,MauvilleCity_EventScript_DefeatedWally,data/maps/MauvilleCity/scripts.inc,561,MauvilleCity_Text_ScottYouDidntHoldBack,"SCOTT: Hehe…\nI was watching that match!\pYou're friends with that boy WALLY,\naren't you?\pBut you didn't hold anything back\nand beat him impressively.\pYeah! That's what a real POKéMON\nbattle is all about!\pI idolize TRAINERS like that!\p… … … … … …\nI'll be cheering for you!$","SCOTT: Hehe…
+I was watching that match!
+[PAGE]
+You're friends with that boy WALLY,
+aren't you?
+[PAGE]
+But you didn't hold anything back
+and beat him impressively.
+[PAGE]
+Yeah! That's what a real POKéMON
+battle is all about!
+[PAGE]
+I idolize TRAINERS like that!
+[PAGE]
+… … … … … …
+I'll be cheering for you!",,untranslated,\n | \p | \na | \pB | \na | \p | \nba | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fb648835502d4cf7,116,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,9,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,508,MauvilleCity_Text_WallyHereICome,"WALLY: {PLAYER}, thank you.\pOkay… Here I come!$","WALLY: {PLAYER}, thank you.
+[PAGE]
+Okay… Here I come!",,untranslated,{PLAYER} | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a08d097557c3e6c2,117,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,10,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,517,MauvilleCity_Text_WallyIllGoBackToVerdanturf,WALLY: UNCLE…\nI'll go back to VERDANTURF…$,"WALLY: UNCLE…
+I'll go back to VERDANTURF…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6ebacc9d8cd36793,118,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,11,,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,521,MauvilleCity_Text_ThankYouNotEnoughToBattle,"{PLAYER}, thank you.\nBeing a TRAINER is tough, isn't it?\pIt's not enough just to have POKéMON\nand make them battle. That isn't what\lbeing a real TRAINER is about.$","{PLAYER}, thank you.
+Being a TRAINER is tough, isn't it?
+[PAGE]
+It's not enough just to have POKéMON
+and make them battle. That isn't what
+being a real TRAINER is about.",,untranslated,{PLAYER} | \nBe | \p | \na | \lbe,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_1dd9ce5252a610ca,119,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,12,,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,528,MauvilleCity_Text_UncleNoNeedToBeDown,"UNCLE: WALLY, there's no need to be so\ndown on yourself.\pWhy, what's keeping you from becoming\nstronger and stronger?\pCome on, let's go home.\nEveryone's waiting for you.$","UNCLE: WALLY, there's no need to be so
+down on yourself.
+[PAGE]
+Why, what's keeping you from becoming
+stronger and stronger?
+[PAGE]
+Come on, let's go home.
+Everyone's waiting for you.",,untranslated,\nd | \p | \n | \pC | \nE,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d86f9ae4036a91a5,120,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,13,Wally,MauvilleCity_EventScript_WallyRequestBattleAgain,data/maps/MauvilleCity/scripts.inc,504,MauvilleCity_Text_WallyPleaseBattleMe,"WALLY: {PLAYER}, please!\nBattle with me, please.$","WALLY: {PLAYER}, please!
+Battle with me, please.",,untranslated,{PLAYER} | \nBa,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_29cf2d6c137f7d7c,121,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,14,Wattson,MauvilleCity_Gym_EventScript_Wattson,data/maps/MauvilleCity_Gym/scripts.inc,375,MauvilleCity_Gym_Text_WattsonPostBattle,"I swell with optimism, seeing a promising\nyoung TRAINER like you!$","I swell with optimism, seeing a promising
+young TRAINER like you!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fc810b4e66b7f5bb,122,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,15,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,353,MauvilleCity_Gym_Text_ReceivedDynamoBadge,{PLAYER} received the DYNAMO BADGE\nfrom WATTSON.$,"{PLAYER} received the DYNAMO BADGE
+from WATTSON.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_885f72022e6a7a31,123,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,16,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,357,MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis,"With the DYNAMO BADGE, POKéMON can\nuse ROCK SMASH out of battle.\pAnd, it will make your POKéMON a little\nbit faster, too.\pHmm…\nYou should take this, too!$","With the DYNAMO BADGE, POKéMON can
+use ROCK SMASH out of battle.
+[PAGE]
+And, it will make your POKéMON a little
+bit faster, too.
+[PAGE]
+Hmm…
+You should take this, too!",,untranslated,\n | \pA | \nb | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ffb1954314bec3d3,124,06,slateport,Slateport and Mauville,สเลตพอร์ตและมอวิลล์,20,mauville_wally,Mauville and Wally,,20,MauvilleCity,mauville,MauvilleCity,17,,MauvilleCity_Gym_EventScript_GiveShockWave,data/maps/MauvilleCity_Gym/scripts.inc,365,MauvilleCity_Gym_Text_ExplainShockWave,That TM34 there contains SHOCK WAVE.\pIt's a trustworthy move that never\nmisses! You can count on it!\p… … … … … …$,"That TM34 there contains SHOCK WAVE.
+[PAGE]
+It's a trustworthy move that never
+misses! You can count on it!
+[PAGE]
+… … … … … …",,untranslated,\p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,

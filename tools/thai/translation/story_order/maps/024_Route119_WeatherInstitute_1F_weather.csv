@@ -1,0 +1,23 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_6bc82f96214c6653,146,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,1,,Route119_WeatherInstitute_2F_EventScript_ShellyDefeated,data/maps/Route119_WeatherInstitute_2F/scripts.inc,265,Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy,We have a situation here!\pA TEAM MAGMA mob just passed\nthe WEATHER INSTITUTE.\pThey appear to be headed for\nMT. PYRE!$,"We have a situation here!
+[PAGE]
+A TEAM MAGMA mob just passed
+the WEATHER INSTITUTE.
+[PAGE]
+They appear to be headed for
+MT. PYRE!",,untranslated,\pA | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_72d579cc12f30a2d,147,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,2,,Route119_WeatherInstitute_2F_EventScript_ShellyDefeated,data/maps/Route119_WeatherInstitute_2F/scripts.inc,272,Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre,"What?!\pWe can't waste any more time here!\nWe have to hurry to MT. PYRE, too!\pAhahahaha!\nTEAM MAGMA, just you wait!$","What?!
+[PAGE]
+We can't waste any more time here!
+We have to hurry to MT. PYRE, too!
+[PAGE]
+Ahahahaha!
+TEAM MAGMA, just you wait!",,untranslated,\p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_15b8f87c5174f5d2,148,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,3,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastform,data/maps/Route119_WeatherInstitute_2F/scripts.inc,279,Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon,"Thanks!\nThanks to you, we're safe!\pIt might be an odd way of thanking you,\nbut take this POKéMON.$","Thanks!
+Thanks to you, we're safe!
+[PAGE]
+It might be an odd way of thanking you,
+but take this POKéMON.",,untranslated,\n | \p | \nb,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fbfff4949ad6b61d,149,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,4,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty,data/text/pc_transfer.inc,29,gText_NicknameThisPokemon,Do you want to give a nickname to\nthis {STR_VAR_1}?$,"Do you want to give a nickname to
+this {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3949d91512dde4d1,150,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,5,,Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare,data/maps/Route119_WeatherInstitute_2F/scripts.inc,290,Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform,{PLAYER} received CASTFORM!$,{PLAYER} received CASTFORM!,,untranslated,{PLAYER},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

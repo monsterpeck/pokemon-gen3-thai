@@ -1,0 +1,100 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_f7f989a1a6ff5a66,35,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,1,,PetalburgCity_Gym_EventScript_Norman,data/maps/PetalburgCity_Gym/scripts.inc,1138,PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon,"DAD: Hm?\pWell, if it isn't {PLAYER}!\nSo you're all finished moving in?\pI'm surprised that you managed to\nget here by yourself.\pOh, I see.\nYou're with your POKéMON.\pHm… Then I guess you're going to\nbecome a TRAINER like me, {PLAYER}.\pThat's great news!\nI'll be looking forward to it!$","DAD: Hm?
+[PAGE]
+Well, if it isn't {PLAYER}!
+So you're all finished moving in?
+[PAGE]
+I'm surprised that you managed to
+get here by yourself.
+[PAGE]
+Oh, I see.
+You're with your POKéMON.
+[PAGE]
+Hm… Then I guess you're going to
+become a TRAINER like me, {PLAYER}.
+[PAGE]
+That's great news!
+I'll be looking forward to it!",,untranslated,\p | {PLAYER} | \n | \p | \n | \p | \n | \p | \nbe | {PLAYER} | \p | \n,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2833d41c93d5f47b,36,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,2,Norman,PetalburgCity_Gym_EventScript_NormanNoBadges,data/maps/PetalburgCity_Gym/scripts.inc,1228,PetalburgCity_Gym_Text_NormanGoToRustboro,"DAD: Hm? Aren't you going to the\nPOKéMON GYM in RUSTBORO CITY?\pThere's no challenge for me to\nbattle a greenhorn TRAINER.\p{PLAYER}, I want you to challenge me\nwhen you become a lot stronger.\pI'll battle you, {PLAYER}, when you\ncan show me four GYM BADGES, okay?$","DAD: Hm? Aren't you going to the
+POKéMON GYM in RUSTBORO CITY?
+[PAGE]
+There's no challenge for me to
+battle a greenhorn TRAINER.
+[PAGE]
+{PLAYER}, I want you to challenge me
+when you become a lot stronger.
+[PAGE]
+I'll battle you, {PLAYER}, when you
+can show me four GYM BADGES, okay?",,untranslated,\n | \p | \nba | \p | {PLAYER} | \n | \p | {PLAYER} | \nca,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_52b66c5569e850e3,37,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,3,Norman,PetalburgCity_Gym_EventScript_NormanOneBadge,data/maps/PetalburgCity_Gym/scripts.inc,1238,PetalburgCity_Gym_Text_NormanGoToDewford,"DAD: I see… So, you've beaten\nthe GYM LEADER in RUSTBORO CITY.\pBut there are many more TRAINERS\nwho are stronger than you, {PLAYER}.\pAcross the sea in DEWFORD TOWN is a\nGYM LEADER named BRAWLY.\pYou should go challenge him.$","DAD: I see… So, you've beaten
+the GYM LEADER in RUSTBORO CITY.
+[PAGE]
+But there are many more TRAINERS
+who are stronger than you, {PLAYER}.
+[PAGE]
+Across the sea in DEWFORD TOWN is a
+GYM LEADER named BRAWLY.
+[PAGE]
+You should go challenge him.",,untranslated,\n | \pB | \n | {PLAYER} | \pAc | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_341cabcfb47a1d38,38,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,4,,PetalburgCity_Gym_EventScript_NormanTwoBadges,data/maps/PetalburgCity_Gym/scripts.inc,1247,PetalburgCity_Gym_Text_YouHaveGottenStronger,"DAD: Hm… {PLAYER}, you have gotten\nstronger.\pI can tell by the number of BADGES\nthat you've earned.$","DAD: Hm… {PLAYER}, you have gotten
+stronger.
+[PAGE]
+I can tell by the number of BADGES
+that you've earned.",,untranslated,{PLAYER} | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a4dd4d5adc4061ee,39,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,5,,PetalburgCity_Gym_EventScript_NormanPostBattle,data/maps/PetalburgCity_Gym/scripts.inc,1311,PetalburgCity_Gym_Text_DadGoingToKeepTraining,"DAD: {PLAYER}, you should go visit\nyour mother every so often.\pI'm going to stay here and redouble\nmy training.\pIt would bother me as a TRAINER to\nnot avenge my loss to you, {PLAYER}!$","DAD: {PLAYER}, you should go visit
+your mother every so often.
+[PAGE]
+I'm going to stay here and redouble
+my training.
+[PAGE]
+It would bother me as a TRAINER to
+not avenge my loss to you, {PLAYER}!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | {PLAYER},{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b1dbf403a97f2f0c,40,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,6,Norman,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1253,PetalburgCity_Gym_Text_NormanIntro,"DAD: Hm…\nSo, you did get four GYM BADGES.\pFine, as I promised, we will have\na POKéMON battle.\p{PLAYER}…\pI'm so happy that I can have\na real battle with my own child.\pBut, a battle is a battle!\pI will do everything in my power as\na GYM LEADER to win.\p{PLAYER}, you'd better give it your\nbest shot, too!$","DAD: Hm…
+So, you did get four GYM BADGES.
+[PAGE]
+Fine, as I promised, we will have
+a POKéMON battle.
+[PAGE]
+{PLAYER}…
+[PAGE]
+I'm so happy that I can have
+a real battle with my own child.
+[PAGE]
+But, a battle is a battle!
+[PAGE]
+I will do everything in my power as
+a GYM LEADER to win.
+[PAGE]
+{PLAYER}, you'd better give it your
+best shot, too!",,untranslated,\n | \pF | \na | \p | {PLAYER} | \p | \na | \pB | \p | \na | \p | {PLAYER} | \nbe,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_02937a0c67770c8c,41,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,7,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1275,PetalburgCity_Gym_Text_ReceivedBalanceBadge,{PLAYER} received the BALANCE BADGE\nfrom DAD!$,"{PLAYER} received the BALANCE BADGE
+from DAD!",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_1349dbfc0225bf7b,42,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,8,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1279,PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis,"DAD: With that BADGE, the DEFENSE\nof all your POKéMON will increase.\pPOKéMON that know the HM move SURF\nwill be able to travel over water.\pThis is my gift to you. {PLAYER}, I'm\nsure you can use it correctly.$","DAD: With that BADGE, the DEFENSE
+of all your POKéMON will increase.
+[PAGE]
+POKéMON that know the HM move SURF
+will be able to travel over water.
+[PAGE]
+This is my gift to you. {PLAYER}, I'm
+sure you can use it correctly.",,untranslated,\n | \p | \n | \p | {PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_189afa7d715ce58f,43,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,9,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1295,PetalburgCity_Gym_Text_DadHappyAndSad,"DAD: As the GYM LEADER, I can't\nexpress how upset I am…\pBut as a father, it makes me both\nhappy and a little sad. It's odd…$","DAD: As the GYM LEADER, I can't
+express how upset I am…
+[PAGE]
+But as a father, it makes me both
+happy and a little sad. It's odd…",,untranslated,\ne | \pB | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ca804248caf18a66,44,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,10,,PetalburgCity_Gym_EventScript_WallysDadArrives,data/maps/PetalburgCity_Gym/scripts.inc,1301,PetalburgCity_Gym_Text_PleaseComeWithMe,"Ah, there you are, {PLAYER}{KUN}!\pPlease come with me.\nI have something I want you to have.$","Ah, there you are, {PLAYER}{KUN}!
+[PAGE]
+Please come with me.
+I have something I want you to have.",,untranslated,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_258c92ca2f19d536,45,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,11,,PetalburgCity_Gym_EventScript_WallysDadArrives,data/maps/PetalburgCity_Gym/scripts.inc,1306,PetalburgCity_Gym_Text_LetMeBorrowPlayer,"NORMAN, you don't mind, do you?\pLet me borrow your {PLAYER}{KUN} for\na minute or two.$","NORMAN, you don't mind, do you?
+[PAGE]
+Let me borrow your {PLAYER}{KUN} for
+a minute or two.",,untranslated,\p | {PLAYER} | {KUN} | \na,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5ffaf85215a0f479,46,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,,10,PetalburgCity_Gym,norman,PetalburgCity Gym,12,,PetalburgCity_Gym_EventScript_GiveFacade,data/maps/PetalburgCity_Gym/scripts.inc,1287,PetalburgCity_Gym_Text_ExplainFacade,"DAD: TM42 contains FACADE.\pIt doubles the power of moves if\nthe POKéMON is poisoned, paralyzed,\lor burned.\pIt might be able to turn a bad\nsituation into an advantage.$","DAD: TM42 contains FACADE.
+[PAGE]
+It doubles the power of moves if
+the POKéMON is poisoned, paralyzed,
+or burned.
+[PAGE]
+It might be able to turn a bad
+situation into an advantage.",,untranslated,\p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

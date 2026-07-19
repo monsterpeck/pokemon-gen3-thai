@@ -1,0 +1,13 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_c9c9cfc75f70e8e3,10,02,littleroot,Littleroot,ลิตเติลรูต,3,littleroot_arrival,Littleroot arrival,,3,LittlerootTown_BrendansHouse_1F,arrival,LittlerootTown BrendansHouse 1F,1,,PlayersHouse_1F_EventScript_EnterHouseMovingIn,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc,285,PlayersHouse_1F_Text_IsntItNiceInHere,"MOM: See, {PLAYER}?\nIsn't it nice in here, too?$","MOM: See, {PLAYER}?
+Isn't it nice in here, too?",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_bd705cc8a504bb05,11,02,littleroot,Littleroot,ลิตเติลรูต,3,littleroot_arrival,Littleroot arrival,,3,LittlerootTown_BrendansHouse_1F,arrival,LittlerootTown BrendansHouse 1F,2,,PlayersHouse_1F_EventScript_EnterHouseMovingIn,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc,289,PlayersHouse_1F_Text_MoversPokemonGoSetClock,"The mover's POKéMON do all the work\nof moving us in and cleaning up after.\lThis is so convenient!\p{PLAYER}, your room is upstairs.\nGo check it out, dear!\pDAD bought you a new clock to mark\nour move here.\lDon't forget to set it!$","The mover's POKéMON do all the work
+of moving us in and cleaning up after.
+This is so convenient!
+[PAGE]
+{PLAYER}, your room is upstairs.
+Go check it out, dear!
+[PAGE]
+DAD bought you a new clock to mark
+our move here.
+Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \pDA | \n | \lD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

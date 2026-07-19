@@ -1,0 +1,5 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_4df79a104565cdd7,187,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,32,aqua_hideout,Aqua Hideout,,32,AquaHideout_1F,aqua_hideout,AquaHideout 1F,1,,AquaHideout_B2F_EventScript_SubmarineEscape,data/maps/AquaHideout_B2F/scripts.inc,102,AquaHideout_B2F_Text_OurBossGotThroughHisPreparations,"Hehehe!\pWhile I was toying with you, our BOSS\ngot through his preparations!$","Hehehe!
+[PAGE]
+While I was toying with you, our BOSS
+got through his preparations!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

@@ -1,0 +1,233 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_2d66888f162fdf06,236,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,1,Juan,SootopolisCity_Gym_1F_EventScript_Juan,data/maps/SootopolisCity_Gym_1F/scripts.inc,259,SootopolisCity_Gym_1F_Text_JuanPostBattle,"The TRAINERS who have gathered all\nthe GYM BADGES of HOENN should make\lway to the ultimate destination.\pThe POKéMON LEAGUE.\pTravel to the easternmost reaches\nof HOENN, to the island EVER GRANDE.\pThere, you shall find the POKéMON\nLEAGUE.$","The TRAINERS who have gathered all
+the GYM BADGES of HOENN should make
+way to the ultimate destination.
+[PAGE]
+The POKéMON LEAGUE.
+[PAGE]
+Travel to the easternmost reaches
+of HOENN, to the island EVER GRANDE.
+[PAGE]
+There, you shall find the POKéMON
+LEAGUE.",,untranslated,\n | \l | \p | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e4617a5d97c17e89,237,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,2,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,234,SootopolisCity_Gym_1F_Text_ReceivedRainBadge,{PLAYER} received the RAIN BADGE\nfrom JUAN.$,"{PLAYER} received the RAIN BADGE
+from JUAN.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_04c38272168a6c08,238,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,3,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,238,SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis,"Having the RAIN BADGE shall assure you\nthe full obedience of all your POKéMON\lto your every command.\pThe RAIN BADGE also allows the use\nof the HM move WATERFALL to scale\lwalls of cascading water.\pAnd, so that you never forget the\nbattle we shared, take this…$","Having the RAIN BADGE shall assure you
+the full obedience of all your POKéMON
+to your every command.
+[PAGE]
+The RAIN BADGE also allows the use
+of the HM move WATERFALL to scale
+walls of cascading water.
+[PAGE]
+And, so that you never forget the
+battle we shared, take this…",,untranslated,\n | \l | \p | \n | \l | \pA | \nba,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b78ca7c65ffc780f,239,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,4,,SootopolisCity_Gym_1F_EventScript_GiveWaterPulse,data/maps/SootopolisCity_Gym_1F/scripts.inc,248,SootopolisCity_Gym_1F_Text_ExplainWaterPulse,"The TECHNICAL MACHINE I handed you\ncontains WATER PULSE.\pIn use, it will occasionally confuse\nthe target with ultrasonic waves.\p… … … … … …$","The TECHNICAL MACHINE I handed you
+contains WATER PULSE.
+[PAGE]
+In use, it will occasionally confuse
+the target with ultrasonic waves.
+[PAGE]
+… … … … … …",,untranslated,\nc | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dd46d9c50f26106a,240,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,5,,SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge,data/maps/SootopolisCity_Gym_1F/scripts.inc,269,SootopolisCity_Gym_1F_Text_GoGetFortreeBadge,"There remains but one BADGE to\nobtain in HOENN.\pIf you wish to challenge the POKéMON\nLEAGUE, you must obtain the last\lBADGE from the GYM in FORTREE.$","There remains but one BADGE to
+obtain in HOENN.
+[PAGE]
+If you wish to challenge the POKéMON
+LEAGUE, you must obtain the last
+BADGE from the GYM in FORTREE.",,untranslated,\n | \p | \n | \lBA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ae26a5585d0e39c3,241,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,1,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,120,VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore,"WALLY: Hi! {PLAYER}!\pI bet you're surprised to see me here!\pI made it all the way here, and it's\nall thanks to you!\p{PLAYER}, losing to you that time\nmade me stronger!\pBut I'm not going to lose anymore!\pI'm going to win! For the POKéMON who\ngave me courage and strength!\pOkay… Here I come!$","WALLY: Hi! {PLAYER}!
+[PAGE]
+I bet you're surprised to see me here!
+[PAGE]
+I made it all the way here, and it's
+all thanks to you!
+[PAGE]
+{PLAYER}, losing to you that time
+made me stronger!
+[PAGE]
+But I'm not going to lose anymore!
+[PAGE]
+I'm going to win! For the POKéMON who
+gave me courage and strength!
+[PAGE]
+Okay… Here I come!",,untranslated,{PLAYER} | \p | \p | \na | \p | {PLAYER} | \n | \pB | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2c3eb5a86574bda7,242,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,2,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,136,VictoryRoad_1F_Text_WallyPostEntranceBattle,"WALLY: I couldn't beat you today,\n{PLAYER}, but one of these days, I'll\lcatch up to you!$","WALLY: I couldn't beat you today,
+{PLAYER}, but one of these days, I'll
+catch up to you!",,untranslated,\n | {PLAYER} | \lca,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_166dd7131ed8aba5,243,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,1,,EverGrandeCity_DrakesRoom_EventScript_Drake,data/maps/EverGrandeCity_DrakesRoom/scripts.inc,63,EverGrandeCity_DrakesRoom_Text_IntroSpeech,"I am the last of the POKéMON LEAGUE\nELITE FOUR, DRAKE the DRAGON master!\pIn their natural state, POKéMON are\nwild living things. They are free.\pAt times, they hinder us.\nAt times, they help us.\pFor us to battle with POKéMON as\npartners, do you know what it takes?\pDo you know what is needed?\pIf you don't, then you will never\nprevail over me!$","I am the last of the POKéMON LEAGUE
+ELITE FOUR, DRAKE the DRAGON master!
+[PAGE]
+In their natural state, POKéMON are
+wild living things. They are free.
+[PAGE]
+At times, they hinder us.
+At times, they help us.
+[PAGE]
+For us to battle with POKéMON as
+partners, do you know what it takes?
+[PAGE]
+Do you know what is needed?
+[PAGE]
+If you don't, then you will never
+prevail over me!",,untranslated,\nE | \p | \n | \pA | \nA | \pF | \n | \pD | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_27801ee152f487cf,244,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,2,,EverGrandeCity_GlaciasRoom_EventScript_Glacia,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc,60,EverGrandeCity_GlaciasRoom_Text_IntroSpeech,"Welcome, my name is GLACIA\nof the ELITE FOUR.\pI've traveled from afar to HOENN\nso that I may hone my ice skills.\pBut all I have seen are challenges by\nweak TRAINERS and their POKéMON.\pWhat about you?\pIt would please me to no end if I could\ngo all out against you!$","Welcome, my name is GLACIA
+of the ELITE FOUR.
+[PAGE]
+I've traveled from afar to HOENN
+so that I may hone my ice skills.
+[PAGE]
+But all I have seen are challenges by
+weak TRAINERS and their POKéMON.
+[PAGE]
+What about you?
+[PAGE]
+It would please me to no end if I could
+go all out against you!",,untranslated,\n | \p | \n | \pB | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e4d602d030fbda7,245,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,3,,EverGrandeCity_PhoebesRoom_EventScript_Phoebe,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc,60,EverGrandeCity_PhoebesRoom_Text_IntroSpeech,"Ahahaha!\pI'm PHOEBE of the ELITE FOUR.\nI did my training on MT. PYRE.\pWhile I trained, I gained the ability\nto commune with GHOST-type POKéMON.\pYes, the bond I developed with POKéMON\nis extremely tight.\pSo, come on, just try and see if you can\neven inflict damage on my POKéMON!$","Ahahaha!
+[PAGE]
+I'm PHOEBE of the ELITE FOUR.
+I did my training on MT. PYRE.
+[PAGE]
+While I trained, I gained the ability
+to commune with GHOST-type POKéMON.
+[PAGE]
+Yes, the bond I developed with POKéMON
+is extremely tight.
+[PAGE]
+So, come on, just try and see if you can
+even inflict damage on my POKéMON!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \ne,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_eb6ec0975494eabc,246,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,4,,EverGrandeCity_SidneysRoom_EventScript_Sidney,data/maps/EverGrandeCity_SidneysRoom/scripts.inc,66,EverGrandeCity_SidneysRoom_Text_IntroSpeech,"Welcome, challenger!\nI'm SIDNEY of the ELITE FOUR.\pI like that look you're giving me.\nI guess you'll give me a good match.\lThat's good! Looking real good!\pAll right! You and me, let's enjoy\na battle that can only be staged\lhere in the POKéMON LEAGUE!$","Welcome, challenger!
+I'm SIDNEY of the ELITE FOUR.
+[PAGE]
+I like that look you're giving me.
+I guess you'll give me a good match.
+That's good! Looking real good!
+[PAGE]
+All right! You and me, let's enjoy
+a battle that can only be staged
+here in the POKéMON LEAGUE!",,untranslated,\n | \p | \n | \l | \pA | \na | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2ebe47d3ac14fd8e,247,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,1,,EverGrandeCity_ChampionsRoom_EventScript_Wallace,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,221,EverGrandeCity_ChampionsRoom_Text_IntroSpeech,"WALLACE: Welcome, {PLAYER}{KUN}.\pThat incident in SOOTOPOLIS CITY…\nThat was superb work, putting an end\lto that crisis all by yourself.\pOops!\pIt wouldn't be fair to say that you\nalone ended the crisis.\pYou overcame that difficult situation\nby working as one with your POKéMON.\pWe TRAINERS raise POKéMON by giving\nthem items and by teaching them new\ltechniques for battle.\pBut we ourselves also learn many\nthings from POKéMON.\pAnd this is where your achievements\nare put to the test against what\lothers like you have achieved.\pNow!\pWho can most elegantly dance with\ntheir POKéMON in HOENN?\pShow me right here and now!$","WALLACE: Welcome, {PLAYER}{KUN}.
+[PAGE]
+That incident in SOOTOPOLIS CITY…
+That was superb work, putting an end
+to that crisis all by yourself.
+[PAGE]
+Oops!
+[PAGE]
+It wouldn't be fair to say that you
+alone ended the crisis.
+[PAGE]
+You overcame that difficult situation
+by working as one with your POKéMON.
+[PAGE]
+We TRAINERS raise POKéMON by giving
+them items and by teaching them new
+techniques for battle.
+[PAGE]
+But we ourselves also learn many
+things from POKéMON.
+[PAGE]
+And this is where your achievements
+are put to the test against what
+others like you have achieved.
+[PAGE]
+Now!
+[PAGE]
+Who can most elegantly dance with
+their POKéMON in HOENN?
+[PAGE]
+Show me right here and now!",,untranslated,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \na | \p | \nb | \p | \n | \l | \pB | \n | \pA | \na | \l | \p | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
+[PAGE]
+Here's some advice before you challenge
+the CHAMPION…",,untranslated,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7998d023049f109f,249,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,3,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,273,EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver,"MAY: Huh?\nWhat, what, what?\p{PLAYER}{KUN}…\nCould it be that…\lIt's already over?$","MAY: Huh?
+What, what, what?
+[PAGE]
+{PLAYER}{KUN}…
+Could it be that…
+It's already over?",,untranslated,\n | \p | {PLAYER} | {KUN} | \nC | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_002edf666920d96c,250,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,4,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,280,EverGrandeCity_ChampionsRoom_Text_BrendanAdvice,BRENDAN: {PLAYER}!\pHow would you like some advice before\nyou challenge the CHAMPION?…$,"BRENDAN: {PLAYER}!
+[PAGE]
+How would you like some advice before
+you challenge the CHAMPION?…",,untranslated,{PLAYER} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2354d73bb4e62974,251,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,5,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,285,EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon,BRENDAN: {PLAYER}…\pAre you trying to tell me…\nYou've beaten the CHAMPION?$,"BRENDAN: {PLAYER}…
+[PAGE]
+Are you trying to tell me…
+You've beaten the CHAMPION?",,untranslated,{PLAYER} | \pA | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_81ca23e1fc2c226a,252,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,6,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,290,EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex,"PROF. BIRCH: See?\nWhat did I tell you, {RIVAL}?\pDidn't I tell you that you don't need\nto worry about {PLAYER}{KUN}?\p… … … … … … … …\n{PLAYER}{KUN}, you've finally done it.\pWhen I heard that you defeated your\nown father at the PETALBURG GYM,\lI thought perhaps you had a chance…\pBut to think you've actually become\nthe CHAMPION!\pAh, yes!\pWhat became of your POKéDEX?\nHere, let me see.$","PROF. BIRCH: See?
+What did I tell you, {RIVAL}?
+[PAGE]
+Didn't I tell you that you don't need
+to worry about {PLAYER}{KUN}?
+[PAGE]
+… … … … … … … …
+{PLAYER}{KUN}, you've finally done it.
+[PAGE]
+When I heard that you defeated your
+own father at the PETALBURG GYM,
+I thought perhaps you had a chance…
+[PAGE]
+But to think you've actually become
+the CHAMPION!
+[PAGE]
+Ah, yes!
+[PAGE]
+What became of your POKéDEX?
+Here, let me see.",,untranslated,\n | {RIVAL} | \pD | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \pB | \n | \pA | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dd762debedb89c77,253,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,7,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,306,EverGrandeCity_ChampionsRoom_Text_BirchCongratulations,"PROF. BIRCH: Anyways,\ncongratulations!\pNow, go proudly into the final room!$","PROF. BIRCH: Anyways,
+congratulations!
+[PAGE]
+Now, go proudly into the final room!",,untranslated,\nc | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e48bce6d96070af2,254,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,8,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,311,EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe,"WALLACE: {PLAYER}{KUN}…\pNo, let me rephrase that properly.\pThe new CHAMPION!\pCome with me.$","WALLACE: {PLAYER}{KUN}…
+[PAGE]
+No, let me rephrase that properly.
+[PAGE]
+The new CHAMPION!
+[PAGE]
+Come with me.",,untranslated,{PLAYER} | {KUN} | \p | \p | \pC,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_44055334f4fe10fa,255,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,9,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,317,EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside,"WALLACE: I'm sorry, but…\pFrom here on, only those TRAINERS who\nhave become CHAMPIONS may enter.\pYou'll have to wait outside with\nPROF. BIRCH.$","WALLACE: I'm sorry, but…
+[PAGE]
+From here on, only those TRAINERS who
+have become CHAMPIONS may enter.
+[PAGE]
+You'll have to wait outside with
+PROF. BIRCH.",,untranslated,\pF | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ba212f09bd9a9718,256,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,10,May,EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,324,EverGrandeCity_ChampionsRoom_Text_MayCongratulations,"MAY: Groan…\p… … … … … … … …\n… … … … … … … …\pI'm just joking! That's okay!\nThat's the rule!\p{PLAYER}{KUN}!\nHonestly, congratulations!$","MAY: Groan…
+[PAGE]
+… … … … … … … …
+… … … … … … … …
+[PAGE]
+I'm just joking! That's okay!
+That's the rule!
+[PAGE]
+{PLAYER}{KUN}!
+Honestly, congratulations!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d3aa53241d06684c,257,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,11,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,333,EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations,"BRENDAN: Whaaaat?! … … … … …\n… … … … … … … …\pIt can't be helped if that's the rule.\p{PLAYER}, way to go!\nCongratulations!$","BRENDAN: Whaaaat?! … … … … …
+… … … … … … … …
+[PAGE]
+It can't be helped if that's the rule.
+[PAGE]
+{PLAYER}, way to go!
+Congratulations!",,untranslated,\n | \p | \p | {PLAYER} | \nC,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7696ddbcad4cdaca,258,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,12,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,9,gBirchDexRatingText_SoYouveSeenAndCaught,"Hmhm…\pSo, you've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+[PAGE]
+So, you've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",,untranslated,\p | {STR_VAR_1} | \na | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dc0ce7c8455a31db,259,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,13,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,110,gBirchDexRatingText_OnANationwideBasis,"Hmhm…\nOn a nationwide basis…\pYou've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+On a nationwide basis…
+[PAGE]
+You've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",,untranslated,\n | \p | {STR_VAR_1} | \na | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_620c88648d5b14e6,260,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,1,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,81,EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions,WALLACE: This room…\pThis is where we keep records of\nPOKéMON that prevailed through\lharsh battles.\pIt is here that the LEAGUE CHAMPIONS\nare honored.$,"WALLACE: This room…
+[PAGE]
+This is where we keep records of
+POKéMON that prevailed through
+harsh battles.
+[PAGE]
+It is here that the LEAGUE CHAMPIONS
+are honored.",,untranslated,\p | \n | \l | \p | \na,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
+name as a TRAINER who triumphed over
+the POKéMON LEAGUE, and the names of
+the partners who battled with you.",,untranslated,\n | \l | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

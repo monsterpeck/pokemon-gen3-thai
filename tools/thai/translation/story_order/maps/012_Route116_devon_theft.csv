@@ -1,0 +1,28 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_55e2e299eaa32230,63,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,,13,Route116,devon_theft,Route116,1,,RustboroCity_EventScript_StolenGoodsScene,data/maps/RustboroCity/scripts.inc,1089,RustboroCity_Text_OutOfTheWay,Get out!\nOut of the way!$,"Get out!
+Out of the way!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fc09693422d97c87,64,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,,13,Route116,devon_theft,Route116,2,,RustboroCity_EventScript_StolenGoodsScene,data/maps/RustboroCity/scripts.inc,1093,RustboroCity_Text_WaitDontTakeMyGoods,Wait! Pleeeaaase!\pDon't take my GOODS!$,"Wait! Pleeeaaase!
+[PAGE]
+Don't take my GOODS!",,untranslated,\pD,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3af0169168c5908b,65,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,,13,Route116,devon_theft,Route116,3,,RustboroCity_EventScript_EmployeeAskToGetGoods,data/maps/RustboroCity/scripts.inc,1097,RustboroCity_Text_HelpMeIWasRobbed,"Oh, it's you!\pYou're that fantastic TRAINER who\nhelped me in PETALBURG WOODS!\pHelp me! I was robbed by TEAM AQUA!\nI have to get the DEVON GOODS back!\pIf I don't…\nI'm going to be in serious trouble.$","Oh, it's you!
+[PAGE]
+You're that fantastic TRAINER who
+helped me in PETALBURG WOODS!
+[PAGE]
+Help me! I was robbed by TEAM AQUA!
+I have to get the DEVON GOODS back!
+[PAGE]
+If I don't…
+I'm going to be in serious trouble.",,untranslated,\p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_785cd46b2fc2f8ec,66,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,,13,Route116,devon_theft,Route116,4,,RustboroCity_EventScript_ReturnGoods,data/maps/RustboroCity/scripts.inc,1110,RustboroCity_Text_YouGotItThankYou,"Oh! How did it go?\nThe DEVON GOODS?\pYou did!\nYou got them back!\pYou really are a great TRAINER!\pI know! As my thanks, I'll give you\nanother GREAT BALL!$","Oh! How did it go?
+The DEVON GOODS?
+[PAGE]
+You did!
+You got them back!
+[PAGE]
+You really are a great TRAINER!
+[PAGE]
+I know! As my thanks, I'll give you
+another GREAT BALL!",,untranslated,\n | \p | \n | \p | \p | \na,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f237e0965b02f5c4,67,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,,13,Route116,devon_theft,Route116,5,,RustboroCity_EventScript_ReturnGoods,data/maps/RustboroCity/scripts.inc,1123,RustboroCity_Text_PleaseComeWithMe,"Excuse me, please!\nPlease come with me!$","Excuse me, please!
+Please come with me!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

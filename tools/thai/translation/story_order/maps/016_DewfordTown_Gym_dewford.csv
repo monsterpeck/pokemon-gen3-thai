@@ -1,0 +1,21 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_dbb46905c78db3fa,87,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,,17,DewfordTown_Gym,dewford,DewfordTown Gym,1,Brawly,DewfordTown_Gym_EventScript_Brawly,data/maps/DewfordTown_Gym/scripts.inc,420,DewfordTown_Gym_Text_BrawlyPostBattle,I can see your talent becoming a giant\nwave to cause a storm of astonishment\lamong TRAINERS one day!$,"I can see your talent becoming a giant
+wave to cause a storm of astonishment
+among TRAINERS one day!",,untranslated,\n | \la,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b5f1597d44c6a945,88,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,,17,DewfordTown_Gym,dewford,DewfordTown Gym,2,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,397,DewfordTown_Gym_Text_ReceivedKnuckleBadge,{PLAYER} received the KNUCKLE BADGE\nfrom BRAWLY.$,"{PLAYER} received the KNUCKLE BADGE
+from BRAWLY.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_c511203430171749,89,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,,17,DewfordTown_Gym,dewford,DewfordTown Gym,3,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,401,DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis,"The KNUCKLE BADGE makes all POKéMON\nup to Level 30, even those you get in\ltrades, obey without question.\pAnd, you'll be able to use the HM move\nFLASH outside of battle.\pIf you'd like, use this TECHNICAL\nMACHINE, too.$","The KNUCKLE BADGE makes all POKéMON
+up to Level 30, even those you get in
+trades, obey without question.
+[PAGE]
+And, you'll be able to use the HM move
+FLASH outside of battle.
+[PAGE]
+If you'd like, use this TECHNICAL
+MACHINE, too.",,untranslated,\n | \l | \pA | \nF | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_0e086d2f7643bdb7,90,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,,17,DewfordTown_Gym,dewford,DewfordTown Gym,4,,DewfordTown_Gym_EventScript_GiveBulkUp,data/maps/DewfordTown_Gym/scripts.inc,410,DewfordTown_Gym_Text_ExplainBulkUp,That TM08 contains BULK UP.\pIt's a move that raises both ATTACK\nand DEFENSE stats.\p… … … … … …$,"That TM08 contains BULK UP.
+[PAGE]
+It's a move that raises both ATTACK
+and DEFENSE stats.
+[PAGE]
+… … … … … …",,untranslated,\p | \na | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,

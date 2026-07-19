@@ -1,0 +1,48 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_90522eab9aeeb6c1,158,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,1,Winona,FortreeCity_Gym_EventScript_Winona,data/maps/FortreeCity_Gym/scripts.inc,273,FortreeCity_Gym_Text_WinonaPostBattle,"Though I fell to you, I will remain\ndevoted to BIRD POKéMON.$","Though I fell to you, I will remain
+devoted to BIRD POKéMON.",,untranslated,\nde,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_043520f7cee45426,159,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,2,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,250,FortreeCity_Gym_Text_ReceivedFeatherBadge,{PLAYER} received the FEATHER BADGE\nfrom WINONA.$,"{PLAYER} received the FEATHER BADGE
+from WINONA.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4ba2da8c6c4cb804,160,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,3,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,254,FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis,"With the FEATHER BADGE, all POKéMON up\nto LV 70, even those received through\ltrades, will obey your every command.\pYou will also be able to use\nthe HM move FLY outside of battle.\pAnd this…\nThis is a gift from me.$","With the FEATHER BADGE, all POKéMON up
+to LV 70, even those received through
+trades, will obey your every command.
+[PAGE]
+You will also be able to use
+the HM move FLY outside of battle.
+[PAGE]
+And this…
+This is a gift from me.",,untranslated,\n | \l | \p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_edeb336fc52d099f,161,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,4,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,382,Route120_Text_StevenShowMeYourPower,"STEVEN: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$","STEVEN: {PLAYER}{KUN}, show me your true
+power as a TRAINER!",,untranslated,{PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_8a26b89ed2ec5faf,162,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,5,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,386,Route120_Text_StevenUsedDevonScope,STEVEN used the DEVON SCOPE.\pAn invisible POKéMON became completely\nvisible!\pThe startled POKéMON attacked!$,"STEVEN used the DEVON SCOPE.
+[PAGE]
+An invisible POKéMON became completely
+visible!
+[PAGE]
+The startled POKéMON attacked!",,untranslated,\pA | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_98e1f16605e4b205,163,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,6,,Route120_EventScript_BridgeKecleon,data/maps/Route120/scripts.inc,409,Kecleon_Text_SomethingUnseeable,Something unseeable is in the way.$,Something unseeable is in the way.,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e89bf2fc11073911,164,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,7,,FortreeCity_Gym_EventScript_GiveAerialAce,data/maps/FortreeCity_Gym/scripts.inc,263,FortreeCity_Gym_Text_ExplainAerialAce,TM40 contains AERIAL ACE.\pIts speed…\nNo POKéMON should be able to avoid it.\p… … … … … …$,"TM40 contains AERIAL ACE.
+[PAGE]
+Its speed…
+No POKéMON should be able to avoid it.
+[PAGE]
+… … … … … …",,untranslated,\p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_972b63a027991002,165,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,8,Steven,Route120_EventScript_StevenGiveDeconScope,data/maps/Route120/scripts.inc,392,Route120_Text_StevenGiveDevonScope,"STEVEN: I see…\nYour battle style is intriguing.\pYour POKéMON have obviously grown\nsince I first met you in DEWFORD.\pI'd like you to have this\nDEVON SCOPE.\pWho knows, there may be other\nconcealed POKéMON.$","STEVEN: I see…
+Your battle style is intriguing.
+[PAGE]
+Your POKéMON have obviously grown
+since I first met you in DEWFORD.
+[PAGE]
+I'd like you to have this
+DEVON SCOPE.
+[PAGE]
+Who knows, there may be other
+concealed POKéMON.",,untranslated,\n | \p | \n | \p | \nDE | \p | \nc,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2c9ae36316cdc574,166,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,9,Steven,Route120_EventScript_StevenGiveDeconScope,data/maps/Route120/scripts.inc,402,Route120_Text_StevenGoodbye,"STEVEN: {PLAYER}{KUN}.\pI enjoy seeing POKéMON and TRAINERS\nwho strive together.\pI think you're doing great.\pWell, let's meet again somewhere.$","STEVEN: {PLAYER}{KUN}.
+[PAGE]
+I enjoy seeing POKéMON and TRAINERS
+who strive together.
+[PAGE]
+I think you're doing great.
+[PAGE]
+Well, let's meet again somewhere.",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

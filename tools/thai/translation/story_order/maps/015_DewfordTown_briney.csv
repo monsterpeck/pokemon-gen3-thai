@@ -1,0 +1,46 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_59680c8db999e859,82,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,,16,DewfordTown,briney,DewfordTown,1,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,96,Route104_MrBrineysHouse_Text_WaitUpPeeko,"MR. BRINEY: Hold on, lass!\nWait up, PEEKO!$","MR. BRINEY: Hold on, lass!
+Wait up, PEEKO!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_8b8f8c1d77b9c2c7,83,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,,16,DewfordTown,briney,DewfordTown,2,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,100,Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford,"Hm? You're {PLAYER}{KUN}!\nYou saved my darling PEEKO!\lWe owe so much to you!\pWhat's that?\nYou want to sail with me?\pHmhm…\pYou have a LETTER bound for DEWFORD\nand a package for SLATEPORT, then?\pQuite the busy life you must lead!\pBut, certainly, what you're asking is\nno problem at all.\pYou've come to the right man!\nWe'll set sail for DEWFORD.$","Hm? You're {PLAYER}{KUN}!
+You saved my darling PEEKO!
+We owe so much to you!
+[PAGE]
+What's that?
+You want to sail with me?
+[PAGE]
+Hmhm…
+[PAGE]
+You have a LETTER bound for DEWFORD
+and a package for SLATEPORT, then?
+[PAGE]
+Quite the busy life you must lead!
+[PAGE]
+But, certainly, what you're asking is
+no problem at all.
+[PAGE]
+You've come to the right man!
+We'll set sail for DEWFORD.",,untranslated,{PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \na | \p | \pB | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5a21047689f2dce8,84,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,,16,DewfordTown,briney,DewfordTown,3,,Route104_MrBrineysHouse_EventScript_SailBothDeliveries,data/maps/Route104_MrBrineysHouse/scripts.inc,126,Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a LETTER to DEWFORD\nand a package to SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
+I know exactly what you want to say!
+[PAGE]
+You're to deliver a LETTER to DEWFORD
+and a package to SLATEPORT.
+[PAGE]
+What you need me to do is no problem
+at all--I'm the man for the job!
+[PAGE]
+First, we'll set sail for DEWFORD.",,untranslated,\n | \p | \na | \p | \na | \pF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4fedb8a481fa3e6c,85,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,,16,DewfordTown,briney,DewfordTown,4,,Route104_MrBrineysHouse_EventScript_SailDeliverPackage,data/maps/Route104_MrBrineysHouse/scripts.inc,135,Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a package to\nCAPT. STERN in SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
+I know exactly what you want to say!
+[PAGE]
+You're to deliver a package to
+CAPT. STERN in SLATEPORT.
+[PAGE]
+What you need me to do is no problem
+at all--I'm the man for the job!
+[PAGE]
+First, we'll set sail for DEWFORD.",,untranslated,\n | \p | \nCA | \p | \na | \pF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7eaad53685c1854a,86,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,,16,DewfordTown,briney,DewfordTown,5,,Route104_MrBrineysHouse_EventScript_SailToDewford,data/maps/Route104_MrBrineysHouse/scripts.inc,115,Route104_MrBrineysHouse_Text_SetSailForDewford,"MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$","MR. BRINEY: DEWFORD it is, then!
+[PAGE]
+Anchors aweigh!
+PEEKO, we're setting sail, my darling!",,untranslated,\pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

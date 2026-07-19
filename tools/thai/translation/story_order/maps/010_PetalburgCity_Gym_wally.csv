@@ -1,0 +1,72 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_33f6361195064148,47,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,1,,PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1195,PetalburgCity_Gym_Text_DadSoDidItWorkOut,"DAD: So, did it work out?$","DAD: So, did it work out?",,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5a8bd4e5faf57436,48,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,2,Wally,PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1198,PetalburgCity_Gym_Text_WallyThankYouBye,"WALLY: Thank you, yes, it did.\nHere's your POKéMON back.\p{PLAYER}, thank you for coming along\nwith me.\pYou two are why I was able to catch\nmy POKéMON.\pI promise I'll take really good\ncare of it.\pOh! My mom's waiting for me,\nso I have to go!\pBye, {PLAYER}!$","WALLY: Thank you, yes, it did.
+Here's your POKéMON back.
+[PAGE]
+{PLAYER}, thank you for coming along
+with me.
+[PAGE]
+You two are why I was able to catch
+my POKéMON.
+[PAGE]
+I promise I'll take really good
+care of it.
+[PAGE]
+Oh! My mom's waiting for me,
+so I have to go!
+[PAGE]
+Bye, {PLAYER}!",,untranslated,\n | \p | {PLAYER} | \n | \p | \n | \p | \nca | \p | \n | \pB | {PLAYER},{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_01331361d491fc05,49,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,3,,PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1211,PetalburgCity_Gym_Text_DadGoCollectBadges,"DAD: Now…\p{PLAYER}, if you want to become a\nstrong TRAINER, here's my advice.\pHead for RUSTBORO CITY beyond this\ntown.\pThere, you should challenge\nthe GYM LEADER, ROXANNE.\pAfter her, go on to other POKéMON\nGYMS and defeat their LEADERS.\pCollect BADGES from them,\nunderstood?\pOf course, I'm a GYM LEADER, too.\nWe'll battle one day, {PLAYER}.\pBut that's only after you become\nstronger.$","DAD: Now…
+[PAGE]
+{PLAYER}, if you want to become a
+strong TRAINER, here's my advice.
+[PAGE]
+Head for RUSTBORO CITY beyond this
+town.
+[PAGE]
+There, you should challenge
+the GYM LEADER, ROXANNE.
+[PAGE]
+After her, go on to other POKéMON
+GYMS and defeat their LEADERS.
+[PAGE]
+Collect BADGES from them,
+understood?
+[PAGE]
+Of course, I'm a GYM LEADER, too.
+We'll battle one day, {PLAYER}.
+[PAGE]
+But that's only after you become
+stronger.",,untranslated,\p | {PLAYER} | \n | \p | \n | \p | \n | \pAf | \n | \pC | \n | \p | \n | {PLAYER} | \pB | \n,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_494a02b492be76e5,50,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,4,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1151,PetalburgCity_Gym_Text_WallyIdLikeAPokemon,"Um… I…\nI'd like to get a POKéMON, please…$","Um… I…
+I'd like to get a POKéMON, please…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_20ec25c2eaea2190,51,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,5,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1155,PetalburgCity_Gym_Text_DadOhYoureWallyRight,"DAD: Hm? You're… Uh… Oh, right.\nYou're WALLY, right?$","DAD: Hm? You're… Uh… Oh, right.
+You're WALLY, right?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f98cda4ae5188207,52,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,6,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1159,PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon,"WALLY: I'm going to go stay with my\nrelatives in VERDANTURF TOWN.\pI thought I would be lonely by myself,\nso I wanted to take a POKéMON along.\pBut I've never caught a POKéMON before.\nI don't know how…$","WALLY: I'm going to go stay with my
+relatives in VERDANTURF TOWN.
+[PAGE]
+I thought I would be lonely by myself,
+so I wanted to take a POKéMON along.
+[PAGE]
+But I've never caught a POKéMON before.
+I don't know how…",,untranslated,\n | \p | \n | \pB | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_28c0bea6f705559a,53,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,7,,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1167,PetalburgCity_Gym_Text_DadHmISee,DAD: Hm. I see.$,DAD: Hm. I see.,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_c91c18103becdb2f,54,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,8,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1170,PetalburgCity_Gym_Text_DadPlayerGoWithWally,"DAD: {PLAYER}, you heard that,\nright?\pGo with WALLY and make sure that he\nsafely catches a POKéMON.$","DAD: {PLAYER}, you heard that,
+right?
+[PAGE]
+Go with WALLY and make sure that he
+safely catches a POKéMON.",,untranslated,{PLAYER} | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_eead62b58595e8b5,55,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,9,,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1176,PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon,"WALLY, here, I'll loan you my POKéMON.\pWALLY received a ZIGZAGOON!$","WALLY, here, I'll loan you my POKéMON.
+[PAGE]
+WALLY received a ZIGZAGOON!",,untranslated,\p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_16e7448d926be3cf,56,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,10,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1180,PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall,"WALLY: Oh, wow!\nA POKéMON!\pDAD: Hm. I'll give you a POKé BALL, too.\nGo for it!\pWALLY received a POKé BALL!$","WALLY: Oh, wow!
+A POKéMON!
+[PAGE]
+DAD: Hm. I'll give you a POKé BALL, too.
+Go for it!
+[PAGE]
+WALLY received a POKé BALL!",,untranslated,\nA | \pDA | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_31f4283f58f635f0,57,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,11,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1187,PetalburgCity_Gym_Text_WallyOhWowThankYou,"WALLY: Oh, wow!\nThank you!$","WALLY: Oh, wow!
+Thank you!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e60a3d620dc03986,58,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,,11,PetalburgCity_Gym,wally,PetalburgCity Gym,12,,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1191,PetalburgCity_Gym_Text_WouldYouReallyComeWithMe,{PLAYER}… Would you really come\nwith me?$,"{PLAYER}… Would you really come
+with me?",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

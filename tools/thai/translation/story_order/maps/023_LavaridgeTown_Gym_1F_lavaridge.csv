@@ -1,0 +1,25 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_ad170cc8edbfbd94,142,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,1,Flannery,LavaridgeTown_Gym_1F_EventScript_Flannery,data/maps/LavaridgeTown_Gym_1F/scripts.inc,353,LavaridgeTown_Gym_1F_Text_FlanneryPostBattle,"Your power reminds me of someone…\pOh! I know! You battle like NORMAN,\nthe GYM LEADER of PETALBURG.$","Your power reminds me of someone…
+[PAGE]
+Oh! I know! You battle like NORMAN,
+the GYM LEADER of PETALBURG.",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_85cc669a07cfd1db,143,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,2,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,327,LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the HEAT BADGE\nfrom FLANNERY.$,"{PLAYER} received the HEAT BADGE
+from FLANNERY.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_1082e920ad6c3157,144,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,3,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,331,LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis,"If you have a HEAT BADGE, all POKéMON\nup to Level 50, even those you get in\ltrades from other people, will obey\lyou completely.\pAnd, it lets POKéMON use the HM move\nSTRENGTH outside of battle.\pThis is a token of my appreciation.\nDon't be shy about taking it!$","If you have a HEAT BADGE, all POKéMON
+up to Level 50, even those you get in
+trades from other people, will obey
+you completely.
+[PAGE]
+And, it lets POKéMON use the HM move
+STRENGTH outside of battle.
+[PAGE]
+This is a token of my appreciation.
+Don't be shy about taking it!",,untranslated,\n | \l | \l | \pA | \n | \p | \nD,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dc7603a3e7b7cee7,145,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,4,,LavaridgeTown_Gym_1F_EventScript_GiveOverheat2,data/maps/LavaridgeTown_Gym_1F/scripts.inc,341,LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$,"That TM50 contains OVERHEAT.
+[PAGE]
+That move inflicts serious damage on
+the opponent.
+[PAGE]
+But it also sharply cuts the SP. ATK
+of the POKéMON using it. It might not
+be suitable for longer battles.",,untranslated,\p | \n | \pB | \n | \lbe,,high,high,Resolved from a checklist event seed through direct or chained script references.,

@@ -1,0 +1,45 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_36ea63b7ce608519,172,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,1,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,181,MagmaHideout_4F_Text_MaxieAwakenGroudon,MAXIE: GROUDON…\pNothing could awaken you from your\nsleep bathed in magma…\pThis BLUE ORB is what you sought.\nWasn't it?\pI have brought you the BLUE ORB.\nLet its shine awaken you!\pAnd show me…\nShow me the full extent of your power!$,"MAXIE: GROUDON…
+[PAGE]
+Nothing could awaken you from your
+sleep bathed in magma…
+[PAGE]
+This BLUE ORB is what you sought.
+Wasn't it?
+[PAGE]
+I have brought you the BLUE ORB.
+Let its shine awaken you!
+[PAGE]
+And show me…
+Show me the full extent of your power!",,untranslated,\p | \n | \p | \n | \p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f34fbe4729fcf204,173,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,2,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,192,MagmaHideout_4F_Text_MaxieGroudonWhatsWrong,MAXIE: GROUDON!\nWhat's wrong?\pWasn't the BLUE ORB the key?\pGROUDON!\nWhere have you gone…$,"MAXIE: GROUDON!
+What's wrong?
+[PAGE]
+Wasn't the BLUE ORB the key?
+[PAGE]
+GROUDON!
+Where have you gone…",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_4943951ba089dba9,174,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,3,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,199,MagmaHideout_4F_Text_MaxieOhItWasYou,"MAXIE: Oh, so it was you?\pI've seen you poking around uninvited\nhere and there…\pI get it now!\nYou must have pulled a cheap stunt!$","MAXIE: Oh, so it was you?
+[PAGE]
+I've seen you poking around uninvited
+here and there…
+[PAGE]
+I get it now!
+You must have pulled a cheap stunt!",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_0ced0caff1c00ef9,175,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,4,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,210,MagmaHideout_4F_Text_MaxieImGoingAfterGroudon,"MAXIE: There has to be some reason\nwhy GROUDON fled…\pThat's what you're trying to say,\naren't you?\p… … … … … …\n… … … … … …\pHumph…\nYou think I didn't know that?\pWith GROUDON gone, there is no longer\nany need for this blasted volcano.\pI am going after GROUDON, so this\nis where we part!$","MAXIE: There has to be some reason
+why GROUDON fled…
+[PAGE]
+That's what you're trying to say,
+aren't you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Humph…
+You think I didn't know that?
+[PAGE]
+With GROUDON gone, there is no longer
+any need for this blasted volcano.
+[PAGE]
+I am going after GROUDON, so this
+is where we part!",,untranslated,\n | \p | \na | \p | \n | \p | \n | \p | \na | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

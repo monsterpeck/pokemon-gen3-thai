@@ -1,0 +1,23 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_c535707ea4269a80,234,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,1,,SootopolisCity_EventScript_MaxieRayquaza,data/maps/SootopolisCity/scripts.inc,1580,SootopolisCity_Text_AfterAllOurScheming,"MAXIE: So the super-ancient POKéMON\nweren't only GROUDON and KYOGRE…\pAfter all our fruitless scheming and\nfrantic efforts, that one POKéMON's\lsimple action puts everything right\lagain as if nothing had happened…\pFu…\nFuhahaha…$","MAXIE: So the super-ancient POKéMON
+weren't only GROUDON and KYOGRE…
+[PAGE]
+After all our fruitless scheming and
+frantic efforts, that one POKéMON's
+simple action puts everything right
+again as if nothing had happened…
+[PAGE]
+Fu…
+Fuhahaha…",,untranslated,\n | \pAf | \nf | \l | \la | \pF | \nF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6e265d07775a618e,235,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,2,,SootopolisCity_EventScript_ArchieRayquaza,data/maps/SootopolisCity/scripts.inc,1599,SootopolisCity_Text_TryingMeaninglessToPokemon,"ARCHIE: KYOGRE and GROUDON both\nflew off to who knows where.\pThe weather in HOENN has returned\nto its normal state…\pHaha…\nHahaha…\pMaybe what we were trying to do was\nsomething small, even meaningless,\lto POKéMON…$","ARCHIE: KYOGRE and GROUDON both
+flew off to who knows where.
+[PAGE]
+The weather in HOENN has returned
+to its normal state…
+[PAGE]
+Haha…
+Hahaha…
+[PAGE]
+Maybe what we were trying to do was
+something small, even meaningless,
+to POKéMON…",,untranslated,\nf | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
