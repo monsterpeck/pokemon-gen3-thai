@@ -22,14 +22,38 @@ PREVIEW_SCALE = 8
 FONT_SIZE = 18
 THRESHOLD = 128
 
-MAX_WIDTH = 12
-MAX_HEIGHT = 14
+MAX_WIDTH = 10
+MAX_HEIGHT = 13
 
 BACKGROUND = 0
 MAIN_STROKE = 1
 SHADOW = 2
 
 FIRST_GLYPH_ID = 0x11D
+
+GLYPH_OVERRIDES = {
+    # ตัวเหล่านี้มีสัดส่วนจากฟอนต์ต้นฉบับแคบและเล็กกว่าตัวอื่น
+    # จึงขยายเฉพาะแนวนอน/แนวตั้ง และเลื่อนขึ้นเล็กน้อย
+    "ฑ": {
+        "scale_x": 1.18,
+        "scale_y": 1.08,
+        "offset_x": 0,
+        "offset_y": -1,
+    },
+    "ฒ": {
+        "scale_x": 1.18,
+        "scale_y": 1.08,
+        "offset_x": 0,
+        "offset_y": -1,
+    },
+    "ณ": {
+        "scale_x": 1.15,
+        "scale_y": 1.08,
+        "offset_x": 0,
+        "offset_y": -1,
+    },
+}
+
 
 
 @dataclass(frozen=True)
@@ -128,7 +152,10 @@ def render_character(
     return source.crop(visible_box)
 
 
-def fit_into_glyph(source: Image.Image) -> Image.Image:
+def fit_into_glyph(
+    source: Image.Image,
+    character: str,
+) -> Image.Image:
     scale = min(
         MAX_WIDTH / source.width,
         MAX_HEIGHT / source.height,
@@ -144,6 +171,47 @@ def fit_into_glyph(source: Image.Image) -> Image.Image:
         round(source.height * scale),
     )
 
+    override = GLYPH_OVERRIDES.get(
+        character,
+        {},
+    )
+
+    scale_x = override.get(
+        "scale_x",
+        1.0,
+    )
+
+    scale_y = override.get(
+        "scale_y",
+        1.0,
+    )
+
+    offset_x = override.get(
+        "offset_x",
+        0,
+    )
+
+    offset_y = override.get(
+        "offset_y",
+        0,
+    )
+
+    new_width = min(
+        GLYPH_SIZE - 2,
+        max(
+            1,
+            round(new_width * scale_x),
+        ),
+    )
+
+    new_height = min(
+        GLYPH_SIZE - 2,
+        max(
+            1,
+            round(new_height * scale_y),
+        ),
+    )
+
     resized = source.resize(
         (new_width, new_height),
         resample=Image.Resampling.LANCZOS,
@@ -156,12 +224,30 @@ def fit_into_glyph(source: Image.Image) -> Image.Image:
     )
 
     target_x = (
-        GLYPH_SIZE - new_width
-    ) // 2
+        (GLYPH_SIZE - new_width) // 2
+        + offset_x
+    )
 
     target_y = (
-        GLYPH_SIZE - new_height
-    ) // 2
+        (GLYPH_SIZE - new_height) // 2
+        + offset_y
+    )
+
+    target_x = max(
+        0,
+        min(
+            target_x,
+            GLYPH_SIZE - new_width,
+        ),
+    )
+
+    target_y = max(
+        0,
+        min(
+            target_y,
+            GLYPH_SIZE - new_height,
+        ),
+    )
 
     glyph.paste(
         resized,
@@ -382,7 +468,7 @@ def main() -> None:
             font,
         )
 
-        mask = fit_into_glyph(source)
+        mask = fit_into_glyph(source, item.character)
 
         glyph = create_palette_glyph(
             mask,
