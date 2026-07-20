@@ -1,0 +1,413 @@
+﻿table,index,source_offset_hex,entry_size,source_hex,source_jp,translation_th,status,compiled_length_current_pipeline,max_width_estimate_px,glyph_pages,fits_fixed_entry_current_pipeline,compile_status,translator_note
+SPECIES,0,0x00203CB8,6,AC AC AC AC AC FF,？？？？？,?,SYSTEM_RESERVED,,,,,,ช่องสำรอง index 0
+SPECIES,1,0x00203CBE,6,6C 5C 88 91 68 FF,フシギダネ,ฟุชิกิดาเนะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,2,0x00203CC4,6,6C 5C 88 5F 53 FF,フシギソウ,ฟุชิกิโซ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,3,0x00203CCA,6,6C 5C 88 96 65 FF,フシギバナ,ฟุชิกิบานะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,4,0x00203CD0,6,6B 64 56 8A FF 00,ヒトカゲ,ฮิโตคาเงะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,5,0x00203CD6,6,78 8C AE 95 FF 00,リザード,ริซาโดะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,6,0x00203CDC,6,78 8C AE 95 7E FF,リザードン,ริซาดอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,7,0x00203CE2,6,8F 66 87 72 FF 00,ゼニガメ,เซนิกาเมะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,8,0x00203CE8,6,56 72 AE 79 FF 00,カメール,คาเมล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,9,0x00203CEE,6,56 72 A0 58 5D FF,カメックス,คาเม็กซ์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,10,0x00203CF4,6,57 84 60 9C AE FF,キャタピー,คาเตอร์ปี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,11,0x00203CFA,6,64 77 7E 5E 79 FF,トランセル,ทรานเซล,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,12,0x00203D00,6,96 60 6C 78 AE FF,バタフリー,บัตเตอร์ฟรี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,13,0x00203D06,6,97 AE 95 79 FF 00,ビードル,บีเดิล,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,14,0x00203D0C,6,5A 58 AE 7E FF 00,コクーン,โคคูน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,15,0x00203D12,6,5D 9C 51 AE FF 00,スピアー,สเปียร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,16,0x00203D18,6,9F A0 9F FF 00 00,ポッポ,ป็อปโป,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,17,0x00203D1E,6,9C 8D 86 7E FF 00,ピジョン,พีเจียน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,18,0x00203D24,6,9C 8D 86 A0 64 FF,ピジョット,พีเจียต,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,19,0x00203D2A,6,5A 77 A0 60 FF 00,コラッタ,โครัตตา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,20,0x00203D30,6,77 A0 60 FF 00 00,ラッタ,รัตตา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,21,0x00203D36,6,55 66 5D 8E 72 FF,オニスズメ,โอนิสึซึเมะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,22,0x00203D3C,6,55 66 95 78 79 FF,オニドリル,โอนิดริล,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,23,0x00203D42,6,51 AE 9A FF 00 00,アーボ,อาโบ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,24,0x00203D48,6,51 AE 9A A0 58 FF,アーボック,อาโบก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,25,0x00203D4E,6,9C 56 61 85 53 FF,ピカチュウ,พิคาชู,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,26,0x00203D54,6,77 52 61 85 53 FF,ライチュウ,ไรชู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,27,0x00203D5A,6,5B 7E 95 FF 00 00,サンド,แซนด์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,28,0x00203D60,6,5B 7E 95 9B 7E FF,サンドパン,แซนด์แพน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,29,0x00203D66,6,66 95 77 7E B6 FF,ニドラン♀,นิโดรัน♀,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,30,0x00203D6C,6,66 95 78 AE 65 FF,ニドリーナ,นิโดรีนา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,31,0x00203D72,6,66 95 58 52 7E FF,ニドクイン,นิโดควีน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,32,0x00203D78,6,66 95 77 7E B5 FF,ニドラン♂,นิโดรัน♂,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,33,0x00203D7E,6,66 95 78 AE 69 FF,ニドリーノ,นิโดริโน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,34,0x00203D84,6,66 95 57 7E 89 FF,ニドキング,นิโดคิง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,35,0x00203D8A,6,9C A0 9C FF 00 00,ピッピ,ปิปปี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,36,0x00203D90,6,9C 58 5C AE FF 00,ピクシー,พิคซี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,37,0x00203D96,6,7B 5A 7E FF 00 00,ロコン,โรคอน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,38,0x00203D9C,6,57 85 53 5A 7E FF,キュウコン,คิวคอน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,39,0x00203DA2,6,9D 78 7E FF 00 00,プリン,พูริน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,40,0x00203DA8,6,9D 58 78 7E FF 00,プクリン,พุคุริน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,41,0x00203DAE,6,8E 96 A0 64 FF 00,ズバット,ซูแบต,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,42,0x00203DB4,6,8B 79 96 A0 64 FF,ゴルバット,โกลแบต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,43,0x00203DBA,6,65 90 69 58 5B FF,ナゾノクサ,นาโซโนะคุสะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,44,0x00203DC0,6,58 5B 52 6A 65 FF,クサイハナ,คุไซฮานะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,45,0x00203DC6,6,77 6C 7A 5C 51 FF,ラフレシア,ราเฟรเซีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,46,0x00203DCC,6,9B 77 5D FF 00 00,パラス,พารัส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,47,0x00203DD2,6,9B 77 5E 58 64 FF,パラセクト,พาราเซคท์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,48,0x00203DD8,6,5A 7E 9B 7E FF 00,コンパン,คอมปัง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,49,0x00203DDE,6,73 79 6C 83 7E FF,モルフォン,มอร์ฟอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,50,0x00203DE4,6,94 80 89 91 FF 00,ディグダ,ดิกดา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,51,0x00203DEA,6,91 89 64 78 55 FF,ダグトリオ,ดักทริโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,52,0x00203DF0,6,66 84 AE 5D FF 00,ニャース,เนียส,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,53,0x00203DF6,6,9E 79 5C 51 7E FF,ペルシアン,เปอร์เซียน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,54,0x00203DFC,6,5A 91 A0 58 FF 00,コダック,โคดัก,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,55,0x00203E02,6,8B 79 91 A0 58 FF,ゴルダック,โกลดัก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,56,0x00203E08,6,6F 7E 57 AE FF 00,マンキー,แมนคี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,57,0x00203E0E,6,55 5A 78 8C 79 FF,オコリザル,โอโคริซารุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,58,0x00203E14,6,87 AE 94 80 FF 00,ガーディ,การ์ดี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,59,0x00203E1A,6,53 52 7E 94 80 FF,ウインディ,วินดี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,60,0x00203E20,6,66 86 7B 73 FF 00,ニョロモ,เนียวโรโมะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,61,0x00203E26,6,66 86 7B 90 FF 00,ニョロゾ,เนียวโรโซ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,62,0x00203E2C,6,66 86 7B 9A 7E FF,ニョロボン,เนียวโรบง,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,63,0x00203E32,6,59 AE 5C 80 FF 00,ケーシィ,เคซี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,64,0x00203E38,6,75 7E 8A 77 AE FF,ユンゲラー,ยุงเกรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,65,0x00203E3E,6,6C AE 94 80 7E FF,フーディン,ฟูดิน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,66,0x00203E44,6,7C 7E 78 57 AE FF,ワンリキー,วันริกี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,67,0x00203E4A,6,8B AE 78 57 AE FF,ゴーリキー,โกริกี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,68,0x00203E50,6,56 52 78 57 AE FF,カイリキー,ไคริกี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,69,0x00203E56,6,6F 91 62 9A 70 FF,マダツボミ,มาดัตสึโบมิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,70,0x00203E5C,6,53 62 95 7E FF 00,ウツドン,อุตสึดง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,71,0x00203E62,6,53 62 9A A0 64 FF,ウツボット,อุตสึบ็อต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,72,0x00203E68,6,72 69 58 77 8A FF,メノクラゲ,เมโนคุราเกะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,73,0x00203E6E,6,95 58 58 77 8A FF,ドククラゲ,โดคุคุราเกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,74,0x00203E74,6,52 5C 62 98 63 FF,イシツブテ,อิชิสึบูเตะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,75,0x00203E7A,6,8B 7B AE 7E FF 00,ゴローン,โกรอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,76,0x00203E80,6,8B 7B AE 66 84 FF,ゴローニャ,โกโรเนีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,77,0x00203E86,6,9F 66 AE 60 FF 00,ポニータ,โพนีตา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,78,0x00203E8C,6,88 84 7B A0 9D FF,ギャロップ,แกลล็อป,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,79,0x00203E92,6,74 95 7E FF 00 00,ヤドン,ยาดง,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,80,0x00203E98,6,74 95 77 7E FF 00,ヤドラン,ยาโดรัน,NEEDS_REVIEW_GLOSSARY_CHANGE,,,,NO,PENDING_POINTER_HOOK,คำเดิม: ยาดง | คำร่างใหม่: ยาโดรัน
+SPECIES,81,0x00203E9E,6,5A 52 79 FF 00 00,コイル,คอยล์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,82,0x00203EA4,6,7A 51 5A 52 79 FF,レアコイル,แรร์คอยล์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,83,0x00203EAA,6,56 73 68 88 FF 00,カモネギ,คาโมเนงิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,84,0x00203EB0,6,95 AE 95 AE FF 00,ドードー,โดโด,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,85,0x00203EB6,6,95 AE 95 78 55 FF,ドードリオ,โดโดริโอ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,86,0x00203EBC,6,9B 53 7C 53 FF 00,パウワウ,พาววาว,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,87,0x00203EC2,6,8D 85 8B 7E FF 00,ジュゴン,จูกอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,88,0x00203EC8,6,99 64 99 60 AE FF,ベトベター,เบโตเบตา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,89,0x00203ECE,6,99 64 99 64 7E FF,ベトベトン,เบโตเบตง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,90,0x00203ED4,6,5C 82 79 91 AE FF,シェルダー,เชลเดอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,91,0x00203EDA,6,9B 79 5C 82 7E FF,パルシェン,พาร์เชน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,92,0x00203EE0,6,8B AE 5D FF 00 00,ゴース,โกส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,93,0x00203EE6,6,8B AE 5D 64 FF 00,ゴースト,โกสต์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,94,0x00203EEC,6,8A 7E 87 AE FF 00,ゲンガー,เกงการ์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,95,0x00203EF2,6,52 7C AE 58 FF 00,イワーク,อิวาร์ค,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,96,0x00203EF8,6,5D 78 AE 9D FF 00,スリープ,สลีป,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,97,0x00203EFE,6,5D 78 AE 9B AE FF,スリーパー,สลีเปอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,98,0x00203F04,6,58 77 98 FF 00 00,クラブ,คราบ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,99,0x00203F0A,6,57 7E 89 77 AE FF,キングラー,คิงเกลอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,100,0x00203F10,6,97 78 78 91 6F FF,ビリリダマ,บิริริดามะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,101,0x00203F16,6,6F 79 6F 52 7E FF,マルマイン,มารุไมน์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,102,0x00203F1C,6,60 6F 60 6F FF 00,タマタマ,ทามะทามะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,103,0x00203F22,6,65 A0 5C AE FF 00,ナッシー,นัชชี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,104,0x00203F28,6,56 77 56 77 FF 00,カラカラ,คาราคารา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,105,0x00203F2E,6,87 77 87 77 FF 00,ガラガラ,การาการา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,106,0x00203F34,6,5B 7C 71 77 AE FF,サワムラー,ซาวามูรา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,107,0x00203F3A,6,54 97 7C 77 AE FF,エビワラー,เอบิวารา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,108,0x00203F40,6,99 7B 78 7E 87 FF,ベロリンガ,เบโรรินกา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,109,0x00203F46,6,95 87 AE 5D FF 00,ドガース,โดกาส,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,110,0x00203F4C,6,6F 60 95 87 5D FF,マタドガス,มาตาโดกาส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,111,0x00203F52,6,5B 52 6E AE 7E FF,サイホーン,ไซฮอร์น,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,112,0x00203F58,6,5B 52 95 7E FF 00,サイドン,ไซดอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,113,0x00203F5E,6,77 A0 57 AE FF 00,ラッキー,ลัคกี,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,114,0x00203F64,6,73 7E 8D 84 77 FF,モンジャラ,มนจารา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,115,0x00203F6A,6,87 79 AE 77 FF 00,ガルーラ,การ์รูรา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,116,0x00203F70,6,60 A0 62 AE FF 00,タッツー,ทัตสึ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,117,0x00203F76,6,5C AE 95 77 FF 00,シードラ,ซีดรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,118,0x00203F7C,6,64 5B 57 7E 64 FF,トサキント,โทซาคินโตะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,119,0x00203F82,6,51 8E 6F 55 53 FF,アズマオウ,อาซูมาโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,120,0x00203F88,6,6B 64 94 6F 7E FF,ヒトデマン,ฮิโตเดมัน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,121,0x00203F8E,6,5D 60 AE 70 AE FF,スターミー,สตาร์มี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,122,0x00203F94,6,96 78 74 AE 95 FF,バリヤード,บารียาร์ด,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,123,0x00203F9A,6,5D 64 77 52 58 FF,ストライク,สไตรค์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,124,0x00203FA0,6,79 AE 8D 85 77 FF,ルージュラ,รูจูรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,125,0x00203FA6,6,54 7A 98 AE FF 00,エレブー,เอเลบู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,126,0x00203FAC,6,98 AE 96 AE FF 00,ブーバー,บูบา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,127,0x00203FB2,6,56 52 7B 5D FF 00,カイロス,ไครอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,128,0x00203FB8,6,59 7E 60 7B 5D FF,ケンタロス,เคนทารอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,129,0x00203FBE,6,5A 52 57 7E 89 FF,コイキング,คอยคิง,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,130,0x00203FC4,6,88 84 77 95 5D FF,ギャラドス,เกียราดอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,131,0x00203FCA,6,77 9D 77 5D FF 00,ラプラス,ลาพลาส,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,132,0x00203FD0,6,72 60 73 7E FF 00,メタモン,เมตามอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,133,0x00203FD6,6,52 AE 98 52 FF 00,イーブイ,อีวุย,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,134,0x00203FDC,6,5C 84 7C AE 8E FF,シャワーズ,ชาวเวอร์ส,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,135,0x00203FE2,6,5B 7E 91 AE 5D FF,サンダース,ซันเดอร์ส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,136,0x00203FE8,6,98 AE 5D 60 AE FF,ブースター,บูสเตอร์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,137,0x00203FEE,6,9F 78 8B 7E FF 00,ポリゴン,โพรีกอน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,138,0x00203FF4,6,55 71 65 52 64 FF,オムナイト,ออมไนต์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,139,0x00203FFA,6,55 71 5D 60 AE FF,オムスター,ออมสตาร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,140,0x00204000,6,56 98 64 FF 00 00,カブト,คาบูโตะ,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,141,0x00204006,6,56 98 64 9D 5D FF,カブトプス,คาบูท็อปส์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,142,0x0020400C,6,9D 63 77 FF 00 00,プテラ,พูเทรา,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,143,0x00204012,6,56 97 8B 7E FF 00,カビゴン,คาบิกอน,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,144,0x00204018,6,6C 78 AE 8C AE FF,フリーザー,ฟรีเซอร์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,145,0x0020401E,6,5B 7E 91 AE FF 00,サンダー,ซันเดอร์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,146,0x00204024,6,6C 7F 52 74 AE FF,ファイヤー,ไฟเยอร์,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,147,0x0020402A,6,70 66 78 85 53 FF,ミニリュウ,มินิริว,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,148,0x00204030,6,6A 58 78 85 AE FF,ハクリュー,ฮาคุริว,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,149,0x00204036,6,56 52 78 85 AE FF,カイリュー,ไคริว,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,150,0x0020403C,6,70 85 53 62 AE FF,ミュウツー,มิวทู,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,151,0x00204042,6,70 85 53 FF 00 00,ミュウ,มิว,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,152,0x00204048,6,61 5A 78 AE 60 FF,チコリータ,ชิโคริตา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,153,0x0020404E,6,99 52 78 AE 6C FF,ベイリーフ,เบย์ลีฟ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,154,0x00204054,6,72 87 66 53 71 FF,メガニウム,เมกาเนียม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,155,0x0020405A,6,6B 69 51 77 5C FF,ヒノアラシ,ฮิโนอาราชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,156,0x00204060,6,6F 89 6F 77 5C FF,マグマラシ,มักมาราชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,157,0x00204066,6,96 58 6C AE 7E FF,バクフーン,บาคุฟูน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,158,0x0020406C,6,7C 66 69 5A FF 00,ワニノコ,วานิโนโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,159,0x00204072,6,51 78 8A 52 62 FF,アリゲイツ,อาริเกตส์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,160,0x00204078,6,55 AE 91 52 79 FF,オーダイル,ออไดล์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,161,0x0020407E,6,55 60 61 FF 00 00,オタチ,โอตาจิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,162,0x00204084,6,55 55 60 61 FF 00,オオタチ,โอโอทาจิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,163,0x0020408A,6,6E AE 6E AE FF 00,ホーホー,โฮโฮ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,164,0x00204090,6,76 79 69 8E 58 FF,ヨルノズク,โยรุโนะซึคุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,165,0x00204096,6,7A 94 80 96 FF 00,レディバ,เรดิบา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,166,0x0020409C,6,7A 94 80 51 7E FF,レディアン,เรเดียน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,167,0x002040A2,6,52 64 6F 79 FF 00,イトマル,อิโตมารุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,168,0x002040A8,6,51 78 51 95 5D FF,アリアドス,อาเรียดอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,169,0x002040AE,6,58 7B 96 A0 64 FF,クロバット,โครแบต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,170,0x002040B4,6,61 86 7E 61 AE FF,チョンチー,จอนชี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,171,0x002040BA,6,77 7E 60 AE 7E FF,ランターン,แลนเทิร์น,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,172,0x002040C0,6,9C 61 85 AE FF 00,ピチュー,พิชู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,173,0x002040C6,6,9C 80 FF 00 00 00,ピィ,พี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,174,0x002040CC,6,9D 9D 78 7E FF 00,ププリン,พูพูริน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,175,0x002040D2,6,64 8A 9C AE FF 00,トゲピー,โทเกปี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,176,0x002040D8,6,64 8A 61 A0 58 FF,トゲチック,โทเกชิก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,177,0x002040DE,6,68 52 63 80 FF 00,ネイティ,เนที,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,178,0x002040E4,6,68 52 63 80 55 FF,ネイティオ,เนทีโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,179,0x002040EA,6,72 78 AE 9D FF 00,メリープ,เมรีป,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,180,0x002040F0,6,73 5A 5A FF 00 00,モココ,โมโคโค,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,181,0x002040F6,6,94 7E 78 85 53 FF,デンリュウ,เดนริว,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,182,0x002040FC,6,57 7A 52 6A 65 FF,キレイハナ,คิเรฮานะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,183,0x00204102,6,6F 78 79 FF 00 00,マリル,มาริล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,184,0x00204108,6,6F 78 79 78 FF 00,マリルリ,มาริลริ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,185,0x0020410E,6,53 5F A0 57 AE FF,ウソッキー,อุซกกี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,186,0x00204114,6,66 86 7B 64 69 FF,ニョロトノ,เนียวโรโทโนะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,187,0x0020411A,6,6A 68 A0 5A FF 00,ハネッコ,ฮาเนกโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,188,0x00204120,6,9F 9F A0 5A FF 00,ポポッコ,โปโปกโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,189,0x00204126,6,7C 60 A0 5A FF 00,ワタッコ,วาตักโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,190,0x0020412C,6,54 52 9B 71 FF 00,エイパム,เอปาม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,191,0x00204132,6,6B 6F 65 A0 62 FF,ヒマナッツ,ฮิมานัตสึ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,192,0x00204138,6,57 6F 7C 78 FF 00,キマワリ,คิมาวาริ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,193,0x0020413E,6,74 7E 74 7E 6F FF,ヤンヤンマ,ยันยันมา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,194,0x00204144,6,53 9B AE FF 00 00,ウパー,อูปา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,195,0x0020414A,6,67 55 AE FF 00 00,ヌオー,นูโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,196,0x00204150,6,54 AE 6C 80 FF 00,エーフィ,เอฟี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,197,0x00204156,6,98 77 A0 57 AE FF,ブラッキー,แบล็กกี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,198,0x0020415C,6,74 70 56 77 5D FF,ヤミカラス,ยามิคาราสึ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,199,0x00204162,6,74 95 57 7E 89 FF,ヤドキング,ยาโดคิง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,200,0x00204168,6,71 53 6F FF 00 00,ムウマ,มูมา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,201,0x0020416E,6,51 7E 69 AE 7E FF,アンノーン,อันโนน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,202,0x00204174,6,5F AE 65 7E 5D FF,ソーナンス,โซนันส์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,203,0x0020417A,6,57 78 7E 78 57 FF,キリンリキ,คิรินริกิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,204,0x00204180,6,58 67 88 91 6F FF,クヌギダマ,คุนุกิดามะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,205,0x00204186,6,6C 83 7A 64 5D FF,フォレトス,ฟอเรทอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,206,0x0020418C,6,69 5A A0 61 FF 00,ノコッチ,โนคจิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,207,0x00204192,6,89 77 52 87 AE FF,グライガー,ไกรเกอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,208,0x00204198,6,6A 87 68 AE 79 FF,ハガネール,ฮากาเนล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,209,0x0020419E,6,98 79 AE FF 00 00,ブルー,บูล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,210,0x002041A4,6,89 77 7E 98 79 FF,グランブル,แกรนบูล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,211,0x002041AA,6,6A 78 AE 5E 7E FF,ハリーセン,ฮารีเซน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,212,0x002041B0,6,6A A0 5B 71 FF 00,ハッサム,ฮัสซัม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,213,0x002041B6,6,62 9A 62 9A FF 00,ツボツボ,สึโบสึโบะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,214,0x002041BC,6,6D 77 58 7B 5D FF,ヘラクロス,เฮราครอส,LOCKED_GLOSSARY,,,,NO,PENDING_POINTER_HOOK,คำไทยยาวเกินช่องคงที่ ต้อง relocation/hook หรือเปลี่ยน renderer
+SPECIES,215,0x002041C2,6,66 85 AE 77 FF 00,ニューラ,นิวรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,216,0x002041C8,6,6B 72 89 6F FF 00,ヒメグマ,ฮิเมกุมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,217,0x002041CE,6,78 7E 89 6F FF 00,リングマ,ริงกุมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,218,0x002041D4,6,6F 89 6F A0 89 FF,マグマッグ,แม็กแม็ก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,219,0x002041DA,6,6F 89 56 79 8B FF,マグカルゴ,แม็กคาร์โก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,220,0x002041E0,6,53 78 71 AE FF 00,ウリムー,อูริมู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,221,0x002041E6,6,52 69 71 AE FF 00,イノムー,อิโนมู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,222,0x002041EC,6,5B 66 AE 8B FF 00,サニーゴ,ซันนีโก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,223,0x002041F2,6,63 A0 9F 53 55 FF,テッポウオ,เทปโปโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,224,0x002041F8,6,55 58 60 7E FF 00,オクタン,ออกตัน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,225,0x002041FE,6,94 78 96 AE 95 FF,デリバード,เดลิเบิร์ด,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,226,0x00204204,6,6F 7E 60 52 7E FF,マンタイン,แมนไทน์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,227,0x0020420A,6,54 51 AE 71 95 FF,エアームド,แอร์มูโด,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,228,0x00204210,6,94 79 97 79 FF 00,デルビル,เดลวิล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,229,0x00204216,6,6D 79 87 AE FF 00,ヘルガー,เฮลการ์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,230,0x0020421C,6,57 7E 89 95 77 FF,キングドラ,คิงดรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,231,0x00204222,6,8B 6F 90 53 FF 00,ゴマゾウ,โกมาโซ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,232,0x00204228,6,95 7E 6C 7F 7E FF,ドンファン,ดอนแฟน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,233,0x0020422E,6,9F 78 8B 7E A3 FF,ポリゴン2,โพรีกอน2,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,234,0x00204234,6,55 95 5C 5C FF 00,オドシシ,โอโดชิชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,235,0x0020423A,6,95 AE 98 79 FF 00,ドーブル,โดเบิล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,236,0x00204240,6,96 79 57 AE FF 00,バルキー,บัลกี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,237,0x00204246,6,56 9F 54 77 AE FF,カポエラー,คาโปเอรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,238,0x0020424C,6,71 61 85 AE 79 FF,ムチュール,มูจูรู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,239,0x00204252,6,54 7A 57 A0 95 FF,エレキッド,เอเลคิด,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,240,0x00204258,6,98 97 80 FF 00 00,ブビィ,บูบี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,241,0x0020425E,6,70 79 60 7E 58 FF,ミルタンク,มิลแทงก์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,242,0x00204264,6,6A 9C 65 5D FF 00,ハピナス,ฮัปปินาส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,243,0x0020426A,6,77 52 5A 53 FF 00,ライコウ,ไรโค,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,244,0x00204270,6,54 7E 63 52 FF 00,エンテイ,เอนไต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,245,0x00204276,6,5D 52 58 7E FF 00,スイクン,ซุยคุน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,246,0x0020427C,6,76 AE 88 77 5D FF,ヨーギラス,โยกิราส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,247,0x00204282,6,5B 65 88 77 5D FF,サナギラス,ซานากิราส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,248,0x00204288,6,96 7E 88 77 5D FF,バンギラス,บังกิราส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,249,0x0020428E,6,79 88 51 FF 00 00,ルギア,ลูเกีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,250,0x00204294,6,6E 53 55 53 FF 00,ホウオウ,โฮโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,251,0x0020429A,6,5E 7A 97 80 FF 00,セレビィ,เซเรบี,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,252,0x002042A0,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,253,0x002042A6,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,254,0x002042AC,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,255,0x002042B2,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,256,0x002042B8,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,257,0x002042BE,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,258,0x002042C4,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,259,0x002042CA,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,260,0x002042D0,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,261,0x002042D6,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,262,0x002042DC,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,263,0x002042E2,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,264,0x002042E8,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,265,0x002042EE,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,266,0x002042F4,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,267,0x002042FA,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,268,0x00204300,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,269,0x00204306,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,270,0x0020430C,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,271,0x00204312,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,272,0x00204318,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,273,0x0020431E,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,274,0x00204324,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,275,0x0020432A,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,276,0x00204330,6,AC FF 00 00 00 00,？,?,SYSTEM_RESERVED,,,,,,ช่อง species สำรองที่ไม่มีชื่อใน FireRed
+SPECIES,277,0x00204336,6,57 73 78 FF 00 00,キモリ,คิโมริ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,278,0x0020433C,6,8D 85 9D 64 79 FF,ジュプトル,จูปโตรุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,279,0x00204342,6,8D 85 56 52 7E FF,ジュカイン,จูไคน์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,280,0x00204348,6,51 61 84 73 FF 00,アチャモ,อาจาโม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,281,0x0020434E,6,7C 56 5C 84 73 FF,ワカシャモ,วาคาชาโม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,282,0x00204354,6,96 5C 84 AE 73 FF,バシャーモ,บาชาโม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,283,0x0020435A,6,70 8E 8B 7B 53 FF,ミズゴロウ,มิซึโกโร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,284,0x00204360,6,67 6F 58 7B AE FF,ヌマクロー,นูมาโคร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,285,0x00204366,6,77 89 77 AE 8D FF,ラグラージ,ลากลาจ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,286,0x0020436C,6,9F 61 54 65 FF 00,ポチエナ,โพชีเอนา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,287,0x00204372,6,89 77 54 65 FF 00,グラエナ,กราเอนา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,288,0x00204378,6,8D 89 8C 89 6F FF,ジグザグマ,จิกุซากุมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,289,0x0020437E,6,6F A0 5D 89 6F FF,マッスグマ,มัสสึกุมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,290,0x00204384,6,59 71 A0 5F FF 00,ケムッソ,เคมุสโซ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,291,0x0020438A,6,56 77 5B 78 5D FF,カラサリス,คาราซาริส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,292,0x00204390,6,51 8A 6A 7E 64 FF,アゲハント,อาเกฮันต์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,293,0x00204396,6,6F 75 79 95 FF 00,マユルド,มายุลด์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,294,0x0020439C,6,95 58 59 52 79 FF,ドクケイル,โดคุเคล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,295,0x002043A2,6,6A 5D 9A AE FF 00,ハスボー,ฮัสโบ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,296,0x002043A8,6,6A 5D 98 7A 7B FF,ハスブレロ,ฮัสบูเรโร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,297,0x002043AE,6,79 7E 9B A0 9B FF,ルンパッパ,รุนปัปปะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,298,0x002043B4,6,60 68 9A AE FF 00,タネボー,ทาเนโบ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,299,0x002043BA,6,5A 69 6A 65 FF 00,コノハナ,โคโนฮานะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,300,0x002043C0,6,91 AE 63 7E 89 FF,ダーテング,ดาเทงกุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,301,0x002043C6,6,62 61 66 7E FF 00,ツチニン,สึชินิน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,302,0x002043CC,6,63 A0 56 66 7E FF,テッカニン,เท็กคานิน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,303,0x002043D2,6,67 59 66 7E FF 00,ヌケニン,นูเคนิน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,304,0x002043D8,6,5D 96 72 FF 00 00,スバメ,ซูบาเมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,305,0x002043DE,6,55 55 5D 96 72 FF,オオスバメ,โอโอซูบาเมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,306,0x002043E4,6,57 69 5A 5A FF 00,キノココ,คิโนโคโค,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,307,0x002043EA,6,57 69 87 A0 5B FF,キノガッサ,คิโนกัสซะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,308,0x002043F0,6,9B A0 61 AE 79 FF,パッチール,ปัตชีล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,309,0x002043F6,6,57 84 73 72 FF 00,キャモメ,คาโมเมะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,310,0x002043FC,6,9E 78 A0 9B AE FF,ペリッパー,เพริปเปอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,311,0x00204402,6,51 72 60 6F FF 00,アメタマ,อาเมะทามะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,312,0x00204408,6,51 72 73 AE 5D FF,アメモース,อาเมะมอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,313,0x0020440E,6,6E 54 79 5A FF 00,ホエルコ,โฮเอลโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,314,0x00204414,6,6E 54 79 55 AE FF,ホエルオー,โฮเอลโอ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,315,0x0020441A,6,54 68 5A FF 00 00,エネコ,เอเนโกะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,316,0x00204420,6,54 68 5A 7B 7B FF,エネコロロ,เอเนโคโรโร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,317,0x00204426,6,56 58 7A 55 7E FF,カクレオン,คาคุเรออน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,318,0x0020442C,6,74 8D 7B 7E FF 00,ヤジロン,ยาจิรอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,319,0x00204432,6,68 7E 95 AE 79 FF,ネンドール,เน็นดอล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,320,0x00204438,6,69 8E 9B 5D FF 00,ノズパス,โนซพาส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,321,0x0020443E,6,5A AE 60 5D FF 00,コータス,โคทัส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,322,0x00204444,6,74 70 77 70 FF 00,ヤミラミ,ยามิรามิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,323,0x0020444A,6,95 8D 86 A0 61 FF,ドジョッチ,โดโจจจิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,324,0x00204450,6,65 6F 8E 7E FF 00,ナマズン,นามาซุน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,325,0x00204456,6,77 98 56 5D FF 00,ラブカス,เลิฟคัส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,326,0x0020445C,6,6D 52 87 66 FF 00,ヘイガニ,เฮกานิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,327,0x00204462,6,5C 8C 78 87 AE FF,シザリガー,ชิซาริเกอร์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,328,0x00204468,6,6B 7E 96 5D FF 00,ヒンバス,ฮินบัส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,329,0x0020446E,6,70 7B 56 7B 5D FF,ミロカロス,มิโลคารอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,330,0x00204474,6,57 96 66 51 FF 00,キバニア,คิบาเนีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,331,0x0020447A,6,5B 72 6A 91 AE FF,サメハダー,ซาเมฮาดา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,332,0x00204480,6,65 A0 58 77 AE FF,ナックラー,นักคลา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,333,0x00204486,6,97 98 77 AE 96 FF,ビブラーバ,บิบราบา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,334,0x0020448C,6,6C 77 52 8B 7E FF,フライゴン,ฟลายกอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,335,0x00204492,6,6F 58 69 5C 60 FF,マクノシタ,มาคุโนชิตะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,336,0x00204498,6,6A 78 63 74 6F FF,ハリテヤマ,ฮาริเทยามะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,337,0x0020449E,6,77 58 77 52 FF 00,ラクライ,ราคุไร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,338,0x002044A4,6,77 52 9A 79 64 FF,ライボルト,ไรโบลต์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,339,0x002044AA,6,95 7E 72 79 FF 00,ドンメル,ดอนเมล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,340,0x002044B0,6,96 58 AE 91 FF 00,バクーダ,บาคูดา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,341,0x002044B6,6,60 6F 8C 77 5C FF,タマザラシ,ทามาซาราชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,342,0x002044BC,6,64 95 89 77 AE FF,トドグラー,โทโดกุรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,343,0x002044C2,6,64 95 8F 79 87 FF,トドゼルガ,โทโดเซรุกา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,344,0x002044C8,6,5B 9A 68 51 FF 00,サボネア,ซาโบเนีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,345,0x002044CE,6,69 58 60 5D FF 00,ノクタス,โนคทัส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,346,0x002044D4,6,75 57 7C 77 5C FF,ユキワラシ,ยูกิวาราชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,347,0x002044DA,6,55 66 8B AE 78 FF,オニゴーリ,โอนิโกริ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,348,0x002044E0,6,79 65 64 AE 7E FF,ルナトーン,ลูนาโทน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,349,0x002044E6,6,5F 79 7B A0 58 FF,ソルロック,โซลร็อก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,350,0x002044EC,6,79 78 78 FF 00 00,ルリリ,รูริริ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,351,0x002044F2,6,96 68 98 AE FF 00,バネブー,บาเนบู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,352,0x002044F8,6,98 AE 9C A0 89 FF,ブーピッグ,บูพิก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,353,0x002044FE,6,9D 77 5D 79 FF 00,プラスル,พลัสเซิล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,354,0x00204504,6,6F 52 65 7E FF 00,マイナン,ไมนัน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,355,0x0020450A,6,58 61 AE 64 FF 00,クチート,คุชีต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,356,0x00204510,6,51 5B 65 7E FF 00,アサナン,อาซานัน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,357,0x00204516,6,61 84 AE 7A 71 FF,チャーレム,ชาเรม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,358,0x0020451C,6,61 79 A0 64 FF 00,チルット,ชิรุตโตะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,359,0x00204522,6,61 79 60 78 5D FF,チルタリス,ชิรุตาริส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,360,0x00204528,6,5F AE 65 69 FF 00,ソーナノ,โซนาโนะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,361,0x0020452E,6,76 6F 7C 79 FF 00,ヨマワル,โยมาวารุ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,362,0x00204534,6,5B 6F 76 AE 79 FF,サマヨール,ซามาโยล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,363,0x0020453A,6,7B 8F 78 51 FF 00,ロゼリア,โรเซเลีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,364,0x00204540,6,65 6F 59 7B FF 00,ナマケロ,นามาเคโร,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,365,0x00204546,6,74 79 57 73 69 FF,ヤルキモノ,ยารุกิโมโนะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,366,0x0020454C,6,59 A0 57 7E 89 FF,ケッキング,เค็กคิง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,367,0x00204552,6,8B 58 78 7E FF 00,ゴクリン,โกคุริน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,368,0x00204558,6,6F 79 69 AE 71 FF,マルノーム,มารุโนม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,369,0x0020455E,6,64 7B 9C 53 5D FF,トロピウス,โทรเปียส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,370,0x00204564,6,8B 66 86 66 86 FF,ゴニョニョ,โกเนียวเนียว,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,371,0x0020456A,6,95 8B AE 71 FF 00,ドゴーム,โดโกม,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,372,0x00204570,6,96 58 55 7E 89 FF,バクオング,บาคุอง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,373,0x00204576,6,9B AE 79 79 FF 00,パールル,พาร์ลูล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,374,0x0020457C,6,6A 7E 63 AE 79 FF,ハンテール,ฮันเทล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,375,0x00204582,6,5B 58 77 97 5D FF,サクラビス,ซากุราบิส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,376,0x00204588,6,51 98 5F 79 FF 00,アブソル,แอบโซล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,377,0x0020458E,6,56 8A 9A 53 8E FF,カゲボウズ,คาเงโบซึ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,378,0x00204594,6,8D 85 9E A0 60 FF,ジュペッタ,จูเพ็ตตะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,379,0x0020459A,6,6A 98 68 AE 58 FF,ハブネーク,ฮาบูเนก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,380,0x002045A0,6,8C 7E 89 AE 5D FF,ザングース,ซังกูส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,381,0x002045A6,6,8D AE 77 7E 5D FF,ジーランス,จีแรนส์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,382,0x002045AC,6,5A 5A 95 77 FF 00,ココドラ,โคโคโดรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,383,0x002045B2,6,5A 95 77 FF 00 00,コドラ,โคโดรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,384,0x002045B8,6,9A 5D 8B 95 77 FF,ボスゴドラ,บอสโกโดรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,385,0x002045BE,6,9F 7C 79 7E FF 00,ポワルン,โพวารุน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,386,0x002045C4,6,96 79 97 AE 64 FF,バルビート,บัลบีต,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,387,0x002045CA,6,52 79 70 AE 8F FF,イルミーゼ,อิลลูมิเซะ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,388,0x002045D0,6,78 78 AE 77 FF 00,リリーラ,ริลีรา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,389,0x002045D6,6,75 7A 52 95 79 FF,ユレイドル,ยูเรดอล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,390,0x002045DC,6,51 69 9D 5D FF 00,アノプス,อาโนปส์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,391,0x002045E2,6,51 AE 6F 79 95 FF,アーマルド,อาร์มาลโด,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,392,0x002045E8,6,77 79 64 5D FF 00,ラルトス,ราลทอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,393,0x002045EE,6,57 79 78 51 FF 00,キルリア,คิรูเรีย,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,394,0x002045F4,6,5B AE 65 52 64 FF,サーナイト,ซาไนต์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,395,0x002045FA,6,60 62 99 52 FF 00,タツベイ,ทัตสึเบ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,396,0x00204600,6,5A 73 79 AE FF 00,コモルー,โคโมรู,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,397,0x00204606,6,9A AE 6F 7E 91 FF,ボーマンダ,โบมันดา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,398,0x0020460C,6,91 7E 96 79 FF 00,ダンバル,ดันบัล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,399,0x00204612,6,72 60 7E 89 FF 00,メタング,เมแทง,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,400,0x00204618,6,72 60 89 7B 5D FF,メタグロス,เมตากรอส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,401,0x0020461E,6,7A 8D 7B A0 58 FF,レジロック,เรจิร็อก,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,402,0x00204624,6,7A 8D 51 52 5D FF,レジアイス,เรจิไอซ์,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,403,0x0020462A,6,7A 8D 5D 61 79 FF,レジスチル,เรจิสตีล,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,404,0x00204630,6,56 52 55 AE 87 FF,カイオーガ,ไคโอกา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,405,0x00204636,6,89 77 AE 95 7E FF,グラードン,กราดอน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,406,0x0020463C,6,7A A0 58 53 8C FF,レックウザ,เร็คคูซา,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,407,0x00204642,6,77 63 80 51 5D FF,ラティアス,ลาเทียส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,408,0x00204648,6,77 63 80 55 5D FF,ラティオス,ลาทิออส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,409,0x0020464E,6,8D 77 AE 61 FF 00,ジラーチ,จิราชิ,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,410,0x00204654,6,94 55 57 5C 5D FF,デオキシス,ดีออกซิส,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
+SPECIES,411,0x0020465A,6,61 78 AE 7E FF 00,チリーン,ชิริน,TRANSLATED_DRAFT,,,,NO,PENDING_POINTER_HOOK,ร่างถอดเสียงจากชื่อภาษาญี่ปุ่น รอตรวจคำสะกดรอบสุดท้าย
