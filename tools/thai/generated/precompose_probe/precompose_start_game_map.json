@@ -1,0 +1,148 @@
+{
+  "format": "pokemon-gen3-thai-precompose-probe-v1",
+  "source_name": "LA Thai 11x12 precomposed glyphs — FireRed locked v2",
+  "source_cell": [
+    11,
+    12
+  ],
+  "destination_cell": [
+    16,
+    16
+  ],
+  "embed_offset": [
+    0,
+    2
+  ],
+  "word": "เริ่มเกมส์",
+  "clusters": [
+    "เ",
+    "ริ่",
+    "ม",
+    "เ",
+    "ก",
+    "ม",
+    "ส์"
+  ],
+  "encoded_atlas_indices": [
+    0,
+    1,
+    2,
+    0,
+    3,
+    2,
+    4
+  ],
+  "total_advance": 40,
+  "glyphs": [
+    {
+      "name": "เ",
+      "atlas_index": 0,
+      "source_target_index": 3,
+      "category": "leading_vowel",
+      "source_width": 3,
+      "source_advance": 4,
+      "source_auto_bbox": [
+        0,
+        2,
+        4,
+        9
+      ],
+      "embedded_bbox": [
+        0,
+        6,
+        3,
+        11
+      ],
+      "embed_x": 0,
+      "embed_y": 2
+    },
+    {
+      "name": "ริ่",
+      "atlas_index": 1,
+      "source_target_index": 105,
+      "category": "precompose_cluster",
+      "source_width": 5,
+      "source_advance": 6,
+      "source_auto_bbox": [
+        0,
+        4,
+        0,
+        9
+      ],
+      "embedded_bbox": [
+        0,
+        2,
+        5,
+        11
+      ],
+      "embed_x": 0,
+      "embed_y": 2
+    },
+    {
+      "name": "ม",
+      "atlas_index": 2,
+      "source_target_index": 38,
+      "category": "consonant",
+      "source_width": 6,
+      "source_advance": 7,
+      "source_auto_bbox": [
+        0,
+        5,
+        4,
+        9
+      ],
+      "embedded_bbox": [
+        0,
+        6,
+        6,
+        11
+      ],
+      "embed_x": 0,
+      "embed_y": 2
+    },
+    {
+      "name": "ก",
+      "atlas_index": 3,
+      "source_target_index": 8,
+      "category": "consonant",
+      "source_width": 5,
+      "source_advance": 6,
+      "source_auto_bbox": [
+        0,
+        4,
+        4,
+        9
+      ],
+      "embedded_bbox": [
+        0,
+        6,
+        5,
+        11
+      ],
+      "embed_x": 0,
+      "embed_y": 2
+    },
+    {
+      "name": "ส์",
+      "atlas_index": 4,
+      "source_target_index": 534,
+      "category": "precompose_cluster",
+      "source_width": 5,
+      "source_advance": 6,
+      "source_auto_bbox": [
+        0,
+        4,
+        0,
+        9
+      ],
+      "embedded_bbox": [
+        0,
+        2,
+        5,
+        11
+      ],
+      "embed_x": 0,
+      "embed_y": 2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+THAI PRECOMPOSE PROBE
+=====================
+Source JSON      : tools/thai/precompose_input/thai_precompose_11x12_Shadow.json
+Source name      : LA Thai 11x12 precomposed glyphs — FireRed locked v2
+Source glyphs    : 761
+Source cell      : 11x12
+Destination cell : 16x16
+Embed offset     : (0, 2)
+Probe word       : เริ่มเกมส์
+Clusters         : เ | ริ่ | ม | เ | ก | ม | ส์
+Unique glyphs    : เ | ริ่ | ม | ก | ส์
+Atlas indices    : 0, 1, 2, 0, 3, 2, 4
+Total advance    : 40
+
+GLYPH DETAILS
+-------------
+เ: atlas=0 source_target=3 width=3 advance=4 embedded_bbox=[0, 6, 3, 11]
+ริ่: atlas=1 source_target=105 width=5 advance=6 embedded_bbox=[0, 2, 5, 11]
+ม: atlas=2 source_target=38 width=6 advance=7 embedded_bbox=[0, 6, 6, 11]
+ก: atlas=3 source_target=8 width=5 advance=6 embedded_bbox=[0, 6, 5, 11]
+ส์: atlas=4 source_target=534 width=5 advance=6 embedded_bbox=[0, 2, 5, 11]
+
+OUTPUTS
+-------
+tools/thai/generated/precompose_probe/precompose_start_game_atlas.png
+tools/thai/generated/precompose_probe/precompose_start_game_proof.png
+tools/thai/generated/precompose_probe/precompose_start_game_map.json
