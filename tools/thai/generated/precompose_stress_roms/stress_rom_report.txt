@@ -1,0 +1,69 @@
+THAI PRECOMPOSE STRESS ROMS
+============================
+Branch       : thai-precompose-full
+HEAD         : d05ad8f26742a64ff5a9b51ad64d601d8a7ea735
+Original menu: const u8 gText_MainMenuNewGame[] = _("เริ่มเกมส์");
+
+01_start_game
+  Text   : เริ่มเกมส์
+  Focus  : คำต้นแบบ ริ่ และ ส์
+  ROM    : tools/thai/generated/precompose_stress_roms/01_start_game.gba
+  SHA256 : e8d2ed8bab4139aa9d58eaabc5c6224f5548ef312a8240eabcbfa091ce372bf6
+  Log    : tools/thai/generated/precompose_stress_roms/logs/01_start_game.log
+
+02_upper_marks
+  Text   : กิ กี กี่
+  Focus  : สระบนและวรรณยุกต์
+  ROM    : tools/thai/generated/precompose_stress_roms/02_upper_marks.gba
+  SHA256 : 6e220ca51aac5a6509d32b1c9d168127784024761bc071fc27826daf4fda5b37
+  Log    : tools/thai/generated/precompose_stress_roms/logs/02_upper_marks.log
+
+03_lower_marks
+  Text   : กุ กู กุ่
+  Focus  : สระล่างและวรรณยุกต์ร่วมกัน
+  ROM    : tools/thai/generated/precompose_stress_roms/03_lower_marks.gba
+  SHA256 : c23a879de26623f19018cbe6f66a3c8a4239ca7d4bdbe17cb35d7b7c515bb033
+  Log    : tools/thai/generated/precompose_stress_roms/logs/03_lower_marks.log
+
+04_mixed_stacks
+  Text   : รู้ สู้ ผู้
+  Focus  : กลุ่มสระล่างและวรรณยุกต์
+  ROM    : tools/thai/generated/precompose_stress_roms/04_mixed_stacks.gba
+  SHA256 : b0e558eefe8377369b293991ad244fc71b1eb68c2fd94b14ec593de5c9ac5cbf
+  Log    : tools/thai/generated/precompose_stress_roms/logs/04_mixed_stacks.log
+
+05_japanese_word
+  Text   : ญี่ปุ่น
+  Focus  : ญี่ ปุ่ และการต่อ Cluster
+  ROM    : tools/thai/generated/precompose_stress_roms/05_japanese_word.gba
+  SHA256 : 19ac8c7a33b535b2e468967579942975a4b7fc30c39020cf60319dbb1a232141
+  Log    : tools/thai/generated/precompose_stress_roms/logs/05_japanese_word.log
+
+06_sara_am
+  Text   : น้ำ คำ ย้ำ
+  Focus  : สระอำและวรรณยุกต์
+  ROM    : tools/thai/generated/precompose_stress_roms/06_sara_am.gba
+  SHA256 : 672ef49ec6ff7ae44121d5399d2fceb4b5159146dd13fe4c9973894ccfe55b19
+  Log    : tools/thai/generated/precompose_stress_roms/logs/06_sara_am.log
+
+07_pokemon
+  Text   : โปเกมอน
+  Focus  : สระนำหน้าและคำศัพท์หลัก
+  ROM    : tools/thai/generated/precompose_stress_roms/07_pokemon.gba
+  SHA256 : df60dd93e20beb84996842169e157bfdfbfc6346e24babb320cedf86d12ae102
+  Log    : tools/thai/generated/precompose_stress_roms/logs/07_pokemon.log
+
+08_trainer
+  Text   : เทรนเนอร์
+  Focus  : คำยาว ร์ และระยะรวม
+  ROM    : tools/thai/generated/precompose_stress_roms/08_trainer.gba
+  SHA256 : 751f6a1857343ea9e2ac1501ce72e5b3db2a5afa7090dcce7552f3b546fa8a1b
+  Log    : tools/thai/generated/precompose_stress_roms/logs/08_trainer.log
+
+RESULT: STRESS ROM BUILD PASSED
+
+ตรวจภาพใน Emulator ทีละ ROM แล้วบันทึก:
+- รูปร่างตัวอักษร
+- สระ/วรรณยุกต์ชนกันหรือไม่
+- ระยะตัวอักษร
+- การล้นหรือถูกตัดในเมนู

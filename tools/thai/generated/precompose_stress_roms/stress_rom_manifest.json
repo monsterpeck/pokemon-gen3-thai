@@ -1,0 +1,154 @@
+{
+  "format": "pokemon-gen3-thai-precompose-stress-roms-v1",
+  "created_at_utc": "2026-07-21T16:28:21.925845+00:00",
+  "branch": "thai-precompose-full",
+  "head": "d05ad8f26742a64ff5a9b51ad64d601d8a7ea735",
+  "required_ref": "full-precompose-761-runtime-proof",
+  "original_menu": "const u8 gText_MainMenuNewGame[] = _(\"เริ่มเกมส์\");",
+  "cases": [
+    {
+      "id": "01_start_game",
+      "label": "Baseline",
+      "text": "เริ่มเกมส์",
+      "focus": "คำต้นแบบ ริ่ และ ส์",
+      "thai_runs": [
+        "เริ่มเกมส์"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 03 00 00 f4 04 01 fc 19 69 00 00 f4 06 01 fc 19 26 00 00 f4 07 01 fc 19 03 00 00 f4 04 01 fc 19 08 00 00 f4 06 01 fc 19 26 00 00 f4 07 01 fc 19 16 02 00 f4 06 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/01_start_game.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "e8d2ed8bab4139aa9d58eaabc5c6224f5548ef312a8240eabcbfa091ce372bf6",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/01_start_game.log"
+    },
+    {
+      "id": "02_upper_marks",
+      "label": "Upper marks",
+      "text": "กิ กี กี่",
+      "focus": "สระบนและวรรณยุกต์",
+      "thai_runs": [
+        "กิ",
+        "กี",
+        "กี่"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 32 00 00 f4 06 01",
+        "fc 19 73 00 00 f4 06 01",
+        "fc 19 8f 00 00 f4 06 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/02_upper_marks.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "6e220ca51aac5a6509d32b1c9d168127784024761bc071fc27826daf4fda5b37",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/02_upper_marks.log"
+    },
+    {
+      "id": "03_lower_marks",
+      "label": "Lower marks",
+      "text": "กุ กู กุ่",
+      "focus": "สระล่างและวรรณยุกต์ร่วมกัน",
+      "thai_runs": [
+        "กุ",
+        "กู",
+        "กุ่"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 8c 01 00 f4 06 01",
+        "fc 19 c9 01 00 f4 06 01",
+        "fc 19 a7 01 00 f4 06 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/03_lower_marks.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "c23a879de26623f19018cbe6f66a3c8a4239ca7d4bdbe17cb35d7b7c515bb033",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/03_lower_marks.log"
+    },
+    {
+      "id": "04_mixed_stacks",
+      "label": "Mixed stacks",
+      "text": "รู้ สู้ ผู้",
+      "focus": "กลุ่มสระล่างและวรรณยุกต์",
+      "thai_runs": [
+        "รู้",
+        "สู้",
+        "ผู้"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 90 02 00 f4 05 01",
+        "fc 19 8e 02 00 f4 06 01",
+        "fc 19 8d 02 00 f4 06 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/04_mixed_stacks.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "b0e558eefe8377369b293991ad244fc71b1eb68c2fd94b14ec593de5c9ac5cbf",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/04_mixed_stacks.log"
+    },
+    {
+      "id": "05_japanese_word",
+      "label": "Japanese word",
+      "text": "ญี่ปุ่น",
+      "focus": "ญี่ ปุ่ และการต่อ Cluster",
+      "thai_runs": [
+        "ญี่ปุ่น"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 f4 02 00 f4 08 01 fc 19 b5 01 00 f4 07 01 fc 19 1e 00 00 f4 08 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/05_japanese_word.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "19ac8c7a33b535b2e468967579942975a4b7fc30c39020cf60319dbb1a232141",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/05_japanese_word.log"
+    },
+    {
+      "id": "06_sara_am",
+      "label": "Sara am",
+      "text": "น้ำ คำ ย้ำ",
+      "focus": "สระอำและวรรณยุกต์",
+      "thai_runs": [
+        "น้ำ",
+        "คำ",
+        "ย้ำ"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 61 02 00 f4 0b 01",
+        "fc 19 71 01 00 f4 0b 01",
+        "fc 19 62 02 00 f4 0a 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/06_sara_am.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "672ef49ec6ff7ae44121d5399d2fceb4b5159146dd13fe4c9973894ccfe55b19",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/06_sara_am.log"
+    },
+    {
+      "id": "07_pokemon",
+      "label": "Pokémon",
+      "text": "โปเกมอน",
+      "focus": "สระนำหน้าและคำศัพท์หลัก",
+      "thai_runs": [
+        "โปเกมอน"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 00 00 00 f4 05 01 fc 19 20 00 00 f4 07 01 fc 19 03 00 00 f4 04 01 fc 19 08 00 00 f4 06 01 fc 19 26 00 00 f4 07 01 fc 19 30 00 00 f4 06 01 fc 19 1e 00 00 f4 08 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/07_pokemon.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "df60dd93e20beb84996842169e157bfdfbfc6346e24babb320cedf86d12ae102",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/07_pokemon.log"
+    },
+    {
+      "id": "08_trainer",
+      "label": "Trainer",
+      "text": "เทรนเนอร์",
+      "focus": "คำยาว ร์ และระยะรวม",
+      "thai_runs": [
+        "เทรนเนอร์"
+      ],
+      "encoded_hex_runs": [
+        "fc 19 03 00 00 f4 04 01 fc 19 1c 00 00 f4 07 01 fc 19 28 00 00 f4 05 01 fc 19 1e 00 00 f4 08 01 fc 19 03 00 00 f4 04 01 fc 19 1e 00 00 f4 08 01 fc 19 30 00 00 f4 06 01 fc 19 12 02 00 f4 05 01"
+      ],
+      "rom": "tools/thai/generated/precompose_stress_roms/08_trainer.gba",
+      "rom_size": 16777216,
+      "rom_sha256": "751f6a1857343ea9e2ac1501ce72e5b3db2a5afa7090dcce7552f3b546fa8a1b",
+      "log": "tools/thai/generated/precompose_stress_roms/logs/08_trainer.log"
+    }
+  ]
+}
