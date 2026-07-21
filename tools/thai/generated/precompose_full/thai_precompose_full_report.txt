@@ -1,0 +1,69 @@
+THAI PRECOMPOSE FULL ATLAS REPORT
+=================================
+Source name      : LA Thai 11x12 precomposed glyphs — FireRed locked v2
+Source glyphs    : 761
+Source cell      : 11x12
+Destination cell : 16x16
+Embed offset     : (0, 2)
+Atlas size       : 256x768
+Atlas rows       : 48
+CSV encoding     : cp874
+CSV rows         : 781
+CSV unique       : 781
+CSV only         : 20
+JSON only        : 0
+
+CSV ONLY
+--------
+กึ
+คี๊
+งื
+จิ๊
+ดึ๋
+ตั๋
+ติ๊
+ตุ๊
+บั๊
+บี๊
+บุ๋
+ปุ๊
+ปู๊
+ฟิ้
+รุ๊
+ว่ำ
+ษั
+อู้
+ฮิ้
+ฮุ
+
+JSON ONLY
+---------
+(none)
+
+LONGEST-MATCH SAMPLE CHECK
+--------------------------
+Text   : เริ่มเกมส์
+Tokens : เ | ริ่ | ม | เ | ก | ม | ส์
+Missing: (none)
+
+Text   : กิ กี กี่ กุ กู
+Tokens : กิ |   | กี |   | กี่ |   | กุ |   | กู
+Missing: (none)
+
+Text   : รู้ สู้ ผู้
+Tokens : รู้ |   | สู้ |   | ผู้
+Missing: (none)
+
+Text   : ญี่ปุ่น
+Tokens : ญี่ | ปุ่ | น
+Missing: (none)
+
+Text   : น้ำ
+Tokens : น้ำ
+Missing: (none)
+
+OUTPUTS
+-------
+tools/thai/generated/precompose_full/thai_precompose_full.png
+tools/thai/generated/precompose_full/thai_precompose_full_map.json
+tools/thai/generated/precompose_full/thai_precompose_full_report.txt

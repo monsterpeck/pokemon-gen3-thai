@@ -296,7 +296,7 @@ $(C_BUILDDIR)/berry_crush.o: override CFLAGS += -Wno-address-of-packed-member
 endif
 
 # Build-time Thai shaping. Source files remain ordinary Unicode; only the compiler stream is rewritten.
-THAI_SHAPER := PYTHONPATH=tools/thai/cache/python:tools/thai python3 -B tools/thai/shape_thai_production.py
+THAI_SHAPER := PYTHONPATH=tools/thai/cache/python:tools/thai python3 -B tools/thai/shape_thai_precompose.py
 
 # Dependency rules (for the *.c & *.s sources to .o files)
 # Have to be explicit or else missing files won't be reported.
@@ -304,7 +304,7 @@ THAI_SHAPER := PYTHONPATH=tools/thai/cache/python:tools/thai python3 -B tools/th
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
 # It doesn't look like $(shell) can be deferred so there might not be a better way (Icedude_907: there is soon).
 
-$(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.c tools/thai/font/thai_shaped_glyph_map.json
+$(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.c tools/thai/font/thai_precompose_glyph_map.json
 ifneq ($(KEEP_TEMPS),1)
 	@echo "$(CC1) <flags> -o $@ $<"
 	@$(CPP) $(CPPFLAGS) $< | $(THAI_SHAPER) --filter-source | $(PREPROC) -i -g $(ASSETS_DIR_NAME) $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
@@ -332,7 +332,7 @@ ifneq ($(NODEP),1)
 -include $(addprefix $(OBJ_DIR)/,$(ASM_SRCS:.s=.d))
 endif
 
-$(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.s tools/thai/font/thai_shaped_glyph_map.json
+$(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.s tools/thai/font/thai_precompose_glyph_map.json
 	$(THAI_SHAPER) --filter-source $< | $(PREPROC) -i $< charmap.txt | $(CPP) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
 
 $(C_BUILDDIR)/%.d: $(C_SUBDIR)/%.s
@@ -342,7 +342,7 @@ ifneq ($(NODEP),1)
 -include $(addprefix $(OBJ_DIR)/,$(C_ASM_SRCS:.s=.d))
 endif
 
-$(DATA_ASM_BUILDDIR)/%.o: $(DATA_ASM_SUBDIR)/%.s tools/thai/font/thai_shaped_glyph_map.json
+$(DATA_ASM_BUILDDIR)/%.o: $(DATA_ASM_SUBDIR)/%.s tools/thai/font/thai_precompose_glyph_map.json
 	$(THAI_SHAPER) --filter-source $< | $(PREPROC) -i $< charmap.txt | $(CPP) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
 
 $(DATA_ASM_BUILDDIR)/%.d: $(DATA_ASM_SUBDIR)/%.s
