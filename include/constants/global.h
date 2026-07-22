@@ -98,6 +98,10 @@
 #define MAIL_WORDS_COUNT 9
 #define EASY_CHAT_BATTLE_WORDS_COUNT 6
 #define MOVE_NAME_LENGTH 12
+
+// Encoded Thai move-name buffers. Includes EOS and control codes.
+#define MOVE_NAME_RUNTIME_BUFFER_SIZE 128
+#define MOVE_NAMES_LIST_BUFFER_SIZE 520
 #define NUM_QUESTIONNAIRE_WORDS 4
 #define QUIZ_QUESTION_LEN 9
 #define WONDER_CARD_TEXT_LENGTH 40

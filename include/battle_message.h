@@ -7,6 +7,8 @@
                                 max(MOVE_NAME_LENGTH + 2, /* +2 to hold the "!" and EOS. */ \
                                     POKEMON_NAME_LENGTH + 1))
 
+#define BATTLE_TEXT_BUFFER_SIZE max(TEXT_BUFF_ARRAY_COUNT, MOVE_NAME_RUNTIME_BUFFER_SIZE)
+
 // for 0xFD
 #define B_TXT_BUFF1 0x0
 #define B_TXT_BUFF2 0x1

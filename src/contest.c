@@ -1517,7 +1517,7 @@ static void Task_TryShowMoveSelectScreen(u8 taskId)
 static void Task_ShowMoveSelectScreen(u8 taskId)
 {
     u8 i;
-    u8 moveName[32];
+    u8 moveName[MOVE_NAME_RUNTIME_BUFFER_SIZE + 8];
 
     gBattle_BG0_Y = DISPLAY_HEIGHT;
     gBattle_BG2_Y = DISPLAY_HEIGHT;
@@ -1542,7 +1542,7 @@ static void Task_ShowMoveSelectScreen(u8 taskId)
             // Gray the text because it's a repeated move
             moveNameBuffer = StringCopy(moveName, gText_ColorBlue);
         }
-        moveNameBuffer = StringCopy(moveNameBuffer, gMoveNames[move]);
+        moveNameBuffer = StringCopy(moveNameBuffer, GetMoveName(move));
 
         FillWindowPixelBuffer(i + MOVE_WINDOWS_START, PIXEL_FILL(0));
         Contest_PrintTextToBg0WindowAt(i + MOVE_WINDOWS_START, moveName, 5, 1, FONT_NARROW);

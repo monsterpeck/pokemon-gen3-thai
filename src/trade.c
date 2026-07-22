@@ -1865,7 +1865,7 @@ static void DrawSelectedMonScreen(u8 whichParty)
 {
     s8 nameStringWidth;
     u8 nickname[POKEMON_NAME_BUFFER_SIZE];
-    u8 movesString[56];
+    u8 movesString[MOVE_NAMES_LIST_BUFFER_SIZE];
     u8 i;
     u8 partyIdx;
     u8 selectedMonParty;
@@ -1981,7 +1981,7 @@ static void BufferMovesString(u8 *str, u8 whichParty, u8 partyIdx)
         for (i = 0; i < MAX_MON_MOVES; i++)
         {
             if (moves[i] != MOVE_NONE)
-                StringAppend(str, gMoveNames[moves[i]]);
+                StringAppend(str, GetMoveName(moves[i]));
 
             StringAppend(str, sText_NewLine);
         }

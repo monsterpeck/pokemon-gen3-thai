@@ -1062,10 +1062,10 @@ static void ApprenticeBufferString(void)
         StringCopy(stringDst, gSpeciesNames[gApprenticeQuestionData->speciesId]);
         break;
     case APPRENTICE_BUFF_MOVE1:
-        StringCopy(stringDst, gMoveNames[gApprenticeQuestionData->move1]);
+        StringCopy(stringDst, GetMoveName(gApprenticeQuestionData->move1));
         break;
     case APPRENTICE_BUFF_MOVE2:
-        StringCopy(stringDst, gMoveNames[gApprenticeQuestionData->move2]);
+        StringCopy(stringDst, GetMoveName(gApprenticeQuestionData->move2));
         break;
     case APPRENTICE_BUFF_ITEM:
         StringCopy(stringDst, GetItemName(PLAYER_APPRENTICE.questions[CURRENT_QUESTION_NUM].data));

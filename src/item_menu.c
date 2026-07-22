@@ -898,7 +898,7 @@ static void GetItemNameFromPocket(u8 *dest, u16 itemId)
     switch (gBagPosition.pocket)
     {
     case TMHM_POCKET:
-        StringCopy(gStringVar2, gMoveNames[ItemIdToBattleMoveId(itemId)]);
+        StringCopy(gStringVar2, GetMoveName(ItemIdToBattleMoveId(itemId)));
         if (itemId >= ITEM_HM01)
         {
             // Get HM number
