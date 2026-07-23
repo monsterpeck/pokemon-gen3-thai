@@ -1,0 +1,17 @@
+batch_id,order,move_id,move_constant,english_name,current_thai_name,current_status,learnset_sources,proposed_thai_name,proposed_status,reviewer_notes
+torchic-line-level-up-01,1,10,MOVE_SCRATCH,SCRATCH,ข่วน,proof_passed,TORCHIC@Lv1; COMBUSKEN@Lv1; BLAZIKEN@Lv1,ข่วน,proof_passed,ผ่าน Runtime visual proof แล้ว
+torchic-line-level-up-01,2,45,MOVE_GROWL,GROWL,คำราม,proof_passed,TORCHIC@Lv1; COMBUSKEN@Lv1; BLAZIKEN@Lv1,คำราม,proof_passed,ผ่าน Runtime visual proof แล้ว
+torchic-line-level-up-01,3,116,MOVE_FOCUS_ENERGY,FOCUS ENERGY,รวมพลัง,proof_passed,TORCHIC@Lv7; COMBUSKEN@Lv1; COMBUSKEN@Lv7; BLAZIKEN@Lv1; BLAZIKEN@Lv7,รวมพลัง,proof_passed,ผ่าน Runtime visual proof แล้ว
+torchic-line-level-up-01,4,52,MOVE_EMBER,EMBER,,pending,TORCHIC@Lv10; COMBUSKEN@Lv1; COMBUSKEN@Lv13; BLAZIKEN@Lv1; BLAZIKEN@Lv13,สะเก็ดไฟ,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,5,64,MOVE_PECK,PECK,,pending,TORCHIC@Lv16; COMBUSKEN@Lv17; BLAZIKEN@Lv17,จิก,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,6,28,MOVE_SAND_ATTACK,SAND-ATTACK,,pending,TORCHIC@Lv19; COMBUSKEN@Lv21; BLAZIKEN@Lv21,สาดทราย,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,7,83,MOVE_FIRE_SPIN,FIRE SPIN,,pending,TORCHIC@Lv25,วังวนไฟ,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,8,98,MOVE_QUICK_ATTACK,QUICK ATTACK,,pending,TORCHIC@Lv28; COMBUSKEN@Lv32; BLAZIKEN@Lv32,จู่โจมเร็ว,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,9,163,MOVE_SLASH,SLASH,,pending,TORCHIC@Lv34; COMBUSKEN@Lv39; BLAZIKEN@Lv42,ฟาดฟัน,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,10,119,MOVE_MIRROR_MOVE,MIRROR MOVE,,pending,TORCHIC@Lv37; COMBUSKEN@Lv43; BLAZIKEN@Lv49,สะท้อนท่า,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,11,53,MOVE_FLAMETHROWER,FLAMETHROWER,,pending,TORCHIC@Lv43,พ่นไฟ,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,12,24,MOVE_DOUBLE_KICK,DOUBLE KICK,,pending,COMBUSKEN@Lv16; BLAZIKEN@Lv16,เตะคู่,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,13,339,MOVE_BULK_UP,BULK UP,,pending,COMBUSKEN@Lv28; BLAZIKEN@Lv28,เสริมกล้าม,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,14,327,MOVE_SKY_UPPERCUT,SKY UPPERCUT,,pending,COMBUSKEN@Lv50; BLAZIKEN@Lv59,หมัดเสยฟ้า,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,15,7,MOVE_FIRE_PUNCH,FIRE PUNCH,,pending,BLAZIKEN@Lv1,หมัดไฟ,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+torchic-line-level-up-01,16,299,MOVE_BLAZE_KICK,BLAZE KICK,,pending,BLAZIKEN@Lv36,เตะเพลิง,translated_pending_qa,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"

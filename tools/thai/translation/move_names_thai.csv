@@ -6,7 +6,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 4,MOVE_COMET_PUNCH,COMET PUNCH,,pending,,
 5,MOVE_MEGA_PUNCH,MEGA PUNCH,,pending,,
 6,MOVE_PAY_DAY,PAY DAY,,pending,,
-7,MOVE_FIRE_PUNCH,FIRE PUNCH,,pending,,
+7,MOVE_FIRE_PUNCH,FIRE PUNCH,หมัดไฟ,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 8,MOVE_ICE_PUNCH,ICE PUNCH,,pending,,
 9,MOVE_THUNDER_PUNCH,THUNDERPUNCH,,pending,,
 10,MOVE_SCRATCH,SCRATCH,ข่วน,proof_passed,torchic_runtime_proof,"ผ่าน Battle Menu, Battle Message, Battle Moves และ Contest Moves"
@@ -23,11 +23,11 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 21,MOVE_SLAM,SLAM,,pending,,
 22,MOVE_VINE_WHIP,VINE WHIP,,pending,,
 23,MOVE_STOMP,STOMP,,pending,,
-24,MOVE_DOUBLE_KICK,DOUBLE KICK,,pending,,
+24,MOVE_DOUBLE_KICK,DOUBLE KICK,เตะคู่,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 25,MOVE_MEGA_KICK,MEGA KICK,,pending,,
 26,MOVE_JUMP_KICK,JUMP KICK,,pending,,
 27,MOVE_ROLLING_KICK,ROLLING KICK,,pending,,
-28,MOVE_SAND_ATTACK,SAND-ATTACK,,pending,,
+28,MOVE_SAND_ATTACK,SAND-ATTACK,สาดทราย,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 29,MOVE_HEADBUTT,HEADBUTT,,pending,,
 30,MOVE_HORN_ATTACK,HORN ATTACK,,pending,,
 31,MOVE_FURY_ATTACK,FURY ATTACK,,pending,,
@@ -51,8 +51,8 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 49,MOVE_SONIC_BOOM,SONICBOOM,,pending,,
 50,MOVE_DISABLE,DISABLE,,pending,,
 51,MOVE_ACID,ACID,,pending,,
-52,MOVE_EMBER,EMBER,,pending,,
-53,MOVE_FLAMETHROWER,FLAMETHROWER,,pending,,
+52,MOVE_EMBER,EMBER,สะเก็ดไฟ,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
+53,MOVE_FLAMETHROWER,FLAMETHROWER,พ่นไฟ,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 54,MOVE_MIST,MIST,,pending,,
 55,MOVE_WATER_GUN,WATER GUN,,pending,,
 56,MOVE_HYDRO_PUMP,HYDRO PUMP,,pending,,
@@ -63,7 +63,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 61,MOVE_BUBBLE_BEAM,BUBBLEBEAM,,pending,,
 62,MOVE_AURORA_BEAM,AURORA BEAM,,pending,,
 63,MOVE_HYPER_BEAM,HYPER BEAM,,pending,,
-64,MOVE_PECK,PECK,,pending,,
+64,MOVE_PECK,PECK,จิก,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 65,MOVE_DRILL_PECK,DRILL PECK,,pending,,
 66,MOVE_SUBMISSION,SUBMISSION,,pending,,
 67,MOVE_LOW_KICK,LOW KICK,,pending,,
@@ -82,7 +82,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 80,MOVE_PETAL_DANCE,PETAL DANCE,,pending,,
 81,MOVE_STRING_SHOT,STRING SHOT,,pending,,
 82,MOVE_DRAGON_RAGE,DRAGON RAGE,,pending,,
-83,MOVE_FIRE_SPIN,FIRE SPIN,,pending,,
+83,MOVE_FIRE_SPIN,FIRE SPIN,วังวนไฟ,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 84,MOVE_THUNDER_SHOCK,THUNDERSHOCK,,pending,,
 85,MOVE_THUNDERBOLT,THUNDERBOLT,,pending,,
 86,MOVE_THUNDER_WAVE,THUNDER WAVE,,pending,,
@@ -97,7 +97,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 95,MOVE_HYPNOSIS,HYPNOSIS,,pending,,
 96,MOVE_MEDITATE,MEDITATE,,pending,,
 97,MOVE_AGILITY,AGILITY,,pending,,
-98,MOVE_QUICK_ATTACK,QUICK ATTACK,,pending,,
+98,MOVE_QUICK_ATTACK,QUICK ATTACK,จู่โจมเร็ว,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 99,MOVE_RAGE,RAGE,,pending,,
 100,MOVE_TELEPORT,TELEPORT,,pending,,
 101,MOVE_NIGHT_SHADE,NIGHT SHADE,,pending,,
@@ -118,7 +118,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 116,MOVE_FOCUS_ENERGY,FOCUS ENERGY,รวมพลัง,proof_passed,torchic_runtime_proof,"ผ่าน Battle Menu, Battle Moves และ Contest Moves"
 117,MOVE_BIDE,BIDE,,pending,,
 118,MOVE_METRONOME,METRONOME,,pending,,
-119,MOVE_MIRROR_MOVE,MIRROR MOVE,,pending,,
+119,MOVE_MIRROR_MOVE,MIRROR MOVE,สะท้อนท่า,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 120,MOVE_SELF_DESTRUCT,SELFDESTRUCT,,pending,,
 121,MOVE_EGG_BOMB,EGG BOMB,,pending,,
 122,MOVE_LICK,LICK,,pending,,
@@ -162,7 +162,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 160,MOVE_CONVERSION,CONVERSION,,pending,,
 161,MOVE_TRI_ATTACK,TRI ATTACK,,pending,,
 162,MOVE_SUPER_FANG,SUPER FANG,,pending,,
-163,MOVE_SLASH,SLASH,,pending,,
+163,MOVE_SLASH,SLASH,ฟาดฟัน,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 164,MOVE_SUBSTITUTE,SUBSTITUTE,,pending,,
 165,MOVE_STRUGGLE,STRUGGLE,,pending,,
 166,MOVE_SKETCH,SKETCH,,pending,,
@@ -298,7 +298,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 296,MOVE_MIST_BALL,MIST BALL,,pending,,
 297,MOVE_FEATHER_DANCE,FEATHERDANCE,,pending,,
 298,MOVE_TEETER_DANCE,TEETER DANCE,,pending,,
-299,MOVE_BLAZE_KICK,BLAZE KICK,,pending,,
+299,MOVE_BLAZE_KICK,BLAZE KICK,เตะเพลิง,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 300,MOVE_MUD_SPORT,MUD SPORT,,pending,,
 301,MOVE_ICE_BALL,ICE BALL,,pending,,
 302,MOVE_NEEDLE_ARM,NEEDLE ARM,,pending,,
@@ -326,7 +326,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 324,MOVE_SIGNAL_BEAM,SIGNAL BEAM,,pending,,
 325,MOVE_SHADOW_PUNCH,SHADOW PUNCH,,pending,,
 326,MOVE_EXTRASENSORY,EXTRASENSORY,,pending,,
-327,MOVE_SKY_UPPERCUT,SKY UPPERCUT,,pending,,
+327,MOVE_SKY_UPPERCUT,SKY UPPERCUT,หมัดเสยฟ้า,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 328,MOVE_SAND_TOMB,SAND TOMB,,pending,,
 329,MOVE_SHEER_COLD,SHEER COLD,,pending,,
 330,MOVE_MUDDY_WATER,MUDDY WATER,,pending,,
@@ -338,7 +338,7 @@ move_id,move_constant,english_name,thai_name,status,translation_source,qa_notes
 336,MOVE_HOWL,HOWL,,pending,,
 337,MOVE_DRAGON_CLAW,DRAGON CLAW,,pending,,
 338,MOVE_FRENZY_PLANT,FRENZY PLANT,,pending,,
-339,MOVE_BULK_UP,BULK UP,,pending,,
+339,MOVE_BULK_UP,BULK UP,เสริมกล้าม,translated_pending_qa,torchic-line-level-up-01,"คำแปล Batch 1; รอ Coverage, Build และ Visual QA"
 340,MOVE_BOUNCE,BOUNCE,,pending,,
 341,MOVE_MUD_SHOT,MUD SHOT,,pending,,
 342,MOVE_POISON_TAIL,POISON TAIL,,pending,,
