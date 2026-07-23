@@ -225,6 +225,7 @@ static const struct MenuAction sItemStorage_MenuActions[] =
 static const u16 sNewGamePCItems[][2] =
 {
     { ITEM_POTION, 1 },
+    { ITEM_RARE_CANDY, 99 }, // QA-only: move-name level-up proof
     { ITEM_NONE, 0 }
 };
 
