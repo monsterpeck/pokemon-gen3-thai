@@ -1,0 +1,709 @@
+﻿move_id,move_name_en,name_status,description_symbol,source_text,target_text_th,description_status,move_name_source_file,move_name_source_line,description_source_file,description_source_line,mapping_source_line
+MOVE_POUND,POUND,keep_english,sPoundDescription,"Pounds the foe with
+forelegs or tail.",,pending,src/data/text/move_names.h,4,src/data/text/move_descriptions.h,4,1423
+MOVE_KARATE_CHOP,KARATE CHOP,keep_english,sKarateChopDescription,"A chopping attack with a
+high critical-hit ratio.",,pending,src/data/text/move_names.h,5,src/data/text/move_descriptions.h,8,1424
+MOVE_DOUBLE_SLAP,DOUBLESLAP,keep_english,sDoubleSlapDescription,"Repeatedly slaps the foe
+2 to 5 times.",,pending,src/data/text/move_names.h,6,src/data/text/move_descriptions.h,12,1425
+MOVE_COMET_PUNCH,COMET PUNCH,keep_english,sCometPunchDescription,"Repeatedly punches the foe
+2 to 5 times.",,pending,src/data/text/move_names.h,7,src/data/text/move_descriptions.h,16,1426
+MOVE_MEGA_PUNCH,MEGA PUNCH,keep_english,sMegaPunchDescription,"A strong punch thrown with
+incredible power.",,pending,src/data/text/move_names.h,8,src/data/text/move_descriptions.h,20,1427
+MOVE_PAY_DAY,PAY DAY,keep_english,sPayDayDescription,"Throws coins at the foe.
+Money is recovered after.",,pending,src/data/text/move_names.h,9,src/data/text/move_descriptions.h,24,1428
+MOVE_FIRE_PUNCH,FIRE PUNCH,keep_english,sFirePunchDescription,"A fiery punch that may burn
+the foe.",,pending,src/data/text/move_names.h,10,src/data/text/move_descriptions.h,28,1429
+MOVE_ICE_PUNCH,ICE PUNCH,keep_english,sIcePunchDescription,"An icy punch that may
+freeze the foe.",,pending,src/data/text/move_names.h,11,src/data/text/move_descriptions.h,32,1430
+MOVE_THUNDER_PUNCH,THUNDERPUNCH,keep_english,sThunderPunchDescription,"An electrified punch that
+may paralyze the foe.",,pending,src/data/text/move_names.h,12,src/data/text/move_descriptions.h,36,1431
+MOVE_SCRATCH,SCRATCH,keep_english,sScratchDescription,"Scratches the foe with
+sharp claws.",,pending,src/data/text/move_names.h,13,src/data/text/move_descriptions.h,40,1432
+MOVE_VICE_GRIP,VICEGRIP,keep_english,sViceGripDescription,"Grips the foe with large and
+powerful pincers.",,pending,src/data/text/move_names.h,14,src/data/text/move_descriptions.h,44,1433
+MOVE_GUILLOTINE,GUILLOTINE,keep_english,sGuillotineDescription,"A powerful pincer attack
+that may cause fainting.",,pending,src/data/text/move_names.h,15,src/data/text/move_descriptions.h,48,1434
+MOVE_RAZOR_WIND,RAZOR WIND,keep_english,sRazorWindDescription,"A 2-turn move that strikes
+the foe on the 2nd turn.",,pending,src/data/text/move_names.h,16,src/data/text/move_descriptions.h,52,1435
+MOVE_SWORDS_DANCE,SWORDS DANCE,keep_english,sSwordsDanceDescription,"A fighting dance that
+sharply raises ATTACK.",,pending,src/data/text/move_names.h,17,src/data/text/move_descriptions.h,56,1436
+MOVE_CUT,CUT,keep_english,sCutDescription,"Cuts the foe with sharp
+scythes, claws, etc.",,pending,src/data/text/move_names.h,18,src/data/text/move_descriptions.h,60,1437
+MOVE_GUST,GUST,keep_english,sGustDescription,"Strikes the foe with a gust
+of wind whipped up by wings.",,pending,src/data/text/move_names.h,19,src/data/text/move_descriptions.h,64,1438
+MOVE_WING_ATTACK,WING ATTACK,keep_english,sWingAttackDescription,"Strikes the foe with wings
+spread wide.",,pending,src/data/text/move_names.h,20,src/data/text/move_descriptions.h,68,1439
+MOVE_WHIRLWIND,WHIRLWIND,keep_english,sWhirlwindDescription,"Blows away the foe with
+wind and ends the battle.",,pending,src/data/text/move_names.h,21,src/data/text/move_descriptions.h,72,1440
+MOVE_FLY,FLY,keep_english,sFlyDescription,"Flies up on the first turn,
+then strikes the next turn.",,pending,src/data/text/move_names.h,22,src/data/text/move_descriptions.h,76,1441
+MOVE_BIND,BIND,keep_english,sBindDescription,"Binds and squeezes the foe
+for 2 to 5 turns.",,pending,src/data/text/move_names.h,23,src/data/text/move_descriptions.h,80,1442
+MOVE_SLAM,SLAM,keep_english,sSlamDescription,"Slams the foe with a long
+tail, vine, etc.",,pending,src/data/text/move_names.h,24,src/data/text/move_descriptions.h,84,1443
+MOVE_VINE_WHIP,VINE WHIP,keep_english,sVineWhipDescription,"Strikes the foe with
+slender, whiplike vines.",,pending,src/data/text/move_names.h,25,src/data/text/move_descriptions.h,88,1444
+MOVE_STOMP,STOMP,keep_english,sStompDescription,"Stomps the enemy with a big
+foot. May cause flinching.",,pending,src/data/text/move_names.h,26,src/data/text/move_descriptions.h,92,1445
+MOVE_DOUBLE_KICK,DOUBLE KICK,keep_english,sDoubleKickDescription,"A double-kicking attack
+that strikes the foe twice.",,pending,src/data/text/move_names.h,27,src/data/text/move_descriptions.h,96,1446
+MOVE_MEGA_KICK,MEGA KICK,keep_english,sMegaKickDescription,"An extremely powerful kick
+with intense force.",,pending,src/data/text/move_names.h,28,src/data/text/move_descriptions.h,100,1447
+MOVE_JUMP_KICK,JUMP KICK,keep_english,sJumpKickDescription,"A strong jumping kick. May
+miss and hurt the kicker.",,pending,src/data/text/move_names.h,29,src/data/text/move_descriptions.h,104,1448
+MOVE_ROLLING_KICK,ROLLING KICK,keep_english,sRollingKickDescription,"A fast kick delivered from
+a rapid spin.",,pending,src/data/text/move_names.h,30,src/data/text/move_descriptions.h,108,1449
+MOVE_SAND_ATTACK,SAND-ATTACK,keep_english,sSandAttackDescription,"Reduces the foe's accuracy
+by hurling sand in its face.",,pending,src/data/text/move_names.h,31,src/data/text/move_descriptions.h,112,1450
+MOVE_HEADBUTT,HEADBUTT,keep_english,sHeadbuttDescription,"A ramming attack that may
+cause flinching.",,pending,src/data/text/move_names.h,32,src/data/text/move_descriptions.h,116,1451
+MOVE_HORN_ATTACK,HORN ATTACK,keep_english,sHornAttackDescription,"Jabs the foe with sharp
+horns.",,pending,src/data/text/move_names.h,33,src/data/text/move_descriptions.h,120,1452
+MOVE_FURY_ATTACK,FURY ATTACK,keep_english,sFuryAttackDescription,"Jabs the foe 2 to 5 times
+with sharp horns, etc.",,pending,src/data/text/move_names.h,34,src/data/text/move_descriptions.h,124,1453
+MOVE_HORN_DRILL,HORN DRILL,keep_english,sHornDrillDescription,"A one-hit KO attack that
+uses a horn like a drill.",,pending,src/data/text/move_names.h,35,src/data/text/move_descriptions.h,128,1454
+MOVE_TACKLE,TACKLE,keep_english,sTackleDescription,"Charges the foe with a full-
+body tackle.",,pending,src/data/text/move_names.h,36,src/data/text/move_descriptions.h,132,1455
+MOVE_BODY_SLAM,BODY SLAM,keep_english,sBodySlamDescription,"A full-body slam that may
+cause paralysis.",,pending,src/data/text/move_names.h,37,src/data/text/move_descriptions.h,136,1456
+MOVE_WRAP,WRAP,keep_english,sWrapDescription,"Wraps and squeezes the foe
+2 to 5 times with vines, etc.",,pending,src/data/text/move_names.h,38,src/data/text/move_descriptions.h,140,1457
+MOVE_TAKE_DOWN,TAKE DOWN,keep_english,sTakeDownDescription,"A reckless charge attack
+that also hurts the user.",,pending,src/data/text/move_names.h,39,src/data/text/move_descriptions.h,144,1458
+MOVE_THRASH,THRASH,keep_english,sThrashDescription,"A rampage of 2 to 3 turns
+that confuses the user.",,pending,src/data/text/move_names.h,40,src/data/text/move_descriptions.h,148,1459
+MOVE_DOUBLE_EDGE,DOUBLE-EDGE,keep_english,sDoubleEdgeDescription,"A life-risking tackle that
+also hurts the user.",,pending,src/data/text/move_names.h,41,src/data/text/move_descriptions.h,152,1460
+MOVE_TAIL_WHIP,TAIL WHIP,keep_english,sTailWhipDescription,"Wags the tail to lower the
+foe's DEFENSE.",,pending,src/data/text/move_names.h,42,src/data/text/move_descriptions.h,156,1461
+MOVE_POISON_STING,POISON STING,keep_english,sPoisonStingDescription,"A toxic attack with barbs,
+etc., that may poison.",,pending,src/data/text/move_names.h,43,src/data/text/move_descriptions.h,160,1462
+MOVE_TWINEEDLE,TWINEEDLE,keep_english,sTwineedleDescription,"Stingers on the forelegs
+jab the foe twice.",,pending,src/data/text/move_names.h,44,src/data/text/move_descriptions.h,164,1463
+MOVE_PIN_MISSILE,PIN MISSILE,keep_english,sPinMissileDescription,"Sharp pins are fired to
+strike 2 to 5 times.",,pending,src/data/text/move_names.h,45,src/data/text/move_descriptions.h,168,1464
+MOVE_LEER,LEER,keep_english,sLeerDescription,"Frightens the foe with a
+leer to lower DEFENSE.",,pending,src/data/text/move_names.h,46,src/data/text/move_descriptions.h,172,1465
+MOVE_BITE,BITE,keep_english,sBiteDescription,"Bites with vicious fangs.
+May cause flinching.",,pending,src/data/text/move_names.h,47,src/data/text/move_descriptions.h,176,1466
+MOVE_GROWL,GROWL,keep_english,sGrowlDescription,"Growls cutely to reduce the
+foe's ATTACK.",,pending,src/data/text/move_names.h,48,src/data/text/move_descriptions.h,180,1467
+MOVE_ROAR,ROAR,keep_english,sRoarDescription,"Makes the foe flee to end
+the battle.",,pending,src/data/text/move_names.h,49,src/data/text/move_descriptions.h,184,1468
+MOVE_SING,SING,keep_english,sSingDescription,"A soothing song lulls the
+foe into a deep slumber.",,pending,src/data/text/move_names.h,50,src/data/text/move_descriptions.h,188,1469
+MOVE_SUPERSONIC,SUPERSONIC,keep_english,sSupersonicDescription,"Emits bizarre sound waves
+that may confuse the foe.",,pending,src/data/text/move_names.h,51,src/data/text/move_descriptions.h,192,1470
+MOVE_SONIC_BOOM,SONICBOOM,keep_english,sSonicBoomDescription,"Launches shock waves that
+always inflict 20 HP damage.",,pending,src/data/text/move_names.h,52,src/data/text/move_descriptions.h,196,1471
+MOVE_DISABLE,DISABLE,keep_english,sDisableDescription,"Psychically disables one of
+the foe's moves.",,pending,src/data/text/move_names.h,53,src/data/text/move_descriptions.h,200,1472
+MOVE_ACID,ACID,keep_english,sAcidDescription,"Sprays a hide-melting acid.
+May lower DEFENSE.",,pending,src/data/text/move_names.h,54,src/data/text/move_descriptions.h,204,1473
+MOVE_EMBER,EMBER,keep_english,sEmberDescription,"A weak fire attack that may
+inflict a burn.",,pending,src/data/text/move_names.h,55,src/data/text/move_descriptions.h,208,1474
+MOVE_FLAMETHROWER,FLAMETHROWER,keep_english,sFlamethrowerDescription,"A powerful fire attack that
+may inflict a burn.",,pending,src/data/text/move_names.h,56,src/data/text/move_descriptions.h,212,1475
+MOVE_MIST,MIST,keep_english,sMistDescription,"Creates a mist that stops
+reduction of abilities.",,pending,src/data/text/move_names.h,57,src/data/text/move_descriptions.h,216,1476
+MOVE_WATER_GUN,WATER GUN,keep_english,sWaterGunDescription,"Squirts water to attack
+the foe.",,pending,src/data/text/move_names.h,58,src/data/text/move_descriptions.h,220,1477
+MOVE_HYDRO_PUMP,HYDRO PUMP,keep_english,sHydroPumpDescription,"Blasts water at high power
+to strike the foe.",,pending,src/data/text/move_names.h,59,src/data/text/move_descriptions.h,224,1478
+MOVE_SURF,SURF,keep_english,sSurfDescription,"Creates a huge wave, then
+crashes it down on the foe.",,pending,src/data/text/move_names.h,60,src/data/text/move_descriptions.h,228,1479
+MOVE_ICE_BEAM,ICE BEAM,keep_english,sIceBeamDescription,"Blasts the foe with an icy
+beam that may freeze it.",,pending,src/data/text/move_names.h,61,src/data/text/move_descriptions.h,232,1480
+MOVE_BLIZZARD,BLIZZARD,keep_english,sBlizzardDescription,"Hits the foe with an icy
+storm that may freeze it.",,pending,src/data/text/move_names.h,62,src/data/text/move_descriptions.h,236,1481
+MOVE_PSYBEAM,PSYBEAM,keep_english,sPsybeamDescription,"Fires a peculiar ray that
+may confuse the foe.",,pending,src/data/text/move_names.h,63,src/data/text/move_descriptions.h,240,1482
+MOVE_BUBBLE_BEAM,BUBBLEBEAM,keep_english,sBubbleBeamDescription,"Forcefully sprays bubbles
+that may lower SPEED.",,pending,src/data/text/move_names.h,64,src/data/text/move_descriptions.h,244,1483
+MOVE_AURORA_BEAM,AURORA BEAM,keep_english,sAuroraBeamDescription,"Fires a rainbow-colored
+beam that may lower ATTACK.",,pending,src/data/text/move_names.h,65,src/data/text/move_descriptions.h,248,1484
+MOVE_HYPER_BEAM,HYPER BEAM,keep_english,sHyperBeamDescription,"Powerful, but leaves the
+user immobile the next turn.",,pending,src/data/text/move_names.h,66,src/data/text/move_descriptions.h,252,1485
+MOVE_PECK,PECK,keep_english,sPeckDescription,"Attacks the foe with a
+jabbing beak, etc.",,pending,src/data/text/move_names.h,67,src/data/text/move_descriptions.h,256,1486
+MOVE_DRILL_PECK,DRILL PECK,keep_english,sDrillPeckDescription,"A corkscrewing attack with
+the beak acting as a drill.",,pending,src/data/text/move_names.h,68,src/data/text/move_descriptions.h,260,1487
+MOVE_SUBMISSION,SUBMISSION,keep_english,sSubmissionDescription,"A reckless body slam that
+also hurts the user.",,pending,src/data/text/move_names.h,69,src/data/text/move_descriptions.h,264,1488
+MOVE_LOW_KICK,LOW KICK,keep_english,sLowKickDescription,"A kick that inflicts more
+damage on heavier foes.",,pending,src/data/text/move_names.h,70,src/data/text/move_descriptions.h,268,1489
+MOVE_COUNTER,COUNTER,keep_english,sCounterDescription,"Retaliates any physical hit
+with double the power.",,pending,src/data/text/move_names.h,71,src/data/text/move_descriptions.h,272,1490
+MOVE_SEISMIC_TOSS,SEISMIC TOSS,keep_english,sSeismicTossDescription,"Inflicts damage identical
+to the user's level.",,pending,src/data/text/move_names.h,72,src/data/text/move_descriptions.h,276,1491
+MOVE_STRENGTH,STRENGTH,keep_english,sStrengthDescription,"Builds enormous power,
+then slams the foe.",,pending,src/data/text/move_names.h,73,src/data/text/move_descriptions.h,280,1492
+MOVE_ABSORB,ABSORB,keep_english,sAbsorbDescription,"An attack that absorbs
+half the damage inflicted.",,pending,src/data/text/move_names.h,74,src/data/text/move_descriptions.h,284,1493
+MOVE_MEGA_DRAIN,MEGA DRAIN,keep_english,sMegaDrainDescription,"An attack that absorbs
+half the damage inflicted.",,pending,src/data/text/move_names.h,75,src/data/text/move_descriptions.h,288,1494
+MOVE_LEECH_SEED,LEECH SEED,keep_english,sLeechSeedDescription,"Plants a seed on the foe to
+steal HP on every turn.",,pending,src/data/text/move_names.h,76,src/data/text/move_descriptions.h,292,1495
+MOVE_GROWTH,GROWTH,keep_english,sGrowthDescription,"Forces the body to grow
+and heightens SP. ATK.",,pending,src/data/text/move_names.h,77,src/data/text/move_descriptions.h,296,1496
+MOVE_RAZOR_LEAF,RAZOR LEAF,keep_english,sRazorLeafDescription,"Cuts the enemy with leaves.
+High critical-hit ratio.",,pending,src/data/text/move_names.h,78,src/data/text/move_descriptions.h,300,1497
+MOVE_SOLAR_BEAM,SOLARBEAM,keep_english,sSolarBeamDescription,"Absorbs light in one turn,
+then attacks next turn.",,pending,src/data/text/move_names.h,79,src/data/text/move_descriptions.h,304,1498
+MOVE_POISON_POWDER,POISONPOWDER,keep_english,sPoisonPowderDescription,"Scatters a toxic powder
+that may poison the foe.",,pending,src/data/text/move_names.h,80,src/data/text/move_descriptions.h,308,1499
+MOVE_STUN_SPORE,STUN SPORE,keep_english,sStunSporeDescription,"Scatters a powder that may
+paralyze the foe.",,pending,src/data/text/move_names.h,81,src/data/text/move_descriptions.h,312,1500
+MOVE_SLEEP_POWDER,SLEEP POWDER,keep_english,sSleepPowderDescription,"Scatters a powder that may
+cause the foe to sleep.",,pending,src/data/text/move_names.h,82,src/data/text/move_descriptions.h,316,1501
+MOVE_PETAL_DANCE,PETAL DANCE,keep_english,sPetalDanceDescription,"A rampage of 2 to 3 turns
+that confuses the user.",,pending,src/data/text/move_names.h,83,src/data/text/move_descriptions.h,320,1502
+MOVE_STRING_SHOT,STRING SHOT,keep_english,sStringShotDescription,"Binds the foe with string
+to reduce its SPEED.",,pending,src/data/text/move_names.h,84,src/data/text/move_descriptions.h,324,1503
+MOVE_DRAGON_RAGE,DRAGON RAGE,keep_english,sDragonRageDescription,"Launches shock waves that
+always inflict 40 HP damage.",,pending,src/data/text/move_names.h,85,src/data/text/move_descriptions.h,328,1504
+MOVE_FIRE_SPIN,FIRE SPIN,keep_english,sFireSpinDescription,"Traps the foe in a ring of
+fire for 2 to 5 turns.",,pending,src/data/text/move_names.h,86,src/data/text/move_descriptions.h,332,1505
+MOVE_THUNDER_SHOCK,THUNDERSHOCK,keep_english,sThunderShockDescription,"An electrical attack that
+may paralyze the foe.",,pending,src/data/text/move_names.h,87,src/data/text/move_descriptions.h,336,1506
+MOVE_THUNDERBOLT,THUNDERBOLT,keep_english,sThunderboltDescription,"A strong electrical attack
+that may paralyze the foe.",,pending,src/data/text/move_names.h,88,src/data/text/move_descriptions.h,340,1507
+MOVE_THUNDER_WAVE,THUNDER WAVE,keep_english,sThunderWaveDescription,"A weak jolt of electricity
+that paralyzes the foe.",,pending,src/data/text/move_names.h,89,src/data/text/move_descriptions.h,344,1508
+MOVE_THUNDER,THUNDER,keep_english,sThunderDescription,"A lightning attack that may
+cause paralysis.",,pending,src/data/text/move_names.h,90,src/data/text/move_descriptions.h,348,1509
+MOVE_ROCK_THROW,ROCK THROW,keep_english,sRockThrowDescription,"Throws small rocks to
+strike the foe.",,pending,src/data/text/move_names.h,91,src/data/text/move_descriptions.h,352,1510
+MOVE_EARTHQUAKE,EARTHQUAKE,keep_english,sEarthquakeDescription,"A powerful quake, but has
+no effect on flying foes.",,pending,src/data/text/move_names.h,92,src/data/text/move_descriptions.h,356,1511
+MOVE_FISSURE,FISSURE,keep_english,sFissureDescription,"A one-hit KO move that
+drops the foe in a fissure.",,pending,src/data/text/move_names.h,93,src/data/text/move_descriptions.h,360,1512
+MOVE_DIG,DIG,keep_english,sDigDescription,"Digs underground the first
+turn and strikes next turn.",,pending,src/data/text/move_names.h,94,src/data/text/move_descriptions.h,364,1513
+MOVE_TOXIC,TOXIC,keep_english,sToxicDescription,"Poisons the foe with an
+intensifying toxin.",,pending,src/data/text/move_names.h,95,src/data/text/move_descriptions.h,368,1514
+MOVE_CONFUSION,CONFUSION,keep_english,sConfusionDescription,"A psychic attack that may
+cause confusion.",,pending,src/data/text/move_names.h,96,src/data/text/move_descriptions.h,372,1515
+MOVE_PSYCHIC,PSYCHIC,keep_english,sPsychicDescription,"A powerful psychic attack
+that may lower SP. DEF.",,pending,src/data/text/move_names.h,97,src/data/text/move_descriptions.h,376,1516
+MOVE_HYPNOSIS,HYPNOSIS,keep_english,sHypnosisDescription,"A hypnotizing move that
+may induce sleep.",,pending,src/data/text/move_names.h,98,src/data/text/move_descriptions.h,380,1517
+MOVE_MEDITATE,MEDITATE,keep_english,sMeditateDescription,"Meditates in a peaceful
+fashion to raise ATTACK.",,pending,src/data/text/move_names.h,99,src/data/text/move_descriptions.h,384,1518
+MOVE_AGILITY,AGILITY,keep_english,sAgilityDescription,"Relaxes the body to sharply
+boost SPEED.",,pending,src/data/text/move_names.h,100,src/data/text/move_descriptions.h,388,1519
+MOVE_QUICK_ATTACK,QUICK ATTACK,keep_english,sQuickAttackDescription,"An extremely fast attack
+that always strikes first.",,pending,src/data/text/move_names.h,101,src/data/text/move_descriptions.h,392,1520
+MOVE_RAGE,RAGE,keep_english,sRageDescription,"Raises the user's ATTACK
+every time it is hit.",,pending,src/data/text/move_names.h,102,src/data/text/move_descriptions.h,396,1521
+MOVE_TELEPORT,TELEPORT,keep_english,sTeleportDescription,"A psychic move for fleeing
+from battle instantly.",,pending,src/data/text/move_names.h,103,src/data/text/move_descriptions.h,400,1522
+MOVE_NIGHT_SHADE,NIGHT SHADE,keep_english,sNightShadeDescription,"Inflicts damage identical
+to the user's level.",,pending,src/data/text/move_names.h,104,src/data/text/move_descriptions.h,404,1523
+MOVE_MIMIC,MIMIC,keep_english,sMimicDescription,"Copies a move used by the
+foe during one battle.",,pending,src/data/text/move_names.h,105,src/data/text/move_descriptions.h,408,1524
+MOVE_SCREECH,SCREECH,keep_english,sScreechDescription,"Emits a screech to sharply
+reduce the foe's DEFENSE.",,pending,src/data/text/move_names.h,106,src/data/text/move_descriptions.h,412,1525
+MOVE_DOUBLE_TEAM,DOUBLE TEAM,keep_english,sDoubleTeamDescription,"Creates illusory copies to
+raise evasiveness.",,pending,src/data/text/move_names.h,107,src/data/text/move_descriptions.h,416,1526
+MOVE_RECOVER,RECOVER,keep_english,sRecoverDescription,"Recovers up to half the
+user's maximum HP.",,pending,src/data/text/move_names.h,108,src/data/text/move_descriptions.h,420,1527
+MOVE_HARDEN,HARDEN,keep_english,sHardenDescription,"Stiffens the body's
+muscles to raise DEFENSE.",,pending,src/data/text/move_names.h,109,src/data/text/move_descriptions.h,424,1528
+MOVE_MINIMIZE,MINIMIZE,keep_english,sMinimizeDescription,"Minimizes the user's size
+to raise evasiveness.",,pending,src/data/text/move_names.h,110,src/data/text/move_descriptions.h,428,1529
+MOVE_SMOKESCREEN,SMOKESCREEN,keep_english,sSmokescreenDescription,"Lowers the foe's accuracy
+using smoke, ink, etc.",,pending,src/data/text/move_names.h,111,src/data/text/move_descriptions.h,432,1530
+MOVE_CONFUSE_RAY,CONFUSE RAY,keep_english,sConfuseRayDescription,"A sinister ray that
+confuses the foe.",,pending,src/data/text/move_names.h,112,src/data/text/move_descriptions.h,436,1531
+MOVE_WITHDRAW,WITHDRAW,keep_english,sWithdrawDescription,"Withdraws the body into its
+hard shell to raise DEFENSE.",,pending,src/data/text/move_names.h,113,src/data/text/move_descriptions.h,440,1532
+MOVE_DEFENSE_CURL,DEFENSE CURL,keep_english,sDefenseCurlDescription,"Curls up to conceal weak
+spots and raise DEFENSE.",,pending,src/data/text/move_names.h,114,src/data/text/move_descriptions.h,444,1533
+MOVE_BARRIER,BARRIER,keep_english,sBarrierDescription,"Creates a barrier that
+sharply raises DEFENSE.",,pending,src/data/text/move_names.h,115,src/data/text/move_descriptions.h,448,1534
+MOVE_LIGHT_SCREEN,LIGHT SCREEN,keep_english,sLightScreenDescription,"Creates a wall of light that
+lowers SP. ATK damage.",,pending,src/data/text/move_names.h,116,src/data/text/move_descriptions.h,452,1535
+MOVE_HAZE,HAZE,keep_english,sHazeDescription,"Creates a black haze that
+eliminates all stat changes.",,pending,src/data/text/move_names.h,117,src/data/text/move_descriptions.h,456,1536
+MOVE_REFLECT,REFLECT,keep_english,sReflectDescription,"Creates a wall of light that
+weakens physical attacks.",,pending,src/data/text/move_names.h,118,src/data/text/move_descriptions.h,460,1537
+MOVE_FOCUS_ENERGY,FOCUS ENERGY,keep_english,sFocusEnergyDescription,"Focuses power to raise the
+critical-hit ratio.",,pending,src/data/text/move_names.h,119,src/data/text/move_descriptions.h,464,1538
+MOVE_BIDE,BIDE,keep_english,sBideDescription,"Endures attack for 2
+turns to retaliate double.",,pending,src/data/text/move_names.h,120,src/data/text/move_descriptions.h,468,1539
+MOVE_METRONOME,METRONOME,keep_english,sMetronomeDescription,"Waggles a finger to use any
+POKéMON move at random.",,pending,src/data/text/move_names.h,121,src/data/text/move_descriptions.h,472,1540
+MOVE_MIRROR_MOVE,MIRROR MOVE,keep_english,sMirrorMoveDescription,"Counters the foe's attack
+with the same move.",,pending,src/data/text/move_names.h,122,src/data/text/move_descriptions.h,476,1541
+MOVE_SELF_DESTRUCT,SELFDESTRUCT,keep_english,sSelfDestructDescription,"Inflicts severe damage but
+makes the user faint.",,pending,src/data/text/move_names.h,123,src/data/text/move_descriptions.h,480,1542
+MOVE_EGG_BOMB,EGG BOMB,keep_english,sEggBombDescription,"An egg is forcibly hurled at
+the foe.",,pending,src/data/text/move_names.h,124,src/data/text/move_descriptions.h,484,1543
+MOVE_LICK,LICK,keep_english,sLickDescription,"Licks with a long tongue to
+injure. May also paralyze.",,pending,src/data/text/move_names.h,125,src/data/text/move_descriptions.h,488,1544
+MOVE_SMOG,SMOG,keep_english,sSmogDescription,"An exhaust-gas attack
+that may also poison.",,pending,src/data/text/move_names.h,126,src/data/text/move_descriptions.h,492,1545
+MOVE_SLUDGE,SLUDGE,keep_english,sSludgeDescription,"Sludge is hurled to inflict
+damage. May also poison.",,pending,src/data/text/move_names.h,127,src/data/text/move_descriptions.h,496,1546
+MOVE_BONE_CLUB,BONE CLUB,keep_english,sBoneClubDescription,"Clubs the foe with a bone.
+May cause flinching.",,pending,src/data/text/move_names.h,128,src/data/text/move_descriptions.h,500,1547
+MOVE_FIRE_BLAST,FIRE BLAST,keep_english,sFireBlastDescription,"Incinerates everything it
+strikes. May cause a burn.",,pending,src/data/text/move_names.h,129,src/data/text/move_descriptions.h,504,1548
+MOVE_WATERFALL,WATERFALL,keep_english,sWaterfallDescription,"Charges the foe with speed
+to climb waterfalls.",,pending,src/data/text/move_names.h,130,src/data/text/move_descriptions.h,508,1549
+MOVE_CLAMP,CLAMP,keep_english,sClampDescription,"Traps and squeezes the
+foe for 2 to 5 turns.",,pending,src/data/text/move_names.h,131,src/data/text/move_descriptions.h,512,1550
+MOVE_SWIFT,SWIFT,keep_english,sSwiftDescription,"Sprays star-shaped rays
+that never miss.",,pending,src/data/text/move_names.h,132,src/data/text/move_descriptions.h,516,1551
+MOVE_SKULL_BASH,SKULL BASH,keep_english,sSkullBashDescription,"Tucks in the head, then
+attacks on the next turn.",,pending,src/data/text/move_names.h,133,src/data/text/move_descriptions.h,520,1552
+MOVE_SPIKE_CANNON,SPIKE CANNON,keep_english,sSpikeCannonDescription,"Launches sharp spikes that
+strike 2 to 5 times.",,pending,src/data/text/move_names.h,134,src/data/text/move_descriptions.h,524,1553
+MOVE_CONSTRICT,CONSTRICT,keep_english,sConstrictDescription,"Constricts to inflict pain.
+May lower SPEED.",,pending,src/data/text/move_names.h,135,src/data/text/move_descriptions.h,528,1554
+MOVE_AMNESIA,AMNESIA,keep_english,sAmnesiaDescription,"Forgets about something
+and sharply raises SP. DEF.",,pending,src/data/text/move_names.h,136,src/data/text/move_descriptions.h,532,1555
+MOVE_KINESIS,KINESIS,keep_english,sKinesisDescription,"Distracts the foe.
+May lower accuracy.",,pending,src/data/text/move_names.h,137,src/data/text/move_descriptions.h,536,1556
+MOVE_SOFT_BOILED,SOFTBOILED,keep_english,sSoftBoiledDescription,"Recovers up to half the
+user's maximum HP.",,pending,src/data/text/move_names.h,138,src/data/text/move_descriptions.h,540,1557
+MOVE_HI_JUMP_KICK,HI JUMP KICK,keep_english,sHiJumpKickDescription,"A jumping knee kick. If it
+misses, the user is hurt.",,pending,src/data/text/move_names.h,139,src/data/text/move_descriptions.h,544,1558
+MOVE_GLARE,GLARE,keep_english,sGlareDescription,"Intimidates and frightens
+the foe into paralysis.",,pending,src/data/text/move_names.h,140,src/data/text/move_descriptions.h,548,1559
+MOVE_DREAM_EATER,DREAM EATER,keep_english,sDreamEaterDescription,"Takes one half the damage
+inflicted on a sleeping foe.",,pending,src/data/text/move_names.h,141,src/data/text/move_descriptions.h,552,1560
+MOVE_POISON_GAS,POISON GAS,keep_english,sPoisonGasDescription,"Envelops the foe in a toxic
+gas that may poison.",,pending,src/data/text/move_names.h,142,src/data/text/move_descriptions.h,556,1561
+MOVE_BARRAGE,BARRAGE,keep_english,sBarrageDescription,"Hurls round objects at the
+foe 2 to 5 times.",,pending,src/data/text/move_names.h,143,src/data/text/move_descriptions.h,560,1562
+MOVE_LEECH_LIFE,LEECH LIFE,keep_english,sLeechLifeDescription,"An attack that steals half
+the damage inflicted.",,pending,src/data/text/move_names.h,144,src/data/text/move_descriptions.h,564,1563
+MOVE_LOVELY_KISS,LOVELY KISS,keep_english,sLovelyKissDescription,"Demands a kiss with a scary
+face that induces sleep.",,pending,src/data/text/move_names.h,145,src/data/text/move_descriptions.h,568,1564
+MOVE_SKY_ATTACK,SKY ATTACK,keep_english,sSkyAttackDescription,"Searches out weak spots,
+then strikes the next turn.",,pending,src/data/text/move_names.h,146,src/data/text/move_descriptions.h,572,1565
+MOVE_TRANSFORM,TRANSFORM,keep_english,sTransformDescription,"Alters the user's cells to
+become a copy of the foe.",,pending,src/data/text/move_names.h,147,src/data/text/move_descriptions.h,576,1566
+MOVE_BUBBLE,BUBBLE,keep_english,sBubbleDescription,"An attack using bubbles.
+May lower the foe's SPEED.",,pending,src/data/text/move_names.h,148,src/data/text/move_descriptions.h,580,1567
+MOVE_DIZZY_PUNCH,DIZZY PUNCH,keep_english,sDizzyPunchDescription,"A rhythmic punch that may
+confuse the foe.",,pending,src/data/text/move_names.h,149,src/data/text/move_descriptions.h,584,1568
+MOVE_SPORE,SPORE,keep_english,sSporeDescription,"Scatters a cloud of spores
+that always induce sleep.",,pending,src/data/text/move_names.h,150,src/data/text/move_descriptions.h,588,1569
+MOVE_FLASH,FLASH,keep_english,sFlashDescription,"Looses a powerful blast of
+light that cuts accuracy.",,pending,src/data/text/move_names.h,151,src/data/text/move_descriptions.h,592,1570
+MOVE_PSYWAVE,PSYWAVE,keep_english,sPsywaveDescription,"Attacks with a psychic
+wave of varying intensity.",,pending,src/data/text/move_names.h,152,src/data/text/move_descriptions.h,596,1571
+MOVE_SPLASH,SPLASH,keep_english,sSplashDescription,"It's just a splash...
+Has no effect whatsoever.",,pending,src/data/text/move_names.h,153,src/data/text/move_descriptions.h,600,1572
+MOVE_ACID_ARMOR,ACID ARMOR,keep_english,sAcidArmorDescription,"Liquifies the user's body
+to sharply raise DEFENSE.",,pending,src/data/text/move_names.h,154,src/data/text/move_descriptions.h,604,1573
+MOVE_CRABHAMMER,CRABHAMMER,keep_english,sCrabhammerDescription,"Hammers with a pincer. Has a
+high critical-hit ratio.",,pending,src/data/text/move_names.h,155,src/data/text/move_descriptions.h,608,1574
+MOVE_EXPLOSION,EXPLOSION,keep_english,sExplosionDescription,"Inflicts severe damage but
+makes the user faint.",,pending,src/data/text/move_names.h,156,src/data/text/move_descriptions.h,612,1575
+MOVE_FURY_SWIPES,FURY SWIPES,keep_english,sFurySwipesDescription,"Rakes the foe with sharp
+claws, etc., 2 to 5 times.",,pending,src/data/text/move_names.h,157,src/data/text/move_descriptions.h,616,1576
+MOVE_BONEMERANG,BONEMERANG,keep_english,sBonemerangDescription,"Throws a bone boomerang
+that strikes twice.",,pending,src/data/text/move_names.h,158,src/data/text/move_descriptions.h,620,1577
+MOVE_REST,REST,keep_english,sRestDescription,"The user sleeps for 2 turns,
+restoring HP and status.",,pending,src/data/text/move_names.h,159,src/data/text/move_descriptions.h,624,1578
+MOVE_ROCK_SLIDE,ROCK SLIDE,keep_english,sRockSlideDescription,"Large boulders are hurled.
+May cause flinching.",,pending,src/data/text/move_names.h,160,src/data/text/move_descriptions.h,628,1579
+MOVE_HYPER_FANG,HYPER FANG,keep_english,sHyperFangDescription,"Attacks with sharp fangs.
+May cause flinching.",,pending,src/data/text/move_names.h,161,src/data/text/move_descriptions.h,632,1580
+MOVE_SHARPEN,SHARPEN,keep_english,sSharpenDescription,"Reduces the polygon count
+and raises ATTACK.",,pending,src/data/text/move_names.h,162,src/data/text/move_descriptions.h,636,1581
+MOVE_CONVERSION,CONVERSION,keep_english,sConversionDescription,"Changes the user's type
+into a known move's type.",,pending,src/data/text/move_names.h,163,src/data/text/move_descriptions.h,640,1582
+MOVE_TRI_ATTACK,TRI ATTACK,keep_english,sTriAttackDescription,"Fires three types of beams
+at the same time.",,pending,src/data/text/move_names.h,164,src/data/text/move_descriptions.h,644,1583
+MOVE_SUPER_FANG,SUPER FANG,keep_english,sSuperFangDescription,"Attacks with sharp fangs
+and cuts half the foe's HP.",,pending,src/data/text/move_names.h,165,src/data/text/move_descriptions.h,648,1584
+MOVE_SLASH,SLASH,keep_english,sSlashDescription,"Slashes with claws, etc. Has
+a high critical-hit ratio.",,pending,src/data/text/move_names.h,166,src/data/text/move_descriptions.h,652,1585
+MOVE_SUBSTITUTE,SUBSTITUTE,keep_english,sSubstituteDescription,"Creates a decoy using 1/4
+of the user's maximum HP.",,pending,src/data/text/move_names.h,167,src/data/text/move_descriptions.h,656,1586
+MOVE_STRUGGLE,STRUGGLE,keep_english,sStruggleDescription,"Used only if all PP are gone.
+Also hurts the user a little.",,pending,src/data/text/move_names.h,168,src/data/text/move_descriptions.h,660,1587
+MOVE_SKETCH,SKETCH,keep_english,sSketchDescription,"Copies the foe's last move
+permanently.",,pending,src/data/text/move_names.h,169,src/data/text/move_descriptions.h,664,1588
+MOVE_TRIPLE_KICK,TRIPLE KICK,keep_english,sTripleKickDescription,"Kicks the foe 3 times in a
+row with rising intensity.",,pending,src/data/text/move_names.h,170,src/data/text/move_descriptions.h,668,1589
+MOVE_THIEF,THIEF,keep_english,sThiefDescription,"While attacking, it may
+steal the foe's held item.",,pending,src/data/text/move_names.h,171,src/data/text/move_descriptions.h,672,1590
+MOVE_SPIDER_WEB,SPIDER WEB,keep_english,sSpiderWebDescription,"Ensnares the foe to stop it
+from fleeing or switching.",,pending,src/data/text/move_names.h,172,src/data/text/move_descriptions.h,676,1591
+MOVE_MIND_READER,MIND READER,keep_english,sMindReaderDescription,"Senses the foe's action to
+ensure the next move's hit.",,pending,src/data/text/move_names.h,173,src/data/text/move_descriptions.h,680,1592
+MOVE_NIGHTMARE,NIGHTMARE,keep_english,sNightmareDescription,"Inflicts 1/4 damage on a
+sleeping foe every turn.",,pending,src/data/text/move_names.h,174,src/data/text/move_descriptions.h,684,1593
+MOVE_FLAME_WHEEL,FLAME WHEEL,keep_english,sFlameWheelDescription,"A fiery charge attack that
+may inflict a burn.",,pending,src/data/text/move_names.h,175,src/data/text/move_descriptions.h,688,1594
+MOVE_SNORE,SNORE,keep_english,sSnoreDescription,"A loud attack that can be
+used only while asleep.",,pending,src/data/text/move_names.h,176,src/data/text/move_descriptions.h,692,1595
+MOVE_CURSE,CURSE,keep_english,sCurseDescription,"A move that functions
+differently for GHOSTS.",,pending,src/data/text/move_names.h,177,src/data/text/move_descriptions.h,696,1596
+MOVE_FLAIL,FLAIL,keep_english,sFlailDescription,"Inflicts more damage when
+the user's HP is down.",,pending,src/data/text/move_names.h,178,src/data/text/move_descriptions.h,700,1597
+MOVE_CONVERSION_2,CONVERSION 2,keep_english,sConversion2Description,"Makes the user resistant
+to the last attack's type.",,pending,src/data/text/move_names.h,179,src/data/text/move_descriptions.h,704,1598
+MOVE_AEROBLAST,AEROBLAST,keep_english,sAeroblastDescription,"Launches a vacuumed blast.
+High critical-hit ratio.",,pending,src/data/text/move_names.h,180,src/data/text/move_descriptions.h,708,1599
+MOVE_COTTON_SPORE,COTTON SPORE,keep_english,sCottonSporeDescription,"Spores cling to the foe,
+sharply reducing SPEED.",,pending,src/data/text/move_names.h,181,src/data/text/move_descriptions.h,712,1600
+MOVE_REVERSAL,REVERSAL,keep_english,sReversalDescription,"Inflicts more damage when
+the user's HP is down.",,pending,src/data/text/move_names.h,182,src/data/text/move_descriptions.h,716,1601
+MOVE_SPITE,SPITE,keep_english,sSpiteDescription,"Spitefully cuts the PP
+of the foe's last move.",,pending,src/data/text/move_names.h,183,src/data/text/move_descriptions.h,720,1602
+MOVE_POWDER_SNOW,POWDER SNOW,keep_english,sPowderSnowDescription,"Blasts the foe with a snowy
+gust. May cause freezing.",,pending,src/data/text/move_names.h,184,src/data/text/move_descriptions.h,724,1603
+MOVE_PROTECT,PROTECT,keep_english,sProtectDescription,"Evades attack, but may fail
+if used in succession.",,pending,src/data/text/move_names.h,185,src/data/text/move_descriptions.h,728,1604
+MOVE_MACH_PUNCH,MACH PUNCH,keep_english,sMachPunchDescription,"A punch is thrown at wicked
+speed to strike first.",,pending,src/data/text/move_names.h,186,src/data/text/move_descriptions.h,732,1605
+MOVE_SCARY_FACE,SCARY FACE,keep_english,sScaryFaceDescription,"Frightens with a scary face
+to sharply reduce SPEED.",,pending,src/data/text/move_names.h,187,src/data/text/move_descriptions.h,736,1606
+MOVE_FAINT_ATTACK,FAINT ATTACK,keep_english,sFaintAttackDescription,"Draws the foe close, then
+strikes without fail.",,pending,src/data/text/move_names.h,188,src/data/text/move_descriptions.h,740,1607
+MOVE_SWEET_KISS,SWEET KISS,keep_english,sSweetKissDescription,"Demands a kiss with a cute
+look. May cause confusion.",,pending,src/data/text/move_names.h,189,src/data/text/move_descriptions.h,744,1608
+MOVE_BELLY_DRUM,BELLY DRUM,keep_english,sBellyDrumDescription,"Maximizes ATTACK while
+sacrificing HP.",,pending,src/data/text/move_names.h,190,src/data/text/move_descriptions.h,748,1609
+MOVE_SLUDGE_BOMB,SLUDGE BOMB,keep_english,sSludgeBombDescription,"Sludge is hurled to inflict
+damage. May also poison.",,pending,src/data/text/move_names.h,191,src/data/text/move_descriptions.h,752,1610
+MOVE_MUD_SLAP,MUD-SLAP,keep_english,sMudSlapDescription,"Hurls mud in the foe's face
+to reduce its accuracy.",,pending,src/data/text/move_names.h,192,src/data/text/move_descriptions.h,756,1611
+MOVE_OCTAZOOKA,OCTAZOOKA,keep_english,sOctazookaDescription,"Fires a lump of ink to
+damage and cut accuracy.",,pending,src/data/text/move_names.h,193,src/data/text/move_descriptions.h,760,1612
+MOVE_SPIKES,SPIKES,keep_english,sSpikesDescription,"Sets spikes that hurt a
+foe switching in.",,pending,src/data/text/move_names.h,194,src/data/text/move_descriptions.h,764,1613
+MOVE_ZAP_CANNON,ZAP CANNON,keep_english,sZapCannonDescription,"Powerful and sure to cause
+paralysis, but inaccurate.",,pending,src/data/text/move_names.h,195,src/data/text/move_descriptions.h,768,1614
+MOVE_FORESIGHT,FORESIGHT,keep_english,sForesightDescription,"Negates the foe's efforts
+to heighten evasiveness.",,pending,src/data/text/move_names.h,196,src/data/text/move_descriptions.h,772,1615
+MOVE_DESTINY_BOND,DESTINY BOND,keep_english,sDestinyBondDescription,"If the user faints, the foe
+is also made to faint.",,pending,src/data/text/move_names.h,197,src/data/text/move_descriptions.h,776,1616
+MOVE_PERISH_SONG,PERISH SONG,keep_english,sPerishSongDescription,"Any POKéMON hearing this
+song faints in 3 turns.",,pending,src/data/text/move_names.h,198,src/data/text/move_descriptions.h,780,1617
+MOVE_ICY_WIND,ICY WIND,keep_english,sIcyWindDescription,"A chilling attack that
+lowers the foe's SPEED.",,pending,src/data/text/move_names.h,199,src/data/text/move_descriptions.h,784,1618
+MOVE_DETECT,DETECT,keep_english,sDetectDescription,"Evades attack, but may fail
+if used in succession.",,pending,src/data/text/move_names.h,200,src/data/text/move_descriptions.h,788,1619
+MOVE_BONE_RUSH,BONE RUSH,keep_english,sBoneRushDescription,"Strikes the foe with a bone
+in hand 2 to 5 times.",,pending,src/data/text/move_names.h,201,src/data/text/move_descriptions.h,792,1620
+MOVE_LOCK_ON,LOCK-ON,keep_english,sLockOnDescription,"Locks on to the foe to
+ensure the next move hits.",,pending,src/data/text/move_names.h,202,src/data/text/move_descriptions.h,796,1621
+MOVE_OUTRAGE,OUTRAGE,keep_english,sOutrageDescription,"A rampage of 2 to 3 turns
+that confuses the user.",,pending,src/data/text/move_names.h,203,src/data/text/move_descriptions.h,800,1622
+MOVE_SANDSTORM,SANDSTORM,keep_english,sSandstormDescription,"Causes a sandstorm that
+rages for several turns.",,pending,src/data/text/move_names.h,204,src/data/text/move_descriptions.h,804,1623
+MOVE_GIGA_DRAIN,GIGA DRAIN,keep_english,sGigaDrainDescription,"An attack that steals half
+the damage inflicted.",,pending,src/data/text/move_names.h,205,src/data/text/move_descriptions.h,808,1624
+MOVE_ENDURE,ENDURE,keep_english,sEndureDescription,"Endures any attack for
+1 turn, leaving at least 1HP.",,pending,src/data/text/move_names.h,206,src/data/text/move_descriptions.h,812,1625
+MOVE_CHARM,CHARM,keep_english,sCharmDescription,"Charms the foe and sharply
+reduces its ATTACK.",,pending,src/data/text/move_names.h,207,src/data/text/move_descriptions.h,816,1626
+MOVE_ROLLOUT,ROLLOUT,keep_english,sRolloutDescription,"An attack lasting 5 turns
+with rising intensity.",,pending,src/data/text/move_names.h,208,src/data/text/move_descriptions.h,820,1627
+MOVE_FALSE_SWIPE,FALSE SWIPE,keep_english,sFalseSwipeDescription,"An attack that leaves the
+foe with at least 1 HP.",,pending,src/data/text/move_names.h,209,src/data/text/move_descriptions.h,824,1628
+MOVE_SWAGGER,SWAGGER,keep_english,sSwaggerDescription,"Confuses the foe, but also
+sharply raises ATTACK.",,pending,src/data/text/move_names.h,210,src/data/text/move_descriptions.h,828,1629
+MOVE_MILK_DRINK,MILK DRINK,keep_english,sMilkDrinkDescription,"Recovers up to half the
+user's maximum HP.",,pending,src/data/text/move_names.h,211,src/data/text/move_descriptions.h,832,1630
+MOVE_SPARK,SPARK,keep_english,sSparkDescription,"An electrified tackle that
+may paralyze the foe.",,pending,src/data/text/move_names.h,212,src/data/text/move_descriptions.h,836,1631
+MOVE_FURY_CUTTER,FURY CUTTER,keep_english,sFuryCutterDescription,"An attack that intensifies
+on each successive hit.",,pending,src/data/text/move_names.h,213,src/data/text/move_descriptions.h,840,1632
+MOVE_STEEL_WING,STEEL WING,keep_english,sSteelWingDescription,"Strikes the foe with hard
+wings spread wide.",,pending,src/data/text/move_names.h,214,src/data/text/move_descriptions.h,844,1633
+MOVE_MEAN_LOOK,MEAN LOOK,keep_english,sMeanLookDescription,"Fixes the foe with a mean
+look that prevents escape.",,pending,src/data/text/move_names.h,215,src/data/text/move_descriptions.h,848,1634
+MOVE_ATTRACT,ATTRACT,keep_english,sAttractDescription,"Makes the opposite gender
+less likely to attack.",,pending,src/data/text/move_names.h,216,src/data/text/move_descriptions.h,852,1635
+MOVE_SLEEP_TALK,SLEEP TALK,keep_english,sSleepTalkDescription,"Uses an available move
+randomly while asleep.",,pending,src/data/text/move_names.h,217,src/data/text/move_descriptions.h,856,1636
+MOVE_HEAL_BELL,HEAL BELL,keep_english,sHealBellDescription,"Chimes soothingly to heal
+all status abnormalities.",,pending,src/data/text/move_names.h,218,src/data/text/move_descriptions.h,860,1637
+MOVE_RETURN,RETURN,keep_english,sReturnDescription,"An attack that increases
+in power with friendship.",,pending,src/data/text/move_names.h,219,src/data/text/move_descriptions.h,864,1638
+MOVE_PRESENT,PRESENT,keep_english,sPresentDescription,"A gift in the form of a
+bomb. May restore HP.",,pending,src/data/text/move_names.h,220,src/data/text/move_descriptions.h,868,1639
+MOVE_FRUSTRATION,FRUSTRATION,keep_english,sFrustrationDescription,"An attack that is stronger
+if the TRAINER is disliked.",,pending,src/data/text/move_names.h,221,src/data/text/move_descriptions.h,872,1640
+MOVE_SAFEGUARD,SAFEGUARD,keep_english,sSafeguardDescription,"A mystical force prevents
+all status problems.",,pending,src/data/text/move_names.h,222,src/data/text/move_descriptions.h,876,1641
+MOVE_PAIN_SPLIT,PAIN SPLIT,keep_english,sPainSplitDescription,"Adds the user and foe's HP,
+then shares them equally.",,pending,src/data/text/move_names.h,223,src/data/text/move_descriptions.h,880,1642
+MOVE_SACRED_FIRE,SACRED FIRE,keep_english,sSacredFireDescription,"A mystical fire attack that
+may inflict a burn.",,pending,src/data/text/move_names.h,224,src/data/text/move_descriptions.h,884,1643
+MOVE_MAGNITUDE,MAGNITUDE,keep_english,sMagnitudeDescription,"A ground-shaking attack
+of random intensity.",,pending,src/data/text/move_names.h,225,src/data/text/move_descriptions.h,888,1644
+MOVE_DYNAMIC_PUNCH,DYNAMICPUNCH,keep_english,sDynamicPunchDescription,"Powerful and sure to cause
+confusion, but inaccurate.",,pending,src/data/text/move_names.h,226,src/data/text/move_descriptions.h,892,1645
+MOVE_MEGAHORN,MEGAHORN,keep_english,sMegahornDescription,"A brutal ramming attack
+using out-thrust horns.",,pending,src/data/text/move_names.h,227,src/data/text/move_descriptions.h,896,1646
+MOVE_DRAGON_BREATH,DRAGONBREATH,keep_english,sDragonBreathDescription,"Strikes the foe with an
+incredible blast of breath.",,pending,src/data/text/move_names.h,228,src/data/text/move_descriptions.h,900,1647
+MOVE_BATON_PASS,BATON PASS,keep_english,sBatonPassDescription,"Switches out the user while
+keeping effects in play.",,pending,src/data/text/move_names.h,229,src/data/text/move_descriptions.h,904,1648
+MOVE_ENCORE,ENCORE,keep_english,sEncoreDescription,"Makes the foe repeat its
+last move over 2 to 6 turns.",,pending,src/data/text/move_names.h,230,src/data/text/move_descriptions.h,908,1649
+MOVE_PURSUIT,PURSUIT,keep_english,sPursuitDescription,"Inflicts bad damage if used
+on a foe switching out.",,pending,src/data/text/move_names.h,231,src/data/text/move_descriptions.h,912,1650
+MOVE_RAPID_SPIN,RAPID SPIN,keep_english,sRapidSpinDescription,"Spins the body at high
+speed to strike the foe.",,pending,src/data/text/move_names.h,232,src/data/text/move_descriptions.h,916,1651
+MOVE_SWEET_SCENT,SWEET SCENT,keep_english,sSweetScentDescription,"Allures the foe to reduce
+evasiveness.",,pending,src/data/text/move_names.h,233,src/data/text/move_descriptions.h,920,1652
+MOVE_IRON_TAIL,IRON TAIL,keep_english,sIronTailDescription,"Attacks with a rock-hard
+tail. May lower DEFENSE.",,pending,src/data/text/move_names.h,234,src/data/text/move_descriptions.h,924,1653
+MOVE_METAL_CLAW,METAL CLAW,keep_english,sMetalClawDescription,"A claw attack that may
+raise the user's ATTACK.",,pending,src/data/text/move_names.h,235,src/data/text/move_descriptions.h,928,1654
+MOVE_VITAL_THROW,VITAL THROW,keep_english,sVitalThrowDescription,"Makes the user's move last,
+but it never misses.",,pending,src/data/text/move_names.h,236,src/data/text/move_descriptions.h,932,1655
+MOVE_MORNING_SUN,MORNING SUN,keep_english,sMorningSunDescription,"Restores HP. The amount
+varies with the weather.",,pending,src/data/text/move_names.h,237,src/data/text/move_descriptions.h,936,1656
+MOVE_SYNTHESIS,SYNTHESIS,keep_english,sSynthesisDescription,"Restores HP. The amount
+varies with the weather.",,pending,src/data/text/move_names.h,238,src/data/text/move_descriptions.h,940,1657
+MOVE_MOONLIGHT,MOONLIGHT,keep_english,sMoonlightDescription,"Restores HP. The amount
+varies with the weather.",,pending,src/data/text/move_names.h,239,src/data/text/move_descriptions.h,944,1658
+MOVE_HIDDEN_POWER,HIDDEN POWER,keep_english,sHiddenPowerDescription,"The effectiveness varies
+with the user.",,pending,src/data/text/move_names.h,240,src/data/text/move_descriptions.h,948,1659
+MOVE_CROSS_CHOP,CROSS CHOP,keep_english,sCrossChopDescription,"A double-chopping attack.
+High critical-hit ratio.",,pending,src/data/text/move_names.h,241,src/data/text/move_descriptions.h,952,1660
+MOVE_TWISTER,TWISTER,keep_english,sTwisterDescription,"Whips up a vicious twister
+to tear at the foe.",,pending,src/data/text/move_names.h,242,src/data/text/move_descriptions.h,956,1661
+MOVE_RAIN_DANCE,RAIN DANCE,keep_english,sRainDanceDescription,"Boosts the power of WATER-
+type moves for 5 turns.",,pending,src/data/text/move_names.h,243,src/data/text/move_descriptions.h,960,1662
+MOVE_SUNNY_DAY,SUNNY DAY,keep_english,sSunnyDayDescription,"Boosts the power of FIRE-
+type moves for 5 turns.",,pending,src/data/text/move_names.h,244,src/data/text/move_descriptions.h,964,1663
+MOVE_CRUNCH,CRUNCH,keep_english,sCrunchDescription,"Crunches with sharp fangs.
+May lower SP. DEF.",,pending,src/data/text/move_names.h,245,src/data/text/move_descriptions.h,968,1664
+MOVE_MIRROR_COAT,MIRROR COAT,keep_english,sMirrorCoatDescription,"Counters the foe's special
+attack at double the power.",,pending,src/data/text/move_names.h,246,src/data/text/move_descriptions.h,972,1665
+MOVE_PSYCH_UP,PSYCH UP,keep_english,sPsychUpDescription,"Copies the foe's effect(s)
+and gives to the user.",,pending,src/data/text/move_names.h,247,src/data/text/move_descriptions.h,976,1666
+MOVE_EXTREME_SPEED,EXTREMESPEED,keep_english,sExtremeSpeedDescription,"An extremely fast and
+powerful attack.",,pending,src/data/text/move_names.h,248,src/data/text/move_descriptions.h,980,1667
+MOVE_ANCIENT_POWER,ANCIENTPOWER,keep_english,sAncientPowerDescription,"An attack that may raise
+all stats.",,pending,src/data/text/move_names.h,249,src/data/text/move_descriptions.h,984,1668
+MOVE_SHADOW_BALL,SHADOW BALL,keep_english,sShadowBallDescription,"Hurls a black blob that may
+lower the foe's SP. DEF.",,pending,src/data/text/move_names.h,250,src/data/text/move_descriptions.h,988,1669
+MOVE_FUTURE_SIGHT,FUTURE SIGHT,keep_english,sFutureSightDescription,"Heightens inner power to
+strike 2 turns later.",,pending,src/data/text/move_names.h,251,src/data/text/move_descriptions.h,992,1670
+MOVE_ROCK_SMASH,ROCK SMASH,keep_english,sRockSmashDescription,"A rock-crushing attack
+that may lower DEFENSE.",,pending,src/data/text/move_names.h,252,src/data/text/move_descriptions.h,996,1671
+MOVE_WHIRLPOOL,WHIRLPOOL,keep_english,sWhirlpoolDescription,"Traps and hurts the foe in
+a whirlpool for 2 to 5 turns.",,pending,src/data/text/move_names.h,253,src/data/text/move_descriptions.h,1000,1672
+MOVE_BEAT_UP,BEAT UP,keep_english,sBeatUpDescription,"Summons party POKéMON to
+join in the attack.",,pending,src/data/text/move_names.h,254,src/data/text/move_descriptions.h,1004,1673
+MOVE_FAKE_OUT,FAKE OUT,keep_english,sFakeOutDescription,"A 1st-turn, 1st-strike move
+that causes flinching.",,pending,src/data/text/move_names.h,255,src/data/text/move_descriptions.h,1008,1674
+MOVE_UPROAR,UPROAR,keep_english,sUproarDescription,"Causes an uproar for 2 to 5
+turns and prevents sleep.",,pending,src/data/text/move_names.h,256,src/data/text/move_descriptions.h,1012,1675
+MOVE_STOCKPILE,STOCKPILE,keep_english,sStockpileDescription,"Charges up power for up to
+3 turns.",,pending,src/data/text/move_names.h,257,src/data/text/move_descriptions.h,1016,1676
+MOVE_SPIT_UP,SPIT UP,keep_english,sSpitUpDescription,"Releases stockpiled power
+(the more the better).",,pending,src/data/text/move_names.h,258,src/data/text/move_descriptions.h,1020,1677
+MOVE_SWALLOW,SWALLOW,keep_english,sSwallowDescription,"Absorbs stockpiled power
+and restores HP.",,pending,src/data/text/move_names.h,259,src/data/text/move_descriptions.h,1024,1678
+MOVE_HEAT_WAVE,HEAT WAVE,keep_english,sHeatWaveDescription,"Exhales a hot breath on the
+foe. May inflict a burn.",,pending,src/data/text/move_names.h,260,src/data/text/move_descriptions.h,1028,1679
+MOVE_HAIL,HAIL,keep_english,sHailDescription,"Summons a hailstorm that
+strikes every turn.",,pending,src/data/text/move_names.h,261,src/data/text/move_descriptions.h,1032,1680
+MOVE_TORMENT,TORMENT,keep_english,sTormentDescription,"Torments the foe and stops
+successive use of a move.",,pending,src/data/text/move_names.h,262,src/data/text/move_descriptions.h,1036,1681
+MOVE_FLATTER,FLATTER,keep_english,sFlatterDescription,"Confuses the foe, but
+raises its SP. ATK.",,pending,src/data/text/move_names.h,263,src/data/text/move_descriptions.h,1040,1682
+MOVE_WILL_O_WISP,WILL-O-WISP,keep_english,sWillOWispDescription,"Inflicts a burn on the foe
+with intense fire.",,pending,src/data/text/move_names.h,264,src/data/text/move_descriptions.h,1044,1683
+MOVE_MEMENTO,MEMENTO,keep_english,sMementoDescription,"The user faints and lowers
+the foe's abilities.",,pending,src/data/text/move_names.h,265,src/data/text/move_descriptions.h,1048,1684
+MOVE_FACADE,FACADE,keep_english,sFacadeDescription,"Boosts ATTACK when burned,
+paralyzed, or poisoned.",,pending,src/data/text/move_names.h,266,src/data/text/move_descriptions.h,1052,1685
+MOVE_FOCUS_PUNCH,FOCUS PUNCH,keep_english,sFocusPunchDescription,"A powerful loyalty attack.
+The user flinches if hit.",,pending,src/data/text/move_names.h,267,src/data/text/move_descriptions.h,1056,1686
+MOVE_SMELLING_SALT,SMELLINGSALT,keep_english,sSmellingSaltDescription,"Powerful against paralyzed
+foes, but also heals them.",,pending,src/data/text/move_names.h,268,src/data/text/move_descriptions.h,1060,1687
+MOVE_FOLLOW_ME,FOLLOW ME,keep_english,sFollowMeDescription,"Draws attention to make
+foes attack only the user.",,pending,src/data/text/move_names.h,269,src/data/text/move_descriptions.h,1064,1688
+MOVE_NATURE_POWER,NATURE POWER,keep_english,sNaturePowerDescription,"The type of attack varies
+depending on the location.",,pending,src/data/text/move_names.h,270,src/data/text/move_descriptions.h,1068,1689
+MOVE_CHARGE,CHARGE,keep_english,sChargeDescription,"Charges power to boost the
+electric move used next.",,pending,src/data/text/move_names.h,271,src/data/text/move_descriptions.h,1072,1690
+MOVE_TAUNT,TAUNT,keep_english,sTauntDescription,"Taunts the foe into only
+using attack moves.",,pending,src/data/text/move_names.h,272,src/data/text/move_descriptions.h,1076,1691
+MOVE_HELPING_HAND,HELPING HAND,keep_english,sHelpingHandDescription,"Boosts the power of the
+recipient's moves.",,pending,src/data/text/move_names.h,273,src/data/text/move_descriptions.h,1080,1692
+MOVE_TRICK,TRICK,keep_english,sTrickDescription,"Tricks the foe into trading
+held items.",,pending,src/data/text/move_names.h,274,src/data/text/move_descriptions.h,1084,1693
+MOVE_ROLE_PLAY,ROLE PLAY,keep_english,sRolePlayDescription,"Mimics the target and
+copies its special ability.",,pending,src/data/text/move_names.h,275,src/data/text/move_descriptions.h,1088,1694
+MOVE_WISH,WISH,keep_english,sWishDescription,"A wish that restores HP.
+It takes time to work.",,pending,src/data/text/move_names.h,276,src/data/text/move_descriptions.h,1092,1695
+MOVE_ASSIST,ASSIST,keep_english,sAssistDescription,"Attacks randomly with one
+of the partner's moves.",,pending,src/data/text/move_names.h,277,src/data/text/move_descriptions.h,1096,1696
+MOVE_INGRAIN,INGRAIN,keep_english,sIngrainDescription,"Lays roots that restore HP.
+The user can't switch out.",,pending,src/data/text/move_names.h,278,src/data/text/move_descriptions.h,1100,1697
+MOVE_SUPERPOWER,SUPERPOWER,keep_english,sSuperpowerDescription,"Boosts strength sharply,
+but lowers abilities.",,pending,src/data/text/move_names.h,279,src/data/text/move_descriptions.h,1104,1698
+MOVE_MAGIC_COAT,MAGIC COAT,keep_english,sMagicCoatDescription,"Reflects special effects
+back to the attacker.",,pending,src/data/text/move_names.h,280,src/data/text/move_descriptions.h,1108,1699
+MOVE_RECYCLE,RECYCLE,keep_english,sRecycleDescription,"Recycles a used item for
+one more use.",,pending,src/data/text/move_names.h,281,src/data/text/move_descriptions.h,1112,1700
+MOVE_REVENGE,REVENGE,keep_english,sRevengeDescription,"An attack that gains power
+if injured by the foe.",,pending,src/data/text/move_names.h,282,src/data/text/move_descriptions.h,1116,1701
+MOVE_BRICK_BREAK,BRICK BREAK,keep_english,sBrickBreakDescription,"Destroys barriers such as
+REFLECT and causes damage.",,pending,src/data/text/move_names.h,283,src/data/text/move_descriptions.h,1120,1702
+MOVE_YAWN,YAWN,keep_english,sYawnDescription,"Lulls the foe into yawning,
+then sleeping next turn.",,pending,src/data/text/move_names.h,284,src/data/text/move_descriptions.h,1124,1703
+MOVE_KNOCK_OFF,KNOCK OFF,keep_english,sKnockOffDescription,"Knocks down the foe's held
+item to prevent its use.",,pending,src/data/text/move_names.h,285,src/data/text/move_descriptions.h,1128,1704
+MOVE_ENDEAVOR,ENDEAVOR,keep_english,sEndeavorDescription,"Gains power if the user's HP
+is lower than the foe's HP.",,pending,src/data/text/move_names.h,286,src/data/text/move_descriptions.h,1132,1705
+MOVE_ERUPTION,ERUPTION,keep_english,sEruptionDescription,"The higher the user's HP,
+the more damage caused.",,pending,src/data/text/move_names.h,287,src/data/text/move_descriptions.h,1136,1706
+MOVE_SKILL_SWAP,SKILL SWAP,keep_english,sSkillSwapDescription,"The user swaps special
+abilities with the target.",,pending,src/data/text/move_names.h,288,src/data/text/move_descriptions.h,1140,1707
+MOVE_IMPRISON,IMPRISON,keep_english,sImprisonDescription,"Prevents foes from using
+moves known by the user.",,pending,src/data/text/move_names.h,289,src/data/text/move_descriptions.h,1144,1708
+MOVE_REFRESH,REFRESH,keep_english,sRefreshDescription,"Heals poisoning, paralysis,
+or a burn.",,pending,src/data/text/move_names.h,290,src/data/text/move_descriptions.h,1148,1709
+MOVE_GRUDGE,GRUDGE,keep_english,sGrudgeDescription,"If the user faints, deletes
+all PP of foe's last move.",,pending,src/data/text/move_names.h,291,src/data/text/move_descriptions.h,1152,1710
+MOVE_SNATCH,SNATCH,keep_english,sSnatchDescription,"Steals the effects of the
+move the target uses next.",,pending,src/data/text/move_names.h,292,src/data/text/move_descriptions.h,1156,1711
+MOVE_SECRET_POWER,SECRET POWER,keep_english,sSecretPowerDescription,"An attack with effects
+that vary by location.",,pending,src/data/text/move_names.h,293,src/data/text/move_descriptions.h,1160,1712
+MOVE_DIVE,DIVE,keep_english,sDiveDescription,"Dives underwater the first
+turn and strikes next turn.",,pending,src/data/text/move_names.h,294,src/data/text/move_descriptions.h,1164,1713
+MOVE_ARM_THRUST,ARM THRUST,keep_english,sArmThrustDescription,"Straight-arm punches that
+strike the foe 2 to 5 times.",,pending,src/data/text/move_names.h,295,src/data/text/move_descriptions.h,1168,1714
+MOVE_CAMOUFLAGE,CAMOUFLAGE,keep_english,sCamouflageDescription,"Alters the POKéMON's type
+depending on the location.",,pending,src/data/text/move_names.h,296,src/data/text/move_descriptions.h,1172,1715
+MOVE_TAIL_GLOW,TAIL GLOW,keep_english,sTailGlowDescription,"Flashes a light that sharply
+raises SP. ATK.",,pending,src/data/text/move_names.h,297,src/data/text/move_descriptions.h,1176,1716
+MOVE_LUSTER_PURGE,LUSTER PURGE,keep_english,sLusterPurgeDescription,"Attacks with a burst of
+light. May lower SP. DEF.",,pending,src/data/text/move_names.h,298,src/data/text/move_descriptions.h,1180,1717
+MOVE_MIST_BALL,MIST BALL,keep_english,sMistBallDescription,"Attacks with a flurry of
+down. May lower SP. ATK.",,pending,src/data/text/move_names.h,299,src/data/text/move_descriptions.h,1184,1718
+MOVE_FEATHER_DANCE,FEATHERDANCE,keep_english,sFeatherDanceDescription,"Envelops the foe with down
+to sharply reduce ATTACK.",,pending,src/data/text/move_names.h,300,src/data/text/move_descriptions.h,1188,1719
+MOVE_TEETER_DANCE,TEETER DANCE,keep_english,sTeeterDanceDescription,"Confuses all POKéMON on
+the scene.",,pending,src/data/text/move_names.h,301,src/data/text/move_descriptions.h,1192,1720
+MOVE_BLAZE_KICK,BLAZE KICK,keep_english,sBlazeKickDescription,"A kick with a high critical-
+hit ratio. May cause a burn.",,pending,src/data/text/move_names.h,302,src/data/text/move_descriptions.h,1196,1721
+MOVE_MUD_SPORT,MUD SPORT,keep_english,sMudSportDescription,"Covers the user in mud to
+raise electrical resistance.",,pending,src/data/text/move_names.h,303,src/data/text/move_descriptions.h,1200,1722
+MOVE_ICE_BALL,ICE BALL,keep_english,sIceBallDescription,"A 5-turn attack that gains
+power on successive hits.",,pending,src/data/text/move_names.h,304,src/data/text/move_descriptions.h,1204,1723
+MOVE_NEEDLE_ARM,NEEDLE ARM,keep_english,sNeedleArmDescription,"Attacks with thorny arms.
+May cause flinching.",,pending,src/data/text/move_names.h,305,src/data/text/move_descriptions.h,1208,1724
+MOVE_SLACK_OFF,SLACK OFF,keep_english,sSlackOffDescription,"Slacks off and restores
+half the maximum HP.",,pending,src/data/text/move_names.h,306,src/data/text/move_descriptions.h,1212,1725
+MOVE_HYPER_VOICE,HYPER VOICE,keep_english,sHyperVoiceDescription,"A loud attack that uses
+sound waves to injure.",,pending,src/data/text/move_names.h,307,src/data/text/move_descriptions.h,1216,1726
+MOVE_POISON_FANG,POISON FANG,keep_english,sPoisonFangDescription,"A sharp-fanged attack.
+May badly poison the foe.",,pending,src/data/text/move_names.h,308,src/data/text/move_descriptions.h,1220,1727
+MOVE_CRUSH_CLAW,CRUSH CLAW,keep_english,sCrushClawDescription,"Tears at the foe with sharp
+claws. May lower DEFENSE.",,pending,src/data/text/move_names.h,309,src/data/text/move_descriptions.h,1224,1728
+MOVE_BLAST_BURN,BLAST BURN,keep_english,sBlastBurnDescription,"Powerful, but leaves the
+user immobile the next turn.",,pending,src/data/text/move_names.h,310,src/data/text/move_descriptions.h,1228,1729
+MOVE_HYDRO_CANNON,HYDRO CANNON,keep_english,sHydroCannonDescription,"Powerful, but leaves the
+user immobile the next turn.",,pending,src/data/text/move_names.h,311,src/data/text/move_descriptions.h,1232,1730
+MOVE_METEOR_MASH,METEOR MASH,keep_english,sMeteorMashDescription,"Fires a meteor-like punch.
+May raise ATTACK.",,pending,src/data/text/move_names.h,312,src/data/text/move_descriptions.h,1236,1731
+MOVE_ASTONISH,ASTONISH,keep_english,sAstonishDescription,"An attack that may shock
+the foe into flinching.",,pending,src/data/text/move_names.h,313,src/data/text/move_descriptions.h,1240,1732
+MOVE_WEATHER_BALL,WEATHER BALL,keep_english,sWeatherBallDescription,"The move's type and power
+change with the weather.",,pending,src/data/text/move_names.h,314,src/data/text/move_descriptions.h,1244,1733
+MOVE_AROMATHERAPY,AROMATHERAPY,keep_english,sAromatherapyDescription,"Heals all status problems
+with a soothing scent.",,pending,src/data/text/move_names.h,315,src/data/text/move_descriptions.h,1248,1734
+MOVE_FAKE_TEARS,FAKE TEARS,keep_english,sFakeTearsDescription,"Feigns crying to sharply
+lower the foe's SP. DEF.",,pending,src/data/text/move_names.h,316,src/data/text/move_descriptions.h,1252,1735
+MOVE_AIR_CUTTER,AIR CUTTER,keep_english,sAirCutterDescription,"Hacks with razorlike wind.
+High critical-hit ratio.",,pending,src/data/text/move_names.h,317,src/data/text/move_descriptions.h,1256,1736
+MOVE_OVERHEAT,OVERHEAT,keep_english,sOverheatDescription,"Allows a full-power attack,
+but sharply lowers SP. ATK.",,pending,src/data/text/move_names.h,318,src/data/text/move_descriptions.h,1260,1737
+MOVE_ODOR_SLEUTH,ODOR SLEUTH,keep_english,sOdorSleuthDescription,"Negates the foe's efforts
+to heighten evasiveness.",,pending,src/data/text/move_names.h,319,src/data/text/move_descriptions.h,1264,1738
+MOVE_ROCK_TOMB,ROCK TOMB,keep_english,sRockTombDescription,"Stops the foe from moving
+with rocks and cuts SPEED.",,pending,src/data/text/move_names.h,320,src/data/text/move_descriptions.h,1268,1739
+MOVE_SILVER_WIND,SILVER WIND,keep_english,sSilverWindDescription,"A powdery attack that may
+raise abilities.",,pending,src/data/text/move_names.h,321,src/data/text/move_descriptions.h,1272,1740
+MOVE_METAL_SOUND,METAL SOUND,keep_english,sMetalSoundDescription,"Emits a horrible screech
+that sharply lowers SP. DEF.",,pending,src/data/text/move_names.h,322,src/data/text/move_descriptions.h,1276,1741
+MOVE_GRASS_WHISTLE,GRASSWHISTLE,keep_english,sGrassWhistleDescription,"Lulls the foe into sleep
+with a pleasant melody.",,pending,src/data/text/move_names.h,323,src/data/text/move_descriptions.h,1280,1742
+MOVE_TICKLE,TICKLE,keep_english,sTickleDescription,"Makes the foe laugh to
+lower ATTACK and DEFENSE.",,pending,src/data/text/move_names.h,324,src/data/text/move_descriptions.h,1284,1743
+MOVE_COSMIC_POWER,COSMIC POWER,keep_english,sCosmicPowerDescription,"Raises DEFENSE and SP. DEF
+with a mystic power.",,pending,src/data/text/move_names.h,325,src/data/text/move_descriptions.h,1288,1744
+MOVE_WATER_SPOUT,WATER SPOUT,keep_english,sWaterSpoutDescription,"Inflicts more damage if the
+user's HP is high.",,pending,src/data/text/move_names.h,326,src/data/text/move_descriptions.h,1292,1745
+MOVE_SIGNAL_BEAM,SIGNAL BEAM,keep_english,sSignalBeamDescription,"A strange beam attack that
+may confuse the foe.",,pending,src/data/text/move_names.h,327,src/data/text/move_descriptions.h,1296,1746
+MOVE_SHADOW_PUNCH,SHADOW PUNCH,keep_english,sShadowPunchDescription,"An unavoidable punch that
+is thrown from shadows.",,pending,src/data/text/move_names.h,328,src/data/text/move_descriptions.h,1300,1747
+MOVE_EXTRASENSORY,EXTRASENSORY,keep_english,sExtrasensoryDescription,"Attacks with a peculiar
+power. May cause flinching.",,pending,src/data/text/move_names.h,329,src/data/text/move_descriptions.h,1304,1748
+MOVE_SKY_UPPERCUT,SKY UPPERCUT,keep_english,sSkyUppercutDescription,"An uppercut thrown as if
+leaping into the sky.",,pending,src/data/text/move_names.h,330,src/data/text/move_descriptions.h,1308,1749
+MOVE_SAND_TOMB,SAND TOMB,keep_english,sSandTombDescription,"Traps and hurts the foe in
+quicksand for 2 to 5 turns.",,pending,src/data/text/move_names.h,331,src/data/text/move_descriptions.h,1312,1750
+MOVE_SHEER_COLD,SHEER COLD,keep_english,sSheerColdDescription,"A chilling attack that
+causes fainting if it hits.",,pending,src/data/text/move_names.h,332,src/data/text/move_descriptions.h,1316,1751
+MOVE_MUDDY_WATER,MUDDY WATER,keep_english,sMuddyWaterDescription,"Attacks with muddy water.
+May lower accuracy.",,pending,src/data/text/move_names.h,333,src/data/text/move_descriptions.h,1320,1752
+MOVE_BULLET_SEED,BULLET SEED,keep_english,sBulletSeedDescription,"Shoots 2 to 5 seeds in a row
+to strike the foe.",,pending,src/data/text/move_names.h,334,src/data/text/move_descriptions.h,1324,1753
+MOVE_AERIAL_ACE,AERIAL ACE,keep_english,sAerialAceDescription,"An extremely speedy and
+unavoidable attack.",,pending,src/data/text/move_names.h,335,src/data/text/move_descriptions.h,1328,1754
+MOVE_ICICLE_SPEAR,ICICLE SPEAR,keep_english,sIcicleSpearDescription,"Attacks the foe by firing
+2 to 5 icicles in a row.",,pending,src/data/text/move_names.h,336,src/data/text/move_descriptions.h,1332,1755
+MOVE_IRON_DEFENSE,IRON DEFENSE,keep_english,sIronDefenseDescription,"Hardens the body's surface
+to sharply raise DEFENSE.",,pending,src/data/text/move_names.h,337,src/data/text/move_descriptions.h,1336,1756
+MOVE_BLOCK,BLOCK,keep_english,sBlockDescription,"Blocks the foe's way to
+prevent escape.",,pending,src/data/text/move_names.h,338,src/data/text/move_descriptions.h,1340,1757
+MOVE_HOWL,HOWL,keep_english,sHowlDescription,"Howls to raise the spirit
+and boosts ATTACK.",,pending,src/data/text/move_names.h,339,src/data/text/move_descriptions.h,1344,1758
+MOVE_DRAGON_CLAW,DRAGON CLAW,keep_english,sDragonClawDescription,"Slashes the foe with sharp
+claws.",,pending,src/data/text/move_names.h,340,src/data/text/move_descriptions.h,1348,1759
+MOVE_FRENZY_PLANT,FRENZY PLANT,keep_english,sFrenzyPlantDescription,"Powerful, but leaves the
+user immobile the next turn.",,pending,src/data/text/move_names.h,341,src/data/text/move_descriptions.h,1352,1760
+MOVE_BULK_UP,BULK UP,keep_english,sBulkUpDescription,"Bulks up the body to boost
+both ATTACK and DEFENSE.",,pending,src/data/text/move_names.h,342,src/data/text/move_descriptions.h,1356,1761
+MOVE_BOUNCE,BOUNCE,keep_english,sBounceDescription,"Bounces up, then down the
+next turn. May paralyze.",,pending,src/data/text/move_names.h,343,src/data/text/move_descriptions.h,1360,1762
+MOVE_MUD_SHOT,MUD SHOT,keep_english,sMudShotDescription,"Hurls mud at the foe and
+reduces SPEED.",,pending,src/data/text/move_names.h,344,src/data/text/move_descriptions.h,1364,1763
+MOVE_POISON_TAIL,POISON TAIL,keep_english,sPoisonTailDescription,"Has a high critical-hit
+ratio. May also poison.",,pending,src/data/text/move_names.h,345,src/data/text/move_descriptions.h,1368,1764
+MOVE_COVET,COVET,keep_english,sCovetDescription,"Cutely begs to obtain an
+item held by the foe.",,pending,src/data/text/move_names.h,346,src/data/text/move_descriptions.h,1372,1765
+MOVE_VOLT_TACKLE,VOLT TACKLE,keep_english,sVoltTackleDescription,"A life-risking tackle that
+slightly hurts the user.",,pending,src/data/text/move_names.h,347,src/data/text/move_descriptions.h,1376,1766
+MOVE_MAGICAL_LEAF,MAGICAL LEAF,keep_english,sMagicalLeafDescription,"Attacks with a strange leaf
+that cannot be evaded.",,pending,src/data/text/move_names.h,348,src/data/text/move_descriptions.h,1380,1767
+MOVE_WATER_SPORT,WATER SPORT,keep_english,sWaterSportDescription,"The user becomes soaked to
+raise resistance to fire.",,pending,src/data/text/move_names.h,349,src/data/text/move_descriptions.h,1384,1768
+MOVE_CALM_MIND,CALM MIND,keep_english,sCalmMindDescription,"Raises SP. ATK and SP. DEF
+by focusing the mind.",,pending,src/data/text/move_names.h,350,src/data/text/move_descriptions.h,1388,1769
+MOVE_LEAF_BLADE,LEAF BLADE,keep_english,sLeafBladeDescription,"Slashes with a sharp leaf.
+High critical-hit ratio.",,pending,src/data/text/move_names.h,351,src/data/text/move_descriptions.h,1392,1770
+MOVE_DRAGON_DANCE,DRAGON DANCE,keep_english,sDragonDanceDescription,"A mystical dance that ups
+ATTACK and SPEED.",,pending,src/data/text/move_names.h,352,src/data/text/move_descriptions.h,1396,1771
+MOVE_ROCK_BLAST,ROCK BLAST,keep_english,sRockBlastDescription,"Hurls boulders at the foe
+2 to 5 times in a row.",,pending,src/data/text/move_names.h,353,src/data/text/move_descriptions.h,1400,1772
+MOVE_SHOCK_WAVE,SHOCK WAVE,keep_english,sShockWaveDescription,"A fast and unavoidable
+electric attack.",,pending,src/data/text/move_names.h,354,src/data/text/move_descriptions.h,1404,1773
+MOVE_WATER_PULSE,WATER PULSE,keep_english,sWaterPulseDescription,"Attacks with ultrasonic
+waves. May confuse the foe.",,pending,src/data/text/move_names.h,355,src/data/text/move_descriptions.h,1408,1774
+MOVE_DOOM_DESIRE,DOOM DESIRE,keep_english,sDoomDesireDescription,"Summons strong sunlight to
+attack 2 turns later.",,pending,src/data/text/move_names.h,356,src/data/text/move_descriptions.h,1412,1775
+MOVE_PSYCHO_BOOST,PSYCHO BOOST,keep_english,sPsychoBoostDescription,"Allows a full-power attack,
+but sharply lowers SP. ATK.",,pending,src/data/text/move_names.h,357,src/data/text/move_descriptions.h,1416,1776
