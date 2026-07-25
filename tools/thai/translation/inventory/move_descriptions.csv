@@ -1,10 +1,10 @@
-﻿move_id,move_name_en,name_status,description_symbol,source_text,target_text_th,description_status,move_name_source_file,move_name_source_line,description_source_file,description_source_line,mapping_source_line
+move_id,move_name_en,name_status,description_symbol,source_text,target_text_th,description_status,move_name_source_file,move_name_source_line,description_source_file,description_source_line,mapping_source_line
 MOVE_POUND,POUND,keep_english,sPoundDescription,"Pounds the foe with
 forelegs or tail.","ทุบคู่ต่อสู้ด้วย
-ขาหน้าหรือหาง",translated_pending_qa,src/data/text/move_names.h,4,src/data/text/move_descriptions.h,4,1423
+ขาหน้าหรือหาง",proof_passed,src/data/text/move_names.h,4,src/data/text/move_descriptions.h,4,1423
 MOVE_KARATE_CHOP,KARATE CHOP,keep_english,sKarateChopDescription,"A chopping attack with a
 high critical-hit ratio.","ท่าสับที่มีโอกาส
-โจมตีคริติคอลสูง",translated_pending_qa,src/data/text/move_names.h,5,src/data/text/move_descriptions.h,8,1424
+โจมตีคริติคอลสูง",proof_passed,src/data/text/move_names.h,5,src/data/text/move_descriptions.h,8,1424
 MOVE_DOUBLE_SLAP,DOUBLESLAP,keep_english,sDoubleSlapDescription,"Repeatedly slaps the foe
 2 to 5 times.",,pending,src/data/text/move_names.h,6,src/data/text/move_descriptions.h,12,1425
 MOVE_COMET_PUNCH,COMET PUNCH,keep_english,sCometPunchDescription,"Repeatedly punches the foe
@@ -15,7 +15,7 @@ MOVE_PAY_DAY,PAY DAY,keep_english,sPayDayDescription,"Throws coins at the foe.
 Money is recovered after.",,pending,src/data/text/move_names.h,9,src/data/text/move_descriptions.h,24,1428
 MOVE_FIRE_PUNCH,FIRE PUNCH,keep_english,sFirePunchDescription,"A fiery punch that may burn
 the foe.","หมัดเพลิงที่อาจทำให้
-คู่ต่อสู้ไหม้",translated_pending_qa,src/data/text/move_names.h,10,src/data/text/move_descriptions.h,28,1429
+คู่ต่อสู้ไหม้",proof_passed,src/data/text/move_names.h,10,src/data/text/move_descriptions.h,28,1429
 MOVE_ICE_PUNCH,ICE PUNCH,keep_english,sIcePunchDescription,"An icy punch that may
 freeze the foe.",,pending,src/data/text/move_names.h,11,src/data/text/move_descriptions.h,32,1430
 MOVE_THUNDER_PUNCH,THUNDERPUNCH,keep_english,sThunderPunchDescription,"An electrified punch that
@@ -30,7 +30,7 @@ MOVE_RAZOR_WIND,RAZOR WIND,keep_english,sRazorWindDescription,"A 2-turn move tha
 the foe on the 2nd turn.",,pending,src/data/text/move_names.h,16,src/data/text/move_descriptions.h,52,1435
 MOVE_SWORDS_DANCE,SWORDS DANCE,keep_english,sSwordsDanceDescription,"A fighting dance that
 sharply raises ATTACK.","การร่ายรำที่เพิ่ม
-พลังโจมตีอย่างมาก",translated_pending_qa,src/data/text/move_names.h,17,src/data/text/move_descriptions.h,56,1436
+พลังโจมตีอย่างมาก",proof_passed,src/data/text/move_names.h,17,src/data/text/move_descriptions.h,56,1436
 MOVE_CUT,CUT,keep_english,sCutDescription,"Cuts the foe with sharp
 scythes, claws, etc.",,pending,src/data/text/move_names.h,18,src/data/text/move_descriptions.h,60,1437
 MOVE_GUST,GUST,keep_english,sGustDescription,"Strikes the foe with a gust
@@ -75,14 +75,14 @@ MOVE_WRAP,WRAP,keep_english,sWrapDescription,"Wraps and squeezes the foe
 2 to 5 times with vines, etc.",,pending,src/data/text/move_names.h,38,src/data/text/move_descriptions.h,140,1457
 MOVE_TAKE_DOWN,TAKE DOWN,keep_english,sTakeDownDescription,"A reckless charge attack
 that also hurts the user.","พุ่งชนอย่างไม่ยั้ง
-ผู้ใช้ท่าก็บาดเจ็บด้วย",translated_pending_qa,src/data/text/move_names.h,39,src/data/text/move_descriptions.h,144,1458
+ผู้ใช้ท่าก็บาดเจ็บด้วย",proof_passed,src/data/text/move_names.h,39,src/data/text/move_descriptions.h,144,1458
 MOVE_THRASH,THRASH,keep_english,sThrashDescription,"A rampage of 2 to 3 turns
 that confuses the user.",,pending,src/data/text/move_names.h,40,src/data/text/move_descriptions.h,148,1459
 MOVE_DOUBLE_EDGE,DOUBLE-EDGE,keep_english,sDoubleEdgeDescription,"A life-risking tackle that
 also hurts the user.",,pending,src/data/text/move_names.h,41,src/data/text/move_descriptions.h,152,1460
 MOVE_TAIL_WHIP,TAIL WHIP,keep_english,sTailWhipDescription,"Wags the tail to lower the
 foe's DEFENSE.","สะบัดหางเพื่อลด
-พลังป้องกันคู่ต่อสู้",translated_pending_qa,src/data/text/move_names.h,42,src/data/text/move_descriptions.h,156,1461
+พลังป้องกันคู่ต่อสู้",proof_passed,src/data/text/move_names.h,42,src/data/text/move_descriptions.h,156,1461
 MOVE_POISON_STING,POISON STING,keep_english,sPoisonStingDescription,"A toxic attack with barbs,
 etc., that may poison.",,pending,src/data/text/move_names.h,43,src/data/text/move_descriptions.h,160,1462
 MOVE_TWINEEDLE,TWINEEDLE,keep_english,sTwineedleDescription,"Stingers on the forelegs
@@ -177,7 +177,7 @@ MOVE_THUNDERBOLT,THUNDERBOLT,keep_english,sThunderboltDescription,"A strong elec
 that may paralyze the foe.",,pending,src/data/text/move_names.h,88,src/data/text/move_descriptions.h,340,1507
 MOVE_THUNDER_WAVE,THUNDER WAVE,keep_english,sThunderWaveDescription,"A weak jolt of electricity
 that paralyzes the foe.","ปล่อยกระแสไฟอ่อน
-ทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,src/data/text/move_names.h,89,src/data/text/move_descriptions.h,344,1508
+ทำให้คู่ต่อสู้อัมพาต",proof_passed,src/data/text/move_names.h,89,src/data/text/move_descriptions.h,344,1508
 MOVE_THUNDER,THUNDER,keep_english,sThunderDescription,"A lightning attack that may
 cause paralysis.",,pending,src/data/text/move_names.h,90,src/data/text/move_descriptions.h,348,1509
 MOVE_ROCK_THROW,ROCK THROW,keep_english,sRockThrowDescription,"Throws small rocks to
@@ -216,7 +216,7 @@ MOVE_DOUBLE_TEAM,DOUBLE TEAM,keep_english,sDoubleTeamDescription,"Creates illuso
 raise evasiveness.",,pending,src/data/text/move_names.h,107,src/data/text/move_descriptions.h,416,1526
 MOVE_RECOVER,RECOVER,keep_english,sRecoverDescription,"Recovers up to half the
 user's maximum HP.","ฟื้นฟู HP ได้ถึง
-ครึ่งหนึ่งของ HP สูงสุด",translated_pending_qa,src/data/text/move_names.h,108,src/data/text/move_descriptions.h,420,1527
+ครึ่งหนึ่งของ HP สูงสุด",proof_passed,src/data/text/move_names.h,108,src/data/text/move_descriptions.h,420,1527
 MOVE_HARDEN,HARDEN,keep_english,sHardenDescription,"Stiffens the body's
 muscles to raise DEFENSE.",,pending,src/data/text/move_names.h,109,src/data/text/move_descriptions.h,424,1528
 MOVE_MINIMIZE,MINIMIZE,keep_english,sMinimizeDescription,"Minimizes the user's size
@@ -239,7 +239,7 @@ MOVE_REFLECT,REFLECT,keep_english,sReflectDescription,"Creates a wall of light t
 weakens physical attacks.",,pending,src/data/text/move_names.h,118,src/data/text/move_descriptions.h,460,1537
 MOVE_FOCUS_ENERGY,FOCUS ENERGY,keep_english,sFocusEnergyDescription,"Focuses power to raise the
 critical-hit ratio.","รวบรวมพลังเพื่อเพิ่ม
-โอกาสโจมตีคริติคอล",translated_pending_qa,src/data/text/move_names.h,119,src/data/text/move_descriptions.h,464,1538
+โอกาสโจมตีคริติคอล",proof_passed,src/data/text/move_names.h,119,src/data/text/move_descriptions.h,464,1538
 MOVE_BIDE,BIDE,keep_english,sBideDescription,"Endures attack for 2
 turns to retaliate double.",,pending,src/data/text/move_names.h,120,src/data/text/move_descriptions.h,468,1539
 MOVE_METRONOME,METRONOME,keep_english,sMetronomeDescription,"Waggles a finger to use any
@@ -446,7 +446,7 @@ MOVE_FRUSTRATION,FRUSTRATION,keep_english,sFrustrationDescription,"An attack tha
 if the TRAINER is disliked.",,pending,src/data/text/move_names.h,221,src/data/text/move_descriptions.h,872,1640
 MOVE_SAFEGUARD,SAFEGUARD,keep_english,sSafeguardDescription,"A mystical force prevents
 all status problems.","พลังลึกลับช่วยป้องกัน
-สถานะผิดปกติทั้งหมด",translated_pending_qa,src/data/text/move_names.h,222,src/data/text/move_descriptions.h,876,1641
+สถานะผิดปกติทั้งหมด",proof_passed,src/data/text/move_names.h,222,src/data/text/move_descriptions.h,876,1641
 MOVE_PAIN_SPLIT,PAIN SPLIT,keep_english,sPainSplitDescription,"Adds the user and foe's HP,
 then shares them equally.",,pending,src/data/text/move_names.h,223,src/data/text/move_descriptions.h,880,1642
 MOVE_SACRED_FIRE,SACRED FIRE,keep_english,sSacredFireDescription,"A mystical fire attack that
