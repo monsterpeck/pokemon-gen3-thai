@@ -1,0 +1,917 @@
+﻿description_symbol,source_text,target_text_th,status,usage_count,source_file,source_line
+sDummyDesc,?????,,not_applicable,68,src/data/text/item_descriptions.h,1
+sMasterBallDesc,"The best BALL that
+catches a POKéMON
+without fail.",,pending,1,src/data/text/item_descriptions.h,5
+sUltraBallDesc,"A better BALL with
+a higher catch rate
+than a GREAT BALL.",,pending,1,src/data/text/item_descriptions.h,10
+sGreatBallDesc,"A good BALL with a
+higher catch rate
+than a POKé BALL.",,pending,1,src/data/text/item_descriptions.h,15
+sPokeBallDesc,"A tool used for
+catching wild
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,20
+sSafariBallDesc,"A special BALL that
+is used only in the
+SAFARI ZONE.",,pending,1,src/data/text/item_descriptions.h,25
+sNetBallDesc,"A BALL that works
+well on WATER- and
+BUG-type POKéMON.",,pending,1,src/data/text/item_descriptions.h,30
+sDiveBallDesc,"A BALL that works
+better on POKéMON
+on the ocean floor.",,pending,1,src/data/text/item_descriptions.h,35
+sNestBallDesc,"A BALL that works
+better on weaker
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,40
+sRepeatBallDesc,"A BALL that works
+better on POKéMON
+caught before.",,pending,1,src/data/text/item_descriptions.h,45
+sTimerBallDesc,"A BALL that gains
+power in battles
+taking many turns.",,pending,1,src/data/text/item_descriptions.h,50
+sLuxuryBallDesc,"A cozy BALL that
+makes POKéMON
+more friendly.",,pending,1,src/data/text/item_descriptions.h,55
+sPremierBallDesc,"A rare BALL made
+in commemoration
+of some event.",,pending,1,src/data/text/item_descriptions.h,60
+sPotionDesc,"Restores the HP of
+a POKéMON by
+20 points.",,pending,1,src/data/text/item_descriptions.h,66
+sAntidoteDesc,"Heals a poisoned
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,71
+sBurnHealDesc,"Heals POKéMON
+of a burn.",,pending,1,src/data/text/item_descriptions.h,75
+sIceHealDesc,"Defrosts a frozen
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,79
+sAwakeningDesc,"Awakens a sleeping
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,83
+sParalyzeHealDesc,"Heals a paralyzed
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,87
+sFullRestoreDesc,"Fully restores the
+HP and status of a
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,91
+sMaxPotionDesc,"Fully restores the
+HP of a POKéMON.",,pending,1,src/data/text/item_descriptions.h,96
+sHyperPotionDesc,"Restores the HP of
+a POKéMON by
+200 points.",,pending,1,src/data/text/item_descriptions.h,100
+sSuperPotionDesc,"Restores the HP of
+a POKéMON by
+50 points.",,pending,1,src/data/text/item_descriptions.h,105
+sFullHealDesc,"Heals all the
+status problems of
+one POKéMON.",,pending,1,src/data/text/item_descriptions.h,110
+sReviveDesc,"Revives a fainted
+POKéMON with half
+its HP.",,pending,1,src/data/text/item_descriptions.h,115
+sMaxReviveDesc,"Revives a fainted
+POKéMON with all
+its HP.",,pending,1,src/data/text/item_descriptions.h,120
+sFreshWaterDesc,"A mineral water
+that restores HP
+by 50 points.",,pending,1,src/data/text/item_descriptions.h,125
+sSodaPopDesc,"A fizzy soda drink
+that restores HP
+by 60 points.",,pending,1,src/data/text/item_descriptions.h,130
+sLemonadeDesc,"A very sweet drink
+that restores HP
+by 80 points.",,pending,1,src/data/text/item_descriptions.h,135
+sMoomooMilkDesc,"A nutritious milk
+that restores HP
+by 100 points.",,pending,1,src/data/text/item_descriptions.h,140
+sEnergyPowderDesc,"A bitter powder
+that restores HP
+by 50 points.",,pending,1,src/data/text/item_descriptions.h,145
+sEnergyRootDesc,"A bitter root
+that restores HP
+by 200 points.",,pending,1,src/data/text/item_descriptions.h,150
+sHealPowderDesc,"A bitter powder
+that heals all
+status problems.",,pending,1,src/data/text/item_descriptions.h,155
+sRevivalHerbDesc,"A very bitter herb
+that revives a
+fainted POKéMON.",,pending,1,src/data/text/item_descriptions.h,160
+sEtherDesc,"Restores the PP
+of a selected move
+by 10.",,pending,1,src/data/text/item_descriptions.h,165
+sMaxEtherDesc,"Fully restores the
+PP of a selected
+move.",,pending,1,src/data/text/item_descriptions.h,170
+sElixirDesc,"Restores the PP
+of all moves by 10.",,pending,1,src/data/text/item_descriptions.h,175
+sMaxElixirDesc,"Fully restores the
+PP of a POKéMON's
+moves.",,pending,1,src/data/text/item_descriptions.h,179
+sLavaCookieDesc,"A local specialty
+that heals all
+status problems.",,pending,1,src/data/text/item_descriptions.h,184
+sBlueFluteDesc,"A glass flute that
+awakens sleeping
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,189
+sYellowFluteDesc,"A glass flute that
+snaps POKéMON
+out of confusion.",,pending,1,src/data/text/item_descriptions.h,194
+sRedFluteDesc,"A glass flute that
+snaps POKéMON
+out of attraction.",,pending,1,src/data/text/item_descriptions.h,199
+sBlackFluteDesc,"A glass flute that
+keeps away wild
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,204
+sWhiteFluteDesc,"A glass flute that
+lures wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,209
+sBerryJuiceDesc,"A 100% pure juice
+that restores HP
+by 20 points.",,pending,1,src/data/text/item_descriptions.h,213
+sSacredAshDesc,"Fully revives and
+restores all
+fainted POKéMON.",,pending,1,src/data/text/item_descriptions.h,218
+sShoalSaltDesc,"Salt obtained from
+deep inside the
+SHOAL CAVE.",,pending,1,src/data/text/item_descriptions.h,224
+sShoalShellDesc,"A seashell found
+deep inside the
+SHOAL CAVE.",,pending,1,src/data/text/item_descriptions.h,229
+sRedShardDesc,"A shard from an
+ancient item. Can
+be sold cheaply.",,pending,1,src/data/text/item_descriptions.h,234
+sBlueShardDesc,"A shard from an
+ancient item. Can
+be sold cheaply.",,pending,1,src/data/text/item_descriptions.h,239
+sYellowShardDesc,"A shard from an
+ancient item. Can
+be sold cheaply.",,pending,1,src/data/text/item_descriptions.h,244
+sGreenShardDesc,"A shard from an
+ancient item. Can
+be sold cheaply.",,pending,1,src/data/text/item_descriptions.h,249
+sHPUpDesc,"Raises the base HP
+of one POKéMON.",,pending,1,src/data/text/item_descriptions.h,255
+sProteinDesc,"Raises the base
+ATTACK stat of one
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,259
+sIronDesc,"Raises the base
+DEFENSE stat of
+one POKéMON.",,pending,1,src/data/text/item_descriptions.h,264
+sCarbosDesc,"Raises the base
+SPEED stat of one
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,269
+sCalciumDesc,"Raises the base
+SP. ATK stat of one
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,274
+sRareCandyDesc,"Raises the level
+of a POKéMON by
+one.",,pending,1,src/data/text/item_descriptions.h,279
+sPPUpDesc,"Raises the maximum
+PP of a selected
+move.",,pending,1,src/data/text/item_descriptions.h,284
+sZincDesc,"Raises the base
+SP. DEF stat of one
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,289
+sPPMaxDesc,"Raises the PP of a
+move to its maximum
+points.",,pending,1,src/data/text/item_descriptions.h,294
+sGuardSpecDesc,"Prevents stat
+reduction when
+used in battle.",,pending,1,src/data/text/item_descriptions.h,300
+sDireHitDesc,"Raises the
+critical-hit ratio
+during one battle.",,pending,1,src/data/text/item_descriptions.h,305
+sXAttackDesc,"Raises the stat
+ATTACK during one
+battle.",,pending,1,src/data/text/item_descriptions.h,310
+sXDefendDesc,"Raises the stat
+DEFENSE during one
+battle.",,pending,1,src/data/text/item_descriptions.h,315
+sXSpeedDesc,"Raises the stat
+SPEED during one
+battle.",,pending,1,src/data/text/item_descriptions.h,320
+sXAccuracyDesc,"Raises accuracy
+of attack moves
+during one battle.",,pending,1,src/data/text/item_descriptions.h,325
+sXSpecialDesc,"Raises the stat
+SP. ATK during one
+battle.",,pending,1,src/data/text/item_descriptions.h,330
+sPokeDollDesc,"Use to flee from
+any battle with
+a wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,335
+sFluffyTailDesc,"Use to flee from
+any battle with
+a wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,340
+sSuperRepelDesc,"Repels weak wild
+POKéMON for 200
+steps.",,pending,1,src/data/text/item_descriptions.h,346
+sMaxRepelDesc,"Repels weak wild
+POKéMON for 250
+steps.",,pending,1,src/data/text/item_descriptions.h,351
+sEscapeRopeDesc,"Use to escape
+instantly from a
+cave or a dungeon.",,pending,1,src/data/text/item_descriptions.h,356
+sRepelDesc,"Repels weak wild
+POKéMON for 100
+steps.",,pending,1,src/data/text/item_descriptions.h,361
+sSunStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,367
+sMoonStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,372
+sFireStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,377
+sThunderStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,382
+sWaterStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,387
+sLeafStoneDesc,"Makes certain
+species of POKéMON
+evolve.",,pending,1,src/data/text/item_descriptions.h,392
+sTinyMushroomDesc,"A plain mushroom
+that would sell
+at a cheap price.",,pending,1,src/data/text/item_descriptions.h,398
+sBigMushroomDesc,"A rare mushroom
+that would sell at a
+high price.",,pending,1,src/data/text/item_descriptions.h,403
+sPearlDesc,"A pretty pearl
+that would sell at a
+cheap price.",,pending,1,src/data/text/item_descriptions.h,408
+sBigPearlDesc,"A lovely large pearl
+that would sell at a
+high price.",,pending,1,src/data/text/item_descriptions.h,413
+sStardustDesc,"Beautiful red sand.
+Can be sold at a
+high price.",,pending,1,src/data/text/item_descriptions.h,418
+sStarPieceDesc,"A red gem shard.
+It would sell for a
+very high price.",,pending,1,src/data/text/item_descriptions.h,423
+sNuggetDesc,"A nugget of pure
+gold. Can be sold at
+a high price.",,pending,1,src/data/text/item_descriptions.h,428
+sHeartScaleDesc,"A lovely scale.
+It is coveted by
+collectors.",,pending,1,src/data/text/item_descriptions.h,433
+sOrangeMailDesc,"A ZIGZAGOON-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,439
+sHarborMailDesc,"A WINGULL-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,444
+sGlitterMailDesc,"A PIKACHU-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,449
+sMechMailDesc,"A MAGNEMITE-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,454
+sWoodMailDesc,"A SLAKOTH-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,459
+sWaveMailDesc,"A WAILMER-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,464
+sBeadMailDesc,"MAIL featuring a
+sketch of the
+holding POKéMON.",,pending,1,src/data/text/item_descriptions.h,469
+sShadowMailDesc,"A DUSKULL-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,474
+sTropicMailDesc,"A BELLOSSOM-print
+MAIL to be held by
+a POKéMON.",,pending,1,src/data/text/item_descriptions.h,479
+sDreamMailDesc,"MAIL featuring a
+sketch of the
+holding POKéMON.",,pending,1,src/data/text/item_descriptions.h,484
+sFabMailDesc,"A gorgeous-print
+MAIL to be held
+by a POKéMON.",,pending,1,src/data/text/item_descriptions.h,489
+sRetroMailDesc,"MAIL featuring the
+drawings of three
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,494
+sCheriBerryDesc,"A hold item that
+heals paralysis
+in battle.",,pending,1,src/data/text/item_descriptions.h,500
+sChestoBerryDesc,"A hold item that
+awakens POKéMON
+in battle.",,pending,1,src/data/text/item_descriptions.h,505
+sPechaBerryDesc,"A hold item that
+heals poisoning
+in battle.",,pending,1,src/data/text/item_descriptions.h,510
+sRawstBerryDesc,"A hold item that
+heals a burn in
+battle.",,pending,1,src/data/text/item_descriptions.h,515
+sAspearBerryDesc,"A hold item that
+defrosts POKéMON
+in battle.",,pending,1,src/data/text/item_descriptions.h,520
+sLeppaBerryDesc,"A hold item that
+restores 10 PP in
+battle.",,pending,1,src/data/text/item_descriptions.h,525
+sOranBerryDesc,"A hold item that
+restores 10 HP in
+battle.",,pending,1,src/data/text/item_descriptions.h,530
+sPersimBerryDesc,"A hold item that
+heals confusion
+in battle.",,pending,1,src/data/text/item_descriptions.h,535
+sLumBerryDesc,"A hold item that
+heals any status
+problem in battle.",,pending,1,src/data/text/item_descriptions.h,540
+sSitrusBerryDesc,"A hold item that
+restores 30 HP in
+battle.",,pending,1,src/data/text/item_descriptions.h,545
+sFigyBerryDesc,"A hold item that
+restores HP but
+may confuse.",,pending,1,src/data/text/item_descriptions.h,550
+sWikiBerryDesc,"A hold item that
+restores HP but
+may confuse.",,pending,1,src/data/text/item_descriptions.h,555
+sMagoBerryDesc,"A hold item that
+restores HP but
+may confuse.",,pending,1,src/data/text/item_descriptions.h,560
+sAguavBerryDesc,"A hold item that
+restores HP but
+may confuse.",,pending,1,src/data/text/item_descriptions.h,565
+sIapapaBerryDesc,"A hold item that
+restores HP but
+may confuse.",,pending,1,src/data/text/item_descriptions.h,570
+sRazzBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow RAZZ.",,pending,1,src/data/text/item_descriptions.h,575
+sBlukBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow BLUK.",,pending,1,src/data/text/item_descriptions.h,580
+sNanabBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow NANAB.",,pending,1,src/data/text/item_descriptions.h,585
+sWepearBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow WEPEAR.",,pending,1,src/data/text/item_descriptions.h,590
+sPinapBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow PINAP.",,pending,1,src/data/text/item_descriptions.h,595
+sPomegBerryDesc,"Makes a POKéMON
+friendly but lowers
+base HP.",,pending,1,src/data/text/item_descriptions.h,600
+sKelpsyBerryDesc,"Makes a POKéMON
+friendly but lowers
+base ATTACK.",,pending,1,src/data/text/item_descriptions.h,605
+sQualotBerryDesc,"Makes a POKéMON
+friendly but lowers
+base DEFENSE.",,pending,1,src/data/text/item_descriptions.h,610
+sHondewBerryDesc,"Makes a POKéMON
+friendly but lowers
+base SP. ATK.",,pending,1,src/data/text/item_descriptions.h,615
+sGrepaBerryDesc,"Makes a POKéMON
+friendly but lowers
+base SP. DEF.",,pending,1,src/data/text/item_descriptions.h,620
+sTamatoBerryDesc,"Makes a POKéMON
+friendly but lowers
+base SPEED.",,pending,1,src/data/text/item_descriptions.h,625
+sCornnBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow CORNN.",,pending,1,src/data/text/item_descriptions.h,630
+sMagostBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow MAGOST.",,pending,1,src/data/text/item_descriptions.h,635
+sRabutaBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow RABUTA.",,pending,1,src/data/text/item_descriptions.h,640
+sNomelBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow NOMEL.",,pending,1,src/data/text/item_descriptions.h,645
+sSpelonBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow SPELON.",,pending,1,src/data/text/item_descriptions.h,650
+sPamtreBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow PAMTRE.",,pending,1,src/data/text/item_descriptions.h,655
+sWatmelBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow WATMEL.",,pending,1,src/data/text/item_descriptions.h,660
+sDurinBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow DURIN.",,pending,1,src/data/text/item_descriptions.h,665
+sBelueBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow BELUE.",,pending,1,src/data/text/item_descriptions.h,670
+sLiechiBerryDesc,"A hold item that
+raises ATTACK in
+a pinch.",,pending,1,src/data/text/item_descriptions.h,675
+sGanlonBerryDesc,"A hold item that
+raises DEFENSE in
+a pinch.",,pending,1,src/data/text/item_descriptions.h,680
+sSalacBerryDesc,"A hold item that
+raises SPEED in
+a pinch.",,pending,1,src/data/text/item_descriptions.h,685
+sPetayaBerryDesc,"A hold item that
+raises SP. ATK in
+a pinch.",,pending,1,src/data/text/item_descriptions.h,690
+sApicotBerryDesc,"A hold item that
+raises SP. DEF in
+a pinch.",,pending,1,src/data/text/item_descriptions.h,695
+sLansatBerryDesc,"A hold item that
+ups the critical-
+hit rate in a pinch.",,pending,1,src/data/text/item_descriptions.h,700
+sStarfBerryDesc,"A hold item that
+sharply boosts a
+stat in a pinch.",,pending,1,src/data/text/item_descriptions.h,705
+sEnigmaBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow a mystery.",,pending,1,src/data/text/item_descriptions.h,710
+sBrightPowderDesc,"A hold item that
+casts a glare to
+reduce accuracy.",,pending,1,src/data/text/item_descriptions.h,716
+sWhiteHerbDesc,"A hold item that
+restores any
+lowered stat.",,pending,1,src/data/text/item_descriptions.h,721
+sMachoBraceDesc,"A hold item that
+promotes growth,
+but reduces SPEED.",,pending,1,src/data/text/item_descriptions.h,726
+sExpShareDesc,"A hold item that
+gets EXP. points
+from battles.",,pending,1,src/data/text/item_descriptions.h,731
+sQuickClawDesc,"A hold item that
+occasionally allows
+the first strike.",,pending,1,src/data/text/item_descriptions.h,736
+sSootheBellDesc,"A hold item that
+calms spirits and
+fosters friendship.",,pending,1,src/data/text/item_descriptions.h,741
+sMentalHerbDesc,"A hold item that
+snaps POKéMON out
+of infatuation.",,pending,1,src/data/text/item_descriptions.h,746
+sChoiceBandDesc,"Raises a move's
+power, but permits
+only that move.",,pending,1,src/data/text/item_descriptions.h,751
+sKingsRockDesc,"A hold item that
+may cause flinching
+when the foe is hit.",,pending,1,src/data/text/item_descriptions.h,756
+sSilverPowderDesc,"A hold item that
+raises the power of
+BUG-type moves.",,pending,1,src/data/text/item_descriptions.h,761
+sAmuletCoinDesc,"Doubles money in
+battle if the
+holder takes part.",,pending,1,src/data/text/item_descriptions.h,766
+sCleanseTagDesc,"A hold item that
+helps repel wild
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,771
+sSoulDewDesc,"Hold item: raises
+SP. ATK & SP. DEF of
+LATIOS & LATIAS.",,pending,1,src/data/text/item_descriptions.h,776
+sDeepSeaToothDesc,"A hold item that
+raises the SP. ATK
+of CLAMPERL.",,pending,1,src/data/text/item_descriptions.h,781
+sDeepSeaScaleDesc,"A hold item that
+raises the SP. DEF
+of CLAMPERL.",,pending,1,src/data/text/item_descriptions.h,786
+sSmokeBallDesc,"A hold item that
+assures fleeing
+from wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,791
+sEverstoneDesc,"A wondrous hold
+item that prevents
+evolution.",,pending,1,src/data/text/item_descriptions.h,796
+sFocusBandDesc,"A hold item that
+occasionally
+prevents fainting.",,pending,1,src/data/text/item_descriptions.h,801
+sLuckyEggDesc,"A hold item that
+boosts EXP. points
+earned in battle.",,pending,1,src/data/text/item_descriptions.h,806
+sScopeLensDesc,"A hold item that
+improves the
+critical-hit rate.",,pending,1,src/data/text/item_descriptions.h,811
+sMetalCoatDesc,"A hold item that
+raises the power of
+STEEL-type moves.",,pending,1,src/data/text/item_descriptions.h,816
+sLeftoversDesc,"A hold item that
+gradually restores
+HP in battle.",,pending,1,src/data/text/item_descriptions.h,821
+sDragonScaleDesc,"A strange scale
+held by DRAGON-
+type POKéMON.",,pending,1,src/data/text/item_descriptions.h,826
+sLightBallDesc,"A hold item that
+raises the SP. ATK
+of PIKACHU.",,pending,1,src/data/text/item_descriptions.h,831
+sSoftSandDesc,"A hold item that
+raises the power of
+GROUND-type moves.",,pending,1,src/data/text/item_descriptions.h,836
+sHardStoneDesc,"A hold item that
+raises the power of
+ROCK-type moves.",,pending,1,src/data/text/item_descriptions.h,841
+sMiracleSeedDesc,"A hold item that
+raises the power of
+GRASS-type moves.",,pending,1,src/data/text/item_descriptions.h,846
+sBlackGlassesDesc,"A hold item that
+raises the power of
+DARK-type moves.",,pending,1,src/data/text/item_descriptions.h,851
+sBlackBeltDesc,"A hold item that
+boosts FIGHTING-
+type moves.",,pending,1,src/data/text/item_descriptions.h,856
+sMagnetDesc,"A hold item that
+boosts ELECTRIC-
+type moves.",,pending,1,src/data/text/item_descriptions.h,861
+sMysticWaterDesc,"A hold item that
+raises the power of
+WATER-type moves.",,pending,1,src/data/text/item_descriptions.h,866
+sSharpBeakDesc,"A hold item that
+raises the power of
+FLYING-type moves.",,pending,1,src/data/text/item_descriptions.h,871
+sPoisonBarbDesc,"A hold item that
+raises the power of
+POISON-type moves.",,pending,1,src/data/text/item_descriptions.h,876
+sNeverMeltIceDesc,"A hold item that
+raises the power of
+ICE-type moves.",,pending,1,src/data/text/item_descriptions.h,881
+sSpellTagDesc,"A hold item that
+raises the power of
+GHOST-type moves.",,pending,1,src/data/text/item_descriptions.h,886
+sTwistedSpoonDesc,"A hold item that
+boosts PSYCHIC-
+type moves.",,pending,1,src/data/text/item_descriptions.h,891
+sCharcoalDesc,"A hold item that
+raises the power of
+FIRE-type moves.",,pending,1,src/data/text/item_descriptions.h,896
+sDragonFangDesc,"A hold item that
+raises the power of
+DRAGON-type moves.",,pending,1,src/data/text/item_descriptions.h,901
+sSilkScarfDesc,"A hold item that
+raises the power of
+NORMAL-type moves.",,pending,1,src/data/text/item_descriptions.h,906
+sUpGradeDesc,"A peculiar box made
+by SILPH CO.",,pending,1,src/data/text/item_descriptions.h,911
+sShellBellDesc,"A hold item that
+restores HP upon
+striking the foe.",,pending,1,src/data/text/item_descriptions.h,915
+sSeaIncenseDesc,"A hold item that
+slightly boosts
+WATER-type moves.",,pending,1,src/data/text/item_descriptions.h,920
+sLaxIncenseDesc,"A hold item that
+slightly lowers the
+foe's accuracy.",,pending,1,src/data/text/item_descriptions.h,925
+sLuckyPunchDesc,"A hold item that
+raises CHANSEY's
+critical-hit rate.",,pending,1,src/data/text/item_descriptions.h,930
+sMetalPowderDesc,"A hold item that
+raises DITTO's
+DEFENSE.",,pending,1,src/data/text/item_descriptions.h,935
+sThickClubDesc,"A hold item that
+raises CUBONE or
+MAROWAK's ATTACK.",,pending,1,src/data/text/item_descriptions.h,940
+sStickDesc,"A hold item that
+raises FARFETCH'D's
+critical-hit ratio.",,pending,1,src/data/text/item_descriptions.h,945
+sRedScarfDesc,"A hold item that
+raises COOL in
+CONTESTS.",,pending,1,src/data/text/item_descriptions.h,950
+sBlueScarfDesc,"A hold item that
+raises BEAUTY in
+CONTESTS.",,pending,1,src/data/text/item_descriptions.h,955
+sPinkScarfDesc,"A hold item that
+raises CUTE in
+CONTESTS.",,pending,1,src/data/text/item_descriptions.h,960
+sGreenScarfDesc,"A hold item that
+raises SMART in
+CONTESTS.",,pending,1,src/data/text/item_descriptions.h,965
+sYellowScarfDesc,"A hold item that
+raises TOUGH in
+CONTESTS.",,pending,1,src/data/text/item_descriptions.h,970
+sMachBikeDesc,"A folding bicycle
+that doubles your
+speed or better.",,pending,1,src/data/text/item_descriptions.h,976
+sCoinCaseDesc,"A case that holds
+up to 9,999 COINS.",,pending,1,src/data/text/item_descriptions.h,981
+sItemfinderDesc,"A device that
+signals an invisible
+item by sound.",,pending,1,src/data/text/item_descriptions.h,985
+sOldRodDesc,"Use by any body of
+water to fish for
+wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,990
+sGoodRodDesc,"A decent fishing
+rod for catching
+wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,995
+sSuperRodDesc,"The best fishing
+rod for catching
+wild POKéMON.",,pending,1,src/data/text/item_descriptions.h,1000
+sSSTicketDesc,"The ticket required
+for sailing on a
+ferry.",,pending,1,src/data/text/item_descriptions.h,1005
+sContestPassDesc,"The pass required
+for entering
+POKéMON CONTESTS.",,pending,1,src/data/text/item_descriptions.h,1010
+sWailmerPailDesc,"A tool used for
+watering BERRIES
+and plants.",,pending,1,src/data/text/item_descriptions.h,1015
+sDevonGoodsDesc,"A package that
+contains DEVON's
+machine parts.",,pending,1,src/data/text/item_descriptions.h,1020
+sSootSackDesc,"A sack used to
+gather and hold
+volcanic ash.",,pending,1,src/data/text/item_descriptions.h,1025
+sBasementKeyDesc,"The key for NEW
+MAUVILLE beneath
+MAUVILLE CITY.",,pending,1,src/data/text/item_descriptions.h,1030
+sAcroBikeDesc,"A folding bicycle
+capable of jumps
+and wheelies.",,pending,1,src/data/text/item_descriptions.h,1035
+sPokeblockCaseDesc,"A case for holding
+{POKEBLOCK}S made with
+a BERRY BLENDER.",,pending,1,src/data/text/item_descriptions.h,1040
+sLetterDesc,"A letter to STEVEN
+from the PRESIDENT
+of the DEVON CORP.",,pending,1,src/data/text/item_descriptions.h,1045
+sEonTicketDesc,"The ticket for a
+ferry to a distant
+southern island.",,pending,1,src/data/text/item_descriptions.h,1050
+sRedOrbDesc,"A red, glowing orb
+said to contain an
+ancient power.",,pending,1,src/data/text/item_descriptions.h,1055
+sBlueOrbDesc,"A blue, glowing orb
+said to contain an
+ancient power.",,pending,1,src/data/text/item_descriptions.h,1060
+sScannerDesc,"A device found
+inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1065
+sGoGogglesDesc,"Nifty goggles that
+protect eyes from
+desert sandstorms.",,pending,1,src/data/text/item_descriptions.h,1070
+sMeteoriteDesc,"A meteorite found
+at METEOR FALLS.",,pending,1,src/data/text/item_descriptions.h,1075
+sRoom1KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1079
+sRoom2KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1084
+sRoom4KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1089
+sRoom6KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1094
+sStorageKeyDesc,"The key to the
+storage inside the
+ABANDONED SHIP.",,pending,1,src/data/text/item_descriptions.h,1099
+sRootFossilDesc,"A fossil of an
+ancient, seafloor-
+dwelling POKéMON.",,pending,1,src/data/text/item_descriptions.h,1104
+sClawFossilDesc,"A fossil of an
+ancient, seafloor-
+dwelling POKéMON.",,pending,1,src/data/text/item_descriptions.h,1109
+sDevonScopeDesc,"A device by DEVON
+that signals any
+unseeable POKéMON.",,pending,1,src/data/text/item_descriptions.h,1114
+sTM01Desc,"Powerful, but makes
+the user flinch if
+hit by the foe.",,pending,1,src/data/text/item_descriptions.h,1120
+sTM02Desc,"Hooks and slashes
+the foe with long,
+sharp claws.",,pending,1,src/data/text/item_descriptions.h,1125
+sTM03Desc,"Generates an
+ultrasonic wave
+that may confuse.",,pending,1,src/data/text/item_descriptions.h,1130
+sTM04Desc,"Raises SP. ATK and
+SP. DEF by focusing
+the mind.",,pending,1,src/data/text/item_descriptions.h,1135
+sTM05Desc,"A savage roar that
+makes the foe flee
+to end the battle.",,pending,1,src/data/text/item_descriptions.h,1140
+sTM06Desc,"Poisons the foe
+with a toxin that
+gradually worsens.",,pending,1,src/data/text/item_descriptions.h,1145
+sTM07Desc,"Creates a hailstorm
+that damages all
+types except ICE.",,pending,1,src/data/text/item_descriptions.h,1150
+sTM08Desc,"Bulks up the body
+to boost both
+ATTACK & DEFENSE.",,pending,1,src/data/text/item_descriptions.h,1155
+sTM09Desc,"Shoots 2 to 5 seeds
+in a row to strike
+the foe.",,pending,1,src/data/text/item_descriptions.h,1160
+sTM10Desc,"The attack power
+varies among
+different POKéMON.",,pending,1,src/data/text/item_descriptions.h,1165
+sTM11Desc,"Raises the power of
+FIRE-type moves
+for 5 turns.",,pending,1,src/data/text/item_descriptions.h,1170
+sTM12Desc,"Enrages the foe so
+it can only use
+attack moves.",,pending,1,src/data/text/item_descriptions.h,1175
+sTM13Desc,"Fires an icy cold
+beam that may
+freeze the foe.",,pending,1,src/data/text/item_descriptions.h,1180
+sTM14Desc,"A brutal snow-and-
+wind attack that
+may freeze the foe.",,pending,1,src/data/text/item_descriptions.h,1185
+sTM15Desc,"Powerful, but needs
+recharging the
+next turn.",,pending,1,src/data/text/item_descriptions.h,1190
+sTM16Desc,"Creates a wall of
+light that lowers
+SP. ATK damage.",,pending,1,src/data/text/item_descriptions.h,1195
+sTM17Desc,"Negates all damage,
+but may fail if used
+in succession.",,pending,1,src/data/text/item_descriptions.h,1200
+sTM18Desc,"Raises the power of
+WATER-type moves
+for 5 turns.",,pending,1,src/data/text/item_descriptions.h,1205
+sTM19Desc,"Recovers half the
+HP of the damage
+this move inflicts.",,pending,1,src/data/text/item_descriptions.h,1210
+sTM20Desc,"Prevents status
+abnormality with a
+mystical power.",,pending,1,src/data/text/item_descriptions.h,1215
+sTM21Desc,"The less the user
+likes you, the more
+powerful this move.",,pending,1,src/data/text/item_descriptions.h,1220
+sTM22Desc,"Absorbs sunlight in
+the 1st turn, then
+attacks next turn.",,pending,1,src/data/text/item_descriptions.h,1225
+sTM23Desc,"Slams the foe with
+a hard tail. It may
+lower DEFENSE.",,pending,1,src/data/text/item_descriptions.h,1230
+sTM24Desc,"A powerful electric
+attack that may
+cause paralysis.",,pending,1,src/data/text/item_descriptions.h,1235
+sTM25Desc,"Strikes the foe
+with a thunderbolt.
+It may paralyze.",,pending,1,src/data/text/item_descriptions.h,1240
+sTM26Desc,"Causes a quake
+that has no effect
+on flying foes.",,pending,1,src/data/text/item_descriptions.h,1245
+sTM27Desc,"The more the user
+likes you, the more
+powerful this move.",,pending,1,src/data/text/item_descriptions.h,1250
+sTM28Desc,"Digs underground
+the 1st turn, then
+strikes next turn.",,pending,1,src/data/text/item_descriptions.h,1255
+sTM29Desc,"A powerful psychic
+attack that may
+lower SP. DEF.",,pending,1,src/data/text/item_descriptions.h,1260
+sTM30Desc,"Hurls a dark lump
+at the foe. It may
+lower SP. DEF.",,pending,1,src/data/text/item_descriptions.h,1265
+sTM31Desc,"Destroys barriers
+like LIGHT SCREEN
+and causes damage.",,pending,1,src/data/text/item_descriptions.h,1270
+sTM32Desc,"Creates illusory
+copies to enhance
+elusiveness.",,pending,1,src/data/text/item_descriptions.h,1275
+sTM33Desc,"Creates a wall of
+light that weakens
+physical attacks.",,pending,1,src/data/text/item_descriptions.h,1280
+sTM34Desc,"Zaps the foe with a
+jolt of electricity
+that never misses.",,pending,1,src/data/text/item_descriptions.h,1285
+sTM35Desc,"Looses a stream of
+fire that may burn
+the foe.",,pending,1,src/data/text/item_descriptions.h,1290
+sTM36Desc,"Hurls sludge at the
+foe. It may poison
+the foe.",,pending,1,src/data/text/item_descriptions.h,1295
+sTM37Desc,"Causes a sandstorm
+that hits the foe
+over several turns.",,pending,1,src/data/text/item_descriptions.h,1300
+sTM38Desc,"A powerful fire
+attack that may
+burn the foe.",,pending,1,src/data/text/item_descriptions.h,1305
+sTM39Desc,"Stops the foe from
+moving with rocks.
+May lower SPEED.",,pending,1,src/data/text/item_descriptions.h,1310
+sTM40Desc,"An extremely fast
+attack that can't
+be avoided.",,pending,1,src/data/text/item_descriptions.h,1315
+sTM41Desc,"Prevents the foe
+from using the same
+move in a row.",,pending,1,src/data/text/item_descriptions.h,1320
+sTM42Desc,"Raises ATTACK when
+poisoned, burned,
+or paralyzed.",,pending,1,src/data/text/item_descriptions.h,1325
+sTM43Desc,"Adds an effect to
+attack depending
+on the location.",,pending,1,src/data/text/item_descriptions.h,1330
+sTM44Desc,"The user sleeps for
+2 turns to restore
+health and status.",,pending,1,src/data/text/item_descriptions.h,1335
+sTM45Desc,"Makes it tough to
+attack a foe of the
+opposite gender.",,pending,1,src/data/text/item_descriptions.h,1340
+sTM46Desc,"While attacking,
+it may steal the
+foe's held item.",,pending,1,src/data/text/item_descriptions.h,1345
+sTM47Desc,"Spreads hard-
+edged wings and
+slams into the foe.",,pending,1,src/data/text/item_descriptions.h,1350
+sTM48Desc,"Switches abilities
+with the foe on the
+turn this is used.",,pending,1,src/data/text/item_descriptions.h,1355
+sTM49Desc,"Steals the effects
+of the move the foe
+is trying to use.",,pending,1,src/data/text/item_descriptions.h,1360
+sTM50Desc,"Enables full-power
+attack, but sharply
+lowers SP. ATK.",,pending,1,src/data/text/item_descriptions.h,1365
+sHM01Desc,"Attacks the foe
+with sharp blades
+or claws.",,pending,1,src/data/text/item_descriptions.h,1371
+sHM02Desc,"Flies up on the
+first turn, then
+attacks next turn.",,pending,1,src/data/text/item_descriptions.h,1376
+sHM03Desc,"Creates a huge
+wave, then crashes
+it down on the foe.",,pending,1,src/data/text/item_descriptions.h,1381
+sHM04Desc,"Builds enormous
+power, then slams
+the foe.",,pending,1,src/data/text/item_descriptions.h,1386
+sHM05Desc,"Looses a powerful
+blast of light that
+reduces accuracy.",,pending,1,src/data/text/item_descriptions.h,1391
+sHM06Desc,"A rock-crushingly
+tough attack that
+may lower DEFENSE.",,pending,1,src/data/text/item_descriptions.h,1396
+sHM07Desc,"Attacks the foe
+with enough power
+to climb waterfalls.",,pending,1,src/data/text/item_descriptions.h,1401
+sHM08Desc,"Dives underwater
+the 1st turn, then
+attacks next turn.",,pending,1,src/data/text/item_descriptions.h,1406
+sOaksParcelDesc,"A parcel for PROF.
+OAK from a POKéMON
+MART's clerk.",,pending,1,src/data/text/item_descriptions.h,1412
+sPokeFluteDesc,"A sweet-sounding
+flute that awakens
+POKéMON.",,pending,1,src/data/text/item_descriptions.h,1417
+sSecretKeyDesc,"The key to the
+CINNABAR ISLAND
+GYM's entrance.",,pending,1,src/data/text/item_descriptions.h,1422
+sBikeVoucherDesc,"A voucher for
+obtaining a bicycle
+from the BIKE SHOP.",,pending,1,src/data/text/item_descriptions.h,1427
+sGoldTeethDesc,"Gold dentures lost
+by the SAFARI
+ZONE's WARDEN.",,pending,1,src/data/text/item_descriptions.h,1432
+sOldAmberDesc,"A stone containing
+the genes of an
+ancient POKéMON.",,pending,1,src/data/text/item_descriptions.h,1437
+sCardKeyDesc,"A card-type door
+key used in SILPH
+CO's office.",,pending,1,src/data/text/item_descriptions.h,1442
+sLiftKeyDesc,"An elevator key
+used in TEAM
+ROCKET's HIDEOUT.",,pending,1,src/data/text/item_descriptions.h,1447
+sHelixFossilDesc,"A piece of an
+ancient marine
+POKéMON's seashell.",,pending,1,src/data/text/item_descriptions.h,1452
+sDomeFossilDesc,"A piece of an
+ancient marine
+POKéMON's shell.",,pending,1,src/data/text/item_descriptions.h,1457
+sSilphScopeDesc,"SILPH CO's scope
+makes unseeable
+POKéMON visible.",,pending,1,src/data/text/item_descriptions.h,1462
+sBicycleDesc,"A folding bicycle
+that is faster than
+the RUNNING SHOES.",,pending,1,src/data/text/item_descriptions.h,1467
+sTownMapDesc,"Can be viewed
+anytime. Shows your
+present location.",,pending,1,src/data/text/item_descriptions.h,1472
+sVSSeekerDesc,"A rechargeable unit
+that flags battle-
+ready TRAINERS.",,pending,1,src/data/text/item_descriptions.h,1477
+sFameCheckerDesc,"Stores information
+on famous people
+for instant recall.",,pending,1,src/data/text/item_descriptions.h,1482
+sTMCaseDesc,"A convenient case
+that holds TMs and
+HMs.",,pending,1,src/data/text/item_descriptions.h,1487
+sBerryPouchDesc,"A convenient
+container that
+holds BERRIES.",,pending,1,src/data/text/item_descriptions.h,1492
+sTeachyTVDesc,"A TV set tuned to
+an advice program
+for TRAINERS.",,pending,1,src/data/text/item_descriptions.h,1497
+sTriPassDesc,"A pass for ferries
+between ONE, TWO,
+and THREE ISLAND.",,pending,1,src/data/text/item_descriptions.h,1502
+sRainbowPassDesc,"For ferries serving
+VERMILION and the
+SEVII ISLANDS.",,pending,1,src/data/text/item_descriptions.h,1507
+sTeaDesc,"A thirst-quenching
+tea prepared by an
+old lady.",,pending,1,src/data/text/item_descriptions.h,1512
+sMysticTicketDesc,"A ticket required
+to board the ship
+to NAVEL ROCK.",,pending,1,src/data/text/item_descriptions.h,1517
+sAuroraTicketDesc,"A ticket required
+to board the ship
+to BIRTH ISLAND.",,pending,1,src/data/text/item_descriptions.h,1522
+sPowderJarDesc,"Stores BERRY
+POWDER made using
+a BERRY CRUSHER.",,pending,1,src/data/text/item_descriptions.h,1527
+sRubyDesc,"An exquisite, red-
+glowing gem that
+symbolizes passion.",,pending,1,src/data/text/item_descriptions.h,1532
+sSapphireDesc,"A brilliant blue gem
+that symbolizes
+honesty.",,pending,1,src/data/text/item_descriptions.h,1537
+sMagmaEmblemDesc,"A medal-like item in
+the same shape as
+TEAM MAGMA's mark.",,pending,1,src/data/text/item_descriptions.h,1543
+sOldSeaMapDesc,"A faded sea chart
+that shows the way
+to a certain island.",,pending,1,src/data/text/item_descriptions.h,1548
