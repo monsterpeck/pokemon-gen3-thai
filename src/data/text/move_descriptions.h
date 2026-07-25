@@ -1,13 +1,9 @@
 static const u8 sNullDescription[] = _(
     "");
 
-static const u8 sPoundDescription[] = _(
-    "Pounds the foe with\n"
-    "forelegs or tail.");
+static const u8 sPoundDescription[] = _("ทุบคู่ต่อสู้ด้วย\nขาหน้าหรือหาง");
 
-static const u8 sKarateChopDescription[] = _(
-    "A chopping attack with a\n"
-    "high critical-hit ratio.");
+static const u8 sKarateChopDescription[] = _("ท่าสับที่มีโอกาส\nโจมตีคริติคอลสูง");
 
 static const u8 sDoubleSlapDescription[] = _(
     "Repeatedly slaps the foe\n"
@@ -25,9 +21,7 @@ static const u8 sPayDayDescription[] = _(
     "Throws coins at the foe.\n"
     "Money is recovered after.");
 
-static const u8 sFirePunchDescription[] = _(
-    "A fiery punch that may burn\n"
-    "the foe.");
+static const u8 sFirePunchDescription[] = _("หมัดเพลิงที่อาจทำให้\nคู่ต่อสู้ไหม้");
 
 static const u8 sIcePunchDescription[] = _(
     "An icy punch that may\n"
@@ -53,9 +47,7 @@ static const u8 sRazorWindDescription[] = _(
     "A 2-turn move that strikes\n"
     "the foe on the 2nd turn.");
 
-static const u8 sSwordsDanceDescription[] = _(
-    "A fighting dance that\n"
-    "sharply raises ATTACK.");
+static const u8 sSwordsDanceDescription[] = _("การร่ายรำที่เพิ่ม\nพลังโจมตีอย่างมาก");
 
 static const u8 sCutDescription[] = _(
     "Cuts the foe with sharp\n"
@@ -141,9 +133,7 @@ static const u8 sWrapDescription[] = _(
     "Wraps and squeezes the foe\n"
     "2 to 5 times with vines, etc.");
 
-static const u8 sTakeDownDescription[] = _(
-    "A reckless charge attack\n"
-    "that also hurts the user.");
+static const u8 sTakeDownDescription[] = _("พุ่งชนอย่างไม่ยั้ง\nผู้ใช้ท่าก็บาดเจ็บด้วย");
 
 static const u8 sThrashDescription[] = _(
     "A rampage of 2 to 3 turns\n"
@@ -153,9 +143,7 @@ static const u8 sDoubleEdgeDescription[] = _(
     "A life-risking tackle that\n"
     "also hurts the user.");
 
-static const u8 sTailWhipDescription[] = _(
-    "Wags the tail to lower the\n"
-    "foe's DEFENSE.");
+static const u8 sTailWhipDescription[] = _("สะบัดหางเพื่อลด\nพลังป้องกันคู่ต่อสู้");
 
 static const u8 sPoisonStingDescription[] = _(
     "A toxic attack with barbs,\n"
@@ -341,9 +329,7 @@ static const u8 sThunderboltDescription[] = _(
     "A strong electrical attack\n"
     "that may paralyze the foe.");
 
-static const u8 sThunderWaveDescription[] = _(
-    "A weak jolt of electricity\n"
-    "that paralyzes the foe.");
+static const u8 sThunderWaveDescription[] = _("ปล่อยกระแสไฟอ่อน\nทำให้คู่ต่อสู้อัมพาต");
 
 static const u8 sThunderDescription[] = _(
     "A lightning attack that may\n"
@@ -417,9 +403,7 @@ static const u8 sDoubleTeamDescription[] = _(
     "Creates illusory copies to\n"
     "raise evasiveness.");
 
-static const u8 sRecoverDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+static const u8 sRecoverDescription[] = _("ฟื้นฟู HP ได้ถึง\nครึ่งหนึ่งของ HP สูงสุด");
 
 static const u8 sHardenDescription[] = _(
     "Stiffens the body's \n"
@@ -461,9 +445,7 @@ static const u8 sReflectDescription[] = _(
     "Creates a wall of light that\n"
     "weakens physical attacks.");
 
-static const u8 sFocusEnergyDescription[] = _(
-    "Focuses power to raise the\n"
-    "critical-hit ratio.");
+static const u8 sFocusEnergyDescription[] = _("รวบรวมพลังเพื่อเพิ่ม\nโอกาสโจมตีคริติคอล");
 
 static const u8 sBideDescription[] = _(
     "Endures attack for 2\n"
@@ -873,9 +855,7 @@ static const u8 sFrustrationDescription[] = _(
     "An attack that is stronger\n"
     "if the TRAINER is disliked.");
 
-static const u8 sSafeguardDescription[] = _(
-    "A mystical force prevents\n"
-    "all status problems.");
+static const u8 sSafeguardDescription[] = _("พลังลึกลับช่วยป้องกัน\nสถานะผิดปกติทั้งหมด");
 
 static const u8 sPainSplitDescription[] = _(
     "Adds the user and foe's HP,\n"
