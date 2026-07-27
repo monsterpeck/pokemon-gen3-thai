@@ -1,0 +1,1063 @@
+move_id,move_name_en,source_text,target_text_th,description_status,line_1_width_px,line_2_width_px,max_width_px,width_margin_px,mixed_latin,abbreviations,risk_score,risk_reasons,visual_qa_recommended
+MOVE_POUND,POUND,"Pounds the foe with
+forelegs or tail.","ทุบคู่ต่อสู้ด้วย
+ขาหน้าหรือหาง",proof_passed,59,63,63,65,no,,0,,no
+MOVE_KARATE_CHOP,KARATE CHOP,"A chopping attack with a
+high critical-hit ratio.","ท่าสับที่มีโอกาส
+โจมตีคริติคอลสูง",proof_passed,65,74,74,54,no,,0,,no
+MOVE_DOUBLE_SLAP,DOUBLESLAP,"Repeatedly slaps the foe
+2 to 5 times.","ตบคู่ต่อสู้ซ้ำ
+2 ถึง 5 ครั้ง",translated_pending_qa,51,47,51,77,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_COMET_PUNCH,COMET PUNCH,"Repeatedly punches the foe
+2 to 5 times.","ชกคู่ต่อสู้ซ้ำ
+2 ถึง 5 ครั้ง",translated_pending_qa,49,47,49,79,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_MEGA_PUNCH,MEGA PUNCH,"A strong punch thrown with
+incredible power.","ปล่อยหมัดรุนแรง
+ด้วยพลังมหาศาล",translated_pending_qa,75,72,75,53,no,,0,,no
+MOVE_PAY_DAY,PAY DAY,"Throws coins at the foe.
+Money is recovered after.","ขว้างเหรียญใส่คู่ต่อสู้
+เก็บเงินได้หลังจบศึก",translated_pending_qa,89,90,90,38,no,,0,,no
+MOVE_FIRE_PUNCH,FIRE PUNCH,"A fiery punch that may burn
+the foe.","หมัดเพลิงที่อาจทำให้
+คู่ต่อสู้ไหม้",proof_passed,90,46,90,38,no,,1,status_or_ko_text,no
+MOVE_ICE_PUNCH,ICE PUNCH,"An icy punch that may
+freeze the foe.","หมัดน้ำแข็งที่อาจ
+แช่แข็งคู่ต่อสู้",translated_pending_qa,72,56,72,56,no,,1,status_or_ko_text,no
+MOVE_THUNDER_PUNCH,THUNDERPUNCH,"An electrified punch that
+may paralyze the foe.","หมัดไฟฟ้าที่อาจทำให้
+คู่ต่อสู้อัมพาต",translated_pending_qa,94,58,94,34,no,,1,status_or_ko_text,no
+MOVE_SCRATCH,SCRATCH,"Scratches the foe with
+sharp claws.","ข่วนคู่ต่อสู้ด้วย
+กรงเล็บแหลมคม",translated_pending_qa,65,73,73,55,no,,0,,no
+MOVE_VICE_GRIP,VICEGRIP,"Grips the foe with large and
+powerful pincers.","หนีบคู่ต่อสู้ด้วย
+ก้ามขนาดใหญ่ทรงพลัง",translated_pending_qa,67,97,97,31,no,,0,,no
+MOVE_GUILLOTINE,GUILLOTINE,"A powerful pincer attack
+that may cause fainting.","โจมตีด้วยก้ามทรงพลัง
+อาจทำให้คู่ต่อสู้หมดสภาพ",translated_pending_qa,95,112,112,16,no,,1,status_or_ko_text,no
+MOVE_RAZOR_WIND,RAZOR WIND,"A 2-turn move that strikes
+the foe on the 2nd turn.","ใช้เวลา 2 เทิร์น
+โจมตีในเทิร์นที่ 2",translated_pending_qa,67,78,78,50,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_SWORDS_DANCE,SWORDS DANCE,"A fighting dance that
+sharply raises ATTACK.","การร่ายรำที่เพิ่ม
+พลังโจมตีอย่างมาก",proof_passed,65,80,80,48,no,,1,sharp_stat_change,no
+MOVE_CUT,CUT,"Cuts the foe with sharp
+scythes, claws, etc.","ฟันคู่ต่อสู้ด้วย
+เคียวหรือกรงเล็บคม",translated_pending_qa,61,88,88,40,no,,0,,no
+MOVE_GUST,GUST,"Strikes the foe with a gust
+of wind whipped up by wings.","โจมตีด้วยลมกระโชก
+ที่ปีกพัดขึ้น",translated_pending_qa,90,51,90,38,no,,0,,no
+MOVE_WING_ATTACK,WING ATTACK,"Strikes the foe with wings
+spread wide.","โจมตีคู่ต่อสู้ด้วย
+ปีกที่กางออก",translated_pending_qa,70,52,70,58,no,,0,,no
+MOVE_WHIRLWIND,WHIRLWIND,"Blows away the foe with
+wind and ends the battle.","พัดคู่ต่อสู้ออกจากศึก
+ด้วยกระแสลม",translated_pending_qa,88,61,88,40,no,,0,,no
+MOVE_FLY,FLY,"Flies up on the first turn,
+then strikes the next turn.","บินขึ้นในเทิร์นแรก
+โจมตีในเทิร์นถัดไป",translated_pending_qa,87,89,89,39,no,,0,,no
+MOVE_BIND,BIND,"Binds and squeezes the foe
+for 2 to 5 turns.","รัดและบีบคู่ต่อสู้
+นาน 2 ถึง 5 เทิร์น",translated_pending_qa,70,76,76,52,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_SLAM,SLAM,"Slams the foe with a long
+tail, vine, etc.","ฟาดคู่ต่อสู้ด้วย
+หางหรือเถาวัลย์ยาว",translated_pending_qa,64,82,82,46,no,,0,,no
+MOVE_VINE_WHIP,VINE WHIP,"Strikes the foe with
+slender, whiplike vines.","ฟาดคู่ต่อสู้ด้วย
+เถาวัลย์เรียวคล้ายแส้",translated_pending_qa,64,90,90,38,no,,0,,no
+MOVE_STOMP,STOMP,"Stomps the enemy with a big
+foot. May cause flinching.","เหยียบด้วยเท้าขนาดใหญ่
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,110,88,110,18,no,,1,status_or_ko_text,no
+MOVE_DOUBLE_KICK,DOUBLE KICK,"A double-kicking attack
+that strikes the foe twice.","เตะต่อเนื่องสองครั้ง
+ใส่คู่ต่อสู้",translated_pending_qa,85,38,85,43,no,,0,,no
+MOVE_MEGA_KICK,MEGA KICK,"An extremely powerful kick
+with intense force.","เตะด้วยพลังรุนแรง
+อย่างมหาศาล",translated_pending_qa,82,55,82,46,no,,0,,no
+MOVE_JUMP_KICK,JUMP KICK,"A strong jumping kick. May
+miss and hurt the kicker.","กระโดดเตะอย่างรุนแรง
+พลาดแล้วผู้ใช้ท่าบาดเจ็บ",translated_pending_qa,100,108,108,20,no,,0,,no
+MOVE_ROLLING_KICK,ROLLING KICK,"A fast kick delivered from
+a rapid spin.","หมุนตัวอย่างรวดเร็ว
+แล้วปล่อยลูกเตะ",translated_pending_qa,89,72,89,39,no,,0,,no
+MOVE_SAND_ATTACK,SAND-ATTACK,"Reduces the foe's accuracy
+by hurling sand in its face.","สาดทรายใส่หน้าคู่ต่อสู้
+เพื่อลดความแม่นยำ",translated_pending_qa,96,86,96,32,no,,0,,no
+MOVE_HEADBUTT,HEADBUTT,"A ramming attack that may
+cause flinching.","พุ่งกระแทกด้วยศีรษะ
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,92,88,92,36,no,,1,status_or_ko_text,no
+MOVE_HORN_ATTACK,HORN ATTACK,"Jabs the foe with sharp
+horns.","แทงคู่ต่อสู้ด้วย
+เขาแหลมคม",translated_pending_qa,63,55,63,65,no,,0,,no
+MOVE_FURY_ATTACK,FURY ATTACK,"Jabs the foe 2 to 5 times
+with sharp horns, etc.","แทงด้วยเขาแหลมคม
+2 ถึง 5 ครั้ง",translated_pending_qa,92,47,92,36,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_HORN_DRILL,HORN DRILL,"A one-hit KO attack that
+uses a horn like a drill.","ใช้เขาหมุนคล้ายสว่าน
+ทำให้หมดสภาพในครั้งเดียว",translated_pending_qa,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
+MOVE_TACKLE,TACKLE,"Charges the foe with a full-
+body tackle.","พุ่งชนคู่ต่อสู้ด้วย
+ร่างกายทั้งหมด",translated_pending_qa,71,62,71,57,no,,0,,no
+MOVE_BODY_SLAM,BODY SLAM,"A full-body slam that may
+cause paralysis.","พุ่งทับด้วยทั้งร่าง
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,70,98,98,30,no,,1,status_or_ko_text,no
+MOVE_WRAP,WRAP,"Wraps and squeezes the foe
+2 to 5 times with vines, etc.","ใช้เถาวัลย์รัดและบีบ
+คู่ต่อสู้ 2 ถึง 5 ครั้ง",translated_pending_qa,88,76,88,40,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_TAKE_DOWN,TAKE DOWN,"A reckless charge attack
+that also hurts the user.","พุ่งชนอย่างไม่ยั้ง
+ผู้ใช้ท่าก็บาดเจ็บด้วย",proof_passed,70,89,89,39,no,,0,,no
+MOVE_THRASH,THRASH,"A rampage of 2 to 3 turns
+that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_DOUBLE_EDGE,DOUBLE-EDGE,"A life-risking tackle that
+also hurts the user.","พุ่งชนแบบเสี่ยงชีวิต
+ผู้ใช้ท่าก็บาดเจ็บด้วย",translated_pending_qa,86,89,89,39,no,,0,,no
+MOVE_TAIL_WHIP,TAIL WHIP,"Wags the tail to lower the
+foe's DEFENSE.","สะบัดหางเพื่อลด
+พลังป้องกันคู่ต่อสู้",proof_passed,73,75,75,53,no,,0,,no
+MOVE_POISON_STING,POISON STING,"A toxic attack with barbs,
+etc., that may poison.","โจมตีด้วยเหล็กในพิษ
+อาจทำให้คู่ต่อสู้ติดพิษ",translated_pending_qa,97,96,97,31,no,,1,status_or_ko_text,no
+MOVE_TWINEEDLE,TWINEEDLE,"Stingers on the forelegs
+jab the foe twice.","แทงคู่ต่อสู้สองครั้ง
+ด้วยเหล็กในที่ขาหน้า",translated_pending_qa,78,92,92,36,no,,0,,no
+MOVE_PIN_MISSILE,PIN MISSILE,"Sharp pins are fired to
+strike 2 to 5 times.","ยิงเข็มแหลมต่อเนื่อง
+2 ถึง 5 ครั้ง",translated_pending_qa,89,47,89,39,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_LEER,LEER,"Frightens the foe with a
+leer to lower DEFENSE.","ข่มขู่ด้วยสายตา
+เพื่อลดพลังป้องกัน",translated_pending_qa,65,80,80,48,no,,0,,no
+MOVE_BITE,BITE,"Bites with vicious fangs.
+May cause flinching.","กัดด้วยเขี้ยวอันดุร้าย
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,92,88,92,36,no,,1,status_or_ko_text,no
+MOVE_GROWL,GROWL,"Growls cutely to reduce the
+foe's ATTACK.","ส่งเสียงร้องน่ารัก
+เพื่อลดพลังโจมตี",translated_pending_qa,68,74,74,54,no,,0,,no
+MOVE_ROAR,ROAR,"Makes the foe flee to end
+the battle.","คำรามไล่คู่ต่อสู้
+ให้ออกจากการต่อสู้",translated_pending_qa,65,81,81,47,no,,0,,no
+MOVE_SING,SING,"A soothing song lulls the
+foe into a deep slumber.","บทเพลงแสนผ่อนคลาย
+ทำให้คู่ต่อสู้หลับ",translated_pending_qa,100,70,100,28,no,,0,,no
+MOVE_SUPERSONIC,SUPERSONIC,"Emits bizarre sound waves
+that may confuse the foe.","ปล่อยคลื่นเสียงประหลาด
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,107,93,107,21,no,,1,status_or_ko_text,no
+MOVE_SONIC_BOOM,SONICBOOM,"Launches shock waves that
+always inflict 20 HP damage.","ปล่อยคลื่นกระแทก
+สร้างความเสียหาย 20 HP",translated_pending_qa,82,102,102,26,yes,HP,3,mixed_latin_or_number;numeric,no
+MOVE_DISABLE,DISABLE,"Psychically disables one of
+the foe's moves.","ใช้พลังจิตผนึก
+ท่าหนึ่งของคู่ต่อสู้",translated_pending_qa,63,72,72,56,no,,0,,no
+MOVE_ACID,ACID,"Sprays a hide-melting acid.
+May lower DEFENSE.","พ่นกรดกัดกร่อน
+อาจลดพลังป้องกัน",translated_pending_qa,72,78,78,50,no,,0,,no
+MOVE_EMBER,EMBER,"A weak fire attack that may
+inflict a burn.","โจมตีด้วยเปลวไฟอ่อน
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,101,86,101,27,no,,1,status_or_ko_text,no
+MOVE_FLAMETHROWER,FLAMETHROWER,"A powerful fire attack that
+may inflict a burn.","พ่นเปลวไฟทรงพลัง
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,87,86,87,41,no,,1,status_or_ko_text,no
+MOVE_MIST,MIST,"Creates a mist that stops
+reduction of abilities.","สร้างหมอกเพื่อป้องกัน
+การลดค่าสถานะ",translated_pending_qa,94,68,94,34,no,,0,,no
+MOVE_WATER_GUN,WATER GUN,"Squirts water to attack
+the foe.","ฉีดน้ำโจมตี
+คู่ต่อสู้",translated_pending_qa,51,26,51,77,no,,0,,no
+MOVE_HYDRO_PUMP,HYDRO PUMP,"Blasts water at high power
+to strike the foe.","พ่นน้ำแรงดันสูง
+เข้าใส่คู่ต่อสู้",translated_pending_qa,68,52,68,60,no,,0,,no
+MOVE_SURF,SURF,"Creates a huge wave, then
+crashes it down on the foe.","สร้างคลื่นยักษ์
+ซัดถล่มคู่ต่อสู้",translated_pending_qa,60,59,60,68,no,,0,,no
+MOVE_ICE_BEAM,ICE BEAM,"Blasts the foe with an icy
+beam that may freeze it.","ยิงลำแสงน้ำแข็ง
+อาจแช่แข็งคู่ต่อสู้",translated_pending_qa,65,72,72,56,no,,1,status_or_ko_text,no
+MOVE_BLIZZARD,BLIZZARD,"Hits the foe with an icy
+storm that may freeze it.","โจมตีด้วยพายุน้ำแข็ง
+อาจแช่แข็งคู่ต่อสู้",translated_pending_qa,90,72,90,38,no,,1,status_or_ko_text,no
+MOVE_PSYBEAM,PSYBEAM,"Fires a peculiar ray that
+may confuse the foe.","ยิงลำแสงประหลาด
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,78,93,93,35,no,,1,status_or_ko_text,no
+MOVE_BUBBLE_BEAM,BUBBLEBEAM,"Forcefully sprays bubbles
+that may lower SPEED.","พ่นฟองน้ำอย่างรุนแรง
+อาจลดความเร็ว",translated_pending_qa,94,69,94,34,no,,0,,no
+MOVE_AURORA_BEAM,AURORA BEAM,"Fires a rainbow-colored
+beam that may lower ATTACK.","ยิงลำแสงสีรุ้ง
+อาจลดพลังโจมตี",translated_pending_qa,53,72,72,56,no,,0,,no
+MOVE_HYPER_BEAM,HYPER BEAM,"Powerful, but leaves the
+user immobile the next turn.","พลังรุนแรงแต่ผู้ใช้ท่า
+ขยับไม่ได้ในเทิร์นถัดไป",translated_pending_qa,90,109,109,19,no,,0,,no
+MOVE_PECK,PECK,"Attacks the foe with a
+jabbing beak, etc.","จิกคู่ต่อสู้ด้วย
+จะงอยปาก",translated_pending_qa,57,44,57,71,no,,0,,no
+MOVE_DRILL_PECK,DRILL PECK,"A corkscrewing attack with
+the beak acting as a drill.","หมุนจะงอยปากคล้ายสว่าน
+พุ่งโจมตีคู่ต่อสู้",translated_pending_qa,113,63,113,15,no,,0,,no
+MOVE_SUBMISSION,SUBMISSION,"A reckless body slam that
+also hurts the user.","พุ่งทับอย่างไม่ยั้ง
+ผู้ใช้ท่าก็บาดเจ็บด้วย",translated_pending_qa,70,89,89,39,no,,0,,no
+MOVE_LOW_KICK,LOW KICK,"A kick that inflicts more
+damage on heavier foes.","คู่ต่อสู้ยิ่งหนัก
+ยิ่งสร้างความเสียหายมาก",translated_pending_qa,58,103,103,25,no,,0,,no
+MOVE_COUNTER,COUNTER,"Retaliates any physical hit
+with double the power.","โต้กลับการโจมตีกายภาพ
+ด้วยพลังสองเท่า",translated_pending_qa,106,68,106,22,no,,0,,no
+MOVE_SEISMIC_TOSS,SEISMIC TOSS,"Inflicts damage identical
+to the user's level.","สร้างความเสียหายเท่ากับ
+เลเวลของผู้ใช้ท่า",translated_pending_qa,104,71,104,24,no,,0,,no
+MOVE_STRENGTH,STRENGTH,"Builds enormous power,
+then slams the foe.","รวบรวมพลังมหาศาล
+แล้วกระแทกคู่ต่อสู้",translated_pending_qa,89,81,89,39,no,,0,,no
+MOVE_ABSORB,ABSORB,"An attack that absorbs
+half the damage inflicted.","ดูด HP เท่ากับครึ่งหนึ่ง
+ของความเสียหายที่ทำได้",translated_pending_qa,95,104,104,24,yes,HP,2,mixed_latin_or_number,no
+MOVE_MEGA_DRAIN,MEGA DRAIN,"An attack that absorbs
+half the damage inflicted.","ดูด HP เท่ากับครึ่งหนึ่ง
+ของความเสียหายที่ทำได้",translated_pending_qa,95,104,104,24,yes,HP,2,mixed_latin_or_number,no
+MOVE_LEECH_SEED,LEECH SEED,"Plants a seed on the foe to
+steal HP on every turn.","ฝังเมล็ดเพื่อดูด HP
+จากคู่ต่อสู้ทุกเทิร์น",translated_pending_qa,79,79,79,49,yes,HP,2,mixed_latin_or_number,no
+MOVE_GROWTH,GROWTH,"Forces the body to grow
+and heightens SP. ATK.","เร่งการเติบโตของร่างกาย
+เพื่อเพิ่มพลังโจมตีพิเศษ",translated_pending_qa,103,107,107,21,no,,0,,no
+MOVE_RAZOR_LEAF,RAZOR LEAF,"Cuts the enemy with leaves.
+High critical-hit ratio.","ฟันคู่ต่อสู้ด้วยใบไม้
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,87,101,101,27,no,,0,,no
+MOVE_SOLAR_BEAM,SOLARBEAM,"Absorbs light in one turn,
+then attacks next turn.","ดูดซับแสงในเทิร์นแรก
+โจมตีในเทิร์นถัดไป",translated_pending_qa,101,89,101,27,no,,0,,no
+MOVE_POISON_POWDER,POISONPOWDER,"Scatters a toxic powder
+that may poison the foe.","โปรยผงพิษ
+อาจทำให้คู่ต่อสู้ติดพิษ",translated_pending_qa,49,96,96,32,no,,1,status_or_ko_text,no
+MOVE_STUN_SPORE,STUN SPORE,"Scatters a powder that may
+paralyze the foe.","โปรยผงที่อาจทำให้
+คู่ต่อสู้อัมพาต",translated_pending_qa,80,58,80,48,no,,1,status_or_ko_text,no
+MOVE_SLEEP_POWDER,SLEEP POWDER,"Scatters a powder that may
+cause the foe to sleep.","โปรยผงที่อาจทำให้
+คู่ต่อสู้หลับ",translated_pending_qa,80,46,80,48,no,,0,,no
+MOVE_PETAL_DANCE,PETAL DANCE,"A rampage of 2 to 3 turns
+that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_STRING_SHOT,STRING SHOT,"Binds the foe with string
+to reduce its SPEED.","พันคู่ต่อสู้ด้วยเส้นใย
+เพื่อลดความเร็ว",translated_pending_qa,91,71,91,37,no,,0,,no
+MOVE_DRAGON_RAGE,DRAGON RAGE,"Launches shock waves that
+always inflict 40 HP damage.","ปล่อยคลื่นกระแทก
+สร้างความเสียหาย 40 HP",translated_pending_qa,82,102,102,26,yes,HP,3,mixed_latin_or_number;numeric,no
+MOVE_FIRE_SPIN,FIRE SPIN,"Traps the foe in a ring of
+fire for 2 to 5 turns.","ขังคู่ต่อสู้ในวงแหวนไฟ
+นาน 2 ถึง 5 เทิร์น",translated_pending_qa,102,76,102,26,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_THUNDER_SHOCK,THUNDERSHOCK,"An electrical attack that
+may paralyze the foe.","โจมตีด้วยกระแสไฟฟ้า
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,99,98,99,29,no,,1,status_or_ko_text,no
+MOVE_THUNDERBOLT,THUNDERBOLT,"A strong electrical attack
+that may paralyze the foe.","โจมตีด้วยไฟฟ้ารุนแรง
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,99,98,99,29,no,,1,status_or_ko_text,no
+MOVE_THUNDER_WAVE,THUNDER WAVE,"A weak jolt of electricity
+that paralyzes the foe.","ปล่อยกระแสไฟอ่อน
+ทำให้คู่ต่อสู้อัมพาต",proof_passed,88,82,88,40,no,,1,status_or_ko_text,no
+MOVE_THUNDER,THUNDER,"A lightning attack that may
+cause paralysis.","โจมตีด้วยสายฟ้า
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,72,98,98,30,no,,1,status_or_ko_text,no
+MOVE_ROCK_THROW,ROCK THROW,"Throws small rocks to
+strike the foe.","ขว้างก้อนหินขนาดเล็ก
+ใส่คู่ต่อสู้",translated_pending_qa,96,38,96,32,no,,0,,no
+MOVE_EARTHQUAKE,EARTHQUAKE,"A powerful quake, but has
+no effect on flying foes.","สร้างแผ่นดินไหวรุนแรง
+ไม่โดนคู่ต่อสู้ที่บินอยู่",translated_pending_qa,103,93,103,25,no,,0,,no
+MOVE_FISSURE,FISSURE,"A one-hit KO move that
+drops the foe in a fissure.","ทำให้ตกลงในรอยแยก
+หมดสภาพในครั้งเดียว",translated_pending_qa,97,101,101,27,no,,1,status_or_ko_text,no
+MOVE_DIG,DIG,"Digs underground the first
+turn and strikes next turn.","ขุดใต้ดินในเทิร์นแรก
+โจมตีในเทิร์นถัดไป",translated_pending_qa,97,89,97,31,no,,0,,no
+MOVE_TOXIC,TOXIC,"Poisons the foe with an
+intensifying toxin.","ทำให้คู่ต่อสู้ติดพิษ
+ที่รุนแรงขึ้นเรื่อยๆ",translated_pending_qa,80,80,80,48,no,,1,status_or_ko_text,no
+MOVE_CONFUSION,CONFUSION,"A psychic attack that may
+cause confusion.","โจมตีด้วยพลังจิต
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,75,93,93,35,no,,1,status_or_ko_text,no
+MOVE_PSYCHIC,PSYCHIC,"A powerful psychic attack
+that may lower SP. DEF.","โจมตีด้วยพลังจิตรุนแรง
+อาจลดพลังป้องกันพิเศษ",translated_pending_qa,104,105,105,23,no,,0,,no
+MOVE_HYPNOSIS,HYPNOSIS,"A hypnotizing move that
+may induce sleep.","สะกดจิตคู่ต่อสู้
+อาจทำให้หลับ",translated_pending_qa,63,60,63,65,no,,0,,no
+MOVE_MEDITATE,MEDITATE,"Meditates in a peaceful
+fashion to raise ATTACK.","ทำสมาธิอย่างสงบ
+เพื่อเพิ่มพลังโจมตี",translated_pending_qa,71,80,80,48,no,,0,,no
+MOVE_AGILITY,AGILITY,"Relaxes the body to sharply
+boost SPEED.","ผ่อนคลายร่างกาย
+เพื่อเพิ่มความเร็วอย่างมาก",translated_pending_qa,72,114,114,14,no,,1,sharp_stat_change,no
+MOVE_QUICK_ATTACK,QUICK ATTACK,"An extremely fast attack
+that always strikes first.","โจมตีด้วยความเร็วสูง
+และลงมือก่อนเสมอ",translated_pending_qa,94,84,94,34,no,,0,,no
+MOVE_RAGE,RAGE,"Raises the user's ATTACK
+every time it is hit.","เพิ่มพลังโจมตีทุกครั้ง
+ที่ผู้ใช้ท่าถูกโจมตี",translated_pending_qa,93,73,93,35,no,,0,,no
+MOVE_TELEPORT,TELEPORT,"A psychic move for fleeing
+from battle instantly.","ใช้พลังจิตหลบหนี
+จากการต่อสู้ทันที",translated_pending_qa,78,72,78,50,no,,0,,no
+MOVE_NIGHT_SHADE,NIGHT SHADE,"Inflicts damage identical
+to the user's level.","สร้างความเสียหายเท่ากับ
+เลเวลของผู้ใช้ท่า",translated_pending_qa,104,71,104,24,no,,0,,no
+MOVE_MIMIC,MIMIC,"Copies a move used by the
+foe during one battle.","คัดลอกท่าที่คู่ต่อสู้ใช้
+ระหว่างการต่อสู้",translated_pending_qa,88,65,88,40,no,,0,,no
+MOVE_SCREECH,SCREECH,"Emits a screech to sharply
+reduce the foe's DEFENSE.","ส่งเสียงแหลมรุนแรง
+ลดพลังป้องกันอย่างมาก",translated_pending_qa,86,99,99,29,no,,1,sharp_stat_change,no
+MOVE_DOUBLE_TEAM,DOUBLE TEAM,"Creates illusory copies to
+raise evasiveness.","สร้างภาพลวงตาซ้ำซ้อน
+เพื่อเพิ่มการหลบหลีก",translated_pending_qa,97,91,97,31,no,,0,,no
+MOVE_RECOVER,RECOVER,"Recovers up to half the
+user's maximum HP.","ฟื้นฟู HP ได้ถึง
+ครึ่งหนึ่งของ HP สูงสุด",proof_passed,63,92,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_HARDEN,HARDEN,"Stiffens the body's
+muscles to raise DEFENSE.","ทำให้กล้ามเนื้อแข็งขึ้น
+เพื่อเพิ่มพลังป้องกัน",translated_pending_qa,98,86,98,30,no,,0,,no
+MOVE_MINIMIZE,MINIMIZE,"Minimizes the user's size
+to raise evasiveness.","ย่อขนาดร่างกาย
+เพื่อเพิ่มการหลบหลีก",translated_pending_qa,66,91,91,37,no,,0,,no
+MOVE_SMOKESCREEN,SMOKESCREEN,"Lowers the foe's accuracy
+using smoke, ink, etc.","ใช้ควันหรือหมึก
+ลดความแม่นยำคู่ต่อสู้",translated_pending_qa,72,94,94,34,no,,0,,no
+MOVE_CONFUSE_RAY,CONFUSE RAY,"A sinister ray that
+confuses the foe.","ปล่อยลำแสงชั่วร้าย
+ทำให้คู่ต่อสู้สับสน",translated_pending_qa,79,77,79,49,no,,1,status_or_ko_text,no
+MOVE_WITHDRAW,WITHDRAW,"Withdraws the body into its
+hard shell to raise DEFENSE.","หดตัวเข้าในเปลือกแข็ง
+เพื่อเพิ่มพลังป้องกัน",translated_pending_qa,101,86,101,27,no,,0,,no
+MOVE_DEFENSE_CURL,DEFENSE CURL,"Curls up to conceal weak
+spots and raise DEFENSE.","ม้วนตัวปิดจุดอ่อน
+เพื่อเพิ่มพลังป้องกัน",translated_pending_qa,81,86,86,42,no,,0,,no
+MOVE_BARRIER,BARRIER,"Creates a barrier that
+sharply raises DEFENSE.","สร้างกำแพงพลัง
+เพิ่มพลังป้องกันอย่างมาก",translated_pending_qa,66,105,105,23,no,,1,sharp_stat_change,no
+MOVE_LIGHT_SCREEN,LIGHT SCREEN,"Creates a wall of light that
+lowers SP. ATK damage.","ลดความเสียหายจาก
+พลังโจมตีพิเศษ",translated_pending_qa,86,70,86,42,no,,0,,no
+MOVE_HAZE,HAZE,"Creates a black haze that
+eliminates all stat changes.","สร้างหมอกดำ
+ล้างการเปลี่ยนค่าสถานะ",translated_pending_qa,56,100,100,28,no,,0,,no
+MOVE_REFLECT,REFLECT,"Creates a wall of light that
+weakens physical attacks.","ลดความเสียหายจาก
+การโจมตีกายภาพ",translated_pending_qa,86,75,86,42,no,,0,,no
+MOVE_FOCUS_ENERGY,FOCUS ENERGY,"Focuses power to raise the
+critical-hit ratio.","รวบรวมพลังเพื่อเพิ่ม
+โอกาสโจมตีคริติคอล",proof_passed,91,91,91,37,no,,0,,no
+MOVE_BIDE,BIDE,"Endures attack for 2
+turns to retaliate double.","อดทนรับการโจมตี 2 เทิร์น
+แล้วโต้กลับด้วยพลังสองเท่า",translated_pending_qa,115,118,118,10,yes,,6,wide_line;mixed_latin_or_number;numeric,yes
+MOVE_METRONOME,METRONOME,"Waggles a finger to use any
+POKéMON move at random.","กระดิกนิ้วสุ่มใช้
+ท่าของโปเกมอนหนึ่งท่า",translated_pending_qa,68,100,100,28,no,,0,,no
+MOVE_MIRROR_MOVE,MIRROR MOVE,"Counters the foe's attack
+with the same move.","ใช้ท่าเดียวกับ
+ที่คู่ต่อสู้เพิ่งใช้",translated_pending_qa,59,61,61,67,no,,0,,no
+MOVE_SELF_DESTRUCT,SELFDESTRUCT,"Inflicts severe damage but
+makes the user faint.","สร้างความเสียหายรุนแรง
+แต่ผู้ใช้ท่าหมดสภาพ",translated_pending_qa,105,89,105,23,no,,1,status_or_ko_text,no
+MOVE_EGG_BOMB,EGG BOMB,"An egg is forcibly hurled at
+the foe.","ขว้างไข่อย่างรุนแรง
+ใส่คู่ต่อสู้",translated_pending_qa,81,38,81,47,no,,0,,no
+MOVE_LICK,LICK,"Licks with a long tongue to
+injure. May also paralyze.","เลียด้วยลิ้นยาว
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,66,98,98,30,no,,1,status_or_ko_text,no
+MOVE_SMOG,SMOG,"An exhaust-gas attack
+that may also poison.","โจมตีด้วยก๊าซเสีย
+อาจทำให้คู่ต่อสู้ติดพิษ",translated_pending_qa,77,96,96,32,no,,1,status_or_ko_text,no
+MOVE_SLUDGE,SLUDGE,"Sludge is hurled to inflict
+damage. May also poison.","ขว้างโคลนพิษโจมตี
+อาจทำให้คู่ต่อสู้ติดพิษ",translated_pending_qa,87,96,96,32,no,,1,status_or_ko_text,no
+MOVE_BONE_CLUB,BONE CLUB,"Clubs the foe with a bone.
+May cause flinching.","ฟาดคู่ต่อสู้ด้วยกระดูก
+อาจทำให้ชะงัก",translated_pending_qa,93,62,93,35,no,,1,status_or_ko_text,no
+MOVE_FIRE_BLAST,FIRE BLAST,"Incinerates everything it
+strikes. May cause a burn.","เผาทุกสิ่งที่ถูกโจมตี
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,81,86,86,42,no,,1,status_or_ko_text,no
+MOVE_WATERFALL,WATERFALL,"Charges the foe with speed
+to climb waterfalls.","พุ่งชนคู่ต่อสู้ด้วย
+ความเร็วที่ไต่ขึ้นน้ำตกได้",translated_pending_qa,71,113,113,15,no,,0,,no
+MOVE_CLAMP,CLAMP,"Traps and squeezes the
+foe for 2 to 5 turns.","หนีบและบีบคู่ต่อสู้
+นาน 2 ถึง 5 เทิร์น",translated_pending_qa,80,76,80,48,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_SWIFT,SWIFT,"Sprays star-shaped rays
+that never miss.","ยิงลำแสงรูปดาว
+ที่ไม่พลาดเป้า",translated_pending_qa,66,60,66,62,no,,0,,no
+MOVE_SKULL_BASH,SKULL BASH,"Tucks in the head, then
+attacks on the next turn.","หดหัวตั้งท่า
+แล้วโจมตีในเทิร์นถัดไป",translated_pending_qa,50,108,108,20,no,,0,,no
+MOVE_SPIKE_CANNON,SPIKE CANNON,"Launches sharp spikes that
+strike 2 to 5 times.","ยิงหนามแหลมต่อเนื่อง
+2 ถึง 5 ครั้ง",translated_pending_qa,98,47,98,30,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_CONSTRICT,CONSTRICT,"Constricts to inflict pain.
+May lower SPEED.","รัดแน่นให้เจ็บปวด
+อาจลดความเร็ว",translated_pending_qa,85,69,85,43,no,,0,,no
+MOVE_AMNESIA,AMNESIA,"Forgets about something
+and sharply raises SP. DEF.","ลืมบางสิ่งเพื่อเพิ่ม
+พลังป้องกันพิเศษอย่างมาก",translated_pending_qa,75,113,113,15,no,,1,sharp_stat_change,no
+MOVE_KINESIS,KINESIS,"Distracts the foe.
+May lower accuracy.","รบกวนสมาธิคู่ต่อสู้
+อาจลดความแม่นยำ",translated_pending_qa,81,84,84,44,no,,0,,no
+MOVE_SOFT_BOILED,SOFTBOILED,"Recovers up to half the
+user's maximum HP.","ฟื้นฟู HP ได้ถึง
+ครึ่งหนึ่งของ HP สูงสุด",translated_pending_qa,63,92,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_HI_JUMP_KICK,HI JUMP KICK,"A jumping knee kick. If it
+misses, the user is hurt.","กระโดดเข่าโจมตี
+พลาดแล้วผู้ใช้ท่าบาดเจ็บ",translated_pending_qa,74,108,108,20,no,,0,,no
+MOVE_GLARE,GLARE,"Intimidates and frightens
+the foe into paralysis.","ข่มขู่ด้วยสายตาน่ากลัว
+ทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,95,82,95,33,no,,1,status_or_ko_text,no
+MOVE_DREAM_EATER,DREAM EATER,"Takes one half the damage
+inflicted on a sleeping foe.","ดูด HP ครึ่งความเสียหาย
+จากคู่ต่อสู้ที่หลับ",translated_pending_qa,105,69,105,23,yes,HP,2,mixed_latin_or_number,no
+MOVE_POISON_GAS,POISON GAS,"Envelops the foe in a toxic
+gas that may poison.","คลุมคู่ต่อสู้ด้วยก๊าซพิษ
+อาจทำให้ติดพิษ",translated_pending_qa,98,70,98,30,no,,1,status_or_ko_text,no
+MOVE_BARRAGE,BARRAGE,"Hurls round objects at the
+foe 2 to 5 times.","ขว้างวัตถุทรงกลม
+ใส่คู่ต่อสู้ 2 ถึง 5 ครั้ง",translated_pending_qa,74,88,88,40,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_LEECH_LIFE,LEECH LIFE,"An attack that steals half
+the damage inflicted.","ดูด HP เท่ากับครึ่งหนึ่ง
+ของความเสียหายที่ทำได้",translated_pending_qa,95,104,104,24,yes,HP,2,mixed_latin_or_number,no
+MOVE_LOVELY_KISS,LOVELY KISS,"Demands a kiss with a scary
+face that induces sleep.","จูบด้วยใบหน้าน่ากลัว
+ทำให้คู่ต่อสู้หลับ",translated_pending_qa,94,70,94,34,no,,0,,no
+MOVE_SKY_ATTACK,SKY ATTACK,"Searches out weak spots,
+then strikes the next turn.","เล็งหาจุดอ่อนก่อน
+โจมตีในเทิร์นถัดไป",translated_pending_qa,78,89,89,39,no,,0,,no
+MOVE_TRANSFORM,TRANSFORM,"Alters the user's cells to
+become a copy of the foe.","เปลี่ยนเซลล์ของผู้ใช้ท่า
+ให้เป็นร่างคู่ต่อสู้",translated_pending_qa,99,71,99,29,no,,0,,no
+MOVE_BUBBLE,BUBBLE,"An attack using bubbles.
+May lower the foe's SPEED.","โจมตีด้วยฟองน้ำ
+อาจลดความเร็วคู่ต่อสู้",translated_pending_qa,73,95,95,33,no,,0,,no
+MOVE_DIZZY_PUNCH,DIZZY PUNCH,"A rhythmic punch that may
+confuse the foe.","ชกเป็นจังหวะ
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,59,93,93,35,no,,1,status_or_ko_text,no
+MOVE_SPORE,SPORE,"Scatters a cloud of spores
+that always induce sleep.","โปรยกลุ่มสปอร์
+ทำให้คู่ต่อสู้หลับเสมอ",translated_pending_qa,66,93,93,35,no,,0,,no
+MOVE_FLASH,FLASH,"Looses a powerful blast of
+light that cuts accuracy.","ปล่อยแสงสว่างจ้า
+เพื่อลดความแม่นยำ",translated_pending_qa,72,86,86,42,no,,0,,no
+MOVE_PSYWAVE,PSYWAVE,"Attacks with a psychic
+wave of varying intensity.","โจมตีด้วยคลื่นพลังจิต
+ที่มีความรุนแรงแปรผัน",translated_pending_qa,96,100,100,28,no,,0,,no
+MOVE_SPLASH,SPLASH,"It's just a splash...
+Has no effect whatsoever.","แค่กระโดดเล่นเท่านั้น
+ไม่มีผลใดๆ",translated_pending_qa,98,51,98,30,no,,0,,no
+MOVE_ACID_ARMOR,ACID ARMOR,"Liquifies the user's body
+to sharply raise DEFENSE.","ทำให้ร่างกายเป็นของเหลว
+เพิ่มพลังป้องกันอย่างมาก",translated_pending_qa,111,105,111,17,no,,1,sharp_stat_change,no
+MOVE_CRABHAMMER,CRABHAMMER,"Hammers with a pincer. Has a
+high critical-hit ratio.","ฟาดด้วยก้ามทรงพลัง
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,89,101,101,27,no,,0,,no
+MOVE_EXPLOSION,EXPLOSION,"Inflicts severe damage but
+makes the user faint.","สร้างความเสียหายรุนแรง
+แต่ผู้ใช้ท่าหมดสภาพ",translated_pending_qa,105,89,105,23,no,,1,status_or_ko_text,no
+MOVE_FURY_SWIPES,FURY SWIPES,"Rakes the foe with sharp
+claws, etc., 2 to 5 times.","ตะกุยด้วยกรงเล็บคม
+2 ถึง 5 ครั้ง",translated_pending_qa,89,47,89,39,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_BONEMERANG,BONEMERANG,"Throws a bone boomerang
+that strikes twice.","ขว้างกระดูกแบบบูมเมอแรง
+โจมตีสองครั้ง",translated_pending_qa,117,59,117,11,no,,3,wide_line,yes
+MOVE_REST,REST,"The user sleeps for 2 turns,
+restoring HP and status.","หลับ 2 เทิร์นเพื่อฟื้นฟู HP
+และรักษาสถานะผิดปกติ",translated_pending_qa,110,103,110,18,yes,HP,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_ROCK_SLIDE,ROCK SLIDE,"Large boulders are hurled.
+May cause flinching.","ขว้างก้อนหินขนาดใหญ่
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,101,88,101,27,no,,1,status_or_ko_text,no
+MOVE_HYPER_FANG,HYPER FANG,"Attacks with sharp fangs.
+May cause flinching.","โจมตีด้วยเขี้ยวแหลมคม
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,109,88,109,19,no,,1,status_or_ko_text,no
+MOVE_SHARPEN,SHARPEN,"Reduces the polygon count
+and raises ATTACK.","ลดจำนวนเหลี่ยมของร่างกาย
+เพื่อเพิ่มพลังโจมตี",translated_pending_qa,120,80,120,8,no,,6,near_128px,yes
+MOVE_CONVERSION,CONVERSION,"Changes the user's type
+into a known move's type.","เปลี่ยนประเภทผู้ใช้ท่า
+เป็นประเภทของท่าที่รู้",translated_pending_qa,95,93,95,33,no,,0,,no
+MOVE_TRI_ATTACK,TRI ATTACK,"Fires three types of beams
+at the same time.","ยิงลำแสงสามชนิด
+พร้อมกัน",translated_pending_qa,75,40,75,53,no,,0,,no
+MOVE_SUPER_FANG,SUPER FANG,"Attacks with sharp fangs
+and cuts half the foe's HP.","กัดด้วยเขี้ยวแหลมคม
+ลด HP คู่ต่อสู้ครึ่งหนึ่ง",translated_pending_qa,97,92,97,31,yes,HP,2,mixed_latin_or_number,no
+MOVE_SLASH,SLASH,"Slashes with claws, etc. Has
+a high critical-hit ratio.","ฟันด้วยกรงเล็บคม
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,81,101,101,27,no,,0,,no
+MOVE_SUBSTITUTE,SUBSTITUTE,"Creates a decoy using 1/4
+of the user's maximum HP.","ใช้ HP สูงสุด 1/4
+สร้างร่างตัวแทน",translated_pending_qa,70,67,70,58,yes,HP,3,mixed_latin_or_number;numeric,no
+MOVE_STRUGGLE,STRUGGLE,"Used only if all PP are gone.
+Also hurts the user a little.","ใช้เมื่อ PP ทุกท่าหมด
+ผู้ใช้ท่าบาดเจ็บเล็กน้อย",translated_pending_qa,90,100,100,28,yes,PP,2,mixed_latin_or_number,no
+MOVE_SKETCH,SKETCH,"Copies the foe's last move
+permanently.","คัดลอกท่าล่าสุด
+ของคู่ต่อสู้อย่างถาวร",translated_pending_qa,66,83,83,45,no,,0,,no
+MOVE_TRIPLE_KICK,TRIPLE KICK,"Kicks the foe 3 times in a
+row with rising intensity.","เตะต่อเนื่อง 3 ครั้ง
+และแรงขึ้นทุกครั้ง",translated_pending_qa,80,81,81,47,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_THIEF,THIEF,"While attacking, it may
+steal the foe's held item.","โจมตีพร้อมโอกาสขโมย
+ไอเทมที่คู่ต่อสู้ถืออยู่",translated_pending_qa,102,87,102,26,no,,0,,no
+MOVE_SPIDER_WEB,SPIDER WEB,"Ensnares the foe to stop it
+from fleeing or switching.","ดักคู่ต่อสู้ด้วยใย
+ไม่ให้หนีหรือสลับตัว",translated_pending_qa,70,92,92,36,no,,0,,no
+MOVE_MIND_READER,MIND READER,"Senses the foe's action to
+ensure the next move's hit.","อ่านการเคลื่อนไหวคู่ต่อสู้
+ให้ท่าถัดไปโดนแน่นอน",translated_pending_qa,109,107,109,19,no,,0,,no
+MOVE_NIGHTMARE,NIGHTMARE,"Inflicts 1/4 damage on a
+sleeping foe every turn.","สร้างความเสียหาย 1/4
+ทุกเทิร์นแก่คู่ต่อสู้ที่หลับ",translated_pending_qa,95,103,103,25,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_FLAME_WHEEL,FLAME WHEEL,"A fiery charge attack that
+may inflict a burn.","พุ่งโจมตีด้วยวงล้อไฟ
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,92,86,92,36,no,,1,status_or_ko_text,no
+MOVE_SNORE,SNORE,"A loud attack that can be
+used only while asleep.","โจมตีด้วยเสียงดัง
+ใช้ได้เฉพาะตอนหลับ",translated_pending_qa,75,95,95,33,no,,0,,no
+MOVE_CURSE,CURSE,"A move that functions
+differently for GHOSTS.","ทำงานต่างกันเมื่อผู้ใช้ท่า
+เป็นโปเกมอนประเภท GHOST",translated_pending_qa,102,125,125,3,yes,,8,near_128px;mixed_latin_or_number,yes
+MOVE_FLAIL,FLAIL,"Inflicts more damage when
+the user's HP is down.","สร้างความเสียหายมากขึ้น
+เมื่อ HP ผู้ใช้ท่าลดลง",translated_pending_qa,109,85,109,19,yes,HP,2,mixed_latin_or_number,no
+MOVE_CONVERSION_2,CONVERSION 2,"Makes the user resistant
+to the last attack's type.","ทำให้ผู้ใช้ท่าทนต่อ
+ประเภทของท่าล่าสุด",translated_pending_qa,81,85,85,43,no,,0,,no
+MOVE_AEROBLAST,AEROBLAST,"Launches a vacuumed blast.
+High critical-hit ratio.","ปล่อยคลื่นสุญญากาศ
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,89,101,101,27,no,,0,,no
+MOVE_COTTON_SPORE,COTTON SPORE,"Spores cling to the foe,
+sharply reducing SPEED.","สปอร์เกาะติดคู่ต่อสู้
+ลดความเร็วอย่างมาก",translated_pending_qa,83,90,90,38,no,,1,sharp_stat_change,no
+MOVE_REVERSAL,REVERSAL,"Inflicts more damage when
+the user's HP is down.","สร้างความเสียหายมากขึ้น
+เมื่อ HP ผู้ใช้ท่าลดลง",translated_pending_qa,109,85,109,19,yes,HP,2,mixed_latin_or_number,no
+MOVE_SPITE,SPITE,"Spitefully cuts the PP
+of the foe's last move.","ใช้ความอาฆาตลด PP
+ท่าล่าสุดของคู่ต่อสู้",translated_pending_qa,91,76,91,37,yes,PP,2,mixed_latin_or_number,no
+MOVE_POWDER_SNOW,POWDER SNOW,"Blasts the foe with a snowy
+gust. May cause freezing.","พัดหิมะใส่คู่ต่อสู้
+อาจแช่แข็งคู่ต่อสู้",translated_pending_qa,72,72,72,56,no,,1,status_or_ko_text,no
+MOVE_PROTECT,PROTECT,"Evades attack, but may fail
+if used in succession.","ป้องกันการโจมตี
+ใช้ต่อเนื่องอาจล้มเหลว",translated_pending_qa,71,99,99,29,no,,0,,no
+MOVE_MACH_PUNCH,MACH PUNCH,"A punch is thrown at wicked
+speed to strike first.","ชกด้วยความเร็วสูง
+เพื่อโจมตีก่อน",translated_pending_qa,81,63,81,47,no,,0,,no
+MOVE_SCARY_FACE,SCARY FACE,"Frightens with a scary face
+to sharply reduce SPEED.","ข่มขู่ด้วยใบหน้าน่ากลัว
+ลดความเร็วอย่างมาก",translated_pending_qa,100,90,100,28,no,,1,sharp_stat_change,no
+MOVE_FAINT_ATTACK,FAINT ATTACK,"Draws the foe close, then
+strikes without fail.","ล่อคู่ต่อสู้เข้ามา
+แล้วโจมตีแบบไม่พลาด",translated_pending_qa,63,103,103,25,no,,0,,no
+MOVE_SWEET_KISS,SWEET KISS,"Demands a kiss with a cute
+look. May cause confusion.","จูบด้วยท่าทางน่ารัก
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,81,93,93,35,no,,1,status_or_ko_text,no
+MOVE_BELLY_DRUM,BELLY DRUM,"Maximizes ATTACK while
+sacrificing HP.","สละ HP เพื่อเพิ่ม
+พลังโจมตีจนสูงสุด",translated_pending_qa,70,80,80,48,yes,HP,2,mixed_latin_or_number,no
+MOVE_SLUDGE_BOMB,SLUDGE BOMB,"Sludge is hurled to inflict
+damage. May also poison.","ขว้างก้อนโคลนพิษ
+อาจทำให้คู่ต่อสู้ติดพิษ",translated_pending_qa,82,96,96,32,no,,1,status_or_ko_text,no
+MOVE_MUD_SLAP,MUD-SLAP,"Hurls mud in the foe's face
+to reduce its accuracy.","สาดโคลนใส่หน้า
+เพื่อลดความแม่นยำ",translated_pending_qa,74,86,86,42,no,,0,,no
+MOVE_OCTAZOOKA,OCTAZOOKA,"Fires a lump of ink to
+damage and cut accuracy.","ยิงก้อนหมึกโจมตี
+และอาจลดความแม่นยำ",translated_pending_qa,75,102,102,26,no,,0,,no
+MOVE_SPIKES,SPIKES,"Sets spikes that hurt a
+foe switching in.","วางหนามทำร้าย
+คู่ต่อสู้ที่สลับเข้ามา",translated_pending_qa,66,77,77,51,no,,0,,no
+MOVE_ZAP_CANNON,ZAP CANNON,"Powerful and sure to cause
+paralysis, but inaccurate.","พลังสูงและทำให้อัมพาต
+แน่นอนแต่แม่นยำต่ำ",translated_pending_qa,102,93,102,26,no,,1,status_or_ko_text,no
+MOVE_FORESIGHT,FORESIGHT,"Negates the foe's efforts
+to heighten evasiveness.","ลบผลการเพิ่ม
+การหลบหลีกของคู่ต่อสู้",translated_pending_qa,59,96,96,32,no,,0,,no
+MOVE_DESTINY_BOND,DESTINY BOND,"If the user faints, the foe
+is also made to faint.","หากผู้ใช้ท่าหมดสภาพ
+คู่ต่อสู้ก็หมดสภาพด้วย",translated_pending_qa,92,97,97,31,no,,1,status_or_ko_text,no
+MOVE_PERISH_SONG,PERISH SONG,"Any POKéMON hearing this
+song faints in 3 turns.","โปเกมอนที่ได้ยินเพลงนี้
+หมดสภาพใน 3 เทิร์น",translated_pending_qa,107,95,107,21,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_ICY_WIND,ICY WIND,"A chilling attack that
+lowers the foe's SPEED.","โจมตีด้วยลมหนาว
+ลดความเร็วคู่ต่อสู้",translated_pending_qa,82,79,82,46,no,,0,,no
+MOVE_DETECT,DETECT,"Evades attack, but may fail
+if used in succession.","ป้องกันการโจมตี
+ใช้ต่อเนื่องอาจล้มเหลว",translated_pending_qa,71,99,99,29,no,,0,,no
+MOVE_BONE_RUSH,BONE RUSH,"Strikes the foe with a bone
+in hand 2 to 5 times.","ใช้กระดูกโจมตี
+คู่ต่อสู้ 2 ถึง 5 ครั้ง",translated_pending_qa,66,76,76,52,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_LOCK_ON,LOCK-ON,"Locks on to the foe to
+ensure the next move hits.","ล็อกเป้าคู่ต่อสู้
+ให้ท่าถัดไปโดนแน่นอน",translated_pending_qa,59,107,107,21,no,,0,,no
+MOVE_OUTRAGE,OUTRAGE,"A rampage of 2 to 3 turns
+that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_SANDSTORM,SANDSTORM,"Causes a sandstorm that
+rages for several turns.","ทำให้เกิดพายุทราย
+ต่อเนื่องหลายเทิร์น",translated_pending_qa,81,82,82,46,no,,0,,no
+MOVE_GIGA_DRAIN,GIGA DRAIN,"An attack that steals half
+the damage inflicted.","ดูด HP เท่ากับครึ่งหนึ่ง
+ของความเสียหายที่ทำได้",translated_pending_qa,95,104,104,24,yes,HP,2,mixed_latin_or_number,no
+MOVE_ENDURE,ENDURE,"Endures any attack for
+1 turn, leaving at least 1HP.","ทนทุกการโจมตี 1 เทิร์น
+เหลือ HP อย่างน้อย 1",translated_pending_qa,103,87,103,25,yes,HP,3,mixed_latin_or_number;numeric,yes
+MOVE_CHARM,CHARM,"Charms the foe and sharply
+reduces its ATTACK.","ใช้เสน่ห์ดึงดูด
+ลดพลังโจมตีอย่างมาก",translated_pending_qa,62,93,93,35,no,,1,sharp_stat_change,no
+MOVE_ROLLOUT,ROLLOUT,"An attack lasting 5 turns
+with rising intensity.","โจมตีต่อเนื่อง 5 เทิร์น
+และแรงขึ้นทุกครั้ง",translated_pending_qa,95,81,95,33,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_FALSE_SWIPE,FALSE SWIPE,"An attack that leaves the
+foe with at least 1 HP.","โจมตีโดยเหลือ HP
+คู่ต่อสู้อย่างน้อย 1",translated_pending_qa,79,74,79,49,yes,HP,3,mixed_latin_or_number;numeric,no
+MOVE_SWAGGER,SWAGGER,"Confuses the foe, but also
+sharply raises ATTACK.","ทำให้คู่ต่อสู้สับสน
+แต่เพิ่มพลังโจมตีอย่างมาก",translated_pending_qa,77,113,113,15,no,,2,sharp_stat_change;status_or_ko_text,no
+MOVE_MILK_DRINK,MILK DRINK,"Recovers up to half the
+user's maximum HP.","ฟื้นฟู HP ได้ถึง
+ครึ่งหนึ่งของ HP สูงสุด",translated_pending_qa,63,92,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_SPARK,SPARK,"An electrified tackle that
+may paralyze the foe.","พุ่งชนด้วยกระแสไฟฟ้า
+อาจทำให้คู่ต่อสู้อัมพาต",translated_pending_qa,100,98,100,28,no,,1,status_or_ko_text,no
+MOVE_FURY_CUTTER,FURY CUTTER,"An attack that intensifies
+on each successive hit.","โจมตีแรงขึ้น
+ทุกครั้งที่ใช้ต่อเนื่อง",translated_pending_qa,57,85,85,43,no,,0,,no
+MOVE_STEEL_WING,STEEL WING,"Strikes the foe with hard
+wings spread wide.","โจมตีด้วยปีกแข็ง
+ที่กางออกกว้าง",translated_pending_qa,74,59,74,54,no,,0,,no
+MOVE_MEAN_LOOK,MEAN LOOK,"Fixes the foe with a mean
+look that prevents escape.","จ้องด้วยสายตาน่ากลัว
+เพื่อป้องกันการหลบหนี",translated_pending_qa,92,99,99,29,no,,0,,no
+MOVE_ATTRACT,ATTRACT,"Makes the opposite gender
+less likely to attack.","ทำให้เพศตรงข้าม
+มีโอกาสโจมตีน้อยลง",translated_pending_qa,76,89,89,39,no,,0,,no
+MOVE_SLEEP_TALK,SLEEP TALK,"Uses an available move
+randomly while asleep.","สุ่มใช้ท่าที่มีอยู่
+ขณะกำลังหลับ",translated_pending_qa,62,61,62,66,no,,0,,no
+MOVE_HEAL_BELL,HEAL BELL,"Chimes soothingly to heal
+all status abnormalities.","เสียงกระดิ่งผ่อนคลาย
+รักษาสถานะผิดปกติทั้งหมด",translated_pending_qa,90,118,118,10,no,,4,wide_line;status_or_ko_text,yes
+MOVE_RETURN,RETURN,"An attack that increases
+in power with friendship.","พลังเพิ่มตามความสนิท
+ของผู้ใช้ท่ากับเทรนเนอร์",translated_pending_qa,100,105,105,23,no,,0,,no
+MOVE_PRESENT,PRESENT,"A gift in the form of a
+bomb. May restore HP.","มอบของขวัญเป็นระเบิด
+แต่อาจฟื้นฟู HP",translated_pending_qa,103,67,103,25,yes,HP,2,mixed_latin_or_number,no
+MOVE_FRUSTRATION,FRUSTRATION,"An attack that is stronger
+if the TRAINER is disliked.","พลังยิ่งสูงเมื่อผู้ใช้ท่า
+ไม่ชอบเทรนเนอร์",translated_pending_qa,84,79,84,44,no,,0,,no
+MOVE_SAFEGUARD,SAFEGUARD,"A mystical force prevents
+all status problems.","พลังลึกลับช่วยป้องกัน
+สถานะผิดปกติทั้งหมด",proof_passed,92,95,95,33,no,,1,status_or_ko_text,no
+MOVE_PAIN_SPLIT,PAIN SPLIT,"Adds the user and foe's HP,
+then shares them equally.","รวม HP ของทั้งสองฝ่าย
+แล้วแบ่งให้เท่ากัน",translated_pending_qa,94,79,94,34,yes,HP,2,mixed_latin_or_number,no
+MOVE_SACRED_FIRE,SACRED FIRE,"A mystical fire attack that
+may inflict a burn.","โจมตีด้วยเพลิงลึกลับ
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,91,86,91,37,no,,1,status_or_ko_text,no
+MOVE_MAGNITUDE,MAGNITUDE,"A ground-shaking attack
+of random intensity.","เขย่าพื้นดินโจมตี
+ด้วยความรุนแรงแบบสุ่ม",translated_pending_qa,77,106,106,22,no,,0,,no
+MOVE_DYNAMIC_PUNCH,DYNAMICPUNCH,"Powerful and sure to cause
+confusion, but inaccurate.","พลังสูงและทำให้สับสน
+แน่นอนแต่แม่นยำต่ำ",translated_pending_qa,97,93,97,31,no,,1,status_or_ko_text,no
+MOVE_MEGAHORN,MEGAHORN,"A brutal ramming attack
+using out-thrust horns.","พุ่งชนอย่างรุนแรง
+ด้วยเขาที่ชี้ไปข้างหน้า",translated_pending_qa,75,94,94,34,no,,0,,no
+MOVE_DRAGON_BREATH,DRAGONBREATH,"Strikes the foe with an
+incredible blast of breath.","พ่นลมหายใจรุนแรง
+เข้าใส่คู่ต่อสู้",translated_pending_qa,87,52,87,41,no,,0,,no
+MOVE_BATON_PASS,BATON PASS,"Switches out the user while
+keeping effects in play.","สลับผู้ใช้ท่าออก
+โดยคงผลต่างๆ ไว้",translated_pending_qa,66,77,77,51,no,,0,,no
+MOVE_ENCORE,ENCORE,"Makes the foe repeat its
+last move over 2 to 6 turns.","บังคับให้คู่ต่อสู้ใช้
+ท่าล่าสุดซ้ำ 2 ถึง 6 เทิร์น",translated_pending_qa,78,101,101,27,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_PURSUIT,PURSUIT,"Inflicts bad damage if used
+on a foe switching out.","สร้างความเสียหายหนัก
+หากคู่ต่อสู้กำลังสลับตัว",translated_pending_qa,98,95,98,30,no,,0,,no
+MOVE_RAPID_SPIN,RAPID SPIN,"Spins the body at high
+speed to strike the foe.","หมุนร่างด้วยความเร็วสูง
+เพื่อโจมตีคู่ต่อสู้",translated_pending_qa,104,69,104,24,no,,0,,no
+MOVE_SWEET_SCENT,SWEET SCENT,"Allures the foe to reduce
+evasiveness.","ใช้กลิ่นหอมล่อ
+เพื่อลดการหลบหลีก",translated_pending_qa,64,85,85,43,no,,0,,no
+MOVE_IRON_TAIL,IRON TAIL,"Attacks with a rock-hard
+tail. May lower DEFENSE.","โจมตีด้วยหางแข็งดุจหิน
+อาจลดพลังป้องกัน",translated_pending_qa,104,78,104,24,no,,0,,no
+MOVE_METAL_CLAW,METAL CLAW,"A claw attack that may
+raise the user's ATTACK.","โจมตีด้วยกรงเล็บโลหะ
+อาจเพิ่มพลังโจมตี",translated_pending_qa,99,78,99,29,no,,0,,no
+MOVE_VITAL_THROW,VITAL THROW,"Makes the user's move last,
+but it never misses.","ลงมือทีหลังเสมอ
+แต่ท่านี้ไม่พลาด",translated_pending_qa,70,71,71,57,no,,0,,no
+MOVE_MORNING_SUN,MORNING SUN,"Restores HP. The amount
+varies with the weather.","ฟื้นฟู HP ตามปริมาณ
+ที่ขึ้นกับสภาพอากาศ",translated_pending_qa,92,88,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_SYNTHESIS,SYNTHESIS,"Restores HP. The amount
+varies with the weather.","ฟื้นฟู HP ตามปริมาณ
+ที่ขึ้นกับสภาพอากาศ",translated_pending_qa,92,88,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_MOONLIGHT,MOONLIGHT,"Restores HP. The amount
+varies with the weather.","ฟื้นฟู HP ตามปริมาณ
+ที่ขึ้นกับสภาพอากาศ",translated_pending_qa,92,88,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_HIDDEN_POWER,HIDDEN POWER,"The effectiveness varies
+with the user.","ประสิทธิภาพเปลี่ยนไป
+ตามผู้ใช้ท่า",translated_pending_qa,99,47,99,29,no,,0,,no
+MOVE_CROSS_CHOP,CROSS CHOP,"A double-chopping attack.
+High critical-hit ratio.","สับโจมตีด้วยมือทั้งสอง
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,98,101,101,27,no,,0,,no
+MOVE_TWISTER,TWISTER,"Whips up a vicious twister
+to tear at the foe.","สร้างพายุหมุนรุนแรง
+ฉีกกระชากคู่ต่อสู้",translated_pending_qa,88,72,88,40,no,,0,,no
+MOVE_RAIN_DANCE,RAIN DANCE,"Boosts the power of WATER-
+type moves for 5 turns.","เพิ่มพลังท่าประเภท WATER
+นาน 5 เทิร์น",translated_pending_qa,111,55,111,17,yes,,3,mixed_latin_or_number;numeric,yes
+MOVE_SUNNY_DAY,SUNNY DAY,"Boosts the power of FIRE-
+type moves for 5 turns.","เพิ่มพลังท่าประเภท FIRE
+นาน 5 เทิร์น",translated_pending_qa,105,55,105,23,yes,,3,mixed_latin_or_number;numeric,yes
+MOVE_CRUNCH,CRUNCH,"Crunches with sharp fangs.
+May lower SP. DEF.","กัดด้วยเขี้ยวแหลมคม
+อาจลดพลังป้องกันพิเศษ",translated_pending_qa,97,105,105,23,no,,0,,no
+MOVE_MIRROR_COAT,MIRROR COAT,"Counters the foe's special
+attack at double the power.","โต้กลับท่าพิเศษ
+ด้วยพลังสองเท่า",translated_pending_qa,69,68,69,59,no,,0,,no
+MOVE_PSYCH_UP,PSYCH UP,"Copies the foe's effect(s)
+and gives to the user.","คัดลอกผลของคู่ต่อสู้
+มาใช้กับผู้ใช้ท่า",translated_pending_qa,86,65,86,42,no,,0,,no
+MOVE_EXTREME_SPEED,EXTREMESPEED,"An extremely fast and
+powerful attack.","โจมตีด้วยความเร็ว
+และพลังอันมหาศาล",translated_pending_qa,84,85,85,43,no,,0,,no
+MOVE_ANCIENT_POWER,ANCIENTPOWER,"An attack that may raise
+all stats.","โจมตีและอาจเพิ่ม
+ค่าสถานะทั้งหมด",translated_pending_qa,78,73,78,50,no,,0,,no
+MOVE_SHADOW_BALL,SHADOW BALL,"Hurls a black blob that may
+lower the foe's SP. DEF.","ขว้างก้อนพลังสีดำ
+อาจลดพลังป้องกันพิเศษ",translated_pending_qa,75,105,105,23,no,,0,,no
+MOVE_FUTURE_SIGHT,FUTURE SIGHT,"Heightens inner power to
+strike 2 turns later.","เพิ่มพลังภายใน
+เพื่อโจมตีอีก 2 เทิร์นต่อมา",translated_pending_qa,68,114,114,14,yes,,3,mixed_latin_or_number;numeric,yes
+MOVE_ROCK_SMASH,ROCK SMASH,"A rock-crushing attack
+that may lower DEFENSE.","โจมตีทำลายก้อนหิน
+อาจลดพลังป้องกัน",translated_pending_qa,87,78,87,41,no,,0,,no
+MOVE_WHIRLPOOL,WHIRLPOOL,"Traps and hurts the foe in
+a whirlpool for 2 to 5 turns.","ขังและทำร้ายในน้ำวน
+นาน 2 ถึง 5 เทิร์น",translated_pending_qa,93,76,93,35,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_BEAT_UP,BEAT UP,"Summons party POKéMON to
+join in the attack.","เรียกโปเกมอนในทีม
+มาร่วมโจมตี",translated_pending_qa,93,54,93,35,no,,0,,no
+MOVE_FAKE_OUT,FAKE OUT,"A 1st-turn, 1st-strike move
+that causes flinching.","โจมตีก่อนในเทิร์นที่ 1
+และทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,98,90,98,30,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+MOVE_UPROAR,UPROAR,"Causes an uproar for 2 to 5
+turns and prevents sleep.","ส่งเสียงเอะอะ 2 ถึง 5 เทิร์น
+และป้องกันการหลับ",translated_pending_qa,112,84,112,16,yes,,3,mixed_latin_or_number;numeric,yes
+MOVE_STOCKPILE,STOCKPILE,"Charges up power for up to
+3 turns.","สะสมพลังได้สูงสุด
+3 เทิร์น",translated_pending_qa,78,32,78,50,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_SPIT_UP,SPIT UP,"Releases stockpiled power
+(the more the better).","ปล่อยพลังที่สะสมไว้
+ยิ่งสะสมมากยิ่งแรง",translated_pending_qa,86,77,86,42,no,,0,,no
+MOVE_SWALLOW,SWALLOW,"Absorbs stockpiled power
+and restores HP.","ดูดซับพลังที่สะสม
+เพื่อฟื้นฟู HP",translated_pending_qa,77,55,77,51,yes,HP,2,mixed_latin_or_number,no
+MOVE_HEAT_WAVE,HEAT WAVE,"Exhales a hot breath on the
+foe. May inflict a burn.","พ่นลมหายใจร้อนจัด
+อาจทำให้คู่ต่อสู้ไหม้",translated_pending_qa,90,86,90,38,no,,1,status_or_ko_text,no
+MOVE_HAIL,HAIL,"Summons a hailstorm that
+strikes every turn.","เรียกลูกเห็บให้ตก
+โจมตีทุกเทิร์น",translated_pending_qa,78,62,78,50,no,,0,,no
+MOVE_TORMENT,TORMENT,"Torments the foe and stops
+successive use of a move.","ทรมานคู่ต่อสู้
+ไม่ให้ใช้ท่าเดิมต่อเนื่อง",translated_pending_qa,57,102,102,26,no,,0,,no
+MOVE_FLATTER,FLATTER,"Confuses the foe, but
+raises its SP. ATK.","ทำให้คู่ต่อสู้สับสน
+แต่เพิ่มพลังโจมตีพิเศษ",translated_pending_qa,77,103,103,25,no,,1,status_or_ko_text,no
+MOVE_WILL_O_WISP,WILL-O-WISP,"Inflicts a burn on the foe
+with intense fire.","ใช้เปลวไฟรุนแรง
+ทำให้คู่ต่อสู้ไหม้",translated_pending_qa,78,70,78,50,no,,1,status_or_ko_text,no
+MOVE_MEMENTO,MEMENTO,"The user faints and lowers
+the foe's abilities.","ผู้ใช้ท่าหมดสภาพ
+และลดค่าสถานะคู่ต่อสู้",translated_pending_qa,75,97,97,31,no,,1,status_or_ko_text,no
+MOVE_FACADE,FACADE,"Boosts ATTACK when burned,
+paralyzed, or poisoned.","เพิ่มพลังโจมตีเมื่อไหม้
+อัมพาตหรือติดพิษ",translated_pending_qa,99,81,99,29,no,,1,status_or_ko_text,no
+MOVE_FOCUS_PUNCH,FOCUS PUNCH,"A powerful loyalty attack.
+The user flinches if hit.","โจมตีด้วยพลังมหาศาล
+ผู้ใช้ท่าชะงักหากถูกโจมตี",translated_pending_qa,97,105,105,23,no,,1,status_or_ko_text,no
+MOVE_SMELLING_SALT,SMELLINGSALT,"Powerful against paralyzed
+foes, but also heals them.","รุนแรงต่อผู้ที่อัมพาต
+แต่รักษาอัมพาตให้ด้วย",translated_pending_qa,87,101,101,27,no,,1,status_or_ko_text,no
+MOVE_FOLLOW_ME,FOLLOW ME,"Draws attention to make
+foes attack only the user.","ดึงความสนใจให้คู่ต่อสู้
+โจมตีผู้ใช้ท่าเท่านั้น",translated_pending_qa,100,85,100,28,no,,0,,no
+MOVE_NATURE_POWER,NATURE POWER,"The type of attack varies
+depending on the location.","ประเภทการโจมตีเปลี่ยนไป
+ตามสถานที่",translated_pending_qa,119,49,119,9,no,,3,wide_line,yes
+MOVE_CHARGE,CHARGE,"Charges power to boost the
+electric move used next.","สะสมพลังเพื่อเพิ่ม
+พลังท่าไฟฟ้าถัดไป",translated_pending_qa,79,81,81,47,no,,0,,no
+MOVE_TAUNT,TAUNT,"Taunts the foe into only
+using attack moves.","ยั่วยุให้คู่ต่อสู้
+ใช้ได้เฉพาะท่าโจมตี",translated_pending_qa,57,90,90,38,no,,0,,no
+MOVE_HELPING_HAND,HELPING HAND,"Boosts the power of the
+recipient's moves.","เพิ่มพลังท่าของ
+โปเกมอนฝ่ายเดียวกัน",translated_pending_qa,64,96,96,32,no,,0,,no
+MOVE_TRICK,TRICK,"Tricks the foe into trading
+held items.","หลอกให้คู่ต่อสู้
+แลกไอเทมที่ถืออยู่",translated_pending_qa,64,80,80,48,no,,0,,no
+MOVE_ROLE_PLAY,ROLE PLAY,"Mimics the target and
+copies its special ability.","คัดลอกความสามารถพิเศษ
+ของเป้าหมาย",translated_pending_qa,115,55,115,13,no,,3,wide_line,yes
+MOVE_WISH,WISH,"A wish that restores HP.
+It takes time to work.","อธิษฐานเพื่อฟื้นฟู HP
+แต่ต้องรอให้เกิดผล",translated_pending_qa,92,84,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_ASSIST,ASSIST,"Attacks randomly with one
+of the partner's moves.","สุ่มใช้ท่าหนึ่ง
+ของโปเกมอนร่วมทีม",translated_pending_qa,55,91,91,37,no,,0,,no
+MOVE_INGRAIN,INGRAIN,"Lays roots that restore HP.
+The user can't switch out.","หยั่งรากเพื่อฟื้นฟู HP
+แต่ผู้ใช้ท่าสลับตัวไม่ได้",translated_pending_qa,87,101,101,27,yes,HP,2,mixed_latin_or_number,no
+MOVE_SUPERPOWER,SUPERPOWER,"Boosts strength sharply,
+but lowers abilities.","เพิ่มพละกำลังอย่างมาก
+แต่ลดค่าสถานะ",translated_pending_qa,95,67,95,33,no,,1,sharp_stat_change,no
+MOVE_MAGIC_COAT,MAGIC COAT,"Reflects special effects
+back to the attacker.","สะท้อนผลพิเศษ
+กลับไปยังผู้โจมตี",translated_pending_qa,71,73,73,55,no,,0,,no
+MOVE_RECYCLE,RECYCLE,"Recycles a used item for
+one more use.","นำไอเทมที่ใช้แล้ว
+กลับมาใช้ได้อีกครั้ง",translated_pending_qa,79,85,85,43,no,,0,,no
+MOVE_REVENGE,REVENGE,"An attack that gains power
+if injured by the foe.","พลังเพิ่มหากผู้ใช้ท่า
+ถูกคู่ต่อสู้ทำร้าย",translated_pending_qa,83,64,83,45,no,,0,,no
+MOVE_BRICK_BREAK,BRICK BREAK,"Destroys barriers such as
+REFLECT and causes damage.","ทำลายกำแพงเช่น REFLECT
+พร้อมสร้างความเสียหาย",translated_pending_qa,112,102,112,16,yes,,2,mixed_latin_or_number,no
+MOVE_YAWN,YAWN,"Lulls the foe into yawning,
+then sleeping next turn.","ทำให้คู่ต่อสู้หาว
+และหลับในเทิร์นถัดไป",translated_pending_qa,67,102,102,26,no,,0,,no
+MOVE_KNOCK_OFF,KNOCK OFF,"Knocks down the foe's held
+item to prevent its use.","ปัดไอเทมที่ถืออยู่ทิ้ง
+เพื่อป้องกันการใช้งาน",translated_pending_qa,87,92,92,36,no,,0,,no
+MOVE_ENDEAVOR,ENDEAVOR,"Gains power if the user's HP
+is lower than the foe's HP.","พลังเพิ่มเมื่อ HP ผู้ใช้ท่า
+ต่ำกว่า HP คู่ต่อสู้",translated_pending_qa,99,69,99,29,yes,HP,2,mixed_latin_or_number,no
+MOVE_ERUPTION,ERUPTION,"The higher the user's HP,
+the more damage caused.","HP ผู้ใช้ท่ายิ่งสูง
+ยิ่งสร้างความเสียหายมาก",translated_pending_qa,62,103,103,25,yes,HP,2,mixed_latin_or_number,no
+MOVE_SKILL_SWAP,SKILL SWAP,"The user swaps special
+abilities with the target.","แลกความสามารถพิเศษ
+กับเป้าหมาย",translated_pending_qa,102,52,102,26,no,,0,,no
+MOVE_IMPRISON,IMPRISON,"Prevents foes from using
+moves known by the user.","ป้องกันคู่ต่อสู้ใช้
+ท่าที่ผู้ใช้ท่ารู้",translated_pending_qa,69,52,69,59,no,,0,,no
+MOVE_REFRESH,REFRESH,"Heals poisoning, paralysis,
+or a burn.","รักษาพิษ อัมพาต
+หรืออาการไหม้",translated_pending_qa,74,64,74,54,no,,1,status_or_ko_text,no
+MOVE_GRUDGE,GRUDGE,"If the user faints, deletes
+all PP of foe's last move.","หากผู้ใช้ท่าหมดสภาพ
+PP ท่าล่าสุดคู่ต่อสู้จะหมด",translated_pending_qa,92,105,105,23,yes,PP,3,mixed_latin_or_number;status_or_ko_text,yes
+MOVE_SNATCH,SNATCH,"Steals the effects of the
+move the target uses next.","ขโมยผลของท่า
+ที่เป้าหมายใช้ถัดไป",translated_pending_qa,63,84,84,44,no,,0,,no
+MOVE_SECRET_POWER,SECRET POWER,"An attack with effects
+that vary by location.","ผลของการโจมตี
+เปลี่ยนไปตามสถานที่",translated_pending_qa,68,93,93,35,no,,0,,no
+MOVE_DIVE,DIVE,"Dives underwater the first
+turn and strikes next turn.","ดำน้ำในเทิร์นแรก
+โจมตีในเทิร์นถัดไป",translated_pending_qa,78,89,89,39,no,,0,,no
+MOVE_ARM_THRUST,ARM THRUST,"Straight-arm punches that
+strike the foe 2 to 5 times.","ชกด้วยแขนเหยียดตรง
+2 ถึง 5 ครั้ง",translated_pending_qa,98,47,98,30,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_CAMOUFLAGE,CAMOUFLAGE,"Alters the POKéMON's type
+depending on the location.","เปลี่ยนประเภทโปเกมอน
+ตามสถานที่",translated_pending_qa,109,49,109,19,no,,0,,no
+MOVE_TAIL_GLOW,TAIL GLOW,"Flashes a light that sharply
+raises SP. ATK.","เปล่งแสงจากหาง
+เพิ่มพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,69,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+MOVE_LUSTER_PURGE,LUSTER PURGE,"Attacks with a burst of
+light. May lower SP. DEF.","โจมตีด้วยแสงระเบิด
+อาจลดพลังป้องกันพิเศษ",translated_pending_qa,89,105,105,23,no,,0,,no
+MOVE_MIST_BALL,MIST BALL,"Attacks with a flurry of
+down. May lower SP. ATK.","โจมตีด้วยปุยขนนุ่ม
+อาจลดพลังโจมตีพิเศษ",translated_pending_qa,86,99,99,29,no,,0,,no
+MOVE_FEATHER_DANCE,FEATHERDANCE,"Envelops the foe with down
+to sharply reduce ATTACK.","ห่อหุ้มด้วยปุยขน
+ลดพลังโจมตีอย่างมาก",translated_pending_qa,73,93,93,35,no,,1,sharp_stat_change,no
+MOVE_TEETER_DANCE,TEETER DANCE,"Confuses all POKéMON on
+the scene.","ทำให้โปเกมอนทั้งหมด
+ในสนามสับสน",translated_pending_qa,100,66,100,28,no,,1,status_or_ko_text,no
+MOVE_BLAZE_KICK,BLAZE KICK,"A kick with a high critical-
+hit ratio. May cause a burn.","โอกาสโจมตีคริติคอลสูง
+และอาจทำให้ไหม้",translated_pending_qa,101,78,101,27,no,,1,status_or_ko_text,no
+MOVE_MUD_SPORT,MUD SPORT,"Covers the user in mud to
+raise electrical resistance.","คลุมผู้ใช้ท่าด้วยโคลน
+เพื่อเพิ่มความต้านทานไฟฟ้า",translated_pending_qa,94,125,125,3,no,,6,near_128px,yes
+MOVE_ICE_BALL,ICE BALL,"A 5-turn attack that gains
+power on successive hits.","โจมตีต่อเนื่อง 5 เทิร์น
+และแรงขึ้นทุกครั้ง",translated_pending_qa,95,81,95,33,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_NEEDLE_ARM,NEEDLE ARM,"Attacks with thorny arms.
+May cause flinching.","โจมตีด้วยแขนหนาม
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,91,88,91,37,no,,1,status_or_ko_text,no
+MOVE_SLACK_OFF,SLACK OFF,"Slacks off and restores
+half the maximum HP.","พักผ่อนเพื่อฟื้นฟู
+ครึ่งหนึ่งของ HP สูงสุด",translated_pending_qa,76,92,92,36,yes,HP,2,mixed_latin_or_number,no
+MOVE_HYPER_VOICE,HYPER VOICE,"A loud attack that uses
+sound waves to injure.","โจมตีด้วยคลื่นเสียง
+อันดังสนั่น",translated_pending_qa,85,47,85,43,no,,0,,no
+MOVE_POISON_FANG,POISON FANG,"A sharp-fanged attack.
+May badly poison the foe.","โจมตีด้วยเขี้ยวแหลม
+อาจทำให้ติดพิษรุนแรง",translated_pending_qa,95,99,99,29,no,,1,status_or_ko_text,no
+MOVE_CRUSH_CLAW,CRUSH CLAW,"Tears at the foe with sharp
+claws. May lower DEFENSE.","ฉีกด้วยกรงเล็บแหลมคม
+อาจลดพลังป้องกัน",translated_pending_qa,106,78,106,22,no,,0,,no
+MOVE_BLAST_BURN,BLAST BURN,"Powerful, but leaves the
+user immobile the next turn.","พลังรุนแรงแต่ผู้ใช้ท่า
+ขยับไม่ได้ในเทิร์นถัดไป",translated_pending_qa,90,109,109,19,no,,0,,no
+MOVE_HYDRO_CANNON,HYDRO CANNON,"Powerful, but leaves the
+user immobile the next turn.","พลังรุนแรงแต่ผู้ใช้ท่า
+ขยับไม่ได้ในเทิร์นถัดไป",translated_pending_qa,90,109,109,19,no,,0,,no
+MOVE_METEOR_MASH,METEOR MASH,"Fires a meteor-like punch.
+May raise ATTACK.","ชกด้วยพลังดุจอุกกาบาต
+อาจเพิ่มพลังโจมตี",translated_pending_qa,102,78,102,26,no,,0,,no
+MOVE_ASTONISH,ASTONISH,"An attack that may shock
+the foe into flinching.","โจมตีให้ตกใจ
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,63,88,88,40,no,,1,status_or_ko_text,no
+MOVE_WEATHER_BALL,WEATHER BALL,"The move's type and power
+change with the weather.","ประเภทและพลังของท่า
+เปลี่ยนตามสภาพอากาศ",translated_pending_qa,98,101,101,27,no,,0,,no
+MOVE_AROMATHERAPY,AROMATHERAPY,"Heals all status problems
+with a soothing scent.","ใช้กลิ่นหอมผ่อนคลาย
+รักษาสถานะผิดปกติทั้งหมด",translated_pending_qa,95,118,118,10,no,,4,wide_line;status_or_ko_text,yes
+MOVE_FAKE_TEARS,FAKE TEARS,"Feigns crying to sharply
+lower the foe's SP. DEF.","แสร้งร้องไห้
+ลดพลังป้องกันพิเศษอย่างมาก",translated_pending_qa,50,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+MOVE_AIR_CUTTER,AIR CUTTER,"Hacks with razorlike wind.
+High critical-hit ratio.","ฟันด้วยลมคมกริบ
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,81,101,101,27,no,,0,,no
+MOVE_OVERHEAT,OVERHEAT,"Allows a full-power attack,
+but sharply lowers SP. ATK.","โจมตีด้วยพลังเต็มที่
+ลดพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes
+MOVE_ODOR_SLEUTH,ODOR SLEUTH,"Negates the foe's efforts
+to heighten evasiveness.","ลบผลการเพิ่ม
+การหลบหลีกของคู่ต่อสู้",translated_pending_qa,59,96,96,32,no,,0,,no
+MOVE_ROCK_TOMB,ROCK TOMB,"Stops the foe from moving
+with rocks and cuts SPEED.","ขวางด้วยก้อนหิน
+และลดความเร็ว",translated_pending_qa,74,71,74,54,no,,0,,no
+MOVE_SILVER_WIND,SILVER WIND,"A powdery attack that may
+raise abilities.","โจมตีด้วยผงจากปีก
+อาจเพิ่มค่าสถานะ",translated_pending_qa,83,75,83,45,no,,0,,no
+MOVE_METAL_SOUND,METAL SOUND,"Emits a horrible screech
+that sharply lowers SP. DEF.","ปล่อยเสียงโลหะน่ากลัว
+ลดพลังป้องกันพิเศษอย่างมาก",translated_pending_qa,98,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+MOVE_GRASS_WHISTLE,GRASSWHISTLE,"Lulls the foe into sleep
+with a pleasant melody.","บรรเลงทำนองไพเราะ
+ทำให้คู่ต่อสู้หลับ",translated_pending_qa,92,70,92,36,no,,0,,no
+MOVE_TICKLE,TICKLE,"Makes the foe laugh to
+lower ATTACK and DEFENSE.","ทำให้คู่ต่อสู้หัวเราะ
+ลดพลังโจมตีและพลังป้องกัน",translated_pending_qa,81,123,123,5,no,,6,near_128px,yes
+MOVE_COSMIC_POWER,COSMIC POWER,"Raises DEFENSE and SP. DEF
+with a mystic power.","เพิ่มพลังป้องกันและ
+พลังป้องกันพิเศษ",translated_pending_qa,86,76,86,42,no,,0,,no
+MOVE_WATER_SPOUT,WATER SPOUT,"Inflicts more damage if the
+user's HP is high.","สร้างความเสียหายมากขึ้น
+เมื่อ HP ผู้ใช้ท่าสูง",translated_pending_qa,109,72,109,19,yes,HP,2,mixed_latin_or_number,no
+MOVE_SIGNAL_BEAM,SIGNAL BEAM,"A strange beam attack that
+may confuse the foe.","ยิงลำแสงประหลาด
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,78,93,93,35,no,,1,status_or_ko_text,no
+MOVE_SHADOW_PUNCH,SHADOW PUNCH,"An unavoidable punch that
+is thrown from shadows.","ชกจากเงามืด
+และไม่อาจหลบได้",translated_pending_qa,54,80,80,48,no,,0,,no
+MOVE_EXTRASENSORY,EXTRASENSORY,"Attacks with a peculiar
+power. May cause flinching.","โจมตีด้วยพลังประหลาด
+อาจทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,103,88,103,25,no,,1,status_or_ko_text,no
+MOVE_SKY_UPPERCUT,SKY UPPERCUT,"An uppercut thrown as if
+leaping into the sky.","ปล่อยหมัดเสย
+ราวกับกระโดดขึ้นฟ้า",translated_pending_qa,62,91,91,37,no,,0,,no
+MOVE_SAND_TOMB,SAND TOMB,"Traps and hurts the foe in
+quicksand for 2 to 5 turns.","ขังและทำร้ายในทรายดูด
+นาน 2 ถึง 5 เทิร์น",translated_pending_qa,104,76,104,24,yes,,3,mixed_latin_or_number;numeric,yes
+MOVE_SHEER_COLD,SHEER COLD,"A chilling attack that
+causes fainting if it hits.","โจมตีด้วยความหนาวเย็น
+โดนแล้วทำให้หมดสภาพ",translated_pending_qa,111,109,111,17,no,,1,status_or_ko_text,no
+MOVE_MUDDY_WATER,MUDDY WATER,"Attacks with muddy water.
+May lower accuracy.","โจมตีด้วยน้ำโคลน
+อาจลดความแม่นยำ",translated_pending_qa,81,84,84,44,no,,0,,no
+MOVE_BULLET_SEED,BULLET SEED,"Shoots 2 to 5 seeds in a row
+to strike the foe.","ยิงเมล็ดต่อเนื่อง
+2 ถึง 5 ครั้ง",translated_pending_qa,69,47,69,59,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_AERIAL_ACE,AERIAL ACE,"An extremely speedy and
+unavoidable attack.","โจมตีด้วยความเร็วสูง
+และไม่อาจหลบได้",translated_pending_qa,94,80,94,34,no,,0,,no
+MOVE_ICICLE_SPEAR,ICICLE SPEAR,"Attacks the foe by firing
+2 to 5 icicles in a row.","ยิงแท่งน้ำแข็งต่อเนื่อง
+2 ถึง 5 ครั้ง",translated_pending_qa,91,47,91,37,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_IRON_DEFENSE,IRON DEFENSE,"Hardens the body's surface
+to sharply raise DEFENSE.","ทำให้ผิวร่างกายแข็ง
+เพิ่มพลังป้องกันอย่างมาก",translated_pending_qa,82,105,105,23,no,,1,sharp_stat_change,no
+MOVE_BLOCK,BLOCK,"Blocks the foe's way to
+prevent escape.","ขวางทางคู่ต่อสู้
+เพื่อป้องกันการหลบหนี",translated_pending_qa,61,99,99,29,no,,0,,no
+MOVE_HOWL,HOWL,"Howls to raise the spirit
+and boosts ATTACK.","ส่งเสียงหอนปลุกใจ
+เพื่อเพิ่มพลังโจมตี",translated_pending_qa,82,80,82,46,no,,0,,no
+MOVE_DRAGON_CLAW,DRAGON CLAW,"Slashes the foe with sharp
+claws.","ฟันคู่ต่อสู้ด้วย
+กรงเล็บแหลมคม",translated_pending_qa,61,73,73,55,no,,0,,no
+MOVE_FRENZY_PLANT,FRENZY PLANT,"Powerful, but leaves the
+user immobile the next turn.","พลังรุนแรงแต่ผู้ใช้ท่า
+ขยับไม่ได้ในเทิร์นถัดไป",translated_pending_qa,90,109,109,19,no,,0,,no
+MOVE_BULK_UP,BULK UP,"Bulks up the body to boost
+both ATTACK and DEFENSE.","เกร็งกล้ามเนื้อเพื่อเพิ่ม
+พลังโจมตีและพลังป้องกัน",translated_pending_qa,98,110,110,18,no,,0,,no
+MOVE_BOUNCE,BOUNCE,"Bounces up, then down the
+next turn. May paralyze.","กระโดดขึ้นแล้วโจมตี
+เทิร์นถัดไป อาจทำให้อัมพาต",translated_pending_qa,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
+MOVE_MUD_SHOT,MUD SHOT,"Hurls mud at the foe and
+reduces SPEED.","ขว้างโคลนใส่คู่ต่อสู้
+และลดความเร็ว",translated_pending_qa,84,71,84,44,no,,0,,no
+MOVE_POISON_TAIL,POISON TAIL,"Has a high critical-hit
+ratio. May also poison.","โอกาสโจมตีคริติคอลสูง
+และอาจทำให้ติดพิษ",translated_pending_qa,101,88,101,27,no,,1,status_or_ko_text,no
+MOVE_COVET,COVET,"Cutely begs to obtain an
+item held by the foe.","อ้อนขออย่างน่ารัก
+เพื่อชิงไอเทมที่ถืออยู่",translated_pending_qa,75,89,89,39,no,,0,,no
+MOVE_VOLT_TACKLE,VOLT TACKLE,"A life-risking tackle that
+slightly hurts the user.","พุ่งชนแบบเสี่ยงชีวิต
+ผู้ใช้ท่าบาดเจ็บเล็กน้อย",translated_pending_qa,86,100,100,28,no,,0,,no
+MOVE_MAGICAL_LEAF,MAGICAL LEAF,"Attacks with a strange leaf
+that cannot be evaded.","โจมตีด้วยใบไม้ประหลาด
+ที่ไม่อาจหลบได้",translated_pending_qa,111,69,111,17,no,,0,,no
+MOVE_WATER_SPORT,WATER SPORT,"The user becomes soaked to
+raise resistance to fire.","ทำให้ผู้ใช้ท่าเปียกชุ่ม
+เพื่อเพิ่มความต้านทานไฟ",translated_pending_qa,89,113,113,15,no,,0,,no
+MOVE_CALM_MIND,CALM MIND,"Raises SP. ATK and SP. DEF
+by focusing the mind.","เพิ่มพลังโจมตีพิเศษ
+และพลังป้องกันพิเศษ",translated_pending_qa,89,94,94,34,no,,0,,no
+MOVE_LEAF_BLADE,LEAF BLADE,"Slashes with a sharp leaf.
+High critical-hit ratio.","ฟันด้วยใบไม้แหลมคม
+โอกาสโจมตีคริติคอลสูง",translated_pending_qa,102,101,102,26,no,,0,,no
+MOVE_DRAGON_DANCE,DRAGON DANCE,"A mystical dance that ups
+ATTACK and SPEED.","ร่ายรำลึกลับเพื่อเพิ่ม
+พลังโจมตีและความเร็ว",translated_pending_qa,86,101,101,27,no,,0,,no
+MOVE_ROCK_BLAST,ROCK BLAST,"Hurls boulders at the foe
+2 to 5 times in a row.","ขว้างก้อนหินต่อเนื่อง
+2 ถึง 5 ครั้ง",translated_pending_qa,90,47,90,38,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_SHOCK_WAVE,SHOCK WAVE,"A fast and unavoidable
+electric attack.","โจมตีด้วยไฟฟ้ารวดเร็ว
+และไม่อาจหลบได้",translated_pending_qa,104,80,104,24,no,,0,,no
+MOVE_WATER_PULSE,WATER PULSE,"Attacks with ultrasonic
+waves. May confuse the foe.","โจมตีด้วยคลื่นเหนือเสียง
+อาจทำให้คู่ต่อสู้สับสน",translated_pending_qa,110,93,110,18,no,,1,status_or_ko_text,no
+MOVE_DOOM_DESIRE,DOOM DESIRE,"Summons strong sunlight to
+attack 2 turns later.","เรียกแสงแดดรุนแรง
+โจมตีอีก 2 เทิร์นต่อมา",translated_pending_qa,89,96,96,32,yes,,3,mixed_latin_or_number;numeric,no
+MOVE_PSYCHO_BOOST,PSYCHO BOOST,"Allows a full-power attack,
+but sharply lowers SP. ATK.","โจมตีด้วยพลังเต็มที่
+ลดพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes

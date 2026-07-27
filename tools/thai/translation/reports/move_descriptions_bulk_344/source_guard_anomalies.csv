@@ -1,0 +1,7 @@
+move_id,description_symbol,inventory_source_text,source_definition_text,difference
+MOVE_HARDEN,sHardenDescription,"Stiffens the body's
+muscles to raise DEFENSE.","Stiffens the body's 
+muscles to raise DEFENSE.",pre-existing trailing space before newline
+MOVE_SPIKES,sSpikesDescription,"Sets spikes that hurt a
+foe switching in.","Sets spikes that hurt a 
+foe switching in.",pre-existing trailing space before newline
