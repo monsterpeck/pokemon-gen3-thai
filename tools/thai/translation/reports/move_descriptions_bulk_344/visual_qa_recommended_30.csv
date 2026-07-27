@@ -1,91 +1,91 @@
 move_id,move_name_en,source_text,target_text_th,description_status,line_1_width_px,line_2_width_px,max_width_px,width_margin_px,mixed_latin,abbreviations,risk_score,risk_reasons,visual_qa_recommended
 MOVE_CURSE,CURSE,"A move that functions
 differently for GHOSTS.","ทำงานต่างกันเมื่อผู้ใช้ท่า
-เป็นโปเกมอนประเภท GHOST",translated_pending_qa,102,125,125,3,yes,,8,near_128px;mixed_latin_or_number,yes
+เป็นโปเกมอนประเภท GHOST",proof_passed,102,125,125,3,yes,,8,near_128px;mixed_latin_or_number,yes
 MOVE_FAKE_TEARS,FAKE TEARS,"Feigns crying to sharply
 lower the foe's SP. DEF.","แสร้งร้องไห้
-ลดพลังป้องกันพิเศษอย่างมาก",translated_pending_qa,50,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+ลดพลังป้องกันพิเศษอย่างมาก",proof_passed,50,126,126,2,no,,7,near_128px;sharp_stat_change,yes
 MOVE_METAL_SOUND,METAL SOUND,"Emits a horrible screech
 that sharply lowers SP. DEF.","ปล่อยเสียงโลหะน่ากลัว
-ลดพลังป้องกันพิเศษอย่างมาก",translated_pending_qa,98,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+ลดพลังป้องกันพิเศษอย่างมาก",proof_passed,98,126,126,2,no,,7,near_128px;sharp_stat_change,yes
 MOVE_TAIL_GLOW,TAIL GLOW,"Flashes a light that sharply
 raises SP. ATK.","เปล่งแสงจากหาง
-เพิ่มพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,69,126,126,2,no,,7,near_128px;sharp_stat_change,yes
+เพิ่มพลังโจมตีพิเศษอย่างมาก",proof_passed,69,126,126,2,no,,7,near_128px;sharp_stat_change,yes
 MOVE_BOUNCE,BOUNCE,"Bounces up, then down the
 next turn. May paralyze.","กระโดดขึ้นแล้วโจมตี
-เทิร์นถัดไป อาจทำให้อัมพาต",translated_pending_qa,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
+เทิร์นถัดไป อาจทำให้อัมพาต",proof_passed,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
 MOVE_HORN_DRILL,HORN DRILL,"A one-hit KO attack that
 uses a horn like a drill.","ใช้เขาหมุนคล้ายสว่าน
-ทำให้หมดสภาพในครั้งเดียว",translated_pending_qa,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
+ทำให้หมดสภาพในครั้งเดียว",proof_passed,95,125,125,3,no,,7,near_128px;status_or_ko_text,yes
 MOVE_OVERHEAT,OVERHEAT,"Allows a full-power attack,
 but sharply lowers SP. ATK.","โจมตีด้วยพลังเต็มที่
-ลดพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes
+ลดพลังโจมตีพิเศษอย่างมาก",proof_passed,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes
 MOVE_PSYCHO_BOOST,PSYCHO BOOST,"Allows a full-power attack,
 but sharply lowers SP. ATK.","โจมตีด้วยพลังเต็มที่
-ลดพลังโจมตีพิเศษอย่างมาก",translated_pending_qa,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes
+ลดพลังโจมตีพิเศษอย่างมาก",proof_passed,87,120,120,8,no,,7,near_128px;sharp_stat_change,yes
 MOVE_MUD_SPORT,MUD SPORT,"Covers the user in mud to
 raise electrical resistance.","คลุมผู้ใช้ท่าด้วยโคลน
-เพื่อเพิ่มความต้านทานไฟฟ้า",translated_pending_qa,94,125,125,3,no,,6,near_128px,yes
+เพื่อเพิ่มความต้านทานไฟฟ้า",proof_passed,94,125,125,3,no,,6,near_128px,yes
 MOVE_TICKLE,TICKLE,"Makes the foe laugh to
 lower ATTACK and DEFENSE.","ทำให้คู่ต่อสู้หัวเราะ
-ลดพลังโจมตีและพลังป้องกัน",translated_pending_qa,81,123,123,5,no,,6,near_128px,yes
+ลดพลังโจมตีและพลังป้องกัน",proof_passed,81,123,123,5,no,,6,near_128px,yes
 MOVE_SHARPEN,SHARPEN,"Reduces the polygon count
 and raises ATTACK.","ลดจำนวนเหลี่ยมของร่างกาย
-เพื่อเพิ่มพลังโจมตี",translated_pending_qa,120,80,120,8,no,,6,near_128px,yes
+เพื่อเพิ่มพลังโจมตี",proof_passed,120,80,120,8,no,,6,near_128px,yes
 MOVE_BIDE,BIDE,"Endures attack for 2
 turns to retaliate double.","อดทนรับการโจมตี 2 เทิร์น
-แล้วโต้กลับด้วยพลังสองเท่า",translated_pending_qa,115,118,118,10,yes,,6,wide_line;mixed_latin_or_number;numeric,yes
+แล้วโต้กลับด้วยพลังสองเท่า",proof_passed,115,118,118,10,yes,,6,wide_line;mixed_latin_or_number;numeric,yes
 MOVE_AROMATHERAPY,AROMATHERAPY,"Heals all status problems
 with a soothing scent.","ใช้กลิ่นหอมผ่อนคลาย
-รักษาสถานะผิดปกติทั้งหมด",translated_pending_qa,95,118,118,10,no,,4,wide_line;status_or_ko_text,yes
+รักษาสถานะผิดปกติทั้งหมด",proof_passed,95,118,118,10,no,,4,wide_line;status_or_ko_text,yes
 MOVE_HEAL_BELL,HEAL BELL,"Chimes soothingly to heal
 all status abnormalities.","เสียงกระดิ่งผ่อนคลาย
-รักษาสถานะผิดปกติทั้งหมด",translated_pending_qa,90,118,118,10,no,,4,wide_line;status_or_ko_text,yes
+รักษาสถานะผิดปกติทั้งหมด",proof_passed,90,118,118,10,no,,4,wide_line;status_or_ko_text,yes
 MOVE_REST,REST,"The user sleeps for 2 turns,
 restoring HP and status.","หลับ 2 เทิร์นเพื่อฟื้นฟู HP
-และรักษาสถานะผิดปกติ",translated_pending_qa,110,103,110,18,yes,HP,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+และรักษาสถานะผิดปกติ",proof_passed,110,103,110,18,yes,HP,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_PERISH_SONG,PERISH SONG,"Any POKéMON hearing this
 song faints in 3 turns.","โปเกมอนที่ได้ยินเพลงนี้
-หมดสภาพใน 3 เทิร์น",translated_pending_qa,107,95,107,21,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+หมดสภาพใน 3 เทิร์น",proof_passed,107,95,107,21,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_FAKE_OUT,FAKE OUT,"A 1st-turn, 1st-strike move
 that causes flinching.","โจมตีก่อนในเทิร์นที่ 1
-และทำให้คู่ต่อสู้ชะงัก",translated_pending_qa,98,90,98,30,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+และทำให้คู่ต่อสู้ชะงัก",proof_passed,98,90,98,30,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_OUTRAGE,OUTRAGE,"A rampage of 2 to 3 turns
 that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
-แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+แล้วผู้ใช้ท่าสับสน",proof_passed,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_PETAL_DANCE,PETAL DANCE,"A rampage of 2 to 3 turns
 that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
-แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+แล้วผู้ใช้ท่าสับสน",proof_passed,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_THRASH,THRASH,"A rampage of 2 to 3 turns
 that confuses the user.","อาละวาด 2 ถึง 3 เทิร์น
-แล้วผู้ใช้ท่าสับสน",translated_pending_qa,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
+แล้วผู้ใช้ท่าสับสน",proof_passed,94,75,94,34,yes,,4,mixed_latin_or_number;numeric;status_or_ko_text,yes
 MOVE_NATURE_POWER,NATURE POWER,"The type of attack varies
 depending on the location.","ประเภทการโจมตีเปลี่ยนไป
-ตามสถานที่",translated_pending_qa,119,49,119,9,no,,3,wide_line,yes
+ตามสถานที่",proof_passed,119,49,119,9,no,,3,wide_line,yes
 MOVE_BONEMERANG,BONEMERANG,"Throws a bone boomerang
 that strikes twice.","ขว้างกระดูกแบบบูมเมอแรง
-โจมตีสองครั้ง",translated_pending_qa,117,59,117,11,no,,3,wide_line,yes
+โจมตีสองครั้ง",proof_passed,117,59,117,11,no,,3,wide_line,yes
 MOVE_ROLE_PLAY,ROLE PLAY,"Mimics the target and
 copies its special ability.","คัดลอกความสามารถพิเศษ
-ของเป้าหมาย",translated_pending_qa,115,55,115,13,no,,3,wide_line,yes
+ของเป้าหมาย",proof_passed,115,55,115,13,no,,3,wide_line,yes
 MOVE_FUTURE_SIGHT,FUTURE SIGHT,"Heightens inner power to
 strike 2 turns later.","เพิ่มพลังภายใน
-เพื่อโจมตีอีก 2 เทิร์นต่อมา",translated_pending_qa,68,114,114,14,yes,,3,mixed_latin_or_number;numeric,yes
+เพื่อโจมตีอีก 2 เทิร์นต่อมา",proof_passed,68,114,114,14,yes,,3,mixed_latin_or_number;numeric,yes
 MOVE_UPROAR,UPROAR,"Causes an uproar for 2 to 5
 turns and prevents sleep.","ส่งเสียงเอะอะ 2 ถึง 5 เทิร์น
-และป้องกันการหลับ",translated_pending_qa,112,84,112,16,yes,,3,mixed_latin_or_number;numeric,yes
+และป้องกันการหลับ",proof_passed,112,84,112,16,yes,,3,mixed_latin_or_number;numeric,yes
 MOVE_RAIN_DANCE,RAIN DANCE,"Boosts the power of WATER-
 type moves for 5 turns.","เพิ่มพลังท่าประเภท WATER
-นาน 5 เทิร์น",translated_pending_qa,111,55,111,17,yes,,3,mixed_latin_or_number;numeric,yes
+นาน 5 เทิร์น",proof_passed,111,55,111,17,yes,,3,mixed_latin_or_number;numeric,yes
 MOVE_GRUDGE,GRUDGE,"If the user faints, deletes
 all PP of foe's last move.","หากผู้ใช้ท่าหมดสภาพ
-PP ท่าล่าสุดคู่ต่อสู้จะหมด",translated_pending_qa,92,105,105,23,yes,PP,3,mixed_latin_or_number;status_or_ko_text,yes
+PP ท่าล่าสุดคู่ต่อสู้จะหมด",proof_passed,92,105,105,23,yes,PP,3,mixed_latin_or_number;status_or_ko_text,yes
 MOVE_SUNNY_DAY,SUNNY DAY,"Boosts the power of FIRE-
 type moves for 5 turns.","เพิ่มพลังท่าประเภท FIRE
-นาน 5 เทิร์น",translated_pending_qa,105,55,105,23,yes,,3,mixed_latin_or_number;numeric,yes
+นาน 5 เทิร์น",proof_passed,105,55,105,23,yes,,3,mixed_latin_or_number;numeric,yes
 MOVE_SAND_TOMB,SAND TOMB,"Traps and hurts the foe in
 quicksand for 2 to 5 turns.","ขังและทำร้ายในทรายดูด
-นาน 2 ถึง 5 เทิร์น",translated_pending_qa,104,76,104,24,yes,,3,mixed_latin_or_number;numeric,yes
+นาน 2 ถึง 5 เทิร์น",proof_passed,104,76,104,24,yes,,3,mixed_latin_or_number;numeric,yes
 MOVE_ENDURE,ENDURE,"Endures any attack for
 1 turn, leaving at least 1HP.","ทนทุกการโจมตี 1 เทิร์น
-เหลือ HP อย่างน้อย 1",translated_pending_qa,103,87,103,25,yes,HP,3,mixed_latin_or_number;numeric,yes
+เหลือ HP อย่างน้อย 1",proof_passed,103,87,103,25,yes,HP,3,mixed_latin_or_number;numeric,yes

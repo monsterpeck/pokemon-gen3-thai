@@ -5,7 +5,7 @@
 - Inventory rows: 354
 - Existing proof-passed rows preserved: 10
 - Newly translated rows: 344
-- Final status: 344 `translated_pending_qa`, 10 `proof_passed`
+- Final status after risk-based visual QA: 354 `proof_passed`
 
 ## Automated QA results
 
@@ -25,11 +25,16 @@
 - Text outside move-description definitions is unchanged.
 - Two pre-existing line-end spaces in the English definitions for `MOVE_HARDEN` and `MOVE_SPIKES` differed from the normalized inventory; only those line-end whitespace differences were accepted by the source guard.
 
-## Visual QA recommendation
+## Final risk-based visual QA
 
-- Test the 30 highest-risk entries from `visual_qa_recommended_30.csv`.
-- Prioritize lines nearest 128 px, mixed Thai/Latin strings, numbers, and sharp stat changes.
-- Keep all 344 new rows as `translated_pending_qa` until the agreed risk-based visual QA and ROM build pass.
+- Full ROM build passed.
+- Full ROM SHA-256: `941960ec7f2336c7f99b61cfa8dbb024de49a3a6c3baf98e0eb480b083bf2898`.
+- Eight QA ROMs were generated and their checksums verified.
+- All 30 highest-risk entries passed manual visual QA.
+- Two previously proof-passed control entries also passed.
+- `OVERHEAT` and `PSYCHO BOOST` intentionally share a description because their English source text is identical.
+- `OUTRAGE`, `PETAL DANCE`, and `THRASH` intentionally share a description because their English source text is identical.
+- The 344 new rows qualify as `proof_passed` under the agreed criterion: complete automated QA, successful full ROM build, representative renderer proof, and visual approval of every risk-selected entry.
 
 ## Files
 
@@ -38,3 +43,5 @@
 - `tools/thai/translation/reports/move_descriptions_bulk_344/move_description_bulk_qa.csv`
 - `tools/thai/translation/reports/move_descriptions_bulk_344/visual_qa_recommended_30.csv`
 - `tools/thai/translation/reports/move_descriptions_bulk_344/source_guard_anomalies.csv`
+- `tools/thai/translation/reports/move_descriptions_bulk_344/visual_qa_manifest_32.csv`
+- `tools/thai/translation/reports/move_descriptions_bulk_344/visual_qa_results_32.csv`

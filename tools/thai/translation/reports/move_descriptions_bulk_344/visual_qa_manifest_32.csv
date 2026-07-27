@@ -1,0 +1,65 @@
+batch,rom_file,slot,move_id,move_name_en,target_text_th,risk_score,risk_reasons,rom_sha256
+1,pokeemerald_moveqa_batch_01.gba,1,MOVE_CURSE,CURSE,"ทำงานต่างกันเมื่อผู้ใช้ท่า
+เป็นโปเกมอนประเภท GHOST",8,near_128px;mixed_latin_or_number,9b739c11ceb48c97cfe3761c914486d6f37895601ff58b9c4dd18975d097dac3
+1,pokeemerald_moveqa_batch_01.gba,2,MOVE_FAKE_TEARS,FAKE TEARS,"แสร้งร้องไห้
+ลดพลังป้องกันพิเศษอย่างมาก",7,near_128px;sharp_stat_change,9b739c11ceb48c97cfe3761c914486d6f37895601ff58b9c4dd18975d097dac3
+1,pokeemerald_moveqa_batch_01.gba,3,MOVE_METAL_SOUND,METAL SOUND,"ปล่อยเสียงโลหะน่ากลัว
+ลดพลังป้องกันพิเศษอย่างมาก",7,near_128px;sharp_stat_change,9b739c11ceb48c97cfe3761c914486d6f37895601ff58b9c4dd18975d097dac3
+1,pokeemerald_moveqa_batch_01.gba,4,MOVE_TAIL_GLOW,TAIL GLOW,"เปล่งแสงจากหาง
+เพิ่มพลังโจมตีพิเศษอย่างมาก",7,near_128px;sharp_stat_change,9b739c11ceb48c97cfe3761c914486d6f37895601ff58b9c4dd18975d097dac3
+2,pokeemerald_moveqa_batch_02.gba,1,MOVE_BOUNCE,BOUNCE,"กระโดดขึ้นแล้วโจมตี
+เทิร์นถัดไป อาจทำให้อัมพาต",7,near_128px;status_or_ko_text,060d912ac3437a18847dea3886b6b7a1e16cdf5ccecac83b9e2840396c880f12
+2,pokeemerald_moveqa_batch_02.gba,2,MOVE_HORN_DRILL,HORN DRILL,"ใช้เขาหมุนคล้ายสว่าน
+ทำให้หมดสภาพในครั้งเดียว",7,near_128px;status_or_ko_text,060d912ac3437a18847dea3886b6b7a1e16cdf5ccecac83b9e2840396c880f12
+2,pokeemerald_moveqa_batch_02.gba,3,MOVE_OVERHEAT,OVERHEAT,"โจมตีด้วยพลังเต็มที่
+ลดพลังโจมตีพิเศษอย่างมาก",7,near_128px;sharp_stat_change,060d912ac3437a18847dea3886b6b7a1e16cdf5ccecac83b9e2840396c880f12
+2,pokeemerald_moveqa_batch_02.gba,4,MOVE_PSYCHO_BOOST,PSYCHO BOOST,"โจมตีด้วยพลังเต็มที่
+ลดพลังโจมตีพิเศษอย่างมาก",7,near_128px;sharp_stat_change,060d912ac3437a18847dea3886b6b7a1e16cdf5ccecac83b9e2840396c880f12
+3,pokeemerald_moveqa_batch_03.gba,1,MOVE_MUD_SPORT,MUD SPORT,"คลุมผู้ใช้ท่าด้วยโคลน
+เพื่อเพิ่มความต้านทานไฟฟ้า",6,near_128px,5dff9cff5ebb001ac868207ac4f7567f3640bcc3e9ac3307f1f765c253d9e98f
+3,pokeemerald_moveqa_batch_03.gba,2,MOVE_TICKLE,TICKLE,"ทำให้คู่ต่อสู้หัวเราะ
+ลดพลังโจมตีและพลังป้องกัน",6,near_128px,5dff9cff5ebb001ac868207ac4f7567f3640bcc3e9ac3307f1f765c253d9e98f
+3,pokeemerald_moveqa_batch_03.gba,3,MOVE_SHARPEN,SHARPEN,"ลดจำนวนเหลี่ยมของร่างกาย
+เพื่อเพิ่มพลังโจมตี",6,near_128px,5dff9cff5ebb001ac868207ac4f7567f3640bcc3e9ac3307f1f765c253d9e98f
+3,pokeemerald_moveqa_batch_03.gba,4,MOVE_BIDE,BIDE,"อดทนรับการโจมตี 2 เทิร์น
+แล้วโต้กลับด้วยพลังสองเท่า",6,wide_line;mixed_latin_or_number;numeric,5dff9cff5ebb001ac868207ac4f7567f3640bcc3e9ac3307f1f765c253d9e98f
+4,pokeemerald_moveqa_batch_04.gba,1,MOVE_AROMATHERAPY,AROMATHERAPY,"ใช้กลิ่นหอมผ่อนคลาย
+รักษาสถานะผิดปกติทั้งหมด",4,wide_line;status_or_ko_text,db9ea733252a447cc9e49b551a7dbbb8b88f412bb8f14654a100a0c13a410560
+4,pokeemerald_moveqa_batch_04.gba,2,MOVE_HEAL_BELL,HEAL BELL,"เสียงกระดิ่งผ่อนคลาย
+รักษาสถานะผิดปกติทั้งหมด",4,wide_line;status_or_ko_text,db9ea733252a447cc9e49b551a7dbbb8b88f412bb8f14654a100a0c13a410560
+4,pokeemerald_moveqa_batch_04.gba,3,MOVE_REST,REST,"หลับ 2 เทิร์นเพื่อฟื้นฟู HP
+และรักษาสถานะผิดปกติ",4,mixed_latin_or_number;numeric;status_or_ko_text,db9ea733252a447cc9e49b551a7dbbb8b88f412bb8f14654a100a0c13a410560
+4,pokeemerald_moveqa_batch_04.gba,4,MOVE_PERISH_SONG,PERISH SONG,"โปเกมอนที่ได้ยินเพลงนี้
+หมดสภาพใน 3 เทิร์น",4,mixed_latin_or_number;numeric;status_or_ko_text,db9ea733252a447cc9e49b551a7dbbb8b88f412bb8f14654a100a0c13a410560
+5,pokeemerald_moveqa_batch_05.gba,1,MOVE_FAKE_OUT,FAKE OUT,"โจมตีก่อนในเทิร์นที่ 1
+และทำให้คู่ต่อสู้ชะงัก",4,mixed_latin_or_number;numeric;status_or_ko_text,69ea2250684743a9ac5913efc8f41db1dd3d1d2f5014caf899767a86a2195d3c
+5,pokeemerald_moveqa_batch_05.gba,2,MOVE_OUTRAGE,OUTRAGE,"อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",4,mixed_latin_or_number;numeric;status_or_ko_text,69ea2250684743a9ac5913efc8f41db1dd3d1d2f5014caf899767a86a2195d3c
+5,pokeemerald_moveqa_batch_05.gba,3,MOVE_PETAL_DANCE,PETAL DANCE,"อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",4,mixed_latin_or_number;numeric;status_or_ko_text,69ea2250684743a9ac5913efc8f41db1dd3d1d2f5014caf899767a86a2195d3c
+5,pokeemerald_moveqa_batch_05.gba,4,MOVE_THRASH,THRASH,"อาละวาด 2 ถึง 3 เทิร์น
+แล้วผู้ใช้ท่าสับสน",4,mixed_latin_or_number;numeric;status_or_ko_text,69ea2250684743a9ac5913efc8f41db1dd3d1d2f5014caf899767a86a2195d3c
+6,pokeemerald_moveqa_batch_06.gba,1,MOVE_NATURE_POWER,NATURE POWER,"ประเภทการโจมตีเปลี่ยนไป
+ตามสถานที่",3,wide_line,49965d23afe01d0c38681883db55e3bcec82148df18e6b4a5228ffd2c3995b5d
+6,pokeemerald_moveqa_batch_06.gba,2,MOVE_BONEMERANG,BONEMERANG,"ขว้างกระดูกแบบบูมเมอแรง
+โจมตีสองครั้ง",3,wide_line,49965d23afe01d0c38681883db55e3bcec82148df18e6b4a5228ffd2c3995b5d
+6,pokeemerald_moveqa_batch_06.gba,3,MOVE_ROLE_PLAY,ROLE PLAY,"คัดลอกความสามารถพิเศษ
+ของเป้าหมาย",3,wide_line,49965d23afe01d0c38681883db55e3bcec82148df18e6b4a5228ffd2c3995b5d
+6,pokeemerald_moveqa_batch_06.gba,4,MOVE_FUTURE_SIGHT,FUTURE SIGHT,"เพิ่มพลังภายใน
+เพื่อโจมตีอีก 2 เทิร์นต่อมา",3,mixed_latin_or_number;numeric,49965d23afe01d0c38681883db55e3bcec82148df18e6b4a5228ffd2c3995b5d
+7,pokeemerald_moveqa_batch_07.gba,1,MOVE_UPROAR,UPROAR,"ส่งเสียงเอะอะ 2 ถึง 5 เทิร์น
+และป้องกันการหลับ",3,mixed_latin_or_number;numeric,fc5eade31bae8f2358809940d0e0f37de577d0489ce6641297884ae43d0d51fd
+7,pokeemerald_moveqa_batch_07.gba,2,MOVE_RAIN_DANCE,RAIN DANCE,"เพิ่มพลังท่าประเภท WATER
+นาน 5 เทิร์น",3,mixed_latin_or_number;numeric,fc5eade31bae8f2358809940d0e0f37de577d0489ce6641297884ae43d0d51fd
+7,pokeemerald_moveqa_batch_07.gba,3,MOVE_GRUDGE,GRUDGE,"หากผู้ใช้ท่าหมดสภาพ
+PP ท่าล่าสุดคู่ต่อสู้จะหมด",3,mixed_latin_or_number;status_or_ko_text,fc5eade31bae8f2358809940d0e0f37de577d0489ce6641297884ae43d0d51fd
+7,pokeemerald_moveqa_batch_07.gba,4,MOVE_SUNNY_DAY,SUNNY DAY,"เพิ่มพลังท่าประเภท FIRE
+นาน 5 เทิร์น",3,mixed_latin_or_number;numeric,fc5eade31bae8f2358809940d0e0f37de577d0489ce6641297884ae43d0d51fd
+8,pokeemerald_moveqa_batch_08.gba,1,MOVE_SAND_TOMB,SAND TOMB,"ขังและทำร้ายในทรายดูด
+นาน 2 ถึง 5 เทิร์น",3,mixed_latin_or_number;numeric,1fd278b0b4df1c9b3731baada9130886ce48e56e88a88e25726417215b4d360f
+8,pokeemerald_moveqa_batch_08.gba,2,MOVE_ENDURE,ENDURE,"ทนทุกการโจมตี 1 เทิร์น
+เหลือ HP อย่างน้อย 1",3,mixed_latin_or_number;numeric,1fd278b0b4df1c9b3731baada9130886ce48e56e88a88e25726417215b4d360f
+8,pokeemerald_moveqa_batch_08.gba,3,MOVE_FOCUS_ENERGY,FOCUS ENERGY,"รวบรวมพลังเพื่อเพิ่ม
+โอกาสโจมตีคริติคอล",,control_proof_passed,1fd278b0b4df1c9b3731baada9130886ce48e56e88a88e25726417215b4d360f
+8,pokeemerald_moveqa_batch_08.gba,4,MOVE_SAFEGUARD,SAFEGUARD,"พลังลึกลับช่วยป้องกัน
+สถานะผิดปกติทั้งหมด",,control_proof_passed,1fd278b0b4df1c9b3731baada9130886ce48e56e88a88e25726417215b4d360f
