@@ -1,0 +1,13 @@
+﻿phase_order,ui_area,display_name_th,priority,source_files,qa_route,inventory_status
+1,MAIN_MENU,หน้าหลักและเริ่มเกม,P1,src/main_menu.c;src/title_screen.c;src/naming_screen.c,"เปิดเกมใหม่ ตรวจ Main Menu, Continue/New Game/Option, เลือกเพศและตั้งชื่อ",inventory_ready
+2,OPTION_MENU,เมนูตัวเลือก,P1,src/option_menu.c,เปิด OPTION และตรวจทุกค่า รวมข้อความชิดขวา,inventory_ready
+3,START_SAVE,Start Menu และระบบบันทึก,P1,src/start_menu.c;src/save.c;data/text/save.inc,เปิด Start Menu ตรวจทุกคำสั่ง แล้วทดสอบ Save/Overwrite/Success/Error,inventory_ready
+4,PARTY_MENU,Party Menu,P1,src/party_menu.c;src/data/party_menu.h,เปิด Party ตรวจ Summary/Switch/Item/Field Move/Prompt,inventory_ready
+5,SUMMARY,Pokémon Summary,P1,src/pokemon_summary_screen.c,ตรวจทุกแท็บ ชื่อโปเกมอน ชื่อท่า PP ค่าสถานะและข้อความชิดขวา,inventory_ready
+6,MOVE_UI,หน้าจอเรียนและลืมท่า,P1,src/move_relearner.c,ตรวจ Move Relearner/Learn/Forget และรายละเอียดท่า,inventory_ready
+7,BAG,Bag และการใช้ไอเทม,P1,src/item_menu.c;src/item_use.c,"ตรวจทุก Pocket, Context Menu, จำนวน, ราคา และ Prompt",inventory_ready
+8,BATTLE_UI,Battle UI,P1,src/battle_interface.c;src/battle_controller_player.c;src/battle_controller_safari.c,"ตรวจ Fight/Bag/Pokémon/Run, Move Selection, PP/Type และ Safari Battle",inventory_ready
+9,SHOP,ร้านค้า,P2,src/shop.c;data/text/mart_clerk.inc,"ตรวจ Buy/Sell/Quit, ราคา, จำนวน, เงินไม่พอและ Bag เต็ม",inventory_ready
+10,PC_STORAGE,PC และ Pokémon Storage,P2,src/player_pc.c;src/pokemon_storage_system.c;data/text/pc.inc;data/text/pc_transfer.inc,"ตรวจ PC, Withdraw/Deposit/Move/Release/Box และข้อความยืนยัน",inventory_ready
+11,POKEDEX,Pokédex,P2,src/pokedex.c;src/pokedex_area_screen.c;src/pokedex_cry_screen.c;src/pokedex_area_region_map.c,ตรวจ Seen/Owned/Search/Area/Size/รายการและปุ่มช่วยเหลือ,inventory_ready
+12,POKENAV,PokéNav,P2,src/pokenav.c;src/pokenav_main_menu.c;src/pokenav_menu_handler.c;src/pokenav_conditions.c;src/pokenav_conditions_search_results.c;src/pokenav_match_call_list.c;src/pokenav_match_call_gfx.c;src/pokenav_region_map.c;src/pokenav_ribbons_list.c;src/pokenav_ribbons_summary.c,"ตรวจ Main Menu, Map, Condition, Match Call, Ribbons และปุ่มช่วยเหลือ",inventory_ready

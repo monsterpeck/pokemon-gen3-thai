@@ -1,0 +1,157 @@
+﻿ui_id,ui_key,symbol,current_text,target_text_th,translation_status,scope_class,current_language,ui_areas,usage_count,definition_kind,source_file,source_line,line_count,control_codes,has_placeholders,width_constraint_status,visual_qa_status,translator_note,batch_status
+UI0008,global:gText_AlreadySavedFile,gText_AlreadySavedFile,"There is already a saved file.
+Is it okay to overwrite it?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has run dry.
+The game can be played.\pHowever, clock-based events will
+no longer occur.",,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0019,global:gText_BattlePyramidConfirmRest,gText_BattlePyramidConfirmRest,"Your BATTLE PYRAMID quest will be
+saved so that you may quit for now.\lIs that okay?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0020,global:gText_BattlePyramidConfirmRetire,gText_BattlePyramidConfirmRetire,"Are you sure you want to quit your
+PYRAMID quest?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0021,global:gText_BattlePyramidFloor,gText_BattlePyramidFloor,"Battle Pyramid
+{STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0022,global:gText_BattleScene,gText_BattleScene,BATTLE SCENE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1530,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0023,global:gText_BattleSceneOff,gText_BattleSceneOff,{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1540,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0024,global:gText_BattleSceneOn,gText_BattleSceneOn,{COLOR GREEN}{SHADOW LIGHT_GREEN}ON,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1539,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0025,global:gText_BattleStyle,gText_BattleStyle,BATTLE STYLE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1531,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0026,global:gText_BattleStyleSet,gText_BattleStyleSet,{COLOR GREEN}{SHADOW LIGHT_GREEN}SET,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1542,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0027,global:gText_BattleStyleShift,gText_BattleStyleShift,{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1541,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0030,global:gText_BirchBoy,gText_BirchBoy,BOY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,64,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0031,global:gText_BirchGirl,gText_BirchGirl,GIRL,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,65,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0047,global:gText_ButtonMode,gText_ButtonMode,BUTTON MODE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1535,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0048,global:gText_ButtonTypeLEqualsA,gText_ButtonTypeLEqualsA,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,,pending,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1549,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0049,global:gText_ButtonTypeLR,gText_ButtonTypeLR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1548,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0050,global:gText_ButtonTypeNormal,gText_ButtonTypeNormal,{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1547,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0078,global:gText_ConfirmSave,gText_ConfirmSave,Would you like to save the game?,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,2,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0082,global:gText_ContinueMenuBadges,gText_ContinueMenuBadges,BADGES,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1410,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1407,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0085,global:gText_ContinueMenuTime,gText_ContinueMenuTime,TIME,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1408,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0090,global:gText_DefaultNameAllie,gText_DefaultNameAllie,ALLIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,90,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0091,global:gText_DefaultNameAubree,gText_DefaultNameAubree,AUBREE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,95,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0092,global:gText_DefaultNameBella,gText_DefaultNameBella,BELLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,88,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0093,global:gText_DefaultNameBrett,gText_DefaultNameBrett,BRETT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,77,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0094,global:gText_DefaultNameCamila,gText_DefaultNameCamila,CAMILA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,94,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0095,global:gText_DefaultNameCasey,gText_DefaultNameCasey,CASEY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,80,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0096,global:gText_DefaultNameCollin,gText_DefaultNameCollin,COLLIN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,83,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0097,global:gText_DefaultNameDarren,gText_DefaultNameDarren,DARREN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,81,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0098,global:gText_DefaultNameEaston,gText_DefaultNameEaston,EASTON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,73,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0099,global:gText_DefaultNameHalie,gText_DefaultNameHalie,HALIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,105,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0100,global:gText_DefaultNameHazel,gText_DefaultNameHazel,HAZEL,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,97,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0101,global:gText_DefaultNameJaxson,gText_DefaultNameJaxson,JAXSON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,72,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0102,global:gText_DefaultNameJayla,gText_DefaultNameJayla,JAYLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,89,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0103,global:gText_DefaultNameJohnny,gText_DefaultNameJohnny,JOHNNY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,76,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0104,global:gText_DefaultNameJude,gText_DefaultNameJude,JUDE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,71,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0105,global:gText_DefaultNameKenny,gText_DefaultNameKenny,KENNY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,69,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0106,global:gText_DefaultNameKimmy,gText_DefaultNameKimmy,KIMMY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,86,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0107,global:gText_DefaultNameLandon,gText_DefaultNameLandon,LANDON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,82,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0108,global:gText_DefaultNameLianna,gText_DefaultNameLianna,LIANNA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,91,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0109,global:gText_DefaultNameLillie,gText_DefaultNameLillie,LILLIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,102,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0110,global:gText_DefaultNameLucy,gText_DefaultNameLucy,LUCY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,104,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0111,global:gText_DefaultNameMilton,gText_DefaultNameMilton,MILTON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,67,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0112,global:gText_DefaultNameMonica,gText_DefaultNameMonica,MONICA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,93,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0113,global:gText_DefaultNameNadine,gText_DefaultNameNadine,NADINE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,98,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0114,global:gText_DefaultNameNicola,gText_DefaultNameNicola,NICOLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,101,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0115,global:gText_DefaultNameQuincy,gText_DefaultNameQuincy,QUINCY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,85,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0116,global:gText_DefaultNameReid,gText_DefaultNameReid,REID,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,70,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0117,global:gText_DefaultNameRuthie,gText_DefaultNameRuthie,RUTHIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,96,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0118,global:gText_DefaultNameSara,gText_DefaultNameSara,SARA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,92,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0119,global:gText_DefaultNameSeth,gText_DefaultNameSeth,SETH,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,78,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0120,global:gText_DefaultNameStanley,gText_DefaultNameStanley,STANLEY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,84,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0121,global:gText_DefaultNameStu,gText_DefaultNameStu,STU,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,66,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0122,global:gText_DefaultNameTanja,gText_DefaultNameTanja,TANJA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,99,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0123,global:gText_DefaultNameTerra,gText_DefaultNameTerra,TERRA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,103,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0124,global:gText_DefaultNameTerry,gText_DefaultNameTerry,TERRY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,79,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0125,global:gText_DefaultNameTeru,gText_DefaultNameTeru,TERU,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,75,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0126,global:gText_DefaultNameTiara,gText_DefaultNameTiara,TIARA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,87,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0127,global:gText_DefaultNameTom,gText_DefaultNameTom,TOM,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,68,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0128,global:gText_DefaultNameWalker,gText_DefaultNameWalker,WALKER,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,74,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0129,global:gText_DefaultNameYasmin,gText_DefaultNameYasmin,YASMIN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,100,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0175,global:gText_DifferentSaveFile,gText_DifferentSaveFile,"WARNING!\pThere is a different game file that
+is already saved.\pIf you save now, the other file's
+adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
+and overwrite the other save file?",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0201,global:gText_Floor1,gText_Floor1,Floor 1,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1575,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0202,global:gText_Floor2,gText_Floor2,Floor 2,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1576,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0203,global:gText_Floor3,gText_Floor3,Floor 3,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1577,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0204,global:gText_Floor4,gText_Floor4,Floor 4,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1578,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0205,global:gText_Floor5,gText_Floor5,Floor 5,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1579,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0206,global:gText_Floor6,gText_Floor6,Floor 6,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1580,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0207,global:gText_Floor7,gText_Floor7,Floor 7,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1581,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0210,global:gText_Frame,gText_Frame,FRAME,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1533,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0211,global:gText_FrameType,gText_FrameType,{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1545,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0258,global:gText_MainMenuContinue,gText_MainMenuContinue,CONTINUE,,pending,core_ui_label,english,MAIN_MENU,3,c_u8,src/strings.c,25,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0259,global:gText_MainMenuMysteryEvents,gText_MainMenuMysteryEvents,MYSTERY EVENTS,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,29,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0260,global:gText_MainMenuMysteryGift,gText_MainMenuMysteryGift,MYSTERY GIFT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,27,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0261,global:gText_MainMenuMysteryGift2,gText_MainMenuMysteryGift2,MYSTERY GIFT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,28,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกมส์,existing_thai_review,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0263,global:gText_MainMenuOption,gText_MainMenuOption,OPTION,,pending,core_ui_label,english,MAIN_MENU,4,c_u8,src/strings.c,26,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0266,global:gText_MenuBag,gText_MenuBag,BAG,,pending,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1565,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0267,global:gText_MenuExit,gText_MenuExit,EXIT,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1570,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0268,global:gText_MenuOption,gText_MenuOption,OPTION,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1569,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0270,global:gText_MenuPokedex,gText_MenuPokedex,POKéDEX,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1563,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0271,global:gText_MenuPokemon,gText_MenuPokemon,POKéMON,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1564,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0272,global:gText_MenuPokenav,gText_MenuPokenav,POKéNAV,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1566,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0273,global:gText_MenuRest,gText_MenuRest,REST,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1572,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0274,global:gText_MenuRetire,gText_MenuRetire,RETIRE,,pending,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1571,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0275,global:gText_MenuSave,gText_MenuSave,SAVE,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1568,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0297,global:gText_MysteryEventsCantUse,gText_MysteryEventsCantUse,"MYSTERY EVENTS can't be used while
+the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0298,global:gText_MysteryGiftCantUse,gText_MysteryGiftCantUse,"MYSTERY GIFT can't be used while
+the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0301,global:gText_NamingScreenKeyboard_ABCDEF,gText_NamingScreenKeyboard_ABCDEF,{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,14,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0302,global:gText_NamingScreenKeyboard_GHIJKL,gText_NamingScreenKeyboard_GHIJKL,"{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L{CLEAR 6} {CLEAR 30},",,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,15,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0303,global:gText_NamingScreenKeyboard_MNOPQRS,gText_NamingScreenKeyboard_MNOPQRS,{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,16,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0306,global:gText_NamingScreenKeyboard_TUVWXYZ,gText_NamingScreenKeyboard_TUVWXYZ,{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,17,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0307,global:gText_NamingScreenKeyboard_abcdef,gText_NamingScreenKeyboard_abcdef,{CLEAR 11}a{CLEAR 6}b{CLEAR 6}c{CLEAR 26}d{CLEAR 6}e{CLEAR 6}f{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,10,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0308,global:gText_NamingScreenKeyboard_ghijkl,gText_NamingScreenKeyboard_ghijkl,"{CLEAR 11}g{CLEAR 6}h{CLEAR 7}i{CLEAR 27}j{CLEAR 7}k{CLEAR 7}l{CLEAR 7} {CLEAR 30},",,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,11,1,{CLEAR 11};{CLEAR 27};{CLEAR 30};{CLEAR 6};{CLEAR 7},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0309,global:gText_NamingScreenKeyboard_mnopqrs,gText_NamingScreenKeyboard_mnopqrs,{CLEAR 11}m{CLEAR 6}n{CLEAR 6}o{CLEAR 26}p{CLEAR 6}q{CLEAR 7}r{CLEAR 6}s{CLEAR 27}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,12,1,{CLEAR 11};{CLEAR 26};{CLEAR 27};{CLEAR 6};{CLEAR 7},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0310,global:gText_NamingScreenKeyboard_tuvwxyz,gText_NamingScreenKeyboard_tuvwxyz,{CLEAR 11}t{CLEAR 6}u{CLEAR 6}v{CLEAR 26}w{CLEAR 6}x{CLEAR 6}y{CLEAR 6}z{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,13,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0340,global:gText_Option,gText_Option,OPTION,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1528,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0341,global:gText_OptionMenuCancel,gText_OptionMenuCancel,CANCEL,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1534,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0348,global:gText_Peak,gText_Peak,Peak,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0382,global:gText_PkmnTransferredLanettesPC,gText_PkmnTransferredLanettesPC,"{STR_VAR_2} was transferred to
+LANETTE'S PC.\pIt was placed in\x20
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,7,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0383,global:gText_PkmnTransferredLanettesPCBoxFull,gText_PkmnTransferredLanettesPCBoxFull,"BOX “{STR_VAR_3}” on
+LANETTE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,19,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0384,global:gText_PkmnTransferredSomeonesPC,gText_PkmnTransferredSomeonesPC,"{STR_VAR_2} was transferred to
+SOMEONE'S PC.\pIt was placed in\x20
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,1,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0385,global:gText_PkmnTransferredSomeonesPCBoxFull,gText_PkmnTransferredSomeonesPCBoxFull,"BOX “{STR_VAR_3}” on
+SOMEONE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,13,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0432,global:gText_SafariBallStock,gText_SafariBallStock,"SAFARI BALLS
+Stock: {STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
+backup memory.",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0436,global:gText_SaveFileCorrupted,gText_SaveFileCorrupted,"The save file is corrupted. The
+previous save file will be loaded.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0437,global:gText_SaveFileErased,gText_SaveFileErased,"The save file has been erased
+due to corruption or damage.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
+DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
+DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0443,global:gText_SavingTime,gText_SavingTime,TIME,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0462,global:gText_Sound,gText_Sound,SOUND,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1532,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0463,global:gText_SoundMono,gText_SoundMono,{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1543,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0464,global:gText_SoundStereo,gText_SoundStereo,{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1544,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0487,global:gText_TextSpeed,gText_TextSpeed,TEXT SPEED,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1529,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,,pending,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1538,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0489,global:gText_TextSpeedMid,gText_TextSpeedMid,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1537,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0490,global:gText_TextSpeedSlow,gText_TextSpeedSlow,{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1536,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,106,1,\p;{PAUSE 96},yes,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
+connected.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping
+UI0555,local:src/naming_screen.c:sText_AlphabetUpperLower,sText_AlphabetUpperLower,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!,,pending,core_ui_prompt,english,MAIN_MENU,2,c_u8,src/naming_screen.c,198,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping

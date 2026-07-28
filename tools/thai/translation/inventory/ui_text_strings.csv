@@ -1,0 +1,768 @@
+﻿ui_id,ui_key,symbol,current_text,target_text_th,translation_status,scope_class,current_language,ui_areas,usage_count,definition_kind,source_file,source_line,line_count,control_codes,has_placeholders,width_constraint_status,visual_qa_status,translator_note
+UI0001,global:gText_12PoofForgotMove,gText_12PoofForgotMove,"1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p{STR_VAR_1} forgot how to
+use {STR_VAR_2}.\pAnd…{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,410,2,\p;{PAUSE 15};{PAUSE_UNTIL_PRESS};{PLAY_SE SE_BALL_BOUNCE_1};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0002,global:gText_5MarksPokemon,gText_5MarksPokemon,????? POKéMON,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,107,1,,no,pending_usage_to_window_mapping,pending,
+UI0003,global:gText_Able,gText_Able,ABLE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,459,1,,no,pending_usage_to_window_mapping,pending,
+UI0004,global:gText_Able2,gText_Able2,ABLE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,463,1,,no,pending_usage_to_window_mapping,pending,
+UI0005,global:gText_Able3,gText_Able3,ABLE!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,465,1,,no,pending_usage_to_window_mapping,pending,
+UI0006,global:gText_Accuracy2,gText_Accuracy2,ACCURACY,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,508,1,,no,pending_usage_to_window_mapping,pending,
+UI0007,global:gText_AlreadyHoldingOne,gText_AlreadyHoldingOne,"{STR_VAR_1} is already holding
+one {STR_VAR_2}.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,457,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0008,global:gText_AlreadySavedFile,gText_AlreadySavedFile,"There is already a saved file.
+Is it okay to overwrite it?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pending_usage_to_window_mapping,pending,
+UI0009,global:gText_AlreadySurfing,gText_AlreadySurfing,You're already SURFING.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,440,1,,no,pending_usage_to_window_mapping,pending,
+UI0010,global:gText_AnythingElseICanHelp,gText_AnythingElseICanHelp,"Is there anything else I can help
+you with?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,pending_usage_to_window_mapping,pending,
+UI0011,global:gText_Appeal,gText_Appeal,APPEAL,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,509,1,,no,pending_usage_to_window_mapping,pending,
+UI0012,global:gText_Attack3,gText_Attack3,ATTACK,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,497,1,,no,pending_usage_to_window_mapping,pending,
+UI0013,global:gText_BagFullCouldNotRemoveItem,gText_BagFullCouldNotRemoveItem,"The BAG is full. The POKéMON's
+item could not be removed.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,403,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0014,global:gText_BagIsFull,gText_BagIsFull,The BAG is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,605,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0015,global:gText_BagIsFull2,gText_BagIsFull2,The BAG is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,898,1,,no,pending_usage_to_window_mapping,pending,
+UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has run dry.
+The game can be played.\pHowever, clock-based events will
+no longer occur.",,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pending_usage_to_window_mapping,pending,
+UI0017,global:gText_BattleMenu,gText_BattleMenu,"FIGHT{CLEAR_TO 56}BAG
+POKéMON{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1275,2,{CLEAR_TO 56},yes,pending_usage_to_window_mapping,pending,
+UI0018,global:gText_BattleMoves,gText_BattleMoves,BATTLE MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,520,1,,no,pending_usage_to_window_mapping,pending,
+UI0019,global:gText_BattlePyramidConfirmRest,gText_BattlePyramidConfirmRest,"Your BATTLE PYRAMID quest will be
+saved so that you may quit for now.\lIs that okay?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pending_usage_to_window_mapping,pending,
+UI0020,global:gText_BattlePyramidConfirmRetire,gText_BattlePyramidConfirmRetire,"Are you sure you want to quit your
+PYRAMID quest?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pending_usage_to_window_mapping,pending,
+UI0021,global:gText_BattlePyramidFloor,gText_BattlePyramidFloor,"Battle Pyramid
+{STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0022,global:gText_BattleScene,gText_BattleScene,BATTLE SCENE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1530,1,,no,pending_usage_to_window_mapping,pending,
+UI0023,global:gText_BattleSceneOff,gText_BattleSceneOff,{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1540,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0024,global:gText_BattleSceneOn,gText_BattleSceneOn,{COLOR GREEN}{SHADOW LIGHT_GREEN}ON,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1539,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0025,global:gText_BattleStyle,gText_BattleStyle,BATTLE STYLE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1531,1,,no,pending_usage_to_window_mapping,pending,
+UI0026,global:gText_BattleStyleSet,gText_BattleStyleSet,{COLOR GREEN}{SHADOW LIGHT_GREEN}SET,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1542,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0027,global:gText_BattleStyleShift,gText_BattleStyleShift,{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1541,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0028,global:gText_BattleSwitchWhich,gText_BattleSwitchWhich,"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Switch
+which?",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1283,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pending_usage_to_window_mapping,pending,
+UI0029,global:gText_BattleYesNoChoice,gText_BattleYesNoChoice,"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Yes
+No",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1282,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pending_usage_to_window_mapping,pending,
+UI0030,global:gText_BirchBoy,gText_BirchBoy,BOY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,64,1,,no,pending_usage_to_window_mapping,pending,
+UI0031,global:gText_BirchGirl,gText_BirchGirl,GIRL,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,65,1,,no,pending_usage_to_window_mapping,pending,
+UI0032,global:gText_Birch_AndYouAre,gText_Birch_AndYouAre,And you are?,,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,31,1,,no,pending_usage_to_window_mapping,pending,
+UI0033,global:gText_Birch_AreYouReady,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about
+to unfold.\pTake courage, and leap into the
+world of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.
+Come see me in my POKéMON LAB.\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,52,4,\l;\p,yes,pending_usage_to_window_mapping,pending,
+UI0034,global:gText_Birch_BoyOrGirl,gText_Birch_BoyOrGirl,"Are you a boy?
+Or are you a girl?",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,34,2,,no,pending_usage_to_window_mapping,pending,
+UI0035,global:gText_Birch_MainSpeech,gText_Birch_MainSpeech,"This world is widely inhabited by
+creatures known as POKéMON.\pWe humans live alongside POKéMON,
+at times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together
+and battle others like us.\pBut despite our closeness, we don't
+know everything about POKéMON.\pIn fact, there are many, many
+secrets surrounding POKéMON.\pTo unravel POKéMON mysteries,
+I've been undertaking research.\lThat's what I do.\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,14,7,\l;\p,yes,pending_usage_to_window_mapping,pending,
+UI0036,global:gText_Birch_SoItsPlayer,gText_Birch_SoItsPlayer,So it's {PLAYER}{KUN}?,,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,42,1,{KUN};{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0037,global:gText_Birch_Welcome,gText_Birch_Welcome,"Hi! Sorry to keep you waiting!\pWelcome to the world of POKéMON!\pMy name is BIRCH.\pBut everyone calls me the POKéMON
+PROFESSOR.\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,1,2,\p,yes,pending_usage_to_window_mapping,pending,
+UI0038,global:gText_Birch_WhatsYourName,gText_Birch_WhatsYourName,"All right.
+What's your name?",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,38,2,,no,pending_usage_to_window_mapping,pending,
+UI0039,global:gText_Birch_YourePlayer,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my
+hometown of LITTLEROOT.\lI get it now!\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,45,2,\l;\p;{KUN};{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0040,global:gText_BoostPP,gText_BoostPP,Boost PP of which move?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,443,1,,no,pending_usage_to_window_mapping,pending,
+UI0041,global:gText_BootedUpHM,gText_BootedUpHM,Booted up an HM.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,249,1,,no,pending_usage_to_window_mapping,pending,
+UI0042,global:gText_BootedUpTM,gText_BootedUpTM,Booted up a TM.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,248,1,,no,pending_usage_to_window_mapping,pending,
+UI0043,global:gText_Box,gText_Box,BOX,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,954,1,,no,pending_usage_to_window_mapping,pending,
+UI0044,global:gText_BoxFull,gText_BoxFull,The BOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,2,c_u8,src/strings.c,255,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0045,global:gText_BoxIsFull2,gText_BoxIsFull2,The BOX is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,881,1,,no,pending_usage_to_window_mapping,pending,
+UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pending_usage_to_window_mapping,pending,
+UI0047,global:gText_ButtonMode,gText_ButtonMode,BUTTON MODE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1535,1,,no,pending_usage_to_window_mapping,pending,
+UI0048,global:gText_ButtonTypeLEqualsA,gText_ButtonTypeLEqualsA,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,,pending,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1549,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0049,global:gText_ButtonTypeLR,gText_ButtonTypeLR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1548,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0050,global:gText_ButtonTypeNormal,gText_ButtonTypeNormal,{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1547,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0051,global:gText_ByeByePkmn,gText_ByeByePkmn,"Bye-bye, {DYNAMIC 0}!",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,884,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0052,global:gText_Call,gText_Call,CALL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1001,1,,no,pending_usage_to_window_mapping,pending,
+UI0053,global:gText_CallCantBeMadeHere,gText_CallCantBeMadeHere,A call can't be made from here.,,pending,core_ui_prompt,english,POKENAV,1,c_u8,src/strings.c,1647,1,,no,pending_usage_to_window_mapping,pending,
+UI0054,global:gText_CanIHelpWithAnythingElse,gText_CanIHelpWithAnythingElse,Can I help you with anything else?,,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,360,1,,no,pending_usage_to_window_mapping,pending,
+UI0055,global:gText_Cancel,gText_Cancel,CANCEL,,pending,core_ui_label,english,MOVE_UI;PARTY_MENU;PC_STORAGE;SUMMARY,5,c_u8,src/strings.c,194,1,,no,pending_usage_to_window_mapping,pending,
+UI0056,global:gText_Cancel2,gText_Cancel2,CANCEL,,pending,core_ui_label,english,BAG;PARTY_MENU;PC_STORAGE;SHOP;SUMMARY,10,c_u8,src/strings.c,195,1,,no,pending_usage_to_window_mapping,pending,
+UI0057,global:gText_Cancel6,gText_Cancel6,CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1003,1,,no,pending_usage_to_window_mapping,pending,
+UI0058,global:gText_CancelBattle,gText_CancelBattle,Cancel the battle?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,473,1,,no,pending_usage_to_window_mapping,pending,
+UI0059,global:gText_CancelChallenge,gText_CancelChallenge,Cancel the challenge?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,475,1,,no,pending_usage_to_window_mapping,pending,
+UI0060,global:gText_CancelParticipation,gText_CancelParticipation,Cancel participation?,,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,472,1,,no,pending_usage_to_window_mapping,pending,
+UI0061,global:gText_CantBuyKeyItem,gText_CantBuyKeyItem,"{STR_VAR_2}? Oh, no.
+I can't buy that.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,362,2,{PAUSE_UNTIL_PRESS};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0062,global:gText_CantDismountBike,gText_CantDismountBike,You can't dismount your BIKE here.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,1,c_u8,src/strings.c,243,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0063,global:gText_CantStoreImportantItems,gText_CantStoreImportantItems,"Important items
+can't be stored in
+the PC!",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,237,3,,no,pending_usage_to_window_mapping,pending,
+UI0064,global:gText_CantSurfHere,gText_CantSurfHere,You can't SURF here.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,439,1,,no,pending_usage_to_window_mapping,pending,
+UI0065,global:gText_CantSwitchWithAlly,gText_CantSwitchWithAlly,"You can't switch {STR_VAR_1}'s
+POKéMON with one of yours!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,386,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0066,global:gText_CantTradeWithTrainer,gText_CantTradeWithTrainer,"You can't trade with that
+TRAINER now.",,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,491,2,,no,pending_usage_to_window_mapping,pending,
+UI0067,global:gText_CantUseHere,gText_CantUseHere,Can't use that here.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,441,1,,no,pending_usage_to_window_mapping,pending,
+UI0068,global:gText_CantUseUntilNewBadge,gText_CantUseUntilNewBadge,"This can't be used until a new
+BADGE is obtained.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,388,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0069,global:gText_CantWriteMail,gText_CantWriteMail,"You can't write
+MAIL here.",,pending,core_ui_prompt,english,BAG,3,c_u8,src/strings.c,229,2,,no,pending_usage_to_window_mapping,pending,
+UI0070,global:gText_ChangedToNewItem,gText_ChangedToNewItem,Changed to {DYNAMIC 0}.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,901,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0071,global:gText_Check,gText_Check,CHECK,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1002,1,,no,pending_usage_to_window_mapping,pending,
+UI0072,global:gText_ChoosePokemon,gText_ChoosePokemon,Choose a POKéMON.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,432,1,,no,pending_usage_to_window_mapping,pending,
+UI0073,global:gText_ChoosePokemon2,gText_ChoosePokemon2,Choose a POKéMON.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,446,1,,no,pending_usage_to_window_mapping,pending,
+UI0074,global:gText_ChoosePokemonCancel,gText_ChoosePokemonCancel,Choose POKéMON or CANCEL.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,453,1,,no,pending_usage_to_window_mapping,pending,
+UI0075,global:gText_ChoosePokemonConfirm,gText_ChoosePokemonConfirm,Choose POKéMON and confirm.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,454,1,,no,pending_usage_to_window_mapping,pending,
+UI0076,global:gText_CloseBag,gText_CloseBag,CLOSE BAG,,pending,core_ui_label,english,BAG,1,c_u8,src/strings.c,227,1,,no,pending_usage_to_window_mapping,pending,
+UI0077,global:gText_CoinCase,gText_CoinCase,"Your COINS:
+{STR_VAR_1}{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,247,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0078,global:gText_ConfirmSave,gText_ConfirmSave,Would you like to save the game?,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,2,1,,no,pending_usage_to_window_mapping,pending,
+UI0079,global:gText_ConfirmTossItems,gText_ConfirmTossItems,"Is it okay to
+throw away {STR_VAR_2}
+{STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,241,3,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0080,global:gText_ContestMoves,gText_ContestMoves,C0NTEST MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,521,1,,no,pending_usage_to_window_mapping,pending,
+UI0081,global:gText_ContinueBoxOperations,gText_ContinueBoxOperations,Continue BOX operations?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,891,1,,no,pending_usage_to_window_mapping,pending,
+UI0082,global:gText_ContinueMenuBadges,gText_ContinueMenuBadges,BADGES,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1410,1,,no,pending_usage_to_window_mapping,pending,
+UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1407,1,,no,pending_usage_to_window_mapping,pending,
+UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pending_usage_to_window_mapping,pending,
+UI0085,global:gText_ContinueMenuTime,gText_ContinueMenuTime,TIME,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1408,1,,no,pending_usage_to_window_mapping,pending,
+UI0086,global:gText_CryOf,gText_CryOf,CRY OF,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,114,1,,no,pending_usage_to_window_mapping,pending,
+UI0087,global:gText_CurrentIsTooFast,gText_CurrentIsTooFast,The current is much too fast!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,451,1,,no,pending_usage_to_window_mapping,pending,
+UI0088,global:gText_DadsAdvice,gText_DadsAdvice,"DAD's advice…
+{PLAYER}, there's a time and place for\leverything!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,2,c_u8,src/strings.c,242,2,\l;{PAUSE_UNTIL_PRESS};{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0089,global:gText_Decoration,gText_Decoration,DECORATION,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,586,1,,no,pending_usage_to_window_mapping,pending,
+UI0090,global:gText_DefaultNameAllie,gText_DefaultNameAllie,ALLIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,90,1,,no,pending_usage_to_window_mapping,pending,
+UI0091,global:gText_DefaultNameAubree,gText_DefaultNameAubree,AUBREE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,95,1,,no,pending_usage_to_window_mapping,pending,
+UI0092,global:gText_DefaultNameBella,gText_DefaultNameBella,BELLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,88,1,,no,pending_usage_to_window_mapping,pending,
+UI0093,global:gText_DefaultNameBrett,gText_DefaultNameBrett,BRETT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,77,1,,no,pending_usage_to_window_mapping,pending,
+UI0094,global:gText_DefaultNameCamila,gText_DefaultNameCamila,CAMILA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,94,1,,no,pending_usage_to_window_mapping,pending,
+UI0095,global:gText_DefaultNameCasey,gText_DefaultNameCasey,CASEY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,80,1,,no,pending_usage_to_window_mapping,pending,
+UI0096,global:gText_DefaultNameCollin,gText_DefaultNameCollin,COLLIN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,83,1,,no,pending_usage_to_window_mapping,pending,
+UI0097,global:gText_DefaultNameDarren,gText_DefaultNameDarren,DARREN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,81,1,,no,pending_usage_to_window_mapping,pending,
+UI0098,global:gText_DefaultNameEaston,gText_DefaultNameEaston,EASTON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,73,1,,no,pending_usage_to_window_mapping,pending,
+UI0099,global:gText_DefaultNameHalie,gText_DefaultNameHalie,HALIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,105,1,,no,pending_usage_to_window_mapping,pending,
+UI0100,global:gText_DefaultNameHazel,gText_DefaultNameHazel,HAZEL,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,97,1,,no,pending_usage_to_window_mapping,pending,
+UI0101,global:gText_DefaultNameJaxson,gText_DefaultNameJaxson,JAXSON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,72,1,,no,pending_usage_to_window_mapping,pending,
+UI0102,global:gText_DefaultNameJayla,gText_DefaultNameJayla,JAYLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,89,1,,no,pending_usage_to_window_mapping,pending,
+UI0103,global:gText_DefaultNameJohnny,gText_DefaultNameJohnny,JOHNNY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,76,1,,no,pending_usage_to_window_mapping,pending,
+UI0104,global:gText_DefaultNameJude,gText_DefaultNameJude,JUDE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,71,1,,no,pending_usage_to_window_mapping,pending,
+UI0105,global:gText_DefaultNameKenny,gText_DefaultNameKenny,KENNY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,69,1,,no,pending_usage_to_window_mapping,pending,
+UI0106,global:gText_DefaultNameKimmy,gText_DefaultNameKimmy,KIMMY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,86,1,,no,pending_usage_to_window_mapping,pending,
+UI0107,global:gText_DefaultNameLandon,gText_DefaultNameLandon,LANDON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,82,1,,no,pending_usage_to_window_mapping,pending,
+UI0108,global:gText_DefaultNameLianna,gText_DefaultNameLianna,LIANNA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,91,1,,no,pending_usage_to_window_mapping,pending,
+UI0109,global:gText_DefaultNameLillie,gText_DefaultNameLillie,LILLIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,102,1,,no,pending_usage_to_window_mapping,pending,
+UI0110,global:gText_DefaultNameLucy,gText_DefaultNameLucy,LUCY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,104,1,,no,pending_usage_to_window_mapping,pending,
+UI0111,global:gText_DefaultNameMilton,gText_DefaultNameMilton,MILTON,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,67,1,,no,pending_usage_to_window_mapping,pending,
+UI0112,global:gText_DefaultNameMonica,gText_DefaultNameMonica,MONICA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,93,1,,no,pending_usage_to_window_mapping,pending,
+UI0113,global:gText_DefaultNameNadine,gText_DefaultNameNadine,NADINE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,98,1,,no,pending_usage_to_window_mapping,pending,
+UI0114,global:gText_DefaultNameNicola,gText_DefaultNameNicola,NICOLA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,101,1,,no,pending_usage_to_window_mapping,pending,
+UI0115,global:gText_DefaultNameQuincy,gText_DefaultNameQuincy,QUINCY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,85,1,,no,pending_usage_to_window_mapping,pending,
+UI0116,global:gText_DefaultNameReid,gText_DefaultNameReid,REID,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,70,1,,no,pending_usage_to_window_mapping,pending,
+UI0117,global:gText_DefaultNameRuthie,gText_DefaultNameRuthie,RUTHIE,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,96,1,,no,pending_usage_to_window_mapping,pending,
+UI0118,global:gText_DefaultNameSara,gText_DefaultNameSara,SARA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,92,1,,no,pending_usage_to_window_mapping,pending,
+UI0119,global:gText_DefaultNameSeth,gText_DefaultNameSeth,SETH,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,78,1,,no,pending_usage_to_window_mapping,pending,
+UI0120,global:gText_DefaultNameStanley,gText_DefaultNameStanley,STANLEY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,84,1,,no,pending_usage_to_window_mapping,pending,
+UI0121,global:gText_DefaultNameStu,gText_DefaultNameStu,STU,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,66,1,,no,pending_usage_to_window_mapping,pending,
+UI0122,global:gText_DefaultNameTanja,gText_DefaultNameTanja,TANJA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,99,1,,no,pending_usage_to_window_mapping,pending,
+UI0123,global:gText_DefaultNameTerra,gText_DefaultNameTerra,TERRA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,103,1,,no,pending_usage_to_window_mapping,pending,
+UI0124,global:gText_DefaultNameTerry,gText_DefaultNameTerry,TERRY,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,79,1,,no,pending_usage_to_window_mapping,pending,
+UI0125,global:gText_DefaultNameTeru,gText_DefaultNameTeru,TERU,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,75,1,,no,pending_usage_to_window_mapping,pending,
+UI0126,global:gText_DefaultNameTiara,gText_DefaultNameTiara,TIARA,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,87,1,,no,pending_usage_to_window_mapping,pending,
+UI0127,global:gText_DefaultNameTom,gText_DefaultNameTom,TOM,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,68,1,,no,pending_usage_to_window_mapping,pending,
+UI0128,global:gText_DefaultNameWalker,gText_DefaultNameWalker,WALKER,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,74,1,,no,pending_usage_to_window_mapping,pending,
+UI0129,global:gText_DefaultNameYasmin,gText_DefaultNameYasmin,YASMIN,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,100,1,,no,pending_usage_to_window_mapping,pending,
+UI0130,global:gText_Defense3,gText_Defense3,DEFENSE,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,498,1,,no,pending_usage_to_window_mapping,pending,
+UI0131,global:gText_DepositHowManyVar1,gText_DepositHowManyVar1,"Deposit how many
+{STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,234,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0132,global:gText_DepositInWhichBox,gText_DepositInWhichBox,Deposit in which BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,879,1,,no,pending_usage_to_window_mapping,pending,
+UI0133,global:gText_DepositItem,gText_DepositItem,DEPOSIT ITEM,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,589,1,,no,pending_usage_to_window_mapping,pending,
+UI0134,global:gText_DepositMonDescription,gText_DepositMonDescription,Store POKéMON in your party in BOXES.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,948,1,,no,pending_usage_to_window_mapping,pending,
+UI0135,global:gText_DepositPokemon,gText_DepositPokemon,DEPOSIT POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,943,1,,no,pending_usage_to_window_mapping,pending,
+UI0136,global:gText_DepositedVar2Var1s,gText_DepositedVar2Var1s,"Deposited {STR_VAR_2}
+{STR_VAR_1}(s).",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,235,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0137,global:gText_DexEmptyString,gText_DexEmptyString,,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,39,c_u8,src/strings.c,167,0,,no,pending_usage_to_window_mapping,pending,
+UI0138,global:gText_DexHoennDescription,gText_DexHoennDescription,HOENN region's POKéDEX,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,159,1,,no,pending_usage_to_window_mapping,pending,
+UI0139,global:gText_DexHoennTitle,gText_DexHoennTitle,HOENN DEX,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,132,1,,no,pending_usage_to_window_mapping,pending,
+UI0140,global:gText_DexNatDescription,gText_DexNatDescription,National edition POKéDEX,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,160,1,,no,pending_usage_to_window_mapping,pending,
+UI0141,global:gText_DexNatTitle,gText_DexNatTitle,NATIONAL DEX,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,133,1,,no,pending_usage_to_window_mapping,pending,
+UI0142,global:gText_DexSearchAlphaABC,gText_DexSearchAlphaABC,ABC,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,140,1,,no,pending_usage_to_window_mapping,pending,
+UI0143,global:gText_DexSearchAlphaDEF,gText_DexSearchAlphaDEF,DEF,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,141,1,,no,pending_usage_to_window_mapping,pending,
+UI0144,global:gText_DexSearchAlphaGHI,gText_DexSearchAlphaGHI,GHI,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,142,1,,no,pending_usage_to_window_mapping,pending,
+UI0145,global:gText_DexSearchAlphaJKL,gText_DexSearchAlphaJKL,JKL,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,143,1,,no,pending_usage_to_window_mapping,pending,
+UI0146,global:gText_DexSearchAlphaMNO,gText_DexSearchAlphaMNO,MNO,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,144,1,,no,pending_usage_to_window_mapping,pending,
+UI0147,global:gText_DexSearchAlphaPQR,gText_DexSearchAlphaPQR,PQR,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,145,1,,no,pending_usage_to_window_mapping,pending,
+UI0148,global:gText_DexSearchAlphaSTU,gText_DexSearchAlphaSTU,STU,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,146,1,,no,pending_usage_to_window_mapping,pending,
+UI0149,global:gText_DexSearchAlphaVWX,gText_DexSearchAlphaVWX,VWX,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,147,1,,no,pending_usage_to_window_mapping,pending,
+UI0150,global:gText_DexSearchAlphaYZ,gText_DexSearchAlphaYZ,YZ,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,148,1,,no,pending_usage_to_window_mapping,pending,
+UI0151,global:gText_DexSearchColorBlack,gText_DexSearchColorBlack,BLACK,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,153,1,,no,pending_usage_to_window_mapping,pending,
+UI0152,global:gText_DexSearchColorBlue,gText_DexSearchColorBlue,BLUE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,150,1,,no,pending_usage_to_window_mapping,pending,
+UI0153,global:gText_DexSearchColorBrown,gText_DexSearchColorBrown,BROWN,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,154,1,,no,pending_usage_to_window_mapping,pending,
+UI0154,global:gText_DexSearchColorGray,gText_DexSearchColorGray,GRAY,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,156,1,,no,pending_usage_to_window_mapping,pending,
+UI0155,global:gText_DexSearchColorGreen,gText_DexSearchColorGreen,GREEN,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,152,1,,no,pending_usage_to_window_mapping,pending,
+UI0156,global:gText_DexSearchColorPink,gText_DexSearchColorPink,PINK,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,158,1,,no,pending_usage_to_window_mapping,pending,
+UI0157,global:gText_DexSearchColorPurple,gText_DexSearchColorPurple,PURPLE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,155,1,,no,pending_usage_to_window_mapping,pending,
+UI0158,global:gText_DexSearchColorRed,gText_DexSearchColorRed,RED,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,149,1,,no,pending_usage_to_window_mapping,pending,
+UI0159,global:gText_DexSearchColorWhite,gText_DexSearchColorWhite,WHITE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,157,1,,no,pending_usage_to_window_mapping,pending,
+UI0160,global:gText_DexSearchColorYellow,gText_DexSearchColorYellow,YELLOW,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,151,1,,no,pending_usage_to_window_mapping,pending,
+UI0161,global:gText_DexSearchDontSpecify,gText_DexSearchDontSpecify,DON'T SPECIFY.,,pending,core_ui_prompt,english,POKEDEX,2,c_u8,src/strings.c,168,1,,no,pending_usage_to_window_mapping,pending,
+UI0162,global:gText_DexSearchTypeNone,gText_DexSearchTypeNone,NONE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,169,1,,no,pending_usage_to_window_mapping,pending,
+UI0163,global:gText_DexSortAtoZDescription,gText_DexSortAtoZDescription,"Spotted and owned POKéMON are listed
+alphabetically.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,162,2,,no,pending_usage_to_window_mapping,pending,
+UI0164,global:gText_DexSortAtoZTitle,gText_DexSortAtoZTitle,A TO Z MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,135,1,,no,pending_usage_to_window_mapping,pending,
+UI0165,global:gText_DexSortHeaviestDescription,gText_DexSortHeaviestDescription,"Owned POKéMON are listed from the
+heaviest to the lightest.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,163,2,,no,pending_usage_to_window_mapping,pending,
+UI0166,global:gText_DexSortHeaviestTitle,gText_DexSortHeaviestTitle,HEAVIEST MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,136,1,,no,pending_usage_to_window_mapping,pending,
+UI0167,global:gText_DexSortLightestDescription,gText_DexSortLightestDescription,"Owned POKéMON are listed from the
+lightest to the heaviest.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,164,2,,no,pending_usage_to_window_mapping,pending,
+UI0168,global:gText_DexSortLightestTitle,gText_DexSortLightestTitle,LIGHTEST MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,137,1,,no,pending_usage_to_window_mapping,pending,
+UI0169,global:gText_DexSortNumericalDescription,gText_DexSortNumericalDescription,"POKéMON are listed according to their
+number.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,161,2,,no,pending_usage_to_window_mapping,pending,
+UI0170,global:gText_DexSortNumericalTitle,gText_DexSortNumericalTitle,NUMERICAL MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,134,1,,no,pending_usage_to_window_mapping,pending,
+UI0171,global:gText_DexSortSmallestDescription,gText_DexSortSmallestDescription,"Owned POKéMON are listed from the
+smallest to the tallest.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,166,2,,no,pending_usage_to_window_mapping,pending,
+UI0172,global:gText_DexSortSmallestTitle,gText_DexSortSmallestTitle,SMALLEST MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,139,1,,no,pending_usage_to_window_mapping,pending,
+UI0173,global:gText_DexSortTallestDescription,gText_DexSortTallestDescription,"Owned POKéMON are listed from the
+tallest to the smallest.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,165,2,,no,pending_usage_to_window_mapping,pending,
+UI0174,global:gText_DexSortTallestTitle,gText_DexSortTallestTitle,TALLEST MODE,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,138,1,,no,pending_usage_to_window_mapping,pending,
+UI0175,global:gText_DifferentSaveFile,gText_DifferentSaveFile,"WARNING!\pThere is a different game file that
+is already saved.\pIf you save now, the other file's
+adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
+and overwrite the other save file?",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pending_usage_to_window_mapping,pending,
+UI0176,global:gText_DoWhatWithItem,gText_DoWhatWithItem,Do what with an item?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,444,1,,no,pending_usage_to_window_mapping,pending,
+UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,452,1,,no,pending_usage_to_window_mapping,pending,
+UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pending_usage_to_window_mapping,pending,
+UI0179,global:gText_DontHave,gText_DontHave,DON'T HAVE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,469,1,,no,pending_usage_to_window_mapping,pending,
+UI0180,global:gText_EggAboutToHatch,gText_EggAboutToHatch,"It's making sounds.
+It's about to hatch!",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,526,2,,no,pending_usage_to_window_mapping,pending,
+UI0181,global:gText_EggCantBattle,gText_EggCantBattle,An EGG can't battle!{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,387,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0182,global:gText_EggCantBeTradedNow,gText_EggCantBeTradedNow,An EGG can't be traded now.,,pending,core_ui_prompt,english,PARTY_MENU,3,c_u8,src/strings.c,485,1,,no,pending_usage_to_window_mapping,pending,
+UI0183,global:gText_EggFromHotSprings,gText_EggFromHotSprings,"A POKéMON EGG obtained
+at the hot springs.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,539,2,,no,pending_usage_to_window_mapping,pending,
+UI0184,global:gText_EggFromTraveler,gText_EggFromTraveler,"An odd POKéMON EGG
+obtained from a traveler.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,540,2,,no,pending_usage_to_window_mapping,pending,
+UI0185,global:gText_EggNickname,gText_EggNickname,EGG,,pending,core_ui_label,english,PC_STORAGE;POKENAV,2,c_u8,src/strings.c,21,1,,no,pending_usage_to_window_mapping,pending,
+UI0186,global:gText_EggWillHatchSoon,gText_EggWillHatchSoon,"It moves occasionally.
+It should hatch soon.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,525,2,,no,pending_usage_to_window_mapping,pending,
+UI0187,global:gText_EggWillTakeALongTime,gText_EggWillTakeALongTime,"It looks like this EGG will
+take a long time to hatch.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,523,2,,no,pending_usage_to_window_mapping,pending,
+UI0188,global:gText_EggWillTakeSomeTime,gText_EggWillTakeSomeTime,"What will hatch from this?
+It will take some time.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,524,2,,no,pending_usage_to_window_mapping,pending,
+UI0189,global:gText_EmptyString2,gText_EmptyString2,,,not_applicable,technical_not_translatable,nonlinguistic,BAG;PARTY_MENU,2,c_u8,src/strings.c,197,0,,no,pending_usage_to_window_mapping,pending,
+UI0190,global:gText_EmptyString5,gText_EmptyString5,,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,515,0,,no,pending_usage_to_window_mapping,pending,
+UI0191,global:gText_EnjoyCycling,gText_EnjoyCycling,Let's enjoy cycling!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,455,1,,no,pending_usage_to_window_mapping,pending,
+UI0192,global:gText_Enter,gText_Enter,ENTER,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,372,1,,no,pending_usage_to_window_mapping,pending,
+UI0193,global:gText_EscapeFromHere,gText_EscapeFromHere,"Want to escape from here and return
+to {STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,476,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0194,global:gText_ExecuteSearchSwitch,gText_ExecuteSearchSwitch,Execute search/switch.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,131,1,,no,pending_usage_to_window_mapping,pending,
+UI0195,global:gText_ExitFromBox,gText_ExitFromBox,Exit from the BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,873,1,,no,pending_usage_to_window_mapping,pending,
+UI0196,global:gText_ExpPoints,gText_ExpPoints,EXP. POINTS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,512,1,,no,pending_usage_to_window_mapping,pending,
+UI0197,global:gText_ExpandedPlaceholder_Empty,gText_ExpandedPlaceholder_Empty,,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/strings.c,7,0,,no,pending_usage_to_window_mapping,pending,
+UI0198,global:gText_FemaleSymbol,gText_FemaleSymbol,♀,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU;PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,213,1,,no,pending_usage_to_window_mapping,pending,
+UI0199,global:gText_First_PM,gText_First_PM,FIRST,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,460,1,,no,pending_usage_to_window_mapping,pending,
+UI0200,global:gText_FiveMarks,gText_FiveMarks,?????,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/strings.c,207,1,,no,pending_usage_to_window_mapping,pending,
+UI0201,global:gText_Floor1,gText_Floor1,Floor 1,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1575,1,,no,pending_usage_to_window_mapping,pending,
+UI0202,global:gText_Floor2,gText_Floor2,Floor 2,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1576,1,,no,pending_usage_to_window_mapping,pending,
+UI0203,global:gText_Floor3,gText_Floor3,Floor 3,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1577,1,,no,pending_usage_to_window_mapping,pending,
+UI0204,global:gText_Floor4,gText_Floor4,Floor 4,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1578,1,,no,pending_usage_to_window_mapping,pending,
+UI0205,global:gText_Floor5,gText_Floor5,Floor 5,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1579,1,,no,pending_usage_to_window_mapping,pending,
+UI0206,global:gText_Floor6,gText_Floor6,Floor 6,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1580,1,,no,pending_usage_to_window_mapping,pending,
+UI0207,global:gText_Floor7,gText_Floor7,Floor 7,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1581,1,,no,pending_usage_to_window_mapping,pending,
+UI0208,global:gText_FourEllipsesExclamation,gText_FourEllipsesExclamation,… … … … !,,not_applicable,technical_not_translatable,nonlinguistic,PC_STORAGE,1,c_u8,src/strings.c,894,1,,no,pending_usage_to_window_mapping,pending,
+UI0209,global:gText_Fourth,gText_Fourth,FOURTH,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,470,1,,no,pending_usage_to_window_mapping,pending,
+UI0210,global:gText_Frame,gText_Frame,FRAME,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1533,1,,no,pending_usage_to_window_mapping,pending,
+UI0211,global:gText_FrameType,gText_FrameType,{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1545,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0212,global:gText_FrameTypeNumber,gText_FrameTypeNumber,{COLOR GREEN}{SHADOW LIGHT_GREEN},,not_applicable,technical_not_translatable,nonlinguistic,OPTION_MENU,2,c_u8,src/strings.c,1546,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0213,global:gText_Give2,gText_Give2,GIVE,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,601,1,,no,pending_usage_to_window_mapping,pending,
+UI0214,global:gText_GiveToAPkmn,gText_GiveToAPkmn,GIVE to a POKéMON?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,896,1,,no,pending_usage_to_window_mapping,pending,
+UI0215,global:gText_GiveToWhichPokemon,gText_GiveToWhichPokemon,Give to which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,436,1,,no,pending_usage_to_window_mapping,pending,
+UI0216,global:gText_GoBackPrevMenu,gText_GoBackPrevMenu,"Go back to the
+previous menu.",,pending,core_ui_prompt,english,PC_STORAGE,2,c_u8,src/strings.c,221,2,,no,pending_usage_to_window_mapping,pending,
+UI0217,global:gText_HMMovesCantBeForgotten2,gText_HMMovesCantBeForgotten2,"HM moves can't be
+forgotten now.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,527,2,,no,pending_usage_to_window_mapping,pending,
+UI0218,global:gText_HP3,gText_HP3,HP,,pending,core_ui_label,english,PARTY_MENU,2,c_u8,src/strings.c,377,1,,no,pending_usage_to_window_mapping,pending,
+UI0219,global:gText_HP4,gText_HP4,HP,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,502,1,,no,pending_usage_to_window_mapping,pending,
+UI0220,global:gText_HTHeight,gText_HTHeight,HT,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,118,1,,no,pending_usage_to_window_mapping,pending,
+UI0221,global:gText_Have,gText_Have,HAVE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,468,1,,no,pending_usage_to_window_mapping,pending,
+UI0222,global:gText_HealthboxGender_Female,gText_HealthboxGender_Female,{COLOR DYNAMIC_COLOR1}♀,,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1264,1,{COLOR DYNAMIC_COLOR1},yes,pending_usage_to_window_mapping,pending,
+UI0223,global:gText_HealthboxGender_Male,gText_HealthboxGender_Male,{COLOR DYNAMIC_COLOR2}♂,,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1263,1,{COLOR DYNAMIC_COLOR2},yes,pending_usage_to_window_mapping,pending,
+UI0224,global:gText_HealthboxGender_None,gText_HealthboxGender_None,{COLOR DYNAMIC_COLOR2},,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1265,1,{COLOR DYNAMIC_COLOR2},yes,pending_usage_to_window_mapping,pending,
+UI0225,global:gText_HealthboxNickname,gText_HealthboxNickname,{HIGHLIGHT DARK_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1261,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
+UI0226,global:gText_HereYouGoThankYou,gText_HereYouGoThankYou,"Here you go!
+Thank you very much.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,353,2,,no,pending_usage_to_window_mapping,pending,
+UI0227,global:gText_HowManyToSell,gText_HowManyToSell,"{STR_VAR_2}?
+How many would you like to sell?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,363,2,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0228,global:gText_ICanPayVar1,gText_ICanPayVar1,"I can pay ¥{STR_VAR_1}.
+Would that be okay?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,364,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0229,global:gText_IDNumber2,gText_IDNumber2,{ID}{NO},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/strings.c,218,1,{ID};{NO},yes,pending_usage_to_window_mapping,pending,
+UI0230,global:gText_InBagVar1,gText_InBagVar1,IN BAG: {STR_VAR_1},,pending,core_ui_label,english,SHOP,1,c_u8,src/strings.c,346,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0231,global:gText_InParty,gText_InParty,IN PARTY,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,994,1,,no,pending_usage_to_window_mapping,pending,
+UI0232,global:gText_InUseAlready_PM,gText_InUseAlready_PM,This is in use already.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,456,1,,no,pending_usage_to_window_mapping,pending,
+UI0233,global:gText_Info,gText_Info,INFO,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,522,1,,no,pending_usage_to_window_mapping,pending,
+UI0234,global:gText_Item,gText_Item,ITEM,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,199,1,,no,pending_usage_to_window_mapping,pending,
+UI0235,global:gText_ItemFinderNearby,gText_ItemFinderNearby,"Huh?
+The ITEMFINDER's responding!\pThere's an item buried around here!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,244,2,\p;{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0236,global:gText_ItemFinderNothing,gText_ItemFinderNothing,"… … … …Nope!
+There's no response.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,246,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0237,global:gText_ItemFinderOnTop,gText_ItemFinderOnTop,"Oh!
+The ITEMFINDER's shaking wildly!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,245,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0238,global:gText_ItemIsNowHeld,gText_ItemIsNowHeld,{DYNAMIC 0} is now held.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,900,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0239,global:gText_ItemStorage,gText_ItemStorage,ITEM STORAGE,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,587,1,,no,pending_usage_to_window_mapping,pending,
+UI0240,global:gText_ItemThrownAway,gText_ItemThrownAway,"The {STR_VAR_1}
+was thrown away.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,430,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0241,global:gText_Jam,gText_Jam,JAM,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,510,1,,no,pending_usage_to_window_mapping,pending,
+UI0242,global:gText_JumpToWhichBox,gText_JumpToWhichBox,Jump to which BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,878,1,,no,pending_usage_to_window_mapping,pending,
+UI0243,global:gText_JustOnePkmn,gText_JustOnePkmn,There is just one POKéMON with you.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,952,1,,no,pending_usage_to_window_mapping,pending,
+UI0244,global:gText_Learned,gText_Learned,LEARNED,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,467,1,,no,pending_usage_to_window_mapping,pending,
+UI0245,global:gText_LevelSymbol,gText_LevelSymbol,{LV},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU;SUMMARY,2,c_u8,src/strings.c,214,1,{LV},yes,pending_usage_to_window_mapping,pending,
+UI0246,global:gText_LinkStandby,gText_LinkStandby,{PAUSE 16}Link standby…,,pending,system_message,english,BATTLE_UI,1,c_u8,src/battle_message.c,1274,1,{PAUSE 16},yes,pending_usage_to_window_mapping,pending,
+UI0247,global:gText_ListByBodyColor,gText_ListByBodyColor,"List by body color.
+Spotted POKéMON only.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,129,2,,no,pending_usage_to_window_mapping,pending,
+UI0248,global:gText_ListByFirstLetter,gText_ListByFirstLetter,"List by the first letter in the name.
+Spotted POKéMON only.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,128,2,,no,pending_usage_to_window_mapping,pending,
+UI0249,global:gText_ListByType,gText_ListByType,"List by type.
+Owned POKéMON only.",,pending,core_ui_prompt,english,POKEDEX,2,c_u8,src/strings.c,130,2,,no,pending_usage_to_window_mapping,pending,
+UI0250,global:gText_Mail,gText_Mail,MAIL,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,200,1,,no,pending_usage_to_window_mapping,pending,
+UI0251,global:gText_MailCantBeStored,gText_MailCantBeStored,MAIL can't be stored!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,902,1,,no,pending_usage_to_window_mapping,pending,
+UI0252,global:gText_MailMessageWillBeLost,gText_MailMessageWillBeLost,"If the MAIL is removed, the
+message will be lost. Okay?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,393,2,,no,pending_usage_to_window_mapping,pending,
+UI0253,global:gText_MailSentToPC,gText_MailSentToPC,The MAIL was sent to your PC.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,391,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0254,global:gText_MailTakenFromPkmn,gText_MailTakenFromPkmn,"MAIL was taken from the
+POKéMON.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,399,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0255,global:gText_MailToBagMessageErased,gText_MailToBagMessageErased,"The MAIL was returned to the BAG
+with its message erased.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,606,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0256,global:gText_MailTransferredFromMailbox,gText_MailTransferredFromMailbox,"MAIL was transferred from
+the MAILBOX.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,402,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0257,global:gText_Mailbox,gText_Mailbox,MAILBOX,,pending,core_ui_label,english,PC_STORAGE,3,c_u8,src/strings.c,588,1,,no,pending_usage_to_window_mapping,pending,
+UI0258,global:gText_MainMenuContinue,gText_MainMenuContinue,CONTINUE,,pending,core_ui_label,english,MAIN_MENU,3,c_u8,src/strings.c,25,1,,no,pending_usage_to_window_mapping,pending,
+UI0259,global:gText_MainMenuMysteryEvents,gText_MainMenuMysteryEvents,MYSTERY EVENTS,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,29,1,,no,pending_usage_to_window_mapping,pending,
+UI0260,global:gText_MainMenuMysteryGift,gText_MainMenuMysteryGift,MYSTERY GIFT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,27,1,,no,pending_usage_to_window_mapping,pending,
+UI0261,global:gText_MainMenuMysteryGift2,gText_MainMenuMysteryGift2,MYSTERY GIFT,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,28,1,,no,pending_usage_to_window_mapping,pending,
+UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกมส์,existing_thai_review,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pending_usage_to_window_mapping,pending,
+UI0263,global:gText_MainMenuOption,gText_MainMenuOption,OPTION,,pending,core_ui_label,english,MAIN_MENU,4,c_u8,src/strings.c,26,1,,no,pending_usage_to_window_mapping,pending,
+UI0264,global:gText_MaleSymbol,gText_MaleSymbol,♂,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU;PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,212,1,,no,pending_usage_to_window_mapping,pending,
+UI0265,global:gText_MarkYourPkmn,gText_MarkYourPkmn,Mark your POKéMON.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,885,1,,no,pending_usage_to_window_mapping,pending,
+UI0266,global:gText_MenuBag,gText_MenuBag,BAG,,pending,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1565,1,,no,pending_usage_to_window_mapping,pending,
+UI0267,global:gText_MenuExit,gText_MenuExit,EXIT,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1570,1,,no,pending_usage_to_window_mapping,pending,
+UI0268,global:gText_MenuOption,gText_MenuOption,OPTION,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1569,1,,no,pending_usage_to_window_mapping,pending,
+UI0269,global:gText_MenuPlayer,gText_MenuPlayer,{PLAYER},,not_applicable,technical_not_translatable,nonlinguistic,START_SAVE,2,c_u8,src/strings.c,1567,1,{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0270,global:gText_MenuPokedex,gText_MenuPokedex,POKéDEX,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1563,1,,no,pending_usage_to_window_mapping,pending,
+UI0271,global:gText_MenuPokemon,gText_MenuPokemon,POKéMON,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1564,1,,no,pending_usage_to_window_mapping,pending,
+UI0272,global:gText_MenuPokenav,gText_MenuPokenav,POKéNAV,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1566,1,,no,pending_usage_to_window_mapping,pending,
+UI0273,global:gText_MenuRest,gText_MenuRest,REST,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1572,1,,no,pending_usage_to_window_mapping,pending,
+UI0274,global:gText_MenuRetire,gText_MenuRetire,RETIRE,,pending,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1571,1,,no,pending_usage_to_window_mapping,pending,
+UI0275,global:gText_MenuSave,gText_MenuSave,SAVE,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1568,1,,no,pending_usage_to_window_mapping,pending,
+UI0276,global:gText_MessageWillBeLost,gText_MessageWillBeLost,"The message will be lost.
+Is that okay?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,604,2,,no,pending_usage_to_window_mapping,pending,
+UI0277,global:gText_MoveInterfacePP,gText_MoveInterfacePP,PP\x20,,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1277,1,,no,pending_usage_to_window_mapping,pending,
+UI0278,global:gText_MoveInterfaceType,gText_MoveInterfaceType,TYPE/,,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1278,1,,no,pending_usage_to_window_mapping,pending,
+UI0279,global:gText_MoveItems,gText_MoveItems,MOVE ITEMS,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,945,1,,no,pending_usage_to_window_mapping,pending,
+UI0280,global:gText_MoveItemsDescription,gText_MoveItemsDescription,"Move items held by any POKéMON
+in a BOX or your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,950,2,,no,pending_usage_to_window_mapping,pending,
+UI0281,global:gText_MoveMonDescription,gText_MoveMonDescription,"Organize the POKéMON in BOXES and
+in your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,949,2,,no,pending_usage_to_window_mapping,pending,
+UI0282,global:gText_MoveNotLearned,gText_MoveNotLearned,"{STR_VAR_1} did not learn the
+move {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,408,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pending_usage_to_window_mapping,pending,
+UI0284,global:gText_MovePokemon,gText_MovePokemon,MOVE POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,944,1,,no,pending_usage_to_window_mapping,pending,
+UI0285,global:gText_MoveRelearnerAndPoof,gText_MoveRelearnerAndPoof,"{PAUSE 32}1, {PAUSE 15}2, and {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1862,1,\p;{PAUSE 15};{PAUSE 32};{PLAY_SE SE_BALL_BOUNCE_1},yes,pending_usage_to_window_mapping,pending,
+UI0286,global:gText_MoveRelearnerGiveUp,gText_MoveRelearnerGiveUp,"Give up trying to teach a new
+move to {STR_VAR_1}?",,pending,core_ui_prompt,english,MOVE_UI,1,c_u8,src/strings.c,1865,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0287,global:gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,{STR_VAR_1} forgot {STR_VAR_3}.\pAnd…\p{STR_VAR_1} learned {STR_VAR_2}.,,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1863,1,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+UI0288,global:gText_MoveRelearnerPkmnLearnedMove,gText_MoveRelearnerPkmnLearnedMove,"{STR_VAR_1} learned
+{STR_VAR_2}!",,pending,core_ui_prompt,english,MOVE_UI,1,c_u8,src/strings.c,1859,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0289,global:gText_MoveRelearnerPkmnTryingToLearnMove,gText_MoveRelearnerPkmnTryingToLearnMove,"{STR_VAR_1} is trying to learn
+{STR_VAR_2}.\pBut {STR_VAR_1} can't learn more
+than four moves.\pDelete an older move to make
+room for {STR_VAR_2}?",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1860,4,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0290,global:gText_MoveRelearnerStopTryingToTeachMove,gText_MoveRelearnerStopTryingToTeachMove,"Stop trying to teach
+{STR_VAR_2}?",,pending,core_ui_prompt,english,MOVE_UI,1,c_u8,src/strings.c,1861,2,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0291,global:gText_MoveRelearnerTeachMoveConfirm,gText_MoveRelearnerTeachMoveConfirm,Teach {STR_VAR_2}?,,pending,core_ui_prompt,english,MOVE_UI,1,c_u8,src/strings.c,1858,1,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0292,global:gText_MoveRelearnerWhichMoveToForget,gText_MoveRelearnerWhichMoveToForget,"Which move should be
+forgotten?\p",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1866,2,\p,yes,pending_usage_to_window_mapping,pending,
+UI0293,global:gText_MoveToBag,gText_MoveToBag,MOVE TO BAG,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,600,1,,no,pending_usage_to_window_mapping,pending,
+UI0294,global:gText_MoveToWhere,gText_MoveToWhere,Move to where?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,433,1,,no,pending_usage_to_window_mapping,pending,
+UI0295,global:gText_MoveVar1Where,gText_MoveVar1Where,"Move the
+{STR_VAR_1}
+where?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,231,3,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0296,global:gText_MovesPPIncreased,gText_MovesPPIncreased,{STR_VAR_1}'s PP increased.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,421,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0297,global:gText_MysteryEventsCantUse,gText_MysteryEventsCantUse,"MYSTERY EVENTS can't be used while
+the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pending_usage_to_window_mapping,pending,
+UI0298,global:gText_MysteryGiftCantUse,gText_MysteryGiftCantUse,"MYSTERY GIFT can't be used while
+the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pending_usage_to_window_mapping,pending,
+UI0299,global:gText_NamingScreenKeyboard_01234,gText_NamingScreenKeyboard_01234,{CLEAR 11}0{CLEAR 16}1{CLEAR 16}2{CLEAR 16}3{CLEAR 16}4{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,18,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
+UI0300,global:gText_NamingScreenKeyboard_56789,gText_NamingScreenKeyboard_56789,{CLEAR 11}5{CLEAR 16}6{CLEAR 16}7{CLEAR 16}8{CLEAR 16}9{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,19,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
+UI0301,global:gText_NamingScreenKeyboard_ABCDEF,gText_NamingScreenKeyboard_ABCDEF,{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,14,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0302,global:gText_NamingScreenKeyboard_GHIJKL,gText_NamingScreenKeyboard_GHIJKL,"{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L{CLEAR 6} {CLEAR 30},",,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,15,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0303,global:gText_NamingScreenKeyboard_MNOPQRS,gText_NamingScreenKeyboard_MNOPQRS,{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,16,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0304,global:gText_NamingScreenKeyboard_Symbols1,gText_NamingScreenKeyboard_Symbols1,{CLEAR 12}!{CLEAR 17}?{CLEAR 16}♂{CLEAR 16}♀{CLEAR 16}/{CLEAR 17}-,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,20,1,{CLEAR 12};{CLEAR 16};{CLEAR 17},yes,pending_usage_to_window_mapping,pending,
+UI0305,global:gText_NamingScreenKeyboard_Symbols2,gText_NamingScreenKeyboard_Symbols2,{CLEAR 11}…{CLEAR 16}“{CLEAR 16}”{CLEAR 18}‘{CLEAR 19}'{CLEAR 18}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,21,1,{CLEAR 11};{CLEAR 16};{CLEAR 18};{CLEAR 19},yes,pending_usage_to_window_mapping,pending,
+UI0306,global:gText_NamingScreenKeyboard_TUVWXYZ,gText_NamingScreenKeyboard_TUVWXYZ,{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,17,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0307,global:gText_NamingScreenKeyboard_abcdef,gText_NamingScreenKeyboard_abcdef,{CLEAR 11}a{CLEAR 6}b{CLEAR 6}c{CLEAR 26}d{CLEAR 6}e{CLEAR 6}f{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,10,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0308,global:gText_NamingScreenKeyboard_ghijkl,gText_NamingScreenKeyboard_ghijkl,"{CLEAR 11}g{CLEAR 6}h{CLEAR 7}i{CLEAR 27}j{CLEAR 7}k{CLEAR 7}l{CLEAR 7} {CLEAR 30},",,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,11,1,{CLEAR 11};{CLEAR 27};{CLEAR 30};{CLEAR 6};{CLEAR 7},yes,pending_usage_to_window_mapping,pending,
+UI0309,global:gText_NamingScreenKeyboard_mnopqrs,gText_NamingScreenKeyboard_mnopqrs,{CLEAR 11}m{CLEAR 6}n{CLEAR 6}o{CLEAR 26}p{CLEAR 6}q{CLEAR 7}r{CLEAR 6}s{CLEAR 27}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,12,1,{CLEAR 11};{CLEAR 26};{CLEAR 27};{CLEAR 6};{CLEAR 7},yes,pending_usage_to_window_mapping,pending,
+UI0310,global:gText_NamingScreenKeyboard_tuvwxyz,gText_NamingScreenKeyboard_tuvwxyz,{CLEAR 11}t{CLEAR 6}u{CLEAR 6}v{CLEAR 26}w{CLEAR 6}x{CLEAR 6}y{CLEAR 6}z{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,13,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
+UI0311,global:gText_NextLv,gText_NextLv,NEXT LV.,,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,513,1,,no,pending_usage_to_window_mapping,pending,
+UI0312,global:gText_NoEntry,gText_NoEntry,NO ENTRY,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,373,1,,no,pending_usage_to_window_mapping,pending,
+UI0313,global:gText_NoIdenticalHoldItems,gText_NoIdenticalHoldItems,No identical hold items.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,450,1,,no,pending_usage_to_window_mapping,pending,
+UI0314,global:gText_NoItems,gText_NoItems,There are no items.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,2,c_u8,src/strings.c,595,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0315,global:gText_NoMailHere,gText_NoMailHere,There's no MAIL here.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,2,c_u8,src/strings.c,602,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0316,global:gText_NoMatchingPkmnWereFound,gText_NoMatchingPkmnWereFound,No matching POKéMON were found.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,122,1,,no,pending_usage_to_window_mapping,pending,
+UI0317,global:gText_NoMoreRoomForThis,gText_NoMoreRoomForThis,"You have no more room for this
+item.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,SHOP,1,c_u8,src/strings.c,357,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0318,global:gText_NoMoreThanVar1Pkmn,gText_NoMoreThanVar1Pkmn,"No more than {STR_VAR_1} POKéMON
+may enter.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,389,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0319,global:gText_NoPokemon,gText_NoPokemon,"There is no
+POKéMON.",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,230,2,,no,pending_usage_to_window_mapping,pending,
+UI0320,global:gText_NoPokemonForBattle,gText_NoPokemonForBattle,No POKéMON for battle!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,445,1,,no,pending_usage_to_window_mapping,pending,
+UI0321,global:gText_NoRoomForItems,gText_NoRoomForItems,"There's no room to
+store items.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,236,2,,no,pending_usage_to_window_mapping,pending,
+UI0322,global:gText_NoRoomInBag,gText_NoRoomInBag,"There is no more
+room in the BAG.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,596,2,,no,pending_usage_to_window_mapping,pending,
+UI0323,global:gText_NoUse,gText_NoUse,No use.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,458,1,,no,pending_usage_to_window_mapping,pending,
+UI0324,global:gText_None,gText_None,NONE,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,204,1,,no,pending_usage_to_window_mapping,pending,
+UI0325,global:gText_NotAble,gText_NotAble,NOT ABLE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,464,1,,no,pending_usage_to_window_mapping,pending,
+UI0326,global:gText_NotAble2,gText_NotAble2,NOT ABLE!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,466,1,,no,pending_usage_to_window_mapping,pending,
+UI0327,global:gText_NotEnoughHp,gText_NotEnoughHp,Not enough HP…,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,447,1,,no,pending_usage_to_window_mapping,pending,
+UI0328,global:gText_NotPkmnOtherTrainerWants,gText_NotPkmnOtherTrainerWants,"That isn't the type of POKéMON
+that the other TRAINER wants.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,493,2,,no,pending_usage_to_window_mapping,pending,
+UI0329,global:gText_NothingToCut,gText_NothingToCut,There's nothing to CUT.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,438,1,,no,pending_usage_to_window_mapping,pending,
+UI0330,global:gText_NumberClear01,gText_NumberClear01,{NO}{CLEAR 1},,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX;SUMMARY,2,c_u8,src/strings.c,215,1,{CLEAR 1};{NO},yes,pending_usage_to_window_mapping,pending,
+UI0331,global:gText_NumberIndex,gText_NumberIndex,No. {DYNAMIC 0},,pending,core_ui_prompt,english,POKENAV,1,c_u8,src/strings.c,1004,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0332,global:gText_NumberItem_HM,gText_NumberItem_HM,{CLEAR_TO 17}{STR_VAR_1}{CLEAR 5}{STR_VAR_2},,not_applicable,technical_not_translatable,nonlinguistic,BAG,1,c_u8,src/strings.c,301,1,{CLEAR 5};{CLEAR_TO 17};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0333,global:gText_NumberItem_TMBerry,gText_NumberItem_TMBerry,{NO}{STR_VAR_1}{CLEAR 7}{STR_VAR_2},,not_applicable,technical_not_translatable,nonlinguistic,BAG,2,c_u8,src/strings.c,300,1,{CLEAR 7};{NO};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0334,global:gText_NumberOfBattles,gText_NumberOfBattles,No. of battles,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,972,1,,no,pending_usage_to_window_mapping,pending,
+UI0335,global:gText_NumberRegistered,gText_NumberRegistered,No. registered,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,971,1,,no,pending_usage_to_window_mapping,pending,
+UI0336,global:gText_OTSlash,gText_OTSlash,OT/,,pending,core_ui_label,english,SUMMARY,4,c_u8,src/strings.c,504,1,,no,pending_usage_to_window_mapping,pending,
+UI0337,global:gText_OddEggFoundByCouple,gText_OddEggFoundByCouple,"An odd POKéMON EGG found
+by the DAY CARE couple.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,536,2,,no,pending_usage_to_window_mapping,pending,
+UI0338,global:gText_OneDash,gText_OneDash,-,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,209,1,,no,pending_usage_to_window_mapping,pending,
+UI0339,global:gText_OnlyPkmnForBattle,gText_OnlyPkmnForBattle,"That's your only
+POKéMON for battle.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,481,2,,no,pending_usage_to_window_mapping,pending,
+UI0340,global:gText_Option,gText_Option,OPTION,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1528,1,,no,pending_usage_to_window_mapping,pending,
+UI0341,global:gText_OptionMenuCancel,gText_OptionMenuCancel,CANCEL,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1534,1,,no,pending_usage_to_window_mapping,pending,
+UI0342,global:gText_OtherTrainerCantAcceptPkmn,gText_OtherTrainerCantAcceptPkmn,"The other TRAINER can't accept
+that POKéMON now.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,489,2,,no,pending_usage_to_window_mapping,pending,
+UI0343,global:gText_OtherTrainersPkmnCantBeTraded,gText_OtherTrainersPkmnCantBeTraded,"The other TRAINER's POKéMON
+can't be traded now.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,487,2,,no,pending_usage_to_window_mapping,pending,
+UI0344,global:gText_PCMailboxFull,gText_PCMailboxFull,Your PC's MAILBOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,392,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0345,global:gText_PPWasRestored,gText_PPWasRestored,PP was restored.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,418,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0346,global:gText_PartyFull,gText_PartyFull,Your party is full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,953,1,,no,pending_usage_to_window_mapping,pending,
+UI0347,global:gText_PauseUntilPress,gText_PauseUntilPress,{PAUSE_UNTIL_PRESS},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU,3,c_u8,src/strings.c,478,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0348,global:gText_Peak,gText_Peak,Peak,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pending_usage_to_window_mapping,pending,
+UI0349,global:gText_PeculiarEggNicePlace,gText_PeculiarEggNicePlace,"A peculiar POKéMON EGG
+obtained at the nice place.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,537,2,,no,pending_usage_to_window_mapping,pending,
+UI0350,global:gText_PeculiarEggTrade,gText_PeculiarEggTrade,"A peculiar POKéMON EGG
+obtained in a trade.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,538,2,,no,pending_usage_to_window_mapping,pending,
+UI0351,global:gText_PickTheWallpaper,gText_PickTheWallpaper,Pick the wallpaper.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,876,1,,no,pending_usage_to_window_mapping,pending,
+UI0352,global:gText_PkmnAdoresBaseVar2Fell,gText_PkmnAdoresBaseVar2Fell,"{STR_VAR_1} adores you!
+The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,425,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0353,global:gText_PkmnAlreadyHoldingItemSwitch,gText_PkmnAlreadyHoldingItemSwitch,"{STR_VAR_1} is already holding
+one {STR_VAR_2}.\pWould you like to switch the
+two items?",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,396,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0354,global:gText_PkmnAlreadyInBattle,gText_PkmnAlreadyInBattle,"{STR_VAR_1} is already
+in battle!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,383,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0355,global:gText_PkmnAlreadyKnows,gText_PkmnAlreadyKnows,"{STR_VAR_1} already knows
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,411,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0356,global:gText_PkmnAlreadySelected,gText_PkmnAlreadySelected,"{STR_VAR_1} has already been
+selected.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,384,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0357,global:gText_PkmnBaseVar2StatIncreased,gText_PkmnBaseVar2StatIncreased,"{STR_VAR_1}'s base {STR_VAR_2}
+stat was raised.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,6,c_u8,src/strings.c,423,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0358,global:gText_PkmnBecameHealthy,gText_PkmnBecameHealthy,{STR_VAR_1} became healthy.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,420,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0359,global:gText_PkmnBurnHealed,gText_PkmnBurnHealed,{STR_VAR_1}'s burn was healed.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,416,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0360,global:gText_PkmnCameBack,gText_PkmnCameBack,{DYNAMIC 0} came back!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,892,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0361,global:gText_PkmnCantBeTradedNow,gText_PkmnCantBeTradedNow,"That POKéMON can't be traded
+now.",,pending,core_ui_prompt,english,PARTY_MENU,4,c_u8,src/strings.c,483,2,,no,pending_usage_to_window_mapping,pending,
+UI0362,global:gText_PkmnCantLearnMove,gText_PkmnCantLearnMove,"{STR_VAR_1} and {STR_VAR_2}
+are not compatible.\p{STR_VAR_2} can't be
+learned.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,405,3,\p;{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0363,global:gText_PkmnCantParticipate,gText_PkmnCantParticipate,That POKéMON can't participate.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,471,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0364,global:gText_PkmnCantSwitchOut,gText_PkmnCantSwitchOut,"{STR_VAR_1} can't be switched
+out!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,382,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0365,global:gText_PkmnCuredOfParalysis,gText_PkmnCuredOfParalysis,"{STR_VAR_1} was cured of
+paralysis.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,414,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0366,global:gText_PkmnCuredOfPoison,gText_PkmnCuredOfPoison,"{STR_VAR_1} was cured of its
+poisoning.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,413,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0367,global:gText_PkmnElevatedToLvVar2,gText_PkmnElevatedToLvVar2,"{STR_VAR_1} was elevated to
+Lv. {STR_VAR_2}.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,422,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0368,global:gText_PkmnFriendlyBaseVar2CantFall,gText_PkmnFriendlyBaseVar2CantFall,"{STR_VAR_1} turned friendly.
+The base {STR_VAR_2} can't fall!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,426,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0369,global:gText_PkmnFriendlyBaseVar2Fell,gText_PkmnFriendlyBaseVar2Fell,"{STR_VAR_1} turned friendly.
+The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,424,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0370,global:gText_PkmnGotOverInfatuation,gText_PkmnGotOverInfatuation,"{STR_VAR_1} got over its
+infatuation.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,428,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0371,global:gText_PkmnHPRestoredByVar2,gText_PkmnHPRestoredByVar2,"{STR_VAR_1}'s HP was restored
+by {STR_VAR_2} point(s).{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,412,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0372,global:gText_PkmnHasNoEnergy,gText_PkmnHasNoEnergy,"{STR_VAR_1} has no energy
+left to battle!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,385,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0373,global:gText_PkmnHoldingItemCantHoldMail,gText_PkmnHoldingItemCantHoldMail,"This POKéMON is holding an
+item. It cannot hold MAIL.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,401,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0374,global:gText_PkmnInfo,gText_PkmnInfo,POKéMON INFO,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,518,1,,no,pending_usage_to_window_mapping,pending,
+UI0375,global:gText_PkmnIsSelected,gText_PkmnIsSelected,{DYNAMIC 0} is selected.,,pending,core_ui_prompt,english,PC_STORAGE,2,c_u8,src/strings.c,877,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0376,global:gText_PkmnLearnedMove3,gText_PkmnLearnedMove3,"{STR_VAR_1} learned
+{STR_VAR_2}!",,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,404,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0377,global:gText_PkmnNeedsToReplaceMove,gText_PkmnNeedsToReplaceMove,"{STR_VAR_1} wants to learn the
+move {STR_VAR_2}.\pHowever, {STR_VAR_1} already
+knows four moves.\pShould a move be deleted and
+replaced with {STR_VAR_2}?",,pending,system_message,english,PARTY_MENU,4,c_u8,src/strings.c,406,4,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0378,global:gText_PkmnNotHolding,gText_PkmnNotHolding,"{STR_VAR_1} isn't holding
+anything.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,3,c_u8,src/strings.c,397,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0379,global:gText_PkmnSkills,gText_PkmnSkills,POKéMON SKILLS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,519,1,,no,pending_usage_to_window_mapping,pending,
+UI0380,global:gText_PkmnSnappedOutOfConfusion,gText_PkmnSnappedOutOfConfusion,"{STR_VAR_1} snapped out of its
+confusion.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,427,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0381,global:gText_PkmnThawedOut,gText_PkmnThawedOut,{STR_VAR_1} was thawed out.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,417,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0382,global:gText_PkmnTransferredLanettesPC,gText_PkmnTransferredLanettesPC,"{STR_VAR_2} was transferred to
+LANETTE'S PC.\pIt was placed in\x20
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,7,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0383,global:gText_PkmnTransferredLanettesPCBoxFull,gText_PkmnTransferredLanettesPCBoxFull,"BOX “{STR_VAR_3}” on
+LANETTE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,19,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+UI0384,global:gText_PkmnTransferredSomeonesPC,gText_PkmnTransferredSomeonesPC,"{STR_VAR_2} was transferred to
+SOMEONE'S PC.\pIt was placed in\x20
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,1,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0385,global:gText_PkmnTransferredSomeonesPCBoxFull,gText_PkmnTransferredSomeonesPCBoxFull,"BOX “{STR_VAR_3}” on
+SOMEONE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,13,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+UI0386,global:gText_PkmnWasDeposited,gText_PkmnWasDeposited,{DYNAMIC 0} was deposited.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,880,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0387,global:gText_PkmnWasGivenItem,gText_PkmnWasGivenItem,"{STR_VAR_1} was given the
+{STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,395,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0388,global:gText_PkmnWasReleased,gText_PkmnWasReleased,{DYNAMIC 0} was released.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,883,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0389,global:gText_PkmnWokeUp2,gText_PkmnWokeUp2,{STR_VAR_1} woke up.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,415,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0391,global:gText_PlacedItemInBag,gText_PlacedItemInBag,Placed item in the BAG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,897,1,,no,pending_usage_to_window_mapping,pending,
+UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0393,global:gText_PlayerUsedVar2,gText_PlayerUsedVar2,"{PLAYER} used the
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,251,2,{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0394,global:gText_PleasePickATheme,gText_PleasePickATheme,Please pick a theme.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,875,1,,no,pending_usage_to_window_mapping,pending,
+UI0395,global:gText_PleaseRemoveTheMail,gText_PleaseRemoveTheMail,Please remove the MAIL.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,895,1,,no,pending_usage_to_window_mapping,pending,
+UI0396,global:gText_PokedexRegistration,gText_PokedexRegistration,POKéDEX registration completed.,,pending,core_ui_prompt,english,POKEDEX,2,c_u8,src/strings.c,117,1,,no,pending_usage_to_window_mapping,pending,
+UI0397,global:gText_PokedollarVar1,gText_PokedollarVar1,¥{STR_VAR_1},,not_applicable,technical_not_translatable,nonlinguistic,SHOP,1,c_u8,src/strings.c,366,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0398,global:gText_PokemonAreNeeded,gText_PokemonAreNeeded,{STR_VAR_1} POKéMON are needed.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,448,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0399,global:gText_PokemonCantBeSame,gText_PokemonCantBeSame,POKéMON can't be the same.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,449,1,,no,pending_usage_to_window_mapping,pending,
+UI0400,global:gText_PokenavCondition_MarkingButtons,gText_PokenavCondition_MarkingButtons,{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,985,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0401,global:gText_PokenavCondition_MonListButtons,gText_PokenavCondition_MonListButtons,{A_BUTTON}CONDITION {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,983,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0402,global:gText_PokenavCondition_MonStatusButtons,gText_PokenavCondition_MonStatusButtons,{A_BUTTON}MARKINGS {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,984,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0403,global:gText_PokenavMap_ZoomedInButtons,gText_PokenavMap_ZoomedInButtons,{A_BUTTON}FULL {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,982,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0404,global:gText_PokenavMap_ZoomedOutButtons,gText_PokenavMap_ZoomedOutButtons,{A_BUTTON}ZOOM {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,981,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0405,global:gText_PokenavMatchCall_CallMenuButtons,gText_PokenavMatchCall_CallMenuButtons,{A_BUTTON}OK {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,987,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0406,global:gText_PokenavMatchCall_CheckTrainerButtons,gText_PokenavMatchCall_CheckTrainerButtons,{B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,988,1,{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0407,global:gText_PokenavMatchCall_TrainerListButtons,gText_PokenavMatchCall_TrainerListButtons,{A_BUTTON}MENU {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,986,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0408,global:gText_PokenavRibbons_MonListButtons,gText_PokenavRibbons_MonListButtons,{A_BUTTON}RIBBONS {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,989,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0409,global:gText_PokenavRibbons_RibbonCheckButtons,gText_PokenavRibbons_RibbonCheckButtons,{B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,991,1,{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0410,global:gText_PokenavRibbons_RibbonListButtons,gText_PokenavRibbons_RibbonListButtons,{A_BUTTON}CHECK {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,990,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
+UI0411,global:gText_Pokenav_ClearButtonList,gText_Pokenav_ClearButtonList,{CLEAR 128},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/strings.c,980,1,{CLEAR 128},yes,pending_usage_to_window_mapping,pending,
+UI0412,global:gText_PowderQty,gText_PowderQty,POWDER QTY: {STR_VAR_1}{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,1,c_u8,src/strings.c,256,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0413,global:gText_Power,gText_Power,POWER,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,507,1,,no,pending_usage_to_window_mapping,pending,
+UI0414,global:gText_PutItemInBag,gText_PutItemInBag,Put this item in the BAG?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,899,1,,no,pending_usage_to_window_mapping,pending,
+UI0415,global:gText_QuitShopping,gText_QuitShopping,Quit shopping.,,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,347,1,,no,pending_usage_to_window_mapping,pending,
+UI0416,global:gText_Read,gText_Read,READ,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,599,1,,no,pending_usage_to_window_mapping,pending,
+UI0417,global:gText_Read2,gText_Read2,READ,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,375,1,,no,pending_usage_to_window_mapping,pending,
+UI0418,global:gText_ReceivedItemFromPkmn,gText_ReceivedItemFromPkmn,"Received the {STR_VAR_2}
+from {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,398,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0419,global:gText_Register,gText_Register,REGISTER,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,496,1,,no,pending_usage_to_window_mapping,pending,
+UI0420,global:gText_ReleaseThisPokemon,gText_ReleaseThisPokemon,Release this POKéMON?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,882,1,,no,pending_usage_to_window_mapping,pending,
+UI0421,global:gText_RemoveMailBeforeItem,gText_RemoveMailBeforeItem,"MAIL must be removed before
+holding an item.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,394,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0422,global:gText_RentalPkmn,gText_RentalPkmn,RENTAL POKéMON,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,505,1,,no,pending_usage_to_window_mapping,pending,
+UI0423,global:gText_RepelEffectsLingered,gText_RepelEffectsLingered,"But the effects of a REPEL
+lingered from earlier.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,2,c_u8,src/strings.c,252,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0424,global:gText_RestoreWhichMove,gText_RestoreWhichMove,Restore which move?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,442,1,,no,pending_usage_to_window_mapping,pending,
+UI0425,global:gText_ReturnToHealingSpot,gText_ReturnToHealingSpot,"Want to return to the healing spot
+used last in {STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,477,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0426,global:gText_ReturnToPokedex,gText_ReturnToPokedex,Return to the POKéDEX.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,125,1,,no,pending_usage_to_window_mapping,pending,
+UI0427,global:gText_ReturnToVar1,gText_ReturnToVar1,"Return to
+{STR_VAR_1}.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,285,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0428,global:gText_ReturnToWaitingRoom,gText_ReturnToWaitingRoom,Return to the WAITING ROOM?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,474,1,,no,pending_usage_to_window_mapping,pending,
+UI0429,global:gText_RibbonsF700,gText_RibbonsF700,RIBBONS {DYNAMIC 0},,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1005,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
+UI0430,global:gText_RibbonsVar1,gText_RibbonsVar1,RIBBONS: {STR_VAR_1},,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,514,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
+UI0432,global:gText_SafariBallStock,gText_SafariBallStock,"SAFARI BALLS
+Stock: {STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0433,global:gText_SafariBalls,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1302,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
+UI0434,global:gText_SafariZoneMenu,gText_SafariZoneMenu,"BALL{CLEAR_TO 56}{POKEBLOCK}
+GO NEAR{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pending_usage_to_window_mapping,pending,
+UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
+backup memory.",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pending_usage_to_window_mapping,pending,
+UI0436,global:gText_SaveFileCorrupted,gText_SaveFileCorrupted,"The save file is corrupted. The
+previous save file will be loaded.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pending_usage_to_window_mapping,pending,
+UI0437,global:gText_SaveFileErased,gText_SaveFileErased,"The save file has been erased
+due to corruption or damage.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pending_usage_to_window_mapping,pending,
+UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pending_usage_to_window_mapping,pending,
+UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
+DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pending_usage_to_window_mapping,pending,
+UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
+DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pending_usage_to_window_mapping,pending,
+UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pending_usage_to_window_mapping,pending,
+UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pending_usage_to_window_mapping,pending,
+UI0443,global:gText_SavingTime,gText_SavingTime,TIME,,pending,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pending_usage_to_window_mapping,pending,
+UI0444,global:gText_SearchCompleted,gText_SearchCompleted,Search completed.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,121,1,,no,pending_usage_to_window_mapping,pending,
+UI0445,global:gText_SearchForPkmnBasedOnParameters,gText_SearchForPkmnBasedOnParameters,"Search for POKéMON based on
+selected parameters.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,123,2,,no,pending_usage_to_window_mapping,pending,
+UI0446,global:gText_SearchingPleaseWait,gText_SearchingPleaseWait,"Searching…
+Please wait.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,120,2,,no,pending_usage_to_window_mapping,pending,
+UI0447,global:gText_Second_PM,gText_Second_PM,SECOND,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,461,1,,no,pending_usage_to_window_mapping,pending,
+UI0448,global:gText_SeeYa,gText_SeeYa,SEE YA!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,946,1,,no,pending_usage_to_window_mapping,pending,
+UI0449,global:gText_SeeYaDescription,gText_SeeYaDescription,Return to the previous menu.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,951,1,,no,pending_usage_to_window_mapping,pending,
+UI0450,global:gText_SelectPokedexListingMode,gText_SelectPokedexListingMode,Select the POKéDEX listing mode.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,127,1,,no,pending_usage_to_window_mapping,pending,
+UI0451,global:gText_SelectPokedexMode,gText_SelectPokedexMode,Select the POKéDEX mode.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,126,1,,no,pending_usage_to_window_mapping,pending,
+UI0452,global:gText_SelectorArrow,gText_SelectorArrow,▶,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/strings.c,170,1,,no,pending_usage_to_window_mapping,pending,
+UI0453,global:gText_SelectorArrow2,gText_SelectorArrow2,▶,,not_applicable,technical_not_translatable,nonlinguistic,BAG;PC_STORAGE;SHOP,3,c_u8,src/strings.c,220,1,,no,pending_usage_to_window_mapping,pending,
+UI0454,global:gText_SendMailToPC,gText_SendMailToPC,"Send the removed MAIL to
+your PC?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,390,2,,no,pending_usage_to_window_mapping,pending,
+UI0455,global:gText_SendOut,gText_SendOut,SEND OUT,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,368,1,,no,pending_usage_to_window_mapping,pending,
+UI0456,global:gText_Shift,gText_Shift,SHIFT,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,367,1,,no,pending_usage_to_window_mapping,pending,
+UI0457,global:gText_ShopBuy,gText_ShopBuy,BUY,,pending,core_ui_label,english,SHOP,2,c_u8,src/strings.c,343,1,,no,pending_usage_to_window_mapping,pending,
+UI0458,global:gText_ShopQuit,gText_ShopQuit,QUIT,,pending,core_ui_label,english,SHOP,2,c_u8,src/strings.c,345,1,,no,pending_usage_to_window_mapping,pending,
+UI0459,global:gText_ShopSell,gText_ShopSell,SELL,,pending,core_ui_label,english,SHOP,1,c_u8,src/strings.c,344,1,,no,pending_usage_to_window_mapping,pending,
+UI0460,global:gText_SizeComparedTo,gText_SizeComparedTo,SIZE COMPARED TO\x20,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,116,1,,no,pending_usage_to_window_mapping,pending,
+UI0461,global:gText_Slash,gText_Slash,/,,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI;PARTY_MENU,2,c_u8,src/strings.c,208,1,,no,pending_usage_to_window_mapping,pending,
+UI0462,global:gText_Sound,gText_Sound,SOUND,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1532,1,,no,pending_usage_to_window_mapping,pending,
+UI0463,global:gText_SoundMono,gText_SoundMono,{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1543,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0464,global:gText_SoundStereo,gText_SoundStereo,{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1544,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0465,global:gText_SpAtk3,gText_SpAtk3,SP. ATK,,pending,core_ui_label,english,PARTY_MENU,2,c_u8,src/strings.c,378,1,,no,pending_usage_to_window_mapping,pending,
+UI0466,global:gText_SpAtk4,gText_SpAtk4,SP. ATK,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,499,1,,no,pending_usage_to_window_mapping,pending,
+UI0467,global:gText_SpDef3,gText_SpDef3,SP. DEF,,pending,core_ui_label,english,PARTY_MENU,2,c_u8,src/strings.c,379,1,,no,pending_usage_to_window_mapping,pending,
+UI0468,global:gText_SpDef4,gText_SpDef4,SP. DEF,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,500,1,,no,pending_usage_to_window_mapping,pending,
+UI0469,global:gText_SpaceForVar1Full,gText_SpaceForVar1Full,The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,SHOP,1,c_u8,src/strings.c,358,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0470,global:gText_Speed2,gText_Speed2,SPEED,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,501,1,,no,pending_usage_to_window_mapping,pending,
+UI0471,global:gText_Status,gText_Status,STATUS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,511,1,,no,pending_usage_to_window_mapping,pending,
+UI0472,global:gText_StopLearningMove2,gText_StopLearningMove2,"Stop trying to teach
+{STR_VAR_2}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,407,2,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0473,global:gText_Store,gText_Store,STORE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,202,1,,no,pending_usage_to_window_mapping,pending,
+UI0474,global:gText_StoreItemsInPC,gText_StoreItemsInPC,Store items in the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,592,1,,no,pending_usage_to_window_mapping,pending,
+UI0475,global:gText_Summary5,gText_Summary5,SUMMARY,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,370,1,,no,pending_usage_to_window_mapping,pending,
+UI0476,global:gText_Switch,gText_Switch,SWITCH,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,517,1,,no,pending_usage_to_window_mapping,pending,
+UI0477,global:gText_Switch2,gText_Switch2,SWITCH,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,369,1,,no,pending_usage_to_window_mapping,pending,
+UI0478,global:gText_SwitchPokedexListings,gText_SwitchPokedexListings,Switch POKéDEX listings.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,124,1,,no,pending_usage_to_window_mapping,pending,
+UI0479,global:gText_SwitchedPkmnItem,gText_SwitchedPkmnItem,"The {STR_VAR_2} was taken and
+replaced with the {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,400,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0480,global:gText_TMHMContainedVar1,gText_TMHMContainedVar1,"It contained
+{STR_VAR_1}.\pTeach {STR_VAR_1}
+to a POKéMON?",,pending,system_message,english,BAG,1,c_u8,src/strings.c,250,3,\p;{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0481,global:gText_Take,gText_Take,TAKE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,201,1,,no,pending_usage_to_window_mapping,pending,
+UI0482,global:gText_Take2,gText_Take2,TAKE,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,374,1,,no,pending_usage_to_window_mapping,pending,
+UI0483,global:gText_TakeOutItemsFromPC,gText_TakeOutItemsFromPC,Take out items from the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,593,1,,no,pending_usage_to_window_mapping,pending,
+UI0484,global:gText_TeachWhichMoveToPkmn,gText_TeachWhichMoveToPkmn,Teach which move to {STR_VAR_1}?,,pending,core_ui_prompt,english,MOVE_UI,2,c_u8,src/strings.c,1857,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0485,global:gText_TeachWhichPokemon,gText_TeachWhichPokemon,Teach which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,434,1,,no,pending_usage_to_window_mapping,pending,
+UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pending_usage_to_window_mapping,pending,
+UI0487,global:gText_TextSpeed,gText_TextSpeed,TEXT SPEED,,pending,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1529,1,,no,pending_usage_to_window_mapping,pending,
+UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,,pending,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1538,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0489,global:gText_TextSpeedMid,gText_TextSpeedMid,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1537,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0490,global:gText_TextSpeedSlow,gText_TextSpeedSlow,{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW,,pending,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1536,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0491,global:gText_ThankYouIllSendItHome,gText_ThankYouIllSendItHome,"Thank you!
+I'll send it to your home PC.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,354,2,,no,pending_usage_to_window_mapping,pending,
+UI0492,global:gText_ThanksIllSendItHome,gText_ThanksIllSendItHome,"Thanks!
+I'll send it to your PC at home.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,355,2,,no,pending_usage_to_window_mapping,pending,
+UI0493,global:gText_ThatIsntAnEgg,gText_ThatIsntAnEgg,That isn't an EGG.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,495,1,,no,pending_usage_to_window_mapping,pending,
+UI0494,global:gText_ThatsYourLastPkmn,gText_ThatsYourLastPkmn,That's your last POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,886,1,,no,pending_usage_to_window_mapping,pending,
+UI0495,global:gText_Third_PM,gText_Third_PM,THIRD,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,462,1,,no,pending_usage_to_window_mapping,pending,
+UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,106,1,\p;{PAUSE 96},yes,pending_usage_to_window_mapping,pending,
+UI0497,global:gText_ThreeDashes,gText_ThreeDashes,---,,not_applicable,technical_not_translatable,nonlinguistic,BAG;SUMMARY,5,c_u8,src/strings.c,211,1,,no,pending_usage_to_window_mapping,pending,
+UI0498,global:gText_ThrewAwayVar2Var1s,gText_ThrewAwayVar2Var1s,"Threw away {STR_VAR_2}
+{STR_VAR_1}(s).",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,240,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0499,global:gText_ThrowAwayItem,gText_ThrowAwayItem,"Throw away this
+{STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,429,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0500,global:gText_ThrowAwayItemsInPC,gText_ThrowAwayItemsInPC,Throw away items stored in the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,594,1,,no,pending_usage_to_window_mapping,pending,
+UI0501,global:gText_ThrowInPremierBall,gText_ThrowInPremierBall,"I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,SHOP,1,c_u8,src/strings.c,361,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0502,global:gText_TooImportantToToss,gText_TooImportantToToss,"That's much too
+important to toss
+out!",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,238,3,,no,pending_usage_to_window_mapping,pending,
+UI0503,global:gText_TossHowManyVar1s,gText_TossHowManyVar1s,"Toss out how many
+{STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,239,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0504,global:gText_TossItem,gText_TossItem,TOSS ITEM,,pending,core_ui_label,english,PC_STORAGE,2,c_u8,src/strings.c,591,1,,no,pending_usage_to_window_mapping,pending,
+UI0505,global:gText_Trade4,gText_Trade4,TRADE,,pending,core_ui_label,english,PARTY_MENU,2,c_u8,src/strings.c,376,1,,no,pending_usage_to_window_mapping,pending,
+UI0506,global:gText_TrainerCloseBy,gText_TrainerCloseBy,"That TRAINER is close by.
+Talk to the TRAINER in person!",,pending,core_ui_prompt,english,POKENAV,1,c_u8,src/strings.c,993,2,,no,pending_usage_to_window_mapping,pending,
+UI0507,global:gText_TurnOff,gText_TurnOff,TURN OFF,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,585,1,,no,pending_usage_to_window_mapping,pending,
+UI0508,global:gText_TurnedOverVar1ForVar2,gText_TurnedOverVar1ForVar2,"Turned over the {STR_VAR_2}
+and received ¥{STR_VAR_1}.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,365,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0509,global:gText_TwoDashes,gText_TwoDashes,--,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,210,1,,no,pending_usage_to_window_mapping,pending,
+UI0510,global:gText_TypeSlash,gText_TypeSlash,TYPE/,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,506,1,,no,pending_usage_to_window_mapping,pending,
+UI0511,global:gText_UnkHeight,gText_UnkHeight,{CLEAR_TO 12}??'??”,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/strings.c,108,1,{CLEAR_TO 12},yes,pending_usage_to_window_mapping,pending,
+UI0512,global:gText_UnkWeight,gText_UnkWeight,????.? lbs.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,109,1,,no,pending_usage_to_window_mapping,pending,
+UI0513,global:gText_Unknown,gText_Unknown,UNKNOWN,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1000,1,,no,pending_usage_to_window_mapping,pending,
+UI0514,global:gText_UseOnWhichPokemon,gText_UseOnWhichPokemon,Use on which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,435,1,,no,pending_usage_to_window_mapping,pending,
+UI0515,global:gText_UsedVar2WildLured,gText_UsedVar2WildLured,"{PLAYER} used the
+{STR_VAR_2}.\pWild POKéMON will be lured.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,253,2,\p;{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0516,global:gText_UsedVar2WildRepelled,gText_UsedVar2WildRepelled,"{PLAYER} used the
+{STR_VAR_2}.\pWild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,254,2,\p;{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0517,global:gText_Var1AndYouWantedVar2,gText_Var1AndYouWantedVar2,"{STR_VAR_1}? And you wanted {STR_VAR_2}?
+That will be ¥{STR_VAR_3}.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,350,2,{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+UI0518,global:gText_Var1CantBeHeld,gText_Var1CantBeHeld,The {STR_VAR_1} can't be held.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,232,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0519,global:gText_Var1CantBeHeldHere,gText_Var1CantBeHeldHere,"The {STR_VAR_1} can't be held
+here.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,233,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0520,global:gText_Var1CertainlyHowMany,gText_Var1CertainlyHowMany,"{STR_VAR_1}? Certainly.
+How many would you like?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,348,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0521,global:gText_Var1CertainlyHowMany2,gText_Var1CertainlyHowMany2,"{STR_VAR_1}? Certainly.
+How many would you like?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,349,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0522,global:gText_Var1IsItThatllBeVar2,gText_Var1IsItThatllBeVar2,"{STR_VAR_1}, is it?
+That'll be ¥{STR_VAR_2}. Do you want it?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,351,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0523,global:gText_Var1IsSelected,gText_Var1IsSelected,"{STR_VAR_1} is
+selected.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,228,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0524,global:gText_WTWeight,gText_WTWeight,WT,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,119,1,,no,pending_usage_to_window_mapping,pending,
+UI0525,global:gText_WasItWorriedAboutYou,gText_WasItWorriedAboutYou,Was it worried about you?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,893,1,,no,pending_usage_to_window_mapping,pending,
+UI0526,global:gText_WhatDoYouWantToDo,gText_WhatDoYouWantToDo,What do you want to do?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,874,1,,no,pending_usage_to_window_mapping,pending,
+UI0527,global:gText_WhatToDoWithVar1sMail,gText_WhatToDoWithVar1sMail,"What would you like to do with
+{STR_VAR_1}'s MAIL?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,603,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0528,global:gText_WhatWillPkmnDo,gText_WhatWillPkmnDo,"What will
+{B_ACTIVE_NAME_WITH_PREFIX} do?",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1271,2,{B_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,
+UI0529,global:gText_WhatWillPkmnDo2,gText_WhatWillPkmnDo2,"What will
+{B_PLAYER_NAME} do?",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1272,2,{B_PLAYER_NAME},yes,pending_usage_to_window_mapping,pending,
+UI0530,global:gText_WhatWouldYouLike,gText_WhatWouldYouLike,What would you like to do?,,pending,core_ui_prompt,english,PC_STORAGE,3,c_u8,src/strings.c,222,1,,no,pending_usage_to_window_mapping,pending,
+UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should be forgotten?{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,409,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0532,global:gText_WhichOneWillYouTake,gText_WhichOneWillYouTake,Which one will you take?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,889,1,,no,pending_usage_to_window_mapping,pending,
+UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
+connected.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pending_usage_to_window_mapping,pending,
+UI0534,global:gText_WithdrawHowManyItems,gText_WithdrawHowManyItems,"Withdraw how many
+{STR_VAR_1}(s)?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,597,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0535,global:gText_WithdrawItem,gText_WithdrawItem,WITHDRAW ITEM,,pending,core_ui_label,english,PC_STORAGE,2,c_u8,src/strings.c,590,1,,no,pending_usage_to_window_mapping,pending,
+UI0536,global:gText_WithdrawMonDescription,gText_WithdrawMonDescription,"Move POKéMON stored in BOXES to
+your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,947,2,,no,pending_usage_to_window_mapping,pending,
+UI0537,global:gText_WithdrawPokemon,gText_WithdrawPokemon,WITHDRAW POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,942,1,,no,pending_usage_to_window_mapping,pending,
+UI0538,global:gText_WithdrawXItems,gText_WithdrawXItems,"Withdrew {STR_VAR_2}
+{STR_VAR_1}(s).",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,598,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0539,global:gText_WontHaveEffect,gText_WontHaveEffect,It won't have any effect.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG;PARTY_MENU,9,c_u8,src/strings.c,380,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0540,global:gText_XNature,gText_XNature,{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,533,1,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 5},yes,pending_usage_to_window_mapping,pending,
+UI0541,global:gText_XNatureFatefulEncounter,gText_XNatureFatefulEncounter,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+obtained in a fateful
+encounter at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,531,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0542,global:gText_XNatureHatchedAtYZ,gText_XNatureHatchedAtYZ,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+hatched at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,529,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 4};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0543,global:gText_XNatureHatchedSomewhereAt,gText_XNatureHatchedSomewhereAt,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+hatched somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,535,2,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0544,global:gText_XNatureMetAtYZ,gText_XNatureMetAtYZ,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,528,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 4};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0545,global:gText_XNatureMetSomewhereAt,gText_XNatureMetSomewhereAt,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+met somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,534,2,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0546,global:gText_XNatureObtainedInTrade,gText_XNatureObtainedInTrade,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+obtained in a trade.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,530,2,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 5},yes,pending_usage_to_window_mapping,pending,
+UI0547,global:gText_XNatureProbablyMetAt,gText_XNatureProbablyMetAt,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+probably met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,532,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 4};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
+UI0548,global:gText_YouCantReleaseAnEgg,gText_YouCantReleaseAnEgg,You can't release an EGG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,890,1,,no,pending_usage_to_window_mapping,pending,
+UI0549,global:gText_YouDontHaveMoney,gText_YouDontHaveMoney,You don't have enough money.{PAUSE_UNTIL_PRESS},,pending,system_message,english,SHOP,1,c_u8,src/strings.c,356,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0550,global:gText_YouWantedVar1ThatllBeVar2,gText_YouWantedVar1ThatllBeVar2,"You wanted {STR_VAR_1}?
+That'll be ¥{STR_VAR_2}. Will that be okay?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,352,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pending_usage_to_window_mapping,pending,
+UI0552,global:gText_YourPartysFull,gText_YourPartysFull,Your party's full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,887,1,,no,pending_usage_to_window_mapping,pending,
+UI0553,global:gText_YoureHoldingAPkmn,gText_YoureHoldingAPkmn,You're holding a POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,888,1,,no,pending_usage_to_window_mapping,pending,
+UI0554,global:gText_xVar1,gText_xVar1,×{STR_VAR_1},,not_applicable,technical_not_translatable,nonlinguistic,BAG;PC_STORAGE;SHOP,7,c_u8,src/strings.c,224,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0555,local:src/naming_screen.c:sText_AlphabetUpperLower,sText_AlphabetUpperLower,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!,,pending,core_ui_prompt,english,MAIN_MENU,2,c_u8,src/naming_screen.c,198,1,,no,pending_usage_to_window_mapping,pending,
+UI0556,local:src/pokedex.c:sText_No000,sText_No000,{NO}000,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/pokedex.c,847,1,{NO},yes,pending_usage_to_window_mapping,pending,
+UI0557,local:src/pokedex.c:sText_TenDashes,sText_TenDashes,----------,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/pokedex.c,849,1,,no,pending_usage_to_window_mapping,pending,
+UI0558,local:src/pokedex.c:sText_TenDashes2,sText_TenDashes2,----------,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/pokedex.c,990,1,,no,pending_usage_to_window_mapping,pending,
+UI0559,local:src/pokemon_storage_system.c:sText_OutOf30,sText_OutOf30,/30,,not_applicable,technical_not_translatable,nonlinguistic,PC_STORAGE,1,c_u8,src/pokemon_storage_system.c,947,1,,no,pending_usage_to_window_mapping,pending,
+UI0560,local:src/pokemon_summary_screen.c:sMemoMiscTextColor,sMemoMiscTextColor,{COLOR WHITE}{SHADOW DARK_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/pokemon_summary_screen.c,747,1,{COLOR WHITE};{SHADOW DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
+UI0561,local:src/pokemon_summary_screen.c:sMemoNatureTextColor,sMemoNatureTextColor,{COLOR LIGHT_RED}{SHADOW GREEN},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/pokemon_summary_screen.c,746,1,{COLOR LIGHT_RED};{SHADOW GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0562,local:src/pokemon_summary_screen.c:sMovesPPLayout,sMovesPPLayout,{PP}{DYNAMIC 0}/{DYNAMIC 1},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/pokemon_summary_screen.c,750,1,{DYNAMIC 0};{DYNAMIC 1};{PP},yes,pending_usage_to_window_mapping,pending,
+UI0563,local:src/pokemon_summary_screen.c:sStatsLeftColumnLayout,sStatsLeftColumnLayout,"{DYNAMIC 0}/{DYNAMIC 1}
+{DYNAMIC 2}
+{DYNAMIC 3}",,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/pokemon_summary_screen.c,748,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3},yes,pending_usage_to_window_mapping,pending,
+UI0564,local:src/pokemon_summary_screen.c:sStatsRightColumnLayout,sStatsRightColumnLayout,"{DYNAMIC 0}
+{DYNAMIC 1}
+{DYNAMIC 2}",,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/pokemon_summary_screen.c,749,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2},yes,pending_usage_to_window_mapping,pending,
+UI0565,local:src/pokenav_conditions_search_results.c:sText_FemaleSymbol,sText_FemaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_conditions_search_results.c,129,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE},yes,pending_usage_to_window_mapping,pending,
+UI0566,local:src/pokenav_conditions_search_results.c:sText_MaleSymbol,sText_MaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_conditions_search_results.c,128,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0567,local:src/pokenav_conditions_search_results.c:sText_NoGenderSymbol,sText_NoGenderSymbol,{UNK_SPACER},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_conditions_search_results.c,130,1,{UNK_SPACER},yes,pending_usage_to_window_mapping,pending,
+UI0568,local:src/pokenav_match_call_gfx.c:sText_CallingDots,sText_CallingDots,·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·\p,,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_match_call_gfx.c,208,1,\p;{PAUSE 4},yes,pending_usage_to_window_mapping,pending,
+UI0569,local:src/pokenav_ribbons_list.c:sText_FemaleSymbol,sText_FemaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_list.c,124,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE},yes,pending_usage_to_window_mapping,pending,
+UI0570,local:src/pokenav_ribbons_list.c:sText_MaleSymbol,sText_MaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_list.c,123,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN},yes,pending_usage_to_window_mapping,pending,
+UI0571,local:src/pokenav_ribbons_list.c:sText_NoGenderSymbol,sText_NoGenderSymbol,{UNK_SPACER},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_list.c,125,1,{UNK_SPACER},yes,pending_usage_to_window_mapping,pending,
+UI0572,local:src/pokenav_ribbons_summary.c:sGenderlessIconString,sGenderlessIconString,{UNK_SPACER},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_summary.c,870,1,{UNK_SPACER},yes,pending_usage_to_window_mapping,pending,
+UI0573,local:src/pokenav_ribbons_summary.c:sText_FemaleSymbol,sText_FemaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_summary.c,869,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE},yes,pending_usage_to_window_mapping,pending,
+UI0574,local:src/pokenav_ribbons_summary.c:sText_MaleSymbol,sText_MaleSymbol,{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,POKENAV,1,c_u8,src/pokenav_ribbons_summary.c,868,1,{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY};{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN},yes,pending_usage_to_window_mapping,pending,
