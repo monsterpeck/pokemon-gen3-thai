@@ -1,0 +1,60 @@
+﻿qa_order,ui_id,symbol,source_file,source_text,target_text_th,constraint_profile,hard_width_px,visible_line_widths_px,dynamic_budget_px,width_result,source_controls,target_controls,control_result,source_shape_result,rom_build_result,translation_status
+1,UI0008,gText_AlreadySavedFile,data/text/save.inc,"There is already a saved file.
+Is it okay to overwrite it?","มีไฟล์บันทึกอยู่แล้ว
+ต้องการเขียนทับหรือไม่?",STANDARD_MESSAGE_BOX,216,88|108,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+2,UI0016,gText_BatteryRunDry,src/strings.c,"The internal battery has run dry.
+The game can be played.\pHowever, clock-based events will
+no longer occur.","แบตเตอรี่ภายในหมดแล้ว
+ยังสามารถเล่นเกมได้\pแต่กิจกรรมที่อิงเวลา
+จะไม่เกิดขึ้นอีก",MAIN_MENU_ERROR,208,115|90|86|69,0,pass,\n|\p|\n,\n|\p|\n,pass,pass,pass,translated_pending_visual_qa
+3,UI0019,gText_BattlePyramidConfirmRest,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,"Your BATTLE PYRAMID quest will be
+saved so that you may quit for now.\lIs that okay?","จะบันทึกภารกิจใน
+แบตเทิลพีระมิดไว้\lแล้วออกชั่วคราว ตกลงหรือไม่?",STANDARD_MESSAGE_BOX,216,83|82|135,0,pass,\n|\l,\n|\l,pass,pass,pass,translated_pending_visual_qa
+4,UI0020,gText_BattlePyramidConfirmRetire,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,"Are you sure you want to quit your
+PYRAMID quest?","ต้องการยุติภารกิจ
+แบตเทิลพีระมิดหรือไม่?",STANDARD_MESSAGE_BOX,216,73|108,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+5,UI0021,gText_BattlePyramidFloor,src/strings.c,"Battle Pyramid
+{STR_VAR_1}","แบตเทิลพีระมิด
+{STR_VAR_1}",PYRAMID_FLOOR,80,70|40,40,pass,\n|{STR_VAR_1},\n|{STR_VAR_1},pass,pass,pass,translated_pending_visual_qa
+6,UI0046,gText_BoxName,src/strings.c,BOX NAME?,ชื่อ BOX?,NAMING_TITLE,128,39,0,pass,,,pass,pass,pass,translated_pending_visual_qa
+7,UI0078,gText_ConfirmSave,data/text/save.inc,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,216,117,0,pass,,,pass,pass,pass,translated_pending_visual_qa
+8,UI0175,gText_DifferentSaveFile,data/text/save.inc,"WARNING!\pThere is a different game file that
+is already saved.\pIf you save now, the other file's
+adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
+and overwrite the other save file?","คำเตือน!\pมีไฟล์เกมอื่น
+บันทึกอยู่แล้ว\pหากบันทึกตอนนี้ การผจญภัย
+ของไฟล์เดิม รวมถึงไอเทมและ\lโปเกมอนจะหายไปทั้งหมด\pต้องการบันทึกทับ
+ไฟล์เดิมหรือไม่?",STANDARD_MESSAGE_BOX,216,40|58|61|127|133|117|76|76,0,pass,\p|\n|\p|\n|\l|\p|\n,\p|\n|\p|\n|\l|\p|\n,pass,pass,pass,translated_pending_visual_qa
+9,UI0297,gText_MysteryEventsCantUse,src/strings.c,"MYSTERY EVENTS can't be used while
+the Wireless Adapter is attached.","ใช้อีเวนต์ลึกลับไม่ได้
+ขณะต่ออะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,94|115,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+10,UI0298,gText_MysteryGiftCantUse,src/strings.c,"MYSTERY GIFT can't be used while
+the Wireless Adapter is attached.","ใช้ของขวัญลึกลับไม่ได้
+ขณะต่ออะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,99|115,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+11,UI0390,gText_PkmnsNickname,src/strings.c,{STR_VAR_1}'s nickname?,ตั้งชื่อเล่น?,NAMING_TITLE,128,48,0,pass,{STR_VAR_1},,pass,pass,pass,translated_pending_visual_qa
+12,UI0392,gText_PlayerSavedGame,data/text/save.inc,{PLAYER} saved the game.,{PLAYER} บันทึกเกมแล้ว,STANDARD_MESSAGE_BOX,216,133,64,pass,{PLAYER},{PLAYER},pass,pass,pass,translated_pending_visual_qa
+13,UI0432,gText_SafariBallStock,src/strings.c,"SAFARI BALLS
+Stock: {STR_VAR_1}","SAFARI BALL
+เหลือ {STR_VAR_1}",SAFARI_STOCK,72,63|44,18,pass,\n|{STR_VAR_1},\n|{STR_VAR_1},pass,pass,pass,translated_pending_visual_qa
+14,UI0435,gText_SaveError,data/text/save.inc,"Save error.\pPlease exchange the
+backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
+หน่วยความจำสำรอง",STANDARD_MESSAGE_BOX,216,68|55|86,0,pass,\p|\n,\p|\n,pass,pass,pass,translated_pending_visual_qa
+15,UI0436,gText_SaveFileCorrupted,src/strings.c,"The save file is corrupted. The
+previous save file will be loaded.","ไฟล์บันทึกเสียหาย
+จะโหลดไฟล์ก่อนหน้า",MAIN_MENU_ERROR,208,83|95,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+16,UI0437,gText_SaveFileErased,src/strings.c,"The save file has been erased
+due to corruption or damage.","ไฟล์บันทึกถูกลบ
+เนื่องจากเสียหาย",MAIN_MENU_ERROR,208,75|71,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+17,UI0439,gText_SavingDontTurnOff,data/text/save.inc,"SAVING…
+DON'T TURN OFF THE POWER.","กำลังบันทึก…
+ห้ามปิดเครื่อง",STANDARD_MESSAGE_BOX,216,56|59,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+18,UI0440,gText_SavingDontTurnOffPower,data/text/save.inc,"SAVING…
+DON'T TURN OFF THE POWER.","กำลังบันทึก…
+ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,208,56|59,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+19,UI0486,gText_TellHimTheWords,src/strings.c,Tell him the words.,บอกคำให้เขา,NAMING_TITLE,128,57,0,pass,,,pass,pass,pass,translated_pending_visual_qa
+20,UI0496,gText_ThisIsAPokemon,src/strings.c,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
+“โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,216,83|55|0,0,pass,{PAUSE 96}|\p,\n|{PAUSE 96}|\p,pass,pass,pass,translated_pending_visual_qa
+21,UI0533,gText_WirelessNotConnected,src/strings.c,"The Wireless Adapter is not
+connected.","ไม่ได้เชื่อมต่อ
+อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,62|81,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+22,UI0551,gText_YourName,src/strings.c,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,128,50,0,pass,,,pass,pass,pass,translated_pending_visual_qa

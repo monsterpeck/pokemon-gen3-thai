@@ -79,3 +79,14 @@ Generated from production checkpoint `770548dfe`.
 - Full ROM build: passed.
 - Candidate ROM SHA-256: `20c1f4a943a9357f720c7dca6bf77e2f1a86450ac04e8bd266253142fe0b3aa4`.
 - Runtime visual QA: pending.
+
+## Pilot prompts 22
+
+- Translated prompts: 22/22.
+- Source definitions verified against inventory before replacement.
+- Thai shaping, control codes, dynamic placeholders, and line widths: passed.
+- `gText_PkmnsNickname` uses the concise title `ตั้งชื่อเล่น?` to avoid collision with maximum-length Pokémon names.
+- Shared YES/NO strings remain outside this Batch 1 scope and are not silently modified.
+- Full ROM build: passed.
+- Candidate ROM SHA-256: `a8c990fd4926dede8ec3fe3e6ff495504b08724e8cdeff172742a02dcf22dc34`.
+- Runtime visual QA: pending.

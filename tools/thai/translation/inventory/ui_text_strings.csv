@@ -9,7 +9,8 @@ UI0006,global:gText_Accuracy2,gText_Accuracy2,ACCURACY,,pending,core_ui_label,en
 UI0007,global:gText_AlreadyHoldingOne,gText_AlreadyHoldingOne,"{STR_VAR_1} is already holding
 one {STR_VAR_2}.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,457,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0008,global:gText_AlreadySavedFile,gText_AlreadySavedFile,"There is already a saved file.
-Is it okay to overwrite it?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pending_usage_to_window_mapping,pending,
+Is it okay to overwrite it?","มีไฟล์บันทึกอยู่แล้ว
+ต้องการเขียนทับหรือไม่?",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0009,global:gText_AlreadySurfing,gText_AlreadySurfing,You're already SURFING.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,440,1,,no,pending_usage_to_window_mapping,pending,
 UI0010,global:gText_AnythingElseICanHelp,gText_AnythingElseICanHelp,"Is there anything else I can help
 you with?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,pending_usage_to_window_mapping,pending,
@@ -21,16 +22,21 @@ UI0014,global:gText_BagIsFull,gText_BagIsFull,The BAG is full.{PAUSE_UNTIL_PRESS
 UI0015,global:gText_BagIsFull2,gText_BagIsFull2,The BAG is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,898,1,,no,pending_usage_to_window_mapping,pending,
 UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has run dry.
 The game can be played.\pHowever, clock-based events will
-no longer occur.",,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pending_usage_to_window_mapping,pending,
+no longer occur.","แบตเตอรี่ภายในหมดแล้ว
+ยังสามารถเล่นเกมได้\pแต่กิจกรรมที่อิงเวลา
+จะไม่เกิดขึ้นอีก",translated_pending_qa,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0017,global:gText_BattleMenu,gText_BattleMenu,"FIGHT{CLEAR_TO 56}BAG
 POKéMON{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1275,2,{CLEAR_TO 56},yes,pending_usage_to_window_mapping,pending,
 UI0018,global:gText_BattleMoves,gText_BattleMoves,BATTLE MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,520,1,,no,pending_usage_to_window_mapping,pending,
 UI0019,global:gText_BattlePyramidConfirmRest,gText_BattlePyramidConfirmRest,"Your BATTLE PYRAMID quest will be
-saved so that you may quit for now.\lIs that okay?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pending_usage_to_window_mapping,pending,
+saved so that you may quit for now.\lIs that okay?","จะบันทึกภารกิจใน
+แบตเทิลพีระมิดไว้\lแล้วออกชั่วคราว ตกลงหรือไม่?",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0020,global:gText_BattlePyramidConfirmRetire,gText_BattlePyramidConfirmRetire,"Are you sure you want to quit your
-PYRAMID quest?",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pending_usage_to_window_mapping,pending,
+PYRAMID quest?","ต้องการยุติภารกิจ
+แบตเทิลพีระมิดหรือไม่?",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0021,global:gText_BattlePyramidFloor,gText_BattlePyramidFloor,"Battle Pyramid
-{STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_1}","แบตเทิลพีระมิด
+{STR_VAR_1}",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0022,global:gText_BattleScene,gText_BattleScene,BATTLE SCENE,ฉากต่อสู้,translated_pending_qa,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1530,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0023,global:gText_BattleSceneOff,gText_BattleSceneOff,{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF,{COLOR GREEN}{SHADOW LIGHT_GREEN}ปิด,translated_pending_qa,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1540,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0024,global:gText_BattleSceneOn,gText_BattleSceneOn,{COLOR GREEN}{SHADOW LIGHT_GREEN}ON,{COLOR GREEN}{SHADOW LIGHT_GREEN}เปิด,translated_pending_qa,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1539,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
@@ -70,7 +76,7 @@ UI0042,global:gText_BootedUpTM,gText_BootedUpTM,Booted up a TM.,,pending,core_ui
 UI0043,global:gText_Box,gText_Box,BOX,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,954,1,,no,pending_usage_to_window_mapping,pending,
 UI0044,global:gText_BoxFull,gText_BoxFull,The BOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,2,c_u8,src/strings.c,255,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0045,global:gText_BoxIsFull2,gText_BoxIsFull2,The BOX is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,881,1,,no,pending_usage_to_window_mapping,pending,
-UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pending_usage_to_window_mapping,pending,
+UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,ชื่อ BOX?,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0047,global:gText_ButtonMode,gText_ButtonMode,BUTTON MODE,โหมดปุ่ม,translated_pending_qa,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1535,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0048,global:gText_ButtonTypeLEqualsA,gText_ButtonTypeLEqualsA,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,translated_pending_qa,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1549,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0049,global:gText_ButtonTypeLR,gText_ButtonTypeLR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,translated_pending_qa,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1548,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
@@ -110,7 +116,7 @@ UI0075,global:gText_ChoosePokemonConfirm,gText_ChoosePokemonConfirm,Choose POKé
 UI0076,global:gText_CloseBag,gText_CloseBag,CLOSE BAG,,pending,core_ui_label,english,BAG,1,c_u8,src/strings.c,227,1,,no,pending_usage_to_window_mapping,pending,
 UI0077,global:gText_CoinCase,gText_CoinCase,"Your COINS:
 {STR_VAR_1}{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,247,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0078,global:gText_ConfirmSave,gText_ConfirmSave,Would you like to save the game?,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,2,1,,no,pending_usage_to_window_mapping,pending,
+UI0078,global:gText_ConfirmSave,gText_ConfirmSave,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,2,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0079,global:gText_ConfirmTossItems,gText_ConfirmTossItems,"Is it okay to
 throw away {STR_VAR_2}
 {STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,241,3,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
@@ -221,7 +227,10 @@ UI0174,global:gText_DexSortTallestTitle,gText_DexSortTallestTitle,TALLEST MODE,,
 UI0175,global:gText_DifferentSaveFile,gText_DifferentSaveFile,"WARNING!\pThere is a different game file that
 is already saved.\pIf you save now, the other file's
 adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
-and overwrite the other save file?",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pending_usage_to_window_mapping,pending,
+and overwrite the other save file?","คำเตือน!\pมีไฟล์เกมอื่น
+บันทึกอยู่แล้ว\pหากบันทึกตอนนี้ การผจญภัย
+ของไฟล์เดิม รวมถึงไอเทมและ\lโปเกมอนจะหายไปทั้งหมด\pต้องการบันทึกทับ
+ไฟล์เดิมหรือไม่?",translated_pending_qa,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0176,global:gText_DoWhatWithItem,gText_DoWhatWithItem,Do what with an item?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,444,1,,no,pending_usage_to_window_mapping,pending,
 UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,452,1,,no,pending_usage_to_window_mapping,pending,
 UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pending_usage_to_window_mapping,pending,
@@ -380,9 +389,11 @@ UI0295,global:gText_MoveVar1Where,gText_MoveVar1Where,"Move the
 where?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,231,3,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0296,global:gText_MovesPPIncreased,gText_MovesPPIncreased,{STR_VAR_1}'s PP increased.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,421,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0297,global:gText_MysteryEventsCantUse,gText_MysteryEventsCantUse,"MYSTERY EVENTS can't be used while
-the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pending_usage_to_window_mapping,pending,
+the Wireless Adapter is attached.","ใช้อีเวนต์ลึกลับไม่ได้
+ขณะต่ออะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0298,global:gText_MysteryGiftCantUse,gText_MysteryGiftCantUse,"MYSTERY GIFT can't be used while
-the Wireless Adapter is attached.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pending_usage_to_window_mapping,pending,
+the Wireless Adapter is attached.","ใช้ของขวัญลึกลับไม่ได้
+ขณะต่ออะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0299,global:gText_NamingScreenKeyboard_01234,gText_NamingScreenKeyboard_01234,{CLEAR 11}0{CLEAR 16}1{CLEAR 16}2{CLEAR 16}3{CLEAR 16}4{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,18,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
 UI0300,global:gText_NamingScreenKeyboard_56789,gText_NamingScreenKeyboard_56789,{CLEAR 11}5{CLEAR 16}6{CLEAR 16}7{CLEAR 16}8{CLEAR 16}9{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,19,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
 UI0301,global:gText_NamingScreenKeyboard_ABCDEF,gText_NamingScreenKeyboard_ABCDEF,{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,14,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
@@ -521,9 +532,9 @@ UI0387,global:gText_PkmnWasGivenItem,gText_PkmnWasGivenItem,"{STR_VAR_1} was giv
 {STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,395,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0388,global:gText_PkmnWasReleased,gText_PkmnWasReleased,{DYNAMIC 0} was released.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,883,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0389,global:gText_PkmnWokeUp2,gText_PkmnWokeUp2,{STR_VAR_1} woke up.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,415,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,ตั้งชื่อเล่น?,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0391,global:gText_PlacedItemInBag,gText_PlacedItemInBag,Placed item in the BAG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,897,1,,no,pending_usage_to_window_mapping,pending,
-UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pending_usage_to_window_mapping,pending,
+UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,{PLAYER} บันทึกเกมแล้ว,translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0393,global:gText_PlayerUsedVar2,gText_PlayerUsedVar2,"{PLAYER} used the
 {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,251,2,{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0394,global:gText_PleasePickATheme,gText_PleasePickATheme,Please pick a theme.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,875,1,,no,pending_usage_to_window_mapping,pending,
@@ -570,21 +581,27 @@ UI0429,global:gText_RibbonsF700,gText_RibbonsF700,RIBBONS {DYNAMIC 0},,pending,c
 UI0430,global:gText_RibbonsVar1,gText_RibbonsVar1,RIBBONS: {STR_VAR_1},,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,514,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
 UI0432,global:gText_SafariBallStock,gText_SafariBallStock,"SAFARI BALLS
-Stock: {STR_VAR_1}",,pending,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+Stock: {STR_VAR_1}","SAFARI BALL
+เหลือ {STR_VAR_1}",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0433,global:gText_SafariBalls,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1302,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
 UI0434,global:gText_SafariZoneMenu,gText_SafariZoneMenu,"BALL{CLEAR_TO 56}{POKEBLOCK}
 GO NEAR{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pending_usage_to_window_mapping,pending,
 UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
-backup memory.",,pending,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pending_usage_to_window_mapping,pending,
+backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
+หน่วยความจำสำรอง",translated_pending_qa,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0436,global:gText_SaveFileCorrupted,gText_SaveFileCorrupted,"The save file is corrupted. The
-previous save file will be loaded.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pending_usage_to_window_mapping,pending,
+previous save file will be loaded.","ไฟล์บันทึกเสียหาย
+จะโหลดไฟล์ก่อนหน้า",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0437,global:gText_SaveFileErased,gText_SaveFileErased,"The save file has been erased
-due to corruption or damage.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pending_usage_to_window_mapping,pending,
+due to corruption or damage.","ไฟล์บันทึกถูกลบ
+เนื่องจากเสียหาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,เข็มกลัด,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
-DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pending_usage_to_window_mapping,pending,
+DON'T TURN OFF THE POWER.","กำลังบันทึก…
+ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
-DON'T TURN OFF THE POWER.",,pending,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pending_usage_to_window_mapping,pending,
+DON'T TURN OFF THE POWER.","กำลังบันทึก…
+ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,ผู้เล่น,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,โปเกเด็กซ์,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0443,global:gText_SavingTime,gText_SavingTime,TIME,เวลา,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
@@ -637,7 +654,7 @@ UI0482,global:gText_Take2,gText_Take2,TAKE,,pending,core_ui_label,english,PARTY_
 UI0483,global:gText_TakeOutItemsFromPC,gText_TakeOutItemsFromPC,Take out items from the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,593,1,,no,pending_usage_to_window_mapping,pending,
 UI0484,global:gText_TeachWhichMoveToPkmn,gText_TeachWhichMoveToPkmn,Teach which move to {STR_VAR_1}?,,pending,core_ui_prompt,english,MOVE_UI,2,c_u8,src/strings.c,1857,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0485,global:gText_TeachWhichPokemon,gText_TeachWhichPokemon,Teach which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,434,1,,no,pending_usage_to_window_mapping,pending,
-UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pending_usage_to_window_mapping,pending,
+UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0487,global:gText_TextSpeed,gText_TextSpeed,TEXT SPEED,ความเร็วข้อความ,translated_pending_qa,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1529,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,{COLOR GREEN}{SHADOW LIGHT_GREEN}เร็ว,translated_pending_qa,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1538,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0489,global:gText_TextSpeedMid,gText_TextSpeedMid,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,{COLOR GREEN}{SHADOW LIGHT_GREEN}กลาง,translated_pending_qa,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1537,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
@@ -649,7 +666,8 @@ I'll send it to your PC at home.",,pending,core_ui_prompt,english,SHOP,1,c_u8,sr
 UI0493,global:gText_ThatIsntAnEgg,gText_ThatIsntAnEgg,That isn't an EGG.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,495,1,,no,pending_usage_to_window_mapping,pending,
 UI0494,global:gText_ThatsYourLastPkmn,gText_ThatsYourLastPkmn,That's your last POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,886,1,,no,pending_usage_to_window_mapping,pending,
 UI0495,global:gText_Third_PM,gText_Third_PM,THIRD,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,462,1,,no,pending_usage_to_window_mapping,pending,
-UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,,pending,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,106,1,\p;{PAUSE 96},yes,pending_usage_to_window_mapping,pending,
+UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
+“โปเกมอน”{PAUSE 96}\p",translated_pending_qa,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,106,1,\p;{PAUSE 96},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0497,global:gText_ThreeDashes,gText_ThreeDashes,---,,not_applicable,technical_not_translatable,nonlinguistic,BAG;SUMMARY,5,c_u8,src/strings.c,211,1,,no,pending_usage_to_window_mapping,pending,
 UI0498,global:gText_ThrewAwayVar2Var1s,gText_ThrewAwayVar2Var1s,"Threw away {STR_VAR_2}
 {STR_VAR_1}(s).",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,240,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
@@ -705,7 +723,8 @@ UI0530,global:gText_WhatWouldYouLike,gText_WhatWouldYouLike,What would you like 
 UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should be forgotten?{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,409,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0532,global:gText_WhichOneWillYouTake,gText_WhichOneWillYouTake,Which one will you take?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,889,1,,no,pending_usage_to_window_mapping,pending,
 UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
-connected.",,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pending_usage_to_window_mapping,pending,
+connected.","ไม่ได้เชื่อมต่อ
+อะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0534,global:gText_WithdrawHowManyItems,gText_WithdrawHowManyItems,"Withdraw how many
 {STR_VAR_1}(s)?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,597,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0535,global:gText_WithdrawItem,gText_WithdrawItem,WITHDRAW ITEM,,pending,core_ui_label,english,PC_STORAGE,2,c_u8,src/strings.c,590,1,,no,pending_usage_to_window_mapping,pending,
@@ -738,7 +757,7 @@ UI0548,global:gText_YouCantReleaseAnEgg,gText_YouCantReleaseAnEgg,You can't rele
 UI0549,global:gText_YouDontHaveMoney,gText_YouDontHaveMoney,You don't have enough money.{PAUSE_UNTIL_PRESS},,pending,system_message,english,SHOP,1,c_u8,src/strings.c,356,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0550,global:gText_YouWantedVar1ThatllBeVar2,gText_YouWantedVar1ThatllBeVar2,"You wanted {STR_VAR_1}?
 That'll be ¥{STR_VAR_2}. Will that be okay?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,352,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
-UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pending_usage_to_window_mapping,pending,
+UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,ชื่อของเธอ?,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0552,global:gText_YourPartysFull,gText_YourPartysFull,Your party's full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,887,1,,no,pending_usage_to_window_mapping,pending,
 UI0553,global:gText_YoureHoldingAPkmn,gText_YoureHoldingAPkmn,You're holding a POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,888,1,,no,pending_usage_to_window_mapping,pending,
 UI0554,global:gText_xVar1,gText_xVar1,×{STR_VAR_1},,not_applicable,technical_not_translatable,nonlinguistic,BAG;PC_STORAGE;SHOP,7,c_u8,src/strings.c,224,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
