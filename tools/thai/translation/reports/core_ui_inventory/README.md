@@ -57,3 +57,14 @@ Generated from production checkpoint `770548dfe`.
 ## Existing Thai entry
 
 `gText_MainMenuNewGame` currently contains `เริ่มเกมส์` and is marked `existing_thai_review`; it should be reviewed against the project spelling policy before reuse.
+
+## Batch 1 constraint mapping
+
+- Batch 1 entries mapped: 130/130.
+- Constraint profiles used: 26.
+- Unresolved constraints: 0.
+- First translation pilot: 55 labels.
+- Prompt pilot after labels: 22 entries.
+- Deferred for Thai input architecture: 49 entries.
+- Moved to Phase 6 system messages: 4 entries.
+- Exact geometry was verified from source before generating the mapping.
