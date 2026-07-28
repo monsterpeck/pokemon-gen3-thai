@@ -1,0 +1,18 @@
+﻿retest_order,description_symbol,item_id,item_name_en,target_text_th,round1_result,retest_result,rendering_result,translation_result,evidence_note
+1,sDragonScaleDesc,ITEM_DRAGON_SCALE,DRAGON SCALE,"เกล็ดประหลาดที่
+โปเกมอนธาตุมังกร
+บางตัวถือไว้",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+2,sBlackBeltDesc,ITEM_BLACK_BELT,BLACK BELT,"ไอเทมถือเพิ่มพลัง
+ท่าประเภทต่อสู้",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+3,sMagnetDesc,ITEM_MAGNET,MAGNET,"ไอเทมถือเพิ่มพลัง
+ท่าประเภทไฟฟ้า",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+4,sNetBallDesc,ITEM_NET_BALL,NET BALL,"จับโปเกมอนน้ำและ
+แมลงได้ง่ายขึ้น",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+5,sTM18Desc,ITEM_TM_RAIN_DANCE,TM18,"เพิ่มพลังท่าน้ำ
+นาน 5 เทิร์น",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+6,sTM39Desc,ITEM_TM_ROCK_TOMB,TM39,"ใช้หินหยุดคู่ต่อสู้
+และลดความเร็ว",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+7,sTM11Desc,ITEM_TM_SUNNY_DAY,TM11,"เพิ่มพลังท่าไฟ
+นาน 5 เทิร์น",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."
+8,sTeachyTVDesc,ITEM_TEACHY_TV,TEACHY TV,"ทีวีที่มีรายการ
+แนะนำเทรนเนอร์",ข้อความล้นกรอบ,ผ่าน,pass,pass,"User confirmed all 8 revised descriptions displayed correctly in the retest ROM; no overflow, clipping, overlap, or broken glyphs."

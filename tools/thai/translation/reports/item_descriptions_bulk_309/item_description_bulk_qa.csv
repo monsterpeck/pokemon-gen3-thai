@@ -4,1357 +4,1357 @@ sMasterBallDesc,"The best BALL that
 catches a POKéMON
 without fail.","บอลที่ดีที่สุด
 จับโปเกมอนได้แน่นอน
-โดยไม่พลาด",translated_pending_qa,1,3,106,106,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,5
+โดยไม่พลาด",proof_passed,1,3,106,106,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,5
 sUltraBallDesc,"A better BALL with
 a higher catch rate
 than a GREAT BALL.","บอลประสิทธิภาพสูง
 มีอัตราจับสูงกว่า
-GREAT BALL",translated_pending_qa,1,3,84,84,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,10
+GREAT BALL",proof_passed,1,3,84,84,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,10
 sGreatBallDesc,"A good BALL with a
 higher catch rate
 than a POKé BALL.","บอลคุณภาพดี
 มีอัตราจับสูงกว่า
-POKé BALL",translated_pending_qa,1,3,68,68,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,15
+POKé BALL",proof_passed,1,3,68,68,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,15
 sPokeBallDesc,"A tool used for
 catching wild
 POKéMON.","อุปกรณ์สำหรับจับ
-โปเกมอนป่า",translated_pending_qa,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,20
+โปเกมอนป่า",proof_passed,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,20
 sSafariBallDesc,"A special BALL that
 is used only in the
 SAFARI ZONE.","บอลพิเศษสำหรับใช้
-เฉพาะในซาฟารีโซน",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,25
+เฉพาะในซาฟารีโซน",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,25
 sNetBallDesc,"A BALL that works
 well on WATER- and
-BUG-type POKéMON.","ได้ผลดีกับโปเกมอน
-ประเภท WATER และ BUG",translated_pending_qa,1,2,110,102,120,pass,pass,pass,pass,pass,10,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,30
+BUG-type POKéMON.","จับโปเกมอนน้ำและ
+แมลงได้ง่ายขึ้น",proof_passed,1,2,85,85,120,pass,pass,pass,pass,pass,10,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,30
 sDiveBallDesc,"A BALL that works
 better on POKéMON
 on the ocean floor.","ได้ผลดีกับโปเกมอน
-ที่อยู่ใต้ท้องทะเล",translated_pending_qa,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,35
+ที่อยู่ใต้ท้องทะเล",proof_passed,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,35
 sNestBallDesc,"A BALL that works
 better on weaker
 POKéMON.","ได้ผลดีกับ
-โปเกมอนที่อ่อนแอ",translated_pending_qa,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,40
+โปเกมอนที่อ่อนแอ",proof_passed,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,40
 sRepeatBallDesc,"A BALL that works
 better on POKéMON
 caught before.","ได้ผลดีกับโปเกมอน
-ที่เคยจับมาก่อน",translated_pending_qa,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,45
+ที่เคยจับมาก่อน",proof_passed,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,45
 sTimerBallDesc,"A BALL that gains
 power in battles
 taking many turns.","พลังจับเพิ่มขึ้น
 เมื่อการต่อสู้
-ยืดเยื้อหลายเทิร์น",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,50
+ยืดเยื้อหลายเทิร์น",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,50
 sLuxuryBallDesc,"A cozy BALL that
 makes POKéMON
 more friendly.","บอลแสนสบาย
 ช่วยให้โปเกมอน
-สนิทมากขึ้น",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,55
+สนิทมากขึ้น",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,55
 sPremierBallDesc,"A rare BALL made
 in commemoration
 of some event.","บอลหายากที่สร้าง
 เพื่อเป็นที่ระลึก
-ในโอกาสพิเศษ",translated_pending_qa,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,60
+ในโอกาสพิเศษ",proof_passed,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,60
 sPotionDesc,"Restores the HP of
 a POKéMON by
 20 points.","ฟื้นฟู HP ให้โปเกมอน
 ได้ 20 หน่วย",proof_passed,1,2,98,96,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;numeric;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,66
 sAntidoteDesc,"Heals a poisoned
-POKéMON.",รักษาพิษให้โปเกมอน,translated_pending_qa,1,1,95,95,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,71
+POKéMON.",รักษาพิษให้โปเกมอน,proof_passed,1,1,95,95,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,71
 sBurnHealDesc,"Heals POKéMON
 of a burn.","รักษาอาการไหม้
-ให้โปเกมอน",translated_pending_qa,1,2,68,68,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,75
+ให้โปเกมอน",proof_passed,1,2,68,68,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,75
 sIceHealDesc,"Defrosts a frozen
 POKéMON.","ละลายน้ำแข็ง
-ให้โปเกมอน",translated_pending_qa,1,2,56,56,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,79
+ให้โปเกมอน",proof_passed,1,2,56,56,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,79
 sAwakeningDesc,"Awakens a sleeping
 POKéMON.","ปลุกโปเกมอน
-ที่กำลังหลับ",translated_pending_qa,1,2,62,62,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,83
+ที่กำลังหลับ",proof_passed,1,2,62,62,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,83
 sParalyzeHealDesc,"Heals a paralyzed
 POKéMON.","รักษาอัมพาต
-ให้โปเกมอน",translated_pending_qa,1,2,56,56,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,87
+ให้โปเกมอน",proof_passed,1,2,56,56,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,87
 sFullRestoreDesc,"Fully restores the
 HP and status of a
 POKéMON.","ฟื้นฟู HP เต็มและ
 รักษาสถานะผิดปกติ
-ของโปเกมอน",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,91
+ของโปเกมอน",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,91
 sMaxPotionDesc,"Fully restores the
 HP of a POKéMON.","ฟื้นฟู HP ของโปเกมอน
-จนเต็ม",translated_pending_qa,1,2,101,99,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,96
+จนเต็ม",proof_passed,1,2,101,99,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,96
 sHyperPotionDesc,"Restores the HP of
 a POKéMON by
 200 points.","ฟื้นฟู HP ของโปเกมอน
-200 หน่วย",translated_pending_qa,1,2,101,99,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;numeric;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,100
+200 หน่วย",proof_passed,1,2,101,99,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;numeric;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,100
 sSuperPotionDesc,"Restores the HP of
 a POKéMON by
 50 points.","ฟื้นฟู HP ของโปเกมอน
-50 หน่วย",translated_pending_qa,1,2,101,99,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;numeric;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,105
+50 หน่วย",proof_passed,1,2,101,99,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;numeric;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,105
 sFullHealDesc,"Heals all the
 status problems of
 one POKéMON.","รักษาสถานะผิดปกติ
-ทั้งหมดของโปเกมอน",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,110
+ทั้งหมดของโปเกมอน",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,110
 sReviveDesc,"Revives a fainted
 POKéMON with half
 its HP.","ชุบชีวิตโปเกมอน
 ที่หมดสภาพพร้อม
-ฟื้นฟู HP ครึ่งหนึ่ง",translated_pending_qa,1,3,79,79,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,115
+ฟื้นฟู HP ครึ่งหนึ่ง",proof_passed,1,3,79,79,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,115
 sMaxReviveDesc,"Revives a fainted
 POKéMON with all
 its HP.","ชุบชีวิตโปเกมอน
 ที่หมดสภาพพร้อม
-ฟื้นฟู HP เต็ม",translated_pending_qa,1,3,79,79,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,120
+ฟื้นฟู HP เต็ม",proof_passed,1,3,79,79,120,pass,pass,pass,pass,pass,8,mixed_thai_latin_or_number;abbreviation;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,120
 sFreshWaterDesc,"A mineral water
 that restores HP
 by 50 points.","น้ำแร่ที่ฟื้นฟู HP
-50 หน่วย",translated_pending_qa,1,2,69,67,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,125
+50 หน่วย",proof_passed,1,2,69,67,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,125
 sSodaPopDesc,"A fizzy soda drink
 that restores HP
 by 60 points.","น้ำอัดลมซ่าที่
-ฟื้นฟู HP 60 หน่วย",translated_pending_qa,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,130
+ฟื้นฟู HP 60 หน่วย",proof_passed,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,130
 sLemonadeDesc,"A very sweet drink
 that restores HP
 by 80 points.","เครื่องดื่มรสหวาน
-ฟื้นฟู HP 80 หน่วย",translated_pending_qa,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,135
+ฟื้นฟู HP 80 หน่วย",proof_passed,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,135
 sMoomooMilkDesc,"A nutritious milk
 that restores HP
 by 100 points.","นมเปี่ยมคุณค่า
-ฟื้นฟู HP 100 หน่วย",translated_pending_qa,1,2,90,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,140
+ฟื้นฟู HP 100 หน่วย",proof_passed,1,2,90,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,140
 sEnergyPowderDesc,"A bitter powder
 that restores HP
 by 50 points.","ผงรสขมที่
-ฟื้นฟู HP 50 หน่วย",translated_pending_qa,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,145
+ฟื้นฟู HP 50 หน่วย",proof_passed,1,2,84,80,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,145
 sEnergyRootDesc,"A bitter root
 that restores HP
 by 200 points.","รากรสขมที่
-ฟื้นฟู HP 200 หน่วย",translated_pending_qa,1,2,90,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,150
+ฟื้นฟู HP 200 หน่วย",proof_passed,1,2,90,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,150
 sHealPowderDesc,"A bitter powder
 that heals all
 status problems.","ผงรสขมที่รักษา
-สถานะผิดปกติทั้งหมด",translated_pending_qa,1,2,95,95,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,155
+สถานะผิดปกติทั้งหมด",proof_passed,1,2,95,95,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,155
 sRevivalHerbDesc,"A very bitter herb
 that revives a
 fainted POKéMON.","สมุนไพรรสขมจัด
 ชุบชีวิตโปเกมอน
-ที่หมดสภาพ",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,160
+ที่หมดสภาพ",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,160
 sEtherDesc,"Restores the PP
 of a selected move
 by 10.","ฟื้นฟู PP ของท่า
-ที่เลือก 10 หน่วย",translated_pending_qa,1,2,74,72,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,165
+ที่เลือก 10 หน่วย",proof_passed,1,2,74,72,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,165
 sMaxEtherDesc,"Fully restores the
 PP of a selected
 move.","ฟื้นฟู PP ของท่า
-ที่เลือกจนเต็ม",translated_pending_qa,1,2,69,67,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,170
+ที่เลือกจนเต็ม",proof_passed,1,2,69,67,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,170
 sElixirDesc,"Restores the PP
 of all moves by 10.","ฟื้นฟู PP ทุกท่า
-ท่าละ 10 หน่วย",translated_pending_qa,1,2,67,65,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,175
+ท่าละ 10 หน่วย",proof_passed,1,2,67,65,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;abbreviation,src/data/text/item_descriptions.h,175
 sMaxElixirDesc,"Fully restores the
 PP of a POKéMON's
 moves.","ฟื้นฟู PP ทุกท่า
-ของโปเกมอนจนเต็ม",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,179
+ของโปเกมอนจนเต็ม",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,179
 sLavaCookieDesc,"A local specialty
 that heals all
 status problems.","ของขึ้นชื่อท้องถิ่น
 รักษาสถานะผิดปกติ
-ทั้งหมด",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,184
+ทั้งหมด",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,184
 sBlueFluteDesc,"A glass flute that
 awakens sleeping
 POKéMON.","ขลุ่ยแก้วที่ปลุก
-โปเกมอนที่กำลังหลับ",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,189
+โปเกมอนที่กำลังหลับ",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,189
 sYellowFluteDesc,"A glass flute that
 snaps POKéMON
 out of confusion.","ขลุ่ยแก้วที่รักษา
-อาการสับสนของโปเกมอน",translated_pending_qa,1,2,111,111,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location,src/data/text/item_descriptions.h,194
+อาการสับสนของโปเกมอน",proof_passed,1,2,111,111,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location,src/data/text/item_descriptions.h,194
 sRedFluteDesc,"A glass flute that
 snaps POKéMON
 out of attraction.","ขลุ่ยแก้วที่แก้
 อาการหลงเสน่ห์
-ของโปเกมอน",translated_pending_qa,1,3,67,67,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,199
+ของโปเกมอน",proof_passed,1,3,67,67,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,199
 sBlackFluteDesc,"A glass flute that
 keeps away wild
 POKéMON.","ขลุ่ยแก้วที่ช่วย
-ไล่โปเกมอนป่า",translated_pending_qa,1,2,66,66,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,204
+ไล่โปเกมอนป่า",proof_passed,1,2,66,66,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,204
 sWhiteFluteDesc,"A glass flute that
 lures wild POKéMON.","ขลุ่ยแก้วที่ช่วย
-ล่อโปเกมอนป่า",translated_pending_qa,1,2,66,66,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,209
+ล่อโปเกมอนป่า",proof_passed,1,2,66,66,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,209
 sBerryJuiceDesc,"A 100% pure juice
 that restores HP
 by 20 points.","น้ำผลไม้บริสุทธิ์
 100% ฟื้นฟู HP
-20 หน่วย",translated_pending_qa,1,3,70,70,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,213
+20 หน่วย",proof_passed,1,3,70,70,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,213
 sSacredAshDesc,"Fully revives and
 restores all
 fainted POKéMON.","ชุบชีวิตและฟื้นฟู
 โปเกมอนที่หมดสภาพ
-ทุกตัวจนเต็ม",translated_pending_qa,1,3,96,96,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,218
+ทุกตัวจนเต็ม",proof_passed,1,3,96,96,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,218
 sShoalSaltDesc,"Salt obtained from
 deep inside the
 SHOAL CAVE.","เกลือที่เก็บได้จาก
-ส่วนลึกของถ้ำโชล",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,224
+ส่วนลึกของถ้ำโชล",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,224
 sShoalShellDesc,"A seashell found
 deep inside the
 SHOAL CAVE.","เปลือกหอยที่พบได้
-ในส่วนลึกของถ้ำโชล",translated_pending_qa,1,2,88,88,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,229
+ในส่วนลึกของถ้ำโชล",proof_passed,1,2,88,88,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,229
 sRedShardDesc,"A shard from an
 ancient item. Can
 be sold cheaply.","เศษวัตถุโบราณ
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,234
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,234
 sBlueShardDesc,"A shard from an
 ancient item. Can
 be sold cheaply.","เศษวัตถุโบราณ
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,239
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,239
 sYellowShardDesc,"A shard from an
 ancient item. Can
 be sold cheaply.","เศษวัตถุโบราณ
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,244
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,244
 sGreenShardDesc,"A shard from an
 ancient item. Can
 be sold cheaply.","เศษวัตถุโบราณ
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,249
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,249
 sHPUpDesc,"Raises the base HP
 of one POKéMON.","เพิ่มค่าพื้นฐาน HP
-ของโปเกมอนหนึ่งตัว",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,255
+ของโปเกมอนหนึ่งตัว",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,255
 sProteinDesc,"Raises the base
 ATTACK stat of one
 POKéMON.","เพิ่มค่าพื้นฐาน
-พลังโจมตีของโปเกมอน",translated_pending_qa,1,2,102,102,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,259
+พลังโจมตีของโปเกมอน",proof_passed,1,2,102,102,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,259
 sIronDesc,"Raises the base
 DEFENSE stat of
 one POKéMON.","เพิ่มค่าพื้นฐาน
-พลังป้องกันของโปเกมอน",translated_pending_qa,1,2,108,108,120,pass,pass,pass,pass,pass,7,wide_line;proper_name_or_location,src/data/text/item_descriptions.h,264
+พลังป้องกันของโปเกมอน",proof_passed,1,2,108,108,120,pass,pass,pass,pass,pass,7,wide_line;proper_name_or_location,src/data/text/item_descriptions.h,264
 sCarbosDesc,"Raises the base
 SPEED stat of one
 POKéMON.","เพิ่มค่าพื้นฐาน
-ความเร็วของโปเกมอน",translated_pending_qa,1,2,99,99,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,269
+ความเร็วของโปเกมอน",proof_passed,1,2,99,99,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,269
 sCalciumDesc,"Raises the base
 SP. ATK stat of one
 POKéMON.","เพิ่มค่าพื้นฐาน
 พลังโจมตีพิเศษ
-ของโปเกมอน",translated_pending_qa,1,3,70,70,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,274
+ของโปเกมอน",proof_passed,1,3,70,70,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,274
 sRareCandyDesc,"Raises the level
 of a POKéMON by
 one.","เพิ่มเลเวลโปเกมอน
-ขึ้นหนึ่งเลเวล",translated_pending_qa,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,279
+ขึ้นหนึ่งเลเวล",proof_passed,1,2,88,88,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,279
 sPPUpDesc,"Raises the maximum
 PP of a selected
 move.","เพิ่มค่า PP สูงสุด
-ของท่าที่เลือก",translated_pending_qa,1,2,71,69,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,284
+ของท่าที่เลือก",proof_passed,1,2,71,69,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,284
 sZincDesc,"Raises the base
 SP. DEF stat of one
 POKéMON.","เพิ่มค่าพื้นฐาน
 พลังป้องกันพิเศษ
-ของโปเกมอน",translated_pending_qa,1,3,76,76,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,289
+ของโปเกมอน",proof_passed,1,3,76,76,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,289
 sPPMaxDesc,"Raises the PP of a
 move to its maximum
 points.","เพิ่มค่า PP ของท่า
-จนถึงค่าสูงสุด",translated_pending_qa,1,2,75,73,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,294
+จนถึงค่าสูงสุด",proof_passed,1,2,75,73,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,294
 sGuardSpecDesc,"Prevents stat
 reduction when
 used in battle.","ป้องกันค่าสถานะลด
-เมื่อใช้ในการต่อสู้",translated_pending_qa,1,2,84,84,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,300
+เมื่อใช้ในการต่อสู้",proof_passed,1,2,84,84,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,300
 sDireHitDesc,"Raises the
 critical-hit ratio
 during one battle.","เพิ่มโอกาสโจมตี
 คริติคอลระหว่าง
-การต่อสู้หนึ่งครั้ง",translated_pending_qa,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,305
+การต่อสู้หนึ่งครั้ง",proof_passed,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,305
 sXAttackDesc,"Raises the stat
 ATTACK during one
 battle.","เพิ่มพลังโจมตี
 ระหว่างการต่อสู้
-หนึ่งครั้ง",translated_pending_qa,1,3,65,65,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,310
+หนึ่งครั้ง",proof_passed,1,3,65,65,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,310
 sXDefendDesc,"Raises the stat
 DEFENSE during one
 battle.","เพิ่มพลังป้องกัน
 ระหว่างการต่อสู้
-หนึ่งครั้ง",translated_pending_qa,1,3,68,68,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,315
+หนึ่งครั้ง",proof_passed,1,3,68,68,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,315
 sXSpeedDesc,"Raises the stat
 SPEED during one
 battle.","เพิ่มความเร็ว
 ระหว่างการต่อสู้
-หนึ่งครั้ง",translated_pending_qa,1,3,65,65,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,320
+หนึ่งครั้ง",proof_passed,1,3,65,65,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,320
 sXAccuracyDesc,"Raises accuracy
 of attack moves
 during one battle.","เพิ่มความแม่นยำ
 ของท่าโจมตีระหว่าง
-การต่อสู้หนึ่งครั้ง",translated_pending_qa,1,3,83,83,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,325
+การต่อสู้หนึ่งครั้ง",proof_passed,1,3,83,83,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,325
 sXSpecialDesc,"Raises the stat
 SP. ATK during one
 battle.","เพิ่มพลังโจมตีพิเศษ
 ระหว่างการต่อสู้
-หนึ่งครั้ง",translated_pending_qa,1,3,89,89,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,330
+หนึ่งครั้ง",proof_passed,1,3,89,89,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,330
 sPokeDollDesc,"Use to flee from
 any battle with
 a wild POKéMON.","ใช้หนีจากการต่อสู้
 กับโปเกมอนป่า
-ได้ทุกครั้ง",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,335
+ได้ทุกครั้ง",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,335
 sFluffyTailDesc,"Use to flee from
 any battle with
 a wild POKéMON.","ใช้หนีจากการต่อสู้
 กับโปเกมอนป่า
-ได้ทุกครั้ง",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,340
+ได้ทุกครั้ง",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,340
 sSuperRepelDesc,"Repels weak wild
 POKéMON for 200
 steps.","ไล่โปเกมอนป่า
 ที่อ่อนแอได้
-นาน 200 ก้าว",translated_pending_qa,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,346
+นาน 200 ก้าว",proof_passed,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,346
 sMaxRepelDesc,"Repels weak wild
 POKéMON for 250
 steps.","ไล่โปเกมอนป่า
 ที่อ่อนแอได้
-นาน 250 ก้าว",translated_pending_qa,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,351
+นาน 250 ก้าว",proof_passed,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,351
 sEscapeRopeDesc,"Use to escape
 instantly from a
 cave or a dungeon.","ใช้หนีออกจากถ้ำ
-หรือดันเจียนทันที",translated_pending_qa,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,356
+หรือดันเจียนทันที",proof_passed,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,356
 sRepelDesc,"Repels weak wild
 POKéMON for 100
 steps.","ไล่โปเกมอนป่า
 ที่อ่อนแอได้
-นาน 100 ก้าว",translated_pending_qa,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,361
+นาน 100 ก้าว",proof_passed,1,3,66,66,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;numeric;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,361
 sSunStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,367
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,367
 sMoonStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,372
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,372
 sFireStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,377
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,377
 sThunderStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,382
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,382
 sWaterStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,387
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,387
 sLeafStoneDesc,"Makes certain
 species of POKéMON
 evolve.","ทำให้โปเกมอน
-บางสายพันธุ์วิวัฒนาการ",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,392
+บางสายพันธุ์วิวัฒนาการ",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,392
 sTinyMushroomDesc,"A plain mushroom
 that would sell
 at a cheap price.","เห็ดธรรมดาที่
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,398
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,398
 sBigMushroomDesc,"A rare mushroom
 that would sell at a
 high price.","เห็ดหายากที่
-ขายได้ในราคาสูง",translated_pending_qa,1,2,73,73,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,403
+ขายได้ในราคาสูง",proof_passed,1,2,73,73,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,403
 sPearlDesc,"A pretty pearl
 that would sell at a
 cheap price.","ไข่มุกสวยงามที่
-ขายได้ในราคาถูก",translated_pending_qa,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,408
+ขายได้ในราคาถูก",proof_passed,1,2,75,75,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,408
 sBigPearlDesc,"A lovely large pearl
 that would sell at a
 high price.","ไข่มุกเม็ดใหญ่
 แสนงดงามที่ขายได้
-ในราคาสูง",translated_pending_qa,1,3,83,83,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,413
+ในราคาสูง",proof_passed,1,3,83,83,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,413
 sStardustDesc,"Beautiful red sand.
 Can be sold at a
 high price.","ทรายสีแดงงดงาม
-ขายได้ในราคาสูง",translated_pending_qa,1,2,73,73,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,418
+ขายได้ในราคาสูง",proof_passed,1,2,73,73,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,418
 sStarPieceDesc,"A red gem shard.
 It would sell for a
 very high price.","เศษอัญมณีสีแดง
 ขายได้ในราคา
-สูงมาก",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,423
+สูงมาก",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,423
 sNuggetDesc,"A nugget of pure
 gold. Can be sold at
 a high price.","ก้อนทองคำบริสุทธิ์
-ขายได้ในราคาสูง",translated_pending_qa,1,2,82,82,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,428
+ขายได้ในราคาสูง",proof_passed,1,2,82,82,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,428
 sHeartScaleDesc,"A lovely scale.
 It is coveted by
 collectors.","เกล็ดแสนงดงาม
 เป็นที่ต้องการ
-ของนักสะสม",translated_pending_qa,1,3,70,70,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,433
+ของนักสะสม",proof_passed,1,3,70,70,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,433
 sOrangeMailDesc,"A ZIGZAGOON-print
 MAIL to be held by
 a POKéMON.","จดหมายลายจิกุซากุมะ
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,439
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,439
 sHarborMailDesc,"A WINGULL-print
 MAIL to be held by
 a POKéMON.","จดหมายลายคาโมเมะ
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,444
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,444
 sGlitterMailDesc,"A PIKACHU-print
 MAIL to be held by
 a POKéMON.","จดหมายลายพิคาชู
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,449
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,449
 sMechMailDesc,"A MAGNEMITE-print
 MAIL to be held by
 a POKéMON.","จดหมายลายคอยล์
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,454
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,454
 sWoodMailDesc,"A SLAKOTH-print
 MAIL to be held by
 a POKéMON.","จดหมายลายนามาเคโร
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,459
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,459
 sWaveMailDesc,"A WAILMER-print
 MAIL to be held by
 a POKéMON.","จดหมายลายโฮเอลโกะ
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,464
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,464
 sBeadMailDesc,"MAIL featuring a
 sketch of the
 holding POKéMON.","จดหมายที่มีภาพร่าง
-ของโปเกมอนที่ถือ",translated_pending_qa,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,469
+ของโปเกมอนที่ถือ",proof_passed,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,469
 sShadowMailDesc,"A DUSKULL-print
 MAIL to be held by
 a POKéMON.","จดหมายลายโยมาวารุ
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,474
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,474
 sTropicMailDesc,"A BELLOSSOM-print
 MAIL to be held by
 a POKéMON.","จดหมายลายคิเรฮานะ
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,479
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,8,species_name_reference;proper_name_or_location,src/data/text/item_descriptions.h,479
 sDreamMailDesc,"MAIL featuring a
 sketch of the
 holding POKéMON.","จดหมายที่มีภาพร่าง
-ของโปเกมอนที่ถือ",translated_pending_qa,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,484
+ของโปเกมอนที่ถือ",proof_passed,1,2,83,83,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,484
 sFabMailDesc,"A gorgeous-print
 MAIL to be held
 by a POKéMON.","จดหมายลายหรูหรา
-สำหรับให้โปเกมอนถือ",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,489
+สำหรับให้โปเกมอนถือ",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,489
 sRetroMailDesc,"MAIL featuring the
 drawings of three
 POKéMON.","จดหมายที่มีภาพวาด
-โปเกมอนสามตัว",translated_pending_qa,1,2,87,87,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,494
+โปเกมอนสามตัว",proof_passed,1,2,87,87,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,494
 sCheriBerryDesc,"A hold item that
 heals paralysis
 in battle.","ไอเทมถือที่รักษา
-อัมพาตในการต่อสู้",translated_pending_qa,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,500
+อัมพาตในการต่อสู้",proof_passed,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,500
 sChestoBerryDesc,"A hold item that
 awakens POKéMON
 in battle.","ไอเทมถือที่ปลุก
-โปเกมอนในการต่อสู้",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,505
+โปเกมอนในการต่อสู้",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,505
 sPechaBerryDesc,"A hold item that
 heals poisoning
 in battle.","ไอเทมถือที่รักษา
-พิษในการต่อสู้",translated_pending_qa,1,2,72,72,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,510
+พิษในการต่อสู้",proof_passed,1,2,72,72,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,510
 sRawstBerryDesc,"A hold item that
 heals a burn in
 battle.","ไอเทมถือที่รักษา
-อาการไหม้ในการต่อสู้",translated_pending_qa,1,2,93,93,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,515
+อาการไหม้ในการต่อสู้",proof_passed,1,2,93,93,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,515
 sAspearBerryDesc,"A hold item that
 defrosts POKéMON
 in battle.","ไอเทมถือที่ละลาย
-น้ำแข็งในการต่อสู้",translated_pending_qa,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,520
+น้ำแข็งในการต่อสู้",proof_passed,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,520
 sLeppaBerryDesc,"A hold item that
 restores 10 PP in
 battle.","ไอเทมถือที่ฟื้นฟู
 PP 10 หน่วย
-ในการต่อสู้",translated_pending_qa,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,525
+ในการต่อสู้",proof_passed,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,525
 sOranBerryDesc,"A hold item that
 restores 10 HP in
 battle.","ไอเทมถือที่ฟื้นฟู
 HP 10 หน่วย
-ในการต่อสู้",translated_pending_qa,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,530
+ในการต่อสู้",proof_passed,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,530
 sPersimBerryDesc,"A hold item that
 heals confusion
 in battle.","ไอเทมถือที่รักษา
 อาการสับสน
-ในการต่อสู้",translated_pending_qa,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,535
+ในการต่อสู้",proof_passed,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,535
 sLumBerryDesc,"A hold item that
 heals any status
 problem in battle.","ไอเทมถือที่รักษา
 สถานะผิดปกติทุกชนิด
-ในการต่อสู้",translated_pending_qa,1,3,96,96,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,540
+ในการต่อสู้",proof_passed,1,3,96,96,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,540
 sSitrusBerryDesc,"A hold item that
 restores 30 HP in
 battle.","ไอเทมถือที่ฟื้นฟู
 HP 30 หน่วย
-ในการต่อสู้",translated_pending_qa,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,545
+ในการต่อสู้",proof_passed,1,3,73,73,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;abbreviation;three_lines,src/data/text/item_descriptions.h,545
 sFigyBerryDesc,"A hold item that
 restores HP but
 may confuse.","ไอเทมถือที่ฟื้นฟู HP
-แต่อาจทำให้สับสน",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,550
+แต่อาจทำให้สับสน",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,550
 sWikiBerryDesc,"A hold item that
 restores HP but
 may confuse.","ไอเทมถือที่ฟื้นฟู HP
-แต่อาจทำให้สับสน",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,555
+แต่อาจทำให้สับสน",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,555
 sMagoBerryDesc,"A hold item that
 restores HP but
 may confuse.","ไอเทมถือที่ฟื้นฟู HP
-แต่อาจทำให้สับสน",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,560
+แต่อาจทำให้สับสน",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,560
 sAguavBerryDesc,"A hold item that
 restores HP but
 may confuse.","ไอเทมถือที่ฟื้นฟู HP
-แต่อาจทำให้สับสน",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,565
+แต่อาจทำให้สับสน",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,565
 sIapapaBerryDesc,"A hold item that
 restores HP but
 may confuse.","ไอเทมถือที่ฟื้นฟู HP
-แต่อาจทำให้สับสน",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,570
+แต่อาจทำให้สับสน",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,570
 sRazzBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow RAZZ.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ RAZZ",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,575
+เพาะ RAZZ",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,575
 sBlukBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow BLUK.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ BLUK",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,580
+เพาะ BLUK",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,580
 sNanabBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow NANAB.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ NANAB",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,585
+เพาะ NANAB",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,585
 sWepearBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow WEPEAR.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ WEPEAR",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,590
+เพาะ WEPEAR",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,590
 sPinapBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow PINAP.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ PINAP",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,595
+เพาะ PINAP",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,595
 sPomegBerryDesc,"Makes a POKéMON
 friendly but lowers
 base HP.","ทำให้โปเกมอนสนิทขึ้น
-แต่ลดค่าพื้นฐาน HP",translated_pending_qa,1,2,104,104,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,600
+แต่ลดค่าพื้นฐาน HP",proof_passed,1,2,104,104,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;abbreviation;proper_name_or_location,src/data/text/item_descriptions.h,600
 sKelpsyBerryDesc,"Makes a POKéMON
 friendly but lowers
 base ATTACK.","ทำให้โปเกมอนสนิทขึ้น
 แต่ลดค่าพื้นฐาน
-พลังโจมตี",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,605
+พลังโจมตี",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,605
 sQualotBerryDesc,"Makes a POKéMON
 friendly but lowers
 base DEFENSE.","ทำให้โปเกมอนสนิทขึ้น
 แต่ลดค่าพื้นฐาน
-พลังป้องกัน",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,610
+พลังป้องกัน",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,610
 sHondewBerryDesc,"Makes a POKéMON
 friendly but lowers
 base SP. ATK.","ทำให้โปเกมอนสนิทขึ้น
 แต่ลดค่าพื้นฐาน
-พลังโจมตีพิเศษ",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,615
+พลังโจมตีพิเศษ",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,615
 sGrepaBerryDesc,"Makes a POKéMON
 friendly but lowers
 base SP. DEF.","ทำให้โปเกมอนสนิทขึ้น
 แต่ลดค่าพื้นฐาน
-พลังป้องกันพิเศษ",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,620
+พลังป้องกันพิเศษ",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,620
 sTamatoBerryDesc,"Makes a POKéMON
 friendly but lowers
 base SPEED.","ทำให้โปเกมอนสนิทขึ้น
 แต่ลดค่าพื้นฐาน
-ความเร็ว",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,625
+ความเร็ว",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,625
 sCornnBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow CORNN.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ CORNN",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,630
+เพาะ CORNN",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,630
 sMagostBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow MAGOST.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ MAGOST",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,635
+เพาะ MAGOST",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,635
 sRabutaBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow RABUTA.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ RABUTA",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,640
+เพาะ RABUTA",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,640
 sNomelBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow NOMEL.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ NOMEL",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,645
+เพาะ NOMEL",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,645
 sSpelonBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow SPELON.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ SPELON",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,650
+เพาะ SPELON",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,650
 sPamtreBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow PAMTRE.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ PAMTRE",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,655
+เพาะ PAMTRE",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,655
 sWatmelBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow WATMEL.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ WATMEL",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,660
+เพาะ WATMEL",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,660
 sDurinBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow DURIN.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ DURIN",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,665
+เพาะ DURIN",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,665
 sBelueBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow BELUE.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-เพาะ BELUE",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,670
+เพาะ BELUE",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,670
 sLiechiBerryDesc,"A hold item that
 raises ATTACK in
 a pinch.","ไอเทมถือที่เพิ่ม
 พลังโจมตีเมื่อ
-ตกอยู่ในอันตราย",translated_pending_qa,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,675
+ตกอยู่ในอันตราย",proof_passed,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,675
 sGanlonBerryDesc,"A hold item that
 raises DEFENSE in
 a pinch.","ไอเทมถือที่เพิ่ม
 พลังป้องกันเมื่อ
-ตกอยู่ในอันตราย",translated_pending_qa,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,680
+ตกอยู่ในอันตราย",proof_passed,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,680
 sSalacBerryDesc,"A hold item that
 raises SPEED in
 a pinch.","ไอเทมถือที่เพิ่ม
 ความเร็วเมื่อ
-ตกอยู่ในอันตราย",translated_pending_qa,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,685
+ตกอยู่ในอันตราย",proof_passed,1,3,75,75,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,685
 sPetayaBerryDesc,"A hold item that
 raises SP. ATK in
 a pinch.","ไอเทมถือที่เพิ่ม
 พลังโจมตีพิเศษเมื่อ
-ตกอยู่ในอันตราย",translated_pending_qa,1,3,87,87,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,690
+ตกอยู่ในอันตราย",proof_passed,1,3,87,87,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,690
 sApicotBerryDesc,"A hold item that
 raises SP. DEF in
 a pinch.","ไอเทมถือที่เพิ่ม
 พลังป้องกันพิเศษเมื่อ
-ตกอยู่ในอันตราย",translated_pending_qa,1,3,93,93,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,695
+ตกอยู่ในอันตราย",proof_passed,1,3,93,93,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,695
 sLansatBerryDesc,"A hold item that
 ups the critical-
 hit rate in a pinch.","ไอเทมถือที่เพิ่ม
 โอกาสโจมตีคริติคอล
-เมื่ออยู่ในอันตราย",translated_pending_qa,1,3,91,91,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,700
+เมื่ออยู่ในอันตราย",proof_passed,1,3,91,91,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,700
 sStarfBerryDesc,"A hold item that
 sharply boosts a
 stat in a pinch.","ไอเทมถือที่เพิ่ม
 ค่าสถานะหนึ่งอย่างมาก
-เมื่ออยู่ในอันตราย",translated_pending_qa,1,3,96,96,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,705
+เมื่ออยู่ในอันตราย",proof_passed,1,3,96,96,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,705
 sEnigmaBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow a mystery.","วัตถุดิบทำ {POKEBLOCK}
 ปลูกในดินร่วนเพื่อ
-ให้เกิดผลลึกลับ",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;control_code;three_lines,src/data/text/item_descriptions.h,710
+ให้เกิดผลลึกลับ",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;control_code;three_lines,src/data/text/item_descriptions.h,710
 sBrightPowderDesc,"A hold item that
 casts a glare to
 reduce accuracy.","ไอเทมถือที่ส่องแสง
 ลดความแม่นยำ
-ของคู่ต่อสู้",translated_pending_qa,1,3,82,82,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,716
+ของคู่ต่อสู้",proof_passed,1,3,82,82,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,716
 sWhiteHerbDesc,"A hold item that
 restores any
 lowered stat.","ไอเทมถือที่ฟื้นคืน
-ค่าสถานะที่ถูกลด",translated_pending_qa,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,721
+ค่าสถานะที่ถูกลด",proof_passed,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,721
 sMachoBraceDesc,"A hold item that
 promotes growth,
 but reduces SPEED.","ไอเทมถือที่ช่วย
 ส่งเสริมการเติบโต
-แต่ลดความเร็ว",translated_pending_qa,1,3,78,78,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,726
+แต่ลดความเร็ว",proof_passed,1,3,78,78,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,726
 sExpShareDesc,"A hold item that
 gets EXP. points
 from battles.","ไอเทมถือที่ได้รับ
 คะแนน EXP
-จากการต่อสู้",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,731
+จากการต่อสู้",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,731
 sQuickClawDesc,"A hold item that
 occasionally allows
 the first strike.","ไอเทมถือที่บางครั้ง
-ทำให้ได้โจมตีก่อน",translated_pending_qa,1,2,82,82,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,736
+ทำให้ได้โจมตีก่อน",proof_passed,1,2,82,82,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,736
 sSootheBellDesc,"A hold item that
 calms spirits and
 fosters friendship.","ไอเทมถือที่ช่วย
 ให้จิตใจสงบและ
-เพิ่มความสนิท",translated_pending_qa,1,3,73,73,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,741
+เพิ่มความสนิท",proof_passed,1,3,73,73,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,741
 sMentalHerbDesc,"A hold item that
 snaps POKéMON out
 of infatuation.","ไอเทมถือที่แก้
 อาการหลงเสน่ห์
-ของโปเกมอน",translated_pending_qa,1,3,67,67,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,746
+ของโปเกมอน",proof_passed,1,3,67,67,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,746
 sChoiceBandDesc,"Raises a move's
 power, but permits
 only that move.","เพิ่มพลังของท่า
 แต่ใช้ได้เพียง
-ท่านั้นเท่านั้น",translated_pending_qa,1,3,64,64,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,751
+ท่านั้นเท่านั้น",proof_passed,1,3,64,64,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,751
 sKingsRockDesc,"A hold item that
 may cause flinching
 when the foe is hit.","ไอเทมถือที่อาจ
 ทำให้คู่ต่อสู้ชะงัก
-เมื่อถูกโจมตี",translated_pending_qa,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,756
+เมื่อถูกโจมตี",proof_passed,1,3,72,72,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,756
 sSilverPowderDesc,"A hold item that
 raises the power of
 BUG-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท BUG",translated_pending_qa,1,2,85,82,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,761
+พลังท่าประเภท BUG",proof_passed,1,2,85,82,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,761
 sAmuletCoinDesc,"Doubles money in
 battle if the
 holder takes part.","เพิ่มเงินรางวัลสองเท่า
-หากผู้ถือร่วมต่อสู้",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,766
+หากผู้ถือร่วมต่อสู้",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,766
 sCleanseTagDesc,"A hold item that
 helps repel wild
 POKéMON.","ไอเทมถือที่ช่วย
-ไล่โปเกมอนป่า",translated_pending_qa,1,2,67,67,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,771
+ไล่โปเกมอนป่า",proof_passed,1,2,67,67,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,771
 sSoulDewDesc,"Hold item: raises
 SP. ATK & SP. DEF of
 LATIOS & LATIAS.","เพิ่มพลังโจมตีพิเศษ
 และพลังป้องกันพิเศษ
-ของลาทิออสกับลาเทียส",translated_pending_qa,1,3,97,97,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,776
+ของลาทิออสกับลาเทียส",proof_passed,1,3,97,97,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,776
 sDeepSeaToothDesc,"A hold item that
 raises the SP. ATK
 of CLAMPERL.","ไอเทมถือที่เพิ่ม
 พลังโจมตีพิเศษ
-ของพาร์ลูล",translated_pending_qa,1,3,70,70,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,781
+ของพาร์ลูล",proof_passed,1,3,70,70,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,781
 sDeepSeaScaleDesc,"A hold item that
 raises the SP. DEF
 of CLAMPERL.","ไอเทมถือที่เพิ่ม
 พลังป้องกันพิเศษ
-ของพาร์ลูล",translated_pending_qa,1,3,76,76,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,786
+ของพาร์ลูล",proof_passed,1,3,76,76,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,786
 sSmokeBallDesc,"A hold item that
 assures fleeing
 from wild POKéMON.","ไอเทมถือที่ช่วยให้
 หนีจากโปเกมอนป่า
-ได้แน่นอน",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,791
+ได้แน่นอน",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,791
 sEverstoneDesc,"A wondrous hold
 item that prevents
 evolution.","ไอเทมถือมหัศจรรย์
-ที่ป้องกันวิวัฒนาการ",translated_pending_qa,1,2,86,86,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,796
+ที่ป้องกันวิวัฒนาการ",proof_passed,1,2,86,86,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,796
 sFocusBandDesc,"A hold item that
 occasionally
 prevents fainting.","ไอเทมถือที่บางครั้ง
-ป้องกันการหมดสภาพ",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,801
+ป้องกันการหมดสภาพ",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,801
 sLuckyEggDesc,"A hold item that
 boosts EXP. points
 earned in battle.","ไอเทมถือที่เพิ่ม
 คะแนน EXP ที่ได้รับ
-จากการต่อสู้",translated_pending_qa,1,3,91,88,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,806
+จากการต่อสู้",proof_passed,1,3,91,88,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,806
 sScopeLensDesc,"A hold item that
 improves the
 critical-hit rate.","ไอเทมถือที่เพิ่ม
-โอกาสโจมตีคริติคอล",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,811
+โอกาสโจมตีคริติคอล",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,811
 sMetalCoatDesc,"A hold item that
 raises the power of
 STEEL-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท STEEL",translated_pending_qa,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,816
+พลังท่าประเภท STEEL",proof_passed,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,816
 sLeftoversDesc,"A hold item that
 gradually restores
 HP in battle.","ไอเทมถือที่ค่อยๆ
 ฟื้นฟู HP ระหว่าง
-การต่อสู้",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,821
+การต่อสู้",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;abbreviation;three_lines,src/data/text/item_descriptions.h,821
 sDragonScaleDesc,"A strange scale
 held by DRAGON-
 type POKéMON.","เกล็ดประหลาดที่
-โปเกมอนประเภท DRAGON
-บางตัวถือไว้",translated_pending_qa,1,3,117,111,120,pass,pass,pass,pass,pass,15,near_120px;mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,826
+โปเกมอนธาตุมังกร
+บางตัวถือไว้",proof_passed,1,3,82,82,120,pass,pass,pass,pass,pass,15,near_120px;mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,826
 sLightBallDesc,"A hold item that
 raises the SP. ATK
 of PIKACHU.","ไอเทมถือที่เพิ่ม
 พลังโจมตีพิเศษ
-ของพิคาชู",translated_pending_qa,1,3,70,70,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,831
+ของพิคาชู",proof_passed,1,3,70,70,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,831
 sSoftSandDesc,"A hold item that
 raises the power of
 GROUND-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท GROUND",translated_pending_qa,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,836
+พลังท่าประเภท GROUND",proof_passed,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,836
 sHardStoneDesc,"A hold item that
 raises the power of
 ROCK-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท ROCK",translated_pending_qa,1,2,91,87,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,841
+พลังท่าประเภท ROCK",proof_passed,1,2,91,87,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,841
 sMiracleSeedDesc,"A hold item that
 raises the power of
 GRASS-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท GRASS",translated_pending_qa,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,846
+พลังท่าประเภท GRASS",proof_passed,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,846
 sBlackGlassesDesc,"A hold item that
 raises the power of
 DARK-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท DARK",translated_pending_qa,1,2,91,87,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,851
+พลังท่าประเภท DARK",proof_passed,1,2,91,87,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,851
 sBlackBeltDesc,"A hold item that
 boosts FIGHTING-
-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท FIGHTING",translated_pending_qa,1,2,115,105,120,pass,pass,pass,pass,pass,11,near_120px;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,856
+type moves.","ไอเทมถือเพิ่มพลัง
+ท่าประเภทต่อสู้",proof_passed,1,2,79,79,120,pass,pass,pass,pass,pass,11,near_120px;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,856
 sMagnetDesc,"A hold item that
 boosts ELECTRIC-
-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท ELECTRIC",translated_pending_qa,1,2,115,106,120,pass,pass,pass,pass,pass,11,near_120px;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,861
+type moves.","ไอเทมถือเพิ่มพลัง
+ท่าประเภทไฟฟ้า",proof_passed,1,2,79,79,120,pass,pass,pass,pass,pass,11,near_120px;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,861
 sMysticWaterDesc,"A hold item that
 raises the power of
 WATER-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท WATER",translated_pending_qa,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,866
+พลังท่าประเภท WATER",proof_passed,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,866
 sSharpBeakDesc,"A hold item that
 raises the power of
 FLYING-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท FLYING",translated_pending_qa,1,2,103,95,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,871
+พลังท่าประเภท FLYING",proof_passed,1,2,103,95,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,871
 sPoisonBarbDesc,"A hold item that
 raises the power of
 POISON-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท POISON",translated_pending_qa,1,2,103,96,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,876
+พลังท่าประเภท POISON",proof_passed,1,2,103,96,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,876
 sNeverMeltIceDesc,"A hold item that
 raises the power of
 ICE-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท ICE",translated_pending_qa,1,2,85,81,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,881
+พลังท่าประเภท ICE",proof_passed,1,2,85,81,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,881
 sSpellTagDesc,"A hold item that
 raises the power of
 GHOST-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท GHOST",translated_pending_qa,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,886
+พลังท่าประเภท GHOST",proof_passed,1,2,97,92,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,886
 sTwistedSpoonDesc,"A hold item that
 boosts PSYCHIC-
 type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท PSYCHIC",translated_pending_qa,1,2,109,100,120,pass,pass,pass,pass,pass,6,wide_line;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,891
+พลังท่าประเภท PSYCHIC",proof_passed,1,2,109,100,120,pass,pass,pass,pass,pass,6,wide_line;mixed_thai_latin_or_number,src/data/text/item_descriptions.h,891
 sCharcoalDesc,"A hold item that
 raises the power of
 FIRE-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท FIRE",translated_pending_qa,1,2,91,86,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,896
+พลังท่าประเภท FIRE",proof_passed,1,2,91,86,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,896
 sDragonFangDesc,"A hold item that
 raises the power of
 DRAGON-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท DRAGON",translated_pending_qa,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,901
+พลังท่าประเภท DRAGON",proof_passed,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,901
 sSilkScarfDesc,"A hold item that
 raises the power of
 NORMAL-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท NORMAL",translated_pending_qa,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,906
+พลังท่าประเภท NORMAL",proof_passed,1,2,103,97,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,906
 sUpGradeDesc,"A peculiar box made
 by SILPH CO.","กล่องประหลาดที่สร้าง
-โดยซิลฟ์",translated_pending_qa,1,2,89,89,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,911
+โดยซิลฟ์",proof_passed,1,2,89,89,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,911
 sShellBellDesc,"A hold item that
 restores HP upon
 striking the foe.","ไอเทมถือที่ฟื้นฟู HP
-เมื่อโจมตีคู่ต่อสู้",translated_pending_qa,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,915
+เมื่อโจมตีคู่ต่อสู้",proof_passed,1,2,88,86,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;abbreviation,src/data/text/item_descriptions.h,915
 sSeaIncenseDesc,"A hold item that
 slightly boosts
 WATER-type moves.","ไอเทมถือที่เพิ่ม
 พลังท่าประเภท WATER
-เล็กน้อย",translated_pending_qa,1,3,97,92,120,pass,pass,pass,pass,pass,3,mixed_thai_latin_or_number;three_lines,src/data/text/item_descriptions.h,920
+เล็กน้อย",proof_passed,1,3,97,92,120,pass,pass,pass,pass,pass,3,mixed_thai_latin_or_number;three_lines,src/data/text/item_descriptions.h,920
 sLaxIncenseDesc,"A hold item that
 slightly lowers the
 foe's accuracy.","ไอเทมถือที่ลด
 ความแม่นยำของ
-คู่ต่อสู้เล็กน้อย",translated_pending_qa,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,925
+คู่ต่อสู้เล็กน้อย",proof_passed,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,925
 sLuckyPunchDesc,"A hold item that
 raises CHANSEY's
 critical-hit rate.","ไอเทมถือที่เพิ่ม
 โอกาสโจมตีคริติคอล
-ของลัคกี",translated_pending_qa,1,3,91,91,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,930
+ของลัคกี",proof_passed,1,3,91,91,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,930
 sMetalPowderDesc,"A hold item that
 raises DITTO's
 DEFENSE.","ไอเทมถือที่เพิ่ม
-พลังป้องกันของเมตามอน",translated_pending_qa,1,2,108,108,120,pass,pass,pass,pass,pass,9,wide_line;species_name_reference,src/data/text/item_descriptions.h,935
+พลังป้องกันของเมตามอน",proof_passed,1,2,108,108,120,pass,pass,pass,pass,pass,9,wide_line;species_name_reference,src/data/text/item_descriptions.h,935
 sThickClubDesc,"A hold item that
 raises CUBONE or
 MAROWAK's ATTACK.","ไอเทมถือที่เพิ่ม
 พลังโจมตีของคาราคารา
-หรือการาการา",translated_pending_qa,1,3,99,99,120,pass,pass,pass,pass,pass,9,species_name_reference;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,940
+หรือการาการา",proof_passed,1,3,99,99,120,pass,pass,pass,pass,pass,9,species_name_reference;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,940
 sStickDesc,"A hold item that
 raises FARFETCH'D's
 critical-hit ratio.","ไอเทมถือที่เพิ่ม
 โอกาสโจมตีคริติคอล
-ของคาโมเนงิ",translated_pending_qa,1,3,91,91,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,945
+ของคาโมเนงิ",proof_passed,1,3,91,91,120,pass,pass,pass,pass,pass,6,species_name_reference;three_lines,src/data/text/item_descriptions.h,945
 sRedScarfDesc,"A hold item that
 raises COOL in
 CONTESTS.","ไอเทมถือที่เพิ่ม
-ความเท่ในการประกวด",translated_pending_qa,1,2,100,100,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,950
+ความเท่ในการประกวด",proof_passed,1,2,100,100,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,950
 sBlueScarfDesc,"A hold item that
 raises BEAUTY in
 CONTESTS.","ไอเทมถือที่เพิ่ม
-ความงามในการประกวด",translated_pending_qa,1,2,104,104,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,955
+ความงามในการประกวด",proof_passed,1,2,104,104,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,955
 sPinkScarfDesc,"A hold item that
 raises CUTE in
 CONTESTS.","ไอเทมถือที่เพิ่ม
-ความน่ารักในการประกวด",translated_pending_qa,1,2,112,112,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,960
+ความน่ารักในการประกวด",proof_passed,1,2,112,112,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,960
 sGreenScarfDesc,"A hold item that
 raises SMART in
 CONTESTS.","ไอเทมถือที่เพิ่ม
-ความฉลาดในการประกวด",translated_pending_qa,1,2,114,114,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,965
+ความฉลาดในการประกวด",proof_passed,1,2,114,114,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,965
 sYellowScarfDesc,"A hold item that
 raises TOUGH in
 CONTESTS.","ไอเทมถือที่เพิ่ม
-ความแกร่งในการประกวด",translated_pending_qa,1,2,111,111,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,970
+ความแกร่งในการประกวด",proof_passed,1,2,111,111,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,970
 sMachBikeDesc,"A folding bicycle
 that doubles your
 speed or better.","จักรยานพับได้
 ที่เพิ่มความเร็ว
-อย่างน้อยสองเท่า",translated_pending_qa,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,976
+อย่างน้อยสองเท่า",proof_passed,1,3,71,71,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,976
 sCoinCaseDesc,"A case that holds
 up to 9,999 COINS.","กล่องที่เก็บเหรียญได้
-สูงสุด 9,999 เหรียญ",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;proper_name_or_location,src/data/text/item_descriptions.h,981
+สูงสุด 9,999 เหรียญ",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;numeric;proper_name_or_location,src/data/text/item_descriptions.h,981
 sItemfinderDesc,"A device that
 signals an invisible
 item by sound.","อุปกรณ์ส่งเสียง
 เมื่อพบไอเทมที่
-มองไม่เห็น",translated_pending_qa,1,3,69,69,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,985
+มองไม่เห็น",proof_passed,1,3,69,69,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,985
 sOldRodDesc,"Use by any body of
 water to fish for
 wild POKéMON.","ใช้ตกโปเกมอนป่า
-ตามแหล่งน้ำต่างๆ",translated_pending_qa,1,2,79,79,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,990
+ตามแหล่งน้ำต่างๆ",proof_passed,1,2,79,79,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,990
 sGoodRodDesc,"A decent fishing
 rod for catching
 wild POKéMON.","เบ็ดตกปลาคุณภาพดี
-สำหรับจับโปเกมอนป่า",translated_pending_qa,1,2,96,96,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,995
+สำหรับจับโปเกมอนป่า",proof_passed,1,2,96,96,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,995
 sSuperRodDesc,"The best fishing
 rod for catching
 wild POKéMON.","เบ็ดตกปลาที่ดีที่สุด
-สำหรับจับโปเกมอนป่า",translated_pending_qa,1,2,96,96,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1000
+สำหรับจับโปเกมอนป่า",proof_passed,1,2,96,96,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1000
 sSSTicketDesc,"The ticket required
 for sailing on a
 ferry.","บัตรโดยสารที่จำเป็น
-สำหรับขึ้นเรือข้ามฟาก",translated_pending_qa,1,2,96,96,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1005
+สำหรับขึ้นเรือข้ามฟาก",proof_passed,1,2,96,96,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1005
 sContestPassDesc,"The pass required
 for entering
 POKéMON CONTESTS.","บัตรสำหรับเข้าร่วม
-การประกวดโปเกมอน",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1010
+การประกวดโปเกมอน",proof_passed,1,2,94,94,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1010
 sWailmerPailDesc,"A tool used for
 watering BERRIES
 and plants.","อุปกรณ์สำหรับรดน้ำ
-BERRY และต้นไม้",translated_pending_qa,1,2,86,86,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,1015
+BERRY และต้นไม้",proof_passed,1,2,86,86,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,1015
 sDevonGoodsDesc,"A package that
 contains DEVON's
 machine parts.","พัสดุที่บรรจุ
 ชิ้นส่วนเครื่องจักร
-ของเดวอน",translated_pending_qa,1,3,79,79,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1020
+ของเดวอน",proof_passed,1,3,79,79,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1020
 sSootSackDesc,"A sack used to
 gather and hold
 volcanic ash.","ถุงสำหรับรวบรวม
-และเก็บเถ้าภูเขาไฟ",translated_pending_qa,1,2,84,84,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1025
+และเก็บเถ้าภูเขาไฟ",proof_passed,1,2,84,84,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1025
 sBasementKeyDesc,"The key for NEW
 MAUVILLE beneath
 MAUVILLE CITY.","กุญแจห้องใต้ดินของ
 นิวมอวิลล์ ใต้เมือง
-มอวิลล์",translated_pending_qa,1,3,88,88,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1030
+มอวิลล์",proof_passed,1,3,88,88,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1030
 sAcroBikeDesc,"A folding bicycle
 capable of jumps
 and wheelies.","จักรยานพับได้
 ที่กระโดดและ
-ยกล้อได้",translated_pending_qa,1,3,63,63,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1035
+ยกล้อได้",proof_passed,1,3,63,63,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1035
 sPokeblockCaseDesc,"A case for holding
 {POKEBLOCK}S made with
 a BERRY BLENDER.","กล่องสำหรับเก็บ
 {POKEBLOCK} ที่ทำด้วย
-เครื่องปั่นเบอร์รี",translated_pending_qa,1,3,94,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1040
+เครื่องปั่นเบอร์รี",proof_passed,1,3,94,85,120,pass,pass,pass,pass,pass,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1040
 sLetterDesc,"A letter to STEVEN
 from the PRESIDENT
 of the DEVON CORP.","จดหมายถึงสตีเวน
 จากประธานแห่ง
-เดวอน",translated_pending_qa,1,3,78,78,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1045
+เดวอน",proof_passed,1,3,78,78,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1045
 sEonTicketDesc,"The ticket for a
 ferry to a distant
 southern island.","บัตรโดยสารเรือไปยัง
-เกาะห่างไกลทางตอนใต้",translated_pending_qa,1,2,101,101,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1050
+เกาะห่างไกลทางตอนใต้",proof_passed,1,2,101,101,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1050
 sRedOrbDesc,"A red, glowing orb
 said to contain an
 ancient power.","ลูกแก้วสีแดงเรืองแสง
 ว่ากันว่ามีพลัง
-โบราณสถิตอยู่",translated_pending_qa,1,3,92,92,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1055
+โบราณสถิตอยู่",proof_passed,1,3,92,92,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1055
 sBlueOrbDesc,"A blue, glowing orb
 said to contain an
 ancient power.","ลูกแก้วสีน้ำเงิน
 เรืองแสง ว่ากันว่ามี
-พลังโบราณสถิตอยู่",translated_pending_qa,1,3,81,81,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1060
+พลังโบราณสถิตอยู่",proof_passed,1,3,81,81,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1060
 sScannerDesc,"A device found
 inside the
 ABANDONED SHIP.","อุปกรณ์ที่พบภายใน
-เรือร้าง",translated_pending_qa,1,2,87,87,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1065
+เรือร้าง",proof_passed,1,2,87,87,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1065
 sGoGogglesDesc,"Nifty goggles that
 protect eyes from
 desert sandstorms.","แว่นตาที่ช่วยปกป้อง
 ดวงตาจากพายุทราย
-ในทะเลทราย",translated_pending_qa,1,3,87,87,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1070
+ในทะเลทราย",proof_passed,1,3,87,87,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1070
 sMeteoriteDesc,"A meteorite found
 at METEOR FALLS.","อุกกาบาตที่พบใน
-น้ำตกมีทีออร์",translated_pending_qa,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1075
+น้ำตกมีทีออร์",proof_passed,1,2,76,76,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1075
 sRoom1KeyDesc,"A key that opens a
 door inside the
 ABANDONED SHIP.","กุญแจเปิดประตู
-ภายในเรือร้าง",translated_pending_qa,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1079
+ภายในเรือร้าง",proof_passed,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1079
 sRoom2KeyDesc,"A key that opens a
 door inside the
 ABANDONED SHIP.","กุญแจเปิดประตู
-ภายในเรือร้าง",translated_pending_qa,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1084
+ภายในเรือร้าง",proof_passed,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1084
 sRoom4KeyDesc,"A key that opens a
 door inside the
 ABANDONED SHIP.","กุญแจเปิดประตู
-ภายในเรือร้าง",translated_pending_qa,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1089
+ภายในเรือร้าง",proof_passed,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1089
 sRoom6KeyDesc,"A key that opens a
 door inside the
 ABANDONED SHIP.","กุญแจเปิดประตู
-ภายในเรือร้าง",translated_pending_qa,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1094
+ภายในเรือร้าง",proof_passed,1,2,69,69,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1094
 sStorageKeyDesc,"The key to the
 storage inside the
 ABANDONED SHIP.","กุญแจห้องเก็บของ
-ภายในเรือร้าง",translated_pending_qa,1,2,77,77,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1099
+ภายในเรือร้าง",proof_passed,1,2,77,77,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1099
 sRootFossilDesc,"A fossil of an
 ancient, seafloor-
 dwelling POKéMON.","ฟอสซิลโปเกมอนโบราณ
 ที่อาศัยอยู่
-ใต้ท้องทะเล",translated_pending_qa,1,3,107,107,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1104
+ใต้ท้องทะเล",proof_passed,1,3,107,107,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1104
 sClawFossilDesc,"A fossil of an
 ancient, seafloor-
 dwelling POKéMON.","ฟอสซิลโปเกมอนโบราณ
 ที่อาศัยอยู่
-ใต้ท้องทะเล",translated_pending_qa,1,3,107,107,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1109
+ใต้ท้องทะเล",proof_passed,1,3,107,107,120,pass,pass,pass,pass,pass,8,wide_line;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1109
 sDevonScopeDesc,"A device by DEVON
 that signals any
 unseeable POKéMON.","อุปกรณ์จากเดวอน
 ที่ตรวจจับโปเกมอน
-ซึ่งมองไม่เห็น",translated_pending_qa,1,3,87,87,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1114
+ซึ่งมองไม่เห็น",proof_passed,1,3,87,87,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1114
 sTM01Desc,"Powerful, but makes
 the user flinch if
 hit by the foe.","ท่ารุนแรง แต่ผู้ใช้
 จะชะงักหากถูก
-คู่ต่อสู้โจมตี",translated_pending_qa,1,3,75,75,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1120
+คู่ต่อสู้โจมตี",proof_passed,1,3,75,75,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1120
 sTM02Desc,"Hooks and slashes
 the foe with long,
 sharp claws.","เกี่ยวและฟันคู่ต่อสู้
 ด้วยกรงเล็บยาว
-แหลมคม",translated_pending_qa,1,3,82,82,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1125
+แหลมคม",proof_passed,1,3,82,82,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1125
 sTM03Desc,"Generates an
 ultrasonic wave
 that may confuse.","สร้างคลื่นอัลตราโซนิก
-ที่อาจทำให้สับสน",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1130
+ที่อาจทำให้สับสน",proof_passed,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1130
 sTM04Desc,"Raises SP. ATK and
 SP. DEF by focusing
 the mind.","เพ่งสมาธิเพื่อเพิ่ม
 พลังโจมตีพิเศษและ
-พลังป้องกันพิเศษ",translated_pending_qa,1,3,88,88,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1135
+พลังป้องกันพิเศษ",proof_passed,1,3,88,88,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1135
 sTM05Desc,"A savage roar that
 makes the foe flee
 to end the battle.","ส่งเสียงคำรามรุนแรง
 ให้คู่ต่อสู้หนี
-และจบการต่อสู้",translated_pending_qa,1,3,86,86,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1140
+และจบการต่อสู้",proof_passed,1,3,86,86,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1140
 sTM06Desc,"Poisons the foe
 with a toxin that
 gradually worsens.","ทำให้คู่ต่อสู้ติดพิษ
-ที่รุนแรงขึ้นเรื่อยๆ",translated_pending_qa,1,2,80,80,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1145
+ที่รุนแรงขึ้นเรื่อยๆ",proof_passed,1,2,80,80,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1145
 sTM07Desc,"Creates a hailstorm
 that damages all
 types except ICE.","สร้างพายุลูกเห็บ
 ทำร้ายทุกประเภทยกเว้น
-ประเภท ICE",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1150
+ประเภท ICE",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1150
 sTM08Desc,"Bulks up the body
 to boost both
 ATTACK & DEFENSE.","เพิ่มมวลกล้ามเนื้อ
 เพื่อเพิ่มพลังโจมตี
-และพลังป้องกัน",translated_pending_qa,1,3,80,80,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1155
+และพลังป้องกัน",proof_passed,1,3,80,80,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1155
 sTM09Desc,"Shoots 2 to 5 seeds
 in a row to strike
 the foe.","ยิงเมล็ด 2 ถึง 5 เมล็ด
-โจมตีคู่ต่อสู้ต่อเนื่อง",translated_pending_qa,1,2,92,90,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1160
+โจมตีคู่ต่อสู้ต่อเนื่อง",proof_passed,1,2,92,90,120,pass,pass,pass,pass,pass,4,mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1160
 sTM10Desc,"The attack power
 varies among
 different POKéMON.","พลังโจมตีแตกต่างกัน
-ตามโปเกมอนแต่ละตัว",translated_pending_qa,1,2,99,99,120,pass,pass,pass,pass,pass,4,tm_hm_description;proper_name_or_location,src/data/text/item_descriptions.h,1165
+ตามโปเกมอนแต่ละตัว",proof_passed,1,2,99,99,120,pass,pass,pass,pass,pass,4,tm_hm_description;proper_name_or_location,src/data/text/item_descriptions.h,1165
 sTM11Desc,"Raises the power of
 FIRE-type moves
-for 5 turns.","เพิ่มพลังท่าประเภท FIRE
-นาน 5 เทิร์น",translated_pending_qa,1,2,110,105,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1170
+for 5 turns.","เพิ่มพลังท่าไฟ
+นาน 5 เทิร์น",proof_passed,1,2,62,62,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1170
 sTM12Desc,"Enrages the foe so
 it can only use
 attack moves.","ยั่วโมโหคู่ต่อสู้
 ให้ใช้ได้เฉพาะ
-ท่าโจมตี",translated_pending_qa,1,3,67,67,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1175
+ท่าโจมตี",proof_passed,1,3,67,67,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1175
 sTM13Desc,"Fires an icy cold
 beam that may
 freeze the foe.","ยิงลำแสงเย็นจัด
 ที่อาจแช่แข็ง
-คู่ต่อสู้",translated_pending_qa,1,3,68,68,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1180
+คู่ต่อสู้",proof_passed,1,3,68,68,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1180
 sTM14Desc,"A brutal snow-and-
 wind attack that
 may freeze the foe.","โจมตีด้วยหิมะและลม
 อย่างรุนแรง ซึ่งอาจ
-แช่แข็งคู่ต่อสู้",translated_pending_qa,1,3,94,94,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1185
+แช่แข็งคู่ต่อสู้",proof_passed,1,3,94,94,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1185
 sTM15Desc,"Powerful, but needs
 recharging the
 next turn.","ท่ารุนแรง แต่ต้อง
-พักฟื้นในเทิร์นถัดไป",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1190
+พักฟื้นในเทิร์นถัดไป",proof_passed,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1190
 sTM16Desc,"Creates a wall of
 light that lowers
 SP. ATK damage.","สร้างกำแพงแสง
 เพื่อลดความเสียหาย
-จากพลังโจมตีพิเศษ",translated_pending_qa,1,3,88,88,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1195
+จากพลังโจมตีพิเศษ",proof_passed,1,3,88,88,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1195
 sTM17Desc,"Negates all damage,
 but may fail if used
 in succession.","ป้องกันความเสียหาย
 ทั้งหมด แต่อาจล้มเหลว
-หากใช้ต่อเนื่อง",translated_pending_qa,1,3,102,102,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1200
+หากใช้ต่อเนื่อง",proof_passed,1,3,102,102,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1200
 sTM18Desc,"Raises the power of
 WATER-type moves
-for 5 turns.","เพิ่มพลังท่าประเภท WATER
-นาน 5 เทิร์น",translated_pending_qa,1,2,116,111,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1205
+for 5 turns.","เพิ่มพลังท่าน้ำ
+นาน 5 เทิร์น",proof_passed,1,2,59,59,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;numeric;tm_hm_description,src/data/text/item_descriptions.h,1205
 sTM19Desc,"Recovers half the
 HP of the damage
 this move inflicts.","ฟื้นฟู HP ครึ่งหนึ่ง
 ของความเสียหาย
-ที่สร้างได้",translated_pending_qa,1,3,79,77,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;tm_hm_description;abbreviation;three_lines,src/data/text/item_descriptions.h,1210
+ที่สร้างได้",proof_passed,1,3,79,77,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;tm_hm_description;abbreviation;three_lines,src/data/text/item_descriptions.h,1210
 sTM20Desc,"Prevents status
 abnormality with a
 mystical power.","ใช้พลังลึกลับป้องกัน
-สถานะผิดปกติ",translated_pending_qa,1,2,86,86,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1215
+สถานะผิดปกติ",proof_passed,1,2,86,86,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1215
 sTM21Desc,"The less the user
 likes you, the more
 powerful this move.","ยิ่งผู้ใช้ไม่สนิทกับคุณ
-ท่านี้ยิ่งทรงพลัง",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1220
+ท่านี้ยิ่งทรงพลัง",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1220
 sTM22Desc,"Absorbs sunlight in
 the 1st turn, then
 attacks next turn.","ดูดซับแสงแดด
 ในเทิร์นแรก แล้วโจมตี
-ในเทิร์นถัดไป",translated_pending_qa,1,3,103,103,120,pass,pass,pass,pass_ordinal_translated,pass,3,numeric;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1225
+ในเทิร์นถัดไป",proof_passed,1,3,103,103,120,pass,pass,pass,pass_ordinal_translated,pass,3,numeric;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1225
 sTM23Desc,"Slams the foe with
 a hard tail. It may
 lower DEFENSE.","ฟาดคู่ต่อสู้ด้วยหางแข็ง
-อาจลดพลังป้องกัน",translated_pending_qa,1,2,96,96,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1230
+อาจลดพลังป้องกัน",proof_passed,1,2,96,96,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1230
 sTM24Desc,"A powerful electric
 attack that may
 cause paralysis.","โจมตีด้วยไฟฟ้ารุนแรง
-ที่อาจทำให้อัมพาต",translated_pending_qa,1,2,99,99,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1235
+ที่อาจทำให้อัมพาต",proof_passed,1,2,99,99,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1235
 sTM25Desc,"Strikes the foe
 with a thunderbolt.
 It may paralyze.","ฟาดคู่ต่อสู้ด้วยสายฟ้า
-ที่อาจทำให้อัมพาต",translated_pending_qa,1,2,92,92,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1240
+ที่อาจทำให้อัมพาต",proof_passed,1,2,92,92,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1240
 sTM26Desc,"Causes a quake
 that has no effect
 on flying foes.","สร้างแผ่นดินไหว
 แต่ไม่มีผลกับ
-คู่ต่อสู้ที่บินอยู่",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1245
+คู่ต่อสู้ที่บินอยู่",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1245
 sTM27Desc,"The more the user
 likes you, the more
 powerful this move.","ยิ่งผู้ใช้สนิทกับคุณ
-ท่านี้ยิ่งทรงพลัง",translated_pending_qa,1,2,79,79,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1250
+ท่านี้ยิ่งทรงพลัง",proof_passed,1,2,79,79,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1250
 sTM28Desc,"Digs underground
 the 1st turn, then
 strikes next turn.","ขุดลงใต้ดินในเทิร์นแรก
-แล้วโจมตีเทิร์นถัดไป",translated_pending_qa,1,2,107,107,120,pass,pass,pass,pass_ordinal_translated,pass,6,wide_line;numeric;tm_hm_description,src/data/text/item_descriptions.h,1255
+แล้วโจมตีเทิร์นถัดไป",proof_passed,1,2,107,107,120,pass,pass,pass,pass_ordinal_translated,pass,6,wide_line;numeric;tm_hm_description,src/data/text/item_descriptions.h,1255
 sTM29Desc,"A powerful psychic
 attack that may
 lower SP. DEF.","โจมตีด้วยพลังจิตรุนแรง
 ที่อาจลด
-พลังป้องกันพิเศษ",translated_pending_qa,1,3,104,104,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1260
+พลังป้องกันพิเศษ",proof_passed,1,3,104,104,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1260
 sTM30Desc,"Hurls a dark lump
 at the foe. It may
 lower SP. DEF.","ขว้างก้อนพลังมืด
 ใส่คู่ต่อสู้ อาจลด
-พลังป้องกันพิเศษ",translated_pending_qa,1,3,76,76,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1265
+พลังป้องกันพิเศษ",proof_passed,1,3,76,76,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1265
 sTM31Desc,"Destroys barriers
 like LIGHT SCREEN
 and causes damage.","ทำลายกำแพงอย่าง
 LIGHT SCREEN พร้อม
-สร้างความเสียหาย",translated_pending_qa,1,3,98,86,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;tm_hm_description;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1270
+สร้างความเสียหาย",proof_passed,1,3,98,86,120,pass,pass,pass,pass,pass,7,mixed_thai_latin_or_number;tm_hm_description;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1270
 sTM32Desc,"Creates illusory
 copies to enhance
 elusiveness.","สร้างร่างลวงตา
-เพื่อเพิ่มการหลบหลีก",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1275
+เพื่อเพิ่มการหลบหลีก",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1275
 sTM33Desc,"Creates a wall of
 light that weakens
 physical attacks.","สร้างกำแพงแสง
 เพื่อลดความเสียหาย
-จากการโจมตีกายภาพ",translated_pending_qa,1,3,91,91,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1280
+จากการโจมตีกายภาพ",proof_passed,1,3,91,91,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1280
 sTM34Desc,"Zaps the foe with a
 jolt of electricity
 that never misses.","ช็อตคู่ต่อสู้ด้วยไฟฟ้า
-ที่ไม่มีวันพลาด",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1285
+ที่ไม่มีวันพลาด",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1285
 sTM35Desc,"Looses a stream of
 fire that may burn
 the foe.","พ่นกระแสเพลิงที่อาจ
-ทำให้คู่ต่อสู้ไหม้",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1290
+ทำให้คู่ต่อสู้ไหม้",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1290
 sTM36Desc,"Hurls sludge at the
 foe. It may poison
 the foe.","ขว้างโคลนพิษใส่
 ซึ่งอาจทำให้
-คู่ต่อสู้ติดพิษ",translated_pending_qa,1,3,74,74,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1295
+คู่ต่อสู้ติดพิษ",proof_passed,1,3,74,74,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1295
 sTM37Desc,"Causes a sandstorm
 that hits the foe
 over several turns.","สร้างพายุทราย
 ที่ทำร้ายคู่ต่อสู้
-ต่อเนื่องหลายเทิร์น",translated_pending_qa,1,3,82,82,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1300
+ต่อเนื่องหลายเทิร์น",proof_passed,1,3,82,82,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1300
 sTM38Desc,"A powerful fire
 attack that may
 burn the foe.","โจมตีด้วยไฟรุนแรง
 ที่อาจทำให้
-คู่ต่อสู้ไหม้",translated_pending_qa,1,3,87,87,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1305
+คู่ต่อสู้ไหม้",proof_passed,1,3,87,87,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1305
 sTM39Desc,"Stops the foe from
 moving with rocks.
-May lower SPEED.","ใช้หินหยุดการเคลื่อนไหว
-และอาจลดความเร็ว",translated_pending_qa,1,2,112,112,120,pass,pass,pass,pass,pass,9,near_120px;tm_hm_description,src/data/text/item_descriptions.h,1310
+May lower SPEED.","ใช้หินหยุดคู่ต่อสู้
+และลดความเร็ว",proof_passed,1,2,73,73,120,pass,pass,pass,pass,pass,9,near_120px;tm_hm_description,src/data/text/item_descriptions.h,1310
 sTM40Desc,"An extremely fast
 attack that can't
 be avoided.","โจมตีด้วยความเร็วสูง
-จนหลบไม่ได้",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1315
+จนหลบไม่ได้",proof_passed,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1315
 sTM41Desc,"Prevents the foe
 from using the same
 move in a row.","ป้องกันคู่ต่อสู้ใช้
-ท่าเดิมต่อเนื่อง",translated_pending_qa,1,2,69,69,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1320
+ท่าเดิมต่อเนื่อง",proof_passed,1,2,69,69,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1320
 sTM42Desc,"Raises ATTACK when
 poisoned, burned,
 or paralyzed.","เพิ่มพลังโจมตีเมื่อ
 ติดพิษ ไหม้ หรือ
-เป็นอัมพาต",translated_pending_qa,1,3,79,79,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1325
+เป็นอัมพาต",proof_passed,1,3,79,79,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1325
 sTM43Desc,"Adds an effect to
 attack depending
 on the location.","เพิ่มผลพิเศษให้ท่าโจมตี
-ตามสถานที่ใช้งาน",translated_pending_qa,1,2,107,107,120,pass,pass,pass,pass,pass,5,wide_line;tm_hm_description,src/data/text/item_descriptions.h,1330
+ตามสถานที่ใช้งาน",proof_passed,1,2,107,107,120,pass,pass,pass,pass,pass,5,wide_line;tm_hm_description,src/data/text/item_descriptions.h,1330
 sTM44Desc,"The user sleeps for
 2 turns to restore
 health and status.","ผู้ใช้หลับ 2 เทิร์น
 เพื่อฟื้นฟู HP และ
-รักษาสถานะผิดปกติ",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1335
+รักษาสถานะผิดปกติ",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;numeric;tm_hm_description;three_lines,src/data/text/item_descriptions.h,1335
 sTM45Desc,"Makes it tough to
 attack a foe of the
 opposite gender.","ทำให้คู่ต่อสู้
 เพศตรงข้ามโจมตี
-ผู้ใช้ได้ยากขึ้น",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1340
+ผู้ใช้ได้ยากขึ้น",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1340
 sTM46Desc,"While attacking,
 it may steal the
 foe's held item.","โจมตีพร้อมมีโอกาส
 ขโมยไอเทมที่ถืออยู่
-ของคู่ต่อสู้",translated_pending_qa,1,3,85,85,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1345
+ของคู่ต่อสู้",proof_passed,1,3,85,85,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1345
 sTM47Desc,"Spreads hard-
 edged wings and
 slams into the foe.","กางปีกขอบแข็ง
-แล้วพุ่งชนคู่ต่อสู้",translated_pending_qa,1,2,71,71,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1350
+แล้วพุ่งชนคู่ต่อสู้",proof_passed,1,2,71,71,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1350
 sTM48Desc,"Switches abilities
 with the foe on the
 turn this is used.","สลับความสามารถพิเศษ
-กับคู่ต่อสู้ในเทิร์นนี้",translated_pending_qa,1,2,102,102,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1355
+กับคู่ต่อสู้ในเทิร์นนี้",proof_passed,1,2,102,102,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1355
 sTM49Desc,"Steals the effects
 of the move the foe
 is trying to use.","ขโมยผลของท่าที่
-คู่ต่อสู้กำลังจะใช้",translated_pending_qa,1,2,70,70,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1360
+คู่ต่อสู้กำลังจะใช้",proof_passed,1,2,70,70,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1360
 sTM50Desc,"Enables full-power
 attack, but sharply
 lowers SP. ATK.","โจมตีเต็มพลัง แต่ลด
-พลังโจมตีพิเศษอย่างมาก",translated_pending_qa,1,2,107,107,120,pass,pass,pass,pass,pass,5,wide_line;tm_hm_description,src/data/text/item_descriptions.h,1365
+พลังโจมตีพิเศษอย่างมาก",proof_passed,1,2,107,107,120,pass,pass,pass,pass,pass,5,wide_line;tm_hm_description,src/data/text/item_descriptions.h,1365
 sHM01Desc,"Attacks the foe
 with sharp blades
 or claws.","โจมตีคู่ต่อสู้
 ด้วยใบมีดหรือ
-กรงเล็บแหลมคม",translated_pending_qa,1,3,73,73,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1371
+กรงเล็บแหลมคม",proof_passed,1,3,73,73,120,pass,pass,pass,pass,pass,2,tm_hm_description;three_lines,src/data/text/item_descriptions.h,1371
 sHM02Desc,"Flies up on the
 first turn, then
 attacks next turn.","บินขึ้นในเทิร์นแรก
-แล้วโจมตีเทิร์นถัดไป",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1376
+แล้วโจมตีเทิร์นถัดไป",proof_passed,1,2,94,94,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1376
 sHM03Desc,"Creates a huge
 wave, then crashes
 it down on the foe.","สร้างคลื่นยักษ์
-แล้วซัดใส่คู่ต่อสู้",translated_pending_qa,1,2,71,71,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1381
+แล้วซัดใส่คู่ต่อสู้",proof_passed,1,2,71,71,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1381
 sHM04Desc,"Builds enormous
 power, then slams
 the foe.","รวบรวมพลังมหาศาล
-แล้วพุ่งชนคู่ต่อสู้",translated_pending_qa,1,2,89,89,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1386
+แล้วพุ่งชนคู่ต่อสู้",proof_passed,1,2,89,89,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1386
 sHM05Desc,"Looses a powerful
 blast of light that
 reduces accuracy.","ปล่อยแสงสว่างรุนแรง
-ที่ลดความแม่นยำ",translated_pending_qa,1,2,91,91,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1391
+ที่ลดความแม่นยำ",proof_passed,1,2,91,91,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1391
 sHM06Desc,"A rock-crushingly
 tough attack that
 may lower DEFENSE.","โจมตีรุนแรงจนบดหิน
-และอาจลดพลังป้องกัน",translated_pending_qa,1,2,97,97,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1396
+และอาจลดพลังป้องกัน",proof_passed,1,2,97,97,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1396
 sHM07Desc,"Attacks the foe
 with enough power
 to climb waterfalls.","โจมตีด้วยพลังมากพอ
-สำหรับไต่ขึ้นน้ำตก",translated_pending_qa,1,2,93,93,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1401
+สำหรับไต่ขึ้นน้ำตก",proof_passed,1,2,93,93,120,pass,pass,pass,pass,pass,1,tm_hm_description,src/data/text/item_descriptions.h,1401
 sHM08Desc,"Dives underwater
 the 1st turn, then
 attacks next turn.","ดำน้ำในเทิร์นแรก
-แล้วโจมตีเทิร์นถัดไป",translated_pending_qa,1,2,94,94,120,pass,pass,pass,pass_ordinal_translated,pass,2,numeric;tm_hm_description,src/data/text/item_descriptions.h,1406
+แล้วโจมตีเทิร์นถัดไป",proof_passed,1,2,94,94,120,pass,pass,pass,pass_ordinal_translated,pass,2,numeric;tm_hm_description,src/data/text/item_descriptions.h,1406
 sOaksParcelDesc,"A parcel for PROF.
 OAK from a POKéMON
 MART's clerk.","พัสดุจากพนักงาน
 โปเกมอนมาร์ตถึง
-ศาสตราจารย์โอ๊ก",translated_pending_qa,1,3,76,76,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1412
+ศาสตราจารย์โอ๊ก",proof_passed,1,3,76,76,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1412
 sPokeFluteDesc,"A sweet-sounding
 flute that awakens
 POKéMON.","ขลุ่ยเสียงไพเราะ
-ที่ปลุกโปเกมอน",translated_pending_qa,1,2,70,70,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1417
+ที่ปลุกโปเกมอน",proof_passed,1,2,70,70,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1417
 sSecretKeyDesc,"The key to the
 CINNABAR ISLAND
 GYM's entrance.","กุญแจสำหรับเข้ายิม
-บนเกาะซินนาบาร์",translated_pending_qa,1,2,83,83,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1422
+บนเกาะซินนาบาร์",proof_passed,1,2,83,83,120,pass,pass,pass,pass,pass,9,wide_line;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1422
 sBikeVoucherDesc,"A voucher for
 obtaining a bicycle
 from the BIKE SHOP.","คูปองแลกจักรยาน
-จากร้านจักรยาน",translated_pending_qa,1,2,78,78,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1427
+จากร้านจักรยาน",proof_passed,1,2,78,78,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1427
 sGoldTeethDesc,"Gold dentures lost
 by the SAFARI
 ZONE's WARDEN.","ฟันปลอมทองคำที่
 ผู้ดูแลซาฟารีโซน
-ทำหาย",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1432
+ทำหาย",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1432
 sOldAmberDesc,"A stone containing
 the genes of an
 ancient POKéMON.","หินที่บรรจุยีน
-ของโปเกมอนโบราณ",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1437
+ของโปเกมอนโบราณ",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,3,proper_name_or_location,src/data/text/item_descriptions.h,1437
 sCardKeyDesc,"A card-type door
 key used in SILPH
 CO's office.","คีย์การ์ดเปิดประตู
 ในสำนักงานของ
-ซิลฟ์",translated_pending_qa,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1442
+ซิลฟ์",proof_passed,1,3,77,77,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1442
 sLiftKeyDesc,"An elevator key
 used in TEAM
 ROCKET's HIDEOUT.","กุญแจลิฟต์ที่ใช้ใน
-ฐานลับของทีมร็อกเก็ต",translated_pending_qa,1,2,95,95,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1447
+ฐานลับของทีมร็อกเก็ต",proof_passed,1,2,95,95,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1447
 sHelixFossilDesc,"A piece of an
 ancient marine
 POKéMON's seashell.","ชิ้นส่วนเปลือกหอย
 ของโปเกมอนทะเล
-ยุคโบราณ",translated_pending_qa,1,3,83,83,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1452
+ยุคโบราณ",proof_passed,1,3,83,83,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1452
 sDomeFossilDesc,"A piece of an
 ancient marine
 POKéMON's shell.","ชิ้นส่วนกระดอง
 ของโปเกมอนทะเล
-ยุคโบราณ",translated_pending_qa,1,3,81,81,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1457
+ยุคโบราณ",proof_passed,1,3,81,81,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1457
 sSilphScopeDesc,"SILPH CO's scope
 makes unseeable
 POKéMON visible.","กล้องจากซิลฟ์
 ทำให้มองเห็นโปเกมอน
-ที่ซ่อนตัวอยู่",translated_pending_qa,1,3,103,103,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1462
+ที่ซ่อนตัวอยู่",proof_passed,1,3,103,103,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1462
 sBicycleDesc,"A folding bicycle
 that is faster than
 the RUNNING SHOES.","จักรยานพับได้
 ที่เร็วกว่า
-RUNNING SHOES",translated_pending_qa,1,3,75,63,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1467
+RUNNING SHOES",proof_passed,1,3,75,63,120,pass,pass,pass,pass,pass,4,proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1467
 sTownMapDesc,"Can be viewed
 anytime. Shows your
 present location.","เปิดดูได้ทุกเวลา
 และแสดงตำแหน่ง
-ปัจจุบันของคุณ",translated_pending_qa,1,3,79,79,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1472
+ปัจจุบันของคุณ",proof_passed,1,3,79,79,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1472
 sVSSeekerDesc,"A rechargeable unit
 that flags battle-
 ready TRAINERS.","อุปกรณ์ชาร์จได้
 ที่ตรวจหา TRAINER
-พร้อมต่อสู้",translated_pending_qa,1,3,87,79,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1477
+พร้อมต่อสู้",proof_passed,1,3,87,79,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1477
 sFameCheckerDesc,"Stores information
 on famous people
 for instant recall.","เก็บข้อมูลบุคคลดัง
-เพื่อเปิดดูได้ทันที",translated_pending_qa,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1482
+เพื่อเปิดดูได้ทันที",proof_passed,1,2,80,80,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1482
 sTMCaseDesc,"A convenient case
 that holds TMs and
 HMs.","กล่องสะดวกใช้
-สำหรับเก็บ TM และ HM",translated_pending_qa,1,2,97,93,120,pass,pass,pass,pass,pass,3,mixed_thai_latin_or_number;tm_hm_description,src/data/text/item_descriptions.h,1487
+สำหรับเก็บ TM และ HM",proof_passed,1,2,97,93,120,pass,pass,pass,pass,pass,3,mixed_thai_latin_or_number;tm_hm_description,src/data/text/item_descriptions.h,1487
 sBerryPouchDesc,"A convenient
 container that
 holds BERRIES.","ภาชนะสะดวกใช้
-สำหรับเก็บ BERRY",translated_pending_qa,1,2,79,73,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,1492
+สำหรับเก็บ BERRY",proof_passed,1,2,79,73,120,pass,pass,pass,pass,pass,2,mixed_thai_latin_or_number,src/data/text/item_descriptions.h,1492
 sTeachyTVDesc,"A TV set tuned to
 an advice program
-for TRAINERS.","ทีวีที่ฉายรายการ
-ให้คำแนะนำแก่ TRAINER",translated_pending_qa,1,2,113,105,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1497
+for TRAINERS.","ทีวีที่มีรายการ
+แนะนำเทรนเนอร์",proof_passed,1,2,78,78,120,pass,pass,pass,pass,pass,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1497
 sTriPassDesc,"A pass for ferries
 between ONE, TWO,
 and THREE ISLAND.","บัตรเรือสำหรับเดินทาง
 ระหว่างเกาะวัน เกาะทู
-และเกาะทรี",translated_pending_qa,1,3,100,100,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1502
+และเกาะทรี",proof_passed,1,3,100,100,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1502
 sRainbowPassDesc,"For ferries serving
 VERMILION and the
 SEVII ISLANDS.","บัตรเรือที่ใช้เดินทาง
 ระหว่างเวอร์มิเลียน
-และหมู่เกาะเซวี",translated_pending_qa,1,3,90,90,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1507
+และหมู่เกาะเซวี",proof_passed,1,3,90,90,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1507
 sTeaDesc,"A thirst-quenching
 tea prepared by an
 old lady.","ชาดับกระหายที่ชง
-โดยหญิงชราคนหนึ่ง",translated_pending_qa,1,2,86,86,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1512
+โดยหญิงชราคนหนึ่ง",proof_passed,1,2,86,86,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1512
 sMysticTicketDesc,"A ticket required
 to board the ship
 to NAVEL ROCK.","บัตรสำหรับขึ้นเรือ
-ไปยังเนเวลร็อก",translated_pending_qa,1,2,82,82,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1517
+ไปยังเนเวลร็อก",proof_passed,1,2,82,82,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1517
 sAuroraTicketDesc,"A ticket required
 to board the ship
 to BIRTH ISLAND.","บัตรสำหรับขึ้นเรือ
-ไปยังเบิร์ธไอแลนด์",translated_pending_qa,1,2,85,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1522
+ไปยังเบิร์ธไอแลนด์",proof_passed,1,2,85,85,120,pass,pass,pass,pass,pass,5,mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1522
 sPowderJarDesc,"Stores BERRY
 POWDER made using
 a BERRY CRUSHER.","โถเก็บผงเบอร์รี
-จากเครื่องบดเบอร์รี",translated_pending_qa,1,2,85,85,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1527
+จากเครื่องบดเบอร์รี",proof_passed,1,2,85,85,120,pass,pass,pass,pass,pass,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location,src/data/text/item_descriptions.h,1527
 sRubyDesc,"An exquisite, red-
 glowing gem that
 symbolizes passion.","อัญมณีสีแดงเรืองแสง
 งดงาม สื่อถึง
-ความหลงใหล",translated_pending_qa,1,3,92,92,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1532
+ความหลงใหล",proof_passed,1,3,92,92,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1532
 sSapphireDesc,"A brilliant blue gem
 that symbolizes
 honesty.","อัญมณีสีน้ำเงินสดใส
-ที่สื่อถึงความซื่อสัตย์",translated_pending_qa,1,2,90,90,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1537
+ที่สื่อถึงความซื่อสัตย์",proof_passed,1,2,90,90,120,pass,pass,pass,pass,pass,0,,src/data/text/item_descriptions.h,1537
 sMagmaEmblemDesc,"A medal-like item in
 the same shape as
 TEAM MAGMA's mark.","ไอเทมคล้ายเหรียญ
 รูปเดียวกับสัญลักษณ์
-ของทีมแมกมา",translated_pending_qa,1,3,92,92,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1543
+ของทีมแมกมา",proof_passed,1,3,92,92,120,pass,pass,pass,pass,pass,6,mixed_thai_latin_or_number;proper_name_or_location;three_lines,src/data/text/item_descriptions.h,1543
 sOldSeaMapDesc,"A faded sea chart
 that shows the way
 to a certain island.","แผนที่ทะเลซีดจาง
 ที่บอกทางไปยัง
-เกาะแห่งหนึ่ง",translated_pending_qa,1,3,78,78,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1548
+เกาะแห่งหนึ่ง",proof_passed,1,3,78,78,120,pass,pass,pass,pass,pass,1,three_lines,src/data/text/item_descriptions.h,1548

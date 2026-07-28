@@ -61,3 +61,21 @@ Before final proof:
 - General and system terminology: translate to Thai.
 - Terminology review: 36 entries updated in Thai and 18 entries verified to remain in English.
 - All revised lines passed the current automated width and glyph checks; runtime visual QA remains pending except entries already marked `proof_passed`.
+
+## Visual QA round 1
+
+- Runtime-tested entries: 31 (30 risk-selected + POTION control).
+- Passed: 23 total, including POTION; 22 newly promoted to `proof_passed`.
+- Overflowed: 8; wording revised and retained as `translated_pending_qa` until retest.
+- Retest package: one ROM containing the 8 revised descriptions.
+
+## Final item-description QA
+
+- Translatable descriptions: 309/309 `proof_passed`.
+- Dummy description: 1 `not_applicable` (`sDummyDesc`).
+- Automated QA: complete for all 309 descriptions.
+- Full ROM build: passed after final wording revisions.
+- Runtime visual QA: 30 risk-selected entries plus POTION control passed.
+- Round 1: 23 passed and 8 overflowed.
+- Retest: all 8 revised entries passed.
+- Final criterion: automated QA + clean full build + representative risk-based runtime proof completed.

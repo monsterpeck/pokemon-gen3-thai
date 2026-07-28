@@ -1,56 +1,56 @@
 ﻿item_id,item_name_en,name_status,description_symbol,description_status,source_file,source_line
 ITEM_NONE,????????,not_applicable,sDummyDesc,not_applicable,src/data/items.h,3
-ITEM_MASTER_BALL,MASTER BALL,keep_english,sMasterBallDesc,translated_pending_qa,src/data/items.h,16
-ITEM_ULTRA_BALL,ULTRA BALL,keep_english,sUltraBallDesc,translated_pending_qa,src/data/items.h,29
-ITEM_GREAT_BALL,GREAT BALL,keep_english,sGreatBallDesc,translated_pending_qa,src/data/items.h,42
-ITEM_POKE_BALL,POKé BALL,keep_english,sPokeBallDesc,translated_pending_qa,src/data/items.h,55
-ITEM_SAFARI_BALL,SAFARI BALL,keep_english,sSafariBallDesc,translated_pending_qa,src/data/items.h,68
-ITEM_NET_BALL,NET BALL,keep_english,sNetBallDesc,translated_pending_qa,src/data/items.h,81
-ITEM_DIVE_BALL,DIVE BALL,keep_english,sDiveBallDesc,translated_pending_qa,src/data/items.h,94
-ITEM_NEST_BALL,NEST BALL,keep_english,sNestBallDesc,translated_pending_qa,src/data/items.h,107
-ITEM_REPEAT_BALL,REPEAT BALL,keep_english,sRepeatBallDesc,translated_pending_qa,src/data/items.h,120
-ITEM_TIMER_BALL,TIMER BALL,keep_english,sTimerBallDesc,translated_pending_qa,src/data/items.h,133
-ITEM_LUXURY_BALL,LUXURY BALL,keep_english,sLuxuryBallDesc,translated_pending_qa,src/data/items.h,146
-ITEM_PREMIER_BALL,PREMIER BALL,keep_english,sPremierBallDesc,translated_pending_qa,src/data/items.h,159
+ITEM_MASTER_BALL,MASTER BALL,keep_english,sMasterBallDesc,proof_passed,src/data/items.h,16
+ITEM_ULTRA_BALL,ULTRA BALL,keep_english,sUltraBallDesc,proof_passed,src/data/items.h,29
+ITEM_GREAT_BALL,GREAT BALL,keep_english,sGreatBallDesc,proof_passed,src/data/items.h,42
+ITEM_POKE_BALL,POKé BALL,keep_english,sPokeBallDesc,proof_passed,src/data/items.h,55
+ITEM_SAFARI_BALL,SAFARI BALL,keep_english,sSafariBallDesc,proof_passed,src/data/items.h,68
+ITEM_NET_BALL,NET BALL,keep_english,sNetBallDesc,proof_passed,src/data/items.h,81
+ITEM_DIVE_BALL,DIVE BALL,keep_english,sDiveBallDesc,proof_passed,src/data/items.h,94
+ITEM_NEST_BALL,NEST BALL,keep_english,sNestBallDesc,proof_passed,src/data/items.h,107
+ITEM_REPEAT_BALL,REPEAT BALL,keep_english,sRepeatBallDesc,proof_passed,src/data/items.h,120
+ITEM_TIMER_BALL,TIMER BALL,keep_english,sTimerBallDesc,proof_passed,src/data/items.h,133
+ITEM_LUXURY_BALL,LUXURY BALL,keep_english,sLuxuryBallDesc,proof_passed,src/data/items.h,146
+ITEM_PREMIER_BALL,PREMIER BALL,keep_english,sPremierBallDesc,proof_passed,src/data/items.h,159
 ITEM_POTION,POTION,keep_english,sPotionDesc,proof_passed,src/data/items.h,174
-ITEM_ANTIDOTE,ANTIDOTE,keep_english,sAntidoteDesc,translated_pending_qa,src/data/items.h,188
-ITEM_BURN_HEAL,BURN HEAL,keep_english,sBurnHealDesc,translated_pending_qa,src/data/items.h,201
-ITEM_ICE_HEAL,ICE HEAL,keep_english,sIceHealDesc,translated_pending_qa,src/data/items.h,214
-ITEM_AWAKENING,AWAKENING,keep_english,sAwakeningDesc,translated_pending_qa,src/data/items.h,227
-ITEM_PARALYZE_HEAL,PARLYZ HEAL,keep_english,sParalyzeHealDesc,translated_pending_qa,src/data/items.h,240
-ITEM_FULL_RESTORE,FULL RESTORE,keep_english,sFullRestoreDesc,translated_pending_qa,src/data/items.h,253
-ITEM_MAX_POTION,MAX POTION,keep_english,sMaxPotionDesc,translated_pending_qa,src/data/items.h,267
-ITEM_HYPER_POTION,HYPER POTION,keep_english,sHyperPotionDesc,translated_pending_qa,src/data/items.h,281
-ITEM_SUPER_POTION,SUPER POTION,keep_english,sSuperPotionDesc,translated_pending_qa,src/data/items.h,295
-ITEM_FULL_HEAL,FULL HEAL,keep_english,sFullHealDesc,translated_pending_qa,src/data/items.h,309
-ITEM_REVIVE,REVIVE,keep_english,sReviveDesc,translated_pending_qa,src/data/items.h,322
-ITEM_MAX_REVIVE,MAX REVIVE,keep_english,sMaxReviveDesc,translated_pending_qa,src/data/items.h,335
-ITEM_FRESH_WATER,FRESH WATER,keep_english,sFreshWaterDesc,translated_pending_qa,src/data/items.h,348
-ITEM_SODA_POP,SODA POP,keep_english,sSodaPopDesc,translated_pending_qa,src/data/items.h,362
-ITEM_LEMONADE,LEMONADE,keep_english,sLemonadeDesc,translated_pending_qa,src/data/items.h,376
-ITEM_MOOMOO_MILK,MOOMOO MILK,keep_english,sMoomooMilkDesc,translated_pending_qa,src/data/items.h,390
-ITEM_ENERGY_POWDER,ENERGYPOWDER,keep_english,sEnergyPowderDesc,translated_pending_qa,src/data/items.h,404
-ITEM_ENERGY_ROOT,ENERGY ROOT,keep_english,sEnergyRootDesc,translated_pending_qa,src/data/items.h,417
-ITEM_HEAL_POWDER,HEAL POWDER,keep_english,sHealPowderDesc,translated_pending_qa,src/data/items.h,430
-ITEM_REVIVAL_HERB,REVIVAL HERB,keep_english,sRevivalHerbDesc,translated_pending_qa,src/data/items.h,443
-ITEM_ETHER,ETHER,keep_english,sEtherDesc,translated_pending_qa,src/data/items.h,456
-ITEM_MAX_ETHER,MAX ETHER,keep_english,sMaxEtherDesc,translated_pending_qa,src/data/items.h,470
-ITEM_ELIXIR,ELIXIR,keep_english,sElixirDesc,translated_pending_qa,src/data/items.h,484
-ITEM_MAX_ELIXIR,MAX ELIXIR,keep_english,sMaxElixirDesc,translated_pending_qa,src/data/items.h,498
-ITEM_LAVA_COOKIE,LAVA COOKIE,keep_english,sLavaCookieDesc,translated_pending_qa,src/data/items.h,512
-ITEM_BLUE_FLUTE,BLUE FLUTE,keep_english,sBlueFluteDesc,translated_pending_qa,src/data/items.h,525
-ITEM_YELLOW_FLUTE,YELLOW FLUTE,keep_english,sYellowFluteDesc,translated_pending_qa,src/data/items.h,538
-ITEM_RED_FLUTE,RED FLUTE,keep_english,sRedFluteDesc,translated_pending_qa,src/data/items.h,551
-ITEM_BLACK_FLUTE,BLACK FLUTE,keep_english,sBlackFluteDesc,translated_pending_qa,src/data/items.h,564
-ITEM_WHITE_FLUTE,WHITE FLUTE,keep_english,sWhiteFluteDesc,translated_pending_qa,src/data/items.h,576
-ITEM_BERRY_JUICE,BERRY JUICE,keep_english,sBerryJuiceDesc,translated_pending_qa,src/data/items.h,588
-ITEM_SACRED_ASH,SACRED ASH,keep_english,sSacredAshDesc,translated_pending_qa,src/data/items.h,603
-ITEM_SHOAL_SALT,SHOAL SALT,keep_english,sShoalSaltDesc,translated_pending_qa,src/data/items.h,616
-ITEM_SHOAL_SHELL,SHOAL SHELL,keep_english,sShoalShellDesc,translated_pending_qa,src/data/items.h,627
-ITEM_RED_SHARD,RED SHARD,keep_english,sRedShardDesc,translated_pending_qa,src/data/items.h,638
-ITEM_BLUE_SHARD,BLUE SHARD,keep_english,sBlueShardDesc,translated_pending_qa,src/data/items.h,649
-ITEM_YELLOW_SHARD,YELLOW SHARD,keep_english,sYellowShardDesc,translated_pending_qa,src/data/items.h,660
-ITEM_GREEN_SHARD,GREEN SHARD,keep_english,sGreenShardDesc,translated_pending_qa,src/data/items.h,671
+ITEM_ANTIDOTE,ANTIDOTE,keep_english,sAntidoteDesc,proof_passed,src/data/items.h,188
+ITEM_BURN_HEAL,BURN HEAL,keep_english,sBurnHealDesc,proof_passed,src/data/items.h,201
+ITEM_ICE_HEAL,ICE HEAL,keep_english,sIceHealDesc,proof_passed,src/data/items.h,214
+ITEM_AWAKENING,AWAKENING,keep_english,sAwakeningDesc,proof_passed,src/data/items.h,227
+ITEM_PARALYZE_HEAL,PARLYZ HEAL,keep_english,sParalyzeHealDesc,proof_passed,src/data/items.h,240
+ITEM_FULL_RESTORE,FULL RESTORE,keep_english,sFullRestoreDesc,proof_passed,src/data/items.h,253
+ITEM_MAX_POTION,MAX POTION,keep_english,sMaxPotionDesc,proof_passed,src/data/items.h,267
+ITEM_HYPER_POTION,HYPER POTION,keep_english,sHyperPotionDesc,proof_passed,src/data/items.h,281
+ITEM_SUPER_POTION,SUPER POTION,keep_english,sSuperPotionDesc,proof_passed,src/data/items.h,295
+ITEM_FULL_HEAL,FULL HEAL,keep_english,sFullHealDesc,proof_passed,src/data/items.h,309
+ITEM_REVIVE,REVIVE,keep_english,sReviveDesc,proof_passed,src/data/items.h,322
+ITEM_MAX_REVIVE,MAX REVIVE,keep_english,sMaxReviveDesc,proof_passed,src/data/items.h,335
+ITEM_FRESH_WATER,FRESH WATER,keep_english,sFreshWaterDesc,proof_passed,src/data/items.h,348
+ITEM_SODA_POP,SODA POP,keep_english,sSodaPopDesc,proof_passed,src/data/items.h,362
+ITEM_LEMONADE,LEMONADE,keep_english,sLemonadeDesc,proof_passed,src/data/items.h,376
+ITEM_MOOMOO_MILK,MOOMOO MILK,keep_english,sMoomooMilkDesc,proof_passed,src/data/items.h,390
+ITEM_ENERGY_POWDER,ENERGYPOWDER,keep_english,sEnergyPowderDesc,proof_passed,src/data/items.h,404
+ITEM_ENERGY_ROOT,ENERGY ROOT,keep_english,sEnergyRootDesc,proof_passed,src/data/items.h,417
+ITEM_HEAL_POWDER,HEAL POWDER,keep_english,sHealPowderDesc,proof_passed,src/data/items.h,430
+ITEM_REVIVAL_HERB,REVIVAL HERB,keep_english,sRevivalHerbDesc,proof_passed,src/data/items.h,443
+ITEM_ETHER,ETHER,keep_english,sEtherDesc,proof_passed,src/data/items.h,456
+ITEM_MAX_ETHER,MAX ETHER,keep_english,sMaxEtherDesc,proof_passed,src/data/items.h,470
+ITEM_ELIXIR,ELIXIR,keep_english,sElixirDesc,proof_passed,src/data/items.h,484
+ITEM_MAX_ELIXIR,MAX ELIXIR,keep_english,sMaxElixirDesc,proof_passed,src/data/items.h,498
+ITEM_LAVA_COOKIE,LAVA COOKIE,keep_english,sLavaCookieDesc,proof_passed,src/data/items.h,512
+ITEM_BLUE_FLUTE,BLUE FLUTE,keep_english,sBlueFluteDesc,proof_passed,src/data/items.h,525
+ITEM_YELLOW_FLUTE,YELLOW FLUTE,keep_english,sYellowFluteDesc,proof_passed,src/data/items.h,538
+ITEM_RED_FLUTE,RED FLUTE,keep_english,sRedFluteDesc,proof_passed,src/data/items.h,551
+ITEM_BLACK_FLUTE,BLACK FLUTE,keep_english,sBlackFluteDesc,proof_passed,src/data/items.h,564
+ITEM_WHITE_FLUTE,WHITE FLUTE,keep_english,sWhiteFluteDesc,proof_passed,src/data/items.h,576
+ITEM_BERRY_JUICE,BERRY JUICE,keep_english,sBerryJuiceDesc,proof_passed,src/data/items.h,588
+ITEM_SACRED_ASH,SACRED ASH,keep_english,sSacredAshDesc,proof_passed,src/data/items.h,603
+ITEM_SHOAL_SALT,SHOAL SALT,keep_english,sShoalSaltDesc,proof_passed,src/data/items.h,616
+ITEM_SHOAL_SHELL,SHOAL SHELL,keep_english,sShoalShellDesc,proof_passed,src/data/items.h,627
+ITEM_RED_SHARD,RED SHARD,keep_english,sRedShardDesc,proof_passed,src/data/items.h,638
+ITEM_BLUE_SHARD,BLUE SHARD,keep_english,sBlueShardDesc,proof_passed,src/data/items.h,649
+ITEM_YELLOW_SHARD,YELLOW SHARD,keep_english,sYellowShardDesc,proof_passed,src/data/items.h,660
+ITEM_GREEN_SHARD,GREEN SHARD,keep_english,sGreenShardDesc,proof_passed,src/data/items.h,671
 ITEM_034,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,682
 ITEM_035,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,693
 ITEM_036,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,704
@@ -62,55 +62,55 @@ ITEM_03B,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,759
 ITEM_03C,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,770
 ITEM_03D,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,781
 ITEM_03E,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,792
-ITEM_HP_UP,HP UP,keep_english,sHPUpDesc,translated_pending_qa,src/data/items.h,805
-ITEM_PROTEIN,PROTEIN,keep_english,sProteinDesc,translated_pending_qa,src/data/items.h,816
-ITEM_IRON,IRON,keep_english,sIronDesc,translated_pending_qa,src/data/items.h,827
-ITEM_CARBOS,CARBOS,keep_english,sCarbosDesc,translated_pending_qa,src/data/items.h,838
-ITEM_CALCIUM,CALCIUM,keep_english,sCalciumDesc,translated_pending_qa,src/data/items.h,849
-ITEM_RARE_CANDY,RARE CANDY,keep_english,sRareCandyDesc,translated_pending_qa,src/data/items.h,860
-ITEM_PP_UP,PP UP,keep_english,sPPUpDesc,translated_pending_qa,src/data/items.h,871
-ITEM_ZINC,ZINC,keep_english,sZincDesc,translated_pending_qa,src/data/items.h,882
-ITEM_PP_MAX,PP MAX,keep_english,sPPMaxDesc,translated_pending_qa,src/data/items.h,893
+ITEM_HP_UP,HP UP,keep_english,sHPUpDesc,proof_passed,src/data/items.h,805
+ITEM_PROTEIN,PROTEIN,keep_english,sProteinDesc,proof_passed,src/data/items.h,816
+ITEM_IRON,IRON,keep_english,sIronDesc,proof_passed,src/data/items.h,827
+ITEM_CARBOS,CARBOS,keep_english,sCarbosDesc,proof_passed,src/data/items.h,838
+ITEM_CALCIUM,CALCIUM,keep_english,sCalciumDesc,proof_passed,src/data/items.h,849
+ITEM_RARE_CANDY,RARE CANDY,keep_english,sRareCandyDesc,proof_passed,src/data/items.h,860
+ITEM_PP_UP,PP UP,keep_english,sPPUpDesc,proof_passed,src/data/items.h,871
+ITEM_ZINC,ZINC,keep_english,sZincDesc,proof_passed,src/data/items.h,882
+ITEM_PP_MAX,PP MAX,keep_english,sPPMaxDesc,proof_passed,src/data/items.h,893
 ITEM_048,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,904
-ITEM_GUARD_SPEC,GUARD SPEC.,keep_english,sGuardSpecDesc,translated_pending_qa,src/data/items.h,917
-ITEM_DIRE_HIT,DIRE HIT,keep_english,sDireHitDesc,translated_pending_qa,src/data/items.h,930
-ITEM_X_ATTACK,X ATTACK,keep_english,sXAttackDesc,translated_pending_qa,src/data/items.h,943
-ITEM_X_DEFEND,X DEFEND,keep_english,sXDefendDesc,translated_pending_qa,src/data/items.h,956
-ITEM_X_SPEED,X SPEED,keep_english,sXSpeedDesc,translated_pending_qa,src/data/items.h,969
-ITEM_X_ACCURACY,X ACCURACY,keep_english,sXAccuracyDesc,translated_pending_qa,src/data/items.h,982
-ITEM_X_SPECIAL,X SPECIAL,keep_english,sXSpecialDesc,translated_pending_qa,src/data/items.h,995
-ITEM_POKE_DOLL,POKé DOLL,keep_english,sPokeDollDesc,translated_pending_qa,src/data/items.h,1008
-ITEM_FLUFFY_TAIL,FLUFFY TAIL,keep_english,sFluffyTailDesc,translated_pending_qa,src/data/items.h,1021
+ITEM_GUARD_SPEC,GUARD SPEC.,keep_english,sGuardSpecDesc,proof_passed,src/data/items.h,917
+ITEM_DIRE_HIT,DIRE HIT,keep_english,sDireHitDesc,proof_passed,src/data/items.h,930
+ITEM_X_ATTACK,X ATTACK,keep_english,sXAttackDesc,proof_passed,src/data/items.h,943
+ITEM_X_DEFEND,X DEFEND,keep_english,sXDefendDesc,proof_passed,src/data/items.h,956
+ITEM_X_SPEED,X SPEED,keep_english,sXSpeedDesc,proof_passed,src/data/items.h,969
+ITEM_X_ACCURACY,X ACCURACY,keep_english,sXAccuracyDesc,proof_passed,src/data/items.h,982
+ITEM_X_SPECIAL,X SPECIAL,keep_english,sXSpecialDesc,proof_passed,src/data/items.h,995
+ITEM_POKE_DOLL,POKé DOLL,keep_english,sPokeDollDesc,proof_passed,src/data/items.h,1008
+ITEM_FLUFFY_TAIL,FLUFFY TAIL,keep_english,sFluffyTailDesc,proof_passed,src/data/items.h,1021
 ITEM_052,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1034
-ITEM_SUPER_REPEL,SUPER REPEL,keep_english,sSuperRepelDesc,translated_pending_qa,src/data/items.h,1047
-ITEM_MAX_REPEL,MAX REPEL,keep_english,sMaxRepelDesc,translated_pending_qa,src/data/items.h,1059
-ITEM_ESCAPE_ROPE,ESCAPE ROPE,keep_english,sEscapeRopeDesc,translated_pending_qa,src/data/items.h,1071
-ITEM_REPEL,REPEL,keep_english,sRepelDesc,translated_pending_qa,src/data/items.h,1082
+ITEM_SUPER_REPEL,SUPER REPEL,keep_english,sSuperRepelDesc,proof_passed,src/data/items.h,1047
+ITEM_MAX_REPEL,MAX REPEL,keep_english,sMaxRepelDesc,proof_passed,src/data/items.h,1059
+ITEM_ESCAPE_ROPE,ESCAPE ROPE,keep_english,sEscapeRopeDesc,proof_passed,src/data/items.h,1071
+ITEM_REPEL,REPEL,keep_english,sRepelDesc,proof_passed,src/data/items.h,1082
 ITEM_057,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1094
 ITEM_058,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1105
 ITEM_059,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1116
 ITEM_05A,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1127
 ITEM_05B,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1138
 ITEM_05C,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1149
-ITEM_SUN_STONE,SUN STONE,keep_english,sSunStoneDesc,translated_pending_qa,src/data/items.h,1162
-ITEM_MOON_STONE,MOON STONE,keep_english,sMoonStoneDesc,translated_pending_qa,src/data/items.h,1173
-ITEM_FIRE_STONE,FIRE STONE,keep_english,sFireStoneDesc,translated_pending_qa,src/data/items.h,1184
-ITEM_THUNDER_STONE,THUNDERSTONE,keep_english,sThunderStoneDesc,translated_pending_qa,src/data/items.h,1195
-ITEM_WATER_STONE,WATER STONE,keep_english,sWaterStoneDesc,translated_pending_qa,src/data/items.h,1206
-ITEM_LEAF_STONE,LEAF STONE,keep_english,sLeafStoneDesc,translated_pending_qa,src/data/items.h,1217
+ITEM_SUN_STONE,SUN STONE,keep_english,sSunStoneDesc,proof_passed,src/data/items.h,1162
+ITEM_MOON_STONE,MOON STONE,keep_english,sMoonStoneDesc,proof_passed,src/data/items.h,1173
+ITEM_FIRE_STONE,FIRE STONE,keep_english,sFireStoneDesc,proof_passed,src/data/items.h,1184
+ITEM_THUNDER_STONE,THUNDERSTONE,keep_english,sThunderStoneDesc,proof_passed,src/data/items.h,1195
+ITEM_WATER_STONE,WATER STONE,keep_english,sWaterStoneDesc,proof_passed,src/data/items.h,1206
+ITEM_LEAF_STONE,LEAF STONE,keep_english,sLeafStoneDesc,proof_passed,src/data/items.h,1217
 ITEM_063,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1228
 ITEM_064,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1239
 ITEM_065,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1250
 ITEM_066,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1261
-ITEM_TINY_MUSHROOM,TINYMUSHROOM,keep_english,sTinyMushroomDesc,translated_pending_qa,src/data/items.h,1274
-ITEM_BIG_MUSHROOM,BIG MUSHROOM,keep_english,sBigMushroomDesc,translated_pending_qa,src/data/items.h,1285
+ITEM_TINY_MUSHROOM,TINYMUSHROOM,keep_english,sTinyMushroomDesc,proof_passed,src/data/items.h,1274
+ITEM_BIG_MUSHROOM,BIG MUSHROOM,keep_english,sBigMushroomDesc,proof_passed,src/data/items.h,1285
 ITEM_069,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1296
-ITEM_PEARL,PEARL,keep_english,sPearlDesc,translated_pending_qa,src/data/items.h,1307
-ITEM_BIG_PEARL,BIG PEARL,keep_english,sBigPearlDesc,translated_pending_qa,src/data/items.h,1318
-ITEM_STARDUST,STARDUST,keep_english,sStardustDesc,translated_pending_qa,src/data/items.h,1329
-ITEM_STAR_PIECE,STAR PIECE,keep_english,sStarPieceDesc,translated_pending_qa,src/data/items.h,1340
-ITEM_NUGGET,NUGGET,keep_english,sNuggetDesc,translated_pending_qa,src/data/items.h,1351
-ITEM_HEART_SCALE,HEART SCALE,keep_english,sHeartScaleDesc,translated_pending_qa,src/data/items.h,1362
+ITEM_PEARL,PEARL,keep_english,sPearlDesc,proof_passed,src/data/items.h,1307
+ITEM_BIG_PEARL,BIG PEARL,keep_english,sBigPearlDesc,proof_passed,src/data/items.h,1318
+ITEM_STARDUST,STARDUST,keep_english,sStardustDesc,proof_passed,src/data/items.h,1329
+ITEM_STAR_PIECE,STAR PIECE,keep_english,sStarPieceDesc,proof_passed,src/data/items.h,1340
+ITEM_NUGGET,NUGGET,keep_english,sNuggetDesc,proof_passed,src/data/items.h,1351
+ITEM_HEART_SCALE,HEART SCALE,keep_english,sHeartScaleDesc,proof_passed,src/data/items.h,1362
 ITEM_070,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1373
 ITEM_071,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1384
 ITEM_072,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1395
@@ -120,111 +120,111 @@ ITEM_075,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1428
 ITEM_076,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1439
 ITEM_077,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1450
 ITEM_078,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,1461
-ITEM_ORANGE_MAIL,ORANGE MAIL,keep_english,sOrangeMailDesc,translated_pending_qa,src/data/items.h,1473
-ITEM_HARBOR_MAIL,HARBOR MAIL,keep_english,sHarborMailDesc,translated_pending_qa,src/data/items.h,1485
-ITEM_GLITTER_MAIL,GLITTER MAIL,keep_english,sGlitterMailDesc,translated_pending_qa,src/data/items.h,1497
-ITEM_MECH_MAIL,MECH MAIL,keep_english,sMechMailDesc,translated_pending_qa,src/data/items.h,1509
-ITEM_WOOD_MAIL,WOOD MAIL,keep_english,sWoodMailDesc,translated_pending_qa,src/data/items.h,1521
-ITEM_WAVE_MAIL,WAVE MAIL,keep_english,sWaveMailDesc,translated_pending_qa,src/data/items.h,1533
-ITEM_BEAD_MAIL,BEAD MAIL,keep_english,sBeadMailDesc,translated_pending_qa,src/data/items.h,1545
-ITEM_SHADOW_MAIL,SHADOW MAIL,keep_english,sShadowMailDesc,translated_pending_qa,src/data/items.h,1557
-ITEM_TROPIC_MAIL,TROPIC MAIL,keep_english,sTropicMailDesc,translated_pending_qa,src/data/items.h,1569
-ITEM_DREAM_MAIL,DREAM MAIL,keep_english,sDreamMailDesc,translated_pending_qa,src/data/items.h,1581
-ITEM_FAB_MAIL,FAB MAIL,keep_english,sFabMailDesc,translated_pending_qa,src/data/items.h,1593
-ITEM_RETRO_MAIL,RETRO MAIL,keep_english,sRetroMailDesc,translated_pending_qa,src/data/items.h,1605
-ITEM_CHERI_BERRY,CHERI BERRY,keep_english,sCheriBerryDesc,translated_pending_qa,src/data/items.h,1619
-ITEM_CHESTO_BERRY,CHESTO BERRY,keep_english,sChestoBerryDesc,translated_pending_qa,src/data/items.h,1633
-ITEM_PECHA_BERRY,PECHA BERRY,keep_english,sPechaBerryDesc,translated_pending_qa,src/data/items.h,1647
-ITEM_RAWST_BERRY,RAWST BERRY,keep_english,sRawstBerryDesc,translated_pending_qa,src/data/items.h,1661
-ITEM_ASPEAR_BERRY,ASPEAR BERRY,keep_english,sAspearBerryDesc,translated_pending_qa,src/data/items.h,1675
-ITEM_LEPPA_BERRY,LEPPA BERRY,keep_english,sLeppaBerryDesc,translated_pending_qa,src/data/items.h,1689
-ITEM_ORAN_BERRY,ORAN BERRY,keep_english,sOranBerryDesc,translated_pending_qa,src/data/items.h,1704
-ITEM_PERSIM_BERRY,PERSIM BERRY,keep_english,sPersimBerryDesc,translated_pending_qa,src/data/items.h,1719
-ITEM_LUM_BERRY,LUM BERRY,keep_english,sLumBerryDesc,translated_pending_qa,src/data/items.h,1733
-ITEM_SITRUS_BERRY,SITRUS BERRY,keep_english,sSitrusBerryDesc,translated_pending_qa,src/data/items.h,1747
-ITEM_FIGY_BERRY,FIGY BERRY,keep_english,sFigyBerryDesc,translated_pending_qa,src/data/items.h,1762
-ITEM_WIKI_BERRY,WIKI BERRY,keep_english,sWikiBerryDesc,translated_pending_qa,src/data/items.h,1775
-ITEM_MAGO_BERRY,MAGO BERRY,keep_english,sMagoBerryDesc,translated_pending_qa,src/data/items.h,1788
-ITEM_AGUAV_BERRY,AGUAV BERRY,keep_english,sAguavBerryDesc,translated_pending_qa,src/data/items.h,1801
-ITEM_IAPAPA_BERRY,IAPAPA BERRY,keep_english,sIapapaBerryDesc,translated_pending_qa,src/data/items.h,1814
-ITEM_RAZZ_BERRY,RAZZ BERRY,keep_english,sRazzBerryDesc,translated_pending_qa,src/data/items.h,1827
-ITEM_BLUK_BERRY,BLUK BERRY,keep_english,sBlukBerryDesc,translated_pending_qa,src/data/items.h,1838
-ITEM_NANAB_BERRY,NANAB BERRY,keep_english,sNanabBerryDesc,translated_pending_qa,src/data/items.h,1849
-ITEM_WEPEAR_BERRY,WEPEAR BERRY,keep_english,sWepearBerryDesc,translated_pending_qa,src/data/items.h,1860
-ITEM_PINAP_BERRY,PINAP BERRY,keep_english,sPinapBerryDesc,translated_pending_qa,src/data/items.h,1871
-ITEM_POMEG_BERRY,POMEG BERRY,keep_english,sPomegBerryDesc,translated_pending_qa,src/data/items.h,1882
-ITEM_KELPSY_BERRY,KELPSY BERRY,keep_english,sKelpsyBerryDesc,translated_pending_qa,src/data/items.h,1893
-ITEM_QUALOT_BERRY,QUALOT BERRY,keep_english,sQualotBerryDesc,translated_pending_qa,src/data/items.h,1904
-ITEM_HONDEW_BERRY,HONDEW BERRY,keep_english,sHondewBerryDesc,translated_pending_qa,src/data/items.h,1915
-ITEM_GREPA_BERRY,GREPA BERRY,keep_english,sGrepaBerryDesc,translated_pending_qa,src/data/items.h,1926
-ITEM_TAMATO_BERRY,TAMATO BERRY,keep_english,sTamatoBerryDesc,translated_pending_qa,src/data/items.h,1937
-ITEM_CORNN_BERRY,CORNN BERRY,keep_english,sCornnBerryDesc,translated_pending_qa,src/data/items.h,1948
-ITEM_MAGOST_BERRY,MAGOST BERRY,keep_english,sMagostBerryDesc,translated_pending_qa,src/data/items.h,1959
-ITEM_RABUTA_BERRY,RABUTA BERRY,keep_english,sRabutaBerryDesc,translated_pending_qa,src/data/items.h,1970
-ITEM_NOMEL_BERRY,NOMEL BERRY,keep_english,sNomelBerryDesc,translated_pending_qa,src/data/items.h,1981
-ITEM_SPELON_BERRY,SPELON BERRY,keep_english,sSpelonBerryDesc,translated_pending_qa,src/data/items.h,1992
-ITEM_PAMTRE_BERRY,PAMTRE BERRY,keep_english,sPamtreBerryDesc,translated_pending_qa,src/data/items.h,2003
-ITEM_WATMEL_BERRY,WATMEL BERRY,keep_english,sWatmelBerryDesc,translated_pending_qa,src/data/items.h,2014
-ITEM_DURIN_BERRY,DURIN BERRY,keep_english,sDurinBerryDesc,translated_pending_qa,src/data/items.h,2025
-ITEM_BELUE_BERRY,BELUE BERRY,keep_english,sBelueBerryDesc,translated_pending_qa,src/data/items.h,2036
-ITEM_LIECHI_BERRY,LIECHI BERRY,keep_english,sLiechiBerryDesc,translated_pending_qa,src/data/items.h,2047
-ITEM_GANLON_BERRY,GANLON BERRY,keep_english,sGanlonBerryDesc,translated_pending_qa,src/data/items.h,2060
-ITEM_SALAC_BERRY,SALAC BERRY,keep_english,sSalacBerryDesc,translated_pending_qa,src/data/items.h,2073
-ITEM_PETAYA_BERRY,PETAYA BERRY,keep_english,sPetayaBerryDesc,translated_pending_qa,src/data/items.h,2086
-ITEM_APICOT_BERRY,APICOT BERRY,keep_english,sApicotBerryDesc,translated_pending_qa,src/data/items.h,2099
-ITEM_LANSAT_BERRY,LANSAT BERRY,keep_english,sLansatBerryDesc,translated_pending_qa,src/data/items.h,2112
-ITEM_STARF_BERRY,STARF BERRY,keep_english,sStarfBerryDesc,translated_pending_qa,src/data/items.h,2125
-ITEM_ENIGMA_BERRY,ENIGMA BERRY,keep_english,sEnigmaBerryDesc,translated_pending_qa,src/data/items.h,2138
+ITEM_ORANGE_MAIL,ORANGE MAIL,keep_english,sOrangeMailDesc,proof_passed,src/data/items.h,1473
+ITEM_HARBOR_MAIL,HARBOR MAIL,keep_english,sHarborMailDesc,proof_passed,src/data/items.h,1485
+ITEM_GLITTER_MAIL,GLITTER MAIL,keep_english,sGlitterMailDesc,proof_passed,src/data/items.h,1497
+ITEM_MECH_MAIL,MECH MAIL,keep_english,sMechMailDesc,proof_passed,src/data/items.h,1509
+ITEM_WOOD_MAIL,WOOD MAIL,keep_english,sWoodMailDesc,proof_passed,src/data/items.h,1521
+ITEM_WAVE_MAIL,WAVE MAIL,keep_english,sWaveMailDesc,proof_passed,src/data/items.h,1533
+ITEM_BEAD_MAIL,BEAD MAIL,keep_english,sBeadMailDesc,proof_passed,src/data/items.h,1545
+ITEM_SHADOW_MAIL,SHADOW MAIL,keep_english,sShadowMailDesc,proof_passed,src/data/items.h,1557
+ITEM_TROPIC_MAIL,TROPIC MAIL,keep_english,sTropicMailDesc,proof_passed,src/data/items.h,1569
+ITEM_DREAM_MAIL,DREAM MAIL,keep_english,sDreamMailDesc,proof_passed,src/data/items.h,1581
+ITEM_FAB_MAIL,FAB MAIL,keep_english,sFabMailDesc,proof_passed,src/data/items.h,1593
+ITEM_RETRO_MAIL,RETRO MAIL,keep_english,sRetroMailDesc,proof_passed,src/data/items.h,1605
+ITEM_CHERI_BERRY,CHERI BERRY,keep_english,sCheriBerryDesc,proof_passed,src/data/items.h,1619
+ITEM_CHESTO_BERRY,CHESTO BERRY,keep_english,sChestoBerryDesc,proof_passed,src/data/items.h,1633
+ITEM_PECHA_BERRY,PECHA BERRY,keep_english,sPechaBerryDesc,proof_passed,src/data/items.h,1647
+ITEM_RAWST_BERRY,RAWST BERRY,keep_english,sRawstBerryDesc,proof_passed,src/data/items.h,1661
+ITEM_ASPEAR_BERRY,ASPEAR BERRY,keep_english,sAspearBerryDesc,proof_passed,src/data/items.h,1675
+ITEM_LEPPA_BERRY,LEPPA BERRY,keep_english,sLeppaBerryDesc,proof_passed,src/data/items.h,1689
+ITEM_ORAN_BERRY,ORAN BERRY,keep_english,sOranBerryDesc,proof_passed,src/data/items.h,1704
+ITEM_PERSIM_BERRY,PERSIM BERRY,keep_english,sPersimBerryDesc,proof_passed,src/data/items.h,1719
+ITEM_LUM_BERRY,LUM BERRY,keep_english,sLumBerryDesc,proof_passed,src/data/items.h,1733
+ITEM_SITRUS_BERRY,SITRUS BERRY,keep_english,sSitrusBerryDesc,proof_passed,src/data/items.h,1747
+ITEM_FIGY_BERRY,FIGY BERRY,keep_english,sFigyBerryDesc,proof_passed,src/data/items.h,1762
+ITEM_WIKI_BERRY,WIKI BERRY,keep_english,sWikiBerryDesc,proof_passed,src/data/items.h,1775
+ITEM_MAGO_BERRY,MAGO BERRY,keep_english,sMagoBerryDesc,proof_passed,src/data/items.h,1788
+ITEM_AGUAV_BERRY,AGUAV BERRY,keep_english,sAguavBerryDesc,proof_passed,src/data/items.h,1801
+ITEM_IAPAPA_BERRY,IAPAPA BERRY,keep_english,sIapapaBerryDesc,proof_passed,src/data/items.h,1814
+ITEM_RAZZ_BERRY,RAZZ BERRY,keep_english,sRazzBerryDesc,proof_passed,src/data/items.h,1827
+ITEM_BLUK_BERRY,BLUK BERRY,keep_english,sBlukBerryDesc,proof_passed,src/data/items.h,1838
+ITEM_NANAB_BERRY,NANAB BERRY,keep_english,sNanabBerryDesc,proof_passed,src/data/items.h,1849
+ITEM_WEPEAR_BERRY,WEPEAR BERRY,keep_english,sWepearBerryDesc,proof_passed,src/data/items.h,1860
+ITEM_PINAP_BERRY,PINAP BERRY,keep_english,sPinapBerryDesc,proof_passed,src/data/items.h,1871
+ITEM_POMEG_BERRY,POMEG BERRY,keep_english,sPomegBerryDesc,proof_passed,src/data/items.h,1882
+ITEM_KELPSY_BERRY,KELPSY BERRY,keep_english,sKelpsyBerryDesc,proof_passed,src/data/items.h,1893
+ITEM_QUALOT_BERRY,QUALOT BERRY,keep_english,sQualotBerryDesc,proof_passed,src/data/items.h,1904
+ITEM_HONDEW_BERRY,HONDEW BERRY,keep_english,sHondewBerryDesc,proof_passed,src/data/items.h,1915
+ITEM_GREPA_BERRY,GREPA BERRY,keep_english,sGrepaBerryDesc,proof_passed,src/data/items.h,1926
+ITEM_TAMATO_BERRY,TAMATO BERRY,keep_english,sTamatoBerryDesc,proof_passed,src/data/items.h,1937
+ITEM_CORNN_BERRY,CORNN BERRY,keep_english,sCornnBerryDesc,proof_passed,src/data/items.h,1948
+ITEM_MAGOST_BERRY,MAGOST BERRY,keep_english,sMagostBerryDesc,proof_passed,src/data/items.h,1959
+ITEM_RABUTA_BERRY,RABUTA BERRY,keep_english,sRabutaBerryDesc,proof_passed,src/data/items.h,1970
+ITEM_NOMEL_BERRY,NOMEL BERRY,keep_english,sNomelBerryDesc,proof_passed,src/data/items.h,1981
+ITEM_SPELON_BERRY,SPELON BERRY,keep_english,sSpelonBerryDesc,proof_passed,src/data/items.h,1992
+ITEM_PAMTRE_BERRY,PAMTRE BERRY,keep_english,sPamtreBerryDesc,proof_passed,src/data/items.h,2003
+ITEM_WATMEL_BERRY,WATMEL BERRY,keep_english,sWatmelBerryDesc,proof_passed,src/data/items.h,2014
+ITEM_DURIN_BERRY,DURIN BERRY,keep_english,sDurinBerryDesc,proof_passed,src/data/items.h,2025
+ITEM_BELUE_BERRY,BELUE BERRY,keep_english,sBelueBerryDesc,proof_passed,src/data/items.h,2036
+ITEM_LIECHI_BERRY,LIECHI BERRY,keep_english,sLiechiBerryDesc,proof_passed,src/data/items.h,2047
+ITEM_GANLON_BERRY,GANLON BERRY,keep_english,sGanlonBerryDesc,proof_passed,src/data/items.h,2060
+ITEM_SALAC_BERRY,SALAC BERRY,keep_english,sSalacBerryDesc,proof_passed,src/data/items.h,2073
+ITEM_PETAYA_BERRY,PETAYA BERRY,keep_english,sPetayaBerryDesc,proof_passed,src/data/items.h,2086
+ITEM_APICOT_BERRY,APICOT BERRY,keep_english,sApicotBerryDesc,proof_passed,src/data/items.h,2099
+ITEM_LANSAT_BERRY,LANSAT BERRY,keep_english,sLansatBerryDesc,proof_passed,src/data/items.h,2112
+ITEM_STARF_BERRY,STARF BERRY,keep_english,sStarfBerryDesc,proof_passed,src/data/items.h,2125
+ITEM_ENIGMA_BERRY,ENIGMA BERRY,keep_english,sEnigmaBerryDesc,proof_passed,src/data/items.h,2138
 ITEM_UNUSED_BERRY_1,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2151
 ITEM_UNUSED_BERRY_2,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2162
 ITEM_UNUSED_BERRY_3,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2173
-ITEM_BRIGHT_POWDER,BRIGHTPOWDER,keep_english,sBrightPowderDesc,translated_pending_qa,src/data/items.h,2186
-ITEM_WHITE_HERB,WHITE HERB,keep_english,sWhiteHerbDesc,translated_pending_qa,src/data/items.h,2199
-ITEM_MACHO_BRACE,MACHO BRACE,keep_english,sMachoBraceDesc,translated_pending_qa,src/data/items.h,2211
-ITEM_EXP_SHARE,EXP. SHARE,keep_english,sExpShareDesc,translated_pending_qa,src/data/items.h,2223
-ITEM_QUICK_CLAW,QUICK CLAW,keep_english,sQuickClawDesc,translated_pending_qa,src/data/items.h,2235
-ITEM_SOOTHE_BELL,SOOTHE BELL,keep_english,sSootheBellDesc,translated_pending_qa,src/data/items.h,2248
-ITEM_MENTAL_HERB,MENTAL HERB,keep_english,sMentalHerbDesc,translated_pending_qa,src/data/items.h,2260
-ITEM_CHOICE_BAND,CHOICE BAND,keep_english,sChoiceBandDesc,translated_pending_qa,src/data/items.h,2272
-ITEM_KINGS_ROCK,KING'S ROCK,keep_english,sKingsRockDesc,translated_pending_qa,src/data/items.h,2284
-ITEM_SILVER_POWDER,SILVERPOWDER,keep_english,sSilverPowderDesc,translated_pending_qa,src/data/items.h,2297
-ITEM_AMULET_COIN,AMULET COIN,keep_english,sAmuletCoinDesc,translated_pending_qa,src/data/items.h,2310
-ITEM_CLEANSE_TAG,CLEANSE TAG,keep_english,sCleanseTagDesc,translated_pending_qa,src/data/items.h,2323
-ITEM_SOUL_DEW,SOUL DEW,keep_english,sSoulDewDesc,translated_pending_qa,src/data/items.h,2335
-ITEM_DEEP_SEA_TOOTH,DEEPSEATOOTH,keep_english,sDeepSeaToothDesc,translated_pending_qa,src/data/items.h,2347
-ITEM_DEEP_SEA_SCALE,DEEPSEASCALE,keep_english,sDeepSeaScaleDesc,translated_pending_qa,src/data/items.h,2359
-ITEM_SMOKE_BALL,SMOKE BALL,keep_english,sSmokeBallDesc,translated_pending_qa,src/data/items.h,2371
-ITEM_EVERSTONE,EVERSTONE,keep_english,sEverstoneDesc,translated_pending_qa,src/data/items.h,2383
-ITEM_FOCUS_BAND,FOCUS BAND,keep_english,sFocusBandDesc,translated_pending_qa,src/data/items.h,2395
-ITEM_LUCKY_EGG,LUCKY EGG,keep_english,sLuckyEggDesc,translated_pending_qa,src/data/items.h,2408
-ITEM_SCOPE_LENS,SCOPE LENS,keep_english,sScopeLensDesc,translated_pending_qa,src/data/items.h,2420
-ITEM_METAL_COAT,METAL COAT,keep_english,sMetalCoatDesc,translated_pending_qa,src/data/items.h,2432
-ITEM_LEFTOVERS,LEFTOVERS,keep_english,sLeftoversDesc,translated_pending_qa,src/data/items.h,2445
-ITEM_DRAGON_SCALE,DRAGON SCALE,keep_english,sDragonScaleDesc,translated_pending_qa,src/data/items.h,2458
-ITEM_LIGHT_BALL,LIGHT BALL,keep_english,sLightBallDesc,translated_pending_qa,src/data/items.h,2471
-ITEM_SOFT_SAND,SOFT SAND,keep_english,sSoftSandDesc,translated_pending_qa,src/data/items.h,2483
-ITEM_HARD_STONE,HARD STONE,keep_english,sHardStoneDesc,translated_pending_qa,src/data/items.h,2496
-ITEM_MIRACLE_SEED,MIRACLE SEED,keep_english,sMiracleSeedDesc,translated_pending_qa,src/data/items.h,2509
-ITEM_BLACK_GLASSES,BLACKGLASSES,keep_english,sBlackGlassesDesc,translated_pending_qa,src/data/items.h,2522
-ITEM_BLACK_BELT,BLACK BELT,keep_english,sBlackBeltDesc,translated_pending_qa,src/data/items.h,2535
-ITEM_MAGNET,MAGNET,keep_english,sMagnetDesc,translated_pending_qa,src/data/items.h,2548
-ITEM_MYSTIC_WATER,MYSTIC WATER,keep_english,sMysticWaterDesc,translated_pending_qa,src/data/items.h,2561
-ITEM_SHARP_BEAK,SHARP BEAK,keep_english,sSharpBeakDesc,translated_pending_qa,src/data/items.h,2574
-ITEM_POISON_BARB,POISON BARB,keep_english,sPoisonBarbDesc,translated_pending_qa,src/data/items.h,2587
-ITEM_NEVER_MELT_ICE,NEVERMELTICE,keep_english,sNeverMeltIceDesc,translated_pending_qa,src/data/items.h,2600
-ITEM_SPELL_TAG,SPELL TAG,keep_english,sSpellTagDesc,translated_pending_qa,src/data/items.h,2613
-ITEM_TWISTED_SPOON,TWISTEDSPOON,keep_english,sTwistedSpoonDesc,translated_pending_qa,src/data/items.h,2626
-ITEM_CHARCOAL,CHARCOAL,keep_english,sCharcoalDesc,translated_pending_qa,src/data/items.h,2639
-ITEM_DRAGON_FANG,DRAGON FANG,keep_english,sDragonFangDesc,translated_pending_qa,src/data/items.h,2652
-ITEM_SILK_SCARF,SILK SCARF,keep_english,sSilkScarfDesc,translated_pending_qa,src/data/items.h,2665
-ITEM_UP_GRADE,UP-GRADE,keep_english,sUpGradeDesc,translated_pending_qa,src/data/items.h,2678
-ITEM_SHELL_BELL,SHELL BELL,keep_english,sShellBellDesc,translated_pending_qa,src/data/items.h,2690
-ITEM_SEA_INCENSE,SEA INCENSE,keep_english,sSeaIncenseDesc,translated_pending_qa,src/data/items.h,2703
-ITEM_LAX_INCENSE,LAX INCENSE,keep_english,sLaxIncenseDesc,translated_pending_qa,src/data/items.h,2716
-ITEM_LUCKY_PUNCH,LUCKY PUNCH,keep_english,sLuckyPunchDesc,translated_pending_qa,src/data/items.h,2729
-ITEM_METAL_POWDER,METAL POWDER,keep_english,sMetalPowderDesc,translated_pending_qa,src/data/items.h,2741
-ITEM_THICK_CLUB,THICK CLUB,keep_english,sThickClubDesc,translated_pending_qa,src/data/items.h,2753
-ITEM_STICK,STICK,keep_english,sStickDesc,translated_pending_qa,src/data/items.h,2765
+ITEM_BRIGHT_POWDER,BRIGHTPOWDER,keep_english,sBrightPowderDesc,proof_passed,src/data/items.h,2186
+ITEM_WHITE_HERB,WHITE HERB,keep_english,sWhiteHerbDesc,proof_passed,src/data/items.h,2199
+ITEM_MACHO_BRACE,MACHO BRACE,keep_english,sMachoBraceDesc,proof_passed,src/data/items.h,2211
+ITEM_EXP_SHARE,EXP. SHARE,keep_english,sExpShareDesc,proof_passed,src/data/items.h,2223
+ITEM_QUICK_CLAW,QUICK CLAW,keep_english,sQuickClawDesc,proof_passed,src/data/items.h,2235
+ITEM_SOOTHE_BELL,SOOTHE BELL,keep_english,sSootheBellDesc,proof_passed,src/data/items.h,2248
+ITEM_MENTAL_HERB,MENTAL HERB,keep_english,sMentalHerbDesc,proof_passed,src/data/items.h,2260
+ITEM_CHOICE_BAND,CHOICE BAND,keep_english,sChoiceBandDesc,proof_passed,src/data/items.h,2272
+ITEM_KINGS_ROCK,KING'S ROCK,keep_english,sKingsRockDesc,proof_passed,src/data/items.h,2284
+ITEM_SILVER_POWDER,SILVERPOWDER,keep_english,sSilverPowderDesc,proof_passed,src/data/items.h,2297
+ITEM_AMULET_COIN,AMULET COIN,keep_english,sAmuletCoinDesc,proof_passed,src/data/items.h,2310
+ITEM_CLEANSE_TAG,CLEANSE TAG,keep_english,sCleanseTagDesc,proof_passed,src/data/items.h,2323
+ITEM_SOUL_DEW,SOUL DEW,keep_english,sSoulDewDesc,proof_passed,src/data/items.h,2335
+ITEM_DEEP_SEA_TOOTH,DEEPSEATOOTH,keep_english,sDeepSeaToothDesc,proof_passed,src/data/items.h,2347
+ITEM_DEEP_SEA_SCALE,DEEPSEASCALE,keep_english,sDeepSeaScaleDesc,proof_passed,src/data/items.h,2359
+ITEM_SMOKE_BALL,SMOKE BALL,keep_english,sSmokeBallDesc,proof_passed,src/data/items.h,2371
+ITEM_EVERSTONE,EVERSTONE,keep_english,sEverstoneDesc,proof_passed,src/data/items.h,2383
+ITEM_FOCUS_BAND,FOCUS BAND,keep_english,sFocusBandDesc,proof_passed,src/data/items.h,2395
+ITEM_LUCKY_EGG,LUCKY EGG,keep_english,sLuckyEggDesc,proof_passed,src/data/items.h,2408
+ITEM_SCOPE_LENS,SCOPE LENS,keep_english,sScopeLensDesc,proof_passed,src/data/items.h,2420
+ITEM_METAL_COAT,METAL COAT,keep_english,sMetalCoatDesc,proof_passed,src/data/items.h,2432
+ITEM_LEFTOVERS,LEFTOVERS,keep_english,sLeftoversDesc,proof_passed,src/data/items.h,2445
+ITEM_DRAGON_SCALE,DRAGON SCALE,keep_english,sDragonScaleDesc,proof_passed,src/data/items.h,2458
+ITEM_LIGHT_BALL,LIGHT BALL,keep_english,sLightBallDesc,proof_passed,src/data/items.h,2471
+ITEM_SOFT_SAND,SOFT SAND,keep_english,sSoftSandDesc,proof_passed,src/data/items.h,2483
+ITEM_HARD_STONE,HARD STONE,keep_english,sHardStoneDesc,proof_passed,src/data/items.h,2496
+ITEM_MIRACLE_SEED,MIRACLE SEED,keep_english,sMiracleSeedDesc,proof_passed,src/data/items.h,2509
+ITEM_BLACK_GLASSES,BLACKGLASSES,keep_english,sBlackGlassesDesc,proof_passed,src/data/items.h,2522
+ITEM_BLACK_BELT,BLACK BELT,keep_english,sBlackBeltDesc,proof_passed,src/data/items.h,2535
+ITEM_MAGNET,MAGNET,keep_english,sMagnetDesc,proof_passed,src/data/items.h,2548
+ITEM_MYSTIC_WATER,MYSTIC WATER,keep_english,sMysticWaterDesc,proof_passed,src/data/items.h,2561
+ITEM_SHARP_BEAK,SHARP BEAK,keep_english,sSharpBeakDesc,proof_passed,src/data/items.h,2574
+ITEM_POISON_BARB,POISON BARB,keep_english,sPoisonBarbDesc,proof_passed,src/data/items.h,2587
+ITEM_NEVER_MELT_ICE,NEVERMELTICE,keep_english,sNeverMeltIceDesc,proof_passed,src/data/items.h,2600
+ITEM_SPELL_TAG,SPELL TAG,keep_english,sSpellTagDesc,proof_passed,src/data/items.h,2613
+ITEM_TWISTED_SPOON,TWISTEDSPOON,keep_english,sTwistedSpoonDesc,proof_passed,src/data/items.h,2626
+ITEM_CHARCOAL,CHARCOAL,keep_english,sCharcoalDesc,proof_passed,src/data/items.h,2639
+ITEM_DRAGON_FANG,DRAGON FANG,keep_english,sDragonFangDesc,proof_passed,src/data/items.h,2652
+ITEM_SILK_SCARF,SILK SCARF,keep_english,sSilkScarfDesc,proof_passed,src/data/items.h,2665
+ITEM_UP_GRADE,UP-GRADE,keep_english,sUpGradeDesc,proof_passed,src/data/items.h,2678
+ITEM_SHELL_BELL,SHELL BELL,keep_english,sShellBellDesc,proof_passed,src/data/items.h,2690
+ITEM_SEA_INCENSE,SEA INCENSE,keep_english,sSeaIncenseDesc,proof_passed,src/data/items.h,2703
+ITEM_LAX_INCENSE,LAX INCENSE,keep_english,sLaxIncenseDesc,proof_passed,src/data/items.h,2716
+ITEM_LUCKY_PUNCH,LUCKY PUNCH,keep_english,sLuckyPunchDesc,proof_passed,src/data/items.h,2729
+ITEM_METAL_POWDER,METAL POWDER,keep_english,sMetalPowderDesc,proof_passed,src/data/items.h,2741
+ITEM_THICK_CLUB,THICK CLUB,keep_english,sThickClubDesc,proof_passed,src/data/items.h,2753
+ITEM_STICK,STICK,keep_english,sStickDesc,proof_passed,src/data/items.h,2765
 ITEM_0E2,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2777
 ITEM_0E3,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2788
 ITEM_0E4,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,2799
@@ -253,126 +253,126 @@ ITEM_0FA,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,3041
 ITEM_0FB,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,3052
 ITEM_0FC,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,3063
 ITEM_0FD,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,3074
-ITEM_RED_SCARF,RED SCARF,keep_english,sRedScarfDesc,translated_pending_qa,src/data/items.h,3085
-ITEM_BLUE_SCARF,BLUE SCARF,keep_english,sBlueScarfDesc,translated_pending_qa,src/data/items.h,3096
-ITEM_PINK_SCARF,PINK SCARF,keep_english,sPinkScarfDesc,translated_pending_qa,src/data/items.h,3107
-ITEM_GREEN_SCARF,GREEN SCARF,keep_english,sGreenScarfDesc,translated_pending_qa,src/data/items.h,3118
-ITEM_YELLOW_SCARF,YELLOW SCARF,keep_english,sYellowScarfDesc,translated_pending_qa,src/data/items.h,3129
-ITEM_MACH_BIKE,MACH BIKE,keep_english,sMachBikeDesc,translated_pending_qa,src/data/items.h,3142
-ITEM_COIN_CASE,COIN CASE,keep_english,sCoinCaseDesc,translated_pending_qa,src/data/items.h,3156
-ITEM_ITEMFINDER,ITEMFINDER,keep_english,sItemfinderDesc,translated_pending_qa,src/data/items.h,3168
-ITEM_OLD_ROD,OLD ROD,keep_english,sOldRodDesc,translated_pending_qa,src/data/items.h,3181
-ITEM_GOOD_ROD,GOOD ROD,keep_english,sGoodRodDesc,translated_pending_qa,src/data/items.h,3195
-ITEM_SUPER_ROD,SUPER ROD,keep_english,sSuperRodDesc,translated_pending_qa,src/data/items.h,3209
-ITEM_SS_TICKET,S.S. TICKET,keep_english,sSSTicketDesc,translated_pending_qa,src/data/items.h,3223
-ITEM_CONTEST_PASS,CONTEST PASS,keep_english,sContestPassDesc,translated_pending_qa,src/data/items.h,3235
+ITEM_RED_SCARF,RED SCARF,keep_english,sRedScarfDesc,proof_passed,src/data/items.h,3085
+ITEM_BLUE_SCARF,BLUE SCARF,keep_english,sBlueScarfDesc,proof_passed,src/data/items.h,3096
+ITEM_PINK_SCARF,PINK SCARF,keep_english,sPinkScarfDesc,proof_passed,src/data/items.h,3107
+ITEM_GREEN_SCARF,GREEN SCARF,keep_english,sGreenScarfDesc,proof_passed,src/data/items.h,3118
+ITEM_YELLOW_SCARF,YELLOW SCARF,keep_english,sYellowScarfDesc,proof_passed,src/data/items.h,3129
+ITEM_MACH_BIKE,MACH BIKE,keep_english,sMachBikeDesc,proof_passed,src/data/items.h,3142
+ITEM_COIN_CASE,COIN CASE,keep_english,sCoinCaseDesc,proof_passed,src/data/items.h,3156
+ITEM_ITEMFINDER,ITEMFINDER,keep_english,sItemfinderDesc,proof_passed,src/data/items.h,3168
+ITEM_OLD_ROD,OLD ROD,keep_english,sOldRodDesc,proof_passed,src/data/items.h,3181
+ITEM_GOOD_ROD,GOOD ROD,keep_english,sGoodRodDesc,proof_passed,src/data/items.h,3195
+ITEM_SUPER_ROD,SUPER ROD,keep_english,sSuperRodDesc,proof_passed,src/data/items.h,3209
+ITEM_SS_TICKET,S.S. TICKET,keep_english,sSSTicketDesc,proof_passed,src/data/items.h,3223
+ITEM_CONTEST_PASS,CONTEST PASS,keep_english,sContestPassDesc,proof_passed,src/data/items.h,3235
 ITEM_10B,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,3247
-ITEM_WAILMER_PAIL,WAILMER PAIL,keep_english,sWailmerPailDesc,translated_pending_qa,src/data/items.h,3258
-ITEM_DEVON_GOODS,DEVON GOODS,keep_english,sDevonGoodsDesc,translated_pending_qa,src/data/items.h,3270
-ITEM_SOOT_SACK,SOOT SACK,keep_english,sSootSackDesc,translated_pending_qa,src/data/items.h,3282
-ITEM_BASEMENT_KEY,BASEMENT KEY,keep_english,sBasementKeyDesc,translated_pending_qa,src/data/items.h,3294
-ITEM_ACRO_BIKE,ACRO BIKE,keep_english,sAcroBikeDesc,translated_pending_qa,src/data/items.h,3306
-ITEM_POKEBLOCK_CASE,{POKEBLOCK} CASE,keep_english,sPokeblockCaseDesc,translated_pending_qa,src/data/items.h,3320
-ITEM_LETTER,LETTER,keep_english,sLetterDesc,translated_pending_qa,src/data/items.h,3333
-ITEM_EON_TICKET,EON TICKET,keep_english,sEonTicketDesc,translated_pending_qa,src/data/items.h,3345
-ITEM_RED_ORB,RED ORB,keep_english,sRedOrbDesc,translated_pending_qa,src/data/items.h,3358
-ITEM_BLUE_ORB,BLUE ORB,keep_english,sBlueOrbDesc,translated_pending_qa,src/data/items.h,3370
-ITEM_SCANNER,SCANNER,keep_english,sScannerDesc,translated_pending_qa,src/data/items.h,3382
-ITEM_GO_GOGGLES,GO-GOGGLES,keep_english,sGoGogglesDesc,translated_pending_qa,src/data/items.h,3394
-ITEM_METEORITE,METEORITE,keep_english,sMeteoriteDesc,translated_pending_qa,src/data/items.h,3406
-ITEM_ROOM_1_KEY,RM. 1 KEY,keep_english,sRoom1KeyDesc,translated_pending_qa,src/data/items.h,3418
-ITEM_ROOM_2_KEY,RM. 2 KEY,keep_english,sRoom2KeyDesc,translated_pending_qa,src/data/items.h,3430
-ITEM_ROOM_4_KEY,RM. 4 KEY,keep_english,sRoom4KeyDesc,translated_pending_qa,src/data/items.h,3442
-ITEM_ROOM_6_KEY,RM. 6 KEY,keep_english,sRoom6KeyDesc,translated_pending_qa,src/data/items.h,3454
-ITEM_STORAGE_KEY,STORAGE KEY,keep_english,sStorageKeyDesc,translated_pending_qa,src/data/items.h,3466
-ITEM_ROOT_FOSSIL,ROOT FOSSIL,keep_english,sRootFossilDesc,translated_pending_qa,src/data/items.h,3478
-ITEM_CLAW_FOSSIL,CLAW FOSSIL,keep_english,sClawFossilDesc,translated_pending_qa,src/data/items.h,3490
-ITEM_DEVON_SCOPE,DEVON SCOPE,keep_english,sDevonScopeDesc,translated_pending_qa,src/data/items.h,3502
-ITEM_TM_FOCUS_PUNCH,TM01,keep_english,sTM01Desc,translated_pending_qa,src/data/items.h,3516
-ITEM_TM_DRAGON_CLAW,TM02,keep_english,sTM02Desc,translated_pending_qa,src/data/items.h,3527
-ITEM_TM_WATER_PULSE,TM03,keep_english,sTM03Desc,translated_pending_qa,src/data/items.h,3538
-ITEM_TM_CALM_MIND,TM04,keep_english,sTM04Desc,translated_pending_qa,src/data/items.h,3549
-ITEM_TM_ROAR,TM05,keep_english,sTM05Desc,translated_pending_qa,src/data/items.h,3560
-ITEM_TM_TOXIC,TM06,keep_english,sTM06Desc,translated_pending_qa,src/data/items.h,3571
-ITEM_TM_HAIL,TM07,keep_english,sTM07Desc,translated_pending_qa,src/data/items.h,3582
-ITEM_TM_BULK_UP,TM08,keep_english,sTM08Desc,translated_pending_qa,src/data/items.h,3593
-ITEM_TM_BULLET_SEED,TM09,keep_english,sTM09Desc,translated_pending_qa,src/data/items.h,3604
-ITEM_TM_HIDDEN_POWER,TM10,keep_english,sTM10Desc,translated_pending_qa,src/data/items.h,3615
-ITEM_TM_SUNNY_DAY,TM11,keep_english,sTM11Desc,translated_pending_qa,src/data/items.h,3626
-ITEM_TM_TAUNT,TM12,keep_english,sTM12Desc,translated_pending_qa,src/data/items.h,3637
-ITEM_TM_ICE_BEAM,TM13,keep_english,sTM13Desc,translated_pending_qa,src/data/items.h,3648
-ITEM_TM_BLIZZARD,TM14,keep_english,sTM14Desc,translated_pending_qa,src/data/items.h,3659
-ITEM_TM_HYPER_BEAM,TM15,keep_english,sTM15Desc,translated_pending_qa,src/data/items.h,3670
-ITEM_TM_LIGHT_SCREEN,TM16,keep_english,sTM16Desc,translated_pending_qa,src/data/items.h,3681
-ITEM_TM_PROTECT,TM17,keep_english,sTM17Desc,translated_pending_qa,src/data/items.h,3692
-ITEM_TM_RAIN_DANCE,TM18,keep_english,sTM18Desc,translated_pending_qa,src/data/items.h,3703
-ITEM_TM_GIGA_DRAIN,TM19,keep_english,sTM19Desc,translated_pending_qa,src/data/items.h,3714
-ITEM_TM_SAFEGUARD,TM20,keep_english,sTM20Desc,translated_pending_qa,src/data/items.h,3725
-ITEM_TM_FRUSTRATION,TM21,keep_english,sTM21Desc,translated_pending_qa,src/data/items.h,3736
-ITEM_TM_SOLAR_BEAM,TM22,keep_english,sTM22Desc,translated_pending_qa,src/data/items.h,3747
-ITEM_TM_IRON_TAIL,TM23,keep_english,sTM23Desc,translated_pending_qa,src/data/items.h,3758
-ITEM_TM_THUNDERBOLT,TM24,keep_english,sTM24Desc,translated_pending_qa,src/data/items.h,3769
-ITEM_TM_THUNDER,TM25,keep_english,sTM25Desc,translated_pending_qa,src/data/items.h,3780
-ITEM_TM_EARTHQUAKE,TM26,keep_english,sTM26Desc,translated_pending_qa,src/data/items.h,3791
-ITEM_TM_RETURN,TM27,keep_english,sTM27Desc,translated_pending_qa,src/data/items.h,3802
-ITEM_TM_DIG,TM28,keep_english,sTM28Desc,translated_pending_qa,src/data/items.h,3813
-ITEM_TM_PSYCHIC,TM29,keep_english,sTM29Desc,translated_pending_qa,src/data/items.h,3824
-ITEM_TM_SHADOW_BALL,TM30,keep_english,sTM30Desc,translated_pending_qa,src/data/items.h,3835
-ITEM_TM_BRICK_BREAK,TM31,keep_english,sTM31Desc,translated_pending_qa,src/data/items.h,3846
-ITEM_TM_DOUBLE_TEAM,TM32,keep_english,sTM32Desc,translated_pending_qa,src/data/items.h,3857
-ITEM_TM_REFLECT,TM33,keep_english,sTM33Desc,translated_pending_qa,src/data/items.h,3868
-ITEM_TM_SHOCK_WAVE,TM34,keep_english,sTM34Desc,translated_pending_qa,src/data/items.h,3879
-ITEM_TM_FLAMETHROWER,TM35,keep_english,sTM35Desc,translated_pending_qa,src/data/items.h,3890
-ITEM_TM_SLUDGE_BOMB,TM36,keep_english,sTM36Desc,translated_pending_qa,src/data/items.h,3901
-ITEM_TM_SANDSTORM,TM37,keep_english,sTM37Desc,translated_pending_qa,src/data/items.h,3912
-ITEM_TM_FIRE_BLAST,TM38,keep_english,sTM38Desc,translated_pending_qa,src/data/items.h,3923
-ITEM_TM_ROCK_TOMB,TM39,keep_english,sTM39Desc,translated_pending_qa,src/data/items.h,3934
-ITEM_TM_AERIAL_ACE,TM40,keep_english,sTM40Desc,translated_pending_qa,src/data/items.h,3945
-ITEM_TM_TORMENT,TM41,keep_english,sTM41Desc,translated_pending_qa,src/data/items.h,3956
-ITEM_TM_FACADE,TM42,keep_english,sTM42Desc,translated_pending_qa,src/data/items.h,3967
-ITEM_TM_SECRET_POWER,TM43,keep_english,sTM43Desc,translated_pending_qa,src/data/items.h,3978
-ITEM_TM_REST,TM44,keep_english,sTM44Desc,translated_pending_qa,src/data/items.h,3989
-ITEM_TM_ATTRACT,TM45,keep_english,sTM45Desc,translated_pending_qa,src/data/items.h,4000
-ITEM_TM_THIEF,TM46,keep_english,sTM46Desc,translated_pending_qa,src/data/items.h,4011
-ITEM_TM_STEEL_WING,TM47,keep_english,sTM47Desc,translated_pending_qa,src/data/items.h,4022
-ITEM_TM_SKILL_SWAP,TM48,keep_english,sTM48Desc,translated_pending_qa,src/data/items.h,4033
-ITEM_TM_SNATCH,TM49,keep_english,sTM49Desc,translated_pending_qa,src/data/items.h,4044
-ITEM_TM_OVERHEAT,TM50,keep_english,sTM50Desc,translated_pending_qa,src/data/items.h,4055
-ITEM_HM_CUT,HM01,keep_english,sHM01Desc,translated_pending_qa,src/data/items.h,4066
-ITEM_HM_FLY,HM02,keep_english,sHM02Desc,translated_pending_qa,src/data/items.h,4078
-ITEM_HM_SURF,HM03,keep_english,sHM03Desc,translated_pending_qa,src/data/items.h,4090
-ITEM_HM_STRENGTH,HM04,keep_english,sHM04Desc,translated_pending_qa,src/data/items.h,4102
-ITEM_HM_FLASH,HM05,keep_english,sHM05Desc,translated_pending_qa,src/data/items.h,4114
-ITEM_HM_ROCK_SMASH,HM06,keep_english,sHM06Desc,translated_pending_qa,src/data/items.h,4126
-ITEM_HM_WATERFALL,HM07,keep_english,sHM07Desc,translated_pending_qa,src/data/items.h,4138
-ITEM_HM_DIVE,HM08,keep_english,sHM08Desc,translated_pending_qa,src/data/items.h,4150
+ITEM_WAILMER_PAIL,WAILMER PAIL,keep_english,sWailmerPailDesc,proof_passed,src/data/items.h,3258
+ITEM_DEVON_GOODS,DEVON GOODS,keep_english,sDevonGoodsDesc,proof_passed,src/data/items.h,3270
+ITEM_SOOT_SACK,SOOT SACK,keep_english,sSootSackDesc,proof_passed,src/data/items.h,3282
+ITEM_BASEMENT_KEY,BASEMENT KEY,keep_english,sBasementKeyDesc,proof_passed,src/data/items.h,3294
+ITEM_ACRO_BIKE,ACRO BIKE,keep_english,sAcroBikeDesc,proof_passed,src/data/items.h,3306
+ITEM_POKEBLOCK_CASE,{POKEBLOCK} CASE,keep_english,sPokeblockCaseDesc,proof_passed,src/data/items.h,3320
+ITEM_LETTER,LETTER,keep_english,sLetterDesc,proof_passed,src/data/items.h,3333
+ITEM_EON_TICKET,EON TICKET,keep_english,sEonTicketDesc,proof_passed,src/data/items.h,3345
+ITEM_RED_ORB,RED ORB,keep_english,sRedOrbDesc,proof_passed,src/data/items.h,3358
+ITEM_BLUE_ORB,BLUE ORB,keep_english,sBlueOrbDesc,proof_passed,src/data/items.h,3370
+ITEM_SCANNER,SCANNER,keep_english,sScannerDesc,proof_passed,src/data/items.h,3382
+ITEM_GO_GOGGLES,GO-GOGGLES,keep_english,sGoGogglesDesc,proof_passed,src/data/items.h,3394
+ITEM_METEORITE,METEORITE,keep_english,sMeteoriteDesc,proof_passed,src/data/items.h,3406
+ITEM_ROOM_1_KEY,RM. 1 KEY,keep_english,sRoom1KeyDesc,proof_passed,src/data/items.h,3418
+ITEM_ROOM_2_KEY,RM. 2 KEY,keep_english,sRoom2KeyDesc,proof_passed,src/data/items.h,3430
+ITEM_ROOM_4_KEY,RM. 4 KEY,keep_english,sRoom4KeyDesc,proof_passed,src/data/items.h,3442
+ITEM_ROOM_6_KEY,RM. 6 KEY,keep_english,sRoom6KeyDesc,proof_passed,src/data/items.h,3454
+ITEM_STORAGE_KEY,STORAGE KEY,keep_english,sStorageKeyDesc,proof_passed,src/data/items.h,3466
+ITEM_ROOT_FOSSIL,ROOT FOSSIL,keep_english,sRootFossilDesc,proof_passed,src/data/items.h,3478
+ITEM_CLAW_FOSSIL,CLAW FOSSIL,keep_english,sClawFossilDesc,proof_passed,src/data/items.h,3490
+ITEM_DEVON_SCOPE,DEVON SCOPE,keep_english,sDevonScopeDesc,proof_passed,src/data/items.h,3502
+ITEM_TM_FOCUS_PUNCH,TM01,keep_english,sTM01Desc,proof_passed,src/data/items.h,3516
+ITEM_TM_DRAGON_CLAW,TM02,keep_english,sTM02Desc,proof_passed,src/data/items.h,3527
+ITEM_TM_WATER_PULSE,TM03,keep_english,sTM03Desc,proof_passed,src/data/items.h,3538
+ITEM_TM_CALM_MIND,TM04,keep_english,sTM04Desc,proof_passed,src/data/items.h,3549
+ITEM_TM_ROAR,TM05,keep_english,sTM05Desc,proof_passed,src/data/items.h,3560
+ITEM_TM_TOXIC,TM06,keep_english,sTM06Desc,proof_passed,src/data/items.h,3571
+ITEM_TM_HAIL,TM07,keep_english,sTM07Desc,proof_passed,src/data/items.h,3582
+ITEM_TM_BULK_UP,TM08,keep_english,sTM08Desc,proof_passed,src/data/items.h,3593
+ITEM_TM_BULLET_SEED,TM09,keep_english,sTM09Desc,proof_passed,src/data/items.h,3604
+ITEM_TM_HIDDEN_POWER,TM10,keep_english,sTM10Desc,proof_passed,src/data/items.h,3615
+ITEM_TM_SUNNY_DAY,TM11,keep_english,sTM11Desc,proof_passed,src/data/items.h,3626
+ITEM_TM_TAUNT,TM12,keep_english,sTM12Desc,proof_passed,src/data/items.h,3637
+ITEM_TM_ICE_BEAM,TM13,keep_english,sTM13Desc,proof_passed,src/data/items.h,3648
+ITEM_TM_BLIZZARD,TM14,keep_english,sTM14Desc,proof_passed,src/data/items.h,3659
+ITEM_TM_HYPER_BEAM,TM15,keep_english,sTM15Desc,proof_passed,src/data/items.h,3670
+ITEM_TM_LIGHT_SCREEN,TM16,keep_english,sTM16Desc,proof_passed,src/data/items.h,3681
+ITEM_TM_PROTECT,TM17,keep_english,sTM17Desc,proof_passed,src/data/items.h,3692
+ITEM_TM_RAIN_DANCE,TM18,keep_english,sTM18Desc,proof_passed,src/data/items.h,3703
+ITEM_TM_GIGA_DRAIN,TM19,keep_english,sTM19Desc,proof_passed,src/data/items.h,3714
+ITEM_TM_SAFEGUARD,TM20,keep_english,sTM20Desc,proof_passed,src/data/items.h,3725
+ITEM_TM_FRUSTRATION,TM21,keep_english,sTM21Desc,proof_passed,src/data/items.h,3736
+ITEM_TM_SOLAR_BEAM,TM22,keep_english,sTM22Desc,proof_passed,src/data/items.h,3747
+ITEM_TM_IRON_TAIL,TM23,keep_english,sTM23Desc,proof_passed,src/data/items.h,3758
+ITEM_TM_THUNDERBOLT,TM24,keep_english,sTM24Desc,proof_passed,src/data/items.h,3769
+ITEM_TM_THUNDER,TM25,keep_english,sTM25Desc,proof_passed,src/data/items.h,3780
+ITEM_TM_EARTHQUAKE,TM26,keep_english,sTM26Desc,proof_passed,src/data/items.h,3791
+ITEM_TM_RETURN,TM27,keep_english,sTM27Desc,proof_passed,src/data/items.h,3802
+ITEM_TM_DIG,TM28,keep_english,sTM28Desc,proof_passed,src/data/items.h,3813
+ITEM_TM_PSYCHIC,TM29,keep_english,sTM29Desc,proof_passed,src/data/items.h,3824
+ITEM_TM_SHADOW_BALL,TM30,keep_english,sTM30Desc,proof_passed,src/data/items.h,3835
+ITEM_TM_BRICK_BREAK,TM31,keep_english,sTM31Desc,proof_passed,src/data/items.h,3846
+ITEM_TM_DOUBLE_TEAM,TM32,keep_english,sTM32Desc,proof_passed,src/data/items.h,3857
+ITEM_TM_REFLECT,TM33,keep_english,sTM33Desc,proof_passed,src/data/items.h,3868
+ITEM_TM_SHOCK_WAVE,TM34,keep_english,sTM34Desc,proof_passed,src/data/items.h,3879
+ITEM_TM_FLAMETHROWER,TM35,keep_english,sTM35Desc,proof_passed,src/data/items.h,3890
+ITEM_TM_SLUDGE_BOMB,TM36,keep_english,sTM36Desc,proof_passed,src/data/items.h,3901
+ITEM_TM_SANDSTORM,TM37,keep_english,sTM37Desc,proof_passed,src/data/items.h,3912
+ITEM_TM_FIRE_BLAST,TM38,keep_english,sTM38Desc,proof_passed,src/data/items.h,3923
+ITEM_TM_ROCK_TOMB,TM39,keep_english,sTM39Desc,proof_passed,src/data/items.h,3934
+ITEM_TM_AERIAL_ACE,TM40,keep_english,sTM40Desc,proof_passed,src/data/items.h,3945
+ITEM_TM_TORMENT,TM41,keep_english,sTM41Desc,proof_passed,src/data/items.h,3956
+ITEM_TM_FACADE,TM42,keep_english,sTM42Desc,proof_passed,src/data/items.h,3967
+ITEM_TM_SECRET_POWER,TM43,keep_english,sTM43Desc,proof_passed,src/data/items.h,3978
+ITEM_TM_REST,TM44,keep_english,sTM44Desc,proof_passed,src/data/items.h,3989
+ITEM_TM_ATTRACT,TM45,keep_english,sTM45Desc,proof_passed,src/data/items.h,4000
+ITEM_TM_THIEF,TM46,keep_english,sTM46Desc,proof_passed,src/data/items.h,4011
+ITEM_TM_STEEL_WING,TM47,keep_english,sTM47Desc,proof_passed,src/data/items.h,4022
+ITEM_TM_SKILL_SWAP,TM48,keep_english,sTM48Desc,proof_passed,src/data/items.h,4033
+ITEM_TM_SNATCH,TM49,keep_english,sTM49Desc,proof_passed,src/data/items.h,4044
+ITEM_TM_OVERHEAT,TM50,keep_english,sTM50Desc,proof_passed,src/data/items.h,4055
+ITEM_HM_CUT,HM01,keep_english,sHM01Desc,proof_passed,src/data/items.h,4066
+ITEM_HM_FLY,HM02,keep_english,sHM02Desc,proof_passed,src/data/items.h,4078
+ITEM_HM_SURF,HM03,keep_english,sHM03Desc,proof_passed,src/data/items.h,4090
+ITEM_HM_STRENGTH,HM04,keep_english,sHM04Desc,proof_passed,src/data/items.h,4102
+ITEM_HM_FLASH,HM05,keep_english,sHM05Desc,proof_passed,src/data/items.h,4114
+ITEM_HM_ROCK_SMASH,HM06,keep_english,sHM06Desc,proof_passed,src/data/items.h,4126
+ITEM_HM_WATERFALL,HM07,keep_english,sHM07Desc,proof_passed,src/data/items.h,4138
+ITEM_HM_DIVE,HM08,keep_english,sHM08Desc,proof_passed,src/data/items.h,4150
 ITEM_15B,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,4162
 ITEM_15C,????????,keep_english,sDummyDesc,not_applicable,src/data/items.h,4173
-ITEM_OAKS_PARCEL,OAK'S PARCEL,keep_english,sOaksParcelDesc,translated_pending_qa,src/data/items.h,4186
-ITEM_POKE_FLUTE,POKé FLUTE,keep_english,sPokeFluteDesc,translated_pending_qa,src/data/items.h,4198
-ITEM_SECRET_KEY,SECRET KEY,keep_english,sSecretKeyDesc,translated_pending_qa,src/data/items.h,4210
-ITEM_BIKE_VOUCHER,BIKE VOUCHER,keep_english,sBikeVoucherDesc,translated_pending_qa,src/data/items.h,4222
-ITEM_GOLD_TEETH,GOLD TEETH,keep_english,sGoldTeethDesc,translated_pending_qa,src/data/items.h,4234
-ITEM_OLD_AMBER,OLD AMBER,keep_english,sOldAmberDesc,translated_pending_qa,src/data/items.h,4246
-ITEM_CARD_KEY,CARD KEY,keep_english,sCardKeyDesc,translated_pending_qa,src/data/items.h,4258
-ITEM_LIFT_KEY,LIFT KEY,keep_english,sLiftKeyDesc,translated_pending_qa,src/data/items.h,4270
-ITEM_HELIX_FOSSIL,HELIX FOSSIL,keep_english,sHelixFossilDesc,translated_pending_qa,src/data/items.h,4282
-ITEM_DOME_FOSSIL,DOME FOSSIL,keep_english,sDomeFossilDesc,translated_pending_qa,src/data/items.h,4294
-ITEM_SILPH_SCOPE,SILPH SCOPE,keep_english,sSilphScopeDesc,translated_pending_qa,src/data/items.h,4306
-ITEM_BICYCLE,BICYCLE,keep_english,sBicycleDesc,translated_pending_qa,src/data/items.h,4318
-ITEM_TOWN_MAP,TOWN MAP,keep_english,sTownMapDesc,translated_pending_qa,src/data/items.h,4331
-ITEM_VS_SEEKER,VS SEEKER,keep_english,sVSSeekerDesc,translated_pending_qa,src/data/items.h,4344
-ITEM_FAME_CHECKER,FAME CHECKER,keep_english,sFameCheckerDesc,translated_pending_qa,src/data/items.h,4357
-ITEM_TM_CASE,TM CASE,keep_english,sTMCaseDesc,translated_pending_qa,src/data/items.h,4370
-ITEM_BERRY_POUCH,BERRY POUCH,keep_english,sBerryPouchDesc,translated_pending_qa,src/data/items.h,4383
-ITEM_TEACHY_TV,TEACHY TV,keep_english,sTeachyTVDesc,translated_pending_qa,src/data/items.h,4396
-ITEM_TRI_PASS,TRI-PASS,keep_english,sTriPassDesc,translated_pending_qa,src/data/items.h,4409
-ITEM_RAINBOW_PASS,RAINBOW PASS,keep_english,sRainbowPassDesc,translated_pending_qa,src/data/items.h,4422
-ITEM_TEA,TEA,keep_english,sTeaDesc,translated_pending_qa,src/data/items.h,4435
-ITEM_MYSTIC_TICKET,MYSTICTICKET,keep_english,sMysticTicketDesc,translated_pending_qa,src/data/items.h,4448
-ITEM_AURORA_TICKET,AURORATICKET,keep_english,sAuroraTicketDesc,translated_pending_qa,src/data/items.h,4461
-ITEM_POWDER_JAR,POWDER JAR,keep_english,sPowderJarDesc,translated_pending_qa,src/data/items.h,4474
-ITEM_RUBY,RUBY,keep_english,sRubyDesc,translated_pending_qa,src/data/items.h,4487
-ITEM_SAPPHIRE,SAPPHIRE,keep_english,sSapphireDesc,translated_pending_qa,src/data/items.h,4500
-ITEM_MAGMA_EMBLEM,MAGMA EMBLEM,keep_english,sMagmaEmblemDesc,translated_pending_qa,src/data/items.h,4515
-ITEM_OLD_SEA_MAP,OLD SEA MAP,keep_english,sOldSeaMapDesc,translated_pending_qa,src/data/items.h,4528
+ITEM_OAKS_PARCEL,OAK'S PARCEL,keep_english,sOaksParcelDesc,proof_passed,src/data/items.h,4186
+ITEM_POKE_FLUTE,POKé FLUTE,keep_english,sPokeFluteDesc,proof_passed,src/data/items.h,4198
+ITEM_SECRET_KEY,SECRET KEY,keep_english,sSecretKeyDesc,proof_passed,src/data/items.h,4210
+ITEM_BIKE_VOUCHER,BIKE VOUCHER,keep_english,sBikeVoucherDesc,proof_passed,src/data/items.h,4222
+ITEM_GOLD_TEETH,GOLD TEETH,keep_english,sGoldTeethDesc,proof_passed,src/data/items.h,4234
+ITEM_OLD_AMBER,OLD AMBER,keep_english,sOldAmberDesc,proof_passed,src/data/items.h,4246
+ITEM_CARD_KEY,CARD KEY,keep_english,sCardKeyDesc,proof_passed,src/data/items.h,4258
+ITEM_LIFT_KEY,LIFT KEY,keep_english,sLiftKeyDesc,proof_passed,src/data/items.h,4270
+ITEM_HELIX_FOSSIL,HELIX FOSSIL,keep_english,sHelixFossilDesc,proof_passed,src/data/items.h,4282
+ITEM_DOME_FOSSIL,DOME FOSSIL,keep_english,sDomeFossilDesc,proof_passed,src/data/items.h,4294
+ITEM_SILPH_SCOPE,SILPH SCOPE,keep_english,sSilphScopeDesc,proof_passed,src/data/items.h,4306
+ITEM_BICYCLE,BICYCLE,keep_english,sBicycleDesc,proof_passed,src/data/items.h,4318
+ITEM_TOWN_MAP,TOWN MAP,keep_english,sTownMapDesc,proof_passed,src/data/items.h,4331
+ITEM_VS_SEEKER,VS SEEKER,keep_english,sVSSeekerDesc,proof_passed,src/data/items.h,4344
+ITEM_FAME_CHECKER,FAME CHECKER,keep_english,sFameCheckerDesc,proof_passed,src/data/items.h,4357
+ITEM_TM_CASE,TM CASE,keep_english,sTMCaseDesc,proof_passed,src/data/items.h,4370
+ITEM_BERRY_POUCH,BERRY POUCH,keep_english,sBerryPouchDesc,proof_passed,src/data/items.h,4383
+ITEM_TEACHY_TV,TEACHY TV,keep_english,sTeachyTVDesc,proof_passed,src/data/items.h,4396
+ITEM_TRI_PASS,TRI-PASS,keep_english,sTriPassDesc,proof_passed,src/data/items.h,4409
+ITEM_RAINBOW_PASS,RAINBOW PASS,keep_english,sRainbowPassDesc,proof_passed,src/data/items.h,4422
+ITEM_TEA,TEA,keep_english,sTeaDesc,proof_passed,src/data/items.h,4435
+ITEM_MYSTIC_TICKET,MYSTICTICKET,keep_english,sMysticTicketDesc,proof_passed,src/data/items.h,4448
+ITEM_AURORA_TICKET,AURORATICKET,keep_english,sAuroraTicketDesc,proof_passed,src/data/items.h,4461
+ITEM_POWDER_JAR,POWDER JAR,keep_english,sPowderJarDesc,proof_passed,src/data/items.h,4474
+ITEM_RUBY,RUBY,keep_english,sRubyDesc,proof_passed,src/data/items.h,4487
+ITEM_SAPPHIRE,SAPPHIRE,keep_english,sSapphireDesc,proof_passed,src/data/items.h,4500
+ITEM_MAGMA_EMBLEM,MAGMA EMBLEM,keep_english,sMagmaEmblemDesc,proof_passed,src/data/items.h,4515
+ITEM_OLD_SEA_MAP,OLD SEA MAP,keep_english,sOldSeaMapDesc,proof_passed,src/data/items.h,4528

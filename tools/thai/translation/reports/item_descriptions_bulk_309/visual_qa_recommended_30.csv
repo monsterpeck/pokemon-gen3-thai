@@ -2,8 +2,8 @@
 1,sDragonScaleDesc,"A strange scale
 held by DRAGON-
 type POKéMON.","เกล็ดประหลาดที่
-โปเกมอนประเภท DRAGON
-บางตัวถือไว้",1,117,111,15,near_120px;mixed_thai_latin_or_number;proper_name_or_location;three_lines
+โปเกมอนธาตุมังกร
+บางตัวถือไว้",1,82,82,15,near_120px;mixed_thai_latin_or_number;proper_name_or_location;three_lines
 2,sRoom1KeyDesc,"A key that opens a
 door inside the
 ABANDONED SHIP.","กุญแจเปิดประตู
@@ -26,12 +26,12 @@ a BERRY CRUSHER.","โถเก็บผงเบอร์รี
 จากเครื่องบดเบอร์รี",1,85,85,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
 7,sTM18Desc,"Raises the power of
 WATER-type moves
-for 5 turns.","เพิ่มพลังท่าประเภท WATER
-นาน 5 เทิร์น",1,116,111,13,near_120px;mixed_thai_latin_or_number;numeric;tm_hm_description
+for 5 turns.","เพิ่มพลังท่าน้ำ
+นาน 5 เทิร์น",1,59,59,13,near_120px;mixed_thai_latin_or_number;numeric;tm_hm_description
 8,sTeachyTVDesc,"A TV set tuned to
 an advice program
-for TRAINERS.","ทีวีที่ฉายรายการ
-ให้คำแนะนำแก่ TRAINER",1,113,105,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+for TRAINERS.","ทีวีที่มีรายการ
+แนะนำเทรนเนอร์",1,78,78,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
 9,sBlueScarfDesc,"A hold item that
 raises BEAUTY in
 CONTESTS.","ไอเทมถือที่เพิ่ม
@@ -42,16 +42,16 @@ ROCKET's HIDEOUT.","กุญแจลิฟต์ที่ใช้ใน
 ฐานลับของทีมร็อกเก็ต",1,95,95,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
 11,sBlackBeltDesc,"A hold item that
 boosts FIGHTING-
-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท FIGHTING",1,115,105,11,near_120px;mixed_thai_latin_or_number
+type moves.","ไอเทมถือเพิ่มพลัง
+ท่าประเภทต่อสู้",1,79,79,11,near_120px;mixed_thai_latin_or_number
 12,sMagnetDesc,"A hold item that
 boosts ELECTRIC-
-type moves.","ไอเทมถือที่เพิ่ม
-พลังท่าประเภท ELECTRIC",1,115,106,11,near_120px;mixed_thai_latin_or_number
+type moves.","ไอเทมถือเพิ่มพลัง
+ท่าประเภทไฟฟ้า",1,79,79,11,near_120px;mixed_thai_latin_or_number
 13,sNetBallDesc,"A BALL that works
 well on WATER- and
-BUG-type POKéMON.","ได้ผลดีกับโปเกมอน
-ประเภท WATER และ BUG",1,110,102,10,wide_line;mixed_thai_latin_or_number;proper_name_or_location
+BUG-type POKéMON.","จับโปเกมอนน้ำและ
+แมลงได้ง่ายขึ้น",1,85,85,10,wide_line;mixed_thai_latin_or_number;proper_name_or_location
 14,sRazzBerryDesc,"{POKEBLOCK} ingredient.
 Plant in loamy soil
 to grow RAZZ.","วัตถุดิบทำ {POKEBLOCK}
@@ -129,9 +129,9 @@ a BERRY BLENDER.","กล่องสำหรับเก็บ
 เครื่องปั่นเบอร์รี",1,94,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
 29,sTM39Desc,"Stops the foe from
 moving with rocks.
-May lower SPEED.","ใช้หินหยุดการเคลื่อนไหว
-และอาจลดความเร็ว",1,112,112,9,near_120px;tm_hm_description
+May lower SPEED.","ใช้หินหยุดคู่ต่อสู้
+และลดความเร็ว",1,73,73,9,near_120px;tm_hm_description
 30,sTM11Desc,"Raises the power of
 FIRE-type moves
-for 5 turns.","เพิ่มพลังท่าประเภท FIRE
-นาน 5 เทิร์น",1,110,105,9,wide_line;mixed_thai_latin_or_number;numeric;tm_hm_description
+for 5 turns.","เพิ่มพลังท่าไฟ
+นาน 5 เทิร์น",1,62,62,9,wide_line;mixed_thai_latin_or_number;numeric;tm_hm_description
