@@ -90,3 +90,15 @@ Generated from production checkpoint `770548dfe`.
 - Full ROM build: passed.
 - Candidate ROM SHA-256: `a8c990fd4926dede8ec3fe3e6ff495504b08724e8cdeff172742a02dcf22dc34`.
 - Runtime visual QA: pending.
+
+## Birch gender prompt scope correction
+
+- `gText_Birch_BoyOrGirl` was present in the master inventory but was incorrectly classified as `story_deferred` by the generic Birch-speech rule.
+- Correct classification: `core_ui_prompt`.
+- Batch 1 entries: 131.
+- Pilot prompts: 23.
+- Translation: `เธอเป็นเด็กชาย? / หรือเป็นเด็กหญิง?`.
+- Width check: 74 px and 80 px within the 216 px message box.
+- Full ROM build: passed.
+- Candidate ROM SHA-256: `9410f8e1de54f3df196093f51574bc4b8861ca2d4ea680d4d57ba4b44dc07139`.
+- Runtime visual QA: pending.

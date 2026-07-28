@@ -1,5 +1,5 @@
 ﻿translation_wave,entry_count,action,rationale
 pilot_labels,55,Translate first,Fixed UI labels with verified render geometry. Group-budget and dynamic-pair checks remain mandatory.
-pilot_prompts,22,Translate after label pilot,"Prompts and system-facing messages with verified windows, control codes, and multi-page behavior."
+pilot_prompts,23,Translate after label pilot,"Prompts and system-facing messages with verified windows, control codes, and multi-page behavior."
 defer_input_architecture,49,Do not translate in the first pilot,"Preset names, keyboard rows, and charset lookup depend on Thai input design and fixed save-buffer behavior."
 defer_phase6_system,4,Move to Phase 6,These are post-capture transfer system messages rather than Core UI controls.

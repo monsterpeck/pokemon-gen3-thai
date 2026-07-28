@@ -1,0 +1,4 @@
+﻿symbol,previous_scope_class,corrected_scope_class,previous_status,corrected_status,source_text,target_text_th,measured_line_widths_px,hard_width_px,reason,visual_status
+gText_Birch_BoyOrGirl,story_deferred,core_ui_prompt,deferred_story,translated_pending_qa,"Are you a boy?
+Or are you a girl?","เธอเป็นเด็กชาย?
+หรือเป็นเด็กหญิง?",74|80,216,Interactive question immediately preceding the gender-selection menu.,pending

@@ -55,7 +55,8 @@ to unfold.\pTake courage, and leap into the
 world of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.
 Come see me in my POKéMON LAB.\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,52,4,\l;\p,yes,pending_usage_to_window_mapping,pending,
 UI0034,global:gText_Birch_BoyOrGirl,gText_Birch_BoyOrGirl,"Are you a boy?
-Or are you a girl?",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,34,2,,no,pending_usage_to_window_mapping,pending,
+Or are you a girl?","เธอเป็นเด็กชาย?
+หรือเป็นเด็กหญิง?",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,34,2,,no,pass,pending,"Scope correction: interactive gender-selection prompt, not deferred story dialogue. Source, shaping, and width verified."
 UI0035,global:gText_Birch_MainSpeech,gText_Birch_MainSpeech,"This world is widely inhabited by
 creatures known as POKéMON.\pWe humans live alongside POKéMON,
 at times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together

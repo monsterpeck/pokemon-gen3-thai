@@ -1,5 +1,5 @@
 ﻿phase_order,ui_area,display_name_th,priority,source_files,qa_route,inventory_status
-1,MAIN_MENU,หน้าหลักและเริ่มเกม,P1,src/main_menu.c;src/title_screen.c;src/naming_screen.c,"เปิดเกมใหม่ ตรวจ Main Menu, Continue/New Game/Option, เลือกเพศและตั้งชื่อ",inventory_ready
+1,MAIN_MENU,หน้าหลักและเริ่มเกม,P1,src/main_menu.c;src/title_screen.c;src/naming_screen.c;data/text/birch_speech.inc,"เปิดเกมใหม่ ตรวจ Main Menu, Continue/New Game/Option, เลือกเพศและตั้งชื่อ",inventory_ready
 2,OPTION_MENU,เมนูตัวเลือก,P1,src/option_menu.c,เปิด OPTION และตรวจทุกค่า รวมข้อความชิดขวา,inventory_ready
 3,START_SAVE,Start Menu และระบบบันทึก,P1,src/start_menu.c;src/save.c;data/text/save.inc,เปิด Start Menu ตรวจทุกคำสั่ง แล้วทดสอบ Save/Overwrite/Success/Error,inventory_ready
 4,PARTY_MENU,Party Menu,P1,src/party_menu.c;src/data/party_menu.h,เปิด Party ตรวจ Summary/Switch/Item/Field Move/Prompt,inventory_ready

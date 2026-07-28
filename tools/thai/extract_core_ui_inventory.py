@@ -20,7 +20,7 @@ SCOPE = [
         "area": "MAIN_MENU",
         "display_th": "หน้าหลักและเริ่มเกม",
         "priority": "P1",
-        "files": ["src/main_menu.c", "src/title_screen.c", "src/naming_screen.c"],
+        "files": ["src/main_menu.c", "src/title_screen.c", "src/naming_screen.c", "data/text/birch_speech.inc"],
         "qa_route": "เปิดเกมใหม่ ตรวจ Main Menu, Continue/New Game/Option, เลือกเพศและตั้งชื่อ",
     },
     {
@@ -401,7 +401,10 @@ def scope_class(definition: Definition | None, text: str) -> str:
     file_lower = definition.source_file.lower()
     visible = CONTROL_CODE.sub("", text).strip()
 
-    if file_lower.endswith("data/text/birch_speech.inc"):
+    if (
+        file_lower.endswith("data/text/birch_speech.inc")
+        and definition.symbol != "gText_Birch_BoyOrGirl"
+    ):
         return "story_deferred"
 
     if not visible or not (THAI_CHAR.search(visible) or LATIN_LETTER.search(visible)):
