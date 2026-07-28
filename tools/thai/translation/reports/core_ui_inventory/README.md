@@ -102,3 +102,13 @@ Generated from production checkpoint `770548dfe`.
 - Full ROM build: passed.
 - Candidate ROM SHA-256: `9410f8e1de54f3df196093f51574bc4b8861ca2d4ea680d4d57ba4b44dc07139`.
 - Runtime visual QA: pending.
+
+## Birch gender prompt visual QA
+
+- Symbol: `gText_Birch_BoyOrGirl`.
+- Full ROM build: passed.
+- Runtime rendering: passed.
+- Translation review: passed.
+- Width/layout: passed.
+- Thai glyph rendering: passed.
+- Final status: `proof_passed`.

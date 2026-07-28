@@ -18,7 +18,7 @@ PYRAMID quest?","ต้องการยุติภารกิจ
 {STR_VAR_1}",PYRAMID_FLOOR,80,70|40,40,pass,\n|{STR_VAR_1},\n|{STR_VAR_1},pass,pass,pass,translated_pending_visual_qa
 6,UI0034,gText_Birch_BoyOrGirl,data/text/birch_speech.inc,"Are you a boy?
 Or are you a girl?","เธอเป็นเด็กชาย?
-หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,216,74|80,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,216,74|80,0,pass,\n,\n,pass,pass,pass,proof_passed
 7,UI0046,gText_BoxName,src/strings.c,BOX NAME?,ชื่อ BOX?,NAMING_TITLE,128,39,0,pass,,,pass,pass,pass,translated_pending_visual_qa
 8,UI0078,gText_ConfirmSave,data/text/save.inc,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,216,117,0,pass,,,pass,pass,pass,translated_pending_visual_qa
 9,UI0175,gText_DifferentSaveFile,data/text/save.inc,"WARNING!\pThere is a different game file that

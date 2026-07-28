@@ -18,7 +18,7 @@ PYRAMID quest?","ต้องการยุติภารกิจ
 {STR_VAR_1}",PYRAMID_FLOOR,Inspect floors 1-7 and Peak.,,,pending,
 6,MAIN_MENU,gText_Birch_BoyOrGirl,"Are you a boy?
 Or are you a girl?","เธอเป็นเด็กชาย?
-หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,Start New Game and inspect the question before the gender-selection menu.,,,pending,
+หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,Start New Game and inspect the question before the gender-selection menu.,pass,pass,proof_passed,"User-confirmed runtime screenshot: both Thai lines display correctly before the gender-selection menu, with no clipping, overflow, overlapping marks, or broken glyphs."
 7,MAIN_MENU,gText_BoxName,BOX NAME?,ชื่อ BOX?,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",,,pending,
 8,START_SAVE,gText_ConfirmSave,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,,,pending,
 9,START_SAVE,gText_DifferentSaveFile,"WARNING!\pThere is a different game file that
