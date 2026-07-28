@@ -68,3 +68,14 @@ Generated from production checkpoint `770548dfe`.
 - Deferred for Thai input architecture: 49 entries.
 - Moved to Phase 6 system messages: 4 entries.
 - Exact geometry was verified from source before generating the mapping.
+
+## Pilot labels 55
+
+- Translated labels: 55/55.
+- Source shaping: passed for all 55.
+- Width and option-group geometry: passed.
+- Option value copy buffer: expanded from 16 to 128 bytes because Thai precompose sequences are multi-byte.
+- Existing `เริ่มเกมส์` corrected to `เริ่มเกม`.
+- Full ROM build: passed.
+- Candidate ROM SHA-256: `20c1f4a943a9357f720c7dca6bf77e2f1a86450ac04e8bd266253142fe0b3aa4`.
+- Runtime visual QA: pending.

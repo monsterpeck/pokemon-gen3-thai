@@ -1,0 +1,56 @@
+﻿qa_order,ui_id,symbol,ui_areas,source_text,target_text_th,constraint_profile,font_id,measured_width_px,hard_width_px,constraint_group_id,group_layout_result,width_note,encoded_runtime_bytes,option_copy_buffer_result,source_shape_result,rom_build_result,translation_status
+1,UI0022,gText_BattleScene,OPTION_MENU,BATTLE SCENE,ฉากต่อสู้,OPTION_ROW_LABEL,FONT_NORMAL,37,96,,pass,37/96 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+2,UI0023,gText_BattleSceneOff,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF,{COLOR GREEN}{SHADOW LIGHT_GREEN}ปิด,OPTION_PAIR_CHOICE,FONT_NORMAL,14,,option_battle_scene,pass,left_end=122; right_start=184; gap=62,23,pass (23/128 bytes),pass,pass,translated_pending_visual_qa
+3,UI0024,gText_BattleSceneOn,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}ON,{COLOR GREEN}{SHADOW LIGHT_GREEN}เปิด,OPTION_PAIR_CHOICE,FONT_NORMAL,18,,option_battle_scene,pass,left_end=122; right_start=184; gap=62,31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+4,UI0025,gText_BattleStyle,OPTION_MENU,BATTLE STYLE,รูปแบบต่อสู้,OPTION_ROW_LABEL,FONT_NORMAL,52,96,,pass,52/96 px,65,not_applicable,pass,pass,translated_pending_visual_qa
+5,UI0026,gText_BattleStyleSet,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}SET,{COLOR GREEN}{SHADOW LIGHT_GREEN}คงที่,OPTION_PAIR_CHOICE,FONT_NORMAL,18,,option_battle_style,pass,left_end=123; right_start=180; gap=57,31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+6,UI0027,gText_BattleStyleShift,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT,{COLOR GREEN}{SHADOW LIGHT_GREEN}สลับ,OPTION_PAIR_CHOICE,FONT_NORMAL,19,,option_battle_style,pass,left_end=123; right_start=180; gap=57,31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+7,UI0030,gText_BirchBoy,MAIN_MENU,BOY,เด็กชาย,GENDER_MENU,FONT_NORMAL,33,40,,pass,33/40 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+8,UI0031,gText_BirchGirl,MAIN_MENU,GIRL,เด็กหญิง,GENDER_MENU,FONT_NORMAL,36,40,,pass,36/40 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+9,UI0047,gText_ButtonMode,OPTION_MENU,BUTTON MODE,โหมดปุ่ม,OPTION_ROW_LABEL,FONT_NORMAL,40,96,,pass,40/96 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+10,UI0048,gText_ButtonTypeLEqualsA,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,OPTION_TRIPLE_CHOICE,FONT_NORMAL,20,,option_button_mode,pass,"positions=[(104, 124), (145, 157), (178, 198)]; gaps=[21, 21]",10,pass (10/128 bytes),pass,pass,translated_pending_visual_qa
+11,UI0049,gText_ButtonTypeLR,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,OPTION_TRIPLE_CHOICE,FONT_NORMAL,12,,option_button_mode,pass,"positions=[(104, 124), (145, 157), (178, 198)]; gaps=[21, 21]",9,pass (9/128 bytes),pass,pass,translated_pending_visual_qa
+12,UI0050,gText_ButtonTypeNormal,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL,{COLOR GREEN}{SHADOW LIGHT_GREEN}ปกติ,OPTION_TRIPLE_CHOICE,FONT_NORMAL,20,,option_button_mode,pass,"positions=[(104, 124), (145, 157), (178, 198)]; gaps=[21, 21]",31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+13,UI0082,gText_ContinueMenuBadges,MAIN_MENU,BADGES,เข็มกลัด,MAIN_MENU_SAVE_BADGES,FONT_NORMAL,36,,,pass,width=36px; dynamic-pair geometry requires runtime confirmation,49,not_applicable,pass,pass,translated_pending_visual_qa
+14,UI0083,gText_ContinueMenuPlayer,MAIN_MENU,PLAYER,ผู้เล่น,MAIN_MENU_SAVE_PLAYER,FONT_NORMAL,24,,,pass,width=24px; dynamic-pair geometry requires runtime confirmation,33,not_applicable,pass,pass,translated_pending_visual_qa
+15,UI0084,gText_ContinueMenuPokedex,MAIN_MENU,POKéDEX,โปเกเด็กซ์,MAIN_MENU_SAVE_POKEDEX,FONT_NORMAL,46,,,pass,width=46px; dynamic-pair geometry requires runtime confirmation,65,not_applicable,pass,pass,translated_pending_visual_qa
+16,UI0085,gText_ContinueMenuTime,MAIN_MENU,TIME,เวลา,MAIN_MENU_SAVE_TIME,FONT_NORMAL,20,,,pass,width=20px; dynamic-pair geometry requires runtime confirmation,33,not_applicable,pass,pass,translated_pending_visual_qa
+17,UI0201,gText_Floor1,START_SAVE,Floor 1,ชั้น 1,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+18,UI0202,gText_Floor2,START_SAVE,Floor 2,ชั้น 2,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+19,UI0203,gText_Floor3,START_SAVE,Floor 3,ชั้น 3,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+20,UI0204,gText_Floor4,START_SAVE,Floor 4,ชั้น 4,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+21,UI0205,gText_Floor5,START_SAVE,Floor 5,ชั้น 5,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+22,UI0206,gText_Floor6,START_SAVE,Floor 6,ชั้น 6,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+23,UI0207,gText_Floor7,START_SAVE,Floor 7,ชั้น 7,PYRAMID_FLOOR,FONT_NORMAL,24,80,,pass,24/80 px,19,not_applicable,pass,pass,translated_pending_visual_qa
+24,UI0210,gText_Frame,OPTION_MENU,FRAME,กรอบ,OPTION_ROW_LABEL,FONT_NORMAL,24,96,,pass,24/96 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+25,UI0211,gText_FrameType,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE,{COLOR GREEN}{SHADOW LIGHT_GREEN}แบบ,OPTION_FRAME_TYPE,FONT_NORMAL,21,24,,pass,21/24 px,31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+26,UI0258,gText_MainMenuContinue,MAIN_MENU,CONTINUE,เล่นต่อ,MAIN_MENU_ENTRY,FONT_NORMAL,31,208,,pass,31/208 px,41,not_applicable,pass,pass,translated_pending_visual_qa
+27,UI0259,gText_MainMenuMysteryEvents,MAIN_MENU,MYSTERY EVENTS,อีเวนต์ลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,56,208,,pass,56/208 px,73,not_applicable,pass,pass,translated_pending_visual_qa
+28,UI0260,gText_MainMenuMysteryGift,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,translated_pending_visual_qa
+29,UI0261,gText_MainMenuMysteryGift2,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,translated_pending_visual_qa
+30,UI0262,gText_MainMenuNewGame,MAIN_MENU,เริ่มเกมส์,เริ่มเกม,MAIN_MENU_ENTRY,FONT_NORMAL,34,208,,pass,34/208 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+31,UI0263,gText_MainMenuOption,MAIN_MENU,OPTION,ตั้งค่า,MAIN_MENU_ENTRY,FONT_NORMAL,23,208,,pass,23/208 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+32,UI0266,gText_MenuBag,START_SAVE,BAG,กระเป๋า,START_MENU_ITEM,FONT_NORMAL,31,48,,pass,31/48 px,49,not_applicable,pass,pass,translated_pending_visual_qa
+33,UI0267,gText_MenuExit,START_SAVE,EXIT,ออก,START_MENU_ITEM,FONT_NORMAL,18,48,,pass,18/48 px,25,not_applicable,pass,pass,translated_pending_visual_qa
+34,UI0268,gText_MenuOption,START_SAVE,OPTION,ตั้งค่า,START_MENU_ITEM,FONT_NORMAL,23,48,,pass,23/48 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+35,UI0270,gText_MenuPokedex,START_SAVE,POKéDEX,โปเกเด็กซ์,START_MENU_ITEM,FONT_NORMAL,46,48,,pass,46/48 px,65,not_applicable,pass,pass,translated_pending_visual_qa
+36,UI0271,gText_MenuPokemon,START_SAVE,POKéMON,โปเกมอน,START_MENU_ITEM,FONT_NORMAL,43,48,,pass,43/48 px,57,not_applicable,pass,pass,translated_pending_visual_qa
+37,UI0272,gText_MenuPokenav,START_SAVE,POKéNAV,โปเกนาวี,START_MENU_ITEM,FONT_NORMAL,40,48,,pass,40/48 px,57,not_applicable,pass,pass,translated_pending_visual_qa
+38,UI0273,gText_MenuRest,START_SAVE,REST,พัก,START_MENU_ITEM,FONT_NORMAL,14,48,,pass,14/48 px,17,not_applicable,pass,pass,translated_pending_visual_qa
+39,UI0274,gText_MenuRetire,START_SAVE,RETIRE,ถอนตัว,START_MENU_ITEM,FONT_NORMAL,33,48,,pass,33/48 px,41,not_applicable,pass,pass,translated_pending_visual_qa
+40,UI0275,gText_MenuSave,START_SAVE,SAVE,บันทึก,START_MENU_ITEM,FONT_NORMAL,30,48,,pass,30/48 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+41,UI0283,gText_MoveOkBack,MAIN_MENU,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,{DPAD_NONE}เลื่อน  {A_BUTTON}ตกลง  {B_BUTTON}กลับ,NAMING_BANNER,FONT_SMALL,78,238,,pass,78/238 px,96,not_applicable,pass,pass,translated_pending_visual_qa
+42,UI0340,gText_Option,OPTION_MENU,OPTION,ตั้งค่า,OPTION_HEADER,FONT_NORMAL,23,200,,pass,23/200 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+43,UI0341,gText_OptionMenuCancel,OPTION_MENU,CANCEL,ยกเลิก,OPTION_CANCEL,FONT_NORMAL,28,200,,pass,28/200 px,41,not_applicable,pass,pass,translated_pending_visual_qa
+44,UI0348,gText_Peak,START_SAVE,Peak,ยอด,PYRAMID_FLOOR,FONT_NORMAL,19,80,,pass,19/80 px,25,not_applicable,pass,pass,translated_pending_visual_qa
+45,UI0438,gText_SavingBadges,START_SAVE,BADGES,เข็มกลัด,SAVE_INFO_LABEL,FONT_NORMAL,36,,,pass,width=36px; dynamic-pair geometry requires runtime confirmation,49,not_applicable,pass,pass,translated_pending_visual_qa
+46,UI0441,gText_SavingPlayer,START_SAVE,PLAYER,ผู้เล่น,SAVE_INFO_LABEL,FONT_NORMAL,24,,,pass,width=24px; dynamic-pair geometry requires runtime confirmation,33,not_applicable,pass,pass,translated_pending_visual_qa
+47,UI0442,gText_SavingPokedex,START_SAVE,POKéDEX,โปเกเด็กซ์,SAVE_INFO_LABEL,FONT_NORMAL,46,,,pass,width=46px; dynamic-pair geometry requires runtime confirmation,65,not_applicable,pass,pass,translated_pending_visual_qa
+48,UI0443,gText_SavingTime,START_SAVE,TIME,เวลา,SAVE_INFO_LABEL,FONT_NORMAL,20,,,pass,width=20px; dynamic-pair geometry requires runtime confirmation,33,not_applicable,pass,pass,translated_pending_visual_qa
+49,UI0462,gText_Sound,OPTION_MENU,SOUND,เสียง,OPTION_ROW_LABEL,FONT_NORMAL,20,96,,pass,20/96 px,33,not_applicable,pass,pass,translated_pending_visual_qa
+50,UI0463,gText_SoundMono,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO,{COLOR GREEN}{SHADOW LIGHT_GREEN}โมโน,OPTION_PAIR_CHOICE,FONT_NORMAL,25,,option_sound,pass,left_end=129; right_start=158; gap=29,39,pass (39/128 bytes),pass,pass,translated_pending_visual_qa
+51,UI0464,gText_SoundStereo,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO,{COLOR GREEN}{SHADOW LIGHT_GREEN}สเตอริโอ,OPTION_PAIR_CHOICE,FONT_NORMAL,40,,option_sound,pass,left_end=129; right_start=158; gap=29,63,pass (63/128 bytes),pass,pass,translated_pending_visual_qa
+52,UI0487,gText_TextSpeed,OPTION_MENU,TEXT SPEED,ความเร็วข้อความ,OPTION_ROW_LABEL,FONT_NORMAL,76,96,,pass,76/96 px,105,not_applicable,pass,pass,translated_pending_visual_qa
+53,UI0488,gText_TextSpeedFast,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,{COLOR GREEN}{SHADOW LIGHT_GREEN}เร็ว,OPTION_TRIPLE_CHOICE,FONT_NORMAL,16,,option_text_speed,pass,"positions=[(104, 114), (138, 158), (182, 198)]; gaps=[24, 24]",31,pass (31/128 bytes),pass,pass,translated_pending_visual_qa
+54,UI0489,gText_TextSpeedMid,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,{COLOR GREEN}{SHADOW LIGHT_GREEN}กลาง,OPTION_TRIPLE_CHOICE,FONT_NORMAL,20,,option_text_speed,pass,"positions=[(104, 114), (138, 158), (182, 198)]; gaps=[24, 24]",39,pass (39/128 bytes),pass,pass,translated_pending_visual_qa
+55,UI0490,gText_TextSpeedSlow,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW,{COLOR GREEN}{SHADOW LIGHT_GREEN}ช้า,OPTION_TRIPLE_CHOICE,FONT_NORMAL,10,,option_text_speed,pass,"positions=[(104, 114), (138, 158), (182, 198)]; gaps=[24, 24]",23,pass (23/128 bytes),pass,pass,translated_pending_visual_qa

@@ -1,2 +1,2 @@
 ﻿ui_id,ui_key,symbol,current_text,target_text_th,translation_status,scope_class,current_language,ui_areas,usage_count,definition_kind,source_file,source_line,line_count,control_codes,has_placeholders,width_constraint_status,visual_qa_status,translator_note
-UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกมส์,existing_thai_review,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pending_usage_to_window_mapping,pending,
+UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกม,resolved_pending_visual_qa,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pass,pending,Corrected เกมส์ to the standard spelling เกม.

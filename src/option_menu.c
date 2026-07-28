@@ -379,7 +379,7 @@ static void HighlightOptionMenuItem(u8 index)
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
 {
-    u8 dst[16];
+    u8 dst[128];
     u16 i;
 
     for (i = 0; *text != EOS && i < ARRAY_COUNT(dst) - 1; i++)
