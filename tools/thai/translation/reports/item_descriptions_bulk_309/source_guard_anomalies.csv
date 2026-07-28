@@ -1,0 +1,4 @@
+﻿category,description_symbol,detail,resolution
+dummy_shared_description,sDummyDesc,Source text ????? is shared by 68 non-description item slots.,Kept unchanged with not_applicable status.
+missing_reference_input,,tools/thai/translation/reference/species_names_th.csv was not included in the input archive.,Candidate Japanese-reference Thai species names were added and listed in species_name_reference_review.csv for exact project-reference verification before proof_passed.
+width_assumption,,The supplied archive did not include the Bag/TM Case UI source that defines the exact description-window width and font.,Used a conservative 120 px FONT_NORMAL hard limit and generated a risk list for in-game visual QA.

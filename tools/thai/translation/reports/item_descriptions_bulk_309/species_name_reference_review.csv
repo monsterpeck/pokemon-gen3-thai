@@ -1,0 +1,46 @@
+﻿description_symbol,source_species_name,candidate_thai_name,target_text_th,review_status,note
+sOrangeMailDesc,ZIGZAGOON,จิกุซากุมะ,"จดหมายลายจิกุซากุมะ
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 288; reference status TRANSLATED_DRAFT.
+sHarborMailDesc,WINGULL,คาโมเมะ,"จดหมายลายคาโมเมะ
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 309; reference status TRANSLATED_DRAFT.
+sGlitterMailDesc,PIKACHU,พิคาชู,"จดหมายลายพิคาชู
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 25; reference status LOCKED_GLOSSARY.
+sMechMailDesc,MAGNEMITE,คอยล์,"จดหมายลายคอยล์
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 81; reference status TRANSLATED_DRAFT.
+sWoodMailDesc,SLAKOTH,นามาเคโร,"จดหมายลายนามาเคโร
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 364; reference status TRANSLATED_DRAFT.
+sWaveMailDesc,WAILMER,โฮเอลโกะ,"จดหมายลายโฮเอลโกะ
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 313; reference status TRANSLATED_DRAFT.
+sShadowMailDesc,DUSKULL,โยมาวารุ,"จดหมายลายโยมาวารุ
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 361; reference status TRANSLATED_DRAFT.
+sTropicMailDesc,BELLOSSOM,คิเรฮานะ,"จดหมายลายคิเรฮานะ
+สำหรับให้โปเกมอนถือ",reference_verified,Matched species_names_th.csv SPECIES index 182; reference status TRANSLATED_DRAFT.
+sSoulDewDesc,LATIOS,ลาทิออส,"เพิ่มพลังโจมตีพิเศษ
+และพลังป้องกันพิเศษ
+ของลาทิออสกับลาเทียส",reference_verified,Matched species_names_th.csv SPECIES index 408; reference status TRANSLATED_DRAFT.
+sSoulDewDesc,LATIAS,ลาเทียส,"เพิ่มพลังโจมตีพิเศษ
+และพลังป้องกันพิเศษ
+ของลาทิออสกับลาเทียส",reference_verified,Matched species_names_th.csv SPECIES index 407; reference status TRANSLATED_DRAFT.
+sDeepSeaToothDesc,CLAMPERL,พาร์ลูล,"ไอเทมถือที่เพิ่ม
+พลังโจมตีพิเศษ
+ของพาร์ลูล",reference_verified,Matched species_names_th.csv SPECIES index 373; reference status TRANSLATED_DRAFT.
+sDeepSeaScaleDesc,CLAMPERL,พาร์ลูล,"ไอเทมถือที่เพิ่ม
+พลังป้องกันพิเศษ
+ของพาร์ลูล",reference_verified,Matched species_names_th.csv SPECIES index 373; reference status TRANSLATED_DRAFT.
+sLightBallDesc,PIKACHU,พิคาชู,"ไอเทมถือที่เพิ่ม
+พลังโจมตีพิเศษ
+ของพิคาชู",reference_verified,Matched species_names_th.csv SPECIES index 25; reference status LOCKED_GLOSSARY.
+sLuckyPunchDesc,CHANSEY,ลัคกี,"ไอเทมถือที่เพิ่ม
+โอกาสโจมตีคริติคอล
+ของลัคกี",reference_verified,Matched species_names_th.csv SPECIES index 113; reference status LOCKED_GLOSSARY.
+sMetalPowderDesc,DITTO,เมตามอน,"ไอเทมถือที่เพิ่ม
+พลังป้องกันของเมตามอน",reference_verified,Matched species_names_th.csv SPECIES index 132; reference status TRANSLATED_DRAFT.
+sThickClubDesc,CUBONE,คาราคารา,"ไอเทมถือที่เพิ่ม
+พลังโจมตีของคาราคารา
+หรือการาการา",reference_verified,Matched species_names_th.csv SPECIES index 104; reference status LOCKED_GLOSSARY.
+sThickClubDesc,MAROWAK,การาการา,"ไอเทมถือที่เพิ่ม
+พลังโจมตีของคาราคารา
+หรือการาการา",reference_verified,Matched species_names_th.csv SPECIES index 105; reference status LOCKED_GLOSSARY.
+sStickDesc,FARFETCH'D,คาโมเนงิ,"ไอเทมถือที่เพิ่ม
+โอกาสโจมตีคริติคอล
+ของคาโมเนงิ",reference_verified,Matched species_names_th.csv SPECIES index 83; reference status TRANSLATED_DRAFT.

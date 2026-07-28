@@ -1,0 +1,137 @@
+﻿rank,description_symbol,source_text,target_text_th,usage_count,max_width_font_normal_px,max_width_font_narrow_px,risk_score,risk_reasons
+1,sDragonScaleDesc,"A strange scale
+held by DRAGON-
+type POKéMON.","เกล็ดประหลาดที่
+โปเกมอนประเภท DRAGON
+บางตัวถือไว้",1,117,111,15,near_120px;mixed_thai_latin_or_number;proper_name_or_location;three_lines
+2,sRoom1KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.","กุญแจเปิดประตู
+ภายในเรือร้าง",1,69,69,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+3,sRoom2KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.","กุญแจเปิดประตู
+ภายในเรือร้าง",1,69,69,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+4,sRoom4KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.","กุญแจเปิดประตู
+ภายในเรือร้าง",1,69,69,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+5,sRoom6KeyDesc,"A key that opens a
+door inside the
+ABANDONED SHIP.","กุญแจเปิดประตู
+ภายในเรือร้าง",1,69,69,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+6,sPowderJarDesc,"Stores BERRY
+POWDER made using
+a BERRY CRUSHER.","โถเก็บผงเบอร์รี
+จากเครื่องบดเบอร์รี",1,85,85,14,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+7,sTM18Desc,"Raises the power of
+WATER-type moves
+for 5 turns.","เพิ่มพลังท่าประเภท WATER
+นาน 5 เทิร์น",1,116,111,13,near_120px;mixed_thai_latin_or_number;numeric;tm_hm_description
+8,sTeachyTVDesc,"A TV set tuned to
+an advice program
+for TRAINERS.","ทีวีที่ฉายรายการ
+ให้คำแนะนำแก่ TRAINER",1,113,105,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+9,sBlueScarfDesc,"A hold item that
+raises BEAUTY in
+CONTESTS.","ไอเทมถือที่เพิ่ม
+ความงามในการประกวด",1,104,104,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+10,sLiftKeyDesc,"An elevator key
+used in TEAM
+ROCKET's HIDEOUT.","กุญแจลิฟต์ที่ใช้ใน
+ฐานลับของทีมร็อกเก็ต",1,95,95,13,near_120px;mixed_thai_latin_or_number;proper_name_or_location
+11,sBlackBeltDesc,"A hold item that
+boosts FIGHTING-
+type moves.","ไอเทมถือที่เพิ่ม
+พลังท่าประเภท FIGHTING",1,115,105,11,near_120px;mixed_thai_latin_or_number
+12,sMagnetDesc,"A hold item that
+boosts ELECTRIC-
+type moves.","ไอเทมถือที่เพิ่ม
+พลังท่าประเภท ELECTRIC",1,115,106,11,near_120px;mixed_thai_latin_or_number
+13,sNetBallDesc,"A BALL that works
+well on WATER- and
+BUG-type POKéMON.","ได้ผลดีกับโปเกมอน
+ประเภท WATER และ BUG",1,110,102,10,wide_line;mixed_thai_latin_or_number;proper_name_or_location
+14,sRazzBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow RAZZ.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RAZZ",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+15,sBlukBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow BLUK.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BLUK",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+16,sNanabBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow NANAB.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NANAB",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+17,sWepearBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow WEPEAR.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WEPEAR",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+18,sPinapBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow PINAP.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PINAP",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+19,sCornnBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow CORNN.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ CORNN",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+20,sMagostBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow MAGOST.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ MAGOST",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+21,sRabutaBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow RABUTA.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RABUTA",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+22,sNomelBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow NOMEL.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NOMEL",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+23,sSpelonBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow SPELON.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ SPELON",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+24,sPamtreBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow PAMTRE.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PAMTRE",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+25,sWatmelBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow WATMEL.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WATMEL",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+26,sDurinBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow DURIN.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ DURIN",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+27,sBelueBerryDesc,"{POKEBLOCK} ingredient.
+Plant in loamy soil
+to grow BELUE.","วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BELUE",1,85,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+28,sPokeblockCaseDesc,"A case for holding
+{POKEBLOCK}S made with
+a BERRY BLENDER.","กล่องสำหรับเก็บ
+{POKEBLOCK} ที่ทำด้วย
+เครื่องปั่นเบอร์รี",1,94,85,10,mixed_thai_latin_or_number;control_code;proper_name_or_location;three_lines
+29,sTM39Desc,"Stops the foe from
+moving with rocks.
+May lower SPEED.","ใช้หินหยุดการเคลื่อนไหว
+และอาจลดความเร็ว",1,112,112,9,near_120px;tm_hm_description
+30,sTM11Desc,"Raises the power of
+FIRE-type moves
+for 5 turns.","เพิ่มพลังท่าประเภท FIRE
+นาน 5 เทิร์น",1,110,105,9,wide_line;mixed_thai_latin_or_number;numeric;tm_hm_description

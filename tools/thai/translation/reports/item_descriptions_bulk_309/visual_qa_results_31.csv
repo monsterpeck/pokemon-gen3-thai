@@ -1,0 +1,79 @@
+qa_order,risk_rank,description_symbol,item_id,item_name_en,target_text_th,screen,rendering_result,translation_result,visual_status,evidence_note
+0,,sPotionDesc,ITEM_POTION,POTION,"ฟื้นฟู HP ให้โปเกมอน
+ได้ 20 หน่วย",Bag / Items pocket,pass,pass,proof_passed,"User-supplied screenshot from rebuilt ROM after wording revision; two lines displayed without clipping, overlap, or unsupported glyphs."
+1,1,sDragonScaleDesc,ITEM_DRAGON_SCALE,DRAGON SCALE,"เกล็ดประหลาดที่
+โปเกมอนประเภท DRAGON
+บางตัวถือไว้",pending_runtime_screen,pending,pending,pending,
+2,2,sRoom1KeyDesc,ITEM_ROOM_1_KEY,RM. 1 KEY,"กุญแจเปิดประตู
+ภายในเรือร้าง",pending_runtime_screen,pending,pending,pending,
+3,3,sRoom2KeyDesc,ITEM_ROOM_2_KEY,RM. 2 KEY,"กุญแจเปิดประตู
+ภายในเรือร้าง",pending_runtime_screen,pending,pending,pending,
+4,4,sRoom4KeyDesc,ITEM_ROOM_4_KEY,RM. 4 KEY,"กุญแจเปิดประตู
+ภายในเรือร้าง",pending_runtime_screen,pending,pending,pending,
+5,5,sRoom6KeyDesc,ITEM_ROOM_6_KEY,RM. 6 KEY,"กุญแจเปิดประตู
+ภายในเรือร้าง",pending_runtime_screen,pending,pending,pending,
+6,6,sPowderJarDesc,ITEM_POWDER_JAR,POWDER JAR,"โถเก็บผงเบอร์รี
+จากเครื่องบดเบอร์รี",pending_runtime_screen,pending,pending,pending,
+7,7,sTM18Desc,ITEM_TM_RAIN_DANCE,TM18,"เพิ่มพลังท่าประเภท WATER
+นาน 5 เทิร์น",pending_runtime_screen,pending,pending,pending,
+8,8,sTeachyTVDesc,ITEM_TEACHY_TV,TEACHY TV,"ทีวีที่ฉายรายการ
+ให้คำแนะนำแก่ TRAINER",pending_runtime_screen,pending,pending,pending,
+9,9,sBlueScarfDesc,ITEM_BLUE_SCARF,BLUE SCARF,"ไอเทมถือที่เพิ่ม
+ความงามในการประกวด",pending_runtime_screen,pending,pending,pending,
+10,10,sLiftKeyDesc,ITEM_LIFT_KEY,LIFT KEY,"กุญแจลิฟต์ที่ใช้ใน
+ฐานลับของทีมร็อกเก็ต",pending_runtime_screen,pending,pending,pending,
+11,11,sBlackBeltDesc,ITEM_BLACK_BELT,BLACK BELT,"ไอเทมถือที่เพิ่ม
+พลังท่าประเภท FIGHTING",pending_runtime_screen,pending,pending,pending,
+12,12,sMagnetDesc,ITEM_MAGNET,MAGNET,"ไอเทมถือที่เพิ่ม
+พลังท่าประเภท ELECTRIC",pending_runtime_screen,pending,pending,pending,
+13,13,sNetBallDesc,ITEM_NET_BALL,NET BALL,"ได้ผลดีกับโปเกมอน
+ประเภท WATER และ BUG",pending_runtime_screen,pending,pending,pending,
+14,14,sRazzBerryDesc,ITEM_RAZZ_BERRY,RAZZ BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RAZZ",pending_runtime_screen,pending,pending,pending,
+15,15,sBlukBerryDesc,ITEM_BLUK_BERRY,BLUK BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BLUK",pending_runtime_screen,pending,pending,pending,
+16,16,sNanabBerryDesc,ITEM_NANAB_BERRY,NANAB BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NANAB",pending_runtime_screen,pending,pending,pending,
+17,17,sWepearBerryDesc,ITEM_WEPEAR_BERRY,WEPEAR BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WEPEAR",pending_runtime_screen,pending,pending,pending,
+18,18,sPinapBerryDesc,ITEM_PINAP_BERRY,PINAP BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PINAP",pending_runtime_screen,pending,pending,pending,
+19,19,sCornnBerryDesc,ITEM_CORNN_BERRY,CORNN BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ CORNN",pending_runtime_screen,pending,pending,pending,
+20,20,sMagostBerryDesc,ITEM_MAGOST_BERRY,MAGOST BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ MAGOST",pending_runtime_screen,pending,pending,pending,
+21,21,sRabutaBerryDesc,ITEM_RABUTA_BERRY,RABUTA BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RABUTA",pending_runtime_screen,pending,pending,pending,
+22,22,sNomelBerryDesc,ITEM_NOMEL_BERRY,NOMEL BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NOMEL",pending_runtime_screen,pending,pending,pending,
+23,23,sSpelonBerryDesc,ITEM_SPELON_BERRY,SPELON BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ SPELON",pending_runtime_screen,pending,pending,pending,
+24,24,sPamtreBerryDesc,ITEM_PAMTRE_BERRY,PAMTRE BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PAMTRE",pending_runtime_screen,pending,pending,pending,
+25,25,sWatmelBerryDesc,ITEM_WATMEL_BERRY,WATMEL BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WATMEL",pending_runtime_screen,pending,pending,pending,
+26,26,sDurinBerryDesc,ITEM_DURIN_BERRY,DURIN BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ DURIN",pending_runtime_screen,pending,pending,pending,
+27,27,sBelueBerryDesc,ITEM_BELUE_BERRY,BELUE BERRY,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BELUE",pending_runtime_screen,pending,pending,pending,
+28,28,sPokeblockCaseDesc,ITEM_POKEBLOCK_CASE,{POKEBLOCK} CASE,"กล่องสำหรับเก็บ
+{POKEBLOCK} ที่ทำด้วย
+เครื่องปั่นเบอร์รี",pending_runtime_screen,pending,pending,pending,
+29,29,sTM39Desc,ITEM_TM_ROCK_TOMB,TM39,"ใช้หินหยุดการเคลื่อนไหว
+และอาจลดความเร็ว",pending_runtime_screen,pending,pending,pending,
+30,30,sTM11Desc,ITEM_TM_SUNNY_DAY,TM11,"เพิ่มพลังท่าประเภท FIRE
+นาน 5 เทิร์น",pending_runtime_screen,pending,pending,pending,

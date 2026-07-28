@@ -1,0 +1,139 @@
+﻿description_symbol,english_tokens_kept,target_text_th,review_status,note
+sUltraBallDesc,GREAT,"บอลประสิทธิภาพสูง
+มีอัตราจับสูงกว่า
+GREAT BALL",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sGreatBallDesc,POKé,"บอลคุณภาพดี
+มีอัตราจับสูงกว่า
+POKé BALL",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sSafariBallDesc,ONE;SAFARI;ZONE,"บอลพิเศษสำหรับใช้
+เฉพาะในซาฟารีโซน",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sShoalSaltDesc,CAVE;SHOAL,"เกลือที่เก็บได้จาก
+ส่วนลึกของถ้ำโชล",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sShoalShellDesc,CAVE;SHOAL,"เปลือกหอยที่พบได้
+ในส่วนลึกของถ้ำโชล",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRazzBerryDesc,RAZZ,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RAZZ",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sBlukBerryDesc,BLUK,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BLUK",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sNanabBerryDesc,NANAB,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NANAB",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sWepearBerryDesc,WEPEAR,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WEPEAR",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sPinapBerryDesc,PINAP,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PINAP",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sCornnBerryDesc,CO;CORNN,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ CORNN",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sMagostBerryDesc,MAGOST,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ MAGOST",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sRabutaBerryDesc,RABUTA,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ RABUTA",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sNomelBerryDesc,NOMEL,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ NOMEL",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sSpelonBerryDesc,SPELON,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ SPELON",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sPamtreBerryDesc,PAMTRE,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ PAMTRE",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sWatmelBerryDesc,WATMEL,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ WATMEL",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sDurinBerryDesc,DURIN,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ DURIN",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sBelueBerryDesc,BELUE,"วัตถุดิบทำ {POKEBLOCK}
+ปลูกในดินร่วนเพื่อ
+เพาะ BELUE",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sUpGradeDesc,CO;SILPH,"กล่องประหลาดที่สร้าง
+โดยซิลฟ์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRedScarfDesc,CO,"ไอเทมถือที่เพิ่ม
+ความเท่ในการประกวด",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sBlueScarfDesc,CO,"ไอเทมถือที่เพิ่ม
+ความงามในการประกวด",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sPinkScarfDesc,CO,"ไอเทมถือที่เพิ่ม
+ความน่ารักในการประกวด",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sGreenScarfDesc,CO;MART,"ไอเทมถือที่เพิ่ม
+ความฉลาดในการประกวด",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sYellowScarfDesc,CO,"ไอเทมถือที่เพิ่ม
+ความแกร่งในการประกวด",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sCoinCaseDesc,CO,"กล่องที่เก็บเหรียญได้
+สูงสุด 9,999 เหรียญ",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sContestPassDesc,CO;POKé,"บัตรสำหรับเข้าร่วม
+การประกวดโปเกมอน",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sDevonGoodsDesc,DEVON,"พัสดุที่บรรจุ
+ชิ้นส่วนเครื่องจักร
+ของเดวอน",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sBasementKeyDesc,CITY;MAUVILLE;NEW,"กุญแจห้องใต้ดินของ
+นิวมอวิลล์ ใต้เมือง
+มอวิลล์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sPokeblockCaseDesc,BLENDER,"กล่องสำหรับเก็บ
+{POKEBLOCK} ที่ทำด้วย
+เครื่องปั่นเบอร์รี",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sLetterDesc,CO;CORP;DEVON;PRESIDENT;STEVEN,"จดหมายถึงสตีเวน
+จากประธานแห่ง
+เดวอน",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sScannerDesc,ABANDONED;ONE;SHIP,"อุปกรณ์ที่พบภายใน
+เรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sMeteoriteDesc,FALLS;METEOR,"อุกกาบาตที่พบใน
+น้ำตกมีทีออร์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRoom1KeyDesc,ABANDONED;ONE;SHIP,"กุญแจเปิดประตู
+ภายในเรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRoom2KeyDesc,ABANDONED;ONE;SHIP,"กุญแจเปิดประตู
+ภายในเรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRoom4KeyDesc,ABANDONED;ONE;SHIP,"กุญแจเปิดประตู
+ภายในเรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRoom6KeyDesc,ABANDONED;ONE;SHIP,"กุญแจเปิดประตู
+ภายในเรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sStorageKeyDesc,ABANDONED;ONE;SHIP,"กุญแจห้องเก็บของ
+ภายในเรือร้าง",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sDevonScopeDesc,DEVON,"อุปกรณ์จากเดวอน
+ที่ตรวจจับโปเกมอน
+ซึ่งมองไม่เห็น",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sTM31Desc,LIGHT;SCREEN,"ทำลายกำแพงอย่าง
+LIGHT SCREEN พร้อม
+สร้างความเสียหาย",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sOaksParcelDesc,MART;OAK;POKé;PROF,"พัสดุจากพนักงาน
+โปเกมอนมาร์ตถึง
+ศาสตราจารย์โอ๊ก",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sSecretKeyDesc,CINNABAR;GYM;ISLAND,"กุญแจสำหรับเข้ายิม
+บนเกาะซินนาบาร์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sBikeVoucherDesc,BIKE;SHOP,"คูปองแลกจักรยาน
+จากร้านจักรยาน",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sGoldTeethDesc,ONE;SAFARI;WARDEN;ZONE,"ฟันปลอมทองคำที่
+ผู้ดูแลซาฟารีโซน
+ทำหาย",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sCardKeyDesc,CO;SILPH,"คีย์การ์ดเปิดประตู
+ในสำนักงานของ
+ซิลฟ์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sLiftKeyDesc,ROCKET;TEAM,"กุญแจลิฟต์ที่ใช้ใน
+ฐานลับของทีมร็อกเก็ต",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sSilphScopeDesc,CO;SILPH,"กล้องจากซิลฟ์
+ทำให้มองเห็นโปเกมอน
+ที่ซ่อนตัวอยู่",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sBicycleDesc,RUNNING;SHOES,"จักรยานพับได้
+ที่เร็วกว่า
+RUNNING SHOES",policy_verified_keep_english,"Verified under locked policy: item names, move names, and individual Berry names remain in English."
+sTriPassDesc,ISLAND;ONE;THREE;TWO,"บัตรเรือสำหรับเดินทาง
+ระหว่างเกาะวัน เกาะทู
+และเกาะทรี",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sRainbowPassDesc,ISLAND;ISLANDS;SEVII;VERMILION,"บัตรเรือที่ใช้เดินทาง
+ระหว่างเวอร์มิเลียน
+และหมู่เกาะเซวี",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sMysticTicketDesc,NAVEL,"บัตรสำหรับขึ้นเรือ
+ไปยังเนเวลร็อก",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sAuroraTicketDesc,BIRTH;ISLAND,"บัตรสำหรับขึ้นเรือ
+ไปยังเบิร์ธไอแลนด์",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sPowderJarDesc,CRUSHER;POWDER,"โถเก็บผงเบอร์รี
+จากเครื่องบดเบอร์รี",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
+sMagmaEmblemDesc,MAGMA;TEAM,"ไอเทมคล้ายเหรียญ
+รูปเดียวกับสัญลักษณ์
+ของทีมแมกมา",policy_applied_thai,"Applied locked policy: person, location, organization, team, general, and system terminology rendered in Thai from the English source."
