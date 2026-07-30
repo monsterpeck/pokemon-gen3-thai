@@ -4,14 +4,15 @@ use {STR_VAR_2}.\pAnd…{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PAR
 UI0002,global:gText_5MarksPokemon,gText_5MarksPokemon,????? POKéMON,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,107,1,,no,pending_usage_to_window_mapping,pending,
 UI0003,global:gText_Able,gText_Able,ABLE,เข้าร่วมได้,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,459,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D01).
 UI0004,global:gText_Able2,gText_Able2,ABLE,เข้าร่วมได้,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,463,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D02).
-UI0005,global:gText_Able3,gText_Able3,ABLE!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,465,1,,no,pending_usage_to_window_mapping,pending,
+UI0005,global:gText_Able3,gText_Able3,ABLE!,เรียนรู้ได้!,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,465,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0006,global:gText_Accuracy2,gText_Accuracy2,ACCURACY,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,508,1,,no,pending_usage_to_window_mapping,pending,
 UI0007,global:gText_AlreadyHoldingOne,gText_AlreadyHoldingOne,"{STR_VAR_1} is already holding
-one {STR_VAR_2}.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,457,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+one {STR_VAR_2}.","{STR_VAR_1} ถือ
+{STR_VAR_2} อยู่แล้ว",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,457,2,{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0008,global:gText_AlreadySavedFile,gText_AlreadySavedFile,"There is already a saved file.
 Is it okay to overwrite it?","มีไฟล์บันทึกอยู่แล้ว
 ต้องการเขียนทับหรือไม่?",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
-UI0009,global:gText_AlreadySurfing,gText_AlreadySurfing,You're already SURFING.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,440,1,,no,pending_usage_to_window_mapping,pending,
+UI0009,global:gText_AlreadySurfing,gText_AlreadySurfing,You're already SURFING.,กำลังใช้ SURF อยู่แล้ว,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,440,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0010,global:gText_AnythingElseICanHelp,gText_AnythingElseICanHelp,"Is there anything else I can help
 you with?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,pending_usage_to_window_mapping,pending,
 UI0011,global:gText_Appeal,gText_Appeal,APPEAL,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,509,1,,no,pending_usage_to_window_mapping,pending,
@@ -71,7 +72,7 @@ UI0038,global:gText_Birch_WhatsYourName,gText_Birch_WhatsYourName,"All right.
 What's your name?",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,38,2,,no,pending_usage_to_window_mapping,pending,
 UI0039,global:gText_Birch_YourePlayer,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my
 hometown of LITTLEROOT.\lI get it now!\p",,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,45,2,\l;\p;{KUN};{PLAYER},yes,pending_usage_to_window_mapping,pending,
-UI0040,global:gText_BoostPP,gText_BoostPP,Boost PP of which move?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,443,1,,no,pending_usage_to_window_mapping,pending,
+UI0040,global:gText_BoostPP,gText_BoostPP,Boost PP of which move?,เพิ่ม PP ให้ท่าไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,443,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0041,global:gText_BootedUpHM,gText_BootedUpHM,Booted up an HM.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,249,1,,no,pending_usage_to_window_mapping,pending,
 UI0042,global:gText_BootedUpTM,gText_BootedUpTM,Booted up a TM.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,248,1,,no,pending_usage_to_window_mapping,pending,
 UI0043,global:gText_Box,gText_Box,BOX,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,954,1,,no,pending_usage_to_window_mapping,pending,
@@ -89,31 +90,32 @@ UI0054,global:gText_CanIHelpWithAnythingElse,gText_CanIHelpWithAnythingElse,Can 
 UI0055,global:gText_Cancel,gText_Cancel,CANCEL,ยกเลิก,proof_passed,core_ui_label,english,MOVE_UI;PARTY_MENU;PC_STORAGE;SUMMARY,5,c_u8,src/strings.c,194,1,,no,pass,proof_passed,"Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (6/6 row C01, 6/6 row C03)."
 UI0056,global:gText_Cancel2,gText_Cancel2,CANCEL,ยกเลิก,proof_passed,core_ui_label,english,BAG;PARTY_MENU;PC_STORAGE;SHOP;SUMMARY,10,c_u8,src/strings.c,195,1,,no,pass,proof_passed,"Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (5/6 row A15, 6/6 row C02)."
 UI0057,global:gText_Cancel6,gText_Cancel6,CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1003,1,,no,pending_usage_to_window_mapping,pending,
-UI0058,global:gText_CancelBattle,gText_CancelBattle,Cancel the battle?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,473,1,,no,pending_usage_to_window_mapping,pending,
-UI0059,global:gText_CancelChallenge,gText_CancelChallenge,Cancel the challenge?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,475,1,,no,pending_usage_to_window_mapping,pending,
-UI0060,global:gText_CancelParticipation,gText_CancelParticipation,Cancel participation?,,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,472,1,,no,pending_usage_to_window_mapping,pending,
+UI0058,global:gText_CancelBattle,gText_CancelBattle,Cancel the battle?,ยกเลิกการต่อสู้?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,473,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0059,global:gText_CancelChallenge,gText_CancelChallenge,Cancel the challenge?,ยกเลิกการท้าทาย?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,475,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0060,global:gText_CancelParticipation,gText_CancelParticipation,Cancel participation?,ยกเลิกการเข้าร่วม?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,472,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0061,global:gText_CantBuyKeyItem,gText_CantBuyKeyItem,"{STR_VAR_2}? Oh, no.
 I can't buy that.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,362,2,{PAUSE_UNTIL_PRESS};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0062,global:gText_CantDismountBike,gText_CantDismountBike,You can't dismount your BIKE here.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,1,c_u8,src/strings.c,243,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0063,global:gText_CantStoreImportantItems,gText_CantStoreImportantItems,"Important items
 can't be stored in
 the PC!",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,237,3,,no,pending_usage_to_window_mapping,pending,
-UI0064,global:gText_CantSurfHere,gText_CantSurfHere,You can't SURF here.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,439,1,,no,pending_usage_to_window_mapping,pending,
+UI0064,global:gText_CantSurfHere,gText_CantSurfHere,You can't SURF here.,ใช้ SURF ที่นี่ไม่ได้,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,439,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0065,global:gText_CantSwitchWithAlly,gText_CantSwitchWithAlly,"You can't switch {STR_VAR_1}'s
 POKéMON with one of yours!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,386,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0066,global:gText_CantTradeWithTrainer,gText_CantTradeWithTrainer,"You can't trade with that
-TRAINER now.",,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,491,2,,no,pending_usage_to_window_mapping,pending,
-UI0067,global:gText_CantUseHere,gText_CantUseHere,Can't use that here.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,441,1,,no,pending_usage_to_window_mapping,pending,
+TRAINER now.","ตอนนี้แลกเปลี่ยนกับ
+เทรนเนอร์คนนั้นไม่ได้",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,491,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0067,global:gText_CantUseHere,gText_CantUseHere,Can't use that here.,ใช้ที่นี่ไม่ได้,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,441,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0068,global:gText_CantUseUntilNewBadge,gText_CantUseUntilNewBadge,"This can't be used until a new
 BADGE is obtained.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,388,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0069,global:gText_CantWriteMail,gText_CantWriteMail,"You can't write
 MAIL here.",,pending,core_ui_prompt,english,BAG,3,c_u8,src/strings.c,229,2,,no,pending_usage_to_window_mapping,pending,
 UI0070,global:gText_ChangedToNewItem,gText_ChangedToNewItem,Changed to {DYNAMIC 0}.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,901,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0071,global:gText_Check,gText_Check,CHECK,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1002,1,,no,pending_usage_to_window_mapping,pending,
-UI0072,global:gText_ChoosePokemon,gText_ChoosePokemon,Choose a POKéMON.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,432,1,,no,pending_usage_to_window_mapping,pending,
-UI0073,global:gText_ChoosePokemon2,gText_ChoosePokemon2,Choose a POKéMON.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,446,1,,no,pending_usage_to_window_mapping,pending,
-UI0074,global:gText_ChoosePokemonCancel,gText_ChoosePokemonCancel,Choose POKéMON or CANCEL.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,453,1,,no,pending_usage_to_window_mapping,pending,
-UI0075,global:gText_ChoosePokemonConfirm,gText_ChoosePokemonConfirm,Choose POKéMON and confirm.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,454,1,,no,pending_usage_to_window_mapping,pending,
+UI0072,global:gText_ChoosePokemon,gText_ChoosePokemon,Choose a POKéMON.,เลือกโปเกมอน,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,432,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0073,global:gText_ChoosePokemon2,gText_ChoosePokemon2,Choose a POKéMON.,เลือกโปเกมอน,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,446,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0074,global:gText_ChoosePokemonCancel,gText_ChoosePokemonCancel,Choose POKéMON or CANCEL.,เลือกโปเกมอนหรือยกเลิก,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,453,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0075,global:gText_ChoosePokemonConfirm,gText_ChoosePokemonConfirm,Choose POKéMON and confirm.,เลือกโปเกมอนและยืนยัน,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,454,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0076,global:gText_CloseBag,gText_CloseBag,CLOSE BAG,,pending,core_ui_label,english,BAG,1,c_u8,src/strings.c,227,1,,no,pending_usage_to_window_mapping,pending,
 UI0077,global:gText_CoinCase,gText_CoinCase,"Your COINS:
 {STR_VAR_1}{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,247,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
@@ -128,7 +130,7 @@ UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,ผู้
 UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0085,global:gText_ContinueMenuTime,gText_ContinueMenuTime,TIME,เวลา,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1408,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0086,global:gText_CryOf,gText_CryOf,CRY OF,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,114,1,,no,pending_usage_to_window_mapping,pending,
-UI0087,global:gText_CurrentIsTooFast,gText_CurrentIsTooFast,The current is much too fast!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,451,1,,no,pending_usage_to_window_mapping,pending,
+UI0087,global:gText_CurrentIsTooFast,gText_CurrentIsTooFast,The current is much too fast!,กระแสน้ำเชี่ยวเกินไป!,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,451,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0088,global:gText_DadsAdvice,gText_DadsAdvice,"DAD's advice…
 {PLAYER}, there's a time and place for\leverything!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,2,c_u8,src/strings.c,242,2,\l;{PAUSE_UNTIL_PRESS};{PLAYER},yes,pending_usage_to_window_mapping,pending,
 UI0089,global:gText_Decoration,gText_Decoration,DECORATION,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,586,1,,no,pending_usage_to_window_mapping,pending,
@@ -232,14 +234,14 @@ and overwrite the other save file?","คำเตือน!\pมีไฟล์�
 บันทึกอยู่แล้ว\pหากบันทึกตอนนี้ การผจญภัย
 ของไฟล์เดิม รวมถึงไอเทมและ\lโปเกมอนจะหายไปทั้งหมด\pต้องการบันทึกทับ
 ไฟล์เดิมหรือไม่?",proof_passed,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
-UI0176,global:gText_DoWhatWithItem,gText_DoWhatWithItem,Do what with an item?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,444,1,,no,pending_usage_to_window_mapping,pending,
-UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,452,1,,no,pending_usage_to_window_mapping,pending,
-UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pending_usage_to_window_mapping,pending,
+UI0176,global:gText_DoWhatWithItem,gText_DoWhatWithItem,Do what with an item?,จะทำอะไรกับไอเทม?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,444,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,จะทำอะไรกับจดหมาย?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,452,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,จะทำอะไรกับ{PKMN}?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0179,global:gText_DontHave,gText_DontHave,DON'T HAVE,ไม่มี,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,469,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D05).
 UI0180,global:gText_EggAboutToHatch,gText_EggAboutToHatch,"It's making sounds.
 It's about to hatch!",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,526,2,,no,pending_usage_to_window_mapping,pending,
 UI0181,global:gText_EggCantBattle,gText_EggCantBattle,An EGG can't battle!{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,387,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0182,global:gText_EggCantBeTradedNow,gText_EggCantBeTradedNow,An EGG can't be traded now.,,pending,core_ui_prompt,english,PARTY_MENU,3,c_u8,src/strings.c,485,1,,no,pending_usage_to_window_mapping,pending,
+UI0182,global:gText_EggCantBeTradedNow,gText_EggCantBeTradedNow,An EGG can't be traded now.,ตอนนี้แลกเปลี่ยนไข่ไม่ได้,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,3,c_u8,src/strings.c,485,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0183,global:gText_EggFromHotSprings,gText_EggFromHotSprings,"A POKéMON EGG obtained
 at the hot springs.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,539,2,,no,pending_usage_to_window_mapping,pending,
 UI0184,global:gText_EggFromTraveler,gText_EggFromTraveler,"An odd POKéMON EGG
@@ -253,10 +255,11 @@ UI0188,global:gText_EggWillTakeSomeTime,gText_EggWillTakeSomeTime,"What will hat
 It will take some time.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,524,2,,no,pending_usage_to_window_mapping,pending,
 UI0189,global:gText_EmptyString2,gText_EmptyString2,,,not_applicable,technical_not_translatable,nonlinguistic,BAG;PARTY_MENU,2,c_u8,src/strings.c,197,0,,no,pending_usage_to_window_mapping,pending,
 UI0190,global:gText_EmptyString5,gText_EmptyString5,,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,515,0,,no,pending_usage_to_window_mapping,pending,
-UI0191,global:gText_EnjoyCycling,gText_EnjoyCycling,Let's enjoy cycling!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,455,1,,no,pending_usage_to_window_mapping,pending,
+UI0191,global:gText_EnjoyCycling,gText_EnjoyCycling,Let's enjoy cycling!,ปั่นจักรยานกันเถอะ!,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,455,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0192,global:gText_Enter,gText_Enter,ENTER,เข้าร่วม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,372,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A05).
 UI0193,global:gText_EscapeFromHere,gText_EscapeFromHere,"Want to escape from here and return
-to {STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,476,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+to {STR_VAR_1}?","จะหนีจากที่นี่แล้วกลับ
+ไปยัง {STR_VAR_1}?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,476,2,{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0194,global:gText_ExecuteSearchSwitch,gText_ExecuteSearchSwitch,Execute search/switch.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,131,1,,no,pending_usage_to_window_mapping,pending,
 UI0195,global:gText_ExitFromBox,gText_ExitFromBox,Exit from the BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,873,1,,no,pending_usage_to_window_mapping,pending,
 UI0196,global:gText_ExpPoints,gText_ExpPoints,EXP. POINTS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,512,1,,no,pending_usage_to_window_mapping,pending,
@@ -278,7 +281,7 @@ UI0211,global:gText_FrameType,gText_FrameType,{COLOR GREEN}{SHADOW LIGHT_GREEN}T
 UI0212,global:gText_FrameTypeNumber,gText_FrameTypeNumber,{COLOR GREEN}{SHADOW LIGHT_GREEN},,not_applicable,technical_not_translatable,nonlinguistic,OPTION_MENU,2,c_u8,src/strings.c,1546,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pending_usage_to_window_mapping,pending,
 UI0213,global:gText_Give2,gText_Give2,GIVE,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,601,1,,no,pending_usage_to_window_mapping,pending,
 UI0214,global:gText_GiveToAPkmn,gText_GiveToAPkmn,GIVE to a POKéMON?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,896,1,,no,pending_usage_to_window_mapping,pending,
-UI0215,global:gText_GiveToWhichPokemon,gText_GiveToWhichPokemon,Give to which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,436,1,,no,pending_usage_to_window_mapping,pending,
+UI0215,global:gText_GiveToWhichPokemon,gText_GiveToWhichPokemon,Give to which POKéMON?,จะให้โปเกมอนตัวไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,436,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0216,global:gText_GoBackPrevMenu,gText_GoBackPrevMenu,"Go back to the
 previous menu.",,pending,core_ui_prompt,english,PC_STORAGE,2,c_u8,src/strings.c,221,2,,no,pending_usage_to_window_mapping,pending,
 UI0217,global:gText_HMMovesCantBeForgotten2,gText_HMMovesCantBeForgotten2,"HM moves can't be
@@ -300,7 +303,7 @@ Would that be okay?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,36
 UI0229,global:gText_IDNumber2,gText_IDNumber2,{ID}{NO},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/strings.c,218,1,{ID};{NO},yes,pending_usage_to_window_mapping,pending,
 UI0230,global:gText_InBagVar1,gText_InBagVar1,IN BAG: {STR_VAR_1},,pending,core_ui_label,english,SHOP,1,c_u8,src/strings.c,346,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0231,global:gText_InParty,gText_InParty,IN PARTY,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,994,1,,no,pending_usage_to_window_mapping,pending,
-UI0232,global:gText_InUseAlready_PM,gText_InUseAlready_PM,This is in use already.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,456,1,,no,pending_usage_to_window_mapping,pending,
+UI0232,global:gText_InUseAlready_PM,gText_InUseAlready_PM,This is in use already.,กำลังใช้อยู่แล้ว,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,456,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0233,global:gText_Info,gText_Info,INFO,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,522,1,,no,pending_usage_to_window_mapping,pending,
 UI0234,global:gText_Item,gText_Item,ITEM,ไอเทม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,199,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (4/6 row A10).
 UI0235,global:gText_ItemFinderNearby,gText_ItemFinderNearby,"Huh?
@@ -328,7 +331,8 @@ Owned POKéMON only.",,pending,core_ui_prompt,english,POKEDEX,2,c_u8,src/strings
 UI0250,global:gText_Mail,gText_Mail,MAIL,จดหมาย,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,200,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (5/6 row A11).
 UI0251,global:gText_MailCantBeStored,gText_MailCantBeStored,MAIL can't be stored!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,902,1,,no,pending_usage_to_window_mapping,pending,
 UI0252,global:gText_MailMessageWillBeLost,gText_MailMessageWillBeLost,"If the MAIL is removed, the
-message will be lost. Okay?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,393,2,,no,pending_usage_to_window_mapping,pending,
+message will be lost. Okay?","ถ้าเอาจดหมายออก
+ข้อความจะหาย ตกลง?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,393,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0253,global:gText_MailSentToPC,gText_MailSentToPC,The MAIL was sent to your PC.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,391,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0254,global:gText_MailTakenFromPkmn,gText_MailTakenFromPkmn,"MAIL was taken from the
 POKéMON.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,399,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
@@ -384,7 +388,7 @@ UI0291,global:gText_MoveRelearnerTeachMoveConfirm,gText_MoveRelearnerTeachMoveCo
 UI0292,global:gText_MoveRelearnerWhichMoveToForget,gText_MoveRelearnerWhichMoveToForget,"Which move should be
 forgotten?\p",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1866,2,\p,yes,pending_usage_to_window_mapping,pending,
 UI0293,global:gText_MoveToBag,gText_MoveToBag,MOVE TO BAG,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,600,1,,no,pending_usage_to_window_mapping,pending,
-UI0294,global:gText_MoveToWhere,gText_MoveToWhere,Move to where?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,433,1,,no,pending_usage_to_window_mapping,pending,
+UI0294,global:gText_MoveToWhere,gText_MoveToWhere,Move to where?,ย้ายไปตรงไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,433,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0295,global:gText_MoveVar1Where,gText_MoveVar1Where,"Move the
 {STR_VAR_1}
 where?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,231,3,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
@@ -409,7 +413,7 @@ UI0309,global:gText_NamingScreenKeyboard_mnopqrs,gText_NamingScreenKeyboard_mnop
 UI0310,global:gText_NamingScreenKeyboard_tuvwxyz,gText_NamingScreenKeyboard_tuvwxyz,{CLEAR 11}t{CLEAR 6}u{CLEAR 6}v{CLEAR 26}w{CLEAR 6}x{CLEAR 6}y{CLEAR 6}z{CLEAR 26}\x20,,pending,core_ui_label,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,13,1,{CLEAR 11};{CLEAR 26};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
 UI0311,global:gText_NextLv,gText_NextLv,NEXT LV.,,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,513,1,,no,pending_usage_to_window_mapping,pending,
 UI0312,global:gText_NoEntry,gText_NoEntry,NO ENTRY,ถอนตัว,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,373,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (4/6 row A06).
-UI0313,global:gText_NoIdenticalHoldItems,gText_NoIdenticalHoldItems,No identical hold items.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,450,1,,no,pending_usage_to_window_mapping,pending,
+UI0313,global:gText_NoIdenticalHoldItems,gText_NoIdenticalHoldItems,No identical hold items.,ห้ามถือไอเทมซ้ำกัน,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,450,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0314,global:gText_NoItems,gText_NoItems,There are no items.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,2,c_u8,src/strings.c,595,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0315,global:gText_NoMailHere,gText_NoMailHere,There's no MAIL here.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,2,c_u8,src/strings.c,602,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0316,global:gText_NoMatchingPkmnWereFound,gText_NoMatchingPkmnWereFound,No matching POKéMON were found.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,122,1,,no,pending_usage_to_window_mapping,pending,
@@ -419,19 +423,20 @@ UI0318,global:gText_NoMoreThanVar1Pkmn,gText_NoMoreThanVar1Pkmn,"No more than {S
 may enter.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,389,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0319,global:gText_NoPokemon,gText_NoPokemon,"There is no
 POKéMON.",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,230,2,,no,pending_usage_to_window_mapping,pending,
-UI0320,global:gText_NoPokemonForBattle,gText_NoPokemonForBattle,No POKéMON for battle!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,445,1,,no,pending_usage_to_window_mapping,pending,
+UI0320,global:gText_NoPokemonForBattle,gText_NoPokemonForBattle,No POKéMON for battle!,ไม่มีโปเกมอนสำหรับต่อสู้!,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,445,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0321,global:gText_NoRoomForItems,gText_NoRoomForItems,"There's no room to
 store items.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,236,2,,no,pending_usage_to_window_mapping,pending,
 UI0322,global:gText_NoRoomInBag,gText_NoRoomInBag,"There is no more
 room in the BAG.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,596,2,,no,pending_usage_to_window_mapping,pending,
-UI0323,global:gText_NoUse,gText_NoUse,No use.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,458,1,,no,pending_usage_to_window_mapping,pending,
+UI0323,global:gText_NoUse,gText_NoUse,No use.,ใช้ไม่ได้,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,458,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0324,global:gText_None,gText_None,NONE,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,204,1,,no,pending_usage_to_window_mapping,pending,
 UI0325,global:gText_NotAble,gText_NotAble,NOT ABLE,เข้าร่วมไม่ได้,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,464,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D03).
-UI0326,global:gText_NotAble2,gText_NotAble2,NOT ABLE!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,466,1,,no,pending_usage_to_window_mapping,pending,
-UI0327,global:gText_NotEnoughHp,gText_NotEnoughHp,Not enough HP…,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,447,1,,no,pending_usage_to_window_mapping,pending,
+UI0326,global:gText_NotAble2,gText_NotAble2,NOT ABLE!,เรียนรู้ไม่ได้!,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,466,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0327,global:gText_NotEnoughHp,gText_NotEnoughHp,Not enough HP…,HP ไม่เพียงพอ…,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,447,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0328,global:gText_NotPkmnOtherTrainerWants,gText_NotPkmnOtherTrainerWants,"That isn't the type of POKéMON
-that the other TRAINER wants.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,493,2,,no,pending_usage_to_window_mapping,pending,
-UI0329,global:gText_NothingToCut,gText_NothingToCut,There's nothing to CUT.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,438,1,,no,pending_usage_to_window_mapping,pending,
+that the other TRAINER wants.","โปเกมอนนี้ไม่ตรงกับ
+ที่เทรนเนอร์อีกฝ่ายต้องการ",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,493,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0329,global:gText_NothingToCut,gText_NothingToCut,There's nothing to CUT.,ไม่มีอะไรให้ใช้ CUT,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,438,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0330,global:gText_NumberClear01,gText_NumberClear01,{NO}{CLEAR 1},,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX;SUMMARY,2,c_u8,src/strings.c,215,1,{CLEAR 1};{NO},yes,pending_usage_to_window_mapping,pending,
 UI0331,global:gText_NumberIndex,gText_NumberIndex,No. {DYNAMIC 0},,pending,core_ui_prompt,english,POKENAV,1,c_u8,src/strings.c,1004,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0332,global:gText_NumberItem_HM,gText_NumberItem_HM,{CLEAR_TO 17}{STR_VAR_1}{CLEAR 5}{STR_VAR_2},,not_applicable,technical_not_translatable,nonlinguistic,BAG,1,c_u8,src/strings.c,301,1,{CLEAR 5};{CLEAR_TO 17};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
@@ -443,13 +448,16 @@ UI0337,global:gText_OddEggFoundByCouple,gText_OddEggFoundByCouple,"An odd POKéM
 by the DAY CARE couple.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,536,2,,no,pending_usage_to_window_mapping,pending,
 UI0338,global:gText_OneDash,gText_OneDash,-,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,209,1,,no,pending_usage_to_window_mapping,pending,
 UI0339,global:gText_OnlyPkmnForBattle,gText_OnlyPkmnForBattle,"That's your only
-POKéMON for battle.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,481,2,,no,pending_usage_to_window_mapping,pending,
+POKéMON for battle.","นี่คือโปเกมอนตัวเดียว
+ที่ใช้ต่อสู้ได้",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,481,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0340,global:gText_Option,gText_Option,OPTION,ตั้งค่า,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1528,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0341,global:gText_OptionMenuCancel,gText_OptionMenuCancel,CANCEL,ยกเลิก,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1534,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0342,global:gText_OtherTrainerCantAcceptPkmn,gText_OtherTrainerCantAcceptPkmn,"The other TRAINER can't accept
-that POKéMON now.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,489,2,,no,pending_usage_to_window_mapping,pending,
+that POKéMON now.","ตอนนี้เทรนเนอร์อีกฝ่าย
+รับโปเกมอนนี้ไม่ได้",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,489,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0343,global:gText_OtherTrainersPkmnCantBeTraded,gText_OtherTrainersPkmnCantBeTraded,"The other TRAINER's POKéMON
-can't be traded now.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,487,2,,no,pending_usage_to_window_mapping,pending,
+can't be traded now.","ตอนนี้โปเกมอนของอีกฝ่าย
+แลกเปลี่ยนไม่ได้",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,487,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0344,global:gText_PCMailboxFull,gText_PCMailboxFull,Your PC's MAILBOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,392,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0345,global:gText_PPWasRestored,gText_PPWasRestored,PP was restored.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,418,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0346,global:gText_PartyFull,gText_PartyFull,Your party is full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,953,1,,no,pending_usage_to_window_mapping,pending,
@@ -477,7 +485,8 @@ UI0358,global:gText_PkmnBecameHealthy,gText_PkmnBecameHealthy,{STR_VAR_1} became
 UI0359,global:gText_PkmnBurnHealed,gText_PkmnBurnHealed,{STR_VAR_1}'s burn was healed.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,416,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0360,global:gText_PkmnCameBack,gText_PkmnCameBack,{DYNAMIC 0} came back!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,892,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0361,global:gText_PkmnCantBeTradedNow,gText_PkmnCantBeTradedNow,"That POKéMON can't be traded
-now.",,pending,core_ui_prompt,english,PARTY_MENU,4,c_u8,src/strings.c,483,2,,no,pending_usage_to_window_mapping,pending,
+now.","ตอนนี้โปเกมอนนี้
+แลกเปลี่ยนไม่ได้",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,4,c_u8,src/strings.c,483,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0362,global:gText_PkmnCantLearnMove,gText_PkmnCantLearnMove,"{STR_VAR_1} and {STR_VAR_2}
 are not compatible.\p{STR_VAR_2} can't be
 learned.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,405,3,\p;{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
@@ -489,7 +498,8 @@ paralysis.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8
 UI0366,global:gText_PkmnCuredOfPoison,gText_PkmnCuredOfPoison,"{STR_VAR_1} was cured of its
 poisoning.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,413,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0367,global:gText_PkmnElevatedToLvVar2,gText_PkmnElevatedToLvVar2,"{STR_VAR_1} was elevated to
-Lv. {STR_VAR_2}.",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,422,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+Lv. {STR_VAR_2}.","เลเวลของ {STR_VAR_1} เพิ่มเป็น
+Lv. {STR_VAR_2}!",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,422,2,{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0368,global:gText_PkmnFriendlyBaseVar2CantFall,gText_PkmnFriendlyBaseVar2CantFall,"{STR_VAR_1} turned friendly.
 The base {STR_VAR_2} can't fall!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,426,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0369,global:gText_PkmnFriendlyBaseVar2Fell,gText_PkmnFriendlyBaseVar2Fell,"{STR_VAR_1} turned friendly.
@@ -505,7 +515,8 @@ item. It cannot hold MAIL.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,P
 UI0374,global:gText_PkmnInfo,gText_PkmnInfo,POKéMON INFO,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,518,1,,no,pending_usage_to_window_mapping,pending,
 UI0375,global:gText_PkmnIsSelected,gText_PkmnIsSelected,{DYNAMIC 0} is selected.,,pending,core_ui_prompt,english,PC_STORAGE,2,c_u8,src/strings.c,877,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0376,global:gText_PkmnLearnedMove3,gText_PkmnLearnedMove3,"{STR_VAR_1} learned
-{STR_VAR_2}!",,pending,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,404,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_2}!","{STR_VAR_1} เรียนรู้
+{STR_VAR_2}!",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,404,2,{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0377,global:gText_PkmnNeedsToReplaceMove,gText_PkmnNeedsToReplaceMove,"{STR_VAR_1} wants to learn the
 move {STR_VAR_2}.\pHowever, {STR_VAR_1} already
 knows four moves.\pShould a move be deleted and
@@ -542,8 +553,8 @@ UI0394,global:gText_PleasePickATheme,gText_PleasePickATheme,Please pick a theme.
 UI0395,global:gText_PleaseRemoveTheMail,gText_PleaseRemoveTheMail,Please remove the MAIL.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,895,1,,no,pending_usage_to_window_mapping,pending,
 UI0396,global:gText_PokedexRegistration,gText_PokedexRegistration,POKéDEX registration completed.,,pending,core_ui_prompt,english,POKEDEX,2,c_u8,src/strings.c,117,1,,no,pending_usage_to_window_mapping,pending,
 UI0397,global:gText_PokedollarVar1,gText_PokedollarVar1,¥{STR_VAR_1},,not_applicable,technical_not_translatable,nonlinguistic,SHOP,1,c_u8,src/strings.c,366,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0398,global:gText_PokemonAreNeeded,gText_PokemonAreNeeded,{STR_VAR_1} POKéMON are needed.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,448,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0399,global:gText_PokemonCantBeSame,gText_PokemonCantBeSame,POKéMON can't be the same.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,449,1,,no,pending_usage_to_window_mapping,pending,
+UI0398,global:gText_PokemonAreNeeded,gText_PokemonAreNeeded,{STR_VAR_1} POKéMON are needed.,ต้องมีโปเกมอน {STR_VAR_1} ตัว,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,448,1,{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
+UI0399,global:gText_PokemonCantBeSame,gText_PokemonCantBeSame,POKéMON can't be the same.,เลือกโปเกมอนซ้ำกันไม่ได้,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,449,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0400,global:gText_PokenavCondition_MarkingButtons,gText_PokenavCondition_MarkingButtons,{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,985,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
 UI0401,global:gText_PokenavCondition_MonListButtons,gText_PokenavCondition_MonListButtons,{A_BUTTON}CONDITION {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,983,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
 UI0402,global:gText_PokenavCondition_MonStatusButtons,gText_PokenavCondition_MonStatusButtons,{A_BUTTON}MARKINGS {B_BUTTON}CANCEL,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,984,1,{A_BUTTON};{B_BUTTON},yes,pending_usage_to_window_mapping,pending,
@@ -571,13 +582,14 @@ holding an item.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,
 UI0422,global:gText_RentalPkmn,gText_RentalPkmn,RENTAL POKéMON,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,505,1,,no,pending_usage_to_window_mapping,pending,
 UI0423,global:gText_RepelEffectsLingered,gText_RepelEffectsLingered,"But the effects of a REPEL
 lingered from earlier.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,2,c_u8,src/strings.c,252,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0424,global:gText_RestoreWhichMove,gText_RestoreWhichMove,Restore which move?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,442,1,,no,pending_usage_to_window_mapping,pending,
+UI0424,global:gText_RestoreWhichMove,gText_RestoreWhichMove,Restore which move?,ฟื้น PP ให้ท่าไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,442,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0425,global:gText_ReturnToHealingSpot,gText_ReturnToHealingSpot,"Want to return to the healing spot
-used last in {STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,477,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+used last in {STR_VAR_1}?","จะกลับไปยังจุดฟื้นพลัง
+ล่าสุดใน {STR_VAR_1}?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,477,2,{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0426,global:gText_ReturnToPokedex,gText_ReturnToPokedex,Return to the POKéDEX.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,125,1,,no,pending_usage_to_window_mapping,pending,
 UI0427,global:gText_ReturnToVar1,gText_ReturnToVar1,"Return to
 {STR_VAR_1}.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,285,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0428,global:gText_ReturnToWaitingRoom,gText_ReturnToWaitingRoom,Return to the WAITING ROOM?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,474,1,,no,pending_usage_to_window_mapping,pending,
+UI0428,global:gText_ReturnToWaitingRoom,gText_ReturnToWaitingRoom,Return to the WAITING ROOM?,กลับไปห้องรอ?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,474,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0429,global:gText_RibbonsF700,gText_RibbonsF700,RIBBONS {DYNAMIC 0},,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1005,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0430,global:gText_RibbonsVar1,gText_RibbonsVar1,RIBBONS: {STR_VAR_1},,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,514,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
@@ -619,7 +631,8 @@ UI0451,global:gText_SelectPokedexMode,gText_SelectPokedexMode,Select the POKéDE
 UI0452,global:gText_SelectorArrow,gText_SelectorArrow,▶,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/strings.c,170,1,,no,pending_usage_to_window_mapping,pending,
 UI0453,global:gText_SelectorArrow2,gText_SelectorArrow2,▶,,not_applicable,technical_not_translatable,nonlinguistic,BAG;PC_STORAGE;SHOP,3,c_u8,src/strings.c,220,1,,no,pending_usage_to_window_mapping,pending,
 UI0454,global:gText_SendMailToPC,gText_SendMailToPC,"Send the removed MAIL to
-your PC?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,390,2,,no,pending_usage_to_window_mapping,pending,
+your PC?","ส่งจดหมายที่เอาออก
+ไปยัง PC?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,390,2,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0455,global:gText_SendOut,gText_SendOut,SEND OUT,ส่งลงสนาม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,368,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A02).
 UI0456,global:gText_Shift,gText_Shift,SHIFT,สลับตัว,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,367,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A01).
 UI0457,global:gText_ShopBuy,gText_ShopBuy,BUY,,pending,core_ui_label,english,SHOP,2,c_u8,src/strings.c,343,1,,no,pending_usage_to_window_mapping,pending,
@@ -638,7 +651,8 @@ UI0469,global:gText_SpaceForVar1Full,gText_SpaceForVar1Full,The space for {STR_V
 UI0470,global:gText_Speed2,gText_Speed2,SPEED,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,501,1,,no,pending_usage_to_window_mapping,pending,
 UI0471,global:gText_Status,gText_Status,STATUS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,511,1,,no,pending_usage_to_window_mapping,pending,
 UI0472,global:gText_StopLearningMove2,gText_StopLearningMove2,"Stop trying to teach
-{STR_VAR_2}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,407,2,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_2}?","หยุดสอนท่า
+{STR_VAR_2}?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,407,2,{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0473,global:gText_Store,gText_Store,STORE,ฝาก,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,202,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (5/6 row A13).
 UI0474,global:gText_StoreItemsInPC,gText_StoreItemsInPC,Store items in the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,592,1,,no,pending_usage_to_window_mapping,pending,
 UI0475,global:gText_Summary5,gText_Summary5,SUMMARY,ข้อมูล,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,370,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A04).
@@ -654,7 +668,7 @@ UI0481,global:gText_Take,gText_Take,TAKE,รับคืน,proof_passed,core_ui
 UI0482,global:gText_Take2,gText_Take2,TAKE,รับคืน,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,374,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (4/6 row A07).
 UI0483,global:gText_TakeOutItemsFromPC,gText_TakeOutItemsFromPC,Take out items from the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,593,1,,no,pending_usage_to_window_mapping,pending,
 UI0484,global:gText_TeachWhichMoveToPkmn,gText_TeachWhichMoveToPkmn,Teach which move to {STR_VAR_1}?,,pending,core_ui_prompt,english,MOVE_UI,2,c_u8,src/strings.c,1857,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0485,global:gText_TeachWhichPokemon,gText_TeachWhichPokemon,Teach which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,434,1,,no,pending_usage_to_window_mapping,pending,
+UI0485,global:gText_TeachWhichPokemon,gText_TeachWhichPokemon,Teach which POKéMON?,จะสอนท่าให้โปเกมอนตัวไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,434,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0487,global:gText_TextSpeed,gText_TextSpeed,TEXT SPEED,ความเร็วข้อความ,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1529,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,{COLOR GREEN}{SHADOW LIGHT_GREEN}เร็ว,proof_passed,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1538,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -664,7 +678,7 @@ UI0491,global:gText_ThankYouIllSendItHome,gText_ThankYouIllSendItHome,"Thank you
 I'll send it to your home PC.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,354,2,,no,pending_usage_to_window_mapping,pending,
 UI0492,global:gText_ThanksIllSendItHome,gText_ThanksIllSendItHome,"Thanks!
 I'll send it to your PC at home.",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,355,2,,no,pending_usage_to_window_mapping,pending,
-UI0493,global:gText_ThatIsntAnEgg,gText_ThatIsntAnEgg,That isn't an EGG.,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,495,1,,no,pending_usage_to_window_mapping,pending,
+UI0493,global:gText_ThatIsntAnEgg,gText_ThatIsntAnEgg,That isn't an EGG.,ตัวนั้นไม่ใช่ไข่,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,495,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0494,global:gText_ThatsYourLastPkmn,gText_ThatsYourLastPkmn,That's your last POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,886,1,,no,pending_usage_to_window_mapping,pending,
 UI0495,global:gText_Third_PM,gText_Third_PM,THIRD,ตัวที่สาม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,462,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (2/6 row D09).
 UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
@@ -673,7 +687,8 @@ UI0497,global:gText_ThreeDashes,gText_ThreeDashes,---,,not_applicable,technical_
 UI0498,global:gText_ThrewAwayVar2Var1s,gText_ThrewAwayVar2Var1s,"Threw away {STR_VAR_2}
 {STR_VAR_1}(s).",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,240,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0499,global:gText_ThrowAwayItem,gText_ThrowAwayItem,"Throw away this
-{STR_VAR_1}?",,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,429,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_1}?","จะทิ้ง
+{STR_VAR_1}?",translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,429,2,{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0500,global:gText_ThrowAwayItemsInPC,gText_ThrowAwayItemsInPC,Throw away items stored in the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,594,1,,no,pending_usage_to_window_mapping,pending,
 UI0501,global:gText_ThrowInPremierBall,gText_ThrowInPremierBall,"I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,SHOP,1,c_u8,src/strings.c,361,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0502,global:gText_TooImportantToToss,gText_TooImportantToToss,"That's much too
@@ -693,7 +708,7 @@ UI0510,global:gText_TypeSlash,gText_TypeSlash,TYPE/,,pending,core_ui_label,engli
 UI0511,global:gText_UnkHeight,gText_UnkHeight,{CLEAR_TO 12}??'??”,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,1,c_u8,src/strings.c,108,1,{CLEAR_TO 12},yes,pending_usage_to_window_mapping,pending,
 UI0512,global:gText_UnkWeight,gText_UnkWeight,????.? lbs.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,109,1,,no,pending_usage_to_window_mapping,pending,
 UI0513,global:gText_Unknown,gText_Unknown,UNKNOWN,,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1000,1,,no,pending_usage_to_window_mapping,pending,
-UI0514,global:gText_UseOnWhichPokemon,gText_UseOnWhichPokemon,Use on which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,435,1,,no,pending_usage_to_window_mapping,pending,
+UI0514,global:gText_UseOnWhichPokemon,gText_UseOnWhichPokemon,Use on which POKéMON?,จะใช้กับโปเกมอนตัวไหน?,translated_pending_qa,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,435,1,,no,pass,pending,"Approved Party Menu Batch 2B prompt translation; exact source definition, placeholder/control tokens, Thai shaper, runtime width profiles, and normal ROM build passed. Runtime visual QA remains pending."
 UI0515,global:gText_UsedVar2WildLured,gText_UsedVar2WildLured,"{PLAYER} used the
 {STR_VAR_2}.\pWild POKéMON will be lured.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,253,2,\p;{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0516,global:gText_UsedVar2WildRepelled,gText_UsedVar2WildRepelled,"{PLAYER} used the

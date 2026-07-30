@@ -1,0 +1,24 @@
+﻿ui_id,symbol,profile_id,target_text_th,test_values,expanded_test_text,expanded_line_widths_px,hard_width_px,remaining_px,placeholder_test_policy,test_result
+UI0007,gText_AlreadyHoldingOne,PM_PROMPT_STD_HOLDING_NORMAL_160x32,"{STR_VAR_1} ถือ
+{STR_VAR_2} อยู่แล้ว","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWWWW""}","WWWWWWWWWW ถือ
+WWWWWWWWWWWWWW อยู่แล้ว",75;118,160,42,preserve STR_VAR_1 and STR_VAR_2; test long nickname/item,pass
+UI0178,gText_DoWhatWithPokemon,PM_PROMPT_STD_MON_NORMAL_128x16,จะทำอะไรกับ{PKMN}?,{},จะทำอะไรกับ{PKMN}?,79,128,49,preserve control token exactly,pass
+UI0193,gText_EscapeFromHere,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"จะหนีจากที่นี่แล้วกลับ
+ไปยัง {STR_VAR_1}?","{""STR_VAR_1"": ""WWWWWWWWWWWWWWWWWW""}","จะหนีจากที่นี่แล้วกลับ
+ไปยัง WWWWWWWWWWWWWWWWWW?",95;140,224,84,preserve placeholders; test representative maximum values,pass
+UI0367,gText_PkmnElevatedToLvVar2,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"เลเวลของ {STR_VAR_1} เพิ่มเป็น
+Lv. {STR_VAR_2}!","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""100""}","เลเวลของ WWWWWWWWWW เพิ่มเป็น
+Lv. 100!",146;40,224,78,preserve placeholders; test representative maximum values,pass
+UI0376,gText_PkmnLearnedMove3,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"{STR_VAR_1} เรียนรู้
+{STR_VAR_2}!","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW เรียนรู้
+WWWWWWWWWWWW!",92;76,224,132,preserve placeholders; test representative maximum values,pass
+UI0398,gText_PokemonAreNeeded,PM_PROMPT_STD_DEFAULT_NORMAL_168x16,ต้องมีโปเกมอน {STR_VAR_1} ตัว,"{""STR_VAR_1"": ""6""}",ต้องมีโปเกมอน 6 ตัว,92,168,76,expand into gStringVar4 before printing,pass
+UI0425,gText_ReturnToHealingSpot,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"จะกลับไปยังจุดฟื้นพลัง
+ล่าสุดใน {STR_VAR_1}?","{""STR_VAR_1"": ""WWWWWWWWWWWWWWWWWW""}","จะกลับไปยังจุดฟื้นพลัง
+ล่าสุดใน WWWWWWWWWWWWWWWWWW?",100;154,224,70,preserve placeholders; test representative maximum values,pass
+UI0472,gText_StopLearningMove2,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"หยุดสอนท่า
+{STR_VAR_2}?","{""STR_VAR_2"": ""WWWWWWWWWWWW""}","หยุดสอนท่า
+WWWWWWWWWWWW?",51;78,224,146,preserve placeholders; test representative maximum values,pass
+UI0499,gText_ThrowAwayItem,PM_PROMPT_FULL_MESSAGE_NORMAL_224x32,"จะทิ้ง
+{STR_VAR_1}?","{""STR_VAR_1"": ""WWWWWWWWWWWWWW""}","จะทิ้ง
+WWWWWWWWWWWWWW?",23;90,224,134,preserve placeholders; test representative maximum values,pass
