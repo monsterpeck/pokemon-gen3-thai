@@ -24,19 +24,19 @@ UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has 
 The game can be played.\pHowever, clock-based events will
 no longer occur.","แบตเตอรี่ภายในหมดแล้ว
 ยังสามารถเล่นเกมได้\pแต่กิจกรรมที่อิงเวลา
-จะไม่เกิดขึ้นอีก",translated_pending_qa,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+จะไม่เกิดขึ้นอีก",proof_passed,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0017,global:gText_BattleMenu,gText_BattleMenu,"FIGHT{CLEAR_TO 56}BAG
 POKéMON{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1275,2,{CLEAR_TO 56},yes,pending_usage_to_window_mapping,pending,
 UI0018,global:gText_BattleMoves,gText_BattleMoves,BATTLE MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,520,1,,no,pending_usage_to_window_mapping,pending,
 UI0019,global:gText_BattlePyramidConfirmRest,gText_BattlePyramidConfirmRest,"Your BATTLE PYRAMID quest will be
 saved so that you may quit for now.\lIs that okay?","จะบันทึกภารกิจใน
-แบตเทิลพีระมิดไว้\lแล้วออกชั่วคราว ตกลงหรือไม่?",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+แบตเทิลพีระมิดไว้\lแล้วออกชั่วคราว ตกลงหรือไม่?",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,131,2,\l,yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0020,global:gText_BattlePyramidConfirmRetire,gText_BattlePyramidConfirmRetire,"Are you sure you want to quit your
 PYRAMID quest?","ต้องการยุติภารกิจ
-แบตเทิลพีระมิดหรือไม่?",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+แบตเทิลพีระมิดหรือไม่?",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/maps/BattleFrontier_BattlePyramidFloor/scripts.inc,136,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0021,global:gText_BattlePyramidFloor,gText_BattlePyramidFloor,"Battle Pyramid
 {STR_VAR_1}","แบตเทิลพีระมิด
-{STR_VAR_1}",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+{STR_VAR_1}",proof_passed,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1574,2,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0022,global:gText_BattleScene,gText_BattleScene,BATTLE SCENE,ฉากต่อสู้,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1530,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0023,global:gText_BattleSceneOff,gText_BattleSceneOff,{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF,{COLOR GREEN}{SHADOW LIGHT_GREEN}ปิด,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1540,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0024,global:gText_BattleSceneOn,gText_BattleSceneOn,{COLOR GREEN}{SHADOW LIGHT_GREEN}ON,{COLOR GREEN}{SHADOW LIGHT_GREEN}เปิด,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1539,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -77,7 +77,7 @@ UI0042,global:gText_BootedUpTM,gText_BootedUpTM,Booted up a TM.,,pending,core_ui
 UI0043,global:gText_Box,gText_Box,BOX,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,954,1,,no,pending_usage_to_window_mapping,pending,
 UI0044,global:gText_BoxFull,gText_BoxFull,The BOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,2,c_u8,src/strings.c,255,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0045,global:gText_BoxIsFull2,gText_BoxIsFull2,The BOX is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,881,1,,no,pending_usage_to_window_mapping,pending,
-UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,ชื่อ BOX?,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,ชื่อ BOX?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0047,global:gText_ButtonMode,gText_ButtonMode,BUTTON MODE,โหมดปุ่ม,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1535,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0048,global:gText_ButtonTypeLEqualsA,gText_ButtonTypeLEqualsA,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,proof_passed,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1549,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0049,global:gText_ButtonTypeLR,gText_ButtonTypeLR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,{COLOR GREEN}{SHADOW LIGHT_GREEN}LR,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1548,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -123,10 +123,10 @@ throw away {STR_VAR_2}
 {STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,241,3,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0080,global:gText_ContestMoves,gText_ContestMoves,C0NTEST MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,521,1,,no,pending_usage_to_window_mapping,pending,
 UI0081,global:gText_ContinueBoxOperations,gText_ContinueBoxOperations,Continue BOX operations?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,891,1,,no,pending_usage_to_window_mapping,pending,
-UI0082,global:gText_ContinueMenuBadges,gText_ContinueMenuBadges,BADGES,เข็มกลัด,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1410,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,ผู้เล่น,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1407,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,โปเกเด็กซ์,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0085,global:gText_ContinueMenuTime,gText_ContinueMenuTime,TIME,เวลา,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1408,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0082,global:gText_ContinueMenuBadges,gText_ContinueMenuBadges,BADGES,เข็มกลัด,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1410,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,ผู้เล่น,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1407,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0085,global:gText_ContinueMenuTime,gText_ContinueMenuTime,TIME,เวลา,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1408,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0086,global:gText_CryOf,gText_CryOf,CRY OF,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,114,1,,no,pending_usage_to_window_mapping,pending,
 UI0087,global:gText_CurrentIsTooFast,gText_CurrentIsTooFast,The current is much too fast!,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,451,1,,no,pending_usage_to_window_mapping,pending,
 UI0088,global:gText_DadsAdvice,gText_DadsAdvice,"DAD's advice…
@@ -231,7 +231,7 @@ adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure y
 and overwrite the other save file?","คำเตือน!\pมีไฟล์เกมอื่น
 บันทึกอยู่แล้ว\pหากบันทึกตอนนี้ การผจญภัย
 ของไฟล์เดิม รวมถึงไอเทมและ\lโปเกมอนจะหายไปทั้งหมด\pต้องการบันทึกทับ
-ไฟล์เดิมหรือไม่?",translated_pending_qa,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+ไฟล์เดิมหรือไม่?",proof_passed,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,16,4,\l;\p,yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0176,global:gText_DoWhatWithItem,gText_DoWhatWithItem,Do what with an item?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,444,1,,no,pending_usage_to_window_mapping,pending,
 UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,452,1,,no,pending_usage_to_window_mapping,pending,
 UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pending_usage_to_window_mapping,pending,
@@ -264,13 +264,13 @@ UI0197,global:gText_ExpandedPlaceholder_Empty,gText_ExpandedPlaceholder_Empty,,,
 UI0198,global:gText_FemaleSymbol,gText_FemaleSymbol,♀,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU;PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,213,1,,no,pending_usage_to_window_mapping,pending,
 UI0199,global:gText_First_PM,gText_First_PM,FIRST,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,460,1,,no,pending_usage_to_window_mapping,pending,
 UI0200,global:gText_FiveMarks,gText_FiveMarks,?????,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/strings.c,207,1,,no,pending_usage_to_window_mapping,pending,
-UI0201,global:gText_Floor1,gText_Floor1,Floor 1,ชั้น 1,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1575,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0202,global:gText_Floor2,gText_Floor2,Floor 2,ชั้น 2,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1576,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0203,global:gText_Floor3,gText_Floor3,Floor 3,ชั้น 3,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1577,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0204,global:gText_Floor4,gText_Floor4,Floor 4,ชั้น 4,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1578,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0205,global:gText_Floor5,gText_Floor5,Floor 5,ชั้น 5,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1579,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0206,global:gText_Floor6,gText_Floor6,Floor 6,ชั้น 6,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1580,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0207,global:gText_Floor7,gText_Floor7,Floor 7,ชั้น 7,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1581,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0201,global:gText_Floor1,gText_Floor1,Floor 1,ชั้น 1,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1575,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0202,global:gText_Floor2,gText_Floor2,Floor 2,ชั้น 2,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1576,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0203,global:gText_Floor3,gText_Floor3,Floor 3,ชั้น 3,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1577,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0204,global:gText_Floor4,gText_Floor4,Floor 4,ชั้น 4,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1578,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0205,global:gText_Floor5,gText_Floor5,Floor 5,ชั้น 5,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1579,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0206,global:gText_Floor6,gText_Floor6,Floor 6,ชั้น 6,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1580,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0207,global:gText_Floor7,gText_Floor7,Floor 7,ชั้น 7,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1581,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0208,global:gText_FourEllipsesExclamation,gText_FourEllipsesExclamation,… … … … !,,not_applicable,technical_not_translatable,nonlinguistic,PC_STORAGE,1,c_u8,src/strings.c,894,1,,no,pending_usage_to_window_mapping,pending,
 UI0209,global:gText_Fourth,gText_Fourth,FOURTH,,pending,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,470,1,,no,pending_usage_to_window_mapping,pending,
 UI0210,global:gText_Frame,gText_Frame,FRAME,กรอบ,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1533,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -337,23 +337,23 @@ with its message erased.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PC_
 UI0256,global:gText_MailTransferredFromMailbox,gText_MailTransferredFromMailbox,"MAIL was transferred from
 the MAILBOX.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,402,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0257,global:gText_Mailbox,gText_Mailbox,MAILBOX,,pending,core_ui_label,english,PC_STORAGE,3,c_u8,src/strings.c,588,1,,no,pending_usage_to_window_mapping,pending,
-UI0258,global:gText_MainMenuContinue,gText_MainMenuContinue,CONTINUE,เล่นต่อ,translated_pending_qa,core_ui_label,english,MAIN_MENU,3,c_u8,src/strings.c,25,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0258,global:gText_MainMenuContinue,gText_MainMenuContinue,CONTINUE,เล่นต่อ,proof_passed,core_ui_label,english,MAIN_MENU,3,c_u8,src/strings.c,25,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0259,global:gText_MainMenuMysteryEvents,gText_MainMenuMysteryEvents,MYSTERY EVENTS,อีเวนต์ลึกลับ,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,29,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0260,global:gText_MainMenuMysteryGift,gText_MainMenuMysteryGift,MYSTERY GIFT,ของขวัญลึกลับ,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,27,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
 UI0261,global:gText_MainMenuMysteryGift2,gText_MainMenuMysteryGift2,MYSTERY GIFT,ของขวัญลึกลับ,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,28,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกม,translated_pending_qa,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0263,global:gText_MainMenuOption,gText_MainMenuOption,OPTION,ตั้งค่า,translated_pending_qa,core_ui_label,english,MAIN_MENU,4,c_u8,src/strings.c,26,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0262,global:gText_MainMenuNewGame,gText_MainMenuNewGame,เริ่มเกมส์,เริ่มเกม,proof_passed,core_ui_label,thai,MAIN_MENU,4,c_u8,src/strings.c,24,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0263,global:gText_MainMenuOption,gText_MainMenuOption,OPTION,ตั้งค่า,proof_passed,core_ui_label,english,MAIN_MENU,4,c_u8,src/strings.c,26,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0264,global:gText_MaleSymbol,gText_MaleSymbol,♂,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU;PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,212,1,,no,pending_usage_to_window_mapping,pending,
 UI0265,global:gText_MarkYourPkmn,gText_MarkYourPkmn,Mark your POKéMON.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,885,1,,no,pending_usage_to_window_mapping,pending,
 UI0266,global:gText_MenuBag,gText_MenuBag,BAG,กระเป๋า,proof_passed,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1565,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0267,global:gText_MenuExit,gText_MenuExit,EXIT,ออก,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1570,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0268,global:gText_MenuOption,gText_MenuOption,OPTION,ตั้งค่า,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1569,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0269,global:gText_MenuPlayer,gText_MenuPlayer,{PLAYER},,not_applicable,technical_not_translatable,nonlinguistic,START_SAVE,2,c_u8,src/strings.c,1567,1,{PLAYER},yes,pending_usage_to_window_mapping,pending,
-UI0270,global:gText_MenuPokedex,gText_MenuPokedex,POKéDEX,โปเกเด็กซ์,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1563,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0271,global:gText_MenuPokemon,gText_MenuPokemon,POKéMON,โปเกมอน,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1564,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0272,global:gText_MenuPokenav,gText_MenuPokenav,POKéNAV,โปเกนาวี,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1566,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0273,global:gText_MenuRest,gText_MenuRest,REST,พัก,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1572,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
-UI0274,global:gText_MenuRetire,gText_MenuRetire,RETIRE,ถอนตัว,translated_pending_qa,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1571,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0270,global:gText_MenuPokedex,gText_MenuPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1563,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0271,global:gText_MenuPokemon,gText_MenuPokemon,POKéMON,โปเกมอน,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1564,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0272,global:gText_MenuPokenav,gText_MenuPokenav,POKéNAV,โปเกนาวี,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1566,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0273,global:gText_MenuRest,gText_MenuRest,REST,พัก,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1572,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
+UI0274,global:gText_MenuRetire,gText_MenuRetire,RETIRE,ถอนตัว,proof_passed,core_ui_label,english,START_SAVE,2,c_u8,src/strings.c,1571,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0275,global:gText_MenuSave,gText_MenuSave,SAVE,บันทึก,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1568,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0276,global:gText_MessageWillBeLost,gText_MessageWillBeLost,"The message will be lost.
 Is that okay?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,604,2,,no,pending_usage_to_window_mapping,pending,
@@ -366,7 +366,7 @@ UI0281,global:gText_MoveMonDescription,gText_MoveMonDescription,"Organize the PO
 in your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,949,2,,no,pending_usage_to_window_mapping,pending,
 UI0282,global:gText_MoveNotLearned,gText_MoveNotLearned,"{STR_VAR_1} did not learn the
 move {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,408,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
-UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,{DPAD_NONE}เลื่อน  {A_BUTTON}ตกลง  {B_BUTTON}กลับ,translated_pending_qa,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,{DPAD_NONE}เลื่อน  {A_BUTTON}ตกลง  {B_BUTTON}กลับ,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0284,global:gText_MovePokemon,gText_MovePokemon,MOVE POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,944,1,,no,pending_usage_to_window_mapping,pending,
 UI0285,global:gText_MoveRelearnerAndPoof,gText_MoveRelearnerAndPoof,"{PAUSE 32}1, {PAUSE 15}2, and {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1862,1,\p;{PAUSE 15};{PAUSE 32};{PLAY_SE SE_BALL_BOUNCE_1},yes,pending_usage_to_window_mapping,pending,
 UI0286,global:gText_MoveRelearnerGiveUp,gText_MoveRelearnerGiveUp,"Give up trying to teach a new
@@ -391,10 +391,10 @@ where?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,231,
 UI0296,global:gText_MovesPPIncreased,gText_MovesPPIncreased,{STR_VAR_1}'s PP increased.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,421,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0297,global:gText_MysteryEventsCantUse,gText_MysteryEventsCantUse,"MYSTERY EVENTS can't be used while
 the Wireless Adapter is attached.","ใช้อีเวนต์ลึกลับไม่ได้
-ขณะต่ออะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+ขณะต่ออะแดปเตอร์ไร้สาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0298,global:gText_MysteryGiftCantUse,gText_MysteryGiftCantUse,"MYSTERY GIFT can't be used while
 the Wireless Adapter is attached.","ใช้ของขวัญลึกลับไม่ได้
-ขณะต่ออะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+ขณะต่ออะแดปเตอร์ไร้สาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,31,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0299,global:gText_NamingScreenKeyboard_01234,gText_NamingScreenKeyboard_01234,{CLEAR 11}0{CLEAR 16}1{CLEAR 16}2{CLEAR 16}3{CLEAR 16}4{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,18,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
 UI0300,global:gText_NamingScreenKeyboard_56789,gText_NamingScreenKeyboard_56789,{CLEAR 11}5{CLEAR 16}6{CLEAR 16}7{CLEAR 16}8{CLEAR 16}9{CLEAR 16}\x20,,not_applicable,technical_not_translatable,nonlinguistic,MAIN_MENU,1,c_u8,src/text_input_strings.c,19,1,{CLEAR 11};{CLEAR 16},yes,pending_usage_to_window_mapping,pending,
 UI0301,global:gText_NamingScreenKeyboard_ABCDEF,gText_NamingScreenKeyboard_ABCDEF,{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 6} {CLEAR 30}.,,pending,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/text_input_strings.c,14,1,{CLEAR 11};{CLEAR 26};{CLEAR 30};{CLEAR 6},yes,pending_usage_to_window_mapping,pending,
@@ -454,7 +454,7 @@ UI0344,global:gText_PCMailboxFull,gText_PCMailboxFull,Your PC's MAILBOX is full.
 UI0345,global:gText_PPWasRestored,gText_PPWasRestored,PP was restored.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,418,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0346,global:gText_PartyFull,gText_PartyFull,Your party is full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,953,1,,no,pending_usage_to_window_mapping,pending,
 UI0347,global:gText_PauseUntilPress,gText_PauseUntilPress,{PAUSE_UNTIL_PRESS},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU,3,c_u8,src/strings.c,478,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0348,global:gText_Peak,gText_Peak,Peak,ยอด,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0348,global:gText_Peak,gText_Peak,Peak,ยอด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0349,global:gText_PeculiarEggNicePlace,gText_PeculiarEggNicePlace,"A peculiar POKéMON EGG
 obtained at the nice place.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,537,2,,no,pending_usage_to_window_mapping,pending,
 UI0350,global:gText_PeculiarEggTrade,gText_PeculiarEggTrade,"A peculiar POKéMON EGG
@@ -533,9 +533,9 @@ UI0387,global:gText_PkmnWasGivenItem,gText_PkmnWasGivenItem,"{STR_VAR_1} was giv
 {STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,395,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0388,global:gText_PkmnWasReleased,gText_PkmnWasReleased,{DYNAMIC 0} was released.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,883,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0389,global:gText_PkmnWokeUp2,gText_PkmnWokeUp2,{STR_VAR_1} woke up.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,415,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,ตั้งชื่อเล่น?,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,ตั้งชื่อเล่น?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0391,global:gText_PlacedItemInBag,gText_PlacedItemInBag,Placed item in the BAG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,897,1,,no,pending_usage_to_window_mapping,pending,
-UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,{PLAYER} บันทึกเกมแล้ว,translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,{PLAYER} บันทึกเกมแล้ว,proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0393,global:gText_PlayerUsedVar2,gText_PlayerUsedVar2,"{PLAYER} used the
 {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,251,2,{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0394,global:gText_PleasePickATheme,gText_PleasePickATheme,Please pick a theme.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,875,1,,no,pending_usage_to_window_mapping,pending,
@@ -583,7 +583,7 @@ UI0430,global:gText_RibbonsVar1,gText_RibbonsVar1,RIBBONS: {STR_VAR_1},,pending,
 UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
 UI0432,global:gText_SafariBallStock,gText_SafariBallStock,"SAFARI BALLS
 Stock: {STR_VAR_1}","SAFARI BALL
-เหลือ {STR_VAR_1}",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+เหลือ {STR_VAR_1}",proof_passed,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0433,global:gText_SafariBalls,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,,pending,core_ui_label,english,BATTLE_UI,1,c_u8,src/battle_message.c,1302,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
 UI0434,global:gText_SafariZoneMenu,gText_SafariZoneMenu,"BALL{CLEAR_TO 56}{POKEBLOCK}
 GO NEAR{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pending_usage_to_window_mapping,pending,
@@ -599,12 +599,12 @@ due to corruption or damage.","ไฟล์บันทึกถูกลบ
 UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,เข็มกลัด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
-ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+ห้ามปิดเครื่อง",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
 UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,ผู้เล่น,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
-UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,โปเกเด็กซ์,translated_pending_qa,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pass,pending,"Phase 5 Batch 1 pilot label. Source geometry, shaping, and width checked."
+UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0443,global:gText_SavingTime,gText_SavingTime,TIME,เวลา,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0444,global:gText_SearchCompleted,gText_SearchCompleted,Search completed.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,121,1,,no,pending_usage_to_window_mapping,pending,
 UI0445,global:gText_SearchForPkmnBasedOnParameters,gText_SearchForPkmnBasedOnParameters,"Search for POKéMON based on
@@ -655,7 +655,7 @@ UI0482,global:gText_Take2,gText_Take2,TAKE,,pending,core_ui_label,english,PARTY_
 UI0483,global:gText_TakeOutItemsFromPC,gText_TakeOutItemsFromPC,Take out items from the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,593,1,,no,pending_usage_to_window_mapping,pending,
 UI0484,global:gText_TeachWhichMoveToPkmn,gText_TeachWhichMoveToPkmn,Teach which move to {STR_VAR_1}?,,pending,core_ui_prompt,english,MOVE_UI,2,c_u8,src/strings.c,1857,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0485,global:gText_TeachWhichPokemon,gText_TeachWhichPokemon,Teach which POKéMON?,,pending,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,434,1,,no,pending_usage_to_window_mapping,pending,
-UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+UI0486,global:gText_TellHimTheWords,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1645,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0487,global:gText_TextSpeed,gText_TextSpeed,TEXT SPEED,ความเร็วข้อความ,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1529,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST,{COLOR GREEN}{SHADOW LIGHT_GREEN}เร็ว,proof_passed,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1538,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0489,global:gText_TextSpeedMid,gText_TextSpeedMid,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,{COLOR GREEN}{SHADOW LIGHT_GREEN}กลาง,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1537,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.

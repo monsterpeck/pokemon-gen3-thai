@@ -123,3 +123,14 @@ Generated from production checkpoint `770548dfe`.
 - Total `proof_passed` inventory entries: 35.
 - Remaining translated entries awaiting runtime proof: 43.
 - ROM rebuild: not required because this checkpoint changes QA metadata only.
+
+## Remaining Core UI gallery QA checkpoint
+
+- ROM 01 prompt gallery pages 01–08: passed.
+- ROM 02 V4 Start Menu and direct Safari/Pyramid cycle: passed without Save-screen refresh.
+- ROM 03 naming-title gallery: passed.
+- Labels `proof_passed`: 52/55.
+- Prompts `proof_passed`: 18/23.
+- Total Core UI pilot proof: 70/78.
+- Remaining visual QA: 8 entries, all accessible from ROM 01 V2.
+- ROM rebuild: not required; this checkpoint changes QA metadata only.
