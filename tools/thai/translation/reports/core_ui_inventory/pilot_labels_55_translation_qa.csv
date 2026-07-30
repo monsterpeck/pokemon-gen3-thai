@@ -25,9 +25,9 @@
 24,UI0210,gText_Frame,OPTION_MENU,FRAME,กรอบ,OPTION_ROW_LABEL,FONT_NORMAL,24,96,,pass,24/96 px,33,not_applicable,pass,pass,proof_passed
 25,UI0211,gText_FrameType,OPTION_MENU,{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE,{COLOR GREEN}{SHADOW LIGHT_GREEN}แบบ,OPTION_FRAME_TYPE,FONT_NORMAL,21,24,,pass,21/24 px,31,pass (31/128 bytes),pass,pass,proof_passed
 26,UI0258,gText_MainMenuContinue,MAIN_MENU,CONTINUE,เล่นต่อ,MAIN_MENU_ENTRY,FONT_NORMAL,31,208,,pass,31/208 px,41,not_applicable,pass,pass,proof_passed
-27,UI0259,gText_MainMenuMysteryEvents,MAIN_MENU,MYSTERY EVENTS,อีเวนต์ลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,56,208,,pass,56/208 px,73,not_applicable,pass,pass,translated_pending_visual_qa
-28,UI0260,gText_MainMenuMysteryGift,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,translated_pending_visual_qa
-29,UI0261,gText_MainMenuMysteryGift2,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,translated_pending_visual_qa
+27,UI0259,gText_MainMenuMysteryEvents,MAIN_MENU,MYSTERY EVENTS,อีเวนต์ลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,56,208,,pass,56/208 px,73,not_applicable,pass,pass,proof_passed
+28,UI0260,gText_MainMenuMysteryGift,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,proof_passed
+29,UI0261,gText_MainMenuMysteryGift2,MAIN_MENU,MYSTERY GIFT,ของขวัญลึกลับ,MAIN_MENU_ENTRY,FONT_NORMAL,61,208,,pass,61/208 px,81,not_applicable,pass,pass,proof_passed
 30,UI0262,gText_MainMenuNewGame,MAIN_MENU,เริ่มเกมส์,เริ่มเกม,MAIN_MENU_ENTRY,FONT_NORMAL,34,208,,pass,34/208 px,49,not_applicable,pass,pass,proof_passed
 31,UI0263,gText_MainMenuOption,MAIN_MENU,OPTION,ตั้งค่า,MAIN_MENU_ENTRY,FONT_NORMAL,23,208,,pass,23/208 px,33,not_applicable,pass,pass,proof_passed
 32,UI0266,gText_MenuBag,START_SAVE,BAG,กระเป๋า,START_MENU_ITEM,FONT_NORMAL,31,48,,pass,31/48 px,49,not_applicable,pass,pass,proof_passed

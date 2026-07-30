@@ -143,3 +143,14 @@ Generated from production checkpoint `770548dfe`.
 - Total Core UI pilot proof: 75/78.
 - Remaining visual QA: 3 Main Menu hidden labels.
 - ROM rebuild: not required; this checkpoint changes QA metadata only.
+
+## Core UI pilot Batch 1 final checkpoint
+
+- Pilot labels: 55/55 `proof_passed`.
+- Pilot prompts: 23/23 `proof_passed`.
+- Total translated pilot entries: 78/78 `proof_passed`.
+- Automated source, shaping, control-code, width, and ROM build checks: passed.
+- Runtime visual QA: passed for every pilot entry.
+- Remaining translated entries awaiting proof: 0.
+- ROM rebuild: not required; this checkpoint changes QA metadata only.
+- This closes Phase 5 Batch 1 only; the remaining Core UI inventory is still pending future batches.
