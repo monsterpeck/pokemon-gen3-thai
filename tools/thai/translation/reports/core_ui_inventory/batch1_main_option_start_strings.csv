@@ -145,20 +145,20 @@ Stock: {STR_VAR_1}","SAFARI BALL
 เหลือ {STR_VAR_1}",proof_passed,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.,pilot_prompt_proof_passed
 UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
 backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
-หน่วยความจำสำรอง",translated_pending_qa,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked.",pilot_prompt_translated_pending_visual_qa
+หน่วยความจำสำรอง",proof_passed,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.,pilot_prompt_proof_passed
 UI0436,global:gText_SaveFileCorrupted,gText_SaveFileCorrupted,"The save file is corrupted. The
 previous save file will be loaded.","ไฟล์บันทึกเสียหาย
-จะโหลดไฟล์ก่อนหน้า",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked.",pilot_prompt_translated_pending_visual_qa
+จะโหลดไฟล์ก่อนหน้า",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.,pilot_prompt_proof_passed
 UI0437,global:gText_SaveFileErased,gText_SaveFileErased,"The save file has been erased
 due to corruption or damage.","ไฟล์บันทึกถูกลบ
-เนื่องจากเสียหาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked.",pilot_prompt_translated_pending_visual_qa
+เนื่องจากเสียหาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.,pilot_prompt_proof_passed
 UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,เข็มกลัด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.,pilot_label_proof_passed
 UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.,pilot_prompt_proof_passed
 UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
-ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked.",pilot_prompt_translated_pending_visual_qa
+ห้ามปิดเครื่อง",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.,pilot_prompt_proof_passed
 UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,ผู้เล่น,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.,pilot_label_proof_passed
 UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.,pilot_label_proof_passed
 UI0443,global:gText_SavingTime,gText_SavingTime,TIME,เวลา,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.,pilot_label_proof_passed
@@ -174,6 +174,6 @@ UI0496,global:gText_ThisIsAPokemon,gText_ThisIsAPokemon,This is what we call a �
 “โปเกมอน”{PAUSE 96}\p",proof_passed,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,106,1,\p;{PAUSE 96},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.,pilot_prompt_proof_passed
 UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
-อะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked.",pilot_prompt_translated_pending_visual_qa
+อะแดปเตอร์ไร้สาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.,pilot_prompt_proof_passed
 UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,ชื่อของเธอ?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.,pilot_prompt_proof_passed
 UI0555,local:src/naming_screen.c:sText_AlphabetUpperLower,sText_AlphabetUpperLower,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!,,pending,core_ui_prompt,english,MAIN_MENU,2,c_u8,src/naming_screen.c,198,1,,no,pending_usage_to_window_mapping,pending,,ready_for_constraint_mapping

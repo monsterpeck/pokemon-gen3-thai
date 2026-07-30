@@ -41,23 +41,23 @@ Stock: {STR_VAR_1}","SAFARI BALL
 เหลือ {STR_VAR_1}",SAFARI_STOCK,72,63|44,18,pass,\n|{STR_VAR_1},\n|{STR_VAR_1},pass,pass,pass,proof_passed
 15,UI0435,gText_SaveError,data/text/save.inc,"Save error.\pPlease exchange the
 backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
-หน่วยความจำสำรอง",STANDARD_MESSAGE_BOX,216,68|55|86,0,pass,\p|\n,\p|\n,pass,pass,pass,translated_pending_visual_qa
+หน่วยความจำสำรอง",STANDARD_MESSAGE_BOX,216,68|55|86,0,pass,\p|\n,\p|\n,pass,pass,pass,proof_passed
 16,UI0436,gText_SaveFileCorrupted,src/strings.c,"The save file is corrupted. The
 previous save file will be loaded.","ไฟล์บันทึกเสียหาย
-จะโหลดไฟล์ก่อนหน้า",MAIN_MENU_ERROR,208,83|95,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+จะโหลดไฟล์ก่อนหน้า",MAIN_MENU_ERROR,208,83|95,0,pass,\n,\n,pass,pass,pass,proof_passed
 17,UI0437,gText_SaveFileErased,src/strings.c,"The save file has been erased
 due to corruption or damage.","ไฟล์บันทึกถูกลบ
-เนื่องจากเสียหาย",MAIN_MENU_ERROR,208,75|71,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+เนื่องจากเสียหาย",MAIN_MENU_ERROR,208,75|71,0,pass,\n,\n,pass,pass,pass,proof_passed
 18,UI0439,gText_SavingDontTurnOff,data/text/save.inc,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",STANDARD_MESSAGE_BOX,216,56|59,0,pass,\n,\n,pass,pass,pass,proof_passed
 19,UI0440,gText_SavingDontTurnOffPower,data/text/save.inc,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
-ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,208,56|59,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,208,56|59,0,pass,\n,\n,pass,pass,pass,proof_passed
 20,UI0486,gText_TellHimTheWords,src/strings.c,Tell him the words.,บอกคำให้เขา,NAMING_TITLE,128,57,0,pass,,,pass,pass,pass,proof_passed
 21,UI0496,gText_ThisIsAPokemon,src/strings.c,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
 “โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,216,83|55|0,0,pass,{PAUSE 96}|\p,\n|{PAUSE 96}|\p,pass,pass,pass,proof_passed
 22,UI0533,gText_WirelessNotConnected,src/strings.c,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
-อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,62|81,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,62|81,0,pass,\n,\n,pass,pass,pass,proof_passed
 23,UI0551,gText_YourName,src/strings.c,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,128,50,0,pass,,,pass,pass,pass,proof_passed

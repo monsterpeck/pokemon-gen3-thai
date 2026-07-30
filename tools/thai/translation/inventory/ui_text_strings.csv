@@ -589,20 +589,20 @@ UI0434,global:gText_SafariZoneMenu,gText_SafariZoneMenu,"BALL{CLEAR_TO 56}{POKEB
 GO NEAR{CLEAR_TO 56}RUN",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pending_usage_to_window_mapping,pending,
 UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
 backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
-หน่วยความจำสำรอง",translated_pending_qa,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+หน่วยความจำสำรอง",proof_passed,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
 UI0436,global:gText_SaveFileCorrupted,gText_SaveFileCorrupted,"The save file is corrupted. The
 previous save file will be loaded.","ไฟล์บันทึกเสียหาย
-จะโหลดไฟล์ก่อนหน้า",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+จะโหลดไฟล์ก่อนหน้า",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,35,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
 UI0437,global:gText_SaveFileErased,gText_SaveFileErased,"The save file has been erased
 due to corruption or damage.","ไฟล์บันทึกถูกลบ
-เนื่องจากเสียหาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+เนื่องจากเสียหาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,36,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
 UI0438,global:gText_SavingBadges,gText_SavingBadges,BADGES,เข็มกลัด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1695,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0439,global:gText_SavingDontTurnOff,gText_SavingDontTurnOff,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,9,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0440,global:gText_SavingDontTurnOffPower,gText_SavingDontTurnOffPower,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
-ห้ามปิดเครื่อง",translated_pending_qa,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+ห้ามปิดเครื่อง",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,31,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
 UI0441,global:gText_SavingPlayer,gText_SavingPlayer,PLAYER,ผู้เล่น,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1694,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0442,global:gText_SavingPokedex,gText_SavingPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1696,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0443,global:gText_SavingTime,gText_SavingTime,TIME,เวลา,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1697,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -725,7 +725,7 @@ UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should 
 UI0532,global:gText_WhichOneWillYouTake,gText_WhichOneWillYouTake,Which one will you take?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,889,1,,no,pending_usage_to_window_mapping,pending,
 UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
-อะแดปเตอร์ไร้สาย",translated_pending_qa,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pass,pending,"Phase 5 Batch 1 pilot prompt. Source, shaping, controls, and width checked."
+อะแดปเตอร์ไร้สาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,30,2,,no,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
 UI0534,global:gText_WithdrawHowManyItems,gText_WithdrawHowManyItems,"Withdraw how many
 {STR_VAR_1}(s)?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,597,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0535,global:gText_WithdrawItem,gText_WithdrawItem,WITHDRAW ITEM,,pending,core_ui_label,english,PC_STORAGE,2,c_u8,src/strings.c,590,1,,no,pending_usage_to_window_mapping,pending,

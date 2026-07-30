@@ -134,3 +134,12 @@ Generated from production checkpoint `770548dfe`.
 - Total Core UI pilot proof: 70/78.
 - Remaining visual QA: 8 entries, all accessible from ROM 01 V2.
 - ROM rebuild: not required; this checkpoint changes QA metadata only.
+
+## Final prompt gallery visual QA
+
+- Prompt gallery pages 09–13: passed.
+- Pilot prompts: 23/23 `proof_passed`.
+- Pilot labels: 52/55 `proof_passed`.
+- Total Core UI pilot proof: 75/78.
+- Remaining visual QA: 3 Main Menu hidden labels.
+- ROM rebuild: not required; this checkpoint changes QA metadata only.

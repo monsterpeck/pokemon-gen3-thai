@@ -41,23 +41,23 @@ Stock: {STR_VAR_1}","SAFARI BALL
 เหลือ {STR_VAR_1}",SAFARI_STOCK,Open Start Menu inside Safari Zone.,pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 02 Safari Ball gallery screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 15,START_SAVE,gText_SaveError,"Save error.\pPlease exchange the
 backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
-หน่วยความจำสำรอง",STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,,,pending,
+หน่วยความจำสำรอง",STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 V2 prompt gallery page 09; user explicitly confirmed all message pages displayed completely. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 16,MAIN_MENU,gText_SaveFileCorrupted,"The save file is corrupted. The
 previous save file will be loaded.","ไฟล์บันทึกเสียหาย
-จะโหลดไฟล์ก่อนหน้า",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",,,pending,
+จะโหลดไฟล์ก่อนหน้า",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 V2 prompt gallery page 10 screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 17,MAIN_MENU,gText_SaveFileErased,"The save file has been erased
 due to corruption or damage.","ไฟล์บันทึกถูกลบ
-เนื่องจากเสียหาย",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",,,pending,
+เนื่องจากเสียหาย",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 V2 prompt gallery page 11 screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 18,START_SAVE,gText_SavingDontTurnOff,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 prompt gallery page 02 screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 19,START_SAVE,gText_SavingDontTurnOffPower,"SAVING…
 DON'T TURN OFF THE POWER.","กำลังบันทึก…
-ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,Trigger save after link battle.,,,pending,
+ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,Trigger save after link battle.,pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 V2 prompt gallery page 12 screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 20,MAIN_MENU,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 03 naming-title gallery screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 21,MAIN_MENU,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
 “โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,Start New Game and inspect Birch speech pages.,pass,pass,proof_passed,"User-confirmed runtime evidence: New Game introduction screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."
 22,MAIN_MENU,gText_WirelessNotConnected,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
-อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",,,pending,
+อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",pass,pass,proof_passed,"User-confirmed runtime evidence: ROM 01 V2 prompt gallery page 13 screenshot. Text displayed completely and readably with no clipping, overflow, overlapping Thai marks, or broken glyphs."
 23,MAIN_MENU,gText_YourName,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",pass,pass,proof_passed,"User-confirmed runtime evidence: Player naming-screen screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."
