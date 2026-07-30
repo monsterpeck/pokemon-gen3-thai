@@ -177,23 +177,19 @@ Inventory status after this checkpoint:
 
 ## Phase 5 Batch 2B — Party Menu Prompts
 
-- Party prompts translated: 49/49.
-- Fixed prompts: 40/40.
-- Dynamic/control-token prompts: 9/9.
-- Exact source definitions: 49/49 passed.
-- Placeholder/control tokens: 9/9 preserved.
-- Thai precompose shaping: 49/49 passed.
-- Runtime width profiles: 49/49 passed.
-- Normal ROM build: passed.
-- Build ROM SHA-256: `bbc18a401f28a6d86fbf3fda0ebf4318989ff305adf1c5aaeeaec282b4858cd9`.
-- Runtime visual QA: pending 49/49.
-- Wording refined after source-context review: `gText_ReturnToHealingSpot` and `gText_TeachWhichPokemon`.
-- This checkpoint does not complete Phase 5 or the full Party Menu inventory.
+- Party prompts: 49/49 `proof_passed`.
+- Dynamic/control-token prompts: 9/9 passed.
+- Runtime gallery: 14/14 pages passed.
+- Full-message renderer origin corrected from x=0 to x=1.
+- Full-message effective width: 223 px.
+- Normal ROM build after correction: passed.
+- Final ROM SHA-256: `9781d48c2f86d132f4c61155c946674a15b1222c1bc4973c7b9b7ac3c36fc9b1`.
+- Deferred Party/Summary stat terms: 9 unchanged.
+- This closes Party Menu Batch 2B only; Phase 5 remains in progress.
 
 Inventory status after this checkpoint:
 
 - `pending`: 361
-- `translated_pending_qa`: 49
-- `proof_passed`: 104
+- `proof_passed`: 153
 - `not_applicable`: 53
 - `deferred_story`: 7

@@ -2567,7 +2567,8 @@ static void PrintMessage(const u8 *text)
 {
     DrawStdFrameWithCustomTileAndPalette(WIN_MSG, FALSE, 0x4F, 13);
     gTextFlags.canABSpeedUpPrint = TRUE;
-    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, text, GetPlayerTextSpeedDelay(), 0, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    gTextFlags.useAlternateDownArrow = 0;
+    AddTextPrinterParameterized4(WIN_MSG, FONT_NORMAL, 1, 1, 0, 0, sFontColorTable[3], GetPlayerTextSpeedDelay(), text);
 }
 
 static void PartyMenuDisplayYesNoMenu(void)

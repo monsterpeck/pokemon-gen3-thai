@@ -1,33 +1,28 @@
 # Phase 5 Batch 2B — Party Menu Prompts
 
-Source checkpoint: `2c40f2f0b` on `work/core-ui-inventory`.
+Translation input checkpoint: `9126a0a24` on `work/core-ui-inventory`.
 
-## Applied translations
+## Final status
 
-- Party prompts: 49/49.
+- Party prompts: 49/49 `proof_passed`.
 - Fixed prompts: 40/40.
 - Dynamic/control-token prompts: 9/9.
-- Multiline prompts: 15.
-- Move names `SURF` and `CUT` remain English.
-- Dynamic item and move names remain English at runtime.
-- Refined after final source-context review: `gText_ReturnToHealingSpot` and `gText_TeachWhichPokemon`.
+- Runtime gallery screenshots: 14/14 pages passed.
+- Runtime profiles: 8/8 passed.
+- Thai shaping and width checks: 49/49 passed.
+- Normal ROM build after renderer correction: passed.
+- Final ROM SHA-256: `9781d48c2f86d132f4c61155c946674a15b1222c1bc4973c7b9b7ac3c36fc9b1`.
 
-## Automated QA
+## Renderer correction
 
-- Exact source definitions matched: 49/49.
-- Placeholder/control tokens preserved: 9/9.
-- Thai precompose shaping: 49/49 passed.
-- Runtime width profiles: 49/49 passed.
-- Widest expanded line: `gText_ReturnToHealingSpot` at 154/224 px.
+The 20 full-message prompts clipped the first Thai glyph at x=0. `PrintMessage` now starts at x=1 while preserving y=1, text speed, NULL callback, zero spacing, the original white/dark-gray/light-gray colors, and the alternate-down-arrow reset. The effective full-message text width is 223 px.
+
+## Final width evidence
+
+- Widest expanded line: `gText_ReturnToHealingSpot` at 154/223 px.
 - Tightest margin: `gText_NotAble2` with 5 px remaining.
-- Normal ROM build: passed.
-- Source SHA-256: `c970ef19fdd10e618325b8f170604236caa4eb86e566e77ef9c6598819893059`.
-- ROM SHA-256: `bbc18a401f28a6d86fbf3fda0ebf4318989ff305adf1c5aaeeaec282b4858cd9`.
-- Reviewed archive SHA-256: `ecc691a04dcf1777859ed0731b315b532c57027e60b4c9ab135c7c0f2bcf039d`.
-
-## Status
-
-All 49 entries are `translated_pending_qa`. Runtime visual evidence is required before any entry is changed to `proof_passed`.
+- V3 pages 01-07 passed and are unaffected by the full-message renderer correction.
+- V5 pages 08-14 passed with the exact x=1 candidate used by the final source.
 
 ## Shaper verification
 

@@ -1,0 +1,2 @@
+﻿source_file,function,previous_renderer,final_renderer,previous_origin_px,final_origin_px,previous_effective_width_px,final_effective_width_px,preserved_text_speed,preserved_callback,preserved_spacing,preserved_colors,alternate_down_arrow_reset,normal_rom_build,runtime_visual_pages,runtime_result,status
+src/party_menu.c,PrintMessage,AddTextPrinterParameterized2,AddTextPrinterParameterized4,"0,1","1,1",224,223,yes,NULL,"0,0",sFontColorTable[3] = white/dark-gray/light-gray,explicit,pass,8-14,pass,proof_passed
