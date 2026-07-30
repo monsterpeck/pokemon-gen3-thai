@@ -1,0 +1,10 @@
+﻿ui_id,symbol,source_text,ui_areas,constraint_profiles,recommended_wave,translation_status,mapping_note
+UI0012,gText_Attack3,ATTACK,PARTY_MENU;SUMMARY,PM_STAT_DYNAMIC_VAR2_DEPENDENCY;SUMMARY_STAT_LABEL_PENDING,defer_shared_stat_term,pending,Lock one Thai stat term after Summary geometry and expanded Party system-message review.
+UI0130,gText_Defense3,DEFENSE,PARTY_MENU;SUMMARY,PM_STAT_DYNAMIC_VAR2_DEPENDENCY;SUMMARY_STAT_LABEL_PENDING,defer_shared_stat_term,pending,Lock one Thai stat term after Summary geometry and expanded Party system-message review.
+UI0218,gText_HP3,HP,PARTY_MENU,PM_STAT_DYNAMIC_VAR2_DEPENDENCY,defer_party_2c_dependency,pending,No standalone Party label rendering; translate with expanded Party system messages.
+UI0219,gText_HP4,HP,PARTY_MENU;SUMMARY,SUMMARY_STAT_LABEL_PENDING;PM_UNUSED_STAT_TABLE_REFERENCE,defer_summary,pending,Party reference is unused-only; map and translate in Pokémon Summary batch.
+UI0465,gText_SpAtk3,SP. ATK,PARTY_MENU,PM_STAT_DYNAMIC_VAR2_DEPENDENCY,defer_party_2c_dependency,pending,No standalone Party label rendering; translate with expanded Party system messages.
+UI0466,gText_SpAtk4,SP. ATK,PARTY_MENU;SUMMARY,SUMMARY_STAT_LABEL_PENDING;PM_UNUSED_STAT_TABLE_REFERENCE,defer_summary,pending,Party reference is unused-only; map and translate in Pokémon Summary batch.
+UI0467,gText_SpDef3,SP. DEF,PARTY_MENU,PM_STAT_DYNAMIC_VAR2_DEPENDENCY,defer_party_2c_dependency,pending,No standalone Party label rendering; translate with expanded Party system messages.
+UI0468,gText_SpDef4,SP. DEF,PARTY_MENU;SUMMARY,SUMMARY_STAT_LABEL_PENDING;PM_UNUSED_STAT_TABLE_REFERENCE,defer_summary,pending,Party reference is unused-only; map and translate in Pokémon Summary batch.
+UI0470,gText_Speed2,SPEED,PARTY_MENU;SUMMARY,PM_STAT_DYNAMIC_VAR2_DEPENDENCY;SUMMARY_STAT_LABEL_PENDING,defer_shared_stat_term,pending,Lock one Thai stat term after Summary geometry and expanded Party system-message review.
