@@ -34,3 +34,14 @@ Start-game       : เ | ริ่ | ม | เ | ก | ม | ส์
 Total advance    : 40
 RESULT: PRECOMPOSE SHAPER CHECK PASSED
 ```
+
+## Runtime visual QA
+
+- User-confirmed screenshots reviewed: 6/6 gallery pages.
+- Description profiles: 10/10 passed at exact 64 px.
+- Action profiles: 15/15 passed with 8 px cursor and 72 px text region.
+- Cancel profiles: 3/3 passed, covering both `gText_Cancel` and `gText_Cancel2` in FONT_SMALL and FONT_NORMAL layouts.
+- Total visual profiles: 28/28 passed.
+- Unique symbols: 26/26 `proof_passed`.
+- `gText_NotAble` was visually confirmed in its tightest 64 px description constraint.
+- The black/blank regions outside the test windows are part of the QA harness and are not game-text rendering defects.

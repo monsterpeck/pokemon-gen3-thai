@@ -162,16 +162,15 @@ Generated from production checkpoint `770548dfe`.
 - Thai precompose shaping: 26/26 passed.
 - Width constraints: 26/26 passed.
 - Normal ROM build: passed.
-- Build ROM SHA-256: `8cadd3344b72fc456fed82fe431957780fb4e43c0a4338aaa9636f11110b6f61`.
-- Runtime visual QA: pending.
+- Runtime visual QA gallery: 6/6 pages passed.
+- Visual profiles reviewed: 28/28.
+- Batch 2A entries: 26/26 `proof_passed`.
 - Deferred Party/Summary stat terms: 9 unchanged.
-- Shared `CANCEL` symbols remain pending cross-screen visual QA.
-- This checkpoint does not complete Phase 5 or the full Party Menu inventory.
+- This closes Party Menu Batch 2A only; Phase 5 and the full Party Menu inventory remain in progress.
 
 Inventory status after this checkpoint:
 
 - `pending`: 410
-- `translated_pending_qa`: 26
-- `proof_passed`: 78
+- `proof_passed`: 104
 - `not_applicable`: 53
 - `deferred_story`: 7
