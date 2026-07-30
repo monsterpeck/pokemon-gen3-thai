@@ -1,0 +1,96 @@
+﻿ui_id,symbol,target_text_th,test_values,expanded_test_text,expanded_line_widths_px,hard_width_px,remaining_px,test_result
+UI0001,gText_12PoofForgotMove,"1, {PAUSE 15}2 แล้วก็{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!\p{STR_VAR_1} ลืมวิธีใช้
+{STR_VAR_2} ไปแล้ว\pแล้วก็…{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","1, {PAUSE 15}2 แล้วก็{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!\pWWWWWWWWWW ลืมวิธีใช้
+WWWWWWWWWWWW ไปแล้ว\pแล้วก็…{PAUSE_UNTIL_PRESS}",98;100;107;31,223,116,pass
+UI0065,gText_CantSwitchWithAlly,"สลับโปเกมอนของ {STR_VAR_1}
+กับของคุณไม่ได้!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","สลับโปเกมอนของ WWWWWWWWWW
+กับของคุณไม่ได้!{PAUSE_UNTIL_PRESS}",141;76,223,82,pass
+UI0240,gText_ItemThrownAway,"ทิ้ง {STR_VAR_1}
+ไปแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWWWWWW""}","ทิ้ง WWWWWWWWWWWWWW
+ไปแล้ว{PAUSE_UNTIL_PRESS}",99;32,223,124,pass
+UI0282,gText_MoveNotLearned,"{STR_VAR_1} ไม่ได้เรียนรู้
+{STR_VAR_2}{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW ไม่ได้เรียนรู้
+WWWWWWWWWWWW{PAUSE_UNTIL_PRESS}",118;72,223,105,pass
+UI0296,gText_MovesPPIncreased,PP ของ {STR_VAR_1} เพิ่มขึ้น{PAUSE_UNTIL_PRESS},"{""STR_VAR_1"": ""WWWWWWWWWWWW""}",PP ของ WWWWWWWWWWWW เพิ่มขึ้น{PAUSE_UNTIL_PRESS},144,223,79,pass
+UI0318,gText_NoMoreThanVar1Pkmn,"ส่งโปเกมอนเข้าร่วมได้
+ไม่เกิน {STR_VAR_1} ตัว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""6""}","ส่งโปเกมอนเข้าร่วมได้
+ไม่เกิน 6 ตัว{PAUSE_UNTIL_PRESS}",98;56,223,125,pass
+UI0352,gText_PkmnAdoresBaseVar2Fell,"{STR_VAR_1} รักคุณมาก!
+ค่า {STR_VAR_2} พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWW""}","WWWWWWWWWW รักคุณมาก!
+ค่า WWWWWWWW พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",112;126,223,97,pass
+UI0353,gText_PkmnAlreadyHoldingItemSwitch,"{STR_VAR_1} ถือ
+{STR_VAR_2} อยู่แล้ว\pต้องการสลับไอเทม
+ทั้งสองชิ้นไหม?","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWWWW""}","WWWWWWWWWW ถือ
+WWWWWWWWWWWWWW อยู่แล้ว\pต้องการสลับไอเทม
+ทั้งสองชิ้นไหม?",75;118;81;69,223,105,pass
+UI0354,gText_PkmnAlreadyInBattle,"{STR_VAR_1} กำลัง
+ต่อสู้อยู่แล้ว!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW กำลัง
+ต่อสู้อยู่แล้ว!{PAUSE_UNTIL_PRESS}",83;54,223,140,pass
+UI0355,gText_PkmnAlreadyKnows,"{STR_VAR_1} รู้จักท่า
+{STR_VAR_2} อยู่แล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW รู้จักท่า
+WWWWWWWWWWWW อยู่แล้ว{PAUSE_UNTIL_PRESS}",91;106,223,117,pass
+UI0356,gText_PkmnAlreadySelected,"เลือก {STR_VAR_1}
+ไว้แล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","เลือก WWWWWWWWWW
+ไว้แล้ว{PAUSE_UNTIL_PRESS}",85;31,223,138,pass
+UI0357,gText_PkmnBaseVar2StatIncreased,"ค่า {STR_VAR_2} พื้นฐานของ
+{STR_VAR_1} เพิ่มขึ้น!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWW""}","ค่า WWWWWWWW พื้นฐานของ
+WWWWWWWWWW เพิ่มขึ้น!{PAUSE_UNTIL_PRESS}",115;102,223,108,pass
+UI0358,gText_PkmnBecameHealthy,{STR_VAR_1} หายเป็นปกติแล้ว{PAUSE_UNTIL_PRESS},"{""STR_VAR_1"": ""WWWWWWWWWW""}",WWWWWWWWWW หายเป็นปกติแล้ว{PAUSE_UNTIL_PRESS},138,223,85,pass
+UI0359,gText_PkmnBurnHealed,"{STR_VAR_1} หายจาก
+อาการไหม้แล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+อาการไหม้แล้ว{PAUSE_UNTIL_PRESS}",96;64,223,127,pass
+UI0362,gText_PkmnCantLearnMove,"{STR_VAR_1} กับ {STR_VAR_2}
+เข้ากันไม่ได้\pจึงเรียนรู้
+{STR_VAR_2} ไม่ได้{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW กับ WWWWWWWWWWWW
+เข้ากันไม่ได้\pจึงเรียนรู้
+WWWWWWWWWWWW ไม่ได้{PAUSE_UNTIL_PRESS}",151;54;39;101,223,72,pass
+UI0364,gText_PkmnCantSwitchOut,"สลับ {STR_VAR_1}
+ออกไม่ได้!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","สลับ WWWWWWWWWW
+ออกไม่ได้!{PAUSE_UNTIL_PRESS}",82;48,223,141,pass
+UI0365,gText_PkmnCuredOfParalysis,"{STR_VAR_1} หายจาก
+อาการอัมพาตแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+อาการอัมพาตแล้ว{PAUSE_UNTIL_PRESS}",96;76,223,127,pass
+UI0366,gText_PkmnCuredOfPoison,"{STR_VAR_1} หายจาก
+พิษแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+พิษแล้ว{PAUSE_UNTIL_PRESS}",96;35,223,127,pass
+UI0368,gText_PkmnFriendlyBaseVar2CantFall,"{STR_VAR_1} สนิทกับคุณขึ้น
+ค่า {STR_VAR_2} พื้นฐานลดลงไม่ได้!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWW""}","WWWWWWWWWW สนิทกับคุณขึ้น
+ค่า WWWWWWWW พื้นฐานลดลงไม่ได้!{PAUSE_UNTIL_PRESS}",130;152,223,71,pass
+UI0369,gText_PkmnFriendlyBaseVar2Fell,"{STR_VAR_1} สนิทกับคุณขึ้น
+ค่า {STR_VAR_2} พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWW""}","WWWWWWWWWW สนิทกับคุณขึ้น
+ค่า WWWWWWWW พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",130;126,223,93,pass
+UI0370,gText_PkmnGotOverInfatuation,"{STR_VAR_1} หายจาก
+อาการหลงรักแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+อาการหลงรักแล้ว{PAUSE_UNTIL_PRESS}",96;72,223,127,pass
+UI0371,gText_PkmnHPRestoredByVar2,"HP ของ {STR_VAR_1} ฟื้นขึ้น
+{STR_VAR_2} หน่วย{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""999""}","HP ของ WWWWWWWWWW ฟื้นขึ้น
+999 หน่วย{PAUSE_UNTIL_PRESS}",129;48,223,94,pass
+UI0372,gText_PkmnHasNoEnergy,"{STR_VAR_1} ไม่มีแรง
+ต่อสู้แล้ว!{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW ไม่มีแรง
+ต่อสู้แล้ว!{PAUSE_UNTIL_PRESS}",99;42,223,124,pass
+UI0377,gText_PkmnNeedsToReplaceMove,"{STR_VAR_1} อยากเรียนรู้
+{STR_VAR_2}\pแต่ {STR_VAR_1} รู้จักท่า
+ครบสี่ท่าแล้ว\pจะลบท่าหนึ่งแล้วแทนด้วย
+{STR_VAR_2} ไหม?","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW อยากเรียนรู้
+WWWWWWWWWWWW\pแต่ WWWWWWWWWW รู้จักท่า
+ครบสี่ท่าแล้ว\pจะลบท่าหนึ่งแล้วแทนด้วย
+WWWWWWWWWWWW ไหม?",114;72;108;55;114;101,223,109,pass
+UI0378,gText_PkmnNotHolding,"{STR_VAR_1} ไม่ได้ถือ
+อะไรอยู่{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW ไม่ได้ถือ
+อะไรอยู่{PAUSE_UNTIL_PRESS}",101;34,223,122,pass
+UI0380,gText_PkmnSnappedOutOfConfusion,"{STR_VAR_1} หายจาก
+อาการสับสนแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+อาการสับสนแล้ว{PAUSE_UNTIL_PRESS}",96;71,223,127,pass
+UI0381,gText_PkmnThawedOut,"{STR_VAR_1} หายจาก
+อาการแช่แข็งแล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW""}","WWWWWWWWWW หายจาก
+อาการแช่แข็งแล้ว{PAUSE_UNTIL_PRESS}",96;74,223,127,pass
+UI0387,gText_PkmnWasGivenItem,"ให้ {STR_VAR_1} ถือ
+{STR_VAR_2} แล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWWWW""}","ให้ WWWWWWWWWW ถือ
+WWWWWWWWWWWWWW แล้ว{PAUSE_UNTIL_PRESS}",91;106,223,117,pass
+UI0389,gText_PkmnWokeUp2,{STR_VAR_1} ตื่นแล้ว{PAUSE_UNTIL_PRESS},"{""STR_VAR_1"": ""WWWWWWWWWW""}",WWWWWWWWWW ตื่นแล้ว{PAUSE_UNTIL_PRESS},97,223,126,pass
+UI0418,gText_ReceivedItemFromPkmn,"รับ {STR_VAR_2}
+คืนจาก {STR_VAR_1} แล้ว{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWWWW""}","รับ WWWWWWWWWWWWWW
+คืนจาก WWWWWWWWWW แล้ว{PAUSE_UNTIL_PRESS}",99;116,223,107,pass
+UI0479,gText_SwitchedPkmnItem,"เอา {STR_VAR_2} ออกแล้ว
+เปลี่ยนเป็น {STR_VAR_1}{PAUSE_UNTIL_PRESS}","{""STR_VAR_1"": ""WWWWWWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWWWW""}","เอา WWWWWWWWWWWWWW ออกแล้ว
+เปลี่ยนเป็น WWWWWWWWWWWWWW{PAUSE_UNTIL_PRESS}",141;137,223,82,pass

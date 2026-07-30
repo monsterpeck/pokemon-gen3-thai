@@ -1,6 +1,7 @@
 ﻿ui_id,ui_key,symbol,current_text,target_text_th,translation_status,scope_class,current_language,ui_areas,usage_count,definition_kind,source_file,source_line,line_count,control_codes,has_placeholders,width_constraint_status,visual_qa_status,translator_note
 UI0001,global:gText_12PoofForgotMove,gText_12PoofForgotMove,"1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p{STR_VAR_1} forgot how to
-use {STR_VAR_2}.\pAnd…{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,410,2,\p;{PAUSE 15};{PAUSE_UNTIL_PRESS};{PLAY_SE SE_BALL_BOUNCE_1};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+use {STR_VAR_2}.\pAnd…{PAUSE_UNTIL_PRESS}","1, {PAUSE 15}2 แล้วก็{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!\p{STR_VAR_1} ลืมวิธีใช้
+{STR_VAR_2} ไปแล้ว\pแล้วก็…{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,410,2,\p;{PAUSE 15};{PAUSE_UNTIL_PRESS};{PLAY_SE SE_BALL_BOUNCE_1};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0002,global:gText_5MarksPokemon,gText_5MarksPokemon,????? POKéMON,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,107,1,,no,pending_usage_to_window_mapping,pending,
 UI0003,global:gText_Able,gText_Able,ABLE,เข้าร่วมได้,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,459,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D01).
 UI0004,global:gText_Able2,gText_Able2,ABLE,เข้าร่วมได้,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,463,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D02).
@@ -18,7 +19,8 @@ you with?",,pending,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,p
 UI0011,global:gText_Appeal,gText_Appeal,APPEAL,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,509,1,,no,pending_usage_to_window_mapping,pending,
 UI0012,global:gText_Attack3,gText_Attack3,ATTACK,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,497,1,,no,pending_usage_to_window_mapping,pending,
 UI0013,global:gText_BagFullCouldNotRemoveItem,gText_BagFullCouldNotRemoveItem,"The BAG is full. The POKéMON's
-item could not be removed.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,403,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+item could not be removed.{PAUSE_UNTIL_PRESS}","กระเป๋าเต็ม จึงเอาไอเทม
+ออกจากโปเกมอนไม่ได้{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,403,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0014,global:gText_BagIsFull,gText_BagIsFull,The BAG is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,605,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0015,global:gText_BagIsFull2,gText_BagIsFull2,The BAG is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,898,1,,no,pending_usage_to_window_mapping,pending,
 UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has run dry.
@@ -101,13 +103,15 @@ can't be stored in
 the PC!",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,237,3,,no,pending_usage_to_window_mapping,pending,
 UI0064,global:gText_CantSurfHere,gText_CantSurfHere,You can't SURF here.,ใช้ SURF ที่นี่ไม่ได้,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,439,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0065,global:gText_CantSwitchWithAlly,gText_CantSwitchWithAlly,"You can't switch {STR_VAR_1}'s
-POKéMON with one of yours!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,386,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+POKéMON with one of yours!{PAUSE_UNTIL_PRESS}","สลับโปเกมอนของ {STR_VAR_1}
+กับของคุณไม่ได้!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,386,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0066,global:gText_CantTradeWithTrainer,gText_CantTradeWithTrainer,"You can't trade with that
 TRAINER now.","ตอนนี้แลกเปลี่ยนกับ
 เทรนเนอร์คนนั้นไม่ได้",proof_passed,core_ui_prompt,english,PARTY_MENU,2,c_u8,src/strings.c,491,2,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0067,global:gText_CantUseHere,gText_CantUseHere,Can't use that here.,ใช้ที่นี่ไม่ได้,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,441,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0068,global:gText_CantUseUntilNewBadge,gText_CantUseUntilNewBadge,"This can't be used until a new
-BADGE is obtained.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,388,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+BADGE is obtained.{PAUSE_UNTIL_PRESS}","ยังใช้ไม่ได้จนกว่าจะได้
+แบดจ์ใหม่{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,388,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0069,global:gText_CantWriteMail,gText_CantWriteMail,"You can't write
 MAIL here.",,pending,core_ui_prompt,english,BAG,3,c_u8,src/strings.c,229,2,,no,pending_usage_to_window_mapping,pending,
 UI0070,global:gText_ChangedToNewItem,gText_ChangedToNewItem,Changed to {DYNAMIC 0}.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,901,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
@@ -240,7 +244,7 @@ UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this 
 UI0179,global:gText_DontHave,gText_DontHave,DON'T HAVE,ไม่มี,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,469,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D05).
 UI0180,global:gText_EggAboutToHatch,gText_EggAboutToHatch,"It's making sounds.
 It's about to hatch!",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,526,2,,no,pending_usage_to_window_mapping,pending,
-UI0181,global:gText_EggCantBattle,gText_EggCantBattle,An EGG can't battle!{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,387,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0181,global:gText_EggCantBattle,gText_EggCantBattle,An EGG can't battle!{PAUSE_UNTIL_PRESS},ไข่ต่อสู้ไม่ได้!{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,387,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0182,global:gText_EggCantBeTradedNow,gText_EggCantBeTradedNow,An EGG can't be traded now.,ตอนนี้แลกเปลี่ยนไข่ไม่ได้,proof_passed,core_ui_prompt,english,PARTY_MENU,3,c_u8,src/strings.c,485,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0183,global:gText_EggFromHotSprings,gText_EggFromHotSprings,"A POKéMON EGG obtained
 at the hot springs.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,539,2,,no,pending_usage_to_window_mapping,pending,
@@ -315,7 +319,8 @@ The ITEMFINDER's shaking wildly!{PAUSE_UNTIL_PRESS}",,pending,system_message,eng
 UI0238,global:gText_ItemIsNowHeld,gText_ItemIsNowHeld,{DYNAMIC 0} is now held.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,900,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0239,global:gText_ItemStorage,gText_ItemStorage,ITEM STORAGE,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,587,1,,no,pending_usage_to_window_mapping,pending,
 UI0240,global:gText_ItemThrownAway,gText_ItemThrownAway,"The {STR_VAR_1}
-was thrown away.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,430,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+was thrown away.{PAUSE_UNTIL_PRESS}","ทิ้ง {STR_VAR_1}
+ไปแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,430,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0241,global:gText_Jam,gText_Jam,JAM,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,510,1,,no,pending_usage_to_window_mapping,pending,
 UI0242,global:gText_JumpToWhichBox,gText_JumpToWhichBox,Jump to which BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,878,1,,no,pending_usage_to_window_mapping,pending,
 UI0243,global:gText_JustOnePkmn,gText_JustOnePkmn,There is just one POKéMON with you.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,952,1,,no,pending_usage_to_window_mapping,pending,
@@ -333,13 +338,15 @@ UI0251,global:gText_MailCantBeStored,gText_MailCantBeStored,MAIL can't be stored
 UI0252,global:gText_MailMessageWillBeLost,gText_MailMessageWillBeLost,"If the MAIL is removed, the
 message will be lost. Okay?","ถ้าเอาจดหมายออก
 ข้อความจะหาย ตกลง?",proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,393,2,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
-UI0253,global:gText_MailSentToPC,gText_MailSentToPC,The MAIL was sent to your PC.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,391,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0253,global:gText_MailSentToPC,gText_MailSentToPC,The MAIL was sent to your PC.{PAUSE_UNTIL_PRESS},ส่งจดหมายไปยัง PC แล้ว{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,391,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0254,global:gText_MailTakenFromPkmn,gText_MailTakenFromPkmn,"MAIL was taken from the
-POKéMON.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,399,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+POKéMON.{PAUSE_UNTIL_PRESS}","เอาจดหมายออกจาก
+โปเกมอนแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,399,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0255,global:gText_MailToBagMessageErased,gText_MailToBagMessageErased,"The MAIL was returned to the BAG
 with its message erased.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,606,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0256,global:gText_MailTransferredFromMailbox,gText_MailTransferredFromMailbox,"MAIL was transferred from
-the MAILBOX.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,402,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+the MAILBOX.{PAUSE_UNTIL_PRESS}","ย้ายจดหมายออกจาก
+กล่องจดหมายแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,402,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0257,global:gText_Mailbox,gText_Mailbox,MAILBOX,,pending,core_ui_label,english,PC_STORAGE,3,c_u8,src/strings.c,588,1,,no,pending_usage_to_window_mapping,pending,
 UI0258,global:gText_MainMenuContinue,gText_MainMenuContinue,CONTINUE,เล่นต่อ,proof_passed,core_ui_label,english,MAIN_MENU,3,c_u8,src/strings.c,25,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0259,global:gText_MainMenuMysteryEvents,gText_MainMenuMysteryEvents,MYSTERY EVENTS,อีเวนต์ลึกลับ,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,29,1,,no,pass,proof_passed,Final direct-symbol QA gallery reviewed and accepted.
@@ -369,7 +376,8 @@ in a BOX or your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/s
 UI0281,global:gText_MoveMonDescription,gText_MoveMonDescription,"Organize the POKéMON in BOXES and
 in your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,949,2,,no,pending_usage_to_window_mapping,pending,
 UI0282,global:gText_MoveNotLearned,gText_MoveNotLearned,"{STR_VAR_1} did not learn the
-move {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,408,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+move {STR_VAR_2}.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} ไม่ได้เรียนรู้
+{STR_VAR_2}{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,408,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,{DPAD_NONE}เลื่อน  {A_BUTTON}ตกลง  {B_BUTTON}กลับ,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0284,global:gText_MovePokemon,gText_MovePokemon,MOVE POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,944,1,,no,pending_usage_to_window_mapping,pending,
 UI0285,global:gText_MoveRelearnerAndPoof,gText_MoveRelearnerAndPoof,"{PAUSE 32}1, {PAUSE 15}2, and {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p",,pending,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1862,1,\p;{PAUSE 15};{PAUSE 32};{PLAY_SE SE_BALL_BOUNCE_1},yes,pending_usage_to_window_mapping,pending,
@@ -392,7 +400,7 @@ UI0294,global:gText_MoveToWhere,gText_MoveToWhere,Move to where?,ย้ายไ
 UI0295,global:gText_MoveVar1Where,gText_MoveVar1Where,"Move the
 {STR_VAR_1}
 where?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,231,3,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0296,global:gText_MovesPPIncreased,gText_MovesPPIncreased,{STR_VAR_1}'s PP increased.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,421,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0296,global:gText_MovesPPIncreased,gText_MovesPPIncreased,{STR_VAR_1}'s PP increased.{PAUSE_UNTIL_PRESS},PP ของ {STR_VAR_1} เพิ่มขึ้น{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,421,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0297,global:gText_MysteryEventsCantUse,gText_MysteryEventsCantUse,"MYSTERY EVENTS can't be used while
 the Wireless Adapter is attached.","ใช้อีเวนต์ลึกลับไม่ได้
 ขณะต่ออะแดปเตอร์ไร้สาย",proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,32,2,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
@@ -420,7 +428,8 @@ UI0316,global:gText_NoMatchingPkmnWereFound,gText_NoMatchingPkmnWereFound,No mat
 UI0317,global:gText_NoMoreRoomForThis,gText_NoMoreRoomForThis,"You have no more room for this
 item.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,SHOP,1,c_u8,src/strings.c,357,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0318,global:gText_NoMoreThanVar1Pkmn,gText_NoMoreThanVar1Pkmn,"No more than {STR_VAR_1} POKéMON
-may enter.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,389,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+may enter.{PAUSE_UNTIL_PRESS}","ส่งโปเกมอนเข้าร่วมได้
+ไม่เกิน {STR_VAR_1} ตัว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,389,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0319,global:gText_NoPokemon,gText_NoPokemon,"There is no
 POKéMON.",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,230,2,,no,pending_usage_to_window_mapping,pending,
 UI0320,global:gText_NoPokemonForBattle,gText_NoPokemonForBattle,No POKéMON for battle!,ไม่มีโปเกมอนสำหรับต่อสู้!,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,445,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
@@ -458,8 +467,8 @@ that POKéMON now.","ตอนนี้เทรนเนอร์อีกฝ�
 UI0343,global:gText_OtherTrainersPkmnCantBeTraded,gText_OtherTrainersPkmnCantBeTraded,"The other TRAINER's POKéMON
 can't be traded now.","ตอนนี้โปเกมอนของอีกฝ่าย
 แลกเปลี่ยนไม่ได้",proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,487,2,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
-UI0344,global:gText_PCMailboxFull,gText_PCMailboxFull,Your PC's MAILBOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,392,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0345,global:gText_PPWasRestored,gText_PPWasRestored,PP was restored.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,418,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0344,global:gText_PCMailboxFull,gText_PCMailboxFull,Your PC's MAILBOX is full.{PAUSE_UNTIL_PRESS},กล่องจดหมายใน PC เต็ม{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,392,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
+UI0345,global:gText_PPWasRestored,gText_PPWasRestored,PP was restored.{PAUSE_UNTIL_PRESS},ฟื้นฟู PP แล้ว{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,418,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0346,global:gText_PartyFull,gText_PartyFull,Your party is full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,953,1,,no,pending_usage_to_window_mapping,pending,
 UI0347,global:gText_PauseUntilPress,gText_PauseUntilPress,{PAUSE_UNTIL_PRESS},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU,3,c_u8,src/strings.c,478,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0348,global:gText_Peak,gText_Peak,Peak,ยอด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
@@ -469,49 +478,68 @@ UI0350,global:gText_PeculiarEggTrade,gText_PeculiarEggTrade,"A peculiar POKéMON
 obtained in a trade.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,538,2,,no,pending_usage_to_window_mapping,pending,
 UI0351,global:gText_PickTheWallpaper,gText_PickTheWallpaper,Pick the wallpaper.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,876,1,,no,pending_usage_to_window_mapping,pending,
 UI0352,global:gText_PkmnAdoresBaseVar2Fell,gText_PkmnAdoresBaseVar2Fell,"{STR_VAR_1} adores you!
-The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,425,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} รักคุณมาก!
+ค่า {STR_VAR_2} พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,425,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0353,global:gText_PkmnAlreadyHoldingItemSwitch,gText_PkmnAlreadyHoldingItemSwitch,"{STR_VAR_1} is already holding
 one {STR_VAR_2}.\pWould you like to switch the
-two items?",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,396,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+two items?","{STR_VAR_1} ถือ
+{STR_VAR_2} อยู่แล้ว\pต้องการสลับไอเทม
+ทั้งสองชิ้นไหม?",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,396,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0354,global:gText_PkmnAlreadyInBattle,gText_PkmnAlreadyInBattle,"{STR_VAR_1} is already
-in battle!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,383,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+in battle!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} กำลัง
+ต่อสู้อยู่แล้ว!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,383,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0355,global:gText_PkmnAlreadyKnows,gText_PkmnAlreadyKnows,"{STR_VAR_1} already knows
-{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,411,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} รู้จักท่า
+{STR_VAR_2} อยู่แล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,411,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0356,global:gText_PkmnAlreadySelected,gText_PkmnAlreadySelected,"{STR_VAR_1} has already been
-selected.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,384,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+selected.{PAUSE_UNTIL_PRESS}","เลือก {STR_VAR_1}
+ไว้แล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,384,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0357,global:gText_PkmnBaseVar2StatIncreased,gText_PkmnBaseVar2StatIncreased,"{STR_VAR_1}'s base {STR_VAR_2}
-stat was raised.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,6,c_u8,src/strings.c,423,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
-UI0358,global:gText_PkmnBecameHealthy,gText_PkmnBecameHealthy,{STR_VAR_1} became healthy.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,420,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0359,global:gText_PkmnBurnHealed,gText_PkmnBurnHealed,{STR_VAR_1}'s burn was healed.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,416,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+stat was raised.{PAUSE_UNTIL_PRESS}","ค่า {STR_VAR_2} พื้นฐานของ
+{STR_VAR_1} เพิ่มขึ้น!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,6,c_u8,src/strings.c,423,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
+UI0358,global:gText_PkmnBecameHealthy,gText_PkmnBecameHealthy,{STR_VAR_1} became healthy.{PAUSE_UNTIL_PRESS},{STR_VAR_1} หายเป็นปกติแล้ว{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,420,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
+UI0359,global:gText_PkmnBurnHealed,gText_PkmnBurnHealed,{STR_VAR_1}'s burn was healed.{PAUSE_UNTIL_PRESS},"{STR_VAR_1} หายจาก
+อาการไหม้แล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,416,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0360,global:gText_PkmnCameBack,gText_PkmnCameBack,{DYNAMIC 0} came back!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,892,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0361,global:gText_PkmnCantBeTradedNow,gText_PkmnCantBeTradedNow,"That POKéMON can't be traded
 now.","ตอนนี้โปเกมอนนี้
 แลกเปลี่ยนไม่ได้",proof_passed,core_ui_prompt,english,PARTY_MENU,4,c_u8,src/strings.c,483,2,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0362,global:gText_PkmnCantLearnMove,gText_PkmnCantLearnMove,"{STR_VAR_1} and {STR_VAR_2}
 are not compatible.\p{STR_VAR_2} can't be
-learned.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,405,3,\p;{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
-UI0363,global:gText_PkmnCantParticipate,gText_PkmnCantParticipate,That POKéMON can't participate.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,471,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+learned.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} กับ {STR_VAR_2}
+เข้ากันไม่ได้\pจึงเรียนรู้
+{STR_VAR_2} ไม่ได้{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,405,3,\p;{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
+UI0363,global:gText_PkmnCantParticipate,gText_PkmnCantParticipate,That POKéMON can't participate.{PAUSE_UNTIL_PRESS},โปเกมอนตัวนั้นเข้าร่วมไม่ได้{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,471,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0364,global:gText_PkmnCantSwitchOut,gText_PkmnCantSwitchOut,"{STR_VAR_1} can't be switched
-out!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,382,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+out!{PAUSE_UNTIL_PRESS}","สลับ {STR_VAR_1}
+ออกไม่ได้!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,382,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0365,global:gText_PkmnCuredOfParalysis,gText_PkmnCuredOfParalysis,"{STR_VAR_1} was cured of
-paralysis.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,414,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+paralysis.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} หายจาก
+อาการอัมพาตแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,414,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0366,global:gText_PkmnCuredOfPoison,gText_PkmnCuredOfPoison,"{STR_VAR_1} was cured of its
-poisoning.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,413,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+poisoning.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} หายจาก
+พิษแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,413,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0367,global:gText_PkmnElevatedToLvVar2,gText_PkmnElevatedToLvVar2,"{STR_VAR_1} was elevated to
 Lv. {STR_VAR_2}.","เลเวลของ {STR_VAR_1} เพิ่มเป็น
 Lv. {STR_VAR_2}!",proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,422,2,{STR_VAR_1};{STR_VAR_2},yes,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0368,global:gText_PkmnFriendlyBaseVar2CantFall,gText_PkmnFriendlyBaseVar2CantFall,"{STR_VAR_1} turned friendly.
-The base {STR_VAR_2} can't fall!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,426,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+The base {STR_VAR_2} can't fall!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} สนิทกับคุณขึ้น
+ค่า {STR_VAR_2} พื้นฐานลดลงไม่ได้!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,426,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0369,global:gText_PkmnFriendlyBaseVar2Fell,gText_PkmnFriendlyBaseVar2Fell,"{STR_VAR_1} turned friendly.
-The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,424,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} สนิทกับคุณขึ้น
+ค่า {STR_VAR_2} พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,424,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0370,global:gText_PkmnGotOverInfatuation,gText_PkmnGotOverInfatuation,"{STR_VAR_1} got over its
-infatuation.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,428,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+infatuation.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} หายจาก
+อาการหลงรักแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,428,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0371,global:gText_PkmnHPRestoredByVar2,gText_PkmnHPRestoredByVar2,"{STR_VAR_1}'s HP was restored
-by {STR_VAR_2} point(s).{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,412,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+by {STR_VAR_2} point(s).{PAUSE_UNTIL_PRESS}","HP ของ {STR_VAR_1} ฟื้นขึ้น
+{STR_VAR_2} หน่วย{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,2,c_u8,src/strings.c,412,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0372,global:gText_PkmnHasNoEnergy,gText_PkmnHasNoEnergy,"{STR_VAR_1} has no energy
-left to battle!{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,385,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+left to battle!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} ไม่มีแรง
+ต่อสู้แล้ว!{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,385,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0373,global:gText_PkmnHoldingItemCantHoldMail,gText_PkmnHoldingItemCantHoldMail,"This POKéMON is holding an
-item. It cannot hold MAIL.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,401,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+item. It cannot hold MAIL.{PAUSE_UNTIL_PRESS}","โปเกมอนนี้ถือไอเทมอยู่
+จึงถือจดหมายไม่ได้{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,401,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0374,global:gText_PkmnInfo,gText_PkmnInfo,POKéMON INFO,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,518,1,,no,pending_usage_to_window_mapping,pending,
 UI0375,global:gText_PkmnIsSelected,gText_PkmnIsSelected,{DYNAMIC 0} is selected.,,pending,core_ui_prompt,english,PC_STORAGE,2,c_u8,src/strings.c,877,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0376,global:gText_PkmnLearnedMove3,gText_PkmnLearnedMove3,"{STR_VAR_1} learned
@@ -520,13 +548,19 @@ UI0376,global:gText_PkmnLearnedMove3,gText_PkmnLearnedMove3,"{STR_VAR_1} learned
 UI0377,global:gText_PkmnNeedsToReplaceMove,gText_PkmnNeedsToReplaceMove,"{STR_VAR_1} wants to learn the
 move {STR_VAR_2}.\pHowever, {STR_VAR_1} already
 knows four moves.\pShould a move be deleted and
-replaced with {STR_VAR_2}?",,pending,system_message,english,PARTY_MENU,4,c_u8,src/strings.c,406,4,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+replaced with {STR_VAR_2}?","{STR_VAR_1} อยากเรียนรู้
+{STR_VAR_2}\pแต่ {STR_VAR_1} รู้จักท่า
+ครบสี่ท่าแล้ว\pจะลบท่าหนึ่งแล้วแทนด้วย
+{STR_VAR_2} ไหม?",translated_pending_qa,system_message,english,PARTY_MENU,4,c_u8,src/strings.c,406,4,\p;{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0378,global:gText_PkmnNotHolding,gText_PkmnNotHolding,"{STR_VAR_1} isn't holding
-anything.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,3,c_u8,src/strings.c,397,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+anything.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} ไม่ได้ถือ
+อะไรอยู่{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,3,c_u8,src/strings.c,397,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0379,global:gText_PkmnSkills,gText_PkmnSkills,POKéMON SKILLS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,519,1,,no,pending_usage_to_window_mapping,pending,
 UI0380,global:gText_PkmnSnappedOutOfConfusion,gText_PkmnSnappedOutOfConfusion,"{STR_VAR_1} snapped out of its
-confusion.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,427,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0381,global:gText_PkmnThawedOut,gText_PkmnThawedOut,{STR_VAR_1} was thawed out.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,417,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+confusion.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} หายจาก
+อาการสับสนแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,427,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
+UI0381,global:gText_PkmnThawedOut,gText_PkmnThawedOut,{STR_VAR_1} was thawed out.{PAUSE_UNTIL_PRESS},"{STR_VAR_1} หายจาก
+อาการแช่แข็งแล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,417,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0382,global:gText_PkmnTransferredLanettesPC,gText_PkmnTransferredLanettesPC,"{STR_VAR_2} was transferred to
 LANETTE'S PC.\pIt was placed in\x20
 BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,7,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
@@ -541,9 +575,10 @@ SOMEONE'S PC was full.\p{STR_VAR_2} was transferred to
 BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,13,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
 UI0386,global:gText_PkmnWasDeposited,gText_PkmnWasDeposited,{DYNAMIC 0} was deposited.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,880,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0387,global:gText_PkmnWasGivenItem,gText_PkmnWasGivenItem,"{STR_VAR_1} was given the
-{STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,395,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+{STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}","ให้ {STR_VAR_1} ถือ
+{STR_VAR_2} แล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,395,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0388,global:gText_PkmnWasReleased,gText_PkmnWasReleased,{DYNAMIC 0} was released.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,883,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
-UI0389,global:gText_PkmnWokeUp2,gText_PkmnWokeUp2,{STR_VAR_1} woke up.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,415,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0389,global:gText_PkmnWokeUp2,gText_PkmnWokeUp2,{STR_VAR_1} woke up.{PAUSE_UNTIL_PRESS},{STR_VAR_1} ตื่นแล้ว{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,415,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0390,global:gText_PkmnsNickname,gText_PkmnsNickname,{STR_VAR_1}'s nickname?,ตั้งชื่อเล่น?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1644,1,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0391,global:gText_PlacedItemInBag,gText_PlacedItemInBag,Placed item in the BAG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,897,1,,no,pending_usage_to_window_mapping,pending,
 UI0392,global:gText_PlayerSavedGame,gText_PlayerSavedGame,{PLAYER} saved the game.,{PLAYER} บันทึกเกมแล้ว,proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,13,1,{PLAYER},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
@@ -574,11 +609,13 @@ UI0415,global:gText_QuitShopping,gText_QuitShopping,Quit shopping.,,pending,core
 UI0416,global:gText_Read,gText_Read,READ,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,599,1,,no,pending_usage_to_window_mapping,pending,
 UI0417,global:gText_Read2,gText_Read2,READ,อ่าน,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,375,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (4/6 row A08).
 UI0418,global:gText_ReceivedItemFromPkmn,gText_ReceivedItemFromPkmn,"Received the {STR_VAR_2}
-from {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,398,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+from {STR_VAR_1}.{PAUSE_UNTIL_PRESS}","รับ {STR_VAR_2}
+คืนจาก {STR_VAR_1} แล้ว{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,398,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0419,global:gText_Register,gText_Register,REGISTER,ลงทะเบียน,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,496,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (5/6 row A14).
 UI0420,global:gText_ReleaseThisPokemon,gText_ReleaseThisPokemon,Release this POKéMON?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,882,1,,no,pending_usage_to_window_mapping,pending,
 UI0421,global:gText_RemoveMailBeforeItem,gText_RemoveMailBeforeItem,"MAIL must be removed before
-holding an item.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,394,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+holding an item.{PAUSE_UNTIL_PRESS}","ต้องเอาจดหมายออกก่อน
+จึงจะถือไอเทมได้{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,394,2,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0422,global:gText_RentalPkmn,gText_RentalPkmn,RENTAL POKéMON,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,505,1,,no,pending_usage_to_window_mapping,pending,
 UI0423,global:gText_RepelEffectsLingered,gText_RepelEffectsLingered,"But the effects of a REPEL
 lingered from earlier.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,2,c_u8,src/strings.c,252,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
@@ -660,7 +697,8 @@ UI0476,global:gText_Switch,gText_Switch,SWITCH,,pending,core_ui_label,english,SU
 UI0477,global:gText_Switch2,gText_Switch2,SWITCH,สลับ,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,369,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A03).
 UI0478,global:gText_SwitchPokedexListings,gText_SwitchPokedexListings,Switch POKéDEX listings.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,124,1,,no,pending_usage_to_window_mapping,pending,
 UI0479,global:gText_SwitchedPkmnItem,gText_SwitchedPkmnItem,"The {STR_VAR_2} was taken and
-replaced with the {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,400,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+replaced with the {STR_VAR_1}.{PAUSE_UNTIL_PRESS}","เอา {STR_VAR_2} ออกแล้ว
+เปลี่ยนเป็น {STR_VAR_1}{PAUSE_UNTIL_PRESS}",translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,400,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0480,global:gText_TMHMContainedVar1,gText_TMHMContainedVar1,"It contained
 {STR_VAR_1}.\pTeach {STR_VAR_1}
 to a POKéMON?",,pending,system_message,english,BAG,1,c_u8,src/strings.c,250,3,\p;{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
@@ -736,7 +774,7 @@ UI0528,global:gText_WhatWillPkmnDo,gText_WhatWillPkmnDo,"What will
 UI0529,global:gText_WhatWillPkmnDo2,gText_WhatWillPkmnDo2,"What will
 {B_PLAYER_NAME} do?",,pending,core_ui_prompt,english,BATTLE_UI,1,c_u8,src/battle_message.c,1272,2,{B_PLAYER_NAME},yes,pending_usage_to_window_mapping,pending,
 UI0530,global:gText_WhatWouldYouLike,gText_WhatWouldYouLike,What would you like to do?,,pending,core_ui_prompt,english,PC_STORAGE,3,c_u8,src/strings.c,222,1,,no,pending_usage_to_window_mapping,pending,
-UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should be forgotten?{PAUSE_UNTIL_PRESS},,pending,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,409,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should be forgotten?{PAUSE_UNTIL_PRESS},จะให้ลืมท่าไหน?{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,409,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0532,global:gText_WhichOneWillYouTake,gText_WhichOneWillYouTake,Which one will you take?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,889,1,,no,pending_usage_to_window_mapping,pending,
 UI0533,global:gText_WirelessNotConnected,gText_WirelessNotConnected,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
@@ -749,7 +787,7 @@ your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,947
 UI0537,global:gText_WithdrawPokemon,gText_WithdrawPokemon,WITHDRAW POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,942,1,,no,pending_usage_to_window_mapping,pending,
 UI0538,global:gText_WithdrawXItems,gText_WithdrawXItems,"Withdrew {STR_VAR_2}
 {STR_VAR_1}(s).",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,598,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
-UI0539,global:gText_WontHaveEffect,gText_WontHaveEffect,It won't have any effect.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG;PARTY_MENU,9,c_u8,src/strings.c,380,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0539,global:gText_WontHaveEffect,gText_WontHaveEffect,It won't have any effect.{PAUSE_UNTIL_PRESS},{CLEAR 1}ใช้แล้วไม่มีผล{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,BAG;PARTY_MENU,9,c_u8,src/strings.c,380,1,{PAUSE_UNTIL_PRESS},yes,pass,pending,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence."
 UI0540,global:gText_XNature,gText_XNature,{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,533,1,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 5},yes,pending_usage_to_window_mapping,pending,
 UI0541,global:gText_XNatureFatefulEncounter,gText_XNatureFatefulEncounter,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
 obtained in a fateful

@@ -1,0 +1,89 @@
+﻿ui_id,symbol,page,page_count,expanded_page_text,line_count,line_widths_px,max_line_width_px,hard_width_px,remaining_px,page_result
+UI0001,gText_12PoofForgotMove,1,3,"1, {PAUSE 15}2 แล้วก็{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!",1,98,98,223,125,pass
+UI0001,gText_12PoofForgotMove,2,3,"WWWWWWWWWW ลืมวิธีใช้
+WWWWWWWWWWWW ไปแล้ว",2,100;107,107,223,116,pass
+UI0001,gText_12PoofForgotMove,3,3,แล้วก็…{PAUSE_UNTIL_PRESS},1,31,31,223,192,pass
+UI0013,gText_BagFullCouldNotRemoveItem,1,1,"กระเป๋าเต็ม จึงเอาไอเทม
+ออกจากโปเกมอนไม่ได้{PAUSE_UNTIL_PRESS}",2,106;103,106,223,117,pass
+UI0065,gText_CantSwitchWithAlly,1,1,"สลับโปเกมอนของ WWWWWWWWWW
+กับของคุณไม่ได้!{PAUSE_UNTIL_PRESS}",2,141;76,141,223,82,pass
+UI0068,gText_CantUseUntilNewBadge,1,1,"ยังใช้ไม่ได้จนกว่าจะได้
+แบดจ์ใหม่{PAUSE_UNTIL_PRESS}",2,102;47,102,223,121,pass
+UI0181,gText_EggCantBattle,1,1,ไข่ต่อสู้ไม่ได้!{PAUSE_UNTIL_PRESS},1,61,61,223,162,pass
+UI0240,gText_ItemThrownAway,1,1,"ทิ้ง WWWWWWWWWWWWWW
+ไปแล้ว{PAUSE_UNTIL_PRESS}",2,99;32,99,223,124,pass
+UI0253,gText_MailSentToPC,1,1,ส่งจดหมายไปยัง PC แล้ว{PAUSE_UNTIL_PRESS},1,107,107,223,116,pass
+UI0254,gText_MailTakenFromPkmn,1,1,"เอาจดหมายออกจาก
+โปเกมอนแล้ว{PAUSE_UNTIL_PRESS}",2,85;62,85,223,138,pass
+UI0256,gText_MailTransferredFromMailbox,1,1,"ย้ายจดหมายออกจาก
+กล่องจดหมายแล้ว{PAUSE_UNTIL_PRESS}",2,87;78,87,223,136,pass
+UI0282,gText_MoveNotLearned,1,1,"WWWWWWWWWW ไม่ได้เรียนรู้
+WWWWWWWWWWWW{PAUSE_UNTIL_PRESS}",2,118;72,118,223,105,pass
+UI0296,gText_MovesPPIncreased,1,1,PP ของ WWWWWWWWWWWW เพิ่มขึ้น{PAUSE_UNTIL_PRESS},1,144,144,223,79,pass
+UI0318,gText_NoMoreThanVar1Pkmn,1,1,"ส่งโปเกมอนเข้าร่วมได้
+ไม่เกิน 6 ตัว{PAUSE_UNTIL_PRESS}",2,98;56,98,223,125,pass
+UI0344,gText_PCMailboxFull,1,1,กล่องจดหมายใน PC เต็ม{PAUSE_UNTIL_PRESS},1,109,109,223,114,pass
+UI0345,gText_PPWasRestored,1,1,ฟื้นฟู PP แล้ว{PAUSE_UNTIL_PRESS},1,61,61,223,162,pass
+UI0352,gText_PkmnAdoresBaseVar2Fell,1,1,"WWWWWWWWWW รักคุณมาก!
+ค่า WWWWWWWW พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",2,112;126,126,223,97,pass
+UI0353,gText_PkmnAlreadyHoldingItemSwitch,1,2,"WWWWWWWWWW ถือ
+WWWWWWWWWWWWWW อยู่แล้ว",2,75;118,118,223,105,pass
+UI0353,gText_PkmnAlreadyHoldingItemSwitch,2,2,"ต้องการสลับไอเทม
+ทั้งสองชิ้นไหม?",2,81;69,81,223,142,pass
+UI0354,gText_PkmnAlreadyInBattle,1,1,"WWWWWWWWWW กำลัง
+ต่อสู้อยู่แล้ว!{PAUSE_UNTIL_PRESS}",2,83;54,83,223,140,pass
+UI0355,gText_PkmnAlreadyKnows,1,1,"WWWWWWWWWW รู้จักท่า
+WWWWWWWWWWWW อยู่แล้ว{PAUSE_UNTIL_PRESS}",2,91;106,106,223,117,pass
+UI0356,gText_PkmnAlreadySelected,1,1,"เลือก WWWWWWWWWW
+ไว้แล้ว{PAUSE_UNTIL_PRESS}",2,85;31,85,223,138,pass
+UI0357,gText_PkmnBaseVar2StatIncreased,1,1,"ค่า WWWWWWWW พื้นฐานของ
+WWWWWWWWWW เพิ่มขึ้น!{PAUSE_UNTIL_PRESS}",2,115;102,115,223,108,pass
+UI0358,gText_PkmnBecameHealthy,1,1,WWWWWWWWWW หายเป็นปกติแล้ว{PAUSE_UNTIL_PRESS},1,138,138,223,85,pass
+UI0359,gText_PkmnBurnHealed,1,1,"WWWWWWWWWW หายจาก
+อาการไหม้แล้ว{PAUSE_UNTIL_PRESS}",2,96;64,96,223,127,pass
+UI0362,gText_PkmnCantLearnMove,1,2,"WWWWWWWWWW กับ WWWWWWWWWWWW
+เข้ากันไม่ได้",2,151;54,151,223,72,pass
+UI0362,gText_PkmnCantLearnMove,2,2,"จึงเรียนรู้
+WWWWWWWWWWWW ไม่ได้{PAUSE_UNTIL_PRESS}",2,39;101,101,223,122,pass
+UI0363,gText_PkmnCantParticipate,1,1,โปเกมอนตัวนั้นเข้าร่วมไม่ได้{PAUSE_UNTIL_PRESS},1,130,130,223,93,pass
+UI0364,gText_PkmnCantSwitchOut,1,1,"สลับ WWWWWWWWWW
+ออกไม่ได้!{PAUSE_UNTIL_PRESS}",2,82;48,82,223,141,pass
+UI0365,gText_PkmnCuredOfParalysis,1,1,"WWWWWWWWWW หายจาก
+อาการอัมพาตแล้ว{PAUSE_UNTIL_PRESS}",2,96;76,96,223,127,pass
+UI0366,gText_PkmnCuredOfPoison,1,1,"WWWWWWWWWW หายจาก
+พิษแล้ว{PAUSE_UNTIL_PRESS}",2,96;35,96,223,127,pass
+UI0368,gText_PkmnFriendlyBaseVar2CantFall,1,1,"WWWWWWWWWW สนิทกับคุณขึ้น
+ค่า WWWWWWWW พื้นฐานลดลงไม่ได้!{PAUSE_UNTIL_PRESS}",2,130;152,152,223,71,pass
+UI0369,gText_PkmnFriendlyBaseVar2Fell,1,1,"WWWWWWWWWW สนิทกับคุณขึ้น
+ค่า WWWWWWWW พื้นฐานลดลง!{PAUSE_UNTIL_PRESS}",2,130;126,130,223,93,pass
+UI0370,gText_PkmnGotOverInfatuation,1,1,"WWWWWWWWWW หายจาก
+อาการหลงรักแล้ว{PAUSE_UNTIL_PRESS}",2,96;72,96,223,127,pass
+UI0371,gText_PkmnHPRestoredByVar2,1,1,"HP ของ WWWWWWWWWW ฟื้นขึ้น
+999 หน่วย{PAUSE_UNTIL_PRESS}",2,129;48,129,223,94,pass
+UI0372,gText_PkmnHasNoEnergy,1,1,"WWWWWWWWWW ไม่มีแรง
+ต่อสู้แล้ว!{PAUSE_UNTIL_PRESS}",2,99;42,99,223,124,pass
+UI0373,gText_PkmnHoldingItemCantHoldMail,1,1,"โปเกมอนนี้ถือไอเทมอยู่
+จึงถือจดหมายไม่ได้{PAUSE_UNTIL_PRESS}",2,105;85,105,223,118,pass
+UI0377,gText_PkmnNeedsToReplaceMove,1,3,"WWWWWWWWWW อยากเรียนรู้
+WWWWWWWWWWWW",2,114;72,114,223,109,pass
+UI0377,gText_PkmnNeedsToReplaceMove,2,3,"แต่ WWWWWWWWWW รู้จักท่า
+ครบสี่ท่าแล้ว",2,108;55,108,223,115,pass
+UI0377,gText_PkmnNeedsToReplaceMove,3,3,"จะลบท่าหนึ่งแล้วแทนด้วย
+WWWWWWWWWWWW ไหม?",2,114;101,114,223,109,pass
+UI0378,gText_PkmnNotHolding,1,1,"WWWWWWWWWW ไม่ได้ถือ
+อะไรอยู่{PAUSE_UNTIL_PRESS}",2,101;34,101,223,122,pass
+UI0380,gText_PkmnSnappedOutOfConfusion,1,1,"WWWWWWWWWW หายจาก
+อาการสับสนแล้ว{PAUSE_UNTIL_PRESS}",2,96;71,96,223,127,pass
+UI0381,gText_PkmnThawedOut,1,1,"WWWWWWWWWW หายจาก
+อาการแช่แข็งแล้ว{PAUSE_UNTIL_PRESS}",2,96;74,96,223,127,pass
+UI0387,gText_PkmnWasGivenItem,1,1,"ให้ WWWWWWWWWW ถือ
+WWWWWWWWWWWWWW แล้ว{PAUSE_UNTIL_PRESS}",2,91;106,106,223,117,pass
+UI0389,gText_PkmnWokeUp2,1,1,WWWWWWWWWW ตื่นแล้ว{PAUSE_UNTIL_PRESS},1,97,97,223,126,pass
+UI0418,gText_ReceivedItemFromPkmn,1,1,"รับ WWWWWWWWWWWWWW
+คืนจาก WWWWWWWWWW แล้ว{PAUSE_UNTIL_PRESS}",2,99;116,116,223,107,pass
+UI0421,gText_RemoveMailBeforeItem,1,1,"ต้องเอาจดหมายออกก่อน
+จึงจะถือไอเทมได้{PAUSE_UNTIL_PRESS}",2,106;76,106,223,117,pass
+UI0479,gText_SwitchedPkmnItem,1,1,"เอา WWWWWWWWWWWWWW ออกแล้ว
+เปลี่ยนเป็น WWWWWWWWWWWWWW{PAUSE_UNTIL_PRESS}",2,141;137,141,223,82,pass
+UI0531,gText_WhichMoveToForget,1,1,จะให้ลืมท่าไหน?{PAUSE_UNTIL_PRESS},1,75,75,223,148,pass
+UI0539,gText_WontHaveEffect,1,1,{CLEAR 1}ใช้แล้วไม่มีผล{PAUSE_UNTIL_PRESS},1,64,64,216,152,pass
