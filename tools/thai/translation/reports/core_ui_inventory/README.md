@@ -112,3 +112,14 @@ Generated from production checkpoint `770548dfe`.
 - Width/layout: passed.
 - Thai glyph rendering: passed.
 - Final status: `proof_passed`.
+
+## Reviewed pilot visual QA checkpoint
+
+- Scope audit reviewed: 7 deferred-story entries remain story content; 4 transfer messages remain Phase 6 system content; 53 technical/control strings remain not applicable.
+- No additional Core UI scope omission was found.
+- Screenshot-backed label proofs recorded: 30.
+- Screenshot-backed prompt proofs recorded in this checkpoint: 4.
+- Previously recorded Birch gender prompt proof retained: 1.
+- Total `proof_passed` inventory entries: 35.
+- Remaining translated entries awaiting runtime proof: 43.
+- ROM rebuild: not required because this checkpoint changes QA metadata only.

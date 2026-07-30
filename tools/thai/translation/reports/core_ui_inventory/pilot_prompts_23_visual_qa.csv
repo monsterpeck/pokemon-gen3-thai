@@ -1,7 +1,7 @@
 ﻿qa_order,ui_areas,symbol,source_text,target_text_th,constraint_profile,qa_route,rendering_result,translation_result,visual_status,evidence_note
 1,START_SAVE,gText_AlreadySavedFile,"There is already a saved file.
 Is it okay to overwrite it?","มีไฟล์บันทึกอยู่แล้ว
-ต้องการเขียนทับหรือไม่?",STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,,,pending,
+ต้องการเขียนทับหรือไม่?",STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,pass,pass,proof_passed,"User-confirmed runtime evidence: Existing-save overwrite screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."
 2,MAIN_MENU,gText_BatteryRunDry,"The internal battery has run dry.
 The game can be played.\pHowever, clock-based events will
 no longer occur.","แบตเตอรี่ภายในหมดแล้ว
@@ -20,7 +20,7 @@ PYRAMID quest?","ต้องการยุติภารกิจ
 Or are you a girl?","เธอเป็นเด็กชาย?
 หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,Start New Game and inspect the question before the gender-selection menu.,pass,pass,proof_passed,"User-confirmed runtime screenshot: both Thai lines display correctly before the gender-selection menu, with no clipping, overflow, overlapping marks, or broken glyphs."
 7,MAIN_MENU,gText_BoxName,BOX NAME?,ชื่อ BOX?,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",,,pending,
-8,START_SAVE,gText_ConfirmSave,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,,,pending,
+8,START_SAVE,gText_ConfirmSave,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,Trigger each prompt and inspect every page.,pass,pass,proof_passed,"User-confirmed runtime evidence: Save confirmation screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."
 9,START_SAVE,gText_DifferentSaveFile,"WARNING!\pThere is a different game file that
 is already saved.\pIf you save now, the other file's
 adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
@@ -56,8 +56,8 @@ DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,Trigger save after link battle.,,,pending,
 20,MAIN_MENU,gText_TellHimTheWords,Tell him the words.,บอกคำให้เขา,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",,,pending,
 21,MAIN_MENU,gText_ThisIsAPokemon,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
-“โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,Start New Game and inspect Birch speech pages.,,,pending,
+“โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,Start New Game and inspect Birch speech pages.,pass,pass,proof_passed,"User-confirmed runtime evidence: New Game introduction screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."
 22,MAIN_MENU,gText_WirelessNotConnected,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
 อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,"Trigger save corruption, battery, wireless, and Mystery feature errors.",,,pending,
-23,MAIN_MENU,gText_YourName,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",,,pending,
+23,MAIN_MENU,gText_YourName,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,"Open player, Pokémon, Box, and Walda naming screens.",pass,pass,proof_passed,"User-confirmed runtime evidence: Player naming-screen screenshot. Text rendered completely and readably, with no clipping, overflow, overlapping Thai marks, or broken glyphs; wording was accepted."

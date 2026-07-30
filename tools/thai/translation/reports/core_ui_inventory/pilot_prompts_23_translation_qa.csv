@@ -1,7 +1,7 @@
 ﻿qa_order,ui_id,symbol,source_file,source_text,target_text_th,constraint_profile,hard_width_px,visible_line_widths_px,dynamic_budget_px,width_result,source_controls,target_controls,control_result,source_shape_result,rom_build_result,translation_status
 1,UI0008,gText_AlreadySavedFile,data/text/save.inc,"There is already a saved file.
 Is it okay to overwrite it?","มีไฟล์บันทึกอยู่แล้ว
-ต้องการเขียนทับหรือไม่?",STANDARD_MESSAGE_BOX,216,88|108,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
+ต้องการเขียนทับหรือไม่?",STANDARD_MESSAGE_BOX,216,88|108,0,pass,\n,\n,pass,pass,pass,proof_passed
 2,UI0016,gText_BatteryRunDry,src/strings.c,"The internal battery has run dry.
 The game can be played.\pHowever, clock-based events will
 no longer occur.","แบตเตอรี่ภายในหมดแล้ว
@@ -20,7 +20,7 @@ PYRAMID quest?","ต้องการยุติภารกิจ
 Or are you a girl?","เธอเป็นเด็กชาย?
 หรือเป็นเด็กหญิง?",BIRCH_MESSAGE_BOX,216,74|80,0,pass,\n,\n,pass,pass,pass,proof_passed
 7,UI0046,gText_BoxName,src/strings.c,BOX NAME?,ชื่อ BOX?,NAMING_TITLE,128,39,0,pass,,,pass,pass,pass,translated_pending_visual_qa
-8,UI0078,gText_ConfirmSave,data/text/save.inc,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,216,117,0,pass,,,pass,pass,pass,translated_pending_visual_qa
+8,UI0078,gText_ConfirmSave,data/text/save.inc,Would you like to save the game?,ต้องการบันทึกเกมหรือไม่?,STANDARD_MESSAGE_BOX,216,117,0,pass,,,pass,pass,pass,proof_passed
 9,UI0175,gText_DifferentSaveFile,data/text/save.inc,"WARNING!\pThere is a different game file that
 is already saved.\pIf you save now, the other file's
 adventure, including items and\lPOKéMON, will be entirely lost.\pAre you sure you want to save now
@@ -56,8 +56,8 @@ DON'T TURN OFF THE POWER.","กำลังบันทึก…
 ห้ามปิดเครื่อง",LINK_SAVE_MESSAGE,208,56|59,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
 20,UI0486,gText_TellHimTheWords,src/strings.c,Tell him the words.,บอกคำให้เขา,NAMING_TITLE,128,57,0,pass,,,pass,pass,pass,translated_pending_visual_qa
 21,UI0496,gText_ThisIsAPokemon,src/strings.c,This is what we call a “POKéMON.”{PAUSE 96}\p,"นี่คือสิ่งที่เราเรียกว่า
-“โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,216,83|55|0,0,pass,{PAUSE 96}|\p,\n|{PAUSE 96}|\p,pass,pass,pass,translated_pending_visual_qa
+“โปเกมอน”{PAUSE 96}\p",BIRCH_MESSAGE_BOX,216,83|55|0,0,pass,{PAUSE 96}|\p,\n|{PAUSE 96}|\p,pass,pass,pass,proof_passed
 22,UI0533,gText_WirelessNotConnected,src/strings.c,"The Wireless Adapter is not
 connected.","ไม่ได้เชื่อมต่อ
 อะแดปเตอร์ไร้สาย",MAIN_MENU_ERROR,208,62|81,0,pass,\n,\n,pass,pass,pass,translated_pending_visual_qa
-23,UI0551,gText_YourName,src/strings.c,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,128,50,0,pass,,,pass,pass,pass,translated_pending_visual_qa
+23,UI0551,gText_YourName,src/strings.c,YOUR NAME?,ชื่อของเธอ?,NAMING_TITLE,128,50,0,pass,,,pass,pass,pass,proof_passed
