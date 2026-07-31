@@ -1,0 +1,14 @@
+﻿visual_page,symbols,profile,case,visual_qa_status
+01,gText_BattleMenu,action_prompt + action_menu,short active-name prompt plus normal battle menu,proof_passed
+02,gText_SafariZoneMenu,action_prompt + action_menu,short prompt plus Safari action menu,proof_passed
+03,gText_BattleSwitchWhich,switch_prompt,exact B_WIN_SWITCH_PROMPT profile,proof_passed
+04,gText_BattleYesNoChoice,yes_no,exact B_WIN_YESNO profile,proof_passed
+05,gText_LinkStandby,message,exact B_WIN_MSG profile,proof_passed
+06,gText_MoveInterfacePP;gText_MoveInterfaceType,move_pp + move_type,exact move-selection PP and TYPE profiles,proof_passed
+07,gText_SafariBalls,safari_label,FONT_SMALL 8x2 healthbox-source geometry,proof_passed
+08,gText_SafariBallLeft,safari_counter,single-digit Safari Ball count,proof_passed
+09,gText_SafariBallLeft,safari_counter,double-digit Safari Ball count,proof_passed
+10,gText_WhatWillPkmnDo,action_prompt_dynamic,short active-name stress case,proof_passed
+11,gText_WhatWillPkmnDo,action_prompt_dynamic,maximum active-name/prefix stress case,proof_passed
+12,gText_WhatWillPkmnDo2,action_prompt_dynamic,short player-name stress case,proof_passed
+13,gText_WhatWillPkmnDo2,action_prompt_dynamic,maximum player-name stress case,proof_passed

@@ -29,7 +29,7 @@ no longer occur.","แบตเตอรี่ภายในหมดแล้�
 ยังสามารถเล่นเกมได้\pแต่กิจกรรมที่อิงเวลา
 จะไม่เกิดขึ้นอีก",proof_passed,system_message,english,MAIN_MENU,1,c_u8,src/strings.c,38,3,\p,yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0017,global:gText_BattleMenu,gText_BattleMenu,"FIGHT{CLEAR_TO 56}BAG
-POKéMON{CLEAR_TO 56}RUN",สู้{CLEAR_TO 56}กระเป๋า\nโปเกมอน{CLEAR_TO 56}หนี,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1275,2,{CLEAR_TO 56},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+POKéMON{CLEAR_TO 56}RUN",สู้{CLEAR_TO 56}กระเป๋า\nโปเกมอน{CLEAR_TO 56}หนี,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1275,2,{CLEAR_TO 56},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0018,global:gText_BattleMoves,gText_BattleMoves,BATTLE MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,520,1,,no,pending_usage_to_window_mapping,pending,
 UI0019,global:gText_BattlePyramidConfirmRest,gText_BattlePyramidConfirmRest,"Your BATTLE PYRAMID quest will be
 saved so that you may quit for now.\lIs that okay?","จะบันทึกภารกิจใน
@@ -47,9 +47,9 @@ UI0025,global:gText_BattleStyle,gText_BattleStyle,BATTLE STYLE,รูปแบ�
 UI0026,global:gText_BattleStyleSet,gText_BattleStyleSet,{COLOR GREEN}{SHADOW LIGHT_GREEN}SET,{COLOR GREEN}{SHADOW LIGHT_GREEN}คงที่,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1542,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0027,global:gText_BattleStyleShift,gText_BattleStyleShift,{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT,{COLOR GREEN}{SHADOW LIGHT_GREEN}สลับ,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1541,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0028,global:gText_BattleSwitchWhich,gText_BattleSwitchWhich,"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Switch
-which?",{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}สลับ\nตัวไหน?,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1283,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+which?",{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}สลับ\nตัวไหน?,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1283,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0029,global:gText_BattleYesNoChoice,gText_BattleYesNoChoice,"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Yes
-No",{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}ใช่\nไม่,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1282,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+No",{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}ใช่\nไม่,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1282,2,{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6};{PALETTE 5},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0030,global:gText_BirchBoy,gText_BirchBoy,BOY,เด็กชาย,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,64,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0031,global:gText_BirchGirl,gText_BirchGirl,GIRL,เด็กหญิง,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,65,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0032,global:gText_Birch_AndYouAre,gText_Birch_AndYouAre,And you are?,,deferred_story,story_deferred,english,MAIN_MENU,1,asm_string,data/text/birch_speech.inc,31,1,,no,pending_usage_to_window_mapping,pending,
@@ -326,7 +326,7 @@ UI0242,global:gText_JumpToWhichBox,gText_JumpToWhichBox,Jump to which BOX?,,pend
 UI0243,global:gText_JustOnePkmn,gText_JustOnePkmn,There is just one POKéMON with you.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,952,1,,no,pending_usage_to_window_mapping,pending,
 UI0244,global:gText_Learned,gText_Learned,LEARNED,เรียนรู้แล้ว,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,467,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D04).
 UI0245,global:gText_LevelSymbol,gText_LevelSymbol,{LV},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU;SUMMARY,2,c_u8,src/strings.c,214,1,{LV},yes,pending_usage_to_window_mapping,pending,
-UI0246,global:gText_LinkStandby,gText_LinkStandby,{PAUSE 16}Link standby…,{PAUSE 16}กำลังรอลิงก์…,translated_pending_qa,system_message,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1274,1,{PAUSE 16},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+UI0246,global:gText_LinkStandby,gText_LinkStandby,{PAUSE 16}Link standby…,{PAUSE 16}กำลังรอลิงก์…,proof_passed,system_message,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1274,1,{PAUSE 16},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0247,global:gText_ListByBodyColor,gText_ListByBodyColor,"List by body color.
 Spotted POKéMON only.",,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,129,2,,no,pending_usage_to_window_mapping,pending,
 UI0248,global:gText_ListByFirstLetter,gText_ListByFirstLetter,"List by the first letter in the name.
@@ -368,8 +368,8 @@ UI0274,global:gText_MenuRetire,gText_MenuRetire,RETIRE,ถอนตัว,proof_
 UI0275,global:gText_MenuSave,gText_MenuSave,SAVE,บันทึก,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1568,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0276,global:gText_MessageWillBeLost,gText_MessageWillBeLost,"The message will be lost.
 Is that okay?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,604,2,,no,pending_usage_to_window_mapping,pending,
-UI0277,global:gText_MoveInterfacePP,gText_MoveInterfacePP,PP\x20,PP ,translated_pending_qa,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1277,1,,no,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
-UI0278,global:gText_MoveInterfaceType,gText_MoveInterfaceType,TYPE/,ชนิด/,translated_pending_qa,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1278,1,,no,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+UI0277,global:gText_MoveInterfacePP,gText_MoveInterfacePP,PP\x20,PP ,proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1277,1,,no,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+UI0278,global:gText_MoveInterfaceType,gText_MoveInterfaceType,TYPE/,ชนิด/,proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1278,1,,no,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0279,global:gText_MoveItems,gText_MoveItems,MOVE ITEMS,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,945,1,,no,pending_usage_to_window_mapping,pending,
 UI0280,global:gText_MoveItemsDescription,gText_MoveItemsDescription,"Move items held by any POKéMON
 in a BOX or your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,950,2,,no,pending_usage_to_window_mapping,pending,
@@ -637,13 +637,13 @@ UI0427,global:gText_ReturnToVar1,gText_ReturnToVar1,"Return to
 UI0428,global:gText_ReturnToWaitingRoom,gText_ReturnToWaitingRoom,Return to the WAITING ROOM?,กลับไปห้องรอ?,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,474,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0429,global:gText_RibbonsF700,gText_RibbonsF700,RIBBONS {DYNAMIC 0},,pending,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1005,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0430,global:gText_RibbonsVar1,gText_RibbonsVar1,RIBBONS: {STR_VAR_1},,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,514,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
-UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},{HIGHLIGHT DARK_GRAY}เหลือ: ${HIGHLIGHT DARK_GRAY},translated_pending_qa,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+UI0431,global:gText_SafariBallLeft,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},{HIGHLIGHT DARK_GRAY}เหลือ: ${HIGHLIGHT DARK_GRAY},proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1303,1,{HIGHLIGHT DARK_GRAY},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0432,global:gText_SafariBallStock,gText_SafariBallStock,"SAFARI BALLS
 Stock: {STR_VAR_1}","SAFARI BALL
 เหลือ {STR_VAR_1}",proof_passed,core_ui_prompt,english,START_SAVE,1,c_u8,src/strings.c,1573,2,{STR_VAR_1},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
-UI0433,global:gText_SafariBalls,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,translated_pending_qa,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1302,1,{HIGHLIGHT DARK_GRAY},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+UI0433,global:gText_SafariBalls,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1302,1,{HIGHLIGHT DARK_GRAY},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0434,global:gText_SafariZoneMenu,gText_SafariZoneMenu,"BALL{CLEAR_TO 56}{POKEBLOCK}
-GO NEAR{CLEAR_TO 56}RUN",BALL{CLEAR_TO 56}{POKEBLOCK}\nเข้าใกล้{CLEAR_TO 56}หนี,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+GO NEAR{CLEAR_TO 56}RUN",BALL{CLEAR_TO 56}{POKEBLOCK}\nเข้าใกล้{CLEAR_TO 56}หนี,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1276,2,{CLEAR_TO 56};{POKEBLOCK},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0435,global:gText_SaveError,gText_SaveError,"Save error.\pPlease exchange the
 backup memory.","บันทึกผิดพลาด\pโปรดเปลี่ยน
 หน่วยความจำสำรอง",proof_passed,system_message,english,START_SAVE,1,asm_string,data/text/save.inc,26,2,\p,yes,pass,proof_passed,Runtime prompt-gallery evidence reviewed and accepted.
@@ -778,9 +778,9 @@ UI0526,global:gText_WhatDoYouWantToDo,gText_WhatDoYouWantToDo,What do you want t
 UI0527,global:gText_WhatToDoWithVar1sMail,gText_WhatToDoWithVar1sMail,"What would you like to do with
 {STR_VAR_1}'s MAIL?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,603,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0528,global:gText_WhatWillPkmnDo,gText_WhatWillPkmnDo,"What will
-{B_ACTIVE_NAME_WITH_PREFIX} do?",{B_ACTIVE_NAME_WITH_PREFIX}\nจะทำอะไร?,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1271,2,{B_ACTIVE_NAME_WITH_PREFIX},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+{B_ACTIVE_NAME_WITH_PREFIX} do?",{B_ACTIVE_NAME_WITH_PREFIX}\nจะทำอะไร?,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1271,2,{B_ACTIVE_NAME_WITH_PREFIX},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0529,global:gText_WhatWillPkmnDo2,gText_WhatWillPkmnDo2,"What will
-{B_PLAYER_NAME} do?",{B_PLAYER_NAME}\nจะทำอะไร?,translated_pending_qa,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1272,2,{B_PLAYER_NAME},yes,pass,pending,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
+{B_PLAYER_NAME} do?",{B_PLAYER_NAME}\nจะทำอะไร?,proof_passed,core_ui_prompt,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1272,2,{B_PLAYER_NAME},yes,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0530,global:gText_WhatWouldYouLike,gText_WhatWouldYouLike,What would you like to do?,,pending,core_ui_prompt,english,PC_STORAGE,3,c_u8,src/strings.c,222,1,,no,pending_usage_to_window_mapping,pending,
 UI0531,global:gText_WhichMoveToForget,gText_WhichMoveToForget,Which move should be forgotten?{PAUSE_UNTIL_PRESS},จะให้ลืมท่าไหน?{PAUSE_UNTIL_PRESS},proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,409,1,{PAUSE_UNTIL_PRESS},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 17; row code(s) R49)."
 UI0532,global:gText_WhichOneWillYouTake,gText_WhichOneWillYouTake,Which one will you take?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,889,1,,no,pending_usage_to_window_mapping,pending,
