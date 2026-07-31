@@ -1,0 +1,2 @@
+﻿symbol,english,old_thai,new_thai,old_width_px,new_width_px,width_limit_px,token_result,shaping_result,width_result
+gText_NumberIndex,No. {DYNAMIC 0},ลำดับ {DYNAMIC 0},ที่ {DYNAMIC 0},48,27,30,pass,pass,pass

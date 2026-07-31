@@ -1,0 +1,2 @@
+﻿branch,head,remote,input_sha256,input_checksums,candidates,revised_candidates,runtime_tokens_passed,thai_shaping_passed,width_passed,width_failed,repository_modified,rom_build,commit_push
+work/core-ui-inventory,2dceb0677,synchronized,28d57dfecfd9f5b0400820dc6a3502d8a23f1d3cc408eed828414495fd34eaeb,9/9,22,1,22,22,22,0,no,not_run,not_run

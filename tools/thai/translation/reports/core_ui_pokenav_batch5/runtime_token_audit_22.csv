@@ -1,0 +1,23 @@
+﻿ui_id,symbol,source_tokens,target_tokens,token_result
+UI0052,gText_Call,,,pass
+UI0053,gText_CallCantBeMadeHere,,,pass
+UI0057,gText_Cancel6,,,pass
+UI0071,gText_Check,,,pass
+UI0231,gText_InParty,,,pass
+UI0331,gText_NumberIndex,{DYNAMIC 0},{DYNAMIC 0},pass
+UI0334,gText_NumberOfBattles,,,pass
+UI0335,gText_NumberRegistered,,,pass
+UI0400,gText_PokenavCondition_MarkingButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0401,gText_PokenavCondition_MonListButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0402,gText_PokenavCondition_MonStatusButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0403,gText_PokenavMap_ZoomedInButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0404,gText_PokenavMap_ZoomedOutButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0405,gText_PokenavMatchCall_CallMenuButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0406,gText_PokenavMatchCall_CheckTrainerButtons,{B_BUTTON},{B_BUTTON},pass
+UI0407,gText_PokenavMatchCall_TrainerListButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0408,gText_PokenavRibbons_MonListButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0409,gText_PokenavRibbons_RibbonCheckButtons,{B_BUTTON},{B_BUTTON},pass
+UI0410,gText_PokenavRibbons_RibbonListButtons,{A_BUTTON} | {B_BUTTON},{A_BUTTON} | {B_BUTTON},pass
+UI0429,gText_RibbonsF700,{DYNAMIC 0},{DYNAMIC 0},pass
+UI0506,gText_TrainerCloseBy,\n,\n,pass
+UI0513,gText_Unknown,,,pass

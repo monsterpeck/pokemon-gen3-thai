@@ -1,0 +1,23 @@
+﻿ui_id,symbol,profile,line_widths_px,width_limit_px,width_result,method
+UI0052,gText_Call,match_call_option,17,72,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0053,gText_CallCantBeMadeHere,match_call_message,74,224,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0057,gText_Cancel6,match_call_option,28,72,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0071,gText_Check,match_call_option,31,72,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0231,gText_InParty,condition_location,28,88,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0331,gText_NumberIndex,condition_rank,27,30,pass,Revised Thai advance from live shaper output; DYNAMIC placeholder conservatively counted as 16px.
+UI0334,gText_NumberOfBattles,match_call_info_label,39,84,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0335,gText_NumberRegistered,match_call_info_label,47,84,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0400,gText_PokenavCondition_MarkingButtons,help_bar,96,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0401,gText_PokenavCondition_MonListButtons,help_bar,77,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0402,gText_PokenavCondition_MonStatusButtons,help_bar,74,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0403,gText_PokenavMap_ZoomedInButtons,help_bar,70,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0404,gText_PokenavMap_ZoomedOutButtons,help_bar,66,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0405,gText_PokenavMatchCall_CallMenuButtons,help_bar,75,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0406,gText_PokenavMatchCall_CheckTrainerButtons,help_bar,36,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0407,gText_PokenavMatchCall_TrainerListButtons,help_bar,71,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0408,gText_PokenavRibbons_MonListButtons,help_bar,86,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0409,gText_PokenavRibbons_RibbonCheckButtons,help_bar,36,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0410,gText_PokenavRibbons_RibbonListButtons,help_bar,83,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0429,gText_RibbonsF700,ribbon_count,58,128,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0506,gText_TrainerCloseBy,match_call_message,114|86,224,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.
+UI0513,gText_Unknown,match_call_location,36,88,pass,Thai advances from shaped stream; button icons=8px; DYNAMIC placeholder=16px; retained ASCII<=8px/glyph.

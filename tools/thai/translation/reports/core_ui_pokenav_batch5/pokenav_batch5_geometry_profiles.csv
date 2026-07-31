@@ -1,0 +1,9 @@
+﻿profile,geometry,pixels_or_limit,font,origin,scope
+help_bar,16x2 tiles,128x16,FONT_NORMAL,"x=0,y=1",12 strings
+match_call_option,11x8 tiles,88x64,FONT_NARROW,"x=16,y=row*16+1",3 strings
+match_call_info_label,11x8 tiles,88x64,FONT_NARROW,"x=2,y=1/33",2 strings
+match_call_location,11x2 tiles,88x16,FONT_NARROW,center aligned,1 string
+match_call_message,28x4 tiles,224x32,FONT_NORMAL,"x=0,y=1",2 strings
+condition_rank,search header,number starts x=34,FONT_NORMAL,"label x=4,y=1",1 string
+condition_location,fixed BOX_NAME_LENGTH field,runtime list font,left padded,1 string
+ribbon_count,16x4 tiles,128x32,FONT_NORMAL,"x=0,y=1",1 string

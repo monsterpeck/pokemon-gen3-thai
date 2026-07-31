@@ -1,0 +1,23 @@
+﻿ui_id,symbol,source_file,english,thai_candidate,profile,font,geometry,apply_result
+UI0052,gText_Call,src/strings.c,CALL,โทร,match_call_option,FONT_NARROW,88x64 info box,pass
+UI0053,gText_CallCantBeMadeHere,src/strings.c,A call can't be made from here.,โทรจากที่นี่ไม่ได้,match_call_message,FONT_NORMAL,224x32 message box,pass
+UI0057,gText_Cancel6,src/strings.c,CANCEL,ยกเลิก,match_call_option,FONT_NARROW,88x64 info box,pass
+UI0071,gText_Check,src/strings.c,CHECK,ตรวจดู,match_call_option,FONT_NARROW,88x64 info box,pass
+UI0231,gText_InParty,src/strings.c,IN PARTY,ในทีม,condition_location,runtime list font,BOX_NAME_LENGTH field,pass
+UI0331,gText_NumberIndex,src/strings.c,No. {DYNAMIC 0},ที่ {DYNAMIC 0},condition_rank,FONT_NORMAL,search result header,pass
+UI0334,gText_NumberOfBattles,src/strings.c,No. of battles,สู้ทั้งหมด,match_call_info_label,FONT_NARROW,88px info box,pass
+UI0335,gText_NumberRegistered,src/strings.c,No. registered,ลงทะเบียน,match_call_info_label,FONT_NARROW,88px info box,pass
+UI0400,gText_PokenavCondition_MarkingButtons,src/strings.c,{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL,{A_BUTTON}เลือกมาร์ก {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0401,gText_PokenavCondition_MonListButtons,src/strings.c,{A_BUTTON}CONDITION {B_BUTTON}CANCEL,{A_BUTTON}สภาพ {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0402,gText_PokenavCondition_MonStatusButtons,src/strings.c,{A_BUTTON}MARKINGS {B_BUTTON}CANCEL,{A_BUTTON}มาร์ก {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0403,gText_PokenavMap_ZoomedInButtons,src/strings.c,{A_BUTTON}FULL {B_BUTTON}CANCEL,{A_BUTTON}เต็ม {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0404,gText_PokenavMap_ZoomedOutButtons,src/strings.c,{A_BUTTON}ZOOM {B_BUTTON}CANCEL,{A_BUTTON}ซูม {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0405,gText_PokenavMatchCall_CallMenuButtons,src/strings.c,{A_BUTTON}OK {B_BUTTON}CANCEL,{A_BUTTON}ตกลง {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0406,gText_PokenavMatchCall_CheckTrainerButtons,src/strings.c,{B_BUTTON}CANCEL,{B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0407,gText_PokenavMatchCall_TrainerListButtons,src/strings.c,{A_BUTTON}MENU {B_BUTTON}CANCEL,{A_BUTTON}เมนู {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0408,gText_PokenavRibbons_MonListButtons,src/strings.c,{A_BUTTON}RIBBONS {B_BUTTON}CANCEL,{A_BUTTON}ริบบอน {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0409,gText_PokenavRibbons_RibbonCheckButtons,src/strings.c,{B_BUTTON}CANCEL,{B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0410,gText_PokenavRibbons_RibbonListButtons,src/strings.c,{A_BUTTON}CHECK {B_BUTTON}CANCEL,{A_BUTTON}ตรวจดู {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,128x16,pass
+UI0429,gText_RibbonsF700,src/strings.c,RIBBONS {DYNAMIC 0},ริบบอน {DYNAMIC 0},ribbon_count,FONT_NORMAL,128x32,pass
+UI0506,gText_TrainerCloseBy,src/strings.c,That TRAINER is close by.\nTalk to the TRAINER in person!,เทรนเนอร์คนนั้นอยู่ใกล้ๆ\nไปคุยด้วยตัวเองสิ!,match_call_message,FONT_NORMAL,224x32,pass
+UI0513,gText_Unknown,src/strings.c,UNKNOWN,ไม่ทราบ,match_call_location,FONT_NARROW,88x16,pass

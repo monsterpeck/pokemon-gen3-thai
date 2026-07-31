@@ -1,0 +1,23 @@
+﻿ui_id,symbol,english,thai_candidate,profile,font,origin,geometry,review_status,note
+UI0052,gText_Call,CALL,โทร,match_call_option,FONT_NARROW,"x=16,y=row*16+1",88x64 info box,candidate,คำสั่งทั่วไปแปลไทย
+UI0053,gText_CallCantBeMadeHere,A call can't be made from here.,โทรจากที่นี่ไม่ได้,match_call_message,FONT_NORMAL,"x=0,y=1",224x32 message box,candidate,ข้อความระบบสั้น
+UI0057,gText_Cancel6,CANCEL,ยกเลิก,match_call_option,FONT_NARROW,"x=16,y=row*16+1",88x64 info box,candidate,คำสั่งทั่วไปแปลไทย
+UI0071,gText_Check,CHECK,ตรวจดู,match_call_option,FONT_NARROW,"x=16,y=row*16+1",88x64 info box,candidate,คำสั่งทั่วไปแปลไทย
+UI0231,gText_InParty,IN PARTY,ในทีม,condition_location,runtime list font,left-aligned padded,BOX_NAME_LENGTH field,candidate,สถานะตำแหน่งโปเกมอน
+UI0331,gText_NumberIndex,No. {DYNAMIC 0},ที่ {DYNAMIC 0},condition_rank,FONT_NORMAL,"label x=4,y=1; number x=34",search result header,candidate,ย่อจาก ลำดับ เป็น ที่ เพื่อรักษาความหมาย ordinal และให้พอดีก่อนเลขซึ่งเริ่มที่ x=34
+UI0334,gText_NumberOfBattles,No. of battles,สู้ทั้งหมด,match_call_info_label,FONT_NARROW,"x=2,y=33",88px info box,candidate,ใช้คำสั้นเพราะเลขชิดขวาที่ x<=86
+UI0335,gText_NumberRegistered,No. registered,ลงทะเบียน,match_call_info_label,FONT_NARROW,"x=2,y=1",88px info box,candidate,ใช้คำสั้น
+UI0400,gText_PokenavCondition_MarkingButtons,{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL,{A_BUTTON}เลือกมาร์ก {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่มและลำดับ
+UI0401,gText_PokenavCondition_MonListButtons,{A_BUTTON}CONDITION {B_BUTTON}CANCEL,{A_BUTTON}สภาพ {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คำสั้นสำหรับ help bar
+UI0402,gText_PokenavCondition_MonStatusButtons,{A_BUTTON}MARKINGS {B_BUTTON}CANCEL,{A_BUTTON}มาร์ก {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คำสั้นสำหรับ help bar
+UI0403,gText_PokenavMap_ZoomedInButtons,{A_BUTTON}FULL {B_BUTTON}CANCEL,{A_BUTTON}เต็ม {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,FULL = ดูแผนที่เต็ม
+UI0404,gText_PokenavMap_ZoomedOutButtons,{A_BUTTON}ZOOM {B_BUTTON}CANCEL,{A_BUTTON}ซูม {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คำสั่งทั่วไป
+UI0405,gText_PokenavMatchCall_CallMenuButtons,{A_BUTTON}OK {B_BUTTON}CANCEL,{A_BUTTON}ตกลง {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่ม
+UI0406,gText_PokenavMatchCall_CheckTrainerButtons,{B_BUTTON}CANCEL,{B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่ม
+UI0407,gText_PokenavMatchCall_TrainerListButtons,{A_BUTTON}MENU {B_BUTTON}CANCEL,{A_BUTTON}เมนู {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่ม
+UI0408,gText_PokenavRibbons_MonListButtons,{A_BUTTON}RIBBONS {B_BUTTON}CANCEL,{A_BUTTON}ริบบอน {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,RIBBONS ถอดเสียงไทย
+UI0409,gText_PokenavRibbons_RibbonCheckButtons,{B_BUTTON}CANCEL,{B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่ม
+UI0410,gText_PokenavRibbons_RibbonListButtons,{A_BUTTON}CHECK {B_BUTTON}CANCEL,{A_BUTTON}ตรวจดู {B_BUTTON}ยกเลิก,help_bar,FONT_NORMAL,"x=0,y=1",128x16,candidate,คงไอคอนปุ่ม
+UI0429,gText_RibbonsF700,RIBBONS {DYNAMIC 0},ริบบอน {DYNAMIC 0},ribbon_count,FONT_NORMAL,"x=0,y=1",128x32,candidate,คง DYNAMIC 0; ตัวเลขสูงสุดสองหลัก
+UI0506,gText_TrainerCloseBy,That TRAINER is close by.\nTalk to the TRAINER in person!,เทรนเนอร์คนนั้นอยู่ใกล้ๆ\nไปคุยด้วยตัวเองสิ!,match_call_message,FONT_NORMAL,"x=0,y=1",224x32,candidate,TRAINER ถอดเสียง; 2 บรรทัด
+UI0513,gText_Unknown,UNKNOWN,ไม่ทราบ,match_call_location,FONT_NARROW,centered in 88px,88x16,candidate,ข้อความ fallback
