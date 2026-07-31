@@ -1,0 +1,24 @@
+﻿runtime_page_id,ui_id,symbol,page,page_count,expanded_page_text,line_count,expanded_lines,line_widths_px,hard_width_px,remaining_px,layout_result
+gText_MoveRelearnerAndPoof:P1,UI0285,gText_MoveRelearnerAndPoof,1,2,"{PAUSE 32}1, {PAUSE 15}2 แล้วก็ {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!",1,"{PAUSE 32}1, {PAUSE 15}2 แล้วก็ {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!",101,176,75,pass
+gText_MoveRelearnerAndPoof:P2,UI0285,gText_MoveRelearnerAndPoof,2,2,,1,,0,176,176,pass
+gText_MoveRelearnerGiveUp:P1,UI0286,gText_MoveRelearnerGiveUp,1,1,"จะเลิกสอนท่าใหม่ให้
+WWWWWWWWWW ไหม?",2,จะเลิกสอนท่าใหม่ให้ | WWWWWWWWWW ไหม?,91;89,176,85,pass
+gText_MoveRelearnerPkmnForgotMoveAndLearnedNew:P1,UI0287,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,1,3,"WWWWWWWWWW ลืม
+WWWWWWWWWWWW ไปแล้ว",2,WWWWWWWWWW ลืม | WWWWWWWWWWWW ไปแล้ว,76;107,176,69,pass
+gText_MoveRelearnerPkmnForgotMoveAndLearnedNew:P2,UI0287,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,2,3,แล้วก็…,1,แล้วก็…,31,176,145,pass
+gText_MoveRelearnerPkmnForgotMoveAndLearnedNew:P3,UI0287,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,3,3,"WWWWWWWWWW เรียนรู้
+WWWWWWWWWWWW แล้ว",2,WWWWWWWWWW เรียนรู้ | WWWWWWWWWWWW แล้ว,92;94,176,82,pass
+gText_MoveRelearnerPkmnLearnedMove:P1,UI0288,gText_MoveRelearnerPkmnLearnedMove,1,1,"WWWWWWWWWW เรียนรู้
+WWWWWWWWWWWW แล้ว!",2,WWWWWWWWWW เรียนรู้ | WWWWWWWWWWWW แล้ว!,92;98,176,78,pass
+gText_MoveRelearnerPkmnTryingToLearnMove:P1,UI0289,gText_MoveRelearnerPkmnTryingToLearnMove,1,3,"WWWWWWWWWW อยากเรียนรู้
+WWWWWWWWWWWW",2,WWWWWWWWWW อยากเรียนรู้ | WWWWWWWWWWWW,114;72,176,62,pass
+gText_MoveRelearnerPkmnTryingToLearnMove:P2,UI0289,gText_MoveRelearnerPkmnTryingToLearnMove,2,3,"แต่ WWWWWWWWWW จำท่าได้
+ไม่เกินสี่ท่า",2,แต่ WWWWWWWWWW จำท่าได้ | ไม่เกินสี่ท่า,114;48,176,62,pass
+gText_MoveRelearnerPkmnTryingToLearnMove:P3,UI0289,gText_MoveRelearnerPkmnTryingToLearnMove,3,3,"จะลบท่าเดิมเพื่อให้
+เรียนรู้ WWWWWWWWWWWW ไหม?",2,จะลบท่าเดิมเพื่อให้ | เรียนรู้ WWWWWWWWWWWW ไหม?,84;133,176,43,pass
+gText_MoveRelearnerStopTryingToTeachMove:P1,UI0290,gText_MoveRelearnerStopTryingToTeachMove,1,1,"หยุดสอน
+WWWWWWWWWWWW ไหม?",2,หยุดสอน | WWWWWWWWWWWW ไหม?,40;101,176,75,pass
+gText_MoveRelearnerTeachMoveConfirm:P1,UI0291,gText_MoveRelearnerTeachMoveConfirm,1,1,สอน WWWWWWWWWWWW ไหม?,1,สอน WWWWWWWWWWWW ไหม?,124,176,52,pass
+gText_MoveRelearnerWhichMoveToForget:P1,UI0292,gText_MoveRelearnerWhichMoveToForget,1,2,จะให้ลืมท่าไหน?,1,จะให้ลืมท่าไหน?,75,176,101,pass
+gText_MoveRelearnerWhichMoveToForget:P2,UI0292,gText_MoveRelearnerWhichMoveToForget,2,2,,1,,0,176,176,pass
+gText_TeachWhichMoveToPkmn:P1,UI0484,gText_TeachWhichMoveToPkmn,1,1,สอนท่าไหนให้ WWWWWWWWWW?,1,สอนท่าไหนให้ WWWWWWWWWW?,134,176,42,pass

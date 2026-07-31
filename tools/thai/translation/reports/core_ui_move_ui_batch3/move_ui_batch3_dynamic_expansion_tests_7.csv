@@ -1,0 +1,24 @@
+﻿ui_id,symbol,target_text_th,test_values,expanded_test_text,expanded_line_widths_px,hard_width_px,remaining_px,test_result
+UI0286,gText_MoveRelearnerGiveUp,"จะเลิกสอนท่าใหม่ให้
+{STR_VAR_1} ไหม?","{""STR_VAR_1"": ""WWWWWWWWWW""}","จะเลิกสอนท่าใหม่ให้
+WWWWWWWWWW ไหม?",91;89,176,85,pass
+UI0287,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,"{STR_VAR_1} ลืม
+{STR_VAR_3} ไปแล้ว\pแล้วก็…\p{STR_VAR_1} เรียนรู้
+{STR_VAR_2} แล้ว","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW"", ""STR_VAR_3"": ""WWWWWWWWWWWW""}","WWWWWWWWWW ลืม
+WWWWWWWWWWWW ไปแล้ว\pแล้วก็…\pWWWWWWWWWW เรียนรู้
+WWWWWWWWWWWW แล้ว",76;107;31;92;94,176,69,pass
+UI0288,gText_MoveRelearnerPkmnLearnedMove,"{STR_VAR_1} เรียนรู้
+{STR_VAR_2} แล้ว!","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW เรียนรู้
+WWWWWWWWWWWW แล้ว!",92;98,176,78,pass
+UI0289,gText_MoveRelearnerPkmnTryingToLearnMove,"{STR_VAR_1} อยากเรียนรู้
+{STR_VAR_2}\pแต่ {STR_VAR_1} จำท่าได้
+ไม่เกินสี่ท่า\pจะลบท่าเดิมเพื่อให้
+เรียนรู้ {STR_VAR_2} ไหม?","{""STR_VAR_1"": ""WWWWWWWWWW"", ""STR_VAR_2"": ""WWWWWWWWWWWW""}","WWWWWWWWWW อยากเรียนรู้
+WWWWWWWWWWWW\pแต่ WWWWWWWWWW จำท่าได้
+ไม่เกินสี่ท่า\pจะลบท่าเดิมเพื่อให้
+เรียนรู้ WWWWWWWWWWWW ไหม?",114;72;114;48;84;133,176,43,pass
+UI0290,gText_MoveRelearnerStopTryingToTeachMove,"หยุดสอน
+{STR_VAR_2} ไหม?","{""STR_VAR_2"": ""WWWWWWWWWWWW""}","หยุดสอน
+WWWWWWWWWWWW ไหม?",40;101,176,75,pass
+UI0291,gText_MoveRelearnerTeachMoveConfirm,สอน {STR_VAR_2} ไหม?,"{""STR_VAR_2"": ""WWWWWWWWWWWW""}",สอน WWWWWWWWWWWW ไหม?,124,176,52,pass
+UI0484,gText_TeachWhichMoveToPkmn,สอนท่าไหนให้ {STR_VAR_1}?,"{""STR_VAR_1"": ""WWWWWWWWWW""}",สอนท่าไหนให้ WWWWWWWWWW?,134,176,42,pass

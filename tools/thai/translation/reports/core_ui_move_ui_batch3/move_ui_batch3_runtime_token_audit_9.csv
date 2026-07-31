@@ -1,0 +1,10 @@
+﻿ui_id,symbol,source_placeholders,target_placeholders,source_controls,target_controls,placeholder_result,control_result,token_result
+UI0285,gText_MoveRelearnerAndPoof,,,{PAUSE 32};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PLAY_SE SE_BALL_BOUNCE_1};\p,{PAUSE 32};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PAUSE 15};{PLAY_SE SE_BALL_BOUNCE_1};\p,pass,pass,pass
+UI0286,gText_MoveRelearnerGiveUp,{STR_VAR_1},{STR_VAR_1},,,pass,pass,pass
+UI0287,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,{STR_VAR_1};{STR_VAR_3};{STR_VAR_1};{STR_VAR_2},{STR_VAR_1};{STR_VAR_3};{STR_VAR_1};{STR_VAR_2},\p;\p,\p;\p,pass,pass,pass
+UI0288,gText_MoveRelearnerPkmnLearnedMove,{STR_VAR_1};{STR_VAR_2},{STR_VAR_1};{STR_VAR_2},,,pass,pass,pass
+UI0289,gText_MoveRelearnerPkmnTryingToLearnMove,{STR_VAR_1};{STR_VAR_2};{STR_VAR_1};{STR_VAR_2},{STR_VAR_1};{STR_VAR_2};{STR_VAR_1};{STR_VAR_2},\p;\p,\p;\p,pass,pass,pass
+UI0290,gText_MoveRelearnerStopTryingToTeachMove,{STR_VAR_2},{STR_VAR_2},,,pass,pass,pass
+UI0291,gText_MoveRelearnerTeachMoveConfirm,{STR_VAR_2},{STR_VAR_2},,,pass,pass,pass
+UI0292,gText_MoveRelearnerWhichMoveToForget,,,\p,\p,pass,pass,pass
+UI0484,gText_TeachWhichMoveToPkmn,{STR_VAR_1},{STR_VAR_1},,,pass,pass,pass

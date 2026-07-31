@@ -1,0 +1,7 @@
+PHASE 5 BATCH 3 MOVE UI NORMAL ROM BUILD
+Base checkpoint : 4e495f6e82bbbf4e46fc2c73ddbb095a7dfc2812
+Preflight object : build/emerald/src/strings.o (pass)
+Normal ROM build : pass
+ROM             : /home/luffy/phase5-batch3-move-ui-9-build/pokeemerald_move_ui_batch3_9.gba
+ROM SHA-256     : 6426edc9cc30e116fa13b946874a59262c1096b3299078cd963d3d466f1d9fe4
+Visual QA       : pending 9/9

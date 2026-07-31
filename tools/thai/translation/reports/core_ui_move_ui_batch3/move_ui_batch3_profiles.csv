@@ -1,0 +1,3 @@
+﻿profile_id,ui_area,renderer,font_id,window_tile_width,window_tile_height,window_width_px,window_height_px,text_origin,hard_width_px,visible_lines_per_page,mapped_symbol_count,status
+MOVE_RELEARNER_MESSAGE_NORMAL_176x32_X0Y1,MOVE_UI,MoveRelearnerPrintMessage -> AddTextPrinterParameterized2,FONT_NORMAL,22,4,176,32,"x=0, y=1",176,2,8,verified
+MOVE_RELEARNER_STATIC_NORMAL_176x32_X0Y1,MOVE_UI,ShowTeachMoveText / HideHeartSpritesAndShowTeachMoveText -> AddTextPrinterParameterized,FONT_NORMAL,22,4,176,32,"x=0, y=1",176,2,1,verified

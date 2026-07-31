@@ -1,0 +1,2 @@
+﻿base_branch,base_checkpoint,scope,symbols,active_usages,runtime_pages,multipage_symbols,placeholder_symbols,inventory_pending,inventory_translated_pending_qa,inventory_proof_passed,rom_build_status,rom_sha256,visual_qa_status,core_inventory_manifest_entries
+work/core-ui-inventory,4e495f6e82bbbf4e46fc2c73ddbb095a7dfc2812,MOVE_UI / Move Relearner,9,10,15,4,7,308,9,197,pass,6426edc9cc30e116fa13b946874a59262c1096b3299078cd963d3d466f1d9fe4,pending_9_of_9,50

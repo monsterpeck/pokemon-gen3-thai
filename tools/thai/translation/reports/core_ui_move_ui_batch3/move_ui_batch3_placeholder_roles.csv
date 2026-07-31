@@ -1,0 +1,4 @@
+﻿placeholder,runtime_role,assignment,max_test_value,max_test_chars,used_by_symbols,status
+STR_VAR_1,Pokémon nickname,"GetMonData(... MON_DATA_NICKNAME) -> StringCopy_Nickname(gStringVar1, nickname)",WWWWWWWWWW,10,gText_MoveRelearnerGiveUp;gText_MoveRelearnerPkmnForgotMoveAndLearnedNew;gText_MoveRelearnerPkmnLearnedMove;gText_MoveRelearnerPkmnTryingToLearnMove;gText_TeachWhichMoveToPkmn,verified
+STR_VAR_2,new/current selected move name,"StringCopy(gStringVar2, gMoveNames[...])",WWWWWWWWWWWW,12,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew;gText_MoveRelearnerPkmnLearnedMove;gText_MoveRelearnerPkmnTryingToLearnMove;gText_MoveRelearnerStopTryingToTeachMove;gText_MoveRelearnerTeachMoveConfirm,verified
+STR_VAR_3,forgotten/replaced move name,"StringCopy(gStringVar3, gMoveNames[move])",WWWWWWWWWWWW,12,gText_MoveRelearnerPkmnForgotMoveAndLearnedNew,verified
