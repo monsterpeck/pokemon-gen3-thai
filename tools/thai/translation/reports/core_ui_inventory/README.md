@@ -199,19 +199,19 @@ Inventory status after this checkpoint:
 - Party system messages translated: 44/44.
 - Fixed messages: 13/13.
 - Dynamic placeholder messages: 31/31.
-- Runtime pages checked: 50/50.
+- Runtime pages: 50/50.
 - Multipage flows: 4/4.
-- Exact source definitions, tokens, Thai shaping, strict widths, and normal ROM build: passed.
-- Final semantic refinements: 5.
-- `gText_WontHaveEffect` includes a 1 px CLEAR inset for shared Bag and Battle Pyramid Bag x=0 routes.
-- Runtime visual QA remains pending for all 44 entries.
-- Normal ROM SHA-256: `5e6a746ec6f48fee32a9cec80b7d2002a3bc8263b36fd901fbc4b1e9c5c9a21e`.
-- This checkpoint does not close Batch 2C until visual evidence is recorded.
+- Runtime visual gallery: 17/17 pages passed.
+- Visual profiles: 51/51 passed.
+- Shared `gText_WontHaveEffect` Bag/Battle Pyramid route: passed at x=0 with `{CLEAR 1}`.
+- Batch 2C entries: 44/44 `proof_passed`.
+- Party Menu Batch 2A–2C total: 119 entries closed (26 labels/actions + 49 prompts + 44 system messages).
+- Deferred Party/Summary stat terms: 9 unchanged.
+- This closes Party Menu Batch 2C, not all remaining Phase 5 inventory.
 
 Inventory status after this checkpoint:
 
 - `pending`: 317
-- `translated_pending_qa`: 44
-- `proof_passed`: 153
+- `proof_passed`: 197
 - `not_applicable`: 53
 - `deferred_story`: 7

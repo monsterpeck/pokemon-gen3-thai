@@ -42,3 +42,16 @@ Start-game       : เ | ริ่ | ม | เ | ก | ม | ส์
 Total advance    : 40
 RESULT: PRECOMPOSE SHAPER CHECK PASSED
 ```
+
+## Runtime visual QA
+
+- User-confirmed screenshots reviewed: 17/17 gallery pages.
+- Party Menu runtime pages: 50/50 passed at 224 px with x=1 (223 px effective text area).
+- Shared Bag/Battle Pyramid profile: X01 passed at 216 px with x=0 and the approved `{CLEAR 1}` inset.
+- Visual profiles: 51/51 passed.
+- Unique system-message symbols: 44/44 `proof_passed`.
+- Dynamic placeholder messages: 31/31 displayed correctly.
+- Multipage flows: 4/4 displayed across all 10 runtime pages.
+- No clipping, overflow, broken glyphs, or overlapping Thai vowels/tone marks were found.
+- Decorative border/tile artifacts outside some QA text windows are temporary gallery-harness artifacts; they did not overlap or invalidate the tested text.
+- This closes Party Menu Batch 2C only.
