@@ -1,0 +1,12 @@
+﻿symbol,proof_method,line_positions_px,window_width_px,width_result,note
+gText_BattleMenu,conservative_static,87|71,96,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_BattleSwitchWhich,conservative_static,19|42,64,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_BattleYesNoChoice,conservative_static,12|13,24,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_LinkStandby,conservative_static,55,208,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_MoveInterfacePP,conservative_static,24,32,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_MoveInterfaceType,conservative_static,29,64,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_SafariBallLeft,conservative_static,55,64,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph. Added 16 px for the runtime two-digit Safari Ball count.
+gText_SafariBalls,unchanged_runtime_string,64,64,pass,String is unchanged from the existing source and retains its runtime-fit behavior.
+gText_SafariZoneMenu,conservative_static,56|71,96,pass,Thai advances from shaped stream; retained ASCII bounded at 8 px/glyph.
+gText_WhatWillPkmnDo,dynamic_monotonic,0|52,112,pass,Dynamic name is isolated on its own line and is no wider than the original placeholder-plus-English-suffix layout.
+gText_WhatWillPkmnDo2,dynamic_monotonic,0|52,112,pass,Dynamic name is isolated on its own line and is no wider than the original placeholder-plus-English-suffix layout.

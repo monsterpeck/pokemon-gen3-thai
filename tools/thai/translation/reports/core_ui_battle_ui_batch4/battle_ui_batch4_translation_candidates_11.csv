@@ -1,0 +1,12 @@
+﻿ui_id,symbol,english,thai_candidate,window,font,origin,window_px,review_status,note
+UI0027,gText_BattleMenu,FIGHT{CLEAR_TO 56}BAG\nPOKéMON{CLEAR_TO 56}RUN,สู้{CLEAR_TO 56}กระเป๋า\nโปเกมอน{CLEAR_TO 56}หนี,B_WIN_ACTION_MENU,FONT_NORMAL,"x=0,y=1",96x32,candidate,คำสั่งทั่วไปแปลไทย; generic Pokémon ใช้ โปเกมอน
+UI0028,gText_BattleSwitchWhich,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Switch\nwhich?,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}สลับ\nตัวไหน?,B_WIN_SWITCH_PROMPT,FONT_NARROW,"x=0,y=1",64x32,candidate,คง control codes ครบ
+UI0029,gText_BattleYesNoChoice,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Yes\nNo,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}ใช่\nไม่,B_WIN_YESNO,FONT_NORMAL,"x=0,y=1",24x32,candidate,หน้าต่างแคบ 24 px; ใช้คำสั้น
+UI0246,gText_LinkStandby,{PAUSE 16}Link standby…,{PAUSE 16}กำลังรอลิงก์…,B_WIN_MSG,FONT_NORMAL,"x=0,y=1",208x32,candidate,คง PAUSE
+UI0277,gText_MoveInterfacePP,PP ,PP ,B_WIN_PP,FONT_NARROW,"x=0,y=1",32x16,candidate,PP remains English; literal trailing space preserved from the live source.
+UI0278,gText_MoveInterfaceType,TYPE/,ชนิด/,B_WIN_MOVE_TYPE,FONT_NARROW,"x=0,y=1",64x16,candidate,ป้ายระบบแปลไทย; ต้องตรวจ pixel width ใน repo
+UI0431,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY}Left: ${HIGHLIGHT DARK_GRAY},{HIGHLIGHT DARK_GRAY}เหลือ: ${HIGHLIGHT DARK_GRAY},sHealthboxWindowTemplate,FONT_SMALL,"right-aligned to 0x2F,y=3",64x16,candidate,ตัวเลขต่อท้าย runtime; คง control codes
+UI0433,gText_SafariBalls,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,{HIGHLIGHT DARK_GRAY}SAFARI BALLS,sHealthboxWindowTemplate,FONT_SMALL,"x=0,y=3",64x16,candidate,ชื่อไอเทมคงภาษาอังกฤษ
+UI0434,gText_SafariZoneMenu,BALL{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN,BALL{CLEAR_TO 56}{POKEBLOCK}\nเข้าใกล้{CLEAR_TO 56}หนี,B_WIN_ACTION_MENU,FONT_NORMAL,"x=0,y=1",96x32,candidate,ชื่อไอเทมคงอังกฤษ; คำสั่งแปลไทย
+UI0528,gText_WhatWillPkmnDo,What will\n{B_ACTIVE_NAME_WITH_PREFIX} do?,{B_ACTIVE_NAME_WITH_PREFIX}\nจะทำอะไร?,B_WIN_ACTION_PROMPT,FONT_NORMAL,"x=1,y=1",112x32,candidate,สลับลำดับประโยคเพื่อกันชื่อยาวล้น
+UI0529,gText_WhatWillPkmnDo2,What will\n{B_PLAYER_NAME} do?,{B_PLAYER_NAME}\nจะทำอะไร?,B_WIN_ACTION_PROMPT,FONT_NORMAL,"x=1,y=1",112x32,candidate,สลับลำดับประโยคเพื่อกันชื่อยาวล้น

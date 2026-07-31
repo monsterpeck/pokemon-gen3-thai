@@ -1,0 +1,12 @@
+﻿ui_id,symbol,source_tokens,target_tokens,token_multiset_result,ordered_control_result,token_result
+UI0027,gText_BattleMenu,{CLEAR_TO 56} | \n | {CLEAR_TO 56},{CLEAR_TO 56} | \n | {CLEAR_TO 56},pass,pass,pass
+UI0028,gText_BattleSwitchWhich,{PALETTE 5} | {COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6} | \n,{PALETTE 5} | {COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6} | \n,pass,pass,pass
+UI0029,gText_BattleYesNoChoice,{PALETTE 5} | {COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6} | \n,{PALETTE 5} | {COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6} | \n,pass,pass,pass
+UI0246,gText_LinkStandby,{PAUSE 16},{PAUSE 16},pass,pass,pass
+UI0277,gText_MoveInterfacePP,\x20,\x20,pass,pass,pass
+UI0278,gText_MoveInterfaceType,,,pass,pass,pass
+UI0431,gText_SafariBallLeft,{HIGHLIGHT DARK_GRAY} | $ | {HIGHLIGHT DARK_GRAY},{HIGHLIGHT DARK_GRAY} | $ | {HIGHLIGHT DARK_GRAY},pass,pass,pass
+UI0433,gText_SafariBalls,{HIGHLIGHT DARK_GRAY},{HIGHLIGHT DARK_GRAY},pass,pass,pass
+UI0434,gText_SafariZoneMenu,{CLEAR_TO 56} | {POKEBLOCK} | \n | {CLEAR_TO 56},{CLEAR_TO 56} | {POKEBLOCK} | \n | {CLEAR_TO 56},pass,pass,pass
+UI0528,gText_WhatWillPkmnDo,\n | {B_ACTIVE_NAME_WITH_PREFIX},{B_ACTIVE_NAME_WITH_PREFIX} | \n,pass,pass,pass
+UI0529,gText_WhatWillPkmnDo2,\n | {B_PLAYER_NAME},{B_PLAYER_NAME} | \n,pass,pass,pass
