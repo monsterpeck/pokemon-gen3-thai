@@ -1,0 +1,14 @@
+﻿visual_page,purpose,symbols,layout,thai_shaping,horizontal_clipping,vertical_clipping,dynamic_values,visual_qa_status,evidence_note
+01,BUY / SELL / QUIT,gText_ShopBuy;gText_ShopSell;gText_ShopQuit,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+02,Follow-up prompts,gText_AnythingElseICanHelp;gText_CanIHelpWithAnythingElse,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+03,Quit-shopping message,gText_QuitShopping,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+04,Quantity in bag,gText_InBagVar1,pass,pass,none,none,POTION;99;99999;PC,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+05,Quantity prompts,gText_Var1CertainlyHowMany;gText_Var1CertainlyHowMany2,pass,pass,none,none,POTION;99;99999;PC,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+06,Single-item confirmations,gText_Var1IsItThatllBeVar2;gText_YouWantedVar1ThatllBeVar2,pass,pass,none,none,POTION;99;99999;PC,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+07,Multi-item total confirmation,gText_Var1AndYouWantedVar2,pass,pass,none,none,POTION;99;99999;PC,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+08,Purchase success,gText_HereYouGoThankYou,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+09,Insufficient money,gText_YouDontHaveMoney,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+10,No room for item,gText_NoMoreRoomForThis,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+11,Storage full,gText_SpaceForVar1Full,pass,pass,none,none,POTION;99;99999;PC,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+12,Send to home PC,gText_ThankYouIllSendItHome;gText_ThanksIllSendItHome,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.
+13,Premier Ball bonus,gText_ThrowInPremierBall,pass,pass,none,none,,proof_passed,User-reviewed Visual QA ROM V3 pages; page 02 rechecked in V5 after wording revision.

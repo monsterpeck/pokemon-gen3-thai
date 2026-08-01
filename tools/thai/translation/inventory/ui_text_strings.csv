@@ -15,7 +15,7 @@ Is it okay to overwrite it?","มีไฟล์บันทึกอยู่�
 ต้องการเขียนทับหรือไม่?",proof_passed,core_ui_prompt,english,START_SAVE,1,asm_string,data/text/save.inc,5,2,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0009,global:gText_AlreadySurfing,gText_AlreadySurfing,You're already SURFING.,กำลังใช้ SURF อยู่แล้ว,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,440,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0010,global:gText_AnythingElseICanHelp,gText_AnythingElseICanHelp,"Is there anything else I can help
-you with?",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,pending_usage_to_window_mapping,pending,
+you with?",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,359,2,,no,pending_usage_to_window_mapping,proof_passed,
 UI0011,global:gText_Appeal,gText_Appeal,APPEAL,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,509,1,,no,pending_usage_to_window_mapping,pending,
 UI0012,global:gText_Attack3,gText_Attack3,ATTACK,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,497,1,,no,pending_usage_to_window_mapping,pending,
 UI0013,global:gText_BagFullCouldNotRemoveItem,gText_BagFullCouldNotRemoveItem,"The BAG is full. The POKéMON's
@@ -88,7 +88,7 @@ UI0050,global:gText_ButtonTypeNormal,gText_ButtonTypeNormal,{COLOR GREEN}{SHADOW
 UI0051,global:gText_ByeByePkmn,gText_ByeByePkmn,"Bye-bye, {DYNAMIC 0}!",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,884,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0052,global:gText_Call,gText_Call,CALL,,proof_passed,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1001,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0053,global:gText_CallCantBeMadeHere,gText_CallCantBeMadeHere,A call can't be made from here.,,proof_passed,core_ui_prompt,english,POKENAV,1,c_u8,src/strings.c,1647,1,,no,pending_usage_to_window_mapping,proof_passed,
-UI0054,global:gText_CanIHelpWithAnythingElse,gText_CanIHelpWithAnythingElse,Can I help you with anything else?,,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,360,1,,no,pending_usage_to_window_mapping,pending,
+UI0054,global:gText_CanIHelpWithAnythingElse,gText_CanIHelpWithAnythingElse,Can I help you with anything else?,,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,360,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0055,global:gText_Cancel,gText_Cancel,CANCEL,ยกเลิก,proof_passed,core_ui_label,english,MOVE_UI;PARTY_MENU;PC_STORAGE;SUMMARY,5,c_u8,src/strings.c,194,1,,no,pass,proof_passed,"Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (6/6 row C01, 6/6 row C03)."
 UI0056,global:gText_Cancel2,gText_Cancel2,CANCEL,ยกเลิก,proof_passed,core_ui_label,english,BAG;PARTY_MENU;PC_STORAGE;SHOP;SUMMARY,10,c_u8,src/strings.c,195,1,,no,pass,proof_passed,"Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (5/6 row A15, 6/6 row C02)."
 UI0057,global:gText_Cancel6,gText_Cancel6,CANCEL,,proof_passed,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,1003,1,,no,pending_usage_to_window_mapping,proof_passed,
@@ -299,13 +299,13 @@ UI0223,global:gText_HealthboxGender_Male,gText_HealthboxGender_Male,{COLOR DYNAM
 UI0224,global:gText_HealthboxGender_None,gText_HealthboxGender_None,{COLOR DYNAMIC_COLOR2},,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1265,1,{COLOR DYNAMIC_COLOR2},yes,pending_usage_to_window_mapping,pending,
 UI0225,global:gText_HealthboxNickname,gText_HealthboxNickname,{HIGHLIGHT DARK_GRAY},,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI,1,c_u8,src/strings.c,1261,1,{HIGHLIGHT DARK_GRAY},yes,pending_usage_to_window_mapping,pending,
 UI0226,global:gText_HereYouGoThankYou,gText_HereYouGoThankYou,"Here you go!
-Thank you very much.",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,353,2,,no,pending_usage_to_window_mapping,pending,
+Thank you very much.",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,353,2,,no,pending_usage_to_window_mapping,proof_passed,
 UI0227,global:gText_HowManyToSell,gText_HowManyToSell,"{STR_VAR_2}?
 How many would you like to sell?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,363,2,{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0228,global:gText_ICanPayVar1,gText_ICanPayVar1,"I can pay ¥{STR_VAR_1}.
 Would that be okay?",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,364,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0229,global:gText_IDNumber2,gText_IDNumber2,{ID}{NO},,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,2,c_u8,src/strings.c,218,1,{ID};{NO},yes,pending_usage_to_window_mapping,pending,
-UI0230,global:gText_InBagVar1,gText_InBagVar1,IN BAG: {STR_VAR_1},,translated_pending_qa,core_ui_label,english,SHOP,1,c_u8,src/strings.c,346,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0230,global:gText_InBagVar1,gText_InBagVar1,IN BAG: {STR_VAR_1},,proof_passed,core_ui_label,english,SHOP,1,c_u8,src/strings.c,346,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,proof_passed,
 UI0231,global:gText_InParty,gText_InParty,IN PARTY,,proof_passed,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,994,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0232,global:gText_InUseAlready_PM,gText_InUseAlready_PM,This is in use already.,กำลังใช้อยู่แล้ว,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,456,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0233,global:gText_Info,gText_Info,INFO,,pending,core_ui_label,english,SUMMARY,2,c_u8,src/strings.c,522,1,,no,pending_usage_to_window_mapping,pending,
@@ -434,7 +434,7 @@ UI0314,global:gText_NoItems,gText_NoItems,There are no items.{PAUSE_UNTIL_PRESS}
 UI0315,global:gText_NoMailHere,gText_NoMailHere,There's no MAIL here.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,2,c_u8,src/strings.c,602,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0316,global:gText_NoMatchingPkmnWereFound,gText_NoMatchingPkmnWereFound,No matching POKéMON were found.,,pending,core_ui_prompt,english,POKEDEX,1,c_u8,src/strings.c,122,1,,no,pending_usage_to_window_mapping,pending,
 UI0317,global:gText_NoMoreRoomForThis,gText_NoMoreRoomForThis,"You have no more room for this
-item.{PAUSE_UNTIL_PRESS}",,translated_pending_qa,system_message,english,SHOP,1,c_u8,src/strings.c,357,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+item.{PAUSE_UNTIL_PRESS}",,proof_passed,system_message,english,SHOP,1,c_u8,src/strings.c,357,2,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,proof_passed,
 UI0318,global:gText_NoMoreThanVar1Pkmn,gText_NoMoreThanVar1Pkmn,"No more than {STR_VAR_1} POKéMON
 may enter.{PAUSE_UNTIL_PRESS}","ส่งโปเกมอนเข้าร่วมได้
 ไม่เกิน {STR_VAR_1} ตัว{PAUSE_UNTIL_PRESS}",proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,389,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 5; row code(s) R14)."
@@ -613,7 +613,7 @@ UI0411,global:gText_Pokenav_ClearButtonList,gText_Pokenav_ClearButtonList,{CLEAR
 UI0412,global:gText_PowderQty,gText_PowderQty,POWDER QTY: {STR_VAR_1}{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,1,c_u8,src/strings.c,256,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0413,global:gText_Power,gText_Power,POWER,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,507,1,,no,pending_usage_to_window_mapping,pending,
 UI0414,global:gText_PutItemInBag,gText_PutItemInBag,Put this item in the BAG?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,899,1,,no,pending_usage_to_window_mapping,pending,
-UI0415,global:gText_QuitShopping,gText_QuitShopping,Quit shopping.,,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,347,1,,no,pending_usage_to_window_mapping,pending,
+UI0415,global:gText_QuitShopping,gText_QuitShopping,Quit shopping.,,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,347,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0416,global:gText_Read,gText_Read,READ,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,599,1,,no,pending_usage_to_window_mapping,pending,
 UI0417,global:gText_Read2,gText_Read2,READ,อ่าน,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,375,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (4/6 row A08).
 UI0418,global:gText_ReceivedItemFromPkmn,gText_ReceivedItemFromPkmn,"Received the {STR_VAR_2}
@@ -680,9 +680,9 @@ your PC?","ส่งจดหมายที่เอาออก
 ไปยัง PC?",proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,390,2,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0455,global:gText_SendOut,gText_SendOut,SEND OUT,ส่งลงสนาม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,368,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A02).
 UI0456,global:gText_Shift,gText_Shift,SHIFT,สลับตัว,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,367,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (3/6 row A01).
-UI0457,global:gText_ShopBuy,gText_ShopBuy,BUY,,translated_pending_qa,core_ui_label,english,SHOP,2,c_u8,src/strings.c,343,1,,no,pending_usage_to_window_mapping,pending,
-UI0458,global:gText_ShopQuit,gText_ShopQuit,QUIT,,translated_pending_qa,core_ui_label,english,SHOP,2,c_u8,src/strings.c,345,1,,no,pending_usage_to_window_mapping,pending,
-UI0459,global:gText_ShopSell,gText_ShopSell,SELL,,translated_pending_qa,core_ui_label,english,SHOP,1,c_u8,src/strings.c,344,1,,no,pending_usage_to_window_mapping,pending,
+UI0457,global:gText_ShopBuy,gText_ShopBuy,BUY,,proof_passed,core_ui_label,english,SHOP,2,c_u8,src/strings.c,343,1,,no,pending_usage_to_window_mapping,proof_passed,
+UI0458,global:gText_ShopQuit,gText_ShopQuit,QUIT,,proof_passed,core_ui_label,english,SHOP,2,c_u8,src/strings.c,345,1,,no,pending_usage_to_window_mapping,proof_passed,
+UI0459,global:gText_ShopSell,gText_ShopSell,SELL,,proof_passed,core_ui_label,english,SHOP,1,c_u8,src/strings.c,344,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0460,global:gText_SizeComparedTo,gText_SizeComparedTo,SIZE COMPARED TO\x20,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,116,1,,no,pending_usage_to_window_mapping,pending,
 UI0461,global:gText_Slash,gText_Slash,/,,not_applicable,technical_not_translatable,nonlinguistic,BATTLE_UI;PARTY_MENU,2,c_u8,src/strings.c,208,1,,no,pending_usage_to_window_mapping,pending,
 UI0462,global:gText_Sound,gText_Sound,SOUND,เสียง,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1532,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -692,7 +692,7 @@ UI0465,global:gText_SpAtk3,gText_SpAtk3,SP. ATK,,pending,core_ui_label,english,P
 UI0466,global:gText_SpAtk4,gText_SpAtk4,SP. ATK,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,499,1,,no,pending_usage_to_window_mapping,pending,
 UI0467,global:gText_SpDef3,gText_SpDef3,SP. DEF,,pending,core_ui_label,english,PARTY_MENU,2,c_u8,src/strings.c,379,1,,no,pending_usage_to_window_mapping,pending,
 UI0468,global:gText_SpDef4,gText_SpDef4,SP. DEF,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,3,c_u8,src/strings.c,500,1,,no,pending_usage_to_window_mapping,pending,
-UI0469,global:gText_SpaceForVar1Full,gText_SpaceForVar1Full,The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS},,translated_pending_qa,system_message,english,SHOP,1,c_u8,src/strings.c,358,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0469,global:gText_SpaceForVar1Full,gText_SpaceForVar1Full,The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS},,proof_passed,system_message,english,SHOP,1,c_u8,src/strings.c,358,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pending_usage_to_window_mapping,proof_passed,
 UI0470,global:gText_Speed2,gText_Speed2,SPEED,,pending,core_ui_label,english,PARTY_MENU;SUMMARY,5,c_u8,src/strings.c,501,1,,no,pending_usage_to_window_mapping,pending,
 UI0471,global:gText_Status,gText_Status,STATUS,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,511,1,,no,pending_usage_to_window_mapping,pending,
 UI0472,global:gText_StopLearningMove2,gText_StopLearningMove2,"Stop trying to teach
@@ -721,9 +721,9 @@ UI0488,global:gText_TextSpeedFast,gText_TextSpeedFast,{COLOR GREEN}{SHADOW LIGHT
 UI0489,global:gText_TextSpeedMid,gText_TextSpeedMid,{COLOR GREEN}{SHADOW LIGHT_GREEN}MID,{COLOR GREEN}{SHADOW LIGHT_GREEN}กลาง,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1537,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0490,global:gText_TextSpeedSlow,gText_TextSpeedSlow,{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW,{COLOR GREEN}{SHADOW LIGHT_GREEN}ช้า,proof_passed,core_ui_label,english,OPTION_MENU,2,c_u8,src/strings.c,1536,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0491,global:gText_ThankYouIllSendItHome,gText_ThankYouIllSendItHome,"Thank you!
-I'll send it to your home PC.",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,354,2,,no,pending_usage_to_window_mapping,pending,
+I'll send it to your home PC.",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,354,2,,no,pending_usage_to_window_mapping,proof_passed,
 UI0492,global:gText_ThanksIllSendItHome,gText_ThanksIllSendItHome,"Thanks!
-I'll send it to your PC at home.",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,355,2,,no,pending_usage_to_window_mapping,pending,
+I'll send it to your PC at home.",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,355,2,,no,pending_usage_to_window_mapping,proof_passed,
 UI0493,global:gText_ThatIsntAnEgg,gText_ThatIsntAnEgg,That isn't an EGG.,ตัวนั้นไม่ใช่ไข่,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,495,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0494,global:gText_ThatsYourLastPkmn,gText_ThatsYourLastPkmn,That's your last POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,886,1,,no,pending_usage_to_window_mapping,pending,
 UI0495,global:gText_Third_PM,gText_Third_PM,THIRD,ตัวที่สาม,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,462,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (2/6 row D09).
@@ -736,7 +736,7 @@ UI0499,global:gText_ThrowAwayItem,gText_ThrowAwayItem,"Throw away this
 {STR_VAR_1}?","จะทิ้ง
 {STR_VAR_1}?",proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,429,2,{STR_VAR_1},yes,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0500,global:gText_ThrowAwayItemsInPC,gText_ThrowAwayItemsInPC,Throw away items stored in the PC.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,594,1,,no,pending_usage_to_window_mapping,pending,
-UI0501,global:gText_ThrowInPremierBall,gText_ThrowInPremierBall,"I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}",,translated_pending_qa,system_message,english,SHOP,1,c_u8,src/strings.c,361,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0501,global:gText_ThrowInPremierBall,gText_ThrowInPremierBall,"I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}",,proof_passed,system_message,english,SHOP,1,c_u8,src/strings.c,361,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,proof_passed,
 UI0502,global:gText_TooImportantToToss,gText_TooImportantToToss,"That's much too
 important to toss
 out!",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,238,3,,no,pending_usage_to_window_mapping,pending,
@@ -760,16 +760,16 @@ UI0515,global:gText_UsedVar2WildLured,gText_UsedVar2WildLured,"{PLAYER} used the
 UI0516,global:gText_UsedVar2WildRepelled,gText_UsedVar2WildRepelled,"{PLAYER} used the
 {STR_VAR_2}.\pWild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,254,2,\p;{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0517,global:gText_Var1AndYouWantedVar2,gText_Var1AndYouWantedVar2,"{STR_VAR_1}? And you wanted {STR_VAR_2}?
-That will be ¥{STR_VAR_3}.",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,350,2,{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+That will be ¥{STR_VAR_3}.",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,350,2,{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,proof_passed,
 UI0518,global:gText_Var1CantBeHeld,gText_Var1CantBeHeld,The {STR_VAR_1} can't be held.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,232,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0519,global:gText_Var1CantBeHeldHere,gText_Var1CantBeHeldHere,"The {STR_VAR_1} can't be held
 here.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,233,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0520,global:gText_Var1CertainlyHowMany,gText_Var1CertainlyHowMany,"{STR_VAR_1}? Certainly.
-How many would you like?",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,348,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+How many would you like?",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,348,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,proof_passed,
 UI0521,global:gText_Var1CertainlyHowMany2,gText_Var1CertainlyHowMany2,"{STR_VAR_1}? Certainly.
-How many would you like?",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,349,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+How many would you like?",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,349,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,proof_passed,
 UI0522,global:gText_Var1IsItThatllBeVar2,gText_Var1IsItThatllBeVar2,"{STR_VAR_1}, is it?
-That'll be ¥{STR_VAR_2}. Do you want it?",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,351,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+That'll be ¥{STR_VAR_2}. Do you want it?",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,351,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,proof_passed,
 UI0523,global:gText_Var1IsSelected,gText_Var1IsSelected,"{STR_VAR_1} is
 selected.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,228,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0524,global:gText_WTWeight,gText_WTWeight,WT,,pending,core_ui_label,english,POKEDEX,1,c_u8,src/strings.c,119,1,,no,pending_usage_to_window_mapping,pending,
@@ -816,9 +816,9 @@ UI0547,global:gText_XNatureProbablyMetAt,gText_XNatureProbablyMetAt,"{DYNAMIC 0}
 probably met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
 {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,532,3,{DYNAMIC 0};{DYNAMIC 1};{DYNAMIC 2};{DYNAMIC 3};{DYNAMIC 4};{DYNAMIC 5};{LV_2},yes,pending_usage_to_window_mapping,pending,
 UI0548,global:gText_YouCantReleaseAnEgg,gText_YouCantReleaseAnEgg,You can't release an EGG.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,890,1,,no,pending_usage_to_window_mapping,pending,
-UI0549,global:gText_YouDontHaveMoney,gText_YouDontHaveMoney,You don't have enough money.{PAUSE_UNTIL_PRESS},,translated_pending_qa,system_message,english,SHOP,1,c_u8,src/strings.c,356,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
+UI0549,global:gText_YouDontHaveMoney,gText_YouDontHaveMoney,You don't have enough money.{PAUSE_UNTIL_PRESS},,proof_passed,system_message,english,SHOP,1,c_u8,src/strings.c,356,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,proof_passed,
 UI0550,global:gText_YouWantedVar1ThatllBeVar2,gText_YouWantedVar1ThatllBeVar2,"You wanted {STR_VAR_1}?
-That'll be ¥{STR_VAR_2}. Will that be okay?",,translated_pending_qa,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,352,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+That'll be ¥{STR_VAR_2}. Will that be okay?",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,352,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,proof_passed,
 UI0551,global:gText_YourName,gText_YourName,YOUR NAME?,ชื่อของเธอ?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1642,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0552,global:gText_YourPartysFull,gText_YourPartysFull,Your party's full!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,887,1,,no,pending_usage_to_window_mapping,pending,
 UI0553,global:gText_YoureHoldingAPkmn,gText_YoureHoldingAPkmn,You're holding a POKéMON!,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,888,1,,no,pending_usage_to_window_mapping,pending,
