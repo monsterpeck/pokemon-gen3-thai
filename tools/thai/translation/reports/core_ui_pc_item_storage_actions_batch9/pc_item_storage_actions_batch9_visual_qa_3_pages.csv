@@ -1,0 +1,4 @@
+﻿visual_page,purpose,symbols,layout,thai_shaping,horizontal_clipping,vertical_clipping,centering,english_retention,visual_qa_status,evidence_note
+01/03,dynamic item-storage action menu,gText_DepositItem;gText_WithdrawItem;gText_TossItem,pass,pass,none,none,not_applicable,ITEM passed,proof_passed,User-reviewed Batch 9 QA ROM screenshot.
+02/03,Withdraw centered title in 104 px area,gText_WithdrawItem,pass,pass,none,none,pass,ITEM passed,proof_passed,User-reviewed Batch 9 QA ROM screenshot.
+03/03,Toss centered title in 104 px area,gText_TossItem,pass,pass,none,none,pass,ITEM passed,proof_passed,User-reviewed Batch 9 QA ROM screenshot.
