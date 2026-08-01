@@ -1,0 +1,703 @@
+===== gText_AnythingElseICanHelp =====
+src/strings.c-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.bak-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.bak-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.bak-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_pixel_font-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_pixel_font-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_pixel_font-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_precomposed-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_precomposed-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_precomposed-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_start_game_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_start_game_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_start_game_test-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_thai_combining_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test:359:const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_thai_combining_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_thai_combining_test-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+
+===== gText_CanIHelpWithAnythingElse =====
+src/strings.c-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.bak-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.bak:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.bak-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_pixel_font-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_pixel_font:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_pixel_font-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_precomposed-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_precomposed:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_precomposed-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_start_game_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_start_game_test:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_start_game_test-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_thai_combining_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_thai_combining_test:360:const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_thai_combining_test-361-const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+
+===== gText_HereYouGoThankYou =====
+src/strings.c-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+--
+src/strings.c.bak-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.bak-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.bak:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.bak-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.bak-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+--
+src/strings.c.before_pixel_font-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_pixel_font-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_pixel_font:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_pixel_font-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_pixel_font-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+--
+src/strings.c.before_precomposed-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_precomposed-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_precomposed:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_precomposed-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_precomposed-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+--
+src/strings.c.before_start_game_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_start_game_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_start_game_test:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_start_game_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_start_game_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+--
+src/strings.c.before_thai_combining_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_thai_combining_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_thai_combining_test:353:const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_thai_combining_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_thai_combining_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+
+===== gText_InBagVar1 =====
+src/strings.c-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.bak-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.bak-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.bak:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.bak-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.bak-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_pixel_font-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_pixel_font-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_pixel_font:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_pixel_font-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_pixel_font-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_precomposed-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_precomposed-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_precomposed:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_precomposed-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_precomposed-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_start_game_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_start_game_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_start_game_test:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_start_game_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_start_game_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_thai_combining_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_thai_combining_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_thai_combining_test:346:const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_thai_combining_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_thai_combining_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+
+===== gText_NoMoreRoomForThis =====
+src/strings.c-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+--
+src/strings.c.bak-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.bak-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+--
+src/strings.c.before_pixel_font-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_pixel_font-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+--
+src/strings.c.before_precomposed-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_precomposed-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+--
+src/strings.c.before_start_game_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_start_game_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+--
+src/strings.c.before_thai_combining_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_thai_combining_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test:357:const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+
+===== gText_QuitShopping =====
+src/strings.c-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.bak-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.bak-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.bak:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.bak-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_pixel_font-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_pixel_font-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_pixel_font:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_pixel_font-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_precomposed-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_precomposed-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_precomposed:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_precomposed-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_start_game_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_start_game_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_start_game_test:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_start_game_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+--
+src/strings.c.before_thai_combining_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_thai_combining_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_thai_combining_test:347:const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_thai_combining_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+
+===== gText_ShopBuy =====
+src/strings.c-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c-345-const u8 gText_ShopQuit[] = _("QUIT");
+--
+src/strings.c.bak-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.bak-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.bak-345-const u8 gText_ShopQuit[] = _("QUIT");
+--
+src/strings.c.before_pixel_font-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_pixel_font-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_pixel_font-345-const u8 gText_ShopQuit[] = _("QUIT");
+--
+src/strings.c.before_precomposed-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_precomposed-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_precomposed-345-const u8 gText_ShopQuit[] = _("QUIT");
+--
+src/strings.c.before_start_game_test-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_start_game_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_start_game_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+--
+src/strings.c.before_thai_combining_test-341-const u8 gText_Var1HappilyAteVar2[] = _("{STR_VAR_1} happily ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test:343:const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_thai_combining_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_thai_combining_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+
+===== gText_ShopQuit =====
+src/strings.c-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+--
+src/strings.c.bak-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.bak-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.bak:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.bak-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.bak-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+--
+src/strings.c.before_pixel_font-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_pixel_font-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_pixel_font:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_pixel_font-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_pixel_font-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+--
+src/strings.c.before_precomposed-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_precomposed-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_precomposed:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_precomposed-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_precomposed-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+--
+src/strings.c.before_start_game_test-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_start_game_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_start_game_test:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_start_game_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_start_game_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+--
+src/strings.c.before_thai_combining_test-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_thai_combining_test-344-const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_thai_combining_test:345:const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_thai_combining_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_thai_combining_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+
+===== gText_ShopSell =====
+src/strings.c-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+--
+src/strings.c.bak-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.bak:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.bak-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.bak-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+--
+src/strings.c.before_pixel_font-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_pixel_font:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_pixel_font-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_pixel_font-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+--
+src/strings.c.before_precomposed-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_precomposed:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_precomposed-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_precomposed-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+--
+src/strings.c.before_start_game_test-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_start_game_test:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_start_game_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_start_game_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+--
+src/strings.c.before_thai_combining_test-342-const u8 gText_Var1DisdainfullyAteVar2[] = _("{STR_VAR_1} disdainfully ate the\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-343-const u8 gText_ShopBuy[] = _("BUY");
+src/strings.c.before_thai_combining_test:344:const u8 gText_ShopSell[] = _("SELL");
+src/strings.c.before_thai_combining_test-345-const u8 gText_ShopQuit[] = _("QUIT");
+src/strings.c.before_thai_combining_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+
+===== gText_SpaceForVar1Full =====
+src/strings.c-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+--
+src/strings.c.bak-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.bak-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+--
+src/strings.c.before_pixel_font-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_pixel_font-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+--
+src/strings.c.before_precomposed-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_precomposed-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+--
+src/strings.c.before_start_game_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_start_game_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+--
+src/strings.c.before_thai_combining_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test:358:const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_thai_combining_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+
+===== gText_ThankYouIllSendItHome =====
+src/strings.c-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.bak-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.bak-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.bak:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.bak-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.bak-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_pixel_font-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_pixel_font-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_pixel_font:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_pixel_font-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_pixel_font-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_precomposed-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_precomposed-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_precomposed:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_precomposed-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_precomposed-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_start_game_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_start_game_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_start_game_test:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_start_game_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_start_game_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_thai_combining_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_thai_combining_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_thai_combining_test:354:const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_thai_combining_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_thai_combining_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+
+===== gText_ThanksIllSendItHome =====
+src/strings.c-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.bak-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.bak-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.bak:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.bak-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_pixel_font-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_pixel_font-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_pixel_font:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_pixel_font-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_precomposed-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_precomposed-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_precomposed:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_precomposed-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_start_game_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_start_game_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_start_game_test:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_start_game_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_thai_combining_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_thai_combining_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_thai_combining_test:355:const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_thai_combining_test-356-const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+
+===== gText_ThrowInPremierBall =====
+src/strings.c-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+--
+src/strings.c.bak-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.bak-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.bak:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+--
+src/strings.c.before_pixel_font-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_pixel_font-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_pixel_font:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+--
+src/strings.c.before_precomposed-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_precomposed-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_precomposed:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+--
+src/strings.c.before_start_game_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_start_game_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_start_game_test:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+--
+src/strings.c.before_thai_combining_test-359-const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");
+src/strings.c.before_thai_combining_test-360-const u8 gText_CanIHelpWithAnythingElse[] = _("Can I help you with anything else?");
+src/strings.c.before_thai_combining_test:361:const u8 gText_ThrowInPremierBall[] = _("I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-362-const u8 gText_CantBuyKeyItem[] = _("{STR_VAR_2}? Oh, no.\nI can't buy that.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-363-const u8 gText_HowManyToSell[] = _("{STR_VAR_2}?\nHow many would you like to sell?");
+
+===== gText_Var1AndYouWantedVar2 =====
+src/strings.c-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+--
+src/strings.c.bak-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.bak-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.bak-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+--
+src/strings.c.before_pixel_font-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_pixel_font-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_pixel_font-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+--
+src/strings.c.before_precomposed-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_precomposed-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_precomposed-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+--
+src/strings.c.before_start_game_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_start_game_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_start_game_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+--
+src/strings.c.before_thai_combining_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test:350:const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_thai_combining_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_thai_combining_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+
+===== gText_Var1CertainlyHowMany =====
+src/strings.c-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+--
+src/strings.c.bak-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.bak-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.bak:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+--
+src/strings.c.before_pixel_font-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_pixel_font-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_pixel_font:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+--
+src/strings.c.before_precomposed-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_precomposed-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_precomposed:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+--
+src/strings.c.before_start_game_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_start_game_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_start_game_test:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+--
+src/strings.c.before_thai_combining_test-346-const u8 gText_InBagVar1[] = _("IN BAG: {STR_VAR_1}");
+src/strings.c.before_thai_combining_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_thai_combining_test:348:const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+
+===== gText_Var1CertainlyHowMany2 =====
+src/strings.c-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+--
+src/strings.c.bak-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.bak-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.bak-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+--
+src/strings.c.before_pixel_font-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_pixel_font-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_pixel_font-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+--
+src/strings.c.before_precomposed-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_precomposed-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_precomposed-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+--
+src/strings.c.before_start_game_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_start_game_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_start_game_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+--
+src/strings.c.before_thai_combining_test-347-const u8 gText_QuitShopping[] = _("Quit shopping.");
+src/strings.c.before_thai_combining_test-348-const u8 gText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test:349:const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_thai_combining_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+
+===== gText_Var1IsItThatllBeVar2 =====
+src/strings.c-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+--
+src/strings.c.bak-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.bak-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.bak:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.bak-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.bak-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+--
+src/strings.c.before_pixel_font-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_pixel_font-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_pixel_font:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_pixel_font-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_pixel_font-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+--
+src/strings.c.before_precomposed-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_precomposed-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_precomposed:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_precomposed-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_precomposed-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+--
+src/strings.c.before_start_game_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_start_game_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_start_game_test:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_start_game_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_start_game_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+--
+src/strings.c.before_thai_combining_test-349-const u8 gText_Var1CertainlyHowMany2[] = _("{STR_VAR_1}? Certainly.\nHow many would you like?");
+src/strings.c.before_thai_combining_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_thai_combining_test:351:const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_thai_combining_test-352-const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_thai_combining_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+
+===== gText_YouDontHaveMoney =====
+src/strings.c-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.bak-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.bak-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.bak:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.bak-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_pixel_font-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_pixel_font-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_pixel_font:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_pixel_font-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_precomposed-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_precomposed-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_precomposed:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_precomposed-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_start_game_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_start_game_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_start_game_test:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_start_game_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+--
+src/strings.c.before_thai_combining_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+src/strings.c.before_thai_combining_test-355-const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
+src/strings.c.before_thai_combining_test:356:const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-357-const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
+src/strings.c.before_thai_combining_test-358-const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
+
+===== gText_YouWantedVar1ThatllBeVar2 =====
+src/strings.c-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+--
+src/strings.c.bak-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.bak-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.bak:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.bak-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.bak-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+--
+src/strings.c.before_pixel_font-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_pixel_font-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_pixel_font:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_pixel_font-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_pixel_font-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+--
+src/strings.c.before_precomposed-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_precomposed-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_precomposed:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_precomposed-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_precomposed-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+--
+src/strings.c.before_start_game_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_start_game_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_start_game_test:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_start_game_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_start_game_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+--
+src/strings.c.before_thai_combining_test-350-const u8 gText_Var1AndYouWantedVar2[] = _("{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.");
+src/strings.c.before_thai_combining_test-351-const u8 gText_Var1IsItThatllBeVar2[] = _("{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?");
+src/strings.c.before_thai_combining_test:352:const u8 gText_YouWantedVar1ThatllBeVar2[] = _("You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
+src/strings.c.before_thai_combining_test-353-const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
+src/strings.c.before_thai_combining_test-354-const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
+

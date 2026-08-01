@@ -1,0 +1,10 @@
+﻿profile,geometry,pixels_or_limit,font,origin,scope
+shop_menu,9x6 or 9x4 tiles,72px,menu font,left menu item,BUY/SELL/QUIT
+quantity_in_bag,12x2 tiles,96x16,FONT_NORMAL,"x=0,y=1",IN BAG + runtime count
+quantity_price,10x2 tiles,80x16,FONT_NORMAL,count x=0; money x=38,runtime only
+buy_message,27x4 tiles,216x32,FONT_NORMAL,"x=10,y=14 via DisplayMessageAndContinueTask",purchase and capacity messages
+money,10x2 tiles,80x16,money renderer,bordered,runtime only
+item_list,15x16 tiles,120x128,FONT_NARROW,item x=8,item names/prices
+item_description,14x6 tiles,112x48,FONT_NORMAL,"x=3,y=1",item description
+yes_no,5x4 tiles,40x32,menu font,standard callback menu,confirmation
+field_shop_prompt,field message box,runtime field geometry,FONT_NORMAL,DisplayItemMessageOnField,shop entry/exit prompts

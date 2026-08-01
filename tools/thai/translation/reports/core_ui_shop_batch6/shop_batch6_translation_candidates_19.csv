@@ -1,0 +1,20 @@
+﻿ui_id,symbol,english,thai_candidate,profile,font,geometry,review_status,note
+UI0010,gText_AnythingElseICanHelp,Is there anything else I can help\nyou with?,มีอะไรอีกไหม\nให้ช่วย?,field_shop_prompt,FONT_NORMAL,field message box,candidate,คง runtime line-break token จากต้นฉบับ; แบ่งเป็นสองบรรทัดเพื่อรักษาโครงสร้าง field message
+UI0054,gText_CanIHelpWithAnythingElse,Can I help you with anything else?,รับอะไรเพิ่มไหม?,field_shop_prompt,FONT_NORMAL,field message box,candidate,คำถามต่อหลังออกจากเมนูซื้อ/ขาย
+UI0226,gText_HereYouGoThankYou,Here you go!\nThank you very much.,นี่เลย!\nขอบคุณมาก,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,2 บรรทัด
+UI0230,gText_InBagVar1,IN BAG: {STR_VAR_1},มี: {STR_VAR_1},quantity_in_bag,FONT_NORMAL,"96x16; x=0,y=1",candidate,ย่อป้ายจำนวนในกระเป๋าให้พอดีกับหน้าต่าง 96 px โดยคง STR_VAR_1 และความหมายว่ามีอยู่จำนวนเท่าไร
+UI0317,gText_NoMoreRoomForThis,You have no more room for this\nitem.{PAUSE_UNTIL_PRESS},ไม่มีที่ว่างสำหรับ\nของชิ้นนี้แล้ว{PAUSE_UNTIL_PRESS},buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง pause token
+UI0415,gText_QuitShopping,Quit shopping.,เลิกซื้อของ,field_shop_prompt,FONT_NORMAL,field message box,candidate,ข้อความปิดร้าน
+UI0457,gText_ShopBuy,BUY,ซื้อ,shop_menu,menu font,72px menu width,candidate,คำสั่งทั่วไป
+UI0458,gText_ShopQuit,QUIT,เลิก,shop_menu,menu font,72px menu width,candidate,คำสั้น
+UI0459,gText_ShopSell,SELL,ขาย,shop_menu,menu font,72px menu width,candidate,คำสั่งทั่วไป
+UI0469,gText_SpaceForVar1Full,The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS},ที่เก็บ {STR_VAR_1} เต็มแล้ว{PAUSE_UNTIL_PRESS},buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง STR_VAR_1 และ pause
+UI0491,gText_ThankYouIllSendItHome,Thank you!\nI'll send it to your home PC.,ขอบคุณ!\nจะส่งไปที่ PC ที่บ้าน,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง PC
+UI0492,gText_ThanksIllSendItHome,Thanks!\nI'll send it to your PC at home.,ขอบคุณ!\nจะส่งไปที่ PC ที่บ้าน,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,ข้อความเทียบเท่ารายการก่อนหน้า
+UI0501,gText_ThrowInPremierBall,"I'll throw in a PREMIER BALL, too.{PAUSE_UNTIL_PRESS}",แถม PREMIER BALL ให้ด้วย{PAUSE_UNTIL_PRESS},buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,ชื่อ Item คง English
+UI0517,gText_Var1AndYouWantedVar2,{STR_VAR_1}? And you wanted {STR_VAR_2}?\nThat will be ¥{STR_VAR_3}.,{STR_VAR_1} จำนวน {STR_VAR_2}?\nรวม ¥{STR_VAR_3},buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,"ลดความยาวบรรทัดแรกให้พอดีกับหน้าต่าง 216 px โดยคงลำดับ STR_VAR_1, STR_VAR_2, STR_VAR_3 และสัญลักษณ์เงิน"
+UI0520,gText_Var1CertainlyHowMany,{STR_VAR_1}? Certainly.\nHow many would you like?,{STR_VAR_1} ใช่ไหม?\nต้องการกี่ชิ้น?,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง STR_VAR_1
+UI0521,gText_Var1CertainlyHowMany2,{STR_VAR_1}? Certainly.\nHow many would you like?,{STR_VAR_1} ใช่ไหม?\nต้องการกี่ชิ้น?,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,ข้อความต้นฉบับซ้ำ
+UI0522,gText_Var1IsItThatllBeVar2,"{STR_VAR_1}, is it?\nThat'll be ¥{STR_VAR_2}. Do you want it?",{STR_VAR_1} ใช่ไหม?\nราคา ¥{STR_VAR_2} จะซื้อไหม?,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง placeholder และสัญลักษณ์เงิน
+UI0549,gText_YouDontHaveMoney,You don't have enough money.{PAUSE_UNTIL_PRESS},เงินไม่พอ{PAUSE_UNTIL_PRESS},buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,ข้อความระบบสั้น
+UI0550,gText_YouWantedVar1ThatllBeVar2,You wanted {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}. Will that be okay?,ต้องการ {STR_VAR_1} ใช่ไหม?\nราคา ¥{STR_VAR_2} ตกลงไหม?,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,คง placeholder และสัญลักษณ์เงิน

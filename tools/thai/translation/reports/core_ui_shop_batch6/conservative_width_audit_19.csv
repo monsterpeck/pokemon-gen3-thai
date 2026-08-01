@@ -1,0 +1,20 @@
+﻿ui_id,symbol,profile,line_widths_px,width_limit_px,width_result,method
+UI0010,gText_AnythingElseICanHelp,field_shop_prompt,61|39,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0054,gText_CanIHelpWithAnythingElse,field_shop_prompt,81,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0226,gText_HereYouGoThankYou,buy_message,32|53,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0230,gText_InBagVar1,quantity_in_bag,83,96,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0317,gText_NoMoreRoomForThis,buy_message,70|58,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0415,gText_QuitShopping,field_shop_prompt,47,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0457,gText_ShopBuy,shop_menu,15,72,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0458,gText_ShopQuit,shop_menu,16,72,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0459,gText_ShopSell,shop_menu,16,72,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0469,gText_SpaceForVar1Full,buy_message,133,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0491,gText_ThankYouIllSendItHome,buy_message,44|91,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0492,gText_ThanksIllSendItHome,buy_message,44|91,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0501,gText_ThrowInPremierBall,buy_message,152,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0517,gText_Var1AndYouWantedVar2,buy_message,176|94,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0520,gText_Var1CertainlyHowMany,buy_message,108|61,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0521,gText_Var1CertainlyHowMany2,buy_message,108|61,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0522,gText_Var1IsItThatllBeVar2,buy_message,108|154,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0549,gText_YouDontHaveMoney,buy_message,44,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.
+UI0550,gText_YouWantedVar1ThatllBeVar2,buy_message,144|151,216,pass,Thai advances from live shaped stream; STR_VAR placeholders conservatively reserve 64px; retained ASCII/English/¥ <=8px per glyph.

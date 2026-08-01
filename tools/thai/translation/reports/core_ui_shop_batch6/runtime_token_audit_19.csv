@@ -1,0 +1,20 @@
+﻿ui_id,symbol,source_tokens,target_tokens,token_result
+UI0010,gText_AnythingElseICanHelp,\n,\n,pass
+UI0054,gText_CanIHelpWithAnythingElse,,,pass
+UI0226,gText_HereYouGoThankYou,\n,\n,pass
+UI0230,gText_InBagVar1,{STR_VAR_1},{STR_VAR_1},pass
+UI0317,gText_NoMoreRoomForThis,\n | {PAUSE_UNTIL_PRESS},\n | {PAUSE_UNTIL_PRESS},pass
+UI0415,gText_QuitShopping,,,pass
+UI0457,gText_ShopBuy,,,pass
+UI0458,gText_ShopQuit,,,pass
+UI0459,gText_ShopSell,,,pass
+UI0469,gText_SpaceForVar1Full,{STR_VAR_1} | {PAUSE_UNTIL_PRESS},{STR_VAR_1} | {PAUSE_UNTIL_PRESS},pass
+UI0491,gText_ThankYouIllSendItHome,\n,\n,pass
+UI0492,gText_ThanksIllSendItHome,\n,\n,pass
+UI0501,gText_ThrowInPremierBall,{PAUSE_UNTIL_PRESS},{PAUSE_UNTIL_PRESS},pass
+UI0517,gText_Var1AndYouWantedVar2,{STR_VAR_1} | {STR_VAR_2} | \n | {STR_VAR_3},{STR_VAR_1} | {STR_VAR_2} | \n | {STR_VAR_3},pass
+UI0520,gText_Var1CertainlyHowMany,{STR_VAR_1} | \n,{STR_VAR_1} | \n,pass
+UI0521,gText_Var1CertainlyHowMany2,{STR_VAR_1} | \n,{STR_VAR_1} | \n,pass
+UI0522,gText_Var1IsItThatllBeVar2,{STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | \n | {STR_VAR_2},pass
+UI0549,gText_YouDontHaveMoney,{PAUSE_UNTIL_PRESS},{PAUSE_UNTIL_PRESS},pass
+UI0550,gText_YouWantedVar1ThatllBeVar2,{STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | \n | {STR_VAR_2},pass
