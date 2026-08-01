@@ -1,0 +1,4 @@
+﻿ui_id,symbol,thai_candidate,calculated_width_px,required_limit_px,width_result
+UI0133,gText_DepositItem,ฝาก ITEM,52,200,pass
+UI0504,gText_TossItem,ทิ้ง ITEM,48,104,pass
+UI0535,gText_WithdrawItem,ถอน ITEM,56,104,pass

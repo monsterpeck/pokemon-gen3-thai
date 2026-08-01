@@ -1,0 +1,4 @@
+﻿ui_id,symbol,english_source,thai_candidate,apply_result
+UI0133,gText_DepositItem,DEPOSIT ITEM,ฝาก ITEM,pass
+UI0504,gText_TossItem,TOSS ITEM,ทิ้ง ITEM,pass
+UI0535,gText_WithdrawItem,WITHDRAW ITEM,ถอน ITEM,pass

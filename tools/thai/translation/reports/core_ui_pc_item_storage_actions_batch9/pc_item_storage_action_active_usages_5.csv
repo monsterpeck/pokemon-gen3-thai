@@ -1,0 +1,6 @@
+﻿ui_key,symbol,ui_area,usage_file,usage_line,function_or_scope,context_kind,font_direct,alignment_direct,window_and_position_status,source_context,usage_status
+global:gText_WithdrawItem,gText_WithdrawItem,PC_STORAGE,src/player_pc.c,219,GLOBAL,menu_action_or_table,,left_or_dynamic,direct_line_only_pending_call_flow_mapping,"[MENU_WITHDRAW] = { gText_WithdrawItem, {ItemStorage_Withdraw} },",active_reference
+global:gText_DepositItem,gText_DepositItem,PC_STORAGE,src/player_pc.c,220,GLOBAL,menu_action_or_table,,left_or_dynamic,direct_line_only_pending_call_flow_mapping,"[MENU_DEPOSIT]  = { gText_DepositItem,  {ItemStorage_Deposit} },",active_reference
+global:gText_TossItem,gText_TossItem,PC_STORAGE,src/player_pc.c,221,GLOBAL,menu_action_or_table,,left_or_dynamic,direct_line_only_pending_call_flow_mapping,"[MENU_TOSS]     = { gText_TossItem,     {ItemStorage_Toss} },",active_reference
+global:gText_TossItem,gText_TossItem,PC_STORAGE,src/player_pc.c,1149,ItemStorage_CreateListMenu,symbol_reference,,left_or_dynamic,direct_line_only_pending_call_flow_mapping,text = gText_TossItem;,active_reference
+global:gText_WithdrawItem,gText_WithdrawItem,PC_STORAGE,src/player_pc.c,1151,ItemStorage_CreateListMenu,symbol_reference,,left_or_dynamic,direct_line_only_pending_call_flow_mapping,text = gText_WithdrawItem;,active_reference

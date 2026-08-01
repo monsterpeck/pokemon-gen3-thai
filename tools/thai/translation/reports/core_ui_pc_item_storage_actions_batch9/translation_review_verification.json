@@ -1,0 +1,20 @@
+{
+  "input_archive_sha256": "fe72bcffee427daf461d057e04d3588e1eda5cd82cfabea0862efd073cb0634d",
+  "input_checksums": "139/139",
+  "candidate_rows": 3,
+  "active_usages": 5,
+  "usage_distribution": {
+    "gText_DepositItem": 1,
+    "gText_WithdrawItem": 2,
+    "gText_TossItem": 2
+  },
+  "placeholders": 0,
+  "multiline_rows": 0,
+  "dynamic_action_menu_width_verified": true,
+  "centered_title_width_px": 104,
+  "live_shaping": false,
+  "live_widths": false,
+  "source_write": false,
+  "build": false,
+  "commit_push": false
+}
