@@ -1,0 +1,18 @@
+﻿visual_page,profile,purpose,symbols,case,visual_qa_status
+01,match_call_options,CALL / CHECK / CANCEL,gText_Call;gText_Check;gText_Cancel6,normal,proof_passed
+02,match_call_options_stress,CALL / CHECK / CANCEL spacing stress,gText_Call;gText_Check;gText_Cancel6,stress,proof_passed
+03,match_call_message,Call cannot be made here,gText_CallCantBeMadeHere,normal,proof_passed
+04,match_call_message_multiline,Trainer close-by two-line message,gText_TrainerCloseBy,normal,proof_passed
+05,match_call_info,Registered / battles labels with runtime numbers,gText_NumberRegistered;gText_NumberOfBattles,dynamic,proof_passed
+06,match_call_location,Unknown location centered,gText_Unknown,normal,proof_passed
+07,condition_rank_single,Condition rank with one-digit dynamic value,gText_NumberIndex,dynamic_9,proof_passed
+08,condition_rank_double,Condition rank with two-digit dynamic value,gText_NumberIndex,dynamic_30,proof_passed
+09,condition_location,In-party status field,gText_InParty,normal,proof_passed
+10,ribbon_count_single,Ribbon count with one-digit dynamic value,gText_RibbonsF700,dynamic_9,proof_passed
+11,ribbon_count_double,Ribbon count with two-digit dynamic value,gText_RibbonsF700,dynamic_30,proof_passed
+12,help_bar_map,Map zoomed-out / zoomed-in help,gText_PokenavMap_ZoomedOutButtons;gText_PokenavMap_ZoomedInButtons,paired,proof_passed
+13,help_bar_condition_list,Condition list / status help,gText_PokenavCondition_MonListButtons;gText_PokenavCondition_MonStatusButtons,paired,proof_passed
+14,help_bar_condition_marking,Condition marking help,gText_PokenavCondition_MarkingButtons,normal,proof_passed
+15,help_bar_match_call_list,Match Call trainer list / call menu help,gText_PokenavMatchCall_TrainerListButtons;gText_PokenavMatchCall_CallMenuButtons,paired,proof_passed
+16,help_bar_match_call_check,Match Call trainer-check help,gText_PokenavMatchCall_CheckTrainerButtons,normal,proof_passed
+17,help_bar_ribbons,Ribbon mon-list / list / check help,gText_PokenavRibbons_MonListButtons;gText_PokenavRibbons_RibbonListButtons;gText_PokenavRibbons_RibbonCheckButtons,triple,proof_passed
