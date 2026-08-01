@@ -1,0 +1,2 @@
+﻿symbol,old_thai,new_thai,runtime_tokens,thai_shaping,visual_reason,source_file
+gText_AnythingElseICanHelp,มีอะไรอีกไหม\nให้ช่วย?,มีอะไรให้ช่วย\nอีกไหม?,\n preserved,pass,Natural Thai word order confirmed after visual review; two-line layout remains within the 27x4 message window.,src/strings.c

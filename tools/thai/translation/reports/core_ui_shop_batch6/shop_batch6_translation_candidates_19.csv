@@ -1,5 +1,5 @@
 ﻿ui_id,symbol,english,thai_candidate,profile,font,geometry,review_status,note
-UI0010,gText_AnythingElseICanHelp,Is there anything else I can help\nyou with?,มีอะไรอีกไหม\nให้ช่วย?,field_shop_prompt,FONT_NORMAL,field message box,candidate,คง runtime line-break token จากต้นฉบับ; แบ่งเป็นสองบรรทัดเพื่อรักษาโครงสร้าง field message
+UI0010,gText_AnythingElseICanHelp,Is there anything else I can help\nyou with?,มีอะไรให้ช่วย\nอีกไหม?,field_shop_prompt,FONT_NORMAL,field message box,candidate,ปรับลำดับคำเป็น “มีอะไรให้ช่วยอีกไหม?” และคง runtime line break เดิม
 UI0054,gText_CanIHelpWithAnythingElse,Can I help you with anything else?,รับอะไรเพิ่มไหม?,field_shop_prompt,FONT_NORMAL,field message box,candidate,คำถามต่อหลังออกจากเมนูซื้อ/ขาย
 UI0226,gText_HereYouGoThankYou,Here you go!\nThank you very much.,นี่เลย!\nขอบคุณมาก,buy_message,FONT_NORMAL,"216x32; x=10,y=14",candidate,2 บรรทัด
 UI0230,gText_InBagVar1,IN BAG: {STR_VAR_1},มี: {STR_VAR_1},quantity_in_bag,FONT_NORMAL,"96x16; x=0,y=1",candidate,ย่อป้ายจำนวนในกระเป๋าให้พอดีกับหน้าต่าง 96 px โดยคง STR_VAR_1 และความหมายว่ามีอยู่จำนวนเท่าไร

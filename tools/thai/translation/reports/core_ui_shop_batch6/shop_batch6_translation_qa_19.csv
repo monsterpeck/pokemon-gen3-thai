@@ -1,5 +1,5 @@
 ﻿ui_id,symbol,source_file,english,thai_candidate,profile,font,geometry,apply_result
-UI0010,gText_AnythingElseICanHelp,src/strings.c,Is there anything else I can help\nyou with?,มีอะไรอีกไหม\nให้ช่วย?,field_shop_prompt,FONT_NORMAL,field message box,pass
+UI0010,gText_AnythingElseICanHelp,src/strings.c,Is there anything else I can help\nyou with?,มีอะไรให้ช่วย\nอีกไหม?,field_shop_prompt,FONT_NORMAL,field message box,pass
 UI0054,gText_CanIHelpWithAnythingElse,src/strings.c,Can I help you with anything else?,รับอะไรเพิ่มไหม?,field_shop_prompt,FONT_NORMAL,field message box,pass
 UI0226,gText_HereYouGoThankYou,src/strings.c,Here you go!\nThank you very much.,นี่เลย!\nขอบคุณมาก,buy_message,FONT_NORMAL,"216x32; x=10,y=14",pass
 UI0230,gText_InBagVar1,src/strings.c,IN BAG: {STR_VAR_1},มี: {STR_VAR_1},quantity_in_bag,FONT_NORMAL,"96x16; x=0,y=1",pass
