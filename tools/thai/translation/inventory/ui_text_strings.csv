@@ -184,7 +184,7 @@ UI0131,global:gText_DepositHowManyVar1,gText_DepositHowManyVar1,"Deposit how man
 UI0132,global:gText_DepositInWhichBox,gText_DepositInWhichBox,Deposit in which BOX?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,879,1,,no,pending_usage_to_window_mapping,pending,
 UI0133,global:gText_DepositItem,gText_DepositItem,DEPOSIT ITEM,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,589,1,,no,pending_usage_to_window_mapping,pending,
 UI0134,global:gText_DepositMonDescription,gText_DepositMonDescription,Store POKéMON in your party in BOXES.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,948,1,,no,pending_usage_to_window_mapping,pending,
-UI0135,global:gText_DepositPokemon,gText_DepositPokemon,DEPOSIT POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,943,1,,no,pending_usage_to_window_mapping,pending,
+UI0135,global:gText_DepositPokemon,gText_DepositPokemon,DEPOSIT POKéMON,,translated_pending_qa,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,943,1,,no,pending_usage_to_window_mapping,pending,
 UI0136,global:gText_DepositedVar2Var1s,gText_DepositedVar2Var1s,"Deposited {STR_VAR_2}
 {STR_VAR_1}(s).",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,235,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0137,global:gText_DexEmptyString,gText_DexEmptyString,,,not_applicable,technical_not_translatable,nonlinguistic,POKEDEX,39,c_u8,src/strings.c,167,0,,no,pending_usage_to_window_mapping,pending,
@@ -370,7 +370,7 @@ UI0276,global:gText_MessageWillBeLost,gText_MessageWillBeLost,"The message will 
 Is that okay?",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,604,2,,no,pending_usage_to_window_mapping,pending,
 UI0277,global:gText_MoveInterfacePP,gText_MoveInterfacePP,PP\x20,PP ,proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1277,1,,no,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
 UI0278,global:gText_MoveInterfaceType,gText_MoveInterfaceType,TYPE/,ชนิด/,proof_passed,core_ui_label,thai,BATTLE_UI,1,c_u8,src/battle_message.c,1278,1,,no,pass,proof_passed,Phase 5 Batch 4 Battle UI; live shaper/token/width preflight passed.
-UI0279,global:gText_MoveItems,gText_MoveItems,MOVE ITEMS,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,945,1,,no,pending_usage_to_window_mapping,pending,
+UI0279,global:gText_MoveItems,gText_MoveItems,MOVE ITEMS,,translated_pending_qa,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,945,1,,no,pending_usage_to_window_mapping,pending,
 UI0280,global:gText_MoveItemsDescription,gText_MoveItemsDescription,"Move items held by any POKéMON
 in a BOX or your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,950,2,,no,pending_usage_to_window_mapping,pending,
 UI0281,global:gText_MoveMonDescription,gText_MoveMonDescription,"Organize the POKéMON in BOXES and
@@ -379,7 +379,7 @@ UI0282,global:gText_MoveNotLearned,gText_MoveNotLearned,"{STR_VAR_1} did not lea
 move {STR_VAR_2}.{PAUSE_UNTIL_PRESS}","{STR_VAR_1} ไม่ได้เรียนรู้
 {STR_VAR_2}{PAUSE_UNTIL_PRESS}",proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,408,2,{PAUSE_UNTIL_PRESS};{STR_VAR_1};{STR_VAR_2},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 4; row code(s) R12)."
 UI0283,global:gText_MoveOkBack,gText_MoveOkBack,{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK,{DPAD_NONE}เลื่อน  {A_BUTTON}ตกลง  {B_BUTTON}กลับ,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1646,1,{A_BUTTON};{B_BUTTON};{DPAD_NONE},yes,pass,proof_passed,Runtime QA gallery reviewed and accepted.
-UI0284,global:gText_MovePokemon,gText_MovePokemon,MOVE POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,944,1,,no,pending_usage_to_window_mapping,pending,
+UI0284,global:gText_MovePokemon,gText_MovePokemon,MOVE POKéMON,,translated_pending_qa,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,944,1,,no,pending_usage_to_window_mapping,pending,
 UI0285,global:gText_MoveRelearnerAndPoof,gText_MoveRelearnerAndPoof,"{PAUSE 32}1, {PAUSE 15}2, and {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p","{PAUSE 32}1, {PAUSE 15}2 แล้วก็ {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}พรึบ!\p",proof_passed,system_message,english,MOVE_UI,1,c_u8,src/strings.c,1862,1,\p;{PAUSE 15};{PAUSE 32};{PLAY_SE SE_BALL_BOUNCE_1},yes,verified_176px_x0_y1,proof_passed,"Phase 5 Batch 3 Move Relearner: translation review, runtime-token, Thai shaper, dynamic expansion, page-layout, strict-width, source injection, and normal ROM build checks passed; runtime visual QA pending."
 UI0286,global:gText_MoveRelearnerGiveUp,gText_MoveRelearnerGiveUp,"Give up trying to teach a new
 move to {STR_VAR_1}?","จะเลิกสอนท่าใหม่ให้
@@ -792,7 +792,7 @@ UI0534,global:gText_WithdrawHowManyItems,gText_WithdrawHowManyItems,"Withdraw ho
 UI0535,global:gText_WithdrawItem,gText_WithdrawItem,WITHDRAW ITEM,,pending,core_ui_label,english,PC_STORAGE,2,c_u8,src/strings.c,590,1,,no,pending_usage_to_window_mapping,pending,
 UI0536,global:gText_WithdrawMonDescription,gText_WithdrawMonDescription,"Move POKéMON stored in BOXES to
 your party.",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,947,2,,no,pending_usage_to_window_mapping,pending,
-UI0537,global:gText_WithdrawPokemon,gText_WithdrawPokemon,WITHDRAW POKéMON,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,942,1,,no,pending_usage_to_window_mapping,pending,
+UI0537,global:gText_WithdrawPokemon,gText_WithdrawPokemon,WITHDRAW POKéMON,,translated_pending_qa,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,942,1,,no,pending_usage_to_window_mapping,pending,
 UI0538,global:gText_WithdrawXItems,gText_WithdrawXItems,"Withdrew {STR_VAR_2}
 {STR_VAR_1}(s).",,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,598,2,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0539,global:gText_WontHaveEffect,gText_WontHaveEffect,It won't have any effect.{PAUSE_UNTIL_PRESS},{CLEAR 1}ใช้แล้วไม่มีผล{PAUSE_UNTIL_PRESS},proof_passed,system_message,english,BAG;PARTY_MENU,9,c_u8,src/strings.c,380,1,{PAUSE_UNTIL_PRESS},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 17; row code(s) R50, X01)."

@@ -1,0 +1,5 @@
+﻿ui_id,symbol,thai_candidate,calculated_width_px,safe_text_limit_px,width_result,runtime_behavior
+UI0135,gText_DepositPokemon,ฝากโปเกมอน,59,200,pass,GetMaxWidthInMenuTable dynamic window width
+UI0279,gText_MoveItems,ย้าย ITEMS,60,200,pass,GetMaxWidthInMenuTable dynamic window width
+UI0284,gText_MovePokemon,ย้ายโปเกมอน,59,200,pass,GetMaxWidthInMenuTable dynamic window width
+UI0537,gText_WithdrawPokemon,ถอนโปเกมอน,63,200,pass,GetMaxWidthInMenuTable dynamic window width

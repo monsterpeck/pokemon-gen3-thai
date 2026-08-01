@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,english_source,thai_candidate,apply_result
+UI0135,gText_DepositPokemon,src/strings.c,DEPOSIT POKéMON,ฝากโปเกมอน,pass
+UI0279,gText_MoveItems,src/strings.c,MOVE ITEMS,ย้าย ITEMS,pass
+UI0284,gText_MovePokemon,src/strings.c,MOVE POKéMON,ย้ายโปเกมอน,pass
+UI0537,gText_WithdrawPokemon,src/strings.c,WITHDRAW POKéMON,ถอนโปเกมอน,pass
