@@ -1,0 +1,21 @@
+﻿ui_id,symbol,source_tokens,target_tokens,token_result,note
+UI0382,gText_PkmnTransferredLanettesPC,"{STR_VAR_2} | 
+ | \p | 
+ | {STR_VAR_1}","{STR_VAR_2} | 
+ | \p | 
+ | {STR_VAR_1}",pass,Validated against live assembly source; ordinary space before newline is not a runtime token.
+UI0383,gText_PkmnTransferredLanettesPCBoxFull,"{STR_VAR_3} | 
+ | \p | {STR_VAR_2} | 
+ | {STR_VAR_1}","{STR_VAR_3} | 
+ | \p | {STR_VAR_2} | 
+ | {STR_VAR_1}",pass,Validated against live assembly source; ordinary space before newline is not a runtime token.
+UI0384,gText_PkmnTransferredSomeonesPC,"{STR_VAR_2} | 
+ | \p | 
+ | {STR_VAR_1}","{STR_VAR_2} | 
+ | \p | 
+ | {STR_VAR_1}",pass,Validated against live assembly source; ordinary space before newline is not a runtime token.
+UI0385,gText_PkmnTransferredSomeonesPCBoxFull,"{STR_VAR_3} | 
+ | \p | {STR_VAR_2} | 
+ | {STR_VAR_1}","{STR_VAR_3} | 
+ | \p | {STR_VAR_2} | 
+ | {STR_VAR_1}",pass,Validated against live assembly source; ordinary space before newline is not a runtime token.

@@ -1,0 +1,47 @@
+===== gText_PkmnTransferredLanettesPC =====
+data/text/pc_transfer.inc-2-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-3-	.string "SOMEONE'S PC.\p"
+data/text/pc_transfer.inc-4-	.string "It was placed in \n"
+data/text/pc_transfer.inc-5-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-6-
+data/text/pc_transfer.inc:7:gText_PkmnTransferredLanettesPC::
+data/text/pc_transfer.inc-8-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-9-	.string "LANETTE'S PC.\p"
+data/text/pc_transfer.inc-10-	.string "It was placed in \n"
+data/text/pc_transfer.inc-11-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-12-
+
+===== gText_PkmnTransferredLanettesPCBoxFull =====
+data/text/pc_transfer.inc-14-	.string "BOX “{STR_VAR_3}” on\n"
+data/text/pc_transfer.inc-15-	.string "SOMEONE'S PC was full.\p"
+data/text/pc_transfer.inc-16-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-17-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-18-
+data/text/pc_transfer.inc:19:gText_PkmnTransferredLanettesPCBoxFull::
+data/text/pc_transfer.inc-20-	.string "BOX “{STR_VAR_3}” on\n"
+data/text/pc_transfer.inc-21-	.string "LANETTE'S PC was full.\p"
+data/text/pc_transfer.inc-22-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-23-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-24-
+
+===== gText_PkmnTransferredSomeonesPC =====
+data/text/pc_transfer.inc:1:gText_PkmnTransferredSomeonesPC::
+data/text/pc_transfer.inc-2-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-3-	.string "SOMEONE'S PC.\p"
+data/text/pc_transfer.inc-4-	.string "It was placed in \n"
+data/text/pc_transfer.inc-5-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-6-
+
+===== gText_PkmnTransferredSomeonesPCBoxFull =====
+data/text/pc_transfer.inc-8-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-9-	.string "LANETTE'S PC.\p"
+data/text/pc_transfer.inc-10-	.string "It was placed in \n"
+data/text/pc_transfer.inc-11-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-12-
+data/text/pc_transfer.inc:13:gText_PkmnTransferredSomeonesPCBoxFull::
+data/text/pc_transfer.inc-14-	.string "BOX “{STR_VAR_3}” on\n"
+data/text/pc_transfer.inc-15-	.string "SOMEONE'S PC was full.\p"
+data/text/pc_transfer.inc-16-	.string "{STR_VAR_2} was transferred to\n"
+data/text/pc_transfer.inc-17-	.string "BOX “{STR_VAR_1}.”$"
+data/text/pc_transfer.inc-18-
+

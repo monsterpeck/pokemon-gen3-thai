@@ -571,16 +571,16 @@ UI0381,global:gText_PkmnThawedOut,gText_PkmnThawedOut,{STR_VAR_1} was thawed out
 อาการแช่แข็งแล้ว{PAUSE_UNTIL_PRESS}",proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,417,1,{PAUSE_UNTIL_PRESS};{STR_VAR_1},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 15; row code(s) R43)."
 UI0382,global:gText_PkmnTransferredLanettesPC,gText_PkmnTransferredLanettesPC,"{STR_VAR_2} was transferred to
 LANETTE'S PC.\pIt was placed in\x20
-BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,7,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+BOX “{STR_VAR_1}.”",,translated_pending_qa,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,7,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0383,global:gText_PkmnTransferredLanettesPCBoxFull,gText_PkmnTransferredLanettesPCBoxFull,"BOX “{STR_VAR_3}” on
 LANETTE'S PC was full.\p{STR_VAR_2} was transferred to
-BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,19,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+BOX “{STR_VAR_1}.”",,translated_pending_qa,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,19,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
 UI0384,global:gText_PkmnTransferredSomeonesPC,gText_PkmnTransferredSomeonesPC,"{STR_VAR_2} was transferred to
 SOMEONE'S PC.\pIt was placed in\x20
-BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,1,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
+BOX “{STR_VAR_1}.”",,translated_pending_qa,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,1,3,\p;{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0385,global:gText_PkmnTransferredSomeonesPCBoxFull,gText_PkmnTransferredSomeonesPCBoxFull,"BOX “{STR_VAR_3}” on
 SOMEONE'S PC was full.\p{STR_VAR_2} was transferred to
-BOX “{STR_VAR_1}.”",,pending,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,13,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
+BOX “{STR_VAR_1}.”",,translated_pending_qa,system_message,english,MAIN_MENU,1,asm_string,data/text/pc_transfer.inc,13,3,\p;{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,pending,
 UI0386,global:gText_PkmnWasDeposited,gText_PkmnWasDeposited,{DYNAMIC 0} was deposited.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,880,1,{DYNAMIC 0},yes,pending_usage_to_window_mapping,pending,
 UI0387,global:gText_PkmnWasGivenItem,gText_PkmnWasGivenItem,"{STR_VAR_1} was given the
 {STR_VAR_2} to hold.{PAUSE_UNTIL_PRESS}","ให้ {STR_VAR_1} ถือ

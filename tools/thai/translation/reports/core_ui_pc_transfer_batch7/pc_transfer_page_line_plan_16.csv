@@ -1,0 +1,17 @@
+﻿symbol,page,line,thai_text,live_width_status
+gText_PkmnTransferredLanettesPC,1,1,{STR_VAR_2} ถูกย้ายไปยัง,pending
+gText_PkmnTransferredLanettesPC,1,2,PC ของลาเน็ตต์แล้ว,pending
+gText_PkmnTransferredLanettesPC,2,1,เก็บไว้ใน\x20,pending
+gText_PkmnTransferredLanettesPC,2,2,BOX “{STR_VAR_1}”,pending
+gText_PkmnTransferredLanettesPCBoxFull,1,1,BOX “{STR_VAR_3}” ใน,pending
+gText_PkmnTransferredLanettesPCBoxFull,1,2,PC ของลาเน็ตต์เต็มแล้ว,pending
+gText_PkmnTransferredLanettesPCBoxFull,2,1,{STR_VAR_2} จึงถูกย้ายไปยัง,pending
+gText_PkmnTransferredLanettesPCBoxFull,2,2,BOX “{STR_VAR_1}”,pending
+gText_PkmnTransferredSomeonesPC,1,1,{STR_VAR_2} ถูกย้ายไปยัง,pending
+gText_PkmnTransferredSomeonesPC,1,2,PC ของใครบางคนแล้ว,pending
+gText_PkmnTransferredSomeonesPC,2,1,เก็บไว้ใน\x20,pending
+gText_PkmnTransferredSomeonesPC,2,2,BOX “{STR_VAR_1}”,pending
+gText_PkmnTransferredSomeonesPCBoxFull,1,1,BOX “{STR_VAR_3}” ใน,pending
+gText_PkmnTransferredSomeonesPCBoxFull,1,2,PC ของใครบางคนเต็มแล้ว,pending
+gText_PkmnTransferredSomeonesPCBoxFull,2,1,{STR_VAR_2} จึงถูกย้ายไปยัง,pending
+gText_PkmnTransferredSomeonesPCBoxFull,2,2,BOX “{STR_VAR_1}”,pending

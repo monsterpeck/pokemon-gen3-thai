@@ -1,0 +1,21 @@
+﻿ui_id,symbol,source_file,english_source,thai_candidate,runtime_tokens,apply_result
+UI0382,gText_PkmnTransferredLanettesPC,data/text/pc_transfer.inc,"{STR_VAR_2} was transferred to
+LANETTE'S PC.\pIt was placed in 
+BOX “{STR_VAR_1}.”","{STR_VAR_2} ถูกย้ายไปยัง
+PC ของลาเน็ตต์แล้ว\pเก็บไว้ใน 
+BOX “{STR_VAR_1}”",{STR_VAR_2};\p;\x20;{STR_VAR_1},pass
+UI0383,gText_PkmnTransferredLanettesPCBoxFull,data/text/pc_transfer.inc,"BOX “{STR_VAR_3}” on
+LANETTE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”","BOX “{STR_VAR_3}” ใน
+PC ของลาเน็ตต์เต็มแล้ว\p{STR_VAR_2} จึงถูกย้ายไปยัง
+BOX “{STR_VAR_1}”",{STR_VAR_3};\p;{STR_VAR_2};{STR_VAR_1},pass
+UI0384,gText_PkmnTransferredSomeonesPC,data/text/pc_transfer.inc,"{STR_VAR_2} was transferred to
+SOMEONE'S PC.\pIt was placed in 
+BOX “{STR_VAR_1}.”","{STR_VAR_2} ถูกย้ายไปยัง
+PC ของใครบางคนแล้ว\pเก็บไว้ใน 
+BOX “{STR_VAR_1}”",{STR_VAR_2};\p;\x20;{STR_VAR_1},pass
+UI0385,gText_PkmnTransferredSomeonesPCBoxFull,data/text/pc_transfer.inc,"BOX “{STR_VAR_3}” on
+SOMEONE'S PC was full.\p{STR_VAR_2} was transferred to
+BOX “{STR_VAR_1}.”","BOX “{STR_VAR_3}” ใน
+PC ของใครบางคนเต็มแล้ว\p{STR_VAR_2} จึงถูกย้ายไปยัง
+BOX “{STR_VAR_1}”",{STR_VAR_3};\p;{STR_VAR_2};{STR_VAR_1},pass

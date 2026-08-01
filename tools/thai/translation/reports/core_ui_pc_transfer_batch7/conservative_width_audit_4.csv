@@ -1,0 +1,5 @@
+﻿ui_id,symbol,line_widths_px,width_limit_px,width_result,placeholder_reserve_px,method
+UI0382,gText_PkmnTransferredLanettesPC,135|91|47|108,216,pass,STR_VAR_1=64;STR_VAR_2=80;STR_VAR_3=64,Thai advances from live shaped stream; placeholders use conservative BOX/Pokémon-name reserves; retained ASCII and punctuation use <=8 px per glyph.
+UI0383,gText_PkmnTransferredLanettesPCBoxFull,126|109|145|108,216,pass,STR_VAR_1=64;STR_VAR_2=80;STR_VAR_3=64,Thai advances from live shaped stream; placeholders use conservative BOX/Pokémon-name reserves; retained ASCII and punctuation use <=8 px per glyph.
+UI0384,gText_PkmnTransferredSomeonesPC,135|103|47|108,216,pass,STR_VAR_1=64;STR_VAR_2=80;STR_VAR_3=64,Thai advances from live shaped stream; placeholders use conservative BOX/Pokémon-name reserves; retained ASCII and punctuation use <=8 px per glyph.
+UI0385,gText_PkmnTransferredSomeonesPCBoxFull,126|121|145|108,216,pass,STR_VAR_1=64;STR_VAR_2=80;STR_VAR_3=64,Thai advances from live shaped stream; placeholders use conservative BOX/Pokémon-name reserves; retained ASCII and punctuation use <=8 px per glyph.
