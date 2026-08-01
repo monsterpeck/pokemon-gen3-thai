@@ -1,0 +1,9 @@
+﻿visual_page,purpose,symbol,layout,thai_shaping,horizontal_clipping,vertical_clipping,placeholder_values,wording_check,visual_qa_status,evidence_note
+01,Someone's PC — page 1,gText_PkmnTransferredSomeonesPC,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+02,Someone's PC — page 2,gText_PkmnTransferredSomeonesPC,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+03,Lanette's PC — page 1,gText_PkmnTransferredLanettesPC,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+04,Lanette's PC — page 2,gText_PkmnTransferredLanettesPC,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+05,Someone's PC box-full — page 1,gText_PkmnTransferredSomeonesPCBoxFull,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+06,Someone's PC box-full — page 2,gText_PkmnTransferredSomeonesPCBoxFull,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+07,Lanette's PC box-full — page 1,gText_PkmnTransferredLanettesPCBoxFull,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
+08,Lanette's PC box-full — page 2,gText_PkmnTransferredLanettesPCBoxFull,pass,pass,none,none,ZIGZAGOON;BOX 14;BOX 1,PC;BOX;ลาเน็ตต์,proof_passed,User-reviewed Batch 7 PC-transfer QA ROM screenshots.
