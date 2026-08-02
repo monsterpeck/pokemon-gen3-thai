@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0239,gText_ItemStorage,src/strings.c,ITEM STORAGE,คลัง ITEM,1,1,,53,pass,pending
+UI0474,gText_StoreItemsInPC,src/strings.c,Store items in the PC.,เก็บ ITEM ไว้ใน PC.,1,1,,111,pass,pending
+UI0483,gText_TakeOutItemsFromPC,src/strings.c,Take out items from the PC.,นำ ITEM ออกจาก PC.,1,1,,113,pass,pending
+UI0500,gText_ThrowAwayItemsInPC,src/strings.c,Throw away items stored in the PC.,ทิ้ง ITEM ที่เก็บไว้ใน PC,1,1,,122,pass,pending

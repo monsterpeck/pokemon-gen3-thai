@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_ItemStorage,"src/player_pc.c:194:    [MENU_ITEMSTORAGE] = { gText_ItemStorage, {PlayerPC_ItemStorage} },"
+gText_StoreItemsInPC,"src/player_pc.c:187:    [MENU_DEPOSIT]  = gText_StoreItemsInPC,"
+gText_TakeOutItemsFromPC,"src/player_pc.c:186:    [MENU_WITHDRAW] = gText_TakeOutItemsFromPC,"
+gText_ThrowAwayItemsInPC,"src/player_pc.c:188:    [MENU_TOSS]     = gText_ThrowAwayItemsInPC,"
