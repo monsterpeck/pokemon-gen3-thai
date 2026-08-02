@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-204702-phase5-batch15-pc-pokemon-release-flow",
+  "locked_head": "2363f2ab5acc93ac35b05979293cff3ba0352c7e",
+  "state": "applied_build_passed",
+  "item_count": 7,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 288,
+    "pending": 226,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 288,
+    "pending": 219,
+    "deferred_story": 7,
+    "translated_pending_qa": 7,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "9209bbec807c3b9234aa8bc03267746eeb96ffc97834b141719b63f177e74483",
+  "normal_rom_sha256": "9209bbec807c3b9234aa8bc03267746eeb96ffc97834b141719b63f177e74483"
+}

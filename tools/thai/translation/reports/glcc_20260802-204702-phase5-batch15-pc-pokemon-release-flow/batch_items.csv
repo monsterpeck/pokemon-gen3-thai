@@ -1,0 +1,8 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0051,gText_ByeByePkmn,src/strings.c,"Bye-bye, {DYNAMIC 0}!","ลาก่อนนะ, {DYNAMIC 0}!",1,1,,63,pass,pending
+UI0360,gText_PkmnCameBack,src/strings.c,{DYNAMIC 0} came back!,{DYNAMIC 0} กลับมาแล้ว!,1,1,,61,pass,pending
+UI0388,gText_PkmnWasReleased,src/strings.c,{DYNAMIC 0} was released.,ปล่อย {DYNAMIC 0} ไปแล้ว.,1,1,,73,pass,pending
+UI0420,gText_ReleaseThisPokemon,src/strings.c,Release this POKéMON?,จะปล่อยโปเกมอนตัวนี้ไหม?,1,1,,128,pass,pending
+UI0494,gText_ThatsYourLastPkmn,src/strings.c,That's your last POKéMON!,นี่คือโปเกมอนตัวสุดท้ายของคุณ!,1,1,,148,pass,pending
+UI0525,gText_WasItWorriedAboutYou,src/strings.c,Was it worried about you?,มันเป็นห่วงคุณหรือ?,1,1,,95,pass,pending
+UI0548,gText_YouCantReleaseAnEgg,src/strings.c,You can't release an EGG.,ปล่อยไข่ไม่ได้.,1,1,,71,pass,pending

@@ -1,0 +1,8 @@
+﻿symbol,reference
+gText_ByeByePkmn,"src/pokemon_storage_system.c:1078:    [MSG_BYE_BYE]              = {gText_ByeByePkmn,              MSG_VAR_RELEASE_MON_3},"
+gText_PkmnCameBack,"src/pokemon_storage_system.c:1086:    [MSG_CAME_BACK]            = {gText_PkmnCameBack,            MSG_VAR_MON_NAME_1},"
+gText_PkmnWasReleased,"src/pokemon_storage_system.c:1077:    [MSG_WAS_RELEASED]         = {gText_PkmnWasReleased,         MSG_VAR_RELEASE_MON_1},"
+gText_ReleaseThisPokemon,"src/pokemon_storage_system.c:1076:    [MSG_RELEASE_POKE]         = {gText_ReleaseThisPokemon,      MSG_VAR_NONE},"
+gText_ThatsYourLastPkmn,"src/pokemon_storage_system.c:1080:    [MSG_LAST_POKE]            = {gText_ThatsYourLastPkmn,       MSG_VAR_NONE},"
+gText_WasItWorriedAboutYou,"src/pokemon_storage_system.c:1087:    [MSG_WORRIED]              = {gText_WasItWorriedAboutYou,    MSG_VAR_NONE},"
+gText_YouCantReleaseAnEgg,"src/pokemon_storage_system.c:1084:    [MSG_CANT_RELEASE_EGG]     = {gText_YouCantReleaseAnEgg,     MSG_VAR_NONE},"
