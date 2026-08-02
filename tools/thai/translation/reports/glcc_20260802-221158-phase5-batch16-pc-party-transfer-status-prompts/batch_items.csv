@@ -1,0 +1,6 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0243,gText_JustOnePkmn,src/strings.c,There is just one POKéMON with you.,คุณมีโปเกมอนอยู่แค่ตัวเดียว.,1,1,,137,pass,pending
+UI0346,gText_PartyFull,src/strings.c,Your party is full!,ทีมของคุณเต็มแล้ว!,1,1,,92,pass,pending
+UI0532,gText_WhichOneWillYouTake,src/strings.c,Which one will you take?,จะรับตัวไหนไป?,1,1,,78,pass,pending
+UI0552,gText_YourPartysFull,src/strings.c,Your party's full!,ทีมของคุณเต็มแล้ว!,1,1,,92,pass,pending
+UI0553,gText_YoureHoldingAPkmn,src/strings.c,You're holding a POKéMON!,คุณกำลังถือโปเกมอนอยู่!,1,1,,112,pass,pending

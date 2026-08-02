@@ -1,0 +1,6 @@
+﻿symbol,reference
+gText_JustOnePkmn,"src/pokemon_storage_system.c:1596:                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_JustOnePkmn, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);"
+gText_PartyFull,"src/pokemon_storage_system.c:1589:                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PartyFull, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);"
+gText_WhichOneWillYouTake,"src/pokemon_storage_system.c:1083:    [MSG_WHICH_ONE_WILL_TAKE]  = {gText_WhichOneWillYouTake,     MSG_VAR_NONE},"
+gText_YourPartysFull,"src/pokemon_storage_system.c:1081:    [MSG_PARTY_FULL]           = {gText_YourPartysFull,          MSG_VAR_NONE},"
+gText_YoureHoldingAPkmn,"src/pokemon_storage_system.c:1082:    [MSG_HOLDING_POKE]         = {gText_YoureHoldingAPkmn,       MSG_VAR_NONE},"

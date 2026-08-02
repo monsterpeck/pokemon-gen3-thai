@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-221158-phase5-batch16-pc-party-transfer-status-prompts",
+  "locked_head": "5a041cb685f8feda83510e4bbe5c7b490e914459",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 295,
+    "pending": 219,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 295,
+    "pending": 214,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 5
+  },
+  "preview_rom_sha256": "e22daa973afd8581d7ea3ab4f0b49a2910f9902ac02da06de2a69258589ac5d4",
+  "normal_rom_sha256": "e22daa973afd8581d7ea3ab4f0b49a2910f9902ac02da06de2a69258589ac5d4"
+}
