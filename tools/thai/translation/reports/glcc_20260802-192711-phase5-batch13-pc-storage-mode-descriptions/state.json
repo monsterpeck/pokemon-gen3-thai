@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-192711-phase5-batch13-pc-storage-mode-descriptions",
+  "locked_head": "6325374222b0d626f30615573f6b4b1ddccdf2df",
+  "state": "applied_build_passed",
+  "item_count": 4,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 280,
+    "pending": 234,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 280,
+    "pending": 230,
+    "deferred_story": 7,
+    "translated_pending_qa": 4,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "83a8e16e4cecdafb4a91693dfc39eb7c4f85b25c69b20847c81a0c8eb13b7524",
+  "normal_rom_sha256": "83a8e16e4cecdafb4a91693dfc39eb7c4f85b25c69b20847c81a0c8eb13b7524"
+}

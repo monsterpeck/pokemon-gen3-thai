@@ -1,0 +1,8 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0134,gText_DepositMonDescription,src/strings.c,Store POKéMON in your party in BOXES.,ฝากโปเกมอนในทีมไว้ใน BOX.,1,1,,149,pass,pending
+UI0280,gText_MoveItemsDescription,src/strings.c,"Move items held by any POKéMON
+in a BOX or your party.",ย้าย ITEM ที่โปเกมอนถืออยู่.,1,1,,138,pass,pending
+UI0281,gText_MoveMonDescription,src/strings.c,"Organize the POKéMON in BOXES and
+in your party.",จัดโปเกมอนใน BOX และในทีม.,1,1,,156,pass,pending
+UI0536,gText_WithdrawMonDescription,src/strings.c,"Move POKéMON stored in BOXES to
+your party.",ย้ายโปเกมอนจาก BOX เข้าทีม.,1,1,,143,pass,pending

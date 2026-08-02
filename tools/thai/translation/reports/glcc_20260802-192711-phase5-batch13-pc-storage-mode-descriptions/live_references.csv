@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_DepositMonDescription,"src/pokemon_storage_system.c:885:    [OPTION_DEPOSIT]    = {gText_DepositPokemon,  gText_DepositMonDescription},"
+gText_MoveItemsDescription,"src/pokemon_storage_system.c:887:    [OPTION_MOVE_ITEMS] = {gText_MoveItems,       gText_MoveItemsDescription},"
+gText_MoveMonDescription,"src/pokemon_storage_system.c:886:    [OPTION_MOVE_MONS]  = {gText_MovePokemon,     gText_MoveMonDescription},"
+gText_WithdrawMonDescription,"src/pokemon_storage_system.c:884:    [OPTION_WITHDRAW]   = {gText_WithdrawPokemon, gText_WithdrawMonDescription},"
