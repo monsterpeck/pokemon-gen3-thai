@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_Decoration,"src/player_pc.c:196:    [MENU_DECORATION]  = { gText_Decoration,  {PlayerPC_Decoration} },"
+gText_PickTheWallpaper,"src/pokemon_storage_system.c:1070:    [MSG_PICK_A_WALLPAPER]     = {gText_PickTheWallpaper,        MSG_VAR_NONE},"
+gText_PleasePickATheme,"src/pokemon_storage_system.c:1069:    [MSG_PICK_A_THEME]         = {gText_PleasePickATheme,        MSG_VAR_NONE},"

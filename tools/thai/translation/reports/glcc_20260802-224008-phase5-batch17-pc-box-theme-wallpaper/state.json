@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-224008-phase5-batch17-pc-box-theme-wallpaper",
+  "locked_head": "c7cd68651030d7ad86e110a4569d21949c487420",
+  "state": "applied_build_passed",
+  "item_count": 3,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 300,
+    "pending": 214,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 300,
+    "pending": 211,
+    "deferred_story": 7,
+    "translated_pending_qa": 3,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "0923622310cdb83ca7d364529046ea8f61faff36fdf27f57cfbe4fe0ba1ba557",
+  "normal_rom_sha256": "0923622310cdb83ca7d364529046ea8f61faff36fdf27f57cfbe4fe0ba1ba557"
+}

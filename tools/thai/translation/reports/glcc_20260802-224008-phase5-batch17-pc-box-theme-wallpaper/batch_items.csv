@@ -1,0 +1,4 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0089,gText_Decoration,src/strings.c,DECORATION,ตกแต่ง,1,1,,31,pass,pending
+UI0351,gText_PickTheWallpaper,src/strings.c,Pick the wallpaper.,เลือกวอลเปเปอร์.,1,1,,81,pass,pending
+UI0394,gText_PleasePickATheme,src/strings.c,Please pick a theme.,โปรดเลือกธีม.,1,1,,67,pass,pending
