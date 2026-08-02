@@ -1,0 +1,7 @@
+﻿symbol,visual_qa_status,note
+gText_MailCantBeStored,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
+gText_MailToBagMessageErased,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
+gText_Mailbox,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
+gText_MessageWillBeLost,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
+gText_NoMailHere,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
+gText_PleaseRemoveTheMail,proof_passed,"Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."

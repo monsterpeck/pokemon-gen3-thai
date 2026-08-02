@@ -1,10 +1,10 @@
 {
   "batch_id": "20260802-230922-phase5-batch18-pc-mailbox-status-messages",
   "locked_head": "2d2b57b70daf8615d5995393b97e6cd4cbb8b9be",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 6,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 303,
     "pending": 211,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 6
   },
   "preview_rom_sha256": "70a2b58db9c64fea97b55622ac9ade1a68b997a1b9a942e351e18dfdb3c3ddf2",
-  "normal_rom_sha256": "70a2b58db9c64fea97b55622ac9ade1a68b997a1b9a942e351e18dfdb3c3ddf2"
+  "normal_rom_sha256": "70a2b58db9c64fea97b55622ac9ade1a68b997a1b9a942e351e18dfdb3c3ddf2",
+  "qa_note": "Batch 18 QA Gallery reviewed: 6/6 pages passed. Thai shaping, multiline layout, clipping, MAIL/BAG retention, punctuation, and PAUSE_UNTIL_PRESS behavior verified."
 }
