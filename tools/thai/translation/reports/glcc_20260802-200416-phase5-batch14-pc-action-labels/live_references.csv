@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_Give2,"src/player_pc.c:235:    { gText_Give2,     {Mailbox_Give} },"
+gText_MoveToBag,"src/player_pc.c:234:    { gText_MoveToBag, {Mailbox_MoveToBag} },"
+gText_Read,"src/player_pc.c:233:    { gText_Read,      {Mailbox_DoMailRead} },"
+gText_TurnOff,"src/player_pc.c:197:    [MENU_TURNOFF]     = { gText_TurnOff,     {PlayerPC_TurnOff} }"

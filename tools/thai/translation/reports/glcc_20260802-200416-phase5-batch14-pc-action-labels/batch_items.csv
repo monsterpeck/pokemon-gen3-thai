@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0213,gText_Give2,src/strings.c,GIVE,ให้,1,1,,13,pass,pending
+UI0293,gText_MoveToBag,src/strings.c,MOVE TO BAG,ย้ายไป BAG,1,1,,57,pass,pending
+UI0416,gText_Read,src/strings.c,READ,อ่าน,1,1,,18,pass,pending
+UI0507,gText_TurnOff,src/strings.c,TURN OFF,ปิดเครื่อง,1,1,,41,pass,pending

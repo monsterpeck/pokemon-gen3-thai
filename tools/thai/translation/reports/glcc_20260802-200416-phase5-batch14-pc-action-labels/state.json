@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-200416-phase5-batch14-pc-action-labels",
+  "locked_head": "44075dab7373498f6d0c26cc6d38136deccc25e5",
+  "state": "applied_build_passed",
+  "item_count": 4,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 284,
+    "pending": 230,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 284,
+    "pending": 226,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 4
+  },
+  "preview_rom_sha256": "7ff967985bcfeb06072073341c53d7f610f0f529c2aa9373146536e408a5769b",
+  "normal_rom_sha256": "7ff967985bcfeb06072073341c53d7f610f0f529c2aa9373146536e408a5769b"
+}
