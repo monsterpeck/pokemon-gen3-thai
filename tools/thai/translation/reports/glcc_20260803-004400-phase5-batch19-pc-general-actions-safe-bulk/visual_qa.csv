@@ -1,0 +1,10 @@
+﻿symbol,visual_qa_status,note
+gText_GiveToAPkmn,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_MarkYourPkmn,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_PlacedItemInBag,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_PutItemInBag,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_SeeYa,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_SeeYaDescription,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_WhatDoYouWantToDo,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_WhatWouldYouLike,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
+gText_WithdrawHowManyItems,proof_passed,"Batch 19 QA Gallery reviewed: 9/9 pages passed. Thai shaping, clipping, multiline layout, ITEM/BAG retention, punctuation, spacing, and STR_VAR_1 token preservation verified."
