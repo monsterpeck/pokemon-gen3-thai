@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_BagIsFull,proof_passed,"Batch 10 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, BAG/BOX retention, and PAUSE_UNTIL_PRESS behavior verified."
+gText_BagIsFull2,proof_passed,"Batch 10 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, BAG/BOX retention, and PAUSE_UNTIL_PRESS behavior verified."
+gText_BoxIsFull2,proof_passed,"Batch 10 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, BAG/BOX retention, and PAUSE_UNTIL_PRESS behavior verified."
+gText_ContinueBoxOperations,proof_passed,"Batch 10 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, BAG/BOX retention, and PAUSE_UNTIL_PRESS behavior verified."
