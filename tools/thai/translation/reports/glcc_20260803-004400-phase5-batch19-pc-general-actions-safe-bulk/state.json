@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260803-004400-phase5-batch19-pc-general-actions-safe-bulk",
+  "locked_head": "9e843c5f22ce1ba59f5965ef69808ec75186040a",
+  "state": "applied_build_passed",
+  "item_count": 9,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 309,
+    "pending": 205,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 309,
+    "pending": 196,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 9
+  },
+  "preview_rom_sha256": "1b8aeccda536eb715991a59b8f8fc288fadcf9098795515bbd91bee4b0087382",
+  "normal_rom_sha256": "1b8aeccda536eb715991a59b8f8fc288fadcf9098795515bbd91bee4b0087382"
+}

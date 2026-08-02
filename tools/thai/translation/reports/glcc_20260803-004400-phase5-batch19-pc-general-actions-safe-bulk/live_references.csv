@@ -1,0 +1,12 @@
+﻿symbol,reference
+gText_GiveToAPkmn,"src/pokemon_storage_system.c:1091:    [MSG_GIVE_TO_MON]          = {gText_GiveToAPkmn,             MSG_VAR_NONE},"
+gText_MarkYourPkmn,"src/pokemon_storage_system.c:1079:    [MSG_MARK_POKE]            = {gText_MarkYourPkmn,            MSG_VAR_NONE},"
+gText_PlacedItemInBag,"src/pokemon_storage_system.c:1092:    [MSG_PLACED_IN_BAG]        = {gText_PlacedItemInBag,         MSG_VAR_ITEM_NAME},"
+gText_PutItemInBag,"src/pokemon_storage_system.c:1094:    [MSG_PUT_IN_BAG]           = {gText_PutItemInBag,            MSG_VAR_NONE},"
+gText_SeeYa,"src/pokemon_storage_system.c:888:    [OPTION_EXIT]       = {gText_SeeYa,           gText_SeeYaDescription}"
+gText_SeeYaDescription,"src/pokemon_storage_system.c:888:    [OPTION_EXIT]       = {gText_SeeYa,           gText_SeeYaDescription}"
+gText_WhatDoYouWantToDo,"src/pokemon_storage_system.c:1068:    [MSG_WHAT_YOU_DO]          = {gText_WhatDoYouWantToDo,       MSG_VAR_NONE},"
+gText_WhatWouldYouLike,"src/player_pc.c:377:    DisplayItemMessageOnField(CreateTask(TaskDummy, 0), gText_WhatWouldYouLike, InitPlayerPCMenu);"
+gText_WhatWouldYouLike,"src/player_pc.c:384:    DisplayItemMessageOnField(CreateTask(TaskDummy, 0), gText_WhatWouldYouLike, InitPlayerPCMenu);"
+gText_WhatWouldYouLike,"src/player_pc.c:448:    DisplayItemMessageOnField(var, gText_WhatWouldYouLike, InitPlayerPCMenu);"
+gText_WithdrawHowManyItems,src/player_pc.c:1174:        string = gText_WithdrawHowManyItems;

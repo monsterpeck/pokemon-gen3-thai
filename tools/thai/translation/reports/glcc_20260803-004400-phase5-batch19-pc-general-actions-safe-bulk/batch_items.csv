@@ -1,0 +1,12 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0214,gText_GiveToAPkmn,src/strings.c,GIVE to a POKéMON?,ให้โปเกมอนไหม?,1,1,,84,pass,pending
+UI0265,gText_MarkYourPkmn,src/strings.c,Mark your POKéMON.,ทำเครื่องหมายโปเกมอน.,1,1,,113,pass,pending
+UI0391,gText_PlacedItemInBag,src/strings.c,Placed item in the BAG.,ใส่ ITEM ลง BAG แล้ว.,1,1,,121,pass,pending
+UI0414,gText_PutItemInBag,src/strings.c,Put this item in the BAG?,ใส่ ITEM นี้ลง BAG ไหม?,1,1,,130,pass,pending
+UI0448,gText_SeeYa,src/strings.c,SEE YA!,ไว้เจอกัน!,1,1,,50,pass,pending
+UI0449,gText_SeeYaDescription,src/strings.c,Return to the previous menu.,กลับไปเมนูก่อนหน้า.,1,1,,98,pass,pending
+UI0526,gText_WhatDoYouWantToDo,src/strings.c,What do you want to do?,ต้องการทำอะไร?,1,1,,73,pass,pending
+UI0530,gText_WhatWouldYouLike,src/strings.c,What would you like to do?,ต้องการทำอะไร?,3,3,,73,pass,pending
+UI0534,gText_WithdrawHowManyItems,src/strings.c,"Withdraw how many
+{STR_VAR_1}(s)?","จะถอน {STR_VAR_1}
+กี่ชิ้น?",1,1,,80,pass,pending
