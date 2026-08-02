@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_BagIsFull,"src/player_pc.c:861:        DisplayItemMessageOnField(taskId, gText_BagIsFull, Mailbox_Cancel);"
+gText_BagIsFull2,"src/pokemon_storage_system.c:1093:    [MSG_BAG_FULL]             = {gText_BagIsFull2,              MSG_VAR_NONE},"
+gText_BoxIsFull2,"src/pokemon_storage_system.c:1075:    [MSG_BOX_IS_FULL]          = {gText_BoxIsFull2,              MSG_VAR_NONE},"
+gText_ContinueBoxOperations,"src/pokemon_storage_system.c:1085:    [MSG_CONTINUE_BOX]         = {gText_ContinueBoxOperations,   MSG_VAR_NONE},"

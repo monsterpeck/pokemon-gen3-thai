@@ -21,8 +21,8 @@ UI0012,global:gText_Attack3,gText_Attack3,ATTACK,,pending,core_ui_label,english,
 UI0013,global:gText_BagFullCouldNotRemoveItem,gText_BagFullCouldNotRemoveItem,"The BAG is full. The POKéMON's
 item could not be removed.{PAUSE_UNTIL_PRESS}","กระเป๋าเต็ม จึงเอาไอเทม
 ออกจากโปเกมอนไม่ได้{PAUSE_UNTIL_PRESS}",proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,403,2,{PAUSE_UNTIL_PRESS},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 2; row code(s) R04)."
-UI0014,global:gText_BagIsFull,gText_BagIsFull,The BAG is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,605,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0015,global:gText_BagIsFull2,gText_BagIsFull2,The BAG is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,898,1,,no,pending_usage_to_window_mapping,pending,
+UI0014,global:gText_BagIsFull,gText_BagIsFull,The BAG is full.{PAUSE_UNTIL_PRESS},BAG เต็มแล้ว.{PAUSE_UNTIL_PRESS},translated_pending_qa,system_message,english,PC_STORAGE,1,c_u8,src/strings.c,605,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,GLCC 20260802-120754-phase5-batch10-pc-storage-capacity-messages: preview/build passed; visual QA pending.
+UI0015,global:gText_BagIsFull2,gText_BagIsFull2,The BAG is full.,BAG เต็มแล้ว.,translated_pending_qa,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,898,1,,no,pending_usage_to_window_mapping,pending,GLCC 20260802-120754-phase5-batch10-pc-storage-capacity-messages: preview/build passed; visual QA pending.
 UI0016,global:gText_BatteryRunDry,gText_BatteryRunDry,"The internal battery has run dry.
 The game can be played.\pHowever, clock-based events will
 no longer occur.","แบตเตอรี่ภายในหมดแล้ว
@@ -79,7 +79,7 @@ UI0041,global:gText_BootedUpHM,gText_BootedUpHM,Booted up an HM.,,pending,core_u
 UI0042,global:gText_BootedUpTM,gText_BootedUpTM,Booted up a TM.,,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,248,1,,no,pending_usage_to_window_mapping,pending,
 UI0043,global:gText_Box,gText_Box,BOX,,pending,core_ui_label,english,PC_STORAGE,1,c_u8,src/strings.c,954,1,,no,pending_usage_to_window_mapping,pending,
 UI0044,global:gText_BoxFull,gText_BoxFull,The BOX is full.{PAUSE_UNTIL_PRESS},,pending,system_message,english,BAG,2,c_u8,src/strings.c,255,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
-UI0045,global:gText_BoxIsFull2,gText_BoxIsFull2,The BOX is full.,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,881,1,,no,pending_usage_to_window_mapping,pending,
+UI0045,global:gText_BoxIsFull2,gText_BoxIsFull2,The BOX is full.,BOX เต็มแล้ว.,translated_pending_qa,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,881,1,,no,pending_usage_to_window_mapping,pending,GLCC 20260802-120754-phase5-batch10-pc-storage-capacity-messages: preview/build passed; visual QA pending.
 UI0046,global:gText_BoxName,gText_BoxName,BOX NAME?,ชื่อ BOX?,proof_passed,core_ui_prompt,english,MAIN_MENU,1,c_u8,src/strings.c,1643,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0047,global:gText_ButtonMode,gText_ButtonMode,BUTTON MODE,โหมดปุ่ม,proof_passed,core_ui_label,english,OPTION_MENU,1,c_u8,src/strings.c,1535,1,,no,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
 UI0048,global:gText_ButtonTypeLEqualsA,gText_ButtonTypeLEqualsA,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A,proof_passed,core_ui_label,english,OPTION_MENU,3,c_u8,src/strings.c,1549,1,{COLOR GREEN};{SHADOW LIGHT_GREEN},yes,pass,proof_passed,Runtime screenshot reviewed: rendering and translation passed.
@@ -128,7 +128,7 @@ UI0079,global:gText_ConfirmTossItems,gText_ConfirmTossItems,"Is it okay to
 throw away {STR_VAR_2}
 {STR_VAR_1}(s)?",,pending,core_ui_prompt,english,BAG;PC_STORAGE,2,c_u8,src/strings.c,241,3,{STR_VAR_1};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0080,global:gText_ContestMoves,gText_ContestMoves,C0NTEST MOVES,,pending,core_ui_label,english,SUMMARY,1,c_u8,src/strings.c,521,1,,no,pending_usage_to_window_mapping,pending,
-UI0081,global:gText_ContinueBoxOperations,gText_ContinueBoxOperations,Continue BOX operations?,,pending,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,891,1,,no,pending_usage_to_window_mapping,pending,
+UI0081,global:gText_ContinueBoxOperations,gText_ContinueBoxOperations,Continue BOX operations?,ทำงานกับ BOX ต่อไหม?,translated_pending_qa,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,891,1,,no,pending_usage_to_window_mapping,pending,GLCC 20260802-120754-phase5-batch10-pc-storage-capacity-messages: preview/build passed; visual QA pending.
 UI0082,global:gText_ContinueMenuBadges,gText_ContinueMenuBadges,BADGES,เข็มกลัด,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1410,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0083,global:gText_ContinueMenuPlayer,gText_ContinueMenuPlayer,PLAYER,ผู้เล่น,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1407,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0084,global:gText_ContinueMenuPokedex,gText_ContinueMenuPokedex,POKéDEX,โปเกเด็กซ์,proof_passed,core_ui_label,english,MAIN_MENU,1,c_u8,src/strings.c,1409,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.

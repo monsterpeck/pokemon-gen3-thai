@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-120754-phase5-batch10-pc-storage-capacity-messages",
+  "locked_head": "74368f76eaa1440dea7bbeb58832f4a887caa6e6",
+  "state": "applied_build_passed",
+  "item_count": 4,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 269,
+    "pending": 245,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 269,
+    "pending": 241,
+    "translated_pending_qa": 4,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "7f5a58c9709e5cc9f8c0f4ac0e4d68f93a24ced8a1b8bf4526769020042023f5",
+  "normal_rom_sha256": "7f5a58c9709e5cc9f8c0f4ac0e4d68f93a24ced8a1b8bf4526769020042023f5"
+}

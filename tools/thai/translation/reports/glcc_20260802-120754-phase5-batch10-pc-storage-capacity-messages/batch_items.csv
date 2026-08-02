@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0014,gText_BagIsFull,src/strings.c,The BAG is full.{PAUSE_UNTIL_PRESS},BAG เต็มแล้ว.{PAUSE_UNTIL_PRESS},1,1,,73,pass,pending
+UI0015,gText_BagIsFull2,src/strings.c,The BAG is full.,BAG เต็มแล้ว.,1,1,,73,pass,pending
+UI0045,gText_BoxIsFull2,src/strings.c,The BOX is full.,BOX เต็มแล้ว.,1,1,,73,pass,pending
+UI0081,gText_ContinueBoxOperations,src/strings.c,Continue BOX operations?,ทำงานกับ BOX ต่อไหม?,1,1,,113,pass,pending
