@@ -1,10 +1,10 @@
 {
   "batch_id": "20260802-221158-phase5-batch16-pc-party-transfer-status-prompts",
   "locked_head": "5a041cb685f8feda83510e4bbe5c7b490e914459",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 295,
     "pending": 219,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 5
   },
   "preview_rom_sha256": "e22daa973afd8581d7ea3ab4f0b49a2910f9902ac02da06de2a69258589ac5d4",
-  "normal_rom_sha256": "e22daa973afd8581d7ea3ab4f0b49a2910f9902ac02da06de2a69258589ac5d4"
+  "normal_rom_sha256": "e22daa973afd8581d7ea3ab4f0b49a2910f9902ac02da06de2a69258589ac5d4",
+  "qa_note": "Batch 16 QA Gallery reviewed: 5/5 pages passed. Thai shaping, clipping, layout, punctuation, and spacing verified."
 }
