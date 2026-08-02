@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_ItemStorage,proof_passed,"Batch 11 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, ITEM/PC retention, and spacing verified."
+gText_StoreItemsInPC,proof_passed,"Batch 11 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, ITEM/PC retention, and spacing verified."
+gText_TakeOutItemsFromPC,proof_passed,"Batch 11 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, ITEM/PC retention, and spacing verified."
+gText_ThrowAwayItemsInPC,proof_passed,"Batch 11 QA Gallery reviewed: 4/4 pages passed. Thai shaping, clipping, layout, ITEM/PC retention, and spacing verified."
