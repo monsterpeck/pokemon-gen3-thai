@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_DepositInWhichBox,"src/pokemon_storage_system.c:1073:    [MSG_DEPOSIT_IN_WHICH_BOX] = {gText_DepositInWhichBox,       MSG_VAR_NONE},"
+gText_ExitFromBox,"src/pokemon_storage_system.c:1067:    [MSG_EXIT_BOX]             = {gText_ExitFromBox,             MSG_VAR_NONE},"
+gText_JumpToWhichBox,"src/pokemon_storage_system.c:1072:    [MSG_JUMP_TO_WHICH_BOX]    = {gText_JumpToWhichBox,          MSG_VAR_NONE},"

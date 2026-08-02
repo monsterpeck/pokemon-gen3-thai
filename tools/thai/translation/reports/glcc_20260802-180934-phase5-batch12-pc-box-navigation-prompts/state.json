@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260802-180934-phase5-batch12-pc-box-navigation-prompts",
+  "locked_head": "4b14974f7fd9630c2999d9e523f19de10606fe8a",
+  "state": "applied_build_passed",
+  "item_count": 3,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 277,
+    "pending": 237,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 277,
+    "pending": 234,
+    "deferred_story": 7,
+    "translated_pending_qa": 3,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "790ce15febb87ce64e2422e6cf6c2a6c855bf53ea7a48764dfe1f2bfb7daa45c",
+  "normal_rom_sha256": "790ce15febb87ce64e2422e6cf6c2a6c855bf53ea7a48764dfe1f2bfb7daa45c"
+}

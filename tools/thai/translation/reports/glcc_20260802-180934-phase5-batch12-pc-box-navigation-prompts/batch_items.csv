@@ -1,0 +1,4 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0132,gText_DepositInWhichBox,src/strings.c,Deposit in which BOX?,ฝากไว้ใน BOX ไหน?,1,1,,103,pass,pending
+UI0195,gText_ExitFromBox,src/strings.c,Exit from the BOX?,ออกจาก BOX ไหม?,1,1,,94,pass,pending
+UI0242,gText_JumpToWhichBox,src/strings.c,Jump to which BOX?,ไปที่ BOX ไหน?,1,1,,81,pass,pending
