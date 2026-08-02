@@ -1,10 +1,10 @@
 {
   "batch_id": "20260802-204702-phase5-batch15-pc-pokemon-release-flow",
   "locked_head": "2363f2ab5acc93ac35b05979293cff3ba0352c7e",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 7,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 288,
     "pending": 226,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "9209bbec807c3b9234aa8bc03267746eeb96ffc97834b141719b63f177e74483",
-  "normal_rom_sha256": "9209bbec807c3b9234aa8bc03267746eeb96ffc97834b141719b63f177e74483"
+  "normal_rom_sha256": "9209bbec807c3b9234aa8bc03267746eeb96ffc97834b141719b63f177e74483",
+  "qa_note": "Batch 15 QA Gallery reviewed: 7/7 pages passed. Dynamic placeholder cases were verified with the synthetic ZIGZAGOON sample. Thai shaping, clipping, layout, punctuation, and spacing passed."
 }
