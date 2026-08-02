@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0251,gText_MailCantBeStored,src/strings.c,MAIL can't be stored!,เก็บ MAIL ไม่ได้!,1,1,,91,pass,pending
+UI0255,gText_MailToBagMessageErased,src/strings.c,"The MAIL was returned to the BAG
+with its message erased.{PAUSE_UNTIL_PRESS}","ส่ง MAIL กลับไปที่ BAG แล้ว
+ข้อความถูกลบ.{PAUSE_UNTIL_PRESS}",1,1,,225,pass,pending
+UI0257,gText_Mailbox,src/strings.c,MAILBOX,กล่อง MAIL,2,2,,58,pass,pending
+UI0276,gText_MessageWillBeLost,src/strings.c,"The message will be lost.
+Is that okay?","ข้อความจะหายไป.
+ตกลงไหม?",1,1,,152,pass,pending
+UI0315,gText_NoMailHere,src/strings.c,There's no MAIL here.{PAUSE_UNTIL_PRESS},ที่นี่ไม่มี MAIL.{PAUSE_UNTIL_PRESS},2,2,,79,pass,pending
+UI0395,gText_PleaseRemoveTheMail,src/strings.c,Please remove the MAIL.,โปรดนำ MAIL ออก.,1,1,,101,pass,pending

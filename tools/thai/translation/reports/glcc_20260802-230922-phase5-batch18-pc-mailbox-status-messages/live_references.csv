@@ -1,0 +1,9 @@
+﻿symbol,reference
+gText_MailCantBeStored,"src/pokemon_storage_system.c:1097:    [MSG_CANT_STORE_MAIL]      = {gText_MailCantBeStored,        MSG_VAR_NONE},"
+gText_MailToBagMessageErased,"src/player_pc.c:865:        DisplayItemMessageOnField(taskId, gText_MailToBagMessageErased, Mailbox_Cancel);"
+gText_Mailbox,"src/player_pc.c:195:    [MENU_MAILBOX]     = { gText_Mailbox,     {PlayerPC_Mailbox} },"
+gText_Mailbox,"src/player_pc.c:699:    AddTextPrinterParameterized(windowId, FONT_NORMAL, gText_Mailbox, GetStringCenterAlignXOffset(FONT_NORMAL, gText_Mailbox, 0x40), 1, 0, NULL);"
+gText_MessageWillBeLost,"src/player_pc.c:829:    DisplayItemMessageOnField(taskId, gText_MessageWillBeLost, Mailbox_AskConfirmMoveToBag);"
+gText_NoMailHere,"src/player_pc.c:464:        DisplayItemMessageOnField(taskId, gText_NoMailHere, ReshowPlayerPC);"
+gText_NoMailHere,"src/player_pc.c:482:            DisplayItemMessageOnField(taskId, gText_NoMailHere, ReshowPlayerPC);"
+gText_PleaseRemoveTheMail,"src/pokemon_storage_system.c:1089:    [MSG_PLEASE_REMOVE_MAIL]   = {gText_PleaseRemoveTheMail,     MSG_VAR_NONE},"
