@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_ChangedToNewItem,proof_passed,"Batch 20 QA Gallery reviewed: 4/4 pages passed. Dynamic ITEM cases were verified with PARALYZE HEAL and the Pokemon case with ZIGZAGOON. Thai shaping, clipping, layout, punctuation, and spacing passed."
+gText_ItemIsNowHeld,proof_passed,"Batch 20 QA Gallery reviewed: 4/4 pages passed. Dynamic ITEM cases were verified with PARALYZE HEAL and the Pokemon case with ZIGZAGOON. Thai shaping, clipping, layout, punctuation, and spacing passed."
+gText_PkmnIsSelected,proof_passed,"Batch 20 QA Gallery reviewed: 4/4 pages passed. Dynamic ITEM cases were verified with PARALYZE HEAL and the Pokemon case with ZIGZAGOON. Thai shaping, clipping, layout, punctuation, and spacing passed."
+gText_PkmnWasDeposited,proof_passed,"Batch 20 QA Gallery reviewed: 4/4 pages passed. Dynamic ITEM cases were verified with PARALYZE HEAL and the Pokemon case with ZIGZAGOON. Thai shaping, clipping, layout, punctuation, and spacing passed."

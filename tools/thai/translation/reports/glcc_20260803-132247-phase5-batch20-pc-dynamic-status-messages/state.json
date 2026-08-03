@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-132247-phase5-batch20-pc-dynamic-status-messages",
   "locked_head": "98ee952cfad77b6d2e129ddb12a7ff2507facce8",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 4,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 318,
     "pending": 196,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "a33791fad799f5923fd0668c870bcd8f15231fde5d1a1b7887dd5448f7f30f90",
-  "normal_rom_sha256": "a33791fad799f5923fd0668c870bcd8f15231fde5d1a1b7887dd5448f7f30f90"
+  "normal_rom_sha256": "a33791fad799f5923fd0668c870bcd8f15231fde5d1a1b7887dd5448f7f30f90",
+  "qa_note": "Batch 20 QA Gallery reviewed: 4/4 pages passed. Dynamic ITEM cases were verified with PARALYZE HEAL and the Pokemon case with ZIGZAGOON. Thai shaping, clipping, layout, punctuation, and spacing passed."
 }
