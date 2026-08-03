@@ -1,0 +1,7 @@
+﻿symbol,reference
+gText_Box,"src/pokemon_storage_system.c:1741:        u8 *dest = StringCopy(GetBoxNamePtr(boxId), gText_Box);"
+gText_GoBackPrevMenu,src/decoration.c:248:    gText_GoBackPrevMenu
+gText_GoBackPrevMenu,src/decoration.c:1033:        str = gText_GoBackPrevMenu;
+gText_GoBackPrevMenu,"src/player_pc.c:189:    [MENU_EXIT]     = gText_GoBackPrevMenu,"
+gText_GoBackPrevMenu,src/player_pc.c:1171:        string = gText_GoBackPrevMenu;
+gText_WhatToDoWithVar1sMail,"src/player_pc.c:741:    StringExpandPlaceholders(gStringVar4, gText_WhatToDoWithVar1sMail);"
