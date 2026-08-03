@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-223840-phase5-batch25-pokedex-sort-mode-titles",
   "locked_head": "74a711f08611febeda07c719524bb47b6124a7b8",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 6,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 350,
     "pending": 164,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 6
   },
   "preview_rom_sha256": "f39b96754fb2ea52269e76e8dd487997a51be35beb0370ed7939cd7fe98cf576",
-  "normal_rom_sha256": "f39b96754fb2ea52269e76e8dd487997a51be35beb0370ed7939cd7fe98cf576"
+  "normal_rom_sha256": "f39b96754fb2ea52269e76e8dd487997a51be35beb0370ed7939cd7fe98cf576",
+  "qa_note": "Batch 25 QA Gallery reviewed: 6/6 pages passed. All Pokédex sort mode titles were verified for correct text, spacing, clipping, font rendering, and layout."
 }
