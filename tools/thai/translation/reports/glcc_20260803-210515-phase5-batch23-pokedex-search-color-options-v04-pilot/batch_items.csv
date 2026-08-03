@@ -1,0 +1,13 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0151,gText_DexSearchColorBlack,src/strings.c,BLACK,ดำ,1,1,,11,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0152,gText_DexSearchColorBlue,src/strings.c,BLUE,น้ำเงิน,1,1,,28,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0153,gText_DexSearchColorBrown,src/strings.c,BROWN,น้ำตาล,1,1,,28,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0154,gText_DexSearchColorGray,src/strings.c,GRAY,เทา,1,1,,15,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0155,gText_DexSearchColorGreen,src/strings.c,GREEN,เขียว,1,1,,22,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0156,gText_DexSearchColorPink,src/strings.c,PINK,ชมพู,1,1,,21,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0157,gText_DexSearchColorPurple,src/strings.c,PURPLE,ม่วง,1,1,,17,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0158,gText_DexSearchColorRed,src/strings.c,RED,แดง,1,1,,18,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0159,gText_DexSearchColorWhite,src/strings.c,WHITE,ขาว,1,1,,16,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0160,gText_DexSearchColorYellow,src/strings.c,YELLOW,เหลือง,1,1,,27,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0161,gText_DexSearchDontSpecify,src/strings.c,DON'T SPECIFY.,ไม่ระบุ.,2,2,,38,MEDIUM,ใช้งาน 2 จุด,src/pokedex.c,{},pass,pending
+UI0162,gText_DexSearchTypeNone,src/strings.c,NONE,ไม่มี,1,1,,20,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
