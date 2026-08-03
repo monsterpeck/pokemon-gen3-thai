@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-163153-phase5-batch22-pc-storage-final-three",
   "locked_head": "88b202452ed374931cb2f99380bc5cbb31b50af3",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 3,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 326,
     "pending": 188,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "7a37aaf5ddeb5bd1cda6d737957e4f85140715ff18b66e5f6aa0601cb890cfe9",
-  "normal_rom_sha256": "7a37aaf5ddeb5bd1cda6d737957e4f85140715ff18b66e5f6aa0601cb890cfe9"
+  "normal_rom_sha256": "7a37aaf5ddeb5bd1cda6d737957e4f85140715ff18b66e5f6aa0601cb890cfe9",
+  "qa_note": "Batch 22 QA Gallery reviewed: 3/3 pages passed. BOX retention, Thai multiline layout, clipping, punctuation, STR_VAR_1 preservation, and MAIL owner sample substitution were verified."
 }
