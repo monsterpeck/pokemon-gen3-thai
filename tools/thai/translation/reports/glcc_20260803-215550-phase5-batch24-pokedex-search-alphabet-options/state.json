@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-215550-phase5-batch24-pokedex-search-alphabet-options",
   "locked_head": "f61938c6d21cbcef84ae24de5cea2d622f9bf648",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 9,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 341,
     "pending": 173,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 9
   },
   "preview_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e",
-  "normal_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e"
+  "normal_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e",
+  "qa_note": "Batch 24 QA Gallery reviewed: 9/9 pages passed. All Pokédex alphabet search groups were verified for correct Latin-letter retention, ordering, spacing, clipping, and layout."
 }
