@@ -1,0 +1,7 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0164,gText_DexSortAtoZTitle,src/strings.c,A TO Z MODE,โหมด A-Z,1,1,,54,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0166,gText_DexSortHeaviestTitle,src/strings.c,HEAVIEST MODE,โหมดหนักสุด,1,1,,61,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0168,gText_DexSortLightestTitle,src/strings.c,LIGHTEST MODE,โหมดเบาสุด,1,1,,54,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0170,gText_DexSortNumericalTitle,src/strings.c,NUMERICAL MODE,โหมดหมายเลข,1,1,,66,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0172,gText_DexSortSmallestTitle,src/strings.c,SMALLEST MODE,โหมดเล็กสุด,1,1,,55,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0174,gText_DexSortTallestTitle,src/strings.c,TALLEST MODE,โหมดสูงสุด,1,1,,49,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending

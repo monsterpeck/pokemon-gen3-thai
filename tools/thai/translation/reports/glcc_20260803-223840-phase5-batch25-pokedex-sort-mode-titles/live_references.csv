@@ -1,0 +1,7 @@
+﻿symbol,reference
+gText_DexSortAtoZTitle,"src/pokedex.c:1340:    [ORDER_ALPHABETICAL] = {gText_DexSortAtoZDescription,      gText_DexSortAtoZTitle},"
+gText_DexSortHeaviestTitle,"src/pokedex.c:1341:    [ORDER_HEAVIEST]     = {gText_DexSortHeaviestDescription,  gText_DexSortHeaviestTitle},"
+gText_DexSortLightestTitle,"src/pokedex.c:1342:    [ORDER_LIGHTEST]     = {gText_DexSortLightestDescription,  gText_DexSortLightestTitle},"
+gText_DexSortNumericalTitle,"src/pokedex.c:1339:    [ORDER_NUMERICAL]    = {gText_DexSortNumericalDescription, gText_DexSortNumericalTitle},"
+gText_DexSortSmallestTitle,"src/pokedex.c:1344:    [ORDER_SMALLEST]     = {gText_DexSortSmallestDescription,  gText_DexSortSmallestTitle},"
+gText_DexSortTallestTitle,"src/pokedex.c:1343:    [ORDER_TALLEST]      = {gText_DexSortTallestDescription,   gText_DexSortTallestTitle},"
