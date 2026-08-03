@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-150424-phase5-batch21-pc-item-storage-status-errors",
   "locked_head": "1c1685fa556586d4458f705fc452851a6a00e17b",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 4,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 322,
     "pending": 192,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 4
   },
   "preview_rom_sha256": "722367d4e4b602259f0a2eb4ae6db549219161120b115c6ffc0196009d706f76",
-  "normal_rom_sha256": "722367d4e4b602259f0a2eb4ae6db549219161120b115c6ffc0196009d706f76"
+  "normal_rom_sha256": "722367d4e4b602259f0a2eb4ae6db549219161120b115c6ffc0196009d706f76",
+  "qa_note": "Batch 21 QA Gallery reviewed: 4/4 pages passed. Thai shaping, multiline layout, clipping, ITEM/BAG retention, PAUSE_UNTIL_PRESS behavior, and STR_VAR_1/STR_VAR_2 sample substitution verified."
 }

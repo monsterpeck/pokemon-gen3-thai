@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_NoItems,proof_passed,"Batch 21 QA Gallery reviewed: 4/4 pages passed. Thai shaping, multiline layout, clipping, ITEM/BAG retention, PAUSE_UNTIL_PRESS behavior, and STR_VAR_1/STR_VAR_2 sample substitution verified."
+gText_NoRoomInBag,proof_passed,"Batch 21 QA Gallery reviewed: 4/4 pages passed. Thai shaping, multiline layout, clipping, ITEM/BAG retention, PAUSE_UNTIL_PRESS behavior, and STR_VAR_1/STR_VAR_2 sample substitution verified."
+gText_TooImportantToToss,proof_passed,"Batch 21 QA Gallery reviewed: 4/4 pages passed. Thai shaping, multiline layout, clipping, ITEM/BAG retention, PAUSE_UNTIL_PRESS behavior, and STR_VAR_1/STR_VAR_2 sample substitution verified."
+gText_WithdrawXItems,proof_passed,"Batch 21 QA Gallery reviewed: 4/4 pages passed. Thai shaping, multiline layout, clipping, ITEM/BAG retention, PAUSE_UNTIL_PRESS behavior, and STR_VAR_1/STR_VAR_2 sample substitution verified."
