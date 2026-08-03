@@ -1,0 +1,12 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0314,gText_NoItems,src/strings.c,There are no items.{PAUSE_UNTIL_PRESS},ไม่มี ITEM.{PAUSE_UNTIL_PRESS},2,2,,64,pass,pending
+UI0322,gText_NoRoomInBag,src/strings.c,"There is no more
+room in the BAG.","ไม่มีที่ว่างใน
+BAG แล้ว.",1,1,,126,pass,pending
+UI0502,gText_TooImportantToToss,src/strings.c,"That's much too
+important to toss
+out!","ITEM นี้สำคัญมาก
+จึงทิ้งไม่ได้!",1,1,,158,pass,pending
+UI0538,gText_WithdrawXItems,src/strings.c,"Withdrew {STR_VAR_2}
+{STR_VAR_1}(s).","ถอน {STR_VAR_2}
+{STR_VAR_1} แล้ว.",1,1,,71,pass,pending

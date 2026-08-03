@@ -1,0 +1,6 @@
+﻿symbol,reference
+gText_NoItems,"src/player_pc.c:604:        DisplayItemMessageOnField(taskId, gText_NoItems, PlayerPC_ItemStorage);"
+gText_NoItems,"src/player_pc.c:622:        DisplayItemMessageOnField(taskId, gText_NoItems, PlayerPC_ItemStorage);"
+gText_NoRoomInBag,src/player_pc.c:1186:        string = gText_NoRoomInBag;
+gText_TooImportantToToss,src/player_pc.c:1189:        string = gText_TooImportantToToss;
+gText_WithdrawXItems,src/player_pc.c:1177:        string = gText_WithdrawXItems;
