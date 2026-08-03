@@ -1,10 +1,10 @@
 {
   "batch_id": "20260803-210515-phase5-batch23-pokedex-search-color-options-v04-pilot",
   "locked_head": "d6278cfd6b07c51f69307b3abb95022873bb289e",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 12,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 329,
     "pending": 185,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 12
   },
   "preview_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e",
-  "normal_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e"
+  "normal_rom_sha256": "b87341d14b88707c9e4e2cd0b46f3654f02d00302b885c4d22c76b55c61b349e",
+  "qa_note": "Batch 23 QA Gallery reviewed: 12/12 pages passed. All ten Pokédex color options, Don't Specify, and None were verified for Thai shaping, clipping, spacing, punctuation, and layout."
 }
