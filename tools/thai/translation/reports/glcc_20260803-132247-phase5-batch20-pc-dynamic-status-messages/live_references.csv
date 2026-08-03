@@ -1,0 +1,6 @@
+﻿symbol,reference
+gText_ChangedToNewItem,"src/pokemon_storage_system.c:1096:    [MSG_CHANGED_TO_ITEM]      = {gText_ChangedToNewItem,        MSG_VAR_ITEM_NAME},"
+gText_ItemIsNowHeld,"src/pokemon_storage_system.c:1095:    [MSG_ITEM_IS_HELD]         = {gText_ItemIsNowHeld,           MSG_VAR_ITEM_NAME},"
+gText_PkmnIsSelected,"src/pokemon_storage_system.c:1071:    [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,          MSG_VAR_MON_NAME_1},"
+gText_PkmnIsSelected,"src/pokemon_storage_system.c:1090:    [MSG_IS_SELECTED2]         = {gText_PkmnIsSelected,          MSG_VAR_ITEM_NAME},"
+gText_PkmnWasDeposited,"src/pokemon_storage_system.c:1074:    [MSG_WAS_DEPOSITED]        = {gText_PkmnWasDeposited,        MSG_VAR_MON_NAME_1},"

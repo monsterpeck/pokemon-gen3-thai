@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,analysis_result,visual_qa_status
+UI0070,gText_ChangedToNewItem,src/strings.c,Changed to {DYNAMIC 0}.,เปลี่ยนเป็น {DYNAMIC 0} แล้ว.,1,1,,85,pass,pending
+UI0238,gText_ItemIsNowHeld,src/strings.c,{DYNAMIC 0} is now held.,ตอนนี้ถือ {DYNAMIC 0} อยู่.,1,1,,69,pass,pending
+UI0375,gText_PkmnIsSelected,src/strings.c,{DYNAMIC 0} is selected.,ตอนนี้ถือ {DYNAMIC 0} อยู่.,2,2,,69,pass,pending
+UI0386,gText_PkmnWasDeposited,src/strings.c,{DYNAMIC 0} was deposited.,ฝาก {DYNAMIC 0} แล้ว.,1,1,,51,pass,pending
