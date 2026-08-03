@@ -1,0 +1,10 @@
+﻿symbol,reference
+gText_DexSearchAlphaABC,"src/pokedex.c:1351:    [NAME_ABC] = {gText_DexEmptyString, gText_DexSearchAlphaABC},"
+gText_DexSearchAlphaDEF,"src/pokedex.c:1352:    [NAME_DEF] = {gText_DexEmptyString, gText_DexSearchAlphaDEF},"
+gText_DexSearchAlphaGHI,"src/pokedex.c:1353:    [NAME_GHI] = {gText_DexEmptyString, gText_DexSearchAlphaGHI},"
+gText_DexSearchAlphaJKL,"src/pokedex.c:1354:    [NAME_JKL] = {gText_DexEmptyString, gText_DexSearchAlphaJKL},"
+gText_DexSearchAlphaMNO,"src/pokedex.c:1355:    [NAME_MNO] = {gText_DexEmptyString, gText_DexSearchAlphaMNO},"
+gText_DexSearchAlphaPQR,"src/pokedex.c:1356:    [NAME_PQR] = {gText_DexEmptyString, gText_DexSearchAlphaPQR},"
+gText_DexSearchAlphaSTU,"src/pokedex.c:1357:    [NAME_STU] = {gText_DexEmptyString, gText_DexSearchAlphaSTU},"
+gText_DexSearchAlphaVWX,"src/pokedex.c:1358:    [NAME_VWX] = {gText_DexEmptyString, gText_DexSearchAlphaVWX},"
+gText_DexSearchAlphaYZ,"src/pokedex.c:1359:    [NAME_YZ]  = {gText_DexEmptyString, gText_DexSearchAlphaYZ},"
