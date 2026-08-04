@@ -1,0 +1,4 @@
+﻿symbol,visual_qa_status,note
+gText_BootedUpHM,proof_passed,"Batch 39 QA Gallery reviewed: 3/3 pages passed. The Bag TM/HM system messages and Close Bag label were verified for correct Thai font rendering, spacing, clipping, punctuation retention, layout, and terminology consistency."
+gText_BootedUpTM,proof_passed,"Batch 39 QA Gallery reviewed: 3/3 pages passed. The Bag TM/HM system messages and Close Bag label were verified for correct Thai font rendering, spacing, clipping, punctuation retention, layout, and terminology consistency."
+gText_CloseBag,proof_passed,"Batch 39 QA Gallery reviewed: 3/3 pages passed. The Bag TM/HM system messages and Close Bag label were verified for correct Thai font rendering, spacing, clipping, punctuation retention, layout, and terminology consistency."

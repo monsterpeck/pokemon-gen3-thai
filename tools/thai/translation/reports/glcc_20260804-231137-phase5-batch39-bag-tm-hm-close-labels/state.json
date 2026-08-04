@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-231137-phase5-batch39-bag-tm-hm-close-labels",
   "locked_head": "2f563203cd5c1cf084d18926a046e018142a4303",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 3,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 396,
     "pending": 118,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "618bb8595bd38307868aa0bddb976350880f54db30addbdb789abf42a86e47f4",
-  "normal_rom_sha256": "618bb8595bd38307868aa0bddb976350880f54db30addbdb789abf42a86e47f4"
+  "normal_rom_sha256": "618bb8595bd38307868aa0bddb976350880f54db30addbdb789abf42a86e47f4",
+  "qa_note": "Batch 39 QA Gallery reviewed: 3/3 pages passed. The Bag TM/HM system messages and Close Bag label were verified for correct Thai font rendering, spacing, clipping, punctuation retention, layout, and terminology consistency."
 }
