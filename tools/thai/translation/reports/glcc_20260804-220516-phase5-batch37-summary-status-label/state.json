@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-220516-phase5-batch37-summary-status-label",
   "locked_head": "7a28441d6deb52a205be6fbb28f8947729c5998e",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 394,
     "pending": 120,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 1
   },
   "preview_rom_sha256": "da9416c4a3f9496e33265e3c74e79c074f1bc60509bb42af421d8656cf76f4af",
-  "normal_rom_sha256": "da9416c4a3f9496e33265e3c74e79c074f1bc60509bb42af421d8656cf76f4af"
+  "normal_rom_sha256": "da9416c4a3f9496e33265e3c74e79c074f1bc60509bb42af421d8656cf76f4af",
+  "qa_note": "Batch 37 QA Gallery reviewed: 1/1 page passed. The Pokémon Summary status label was verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
 }
