@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260804-204846-phase5-batch33-summary-page-titles",
+  "locked_head": "6568f654939e94af4926bd818a5aa72c095cef73",
+  "state": "applied_build_passed",
+  "item_count": 4,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 383,
+    "pending": 131,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 383,
+    "pending": 127,
+    "translated_pending_qa": 4,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "9729f352eb65be044d9fee6bb338c3d4efd18634be66c8e5978e051b71170b63",
+  "normal_rom_sha256": "9729f352eb65be044d9fee6bb338c3d4efd18634be66c8e5978e051b71170b63"
+}

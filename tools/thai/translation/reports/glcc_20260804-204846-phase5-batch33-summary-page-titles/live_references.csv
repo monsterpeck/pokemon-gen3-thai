@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_BattleMoves,"src/pokemon_summary_screen.c:2840:    PrintTextOnWindow(PSS_LABEL_WINDOW_BATTLE_MOVES_TITLE, gText_BattleMoves, 2, 1, 0, 1);"
+gText_ContestMoves,"src/pokemon_summary_screen.c:2841:    PrintTextOnWindow(PSS_LABEL_WINDOW_CONTEST_MOVES_TITLE, gText_ContestMoves, 2, 1, 0, 1);"
+gText_PkmnInfo,"src/pokemon_summary_screen.c:2838:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_TITLE, gText_PkmnInfo, 2, 1, 0, 1);"
+gText_PkmnSkills,"src/pokemon_summary_screen.c:2839:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_TITLE, gText_PkmnSkills, 2, 1, 0, 1);"

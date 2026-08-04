@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0018,gText_BattleMoves,src/strings.c,BATTLE MOVES,ท่าต่อสู้,1,1,,30,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
+UI0080,gText_ContestMoves,src/strings.c,C0NTEST MOVES,ท่าประกวด,1,1,,47,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
+UI0374,gText_PkmnInfo,src/strings.c,POKéMON INFO,ข้อมูลโปเกมอน,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
+UI0379,gText_PkmnSkills,src/strings.c,POKéMON SKILLS,ค่าพลังโปเกมอน,1,1,,72,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
