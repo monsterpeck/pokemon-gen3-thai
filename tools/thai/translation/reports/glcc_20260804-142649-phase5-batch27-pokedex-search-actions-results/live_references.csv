@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_ExecuteSearchSwitch,"src/pokedex.c:1106:        .description = gText_ExecuteSearchSwitch,"
+gText_NoMatchingPkmnWereFound,src/pokedex.c:5108:            EraseAndPrintSearchTextBox(gText_NoMatchingPkmnWereFound);
+gText_ReturnToPokedex,"src/pokedex.c:1035:        .description = gText_ReturnToPokedex,"
+gText_SearchCompleted,src/pokedex.c:5103:            EraseAndPrintSearchTextBox(gText_SearchCompleted);

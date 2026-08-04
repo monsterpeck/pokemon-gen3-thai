@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0194,gText_ExecuteSearchSwitch,src/strings.c,Execute search/switch.,เริ่มค้นหา/สลับ.,1,1,,78,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0316,gText_NoMatchingPkmnWereFound,src/strings.c,No matching POKéMON were found.,ไม่พบโปเกมอนตามเงื่อนไข.,1,1,,132,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0426,gText_ReturnToPokedex,src/strings.c,Return to the POKéDEX.,กลับไปโปเกเด็กซ์.,1,1,,86,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0444,gText_SearchCompleted,src/strings.c,Search completed.,ค้นหาเสร็จแล้ว.,1,1,,75,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
