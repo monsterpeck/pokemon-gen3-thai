@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-214515-phase5-batch36-summary-exp-progress-labels",
   "locked_head": "e96017dce223bcd58ef8a957f9ae6e89a5099892",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 2,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 392,
     "pending": 122,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 2
   },
   "preview_rom_sha256": "eb4ca896ac82b569c249ee2e5f45c464660e18e43c02e5a5f37d84d24410bdc8",
-  "normal_rom_sha256": "eb4ca896ac82b569c249ee2e5f45c464660e18e43c02e5a5f37d84d24410bdc8"
+  "normal_rom_sha256": "eb4ca896ac82b569c249ee2e5f45c464660e18e43c02e5a5f37d84d24410bdc8",
+  "qa_note": "Batch 36 QA Gallery reviewed: 2/2 pages passed. Both Pokémon Summary experience-progress labels were verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
 }
