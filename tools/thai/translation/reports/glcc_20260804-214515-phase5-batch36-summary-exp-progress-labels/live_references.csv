@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_ExpPoints,"src/pokemon_summary_screen.c:2878:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, gText_ExpPoints, 6, 1, 0, 1);"
+gText_NextLv,"src/pokemon_summary_screen.c:2879:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_EXP, gText_NextLv, 6, 17, 0, 1);"
