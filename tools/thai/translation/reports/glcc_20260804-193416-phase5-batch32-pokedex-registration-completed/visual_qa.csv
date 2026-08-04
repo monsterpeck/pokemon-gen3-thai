@@ -1,0 +1,2 @@
+﻿symbol,visual_qa_status,note
+gText_PokedexRegistration,proof_passed,"Batch 32 QA Gallery reviewed: 1/1 page passed. The Pokédex registration-completed message was verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
