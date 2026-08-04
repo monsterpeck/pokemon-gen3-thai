@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_Appeal,"src/pokemon_summary_screen.c:2883:    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, gText_Appeal, 0, 1, 0, 1);"
+gText_Jam,"src/pokemon_summary_screen.c:2884:    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_APPEAL_JAM, gText_Jam, 0, 17, 0, 1);"

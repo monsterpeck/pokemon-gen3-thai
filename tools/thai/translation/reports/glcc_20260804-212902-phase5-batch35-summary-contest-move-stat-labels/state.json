@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260804-212902-phase5-batch35-summary-contest-move-stat-labels",
+  "locked_head": "e435cbe50c10acdd2abbb680464049faee9c4ca9",
+  "state": "applied_build_passed",
+  "item_count": 2,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 390,
+    "pending": 124,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 390,
+    "pending": 122,
+    "translated_pending_qa": 2,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "6b47980fda05de5671d8313d294ef8bb3434b6efac33f962204c262e61d20303",
+  "normal_rom_sha256": "6b47980fda05de5671d8313d294ef8bb3434b6efac33f962204c262e61d20303"
+}
