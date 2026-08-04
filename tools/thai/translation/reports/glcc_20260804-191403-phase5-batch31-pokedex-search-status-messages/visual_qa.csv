@@ -1,0 +1,3 @@
+﻿symbol,visual_qa_status,note
+gText_SearchForPkmnBasedOnParameters,proof_passed,"Batch 31 QA Gallery reviewed: 2/2 pages passed. All Pokédex search-status messages were verified for correct Thai font rendering, two-line layout, spacing, clipping, ellipsis, punctuation, and terminology consistency."
+gText_SearchingPleaseWait,proof_passed,"Batch 31 QA Gallery reviewed: 2/2 pages passed. All Pokédex search-status messages were verified for correct Thai font rendering, two-line layout, spacing, clipping, ellipsis, punctuation, and terminology consistency."
