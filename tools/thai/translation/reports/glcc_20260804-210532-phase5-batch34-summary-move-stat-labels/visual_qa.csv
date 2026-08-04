@@ -1,0 +1,4 @@
+﻿symbol,visual_qa_status,note
+gText_Accuracy2,proof_passed,"Batch 34 QA Gallery reviewed: 3/3 pages passed. All Pokémon Summary move-stat labels were verified for correct Thai font rendering, spacing, clipping, slash retention, layout, and terminology consistency."
+gText_Power,proof_passed,"Batch 34 QA Gallery reviewed: 3/3 pages passed. All Pokémon Summary move-stat labels were verified for correct Thai font rendering, spacing, clipping, slash retention, layout, and terminology consistency."
+gText_TypeSlash,proof_passed,"Batch 34 QA Gallery reviewed: 3/3 pages passed. All Pokémon Summary move-stat labels were verified for correct Thai font rendering, spacing, clipping, slash retention, layout, and terminology consistency."
