@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_Accuracy2,"src/pokemon_summary_screen.c:2882:    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, gText_Accuracy2, 0, 17, 0, 1);"
+gText_Power,"src/pokemon_summary_screen.c:2881:    PrintTextOnWindow(PSS_LABEL_WINDOW_MOVES_POWER_ACC, gText_Power, 0, 1, 0, 1);"
+gText_TypeSlash,"src/pokemon_summary_screen.c:2865:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_TYPE, gText_TypeSlash, 0, 1, 0, 0);"

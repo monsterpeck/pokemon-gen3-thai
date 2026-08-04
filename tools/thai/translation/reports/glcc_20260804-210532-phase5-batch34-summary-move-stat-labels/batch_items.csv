@@ -1,0 +1,4 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0006,gText_Accuracy2,src/strings.c,ACCURACY,ความแม่นยำ,1,1,,55,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
+UI0413,gText_Power,src/strings.c,POWER,พลัง,1,1,,18,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
+UI0510,gText_TypeSlash,src/strings.c,TYPE/,ประเภท/,1,1,,43,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending
