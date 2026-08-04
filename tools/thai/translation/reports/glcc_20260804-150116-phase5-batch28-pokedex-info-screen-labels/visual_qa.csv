@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_CryOf,proof_passed,"Batch 28 QA Gallery reviewed: 4/4 pages passed. All Pokédex information-screen labels were verified for correct Thai font rendering, spacing, clipping, and layout. Meaningful trailing-space handling for the size-comparison label was preserved by GLCC."
+gText_HTHeight,proof_passed,"Batch 28 QA Gallery reviewed: 4/4 pages passed. All Pokédex information-screen labels were verified for correct Thai font rendering, spacing, clipping, and layout. Meaningful trailing-space handling for the size-comparison label was preserved by GLCC."
+gText_SizeComparedTo,proof_passed,"Batch 28 QA Gallery reviewed: 4/4 pages passed. All Pokédex information-screen labels were verified for correct Thai font rendering, spacing, clipping, and layout. Meaningful trailing-space handling for the size-comparison label was preserved by GLCC."
+gText_WTWeight,proof_passed,"Batch 28 QA Gallery reviewed: 4/4 pages passed. All Pokédex information-screen labels were verified for correct Thai font rendering, spacing, clipping, and layout. Meaningful trailing-space handling for the size-comparison label was preserved by GLCC."

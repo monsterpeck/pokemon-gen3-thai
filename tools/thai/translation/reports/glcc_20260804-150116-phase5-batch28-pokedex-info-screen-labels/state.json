@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-150116-phase5-batch28-pokedex-info-screen-labels",
   "locked_head": "c0fca1039492545c64b00bec509e0a96cf9c556a",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 4,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 367,
     "pending": 147,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "9e53b9de105b45406b57f386c22d44d02f80aa23f710ca78c37918792a8fd534",
-  "normal_rom_sha256": "9e53b9de105b45406b57f386c22d44d02f80aa23f710ca78c37918792a8fd534"
+  "normal_rom_sha256": "9e53b9de105b45406b57f386c22d44d02f80aa23f710ca78c37918792a8fd534",
+  "qa_note": "Batch 28 QA Gallery reviewed: 4/4 pages passed. All Pokédex information-screen labels were verified for correct Thai font rendering, spacing, clipping, and layout. Meaningful trailing-space handling for the size-comparison label was preserved by GLCC."
 }
