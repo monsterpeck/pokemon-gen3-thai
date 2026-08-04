@@ -1,0 +1,4 @@
+﻿symbol,visual_qa_status,note
+gText_ListByBodyColor,proof_passed,"Batch 30 QA Gallery reviewed: 3/3 pages passed. All Pokédex search-filter descriptions were verified for correct Thai font rendering, two-line layout, spacing, clipping, punctuation, and terminology consistency."
+gText_ListByFirstLetter,proof_passed,"Batch 30 QA Gallery reviewed: 3/3 pages passed. All Pokédex search-filter descriptions were verified for correct Thai font rendering, two-line layout, spacing, clipping, punctuation, and terminology consistency."
+gText_ListByType,proof_passed,"Batch 30 QA Gallery reviewed: 3/3 pages passed. All Pokédex search-filter descriptions were verified for correct Thai font rendering, two-line layout, spacing, clipping, punctuation, and terminology consistency."
