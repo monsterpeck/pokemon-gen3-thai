@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-221700-phase5-batch38-summary-rental-pokemon-label",
   "locked_head": "04ede1aa4716f8f50d69545a7d808ec5b1d802bb",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 395,
     "pending": 119,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 1
   },
   "preview_rom_sha256": "1f98100b123fb009e4cea427ec3933f2206018095aa98f8611f0e8163b7ff585",
-  "normal_rom_sha256": "1f98100b123fb009e4cea427ec3933f2206018095aa98f8611f0e8163b7ff585"
+  "normal_rom_sha256": "1f98100b123fb009e4cea427ec3933f2206018095aa98f8611f0e8163b7ff585",
+  "qa_note": "Batch 38 QA Gallery reviewed: 1/1 page passed. The Rental Pokémon label was verified for correct Thai font rendering, spacing, clipping, layout, context, and terminology consistency."
 }
