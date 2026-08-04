@@ -1,0 +1,19 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0163,gText_DexSortAtoZDescription,src/strings.c,"Spotted and owned POKéMON are listed
+alphabetically.","โปเกมอนที่พบและจับได้
+เรียงตามตัวอักษร.",1,1,,209,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0165,gText_DexSortHeaviestDescription,src/strings.c,"Owned POKéMON are listed from the
+heaviest to the lightest.","โปเกมอนที่จับได้เรียงจาก
+หนักที่สุดไปเบาที่สุด.",1,1,,226,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0167,gText_DexSortLightestDescription,src/strings.c,"Owned POKéMON are listed from the
+lightest to the heaviest.","โปเกมอนที่จับได้เรียงจาก
+เบาที่สุดไปหนักที่สุด.",1,1,,226,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0169,gText_DexSortNumericalDescription,src/strings.c,"POKéMON are listed according to their
+number.","โปเกมอนเรียงตาม
+หมายเลข.",1,1,,145,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0171,gText_DexSortSmallestDescription,src/strings.c,"Owned POKéMON are listed from the
+smallest to the tallest.","โปเกมอนที่จับได้เรียงจาก
+เล็กที่สุดไปสูงที่สุด.",1,1,,215,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0173,gText_DexSortTallestDescription,src/strings.c,"Owned POKéMON are listed from the
+tallest to the smallest.","โปเกมอนที่จับได้เรียงจาก
+สูงที่สุดไปเล็กที่สุด.",1,1,,215,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
