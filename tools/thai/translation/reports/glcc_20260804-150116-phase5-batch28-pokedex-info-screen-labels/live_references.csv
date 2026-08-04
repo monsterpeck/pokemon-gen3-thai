@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_CryOf,"src/pokedex.c:3571:        PrintInfoScreenText(gText_CryOf, 82, 33);"
+gText_HTHeight,"src/pokedex.c:4135:    PrintInfoScreenText(gText_HTHeight, 0x60, 0x39);"
+gText_SizeComparedTo,"src/pokedex.c:3762:            StringCopy(string, gText_SizeComparedTo);"
+gText_WTWeight,"src/pokedex.c:4136:    PrintInfoScreenText(gText_WTWeight, 0x60, 0x49);"

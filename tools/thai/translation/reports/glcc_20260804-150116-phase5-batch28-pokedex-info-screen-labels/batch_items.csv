@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0086,gText_CryOf,src/strings.c,CRY OF,เสียงร้องของ,1,1,,51,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0220,gText_HTHeight,src/strings.c,HT,สูง,1,1,,10,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0460,gText_SizeComparedTo,src/strings.c,SIZE COMPARED TO\x20,เทียบขนาดกับ ,1,1,,66,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0524,gText_WTWeight,src/strings.c,WT,หนัก,1,1,,22,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
