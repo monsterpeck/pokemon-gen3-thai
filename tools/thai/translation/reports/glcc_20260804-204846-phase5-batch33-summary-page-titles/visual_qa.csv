@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_BattleMoves,proof_passed,"Batch 33 QA Gallery reviewed: 4/4 pages passed. All Pokémon Summary page titles were verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
+gText_ContestMoves,proof_passed,"Batch 33 QA Gallery reviewed: 4/4 pages passed. All Pokémon Summary page titles were verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
+gText_PkmnInfo,proof_passed,"Batch 33 QA Gallery reviewed: 4/4 pages passed. All Pokémon Summary page titles were verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
+gText_PkmnSkills,proof_passed,"Batch 33 QA Gallery reviewed: 4/4 pages passed. All Pokémon Summary page titles were verified for correct Thai font rendering, spacing, clipping, layout, and terminology consistency."
