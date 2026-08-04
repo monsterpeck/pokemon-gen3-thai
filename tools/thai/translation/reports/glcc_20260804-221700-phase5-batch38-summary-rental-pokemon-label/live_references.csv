@@ -1,0 +1,2 @@
+﻿symbol,reference
+gText_RentalPkmn,"src/pokemon_summary_screen.c:2864:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_INFO_RENTAL, gText_RentalPkmn, 0, 1, 0, 1);"
