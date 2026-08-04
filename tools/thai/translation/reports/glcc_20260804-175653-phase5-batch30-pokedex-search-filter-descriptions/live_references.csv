@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_ListByBodyColor,"src/pokedex.c:1056:        .description = gText_ListByBodyColor,"
+gText_ListByFirstLetter,"src/pokedex.c:1046:        .description = gText_ListByFirstLetter,"
+gText_ListByType,"src/pokedex.c:1066:        .description = gText_ListByType,"
+gText_ListByType,"src/pokedex.c:1076:        .description = gText_ListByType,"

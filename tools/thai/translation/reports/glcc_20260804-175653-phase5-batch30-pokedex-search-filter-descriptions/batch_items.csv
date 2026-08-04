@@ -1,0 +1,10 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0247,gText_ListByBodyColor,src/strings.c,"List by body color.
+Spotted POKéMON only.","เรียงตามสีลำตัว.
+เฉพาะโปเกมอนที่พบ.",1,1,,193,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0248,gText_ListByFirstLetter,src/strings.c,"List by the first letter in the name.
+Spotted POKéMON only.","เรียงตามอักษรแรกของชื่อ.
+เฉพาะโปเกมอนที่พบ.",1,1,,235,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0249,gText_ListByType,src/strings.c,"List by type.
+Owned POKéMON only.","เรียงตามประเภท.
+เฉพาะโปเกมอนที่จับได้.",2,2,,210,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/pokedex.c,{},pass,pending

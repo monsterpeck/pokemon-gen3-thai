@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260804-175653-phase5-batch30-pokedex-search-filter-descriptions",
+  "locked_head": "97aaa8fc2eb89bbe4f00783c0d9a51fdf2260681",
+  "state": "applied_build_passed",
+  "item_count": 3,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 377,
+    "pending": 137,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 377,
+    "pending": 134,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 3
+  },
+  "preview_rom_sha256": "963a80854a5dc1000ea169b3951cacf627df9a123f0eb6da22aa8d2dbaf2219e",
+  "normal_rom_sha256": "963a80854a5dc1000ea169b3951cacf627df9a123f0eb6da22aa8d2dbaf2219e"
+}
