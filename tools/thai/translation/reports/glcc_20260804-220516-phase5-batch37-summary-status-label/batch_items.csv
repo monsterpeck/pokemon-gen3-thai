@@ -1,0 +1,2 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0471,gText_Status,src/strings.c,STATUS,สถานะ,1,1,,29,LOW,บรรทัดเดียว ไม่มี token,src/pokemon_summary_screen.c,{},pass,pending

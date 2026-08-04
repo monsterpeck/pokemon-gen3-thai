@@ -1,0 +1,2 @@
+﻿symbol,reference
+gText_Status,"src/pokemon_summary_screen.c:2880:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATUS, gText_Status, 2, 1, 0, 1);"
