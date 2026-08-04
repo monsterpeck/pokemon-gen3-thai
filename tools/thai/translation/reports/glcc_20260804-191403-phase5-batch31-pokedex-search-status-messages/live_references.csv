@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_SearchForPkmnBasedOnParameters,"src/pokedex.c:1021:        .description = gText_SearchForPkmnBasedOnParameters,"
+gText_SearchingPleaseWait,src/pokedex.c:5035:                EraseAndPrintSearchTextBox(gText_SearchingPleaseWait);

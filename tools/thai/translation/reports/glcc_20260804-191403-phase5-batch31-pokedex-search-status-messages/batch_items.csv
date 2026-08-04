@@ -1,0 +1,7 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0445,gText_SearchForPkmnBasedOnParameters,src/strings.c,"Search for POKéMON based on
+selected parameters.","ค้นหาโปเกมอนตาม
+เงื่อนไขที่เลือก.",1,1,,175,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
+UI0446,gText_SearchingPleaseWait,src/strings.c,"Searching…
+Please wait.","กำลังค้นหา…
+โปรดรอสักครู่.",1,1,,137,MEDIUM,หลายบรรทัด,src/pokedex.c,{},pass,pending
