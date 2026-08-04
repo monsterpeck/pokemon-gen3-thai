@@ -1,0 +1,8 @@
+﻿symbol,reference
+gText_DexHoennDescription,"src/pokedex.c:1332:    [DEX_MODE_HOENN]    = {gText_DexHoennDescription, gText_DexHoennTitle},"
+gText_DexHoennTitle,"src/pokedex.c:1332:    [DEX_MODE_HOENN]    = {gText_DexHoennDescription, gText_DexHoennTitle},"
+gText_DexNatDescription,"src/pokedex.c:1333:    [DEX_MODE_NATIONAL] = {gText_DexNatDescription,   gText_DexNatTitle},"
+gText_DexNatTitle,"src/pokedex.c:1333:    [DEX_MODE_NATIONAL] = {gText_DexNatDescription,   gText_DexNatTitle},"
+gText_SelectPokedexListingMode,"src/pokedex.c:1086:        .description = gText_SelectPokedexListingMode,"
+gText_SelectPokedexMode,"src/pokedex.c:1096:        .description = gText_SelectPokedexMode,"
+gText_SwitchPokedexListings,"src/pokedex.c:1028:        .description = gText_SwitchPokedexListings,"

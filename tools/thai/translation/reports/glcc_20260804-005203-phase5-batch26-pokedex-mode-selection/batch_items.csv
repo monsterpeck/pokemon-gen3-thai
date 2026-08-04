@@ -1,0 +1,8 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0138,gText_DexHoennDescription,src/strings.c,HOENN region's POKéDEX,โปเกเด็กซ์ประจำภูมิภาคโฮเอ็น,1,1,,134,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0139,gText_DexHoennTitle,src/strings.c,HOENN DEX,โปเกเด็กซ์โฮเอ็น,1,1,,75,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0140,gText_DexNatDescription,src/strings.c,National edition POKéDEX,โปเกเด็กซ์ฉบับแห่งชาติ,1,1,,105,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0141,gText_DexNatTitle,src/strings.c,NATIONAL DEX,โปเกเด็กซ์แห่งชาติ,1,1,,81,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0450,gText_SelectPokedexListingMode,src/strings.c,Select the POKéDEX listing mode.,เลือกโหมดเรียงโปเกเด็กซ์.,1,1,,122,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0451,gText_SelectPokedexMode,src/strings.c,Select the POKéDEX mode.,เลือกโหมดโปเกเด็กซ์.,1,1,,102,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
+UI0478,gText_SwitchPokedexListings,src/strings.c,Switch POKéDEX listings.,สลับรายการโปเกเด็กซ์.,1,1,,103,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
