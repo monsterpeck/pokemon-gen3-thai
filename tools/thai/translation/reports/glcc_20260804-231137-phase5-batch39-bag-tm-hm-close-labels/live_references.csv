@@ -1,0 +1,5 @@
+﻿symbol,reference
+gText_BootedUpHM,"src/item_use.c:781:        DisplayItemMessage(taskId, FONT_NORMAL, gText_BootedUpHM, BootUpSoundTMHM); // HM"
+gText_BootedUpTM,"src/item_use.c:783:        DisplayItemMessage(taskId, FONT_NORMAL, gText_BootedUpTM, BootUpSoundTMHM); // TM"
+gText_CloseBag,"src/battle_pyramid_bag.c:611:    StringCopy(gPyramidBagMenu->itemStrings[i], gText_CloseBag);"
+gText_CloseBag,"src/item_menu.c:875:        StringCopy(sListBuffer2->name[i], gText_CloseBag);"

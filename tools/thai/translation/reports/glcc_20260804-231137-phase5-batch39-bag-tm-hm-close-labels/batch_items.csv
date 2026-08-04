@@ -1,0 +1,4 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0041,gText_BootedUpHM,src/strings.c,Booted up an HM.,เปิดใช้ HM แล้ว.,1,1,,81,LOW,บรรทัดเดียว ไม่มี token,src/item_use.c,{},pass,pending
+UI0042,gText_BootedUpTM,src/strings.c,Booted up a TM.,เปิดใช้ TM แล้ว.,1,1,,81,LOW,บรรทัดเดียว ไม่มี token,src/item_use.c,{},pass,pending
+UI0076,gText_CloseBag,src/strings.c,CLOSE BAG,ปิดกระเป๋า,2,2,,45,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_pyramid_bag.c;src/item_menu.c,{},pass,pending
