@@ -1,10 +1,10 @@
 {
   "batch_id": "20260804-142649-phase5-batch27-pokedex-search-actions-results",
   "locked_head": "d554d381877143d104971f122d72318e2ac7aa76",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 4,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 363,
     "pending": 151,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 4
   },
   "preview_rom_sha256": "c1eda7a28fbaf42adbedffd0d6bdfea624505fc32a07fd0be4787d1a9593b252",
-  "normal_rom_sha256": "c1eda7a28fbaf42adbedffd0d6bdfea624505fc32a07fd0be4787d1a9593b252"
+  "normal_rom_sha256": "c1eda7a28fbaf42adbedffd0d6bdfea624505fc32a07fd0be4787d1a9593b252",
+  "qa_note": "Batch 27 QA Gallery reviewed: 4/4 pages passed. All Pokédex search action and result messages were verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
 }

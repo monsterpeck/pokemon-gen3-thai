@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+gText_ExecuteSearchSwitch,proof_passed,"Batch 27 QA Gallery reviewed: 4/4 pages passed. All Pokédex search action and result messages were verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
+gText_NoMatchingPkmnWereFound,proof_passed,"Batch 27 QA Gallery reviewed: 4/4 pages passed. All Pokédex search action and result messages were verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
+gText_ReturnToPokedex,proof_passed,"Batch 27 QA Gallery reviewed: 4/4 pages passed. All Pokédex search action and result messages were verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
+gText_SearchCompleted,proof_passed,"Batch 27 QA Gallery reviewed: 4/4 pages passed. All Pokédex search action and result messages were verified for correct Thai font rendering, spacing, clipping, punctuation, and layout."
