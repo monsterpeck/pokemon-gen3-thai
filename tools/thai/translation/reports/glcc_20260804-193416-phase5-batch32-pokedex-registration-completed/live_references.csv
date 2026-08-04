@@ -1,0 +1,2 @@
+﻿symbol,reference
+gText_PokedexRegistration,"src/pokedex.c:4112:        PrintInfoScreenText(gText_PokedexRegistration, GetStringCenterAlignXOffset(FONT_NORMAL, gText_PokedexRegistration, DISPLAY_WIDTH), 0);"
