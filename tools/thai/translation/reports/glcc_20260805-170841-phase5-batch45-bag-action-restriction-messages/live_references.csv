@@ -1,0 +1,7 @@
+﻿symbol,reference
+gText_CantDismountBike,"src/item_use.c:165:    DisplayCannotUseItemMessage(taskId, isUsingRegisteredKeyItemOnField, gText_CantDismountBike);"
+gText_CantWriteMail,"src/battle_pyramid_bag.c:1250:        DisplayItemMessageInBattlePyramid(taskId, gText_CantWriteMail, Task_WaitCloseErrorMessage);"
+gText_CantWriteMail,"src/battle_pyramid_bag.c:1292:        DisplayItemMessageInBattlePyramid(taskId, gText_CantWriteMail, Task_WaitCloseErrorMessage);"
+gText_CantWriteMail,"src/item_menu.c:1926:        DisplayItemMessage(taskId, FONT_NORMAL, gText_CantWriteMail, HandleErrorMessage);"
+gText_CantWriteMail,"src/item_menu.c:2003:        DisplayItemMessage(taskId, FONT_NORMAL, gText_CantWriteMail, HandleErrorMessage);"
+gText_CantWriteMail,"src/item_menu.c:2025:        DisplayItemMessage(taskId, FONT_NORMAL, gText_CantWriteMail, HandleErrorMessage);"

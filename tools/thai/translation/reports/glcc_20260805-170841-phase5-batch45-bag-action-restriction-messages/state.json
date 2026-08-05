@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-170841-phase5-batch45-bag-action-restriction-messages",
+  "locked_head": "5c22d8ceadcc2beded9f4aefc968f7d2107ab4d5",
+  "state": "applied_build_passed",
+  "item_count": 2,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 407,
+    "pending": 107,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 407,
+    "pending": 105,
+    "deferred_story": 7,
+    "translated_pending_qa": 2,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "0a20005f4a127f8ce152b32a96f89363f90ac2171f56f966e06a1dedfbe4a6e7",
+  "normal_rom_sha256": "0a20005f4a127f8ce152b32a96f89363f90ac2171f56f966e06a1dedfbe4a6e7"
+}

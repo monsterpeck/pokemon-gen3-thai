@@ -1,0 +1,6 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0062,gText_CantDismountBike,src/strings.c,You can't dismount your BIKE here.{PAUSE_UNTIL_PRESS},"ลงจาก BIKE
+ที่นี่ไม่ได้.{PAUSE_UNTIL_PRESS}",1,1,,127,MEDIUM,มี control code,src/item_use.c,{},pass,pending
+UI0069,gText_CantWriteMail,src/strings.c,"You can't write
+MAIL here.","เขียน MAIL
+ที่นี่ไม่ได้.",5,5,,125,MEDIUM,หลายบรรทัด; ใช้งาน 5 จุด,src/battle_pyramid_bag.c;src/item_menu.c,{},pass,pending
