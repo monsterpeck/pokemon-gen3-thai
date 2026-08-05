@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-174908-phase5-batch46-bag-repel-status-message",
   "locked_head": "435637377758683c91df9c3569a2834cf28e1eda",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 409,
     "pending": 105,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 1
   },
   "preview_rom_sha256": "b612c3fdef024a770a9ed607ffd97186bffe51784f3a7566e6e4b5c3d08eff92",
-  "normal_rom_sha256": "b612c3fdef024a770a9ed607ffd97186bffe51784f3a7566e6e4b5c3d08eff92"
+  "normal_rom_sha256": "b612c3fdef024a770a9ed607ffd97186bffe51784f3a7566e6e4b5c3d08eff92",
+  "qa_note": "Batch 46 QA Gallery reviewed: 1/1 page passed. The lingering REPEL effect message was verified for correct Thai font rendering, line breaks, spacing, clipping, punctuation, layout, terminology consistency, and PAUSE_UNTIL_PRESS control-token preservation."
 }

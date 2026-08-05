@@ -1,0 +1,2 @@
+﻿symbol,visual_qa_status,note
+gText_RepelEffectsLingered,proof_passed,"Batch 46 QA Gallery reviewed: 1/1 page passed. The lingering REPEL effect message was verified for correct Thai font rendering, line breaks, spacing, clipping, punctuation, layout, terminology consistency, and PAUSE_UNTIL_PRESS control-token preservation."
