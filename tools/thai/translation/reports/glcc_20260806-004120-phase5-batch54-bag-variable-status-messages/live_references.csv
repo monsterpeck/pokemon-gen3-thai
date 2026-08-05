@@ -1,0 +1,11 @@
+﻿symbol,reference
+gText_CantBuyKeyItem,"src/item_menu.c:2073:        StringExpandPlaceholders(gStringVar4, gText_CantBuyKeyItem);"
+gText_CoinCase,"src/item_use.c:646:    StringExpandPlaceholders(gStringVar4, gText_CoinCase);"
+gText_PlayerUsedVar2,"src/item_use.c:817:    StringExpandPlaceholders(gStringVar4, gText_PlayerUsedVar2);"
+gText_PowderQty,"src/item_use.c:661:    StringExpandPlaceholders(gStringVar4, gText_PowderQty);"
+gText_TMHMContainedVar1,"src/item_use.c:797:        StringExpandPlaceholders(gStringVar4, gText_TMHMContainedVar1);"
+gText_UsedVar2WildLured,"src/item_use.c:884:        StringExpandPlaceholders(gStringVar4, gText_UsedVar2WildLured);"
+gText_UsedVar2WildRepelled,"src/item_use.c:890:        StringExpandPlaceholders(gStringVar4, gText_UsedVar2WildRepelled);"
+gText_Var1CantBeHeld,"src/battle_pyramid_bag.c:1266:    StringExpandPlaceholders(gStringVar4, gText_Var1CantBeHeld);"
+gText_Var1CantBeHeld,"src/item_menu.c:1954:    StringExpandPlaceholders(gStringVar4, gText_Var1CantBeHeld);"
+gText_Var1CantBeHeldHere,"src/item_menu.c:2008:        StringExpandPlaceholders(gStringVar4, gText_Var1CantBeHeldHere);"

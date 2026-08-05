@@ -1,0 +1,29 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0061,gText_CantBuyKeyItem,src/strings.c,"{STR_VAR_2}? Oh, no.
+I can't buy that.{PAUSE_UNTIL_PRESS}","{STR_VAR_2} เหรอ? ไม่ได้สิ.
+ฉันรับซื้อไม่ได้.{PAUSE_UNTIL_PRESS}",1,1,,171,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_2}"": ""999""}",pass,pending
+UI0077,gText_CoinCase,src/strings.c,"Your COINS:
+{STR_VAR_1}{PAUSE_UNTIL_PRESS}","เหรียญของคุณ:
+{STR_VAR_1}{PAUSE_UNTIL_PRESS}",1,1,,88,HIGH,มี runtime variable,src/item_use.c,"{""{STR_VAR_1}"": ""999""}",pass,pending
+UI0393,gText_PlayerUsedVar2,src/strings.c,"{PLAYER} used the
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","{PLAYER} ใช้
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",1,1,,40,HIGH,มี runtime variable,src/item_use.c,"{""{PLAYER}"": ""WARRAWUT"", ""{STR_VAR_2}"": ""999""}",pass,pending
+UI0412,gText_PowderQty,src/strings.c,POWDER QTY: {STR_VAR_1}{PAUSE_UNTIL_PRESS},จำนวนผง: {STR_VAR_1}{PAUSE_UNTIL_PRESS},1,1,,54,HIGH,มี runtime variable,src/item_use.c,"{""{STR_VAR_1}"": ""999""}",pass,pending
+UI0480,gText_TMHMContainedVar1,src/strings.c,"It contained
+{STR_VAR_1}.\pTeach {STR_VAR_1}
+to a POKéMON?","ข้างในมี
+{STR_VAR_1}.\pจะสอน {STR_VAR_1}
+ให้โปเกมอนไหม?",1,1,,210,HIGH,มี runtime variable,src/item_use.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending
+UI0515,gText_UsedVar2WildLured,src/strings.c,"{PLAYER} used the
+{STR_VAR_2}.\pWild POKéMON will be lured.{PAUSE_UNTIL_PRESS}","{PLAYER} ใช้
+{STR_VAR_2}.\pโปเกมอนป่า
+จะถูกล่อเข้ามา.{PAUSE_UNTIL_PRESS}",1,1,,194,HIGH,มี runtime variable,src/item_use.c,"{""{PLAYER}"": ""WARRAWUT"", ""{STR_VAR_2}"": ""ZIGZAGOON""}",pass,pending
+UI0516,gText_UsedVar2WildRepelled,src/strings.c,"{PLAYER} used the
+{STR_VAR_2}.\pWild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}","{PLAYER} ใช้
+{STR_VAR_2}.\pโปเกมอนป่า
+จะไม่เข้ามาใกล้.{PAUSE_UNTIL_PRESS}",1,1,,201,HIGH,มี runtime variable,src/item_use.c,"{""{PLAYER}"": ""WARRAWUT"", ""{STR_VAR_2}"": ""ZIGZAGOON""}",pass,pending
+UI0518,gText_Var1CantBeHeld,src/strings.c,The {STR_VAR_1} can't be held.,"{STR_VAR_1}
+ถือไม่ได้.",2,2,,62,HIGH,มี runtime variable,src/battle_pyramid_bag.c;src/item_menu.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending
+UI0519,gText_Var1CantBeHeldHere,src/strings.c,"The {STR_VAR_1} can't be held
+here.","{STR_VAR_1}
+ถือที่นี่ไม่ได้.",1,1,,77,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending
