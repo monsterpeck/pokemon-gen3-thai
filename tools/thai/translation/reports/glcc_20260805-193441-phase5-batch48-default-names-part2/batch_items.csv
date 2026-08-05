@@ -1,0 +1,21 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0110,gText_DefaultNameLucy,src/strings.c,LUCY,ลูซี่,1,1,,13,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0111,gText_DefaultNameMilton,src/strings.c,MILTON,มิลตัน,1,1,,28,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0112,gText_DefaultNameMonica,src/strings.c,MONICA,โมนิกา,1,1,,30,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0113,gText_DefaultNameNadine,src/strings.c,NADINE,นาดีน,1,1,,27,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0114,gText_DefaultNameNicola,src/strings.c,NICOLA,นิโคลา,1,1,,30,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0115,gText_DefaultNameQuincy,src/strings.c,QUINCY,ควินซี,1,1,,28,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0116,gText_DefaultNameReid,src/strings.c,REID,รีด,1,1,,13,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0117,gText_DefaultNameRuthie,src/strings.c,RUTHIE,รูธี,1,1,,11,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0118,gText_DefaultNameSara,src/strings.c,SARA,ซารา,1,1,,20,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0119,gText_DefaultNameSeth,src/strings.c,SETH,เซธ,1,1,,17,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0120,gText_DefaultNameStanley,src/strings.c,STANLEY,สแตนลีย์,1,1,,40,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0121,gText_DefaultNameStu,src/strings.c,STU,สตู,1,1,,13,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0122,gText_DefaultNameTanja,src/strings.c,TANJA,ทันยา,1,1,,25,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0123,gText_DefaultNameTerra,src/strings.c,TERRA,เทอร์รา,1,1,,31,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0124,gText_DefaultNameTerry,src/strings.c,TERRY,เทอร์รี,1,1,,28,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0125,gText_DefaultNameTeru,src/strings.c,TERU,เทรุ,1,1,,16,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0126,gText_DefaultNameTiara,src/strings.c,TIARA,เทียรา,1,1,,26,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0127,gText_DefaultNameTom,src/strings.c,TOM,ทอม,1,1,,20,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0128,gText_DefaultNameWalker,src/strings.c,WALKER,วอล์กเกอร์,1,1,,45,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0129,gText_DefaultNameYasmin,src/strings.c,YASMIN,ยาสมิน,1,1,,31,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
