@@ -1,0 +1,8 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0063,gText_CantStoreImportantItems,src/strings.c,"Important items
+can't be stored in
+the PC!","ไอเทมสำคัญ
+เก็บใน PC ไม่ได้!",1,1,,160,MEDIUM,หลายบรรทัด,src/item_menu.c,{},pass,pending
+UI0321,gText_NoRoomForItems,src/strings.c,"There's no room to
+store items.","ไม่มีที่ว่าง
+สำหรับเก็บไอเทม.",1,1,,141,MEDIUM,หลายบรรทัด,src/item_menu.c,{},pass,pending

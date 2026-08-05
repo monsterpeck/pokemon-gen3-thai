@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-151812-phase5-batch44-bag-storage-restriction-messages",
+  "locked_head": "433e3fbc04028a7c22f5622b0fe0eef382b55d86",
+  "state": "applied_build_passed",
+  "item_count": 2,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 405,
+    "pending": 109,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 405,
+    "pending": 107,
+    "deferred_story": 7,
+    "translated_pending_qa": 2,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "27afde19feeb24426d70f4399c271a69140abf6cdf5661b3f8e1220301a629a6",
+  "normal_rom_sha256": "27afde19feeb24426d70f4399c271a69140abf6cdf5661b3f8e1220301a629a6"
+}
