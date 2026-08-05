@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_RepelEffectsLingered,"src/item_use.c:835:        DisplayItemMessage(taskId, FONT_NORMAL, gText_RepelEffectsLingered, CloseItemMessage);"
+gText_RepelEffectsLingered,"src/item_use.c:837:        DisplayItemMessageInBattlePyramid(taskId, gText_RepelEffectsLingered, Task_CloseBattlePyramidBagMessage);"

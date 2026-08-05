@@ -1,0 +1,4 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0423,gText_RepelEffectsLingered,src/strings.c,"But the effects of a REPEL
+lingered from earlier.{PAUSE_UNTIL_PRESS}","แต่ฤทธิ์ของ REPEL
+เดิมยังคงอยู่.{PAUSE_UNTIL_PRESS}",2,2,,170,MEDIUM,หลายบรรทัด; มี control code; ใช้งาน 2 จุด,src/item_use.c,{},pass,pending
