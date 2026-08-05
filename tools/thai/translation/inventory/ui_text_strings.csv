@@ -802,7 +802,7 @@ UI0516,global:gText_UsedVar2WildRepelled,gText_UsedVar2WildRepelled,"{PLAYER} us
 {STR_VAR_2}.\pWild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}",,pending,system_message,english,BAG,1,c_u8,src/strings.c,254,2,\p;{PAUSE_UNTIL_PRESS};{PLAYER};{STR_VAR_2},yes,pending_usage_to_window_mapping,pending,
 UI0517,global:gText_Var1AndYouWantedVar2,gText_Var1AndYouWantedVar2,"{STR_VAR_1}? And you wanted {STR_VAR_2}?
 That will be ¥{STR_VAR_3}.",,proof_passed,core_ui_prompt,english,SHOP,1,c_u8,src/strings.c,350,2,{STR_VAR_1};{STR_VAR_2};{STR_VAR_3},yes,pending_usage_to_window_mapping,proof_passed,
-UI0518,global:gText_Var1CantBeHeld,gText_Var1CantBeHeld,The {STR_VAR_1} can't be held.,,pending,core_ui_prompt,english,BAG,2,c_u8,src/strings.c,232,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
+UI0518,global:gText_Var1CantBeHeld,gText_Var1CantBeHeld,The {STR_VAR_1} can't be held.,,pending,core_ui_prompt,english,BAG;BATTLE,2,c_u8,src/strings.c,232,1,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0519,global:gText_Var1CantBeHeldHere,gText_Var1CantBeHeldHere,"The {STR_VAR_1} can't be held
 here.",,pending,core_ui_prompt,english,BAG,1,c_u8,src/strings.c,233,2,{STR_VAR_1},yes,pending_usage_to_window_mapping,pending,
 UI0520,global:gText_Var1CertainlyHowMany,gText_Var1CertainlyHowMany,"{STR_VAR_1}? Certainly.
