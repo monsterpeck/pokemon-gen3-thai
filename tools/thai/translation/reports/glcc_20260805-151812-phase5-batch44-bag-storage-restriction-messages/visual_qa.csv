@@ -1,0 +1,3 @@
+﻿symbol,visual_qa_status,note
+gText_CantStoreImportantItems,proof_passed,"Batch 44 QA Gallery reviewed: 2/2 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+gText_NoRoomForItems,proof_passed,"Batch 44 QA Gallery reviewed: 2/2 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
