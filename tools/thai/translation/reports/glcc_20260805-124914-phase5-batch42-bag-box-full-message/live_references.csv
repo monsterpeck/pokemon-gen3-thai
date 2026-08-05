@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_BoxFull,"src/item_use.c:950:        DisplayItemMessage(taskId, FONT_NORMAL, gText_BoxFull, CloseItemMessage);"
+gText_BoxFull,"src/item_use.c:954:        DisplayItemMessageInBattlePyramid(taskId, gText_BoxFull, Task_CloseBattlePyramidBagMessage);"
