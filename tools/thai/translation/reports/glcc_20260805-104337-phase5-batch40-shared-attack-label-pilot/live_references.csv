@@ -1,0 +1,6 @@
+﻿symbol,reference
+gText_Attack3,"src/data/party_menu.h:1113:    gText_Attack3,"
+gText_Attack3,"src/party_menu.c:4343:        StringCopy(gStringVar2, gText_Attack3);"
+gText_Attack3,"src/party_menu.c:4556:        StringCopy(dest, gText_Attack3);"
+gText_Attack3,"src/pokemon_summary_screen.c:2868:    statsXPos = 6 + GetStringCenterAlignXOffset(FONT_NORMAL, gText_Attack3, 42);"
+gText_Attack3,"src/pokemon_summary_screen.c:2869:    PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_STATS_LEFT, gText_Attack3, statsXPos, 17, 0, 1);"

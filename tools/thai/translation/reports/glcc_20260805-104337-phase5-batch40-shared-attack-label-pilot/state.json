@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-104337-phase5-batch40-shared-attack-label-pilot",
+  "locked_head": "cddbe0657099b8b6fc22750532c8f923c6a81710",
+  "state": "applied_build_passed",
+  "item_count": 1,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 399,
+    "pending": 115,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 399,
+    "pending": 114,
+    "translated_pending_qa": 1,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "66a1747e43e32633aaab69b3465968224ba71e73dee3650f602b6b5dfe631eb3",
+  "normal_rom_sha256": "66a1747e43e32633aaab69b3465968224ba71e73dee3650f602b6b5dfe631eb3"
+}
