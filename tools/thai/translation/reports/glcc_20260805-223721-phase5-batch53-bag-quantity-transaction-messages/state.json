@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-223721-phase5-batch53-bag-quantity-transaction-messages",
   "locked_head": "5381fc288dac7022cb468c9a99fcb22d1cdf6f78",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 473,
     "pending": 41,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "3badd1ab9ef527a7d1c47addf3220de48ff2329c0bf458b8dc2f3593236412d9",
-  "normal_rom_sha256": "3badd1ab9ef527a7d1c47addf3220de48ff2329c0bf458b8dc2f3593236412d9"
+  "normal_rom_sha256": "3badd1ab9ef527a7d1c47addf3220de48ff2329c0bf458b8dc2f3593236412d9",
+  "qa_note": "Batch 53 QA Gallery reviewed: 10/10 pages passed. The Bag quantity and transaction messages were verified for accurate Thai meaning, correct runtime-variable order and substitution, consistent item and currency terminology, correct font rendering, line breaks, spacing, punctuation, clipping, alignment, readability, and layout across Bag, Battle, and PC Storage contexts."
 }
