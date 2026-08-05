@@ -1,0 +1,12 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0130,gText_Defense3,src/strings.c,DEFENSE,ป้องกัน,5,5,,31,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 5 จุด,src/data/party_menu.h;src/party_menu.c;src/pokemon_summary_screen.c,{},pass,pending
+UI0185,gText_EggNickname,src/strings.c,EGG,ไข่,5,5,,12,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 5 จุด,src/menu_specialized.c;src/mystery_event_script.c;src/pokemon.c;src/pokemon_storage_system.c;src/pokenav_conditions.c,{},pass,pending
+UI0218,gText_HP3,src/strings.c,HP,HP,2,2,,16,MEDIUM,ใช้งาน 2 จุด,src/party_menu.c,{},pass,pending
+UI0219,gText_HP4,src/strings.c,HP,HP,3,3,,16,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 3 จุด,src/data/party_menu.h;src/pokemon_summary_screen.c,{},pass,pending
+UI0233,gText_Info,src/strings.c,INFO,ข้อมูล,2,2,,25,MEDIUM,ใช้งาน 2 จุด,src/pokemon_summary_screen.c,{},pass,pending
+UI0324,gText_None,src/strings.c,NONE,ไม่มี,2,2,,20,MEDIUM,ใช้งาน 2 จุด,src/pokemon_summary_screen.c,{},pass,pending
+UI0465,gText_SpAtk3,src/strings.c,SP. ATK,โจมตีพิเศษ,2,2,,52,MEDIUM,ใช้งาน 2 จุด,src/party_menu.c,{},pass,pending
+UI0466,gText_SpAtk4,src/strings.c,SP. ATK,โจมตีพิเศษ,3,3,,52,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 3 จุด,src/data/party_menu.h;src/pokemon_summary_screen.c,{},pass,pending
+UI0467,gText_SpDef3,src/strings.c,SP. DEF,ป้องกันพิเศษ,2,2,,58,MEDIUM,ใช้งาน 2 จุด,src/party_menu.c,{},pass,pending
+UI0468,gText_SpDef4,src/strings.c,SP. DEF,ป้องกันพิเศษ,3,3,,58,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 3 จุด,src/data/party_menu.h;src/pokemon_summary_screen.c,{},pass,pending
+UI0470,gText_Speed2,src/strings.c,SPEED,ความเร็ว,5,5,,40,MEDIUM,ใช้หลายพื้นที่ UI; ใช้งาน 5 จุด,src/data/party_menu.h;src/party_menu.c;src/pokemon_summary_screen.c,{},pass,pending
