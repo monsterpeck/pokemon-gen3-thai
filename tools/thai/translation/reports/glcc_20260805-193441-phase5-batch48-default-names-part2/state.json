@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-193441-phase5-batch48-default-names-part2",
   "locked_head": "4d02a2b17bb0496274bc48d24208c0bd0e5c7f12",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 20,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 430,
     "pending": 84,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "ff0d5593fdeebc1ea0a64e62de80dc7de5d649bf125275713f6c2715c1e8bb7f",
-  "normal_rom_sha256": "ff0d5593fdeebc1ea0a64e62de80dc7de5d649bf125275713f6c2715c1e8bb7f"
+  "normal_rom_sha256": "ff0d5593fdeebc1ea0a64e62de80dc7de5d649bf125275713f6c2715c1e8bb7f",
+  "qa_note": "Batch 48 QA Gallery reviewed: 20/20 pages passed. The second set of preset player names was verified for consistent Thai transliteration, correct font rendering, spacing, clipping, layout, and readability."
 }
