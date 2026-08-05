@@ -252,20 +252,26 @@ UI0177,global:gText_DoWhatWithMail,gText_DoWhatWithMail,Do what with the MAIL?,�
 UI0178,global:gText_DoWhatWithPokemon,gText_DoWhatWithPokemon,Do what with this {PKMN}?,จะทำอะไรกับ{PKMN}?,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,437,1,{PKMN},yes,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0179,global:gText_DontHave,gText_DontHave,DON'T HAVE,ไม่มี,proof_passed,core_ui_label,english,PARTY_MENU,1,c_u8,src/strings.c,469,1,,no,pass,proof_passed,Party Menu Batch 2A automated QA and user-confirmed runtime profile gallery passed (1/6 row D05).
 UI0180,global:gText_EggAboutToHatch,gText_EggAboutToHatch,"It's making sounds.
-It's about to hatch!",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,526,2,,no,pending_usage_to_window_mapping,pending,
+It's about to hatch!","มีเสียงดังออกมา.
+ใกล้จะฟักแล้ว!",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,526,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0181,global:gText_EggCantBattle,gText_EggCantBattle,An EGG can't battle!{PAUSE_UNTIL_PRESS},ไข่ต่อสู้ไม่ได้!{PAUSE_UNTIL_PRESS},proof_passed,system_message,english,PARTY_MENU,1,c_u8,src/strings.c,387,1,{PAUSE_UNTIL_PRESS},yes,pass,proof_passed,"Approved Party Menu Batch 2C system-message translation; exact source definition, runtime tokens, Thai shaper, page layout, strict width, and normal ROM build passed. Runtime visual QA remains pending. gText_WontHaveEffect also requires Bag and Battle Pyramid Bag evidence. Runtime visual QA passed from the user-confirmed 17-page Batch 2C gallery (gallery page(s) 3; row code(s) R07)."
 UI0182,global:gText_EggCantBeTradedNow,gText_EggCantBeTradedNow,An EGG can't be traded now.,ตอนนี้แลกเปลี่ยนไข่ไม่ได้,proof_passed,core_ui_prompt,english,PARTY_MENU,3,c_u8,src/strings.c,485,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
 UI0183,global:gText_EggFromHotSprings,gText_EggFromHotSprings,"A POKéMON EGG obtained
-at the hot springs.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,539,2,,no,pending_usage_to_window_mapping,pending,
+at the hot springs.","ไข่โปเกมอนที่ได้มา
+จากบ่อน้ำพุร้อน.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,539,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0184,global:gText_EggFromTraveler,gText_EggFromTraveler,"An odd POKéMON EGG
-obtained from a traveler.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,540,2,,no,pending_usage_to_window_mapping,pending,
+obtained from a traveler.","ไข่โปเกมอนประหลาด
+ที่ได้จากนักเดินทาง.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,540,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0185,global:gText_EggNickname,gText_EggNickname,EGG,ไข่,proof_passed,core_ui_label,english,PC_STORAGE;POKENAV,5,c_u8,src/strings.c,21,1,,no,pending_usage_to_window_mapping,proof_passed,"GLCC 20260805-200713-phase5-batch49-summary-stat-labels: preview/build passed; visual QA pending.; GLCC 20260805-200713-phase5-batch49-summary-stat-labels: visual QA passed. Batch 49 QA Gallery reviewed: 11/11 pages passed. The summary and party-menu labels were verified for correct Thai font rendering, terminology consistency, spacing, clipping, alignment, readability, and layout across all usage contexts."
 UI0186,global:gText_EggWillHatchSoon,gText_EggWillHatchSoon,"It moves occasionally.
-It should hatch soon.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,525,2,,no,pending_usage_to_window_mapping,pending,
+It should hatch soon.","ขยับเป็นบางครั้ง.
+น่าจะฟักเร็วๆ นี้.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,525,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0187,global:gText_EggWillTakeALongTime,gText_EggWillTakeALongTime,"It looks like this EGG will
-take a long time to hatch.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,523,2,,no,pending_usage_to_window_mapping,pending,
+take a long time to hatch.","ดูเหมือนไข่ใบนี้
+จะใช้เวลาฟักอีกนาน.",translated_pending_qa,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,523,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0188,global:gText_EggWillTakeSomeTime,gText_EggWillTakeSomeTime,"What will hatch from this?
-It will take some time.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,524,2,,no,pending_usage_to_window_mapping,pending,
+It will take some time.","อะไรจะฟักออกมานะ?
+คงต้องรออีกสักพัก.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,524,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0189,global:gText_EmptyString2,gText_EmptyString2,,,not_applicable,technical_not_translatable,nonlinguistic,BAG;PARTY_MENU,2,c_u8,src/strings.c,197,0,,no,pending_usage_to_window_mapping,pending,
 UI0190,global:gText_EmptyString5,gText_EmptyString5,,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,515,0,,no,pending_usage_to_window_mapping,pending,
 UI0191,global:gText_EnjoyCycling,gText_EnjoyCycling,Let's enjoy cycling!,ปั่นจักรยานกันเถอะ!,proof_passed,core_ui_prompt,english,PARTY_MENU,1,c_u8,src/strings.c,455,1,,no,pass,proof_passed,"Party Menu Batch 2B prompt passed exact source, placeholder/control-token, Thai shaper, width, normal ROM build, and user-confirmed 14-page runtime visual QA. Full-message renderer origin fixed from x=0 to x=1."
@@ -479,7 +485,8 @@ UI0334,global:gText_NumberOfBattles,gText_NumberOfBattles,No. of battles,,proof_
 UI0335,global:gText_NumberRegistered,gText_NumberRegistered,No. registered,,proof_passed,core_ui_label,english,POKENAV,1,c_u8,src/strings.c,971,1,,no,pending_usage_to_window_mapping,proof_passed,
 UI0336,global:gText_OTSlash,gText_OTSlash,OT/,,pending,core_ui_label,english,SUMMARY,4,c_u8,src/strings.c,504,1,,no,pending_usage_to_window_mapping,pending,
 UI0337,global:gText_OddEggFoundByCouple,gText_OddEggFoundByCouple,"An odd POKéMON EGG found
-by the DAY CARE couple.",,pending,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,536,2,,no,pending_usage_to_window_mapping,pending,
+by the DAY CARE couple.","ไข่โปเกมอนประหลาด
+ที่คู่ดูแลโปเกมอนพบ.",translated_pending_qa,core_ui_prompt,english,SUMMARY,2,c_u8,src/strings.c,536,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0338,global:gText_OneDash,gText_OneDash,-,,not_applicable,technical_not_translatable,nonlinguistic,SUMMARY,1,c_u8,src/strings.c,209,1,,no,pending_usage_to_window_mapping,pending,
 UI0339,global:gText_OnlyPkmnForBattle,gText_OnlyPkmnForBattle,"That's your only
 POKéMON for battle.","นี่คือโปเกมอนตัวเดียว
@@ -498,9 +505,11 @@ UI0346,global:gText_PartyFull,gText_PartyFull,Your party is full!,ทีมข�
 UI0347,global:gText_PauseUntilPress,gText_PauseUntilPress,{PAUSE_UNTIL_PRESS},,not_applicable,technical_not_translatable,nonlinguistic,PARTY_MENU,3,c_u8,src/strings.c,478,1,{PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,
 UI0348,global:gText_Peak,gText_Peak,Peak,ยอด,proof_passed,core_ui_label,english,START_SAVE,1,c_u8,src/strings.c,1582,1,,no,pass,proof_passed,Runtime QA gallery reviewed and accepted.
 UI0349,global:gText_PeculiarEggNicePlace,gText_PeculiarEggNicePlace,"A peculiar POKéMON EGG
-obtained at the nice place.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,537,2,,no,pending_usage_to_window_mapping,pending,
+obtained at the nice place.","ไข่โปเกมอนประหลาด
+ที่ได้จากสถานที่ดีๆ.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,537,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0350,global:gText_PeculiarEggTrade,gText_PeculiarEggTrade,"A peculiar POKéMON EGG
-obtained in a trade.",,pending,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,538,2,,no,pending_usage_to_window_mapping,pending,
+obtained in a trade.","ไข่โปเกมอนประหลาด
+ที่ได้จากการแลกเปลี่ยน.",translated_pending_qa,core_ui_prompt,english,SUMMARY,1,c_u8,src/strings.c,538,2,,no,pending_usage_to_window_mapping,pending,GLCC 20260805-202519-phase5-batch50-summary-egg-messages: preview/build passed; visual QA pending.
 UI0351,global:gText_PickTheWallpaper,gText_PickTheWallpaper,Pick the wallpaper.,เลือกวอลเปเปอร์.,proof_passed,core_ui_prompt,english,PC_STORAGE,1,c_u8,src/strings.c,876,1,,no,pending_usage_to_window_mapping,proof_passed,"GLCC 20260802-224008-phase5-batch17-pc-box-theme-wallpaper: preview/build passed; visual QA pending.; GLCC 20260802-224008-phase5-batch17-pc-box-theme-wallpaper: visual QA passed. Batch 17 QA Gallery reviewed: 3/3 pages passed. Thai shaping, clipping, layout, punctuation, and spacing verified."
 UI0352,global:gText_PkmnAdoresBaseVar2Fell,gText_PkmnAdoresBaseVar2Fell,"{STR_VAR_1} adores you!
 The base {STR_VAR_2} fell!{PAUSE_UNTIL_PRESS}","{STR_VAR_1} รักคุณมาก!

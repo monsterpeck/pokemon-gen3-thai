@@ -1,0 +1,28 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0180,gText_EggAboutToHatch,src/strings.c,"It's making sounds.
+It's about to hatch!","มีเสียงดังออกมา.
+ใกล้จะฟักแล้ว!",1,1,,161,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0183,gText_EggFromHotSprings,src/strings.c,"A POKéMON EGG obtained
+at the hot springs.","ไข่โปเกมอนที่ได้มา
+จากบ่อน้ำพุร้อน.",1,1,,177,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0184,gText_EggFromTraveler,src/strings.c,"An odd POKéMON EGG
+obtained from a traveler.","ไข่โปเกมอนประหลาด
+ที่ได้จากนักเดินทาง.",1,1,,205,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0186,gText_EggWillHatchSoon,src/strings.c,"It moves occasionally.
+It should hatch soon.","ขยับเป็นบางครั้ง.
+น่าจะฟักเร็วๆ นี้.",1,1,,174,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0187,gText_EggWillTakeALongTime,src/strings.c,"It looks like this EGG will
+take a long time to hatch.","ดูเหมือนไข่ใบนี้
+จะใช้เวลาฟักอีกนาน.",2,2,,185,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/pokemon_summary_screen.c,{},pass,pending
+UI0188,gText_EggWillTakeSomeTime,src/strings.c,"What will hatch from this?
+It will take some time.","อะไรจะฟักออกมานะ?
+คงต้องรออีกสักพัก.",1,1,,198,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0337,gText_OddEggFoundByCouple,src/strings.c,"An odd POKéMON EGG found
+by the DAY CARE couple.","ไข่โปเกมอนประหลาด
+ที่คู่ดูแลโปเกมอนพบ.",2,2,,212,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/pokemon_summary_screen.c,{},pass,pending
+UI0349,gText_PeculiarEggNicePlace,src/strings.c,"A peculiar POKéMON EGG
+obtained at the nice place.","ไข่โปเกมอนประหลาด
+ที่ได้จากสถานที่ดีๆ.",1,1,,200,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0350,gText_PeculiarEggTrade,src/strings.c,"A peculiar POKéMON EGG
+obtained in a trade.","ไข่โปเกมอนประหลาด
+ที่ได้จากการแลกเปลี่ยน.",1,1,,221,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending

@@ -1,0 +1,12 @@
+﻿symbol,reference
+gText_EggAboutToHatch,src/pokemon_summary_screen.c:3266:        text = gText_EggAboutToHatch;
+gText_EggFromHotSprings,src/pokemon_summary_screen.c:3289:            text = (DidMonComeFromRSE() == TRUE) ? gText_EggFromHotSprings : gText_EggFromTraveler;
+gText_EggFromTraveler,src/pokemon_summary_screen.c:3289:            text = (DidMonComeFromRSE() == TRUE) ? gText_EggFromHotSprings : gText_EggFromTraveler;
+gText_EggWillHatchSoon,src/pokemon_summary_screen.c:3268:        text = gText_EggWillHatchSoon;
+gText_EggWillTakeALongTime,src/pokemon_summary_screen.c:3264:        text = gText_EggWillTakeALongTime;
+gText_EggWillTakeALongTime,src/pokemon_summary_screen.c:3272:        text = gText_EggWillTakeALongTime;
+gText_EggWillTakeSomeTime,src/pokemon_summary_screen.c:3270:        text = gText_EggWillTakeSomeTime;
+gText_OddEggFoundByCouple,src/pokemon_summary_screen.c:3291:            text = gText_OddEggFoundByCouple;
+gText_OddEggFoundByCouple,src/pokemon_summary_screen.c:3295:        text = gText_OddEggFoundByCouple;
+gText_PeculiarEggNicePlace,src/pokemon_summary_screen.c:3285:            text = gText_PeculiarEggNicePlace;
+gText_PeculiarEggTrade,src/pokemon_summary_screen.c:3287:            text = gText_PeculiarEggTrade;
