@@ -1,0 +1,2 @@
+﻿symbol,visual_qa_status,note
+gText_BoxFull,proof_passed,"Batch 42 QA Gallery reviewed: 1/1 page passed. The BOX full message was verified for correct Thai font rendering, spacing, clipping, punctuation, layout, and PAUSE_UNTIL_PRESS control-token behavior."

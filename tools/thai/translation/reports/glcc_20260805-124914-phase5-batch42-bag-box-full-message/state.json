@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-124914-phase5-batch42-bag-box-full-message",
   "locked_head": "39f34cf999c25a729895c5180eb30e95d6d5e4f3",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 401,
     "pending": 113,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "9d036f68b902f6e5495a0e0472c1ceb937730c0f4fdc44ea5643e6d7b30b2954",
-  "normal_rom_sha256": "9d036f68b902f6e5495a0e0472c1ceb937730c0f4fdc44ea5643e6d7b30b2954"
+  "normal_rom_sha256": "9d036f68b902f6e5495a0e0472c1ceb937730c0f4fdc44ea5643e6d7b30b2954",
+  "qa_note": "Batch 42 QA Gallery reviewed: 1/1 page passed. The BOX full message was verified for correct Thai font rendering, spacing, clipping, punctuation, layout, and PAUSE_UNTIL_PRESS control-token behavior."
 }
