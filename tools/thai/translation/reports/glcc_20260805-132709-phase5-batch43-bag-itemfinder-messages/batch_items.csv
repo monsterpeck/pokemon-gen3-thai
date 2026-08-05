@@ -1,0 +1,7 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0235,gText_ItemFinderNearby,src/strings.c,"Huh?
+The ITEMFINDER's responding!\pThere's an item buried around here!{PAUSE_UNTIL_PRESS}",หืม?{PAUSE_UNTIL_PRESS},1,1,,22,MEDIUM,หลายบรรทัด; มี control code,src/item_use.c,{},pass,pending
+UI0236,gText_ItemFinderNothing,src/strings.c,"… … … …Nope!
+There's no response.{PAUSE_UNTIL_PRESS}",... ... ... ...ไม่เจอ!{PAUSE_UNTIL_PRESS},1,1,,145,MEDIUM,หลายบรรทัด; มี control code,src/item_use.c,{},pass,pending
+UI0237,gText_ItemFinderOnTop,src/strings.c,"Oh!
+The ITEMFINDER's shaking wildly!{PAUSE_UNTIL_PRESS}",โอ๊ะ!{PAUSE_UNTIL_PRESS},1,1,,24,MEDIUM,หลายบรรทัด; มี control code,src/item_use.c,{},pass,pending

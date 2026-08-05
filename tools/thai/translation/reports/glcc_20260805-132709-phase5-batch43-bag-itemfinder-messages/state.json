@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-132709-phase5-batch43-bag-itemfinder-messages",
+  "locked_head": "79d2f9b0cb8efbc839dbc583c6646cc80bed892c",
+  "state": "applied_build_passed",
+  "item_count": 3,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 402,
+    "pending": 112,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 402,
+    "pending": 109,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 3
+  },
+  "preview_rom_sha256": "a460c23df2f916f70a10ca926473aca7c11416cd1108c50f1045965cccccab8a",
+  "normal_rom_sha256": "a460c23df2f916f70a10ca926473aca7c11416cd1108c50f1045965cccccab8a"
+}

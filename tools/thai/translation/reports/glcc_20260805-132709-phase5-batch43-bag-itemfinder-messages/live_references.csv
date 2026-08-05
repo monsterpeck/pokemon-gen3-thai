@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_ItemFinderNearby,"src/item_use.c:580:        DisplayItemMessageOnField(taskId, gText_ItemFinderNearby, Task_CloseItemfinderMessage);"
+gText_ItemFinderNothing,"src/item_use.c:295:        DisplayItemMessageOnField(taskId, gText_ItemFinderNothing, Task_CloseItemfinderMessage);"
+gText_ItemFinderOnTop,"src/item_use.c:597:            DisplayItemMessageOnField(taskId, gText_ItemFinderOnTop, Task_CloseItemfinderMessage);"
