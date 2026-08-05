@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-112823-phase5-batch41-summary-switch-label-tm-test",
   "locked_head": "e4d5e1c638efe3e93a1eb5c64f5940baa3bea4cb",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 400,
     "pending": 114,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 1
   },
   "preview_rom_sha256": "53cbbbea5f5a8700d76a9482bcce9ca5bcbe83beb9f29645cd0360b4a3e13336",
-  "normal_rom_sha256": "53cbbbea5f5a8700d76a9482bcce9ca5bcbe83beb9f29645cd0360b4a3e13336"
+  "normal_rom_sha256": "53cbbbea5f5a8700d76a9482bcce9ca5bcbe83beb9f29645cd0360b4a3e13336",
+  "qa_note": "Batch 41 QA Gallery reviewed: 1/1 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
