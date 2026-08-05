@@ -1,0 +1,4 @@
+﻿symbol,visual_qa_status,note
+gText_ItemFinderNearby,proof_passed,"Batch 43 QA Gallery reviewed: 3/3 pages passed. All Itemfinder messages were verified for correct Thai font rendering, spacing, clipping, punctuation, layout, and PAUSE_UNTIL_PRESS control-token behavior."
+gText_ItemFinderNothing,proof_passed,"Batch 43 QA Gallery reviewed: 3/3 pages passed. All Itemfinder messages were verified for correct Thai font rendering, spacing, clipping, punctuation, layout, and PAUSE_UNTIL_PRESS control-token behavior."
+gText_ItemFinderOnTop,proof_passed,"Batch 43 QA Gallery reviewed: 3/3 pages passed. All Itemfinder messages were verified for correct Thai font rendering, spacing, clipping, punctuation, layout, and PAUSE_UNTIL_PRESS control-token behavior."
