@@ -1,10 +1,10 @@
 {
   "batch_id": "20260806-004120-phase5-batch54-bag-variable-status-messages",
   "locked_head": "f6b14fbc0abba25974ef32f1bb3fda43b4f0e8c6",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 9,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 483,
     "pending": 31,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "e2b362619a7d9872abb69f041ca40edc602c0263302fcb5f1915216ec3c360a8",
-  "normal_rom_sha256": "e2b362619a7d9872abb69f041ca40edc602c0263302fcb5f1915216ec3c360a8"
+  "normal_rom_sha256": "e2b362619a7d9872abb69f041ca40edc602c0263302fcb5f1915216ec3c360a8",
+  "qa_note": "Batch 54 QA Gallery reviewed: 9/9 pages passed. The Bag variable and status messages were verified for accurate Thai meaning, correct runtime-variable order and substitution, preserved page breaks and pause tokens, consistent terminology, correct font rendering, spacing, punctuation, clipping, alignment, readability, and layout across all usage contexts."
 }
