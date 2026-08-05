@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-223721-phase5-batch53-bag-quantity-transaction-messages",
+  "locked_head": "5381fc288dac7022cb468c9a99fcb22d1cdf6f78",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 473,
+    "pending": 41,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 473,
+    "pending": 31,
+    "deferred_story": 7,
+    "translated_pending_qa": 10,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "3badd1ab9ef527a7d1c47addf3220de48ff2329c0bf458b8dc2f3593236412d9",
+  "normal_rom_sha256": "3badd1ab9ef527a7d1c47addf3220de48ff2329c0bf458b8dc2f3593236412d9"
+}

@@ -1,0 +1,32 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0131,gText_DepositHowManyVar1,src/strings.c,"Deposit how many
+{STR_VAR_1}(s)?","จะฝาก {STR_VAR_1}
+กี่ชิ้น?",1,1,,76,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_1}"": ""PARALYZE HEAL""}",pass,pending
+UI0136,gText_DepositedVar2Var1s,src/strings.c,"Deposited {STR_VAR_2}
+{STR_VAR_1}(s).","ฝาก {STR_VAR_2}
+{STR_VAR_1} แล้ว",1,1,,59,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_1}"": ""PARALYZE HEAL"", ""{STR_VAR_2}"": ""999""}",pass,pending
+UI0227,gText_HowManyToSell,src/strings.c,"{STR_VAR_2}?
+How many would you like to sell?","{STR_VAR_2}?
+ต้องการขายกี่ชิ้น?",1,1,,101,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_2}"": ""999""}",pass,pending
+UI0228,gText_ICanPayVar1,src/strings.c,"I can pay ¥{STR_VAR_1}.
+Would that be okay?","ให้ราคา ¥{STR_VAR_1}.
+ตกลงไหม?",1,1,,120,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_1}"": ""999""}",pass,pending
+UI0295,gText_MoveVar1Where,src/strings.c,"Move the
+{STR_VAR_1}
+where?","จะย้าย {STR_VAR_1}
+ไปที่ไหน?",3,3,,96,HIGH,มี runtime variable; ใช้หลายพื้นที่ UI,src/battle_pyramid_bag.c;src/item_menu.c;src/player_pc.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending
+UI0427,gText_ReturnToVar1,src/strings.c,"Return to
+{STR_VAR_1}.","กลับไปที่
+{STR_VAR_1}.",2,2,,63,HIGH,มี runtime variable,src/battle_pyramid_bag.c;src/item_menu.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending
+UI0498,gText_ThrewAwayVar2Var1s,src/strings.c,"Threw away {STR_VAR_2}
+{STR_VAR_1}(s).","ทิ้ง {STR_VAR_2}
+{STR_VAR_1} แล้ว",3,3,,55,HIGH,มี runtime variable; ใช้หลายพื้นที่ UI,src/battle_pyramid_bag.c;src/item_menu.c;src/player_pc.c,"{""{STR_VAR_1}"": ""ZIGZAGOON"", ""{STR_VAR_2}"": ""999""}",pass,pending
+UI0503,gText_TossHowManyVar1s,src/strings.c,"Toss out how many
+{STR_VAR_1}(s)?","จะทิ้ง {STR_VAR_1}
+กี่ชิ้น?",3,3,,72,HIGH,มี runtime variable; ใช้หลายพื้นที่ UI,src/battle_pyramid_bag.c;src/item_menu.c;src/player_pc.c,"{""{STR_VAR_1}"": ""PARALYZE HEAL""}",pass,pending
+UI0508,gText_TurnedOverVar1ForVar2,src/strings.c,"Turned over the {STR_VAR_2}
+and received ¥{STR_VAR_1}.","ขาย {STR_VAR_2}
+ได้เงิน ¥{STR_VAR_1}.",1,1,,86,HIGH,มี runtime variable,src/item_menu.c,"{""{STR_VAR_1}"": ""ZIGZAGOON"", ""{STR_VAR_2}"": ""999""}",pass,pending
+UI0523,gText_Var1IsSelected,src/strings.c,"{STR_VAR_1} is
+selected.","{STR_VAR_1}
+ถูกเลือกแล้ว.",2,2,,77,HIGH,มี runtime variable,src/battle_pyramid_bag.c;src/item_menu.c,"{""{STR_VAR_1}"": ""ZIGZAGOON""}",pass,pending

@@ -1,0 +1,19 @@
+﻿symbol,reference
+gText_DepositHowManyVar1,"src/item_menu.c:2203:        StringExpandPlaceholders(gStringVar4, gText_DepositHowManyVar1);"
+gText_DepositedVar2Var1s,"src/item_menu.c:2251:        StringExpandPlaceholders(gStringVar4, gText_DepositedVar2Var1s);"
+gText_HowManyToSell,"src/item_menu.c:2087:            StringExpandPlaceholders(gStringVar4, gText_HowManyToSell);"
+gText_ICanPayVar1,"src/item_menu.c:2098:    StringExpandPlaceholders(gStringVar4, gText_ICanPayVar1);"
+gText_MoveVar1Where,"src/battle_pyramid_bag.c:1316:    StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);"
+gText_MoveVar1Where,"src/item_menu.c:1438:    StringExpandPlaceholders(gStringVar4, gText_MoveVar1Where);"
+gText_MoveVar1Where,src/player_pc.c:1195:        string = gText_MoveVar1Where;
+gText_ReturnToVar1,"src/battle_pyramid_bag.c:688:        StringExpandPlaceholders(gStringVar4, gText_ReturnToVar1);"
+gText_ReturnToVar1,"src/item_menu.c:1006:        StringExpandPlaceholders(gStringVar4, gText_ReturnToVar1);"
+gText_ThrewAwayVar2Var1s,"src/battle_pyramid_bag.c:1219:    StringExpandPlaceholders(gStringVar4, gText_ThrewAwayVar2Var1s);"
+gText_ThrewAwayVar2Var1s,"src/item_menu.c:1876:    StringExpandPlaceholders(gStringVar4, gText_ThrewAwayVar2Var1s);"
+gText_ThrewAwayVar2Var1s,src/player_pc.c:1183:        string = gText_ThrewAwayVar2Var1s;
+gText_TossHowManyVar1s,"src/battle_pyramid_bag.c:1137:        StringExpandPlaceholders(gStringVar4, gText_TossHowManyVar1s);"
+gText_TossHowManyVar1s,"src/item_menu.c:1819:        StringExpandPlaceholders(gStringVar4, gText_TossHowManyVar1s);"
+gText_TossHowManyVar1s,src/player_pc.c:1180:        string = gText_TossHowManyVar1s;
+gText_TurnedOverVar1ForVar2,"src/item_menu.c:2158:    StringExpandPlaceholders(gStringVar4, gText_TurnedOverVar1ForVar2);"
+gText_Var1IsSelected,"src/battle_pyramid_bag.c:962:    StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);"
+gText_Var1IsSelected,"src/item_menu.c:1653:        StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);"
