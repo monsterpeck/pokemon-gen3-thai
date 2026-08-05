@@ -1,10 +1,10 @@
 {
   "batch_id": "20260805-202519-phase5-batch50-summary-egg-messages",
   "locked_head": "f7df3186cff924118a16272f2d70417e3156bc47",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 9,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 461,
     "pending": 53,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 9
   },
   "preview_rom_sha256": "a33f231b7ecd759c18001fc597ab24301eaf733d4506bc093de8f7a633ea36b8",
-  "normal_rom_sha256": "a33f231b7ecd759c18001fc597ab24301eaf733d4506bc093de8f7a633ea36b8"
+  "normal_rom_sha256": "a33f231b7ecd759c18001fc597ab24301eaf733d4506bc093de8f7a633ea36b8",
+  "qa_note": "Batch 50 QA Gallery reviewed: 9/9 pages passed. The Pokémon Egg status and origin messages were verified for accurate Thai meaning, consistent terminology, correct font rendering, line breaks, spacing, punctuation, clipping, alignment, readability, and layout across all usage contexts."
 }
