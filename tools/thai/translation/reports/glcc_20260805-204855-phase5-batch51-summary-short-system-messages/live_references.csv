@@ -1,0 +1,8 @@
+﻿symbol,reference
+gText_HMMovesCantBeForgotten2,"src/pokemon_summary_screen.c:3739:    PrintTextOnWindow(windowId, gText_HMMovesCantBeForgotten2, 6, 1, 0, 0);"
+gText_NoPokemon,"src/item_menu.c:1948:    DisplayItemMessage(taskId, FONT_NORMAL, gText_NoPokemon, HandleErrorMessage);"
+gText_NoPokemon,"src/player_pc.c:932:    DisplayItemMessageOnField(taskId, gText_NoPokemon, Mailbox_Cancel);"
+gText_OTSlash,"src/pokemon_summary_screen.c:3084:        PrintTextOnWindow(windowId, gText_OTSlash, 0, 1, 0, 1);"
+gText_OTSlash,"src/pokemon_summary_screen.c:3085:        x = GetStringWidth(FONT_NORMAL, gText_OTSlash, 0);"
+gText_OTSlash,"src/pokemon_summary_screen.c:3244:    u32 width = GetStringWidth(FONT_NORMAL, gText_OTSlash, 0);"
+gText_OTSlash,"src/pokemon_summary_screen.c:3245:    PrintTextOnWindow(windowId, gText_OTSlash, 0, 1, 0, 1);"

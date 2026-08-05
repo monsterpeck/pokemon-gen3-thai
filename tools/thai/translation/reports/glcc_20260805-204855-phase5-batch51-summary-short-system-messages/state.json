@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-204855-phase5-batch51-summary-short-system-messages",
+  "locked_head": "05542f440f5a87d275fcf9670593e2c3c5b62c26",
+  "state": "applied_build_passed",
+  "item_count": 3,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 470,
+    "pending": 44,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 470,
+    "pending": 41,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 3
+  },
+  "preview_rom_sha256": "d86a6e3cb910c016696ac668f6ac3ff96074d241905297eaaef05c40f2b6c695",
+  "normal_rom_sha256": "d86a6e3cb910c016696ac668f6ac3ff96074d241905297eaaef05c40f2b6c695"
+}

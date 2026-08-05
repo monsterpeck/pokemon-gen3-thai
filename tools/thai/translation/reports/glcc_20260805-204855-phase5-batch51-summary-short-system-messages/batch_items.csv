@@ -1,0 +1,8 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0217,gText_HMMovesCantBeForgotten2,src/strings.c,"HM moves can't be
+forgotten now.","ท่า HM
+ยังลืมไม่ได้ตอนนี้.",1,1,,133,MEDIUM,หลายบรรทัด,src/pokemon_summary_screen.c,{},pass,pending
+UI0319,gText_NoPokemon,src/strings.c,"There is no
+POKéMON.","ไม่มี
+โปเกมอน.",2,2,,87,MEDIUM,ใช้หลายพื้นที่ UI; หลายบรรทัด; ใช้งาน 2 จุด,src/item_menu.c;src/player_pc.c,{},pass,pending
+UI0336,gText_OTSlash,src/strings.c,OT/,ผู้ฝึก/,4,4,,26,MEDIUM,ใช้งาน 4 จุด,src/pokemon_summary_screen.c,{},pass,pending
