@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260805-192456-phase5-batch47-default-names-part1",
+  "locked_head": "9d4355957ac47bf33a3d22d61d1ce9625d655820",
+  "state": "applied_build_passed",
+  "item_count": 20,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 410,
+    "pending": 104,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 410,
+    "pending": 84,
+    "deferred_story": 7,
+    "translated_pending_qa": 20,
+    "not_applicable": 53
+  },
+  "preview_rom_sha256": "a99950ddc8354c384c5c640dea06f75d5e692e1c2a54d29a5d3661293992ecca",
+  "normal_rom_sha256": "a99950ddc8354c384c5c640dea06f75d5e692e1c2a54d29a5d3661293992ecca"
+}

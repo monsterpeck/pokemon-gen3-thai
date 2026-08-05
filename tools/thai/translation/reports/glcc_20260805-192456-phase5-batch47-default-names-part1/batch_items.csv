@@ -1,0 +1,21 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0090,gText_DefaultNameAllie,src/strings.c,ALLIE,แอลลี่,1,1,,25,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0091,gText_DefaultNameAubree,src/strings.c,AUBREE,ออบรี,1,1,,25,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0092,gText_DefaultNameBella,src/strings.c,BELLA,เบลลา,1,1,,27,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0093,gText_DefaultNameBrett,src/strings.c,BRETT,เบรตต์,1,1,,30,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0094,gText_DefaultNameCamila,src/strings.c,CAMILA,คามิลา,1,1,,28,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0095,gText_DefaultNameCasey,src/strings.c,CASEY,เคซีย์,1,1,,24,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0096,gText_DefaultNameCollin,src/strings.c,COLLIN,คอลลิน,1,1,,33,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0097,gText_DefaultNameDarren,src/strings.c,DARREN,ดาร์เรน,1,1,,33,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0098,gText_DefaultNameEaston,src/strings.c,EASTON,อีสตัน,1,1,,27,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0099,gText_DefaultNameHalie,src/strings.c,HALIE,เฮลีย์,1,1,,22,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0100,gText_DefaultNameHazel,src/strings.c,HAZEL,เฮเซล,1,1,,27,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0101,gText_DefaultNameJaxson,src/strings.c,JAXSON,แจ็กสัน,1,1,,33,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0102,gText_DefaultNameJayla,src/strings.c,JAYLA,เจย์ลา,1,1,,26,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0103,gText_DefaultNameJohnny,src/strings.c,JOHNNY,จอห์นนี,1,1,,35,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0104,gText_DefaultNameJude,src/strings.c,JUDE,จูด,1,1,,13,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0105,gText_DefaultNameKenny,src/strings.c,KENNY,เคนนี,1,1,,27,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0106,gText_DefaultNameKimmy,src/strings.c,KIMMY,คิมมี,1,1,,21,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0107,gText_DefaultNameLandon,src/strings.c,LANDON,แลนดอน,1,1,,42,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0108,gText_DefaultNameLianna,src/strings.c,LIANNA,ลีแอนนา,1,1,,39,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
+UI0109,gText_DefaultNameLillie,src/strings.c,LILLIE,ลิลลี,1,1,,18,MEDIUM,ชื่อเฉพาะ/ชื่อเริ่มต้น ต้องยืนยันนโยบายก่อน,src/main_menu.c,{},pass,pending
