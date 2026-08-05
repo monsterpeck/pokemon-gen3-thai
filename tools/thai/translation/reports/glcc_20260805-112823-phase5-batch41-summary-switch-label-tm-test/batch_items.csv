@@ -1,0 +1,2 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0476,gText_Switch,src/strings.c,SWITCH,สลับ,2,2,,19,MEDIUM,ใช้งาน 2 จุด,src/pokemon_summary_screen.c,{},pass,pending

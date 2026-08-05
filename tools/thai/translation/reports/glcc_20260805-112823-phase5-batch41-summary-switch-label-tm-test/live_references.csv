@@ -1,0 +1,3 @@
+﻿symbol,reference
+gText_Switch,"src/pokemon_summary_screen.c:2857:    stringXPos = GetStringRightAlignXOffset(FONT_NORMAL, gText_Switch, 62);"
+gText_Switch,"src/pokemon_summary_screen.c:2862:    PrintTextOnWindow(PSS_LABEL_WINDOW_PROMPT_SWITCH, gText_Switch, stringXPos, 1, 0, 0);"
