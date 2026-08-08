@@ -244,6 +244,9 @@ static void MainMenu_FormatSavegamePokedex(void);
 static void MainMenu_FormatSavegameTime(void);
 static void MainMenu_FormatSavegameBadges(void);
 static void NewGameBirchSpeech_CreateDialogueWindowBorder(u8, u8, u8, u8, u8, u8);
+#if defined(THAI_NAMING_KEYBOARD_K3C) && !defined(THAI_NAMING_RETURN_PROBE)
+static void CB2_ThaiPrototypeLaunchHandoff(void);
+#endif
 
 // .rodata
 
@@ -548,6 +551,19 @@ void CB2_InitMainMenu(void)
 {
     InitMainMenu(FALSE);
 }
+
+#if defined(THAI_NAMING_KEYBOARD_K3C) && !defined(THAI_NAMING_RETURN_PROBE)
+static void CB2_ThaiPrototypeLaunchHandoff(void)
+{
+    SetVBlankCallback(NULL);
+    SetHBlankCallback(NULL);
+    SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    DeactivateAllTextPrinters();
+    FreeAllWindowBuffers();
+    DoThaiNamingScreenPrototype(CB2_InitMainMenu);
+    return;
+}
+#endif
 
 void CB2_ReinitMainMenu(void)
 {
@@ -885,6 +901,19 @@ static bool8 HandleMainMenuInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
+#ifdef THAI_NAMING_KEYBOARD_K3C
+    // Debug-only, scratch-only K3C harness. It is absent from production builds.
+    if (JOY_NEW(SELECT_BUTTON) && JOY_HELD(R_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+#ifdef THAI_NAMING_RETURN_PROBE
+        DoThaiNamingScreenPrototype(CB2_InitMainMenu);
+#else
+        SetMainCallback2(CB2_ThaiPrototypeLaunchHandoff);
+#endif
+    }
+    else
+#endif
     if (JOY_NEW(A_BUTTON))
     {
         PlaySE(SE_SELECT);

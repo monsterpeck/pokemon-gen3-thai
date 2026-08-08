@@ -64,4 +64,13 @@ const struct ThaiBaseMetrics *GetThaiBaseMetrics(u16 glyphId);
 bool32 IsThaiGlyphId(u16 glyphId);
 bool32 IsThaiCombiningClass(u8 glyphClass);
 
+#ifdef THAI_NAMING_KEYBOARD_K3C
+#define THAI_COMPACT_PROTOTYPE_COUNT 65
+#define THAI_NAMING_SHAPED_CAPACITY 57
+
+bool32 IsThaiCompactPrototypeId(u8 compactId);
+bool32 ThaiShapeCompactPrototype(const u8 *source, u8 length, u8 sourceCapacity,
+                                 u8 *destination, u16 destinationCapacity);
+#endif
+
 #endif
