@@ -1,10 +1,10 @@
 {
   "batch_id": "20260808-223338-phase5-batch56-pokedex-unknown-display-label",
   "locked_head": "4640331c14c159639a1113235a0cb89b0ba1f646",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 500,
     "pending": 14,
@@ -19,5 +19,6 @@
     "not_applicable": 53
   },
   "preview_rom_sha256": "1b47655c2d5e794d6586c2b21d6d077a47ca63686bd89733f92bc0678d8ab181",
-  "normal_rom_sha256": "1b47655c2d5e794d6586c2b21d6d077a47ca63686bd89733f92bc0678d8ab181"
+  "normal_rom_sha256": "1b47655c2d5e794d6586c2b21d6d077a47ca63686bd89733f92bc0678d8ab181",
+  "qa_note": "PASS: ????? โปเกมอน แสดงผลถูกต้อง, placeholder ? ครบ 5 ตัว, ภาษาไทยอ่านชัด ไม่ล้น ไม่ตัด และไม่มีกลีฟผิดปกติ"
 }
