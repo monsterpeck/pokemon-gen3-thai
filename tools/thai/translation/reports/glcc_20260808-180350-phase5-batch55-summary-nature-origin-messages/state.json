@@ -1,10 +1,10 @@
 {
   "batch_id": "20260808-180350-phase5-batch55-summary-nature-origin-messages",
   "locked_head": "6e5c42d7ab7896b81199519c01746b844cefef14",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 8,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 492,
     "pending": 22,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 8
   },
   "preview_rom_sha256": "33e5c41285fd9c200300e1b3fa570ab636f5616866474257d287c2c3e04eabce",
-  "normal_rom_sha256": "33e5c41285fd9c200300e1b3fa570ab636f5616866474257d287c2c3e04eabce"
+  "normal_rom_sha256": "33e5c41285fd9c200300e1b3fa570ab636f5616866474257d287c2c3e04eabce",
+  "qa_note": "Batch 55 visual QA passed 8/8.\r\n\r\nVerified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.\r\n\r\nInitial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.\r\n\r\nQA samples were corrected to realistic runtime values:\r\n- DYNAMIC 0 = empty/non-visible\r\n- DYNAMIC 1 = empty/non-visible\r\n- DYNAMIC 2 = NAUGHTY (Nature stress sample)\r\n- DYNAMIC 3 = 100 (maximum level)\r\n- DYNAMIC 4 = EVER GRANDE CITY (long location sample)\r\n- DYNAMIC 5 = empty\r\n\r\nRe-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
 }

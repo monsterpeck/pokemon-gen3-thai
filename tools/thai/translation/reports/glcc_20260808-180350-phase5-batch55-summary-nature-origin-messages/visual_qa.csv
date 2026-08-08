@@ -1,0 +1,121 @@
+﻿symbol,visual_qa_status,note
+gText_XNature,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureFatefulEncounter,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureHatchedAtYZ,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureHatchedSomewhereAt,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureMetAtYZ,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureMetSomewhereAt,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureObtainedInTrade,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
+gText_XNatureProbablyMetAt,proof_passed,"Batch 55 visual QA passed 8/8.
+
+Verified Summary nature/origin messages for Thai rendering, line layout, dynamic Nature/Level/Location values, glyph shaping, and text boundaries.
+
+Initial QA samples substituted HARDY for every DYNAMIC token, causing false-positive overflow because DYNAMIC 0/1 are non-visible formatting controls and DYNAMIC 5 is empty at runtime.
+
+QA samples were corrected to realistic runtime values:
+- DYNAMIC 0 = empty/non-visible
+- DYNAMIC 1 = empty/non-visible
+- DYNAMIC 2 = NAUGHTY (Nature stress sample)
+- DYNAMIC 3 = 100 (maximum level)
+- DYNAMIC 4 = EVER GRANDE CITY (long location sample)
+- DYNAMIC 5 = empty
+
+Re-generated QA Gallery passed 8/8 with no clipped Thai glyphs, visible overflow, abnormal wrapping, unsupported glyphs, or control-token leakage."
