@@ -1,0 +1,27 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0540,gText_XNature,src/strings.c,{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},1,1,,20,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0541,gText_XNatureFatefulEncounter,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+obtained in a fateful
+encounter at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}
+พบโดยโชคชะตา ตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}",1,1,,138,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0542,gText_XNatureHatchedAtYZ,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+hatched at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} ฟักตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}
+ที่{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}",1,1,,86,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 4}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0543,gText_XNatureHatchedSomewhereAt,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+hatched somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}
+ฟักที่ไหนสักแห่ง ตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}",1,1,,137,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0544,gText_XNatureMetAtYZ,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} พบตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}
+ที่{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}",1,1,,87,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 4}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0545,gText_XNatureMetSomewhereAt,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+met somewhere at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}
+พบที่ไหนสักแห่ง ตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}",1,1,,138,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0546,gText_XNatureObtainedInTrade,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+obtained in a trade.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}
+ได้รับจากการแลกเปลี่ยน",2,2,,142,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending
+UI0547,gText_XNatureProbablyMetAt,src/strings.c,"{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} nature,
+probably met at {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.","นิสัย{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5} คาดว่าพบ
+ตอน {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1} ที่{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}",1,1,,119,HIGH,มี DYNAMIC placeholder,src/pokemon_summary_screen.c,"{""{DYNAMIC 0}"": ""HARDY"", ""{DYNAMIC 1}"": ""HARDY"", ""{DYNAMIC 2}"": ""HARDY"", ""{DYNAMIC 3}"": ""HARDY"", ""{DYNAMIC 4}"": ""HARDY"", ""{DYNAMIC 5}"": ""HARDY""}",pass,pending

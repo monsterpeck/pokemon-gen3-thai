@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260808-180350-phase5-batch55-summary-nature-origin-messages",
+  "locked_head": "6e5c42d7ab7896b81199519c01746b844cefef14",
+  "state": "applied_build_passed",
+  "item_count": 8,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 492,
+    "pending": 22,
+    "deferred_story": 7,
+    "not_applicable": 53
+  },
+  "inventory_after": {
+    "proof_passed": 492,
+    "pending": 14,
+    "deferred_story": 7,
+    "not_applicable": 53,
+    "translated_pending_qa": 8
+  },
+  "preview_rom_sha256": "33e5c41285fd9c200300e1b3fa570ab636f5616866474257d287c2c3e04eabce",
+  "normal_rom_sha256": "33e5c41285fd9c200300e1b3fa570ab636f5616866474257d287c2c3e04eabce"
+}

@@ -1,0 +1,10 @@
+﻿symbol,reference
+gText_XNature,"src/pokemon_summary_screen.c:3128:        DynamicPlaceholderTextUtil_ExpandPlaceholders(gStringVar4, gText_XNature);"
+gText_XNatureFatefulEncounter,src/pokemon_summary_screen.c:3151:            text = gText_XNatureFatefulEncounter;
+gText_XNatureHatchedAtYZ,src/pokemon_summary_screen.c:3145:                text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureHatchedSomewhereAt : gText_XNatureHatchedAtYZ;
+gText_XNatureHatchedSomewhereAt,src/pokemon_summary_screen.c:3145:                text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureHatchedSomewhereAt : gText_XNatureHatchedAtYZ;
+gText_XNatureMetAtYZ,src/pokemon_summary_screen.c:3147:                text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureMetSomewhereAt : gText_XNatureMetAtYZ;
+gText_XNatureMetSomewhereAt,src/pokemon_summary_screen.c:3147:                text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureMetSomewhereAt : gText_XNatureMetAtYZ;
+gText_XNatureObtainedInTrade,src/pokemon_summary_screen.c:3155:            text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureObtainedInTrade : gText_XNatureProbablyMetAt;
+gText_XNatureObtainedInTrade,src/pokemon_summary_screen.c:3159:            text = gText_XNatureObtainedInTrade;
+gText_XNatureProbablyMetAt,src/pokemon_summary_screen.c:3155:            text = (sum->metLocation >= MAPSEC_NONE) ? gText_XNatureObtainedInTrade : gText_XNatureProbablyMetAt;
