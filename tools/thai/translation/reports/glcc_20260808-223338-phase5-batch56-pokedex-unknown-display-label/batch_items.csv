@@ -1,0 +1,2 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0002,gText_5MarksPokemon,src/strings.c,????? POKéMON,????? โปเกมอน,1,1,,87,LOW,บรรทัดเดียว ไม่มี token,src/pokedex.c,{},pass,pending
