@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0079,gText_ConfirmTossItems,src/strings.c,"Is it okay to
+throw away {STR_VAR_2}
+{STR_VAR_1}(s)?","จะทิ้งจำนวน {STR_VAR_2}
+ของ {STR_VAR_1} ใช่ไหม?",3,3,,139,HIGH,มี runtime variable; ใช้หลายพื้นที่ UI,src/battle_pyramid_bag.c;src/item_menu.c;src/player_pc.c,"{""{STR_VAR_1}"": ""PARALYZE HEAL"", ""{STR_VAR_2}"": ""999""}",pass,pending

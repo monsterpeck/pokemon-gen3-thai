@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_ConfirmTossItems,"src/battle_pyramid_bag.c:1151:    StringExpandPlaceholders(gStringVar4, gText_ConfirmTossItems);"
+gText_ConfirmTossItems,"src/item_menu.c:1833:    StringExpandPlaceholders(gStringVar4, gText_ConfirmTossItems);"
+gText_ConfirmTossItems,src/player_pc.c:1192:        string = gText_ConfirmTossItems;
