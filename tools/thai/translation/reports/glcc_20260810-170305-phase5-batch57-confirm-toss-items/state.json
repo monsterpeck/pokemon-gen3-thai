@@ -1,10 +1,10 @@
 {
   "batch_id": "20260810-170305-phase5-batch57-confirm-toss-items",
   "locked_head": "c85fbeabb90087c50d4793603ed04a5e3873dd79",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 501,
     "deferred_story": 7,
@@ -19,5 +19,6 @@
     "not_applicable": 54
   },
   "preview_rom_sha256": "e04dbc052fcc3f3956cb817059e5363a3f3fe2a24f3f642fee2b831caa2e145e",
-  "normal_rom_sha256": "e04dbc052fcc3f3956cb817059e5363a3f3fe2a24f3f642fee2b831caa2e145e"
+  "normal_rom_sha256": "e04dbc052fcc3f3956cb817059e5363a3f3fe2a24f3f642fee2b831caa2e145e",
+  "qa_note": "PASS: Confirm Toss แสดงจำนวนและชื่อไอเทมถูกต้องตามลำดับ placeholder, ภาษาไทยอ่านชัด ไม่ล้น ไม่ตัด และไม่มีกลีฟผิดปกติ"
 }
