@@ -1,0 +1,23 @@
+{
+  "batch_id": "20260810-173741-phase5-batch58-dads-advice-message",
+  "locked_head": "31e79db54676dfdeb4b61e3562afb407981500d6",
+  "state": "applied_build_passed",
+  "item_count": 1,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 502,
+    "deferred_story": 7,
+    "pending": 11,
+    "not_applicable": 54
+  },
+  "inventory_after": {
+    "proof_passed": 502,
+    "deferred_story": 7,
+    "translated_pending_qa": 1,
+    "not_applicable": 54,
+    "pending": 10
+  },
+  "preview_rom_sha256": "682a8416e8a3e6e3fb0c5848f800980f7b2a315f538c46ddcb7b59225fe51c13",
+  "normal_rom_sha256": "682a8416e8a3e6e3fb0c5848f800980f7b2a315f538c46ddcb7b59225fe51c13"
+}

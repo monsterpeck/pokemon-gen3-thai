@@ -1,0 +1,4 @@
+﻿symbol,reference
+gText_DadsAdvice,"src/battle_pyramid_bag.c:1095:        DisplayItemMessageInBattlePyramid(taskId, gText_DadsAdvice, Task_CloseBattlePyramidBagMessage);"
+gText_DadsAdvice,"src/item_use.c:150:            DisplayItemMessageInBattlePyramid(taskId, gText_DadsAdvice, Task_CloseBattlePyramidBagMessage);"
+gText_DadsAdvice,"src/item_use.c:160:    DisplayCannotUseItemMessage(taskId, isUsingRegisteredKeyItemOnField, gText_DadsAdvice);"
