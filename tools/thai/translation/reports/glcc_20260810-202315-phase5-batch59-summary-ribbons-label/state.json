@@ -1,10 +1,10 @@
 {
   "batch_id": "20260810-202315-phase5-batch59-summary-ribbons-label",
   "locked_head": "1eee1c6f26ea700ca1eab299e2cce4f34b9a9d77",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 1,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 503,
     "deferred_story": 7,
@@ -19,5 +19,6 @@
     "translated_pending_qa": 1
   },
   "preview_rom_sha256": "c9c55f92cd7d18be528e06b49789f41d2ebc5f31a924c6f0613bd8d20ee4a33f",
-  "normal_rom_sha256": "c9c55f92cd7d18be528e06b49789f41d2ebc5f31a924c6f0613bd8d20ee4a33f"
+  "normal_rom_sha256": "c9c55f92cd7d18be528e06b49789f41d2ebc5f31a924c6f0613bd8d20ee4a33f",
+  "qa_note": "PASS: Ribbons label แสดงคำว่า \"ริบบอน\" และค่าจำนวนจาก {STR_VAR_1} ถูกต้อง, ตัวเลข 2 หลักแสดงครบ อ่านชัด ไม่ล้น ไม่ตัด และไม่มีกลีฟผิดปกติ"
 }

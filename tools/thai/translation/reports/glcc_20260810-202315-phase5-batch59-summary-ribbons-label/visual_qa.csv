@@ -1,0 +1,2 @@
+﻿symbol,visual_qa_status,note
+gText_RibbonsVar1,proof_passed,"PASS: Ribbons label แสดงคำว่า ""ริบบอน"" และค่าจำนวนจาก {STR_VAR_1} ถูกต้อง, ตัวเลข 2 หลักแสดงครบ อ่านชัด ไม่ล้น ไม่ตัด และไม่มีกลีฟผิดปกติ"
