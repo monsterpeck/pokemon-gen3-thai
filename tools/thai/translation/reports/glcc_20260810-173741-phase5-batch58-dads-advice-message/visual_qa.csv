@@ -1,0 +1,2 @@
+﻿symbol,visual_qa_status,note
+gText_DadsAdvice,proof_passed,"PASS: Dad's Advice แสดงข้อความไทยถูกต้อง, \l รอ A/B และเลื่อนข้อความต่อได้จริง, ข้อความหลัง scroll แสดงครบ อ่านชัด ไม่ล้น ไม่ตัด และไม่มีกลีฟผิดปกติ"
