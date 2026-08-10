@@ -1,0 +1,2 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+UI0430,gText_RibbonsVar1,src/strings.c,RIBBONS: {STR_VAR_1},ริบบอน: {STR_VAR_1},1,1,,46,HIGH,มี runtime variable,src/pokemon_summary_screen.c,"{""{STR_VAR_1}"": ""99""}",pass,pending

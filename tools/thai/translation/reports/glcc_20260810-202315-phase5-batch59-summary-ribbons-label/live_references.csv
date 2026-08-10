@@ -1,0 +1,2 @@
+﻿symbol,reference
+gText_RibbonsVar1,"src/pokemon_summary_screen.c:3383:        StringExpandPlaceholders(gStringVar4, gText_RibbonsVar1);"
