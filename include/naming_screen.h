@@ -15,6 +15,12 @@ enum {
 };
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, MainCallback returnCallback);
+#ifdef THAI_NAMING_PRODUCTION
+void DoThaiNamingScreen(u8 templateNum, u8 *destBuffer, bool8 copyExistingThaiName,
+                        u16 monSpecies, u16 monGender, u32 monPersonality,
+                        MainCallback returnCallback);
+bool32 DidThaiNamingScreenCommit(void);
+#endif
 #ifdef THAI_NAMING_KEYBOARD_K3C
 void DoThaiNamingScreenPrototype(MainCallback returnCallback);
 #endif

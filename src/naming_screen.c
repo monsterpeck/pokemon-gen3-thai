@@ -27,6 +27,9 @@
 #ifdef THAI_NAMING_KEYBOARD_K3C
 #include "thai_text.h"
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 #if defined(THAI_NAMING_KEYBOARD_K3C) && defined(THAI_NAMING_RETURN_PROBE)
 #include "main_menu.h"
 #elif defined(THAI_NAMING_KEYBOARD_K3C)
@@ -37,6 +40,10 @@
 #include "main.h"
 #include "constants/event_objects.h"
 #include "constants/rgb.h"
+
+#ifdef THAI_NAMING_PRODUCTION
+static bool8 sThaiNamingScreenCommitted;
+#endif
 
 #if defined(THAI_NAMING_KEYBOARD_K3C) && defined(THAI_NAMING_RETURN_PROBE)
 #if THAI_NAMING_RETURN_PROBE_STAGE < 1 || THAI_NAMING_RETURN_PROBE_STAGE > 5
@@ -220,6 +227,9 @@ struct NamingScreenData
     u8 shapedText[THAI_NAMING_SHAPED_CAPACITY];
     u8 shapedGuardRight;
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    u8 productionShapedText[THAI_NAME_SHAPED_CAPACITY];
+#endif
     u8 tileBuffer[0x600];
     u8 state;
     u8 windows[WIN_COUNT];
@@ -243,6 +253,10 @@ struct NamingScreenData
     MainCallback returnCallback;
 #ifdef THAI_NAMING_KEYBOARD_K3C
     bool8 compactThaiMode;
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+    bool8 productionThaiMode;
+    bool8 productionCopyExistingName;
 #endif
 };
 
@@ -379,7 +393,7 @@ static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     }
 };
 
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
 // Compact payloads are intentionally separate from production-shaped labels.
 static const u8 sThaiPrototypeKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] =
 {
@@ -488,7 +502,7 @@ static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
 };
 
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
 // The stock cursor's screen X is the keyboard-window origin (3 tiles = 24 px)
 // plus this window-local cell center.  Stock row strings reach the same center
 // with an initial CLEAR 11 and their glyph advance; Thai labels are centered
@@ -601,6 +615,11 @@ static u16 GetTextEntryCaretX(void);
 static bool8 ShapeThaiPrototypeText(void);
 static bool8 ThaiPrototypeGuardsAreValid(void);
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+static void LoadThaiProductionInputText(void);
+static bool8 ShapeThaiProductionText(void);
+static bool8 SaveThaiProductionInputText(void);
+#endif
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, MainCallback returnCallback)
 {
@@ -625,6 +644,11 @@ void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGende
         sNamingScreen->shapedGuardRight = THAI_PROTOTYPE_GUARD_RIGHT;
         sNamingScreen->shapedText[0] = EOS;
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+        sNamingScreen->productionThaiMode = FALSE;
+        sNamingScreen->productionCopyExistingName = FALSE;
+        sNamingScreen->productionShapedText[0] = EOS;
+#endif
 
         if (templateNum == NAMING_SCREEN_PLAYER)
             StartTimer1();
@@ -632,6 +656,29 @@ void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGende
         SetMainCallback2(CB2_LoadNamingScreen);
     }
 }
+
+#ifdef THAI_NAMING_PRODUCTION
+void DoThaiNamingScreen(u8 templateNum, u8 *destBuffer, bool8 copyExistingThaiName,
+                        u16 monSpecies, u16 monGender, u32 monPersonality,
+                        MainCallback returnCallback)
+{
+    sThaiNamingScreenCommitted = FALSE;
+
+    DoNamingScreen(templateNum, destBuffer, monSpecies, monGender,
+                   monPersonality, returnCallback);
+
+    if (sNamingScreen != NULL)
+    {
+        sNamingScreen->productionThaiMode = TRUE;
+        sNamingScreen->productionCopyExistingName = copyExistingThaiName;
+    }
+}
+
+bool32 DidThaiNamingScreenCommit(void)
+{
+    return sThaiNamingScreenCommitted;
+}
+#endif
 
 #ifdef THAI_NAMING_KEYBOARD_K3C
 void DoThaiNamingScreenPrototype(MainCallback returnCallback)
@@ -727,6 +774,11 @@ static void NamingScreen_Init(void)
         sNamingScreen->inputCharBaseXPos += 11;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+        LoadThaiProductionInputText();
+    else
+#endif
     if (sNamingScreen->template->copyExistingString)
         StringCopy(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
     gKeyRepeatStartDelay = 16;
@@ -931,6 +983,20 @@ static bool8 MainState_PressedOKButton(void)
     }
     else
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+    {
+        if (!SaveThaiProductionInputText())
+        {
+            SetInputState(INPUT_STATE_ENABLED);
+            SetCursorFlashing(TRUE);
+            sNamingScreen->state = STATE_HANDLE_INPUT;
+            PlaySE(SE_FAILURE);
+            return FALSE;
+        }
+    }
+    else
+#endif
         SaveInputText();
     SetInputState(INPUT_STATE_DISABLED);
     SetCursorFlashing(FALSE);
@@ -1099,6 +1165,14 @@ static bool8 MainState_WaitPageSwap(void)
                 cursorX = GetCurrentPageColumnCount() - 1;
 #ifdef THAI_NAMING_KEYBOARD_K3C
             if (sNamingScreen->compactThaiMode
+             && !IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), cursorX, cursorY))
+            {
+                cursorX = 0;
+                cursorY = 0;
+            }
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+            if (sNamingScreen->productionThaiMode
              && !IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), cursorX, cursorY))
             {
                 cursorX = 0;
@@ -1473,6 +1547,11 @@ static void SetCursorPos(s16 x, s16 y)
         cursorSprite->x = GetThaiPrototypeKeyCellCenterX(x) + sWindowTemplates[WIN_KB_PAGE_1].tilemapLeft * 8;
     else
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode && x < GetCurrentPageColumnCount())
+        cursorSprite->x = GetThaiPrototypeKeyCellCenterX(x) + sWindowTemplates[WIN_KB_PAGE_1].tilemapLeft * 8;
+    else
+#endif
     if (x < sPageColumnCounts[CurrentPageToKeyboardId()])
         cursorSprite->x = sPageColumnXPos[CurrentPageToKeyboardId()][x] + 38;
     else
@@ -1540,6 +1619,10 @@ static u8 GetCurrentPageColumnCount(void)
 {
 #ifdef THAI_NAMING_KEYBOARD_K3C
     if (sNamingScreen->compactThaiMode)
+        return KBCOL_COUNT;
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
         return KBCOL_COUNT;
 #endif
     return sPageColumnCounts[CurrentPageToKeyboardId()];
@@ -1972,7 +2055,7 @@ static void HandleDpadMovement(struct Task *task)
     s16 cursorY;
     u16 input;
     s16 prevCursorX;
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
     s16 prevCursorY;
 #endif
 
@@ -1989,7 +2072,7 @@ static void HandleDpadMovement(struct Task *task)
 
     // Get new cursor position
     prevCursorX = cursorX;
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
     prevCursorY = cursorY;
 #endif
     cursorX += sDpadDeltaX[input];
@@ -2048,6 +2131,30 @@ static void HandleDpadMovement(struct Task *task)
     }
 #ifdef THAI_NAMING_KEYBOARD_K3C
     if (sNamingScreen->compactThaiMode
+     && cursorX < GetCurrentPageColumnCount()
+     && !IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), cursorX, cursorY))
+    {
+        if (sDpadDeltaX[input] != 0)
+        {
+            do
+            {
+                cursorX += sDpadDeltaX[input];
+            } while (cursorX >= 0
+                  && cursorX < GetCurrentPageColumnCount()
+                  && !IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), cursorX, cursorY));
+
+            if (cursorX < 0)
+                cursorX = GetCurrentPageColumnCount();
+        }
+        else
+        {
+            cursorX = prevCursorX;
+            cursorY = prevCursorY;
+        }
+    }
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode
      && cursorX < GetCurrentPageColumnCount()
      && !IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), cursorX, cursorY))
     {
@@ -2164,6 +2271,14 @@ static u8 GetCharAtKeyboardPos(s16 x, s16 y)
         return sThaiPrototypeKeyboardChars[CurrentPageToKeyboardId()][y][x];
     }
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+    {
+        if (!IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), x, y))
+            return EOS;
+        return sThaiPrototypeKeyboardChars[CurrentPageToKeyboardId()][y][x];
+    }
+#endif
     return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
 }
 
@@ -2179,6 +2294,10 @@ static u8 GetTextEntryPosition(void)
     }
 #ifdef THAI_NAMING_KEYBOARD_K3C
     if (sNamingScreen->compactThaiMode)
+        return sNamingScreen->template->maxChars;
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
         return sNamingScreen->template->maxChars;
 #endif
     return sNamingScreen->template->maxChars - 1;
@@ -2216,6 +2335,20 @@ static void DeleteTextCharacter(void)
         return;
     }
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+    {
+        sNamingScreen->textBuffer[index] = EOS;
+        ShapeThaiProductionText();
+        DrawTextEntry();
+        CopyBgTilemapBufferToVram(3);
+        keyRole = GetKeyRoleAtCursorPos();
+        if (keyRole == KEY_ROLE_CHAR || keyRole == KEY_ROLE_BACKSPACE)
+            TryStartButtonFlash(BUTTON_BACK, FALSE, TRUE);
+        PlaySE(SE_BALL);
+        return;
+    }
+#endif
     sNamingScreen->textBuffer[index] = 0;
     DrawTextEntry();
     CopyBgTilemapBufferToVram(3);
@@ -2234,7 +2367,7 @@ static bool8 AddTextCharacter(void)
 {
     s16 x;
     s16 y;
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
     u8 index;
     u8 oldValue;
 #endif
@@ -2265,6 +2398,34 @@ static bool8 AddTextCharacter(void)
     }
     else
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+    {
+        if (GetTextEntryPosition() >= sNamingScreen->template->maxChars)
+        {
+            PlaySE(SE_FAILURE);
+            return TRUE;
+        }
+
+        if (!IsThaiPrototypeKeyCell(CurrentPageToKeyboardId(), x, y))
+        {
+            PlaySE(SE_FAILURE);
+            return FALSE;
+        }
+
+        index = GetTextEntryPosition();
+        oldValue = sNamingScreen->textBuffer[index];
+        sNamingScreen->textBuffer[index] = GetCharAtKeyboardPos(x, y);
+
+        if (!ShapeThaiProductionText())
+        {
+            sNamingScreen->textBuffer[index] = oldValue;
+            PlaySE(SE_FAILURE);
+            return FALSE;
+        }
+    }
+    else
+#endif
         BufferCharacter(GetCharAtKeyboardPos(x, y));
     DrawTextEntry();
     CopyBgTilemapBufferToVram(3);
@@ -2283,6 +2444,10 @@ static void BufferCharacter(u8 ch)
     if (sNamingScreen->compactThaiMode && index >= sNamingScreen->template->maxChars)
         return;
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode && index >= sNamingScreen->template->maxChars)
+        return;
+#endif
     sNamingScreen->textBuffer[index] = ch;
 }
 
@@ -2299,6 +2464,70 @@ static void SaveInputText(void)
         }
     }
 }
+
+#ifdef THAI_NAMING_PRODUCTION
+static void LoadThaiProductionInputText(void)
+{
+    u8 i;
+
+    if (!sNamingScreen->productionCopyExistingName
+     || !sNamingScreen->template->copyExistingString)
+        return;
+
+    for (i = 0; i < sNamingScreen->template->maxChars; i++)
+    {
+        u8 ch = sNamingScreen->destBuffer[i];
+
+        if (ch == EOS)
+            return;
+
+        if (ch != CHAR_SPACE && !IsThaiCompactNameId(ch))
+        {
+            memset(sNamingScreen->textBuffer, EOS,
+                   sizeof(sNamingScreen->textBuffer));
+            return;
+        }
+
+        sNamingScreen->textBuffer[i] = ch;
+    }
+}
+
+static bool8 SaveThaiProductionInputText(void)
+{
+    u8 i;
+    bool8 hasSavableCharacter = FALSE;
+
+    if (!ShapeThaiProductionText())
+        return FALSE;
+
+    for (i = 0; i < sNamingScreen->template->maxChars; i++)
+    {
+        u8 ch = sNamingScreen->textBuffer[i];
+
+        if (ch == EOS)
+            break;
+
+        if (ch != CHAR_SPACE)
+        {
+            if (!IsThaiCompactNameId(ch))
+                return FALSE;
+            hasSavableCharacter = TRUE;
+        }
+    }
+
+    // Match vanilla SaveInputText semantics: an empty/space-only entry
+    // does not overwrite the destination and is not a committed rename.
+    if (!hasSavableCharacter)
+        return TRUE;
+
+    StringCopyN(sNamingScreen->destBuffer,
+                sNamingScreen->textBuffer,
+                sNamingScreen->template->maxChars + 1);
+
+    sThaiNamingScreenCommitted = TRUE;
+    return TRUE;
+}
+#endif
 
 #ifdef THAI_NAMING_KEYBOARD_K3C
 static bool8 SaveThaiPrototypeInputText(void)
@@ -2379,6 +2608,20 @@ static void DrawTextEntry(void)
         return;
     }
 #endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
+    {
+        if (!ShapeThaiProductionText())
+            return;
+        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL,
+                                    sNamingScreen->productionShapedText,
+                                    x, 1, TEXT_SKIP_DRAW, NULL);
+        TryDrawGenderIcon();
+        CopyWindowToVram(sNamingScreen->windows[WIN_TEXT_ENTRY], COPYWIN_GFX);
+        PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY]);
+        return;
+    }
+#endif
 
     for (i = 0; i < maxChars; i++)
     {
@@ -2425,6 +2668,23 @@ static bool8 ShapeThaiPrototypeText(void)
 }
 #endif
 
+#ifdef THAI_NAMING_PRODUCTION
+static bool8 ShapeThaiProductionText(void)
+{
+    u8 length = 0;
+    u8 maxChars = sNamingScreen->template->maxChars;
+
+    while (length < maxChars && sNamingScreen->textBuffer[length] != EOS)
+        length++;
+
+    return ThaiShapeCompactName(sNamingScreen->textBuffer,
+                                length,
+                                maxChars,
+                                sNamingScreen->productionShapedText,
+                                sizeof(sNamingScreen->productionShapedText));
+}
+#endif
+
 struct TextColor   // Needed because of alignment
 {
     u8 colors[3][4];
@@ -2456,7 +2716,7 @@ static const u8 *const sKeyboardTextColors[KBPAGE_COUNT] =
 static void PrintKeyboardKeys(u8 window, u8 page)
 {
     u8 i;
-#ifdef THAI_NAMING_KEYBOARD_K3C
+#if defined(THAI_NAMING_KEYBOARD_K3C) || defined(THAI_NAMING_PRODUCTION)
     u8 j;
 #endif
 
@@ -2464,6 +2724,27 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
 #ifdef THAI_NAMING_KEYBOARD_K3C
     if (sNamingScreen->compactThaiMode)
+    {
+        for (i = 0; i < KBROW_COUNT; i++)
+        {
+            for (j = 0; j < KBCOL_COUNT; j++)
+            {
+                const u8 *label = sThaiPrototypeKeyboardText[page][i][j];
+
+                if (label != NULL)
+                    AddTextPrinterParameterized3(window, FONT_NORMAL,
+                                                  GetThaiPrototypeKeyCellCenterX(j)
+                                                  - GetStringWidth(FONT_NORMAL, label, 0) / 2,
+                                                  i * 16 + 1, sKeyboardTextColors[page], TEXT_SKIP_DRAW, label);
+            }
+        }
+        PutWindowTilemap(window);
+        CopyWindowToVram(window, COPYWIN_GFX);
+        return;
+    }
+#endif
+#ifdef THAI_NAMING_PRODUCTION
+    if (sNamingScreen->productionThaiMode)
     {
         for (i = 0; i < KBROW_COUNT; i++)
         {
