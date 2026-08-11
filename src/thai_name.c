@@ -11,6 +11,9 @@
 STATIC_ASSERT(sizeof(struct SaveBlock2) == 0xF2C, ThaiNamingSaveBlock2Size);
 STATIC_ASSERT(sizeof(struct BoxPokemon) == 80, ThaiNamingBoxPokemonSize);
 
+static EWRAM_DATA u8 sThaiPlayerNameDisplay[THAI_PLAYER_NAME_SHAPED_CAPACITY];
+static const u8 sInvalidThaiPlayerName[] = {CHAR_QUESTION_MARK, EOS};
+
 struct ThaiNamingRuntimeMapEntry
 {
     u8 key[7];
@@ -33,6 +36,30 @@ void SetPlayerNameThai(bool32 isThai)
 {
     if (gSaveBlock2Ptr != NULL)
         gSaveBlock2Ptr->playerNameIsThai = isThai ? TRUE : FALSE;
+}
+
+const u8 *GetPlayerNameForDisplay(void)
+{
+    u8 length = 0;
+
+    if (gSaveBlock2Ptr == NULL)
+        return sInvalidThaiPlayerName;
+
+    if (!IsPlayerNameThai())
+        return gSaveBlock2Ptr->playerName;
+
+    while (length < PLAYER_NAME_LENGTH
+        && gSaveBlock2Ptr->thaiPlayerName[length] != EOS)
+        length++;
+
+    if (!ThaiShapeCompactName(gSaveBlock2Ptr->thaiPlayerName,
+                              length,
+                              PLAYER_NAME_LENGTH,
+                              sThaiPlayerNameDisplay,
+                              sizeof(sThaiPlayerNameDisplay)))
+        return sInvalidThaiPlayerName;
+
+    return sThaiPlayerNameDisplay;
 }
 
 bool32 IsBoxMonNicknameThai(const struct BoxPokemon *boxMon)

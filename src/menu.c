@@ -19,6 +19,9 @@
 #include "text_window.h"
 #include "window.h"
 #include "constants/songs.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 
 #define DLG_WINDOW_PALETTE_NUM 15
 #define DLG_WINDOW_BASE_TILE_NUM 0x200
@@ -2117,7 +2120,11 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
     switch (textId)
     {
         case SAVE_MENU_NAME:
+#ifdef THAI_NAMING_PRODUCTION
+            StringCopy(string, GetPlayerNameForDisplay());
+#else
             StringCopy(string, gSaveBlock2Ptr->playerName);
+#endif
             break;
         case SAVE_MENU_CAUGHT:
             if (IsNationalPokedexEnabled())

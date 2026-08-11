@@ -2,6 +2,9 @@
 #include "string_util.h"
 #include "text.h"
 #include "strings.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 
 EWRAM_DATA u8 gStringVar1[0x100] = {0};
 EWRAM_DATA u8 gStringVar2[0x100] = {0};
@@ -354,6 +357,16 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 
             switch (c)
             {
+#ifdef THAI_NAMING_PRODUCTION
+            case EXT_CTRL_CODE_THAI_POSITIONED_GLYPH:
+                *dest++ = *src++;
+                *dest++ = *src++;
+                *dest++ = *src++;
+                *dest++ = *src++;
+                *dest++ = *src++;
+                *dest++ = *src++;
+                break;
+#endif
             case EXT_CTRL_CODE_RESET_FONT:
             case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
             case EXT_CTRL_CODE_FILL_WINDOW:
@@ -427,7 +440,11 @@ static const u8 *ExpandPlaceholder_UnknownStringVar(void)
 
 static const u8 *ExpandPlaceholder_PlayerName(void)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    return GetPlayerNameForDisplay();
+#else
     return gSaveBlock2Ptr->playerName;
+#endif
 }
 
 static const u8 *ExpandPlaceholder_StringVar1(void)

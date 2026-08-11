@@ -29,6 +29,9 @@
 #include "constants/songs.h"
 #include "constants/game_stat.h"
 #include "constants/battle_frontier.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 #include "constants/rgb.h"
 #include "constants/trainers.h"
 #include "constants/union_room.h"
@@ -47,6 +50,9 @@ struct TrainerCardData
     u8 bgPalLoadState;
     u8 flipDrawState;
     bool8 isLink;
+#ifdef THAI_NAMING_PRODUCTION
+    bool8 isPlayerCard;
+#endif
     u8 timeColonBlinkTimer;
     bool8 timeColonInvisible;
     bool8 onBack;
@@ -60,7 +66,11 @@ struct TrainerCardData
     bool8 hasTrades;
     u8 badgeCount[NUM_BADGES];
     u8 easyChatProfile[TRAINER_CARD_PROFILE_LENGTH][13];
+#ifdef THAI_NAMING_PRODUCTION
+    u8 textPlayersCard[70 + THAI_PLAYER_NAME_SHAPED_CAPACITY - (PLAYER_NAME_LENGTH + 1)];
+#else
     u8 textPlayersCard[70];
+#endif
     u8 textHofTime[70];
     u8 textLinkBattleType[140];
     u8 textLinkBattleWins[70];
@@ -1004,6 +1014,30 @@ static void PrintNameOnCardFront(void)
 {
     u8 buffer[32];
     u8 *txtPtr;
+
+#ifdef THAI_NAMING_PRODUCTION
+    if (sData->isPlayerCard && IsPlayerNameThai())
+    {
+        u8 x;
+        u8 y;
+
+        if (sData->cardType == CARD_TYPE_FRLG)
+        {
+            x = 20;
+            y = 28;
+        }
+        else
+        {
+            x = 16;
+            y = 33;
+        }
+
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, x, y, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardName);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, x + GetStringWidth(FONT_NORMAL, gText_TrainerCardName, 0), y, sTrainerCardTextColors, TEXT_SKIP_DRAW, GetPlayerNameForDisplay());
+        return;
+    }
+#endif
+
     txtPtr = StringCopy(buffer, gText_TrainerCardName);
     StringCopy(txtPtr, sData->trainerCard.playerName);
     ConvertInternationalString(txtPtr, sData->language);
@@ -1163,8 +1197,18 @@ static void PrintProfilePhraseOnCard(void)
 
 static void BufferNameForCardBack(void)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    if (sData->isPlayerCard && IsPlayerNameThai())
+    {
+        StringCopy(sData->textPlayersCard, GetPlayerNameForDisplay());
+    }
+    else
+#endif
+    {
     StringCopy(sData->textPlayersCard, sData->trainerCard.playerName);
     ConvertInternationalString(sData->textPlayersCard, sData->language);
+    }
+
     if (sData->cardType != CARD_TYPE_FRLG)
     {
         StringCopy(gStringVar1, sData->textPlayersCard);
@@ -1804,6 +1848,9 @@ void ShowPlayerTrainerCard(void (*callback)(void))
     else
         sData->blendColor = RGB_BLACK;
 
+#ifdef THAI_NAMING_PRODUCTION
+    sData->isPlayerCard = TRUE;
+#endif
     if (InUnionRoom() == TRUE)
         sData->isLink = TRUE;
     else
@@ -1819,6 +1866,9 @@ void ShowTrainerCardInLink(u8 cardId, void (*callback)(void))
     sData = AllocZeroed(sizeof(*sData));
     sData->callback2 = callback;
     sData->isLink = TRUE;
+#ifdef THAI_NAMING_PRODUCTION
+    sData->isPlayerCard = FALSE;
+#endif
     sData->trainerCard = gTrainerCards[cardId];
     sData->language = gLinkPlayers[cardId].language;
     SetMainCallback2(CB2_InitTrainerCard);

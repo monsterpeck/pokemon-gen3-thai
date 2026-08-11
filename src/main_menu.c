@@ -35,6 +35,9 @@
 #include "text.h"
 #include "text_window.h"
 #include "title_screen.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 #include "window.h"
 #include "mystery_gift_menu.h"
 
@@ -1631,7 +1634,13 @@ static void Task_NewGameBirchSpeech_StartNamingScreen(u8 taskId)
         FreeAndDestroyMonPicSprite(gTasks[taskId].tLotadSpriteId);
         NewGameBirchSpeech_SetDefaultPlayerName(Random() % NUM_PRESET_NAMES);
         DestroyTask(taskId);
+#ifdef THAI_NAMING_PRODUCTION
+        DoThaiNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->thaiPlayerName, FALSE,
+                           gSaveBlock2Ptr->playerGender, 0, 0,
+                           CB2_NewGameBirchSpeech_ReturnFromNamingScreen);
+#else
         DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_NewGameBirchSpeech_ReturnFromNamingScreen);
+#endif
     }
 }
 
@@ -1818,6 +1827,11 @@ static void CB2_NewGameBirchSpeech_ReturnFromNamingScreen(void)
 {
     u8 taskId;
     u8 spriteId;
+
+#ifdef THAI_NAMING_PRODUCTION
+    if (DidThaiNamingScreenCommit())
+        SetPlayerNameThai(TRUE);
+#endif
 
     ResetBgsAndClearDma3BusyFlags(0);
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
@@ -2140,6 +2154,10 @@ static void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
     gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
+#ifdef THAI_NAMING_PRODUCTION
+    memset(gSaveBlock2Ptr->thaiPlayerName, EOS, sizeof(gSaveBlock2Ptr->thaiPlayerName));
+    SetPlayerNameThai(FALSE);
+#endif
 }
 
 static void CreateMainMenuErrorWindow(const u8 *str)
@@ -2163,9 +2181,17 @@ static void MainMenu_FormatSavegameText(void)
 
 static void MainMenu_FormatSavegamePlayer(void)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    const u8 *playerName = GetPlayerNameForDisplay();
+
+    StringExpandPlaceholders(gStringVar4, gText_ContinueMenuPlayer);
+    AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
+    AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, playerName, 100), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, playerName);
+#else
     StringExpandPlaceholders(gStringVar4, gText_ContinueMenuPlayer);
     AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
     AddTextPrinterParameterized3(2, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, gSaveBlock2Ptr->playerName, 100), 17, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gSaveBlock2Ptr->playerName);
+#endif
 }
 
 static void MainMenu_FormatSavegameTime(void)
