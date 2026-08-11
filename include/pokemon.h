@@ -203,7 +203,12 @@ struct BoxPokemon
     u8 hasSpecies:1;
     u8 isEgg:1;
     u8 blockBoxRS:1; // Unused, but Pokémon Box Ruby & Sapphire will refuse to deposit a Pokémon with this flag set
+#ifdef THAI_NAMING_PRODUCTION
+    u8 nicknameIsThai:1;
+    u8 unused:3;
+#else
     u8 unused:4;
+#endif
     u8 otName[PLAYER_NAME_LENGTH];
     u8 markings;
     u16 checksum;

@@ -4,6 +4,12 @@
 #ifdef THAI_NAMING_PRODUCTION
 
 #include "constants/characters.h"
+#include "load_save.h"
+#include "pokemon.h"
+#include "pokemon_storage_system.h"
+
+STATIC_ASSERT(sizeof(struct SaveBlock2) == 0xF2C, ThaiNamingSaveBlock2Size);
+STATIC_ASSERT(sizeof(struct BoxPokemon) == 80, ThaiNamingBoxPokemonSize);
 
 struct ThaiNamingRuntimeMapEntry
 {
@@ -17,6 +23,48 @@ struct ThaiNamingRuntimeMapEntry
 };
 
 #include "data/thai_naming_runtime_map.inc"
+
+bool32 IsPlayerNameThai(void)
+{
+    return gSaveBlock2Ptr != NULL && gSaveBlock2Ptr->playerNameIsThai;
+}
+
+void SetPlayerNameThai(bool32 isThai)
+{
+    if (gSaveBlock2Ptr != NULL)
+        gSaveBlock2Ptr->playerNameIsThai = isThai ? TRUE : FALSE;
+}
+
+bool32 IsBoxMonNicknameThai(const struct BoxPokemon *boxMon)
+{
+    return boxMon != NULL && boxMon->nicknameIsThai;
+}
+
+void SetBoxMonNicknameThai(struct BoxPokemon *boxMon, bool32 isThai)
+{
+    if (boxMon != NULL)
+        boxMon->nicknameIsThai = isThai ? TRUE : FALSE;
+}
+
+bool32 IsBoxNameThai(u8 boxId)
+{
+    if (gPokemonStoragePtr == NULL || boxId >= TOTAL_BOXES_COUNT)
+        return FALSE;
+
+    return (gPokemonStoragePtr->boxWallpapers[boxId]
+          & THAI_BOX_NAME_WALLPAPER_FLAG) != 0;
+}
+
+void SetBoxNameThai(u8 boxId, bool32 isThai)
+{
+    if (gPokemonStoragePtr == NULL || boxId >= TOTAL_BOXES_COUNT)
+        return;
+
+    if (isThai)
+        gPokemonStoragePtr->boxWallpapers[boxId] |= THAI_BOX_NAME_WALLPAPER_FLAG;
+    else
+        gPokemonStoragePtr->boxWallpapers[boxId] &= THAI_BOX_WALLPAPER_ID_MASK;
+}
 
 bool32 IsThaiCompactNameId(u8 compactId)
 {

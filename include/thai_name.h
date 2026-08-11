@@ -9,6 +9,20 @@
 #define THAI_NAME_MAX_SOURCE_LENGTH POKEMON_NAME_LENGTH
 #define THAI_NAME_SHAPED_CAPACITY ((THAI_NAME_MAX_SOURCE_LENGTH * 8) + 1)
 
+#define THAI_BOX_NAME_WALLPAPER_FLAG 0x80
+#define THAI_BOX_WALLPAPER_ID_MASK   0x7F
+
+struct BoxPokemon;
+
+bool32 IsPlayerNameThai(void);
+void SetPlayerNameThai(bool32 isThai);
+
+bool32 IsBoxMonNicknameThai(const struct BoxPokemon *boxMon);
+void SetBoxMonNicknameThai(struct BoxPokemon *boxMon, bool32 isThai);
+
+bool32 IsBoxNameThai(u8 boxId);
+void SetBoxNameThai(u8 boxId, bool32 isThai);
+
 bool32 IsThaiCompactNameId(u8 compactId);
 
 bool32 ThaiShapeCompactName(

@@ -22,6 +22,9 @@
 #include "pokedex.h"
 #include "pokeblock.h"
 #include "pokemon.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 #include "pokemon_animation.h"
 #include "pokemon_summary_screen.h"
 #include "pokemon_storage_system.h"
@@ -4187,6 +4190,9 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
         s32 i;
         for (i = 0; i < POKEMON_NAME_LENGTH; i++)
             boxMon->nickname[i] = data[i];
+#ifdef THAI_NAMING_PRODUCTION
+        SetBoxMonNicknameThai(boxMon, FALSE);
+#endif
         break;
     }
     case MON_DATA_LANGUAGE:

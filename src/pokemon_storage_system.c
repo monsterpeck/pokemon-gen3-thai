@@ -27,6 +27,9 @@
 #include "pokemon_icon.h"
 #include "pokemon_summary_screen.h"
 #include "pokemon_storage_system.h"
+#ifdef THAI_NAMING_PRODUCTION
+#include "thai_name.h"
+#endif
 #include "script.h"
 #include "sound.h"
 #include "string_util.h"
@@ -1743,7 +1746,12 @@ void ResetPokemonStorageSystem(void)
     }
 
     for (boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+    {
+#ifdef THAI_NAMING_PRODUCTION
+        SetBoxNameThai(boxId, FALSE);
+#endif
         SetBoxWallpaper(boxId, boxId % (MAX_DEFAULT_WALLPAPER + 1));
+    }
 
     ResetWaldaWallpaper();
 }
@@ -9528,7 +9536,13 @@ u8 *GetBoxNamePtr(u8 boxId)
 static u8 GetBoxWallpaper(u8 boxId)
 {
     if (boxId < TOTAL_BOXES_COUNT)
+    {
+#ifdef THAI_NAMING_PRODUCTION
+        return gPokemonStoragePtr->boxWallpapers[boxId] & THAI_BOX_WALLPAPER_ID_MASK;
+#else
         return gPokemonStoragePtr->boxWallpapers[boxId];
+#endif
+    }
     else
         return 0;
 }
@@ -9536,7 +9550,16 @@ static u8 GetBoxWallpaper(u8 boxId)
 static void SetBoxWallpaper(u8 boxId, u8 wallpaperId)
 {
     if (boxId < TOTAL_BOXES_COUNT && wallpaperId < WALLPAPER_COUNT)
+    {
+#ifdef THAI_NAMING_PRODUCTION
+        u8 thaiNameFlag = gPokemonStoragePtr->boxWallpapers[boxId]
+                        & THAI_BOX_NAME_WALLPAPER_FLAG;
+
+        gPokemonStoragePtr->boxWallpapers[boxId] = thaiNameFlag | wallpaperId;
+#else
         gPokemonStoragePtr->boxWallpapers[boxId] = wallpaperId;
+#endif
+    }
 }
 
 // For moving to the next Pokémon while viewing the summary screen
