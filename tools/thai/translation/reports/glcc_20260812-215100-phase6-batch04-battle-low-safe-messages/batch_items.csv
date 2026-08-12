@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0220,sText_MirrorMoveFailed,src/battle_message.c,The MIRROR MOVE failed!,ท่าเลียนแบบล้มเหลว!,1,1,,100,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0231,sText_SunlightFaded,src/battle_message.c,The sunlight faded.,แสงแดดอ่อนลงแล้ว.,1,1,,95,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0232,sText_StartedHail,src/battle_message.c,It started to hail!,ลูกเห็บเริ่มตก!,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0233,sText_HailContinues,src/battle_message.c,Hail continues to fall.,ลูกเห็บยังคงตกต่อเนื่อง.,1,1,,107,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0234,sText_HailStopped,src/battle_message.c,The hail stopped.,ลูกเห็บหยุดตกแล้ว.,1,1,,90,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0239,sText_CoinsScattered,src/battle_message.c,Coins scattered everywhere!,เหรียญกระจายไปทั่ว!,1,1,,97,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0242,sText_BellChimed,src/battle_message.c,A bell chimed!,เสียงกระดิ่งก้อง!,1,1,,71,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0248,sText_TrainerBlockedBall,src/battle_message.c,The TRAINER blocked the BALL!,เทรนเนอร์ปัดบอลออกไป!,1,1,,119,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0249,sText_DontBeAThief,src/battle_message.c,Don't be a thief!,อย่าเป็นหัวขโมย!,1,1,,80,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0251,sText_YouMissedPkmn,src/battle_message.c,You missed the POKéMON!,คุณพลาดโปเกมอน!,1,1,,93,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending

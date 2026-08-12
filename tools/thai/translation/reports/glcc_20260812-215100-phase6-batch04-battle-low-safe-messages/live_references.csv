@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_MirrorMoveFailed,"src/battle_message.c:738:    [STRINGID_MIRRORMOVEFAILED - BATTLESTRINGS_TABLE_START] = sText_MirrorMoveFailed,"
+sText_SunlightFaded,"src/battle_message.c:749:    [STRINGID_SUNLIGHTFADED - BATTLESTRINGS_TABLE_START] = sText_SunlightFaded,"
+sText_StartedHail,"src/battle_message.c:750:    [STRINGID_STARTEDHAIL - BATTLESTRINGS_TABLE_START] = sText_StartedHail,"
+sText_HailContinues,"src/battle_message.c:751:    [STRINGID_HAILCONTINUES - BATTLESTRINGS_TABLE_START] = sText_HailContinues,"
+sText_HailStopped,"src/battle_message.c:752:    [STRINGID_HAILSTOPPED - BATTLESTRINGS_TABLE_START] = sText_HailStopped,"
+sText_CoinsScattered,"src/battle_message.c:757:    [STRINGID_COINSSCATTERED - BATTLESTRINGS_TABLE_START] = sText_CoinsScattered,"
+sText_BellChimed,"src/battle_message.c:760:    [STRINGID_BELLCHIMED - BATTLESTRINGS_TABLE_START] = sText_BellChimed,"
+sText_TrainerBlockedBall,"src/battle_message.c:766:    [STRINGID_TRAINERBLOCKEDBALL - BATTLESTRINGS_TABLE_START] = sText_TrainerBlockedBall,"
+sText_DontBeAThief,"src/battle_message.c:767:    [STRINGID_DONTBEATHIEF - BATTLESTRINGS_TABLE_START] = sText_DontBeAThief,"
+sText_YouMissedPkmn,"src/battle_message.c:769:    [STRINGID_YOUMISSEDPKMN - BATTLESTRINGS_TABLE_START] = sText_YouMissedPkmn,"
