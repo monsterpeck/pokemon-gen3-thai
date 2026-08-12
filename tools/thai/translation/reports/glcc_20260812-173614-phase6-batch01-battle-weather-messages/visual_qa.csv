@@ -1,0 +1,11 @@
+﻿symbol,visual_qa_status,note
+sText_StartedToRain,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_DownpourStarted,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_RainContinues,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_DownpourContinues,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_RainStopped,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_SandstormBrewed,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_SandstormRages,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_SandstormSubsided,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_SunlightGotBright,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
+sText_SunlightStrong,proof_passed,"Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."

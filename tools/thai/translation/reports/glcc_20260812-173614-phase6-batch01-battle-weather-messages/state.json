@@ -1,10 +1,10 @@
 {
   "batch_id": "20260812-173614-phase6-batch01-battle-weather-messages",
   "locked_head": "d5384e04fccd48818938f48c4032c82887ace505",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "pending": 436
   },
@@ -13,5 +13,6 @@
     "translated_pending_qa": 10
   },
   "preview_rom_sha256": "c485f3028982f5dbc7371a0fc5e72c1a77736d481498ef6008568be38c3efbc2",
-  "normal_rom_sha256": "c485f3028982f5dbc7371a0fc5e72c1a77736d481498ef6008568be38c3efbc2"
+  "normal_rom_sha256": "c485f3028982f5dbc7371a0fc5e72c1a77736d481498ef6008568be38c3efbc2",
+  "qa_note": "Human Visual QA completed: 10/10 QA Gallery pages passed. Thai rendering, spacing, clipping, layout, punctuation, and terminology were visually verified."
 }
