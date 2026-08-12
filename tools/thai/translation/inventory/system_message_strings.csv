@@ -41,7 +41,7 @@ usable POKéMON!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/bat
 SM0021,local:src/battle_message.c:sText_PlayerWhiteout2,sText_PlayerWhiteout2,{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS},,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,78,1,{B_PLAYER_NAME}; {PAUSE_UNTIL_PRESS},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0022,local:src/battle_message.c:sText_PreventsEscape,sText_PreventsEscape,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents
 escape with {B_SCR_ACTIVE_ABILITY}!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,79,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0023,local:src/battle_message.c:sText_HitXTimes,sText_HitXTimes,Hit {B_BUFF1} time(s)!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,82,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0023,local:src/battle_message.c:sText_HitXTimes,sText_HitXTimes,Hit {B_BUFF1} time(s)!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,82,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0024,local:src/battle_message.c:sText_PkmnFellAsleep,sText_PkmnFellAsleep,"{B_EFF_NAME_WITH_PREFIX}
 fell asleep!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,83,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0025,local:src/battle_message.c:sText_PkmnMadeSleep,sText_PkmnMadeSleep,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
@@ -64,7 +64,7 @@ SM0033,local:src/battle_message.c:sText_PkmnBadlyPoisoned,sText_PkmnBadlyPoisone
 poisoned!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,92,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0034,local:src/battle_message.c:sText_PkmnEnergyDrained,sText_PkmnEnergyDrained,"{B_DEF_NAME_WITH_PREFIX} had its
 energy drained!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,93,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0035,local:src/battle_message.c:sText_PkmnWasBurned,sText_PkmnWasBurned,{B_EFF_NAME_WITH_PREFIX} was burned!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,94,1,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0035,local:src/battle_message.c:sText_PkmnWasBurned,sText_PkmnWasBurned,{B_EFF_NAME_WITH_PREFIX} was burned!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,94,1,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0036,local:src/battle_message.c:sText_PkmnBurnedBy,sText_PkmnBurnedBy,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
 burned {B_EFF_NAME_WITH_PREFIX}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,95,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0037,local:src/battle_message.c:sText_PkmnHurtByBurn,sText_PkmnHurtByBurn,"{B_ATK_NAME_WITH_PREFIX} is hurt
@@ -119,7 +119,7 @@ SM0061,local:src/battle_message.c:sText_PkmnBlownAway,sText_PkmnBlownAway,"{B_DE
 blown away!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,121,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0062,local:src/battle_message.c:sText_PkmnChangedType,sText_PkmnChangedType,"{B_ATK_NAME_WITH_PREFIX} transformed
 into the {B_BUFF1} type!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,122,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0063,local:src/battle_message.c:sText_PkmnFlinched,sText_PkmnFlinched,{B_ATK_NAME_WITH_PREFIX} flinched!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,123,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0063,local:src/battle_message.c:sText_PkmnFlinched,sText_PkmnFlinched,{B_ATK_NAME_WITH_PREFIX} flinched!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,123,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0064,local:src/battle_message.c:sText_PkmnRegainedHealth,sText_PkmnRegainedHealth,"{B_DEF_NAME_WITH_PREFIX} regained
 health!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,124,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0065,local:src/battle_message.c:sText_PkmnHPFull,sText_PkmnHPFull,"{B_DEF_NAME_WITH_PREFIX}'s
@@ -144,10 +144,10 @@ SM0074,local:src/battle_message.c:sText_PkmnTookSunlight,sText_PkmnTookSunlight,
 in sunlight!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,136,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0075,local:src/battle_message.c:sText_PkmnLoweredHead,sText_PkmnLoweredHead,"{B_ATK_NAME_WITH_PREFIX} lowered
 its head!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,137,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0076,local:src/battle_message.c:sText_PkmnIsGlowing,sText_PkmnIsGlowing,{B_ATK_NAME_WITH_PREFIX} is glowing!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,138,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0076,local:src/battle_message.c:sText_PkmnIsGlowing,sText_PkmnIsGlowing,{B_ATK_NAME_WITH_PREFIX} is glowing!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,138,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0077,local:src/battle_message.c:sText_PkmnFlewHigh,sText_PkmnFlewHigh,"{B_ATK_NAME_WITH_PREFIX} flew
 up high!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,139,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0078,local:src/battle_message.c:sText_PkmnDugHole,sText_PkmnDugHole,{B_ATK_NAME_WITH_PREFIX} dug a hole!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,140,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0078,local:src/battle_message.c:sText_PkmnDugHole,sText_PkmnDugHole,{B_ATK_NAME_WITH_PREFIX} dug a hole!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,140,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0079,local:src/battle_message.c:sText_PkmnSqueezedByBind,sText_PkmnSqueezedByBind,"{B_DEF_NAME_WITH_PREFIX} was squeezed by
 {B_ATK_NAME_WITH_PREFIX}'s BIND!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,143,2,{B_DEF_NAME_WITH_PREFIX}; {B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0080,local:src/battle_message.c:sText_PkmnTrappedInVortex,sText_PkmnTrappedInVortex,"{B_DEF_NAME_WITH_PREFIX} was trapped
@@ -176,14 +176,14 @@ SM0091,local:src/battle_message.c:sText_PkmnBuffetedBySandstorm,sText_PkmnBuffet
 by the sandstorm!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,156,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0092,local:src/battle_message.c:sText_PkmnPeltedByHail,sText_PkmnPeltedByHail,"{B_ATK_NAME_WITH_PREFIX} is pelted
 by HAIL!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,157,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0093,local:src/battle_message.c:sText_PkmnSeeded,sText_PkmnSeeded,{B_DEF_NAME_WITH_PREFIX} was seeded!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,159,1,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0093,local:src/battle_message.c:sText_PkmnSeeded,sText_PkmnSeeded,{B_DEF_NAME_WITH_PREFIX} was seeded!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,159,1,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0094,local:src/battle_message.c:sText_PkmnEvadedAttack,sText_PkmnEvadedAttack,"{B_DEF_NAME_WITH_PREFIX} evaded
 the attack!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,160,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0095,local:src/battle_message.c:sText_PkmnSappedByLeechSeed,sText_PkmnSappedByLeechSeed,"{B_ATK_NAME_WITH_PREFIX}'s health is
 sapped by LEECH SEED!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,161,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0096,local:src/battle_message.c:sText_PkmnFastAsleep,sText_PkmnFastAsleep,"{B_ATK_NAME_WITH_PREFIX} is fast
 asleep.",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,162,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0097,local:src/battle_message.c:sText_PkmnWokeUp,sText_PkmnWokeUp,{B_ATK_NAME_WITH_PREFIX} woke up!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,163,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0097,local:src/battle_message.c:sText_PkmnWokeUp,sText_PkmnWokeUp,{B_ATK_NAME_WITH_PREFIX} woke up!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,163,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0098,local:src/battle_message.c:sText_PkmnUproarKeptAwake,sText_PkmnUproarKeptAwake,"But {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s UPROAR
 kept it awake!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,164,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0099,local:src/battle_message.c:sText_PkmnWokeUpInUproar,sText_PkmnWokeUpInUproar,"{B_ATK_NAME_WITH_PREFIX} woke up
@@ -192,7 +192,7 @@ SM0100,local:src/battle_message.c:sText_PkmnCausedUproar,sText_PkmnCausedUproar,
 an UPROAR!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,166,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0101,local:src/battle_message.c:sText_PkmnMakingUproar,sText_PkmnMakingUproar,"{B_ATK_NAME_WITH_PREFIX} is making
 an UPROAR!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,167,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0102,local:src/battle_message.c:sText_PkmnCalmedDown,sText_PkmnCalmedDown,{B_ATK_NAME_WITH_PREFIX} calmed down.,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,168,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0102,local:src/battle_message.c:sText_PkmnCalmedDown,sText_PkmnCalmedDown,{B_ATK_NAME_WITH_PREFIX} calmed down.,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,168,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0103,local:src/battle_message.c:sText_PkmnCantSleepInUproar,sText_PkmnCantSleepInUproar,"But {B_DEF_NAME_WITH_PREFIX} can't
 sleep in an UPROAR!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,169,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0104,local:src/battle_message.c:sText_PkmnStockpiled,sText_PkmnStockpiled,"{B_ATK_NAME_WITH_PREFIX} STOCKPILED
@@ -273,7 +273,7 @@ SM0141,local:src/battle_message.c:sText_PkmnBracedItself,sText_PkmnBracedItself,
 itself!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,206,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0142,local:src/battle_message.c:sText_PkmnEnduredHit,sText_PkmnEnduredHit,"{B_DEF_NAME_WITH_PREFIX} ENDURED
 the hit!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,207,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0143,local:src/battle_message.c:sText_MagnitudeStrength,sText_MagnitudeStrength,MAGNITUDE {B_BUFF1}!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,208,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0143,local:src/battle_message.c:sText_MagnitudeStrength,sText_MagnitudeStrength,MAGNITUDE {B_BUFF1}!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,208,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0144,local:src/battle_message.c:sText_PkmnCutHPMaxedAttack,sText_PkmnCutHPMaxedAttack,"{B_ATK_NAME_WITH_PREFIX} cut its own HP
 and maximized ATTACK!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,209,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0145,local:src/battle_message.c:sText_PkmnCopiedStatChanges,sText_PkmnCopiedStatChanges,"{B_ATK_NAME_WITH_PREFIX} copied
@@ -290,7 +290,7 @@ SM0150,local:src/battle_message.c:sText_PkmnForesawAttack,sText_PkmnForesawAttac
 an attack!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,215,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0151,local:src/battle_message.c:sText_PkmnTookAttack,sText_PkmnTookAttack,"{B_DEF_NAME_WITH_PREFIX} took the
 {B_BUFF1} attack!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,216,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
-SM0152,local:src/battle_message.c:sText_PkmnAttack,sText_PkmnAttack,{B_BUFF1}'s attack!,,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,218,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SM0152,local:src/battle_message.c:sText_PkmnAttack,sText_PkmnAttack,{B_BUFF1}'s attack!,,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,218,1,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0153,local:src/battle_message.c:sText_PkmnCenterAttention,sText_PkmnCenterAttention,"{B_ATK_NAME_WITH_PREFIX} became the
 center of attention!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,219,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0154,local:src/battle_message.c:sText_PkmnChargingPower,sText_PkmnChargingPower,"{B_ATK_NAME_WITH_PREFIX} began
