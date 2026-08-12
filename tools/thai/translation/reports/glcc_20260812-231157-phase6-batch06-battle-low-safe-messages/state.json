@@ -1,10 +1,10 @@
 {
   "batch_id": "20260812-231157-phase6-batch06-battle-low-safe-messages",
   "locked_head": "996c1df1678f6a8bb7f01f7b45e8e067e3c49bd9",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "pending": 386,
     "proof_passed": 50
@@ -15,5 +15,6 @@
     "translated_pending_qa": 10
   },
   "preview_rom_sha256": "dd8ae92c0d6225be639bb9c8606eff635c91c47df950a714178daf1f93f108a0",
-  "normal_rom_sha256": "dd8ae92c0d6225be639bb9c8606eff635c91c47df950a714178daf1f93f108a0"
+  "normal_rom_sha256": "dd8ae92c0d6225be639bb9c8606eff635c91c47df950a714178daf1f93f108a0",
+  "qa_note": "Batch 06 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
