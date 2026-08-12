@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0166,sText_PkmnMadeWish,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} made a WISH!,{B_ATK_NAME_WITH_PREFIX} อธิษฐานขอพร!,1,1,,74,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0168,sText_PkmnPlantedRoots,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} planted its roots!,{B_ATK_NAME_WITH_PREFIX} หยั่งรากลงพื้น!,1,1,,71,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0199,gText_StatRose,src/battle_message.c,rose!,เพิ่มขึ้น!,2,2,,43,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c;src/pokemon.c,{},pass,pending
+SM0201,sText_StatFell,src/battle_message.c,fell!,ลดลง!,1,1,,31,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0206,sText_CriticalHit,src/battle_message.c,A critical hit!,โจมตีติดคริติคอล!,1,1,,86,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0207,sText_OneHitKO,src/battle_message.c,It's a one-hit KO!,น็อกในครั้งเดียว!,1,1,,83,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0210,sText_NotVeryEffective,src/battle_message.c,It's not very effective…,ดูเหมือนจะไม่ค่อยได้ผล...,1,1,,131,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0211,sText_SuperEffective,src/battle_message.c,It's super effective!,ได้ผลดีมาก!,1,1,,57,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0217,sText_ButNothingHappened,src/battle_message.c,But nothing happened!,แต่ไม่มีอะไรเกิดขึ้น!,1,1,,97,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0218,sText_ButItFailed,src/battle_message.c,But it failed!,แต่ล้มเหลว!,1,1,,58,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending

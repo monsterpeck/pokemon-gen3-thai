@@ -1,0 +1,12 @@
+﻿symbol,reference
+sText_PkmnMadeWish,"src/battle_message.c:684:    [STRINGID_PKMNMADEWISH - BATTLESTRINGS_TABLE_START] = sText_PkmnMadeWish,"
+sText_PkmnPlantedRoots,"src/battle_message.c:686:    [STRINGID_PKMNPLANTEDROOTS - BATTLESTRINGS_TABLE_START] = sText_PkmnPlantedRoots,"
+gText_StatRose,"src/battle_message.c:717:    [STRINGID_STATROSE - BATTLESTRINGS_TABLE_START] = gText_StatRose,"
+gText_StatRose,"src/pokemon.c:5448:    StringCopy(gBattleTextBuff2, gText_StatRose);"
+sText_StatFell,"src/battle_message.c:719:    [STRINGID_STATFELL - BATTLESTRINGS_TABLE_START] = sText_StatFell,"
+sText_CriticalHit,"src/battle_message.c:724:    [STRINGID_CRITICALHIT - BATTLESTRINGS_TABLE_START] = sText_CriticalHit,"
+sText_OneHitKO,"src/battle_message.c:725:    [STRINGID_ONEHITKO - BATTLESTRINGS_TABLE_START] = sText_OneHitKO,"
+sText_NotVeryEffective,"src/battle_message.c:728:    [STRINGID_NOTVERYEFFECTIVE - BATTLESTRINGS_TABLE_START] = sText_NotVeryEffective,"
+sText_SuperEffective,"src/battle_message.c:729:    [STRINGID_SUPEREFFECTIVE - BATTLESTRINGS_TABLE_START] = sText_SuperEffective,"
+sText_ButNothingHappened,"src/battle_message.c:735:    [STRINGID_BUTNOTHINGHAPPENED - BATTLESTRINGS_TABLE_START] = sText_ButNothingHappened,"
+sText_ButItFailed,"src/battle_message.c:736:    [STRINGID_BUTITFAILED - BATTLESTRINGS_TABLE_START] = sText_ButItFailed,"
