@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0221,sText_StartedToRain,src/battle_message.c,It started to rain!,ฝนเริ่มตก!,1,1,,52,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0222,sText_DownpourStarted,src/battle_message.c,A downpour started!,ฝนเริ่มตกหนัก!,1,1,,74,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0223,sText_RainContinues,src/battle_message.c,Rain continues to fall.,ฝนยังคงตกต่อเนื่อง.,1,1,,91,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0224,sText_DownpourContinues,src/battle_message.c,The downpour continues.,ฝนยังคงตกหนัก.,1,1,,78,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0225,sText_RainStopped,src/battle_message.c,The rain stopped.,ฝนหยุดตกแล้ว.,1,1,,74,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0226,sText_SandstormBrewed,src/battle_message.c,A sandstorm brewed!,พายุทรายเริ่มก่อตัว!,1,1,,90,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0227,sText_SandstormRages,src/battle_message.c,The sandstorm rages.,พายุทรายกำลังโหมกระหน่ำ.,1,1,,121,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0228,sText_SandstormSubsided,src/battle_message.c,The sandstorm subsided.,พายุทรายสงบลงแล้ว.,1,1,,94,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0229,sText_SunlightGotBright,src/battle_message.c,The sunlight got bright!,แสงแดดแรงขึ้น!,1,1,,78,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0230,sText_SunlightStrong,src/battle_message.c,The sunlight is strong.,แสงแดดยังคงแรงจ้า.,1,1,,93,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending

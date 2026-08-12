@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_StartedToRain,"src/battle_message.c:739:    [STRINGID_STARTEDTORAIN - BATTLESTRINGS_TABLE_START] = sText_StartedToRain,"
+sText_DownpourStarted,"src/battle_message.c:740:    [STRINGID_DOWNPOURSTARTED - BATTLESTRINGS_TABLE_START] = sText_DownpourStarted,"
+sText_RainContinues,"src/battle_message.c:741:    [STRINGID_RAINCONTINUES - BATTLESTRINGS_TABLE_START] = sText_RainContinues,"
+sText_DownpourContinues,"src/battle_message.c:742:    [STRINGID_DOWNPOURCONTINUES - BATTLESTRINGS_TABLE_START] = sText_DownpourContinues,"
+sText_RainStopped,"src/battle_message.c:743:    [STRINGID_RAINSTOPPED - BATTLESTRINGS_TABLE_START] = sText_RainStopped,"
+sText_SandstormBrewed,"src/battle_message.c:744:    [STRINGID_SANDSTORMBREWED - BATTLESTRINGS_TABLE_START] = sText_SandstormBrewed,"
+sText_SandstormRages,"src/battle_message.c:745:    [STRINGID_SANDSTORMRAGES - BATTLESTRINGS_TABLE_START] = sText_SandstormRages,"
+sText_SandstormSubsided,"src/battle_message.c:746:    [STRINGID_SANDSTORMSUBSIDED - BATTLESTRINGS_TABLE_START] = sText_SandstormSubsided,"
+sText_SunlightGotBright,"src/battle_message.c:747:    [STRINGID_SUNLIGHTGOTBRIGHT - BATTLESTRINGS_TABLE_START] = sText_SunlightGotBright,"
+sText_SunlightStrong,"src/battle_message.c:748:    [STRINGID_SUNLIGHTSTRONG - BATTLESTRINGS_TABLE_START] = sText_SunlightStrong,"
