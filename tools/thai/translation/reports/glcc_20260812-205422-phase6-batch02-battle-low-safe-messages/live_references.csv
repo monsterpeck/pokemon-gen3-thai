@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_HitXTimes,"src/battle_message.c:541:    [STRINGID_HITXTIMES - BATTLESTRINGS_TABLE_START] = sText_HitXTimes,"
+sText_PkmnWasBurned,"src/battle_message.c:553:    [STRINGID_PKMNWASBURNED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasBurned,"
+sText_PkmnFlinched,"src/battle_message.c:581:    [STRINGID_PKMNFLINCHED - BATTLESTRINGS_TABLE_START] = sText_PkmnFlinched,"
+sText_PkmnIsGlowing,"src/battle_message.c:594:    [STRINGID_PKMNISGLOWING - BATTLESTRINGS_TABLE_START] = sText_PkmnIsGlowing,"
+sText_PkmnDugHole,"src/battle_message.c:596:    [STRINGID_PKMNDUGHOLE - BATTLESTRINGS_TABLE_START] = sText_PkmnDugHole,"
+sText_PkmnSeeded,"src/battle_message.c:611:    [STRINGID_PKMNSEEDED - BATTLESTRINGS_TABLE_START] = sText_PkmnSeeded,"
+sText_PkmnWokeUp,"src/battle_message.c:615:    [STRINGID_PKMNWOKEUP - BATTLESTRINGS_TABLE_START] = sText_PkmnWokeUp,"
+sText_PkmnCalmedDown,"src/battle_message.c:620:    [STRINGID_PKMNCALMEDDOWN - BATTLESTRINGS_TABLE_START] = sText_PkmnCalmedDown,"
+sText_MagnitudeStrength,"src/battle_message.c:661:    [STRINGID_MAGNITUDESTRENGTH - BATTLESTRINGS_TABLE_START] = sText_MagnitudeStrength,"
+sText_PkmnAttack,"src/battle_message.c:670:    [STRINGID_PKMNATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnAttack,"

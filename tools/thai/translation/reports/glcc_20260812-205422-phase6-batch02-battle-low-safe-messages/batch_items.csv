@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0023,sText_HitXTimes,src/battle_message.c,Hit {B_BUFF1} time(s)!,โจมตีโดน {B_BUFF1} ครั้ง!,1,1,,79,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0035,sText_PkmnWasBurned,src/battle_message.c,{B_EFF_NAME_WITH_PREFIX} was burned!,{B_EFF_NAME_WITH_PREFIX} ถูกไฟไหม้!,1,1,,58,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0063,sText_PkmnFlinched,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} flinched!,{B_ATK_NAME_WITH_PREFIX} ชะงัก!,1,1,,34,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0076,sText_PkmnIsGlowing,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} is glowing!,{B_ATK_NAME_WITH_PREFIX} กำลังเปล่งแสง!,1,1,,70,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0078,sText_PkmnDugHole,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} dug a hole!,{B_ATK_NAME_WITH_PREFIX} ขุดหลุมลงไป!,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0093,sText_PkmnSeeded,src/battle_message.c,{B_DEF_NAME_WITH_PREFIX} was seeded!,{B_DEF_NAME_WITH_PREFIX} ถูกหว่านเมล็ดใส่!,1,1,,85,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0097,sText_PkmnWokeUp,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} woke up!,{B_ATK_NAME_WITH_PREFIX} ตื่นแล้ว!,1,1,,46,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0102,sText_PkmnCalmedDown,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} calmed down.,{B_ATK_NAME_WITH_PREFIX} สงบลงแล้ว.,1,1,,58,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0143,sText_MagnitudeStrength,src/battle_message.c,MAGNITUDE {B_BUFF1}!,แมกนิจูด {B_BUFF1}!,1,1,,53,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0152,sText_PkmnAttack,src/battle_message.c,{B_BUFF1}'s attack!,การโจมตีของ {B_BUFF1}!,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
