@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0198,sText_StatSharply,src/battle_message.c,sharply\x20,อย่างมาก ,1,1,,41,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0200,sText_StatHarshly,src/battle_message.c,harshly\x20,อย่างหนัก ,1,1,,46,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0209,sText_AndEllipsis,src/battle_message.c,And…\p,และ...\p,1,1,,58,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0215,sText_CantEscape,src/battle_message.c,Can't escape!\p,หนีไม่ได้!\p,1,1,,65,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0216,sText_DontLeaveBirch,src/battle_message.c,PROF. BIRCH: Don't leave me like this!\p,ศ.เบิร์ช: อย่าทิ้งผมไว้แบบนี้!\p,1,1,,155,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0263,sText_CantEscape2,src/battle_message.c,Can't escape!\p,หนีไม่ได้!\p,1,1,,65,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0319,sText_ABoosted,src/battle_message.c, a boosted, โบนัส,1,1,,31,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0372,sText_LegendaryPkmnAppeared,src/battle_message.c,Wild {B_OPPONENT_MON1_NAME} appeared!\p,โปเกมอนป่า {B_OPPONENT_MON1_NAME} ปรากฏตัว!\p,1,1,,127,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0375,sText_WildPkmnAppeared,src/battle_message.c,Wild {B_OPPONENT_MON1_NAME} appeared!\p,โปเกมอนป่า {B_OPPONENT_MON1_NAME} ปรากฏตัว!\p,1,1,,127,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0412,sText_SpaceIs,src/battle_message.c, is, คือ,1,1,,17,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending

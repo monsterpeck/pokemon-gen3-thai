@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_StatSharply,"src/battle_message.c:716:    [STRINGID_STATSHARPLY - BATTLESTRINGS_TABLE_START] = sText_StatSharply,"
+sText_StatHarshly,"src/battle_message.c:718:    [STRINGID_STATHARSHLY - BATTLESTRINGS_TABLE_START] = sText_StatHarshly,"
+sText_AndEllipsis,"src/battle_message.c:727:    [STRINGID_ANDELLIPSIS - BATTLESTRINGS_TABLE_START] = sText_AndEllipsis,"
+sText_CantEscape,"src/battle_message.c:733:    [STRINGID_CANTESCAPE - BATTLESTRINGS_TABLE_START] = sText_CantEscape,"
+sText_DontLeaveBirch,"src/battle_message.c:734:    [STRINGID_DONTLEAVEBIRCH - BATTLESTRINGS_TABLE_START] = sText_DontLeaveBirch,"
+sText_CantEscape2,"src/battle_message.c:781:    [STRINGID_CANTESCAPE2 - BATTLESTRINGS_TABLE_START] = sText_CantEscape2,"
+sText_ABoosted,"src/battle_message.c:837:    [STRINGID_ABOOSTED - BATTLESTRINGS_TABLE_START] = sText_ABoosted,"
+sText_LegendaryPkmnAppeared,src/battle_message.c:2025:                stringPtr = sText_LegendaryPkmnAppeared;
+sText_WildPkmnAppeared,src/battle_message.c:2031:                stringPtr = sText_WildPkmnAppeared;
+sText_SpaceIs,"src/battle_message.c:2898:            StringCopy(textBuff, sText_SpaceIs); // is"
