@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_ItIsRaining,"src/battle_message.c:779:    [STRINGID_ITISRAINING - BATTLESTRINGS_TABLE_START] = sText_ItIsRaining,"
+sText_SandstormIsRaging,"src/battle_message.c:780:    [STRINGID_SANDSTORMISRAGING - BATTLESTRINGS_TABLE_START] = sText_SandstormIsRaging,"
+sText_PkmnBeganToNap,"src/battle_message.c:784:    [STRINGID_PKMNBEGANTONAP - BATTLESTRINGS_TABLE_START] = sText_PkmnBeganToNap,"
+sText_PkmnTurnedAway,"src/battle_message.c:787:    [STRINGID_PKMNTURNEDAWAY - BATTLESTRINGS_TABLE_START] = sText_PkmnTurnedAway,"
+sText_CantGetCloser,"src/battle_message.c:791:    [STRINGID_CANTGETCLOSER - BATTLESTRINGS_TABLE_START] = sText_CantGetCloser,"
+sText_PkmnTransformed,"src/battle_message.c:821:    [STRINGID_PKMNTRANSFORMED - BATTLESTRINGS_TABLE_START] = sText_PkmnTransformed,"
+sText_PkmnSprangUp,"src/battle_message.c:825:    [STRINGID_PKMNSPRANGUP - BATTLESTRINGS_TABLE_START] = sText_PkmnSprangUp,"
+sText_UseNextPkmn,"src/battle_message.c:844:    [STRINGID_USENEXTPKMN - BATTLESTRINGS_TABLE_START] = sText_UseNextPkmn,"
+sText_TheWallShattered,"src/battle_message.c:861:    [STRINGID_THEWALLSHATTERED - BATTLESTRINGS_TABLE_START] = sText_TheWallShattered,"
+sText_AttackerCantEscape,"src/battle_message.c:864:    [STRINGID_ATTACKERCANTESCAPE - BATTLESTRINGS_TABLE_START] = sText_AttackerCantEscape,"

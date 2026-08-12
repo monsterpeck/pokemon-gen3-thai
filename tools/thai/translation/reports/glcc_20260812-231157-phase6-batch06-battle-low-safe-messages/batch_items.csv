@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0261,sText_ItIsRaining,src/battle_message.c,It is raining.,ฝนกำลังตก.,1,1,,55,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0262,sText_SandstormIsRaging,src/battle_message.c,A sandstorm is raging.,พายุทรายกำลังโหมกระหน่ำ.,1,1,,121,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0266,sText_PkmnBeganToNap,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} began to nap!,{B_ATK_NAME_WITH_PREFIX} เริ่มงีบหลับ!,1,1,,60,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0269,sText_PkmnTurnedAway,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} turned away!,{B_ATK_NAME_WITH_PREFIX} หันหน้าหนี!,1,1,,61,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0273,sText_CantGetCloser,src/battle_message.c,{B_PLAYER_NAME} can't get any closer!,{B_PLAYER_NAME} เข้าใกล้กว่านี้ไม่ได้!,1,1,,94,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0303,sText_PkmnTransformed,src/battle_message.c,{B_SCR_ACTIVE_NAME_WITH_PREFIX} transformed!,{B_SCR_ACTIVE_NAME_WITH_PREFIX} แปลงร่างแล้ว!,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0307,sText_PkmnSprangUp,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} sprang up!,{B_ATK_NAME_WITH_PREFIX} กระโดดขึ้น!,1,1,,63,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0326,sText_UseNextPkmn,src/battle_message.c,Use next POKéMON?,ใช้โปเกมอนตัวต่อไปไหม?,1,1,,122,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0343,sText_TheWallShattered,src/battle_message.c,The wall shattered!,กำแพงพังทลาย!,1,1,,72,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0346,sText_AttackerCantEscape,src/battle_message.c,{B_ATK_NAME_WITH_PREFIX} can't escape!,{B_ATK_NAME_WITH_PREFIX} หนีไม่ได้!,1,1,,53,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
