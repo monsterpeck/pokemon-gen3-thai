@@ -1,0 +1,6 @@
+﻿symbol,visual_qa_status,note
+sText_PkmnTookAim,proof_passed,"Batch 33 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_PkmnSketchedMove,proof_passed,"Batch 33 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_PkmnTryingToTakeFoe,proof_passed,"Batch 33 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_PkmnTookFoe,proof_passed,"Batch 33 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_PkmnReducedPP,proof_passed,"Batch 33 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
