@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0002,sText_PkmnGainedEXP,src/battle_message.c,"{B_BUFF1} gained{B_BUFF2}
+{B_BUFF3} EXP. Points!\p","{B_BUFF1} ได้รับ{B_BUFF2}
+EXP {B_BUFF3} แต้ม!\p",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0003,sText_PkmnGrewToLv,src/battle_message.c,"{B_BUFF1} grew to
+LV. {B_BUFF2}!{WAIT_SE}\p","เลเวลของ {B_BUFF1} เพิ่มเป็น
+{B_BUFF2}!{WAIT_SE}\p",1,1,,128,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0004,sText_PkmnLearnedMove,src/battle_message.c,"{B_BUFF1} learned
+{B_BUFF2}!{WAIT_SE}\p","{B_BUFF1} เรียนรู้
+{B_BUFF2}!{WAIT_SE}\p",1,1,,73,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0005,sText_TryToLearnMove1,src/battle_message.c,"{B_BUFF1} is trying to
+learn {B_BUFF2}.\p","{B_BUFF1} กำลังพยายาม
+เรียนรู้ {B_BUFF2}.\p",1,1,,132,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0006,sText_TryToLearnMove2,src/battle_message.c,"But, {B_BUFF1} can't learn
+more than four moves.\p","แต่ {B_BUFF1} เรียนรู้ท่า
+เกิน 4 ท่าไม่ได้.\p",1,1,,173,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

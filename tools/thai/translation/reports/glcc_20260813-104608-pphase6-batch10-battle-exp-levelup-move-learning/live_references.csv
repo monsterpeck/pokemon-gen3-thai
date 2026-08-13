@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnGainedEXP,"src/battle_message.c:520:    [STRINGID_PKMNGAINEDEXP - BATTLESTRINGS_TABLE_START] = sText_PkmnGainedEXP,"
+sText_PkmnGrewToLv,"src/battle_message.c:521:    [STRINGID_PKMNGREWTOLV - BATTLESTRINGS_TABLE_START] = sText_PkmnGrewToLv,"
+sText_PkmnLearnedMove,"src/battle_message.c:522:    [STRINGID_PKMNLEARNEDMOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnLearnedMove,"
+sText_TryToLearnMove1,"src/battle_message.c:523:    [STRINGID_TRYTOLEARNMOVE1 - BATTLESTRINGS_TABLE_START] = sText_TryToLearnMove1,"
+sText_TryToLearnMove2,"src/battle_message.c:524:    [STRINGID_TRYTOLEARNMOVE2 - BATTLESTRINGS_TABLE_START] = sText_TryToLearnMove2,"
