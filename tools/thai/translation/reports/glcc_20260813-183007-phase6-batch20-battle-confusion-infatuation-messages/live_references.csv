@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnHealedConfusion,"src/battle_message.c:573:    [STRINGID_PKMNHEALEDCONFUSION - BATTLESTRINGS_TABLE_START] = sText_PkmnHealedConfusion,"
+sText_PkmnWasConfused,"src/battle_message.c:574:    [STRINGID_PKMNWASCONFUSED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasConfused,"
+sText_PkmnAlreadyConfused,"src/battle_message.c:575:    [STRINGID_PKMNALREADYCONFUSED - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyConfused,"
+sText_PkmnFellInLove,"src/battle_message.c:576:    [STRINGID_PKMNFELLINLOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnFellInLove,"
+sText_PkmnInLove,"src/battle_message.c:577:    [STRINGID_PKMNINLOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnInLove,"

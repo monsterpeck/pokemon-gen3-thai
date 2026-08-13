@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0055,sText_PkmnHealedConfusion,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} snapped
+out of confusion!","{B_ATK_NAME_WITH_PREFIX}
+หายสับสนแล้ว!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0056,sText_PkmnWasConfused,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX} became
+confused!","{B_EFF_NAME_WITH_PREFIX}
+เกิดอาการสับสน!",1,1,,93,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0057,sText_PkmnAlreadyConfused,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} is
+already confused!","{B_DEF_NAME_WITH_PREFIX}
+สับสนอยู่แล้ว!",1,1,,82,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0058,sText_PkmnFellInLove,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}
+fell in love!","{B_DEF_NAME_WITH_PREFIX}
+ตกหลุมรัก!",1,1,,68,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0059,sText_PkmnInLove,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is in love
+with {B_SCR_ACTIVE_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} หลงรัก
+{B_SCR_ACTIVE_NAME_WITH_PREFIX}!",1,1,,56,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

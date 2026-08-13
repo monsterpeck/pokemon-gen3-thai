@@ -154,15 +154,20 @@ SM0054,local:src/battle_message.c:sText_PkmnIsConfused,sText_PkmnIsConfused,"{B_
 confused!","{B_ATK_NAME_WITH_PREFIX}
 สับสน!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,114,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-174650-phase6-batch19-battle-stat-team-confusion-messages: preview/build passed; visual QA pending.; GLCC 20260813-174650-phase6-batch19-battle-stat-team-confusion-messages: visual QA passed. Batch 19 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0055,local:src/battle_message.c:sText_PkmnHealedConfusion,sText_PkmnHealedConfusion,"{B_ATK_NAME_WITH_PREFIX} snapped
-out of confusion!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,115,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+out of confusion!","{B_ATK_NAME_WITH_PREFIX}
+หายสับสนแล้ว!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,115,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-183007-phase6-batch20-battle-confusion-infatuation-messages: preview/build passed; visual QA pending.
 SM0056,local:src/battle_message.c:sText_PkmnWasConfused,sText_PkmnWasConfused,"{B_EFF_NAME_WITH_PREFIX} became
-confused!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,116,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+confused!","{B_EFF_NAME_WITH_PREFIX}
+เกิดอาการสับสน!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,116,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-183007-phase6-batch20-battle-confusion-infatuation-messages: preview/build passed; visual QA pending.
 SM0057,local:src/battle_message.c:sText_PkmnAlreadyConfused,sText_PkmnAlreadyConfused,"{B_DEF_NAME_WITH_PREFIX} is
-already confused!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,117,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+already confused!","{B_DEF_NAME_WITH_PREFIX}
+สับสนอยู่แล้ว!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,117,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-183007-phase6-batch20-battle-confusion-infatuation-messages: preview/build passed; visual QA pending.
 SM0058,local:src/battle_message.c:sText_PkmnFellInLove,sText_PkmnFellInLove,"{B_DEF_NAME_WITH_PREFIX}
-fell in love!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,118,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+fell in love!","{B_DEF_NAME_WITH_PREFIX}
+ตกหลุมรัก!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,118,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-183007-phase6-batch20-battle-confusion-infatuation-messages: preview/build passed; visual QA pending.
 SM0059,local:src/battle_message.c:sText_PkmnInLove,sText_PkmnInLove,"{B_ATK_NAME_WITH_PREFIX} is in love
-with {B_SCR_ACTIVE_NAME_WITH_PREFIX}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,119,2,{B_ATK_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+with {B_SCR_ACTIVE_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} หลงรัก
+{B_SCR_ACTIVE_NAME_WITH_PREFIX}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,119,2,{B_ATK_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-183007-phase6-batch20-battle-confusion-infatuation-messages: preview/build passed; visual QA pending.
 SM0060,local:src/battle_message.c:sText_PkmnImmobilizedByLove,sText_PkmnImmobilizedByLove,"{B_ATK_NAME_WITH_PREFIX} is
 immobilized by love!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,120,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0061,local:src/battle_message.c:sText_PkmnBlownAway,sText_PkmnBlownAway,"{B_DEF_NAME_WITH_PREFIX} was
