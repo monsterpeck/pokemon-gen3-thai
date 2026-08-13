@@ -139,15 +139,15 @@ SM0049,local:src/battle_message.c:sText_PkmnDreamEaten,sText_PkmnDreamEaten,"{B_
 dream was eaten!","ความฝันของ {B_DEF_NAME_WITH_PREFIX}
 ถูกกลืนกิน!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,109,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-173022-phase6-batch18-battle-paralysis-dream-status-messages: preview/build passed; visual QA pending.; GLCC 20260813-173022-phase6-batch18-battle-paralysis-dream-status-messages: visual QA passed. Batch 18 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0050,local:src/battle_message.c:sText_StatsWontIncrease,sText_StatsWontIncrease,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}
-won't go higher!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,110,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+won't go higher!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,110,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0051,local:src/battle_message.c:sText_StatsWontDecrease,sText_StatsWontDecrease,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
-won't go lower!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,111,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+won't go lower!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,111,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0052,local:src/battle_message.c:sText_TeamStoppedWorking,sText_TeamStoppedWorking,"Your team's {B_BUFF1}
-stopped working!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,112,2,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+stopped working!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,112,2,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0053,local:src/battle_message.c:sText_FoeStoppedWorking,sText_FoeStoppedWorking,"The foe's {B_BUFF1}
-stopped working!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,113,2,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+stopped working!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,113,2,{B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0054,local:src/battle_message.c:sText_PkmnIsConfused,sText_PkmnIsConfused,"{B_ATK_NAME_WITH_PREFIX} is
-confused!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,114,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+confused!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,114,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0055,local:src/battle_message.c:sText_PkmnHealedConfusion,sText_PkmnHealedConfusion,"{B_ATK_NAME_WITH_PREFIX} snapped
 out of confusion!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,115,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0056,local:src/battle_message.c:sText_PkmnWasConfused,sText_PkmnWasConfused,"{B_EFF_NAME_WITH_PREFIX} became
