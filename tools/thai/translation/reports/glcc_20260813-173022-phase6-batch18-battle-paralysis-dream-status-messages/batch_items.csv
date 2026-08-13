@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0045,sText_PkmnWasParalyzedBy,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+paralyzed {B_EFF_NAME_WITH_PREFIX}!\lIt may be unable to move!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ {B_EFF_NAME_WITH_PREFIX} เป็นอัมพาต!\lอาจขยับไม่ได้!",1,1,,212,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0046,sText_PkmnIsParalyzed,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is paralyzed!
+It can't move!","{B_ATK_NAME_WITH_PREFIX} เป็นอัมพาต!
+ขยับไม่ได้!",1,1,,132,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0047,sText_PkmnIsAlreadyParalyzed,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} is
+already paralyzed!","{B_DEF_NAME_WITH_PREFIX}
+เป็นอัมพาตอยู่แล้ว!",1,1,,106,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0048,sText_PkmnHealedParalysis,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was
+healed of paralysis!","{B_DEF_NAME_WITH_PREFIX}
+หายจากอัมพาตแล้ว!",1,1,,108,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0049,sText_PkmnDreamEaten,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s
+dream was eaten!","ความฝันของ {B_DEF_NAME_WITH_PREFIX}
+ถูกกลืนกิน!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

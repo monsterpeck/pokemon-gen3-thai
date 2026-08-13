@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-173022-phase6-batch18-battle-paralysis-dream-status-messages",
+  "locked_head": "9ad0a9f874d3f3c63e1cc32a38793a8eeda6c599",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 118,
+    "pending": 300,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 118,
+    "pending": 295,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "d302ed3d1b228a5875d3225955dec238fe7dcb840f72de4f4903e6260343f1a5",
+  "normal_rom_sha256": "d302ed3d1b228a5875d3225955dec238fe7dcb840f72de4f4903e6260343f1a5"
+}

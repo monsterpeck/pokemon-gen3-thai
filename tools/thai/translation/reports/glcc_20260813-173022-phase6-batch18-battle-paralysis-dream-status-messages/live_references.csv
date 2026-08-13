@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnWasParalyzedBy,"src/battle_message.c:563:    [STRINGID_PKMNWASPARALYZEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnWasParalyzedBy,"
+sText_PkmnIsParalyzed,"src/battle_message.c:564:    [STRINGID_PKMNISPARALYZED - BATTLESTRINGS_TABLE_START] = sText_PkmnIsParalyzed,"
+sText_PkmnIsAlreadyParalyzed,"src/battle_message.c:565:    [STRINGID_PKMNISALREADYPARALYZED - BATTLESTRINGS_TABLE_START] = sText_PkmnIsAlreadyParalyzed,"
+sText_PkmnHealedParalysis,"src/battle_message.c:566:    [STRINGID_PKMNHEALEDPARALYSIS - BATTLESTRINGS_TABLE_START] = sText_PkmnHealedParalysis,"
+sText_PkmnDreamEaten,"src/battle_message.c:567:    [STRINGID_PKMNDREAMEATEN - BATTLESTRINGS_TABLE_START] = sText_PkmnDreamEaten,"
