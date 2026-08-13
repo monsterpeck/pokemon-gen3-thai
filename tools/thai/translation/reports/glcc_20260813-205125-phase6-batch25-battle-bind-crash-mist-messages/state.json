@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-205125-phase6-batch25-battle-bind-crash-mist-messages",
   "locked_head": "13177c3ccc83f8195f602d2201a2f2033efe91e5",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 153,
     "pending": 265,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "6d03e785aa56662e25ab525c6a4cf2023937bc4d108f9d4a7511dadc1747b614",
-  "normal_rom_sha256": "6d03e785aa56662e25ab525c6a4cf2023937bc4d108f9d4a7511dadc1747b614"
+  "normal_rom_sha256": "6d03e785aa56662e25ab525c6a4cf2023937bc4d108f9d4a7511dadc1747b614",
+  "qa_note": "Batch 25 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
