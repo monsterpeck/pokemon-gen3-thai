@@ -1,0 +1,5 @@
+﻿symbol,visual_qa_status,note
+sText_Trainer1LoseText,proof_passed,"Batch 09 QA Gallery reviewed: 4/4 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_Trainer2LoseText,proof_passed,"Batch 09 QA Gallery reviewed: 4/4 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_Trainer1WinText,proof_passed,"Batch 09 QA Gallery reviewed: 4/4 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
+sText_Trainer2WinText,proof_passed,"Batch 09 QA Gallery reviewed: 4/4 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
