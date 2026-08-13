@@ -16,15 +16,15 @@ SM0006,local:src/battle_message.c:sText_TryToLearnMove2,sText_TryToLearnMove2,"B
 more than four moves.\p","แต่ {B_BUFF1} เรียนรู้ท่า
 เกิน 4 ท่าไม่ได้.\p",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,62,2,{B_BUFF1}; \p,yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-104608-pphase6-batch10-battle-exp-levelup-move-learning: preview/build passed; visual QA pending.; GLCC 20260813-104608-pphase6-batch10-battle-exp-levelup-move-learning: visual QA passed. Batch 10 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0007,local:src/battle_message.c:sText_TryToLearnMove3,sText_TryToLearnMove3,"Delete a move to make
-room for {B_BUFF2}?",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,63,2,{B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+room for {B_BUFF2}?",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,63,2,{B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0008,local:src/battle_message.c:sText_PkmnForgotMove,sText_PkmnForgotMove,"{B_BUFF1} forgot
-{B_BUFF2}.\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,64,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF2}.\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,64,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0009,local:src/battle_message.c:sText_StopLearningMove,sText_StopLearningMove,"{PAUSE 32}Stop learning
-{B_BUFF2}?",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,65,2,{PAUSE 32}; {B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF2}?",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,65,2,{PAUSE 32}; {B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0010,local:src/battle_message.c:sText_DidNotLearnMove,sText_DidNotLearnMove,"{B_BUFF1} did not learn
-{B_BUFF2}.\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,66,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF2}.\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,66,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0011,local:src/battle_message.c:sText_PkmnLearnedMove2,sText_PkmnLearnedMove2,"{B_ATK_NAME_WITH_PREFIX} learned
-{B_BUFF1}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,370,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF1}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,370,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0012,local:src/battle_message.c:sText_AttackMissed,sText_AttackMissed,"{B_ATK_NAME_WITH_PREFIX}'s
 attack missed!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,68,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0013,local:src/battle_message.c:sText_PkmnProtectedItself,sText_PkmnProtectedItself,"{B_DEF_NAME_WITH_PREFIX}
