@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0012,sText_AttackMissed,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s
+attack missed!","{B_ATK_NAME_WITH_PREFIX} โจมตี
+พลาดเป้า!",1,1,,93,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0013,sText_PkmnProtectedItself,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}
+protected itself!","{B_DEF_NAME_WITH_PREFIX}
+ป้องกันตัวเอง!",1,1,,82,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0014,sText_StatsWontIncrease2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s stats won't
+go any higher!","ค่าสถานะของ {B_ATK_NAME_WITH_PREFIX}
+เพิ่มไปกว่านี้ไม่ได้!",1,1,,166,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0015,sText_AvoidedDamage,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} avoided
+damage with {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} หลบ
+ความเสียหายด้วย {B_DEF_ABILITY}!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0016,sText_ItDoesntAffect,src/battle_message.c,"It doesn't affect
+{B_DEF_NAME_WITH_PREFIX}…","ไม่มีผลต่อ
+{B_DEF_NAME_WITH_PREFIX}…",1,1,,69,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

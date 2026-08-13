@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_AttackMissed,"src/battle_message.c:530:    [STRINGID_ATTACKMISSED - BATTLESTRINGS_TABLE_START] = sText_AttackMissed,"
+sText_PkmnProtectedItself,"src/battle_message.c:531:    [STRINGID_PKMNPROTECTEDITSELF - BATTLESTRINGS_TABLE_START] = sText_PkmnProtectedItself,"
+sText_StatsWontIncrease2,"src/battle_message.c:532:    [STRINGID_STATSWONTINCREASE2 - BATTLESTRINGS_TABLE_START] = sText_StatsWontIncrease2,"
+sText_AvoidedDamage,"src/battle_message.c:533:    [STRINGID_AVOIDEDDAMAGE - BATTLESTRINGS_TABLE_START] = sText_AvoidedDamage,"
+sText_ItDoesntAffect,"src/battle_message.c:534:    [STRINGID_ITDOESNTAFFECT - BATTLESTRINGS_TABLE_START] = sText_ItDoesntAffect,"
