@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-170911-phase6-batch16-battle-drain-burn-freeze-messages",
   "locked_head": "f7fd40f8e3e042752402677c854825da313113cb",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 108,
     "pending": 310,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "d56640676cd38c6793e46052df2eeed9e2413fbeaa8dbefcd7a1e2f48b05294f",
-  "normal_rom_sha256": "d56640676cd38c6793e46052df2eeed9e2413fbeaa8dbefcd7a1e2f48b05294f"
+  "normal_rom_sha256": "d56640676cd38c6793e46052df2eeed9e2413fbeaa8dbefcd7a1e2f48b05294f",
+  "qa_note": "Batch 16 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
