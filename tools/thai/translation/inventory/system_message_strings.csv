@@ -185,15 +185,15 @@ SM0065,local:src/battle_message.c:sText_PkmnHPFull,sText_PkmnHPFull,"{B_DEF_NAME
 HP is full!","{B_DEF_NAME_WITH_PREFIX}
 HP เต็มแล้ว!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,125,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-200747-phase6-batch21-battle-love-type-health-messages: preview/build passed; visual QA pending.; GLCC 20260813-200747-phase6-batch21-battle-love-type-health-messages: visual QA passed. Batch 21 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0066,local:src/battle_message.c:sText_PkmnRaisedSpDef,sText_PkmnRaisedSpDef,"{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}
-raised SP. DEF!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,126,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+raised SP. DEF!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,126,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0067,local:src/battle_message.c:sText_PkmnRaisedDef,sText_PkmnRaisedDef,"{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}
-raised DEFENSE!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,128,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+raised DEFENSE!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,128,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0068,local:src/battle_message.c:sText_PkmnCoveredByVeil,sText_PkmnCoveredByVeil,"{B_ATK_PREFIX2}'s party is covered
-by a veil!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,130,2,{B_ATK_PREFIX2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+by a veil!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,130,2,{B_ATK_PREFIX2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0069,local:src/battle_message.c:sText_PkmnUsedSafeguard,sText_PkmnUsedSafeguard,"{B_DEF_NAME_WITH_PREFIX}'s party is protected
-by SAFEGUARD!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,131,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+by SAFEGUARD!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,131,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0070,local:src/battle_message.c:sText_PkmnSafeguardExpired,sText_PkmnSafeguardExpired,"{B_ATK_PREFIX3}'s party is no longer
-protected by SAFEGUARD!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,132,2,{B_ATK_PREFIX3},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+protected by SAFEGUARD!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,132,2,{B_ATK_PREFIX3},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0071,local:src/battle_message.c:sText_PkmnWentToSleep,sText_PkmnWentToSleep,"{B_ATK_NAME_WITH_PREFIX} went
 to sleep!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,133,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0072,local:src/battle_message.c:sText_PkmnSleptHealthy,sText_PkmnSleptHealthy,"{B_ATK_NAME_WITH_PREFIX} slept and
