@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-134027-phase6-batch13-battle-faint-money-escape-messages",
+  "locked_head": "9e42352782c939eed4b62d733ea8e6e4263e1d96",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 93,
+    "pending": 325,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 93,
+    "translated_pending_qa": 5,
+    "pending": 320,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "afbeeaef6b2d830b77a38dffdd15705fa51e8600fb9865950d5f365ae43993da",
+  "normal_rom_sha256": "afbeeaef6b2d830b77a38dffdd15705fa51e8600fb9865950d5f365ae43993da"
+}

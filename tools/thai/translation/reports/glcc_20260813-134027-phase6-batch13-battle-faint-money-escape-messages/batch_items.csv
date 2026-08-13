@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0017,sText_AttackerFainted,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}
+fainted!\p","{B_ATK_NAME_WITH_PREFIX}
+หมดสภาพ!\p",1,1,,86,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0018,sText_TargetFainted,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}
+fainted!\p","{B_DEF_NAME_WITH_PREFIX}
+หมดสภาพ!\p",1,1,,86,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0019,sText_PlayerGotMoney,src/battle_message.c,"{B_PLAYER_NAME} got ¥{B_BUFF1}
+for winning!\p","{B_PLAYER_NAME} ได้รับเงิน ¥{B_BUFF1}
+จากชัยชนะ!\p",1,1,,145,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0020,sText_PlayerWhiteout,src/battle_message.c,"{B_PLAYER_NAME} is out of
+usable POKéMON!\p","{B_PLAYER_NAME} ไม่มี
+โปเกมอนที่ต่อสู้ได้!\p",1,1,,146,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0022,sText_PreventsEscape,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents
+escape with {B_SCR_ACTIVE_ABILITY}!\p","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ป้องกัน
+การหนีด้วย {B_SCR_ACTIVE_ABILITY}!\p",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

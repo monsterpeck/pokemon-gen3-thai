@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_AttackerFainted,"src/battle_message.c:535:    [STRINGID_ATTACKERFAINTED - BATTLESTRINGS_TABLE_START] = sText_AttackerFainted,"
+sText_TargetFainted,"src/battle_message.c:536:    [STRINGID_TARGETFAINTED - BATTLESTRINGS_TABLE_START] = sText_TargetFainted,"
+sText_PlayerGotMoney,"src/battle_message.c:537:    [STRINGID_PLAYERGOTMONEY - BATTLESTRINGS_TABLE_START] = sText_PlayerGotMoney,"
+sText_PlayerWhiteout,"src/battle_message.c:538:    [STRINGID_PLAYERWHITEOUT - BATTLESTRINGS_TABLE_START] = sText_PlayerWhiteout,"
+sText_PreventsEscape,"src/battle_message.c:540:    [STRINGID_PREVENTSESCAPE - BATTLESTRINGS_TABLE_START] = sText_PreventsEscape,"
