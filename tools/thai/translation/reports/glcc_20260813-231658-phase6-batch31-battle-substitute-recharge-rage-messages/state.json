@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-231658-phase6-batch31-battle-substitute-recharge-rage-messages",
   "locked_head": "da05648d814e73c6d5c8fb2b3581ddab61a80e13",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 183,
     "pending": 235,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "0863c27281c12a659631e6ffd6681eaa8e4c14b5855c210cf2724401c5a87bbb",
-  "normal_rom_sha256": "0863c27281c12a659631e6ffd6681eaa8e4c14b5855c210cf2724401c5a87bbb"
+  "normal_rom_sha256": "0863c27281c12a659631e6ffd6681eaa8e4c14b5855c210cf2724401c5a87bbb",
+  "qa_note": "Batch 31 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
