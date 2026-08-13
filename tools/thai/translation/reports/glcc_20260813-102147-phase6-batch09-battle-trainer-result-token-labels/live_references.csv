@@ -1,0 +1,5 @@
+﻿symbol,reference
+sText_Trainer1LoseText,"src/battle_message.c:519:    [STRINGID_TRAINER1LOSETEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer1LoseText,"
+sText_Trainer2LoseText,"src/battle_message.c:871:    [STRINGID_TRAINER2LOSETEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer2LoseText,"
+sText_Trainer1WinText,"src/battle_message.c:886:    [STRINGID_TRAINER1WINTEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer1WinText,"
+sText_Trainer2WinText,"src/battle_message.c:887:    [STRINGID_TRAINER2WINTEXT - BATTLESTRINGS_TABLE_START] = sText_Trainer2WinText,"

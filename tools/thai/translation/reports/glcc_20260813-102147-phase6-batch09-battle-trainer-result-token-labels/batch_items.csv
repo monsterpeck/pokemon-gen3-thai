@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0001,sText_Trainer1LoseText,src/battle_message.c,{B_TRAINER1_LOSE_TEXT},{B_TRAINER1_LOSE_TEXT},1,1,,,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0353,sText_Trainer2LoseText,src/battle_message.c,{B_TRAINER2_LOSE_TEXT},{B_TRAINER2_LOSE_TEXT},1,1,,,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0364,sText_Trainer1WinText,src/battle_message.c,{B_TRAINER1_WIN_TEXT},{B_TRAINER1_WIN_TEXT},1,1,,,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0365,sText_Trainer2WinText,src/battle_message.c,{B_TRAINER2_WIN_TEXT},{B_TRAINER2_WIN_TEXT},1,1,,,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
