@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0040,sText_PkmnIsFrozen,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is
+frozen solid!","{B_ATK_NAME_WITH_PREFIX}
+ถูกแช่แข็งอยู่!",1,1,,78,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0041,sText_PkmnWasDefrosted,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was
+defrosted!","{B_DEF_NAME_WITH_PREFIX}
+ละลายจากน้ำแข็งแล้ว!",1,1,,114,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0042,sText_PkmnWasDefrosted2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} was
+defrosted!","{B_ATK_NAME_WITH_PREFIX}
+ละลายจากน้ำแข็งแล้ว!",1,1,,114,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0043,sText_PkmnWasDefrostedBy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} was
+defrosted by {B_CURRENT_MOVE}!","{B_ATK_NAME_WITH_PREFIX} ละลายจากน้ำแข็ง
+ด้วย {B_CURRENT_MOVE}!",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0044,sText_PkmnWasParalyzed,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX} is paralyzed!
+It may be unable to move!","{B_EFF_NAME_WITH_PREFIX} เป็นอัมพาต!
+อาจขยับไม่ได้!",1,1,,148,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

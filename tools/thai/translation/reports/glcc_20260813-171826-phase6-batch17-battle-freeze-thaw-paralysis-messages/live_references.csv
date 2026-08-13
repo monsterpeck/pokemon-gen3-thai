@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnIsFrozen,"src/battle_message.c:558:    [STRINGID_PKMNISFROZEN - BATTLESTRINGS_TABLE_START] = sText_PkmnIsFrozen,"
+sText_PkmnWasDefrosted,"src/battle_message.c:559:    [STRINGID_PKMNWASDEFROSTED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasDefrosted,"
+sText_PkmnWasDefrosted2,"src/battle_message.c:560:    [STRINGID_PKMNWASDEFROSTED2 - BATTLESTRINGS_TABLE_START] = sText_PkmnWasDefrosted2,"
+sText_PkmnWasDefrostedBy,"src/battle_message.c:561:    [STRINGID_PKMNWASDEFROSTEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnWasDefrostedBy,"
+sText_PkmnWasParalyzed,"src/battle_message.c:562:    [STRINGID_PKMNWASPARALYZED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasParalyzed,"

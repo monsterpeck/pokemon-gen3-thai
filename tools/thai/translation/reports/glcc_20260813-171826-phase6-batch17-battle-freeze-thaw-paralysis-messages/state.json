@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-171826-phase6-batch17-battle-freeze-thaw-paralysis-messages",
+  "locked_head": "7636942ecd266dd70da07957c01e7800d60d147e",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 113,
+    "pending": 305,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 113,
+    "pending": 300,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "9910d06b2ff7e4b92e501fd287aea40450373bdc8fc267ce6436a086d099a7b1",
+  "normal_rom_sha256": "9910d06b2ff7e4b92e501fd287aea40450373bdc8fc267ce6436a086d099a7b1"
+}
