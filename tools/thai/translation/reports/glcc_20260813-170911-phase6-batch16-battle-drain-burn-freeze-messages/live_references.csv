@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnEnergyDrained,"src/battle_message.c:552:    [STRINGID_PKMNENERGYDRAINED - BATTLESTRINGS_TABLE_START] = sText_PkmnEnergyDrained,"
+sText_PkmnBurnedBy,"src/battle_message.c:554:    [STRINGID_PKMNBURNEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnBurnedBy,"
+sText_PkmnHurtByBurn,"src/battle_message.c:555:    [STRINGID_PKMNHURTBYBURN - BATTLESTRINGS_TABLE_START] = sText_PkmnHurtByBurn,"
+sText_PkmnWasFrozen,"src/battle_message.c:556:    [STRINGID_PKMNWASFROZEN - BATTLESTRINGS_TABLE_START] = sText_PkmnWasFrozen,"
+sText_PkmnFrozenBy,"src/battle_message.c:557:    [STRINGID_PKMNFROZENBY - BATTLESTRINGS_TABLE_START] = sText_PkmnFrozenBy,"

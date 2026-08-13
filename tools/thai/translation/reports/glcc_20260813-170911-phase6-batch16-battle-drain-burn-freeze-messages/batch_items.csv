@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0034,sText_PkmnEnergyDrained,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} had its
+energy drained!","{B_DEF_NAME_WITH_PREFIX} ถูกดูด
+พลังไป!",1,1,,85,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0036,sText_PkmnBurnedBy,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+burned {B_EFF_NAME_WITH_PREFIX}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ {B_EFF_NAME_WITH_PREFIX} ถูกไฟไหม้!",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0037,sText_PkmnHurtByBurn,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is hurt
+by its burn!","{B_ATK_NAME_WITH_PREFIX} บาดเจ็บ
+จากไฟไหม้!",1,1,,113,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0038,sText_PkmnWasFrozen,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX} was
+frozen solid!","{B_EFF_NAME_WITH_PREFIX}
+ถูกแช่แข็ง!",1,1,,66,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0039,sText_PkmnFrozenBy,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+froze {B_EFF_NAME_WITH_PREFIX} solid!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ {B_EFF_NAME_WITH_PREFIX} ถูกแช่แข็ง!",1,1,,118,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
