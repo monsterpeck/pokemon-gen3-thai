@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnCausedUproar,"src/battle_message.c:618:    [STRINGID_PKMNCAUSEDUPROAR - BATTLESTRINGS_TABLE_START] = sText_PkmnCausedUproar,"
+sText_PkmnMakingUproar,"src/battle_message.c:619:    [STRINGID_PKMNMAKINGUPROAR - BATTLESTRINGS_TABLE_START] = sText_PkmnMakingUproar,"
+sText_PkmnCantSleepInUproar,"src/battle_message.c:621:    [STRINGID_PKMNCANTSLEEPINUPROAR - BATTLESTRINGS_TABLE_START] = sText_PkmnCantSleepInUproar,"
+sText_PkmnStockpiled,"src/battle_message.c:622:    [STRINGID_PKMNSTOCKPILED - BATTLESTRINGS_TABLE_START] = sText_PkmnStockpiled,"
+sText_PkmnCantStockpile,"src/battle_message.c:623:    [STRINGID_PKMNCANTSTOCKPILE - BATTLESTRINGS_TABLE_START] = sText_PkmnCantStockpile,"

@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0100,sText_PkmnCausedUproar,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} caused
+an UPROAR!","{B_ATK_NAME_WITH_PREFIX}
+ก่อเสียงโกลาหล!",1,1,,90,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0101,sText_PkmnMakingUproar,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is making
+an UPROAR!","{B_ATK_NAME_WITH_PREFIX}
+กำลังก่อเสียงโกลาหล!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0103,sText_PkmnCantSleepInUproar,src/battle_message.c,"But {B_DEF_NAME_WITH_PREFIX} can't
+sleep in an UPROAR!","แต่ {B_DEF_NAME_WITH_PREFIX}
+หลับไม่ได้เพราะเสียงโกลาหล!",1,1,,168,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0104,sText_PkmnStockpiled,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} STOCKPILED
+{B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX}
+สะสมพลัง {B_BUFF1}!",1,1,,70,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0105,sText_PkmnCantStockpile,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} can't
+STOCKPILE any more!","{B_ATK_NAME_WITH_PREFIX}
+สะสมพลังเพิ่มไม่ได้แล้ว!",1,1,,130,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

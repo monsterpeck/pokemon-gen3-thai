@@ -279,16 +279,21 @@ SM0099,local:src/battle_message.c:sText_PkmnWokeUpInUproar,sText_PkmnWokeUpInUpr
 in the UPROAR!","{B_ATK_NAME_WITH_PREFIX} ตื่นขึ้น
 เพราะเสียงโกลาหล!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,165,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-212758-phase6-batch27-battle-evasion-sleep-uproar-messages: preview/build passed; visual QA pending.; GLCC 20260813-212758-phase6-batch27-battle-evasion-sleep-uproar-messages: visual QA passed. Batch 27 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0100,local:src/battle_message.c:sText_PkmnCausedUproar,sText_PkmnCausedUproar,"{B_ATK_NAME_WITH_PREFIX} caused
-an UPROAR!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,166,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+an UPROAR!","{B_ATK_NAME_WITH_PREFIX}
+ก่อเสียงโกลาหล!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,166,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.
 SM0101,local:src/battle_message.c:sText_PkmnMakingUproar,sText_PkmnMakingUproar,"{B_ATK_NAME_WITH_PREFIX} is making
-an UPROAR!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,167,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+an UPROAR!","{B_ATK_NAME_WITH_PREFIX}
+กำลังก่อเสียงโกลาหล!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,167,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.
 SM0102,local:src/battle_message.c:sText_PkmnCalmedDown,sText_PkmnCalmedDown,{B_ATK_NAME_WITH_PREFIX} calmed down.,{B_ATK_NAME_WITH_PREFIX} สงบลงแล้ว.,proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,168,1,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: preview/build passed; visual QA pending.; GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: visual QA passed. Batch 02 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0103,local:src/battle_message.c:sText_PkmnCantSleepInUproar,sText_PkmnCantSleepInUproar,"But {B_DEF_NAME_WITH_PREFIX} can't
-sleep in an UPROAR!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,169,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+sleep in an UPROAR!","แต่ {B_DEF_NAME_WITH_PREFIX}
+หลับไม่ได้เพราะเสียงโกลาหล!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,169,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.
 SM0104,local:src/battle_message.c:sText_PkmnStockpiled,sText_PkmnStockpiled,"{B_ATK_NAME_WITH_PREFIX} STOCKPILED
-{B_BUFF1}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,170,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX}
+สะสมพลัง {B_BUFF1}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,170,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.
 SM0105,local:src/battle_message.c:sText_PkmnCantStockpile,sText_PkmnCantStockpile,"{B_ATK_NAME_WITH_PREFIX} can't
-STOCKPILE any more!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,171,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+STOCKPILE any more!","{B_ATK_NAME_WITH_PREFIX}
+สะสมพลังเพิ่มไม่ได้แล้ว!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,171,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.
 SM0106,local:src/battle_message.c:sText_PkmnCantSleepInUproar2,sText_PkmnCantSleepInUproar2,"But {B_DEF_NAME_WITH_PREFIX} can't
 sleep in an UPROAR!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,172,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0107,local:src/battle_message.c:sText_UproarKeptPkmnAwake,sText_UproarKeptPkmnAwake,"But the UPROAR kept

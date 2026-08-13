@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-223712-phase6-batch28-battle-uproar-stockpile-messages",
+  "locked_head": "7e5d26692d0f5bbc25ceb174e01e689f1a62aa0a",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 168,
+    "pending": 250,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 168,
+    "pending": 245,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "28d4dc78d9db0ff7a6ec1c45cf0195c65fc204a0fd39bca5a868f281cec44b24",
+  "normal_rom_sha256": "28d4dc78d9db0ff7a6ec1c45cf0195c65fc204a0fd39bca5a868f281cec44b24"
+}
