@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-230647-phase6-batch30-battle-confusion-money-transform-substitute-messages",
+  "locked_head": "2a6675598c21b11ec13848f3fd2638cd1008435e",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 178,
+    "pending": 240,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 178,
+    "pending": 235,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "541af7d771c5947acafc310b1b44da08914ac085218a3934fcde1baaec16fd16",
+  "normal_rom_sha256": "541af7d771c5947acafc310b1b44da08914ac085218a3934fcde1baaec16fd16"
+}

@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnFatigueConfusion,"src/battle_message.c:629:    [STRINGID_PKMNFATIGUECONFUSION - BATTLESTRINGS_TABLE_START] = sText_PkmnFatigueConfusion,"
+sText_PlayerPickedUpMoney,"src/battle_message.c:630:    [STRINGID_PLAYERPICKEDUPMONEY - BATTLESTRINGS_TABLE_START] = sText_PlayerPickedUpMoney,"
+sText_PkmnUnaffected,"src/battle_message.c:631:    [STRINGID_PKMNUNAFFECTED - BATTLESTRINGS_TABLE_START] = sText_PkmnUnaffected,"
+sText_PkmnTransformedInto,"src/battle_message.c:632:    [STRINGID_PKMNTRANSFORMEDINTO - BATTLESTRINGS_TABLE_START] = sText_PkmnTransformedInto,"
+sText_PkmnMadeSubstitute,"src/battle_message.c:633:    [STRINGID_PKMNMADESUBSTITUTE - BATTLESTRINGS_TABLE_START] = sText_PkmnMadeSubstitute,"

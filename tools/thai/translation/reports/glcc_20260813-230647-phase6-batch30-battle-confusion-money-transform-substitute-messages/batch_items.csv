@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0111,sText_PkmnFatigueConfusion,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} became
+confused due to fatigue!","{B_ATK_NAME_WITH_PREFIX}
+สับสนเพราะความอ่อนล้า!",1,1,,131,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0112,sText_PlayerPickedUpMoney,src/battle_message.c,"{B_PLAYER_NAME} picked up
+¥{B_BUFF1}!\p","{B_PLAYER_NAME} เก็บเงินได้
+¥{B_BUFF1}!",1,1,,83,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0113,sText_PkmnUnaffected,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} is
+unaffected!","{B_DEF_NAME_WITH_PREFIX}
+ไม่ได้รับผลกระทบ!",1,1,,104,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0114,sText_PkmnTransformedInto,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} transformed
+into {B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} เปลี่ยน
+เป็นประเภท {B_BUFF1}!",1,1,,117,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0115,sText_PkmnMadeSubstitute,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} made
+a SUBSTITUTE!","{B_ATK_NAME_WITH_PREFIX}
+สร้างตัวแทนขึ้นมา!",1,1,,105,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
