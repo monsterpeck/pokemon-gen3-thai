@@ -325,15 +325,15 @@ SM0115,local:src/battle_message.c:sText_PkmnMadeSubstitute,sText_PkmnMadeSubstit
 a SUBSTITUTE!","{B_ATK_NAME_WITH_PREFIX}
 สร้างตัวแทนขึ้นมา!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,181,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-230647-phase6-batch30-battle-confusion-money-transform-substitute-messages: preview/build passed; visual QA pending.; GLCC 20260813-230647-phase6-batch30-battle-confusion-money-transform-substitute-messages: visual QA passed. Batch 30 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0116,local:src/battle_message.c:sText_PkmnHasSubstitute,sText_PkmnHasSubstitute,"{B_ATK_NAME_WITH_PREFIX} already
-has a SUBSTITUTE!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,182,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+has a SUBSTITUTE!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,182,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0117,local:src/battle_message.c:sText_SubstituteDamaged,sText_SubstituteDamaged,"The SUBSTITUTE took damage
-for {B_DEF_NAME_WITH_PREFIX}!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,183,2,{B_DEF_NAME_WITH_PREFIX}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+for {B_DEF_NAME_WITH_PREFIX}!\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,183,2,{B_DEF_NAME_WITH_PREFIX}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0118,local:src/battle_message.c:sText_PkmnSubstituteFaded,sText_PkmnSubstituteFaded,"{B_DEF_NAME_WITH_PREFIX}'s
-SUBSTITUTE faded!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,184,2,{B_DEF_NAME_WITH_PREFIX}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SUBSTITUTE faded!\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,184,2,{B_DEF_NAME_WITH_PREFIX}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0119,local:src/battle_message.c:sText_PkmnMustRecharge,sText_PkmnMustRecharge,"{B_ATK_NAME_WITH_PREFIX} must
-recharge!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,185,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+recharge!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,185,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0120,local:src/battle_message.c:sText_PkmnRageBuilding,sText_PkmnRageBuilding,"{B_DEF_NAME_WITH_PREFIX}'s RAGE
-is building!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,186,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+is building!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,186,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0121,local:src/battle_message.c:sText_PkmnMoveWasDisabled,sText_PkmnMoveWasDisabled,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
 was disabled!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,187,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0122,local:src/battle_message.c:sText_PkmnMoveIsDisabled,sText_PkmnMoveIsDisabled,"{B_ACTIVE_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}
