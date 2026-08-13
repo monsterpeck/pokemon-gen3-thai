@@ -295,15 +295,20 @@ SM0105,local:src/battle_message.c:sText_PkmnCantStockpile,sText_PkmnCantStockpil
 STOCKPILE any more!","{B_ATK_NAME_WITH_PREFIX}
 สะสมพลังเพิ่มไม่ได้แล้ว!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,171,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: preview/build passed; visual QA pending.; GLCC 20260813-223712-phase6-batch28-battle-uproar-stockpile-messages: visual QA passed. Batch 28 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0106,local:src/battle_message.c:sText_PkmnCantSleepInUproar2,sText_PkmnCantSleepInUproar2,"But {B_DEF_NAME_WITH_PREFIX} can't
-sleep in an UPROAR!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,172,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+sleep in an UPROAR!","แต่ {B_DEF_NAME_WITH_PREFIX}
+หลับไม่ได้เพราะเสียงโกลาหล!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,172,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages: preview/build passed; visual QA pending.
 SM0107,local:src/battle_message.c:sText_UproarKeptPkmnAwake,sText_UproarKeptPkmnAwake,"But the UPROAR kept
-{B_DEF_NAME_WITH_PREFIX} awake!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,173,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_DEF_NAME_WITH_PREFIX} awake!","แต่เสียงโกลาหลทำให้
+{B_DEF_NAME_WITH_PREFIX} ยังตื่นอยู่!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,173,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages: preview/build passed; visual QA pending.
 SM0108,local:src/battle_message.c:sText_PkmnStayedAwakeUsing,sText_PkmnStayedAwakeUsing,"{B_DEF_NAME_WITH_PREFIX} stayed awake
-using its {B_DEF_ABILITY}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,174,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+using its {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ยังตื่นอยู่
+ด้วย {B_DEF_ABILITY}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,174,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages: preview/build passed; visual QA pending.
 SM0109,local:src/battle_message.c:sText_PkmnStoringEnergy,sText_PkmnStoringEnergy,"{B_ATK_NAME_WITH_PREFIX} is storing
-energy!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,175,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+energy!","{B_ATK_NAME_WITH_PREFIX}
+กำลังสะสมพลัง!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,175,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages: preview/build passed; visual QA pending.
 SM0110,local:src/battle_message.c:sText_PkmnUnleashedEnergy,sText_PkmnUnleashedEnergy,"{B_ATK_NAME_WITH_PREFIX} unleashed
-energy!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,176,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+energy!","{B_ATK_NAME_WITH_PREFIX}
+ปลดปล่อยพลัง!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,176,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages: preview/build passed; visual QA pending.
 SM0111,local:src/battle_message.c:sText_PkmnFatigueConfusion,sText_PkmnFatigueConfusion,"{B_ATK_NAME_WITH_PREFIX} became
 confused due to fatigue!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,177,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0112,local:src/battle_message.c:sText_PlayerPickedUpMoney,sText_PlayerPickedUpMoney,"{B_PLAYER_NAME} picked up

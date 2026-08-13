@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0106,sText_PkmnCantSleepInUproar2,src/battle_message.c,"But {B_DEF_NAME_WITH_PREFIX} can't
+sleep in an UPROAR!","แต่ {B_DEF_NAME_WITH_PREFIX}
+หลับไม่ได้เพราะเสียงโกลาหล!",1,1,,168,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0107,sText_UproarKeptPkmnAwake,src/battle_message.c,"But the UPROAR kept
+{B_DEF_NAME_WITH_PREFIX} awake!","แต่เสียงโกลาหลทำให้
+{B_DEF_NAME_WITH_PREFIX} ยังตื่นอยู่!",1,1,,157,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0108,sText_PkmnStayedAwakeUsing,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} stayed awake
+using its {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ยังตื่นอยู่
+ด้วย {B_DEF_ABILITY}!",1,1,,88,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0109,sText_PkmnStoringEnergy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is storing
+energy!","{B_ATK_NAME_WITH_PREFIX}
+กำลังสะสมพลัง!",1,1,,86,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0110,sText_PkmnUnleashedEnergy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} unleashed
+energy!","{B_ATK_NAME_WITH_PREFIX}
+ปลดปล่อยพลัง!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

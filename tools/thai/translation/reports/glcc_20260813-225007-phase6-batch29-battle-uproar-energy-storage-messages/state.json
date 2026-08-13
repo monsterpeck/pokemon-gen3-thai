@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-225007-phase6-batch29-battle-uproar-energy-storage-messages",
+  "locked_head": "edcec00f8a6a8c651ba16f8d3776115e7c968bb7",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 173,
+    "pending": 245,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 173,
+    "pending": 240,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "213f5fc6f8e0bf4e2201663328396d1467b63371642864add0fb05dbad51c591",
+  "normal_rom_sha256": "213f5fc6f8e0bf4e2201663328396d1467b63371642864add0fb05dbad51c591"
+}

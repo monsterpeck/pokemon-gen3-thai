@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnCantSleepInUproar2,"src/battle_message.c:624:    [STRINGID_PKMNCANTSLEEPINUPROAR2 - BATTLESTRINGS_TABLE_START] = sText_PkmnCantSleepInUproar2,"
+sText_UproarKeptPkmnAwake,"src/battle_message.c:625:    [STRINGID_UPROARKEPTPKMNAWAKE - BATTLESTRINGS_TABLE_START] = sText_UproarKeptPkmnAwake,"
+sText_PkmnStayedAwakeUsing,"src/battle_message.c:626:    [STRINGID_PKMNSTAYEDAWAKEUSING - BATTLESTRINGS_TABLE_START] = sText_PkmnStayedAwakeUsing,"
+sText_PkmnStoringEnergy,"src/battle_message.c:627:    [STRINGID_PKMNSTORINGENERGY - BATTLESTRINGS_TABLE_START] = sText_PkmnStoringEnergy,"
+sText_PkmnUnleashedEnergy,"src/battle_message.c:628:    [STRINGID_PKMNUNLEASHEDENERGY - BATTLESTRINGS_TABLE_START] = sText_PkmnUnleashedEnergy,"
