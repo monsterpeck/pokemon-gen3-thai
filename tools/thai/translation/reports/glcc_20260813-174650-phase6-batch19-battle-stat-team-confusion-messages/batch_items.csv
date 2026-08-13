@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0050,sText_StatsWontIncrease,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}
+won't go higher!","{B_ATK_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+เพิ่มไปกว่านี้ไม่ได้!",1,1,,125,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0051,sText_StatsWontDecrease,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
+won't go lower!","{B_DEF_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+ลดไปกว่านี้ไม่ได้!",1,1,,119,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0052,sText_TeamStoppedWorking,src/battle_message.c,"Your team's {B_BUFF1}
+stopped working!","{B_BUFF1} ของทีมคุณ
+หมดผลแล้ว!",1,1,,127,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0053,sText_FoeStoppedWorking,src/battle_message.c,"The foe's {B_BUFF1}
+stopped working!","{B_BUFF1} ของฝ่ายตรงข้าม
+หมดผลแล้ว!",1,1,,145,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0054,sText_PkmnIsConfused,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is
+confused!","{B_ATK_NAME_WITH_PREFIX}
+สับสน!",1,1,,51,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

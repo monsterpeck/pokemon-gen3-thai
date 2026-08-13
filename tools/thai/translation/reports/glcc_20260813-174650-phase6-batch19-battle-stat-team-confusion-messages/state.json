@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-174650-phase6-batch19-battle-stat-team-confusion-messages",
+  "locked_head": "57bddd7114eb2eadbeb7da07398c2a59723859fb",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 123,
+    "pending": 295,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 123,
+    "pending": 290,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "5850a286fddd6b89e250349c67d7d8c1cae7770be4e73660c25652635ed515fe",
+  "normal_rom_sha256": "5850a286fddd6b89e250349c67d7d8c1cae7770be4e73660c25652635ed515fe"
+}

@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_StatsWontIncrease,"src/battle_message.c:568:    [STRINGID_STATSWONTINCREASE - BATTLESTRINGS_TABLE_START] = sText_StatsWontIncrease,"
+sText_StatsWontDecrease,"src/battle_message.c:569:    [STRINGID_STATSWONTDECREASE - BATTLESTRINGS_TABLE_START] = sText_StatsWontDecrease,"
+sText_TeamStoppedWorking,"src/battle_message.c:570:    [STRINGID_TEAMSTOPPEDWORKING - BATTLESTRINGS_TABLE_START] = sText_TeamStoppedWorking,"
+sText_FoeStoppedWorking,"src/battle_message.c:571:    [STRINGID_FOESTOPPEDWORKING - BATTLESTRINGS_TABLE_START] = sText_FoeStoppedWorking,"
+sText_PkmnIsConfused,"src/battle_message.c:572:    [STRINGID_PKMNISCONFUSED - BATTLESTRINGS_TABLE_START] = sText_PkmnIsConfused,"
