@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-183007-phase6-batch20-battle-confusion-infatuation-messages",
   "locked_head": "69275fbb110a0200612a5dd0824e2ab5df60f28b",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 128,
     "pending": 290,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "1021f1cfb66af290a2b93a2a99505e1d2e701fadd53931217caac82f07687c33",
-  "normal_rom_sha256": "1021f1cfb66af290a2b93a2a99505e1d2e701fadd53931217caac82f07687c33"
+  "normal_rom_sha256": "1021f1cfb66af290a2b93a2a99505e1d2e701fadd53931217caac82f07687c33",
+  "qa_note": "Batch 20 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
