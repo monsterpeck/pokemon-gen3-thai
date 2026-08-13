@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-165333-phase6-batch15-battle-poison-status-messages",
+  "locked_head": "f12630d0fc8e75c3f505ba7c28c8607a2f62ca90",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 103,
+    "pending": 315,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 103,
+    "pending": 310,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "b3b875edcfa98c83e087e498f9b3aaf1e4c4979d02df2dd47b50208debebca97",
+  "normal_rom_sha256": "b3b875edcfa98c83e087e498f9b3aaf1e4c4979d02df2dd47b50208debebca97"
+}

@@ -78,15 +78,20 @@ SM0028,local:src/battle_message.c:sText_PkmnWasntAffected,sText_PkmnWasntAffecte
 wasn't affected!","{B_DEF_NAME_WITH_PREFIX}
 ไม่ได้รับผลกระทบ!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,87,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-160833-phase6-batch14-battle-sleep-status-messages: preview/build passed; visual QA pending.; GLCC 20260813-160833-phase6-batch14-battle-sleep-status-messages: visual QA passed. Batch 14 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0029,local:src/battle_message.c:sText_PkmnWasPoisoned,sText_PkmnWasPoisoned,"{B_EFF_NAME_WITH_PREFIX}
-was poisoned!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,88,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+was poisoned!","{B_EFF_NAME_WITH_PREFIX}
+ติดพิษ!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,88,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-165333-phase6-batch15-battle-poison-status-messages: preview/build passed; visual QA pending.
 SM0030,local:src/battle_message.c:sText_PkmnPoisonedBy,sText_PkmnPoisonedBy,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-poisoned {B_EFF_NAME_WITH_PREFIX}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,89,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+poisoned {B_EFF_NAME_WITH_PREFIX}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ {B_EFF_NAME_WITH_PREFIX} ติดพิษ!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,89,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-165333-phase6-batch15-battle-poison-status-messages: preview/build passed; visual QA pending.
 SM0031,local:src/battle_message.c:sText_PkmnHurtByPoison,sText_PkmnHurtByPoison,"{B_ATK_NAME_WITH_PREFIX} is hurt
-by poison!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,90,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+by poison!","{B_ATK_NAME_WITH_PREFIX} บาดเจ็บ
+จากพิษ!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,90,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-165333-phase6-batch15-battle-poison-status-messages: preview/build passed; visual QA pending.
 SM0032,local:src/battle_message.c:sText_PkmnAlreadyPoisoned,sText_PkmnAlreadyPoisoned,"{B_DEF_NAME_WITH_PREFIX} is already
-poisoned.",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,91,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+poisoned.","{B_DEF_NAME_WITH_PREFIX}
+ติดพิษอยู่แล้ว.",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,91,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-165333-phase6-batch15-battle-poison-status-messages: preview/build passed; visual QA pending.
 SM0033,local:src/battle_message.c:sText_PkmnBadlyPoisoned,sText_PkmnBadlyPoisoned,"{B_EFF_NAME_WITH_PREFIX} is badly
-poisoned!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,92,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+poisoned!","{B_EFF_NAME_WITH_PREFIX}
+ติดพิษร้ายแรง!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,92,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260813-165333-phase6-batch15-battle-poison-status-messages: preview/build passed; visual QA pending.
 SM0034,local:src/battle_message.c:sText_PkmnEnergyDrained,sText_PkmnEnergyDrained,"{B_DEF_NAME_WITH_PREFIX} had its
 energy drained!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,93,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0035,local:src/battle_message.c:sText_PkmnWasBurned,sText_PkmnWasBurned,{B_EFF_NAME_WITH_PREFIX} was burned!,{B_EFF_NAME_WITH_PREFIX} ถูกไฟไหม้!,proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,94,1,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: preview/build passed; visual QA pending.; GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: visual QA passed. Batch 02 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."

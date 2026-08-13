@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnWasPoisoned,"src/battle_message.c:547:    [STRINGID_PKMNWASPOISONED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasPoisoned,"
+sText_PkmnPoisonedBy,"src/battle_message.c:548:    [STRINGID_PKMNPOISONEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnPoisonedBy,"
+sText_PkmnHurtByPoison,"src/battle_message.c:549:    [STRINGID_PKMNHURTBYPOISON - BATTLESTRINGS_TABLE_START] = sText_PkmnHurtByPoison,"
+sText_PkmnAlreadyPoisoned,"src/battle_message.c:550:    [STRINGID_PKMNALREADYPOISONED - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyPoisoned,"
+sText_PkmnBadlyPoisoned,"src/battle_message.c:551:    [STRINGID_PKMNBADLYPOISONED - BATTLESTRINGS_TABLE_START] = sText_PkmnBadlyPoisoned,"

@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0029,sText_PkmnWasPoisoned,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}
+was poisoned!","{B_EFF_NAME_WITH_PREFIX}
+ติดพิษ!",1,1,,54,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0030,sText_PkmnPoisonedBy,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+poisoned {B_EFF_NAME_WITH_PREFIX}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ {B_EFF_NAME_WITH_PREFIX} ติดพิษ!",1,1,,106,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0031,sText_PkmnHurtByPoison,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is hurt
+by poison!","{B_ATK_NAME_WITH_PREFIX} บาดเจ็บ
+จากพิษ!",1,1,,95,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0032,sText_PkmnAlreadyPoisoned,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} is already
+poisoned.","{B_DEF_NAME_WITH_PREFIX}
+ติดพิษอยู่แล้ว.",1,1,,85,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0033,sText_PkmnBadlyPoisoned,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX} is badly
+poisoned!","{B_EFF_NAME_WITH_PREFIX}
+ติดพิษร้ายแรง!",1,1,,85,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
