@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-171826-phase6-batch17-battle-freeze-thaw-paralysis-messages",
   "locked_head": "7636942ecd266dd70da07957c01e7800d60d147e",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 113,
     "pending": 305,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "9910d06b2ff7e4b92e501fd287aea40450373bdc8fc267ce6436a086d099a7b1",
-  "normal_rom_sha256": "9910d06b2ff7e4b92e501fd287aea40450373bdc8fc267ce6436a086d099a7b1"
+  "normal_rom_sha256": "9910d06b2ff7e4b92e501fd287aea40450373bdc8fc267ce6436a086d099a7b1",
+  "qa_note": "Batch 17 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
