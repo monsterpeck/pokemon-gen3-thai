@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0077,sText_PkmnFlewHigh,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} flew
+up high!","{B_ATK_NAME_WITH_PREFIX}
+บินขึ้นสูง!",1,1,,65,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0079,sText_PkmnSqueezedByBind,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was squeezed by
+{B_ATK_NAME_WITH_PREFIX}'s BIND!","{B_DEF_NAME_WITH_PREFIX}
+ถูก {B_ATK_NAME_WITH_PREFIX} รัดแน่น!",1,1,,79,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0080,sText_PkmnTrappedInVortex,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was trapped
+in the vortex!","{B_DEF_NAME_WITH_PREFIX}
+ติดอยู่ในวังวน!",1,1,,88,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0081,sText_PkmnWrappedBy,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was WRAPPED by
+{B_ATK_NAME_WITH_PREFIX}!","{B_DEF_NAME_WITH_PREFIX}
+ถูก {B_ATK_NAME_WITH_PREFIX} รัดพัน!",1,1,,72,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0082,sText_PkmnClamped,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} CLAMPED
+{B_DEF_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} หนีบ
+{B_DEF_NAME_WITH_PREFIX}!",1,1,,50,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

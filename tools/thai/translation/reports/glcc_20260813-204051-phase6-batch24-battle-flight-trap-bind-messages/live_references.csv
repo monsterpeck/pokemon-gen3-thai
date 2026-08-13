@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnFlewHigh,"src/battle_message.c:595:    [STRINGID_PKMNFLEWHIGH - BATTLESTRINGS_TABLE_START] = sText_PkmnFlewHigh,"
+sText_PkmnSqueezedByBind,"src/battle_message.c:597:    [STRINGID_PKMNSQUEEZEDBYBIND - BATTLESTRINGS_TABLE_START] = sText_PkmnSqueezedByBind,"
+sText_PkmnTrappedInVortex,"src/battle_message.c:598:    [STRINGID_PKMNTRAPPEDINVORTEX - BATTLESTRINGS_TABLE_START] = sText_PkmnTrappedInVortex,"
+sText_PkmnWrappedBy,"src/battle_message.c:599:    [STRINGID_PKMNWRAPPEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnWrappedBy,"
+sText_PkmnClamped,"src/battle_message.c:600:    [STRINGID_PKMNCLAMPED - BATTLESTRINGS_TABLE_START] = sText_PkmnClamped,"

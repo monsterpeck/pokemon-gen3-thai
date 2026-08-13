@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-204051-phase6-batch24-battle-flight-trap-bind-messages",
+  "locked_head": "b76ce23c0c2c2d7d0ee361eb75a43c8fc0e5994a",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 148,
+    "pending": 270,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 148,
+    "pending": 265,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "a8c4d6370af6fb8f7c27b18e3b725f039d17a4c3c72bcf8f3dade2c41253ef63",
+  "normal_rom_sha256": "a8c4d6370af6fb8f7c27b18e3b725f039d17a4c3c72bcf8f3dade2c41253ef63"
+}
