@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0121,sText_PkmnMoveWasDisabled,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
+was disabled!","{B_DEF_NAME_WITH_PREFIX} ท่า {B_BUFF1}
+ถูกปิดใช้งาน!",1,1,,97,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0122,sText_PkmnMoveIsDisabled,src/battle_message.c,"{B_ACTIVE_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}
+is disabled!\p","{B_ACTIVE_NAME_WITH_PREFIX} ท่า {B_CURRENT_MOVE}
+ถูกปิดใช้งานอยู่!",1,1,,109,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0123,sText_PkmnMoveDisabledNoMore,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is disabled
+no more!","{B_ATK_NAME_WITH_PREFIX}
+ใช้ท่าได้ตามปกติแล้ว!",1,1,,117,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0124,sText_PkmnGotEncore,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} got
+an ENCORE!","{B_DEF_NAME_WITH_PREFIX}
+ถูกบังคับให้ใช้ท่าเดิมซ้ำ!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0125,sText_PkmnEncoreEnded,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s ENCORE
+ended!","{B_ATK_NAME_WITH_PREFIX}
+ไม่ต้องใช้ท่าเดิมซ้ำแล้ว!",1,1,,125,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

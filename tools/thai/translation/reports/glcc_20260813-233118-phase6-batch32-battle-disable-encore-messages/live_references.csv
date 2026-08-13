@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnMoveWasDisabled,"src/battle_message.c:639:    [STRINGID_PKMNMOVEWASDISABLED - BATTLESTRINGS_TABLE_START] = sText_PkmnMoveWasDisabled,"
+sText_PkmnMoveIsDisabled,"src/battle_message.c:640:    [STRINGID_PKMNMOVEISDISABLED - BATTLESTRINGS_TABLE_START] = sText_PkmnMoveIsDisabled,"
+sText_PkmnMoveDisabledNoMore,"src/battle_message.c:641:    [STRINGID_PKMNMOVEDISABLEDNOMORE - BATTLESTRINGS_TABLE_START] = sText_PkmnMoveDisabledNoMore,"
+sText_PkmnGotEncore,"src/battle_message.c:642:    [STRINGID_PKMNGOTENCORE - BATTLESTRINGS_TABLE_START] = sText_PkmnGotEncore,"
+sText_PkmnEncoreEnded,"src/battle_message.c:643:    [STRINGID_PKMNENCOREENDED - BATTLESTRINGS_TABLE_START] = sText_PkmnEncoreEnded,"

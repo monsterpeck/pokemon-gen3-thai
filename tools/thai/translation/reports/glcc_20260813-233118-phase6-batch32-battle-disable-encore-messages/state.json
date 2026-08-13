@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-233118-phase6-batch32-battle-disable-encore-messages",
+  "locked_head": "ddf110243a401b53a7f351c78dd7f4548fdb785b",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 188,
+    "pending": 230,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 188,
+    "pending": 225,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "1f24ae902bded04ec7cd8c3488b4eb47c50c81cdffbeefaa3f5f0a683f0f6f95",
+  "normal_rom_sha256": "1f24ae902bded04ec7cd8c3488b4eb47c50c81cdffbeefaa3f5f0a683f0f6f95"
+}
