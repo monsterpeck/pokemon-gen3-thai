@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnHasSubstitute,"src/battle_message.c:634:    [STRINGID_PKMNHASSUBSTITUTE - BATTLESTRINGS_TABLE_START] = sText_PkmnHasSubstitute,"
+sText_SubstituteDamaged,"src/battle_message.c:635:    [STRINGID_SUBSTITUTEDAMAGED - BATTLESTRINGS_TABLE_START] = sText_SubstituteDamaged,"
+sText_PkmnSubstituteFaded,"src/battle_message.c:636:    [STRINGID_PKMNSUBSTITUTEFADED - BATTLESTRINGS_TABLE_START] = sText_PkmnSubstituteFaded,"
+sText_PkmnMustRecharge,"src/battle_message.c:637:    [STRINGID_PKMNMUSTRECHARGE - BATTLESTRINGS_TABLE_START] = sText_PkmnMustRecharge,"
+sText_PkmnRageBuilding,"src/battle_message.c:638:    [STRINGID_PKMNRAGEBUILDING - BATTLESTRINGS_TABLE_START] = sText_PkmnRageBuilding,"
