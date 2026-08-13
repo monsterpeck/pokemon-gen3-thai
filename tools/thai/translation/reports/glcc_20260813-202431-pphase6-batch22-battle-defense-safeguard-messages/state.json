@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-202431-pphase6-batch22-battle-defense-safeguard-messages",
+  "locked_head": "0456c0189c8d1a93c51b0a66686a6dcc67e46c60",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 138,
+    "pending": 280,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 138,
+    "pending": 275,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "0043f07f0ce141e22fbc0b79d50c323b0e00fa3fce6fabfc5a0f9fa175033899",
+  "normal_rom_sha256": "0043f07f0ce141e22fbc0b79d50c323b0e00fa3fce6fabfc5a0f9fa175033899"
+}

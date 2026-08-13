@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnRaisedSpDef,"src/battle_message.c:584:    [STRINGID_PKMNRAISEDSPDEF - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedSpDef,"
+sText_PkmnRaisedDef,"src/battle_message.c:585:    [STRINGID_PKMNRAISEDDEF - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedDef,"
+sText_PkmnCoveredByVeil,"src/battle_message.c:586:    [STRINGID_PKMNCOVEREDBYVEIL - BATTLESTRINGS_TABLE_START] = sText_PkmnCoveredByVeil,"
+sText_PkmnUsedSafeguard,"src/battle_message.c:587:    [STRINGID_PKMNUSEDSAFEGUARD - BATTLESTRINGS_TABLE_START] = sText_PkmnUsedSafeguard,"
+sText_PkmnSafeguardExpired,"src/battle_message.c:588:    [STRINGID_PKMNSAFEGUARDEXPIRED - BATTLESTRINGS_TABLE_START] = sText_PkmnSafeguardExpired,"
