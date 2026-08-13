@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnImmobilizedByLove,"src/battle_message.c:578:    [STRINGID_PKMNIMMOBILIZEDBYLOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnImmobilizedByLove,"
+sText_PkmnBlownAway,"src/battle_message.c:579:    [STRINGID_PKMNBLOWNAWAY - BATTLESTRINGS_TABLE_START] = sText_PkmnBlownAway,"
+sText_PkmnChangedType,"src/battle_message.c:580:    [STRINGID_PKMNCHANGEDTYPE - BATTLESTRINGS_TABLE_START] = sText_PkmnChangedType,"
+sText_PkmnRegainedHealth,"src/battle_message.c:582:    [STRINGID_PKMNREGAINEDHEALTH - BATTLESTRINGS_TABLE_START] = sText_PkmnRegainedHealth,"
+sText_PkmnHPFull,"src/battle_message.c:583:    [STRINGID_PKMNHPFULL - BATTLESTRINGS_TABLE_START] = sText_PkmnHPFull,"

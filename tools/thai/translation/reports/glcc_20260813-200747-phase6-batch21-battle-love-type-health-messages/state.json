@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-200747-phase6-batch21-battle-love-type-health-messages",
+  "locked_head": "90604a474d2e8841260c62f57bcbd0c18568c49e",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 133,
+    "pending": 285,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 133,
+    "pending": 280,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "b3c747715bfd3b87274a18b52be61dd88c3d34b2d406183e9efc1fc9e2b8b3d0",
+  "normal_rom_sha256": "b3c747715bfd3b87274a18b52be61dd88c3d34b2d406183e9efc1fc9e2b8b3d0"
+}

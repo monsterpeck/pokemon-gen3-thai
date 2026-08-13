@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0060,sText_PkmnImmobilizedByLove,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is
+immobilized by love!","{B_ATK_NAME_WITH_PREFIX}
+ขยับไม่ได้เพราะความรัก!",1,1,,130,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0061,sText_PkmnBlownAway,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was
+blown away!","{B_DEF_NAME_WITH_PREFIX}
+ถูกพัดปลิวไป!",1,1,,83,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0062,sText_PkmnChangedType,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} transformed
+into the {B_BUFF1} type!","{B_ATK_NAME_WITH_PREFIX} เปลี่ยน
+เป็นประเภท {B_BUFF1}!",1,1,,117,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0064,sText_PkmnRegainedHealth,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} regained
+health!","{B_DEF_NAME_WITH_PREFIX}
+ฟื้นพลังแล้ว!",1,1,,77,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0065,sText_PkmnHPFull,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s
+HP is full!","{B_DEF_NAME_WITH_PREFIX}
+HP เต็มแล้ว!",1,1,,81,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
