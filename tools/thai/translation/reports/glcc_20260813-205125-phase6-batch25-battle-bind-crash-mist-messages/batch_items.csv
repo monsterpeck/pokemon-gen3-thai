@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0083,sText_PkmnHurtBy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is hurt
+by {B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} บาดเจ็บ
+จาก {B_BUFF1}!",1,1,,83,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0084,sText_PkmnFreedFrom,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} was freed
+from {B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} หลุดพ้นจาก
+{B_BUFF1}!",1,1,,80,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0085,sText_PkmnCrashed,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} kept going
+and crashed!","{B_ATK_NAME_WITH_PREFIX} พุ่งต่อไป
+แล้วชนเข้าอย่างจัง!",1,1,,143,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0086,gText_PkmnShroudedInMist,src/battle_message.c,"{B_ATK_PREFIX2} became
+shrouded in MIST!","{B_ATK_PREFIX2} ถูกปกคลุม
+ด้วยหมอก!",2,2,,118,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c;src/pokemon.c,{},pass,pending
+SM0087,sText_PkmnProtectedByMist,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} is protected
+by MIST!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ได้รับการป้องกัน
+จากหมอก!",1,1,,141,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

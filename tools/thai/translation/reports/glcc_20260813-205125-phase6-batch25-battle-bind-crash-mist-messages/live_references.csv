@@ -1,0 +1,7 @@
+﻿symbol,reference
+sText_PkmnHurtBy,"src/battle_message.c:601:    [STRINGID_PKMNHURTBY - BATTLESTRINGS_TABLE_START] = sText_PkmnHurtBy,"
+sText_PkmnFreedFrom,"src/battle_message.c:602:    [STRINGID_PKMNFREEDFROM - BATTLESTRINGS_TABLE_START] = sText_PkmnFreedFrom,"
+sText_PkmnCrashed,"src/battle_message.c:603:    [STRINGID_PKMNCRASHED - BATTLESTRINGS_TABLE_START] = sText_PkmnCrashed,"
+gText_PkmnShroudedInMist,"src/battle_message.c:604:    [STRINGID_PKMNSHROUDEDINMIST - BATTLESTRINGS_TABLE_START] = gText_PkmnShroudedInMist,"
+gText_PkmnShroudedInMist,src/pokemon.c:5493:        BattleStringExpandPlaceholdersToDisplayedString(gText_PkmnShroudedInMist);
+sText_PkmnProtectedByMist,"src/battle_message.c:605:    [STRINGID_PKMNPROTECTEDBYMIST - BATTLESTRINGS_TABLE_START] = sText_PkmnProtectedByMist,"
