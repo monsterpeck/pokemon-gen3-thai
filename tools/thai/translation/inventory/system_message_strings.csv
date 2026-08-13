@@ -1,15 +1,15 @@
 ﻿ui_id,ui_key,symbol,current_text,target_text_th,translation_status,scope_class,current_language,ui_areas,usage_count,definition_kind,source_file,source_line,line_count,control_codes,has_placeholders,width_constraint_status,visual_qa_status,translator_note
 SM0001,local:src/battle_message.c:sText_Trainer1LoseText,sText_Trainer1LoseText,{B_TRAINER1_LOSE_TEXT},{B_TRAINER1_LOSE_TEXT},proof_passed,system_message,nonlinguistic,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,55,1,{B_TRAINER1_LOSE_TEXT},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-102147-phase6-batch09-battle-trainer-result-token-labels: preview/build passed; visual QA pending.; GLCC 20260813-102147-phase6-batch09-battle-trainer-result-token-labels: visual QA passed. Batch 09 QA Gallery reviewed: 4/4 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0002,local:src/battle_message.c:sText_PkmnGainedEXP,sText_PkmnGainedEXP,"{B_BUFF1} gained{B_BUFF2}
-{B_BUFF3} EXP. Points!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,56,2,{B_BUFF1}; {B_BUFF2}; {B_BUFF3}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF3} EXP. Points!\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,56,2,{B_BUFF1}; {B_BUFF2}; {B_BUFF3}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0003,local:src/battle_message.c:sText_PkmnGrewToLv,sText_PkmnGrewToLv,"{B_BUFF1} grew to
-LV. {B_BUFF2}!{WAIT_SE}\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,59,2,{B_BUFF1}; {B_BUFF2}; {WAIT_SE}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+LV. {B_BUFF2}!{WAIT_SE}\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,59,2,{B_BUFF1}; {B_BUFF2}; {WAIT_SE}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0004,local:src/battle_message.c:sText_PkmnLearnedMove,sText_PkmnLearnedMove,"{B_BUFF1} learned
-{B_BUFF2}!{WAIT_SE}\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,60,2,{B_BUFF1}; {B_BUFF2}; {WAIT_SE}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF2}!{WAIT_SE}\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,60,2,{B_BUFF1}; {B_BUFF2}; {WAIT_SE}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0005,local:src/battle_message.c:sText_TryToLearnMove1,sText_TryToLearnMove1,"{B_BUFF1} is trying to
-learn {B_BUFF2}.\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,61,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+learn {B_BUFF2}.\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,61,2,{B_BUFF1}; {B_BUFF2}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0006,local:src/battle_message.c:sText_TryToLearnMove2,sText_TryToLearnMove2,"But, {B_BUFF1} can't learn
-more than four moves.\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,62,2,{B_BUFF1}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+more than four moves.\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,62,2,{B_BUFF1}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0007,local:src/battle_message.c:sText_TryToLearnMove3,sText_TryToLearnMove3,"Delete a move to make
 room for {B_BUFF2}?",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,63,2,{B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0008,local:src/battle_message.c:sText_PkmnForgotMove,sText_PkmnForgotMove,"{B_BUFF1} forgot
