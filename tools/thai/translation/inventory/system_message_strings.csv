@@ -109,15 +109,15 @@ SM0039,local:src/battle_message.c:sText_PkmnFrozenBy,sText_PkmnFrozenBy,"{B_SCR_
 froze {B_EFF_NAME_WITH_PREFIX} solid!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
 ทำให้ {B_EFF_NAME_WITH_PREFIX} ถูกแช่แข็ง!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,99,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-170911-phase6-batch16-battle-drain-burn-freeze-messages: preview/build passed; visual QA pending.; GLCC 20260813-170911-phase6-batch16-battle-drain-burn-freeze-messages: visual QA passed. Batch 16 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0040,local:src/battle_message.c:sText_PkmnIsFrozen,sText_PkmnIsFrozen,"{B_ATK_NAME_WITH_PREFIX} is
-frozen solid!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,100,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+frozen solid!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,100,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0041,local:src/battle_message.c:sText_PkmnWasDefrosted,sText_PkmnWasDefrosted,"{B_DEF_NAME_WITH_PREFIX} was
-defrosted!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,101,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+defrosted!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,101,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0042,local:src/battle_message.c:sText_PkmnWasDefrosted2,sText_PkmnWasDefrosted2,"{B_ATK_NAME_WITH_PREFIX} was
-defrosted!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,102,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+defrosted!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,102,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0043,local:src/battle_message.c:sText_PkmnWasDefrostedBy,sText_PkmnWasDefrostedBy,"{B_ATK_NAME_WITH_PREFIX} was
-defrosted by {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,103,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+defrosted by {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,103,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0044,local:src/battle_message.c:sText_PkmnWasParalyzed,sText_PkmnWasParalyzed,"{B_EFF_NAME_WITH_PREFIX} is paralyzed!
-It may be unable to move!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,104,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+It may be unable to move!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,104,2,{B_EFF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0045,local:src/battle_message.c:sText_PkmnWasParalyzedBy,sText_PkmnWasParalyzedBy,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
 paralyzed {B_EFF_NAME_WITH_PREFIX}!\lIt may be unable to move!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,105,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_EFF_NAME_WITH_PREFIX}; \l,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0046,local:src/battle_message.c:sText_PkmnIsParalyzed,sText_PkmnIsParalyzed,"{B_ATK_NAME_WITH_PREFIX} is paralyzed!
