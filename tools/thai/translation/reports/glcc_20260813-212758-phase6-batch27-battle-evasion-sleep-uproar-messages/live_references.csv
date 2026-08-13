@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnEvadedAttack,"src/battle_message.c:612:    [STRINGID_PKMNEVADEDATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnEvadedAttack,"
+sText_PkmnSappedByLeechSeed,"src/battle_message.c:613:    [STRINGID_PKMNSAPPEDBYLEECHSEED - BATTLESTRINGS_TABLE_START] = sText_PkmnSappedByLeechSeed,"
+sText_PkmnFastAsleep,"src/battle_message.c:614:    [STRINGID_PKMNFASTASLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnFastAsleep,"
+sText_PkmnUproarKeptAwake,"src/battle_message.c:616:    [STRINGID_PKMNUPROARKEPTAWAKE - BATTLESTRINGS_TABLE_START] = sText_PkmnUproarKeptAwake,"
+sText_PkmnWokeUpInUproar,"src/battle_message.c:617:    [STRINGID_PKMNWOKEUPINUPROAR - BATTLESTRINGS_TABLE_START] = sText_PkmnWokeUpInUproar,"

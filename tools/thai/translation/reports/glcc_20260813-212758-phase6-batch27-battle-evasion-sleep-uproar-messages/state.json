@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-212758-phase6-batch27-battle-evasion-sleep-uproar-messages",
+  "locked_head": "38d94a58bfc8b142d0eea54994602d1f689280ca",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 163,
+    "pending": 255,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 163,
+    "pending": 250,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "bdafe294383d27920a9468379217d5ae5066e91a9241ee134b50dce5fbf7c1a5",
+  "normal_rom_sha256": "bdafe294383d27920a9468379217d5ae5066e91a9241ee134b50dce5fbf7c1a5"
+}

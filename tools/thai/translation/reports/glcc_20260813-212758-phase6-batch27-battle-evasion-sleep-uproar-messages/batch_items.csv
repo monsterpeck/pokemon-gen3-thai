@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0094,sText_PkmnEvadedAttack,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} evaded
+the attack!","{B_DEF_NAME_WITH_PREFIX}
+หลบการโจมตีได้!",1,1,,97,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0095,sText_PkmnSappedByLeechSeed,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s health is
+sapped by LEECH SEED!","พลังของ {B_ATK_NAME_WITH_PREFIX}
+ถูกเมล็ดดูดพลังดูดไป!",1,1,,157,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0096,sText_PkmnFastAsleep,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is fast
+asleep.","{B_ATK_NAME_WITH_PREFIX}
+กำลังหลับสนิท.",1,1,,85,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0098,sText_PkmnUproarKeptAwake,src/battle_message.c,"But {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s UPROAR
+kept it awake!","แต่เสียงโกลาหลของ {B_SCR_ACTIVE_NAME_WITH_PREFIX}
+ทำให้ยังตื่นอยู่!",1,1,,173,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0099,sText_PkmnWokeUpInUproar,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} woke up
+in the UPROAR!","{B_ATK_NAME_WITH_PREFIX} ตื่นขึ้น
+เพราะเสียงโกลาหล!",1,1,,139,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
