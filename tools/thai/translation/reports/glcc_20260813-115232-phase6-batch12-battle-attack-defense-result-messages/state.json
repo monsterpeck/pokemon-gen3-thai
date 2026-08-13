@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-115232-phase6-batch12-battle-attack-defense-result-messages",
   "locked_head": "ffcee35fea61d182304d9cb36abd591cb67bcca8",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 88,
     "pending": 330,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "dce25c94dada8d68e0625ec462c332e06b5a9f8edef4b1bddc18102dd0b265c2",
-  "normal_rom_sha256": "dce25c94dada8d68e0625ec462c332e06b5a9f8edef4b1bddc18102dd0b265c2"
+  "normal_rom_sha256": "dce25c94dada8d68e0625ec462c332e06b5a9f8edef4b1bddc18102dd0b265c2",
+  "qa_note": "Batch 12 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
