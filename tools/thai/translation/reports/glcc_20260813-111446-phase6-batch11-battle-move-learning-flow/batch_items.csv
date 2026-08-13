@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0007,sText_TryToLearnMove3,src/battle_message.c,"Delete a move to make
+room for {B_BUFF2}?","ลบท่าหนึ่งเพื่อให้มีที่
+สำหรับ {B_BUFF2} ไหม?",1,1,,169,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0008,sText_PkmnForgotMove,src/battle_message.c,"{B_BUFF1} forgot
+{B_BUFF2}.\p","{B_BUFF1} ลืม
+{B_BUFF2} แล้ว.\p",1,1,,80,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0009,sText_StopLearningMove,src/battle_message.c,"{PAUSE 32}Stop learning
+{B_BUFF2}?","{PAUSE 32}หยุดเรียนรู้
+{B_BUFF2} ไหม?",1,1,,97,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0010,sText_DidNotLearnMove,src/battle_message.c,"{B_BUFF1} did not learn
+{B_BUFF2}.\p","{B_BUFF1} ไม่ได้เรียนรู้
+{B_BUFF2}.\p",1,1,,99,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0011,sText_PkmnLearnedMove2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} learned
+{B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} เรียนรู้
+{B_BUFF1}!",1,1,,57,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

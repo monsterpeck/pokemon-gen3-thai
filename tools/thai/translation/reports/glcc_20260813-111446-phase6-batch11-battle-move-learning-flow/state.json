@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-111446-phase6-batch11-battle-move-learning-flow",
+  "locked_head": "b2883cb12e604b1829b4fe2835d2f2d4c2944fc5",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 83,
+    "pending": 335,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 83,
+    "translated_pending_qa": 5,
+    "pending": 330,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "fded4d6760c82e4d97dc5b3fe4509f76191b306745118b257ef84010fc708f3e",
+  "normal_rom_sha256": "fded4d6760c82e4d97dc5b3fe4509f76191b306745118b257ef84010fc708f3e"
+}

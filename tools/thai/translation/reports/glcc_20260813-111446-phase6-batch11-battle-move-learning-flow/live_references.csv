@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_TryToLearnMove3,"src/battle_message.c:525:    [STRINGID_TRYTOLEARNMOVE3 - BATTLESTRINGS_TABLE_START] = sText_TryToLearnMove3,"
+sText_PkmnForgotMove,"src/battle_message.c:526:    [STRINGID_PKMNFORGOTMOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnForgotMove,"
+sText_StopLearningMove,"src/battle_message.c:527:    [STRINGID_STOPLEARNINGMOVE - BATTLESTRINGS_TABLE_START] = sText_StopLearningMove,"
+sText_DidNotLearnMove,"src/battle_message.c:528:    [STRINGID_DIDNOTLEARNMOVE - BATTLESTRINGS_TABLE_START] = sText_DidNotLearnMove,"
+sText_PkmnLearnedMove2,"src/battle_message.c:529:    [STRINGID_PKMNLEARNEDMOVE2 - BATTLESTRINGS_TABLE_START] = sText_PkmnLearnedMove2,"
