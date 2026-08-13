@@ -1,0 +1,12 @@
+﻿symbol,reference
+sText_ButNoEffect,"src/battle_message.c:868:    [STRINGID_BUTNOEFFECT - BATTLESTRINGS_TABLE_START] = sText_ButNoEffect,"
+sText_PkmnBeganGrowlingDeeply,"src/battle_message.c:875:    [STRINGID_PKMNBEGANGROWLINGDEEPLY - BATTLESTRINGS_TABLE_START] = sText_PkmnBeganGrowlingDeeply,"
+sText_PkmnEagerForMore,"src/battle_message.c:876:    [STRINGID_PKMNEAGERFORMORE - BATTLESTRINGS_TABLE_START] = sText_PkmnEagerForMore,"
+sText_ForfeitedMatch,"src/battle_message.c:881:    [STRINGID_FORFEITEDMATCH - BATTLESTRINGS_TABLE_START] = sText_ForfeitedMatch,"
+sText_GoPkmn,src/battle_message.c:2050:                stringPtr = sText_GoPkmn;
+sText_PkmnComeBack,src/battle_message.c:2085:                stringPtr = sText_PkmnComeBack;
+sText_GoPkmn2,src/battle_message.c:2110:                stringPtr = sText_GoPkmn2;
+sText_DoItPkmn,src/battle_message.c:2112:                stringPtr = sText_DoItPkmn;
+sText_GoForItPkmn,src/battle_message.c:2114:                stringPtr = sText_GoForItPkmn;
+sText_ExclamationMark,"src/battle_message.c:2907:// sText_ExclamationMark was a plain ""!"", used for any attack not on the list."
+sText_ExclamationMark,"src/battle_message.c:2941:        StringCopy(dst, sText_ExclamationMark);"

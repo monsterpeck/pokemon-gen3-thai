@@ -1,0 +1,11 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0350,sText_ButNoEffect,src/battle_message.c,But it had no effect!,แต่ไม่มีผลอะไร!,1,1,,76,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0357,sText_PkmnBeganGrowlingDeeply,src/battle_message.c,{B_SCR_ACTIVE_NAME_WITH_PREFIX} began growling deeply!,{B_SCR_ACTIVE_NAME_WITH_PREFIX} เริ่มคำรามเสียงต่ำ!,1,1,,87,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0358,sText_PkmnEagerForMore,src/battle_message.c,{B_SCR_ACTIVE_NAME_WITH_PREFIX} is eager for more!,{B_SCR_ACTIVE_NAME_WITH_PREFIX} ยังอยากสู้ต่อ!,1,1,,63,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0363,sText_ForfeitedMatch,src/battle_message.c,{B_PLAYER_NAME} forfeited the match!,{B_PLAYER_NAME} ยอมแพ้การแข่งขัน!,1,1,,92,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0379,sText_GoPkmn,src/battle_message.c,Go! {B_PLAYER_MON1_NAME}!,ไปเลย! {B_PLAYER_MON1_NAME}!,1,1,,49,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0387,sText_PkmnComeBack,src/battle_message.c,"{B_BUFF1}, come back!",{B_BUFF1} กลับมา!,1,1,,42,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0393,sText_GoPkmn2,src/battle_message.c,Go! {B_BUFF1}!,ไปเลย! {B_BUFF1}!,1,1,,49,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0394,sText_DoItPkmn,src/battle_message.c,Do it! {B_BUFF1}!,ลุยเลย! {B_BUFF1}!,1,1,,48,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0395,sText_GoForItPkmn,src/battle_message.c,"Go for it, {B_BUFF1}!",เอาเลย {B_BUFF1}!,1,1,,42,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0414,sText_ExclamationMark,src/battle_message.c,!,!,2,2,,8,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
