@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-210037-phase6-batch26-battle-recoil-weather-protection-messages",
+  "locked_head": "53045c464caa9e49907ef6d53b4dca0cfb76fd40",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 158,
+    "pending": 260,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 158,
+    "pending": 255,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "85fbc5e9ca9e28135d46fb3ef9f788c65b7e81843cf1de9475c63dcf7eb8d2cb",
+  "normal_rom_sha256": "85fbc5e9ca9e28135d46fb3ef9f788c65b7e81843cf1de9475c63dcf7eb8d2cb"
+}

@@ -1,0 +1,7 @@
+﻿symbol,reference
+gText_PkmnGettingPumped,"src/battle_message.c:606:    [STRINGID_PKMNGETTINGPUMPED - BATTLESTRINGS_TABLE_START] = gText_PkmnGettingPumped,"
+gText_PkmnGettingPumped,src/pokemon.c:5485:                BattleStringExpandPlaceholdersToDisplayedString(gText_PkmnGettingPumped);
+sText_PkmnHitWithRecoil,"src/battle_message.c:607:    [STRINGID_PKMNHITWITHRECOIL - BATTLESTRINGS_TABLE_START] = sText_PkmnHitWithRecoil,"
+sText_PkmnProtectedItself2,"src/battle_message.c:608:    [STRINGID_PKMNPROTECTEDITSELF2 - BATTLESTRINGS_TABLE_START] = sText_PkmnProtectedItself2,"
+sText_PkmnBuffetedBySandstorm,"src/battle_message.c:609:    [STRINGID_PKMNBUFFETEDBYSANDSTORM - BATTLESTRINGS_TABLE_START] = sText_PkmnBuffetedBySandstorm,"
+sText_PkmnPeltedByHail,"src/battle_message.c:610:    [STRINGID_PKMNPELTEDBYHAIL - BATTLESTRINGS_TABLE_START] = sText_PkmnPeltedByHail,"

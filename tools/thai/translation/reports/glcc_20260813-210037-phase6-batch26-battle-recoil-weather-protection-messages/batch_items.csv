@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0088,gText_PkmnGettingPumped,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is getting
+pumped!","{B_ATK_NAME_WITH_PREFIX}
+กำลังฮึกเหิม!",2,2,,74,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c;src/pokemon.c,{},pass,pending
+SM0089,sText_PkmnHitWithRecoil,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is hit
+with recoil!","{B_ATK_NAME_WITH_PREFIX}
+ได้รับแรงสะท้อน!",1,1,,97,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0090,sText_PkmnProtectedItself2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} protected
+itself!","{B_ATK_NAME_WITH_PREFIX}
+ป้องกันตัวเอง!",1,1,,82,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0091,sText_PkmnBuffetedBySandstorm,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is buffeted
+by the sandstorm!","{B_ATK_NAME_WITH_PREFIX}
+ถูกพายุทรายกระหน่ำ!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0092,sText_PkmnPeltedByHail,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is pelted
+by HAIL!","{B_ATK_NAME_WITH_PREFIX}
+ถูกลูกเห็บถล่ม!",1,1,,85,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
