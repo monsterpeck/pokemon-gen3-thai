@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0071,sText_PkmnWentToSleep,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} went
+to sleep!","{B_ATK_NAME_WITH_PREFIX}
+หลับไปแล้ว!",1,1,,76,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0072,sText_PkmnSleptHealthy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} slept and
+became healthy!","{B_ATK_NAME_WITH_PREFIX} หลับและ
+ฟื้นฟูร่างกาย!",1,1,,119,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0073,sText_PkmnWhippedWhirlwind,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} whipped
+up a whirlwind!","{B_ATK_NAME_WITH_PREFIX}
+ก่อพายุหมุนขึ้น!",1,1,,92,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0074,sText_PkmnTookSunlight,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} took
+in sunlight!","{B_ATK_NAME_WITH_PREFIX}
+รับแสงอาทิตย์!",1,1,,83,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0075,sText_PkmnLoweredHead,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} lowered
+its head!","{B_ATK_NAME_WITH_PREFIX}
+ก้มหัวลง!",1,1,,60,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

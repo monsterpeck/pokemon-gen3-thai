@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnWentToSleep,"src/battle_message.c:589:    [STRINGID_PKMNWENTTOSLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnWentToSleep,"
+sText_PkmnSleptHealthy,"src/battle_message.c:590:    [STRINGID_PKMNSLEPTHEALTHY - BATTLESTRINGS_TABLE_START] = sText_PkmnSleptHealthy,"
+sText_PkmnWhippedWhirlwind,"src/battle_message.c:591:    [STRINGID_PKMNWHIPPEDWHIRLWIND - BATTLESTRINGS_TABLE_START] = sText_PkmnWhippedWhirlwind,"
+sText_PkmnTookSunlight,"src/battle_message.c:592:    [STRINGID_PKMNTOOKSUNLIGHT - BATTLESTRINGS_TABLE_START] = sText_PkmnTookSunlight,"
+sText_PkmnLoweredHead,"src/battle_message.c:593:    [STRINGID_PKMNLOWEREDHEAD - BATTLESTRINGS_TABLE_START] = sText_PkmnLoweredHead,"
