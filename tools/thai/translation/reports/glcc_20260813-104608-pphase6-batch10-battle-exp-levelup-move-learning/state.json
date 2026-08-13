@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-104608-pphase6-batch10-battle-exp-levelup-move-learning",
   "locked_head": "7f4d6e6a7513d085b3753d45e36ff47baf11c5c0",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 78,
     "pending": 340,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "98e025e0a63bfd685962cb7b7d6e066d5fc183c87e633d9544387c5c41d3fcc9",
-  "normal_rom_sha256": "98e025e0a63bfd685962cb7b7d6e066d5fc183c87e633d9544387c5c41d3fcc9"
+  "normal_rom_sha256": "98e025e0a63bfd685962cb7b7d6e066d5fc183c87e633d9544387c5c41d3fcc9",
+  "qa_note": "Batch 10 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
