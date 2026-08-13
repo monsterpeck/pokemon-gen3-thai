@@ -1,10 +1,10 @@
 {
   "batch_id": "20260813-223712-phase6-batch28-battle-uproar-stockpile-messages",
   "locked_head": "7e5d26692d0f5bbc25ceb174e01e689f1a62aa0a",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 168,
     "pending": 250,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "28d4dc78d9db0ff7a6ec1c45cf0195c65fc204a0fd39bca5a868f281cec44b24",
-  "normal_rom_sha256": "28d4dc78d9db0ff7a6ec1c45cf0195c65fc204a0fd39bca5a868f281cec44b24"
+  "normal_rom_sha256": "28d4dc78d9db0ff7a6ec1c45cf0195c65fc204a0fd39bca5a868f281cec44b24",
+  "qa_note": "Batch 28 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
