@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0126,sText_PkmnTookAim,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} took aim
+at {B_DEF_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} เล็งเป้า
+ไปที่ {B_DEF_NAME_WITH_PREFIX}!",1,1,,81,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0127,sText_PkmnSketchedMove,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} SKETCHED
+{B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} คัดลอก
+ท่า {B_BUFF1}!",1,1,,75,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0128,sText_PkmnTryingToTakeFoe,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is trying
+to take its foe with it!","{B_ATK_NAME_WITH_PREFIX} กำลังพยายาม
+ลากคู่ต่อสู้ไปด้วย!",1,1,,157,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0129,sText_PkmnTookFoe,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} took
+{B_ATK_NAME_WITH_PREFIX} with it!","{B_DEF_NAME_WITH_PREFIX} พา
+{B_ATK_NAME_WITH_PREFIX} ไปด้วย!",1,1,,76,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0130,sText_PkmnReducedPP,src/battle_message.c,"Reduced {B_DEF_NAME_WITH_PREFIX}'s
+{B_BUFF1} by {B_BUFF2}!","PP ของ {B_DEF_NAME_WITH_PREFIX}
+ท่า {B_BUFF1} ลดลง {B_BUFF2}!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

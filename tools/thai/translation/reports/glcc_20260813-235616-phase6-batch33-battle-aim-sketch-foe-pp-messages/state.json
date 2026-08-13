@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-235616-phase6-batch33-battle-aim-sketch-foe-pp-messages",
+  "locked_head": "0a08a2875d1f29bef19f329d653ebea42d4a3342",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 193,
+    "pending": 225,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 193,
+    "pending": 220,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "09645f82048c85ddfc45dbb543154cfa62bf040d46fc227f1c260c8bcf4668ce",
+  "normal_rom_sha256": "09645f82048c85ddfc45dbb543154cfa62bf040d46fc227f1c260c8bcf4668ce"
+}

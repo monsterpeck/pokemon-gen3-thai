@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnTookAim,"src/battle_message.c:644:    [STRINGID_PKMNTOOKAIM - BATTLESTRINGS_TABLE_START] = sText_PkmnTookAim,"
+sText_PkmnSketchedMove,"src/battle_message.c:645:    [STRINGID_PKMNSKETCHEDMOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnSketchedMove,"
+sText_PkmnTryingToTakeFoe,"src/battle_message.c:646:    [STRINGID_PKMNTRYINGTOTAKEFOE - BATTLESTRINGS_TABLE_START] = sText_PkmnTryingToTakeFoe,"
+sText_PkmnTookFoe,"src/battle_message.c:647:    [STRINGID_PKMNTOOKFOE - BATTLESTRINGS_TABLE_START] = sText_PkmnTookFoe,"
+sText_PkmnReducedPP,"src/battle_message.c:648:    [STRINGID_PKMNREDUCEDPP - BATTLESTRINGS_TABLE_START] = sText_PkmnReducedPP,"
