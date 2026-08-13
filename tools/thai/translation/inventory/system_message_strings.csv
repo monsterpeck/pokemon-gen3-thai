@@ -355,15 +355,15 @@ SM0125,local:src/battle_message.c:sText_PkmnEncoreEnded,sText_PkmnEncoreEnded,"{
 ended!","{B_ATK_NAME_WITH_PREFIX}
 ไม่ต้องใช้ท่าเดิมซ้ำแล้ว!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,190,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260813-233118-phase6-batch32-battle-disable-encore-messages: preview/build passed; visual QA pending.; GLCC 20260813-233118-phase6-batch32-battle-disable-encore-messages: visual QA passed. Batch 32 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0126,local:src/battle_message.c:sText_PkmnTookAim,sText_PkmnTookAim,"{B_ATK_NAME_WITH_PREFIX} took aim
-at {B_DEF_NAME_WITH_PREFIX}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,191,2,{B_ATK_NAME_WITH_PREFIX}; {B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+at {B_DEF_NAME_WITH_PREFIX}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,191,2,{B_ATK_NAME_WITH_PREFIX}; {B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0127,local:src/battle_message.c:sText_PkmnSketchedMove,sText_PkmnSketchedMove,"{B_ATK_NAME_WITH_PREFIX} SKETCHED
-{B_BUFF1}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,192,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF1}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,192,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0128,local:src/battle_message.c:sText_PkmnTryingToTakeFoe,sText_PkmnTryingToTakeFoe,"{B_ATK_NAME_WITH_PREFIX} is trying
-to take its foe with it!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,193,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+to take its foe with it!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,193,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0129,local:src/battle_message.c:sText_PkmnTookFoe,sText_PkmnTookFoe,"{B_DEF_NAME_WITH_PREFIX} took
-{B_ATK_NAME_WITH_PREFIX} with it!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,194,2,{B_DEF_NAME_WITH_PREFIX}; {B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_ATK_NAME_WITH_PREFIX} with it!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,194,2,{B_DEF_NAME_WITH_PREFIX}; {B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0130,local:src/battle_message.c:sText_PkmnReducedPP,sText_PkmnReducedPP,"Reduced {B_DEF_NAME_WITH_PREFIX}'s
-{B_BUFF1} by {B_BUFF2}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,195,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1}; {B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF1} by {B_BUFF2}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,195,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1}; {B_BUFF2},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0131,local:src/battle_message.c:sText_PkmnStoleItem,sText_PkmnStoleItem,"{B_ATK_NAME_WITH_PREFIX} stole
 {B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,196,2,{B_ATK_NAME_WITH_PREFIX}; {B_DEF_NAME_WITH_PREFIX}; {B_LAST_ITEM},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0132,local:src/battle_message.c:sText_TargetCantEscapeNow,sText_TargetCantEscapeNow,"{B_DEF_NAME_WITH_PREFIX} can't
