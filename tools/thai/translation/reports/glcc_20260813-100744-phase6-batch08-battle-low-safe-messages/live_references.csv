@@ -1,0 +1,9 @@
+﻿symbol,reference
+sText_ExclamationMark2,"src/battle_message.c:2910:// sText_ExclamationMark2 was ""を つかった！"". This resulted in the translation"
+sText_ExclamationMark2,"src/battle_message.c:2944:        StringCopy(dst, sText_ExclamationMark2);"
+sText_ExclamationMark3,"src/battle_message.c:2913:// sText_ExclamationMark3 was ""した！"". This was used for those moves whose"
+sText_ExclamationMark3,"src/battle_message.c:2947:        StringCopy(dst, sText_ExclamationMark3);"
+sText_ExclamationMark4,"src/battle_message.c:2917:// sText_ExclamationMark4 was ""を した！"" This resulted in a translation of"
+sText_ExclamationMark4,"src/battle_message.c:2950:        StringCopy(dst, sText_ExclamationMark4);"
+sText_ExclamationMark5,"src/battle_message.c:2920:// sText_ExclamationMark5 was "" こうげき！"" This resulted in a translation of"
+sText_ExclamationMark5,"src/battle_message.c:2953:        StringCopy(dst, sText_ExclamationMark5);"

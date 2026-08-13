@@ -1,0 +1,5 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0415,sText_ExclamationMark2,src/battle_message.c,!,!,2,2,,8,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0416,sText_ExclamationMark3,src/battle_message.c,!,!,2,2,,8,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0417,sText_ExclamationMark4,src/battle_message.c,!,!,2,2,,8,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0418,sText_ExclamationMark5,src/battle_message.c,!,!,2,2,,8,MEDIUM,บรรทัดเดียว ไม่มี token; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending

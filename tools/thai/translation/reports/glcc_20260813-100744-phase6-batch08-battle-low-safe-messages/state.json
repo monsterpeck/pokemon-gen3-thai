@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-100744-phase6-batch08-battle-low-safe-messages",
+  "locked_head": "ab2ac4ab70341066dcc77eb91b5bd505a1789a59",
+  "state": "applied_build_passed",
+  "item_count": 4,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "pending": 348,
+    "proof_passed": 70,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "pending": 344,
+    "proof_passed": 70,
+    "translated_pending_qa": 4,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "2f263d023add0d5473b9669762f464f4aae5b23c7e100f3b2a33c307c0970495",
+  "normal_rom_sha256": "2f263d023add0d5473b9669762f464f4aae5b23c7e100f3b2a33c307c0970495"
+}
