@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260813-160833-phase6-batch14-battle-sleep-status-messages",
+  "locked_head": "f7f102d54b3ecaa5ebaa184044e4de375e85fad0",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 98,
+    "pending": 320,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 98,
+    "pending": 315,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "5da849aaa411f0d1ef976bde4bcd0b22f6182e70948e4e65d14fc055aa78130c",
+  "normal_rom_sha256": "5da849aaa411f0d1ef976bde4bcd0b22f6182e70948e4e65d14fc055aa78130c"
+}

@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0024,sText_PkmnFellAsleep,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}
+fell asleep!","{B_EFF_NAME_WITH_PREFIX}
+หลับไปแล้ว!",1,1,,76,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0025,sText_PkmnMadeSleep,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+made {B_EFF_NAME_WITH_PREFIX} sleep!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY} ทำให้
+{B_EFF_NAME_WITH_PREFIX} หลับ!",1,1,,96,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0026,sText_PkmnAlreadyAsleep,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} is
+already asleep!","{B_DEF_NAME_WITH_PREFIX}
+หลับอยู่แล้ว!",1,1,,75,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0027,sText_PkmnAlreadyAsleep2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is
+already asleep!","{B_ATK_NAME_WITH_PREFIX}
+หลับอยู่แล้ว!",1,1,,75,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0028,sText_PkmnWasntAffected,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}
+wasn't affected!","{B_DEF_NAME_WITH_PREFIX}
+ไม่ได้รับผลกระทบ!",1,1,,104,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

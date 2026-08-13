@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnFellAsleep,"src/battle_message.c:542:    [STRINGID_PKMNFELLASLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnFellAsleep,"
+sText_PkmnMadeSleep,"src/battle_message.c:543:    [STRINGID_PKMNMADESLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnMadeSleep,"
+sText_PkmnAlreadyAsleep,"src/battle_message.c:544:    [STRINGID_PKMNALREADYASLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyAsleep,"
+sText_PkmnAlreadyAsleep2,"src/battle_message.c:545:    [STRINGID_PKMNALREADYASLEEP2 - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyAsleep2,"
+sText_PkmnWasntAffected,"src/battle_message.c:546:    [STRINGID_PKMNWASNTAFFECTED - BATTLESTRINGS_TABLE_START] = sText_PkmnWasntAffected,"
