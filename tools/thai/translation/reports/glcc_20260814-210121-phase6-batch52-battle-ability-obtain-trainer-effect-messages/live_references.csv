@@ -1,0 +1,12 @@
+﻿symbol,reference
+sText_PkmnRaisedSpDefALittle,"src/battle_message.c:860:    [STRINGID_PKMNRAISEDSPDEFALITTLE - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedSpDefALittle,"
+sText_PkmnsXPreventsYsZ,"src/battle_message.c:862:    [STRINGID_PKMNSXPREVENTSYSZ - BATTLESTRINGS_TABLE_START] = sText_PkmnsXPreventsYsZ,"
+sText_PkmnsXCuredItsYProblem,"src/battle_message.c:863:    [STRINGID_PKMNSXCUREDITSYPROBLEM - BATTLESTRINGS_TABLE_START] = sText_PkmnsXCuredItsYProblem,"
+sText_PkmnObtainedX,"src/battle_message.c:865:    [STRINGID_PKMNOBTAINEDX - BATTLESTRINGS_TABLE_START] = sText_PkmnObtainedX,"
+sText_PkmnObtainedX2,"src/battle_message.c:866:    [STRINGID_PKMNOBTAINEDX2 - BATTLESTRINGS_TABLE_START] = sText_PkmnObtainedX2,"
+sText_PkmnObtainedXYObtainedZ,"src/battle_message.c:867:    [STRINGID_PKMNOBTAINEDXYOBTAINEDZ - BATTLESTRINGS_TABLE_START] = sText_PkmnObtainedXYObtainedZ,"
+sText_PkmnsXHadNoEffectOnY,"src/battle_message.c:869:    [STRINGID_PKMNSXHADNOEFFECTONY - BATTLESTRINGS_TABLE_START] = sText_PkmnsXHadNoEffectOnY,"
+sText_TwoInGameTrainersDefeated,"src/battle_message.c:870:    [STRINGID_TWOENEMIESDEFEATED - BATTLESTRINGS_TABLE_START] = sText_TwoInGameTrainersDefeated,"
+sText_TwoInGameTrainersDefeated,src/battle_message.c:2191:                        stringPtr = sText_TwoInGameTrainersDefeated;
+sText_PkmnIncapableOfPower,"src/battle_message.c:872:    [STRINGID_PKMNINCAPABLEOFPOWER - BATTLESTRINGS_TABLE_START] = sText_PkmnIncapableOfPower,"
+sText_GlintAppearsInEye,"src/battle_message.c:873:    [STRINGID_GLINTAPPEARSINEYE - BATTLESTRINGS_TABLE_START] = sText_GlintAppearsInEye,"
