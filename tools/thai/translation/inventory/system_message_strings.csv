@@ -524,25 +524,35 @@ SM0184,local:src/battle_message.c:sText_PkmnProtectedBy,sText_PkmnProtectedBy,"{
 by {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ได้รับการป้องกัน
 ด้วย {B_DEF_ABILITY}!",proof_passed,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,265,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.; GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: visual QA passed. Batch 40 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0185,local:src/battle_message.c:sText_PkmnPreventsUsage,sText_PkmnPreventsUsage,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-prevents {B_ATK_NAME_WITH_PREFIX}\lfrom using {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,266,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY}; {B_ATK_NAME_WITH_PREFIX}; \l; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents {B_ATK_NAME_WITH_PREFIX}\lfrom using {B_CURRENT_MOVE}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ขัดขวาง {B_ATK_NAME_WITH_PREFIX}\lไม่ให้ใช้ {B_CURRENT_MOVE}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,266,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY}; {B_ATK_NAME_WITH_PREFIX}; \l; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0186,local:src/battle_message.c:sText_PkmnRestoredHPUsing,sText_PkmnRestoredHPUsing,"{B_DEF_NAME_WITH_PREFIX} restored HP
-using its {B_DEF_ABILITY}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,267,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+using its {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ฟื้น HP
+ด้วย {B_DEF_ABILITY}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,267,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0187,local:src/battle_message.c:sText_PkmnChangedTypeWith,sText_PkmnChangedTypeWith,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-made it the {B_BUFF1} type!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,269,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+made it the {B_BUFF1} type!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+เปลี่ยนเป็นประเภท {B_BUFF1}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,269,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0188,local:src/battle_message.c:sText_PkmnPreventsParalysisWith,sText_PkmnPreventsParalysisWith,"{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-prevents paralysis!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,270,2,{B_EFF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents paralysis!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันอัมพาต!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,270,2,{B_EFF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0189,local:src/battle_message.c:sText_PkmnPreventsRomanceWith,sText_PkmnPreventsRomanceWith,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-prevents romance!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,271,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents romance!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันการตกหลุมรัก!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,271,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0190,local:src/battle_message.c:sText_PkmnPreventsPoisoningWith,sText_PkmnPreventsPoisoningWith,"{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-prevents poisoning!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,272,2,{B_EFF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents poisoning!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันการติดพิษ!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,272,2,{B_EFF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0191,local:src/battle_message.c:sText_PkmnPreventsConfusionWith,sText_PkmnPreventsConfusionWith,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-prevents confusion!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,273,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents confusion!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันอาการสับสน!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,273,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0192,local:src/battle_message.c:sText_PkmnRaisedFirePowerWith,sText_PkmnRaisedFirePowerWith,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
-raised its FIRE power!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,274,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+raised its FIRE power!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+เพิ่มพลังไฟของตัวเอง!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,274,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0193,local:src/battle_message.c:sText_PkmnAnchorsItselfWith,sText_PkmnAnchorsItselfWith,"{B_DEF_NAME_WITH_PREFIX} anchors
-itself with {B_DEF_ABILITY}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,275,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+itself with {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ยึดตัวเองไว้
+ด้วย {B_DEF_ABILITY}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,275,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0194,local:src/battle_message.c:sText_PkmnCutsAttackWith,sText_PkmnCutsAttackWith,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-cuts {B_DEF_NAME_WITH_PREFIX}'s ATTACK!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,276,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+cuts {B_DEF_NAME_WITH_PREFIX}'s ATTACK!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ลดพลังโจมตีของ {B_DEF_NAME_WITH_PREFIX}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,276,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-150846-phase6-batch41-battle-ability-effect-messages: preview/build passed; visual QA pending.
 SM0195,local:src/battle_message.c:sText_PkmnPreventsStatLossWith,sText_PkmnPreventsStatLossWith,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
 prevents stat loss!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,277,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0196,local:src/battle_message.c:sText_PkmnHurtsWith,sText_PkmnHurtsWith,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}

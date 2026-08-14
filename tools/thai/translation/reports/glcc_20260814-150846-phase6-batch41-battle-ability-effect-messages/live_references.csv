@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnPreventsUsage,"src/battle_message.c:703:    [STRINGID_PKMNPREVENTSUSAGE - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsUsage,"
+sText_PkmnRestoredHPUsing,"src/battle_message.c:704:    [STRINGID_PKMNRESTOREDHPUSING - BATTLESTRINGS_TABLE_START] = sText_PkmnRestoredHPUsing,"
+sText_PkmnChangedTypeWith,"src/battle_message.c:705:    [STRINGID_PKMNCHANGEDTYPEWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnChangedTypeWith,"
+sText_PkmnPreventsParalysisWith,"src/battle_message.c:706:    [STRINGID_PKMNPREVENTSPARALYSISWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsParalysisWith,"
+sText_PkmnPreventsRomanceWith,"src/battle_message.c:707:    [STRINGID_PKMNPREVENTSROMANCEWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsRomanceWith,"
+sText_PkmnPreventsPoisoningWith,"src/battle_message.c:708:    [STRINGID_PKMNPREVENTSPOISONINGWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsPoisoningWith,"
+sText_PkmnPreventsConfusionWith,"src/battle_message.c:709:    [STRINGID_PKMNPREVENTSCONFUSIONWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsConfusionWith,"
+sText_PkmnRaisedFirePowerWith,"src/battle_message.c:710:    [STRINGID_PKMNRAISEDFIREPOWERWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedFirePowerWith,"
+sText_PkmnAnchorsItselfWith,"src/battle_message.c:711:    [STRINGID_PKMNANCHORSITSELFWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnAnchorsItselfWith,"
+sText_PkmnCutsAttackWith,"src/battle_message.c:712:    [STRINGID_PKMNCUTSATTACKWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnCutsAttackWith,"

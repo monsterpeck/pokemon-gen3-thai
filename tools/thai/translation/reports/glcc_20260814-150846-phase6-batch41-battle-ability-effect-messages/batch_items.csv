@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0185,sText_PkmnPreventsUsage,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevents {B_ATK_NAME_WITH_PREFIX}\lfrom using {B_CURRENT_MOVE}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ขัดขวาง {B_ATK_NAME_WITH_PREFIX}\lไม่ให้ใช้ {B_CURRENT_MOVE}!",1,1,,139,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0186,sText_PkmnRestoredHPUsing,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} restored HP
+using its {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ฟื้น HP
+ด้วย {B_DEF_ABILITY}!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0187,sText_PkmnChangedTypeWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+made it the {B_BUFF1} type!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+เปลี่ยนเป็นประเภท {B_BUFF1}!",1,1,,133,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0188,sText_PkmnPreventsParalysisWith,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevents paralysis!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันอัมพาต!",1,1,,107,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0189,sText_PkmnPreventsRomanceWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevents romance!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันการตกหลุมรัก!",1,1,,134,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0190,sText_PkmnPreventsPoisoningWith,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevents poisoning!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันการติดพิษ!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0191,sText_PkmnPreventsConfusionWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevents confusion!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ป้องกันอาการสับสน!",1,1,,127,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0192,sText_PkmnRaisedFirePowerWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+raised its FIRE power!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+เพิ่มพลังไฟของตัวเอง!",1,1,,138,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0193,sText_PkmnAnchorsItselfWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} anchors
+itself with {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ยึดตัวเองไว้
+ด้วย {B_DEF_ABILITY}!",1,1,,103,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0194,sText_PkmnCutsAttackWith,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+cuts {B_DEF_NAME_WITH_PREFIX}'s ATTACK!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ลดพลังโจมตีของ {B_DEF_NAME_WITH_PREFIX}!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

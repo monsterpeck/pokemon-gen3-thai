@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-150846-phase6-batch41-battle-ability-effect-messages",
+  "locked_head": "a2d547bbd72170b06d432fb73ae348685e828d8b",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 248,
+    "pending": 170,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 248,
+    "pending": 160,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "e62384825b1180dd412ea603ba93cd8dda43b597b040ad8e1e1a215b910bb644",
+  "normal_rom_sha256": "e62384825b1180dd412ea603ba93cd8dda43b597b040ad8e1e1a215b910bb644"
+}
