@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-162703-phase6-batch42-battle-stat-ability-escape-messages",
+  "locked_head": "957d5cb9c61896a3ca716637dba56b5a01f286ab",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 258,
+    "pending": 160,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 258,
+    "pending": 150,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "816baebe31713512c40f7c0d8d484f95d9d86bb3fafd42d21492c9b8266ffa86",
+  "normal_rom_sha256": "816baebe31713512c40f7c0d8d484f95d9d86bb3fafd42d21492c9b8266ffa86"
+}

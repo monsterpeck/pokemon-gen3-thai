@@ -1,0 +1,13 @@
+﻿symbol,reference
+sText_PkmnPreventsStatLossWith,"src/battle_message.c:713:    [STRINGID_PKMNPREVENTSSTATLOSSWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnPreventsStatLossWith,"
+sText_PkmnHurtsWith,"src/battle_message.c:714:    [STRINGID_PKMNHURTSWITH - BATTLESTRINGS_TABLE_START] = sText_PkmnHurtsWith,"
+sText_PkmnTraced,"src/battle_message.c:715:    [STRINGID_PKMNTRACED - BATTLESTRINGS_TABLE_START] = sText_PkmnTraced,"
+sText_AttackersStatRose,"src/battle_message.c:720:    [STRINGID_ATTACKERSSTATROSE - BATTLESTRINGS_TABLE_START] = sText_AttackersStatRose,"
+gText_DefendersStatRose,"src/battle_message.c:721:    [STRINGID_DEFENDERSSTATROSE - BATTLESTRINGS_TABLE_START] = gText_DefendersStatRose,"
+gText_DefendersStatRose,src/pokemon.c:5449:    BattleStringExpandPlaceholdersToDisplayedString(gText_DefendersStatRose);
+sText_AttackersStatFell,"src/battle_message.c:722:    [STRINGID_ATTACKERSSTATFELL - BATTLESTRINGS_TABLE_START] = sText_AttackersStatFell,"
+sText_DefendersStatFell,"src/battle_message.c:723:    [STRINGID_DEFENDERSSTATFELL - BATTLESTRINGS_TABLE_START] = sText_DefendersStatFell,"
+sText_GotAwaySafely,"src/battle_message.c:730:    [STRINGID_GOTAWAYSAFELY - BATTLESTRINGS_TABLE_START] = sText_GotAwaySafely,"
+sText_GotAwaySafely,src/battle_message.c:2174:                stringPtr = sText_GotAwaySafely;
+sText_WildPkmnFled,"src/battle_message.c:731:    [STRINGID_WILDPKMNFLED - BATTLESTRINGS_TABLE_START] = sText_WildPkmnFled,"
+sText_NoRunningFromTrainers,"src/battle_message.c:732:    [STRINGID_NORUNNINGFROMTRAINERS - BATTLESTRINGS_TABLE_START] = sText_NoRunningFromTrainers,"

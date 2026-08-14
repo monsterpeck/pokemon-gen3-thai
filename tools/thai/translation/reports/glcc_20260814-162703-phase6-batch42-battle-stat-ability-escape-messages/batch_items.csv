@@ -1,0 +1,28 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0195,sText_PkmnPreventsStatLossWith,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+prevents stat loss!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ป้องกันค่าสถานะลดลง!",1,1,,138,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0196,sText_PkmnHurtsWith,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+hurt {B_ATK_NAME_WITH_PREFIX}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ทำให้ {B_ATK_NAME_WITH_PREFIX} บาดเจ็บ!",1,1,,111,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0197,sText_PkmnTraced,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} TRACED
+{B_BUFF1}'s {B_BUFF2}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} เลียนแบบ
+{B_BUFF1} และได้ {B_BUFF2}!",1,1,,112,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0202,sText_AttackersStatRose,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}
+{B_BUFF2}","{B_ATK_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+{B_BUFF2}",1,1,,35,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0203,gText_DefendersStatRose,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
+{B_BUFF2}","{B_DEF_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+{B_BUFF2}",2,2,,35,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c;src/pokemon.c,{},pass,pending
+SM0204,sText_AttackersStatFell,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1}
+{B_BUFF2}","{B_ATK_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+{B_BUFF2}",1,1,,35,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0205,sText_DefendersStatFell,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}
+{B_BUFF2}","{B_DEF_NAME_WITH_PREFIX} ค่า {B_BUFF1}
+{B_BUFF2}",1,1,,35,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0212,sText_GotAwaySafely,src/battle_message.c,{PLAY_SE SE_FLEE}Got away safely!\p,{PLAY_SE SE_FLEE}หนีออกมาได้อย่างปลอดภัย!\p,2,2,,140,MEDIUM,มี control code; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0213,sText_WildPkmnFled,src/battle_message.c,{PLAY_SE SE_FLEE}Wild {B_BUFF1} fled!,"{PLAY_SE SE_FLEE}โปเกมอนป่า {B_BUFF1}
+หนีไปแล้ว!",1,1,,129,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0214,sText_NoRunningFromTrainers,src/battle_message.c,"No! There's no running
+from a TRAINER battle!\p","ไม่ได้! หนีจากการต่อสู้
+กับเทรนเนอร์ไม่ได้!\p",1,1,,229,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
