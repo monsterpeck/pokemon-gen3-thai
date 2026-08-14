@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-200722-phase6-batch48-battle-ability-weather-power-messages",
   "locked_head": "28740e76d49402fa0f90a42b0f69928da0810814",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 318,
     "pending": 100,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "4c91bec1897ea5d6c444d7acad574514a26a5431e5ddda8d0b976808a1013d83",
-  "normal_rom_sha256": "4c91bec1897ea5d6c444d7acad574514a26a5431e5ddda8d0b976808a1013d83"
+  "normal_rom_sha256": "4c91bec1897ea5d6c444d7acad574514a26a5431e5ddda8d0b976808a1013d83",
+  "qa_note": "Batch 48 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
