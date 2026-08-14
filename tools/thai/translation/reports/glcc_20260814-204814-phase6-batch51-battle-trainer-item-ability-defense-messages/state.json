@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages",
   "locked_head": "37d1d7e2baa667eb8a2b542432d5f4b1f4c3a550",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 348,
     "pending": 70,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "c9f61b3031282d27cf5e70c5ea714518e48b5634229a42640c8484c80a70717f",
-  "normal_rom_sha256": "c9f61b3031282d27cf5e70c5ea714518e48b5634229a42640c8484c80a70717f"
+  "normal_rom_sha256": "c9f61b3031282d27cf5e70c5ea714518e48b5634229a42640c8484c80a70717f",
+  "qa_note": "Batch 51 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
