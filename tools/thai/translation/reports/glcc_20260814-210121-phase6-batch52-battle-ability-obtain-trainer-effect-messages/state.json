@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-210121-phase6-batch52-battle-ability-obtain-trainer-effect-messages",
   "locked_head": "13ebf040ffbc54b4da03a9ae18d640ca67f0572c",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 358,
     "pending": 60,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "a7f855db4bfba9395ed6f27c616250b3b235cd3f46bad3d1e742e7936c2dcfa8",
-  "normal_rom_sha256": "a7f855db4bfba9395ed6f27c616250b3b235cd3f46bad3d1e742e7936c2dcfa8"
+  "normal_rom_sha256": "a7f855db4bfba9395ed6f27c616250b3b235cd3f46bad3d1e742e7936c2dcfa8",
+  "qa_note": "Batch 52 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
