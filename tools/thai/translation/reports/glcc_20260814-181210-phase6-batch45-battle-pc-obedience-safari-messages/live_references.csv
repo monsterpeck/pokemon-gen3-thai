@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnSentToPC,"src/battle_message.c:777:    [STRINGID_PKMNSENTTOPC - BATTLESTRINGS_TABLE_START] = sText_PkmnSentToPC,"
+sText_PkmnDataAddedToDex,"src/battle_message.c:778:    [STRINGID_PKMNDATAADDEDTODEX - BATTLESTRINGS_TABLE_START] = sText_PkmnDataAddedToDex,"
+sText_PkmnIgnoresAsleep,"src/battle_message.c:782:    [STRINGID_PKMNIGNORESASLEEP - BATTLESTRINGS_TABLE_START] = sText_PkmnIgnoresAsleep,"
+sText_PkmnIgnoredOrders,"src/battle_message.c:783:    [STRINGID_PKMNIGNOREDORDERS - BATTLESTRINGS_TABLE_START] = sText_PkmnIgnoredOrders,"
+sText_PkmnLoafing,"src/battle_message.c:785:    [STRINGID_PKMNLOAFING - BATTLESTRINGS_TABLE_START] = sText_PkmnLoafing,"
+sText_PkmnWontObey,"src/battle_message.c:786:    [STRINGID_PKMNWONTOBEY - BATTLESTRINGS_TABLE_START] = sText_PkmnWontObey,"
+sText_PkmnPretendNotNotice,"src/battle_message.c:788:    [STRINGID_PKMNPRETENDNOTNOTICE - BATTLESTRINGS_TABLE_START] = sText_PkmnPretendNotNotice,"
+sText_EnemyAboutToSwitchPkmn,"src/battle_message.c:789:    [STRINGID_ENEMYABOUTTOSWITCHPKMN - BATTLESTRINGS_TABLE_START] = sText_EnemyAboutToSwitchPkmn,"
+sText_CreptCloser,"src/battle_message.c:790:    [STRINGID_CREPTCLOSER - BATTLESTRINGS_TABLE_START] = sText_CreptCloser,"
+sText_PkmnWatchingCarefully,"src/battle_message.c:792:    [STRINGID_PKMNWATCHINGCAREFULLY - BATTLESTRINGS_TABLE_START] = sText_PkmnWatchingCarefully,"

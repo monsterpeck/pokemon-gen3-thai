@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-181210-phase6-batch45-battle-pc-obedience-safari-messages",
+  "locked_head": "369f9588a9bd6c2e5d1e52a2c9e21b4b2ddb7702",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 288,
+    "pending": 130,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 288,
+    "pending": 120,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "d850bb0b2d33160f6ffab3e99349441324f8ceaf3af688f2c2b19f53188b2fc0",
+  "normal_rom_sha256": "d850bb0b2d33160f6ffab3e99349441324f8ceaf3af688f2c2b19f53188b2fc0"
+}

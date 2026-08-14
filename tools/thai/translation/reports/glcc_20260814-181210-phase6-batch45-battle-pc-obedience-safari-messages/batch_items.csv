@@ -1,0 +1,33 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0259,sText_PkmnSentToPC,src/battle_message.c,"{B_OPPONENT_MON1_NAME} was sent to
+{B_PC_CREATOR_NAME} PC.","{B_OPPONENT_MON1_NAME} ถูกส่งไปยัง
+PC ของ {B_PC_CREATOR_NAME}.",1,1,,113,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0260,sText_PkmnDataAddedToDex,src/battle_message.c,"{B_OPPONENT_MON1_NAME}'s data was
+added to the POKéDEX.\p","ข้อมูลของ {B_OPPONENT_MON1_NAME}
+ถูกบันทึกลงโปเกเด็กซ์แล้ว.\p",1,1,,202,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0264,sText_PkmnIgnoresAsleep,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} ignored
+orders while asleep!","{B_ATK_NAME_WITH_PREFIX}
+ไม่ทำตามคำสั่งขณะหลับ!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0265,sText_PkmnIgnoredOrders,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} ignored
+orders!","{B_ATK_NAME_WITH_PREFIX}
+ไม่ทำตามคำสั่ง!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0267,sText_PkmnLoafing,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is
+loafing around!","{B_ATK_NAME_WITH_PREFIX}
+กำลังเอ้อระเหย!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0268,sText_PkmnWontObey,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} won't
+obey!","{B_ATK_NAME_WITH_PREFIX}
+ไม่ยอมเชื่อฟัง!",1,1,,84,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0270,sText_PkmnPretendNotNotice,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} pretended
+not to notice!","{B_ATK_NAME_WITH_PREFIX} แกล้งทำเป็น
+ไม่สนใจ!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0271,sText_EnemyAboutToSwitchPkmn,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is
+about to use {B_BUFF2}.\pWill {B_PLAYER_NAME} change
+POKéMON?","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} กำลังจะ
+ส่ง {B_BUFF2} ลงสนาม.\p{B_PLAYER_NAME} จะเปลี่ยน
+โปเกมอนไหม?",1,1,,265,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0272,sText_CreptCloser,src/battle_message.c,"{B_PLAYER_NAME} crept closer to
+{B_OPPONENT_MON1_NAME}!","{B_PLAYER_NAME} ค่อย ๆ เข้าใกล้
+{B_OPPONENT_MON1_NAME}!",1,1,,93,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0274,sText_PkmnWatchingCarefully,src/battle_message.c,"{B_OPPONENT_MON1_NAME} is watching
+carefully!","{B_OPPONENT_MON1_NAME}
+กำลังจับตาดูอย่างระมัดระวัง!",1,1,,139,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
