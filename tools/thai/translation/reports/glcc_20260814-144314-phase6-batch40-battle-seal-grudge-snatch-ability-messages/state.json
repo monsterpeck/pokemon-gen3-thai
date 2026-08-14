@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages",
+  "locked_head": "268e6026b93e20e5ede5ede3b7e234649a36aba8",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 238,
+    "pending": 180,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 238,
+    "pending": 170,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "fcc7cc5db5ff8b284c3d3f4b6089901deeb3d88c79d5e974e3b8ce381bd6736f",
+  "normal_rom_sha256": "fcc7cc5db5ff8b284c3d3f4b6089901deeb3d88c79d5e974e3b8ce381bd6736f"
+}

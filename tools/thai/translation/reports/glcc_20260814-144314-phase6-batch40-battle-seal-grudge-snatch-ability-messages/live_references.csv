@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnCantUseMoveSealed,"src/battle_message.c:693:    [STRINGID_PKMNCANTUSEMOVESEALED - BATTLESTRINGS_TABLE_START] = sText_PkmnCantUseMoveSealed,"
+sText_PkmnWantsGrudge,"src/battle_message.c:694:    [STRINGID_PKMNWANTSGRUDGE - BATTLESTRINGS_TABLE_START] = sText_PkmnWantsGrudge,"
+sText_PkmnLostPPGrudge,"src/battle_message.c:695:    [STRINGID_PKMNLOSTPPGRUDGE - BATTLESTRINGS_TABLE_START] = sText_PkmnLostPPGrudge,"
+sText_PkmnShroudedItself,"src/battle_message.c:696:    [STRINGID_PKMNSHROUDEDITSELF - BATTLESTRINGS_TABLE_START] = sText_PkmnShroudedItself,"
+sText_PkmnMoveBounced,"src/battle_message.c:697:    [STRINGID_PKMNMOVEBOUNCED - BATTLESTRINGS_TABLE_START] = sText_PkmnMoveBounced,"
+sText_PkmnWaitsForTarget,"src/battle_message.c:698:    [STRINGID_PKMNWAITSFORTARGET - BATTLESTRINGS_TABLE_START] = sText_PkmnWaitsForTarget,"
+sText_PkmnSnatchedMove,"src/battle_message.c:699:    [STRINGID_PKMNSNATCHEDMOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnSnatchedMove,"
+sText_PkmnMadeItRain,"src/battle_message.c:700:    [STRINGID_PKMNMADEITRAIN - BATTLESTRINGS_TABLE_START] = sText_PkmnMadeItRain,"
+sText_PkmnRaisedSpeed,"src/battle_message.c:701:    [STRINGID_PKMNRAISEDSPEED - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedSpeed,"
+sText_PkmnProtectedBy,"src/battle_message.c:702:    [STRINGID_PKMNPROTECTEDBY - BATTLESTRINGS_TABLE_START] = sText_PkmnProtectedBy,"

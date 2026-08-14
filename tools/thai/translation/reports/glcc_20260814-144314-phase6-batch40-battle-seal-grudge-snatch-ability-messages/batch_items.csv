@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0175,sText_PkmnCantUseMoveSealed,src/battle_message.c,"{B_ACTIVE_NAME_WITH_PREFIX} can't use the
+sealed {B_CURRENT_MOVE}!\p","{B_ACTIVE_NAME_WITH_PREFIX} ใช้
+{B_CURRENT_MOVE} ที่ถูกผนึกไม่ได้!\p",1,1,,125,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0176,sText_PkmnWantsGrudge,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} wants the
+opponent to bear a GRUDGE!","{B_ATK_NAME_WITH_PREFIX} ฝาก GRUDGE
+ไว้กับฝ่ายตรงข้าม!",1,1,,170,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0177,sText_PkmnLostPPGrudge,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} lost
+all its PP due to the GRUDGE!","{B_ATK_NAME_WITH_PREFIX} ท่า {B_BUFF1}
+เสีย PP ทั้งหมดเพราะ GRUDGE!",1,1,,194,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0178,sText_PkmnShroudedItself,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} shrouded
+itself in {B_CURRENT_MOVE}!","{B_ATK_NAME_WITH_PREFIX} ห่อหุ้มตัวเอง
+ด้วย {B_CURRENT_MOVE}!",1,1,,105,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0179,sText_PkmnMoveBounced,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}
+was bounced back by MAGIC COAT!","{B_ATK_NAME_WITH_PREFIX} ท่า {B_CURRENT_MOVE}
+ถูก MAGIC COAT สะท้อนกลับ!",1,1,,190,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0180,sText_PkmnWaitsForTarget,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} waits for a target
+to make a move!","{B_ATK_NAME_WITH_PREFIX} รอให้เป้าหมาย
+ออกท่าก่อน!",1,1,,140,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0181,sText_PkmnSnatchedMove,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} SNATCHED
+{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s move!","{B_DEF_NAME_WITH_PREFIX} ชิงท่า
+ของ {B_SCR_ACTIVE_NAME_WITH_PREFIX} ไป!",1,1,,86,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0182,sText_PkmnMadeItRain,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+made it rain!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ฝนตก!",1,1,,95,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0183,sText_PkmnRaisedSpeed,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+raised its SPEED!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+เพิ่มความเร็วของตัวเอง!",1,1,,146,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0184,sText_PkmnProtectedBy,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was protected
+by {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ได้รับการป้องกัน
+ด้วย {B_DEF_ABILITY}!",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

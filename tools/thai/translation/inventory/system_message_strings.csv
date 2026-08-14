@@ -494,25 +494,35 @@ SM0174,local:src/battle_message.c:sText_PkmnSealedOpponentMove,sText_PkmnSealedO
 opponent's move(s)!","{B_ATK_NAME_WITH_PREFIX}
 ผนึกท่าของฝ่ายตรงข้าม!",proof_passed,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,240,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260814-142335-phase6-batch39-battle-support-item-wish-ability-messages: preview/build passed; visual QA pending.; GLCC 20260814-142335-phase6-batch39-battle-support-item-wish-ability-messages: visual QA passed. Batch 39 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0175,local:src/battle_message.c:sText_PkmnCantUseMoveSealed,sText_PkmnCantUseMoveSealed,"{B_ACTIVE_NAME_WITH_PREFIX} can't use the
-sealed {B_CURRENT_MOVE}!\p",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,262,2,{B_ACTIVE_NAME_WITH_PREFIX}; {B_CURRENT_MOVE}; \p,yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+sealed {B_CURRENT_MOVE}!\p","{B_ACTIVE_NAME_WITH_PREFIX} ใช้
+{B_CURRENT_MOVE} ที่ถูกผนึกไม่ได้!\p",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,262,2,{B_ACTIVE_NAME_WITH_PREFIX}; {B_CURRENT_MOVE}; \p,yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0176,local:src/battle_message.c:sText_PkmnWantsGrudge,sText_PkmnWantsGrudge,"{B_ATK_NAME_WITH_PREFIX} wants the
-opponent to bear a GRUDGE!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,241,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+opponent to bear a GRUDGE!","{B_ATK_NAME_WITH_PREFIX} ฝาก GRUDGE
+ไว้กับฝ่ายตรงข้าม!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,241,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0177,local:src/battle_message.c:sText_PkmnLostPPGrudge,sText_PkmnLostPPGrudge,"{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} lost
-all its PP due to the GRUDGE!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,242,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+all its PP due to the GRUDGE!","{B_ATK_NAME_WITH_PREFIX} ท่า {B_BUFF1}
+เสีย PP ทั้งหมดเพราะ GRUDGE!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,242,2,{B_ATK_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0178,local:src/battle_message.c:sText_PkmnShroudedItself,sText_PkmnShroudedItself,"{B_ATK_NAME_WITH_PREFIX} shrouded
-itself in {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,243,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+itself in {B_CURRENT_MOVE}!","{B_ATK_NAME_WITH_PREFIX} ห่อหุ้มตัวเอง
+ด้วย {B_CURRENT_MOVE}!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,243,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0179,local:src/battle_message.c:sText_PkmnMoveBounced,sText_PkmnMoveBounced,"{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE}
-was bounced back by MAGIC COAT!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,244,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+was bounced back by MAGIC COAT!","{B_ATK_NAME_WITH_PREFIX} ท่า {B_CURRENT_MOVE}
+ถูก MAGIC COAT สะท้อนกลับ!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,244,2,{B_ATK_NAME_WITH_PREFIX}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0180,local:src/battle_message.c:sText_PkmnWaitsForTarget,sText_PkmnWaitsForTarget,"{B_ATK_NAME_WITH_PREFIX} waits for a target
-to make a move!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,245,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+to make a move!","{B_ATK_NAME_WITH_PREFIX} รอให้เป้าหมาย
+ออกท่าก่อน!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,245,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0181,local:src/battle_message.c:sText_PkmnSnatchedMove,sText_PkmnSnatchedMove,"{B_DEF_NAME_WITH_PREFIX} SNATCHED
-{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s move!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,246,2,{B_DEF_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s move!","{B_DEF_NAME_WITH_PREFIX} ชิงท่า
+ของ {B_SCR_ACTIVE_NAME_WITH_PREFIX} ไป!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,246,2,{B_DEF_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0182,local:src/battle_message.c:sText_PkmnMadeItRain,sText_PkmnMadeItRain,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-made it rain!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,263,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+made it rain!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้ฝนตก!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,263,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0183,local:src/battle_message.c:sText_PkmnRaisedSpeed,sText_PkmnRaisedSpeed,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-raised its SPEED!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,264,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+raised its SPEED!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+เพิ่มความเร็วของตัวเอง!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,264,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0184,local:src/battle_message.c:sText_PkmnProtectedBy,sText_PkmnProtectedBy,"{B_DEF_NAME_WITH_PREFIX} was protected
-by {B_DEF_ABILITY}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,265,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+by {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ได้รับการป้องกัน
+ด้วย {B_DEF_ABILITY}!",translated_pending_qa,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,265,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-144314-phase6-batch40-battle-seal-grudge-snatch-ability-messages: preview/build passed; visual QA pending.
 SM0185,local:src/battle_message.c:sText_PkmnPreventsUsage,sText_PkmnPreventsUsage,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
 prevents {B_ATK_NAME_WITH_PREFIX}\lfrom using {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,266,2,{B_DEF_NAME_WITH_PREFIX}; {B_DEF_ABILITY}; {B_ATK_NAME_WITH_PREFIX}; \l; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0186,local:src/battle_message.c:sText_PkmnRestoredHPUsing,sText_PkmnRestoredHPUsing,"{B_DEF_NAME_WITH_PREFIX} restored HP
