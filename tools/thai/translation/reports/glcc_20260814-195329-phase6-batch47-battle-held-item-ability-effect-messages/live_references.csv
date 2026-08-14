@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnsItemSnappedOut,"src/battle_message.c:803:    [STRINGID_PKMNSITEMSNAPPEDOUT - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemSnappedOut,"
+sText_PkmnsItemCuredProblem,"src/battle_message.c:804:    [STRINGID_PKMNSITEMCUREDPROBLEM - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemCuredProblem,"
+sText_PkmnsItemRestoredHealth,"src/battle_message.c:805:    [STRINGID_PKMNSITEMRESTOREDHEALTH - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRestoredHealth,"
+sText_PkmnsItemRestoredPP,"src/battle_message.c:806:    [STRINGID_PKMNSITEMRESTOREDPP - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRestoredPP,"
+sText_PkmnsItemRestoredStatus,"src/battle_message.c:807:    [STRINGID_PKMNSITEMRESTOREDSTATUS - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRestoredStatus,"
+sText_PkmnsItemRestoredHPALittle,"src/battle_message.c:808:    [STRINGID_PKMNSITEMRESTOREDHPALITTLE - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRestoredHPALittle,"
+sText_ItemAllowsOnlyYMove,"src/battle_message.c:809:    [STRINGID_ITEMALLOWSONLYYMOVE - BATTLESTRINGS_TABLE_START] = sText_ItemAllowsOnlyYMove,"
+sText_PkmnHungOnWithX,"src/battle_message.c:810:    [STRINGID_PKMNHUNGONWITHX - BATTLESTRINGS_TABLE_START] = sText_PkmnHungOnWithX,"
+sText_PkmnsXPreventsBurns,"src/battle_message.c:812:    [STRINGID_PKMNSXPREVENTSBURNS - BATTLESTRINGS_TABLE_START] = sText_PkmnsXPreventsBurns,"
+sText_PkmnsXBlocksY,"src/battle_message.c:813:    [STRINGID_PKMNSXBLOCKSY - BATTLESTRINGS_TABLE_START] = sText_PkmnsXBlocksY,"

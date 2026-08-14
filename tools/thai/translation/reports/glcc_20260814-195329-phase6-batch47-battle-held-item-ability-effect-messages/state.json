@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-195329-phase6-batch47-battle-held-item-ability-effect-messages",
+  "locked_head": "bee5eb3a35f62015cda9ce5e3828f913fda3bc03",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 308,
+    "pending": 110,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 308,
+    "pending": 100,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "53c02665f114ced010cf50f46da9a64c456c1ba4046b47768874d7efc9ab94d1",
+  "normal_rom_sha256": "53c02665f114ced010cf50f46da9a64c456c1ba4046b47768874d7efc9ab94d1"
+}

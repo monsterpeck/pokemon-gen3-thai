@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0285,sText_PkmnsItemSnappedOut,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+snapped it out of confusion!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+หายจากความสับสน!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0286,sText_PkmnsItemCuredProblem,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+cured its {B_BUFF1} problem!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+รักษาอาการ {B_BUFF1}!",1,1,,96,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0287,sText_PkmnsItemRestoredHealth,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+restored health!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ฟื้นพลัง!",1,1,,78,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0288,sText_PkmnsItemRestoredPP,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+restored {B_BUFF1}'s PP!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ฟื้น PP ของ {B_BUFF1}!",1,1,,104,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0289,sText_PkmnsItemRestoredStatus,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+restored its status!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ฟื้นสภาพให้เป็นปกติ!",1,1,,137,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0290,sText_PkmnsItemRestoredHPALittle,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+restored its HP a little!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ฟื้น HP เล็กน้อย!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0291,sText_ItemAllowsOnlyYMove,src/battle_message.c,"{B_LAST_ITEM} allows the
+use of only {B_CURRENT_MOVE}!\p","{B_LAST_ITEM} ทำให้ใช้ได้เพียง
+{B_CURRENT_MOVE}!\p",1,1,,115,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0292,sText_PkmnHungOnWithX,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} hung on
+using its {B_LAST_ITEM}!","{B_DEF_NAME_WITH_PREFIX} ทนไว้ได้
+ด้วย {B_LAST_ITEM}!",1,1,,91,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0294,sText_PkmnsXPreventsBurns,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY}
+prevents burns!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_EFF_ABILITY}
+ป้องกันแผลไฟไหม้!",1,1,,128,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0295,sText_PkmnsXBlocksY,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+blocks {B_CURRENT_MOVE}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ขัดขวาง {B_CURRENT_MOVE}!",1,1,,81,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
