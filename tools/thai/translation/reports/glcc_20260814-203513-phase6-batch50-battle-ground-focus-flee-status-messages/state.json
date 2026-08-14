@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-203513-phase6-batch50-battle-ground-focus-flee-status-messages",
+  "locked_head": "fcc88472ee79c307db31c1ab9291fd3fb536ddad",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 338,
+    "pending": 80,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 338,
+    "pending": 70,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "ff73f3bcddb9e41c3d7da5428002c13c3341583c09eadad036d31770bb33a8d0",
+  "normal_rom_sha256": "ff73f3bcddb9e41c3d7da5428002c13c3341583c09eadad036d31770bb33a8d0"
+}

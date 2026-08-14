@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0321,sText_PkmnMakesGroundMiss,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} makes GROUND
+moves miss with {B_DEF_ABILITY}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ทำให้ท่าประเภทดินพลาด!",1,1,,154,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0322,sText_YouThrowABallNowRight,src/battle_message.c,"You throw a BALL now, right?
+I… I'll do my best!","ตอนนี้จะขว้างบอล
+แล้วใช่ไหม?",1,1,,154,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0323,sText_PkmnsXTookAttack,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+took the attack!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+รับการโจมตีไว้!",1,1,,108,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0324,sText_PkmnChoseXAsDestiny,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} chose
+{B_CURRENT_MOVE} as its destiny!","{B_ATK_NAME_WITH_PREFIX} เลือก
+{B_CURRENT_MOVE} เป็นชะตากรรมของตน!",1,1,,149,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0325,sText_PkmnLostFocus,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} lost its
+focus and couldn't move!","{B_ATK_NAME_WITH_PREFIX} เสียสมาธิ
+และขยับไม่ได้!",1,1,,130,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0327,sText_PkmnFledUsingIts,src/battle_message.c,"{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled
+using its {B_LAST_ITEM}!\p","{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} หนีไป
+ด้วย {B_LAST_ITEM}!\p",1,1,,95,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0328,sText_PkmnFledUsing,src/battle_message.c,"{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled
+using {B_ATK_ABILITY}!\p","{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} หนีไป
+ด้วย {B_ATK_ABILITY}!\p",1,1,,95,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0329,sText_PkmnWasDraggedOut,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was
+dragged out!\p","{B_DEF_NAME_WITH_PREFIX}
+ถูกลากออกมา!\p",1,1,,97,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0330,sText_PreventedFromWorking,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+prevented {B_SCR_ACTIVE_NAME_WITH_PREFIX}'s\l{B_BUFF1} from working!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ขัดขวาง {B_SCR_ACTIVE_NAME_WITH_PREFIX}\lทำให้ {B_BUFF1} ใช้งานไม่ได้!",1,1,,183,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0331,sText_PkmnsItemNormalizedStatus,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+normalized its status!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ทำให้สภาพกลับเป็นปกติ!",1,1,,151,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnMakesGroundMiss,"src/battle_message.c:839:    [STRINGID_PKMNMAKESGROUNDMISS - BATTLESTRINGS_TABLE_START] = sText_PkmnMakesGroundMiss,"
+sText_YouThrowABallNowRight,"src/battle_message.c:840:    [STRINGID_YOUTHROWABALLNOWRIGHT - BATTLESTRINGS_TABLE_START] = sText_YouThrowABallNowRight,"
+sText_PkmnsXTookAttack,"src/battle_message.c:841:    [STRINGID_PKMNSXTOOKATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnsXTookAttack,"
+sText_PkmnChoseXAsDestiny,"src/battle_message.c:842:    [STRINGID_PKMNCHOSEXASDESTINY - BATTLESTRINGS_TABLE_START] = sText_PkmnChoseXAsDestiny,"
+sText_PkmnLostFocus,"src/battle_message.c:843:    [STRINGID_PKMNLOSTFOCUS - BATTLESTRINGS_TABLE_START] = sText_PkmnLostFocus,"
+sText_PkmnFledUsingIts,"src/battle_message.c:845:    [STRINGID_PKMNFLEDUSINGITS - BATTLESTRINGS_TABLE_START] = sText_PkmnFledUsingIts,"
+sText_PkmnFledUsing,"src/battle_message.c:846:    [STRINGID_PKMNFLEDUSING - BATTLESTRINGS_TABLE_START] = sText_PkmnFledUsing,"
+sText_PkmnWasDraggedOut,"src/battle_message.c:847:    [STRINGID_PKMNWASDRAGGEDOUT - BATTLESTRINGS_TABLE_START] = sText_PkmnWasDraggedOut,"
+sText_PreventedFromWorking,"src/battle_message.c:848:    [STRINGID_PREVENTEDFROMWORKING - BATTLESTRINGS_TABLE_START] = sText_PreventedFromWorking,"
+sText_PkmnsItemNormalizedStatus,"src/battle_message.c:849:    [STRINGID_PKMNSITEMNORMALIZEDSTATUS - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemNormalizedStatus,"
