@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-211352-phase6-batch53-battle-referee-forfeit-trainer-intro-messages",
   "locked_head": "225b7d966d190d2ef00678da2585838fdc327a06",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 368,
     "pending": 50,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "62cd78705364bf695ad5013899000dc7d894c1b5a0f1446560279e55ef632c39",
-  "normal_rom_sha256": "62cd78705364bf695ad5013899000dc7d894c1b5a0f1446560279e55ef632c39"
+  "normal_rom_sha256": "62cd78705364bf695ad5013899000dc7d894c1b5a0f1446560279e55ef632c39",
+  "qa_note": "Batch 53 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
