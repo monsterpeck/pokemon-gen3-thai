@@ -1,0 +1,12 @@
+﻿symbol,reference
+sText_HMMovesCantBeForgotten,"src/battle_message.c:826:    [STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_TABLE_START] = sText_HMMovesCantBeForgotten,"
+sText_XFoundOneY,"src/battle_message.c:827:    [STRINGID_XFOUNDONEY - BATTLESTRINGS_TABLE_START] = sText_XFoundOneY,"
+sText_PlayerDefeatedLinkTrainerTrainer1,"src/battle_message.c:828:    [STRINGID_PLAYERDEFEATEDTRAINER1 - BATTLESTRINGS_TABLE_START] = sText_PlayerDefeatedLinkTrainerTrainer1,"
+sText_PlayerDefeatedLinkTrainerTrainer1,src/battle_message.c:2208:                    stringPtr = sText_PlayerDefeatedLinkTrainerTrainer1;
+sText_SoothingAroma,"src/battle_message.c:829:    [STRINGID_SOOTHINGAROMA - BATTLESTRINGS_TABLE_START] = sText_SoothingAroma,"
+sText_ForXCommaYZ,"src/battle_message.c:831:    [STRINGID_FORXCOMMAYZ - BATTLESTRINGS_TABLE_START] = sText_ForXCommaYZ,"
+sText_UsingItemTheStatOfPkmnRose,"src/battle_message.c:832:    [STRINGID_USINGITEMSTATOFPKMNROSE - BATTLESTRINGS_TABLE_START] = sText_UsingItemTheStatOfPkmnRose,"
+sText_PkmnUsedXToGetPumped,"src/battle_message.c:833:    [STRINGID_PKMNUSEDXTOGETPUMPED - BATTLESTRINGS_TABLE_START] = sText_PkmnUsedXToGetPumped,"
+sText_PkmnsXMadeYUseless,"src/battle_message.c:834:    [STRINGID_PKMNSXMADEYUSELESS - BATTLESTRINGS_TABLE_START] = sText_PkmnsXMadeYUseless,"
+sText_PkmnTrappedBySandTomb,"src/battle_message.c:835:    [STRINGID_PKMNTRAPPEDBYSANDTOMB - BATTLESTRINGS_TABLE_START] = sText_PkmnTrappedBySandTomb,"
+sText_PkmnsXIntensifiedSun,"src/battle_message.c:838:    [STRINGID_PKMNSXINTENSIFIEDSUN - BATTLESTRINGS_TABLE_START] = sText_PkmnsXIntensifiedSun,"

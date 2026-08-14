@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0308,sText_HMMovesCantBeForgotten,src/battle_message.c,"HM moves can't be
+forgotten now.\p","ตอนนี้ยังลืม
+ท่า HM ไม่ได้.\p",1,1,,153,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0309,sText_XFoundOneY,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} found
+one {B_LAST_ITEM}!","{B_ATK_NAME_WITH_PREFIX} พบ
+{B_LAST_ITEM} 1 ชิ้น!",1,1,,74,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0310,sText_PlayerDefeatedLinkTrainerTrainer1,src/battle_message.c,"Player defeated
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\p","ผู้เล่นเอาชนะ
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\p",2,2,,101,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0311,sText_SoothingAroma,src/battle_message.c,"A soothing aroma wafted
+through the area!","กลิ่นหอมผ่อนคลาย
+ลอยอบอวลไปทั่ว!",1,1,,182,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0313,sText_ForXCommaYZ,src/battle_message.c,"For {B_SCR_ACTIVE_NAME_WITH_PREFIX},
+{B_LAST_ITEM} {B_BUFF1}","สำหรับ {B_SCR_ACTIVE_NAME_WITH_PREFIX},
+{B_LAST_ITEM} ทำให้ {B_BUFF1}",1,1,,89,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0314,sText_UsingItemTheStatOfPkmnRose,src/battle_message.c,"Using {B_LAST_ITEM}, the {B_BUFF1}
+of {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}","ใช้ {B_LAST_ITEM} แล้ว ค่า {B_BUFF1}
+ของ {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}",1,1,,98,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0315,sText_PkmnUsedXToGetPumped,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} used
+{B_LAST_ITEM} to get pumped!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้
+{B_LAST_ITEM} เพิ่มความฮึกเหิม!",1,1,,117,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0316,sText_PkmnsXMadeYUseless,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+made {B_CURRENT_MOVE} useless!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ทำให้ {B_CURRENT_MOVE} ไร้ผล!",1,1,,99,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0317,sText_PkmnTrappedBySandTomb,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was trapped
+by SAND TOMB!","{B_DEF_NAME_WITH_PREFIX}
+ติดอยู่ในสุสานทราย!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0320,sText_PkmnsXIntensifiedSun,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+intensified the sun's rays!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้แสงแดดแรงขึ้น!",1,1,,138,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
