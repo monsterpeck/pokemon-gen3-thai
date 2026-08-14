@@ -416,15 +416,20 @@ SM0146,local:src/battle_message.c:sText_PkmnGotFree,sText_PkmnGotFree,"{B_ATK_NA
 {B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} หลุดพ้นจาก
 พันธนาการของ {B_DEF_NAME_WITH_PREFIX} จาก {B_BUFF1}!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,211,2,{B_ATK_NAME_WITH_PREFIX}; {B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260814-112013-phase6-batch36-battle-endure-hp-stat-release-messages: preview/build passed; visual QA pending.; GLCC 20260814-112013-phase6-batch36-battle-endure-hp-stat-release-messages: visual QA passed. Batch 36 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0147,local:src/battle_message.c:sText_PkmnShedLeechSeed,sText_PkmnShedLeechSeed,"{B_ATK_NAME_WITH_PREFIX} shed
-LEECH SEED!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,212,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+LEECH SEED!","{B_ATK_NAME_WITH_PREFIX}
+สลัดเมล็ดดูดพลังออก!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,212,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages: preview/build passed; visual QA pending.
 SM0148,local:src/battle_message.c:sText_PkmnBlewAwaySpikes,sText_PkmnBlewAwaySpikes,"{B_ATK_NAME_WITH_PREFIX} blew away
-SPIKES!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,213,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+SPIKES!","{B_ATK_NAME_WITH_PREFIX}
+พัดหนามแหลมออกไป!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,213,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages: preview/build passed; visual QA pending.
 SM0149,local:src/battle_message.c:sText_PkmnFledFromBattle,sText_PkmnFledFromBattle,"{B_ATK_NAME_WITH_PREFIX} fled from
-battle!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,214,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+battle!","{B_ATK_NAME_WITH_PREFIX}
+หนีออกจากการต่อสู้!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,214,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages: preview/build passed; visual QA pending.
 SM0150,local:src/battle_message.c:sText_PkmnForesawAttack,sText_PkmnForesawAttack,"{B_ATK_NAME_WITH_PREFIX} foresaw
-an attack!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,215,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+an attack!","{B_ATK_NAME_WITH_PREFIX}
+มองเห็นการโจมตีล่วงหน้า!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,215,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages: preview/build passed; visual QA pending.
 SM0151,local:src/battle_message.c:sText_PkmnTookAttack,sText_PkmnTookAttack,"{B_DEF_NAME_WITH_PREFIX} took the
-{B_BUFF1} attack!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,216,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+{B_BUFF1} attack!","{B_DEF_NAME_WITH_PREFIX} ถูกโจมตี
+ด้วย {B_BUFF1}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,216,2,{B_DEF_NAME_WITH_PREFIX}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages: preview/build passed; visual QA pending.
 SM0152,local:src/battle_message.c:sText_PkmnAttack,sText_PkmnAttack,{B_BUFF1}'s attack!,การโจมตีของ {B_BUFF1}!,proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,218,1,{B_BUFF1},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: preview/build passed; visual QA pending.; GLCC 20260812-205422-phase6-batch02-battle-low-safe-messages: visual QA passed. Batch 02 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0153,local:src/battle_message.c:sText_PkmnCenterAttention,sText_PkmnCenterAttention,"{B_ATK_NAME_WITH_PREFIX} became the
 center of attention!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,219,2,{B_ATK_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table

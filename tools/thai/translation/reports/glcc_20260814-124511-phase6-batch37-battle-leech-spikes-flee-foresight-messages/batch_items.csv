@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0147,sText_PkmnShedLeechSeed,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} shed
+LEECH SEED!","{B_ATK_NAME_WITH_PREFIX}
+สลัดเมล็ดดูดพลังออก!",1,1,,117,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0148,sText_PkmnBlewAwaySpikes,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} blew away
+SPIKES!","{B_ATK_NAME_WITH_PREFIX}
+พัดหนามแหลมออกไป!",1,1,,123,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0149,sText_PkmnFledFromBattle,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} fled from
+battle!","{B_ATK_NAME_WITH_PREFIX}
+หนีออกจากการต่อสู้!",1,1,,107,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0150,sText_PkmnForesawAttack,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} foresaw
+an attack!","{B_ATK_NAME_WITH_PREFIX}
+มองเห็นการโจมตีล่วงหน้า!",1,1,,135,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0151,sText_PkmnTookAttack,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} took the
+{B_BUFF1} attack!","{B_DEF_NAME_WITH_PREFIX} ถูกโจมตี
+ด้วย {B_BUFF1}!",1,1,,88,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

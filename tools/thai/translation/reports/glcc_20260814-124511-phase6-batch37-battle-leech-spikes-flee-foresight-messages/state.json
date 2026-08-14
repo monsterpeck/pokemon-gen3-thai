@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-124511-phase6-batch37-battle-leech-spikes-flee-foresight-messages",
+  "locked_head": "f6ab678f22303b90c25989c124982b0942306929",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 213,
+    "pending": 205,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 213,
+    "pending": 200,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "fd1583b80fed9951a26b1c3586f60f7b03475dedc696b9bb778a51e8b5c8fca6",
+  "normal_rom_sha256": "fd1583b80fed9951a26b1c3586f60f7b03475dedc696b9bb778a51e8b5c8fca6"
+}

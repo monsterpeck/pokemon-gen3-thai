@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnShedLeechSeed,"src/battle_message.c:665:    [STRINGID_PKMNSHEDLEECHSEED - BATTLESTRINGS_TABLE_START] = sText_PkmnShedLeechSeed,"
+sText_PkmnBlewAwaySpikes,"src/battle_message.c:666:    [STRINGID_PKMNBLEWAWAYSPIKES - BATTLESTRINGS_TABLE_START] = sText_PkmnBlewAwaySpikes,"
+sText_PkmnFledFromBattle,"src/battle_message.c:667:    [STRINGID_PKMNFLEDFROMBATTLE - BATTLESTRINGS_TABLE_START] = sText_PkmnFledFromBattle,"
+sText_PkmnForesawAttack,"src/battle_message.c:668:    [STRINGID_PKMNFORESAWATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnForesawAttack,"
+sText_PkmnTookAttack,"src/battle_message.c:669:    [STRINGID_PKMNTOOKATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnTookAttack,"
