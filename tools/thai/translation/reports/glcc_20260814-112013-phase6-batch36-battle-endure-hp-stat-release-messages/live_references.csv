@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnBracedItself,"src/battle_message.c:659:    [STRINGID_PKMNBRACEDITSELF - BATTLESTRINGS_TABLE_START] = sText_PkmnBracedItself,"
+sText_PkmnEnduredHit,"src/battle_message.c:660:    [STRINGID_PKMNENDUREDHIT - BATTLESTRINGS_TABLE_START] = sText_PkmnEnduredHit,"
+sText_PkmnCutHPMaxedAttack,"src/battle_message.c:662:    [STRINGID_PKMNCUTHPMAXEDATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnCutHPMaxedAttack,"
+sText_PkmnCopiedStatChanges,"src/battle_message.c:663:    [STRINGID_PKMNCOPIEDSTATCHANGES - BATTLESTRINGS_TABLE_START] = sText_PkmnCopiedStatChanges,"
+sText_PkmnGotFree,"src/battle_message.c:664:    [STRINGID_PKMNGOTFREE - BATTLESTRINGS_TABLE_START] = sText_PkmnGotFree,"

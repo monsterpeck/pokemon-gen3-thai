@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0141,sText_PkmnBracedItself,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} braced
+itself!","{B_ATK_NAME_WITH_PREFIX}
+ตั้งท่ารับ!",1,1,,59,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0142,sText_PkmnEnduredHit,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} ENDURED
+the hit!","{B_DEF_NAME_WITH_PREFIX}
+ทนการโจมตีไว้ได้!",1,1,,104,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0144,sText_PkmnCutHPMaxedAttack,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} cut its own HP
+and maximized ATTACK!","{B_ATK_NAME_WITH_PREFIX} ลด HP ตัวเอง
+และเพิ่มพลังโจมตีจนสูงสุด!",1,1,,209,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0145,sText_PkmnCopiedStatChanges,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} copied
+{B_DEF_NAME_WITH_PREFIX}'s stat changes!","{B_ATK_NAME_WITH_PREFIX} คัดลอก
+การเปลี่ยนค่าสถานะของ {B_DEF_NAME_WITH_PREFIX}!",1,1,,166,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0146,sText_PkmnGotFree,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} got free of
+{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1}!","{B_ATK_NAME_WITH_PREFIX} หลุดพ้นจาก
+พันธนาการของ {B_DEF_NAME_WITH_PREFIX} จาก {B_BUFF1}!",1,1,,173,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

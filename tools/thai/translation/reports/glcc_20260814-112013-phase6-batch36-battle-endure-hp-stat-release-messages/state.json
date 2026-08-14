@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-112013-phase6-batch36-battle-endure-hp-stat-release-messages",
+  "locked_head": "7afc9cd3c2fa8a29f2c05ec351e447395158b2d2",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 208,
+    "pending": 210,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 208,
+    "pending": 205,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "dc84ebee392b2a389dbffeac0f033f9c3466ad62f6459dec4ec0844440acb1c7",
+  "normal_rom_sha256": "dc84ebee392b2a389dbffeac0f033f9c3466ad62f6459dec4ec0844440acb1c7"
+}
