@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-214603-phase6-batch54-battle-wild-trainer-sendout-messages",
   "locked_head": "b7d5953acfe640eeb11a8990302a0678399123b9",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 378,
     "pending": 40,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "312ab9235f353ee5ea24c604f8586bfe8f03fe87fa245daaa8cdcdf52dcd9d0e",
-  "normal_rom_sha256": "312ab9235f353ee5ea24c604f8586bfe8f03fe87fa245daaa8cdcdf52dcd9d0e"
+  "normal_rom_sha256": "312ab9235f353ee5ea24c604f8586bfe8f03fe87fa245daaa8cdcdf52dcd9d0e",
+  "qa_note": "Batch 54 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
