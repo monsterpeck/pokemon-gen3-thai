@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PlayerUsedItem,"src/battle_message.c:764:    [STRINGID_PLAYERUSEDITEM - BATTLESTRINGS_TABLE_START] = sText_PlayerUsedItem,"
+sText_WallyUsedItem,"src/battle_message.c:765:    [STRINGID_WALLYUSEDITEM - BATTLESTRINGS_TABLE_START] = sText_WallyUsedItem,"
+sText_ItDodgedBall,"src/battle_message.c:768:    [STRINGID_ITDODGEDBALL - BATTLESTRINGS_TABLE_START] = sText_ItDodgedBall,"
+sText_PkmnBrokeFree,"src/battle_message.c:770:    [STRINGID_PKMNBROKEFREE - BATTLESTRINGS_TABLE_START] = sText_PkmnBrokeFree,"
+sText_ItAppearedCaught,"src/battle_message.c:771:    [STRINGID_ITAPPEAREDCAUGHT - BATTLESTRINGS_TABLE_START] = sText_ItAppearedCaught,"
+sText_AarghAlmostHadIt,"src/battle_message.c:772:    [STRINGID_AARGHALMOSTHADIT - BATTLESTRINGS_TABLE_START] = sText_AarghAlmostHadIt,"
+sText_ShootSoClose,"src/battle_message.c:773:    [STRINGID_SHOOTSOCLOSE - BATTLESTRINGS_TABLE_START] = sText_ShootSoClose,"
+sText_GotchaPkmnCaughtPlayer,"src/battle_message.c:774:    [STRINGID_GOTCHAPKMNCAUGHTPLAYER - BATTLESTRINGS_TABLE_START] = sText_GotchaPkmnCaughtPlayer,"
+sText_GotchaPkmnCaughtWally,"src/battle_message.c:775:    [STRINGID_GOTCHAPKMNCAUGHTWALLY - BATTLESTRINGS_TABLE_START] = sText_GotchaPkmnCaughtWally,"
+sText_GiveNicknameCaptured,"src/battle_message.c:776:    [STRINGID_GIVENICKNAMECAPTURED - BATTLESTRINGS_TABLE_START] = sText_GiveNicknameCaptured,"

@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0246,sText_PlayerUsedItem,src/battle_message.c,"{B_PLAYER_NAME} used
+{B_LAST_ITEM}!","{B_PLAYER_NAME} ใช้
+{B_LAST_ITEM}!",1,1,,40,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0247,sText_WallyUsedItem,src/battle_message.c,"WALLY used
+{B_LAST_ITEM}!","วอลลี่ใช้
+{B_LAST_ITEM}!",1,1,,60,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0250,sText_ItDodgedBall,src/battle_message.c,"It dodged the thrown BALL!
+This POKéMON can't be caught!","มันหลบบอลที่ขว้างมา!
+โปเกมอนตัวนี้จับไม่ได้!",1,1,,227,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0252,sText_PkmnBrokeFree,src/battle_message.c,"Oh, no!
+The POKéMON broke free!","โอ้ ไม่นะ!
+โปเกมอนหลุดออกมาแล้ว!",1,1,,184,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0253,sText_ItAppearedCaught,src/battle_message.c,"Aww!
+It appeared to be caught!","อ๊ะ!
+เหมือนจะจับได้แล้วแท้ ๆ!",1,1,,155,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0254,sText_AarghAlmostHadIt,src/battle_message.c,"Aargh!
+Almost had it!","อ๊าก!
+เกือบจับได้แล้ว!",1,1,,116,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0255,sText_ShootSoClose,src/battle_message.c,"Shoot!
+It was so close, too!","โธ่เอ๊ย!
+อีกนิดเดียวแท้ ๆ!",1,1,,133,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0256,sText_GotchaPkmnCaughtPlayer,src/battle_message.c,"Gotcha!
+{B_OPPONENT_MON1_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p","จับได้แล้ว!
+{B_OPPONENT_MON1_NAME} ถูกจับแล้ว!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p",1,1,,141,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0257,sText_GotchaPkmnCaughtWally,src/battle_message.c,"Gotcha!
+{B_OPPONENT_MON1_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}","จับได้แล้ว!
+{B_OPPONENT_MON1_NAME} ถูกจับแล้ว!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}",1,1,,125,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0258,sText_GiveNicknameCaptured,src/battle_message.c,"Give a nickname to the
+captured {B_OPPONENT_MON1_NAME}?","จะตั้งชื่อเล่นให้
+{B_OPPONENT_MON1_NAME} ที่จับได้ไหม?",1,1,,147,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
