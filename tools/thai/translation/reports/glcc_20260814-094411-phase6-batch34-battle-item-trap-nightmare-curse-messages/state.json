@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-094411-phase6-batch34-battle-item-trap-nightmare-curse-messages",
   "locked_head": "18e8887f0e0f73cabfa6ee1efe9b91942e16d135",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 198,
     "pending": 220,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "360bdb250b57a5f70b72bb41c331f1fd577e58d73048fa5951dd8bc6c05424d8",
-  "normal_rom_sha256": "360bdb250b57a5f70b72bb41c331f1fd577e58d73048fa5951dd8bc6c05424d8"
+  "normal_rom_sha256": "360bdb250b57a5f70b72bb41c331f1fd577e58d73048fa5951dd8bc6c05424d8",
+  "qa_note": "Batch 34 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
