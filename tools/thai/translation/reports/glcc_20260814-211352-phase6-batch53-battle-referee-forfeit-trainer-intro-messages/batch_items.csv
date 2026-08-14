@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0356,sText_PkmnGettingIntoPosition,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX} is getting into
+position!","{B_SCR_ACTIVE_NAME_WITH_PREFIX}
+กำลังเข้าประจำตำแหน่ง!",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0359,sText_DefeatedOpponentByReferee,src/battle_message.c,"{B_PLAYER_MON1_NAME} defeated the opponent
+{B_OPPONENT_MON1_NAME} in a REFEREE's decision!","{B_PLAYER_MON1_NAME} เอาชนะ
+{B_OPPONENT_MON1_NAME} ตามคำตัดสินของกรรมการ!",1,1,,176,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0360,sText_LostToOpponentByReferee,src/battle_message.c,"{B_PLAYER_MON1_NAME} lost to the opponent
+{B_OPPONENT_MON1_NAME} in a REFEREE's decision!","{B_PLAYER_MON1_NAME} พ่ายแพ้ให้
+{B_OPPONENT_MON1_NAME} ตามคำตัดสินของกรรมการ!",1,1,,189,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0361,sText_TiedOpponentByReferee,src/battle_message.c,"{B_PLAYER_MON1_NAME} tied the opponent
+{B_OPPONENT_MON1_NAME} in a REFEREE's decision!","{B_PLAYER_MON1_NAME} เสมอกับ
+{B_OPPONENT_MON1_NAME} ตามคำตัดสินของกรรมการ!",1,1,,179,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0362,sText_QuestionForfeitMatch,src/battle_message.c,"Would you like to forfeit the match
+and quit now?","ต้องการยอมแพ้การแข่งขัน
+และออกตอนนี้ไหม?",1,1,,221,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0366,sText_TwoTrainersWantToBattle,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} and
+{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lwant to battle!\p","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} และ
+{B_TRAINER2_CLASS} {B_TRAINER2_NAME}\lขอท้าสู้!\p",3,3,,115,MEDIUM,หลายบรรทัด; ใช้งาน 3 จุด,src/battle_message.c,{},pass,pending
+SM0367,sText_TwoLinkTrainersWantToBattlePause,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}
+want to battle!{PAUSE 49}","{B_LINK_OPPONENT1_NAME} และ {B_LINK_OPPONENT2_NAME}
+ขอท้าสู้!{PAUSE 49}",1,1,,79,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0368,sText_TwoLinkTrainersWantToBattle,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}
+want to battle!","{B_LINK_OPPONENT1_NAME} และ {B_LINK_OPPONENT2_NAME}
+ขอท้าสู้!",1,1,,79,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0369,sText_Trainer1WantsToBattle,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+would like to battle!\p","{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+ขอท้าสู้!\p",2,2,,73,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0370,sText_LinkTrainerWantsToBattlePause,src/battle_message.c,"{B_LINK_OPPONENT1_NAME}
+wants to battle!{PAUSE 49}","{B_LINK_OPPONENT1_NAME}
+ขอท้าสู้!{PAUSE 49}",1,1,,53,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending

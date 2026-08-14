@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-211352-phase6-batch53-battle-referee-forfeit-trainer-intro-messages",
+  "locked_head": "225b7d966d190d2ef00678da2585838fdc327a06",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 368,
+    "pending": 50,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 368,
+    "pending": 40,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "62cd78705364bf695ad5013899000dc7d894c1b5a0f1446560279e55ef632c39",
+  "normal_rom_sha256": "62cd78705364bf695ad5013899000dc7d894c1b5a0f1446560279e55ef632c39"
+}

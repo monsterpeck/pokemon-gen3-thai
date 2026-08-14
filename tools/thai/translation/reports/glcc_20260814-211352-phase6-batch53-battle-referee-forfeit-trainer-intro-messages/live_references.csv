@@ -1,0 +1,14 @@
+﻿symbol,reference
+sText_PkmnGettingIntoPosition,"src/battle_message.c:874:    [STRINGID_PKMNGETTINGINTOPOSITION - BATTLESTRINGS_TABLE_START] = sText_PkmnGettingIntoPosition,"
+sText_DefeatedOpponentByReferee,"src/battle_message.c:877:    [STRINGID_DEFEATEDOPPONENTBYREFEREE - BATTLESTRINGS_TABLE_START] = sText_DefeatedOpponentByReferee,"
+sText_LostToOpponentByReferee,"src/battle_message.c:878:    [STRINGID_LOSTTOOPPONENTBYREFEREE - BATTLESTRINGS_TABLE_START] = sText_LostToOpponentByReferee,"
+sText_TiedOpponentByReferee,"src/battle_message.c:879:    [STRINGID_TIEDOPPONENTBYREFEREE - BATTLESTRINGS_TABLE_START] = sText_TiedOpponentByReferee,"
+sText_QuestionForfeitMatch,"src/battle_message.c:880:    [STRINGID_QUESTIONFORFEITMATCH - BATTLESTRINGS_TABLE_START] = sText_QuestionForfeitMatch,"
+sText_TwoTrainersWantToBattle,src/battle_message.c:1993:                    stringPtr = sText_TwoTrainersWantToBattle;
+sText_TwoTrainersWantToBattle,src/battle_message.c:2015:                    stringPtr = sText_TwoTrainersWantToBattle;
+sText_TwoTrainersWantToBattle,src/battle_message.c:2017:                    stringPtr = sText_TwoTrainersWantToBattle;
+sText_TwoLinkTrainersWantToBattlePause,src/battle_message.c:1998:                        stringPtr = sText_TwoLinkTrainersWantToBattlePause;
+sText_TwoLinkTrainersWantToBattle,src/battle_message.c:2000:                        stringPtr = sText_TwoLinkTrainersWantToBattle;
+sText_Trainer1WantsToBattle,src/battle_message.c:2005:                        stringPtr = sText_Trainer1WantsToBattle;
+sText_Trainer1WantsToBattle,src/battle_message.c:2019:                    stringPtr = sText_Trainer1WantsToBattle;
+sText_LinkTrainerWantsToBattlePause,src/battle_message.c:2007:                        stringPtr = sText_LinkTrainerWantsToBattlePause;
