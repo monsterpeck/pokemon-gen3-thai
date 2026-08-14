@@ -1,0 +1,14 @@
+﻿symbol,reference
+sText_LinkTrainerWantsToBattle,src/battle_message.c:2009:                        stringPtr = sText_LinkTrainerWantsToBattle;
+sText_TwoWildPkmnAppeared,src/battle_message.c:2027:                stringPtr = sText_TwoWildPkmnAppeared;
+sText_InGamePartnerSentOutZGoN,src/battle_message.c:2040:                    stringPtr = sText_InGamePartnerSentOutZGoN;
+sText_GoTwoPkmn,src/battle_message.c:2042:                    stringPtr = sText_GoTwoPkmn;
+sText_GoTwoPkmn,src/battle_message.c:2046:                    stringPtr = sText_GoTwoPkmn;
+sText_LinkPartnerSentOutPkmnGoPkmn,src/battle_message.c:2044:                    stringPtr = sText_LinkPartnerSentOutPkmnGoPkmn;
+sText_TwoTrainersSentPkmn,src/battle_message.c:2058:                    stringPtr = sText_TwoTrainersSentPkmn;
+sText_TwoTrainersSentPkmn,src/battle_message.c:2060:                    stringPtr = sText_TwoTrainersSentPkmn;
+sText_TwoLinkTrainersSentOutPkmn,src/battle_message.c:2062:                    stringPtr = sText_TwoLinkTrainersSentOutPkmn;
+sText_LinkTrainerSentOutTwoPkmn,src/battle_message.c:2064:                    stringPtr = sText_LinkTrainerSentOutTwoPkmn;
+sText_Trainer1SentOutTwoPkmn,src/battle_message.c:2066:                    stringPtr = sText_Trainer1SentOutTwoPkmn;
+sText_Trainer1SentOutPkmn,src/battle_message.c:2071:                    stringPtr = sText_Trainer1SentOutPkmn;
+sText_Trainer1SentOutPkmn,src/battle_message.c:2073:                    stringPtr = sText_Trainer1SentOutPkmn;

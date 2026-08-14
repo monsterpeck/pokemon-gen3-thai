@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-214603-phase6-batch54-battle-wild-trainer-sendout-messages",
+  "locked_head": "b7d5953acfe640eeb11a8990302a0678399123b9",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 378,
+    "pending": 40,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 378,
+    "pending": 30,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "312ab9235f353ee5ea24c604f8586bfe8f03fe87fa245daaa8cdcdf52dcd9d0e",
+  "normal_rom_sha256": "312ab9235f353ee5ea24c604f8586bfe8f03fe87fa245daaa8cdcdf52dcd9d0e"
+}

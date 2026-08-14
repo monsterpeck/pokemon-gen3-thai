@@ -1,0 +1,33 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0371,sText_LinkTrainerWantsToBattle,src/battle_message.c,"{B_LINK_OPPONENT1_NAME}
+wants to battle!","{B_LINK_OPPONENT1_NAME}
+ขอท้าสู้!",1,1,,53,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0373,sText_TwoWildPkmnAppeared,src/battle_message.c,"Wild {B_OPPONENT_MON1_NAME} and
+{B_OPPONENT_MON2_NAME} appeared!\p","โปเกมอนป่า {B_OPPONENT_MON1_NAME} และ
+{B_OPPONENT_MON2_NAME} ปรากฏตัว!\p",1,1,,165,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0376,sText_InGamePartnerSentOutZGoN,src/battle_message.c,"{B_PARTNER_CLASS} {B_PARTNER_NAME} sent
+out {B_PLAYER_MON2_NAME}!\lGo, {B_PLAYER_MON1_NAME}!","{B_PARTNER_CLASS} {B_PARTNER_NAME} ส่ง
+{B_PLAYER_MON2_NAME} ลงสนาม!\lไปเลย! {B_PLAYER_MON1_NAME}!",1,1,,146,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0377,sText_GoTwoPkmn,src/battle_message.c,"Go! {B_PLAYER_MON1_NAME} and
+{B_PLAYER_MON2_NAME}!","ไปเลย! {B_PLAYER_MON1_NAME} และ
+{B_PLAYER_MON2_NAME}!",2,2,,87,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0378,sText_LinkPartnerSentOutPkmnGoPkmn,src/battle_message.c,"{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}!
+Go! {B_LINK_PLAYER_MON1_NAME}!","{B_LINK_PARTNER_NAME} ส่ง {B_LINK_PLAYER_MON2_NAME} ลงสนาม!
+ไปเลย! {B_LINK_PLAYER_MON1_NAME}!",1,1,,130,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0380,sText_TwoTrainersSentPkmn,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent
+out {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent
+out {B_OPPONENT_MON2_NAME}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} ส่ง
+{B_OPPONENT_MON1_NAME} ลงสนาม!\p{B_TRAINER2_CLASS} {B_TRAINER2_NAME} ส่ง
+{B_OPPONENT_MON2_NAME} ลงสนาม!",2,2,,178,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
+SM0381,sText_TwoLinkTrainersSentOutPkmn,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}!
+{B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!","{B_LINK_OPPONENT1_NAME} ส่ง {B_LINK_OPPONENT_MON1_NAME} ลงสนาม!
+{B_LINK_OPPONENT2_NAME} ส่ง {B_LINK_OPPONENT_MON2_NAME} ลงสนาม!",1,1,,146,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0382,sText_LinkTrainerSentOutTwoPkmn,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} sent out
+{B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!","{B_LINK_OPPONENT1_NAME} ส่ง
+{B_OPPONENT_MON1_NAME} และ {B_OPPONENT_MON2_NAME} ลงสนาม!",1,1,,103,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0383,sText_Trainer1SentOutTwoPkmn,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent
+out {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} ส่ง
+{B_OPPONENT_MON1_NAME} และ {B_OPPONENT_MON2_NAME} ลงสนาม!",1,1,,107,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0384,sText_Trainer1SentOutPkmn,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent
+out {B_OPPONENT_MON1_NAME}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} ส่ง
+{B_OPPONENT_MON1_NAME} ลงสนาม!",2,2,,81,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
