@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-142335-phase6-batch39-battle-support-item-wish-ability-messages",
+  "locked_head": "75b9053e45d03abd1ab78533be4902bf40c62b24",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 228,
+    "pending": 190,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 228,
+    "pending": 180,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "1ec1f05050f404b6ba6613369c5368350cc3d6530d294d94d8bf70f5a92d2eab",
+  "normal_rom_sha256": "1ec1f05050f404b6ba6613369c5368350cc3d6530d294d94d8bf70f5a92d2eab"
+}

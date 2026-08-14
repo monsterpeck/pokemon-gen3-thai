@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0163,sText_PkmnReadyToHelp,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is ready to
+help {B_DEF_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} พร้อม
+ช่วย {B_DEF_NAME_WITH_PREFIX}!",1,1,,76,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0164,sText_PkmnSwitchedItems,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} switched
+items with its opponent!","{B_ATK_NAME_WITH_PREFIX}
+สลับไอเทมกับฝ่ายตรงข้าม!",1,1,,135,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0165,sText_PkmnCopiedFoe,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} copied
+{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}!","{B_ATK_NAME_WITH_PREFIX} คัดลอกความสามารถของ
+{B_DEF_NAME_WITH_PREFIX}: {B_DEF_ABILITY}!",1,1,,144,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0167,sText_PkmnWishCameTrue,src/battle_message.c,"{B_BUFF1}'s WISH
+came true!","คำอธิษฐานของ {B_BUFF1}
+เป็นจริงแล้ว!",1,1,,146,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0169,sText_PkmnAbsorbedNutrients,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} absorbed
+nutrients with its roots!","{B_ATK_NAME_WITH_PREFIX}
+ดูดซับสารอาหารด้วยราก!",1,1,,127,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0170,sText_PkmnAnchoredItself,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} anchored
+itself with its roots!","{B_DEF_NAME_WITH_PREFIX}
+ยึดตัวเองไว้ด้วยราก!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0171,sText_PkmnWasMadeDrowsy,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} made
+{B_DEF_NAME_WITH_PREFIX} drowsy!","{B_ATK_NAME_WITH_PREFIX} ทำให้
+{B_DEF_NAME_WITH_PREFIX} ง่วงซึม!",1,1,,84,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0172,sText_PkmnKnockedOff,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} knocked off
+{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!","{B_ATK_NAME_WITH_PREFIX} ปัดของจาก
+{B_DEF_NAME_WITH_PREFIX}: {B_LAST_ITEM} หลุด!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0173,sText_PkmnSwappedAbilities,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} swapped abilities
+with its opponent!","{B_ATK_NAME_WITH_PREFIX}
+สลับความสามารถกับฝ่ายตรงข้าม!",1,1,,161,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0174,sText_PkmnSealedOpponentMove,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} sealed the
+opponent's move(s)!","{B_ATK_NAME_WITH_PREFIX}
+ผนึกท่าของฝ่ายตรงข้าม!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

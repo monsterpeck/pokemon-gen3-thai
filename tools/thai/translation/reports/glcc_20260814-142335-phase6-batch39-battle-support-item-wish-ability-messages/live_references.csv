@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnReadyToHelp,"src/battle_message.c:681:    [STRINGID_PKMNREADYTOHELP - BATTLESTRINGS_TABLE_START] = sText_PkmnReadyToHelp,"
+sText_PkmnSwitchedItems,"src/battle_message.c:682:    [STRINGID_PKMNSWITCHEDITEMS - BATTLESTRINGS_TABLE_START] = sText_PkmnSwitchedItems,"
+sText_PkmnCopiedFoe,"src/battle_message.c:683:    [STRINGID_PKMNCOPIEDFOE - BATTLESTRINGS_TABLE_START] = sText_PkmnCopiedFoe,"
+sText_PkmnWishCameTrue,"src/battle_message.c:685:    [STRINGID_PKMNWISHCAMETRUE - BATTLESTRINGS_TABLE_START] = sText_PkmnWishCameTrue,"
+sText_PkmnAbsorbedNutrients,"src/battle_message.c:687:    [STRINGID_PKMNABSORBEDNUTRIENTS - BATTLESTRINGS_TABLE_START] = sText_PkmnAbsorbedNutrients,"
+sText_PkmnAnchoredItself,"src/battle_message.c:688:    [STRINGID_PKMNANCHOREDITSELF - BATTLESTRINGS_TABLE_START] = sText_PkmnAnchoredItself,"
+sText_PkmnWasMadeDrowsy,"src/battle_message.c:689:    [STRINGID_PKMNWASMADEDROWSY - BATTLESTRINGS_TABLE_START] = sText_PkmnWasMadeDrowsy,"
+sText_PkmnKnockedOff,"src/battle_message.c:690:    [STRINGID_PKMNKNOCKEDOFF - BATTLESTRINGS_TABLE_START] = sText_PkmnKnockedOff,"
+sText_PkmnSwappedAbilities,"src/battle_message.c:691:    [STRINGID_PKMNSWAPPEDABILITIES - BATTLESTRINGS_TABLE_START] = sText_PkmnSwappedAbilities,"
+sText_PkmnSealedOpponentMove,"src/battle_message.c:692:    [STRINGID_PKMNSEALEDOPPONENTMOVE - BATTLESTRINGS_TABLE_START] = sText_PkmnSealedOpponentMove,"
