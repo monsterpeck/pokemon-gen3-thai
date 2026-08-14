@@ -1,0 +1,6 @@
+﻿symbol,reference
+sText_PkmnStoleItem,"src/battle_message.c:649:    [STRINGID_PKMNSTOLEITEM - BATTLESTRINGS_TABLE_START] = sText_PkmnStoleItem,"
+sText_TargetCantEscapeNow,"src/battle_message.c:650:    [STRINGID_TARGETCANTESCAPENOW - BATTLESTRINGS_TABLE_START] = sText_TargetCantEscapeNow,"
+sText_PkmnFellIntoNightmare,"src/battle_message.c:651:    [STRINGID_PKMNFELLINTONIGHTMARE - BATTLESTRINGS_TABLE_START] = sText_PkmnFellIntoNightmare,"
+sText_PkmnLockedInNightmare,"src/battle_message.c:652:    [STRINGID_PKMNLOCKEDINNIGHTMARE - BATTLESTRINGS_TABLE_START] = sText_PkmnLockedInNightmare,"
+sText_PkmnLaidCurse,"src/battle_message.c:653:    [STRINGID_PKMNLAIDCURSE - BATTLESTRINGS_TABLE_START] = sText_PkmnLaidCurse,"

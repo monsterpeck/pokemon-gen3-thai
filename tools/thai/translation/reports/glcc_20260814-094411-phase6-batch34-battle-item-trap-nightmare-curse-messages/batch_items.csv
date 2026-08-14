@@ -1,0 +1,16 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0131,sText_PkmnStoleItem,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} stole
+{B_DEF_NAME_WITH_PREFIX}'s {B_LAST_ITEM}!","{B_ATK_NAME_WITH_PREFIX} ขโมยของจาก
+{B_DEF_NAME_WITH_PREFIX} ได้ {B_LAST_ITEM}!",1,1,,105,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0132,sText_TargetCantEscapeNow,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} can't
+escape now!","{B_DEF_NAME_WITH_PREFIX}
+หนีไม่ได้แล้ว!",1,1,,84,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0133,sText_PkmnFellIntoNightmare,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} fell into
+a NIGHTMARE!","{B_DEF_NAME_WITH_PREFIX}
+ตกอยู่ในฝันร้าย!",1,1,,92,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0134,sText_PkmnLockedInNightmare,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is locked
+in a NIGHTMARE!","{B_ATK_NAME_WITH_PREFIX}
+ติดอยู่ในฝันร้าย!",1,1,,93,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0135,sText_PkmnLaidCurse,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} cut its own HP and
+laid a CURSE on {B_DEF_NAME_WITH_PREFIX}!","{B_ATK_NAME_WITH_PREFIX} ลด HP ตัวเอง
+แล้วสาป {B_DEF_NAME_WITH_PREFIX}!",1,1,,132,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
