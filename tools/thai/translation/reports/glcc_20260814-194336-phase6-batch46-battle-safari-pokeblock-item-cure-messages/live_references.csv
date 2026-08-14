@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnCuriousAboutX,"src/battle_message.c:793:    [STRINGID_PKMNCURIOUSABOUTX - BATTLESTRINGS_TABLE_START] = sText_PkmnCuriousAboutX,"
+sText_PkmnEnthralledByX,"src/battle_message.c:794:    [STRINGID_PKMNENTHRALLEDBYX - BATTLESTRINGS_TABLE_START] = sText_PkmnEnthralledByX,"
+sText_PkmnIgnoredX,"src/battle_message.c:795:    [STRINGID_PKMNIGNOREDX - BATTLESTRINGS_TABLE_START] = sText_PkmnIgnoredX,"
+sText_ThrewPokeblockAtPkmn,"src/battle_message.c:796:    [STRINGID_THREWPOKEBLOCKATPKMN - BATTLESTRINGS_TABLE_START] = sText_ThrewPokeblockAtPkmn,"
+sText_OutOfSafariBalls,"src/battle_message.c:797:    [STRINGID_OUTOFSAFARIBALLS - BATTLESTRINGS_TABLE_START] = sText_OutOfSafariBalls,"
+sText_PkmnsItemCuredParalysis,"src/battle_message.c:798:    [STRINGID_PKMNSITEMCUREDPARALYSIS - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemCuredParalysis,"
+sText_PkmnsItemCuredPoison,"src/battle_message.c:799:    [STRINGID_PKMNSITEMCUREDPOISON - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemCuredPoison,"
+sText_PkmnsItemHealedBurn,"src/battle_message.c:800:    [STRINGID_PKMNSITEMHEALEDBURN - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemHealedBurn,"
+sText_PkmnsItemDefrostedIt,"src/battle_message.c:801:    [STRINGID_PKMNSITEMDEFROSTEDIT - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemDefrostedIt,"
+sText_PkmnsItemWokeIt,"src/battle_message.c:802:    [STRINGID_PKMNSITEMWOKEIT - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemWokeIt,"

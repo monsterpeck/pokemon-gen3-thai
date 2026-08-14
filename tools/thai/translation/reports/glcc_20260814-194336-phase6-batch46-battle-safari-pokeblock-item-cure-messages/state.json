@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-194336-phase6-batch46-battle-safari-pokeblock-item-cure-messages",
+  "locked_head": "ccf7e4072bd4fa2c5ec7f0e3a36663aafdbd4d19",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 298,
+    "pending": 120,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 298,
+    "pending": 110,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "d2dd1a0446311a9e5e6517ba764ddae686f92c9d85ce6a89cb66c3113629938f",
+  "normal_rom_sha256": "d2dd1a0446311a9e5e6517ba764ddae686f92c9d85ce6a89cb66c3113629938f"
+}

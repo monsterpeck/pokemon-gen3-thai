@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0275,sText_PkmnCuriousAboutX,src/battle_message.c,"{B_OPPONENT_MON1_NAME} is curious about
+the {B_BUFF1}!","{B_OPPONENT_MON1_NAME} สนใจ
+{B_BUFF1}!",1,1,,54,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0276,sText_PkmnEnthralledByX,src/battle_message.c,"{B_OPPONENT_MON1_NAME} is enthralled by
+the {B_BUFF1}!","{B_OPPONENT_MON1_NAME} หลงใหล
+{B_BUFF1}!",1,1,,64,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0277,sText_PkmnIgnoredX,src/battle_message.c,"{B_OPPONENT_MON1_NAME} completely ignored
+the {B_BUFF1}!","{B_OPPONENT_MON1_NAME} ไม่สนใจ
+{B_BUFF1} เลย!",1,1,,87,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0278,sText_ThrewPokeblockAtPkmn,src/battle_message.c,"{B_PLAYER_NAME} threw a {POKEBLOCK}
+at the {B_OPPONENT_MON1_NAME}!","{B_PLAYER_NAME} ขว้าง {POKEBLOCK}
+ให้ {B_OPPONENT_MON1_NAME}!",1,1,,69,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0279,sText_OutOfSafariBalls,src/battle_message.c,"{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of
+SAFARI BALLS! Game over!\p","{PLAY_SE SE_DING_DONG}ผู้ประกาศ: SAFARI BALL
+หมดแล้ว! จบเกม!",1,1,,242,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0280,sText_PkmnsItemCuredParalysis,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+cured paralysis!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+รักษาอัมพาต!",1,1,,99,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0281,sText_PkmnsItemCuredPoison,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+cured poison!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+รักษาพิษ!",1,1,,83,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0282,sText_PkmnsItemHealedBurn,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+healed its burn!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+รักษาแผลไฟไหม้!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0283,sText_PkmnsItemDefrostedIt,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+defrosted it!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ละลายน้ำแข็ง!",1,1,,99,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0284,sText_PkmnsItemWokeIt,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}
+woke it from its sleep!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
+ปลุกให้ตื่น!",1,1,,91,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
