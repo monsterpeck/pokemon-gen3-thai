@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-112013-phase6-batch36-battle-endure-hp-stat-release-messages",
   "locked_head": "7afc9cd3c2fa8a29f2c05ec351e447395158b2d2",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 5,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 208,
     "pending": 210,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "dc84ebee392b2a389dbffeac0f033f9c3466ad62f6459dec4ec0844440acb1c7",
-  "normal_rom_sha256": "dc84ebee392b2a389dbffeac0f033f9c3466ad62f6459dec4ec0844440acb1c7"
+  "normal_rom_sha256": "dc84ebee392b2a389dbffeac0f033f9c3466ad62f6459dec4ec0844440acb1c7",
+  "qa_note": "Batch 36 QA Gallery reviewed: 5/5 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
