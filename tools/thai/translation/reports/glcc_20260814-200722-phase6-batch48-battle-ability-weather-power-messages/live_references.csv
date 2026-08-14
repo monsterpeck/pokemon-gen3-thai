@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnsXRestoredHPALittle2,"src/battle_message.c:814:    [STRINGID_PKMNSXRESTOREDHPALITTLE2 - BATTLESTRINGS_TABLE_START] = sText_PkmnsXRestoredHPALittle2,"
+sText_PkmnsXWhippedUpSandstorm,"src/battle_message.c:815:    [STRINGID_PKMNSXWHIPPEDUPSANDSTORM - BATTLESTRINGS_TABLE_START] = sText_PkmnsXWhippedUpSandstorm,"
+sText_PkmnsXPreventsYLoss,"src/battle_message.c:816:    [STRINGID_PKMNSXPREVENTSYLOSS - BATTLESTRINGS_TABLE_START] = sText_PkmnsXPreventsYLoss,"
+sText_PkmnsXInfatuatedY,"src/battle_message.c:817:    [STRINGID_PKMNSXINFATUATEDY - BATTLESTRINGS_TABLE_START] = sText_PkmnsXInfatuatedY,"
+sText_PkmnsXMadeYIneffective,"src/battle_message.c:818:    [STRINGID_PKMNSXMADEYINEFFECTIVE - BATTLESTRINGS_TABLE_START] = sText_PkmnsXMadeYIneffective,"
+sText_PkmnsXCuredYProblem,"src/battle_message.c:819:    [STRINGID_PKMNSXCUREDYPROBLEM - BATTLESTRINGS_TABLE_START] = sText_PkmnsXCuredYProblem,"
+sText_ItSuckedLiquidOoze,"src/battle_message.c:820:    [STRINGID_ITSUCKEDLIQUIDOOZE - BATTLESTRINGS_TABLE_START] = sText_ItSuckedLiquidOoze,"
+sText_ElectricityWeakened,"src/battle_message.c:822:    [STRINGID_ELECTRICITYWEAKENED - BATTLESTRINGS_TABLE_START] = sText_ElectricityWeakened,"
+sText_FireWeakened,"src/battle_message.c:823:    [STRINGID_FIREWEAKENED - BATTLESTRINGS_TABLE_START] = sText_FireWeakened,"
+sText_PkmnHidUnderwater,"src/battle_message.c:824:    [STRINGID_PKMNHIDUNDERWATER - BATTLESTRINGS_TABLE_START] = sText_PkmnHidUnderwater,"

@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0296,sText_PkmnsXRestoredHPALittle2,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY}
+restored its HP a little!","{B_ATK_NAME_WITH_PREFIX} ใช้ {B_ATK_ABILITY}
+ฟื้น HP เล็กน้อย!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0297,sText_PkmnsXWhippedUpSandstorm,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+whipped up a sandstorm!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ก่อพายุทรายขึ้น!",1,1,,112,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0298,sText_PkmnsXPreventsYLoss,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+prevents {B_BUFF1} loss!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ป้องกันการลดลงของ {B_BUFF1}!",1,1,,133,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0299,sText_PkmnsXInfatuatedY,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+infatuated {B_ATK_NAME_WITH_PREFIX}!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ทำให้ {B_ATK_NAME_WITH_PREFIX} ตกหลุมรัก!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0300,sText_PkmnsXMadeYIneffective,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY}
+made {B_CURRENT_MOVE} ineffective!","{B_DEF_NAME_WITH_PREFIX} ใช้ {B_DEF_ABILITY}
+ทำให้ {B_CURRENT_MOVE} ไม่มีผล!",1,1,,108,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0301,sText_PkmnsXCuredYProblem,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+cured its {B_BUFF1} problem!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+รักษาอาการ {B_BUFF1}!",1,1,,96,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0302,sText_ItSuckedLiquidOoze,src/battle_message.c,"It sucked up the
+LIQUID OOZE!","มันดูดเมือกเหลว
+เข้าไป!",1,1,,126,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0304,sText_ElectricityWeakened,src/battle_message.c,"Electricity's power was
+weakened!","พลังไฟฟ้า
+อ่อนลง!",1,1,,98,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0305,sText_FireWeakened,src/battle_message.c,"Fire's power was
+weakened!","พลังไฟ
+อ่อนลง!",1,1,,86,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0306,sText_PkmnHidUnderwater,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} hid
+underwater!","{B_ATK_NAME_WITH_PREFIX}
+ซ่อนตัวอยู่ใต้น้ำ!",1,1,,94,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
