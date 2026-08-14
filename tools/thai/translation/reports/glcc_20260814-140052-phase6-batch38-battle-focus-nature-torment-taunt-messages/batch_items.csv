@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0153,sText_PkmnCenterAttention,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} became the
+center of attention!","{B_ATK_NAME_WITH_PREFIX}
+กลายเป็นจุดสนใจ!",1,1,,104,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0154,sText_PkmnChargingPower,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} began
+charging power!","{B_ATK_NAME_WITH_PREFIX}
+เริ่มชาร์จพลัง!",1,1,,80,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0155,sText_NaturePowerTurnedInto,src/battle_message.c,"NATURE POWER turned into
+{B_CURRENT_MOVE}!","พลังธรรมชาติเปลี่ยนเป็น
+{B_CURRENT_MOVE}!",1,1,,132,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0156,sText_PkmnStatusNormal,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX}'s status
+returned to normal!","{B_ATK_NAME_WITH_PREFIX}
+กลับสู่สภาพปกติ!",1,1,,94,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0157,sText_PkmnHasNoMovesLeft,src/battle_message.c,"{B_ACTIVE_NAME_WITH_PREFIX} has no
+moves left!\p","{B_ACTIVE_NAME_WITH_PREFIX}
+ไม่มีท่าให้ใช้แล้ว!\p",1,1,,115,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0158,sText_PkmnSubjectedToTorment,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} was subjected
+to TORMENT!","{B_DEF_NAME_WITH_PREFIX}
+ถูกทรมาน!",1,1,,67,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0159,sText_PkmnCantUseMoveTorment,src/battle_message.c,"{B_ACTIVE_NAME_WITH_PREFIX} can't use the same
+move in a row due to the TORMENT!\p","{B_ACTIVE_NAME_WITH_PREFIX} ใช้ท่าเดิม
+ซ้ำไม่ได้เพราะถูกทรมาน!\p",1,1,,191,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0160,sText_PkmnTighteningFocus,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} is tightening
+its focus!","{B_ATK_NAME_WITH_PREFIX}
+กำลังรวบรวมสมาธิ!",1,1,,103,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0161,sText_PkmnFellForTaunt,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} fell for
+the TAUNT!","{B_DEF_NAME_WITH_PREFIX}
+หลงกลคำยั่วยุ!",1,1,,82,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0162,sText_PkmnCantUseMoveTaunt,src/battle_message.c,"{B_ACTIVE_NAME_WITH_PREFIX} can't use
+{B_CURRENT_MOVE} after the TAUNT!\p","{B_ACTIVE_NAME_WITH_PREFIX} ใช้
+{B_CURRENT_MOVE} ไม่ได้เพราะถูกยั่วยุ!\p",1,1,,142,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending

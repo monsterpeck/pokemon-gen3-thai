@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_PkmnCenterAttention,"src/battle_message.c:671:    [STRINGID_PKMNCENTERATTENTION - BATTLESTRINGS_TABLE_START] = sText_PkmnCenterAttention,"
+sText_PkmnChargingPower,"src/battle_message.c:672:    [STRINGID_PKMNCHARGINGPOWER - BATTLESTRINGS_TABLE_START] = sText_PkmnChargingPower,"
+sText_NaturePowerTurnedInto,"src/battle_message.c:673:    [STRINGID_NATUREPOWERTURNEDINTO - BATTLESTRINGS_TABLE_START] = sText_NaturePowerTurnedInto,"
+sText_PkmnStatusNormal,"src/battle_message.c:674:    [STRINGID_PKMNSTATUSNORMAL - BATTLESTRINGS_TABLE_START] = sText_PkmnStatusNormal,"
+sText_PkmnHasNoMovesLeft,"src/battle_message.c:675:    [STRINGID_PKMNHASNOMOVESLEFT - BATTLESTRINGS_TABLE_START] = sText_PkmnHasNoMovesLeft,"
+sText_PkmnSubjectedToTorment,"src/battle_message.c:676:    [STRINGID_PKMNSUBJECTEDTOTORMENT - BATTLESTRINGS_TABLE_START] = sText_PkmnSubjectedToTorment,"
+sText_PkmnCantUseMoveTorment,"src/battle_message.c:677:    [STRINGID_PKMNCANTUSEMOVETORMENT - BATTLESTRINGS_TABLE_START] = sText_PkmnCantUseMoveTorment,"
+sText_PkmnTighteningFocus,"src/battle_message.c:678:    [STRINGID_PKMNTIGHTENINGFOCUS - BATTLESTRINGS_TABLE_START] = sText_PkmnTighteningFocus,"
+sText_PkmnFellForTaunt,"src/battle_message.c:679:    [STRINGID_PKMNFELLFORTAUNT - BATTLESTRINGS_TABLE_START] = sText_PkmnFellForTaunt,"
+sText_PkmnCantUseMoveTaunt,"src/battle_message.c:680:    [STRINGID_PKMNCANTUSEMOVETAUNT - BATTLESTRINGS_TABLE_START] = sText_PkmnCantUseMoveTaunt,"

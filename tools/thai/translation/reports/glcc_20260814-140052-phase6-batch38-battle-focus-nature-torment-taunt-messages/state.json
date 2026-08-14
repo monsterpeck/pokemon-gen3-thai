@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-140052-phase6-batch38-battle-focus-nature-torment-taunt-messages",
+  "locked_head": "5d842d85af9c80cbbe44d77a16b5a340e50a0ccb",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 218,
+    "pending": 200,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 218,
+    "pending": 190,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "af9b868f136e65585de2cc839c93f4f1a8f2d942691fa8848e71ca75aba259a1",
+  "normal_rom_sha256": "af9b868f136e65585de2cc839c93f4f1a8f2d942691fa8848e71ca75aba259a1"
+}
