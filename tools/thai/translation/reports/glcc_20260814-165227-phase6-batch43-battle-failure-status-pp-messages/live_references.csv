@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_ItHurtConfusion,"src/battle_message.c:737:    [STRINGID_ITHURTCONFUSION - BATTLESTRINGS_TABLE_START] = sText_ItHurtConfusion,"
+sText_FailedToSpitUp,"src/battle_message.c:753:    [STRINGID_FAILEDTOSPITUP - BATTLESTRINGS_TABLE_START] = sText_FailedToSpitUp,"
+sText_FailedToSwallow,"src/battle_message.c:754:    [STRINGID_FAILEDTOSWALLOW - BATTLESTRINGS_TABLE_START] = sText_FailedToSwallow,"
+sText_WindBecameHeatWave,"src/battle_message.c:755:    [STRINGID_WINDBECAMEHEATWAVE - BATTLESTRINGS_TABLE_START] = sText_WindBecameHeatWave,"
+sText_StatChangesGone,"src/battle_message.c:756:    [STRINGID_STATCHANGESGONE - BATTLESTRINGS_TABLE_START] = sText_StatChangesGone,"
+sText_TooWeakForSubstitute,"src/battle_message.c:758:    [STRINGID_TOOWEAKFORSUBSTITUTE - BATTLESTRINGS_TABLE_START] = sText_TooWeakForSubstitute,"
+sText_SharedPain,"src/battle_message.c:759:    [STRINGID_SHAREDPAIN - BATTLESTRINGS_TABLE_START] = sText_SharedPain,"
+sText_FaintInThree,"src/battle_message.c:761:    [STRINGID_FAINTINTHREE - BATTLESTRINGS_TABLE_START] = sText_FaintInThree,"
+sText_NoPPLeft,"src/battle_message.c:762:    [STRINGID_NOPPLEFT - BATTLESTRINGS_TABLE_START] = sText_NoPPLeft,"
+sText_ButNoPPLeft,"src/battle_message.c:763:    [STRINGID_BUTNOPPLEFT - BATTLESTRINGS_TABLE_START] = sText_ButNoPPLeft,"

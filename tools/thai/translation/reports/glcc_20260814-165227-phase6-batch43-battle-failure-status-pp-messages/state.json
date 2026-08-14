@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-165227-phase6-batch43-battle-failure-status-pp-messages",
+  "locked_head": "d80fe71339cc9c0bf7fc9dc0cfffe966f5e37dd7",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 268,
+    "pending": 150,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 268,
+    "pending": 140,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "f49e5b8903e0e8ff27fd3d6057a9fb32d0d059ce8edce9e037559b95184dc0d3",
+  "normal_rom_sha256": "f49e5b8903e0e8ff27fd3d6057a9fb32d0d059ce8edce9e037559b95184dc0d3"
+}

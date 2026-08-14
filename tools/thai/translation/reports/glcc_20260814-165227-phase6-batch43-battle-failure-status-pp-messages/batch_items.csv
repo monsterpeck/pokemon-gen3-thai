@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0219,sText_ItHurtConfusion,src/battle_message.c,"It hurt itself in its
+confusion!","ทำร้ายตัวเอง
+เพราะความสับสน!",1,1,,154,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0235,sText_FailedToSpitUp,src/battle_message.c,"But it failed to SPIT UP
+a thing!","แต่ไม่สามารถ
+คายออกมาได้!",1,1,,142,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0236,sText_FailedToSwallow,src/battle_message.c,"But it failed to SWALLOW
+a thing!","แต่ไม่สามารถ
+กลืนลงไปได้!",1,1,,139,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0237,sText_WindBecameHeatWave,src/battle_message.c,"The wind turned into a
+HEAT WAVE!","สายลมเปลี่ยนเป็น
+คลื่นความร้อน!",1,1,,167,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0238,sText_StatChangesGone,src/battle_message.c,"All stat changes were
+eliminated!","การเปลี่ยนค่าสถานะ
+ทั้งหมดหายไป!",1,1,,173,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0240,sText_TooWeakForSubstitute,src/battle_message.c,"It was too weak to make
+a SUBSTITUTE!","อ่อนแรงเกินกว่าจะ
+สร้างตัวแทนได้!",1,1,,172,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0241,sText_SharedPain,src/battle_message.c,"The battlers shared
+their pain!","โปเกมอนทั้งสอง
+แบ่งปันความเจ็บปวดกัน!",1,1,,203,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0243,sText_FaintInThree,src/battle_message.c,"All affected POKéMON will
+faint in three turns!","โปเกมอนที่ได้รับผลทั้งหมด
+จะหมดสภาพในอีก 3 เทิร์น!",1,1,,267,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0244,sText_NoPPLeft,src/battle_message.c,"There's no PP left for
+this move!\p","ท่านี้ไม่มี
+PP เหลือแล้ว!\p",1,1,,141,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0245,sText_ButNoPPLeft,src/battle_message.c,"But there was no PP left
+for the move!","แต่ท่านี้
+ไม่มี PP เหลือแล้ว!",1,1,,143,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
