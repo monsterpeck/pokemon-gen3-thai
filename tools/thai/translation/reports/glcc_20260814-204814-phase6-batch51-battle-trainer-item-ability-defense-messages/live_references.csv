@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_Trainer1UsedItem,"src/battle_message.c:850:    [STRINGID_TRAINER1USEDITEM - BATTLESTRINGS_TABLE_START] = sText_Trainer1UsedItem,"
+sText_BoxIsFull,"src/battle_message.c:851:    [STRINGID_BOXISFULL - BATTLESTRINGS_TABLE_START] = sText_BoxIsFull,"
+sText_PkmnAvoidedAttack,"src/battle_message.c:852:    [STRINGID_PKMNAVOIDEDATTACK - BATTLESTRINGS_TABLE_START] = sText_PkmnAvoidedAttack,"
+sText_PkmnsXMadeItIneffective,"src/battle_message.c:853:    [STRINGID_PKMNSXMADEITINEFFECTIVE - BATTLESTRINGS_TABLE_START] = sText_PkmnsXMadeItIneffective,"
+sText_PkmnsXPreventsFlinching,"src/battle_message.c:854:    [STRINGID_PKMNSXPREVENTSFLINCHING - BATTLESTRINGS_TABLE_START] = sText_PkmnsXPreventsFlinching,"
+sText_PkmnAlreadyHasBurn,"src/battle_message.c:855:    [STRINGID_PKMNALREADYHASBURN - BATTLESTRINGS_TABLE_START] = sText_PkmnAlreadyHasBurn,"
+sText_StatsWontDecrease2,"src/battle_message.c:856:    [STRINGID_STATSWONTDECREASE2 - BATTLESTRINGS_TABLE_START] = sText_StatsWontDecrease2,"
+sText_PkmnsXBlocksY2,"src/battle_message.c:857:    [STRINGID_PKMNSXBLOCKSY2 - BATTLESTRINGS_TABLE_START] = sText_PkmnsXBlocksY2,"
+sText_PkmnsXWoreOff,"src/battle_message.c:858:    [STRINGID_PKMNSXWOREOFF - BATTLESTRINGS_TABLE_START] = sText_PkmnsXWoreOff,"
+sText_PkmnRaisedDefALittle,"src/battle_message.c:859:    [STRINGID_PKMNRAISEDDEFALITTLE - BATTLESTRINGS_TABLE_START] = sText_PkmnRaisedDefALittle,"

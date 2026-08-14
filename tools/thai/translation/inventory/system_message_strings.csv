@@ -870,25 +870,35 @@ SM0331,local:src/battle_message.c:sText_PkmnsItemNormalizedStatus,sText_PkmnsIte
 normalized its status!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_LAST_ITEM}
 ทำให้สภาพกลับเป็นปกติ!",proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,491,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_LAST_ITEM},yes,pending_usage_to_window_mapping,proof_passed,"GLCC 20260814-203513-phase6-batch50-battle-ground-focus-flee-status-messages: preview/build passed; visual QA pending.; GLCC 20260814-203513-phase6-batch50-battle-ground-focus-flee-status-messages: visual QA passed. Batch 50 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 SM0332,local:src/battle_message.c:sText_Trainer1UsedItem,sText_Trainer1UsedItem,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
-used {B_LAST_ITEM}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,463,2,{B_TRAINER1_CLASS}; {B_TRAINER1_NAME}; {B_LAST_ITEM},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+used {B_LAST_ITEM}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+ใช้ {B_LAST_ITEM}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,463,2,{B_TRAINER1_CLASS}; {B_TRAINER1_NAME}; {B_LAST_ITEM},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0333,local:src/battle_message.c:sText_BoxIsFull,sText_BoxIsFull,"The BOX is full!
-You can't catch any more!\p",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,481,2,\p,no,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+You can't catch any more!\p","BOX เต็มแล้ว!
+จับโปเกมอนเพิ่มไม่ได้!\p",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,481,2,\p,no,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0334,local:src/battle_message.c:sText_PkmnAvoidedAttack,sText_PkmnAvoidedAttack,"{B_DEF_NAME_WITH_PREFIX} avoided
-the attack!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,72,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+the attack!","{B_DEF_NAME_WITH_PREFIX}
+หลบการโจมตีได้!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,72,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0335,local:src/battle_message.c:sText_PkmnsXMadeItIneffective,sText_PkmnsXMadeItIneffective,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-made it ineffective!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,295,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+made it ineffective!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้การโจมตีไร้ผล!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,295,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0336,local:src/battle_message.c:sText_PkmnsXPreventsFlinching,sText_PkmnsXPreventsFlinching,"{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY}
-prevents flinching!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,296,2,{B_EFF_NAME_WITH_PREFIX}; {B_EFF_ABILITY},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+prevents flinching!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_EFF_ABILITY}
+ป้องกันอาการชะงัก!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,296,2,{B_EFF_NAME_WITH_PREFIX}; {B_EFF_ABILITY},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0337,local:src/battle_message.c:sText_PkmnAlreadyHasBurn,sText_PkmnAlreadyHasBurn,"{B_DEF_NAME_WITH_PREFIX} already
-has a burn.",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,97,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+has a burn.","{B_DEF_NAME_WITH_PREFIX}
+ถูกไฟไหม้อยู่แล้ว.",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,97,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0338,local:src/battle_message.c:sText_StatsWontDecrease2,sText_StatsWontDecrease2,"{B_DEF_NAME_WITH_PREFIX}'s stats won't
-go any lower!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,310,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+go any lower!","ค่าสถานะของ {B_DEF_NAME_WITH_PREFIX}
+ลดไปกว่านี้ไม่ได้!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,310,2,{B_DEF_NAME_WITH_PREFIX},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0339,local:src/battle_message.c:sText_PkmnsXBlocksY2,sText_PkmnsXBlocksY2,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
-blocks {B_CURRENT_MOVE}!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,282,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+blocks {B_CURRENT_MOVE}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ขัดขวาง {B_CURRENT_MOVE}!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,282,2,{B_SCR_ACTIVE_NAME_WITH_PREFIX}; {B_SCR_ACTIVE_ABILITY}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0340,local:src/battle_message.c:sText_PkmnsXWoreOff,sText_PkmnsXWoreOff,"{B_ATK_PREFIX1}'s {B_BUFF1}
-wore off!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,158,2,{B_ATK_PREFIX1}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+wore off!","{B_ATK_PREFIX1} {B_BUFF1}
+หมดผลแล้ว!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,158,2,{B_ATK_PREFIX1}; {B_BUFF1},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0341,local:src/battle_message.c:sText_PkmnRaisedDefALittle,sText_PkmnRaisedDefALittle,"{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}
-raised DEFENSE a little!",,pending,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,129,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
+raised DEFENSE a little!","{B_ATK_PREFIX2} ใช้ {B_CURRENT_MOVE}
+เพิ่มพลังป้องกันเล็กน้อย!",translated_pending_qa,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,129,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,GLCC 20260814-204814-phase6-batch51-battle-trainer-item-ability-defense-messages: preview/build passed; visual QA pending.
 SM0342,local:src/battle_message.c:sText_PkmnRaisedSpDefALittle,sText_PkmnRaisedSpDefALittle,"{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}
 raised SP. DEF a little!",,pending,system_message,english,BATTLE_SYSTEM,1,c_u8,src/battle_message.c,127,2,{B_ATK_PREFIX2}; {B_CURRENT_MOVE},yes,pending_usage_to_window_mapping,pending,phase6_group=canonical_table
 SM0343,local:src/battle_message.c:sText_TheWallShattered,sText_TheWallShattered,The wall shattered!,กำแพงพังทลาย!,proof_passed,system_message,english,BATTLE;BATTLE_SYSTEM,1,c_u8,src/battle_message.c,256,1,,no,pending_usage_to_window_mapping,proof_passed,"GLCC 20260812-231157-phase6-batch06-battle-low-safe-messages: preview/build passed; visual QA pending.; GLCC 20260812-231157-phase6-batch06-battle-low-safe-messages: visual QA passed. Batch 06 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."

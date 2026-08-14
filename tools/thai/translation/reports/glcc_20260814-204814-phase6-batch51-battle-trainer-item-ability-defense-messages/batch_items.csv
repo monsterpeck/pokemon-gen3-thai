@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0332,sText_Trainer1UsedItem,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+used {B_LAST_ITEM}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+ใช้ {B_LAST_ITEM}!",1,1,,44,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0333,sText_BoxIsFull,src/battle_message.c,"The BOX is full!
+You can't catch any more!\p","BOX เต็มแล้ว!
+จับโปเกมอนเพิ่มไม่ได้!\p",1,1,,214,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0334,sText_PkmnAvoidedAttack,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} avoided
+the attack!","{B_DEF_NAME_WITH_PREFIX}
+หลบการโจมตีได้!",1,1,,97,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0335,sText_PkmnsXMadeItIneffective,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+made it ineffective!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ทำให้การโจมตีไร้ผล!",1,1,,131,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0336,sText_PkmnsXPreventsFlinching,src/battle_message.c,"{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY}
+prevents flinching!","{B_EFF_NAME_WITH_PREFIX} ใช้ {B_EFF_ABILITY}
+ป้องกันอาการชะงัก!",1,1,,122,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0337,sText_PkmnAlreadyHasBurn,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX} already
+has a burn.","{B_DEF_NAME_WITH_PREFIX}
+ถูกไฟไหม้อยู่แล้ว.",1,1,,101,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0338,sText_StatsWontDecrease2,src/battle_message.c,"{B_DEF_NAME_WITH_PREFIX}'s stats won't
+go any lower!","ค่าสถานะของ {B_DEF_NAME_WITH_PREFIX}
+ลดไปกว่านี้ไม่ได้!",1,1,,160,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0339,sText_PkmnsXBlocksY2,src/battle_message.c,"{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_SCR_ACTIVE_ABILITY}
+blocks {B_CURRENT_MOVE}!","{B_SCR_ACTIVE_NAME_WITH_PREFIX} ใช้ {B_SCR_ACTIVE_ABILITY}
+ขัดขวาง {B_CURRENT_MOVE}!",1,1,,81,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0340,sText_PkmnsXWoreOff,src/battle_message.c,"{B_ATK_PREFIX1}'s {B_BUFF1}
+wore off!","{B_ATK_PREFIX1} {B_BUFF1}
+หมดผลแล้ว!",1,1,,80,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0341,sText_PkmnRaisedDefALittle,src/battle_message.c,"{B_ATK_PREFIX2}'s {B_CURRENT_MOVE}
+raised DEFENSE a little!","{B_ATK_PREFIX2} ใช้ {B_CURRENT_MOVE}
+เพิ่มพลังป้องกันเล็กน้อย!",1,1,,148,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
