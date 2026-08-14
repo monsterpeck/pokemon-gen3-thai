@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-105242-phase6-batch35-battle-curse-spikes-identify-perish-messages",
+  "locked_head": "beb1463f9bd6f1f1b1cbfb371372040d0f377454",
+  "state": "applied_build_passed",
+  "item_count": 5,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 203,
+    "pending": 215,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 203,
+    "pending": 210,
+    "translated_pending_qa": 5,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "d38ede1736dc1c6c06a8b1001b2b6ad3933e501c1ced33414367d683a854926f",
+  "normal_rom_sha256": "d38ede1736dc1c6c06a8b1001b2b6ad3933e501c1ced33414367d683a854926f"
+}
