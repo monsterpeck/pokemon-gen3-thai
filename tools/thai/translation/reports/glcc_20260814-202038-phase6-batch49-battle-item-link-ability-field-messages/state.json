@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-202038-phase6-batch49-battle-item-link-ability-field-messages",
   "locked_head": "62d19f2d475a9751966e34dead9970aa7c3437c4",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 328,
     "pending": 90,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "7cfa86cc0182bcf6ab40e09f64e0563cfd7c3bb1b406781d759cc51ab6b37690",
-  "normal_rom_sha256": "7cfa86cc0182bcf6ab40e09f64e0563cfd7c3bb1b406781d759cc51ab6b37690"
+  "normal_rom_sha256": "7cfa86cc0182bcf6ab40e09f64e0563cfd7c3bb1b406781d759cc51ab6b37690",
+  "qa_note": "Batch 49 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
