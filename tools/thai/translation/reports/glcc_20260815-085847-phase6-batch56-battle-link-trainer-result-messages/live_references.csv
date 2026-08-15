@@ -1,0 +1,11 @@
+﻿symbol,reference
+sText_LinkTrainerMultiSentOutPkmn,src/battle_message.c:2132:                        stringPtr = sText_LinkTrainerMultiSentOutPkmn;
+sText_LinkTrainerSentOutPkmn2,src/battle_message.c:2136:                        stringPtr = sText_LinkTrainerSentOutPkmn2;
+sText_AttackerUsedX,src/battle_message.c:2164:        stringPtr = sText_AttackerUsedX;
+sText_TwoWildFled,src/battle_message.c:2176:                stringPtr = sText_TwoWildFled;
+sText_TwoLinkTrainersDefeated,src/battle_message.c:2193:                        stringPtr = sText_TwoLinkTrainersDefeated;
+sText_PlayerLostToTwo,src/battle_message.c:2196:                    stringPtr = sText_PlayerLostToTwo;
+sText_PlayerBattledToDrawVsTwo,src/battle_message.c:2199:                    stringPtr = sText_PlayerBattledToDrawVsTwo;
+sText_PlayerLostAgainstTrainer1,src/battle_message.c:2211:                    stringPtr = sText_PlayerLostAgainstTrainer1;
+sText_PlayerBattledToDrawTrainer1,src/battle_message.c:2214:                    stringPtr = sText_PlayerBattledToDrawTrainer1;
+sText_PlayerDefeatedLinkTrainer,src/battle_message.c:2223:                    stringPtr = sText_PlayerDefeatedLinkTrainer;

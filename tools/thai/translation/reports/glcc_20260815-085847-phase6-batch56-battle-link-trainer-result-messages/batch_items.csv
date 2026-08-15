@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0399,sText_LinkTrainerMultiSentOutPkmn,src/battle_message.c,"{B_LINK_SCR_TRAINER_NAME} sent out
+{B_BUFF1}!","{B_LINK_SCR_TRAINER_NAME} ส่ง
+{B_BUFF1} ออกมา!",1,1,,71,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0400,sText_LinkTrainerSentOutPkmn2,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} sent out
+{B_BUFF1}!","{B_LINK_OPPONENT1_NAME} ส่ง
+{B_BUFF1} ออกมา!",1,1,,71,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0401,sText_AttackerUsedX,src/battle_message.c,"{B_ATK_NAME_WITH_PREFIX} used
+{B_BUFF2}","{B_ATK_NAME_WITH_PREFIX} ใช้
+{B_BUFF2}",1,1,,32,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0402,sText_TwoWildFled,src/battle_message.c,"{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and
+{B_LINK_OPPONENT2_NAME} fled!","{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} และ
+{B_LINK_OPPONENT2_NAME} หนีไปแล้ว!",1,1,,97,MEDIUM,หลายบรรทัด; มี control code,src/battle_message.c,{},pass,pending
+SM0404,sText_TwoLinkTrainersDefeated,src/battle_message.c,"Player beat {B_LINK_OPPONENT1_NAME}
+and {B_LINK_OPPONENT2_NAME}!","ผู้เล่นเอาชนะ {B_LINK_OPPONENT1_NAME}
+และ {B_LINK_OPPONENT2_NAME}!",1,1,,107,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0405,sText_PlayerLostToTwo,src/battle_message.c,"Player lost to {B_LINK_OPPONENT1_NAME}
+and {B_LINK_OPPONENT2_NAME}!","ผู้เล่นพ่ายแพ้ให้ {B_LINK_OPPONENT1_NAME}
+และ {B_LINK_OPPONENT2_NAME}!",1,1,,120,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0406,sText_PlayerBattledToDrawVsTwo,src/battle_message.c,"Player battled to a draw against
+{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!","ผู้เล่นเสมอกับ {B_LINK_OPPONENT1_NAME}
+และ {B_LINK_OPPONENT2_NAME}!",1,1,,110,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0407,sText_PlayerLostAgainstTrainer1,src/battle_message.c,"Player lost against
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!","ผู้เล่นพ่ายแพ้ให้
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!",1,1,,98,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0408,sText_PlayerBattledToDrawTrainer1,src/battle_message.c,"Player battled to a draw against
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!","ผู้เล่นเสมอกับ
+{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!",1,1,,88,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0409,sText_PlayerDefeatedLinkTrainer,src/battle_message.c,"Player defeated
+{B_LINK_OPPONENT1_NAME}!","ผู้เล่นเอาชนะ
+{B_LINK_OPPONENT1_NAME}!",1,1,,81,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
