@@ -1,10 +1,10 @@
 {
   "batch_id": "20260815-085847-phase6-batch56-battle-link-trainer-result-messages",
   "locked_head": "a12577b540cecc3243b749e05969d5e18f514623",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 398,
     "pending": 20,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "057e89d471b4834750a2206e7d1ad0b9ef7976e1efadeef08d03d02f0a9cc05d",
-  "normal_rom_sha256": "057e89d471b4834750a2206e7d1ad0b9ef7976e1efadeef08d03d02f0a9cc05d"
+  "normal_rom_sha256": "057e89d471b4834750a2206e7d1ad0b9ef7976e1efadeef08d03d02f0a9cc05d",
+  "qa_note": "Batch 56 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
