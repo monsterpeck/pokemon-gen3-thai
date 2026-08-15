@@ -8,14 +8,14 @@ See how beautiful it is, the sleeping
 form of the ancient POKéMON KYOGRE!
 [PAGE]
 I have waited so long for this day to
-come…",,untranslated,\p | \nf | \p | \nc,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+come…",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_904db249c77a5fb4,211,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,4,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,231,SeafloorCavern_Room9_Text_ArchieYouMustDisappear,"ARCHIE: It surprises me, how you've\nmanaged to chase me here.\pBut that's all over now.\pFor the realization of my dream,\nyou must disappear now!$","ARCHIE: It surprises me, how you've
 managed to chase me here.
 [PAGE]
 But that's all over now.
 [PAGE]
 For the realization of my dream,
-you must disappear now!",,untranslated,\n | \pB | \pF | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+you must disappear now!",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_5b8c8d67abbc38ae,212,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,5,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,242,SeafloorCavern_Room9_Text_ArchieWithThisRedOrb,"ARCHIE: Fufufu…\pI commend you. I must recognize that\nyou are truly gifted.\pBut!\nI have this in my possession!\pWith this RED ORB, I can make KYOGRE…$","ARCHIE: Fufufu…
 [PAGE]
 I commend you. I must recognize that
@@ -24,9 +24,9 @@ you are truly gifted.
 But!
 I have this in my possession!
 [PAGE]
-With this RED ORB, I can make KYOGRE…",,untranslated,\p | \n | \pB | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+With this RED ORB, I can make KYOGRE…",,untranslated,\p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_30a432ed17b0bf86,213,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,6,,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,250,SeafloorCavern_Room9_Text_RedOrbShinesByItself,The RED ORB suddenly began shining\nby itself!$,"The RED ORB suddenly began shining
-by itself!",,untranslated,\nb,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+by itself!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_5e4dc15ea2604bc6,214,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,7,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,254,SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo,ARCHIE: What?!\pI didn't do anything.\nWhy did the RED ORB…\pWhere did KYOGRE go?$,"ARCHIE: What?!
 [PAGE]
 I didn't do anything.
@@ -54,7 +54,7 @@ That can't be…
 That's just not possible…
 [PAGE]
 Hold your position and monitor
-the situation!",,untranslated,\p | \n | \p | \n | \l | \le | \p | \p | \ne | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+the situation!",,untranslated,\p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_57e3edbafd739069,217,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,10,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,280,SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear,ARCHIE: There's something wrong…\pThe RED ORB is supposed to awaken\nand control KYOGRE…\pBut… Why?\nWhy did KYOGRE disappear?\pWhy?!$,"ARCHIE: There's something wrong…
 [PAGE]
 The RED ORB is supposed to awaken
@@ -63,7 +63,7 @@ and control KYOGRE…
 But… Why?
 Why did KYOGRE disappear?
 [PAGE]
-Why?!",,untranslated,\p | \na | \pB | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Why?!",,untranslated,\p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b1b9bedf4bbb9835,218,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,11,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,288,SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought,"MAXIE: What have you wrought?\pARCHIE… You've finally awoken KYOGRE,\nhaven't you?\pWhat will happen to the world if this\ndownpour continues for all eternity?\pThe world's landmass will drown in\nthe deepening sea…$","MAXIE: What have you wrought?
 [PAGE]
 ARCHIE… You've finally awoken KYOGRE,
@@ -73,7 +73,7 @@ What will happen to the world if this
 downpour continues for all eternity?
 [PAGE]
 The world's landmass will drown in
-the deepening sea…",,untranslated,\pA | \n | \p | \nd | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+the deepening sea…",,untranslated,\p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b9b9dc0d0d6b7eb0,219,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,12,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,297,SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty,"ARCHIE: W-what?!\nDon't get all high and mighty with me!\pWasn't it you, TEAM MAGMA, that\ninfuriated GROUDON?\pSo long as I have this RED ORB,\nI should be able to control KYOGRE…\pI should be able to control it…$","ARCHIE: W-what?!
 Don't get all high and mighty with me!
 [PAGE]
@@ -83,14 +83,14 @@ infuriated GROUDON?
 So long as I have this RED ORB,
 I should be able to control KYOGRE…
 [PAGE]
-I should be able to control it…",,untranslated,\nD | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+I should be able to control it…",,untranslated,\n | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_881182be07580274,220,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,13,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,306,SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue,MAXIE: We don't have the time to\nargue about it here!\pGet outside and see for yourself!\pSee if what you've wrought is the\nworld that we desired!$,"MAXIE: We don't have the time to
 argue about it here!
 [PAGE]
 Get outside and see for yourself!
 [PAGE]
 See if what you've wrought is the
-world that we desired!",,untranslated,\na | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+world that we desired!",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_648adc974a14e68d,221,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,14,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,313,SeafloorCavern_Room9_Text_MaxieComeOnPlayer,"MAXIE: {PLAYER}, come on, you have\nto get out of here, too!$","MAXIE: {PLAYER}, come on, you have
 to get out of here, too!",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a9cd459000662ef7,222,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,1,,SootopolisCity_EventScript_Steven,data/maps/SootopolisCity/scripts.inc,1650,SootopolisCity_Text_SoThatsRayquaza,STEVEN: So that's RAYQUAZA…\pIt's incredible how the two rampaging\nPOKéMON would flee from it in fear…$,"STEVEN: So that's RAYQUAZA…
@@ -103,7 +103,7 @@ dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโป
 ARCHIE have gone away somewhere.
 [PAGE]
 Perhaps they've gone to MT. PYRE to
-return those ORBS…",,untranslated,\nA | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+return those ORBS…",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
 [PAGE]
 I've never been there.
@@ -126,7 +126,7 @@ involved in this crisis.
 Well, then, there's someone that
 I'd like you to meet.
 [PAGE]
-Come with me, please.",,untranslated,\n | \p | \n | \pA | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \pC,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Come with me, please.",,untranslated,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
 [PAGE]
 Does seeing GROUDON and KYOGRE make
@@ -136,7 +136,7 @@ But that's not true.
 POKéMON are really more…
 [PAGE]
 …Why am I asking you this?
-You already know.",,untranslated,{PLAYER} | {KUN} | \pD | \n | \pB | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+You already know.",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_d0a9580f9bb5ec14,228,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,7,Wallace,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1634,SootopolisCity_Text_HereWereAreHelpWallace,"STEVEN: Okay, here we are!\pInside here you'll find someone named\nWALLACE.\pI think you have what's needed to\nhelp him…$","STEVEN: Okay, here we are!
 [PAGE]
 Inside here you'll find someone named
@@ -173,7 +173,7 @@ I'm worried about SOOTOPOLIS.
 I've got to go back.
 [PAGE]
 Everything is in your hands now.
-Don't fail us!",,untranslated,\p | \ne | \p | {PLAYER} | {KUN} | \p | \nf | \p | \n | \pE | \nD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't fail us!",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6b211e62d63b8b92,233,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,5,,SkyPillar_Top_EventScript_AwakenRayquaza,data/maps/SkyPillar_Top/scripts.inc,179,SkyPillar_Top_Text_RayquazaFlewOff,The awakened RAYQUAZA flew off…$,The awakened RAYQUAZA flew off…,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_c535707ea4269a80,234,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,1,,SootopolisCity_EventScript_MaxieRayquaza,data/maps/SootopolisCity/scripts.inc,1580,SootopolisCity_Text_AfterAllOurScheming,"MAXIE: So the super-ancient POKéMON\nweren't only GROUDON and KYOGRE…\pAfter all our fruitless scheming and\nfrantic efforts, that one POKéMON's\lsimple action puts everything right\lagain as if nothing had happened…\pFu…\nFuhahaha…$","MAXIE: So the super-ancient POKéMON
 weren't only GROUDON and KYOGRE…
@@ -184,7 +184,7 @@ simple action puts everything right
 again as if nothing had happened…
 [PAGE]
 Fu…
-Fuhahaha…",,untranslated,\n | \pAf | \nf | \l | \la | \pF | \nF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Fuhahaha…",,untranslated,\n | \p | \n | \l | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6e265d07775a618e,235,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,2,,SootopolisCity_EventScript_ArchieRayquaza,data/maps/SootopolisCity/scripts.inc,1599,SootopolisCity_Text_TryingMeaninglessToPokemon,"ARCHIE: KYOGRE and GROUDON both\nflew off to who knows where.\pThe weather in HOENN has returned\nto its normal state…\pHaha…\nHahaha…\pMaybe what we were trying to do was\nsomething small, even meaningless,\lto POKéMON…$","ARCHIE: KYOGRE and GROUDON both
 flew off to who knows where.
 [PAGE]
@@ -196,4 +196,4 @@ Hahaha…
 [PAGE]
 Maybe what we were trying to do was
 something small, even meaningless,
-to POKéMON…",,untranslated,\nf | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+to POKéMON…",,untranslated,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

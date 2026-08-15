@@ -1,0 +1,20 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_ae26a5585d0e39c3,241,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,ถนนแห่งชัยชนะ,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,1,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,120,VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore,"WALLY: Hi! {PLAYER}!\pI bet you're surprised to see me here!\pI made it all the way here, and it's\nall thanks to you!\p{PLAYER}, losing to you that time\nmade me stronger!\pBut I'm not going to lose anymore!\pI'm going to win! For the POKéMON who\ngave me courage and strength!\pOkay… Here I come!$","WALLY: Hi! {PLAYER}!
+[PAGE]
+I bet you're surprised to see me here!
+[PAGE]
+I made it all the way here, and it's
+all thanks to you!
+[PAGE]
+{PLAYER}, losing to you that time
+made me stronger!
+[PAGE]
+But I'm not going to lose anymore!
+[PAGE]
+I'm going to win! For the POKéMON who
+gave me courage and strength!
+[PAGE]
+Okay… Here I come!",มิตสึรุ: สวัสดี {PLAYER}!\pคงตกใจที่เห็นผมที่นี่สินะครับ!\pผมมาถึงที่นี่ได้ ทั้งหมดนี้\nเป็นเพราะคุณ!\p{PLAYER} การแพ้คุณในครั้งนั้น\nทำให้ผมแข็งแกร่งขึ้น!\pแต่ผมจะไม่แพ้อีกแล้ว!\pผมจะชนะ! เพื่อโปเกมอนที่\nมอบความกล้าและพลังให้ผม!\pเอาละ… ผมมาแล้ว!$,draft_review,{PLAYER} | \p | \p | \n | \p | {PLAYER} | \n | \p | \p | \n | \p,{PLAYER} | {PLAYER},high,high,high,ok,ok,
+dlg_2c3eb5a86574bda7,242,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,ถนนแห่งชัยชนะ,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,2,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,136,VictoryRoad_1F_Text_WallyPostEntranceBattle,"WALLY: I couldn't beat you today,\n{PLAYER}, but one of these days, I'll\lcatch up to you!$","WALLY: I couldn't beat you today,
+{PLAYER}, but one of these days, I'll
+catch up to you!",มิตสึรุ: วันนี้ผมเอาชนะคุณไม่ได้\n{PLAYER} แต่สักวันหนึ่ง ผมจะ\lตามคุณให้ทัน!$,draft_review,\n | {PLAYER} | \l,{PLAYER},high,high,high,ok,ok,

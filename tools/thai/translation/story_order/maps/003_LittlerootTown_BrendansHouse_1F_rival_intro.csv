@@ -26,7 +26,7 @@ Aw, darn, I forgot…
 I'm supposed to go help my dad catch
 some wild POKéMON.
 [PAGE]
-Some other time, okay?",,untranslated,\n | \p | \p | {PLAYER} | \n | \p | \pDa | \n | \l | \p | \n | \p | {PLAYER} | \na | \pD | \pA | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Some other time, okay?",,untranslated,\n | \p | \p | {PLAYER} | \n | \p | \p | \n | \l | \p | \n | \p | {PLAYER} | \n | \p | \p | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_7cc549bb2e89937d,13,02,littleroot,Littleroot,ลิตเติลรูต,4,rival_intro,Rival introduction,,4,LittlerootTown_BrendansHouse_1F,rival_intro,LittlerootTown BrendansHouse 1F,2,May,LittlerootTown_MaysHouse_1F_EventScript_MeetRival,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc,357,RivalsHouse_1F_Text_MayWhoAreYou,"Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$","Huh?
 Who… Who are you?
 [PAGE]
@@ -59,4 +59,4 @@ Oh, no! I forgot!
 I was supposed to go help Dad catch
 some wild POKéMON!
 [PAGE]
-{PLAYER}{KUN}, I'll catch you later!",,untranslated,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \pE | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+{PLAYER}{KUN}, I'll catch you later!",,untranslated,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

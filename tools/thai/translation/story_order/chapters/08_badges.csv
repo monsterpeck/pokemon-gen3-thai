@@ -5,19 +5,19 @@ A TEAM MAGMA mob just passed
 the WEATHER INSTITUTE.
 [PAGE]
 They appear to be headed for
-MT. PYRE!",,untranslated,\pA | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+MT. PYRE!",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_72d579cc12f30a2d,147,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,2,,Route119_WeatherInstitute_2F_EventScript_ShellyDefeated,data/maps/Route119_WeatherInstitute_2F/scripts.inc,272,Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre,"What?!\pWe can't waste any more time here!\nWe have to hurry to MT. PYRE, too!\pAhahahaha!\nTEAM MAGMA, just you wait!$","What?!
 [PAGE]
 We can't waste any more time here!
 We have to hurry to MT. PYRE, too!
 [PAGE]
 Ahahahaha!
-TEAM MAGMA, just you wait!",,untranslated,\p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+TEAM MAGMA, just you wait!",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_15b8f87c5174f5d2,148,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,3,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastform,data/maps/Route119_WeatherInstitute_2F/scripts.inc,279,Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon,"Thanks!\nThanks to you, we're safe!\pIt might be an odd way of thanking you,\nbut take this POKéMON.$","Thanks!
 Thanks to you, we're safe!
 [PAGE]
 It might be an odd way of thanking you,
-but take this POKéMON.",,untranslated,\n | \p | \nb,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+but take this POKéMON.",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_fbfff4949ad6b61d,149,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,4,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty,data/text/pc_transfer.inc,29,gText_NicknameThisPokemon,Do you want to give a nickname to\nthis {STR_VAR_1}?$,"Do you want to give a nickname to
 this {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_3949d91512dde4d1,150,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,26,weather,Weather Institute,,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,5,,Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare,data/maps/Route119_WeatherInstitute_2F/scripts.inc,290,Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform,{PLAYER} received CASTFORM!$,{PLAYER} received CASTFORM!,,untranslated,{PLAYER},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
@@ -32,7 +32,7 @@ Of course you are! Go!",,untranslated,{PLAYER} | {KUN} | \n | \p | \n | \p | \n,
 dlg_8f9454ec6b2ac0f0,152,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,2,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,491,Route119_Text_MayPresentForYou,"MAY: But I had absolutely nothing to\nworry about! Keep it up!\pAnd, here! I have a present for you.$","MAY: But I had absolutely nothing to
 worry about! Keep it up!
 [PAGE]
-And, here! I have a present for you.",,untranslated,\n | \pA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+And, here! I have a present for you.",,untranslated,\n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6be0ed70a0acd49c,153,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,3,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,496,Route119_Text_MayExplainFly,"MAY: Use FLY, and your POKéMON will\ninstantly carry you to any town you've\lalready visited.\pBut, to use FLY, you have to get\nthe GYM BADGE from FORTREE CITY.\lThat's important, so don't forget.\pYou should FLY home and visit\nLITTLEROOT for a change.\pI bet your mom's worried about you,\n{PLAYER}{KUN}.\pWell, let's meet again somewhere!$","MAY: Use FLY, and your POKéMON will
 instantly carry you to any town you've
 already visited.
@@ -47,7 +47,7 @@ LITTLEROOT for a change.
 I bet your mom's worried about you,
 {PLAYER}{KUN}.
 [PAGE]
-Well, let's meet again somewhere!",,untranslated,\n | \la | \pB | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Well, let's meet again somewhere!",,untranslated,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_83a72594b4c34bcc,154,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,4,Brendan,Route119_EventScript_BattleBrendan,data/maps/Route119/scripts.inc,509,Route119_Text_BrendanIntro,"BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$","BRENDAN: {PLAYER}! So this is where
 you've been looking for POKéMON?
 [PAGE]
@@ -68,7 +68,7 @@ you've already visited.
 But you need the FORTREE GYM BADGE 
 to do that.
 [PAGE]
-Anyway, I have to move along.",,untranslated,\n | \l | \pB | \n | \pA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Anyway, I have to move along.",,untranslated,\n | \l | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6f04353d49eb36ad,157,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,7,,Route119_EventScript_RivalExitScottArrive,data/maps/Route119/scripts.inc,535,Route119_Text_ScottWayToGoBeSeeingYou,"SCOTT: Hahahah!\nWay to go, {PLAYER}{KUN}!\pI just passed by a TRAINER riding\na BIKE.\pYou just beat that TRAINER, didn't you?\nIt was pretty obvious that you did.\pThe kid looked really upset with\na face all red from anger.\pI sure seem to run into you often.\nAre you off to FORTREE GYM next?\pI expect that you'll do well at the GYM.\nWell, I'll be seeing you!$","SCOTT: Hahahah!
 Way to go, {PLAYER}{KUN}!
 [PAGE]
@@ -85,11 +85,11 @@ I sure seem to run into you often.
 Are you off to FORTREE GYM next?
 [PAGE]
 I expect that you'll do well at the GYM.
-Well, I'll be seeing you!",,untranslated,\n | {PLAYER} | {KUN} | \p | \na | \p | \n | \p | \na | \p | \nA | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Well, I'll be seeing you!",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_90522eab9aeeb6c1,158,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,1,Winona,FortreeCity_Gym_EventScript_Winona,data/maps/FortreeCity_Gym/scripts.inc,273,FortreeCity_Gym_Text_WinonaPostBattle,"Though I fell to you, I will remain\ndevoted to BIRD POKéMON.$","Though I fell to you, I will remain
-devoted to BIRD POKéMON.",,untranslated,\nde,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+devoted to BIRD POKéMON.",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_043520f7cee45426,159,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,2,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,250,FortreeCity_Gym_Text_ReceivedFeatherBadge,{PLAYER} received the FEATHER BADGE\nfrom WINONA.$,"{PLAYER} received the FEATHER BADGE
-from WINONA.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+from WINONA.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_4ba2da8c6c4cb804,160,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,3,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,254,FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis,"With the FEATHER BADGE, all POKéMON up\nto LV 70, even those received through\ltrades, will obey your every command.\pYou will also be able to use\nthe HM move FLY outside of battle.\pAnd this…\nThis is a gift from me.$","With the FEATHER BADGE, all POKéMON up
 to LV 70, even those received through
 trades, will obey your every command.
@@ -98,7 +98,7 @@ You will also be able to use
 the HM move FLY outside of battle.
 [PAGE]
 And this…
-This is a gift from me.",,untranslated,\n | \l | \p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+This is a gift from me.",,untranslated,\n | \l | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_edeb336fc52d099f,161,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,4,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,382,Route120_Text_StevenShowMeYourPower,"STEVEN: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$","STEVEN: {PLAYER}{KUN}, show me your true
 power as a TRAINER!",,untranslated,{PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_8a26b89ed2ec5faf,162,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,5,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,386,Route120_Text_StevenUsedDevonScope,STEVEN used the DEVON SCOPE.\pAn invisible POKéMON became completely\nvisible!\pThe startled POKéMON attacked!$,"STEVEN used the DEVON SCOPE.
@@ -106,7 +106,7 @@ dlg_8a26b89ed2ec5faf,162,08,badges,Gyms and Weather Institute,ยิมและ
 An invisible POKéMON became completely
 visible!
 [PAGE]
-The startled POKéMON attacked!",,untranslated,\pA | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+The startled POKéMON attacked!",,untranslated,\p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_98e1f16605e4b205,163,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,6,,Route120_EventScript_BridgeKecleon,data/maps/Route120/scripts.inc,409,Kecleon_Text_SomethingUnseeable,Something unseeable is in the way.$,Something unseeable is in the way.,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e89bf2fc11073911,164,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,7,,FortreeCity_Gym_EventScript_GiveAerialAce,data/maps/FortreeCity_Gym/scripts.inc,263,FortreeCity_Gym_Text_ExplainAerialAce,TM40 contains AERIAL ACE.\pIts speed…\nNo POKéMON should be able to avoid it.\p… … … … … …$,"TM40 contains AERIAL ACE.
 [PAGE]
@@ -124,7 +124,7 @@ I'd like you to have this
 DEVON SCOPE.
 [PAGE]
 Who knows, there may be other
-concealed POKéMON.",,untranslated,\n | \p | \n | \p | \nDE | \p | \nc,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+concealed POKéMON.",,untranslated,\n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_2c9ae36316cdc574,166,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,28,fortree,Fortree,,28,FortreeCity_Gym,fortree,FortreeCity Gym,9,Steven,Route120_EventScript_StevenGiveDeconScope,data/maps/Route120/scripts.inc,402,Route120_Text_StevenGoodbye,"STEVEN: {PLAYER}{KUN}.\pI enjoy seeing POKéMON and TRAINERS\nwho strive together.\pI think you're doing great.\pWell, let's meet again somewhere.$","STEVEN: {PLAYER}{KUN}.
 [PAGE]
 I enjoy seeing POKéMON and TRAINERS

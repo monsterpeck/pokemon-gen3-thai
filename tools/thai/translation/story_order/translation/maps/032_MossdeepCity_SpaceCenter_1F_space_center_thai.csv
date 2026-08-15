@@ -1,0 +1,94 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_10a0c4da3c01bfa0,192,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,1,,MossdeepCity_SpaceCenter_1F_EventScript_SunStoneManMagma,data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc,319,MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis,"TEAM MAGMA can't be allowed to steal\nthe rocket fuel.\pOh, by the way, you can have this stone\nI found on the beach.$","TEAM MAGMA can't be allowed to steal
+the rocket fuel.
+[PAGE]
+Oh, by the way, you can have this stone
+I found on the beach.",ปล่อยให้ทีมแมกมาขโมย\nเชื้อเพลิงจรวดไม่ได้\pอ้อ จริงสิ รับหินก้อนนี้ไปเถอะ\nฉันเจอมันที่ชายหาด$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_79ce7f56167066ae,193,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,2,Steven,MossdeepCity_SpaceCenter_1F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc,351,MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel,"STEVEN: {PLAYER}{KUN}, have you read that\nproclamation already?\pTEAM MAGMA is coming after the rocket\nfuel on this island.\pI don't know what they'd need it for,\nbut they can't be allowed to take it.\pI'll keep an eye on things for\na while longer.\pIn the meantime, why don't you go\ncheck out the town?$","STEVEN: {PLAYER}{KUN}, have you read that
+proclamation already?
+[PAGE]
+TEAM MAGMA is coming after the rocket
+fuel on this island.
+[PAGE]
+I don't know what they'd need it for,
+but they can't be allowed to take it.
+[PAGE]
+I'll keep an eye on things for
+a while longer.
+[PAGE]
+In the meantime, why don't you go
+check out the town?",ไดโกะ: {PLAYER}{KUN} อ่านประกาศ\nฉบับนั้นแล้วหรือยัง?\pทีมแมกมากำลังหมายตา\nเชื้อเพลิงจรวดบนเกาะนี้\pไม่รู้ว่าพวกมันต้องการไปทำอะไร\nแต่ปล่อยให้เอาไปไม่ได้\pฉันจะคอยเฝ้าสถานการณ์\nต่ออีกสักพัก\pระหว่างนี้ลองไป\nดูรอบเมืองก่อนไหม?$,draft_review,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_70357e86f6ea09df,194,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,3,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,385,MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn,"What's wrong with you?\pYou're outnumbered three to one,\nbut you still want to take us on?$","What's wrong with you?
+[PAGE]
+You're outnumbered three to one,
+but you still want to take us on?",เป็นอะไรของแก?\pถึงจะเสียเปรียบสามต่อหนึ่ง\nแต่ยังคิดจะสู้กับพวกเราอีกหรือ?$,draft_review,\p | \n,,high,high,medium,ok,ok,
+dlg_0d1adf3d7c53be63,195,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,4,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,390,MossdeepCity_SpaceCenter_2F_Text_GoodAnswer,Good answer!\nThat's what a smart person'll do!$,"Good answer!
+That's what a smart person'll do!",ตอบได้ดี!\nคนฉลาดก็ต้องเลือกแบบนั้น!$,draft_review,\n,,high,high,medium,ok,ok,
+dlg_8199f6fe43038be0,196,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,5,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,394,MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro,"A reckless go-getter, are you?\nOkay, I'll go first!$","A reckless go-getter, are you?
+Okay, I'll go first!",ใจกล้าบ้าบิ่นสินะ?\nเอาล่ะ ฉันจะลุยก่อน!$,draft_review,\n,,high,high,medium,ok,ok,
+dlg_abc5b37215d62d43,197,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,6,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,402,MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro,It's too soon to be relieved!\nI'm up next!$,"It's too soon to be relieved!
+I'm up next!",อย่าเพิ่งโล่งใจไป!\nคนต่อไปคือฉัน!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_18051728da20cef1,198,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,7,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,410,MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro,I bet you want to take a break.\nBut I'm not about to let you do that!$,"I bet you want to take a break.
+But I'm not about to let you do that!",คงอยากพักสักหน่อยสินะ\nแต่ฉันไม่ยอมให้พักหรอก!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_63197315c2211581,199,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,8,,MossdeepCity_SpaceCenter_2F_EventScript_ScientistMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,361,MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel,Why would TEAM MAGMA want to steal\nour rocket fuel in the first place?$,"Why would TEAM MAGMA want to steal
+our rocket fuel in the first place?",ว่าแต่ทำไมทีมแมกมาถึงอยาก\nขโมยเชื้อเพลิงจรวดของเรากัน?$,draft_review,\n,,high,high,high,ok,ok,
+dlg_ff6b7727bf98e870,200,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,9,,MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,371,MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis,"If TEAM MAGMA takes the rocket fuel,\nI won't be able to go to space!\pThey can't be allowed to get away\nwith such an outrage!$","If TEAM MAGMA takes the rocket fuel,
+I won't be able to go to space!
+[PAGE]
+They can't be allowed to get away
+with such an outrage!",ถ้าทีมแมกมาเอาเชื้อเพลิงจรวดไป\nฉันก็ไปอวกาศไม่ได้สิ!\pปล่อยให้พวกมันก่อเรื่องเลวร้าย\nแบบนี้แล้วหนีไปไม่ได้!$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_33a9a5236748bb7b,201,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,10,,MossdeepCity_SpaceCenter_2F_EventScript_RichBoyMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,381,MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace,"TEAM MAGMA…\nDo they want to go to space, too?$","TEAM MAGMA…
+Do they want to go to space, too?",ทีมแมกมา…\nพวกนั้นก็อยากไปอวกาศหรือ?$,draft_review,\n,,high,high,high,ok,ok,
+dlg_9bb71a44ed8e9cc8,202,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,11,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Maxie,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,437,MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere,MAXIE: Clear out of the way!\nDon't you dare interfere!$,"MAXIE: Clear out of the way!
+Don't you dare interfere!",มัตสึบูสะ: หลีกทางไป!\nอย่าบังอาจมาขวาง!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_fad0e7d043c9af8c,203,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,12,Steven,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,441,MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel,STEVEN: TEAM MAGMA…\pWhat's the point of stealing rocket\nfuel?$,"STEVEN: TEAM MAGMA…
+[PAGE]
+What's the point of stealing rocket
+fuel?",ไดโกะ: ทีมแมกมา…\pขโมยเชื้อเพลิงจรวดไป\nเพื่ออะไรกัน?$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_220e2ebc787a03bc,204,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,13,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,446,MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano,"MAXIE: Fufufu… Since you're so\ncurious, you deserve an explanation.\pWe're going to jettison the entire\nload into MT. CHIMNEY!\pWith GROUDON gone, we have no need\nfor that slag heap of a mountain!\pSo we'll use the fuel's power to make\nthe volcano erupt!\pIt will be savage!$","MAXIE: Fufufu… Since you're so
+curious, you deserve an explanation.
+[PAGE]
+We're going to jettison the entire
+load into MT. CHIMNEY!
+[PAGE]
+With GROUDON gone, we have no need
+for that slag heap of a mountain!
+[PAGE]
+So we'll use the fuel's power to make
+the volcano erupt!
+[PAGE]
+It will be savage!",มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึกิ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+dlg_104f959b73f4cfdb,205,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,14,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,474,MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided,"MAXIE: We failed to make the volcano\nerupt…\pWe failed to control GROUDON after\nwe had awoken it…\pIs our goal to expand the land\nmisguided?\p… … … … … …\n… … … … … …\pIf…\nIf we, TEAM MAGMA, are wrong…\l… … … … … …\pThen might TEAM AQUA's goal to expand\nthe sea also be equally misguided?$","MAXIE: We failed to make the volcano
+erupt…
+[PAGE]
+We failed to control GROUDON after
+we had awoken it…
+[PAGE]
+Is our goal to expand the land
+misguided?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+If…
+If we, TEAM MAGMA, are wrong…
+… … … … … …
+[PAGE]
+Then might TEAM AQUA's goal to expand
+the sea also be equally misguided?",มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายที่จะขยายผืนดิน\nของเรานั้นผิดกันแน่?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,high,ok,ok,
+dlg_1d1b84c3dd049a67,206,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,15,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,489,MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp,MAXIE: All right…\nWe will give up on the fuel…\pThere appear to be more important\nmatters that I must examine…$,"MAXIE: All right…
+We will give up on the fuel…
+[PAGE]
+There appear to be more important
+matters that I must examine…",มัตสึบูสะ: เอาเถอะ…\nเราจะยอมทิ้งเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_63d0a5b1cfa2160d,207,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,16,Steven,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,495,MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome,"STEVEN: Whew, that was too tense.\n{PLAYER}{KUN}, thank you.\pI have something to give you as\nthanks for your support.\pPlease come see me at home\nafter this.\pOh, yes, I don't live in RUSTBORO CITY.\nI live right here on this island.$","STEVEN: Whew, that was too tense.
+{PLAYER}{KUN}, thank you.
+[PAGE]
+I have something to give you as
+thanks for your support.
+[PAGE]
+Please come see me at home
+after this.
+[PAGE]
+Oh, yes, I don't live in RUSTBORO CITY.
+I live right here on this island.",ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซูมิ\nแต่อยู่บนเกาะนี้เอง$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,

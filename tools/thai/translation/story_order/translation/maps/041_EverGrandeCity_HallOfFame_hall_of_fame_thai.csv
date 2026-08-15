@@ -1,0 +1,13 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_620c88648d5b14e6,260,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,หอเกียรติยศ,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,1,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,81,EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions,WALLACE: This room…\pThis is where we keep records of\nPOKéMON that prevailed through\lharsh battles.\pIt is here that the LEAGUE CHAMPIONS\nare honored.$,"WALLACE: This room…
+[PAGE]
+This is where we keep records of
+POKéMON that prevailed through
+harsh battles.
+[PAGE]
+It is here that the LEAGUE CHAMPIONS
+are honored.",มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,
+dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,หอเกียรติยศ,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
+name as a TRAINER who triumphed over
+the POKéMON LEAGUE, and the names of
+the partners who battled with you.",มิคุริ: มาเถอะ เราจะบันทึกชื่อ\nของเธอในฐานะเทรนเนอร์ผู้พิชิต\lโปเกมอนลีก และชื่อของเหล่าคู่หู\lที่ร่วมต่อสู้เคียงข้างเธอ$,draft_review,\n | \l | \l,,high,high,high,ok,ok,

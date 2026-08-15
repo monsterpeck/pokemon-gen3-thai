@@ -20,7 +20,7 @@ a TRAINER already.
 [PAGE]
 Here, {PLAYER}{KUN}, I ordered this for my
 research, but I think you should have
-this POKéDEX.",,untranslated,{PLAYER} | {KUN} | \p | {RIVAL} | \n | \p | {RIVAL} | \nf | \p | {RIVAL} | \na | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER} | {RIVAL} | {RIVAL} | {RIVAL} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+this POKéDEX.",,untranslated,{PLAYER} | {KUN} | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER} | {RIVAL} | {RIVAL} | {RIVAL} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_dacb535b10f34d0d,28,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,744,LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex,"PROF. BIRCH: The POKéDEX is a high-tech\ntool that automatically makes a record\lof any POKéMON you meet or catch.\pMy kid, {RIVAL}, goes everywhere\nwith it.\pWhenever my kid catches a rare POKéMON\nand records its data in the POKéDEX,\lwhy, {RIVAL} looks for me while I'm out\ldoing fieldwork, and shows me.$","PROF. BIRCH: The POKéDEX is a high-tech
 tool that automatically makes a record
 of any POKéMON you meet or catch.
@@ -31,5 +31,5 @@ with it.
 Whenever my kid catches a rare POKéMON
 and records its data in the POKéDEX,
 why, {RIVAL} looks for me while I'm out
-doing fieldwork, and shows me.",,untranslated,\n | \l | \p | {RIVAL} | \n | \p | \na | \l | {RIVAL} | \ld,{RIVAL} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,
+doing fieldwork, and shows me.",,untranslated,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a1f8f8a1ea390b2a,29,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,4,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,741,LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex,{PLAYER} received the POKéDEX!$,{PLAYER} received the POKéDEX!,,untranslated,{PLAYER},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

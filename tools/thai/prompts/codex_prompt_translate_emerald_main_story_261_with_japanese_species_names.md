@@ -3,7 +3,7 @@
 Workspace:
 
 ```text
-/home/luffy/dev/projects/pokeemerald
+/home/luffy/dev/projects/pokeemerald-phaseB-main-story-translation
 ```
 
 ```text
@@ -37,7 +37,7 @@ Do not commit automatically.
 
 WORKSPACE
 
-/home/luffy/dev/projects/pokeemerald
+/home/luffy/dev/projects/pokeemerald-phaseB-main-story-translation
 
 SOURCE OF TRUTH
 

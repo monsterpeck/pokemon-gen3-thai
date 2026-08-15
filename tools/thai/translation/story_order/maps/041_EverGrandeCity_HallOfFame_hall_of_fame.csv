@@ -6,7 +6,7 @@ POKéMON that prevailed through
 harsh battles.
 [PAGE]
 It is here that the LEAGUE CHAMPIONS
-are honored.",,untranslated,\p | \n | \l | \p | \na,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+are honored.",,untranslated,\p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
 name as a TRAINER who triumphed over
 the POKéMON LEAGUE, and the names of

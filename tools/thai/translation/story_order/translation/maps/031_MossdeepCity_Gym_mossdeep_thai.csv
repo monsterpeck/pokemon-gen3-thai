@@ -1,0 +1,26 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_45b733a3659fa52c,188,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,1,Tate,MossdeepCity_Gym_EventScript_TateAndLiza,data/maps/MossdeepCity_Gym/scripts.inc,591,MossdeepCity_Gym_Text_TateAndLizaPostBattle,"TATE: Looks like the bond between you\nand your POKéMON is far stronger than\lthe bond that we share as twins.\pLIZA: You will become even stronger!\nWe've battled you, so we know.$","TATE: Looks like the bond between you
+and your POKéMON is far stronger than
+the bond that we share as twins.
+[PAGE]
+LIZA: You will become even stronger!
+We've battled you, so we know.",ฟู: สายสัมพันธ์ระหว่างเธอกับโปเกมอน\nแข็งแกร่งกว่าสายสัมพันธ์ของ\lพวกเราฝาแฝดเสียอีก\pรัน: เธอจะแข็งแกร่งขึ้นอีกแน่นอน!\nเพราะได้สู้กัน เราจึงรู้$,draft_review,\n | \l | \p | \n,,high,high,high,ok,review_long_line,
+dlg_16583cf9036a06e6,189,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,2,,MossdeepCity_Gym_EventScript_TateAndLizaDefeated,data/maps/MossdeepCity_Gym/scripts.inc,567,MossdeepCity_Gym_Text_ReceivedMindBadge,{PLAYER} received the MIND BADGE\nfrom TATE and LIZA.$,"{PLAYER} received the MIND BADGE
+from TATE and LIZA.",{PLAYER} ได้รับมายด์แบดจ์\nจากฟูกับรัน$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_43359ec54091c550,190,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,3,,MossdeepCity_Gym_EventScript_TateAndLizaDefeated,data/maps/MossdeepCity_Gym/scripts.inc,571,MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis,"TATE: The MIND BADGE enhances the\nSP. ATK and SP. DEF of POKéMON.\pLIZA: It also lets you use the HM move\nDIVE outside of battle.\pTATE: You should also take this, too.$","TATE: The MIND BADGE enhances the
+SP. ATK and SP. DEF of POKéMON.
+[PAGE]
+LIZA: It also lets you use the HM move
+DIVE outside of battle.
+[PAGE]
+TATE: You should also take this, too.",ฟู: มายด์แบดจ์ช่วยเพิ่ม\nพลังโจมตีพิเศษและพลังป้องกันพิเศษของโปเกมอน\pรัน: และยังทำให้ใช้ท่า HM\nไดฟ์นอกการต่อสู้ได้\pฟู: รับสิ่งนี้ไปด้วยนะ$,draft_review,\n | \p | \n | \p,,high,high,high,ok,review_long_line,
+dlg_bf9f721d101df3f8,191,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,4,,MossdeepCity_Gym_EventScript_GiveCalmMind2,data/maps/MossdeepCity_Gym/scripts.inc,578,MossdeepCity_Gym_Text_ExplainCalmMind,TATE: That TM04 contains…\nLIZA: CALM MIND!\pTATE: It raises SP. ATK and…\nLIZA: It raises SP. DEF!\pTATE: It's a move that's perfect…\nLIZA: For PSYCHIC POKéMON!\p… … … … … …$,"TATE: That TM04 contains…
+LIZA: CALM MIND!
+[PAGE]
+TATE: It raises SP. ATK and…
+LIZA: It raises SP. DEF!
+[PAGE]
+TATE: It's a move that's perfect…
+LIZA: For PSYCHIC POKéMON!
+[PAGE]
+… … … … … …",ฟู: TM04 บรรจุท่า…\nรัน: เมโอมินด์!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,

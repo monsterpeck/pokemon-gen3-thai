@@ -1,0 +1,9 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_fe675caa94756773,140,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,1,,JaggedPass_EventScript_OpenMagmaHideout,data/maps/JaggedPass/scripts.inc,239,JaggedPass_Text_BoulderShakingInResponseToEmblem,Oh! This boulder is shaking in response\nto the MAGMA EMBLEM!$,"Oh! This boulder is shaking in response
+to the MAGMA EMBLEM!",โอ้! ก้อนหินนี้กำลังสั่นตอบสนอง\nต่อตราสัญลักษณ์แมกมา!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_d1feb2740067b7ae,141,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,2,,JaggedPass_EventScript_MagmaHideoutGuard,data/maps/JaggedPass/scripts.inc,222,JaggedPass_Text_GruntIntro,Wah!\nWhat are you doing here?\pWhat am I doing in a place like this?\pWhat business is it of yours?$,"Wah!
+What are you doing here?
+[PAGE]
+What am I doing in a place like this?
+[PAGE]
+What business is it of yours?",ว้าก!\nแกมาทำอะไรที่นี่?\pฉันมาทำอะไรในที่แบบนี้น่ะเหรอ?\pไม่ใช่ธุระอะไรของแก!$,draft_review,\n | \p | \p,,high,high,medium,ok,ok,

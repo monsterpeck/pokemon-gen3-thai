@@ -1,0 +1,497 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
+dlg_abc5b37215d62d43,197,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,6,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,402,MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro,It's too soon to be relieved!\nI'm up next!$,"It's too soon to be relieved!
+I'm up next!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_18051728da20cef1,198,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,7,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,410,MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro,I bet you want to take a break.\nBut I'm not about to let you do that!$,"I bet you want to take a break.
+But I'm not about to let you do that!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_63197315c2211581,199,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,8,,MossdeepCity_SpaceCenter_2F_EventScript_ScientistMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,361,MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel,Why would TEAM MAGMA want to steal\nour rocket fuel in the first place?$,"Why would TEAM MAGMA want to steal
+our rocket fuel in the first place?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ff6b7727bf98e870,200,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,9,,MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,371,MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis,"If TEAM MAGMA takes the rocket fuel,\nI won't be able to go to space!\pThey can't be allowed to get away\nwith such an outrage!$","If TEAM MAGMA takes the rocket fuel,
+I won't be able to go to space!
+[PAGE]
+They can't be allowed to get away
+with such an outrage!",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_33a9a5236748bb7b,201,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,10,,MossdeepCity_SpaceCenter_2F_EventScript_RichBoyMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,381,MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace,"TEAM MAGMA…\nDo they want to go to space, too?$","TEAM MAGMA…
+Do they want to go to space, too?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_9bb71a44ed8e9cc8,202,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,11,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Maxie,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,437,MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere,MAXIE: Clear out of the way!\nDon't you dare interfere!$,"MAXIE: Clear out of the way!
+Don't you dare interfere!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_fad0e7d043c9af8c,203,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,12,Steven,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,441,MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel,STEVEN: TEAM MAGMA…\pWhat's the point of stealing rocket\nfuel?$,"STEVEN: TEAM MAGMA…
+[PAGE]
+What's the point of stealing rocket
+fuel?",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_220e2ebc787a03bc,204,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,13,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,446,MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano,"MAXIE: Fufufu… Since you're so\ncurious, you deserve an explanation.\pWe're going to jettison the entire\nload into MT. CHIMNEY!\pWith GROUDON gone, we have no need\nfor that slag heap of a mountain!\pSo we'll use the fuel's power to make\nthe volcano erupt!\pIt will be savage!$","MAXIE: Fufufu… Since you're so
+curious, you deserve an explanation.
+[PAGE]
+We're going to jettison the entire
+load into MT. CHIMNEY!
+[PAGE]
+With GROUDON gone, we have no need
+for that slag heap of a mountain!
+[PAGE]
+So we'll use the fuel's power to make
+the volcano erupt!
+[PAGE]
+It will be savage!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_104f959b73f4cfdb,205,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,14,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,474,MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided,"MAXIE: We failed to make the volcano\nerupt…\pWe failed to control GROUDON after\nwe had awoken it…\pIs our goal to expand the land\nmisguided?\p… … … … … …\n… … … … … …\pIf…\nIf we, TEAM MAGMA, are wrong…\l… … … … … …\pThen might TEAM AQUA's goal to expand\nthe sea also be equally misguided?$","MAXIE: We failed to make the volcano
+erupt…
+[PAGE]
+We failed to control GROUDON after
+we had awoken it…
+[PAGE]
+Is our goal to expand the land
+misguided?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+If…
+If we, TEAM MAGMA, are wrong…
+… … … … … …
+[PAGE]
+Then might TEAM AQUA's goal to expand
+the sea also be equally misguided?",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_1d1b84c3dd049a67,206,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,15,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,489,MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp,MAXIE: All right…\nWe will give up on the fuel…\pThere appear to be more important\nmatters that I must examine…$,"MAXIE: All right…
+We will give up on the fuel…
+[PAGE]
+There appear to be more important
+matters that I must examine…",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_63d0a5b1cfa2160d,207,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,16,Steven,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,495,MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome,"STEVEN: Whew, that was too tense.\n{PLAYER}{KUN}, thank you.\pI have something to give you as\nthanks for your support.\pPlease come see me at home\nafter this.\pOh, yes, I don't live in RUSTBORO CITY.\nI live right here on this island.$","STEVEN: Whew, that was too tense.
+{PLAYER}{KUN}, thank you.
+[PAGE]
+I have something to give you as
+thanks for your support.
+[PAGE]
+Please come see me at home
+after this.
+[PAGE]
+Oh, yes, I don't live in RUSTBORO CITY.
+I live right here on this island.",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_56c225a224c38318,208,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,1,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,217,SeafloorCavern_Room9_Text_ArchieHoldItRightThere,ARCHIE: Hold it right there.$,ARCHIE: Hold it right there.,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e21be4ce24181c9d,209,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,2,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,220,SeafloorCavern_Room9_Text_ArchieSoItWasYou,"ARCHIE: Fufufu…\nSo it was you, after all.$","ARCHIE: Fufufu…
+So it was you, after all.",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_672712da70f8720a,210,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,3,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,224,SeafloorCavern_Room9_Text_ArchieBeholdKyogre,"ARCHIE: Behold!\pSee how beautiful it is, the sleeping\nform of the ancient POKéMON KYOGRE!\pI have waited so long for this day to\ncome…$","ARCHIE: Behold!
+[PAGE]
+See how beautiful it is, the sleeping
+form of the ancient POKéMON KYOGRE!
+[PAGE]
+I have waited so long for this day to
+come…",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_904db249c77a5fb4,211,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,4,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,231,SeafloorCavern_Room9_Text_ArchieYouMustDisappear,"ARCHIE: It surprises me, how you've\nmanaged to chase me here.\pBut that's all over now.\pFor the realization of my dream,\nyou must disappear now!$","ARCHIE: It surprises me, how you've
+managed to chase me here.
+[PAGE]
+But that's all over now.
+[PAGE]
+For the realization of my dream,
+you must disappear now!",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5b8c8d67abbc38ae,212,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,5,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,242,SeafloorCavern_Room9_Text_ArchieWithThisRedOrb,"ARCHIE: Fufufu…\pI commend you. I must recognize that\nyou are truly gifted.\pBut!\nI have this in my possession!\pWith this RED ORB, I can make KYOGRE…$","ARCHIE: Fufufu…
+[PAGE]
+I commend you. I must recognize that
+you are truly gifted.
+[PAGE]
+But!
+I have this in my possession!
+[PAGE]
+With this RED ORB, I can make KYOGRE…",,untranslated,\p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_30a432ed17b0bf86,213,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,6,,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,250,SeafloorCavern_Room9_Text_RedOrbShinesByItself,The RED ORB suddenly began shining\nby itself!$,"The RED ORB suddenly began shining
+by itself!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5e4dc15ea2604bc6,214,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,7,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,254,SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo,ARCHIE: What?!\pI didn't do anything.\nWhy did the RED ORB…\pWhere did KYOGRE go?$,"ARCHIE: What?!
+[PAGE]
+I didn't do anything.
+Why did the RED ORB…
+[PAGE]
+Where did KYOGRE go?",,untranslated,\p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_42f4426fdf01c018,215,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,8,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,260,SeafloorCavern_Room9_Text_ArchieAMessageFromOutside,ARCHIE: Hm? It's a message from our\nmembers outside…$,"ARCHIE: Hm? It's a message from our
+members outside…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_50cdd92ec4d3dc51,216,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,9,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,264,SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard,"ARCHIE: Yes, what is it?\pHm…\nIt's raining heavily?\pGood… That should have happened.\nThat is why we awakened KYOGRE,\lto realize TEAM AQUA's vision of\lexpanding the sea.\pWhat?!\pIt's raining far harder than we\nenvisioned? You're in danger?\pThat can't be…\nThat's just not possible…\pHold your position and monitor\nthe situation!$","ARCHIE: Yes, what is it?
+[PAGE]
+Hm…
+It's raining heavily?
+[PAGE]
+Good… That should have happened.
+That is why we awakened KYOGRE,
+to realize TEAM AQUA's vision of
+expanding the sea.
+[PAGE]
+What?!
+[PAGE]
+It's raining far harder than we
+envisioned? You're in danger?
+[PAGE]
+That can't be…
+That's just not possible…
+[PAGE]
+Hold your position and monitor
+the situation!",,untranslated,\p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_57e3edbafd739069,217,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,10,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,280,SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear,ARCHIE: There's something wrong…\pThe RED ORB is supposed to awaken\nand control KYOGRE…\pBut… Why?\nWhy did KYOGRE disappear?\pWhy?!$,"ARCHIE: There's something wrong…
+[PAGE]
+The RED ORB is supposed to awaken
+and control KYOGRE…
+[PAGE]
+But… Why?
+Why did KYOGRE disappear?
+[PAGE]
+Why?!",,untranslated,\p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b1b9bedf4bbb9835,218,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,11,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,288,SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought,"MAXIE: What have you wrought?\pARCHIE… You've finally awoken KYOGRE,\nhaven't you?\pWhat will happen to the world if this\ndownpour continues for all eternity?\pThe world's landmass will drown in\nthe deepening sea…$","MAXIE: What have you wrought?
+[PAGE]
+ARCHIE… You've finally awoken KYOGRE,
+haven't you?
+[PAGE]
+What will happen to the world if this
+downpour continues for all eternity?
+[PAGE]
+The world's landmass will drown in
+the deepening sea…",,untranslated,\p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b9b9dc0d0d6b7eb0,219,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,12,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,297,SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty,"ARCHIE: W-what?!\nDon't get all high and mighty with me!\pWasn't it you, TEAM MAGMA, that\ninfuriated GROUDON?\pSo long as I have this RED ORB,\nI should be able to control KYOGRE…\pI should be able to control it…$","ARCHIE: W-what?!
+Don't get all high and mighty with me!
+[PAGE]
+Wasn't it you, TEAM MAGMA, that
+infuriated GROUDON?
+[PAGE]
+So long as I have this RED ORB,
+I should be able to control KYOGRE…
+[PAGE]
+I should be able to control it…",,untranslated,\n | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_881182be07580274,220,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,13,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,306,SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue,MAXIE: We don't have the time to\nargue about it here!\pGet outside and see for yourself!\pSee if what you've wrought is the\nworld that we desired!$,"MAXIE: We don't have the time to
+argue about it here!
+[PAGE]
+Get outside and see for yourself!
+[PAGE]
+See if what you've wrought is the
+world that we desired!",,untranslated,\n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_648adc974a14e68d,221,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,14,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,313,SeafloorCavern_Room9_Text_MaxieComeOnPlayer,"MAXIE: {PLAYER}, come on, you have\nto get out of here, too!$","MAXIE: {PLAYER}, come on, you have
+to get out of here, too!",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a9cd459000662ef7,222,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,1,,SootopolisCity_EventScript_Steven,data/maps/SootopolisCity/scripts.inc,1650,SootopolisCity_Text_SoThatsRayquaza,STEVEN: So that's RAYQUAZA…\pIt's incredible how the two rampaging\nPOKéMON would flee from it in fear…$,"STEVEN: So that's RAYQUAZA…
+[PAGE]
+It's incredible how the two rampaging
+POKéMON would flee from it in fear…",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5fe249944b18d8de,223,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,2,,SootopolisCity_EventScript_StevenHelpWallace,data/maps/SootopolisCity/scripts.inc,1641,SootopolisCity_Text_KnowWhatsNeededToHelpHim,STEVEN: I think you have what's\nneeded to help him…$,"STEVEN: I think you have what's
+needed to help him…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,3,Archie,SootopolisCity_EventScript_StevenMaxieArchieLeft,data/maps/SootopolisCity/scripts.inc,1655,SootopolisCity_Text_MaxieArchieLeft,STEVEN: It looks like both MAXIE and\nARCHIE have gone away somewhere.\pPerhaps they've gone to MT. PYRE to\nreturn those ORBS…$,"STEVEN: It looks like both MAXIE and
+ARCHIE have gone away somewhere.
+[PAGE]
+Perhaps they've gone to MT. PYRE to
+return those ORBS…",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
+[PAGE]
+I've never been there.
+I wonder where it could be?",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2eb7f1b6277a7dc5,226,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,5,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1610,SootopolisCity_Text_InvolvedWithCrisisComeWithMe,"STEVEN: Those POKéMON fighting…\nGROUDON… And KYOGRE…\pThe two super-ancient POKéMON\nwere awakened from a long sleep…\pAnd now they are smashing each other\nwith their uncontrollable energy…\p…{PLAYER}{KUN}.\pYou being here now I'll take to mean\nthat you're prepared to become\linvolved in this crisis.\pWell, then, there's someone that\nI'd like you to meet.\pCome with me, please.$","STEVEN: Those POKéMON fighting…
+GROUDON… And KYOGRE…
+[PAGE]
+The two super-ancient POKéMON
+were awakened from a long sleep…
+[PAGE]
+And now they are smashing each other
+with their uncontrollable energy…
+[PAGE]
+…{PLAYER}{KUN}.
+[PAGE]
+You being here now I'll take to mean
+that you're prepared to become
+involved in this crisis.
+[PAGE]
+Well, then, there's someone that
+I'd like you to meet.
+[PAGE]
+Come with me, please.",,untranslated,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
+[PAGE]
+Does seeing GROUDON and KYOGRE make
+you think POKéMON are to be feared?
+[PAGE]
+But that's not true.
+POKéMON are really more…
+[PAGE]
+…Why am I asking you this?
+You already know.",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d0a9580f9bb5ec14,228,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,7,Wallace,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1634,SootopolisCity_Text_HereWereAreHelpWallace,"STEVEN: Okay, here we are!\pInside here you'll find someone named\nWALLACE.\pI think you have what's needed to\nhelp him…$","STEVEN: Okay, here we are!
+[PAGE]
+Inside here you'll find someone named
+WALLACE.
+[PAGE]
+I think you have what's needed to
+help him…",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_62cd9667f8720313,229,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,1,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,141,SkyPillar_Outside_Text_OpenedDoorToSkyPillar,"WALLACE: Oh, my, I'm terribly sorry!\pIn my haste, I didn't notice that\nI'd left you behind!\pI've opened the locked door of\nthe SKY PILLAR.\p{PLAYER}{KUN}, let's be on our way!$","WALLACE: Oh, my, I'm terribly sorry!
+[PAGE]
+In my haste, I didn't notice that
+I'd left you behind!
+[PAGE]
+I've opened the locked door of
+the SKY PILLAR.
+[PAGE]
+{PLAYER}{KUN}, let's be on our way!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_5ed157f43a6632fb,230,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,2,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,149,SkyPillar_Outside_Text_EarthquakeNotMomentToWaste,WALLACE: It's an earthquake!\pThere's not a moment to waste!\nWe've got to hurry!$,"WALLACE: It's an earthquake!
+[PAGE]
+There's not a moment to waste!
+We've got to hurry!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_847ea0c983f7e391,231,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,3,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,154,SkyPillar_Outside_Text_SituationGettingWorse,WALLACE: Hmm…\nThe situation is getting worse…$,"WALLACE: Hmm…
+The situation is getting worse…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7ff2392c13cba811,232,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,4,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,158,SkyPillar_Outside_Text_GotToGoBackForSootopolis,WALLACE: This isn't good…\pThe weather distortion is spreading\neven here…\p{PLAYER}{KUN}.\pRAYQUAZA should be farther up\nfrom here.\pI'm worried about SOOTOPOLIS.\nI've got to go back.\pEverything is in your hands now.\nDon't fail us!$,"WALLACE: This isn't good…
+[PAGE]
+The weather distortion is spreading
+even here…
+[PAGE]
+{PLAYER}{KUN}.
+[PAGE]
+RAYQUAZA should be farther up
+from here.
+[PAGE]
+I'm worried about SOOTOPOLIS.
+I've got to go back.
+[PAGE]
+Everything is in your hands now.
+Don't fail us!",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6b211e62d63b8b92,233,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,5,,SkyPillar_Top_EventScript_AwakenRayquaza,data/maps/SkyPillar_Top/scripts.inc,179,SkyPillar_Top_Text_RayquazaFlewOff,The awakened RAYQUAZA flew off…$,The awakened RAYQUAZA flew off…,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_c535707ea4269a80,234,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,1,,SootopolisCity_EventScript_MaxieRayquaza,data/maps/SootopolisCity/scripts.inc,1580,SootopolisCity_Text_AfterAllOurScheming,"MAXIE: So the super-ancient POKéMON\nweren't only GROUDON and KYOGRE…\pAfter all our fruitless scheming and\nfrantic efforts, that one POKéMON's\lsimple action puts everything right\lagain as if nothing had happened…\pFu…\nFuhahaha…$","MAXIE: So the super-ancient POKéMON
+weren't only GROUDON and KYOGRE…
+[PAGE]
+After all our fruitless scheming and
+frantic efforts, that one POKéMON's
+simple action puts everything right
+again as if nothing had happened…
+[PAGE]
+Fu…
+Fuhahaha…",,untranslated,\n | \p | \n | \l | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_6e265d07775a618e,235,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,2,,SootopolisCity_EventScript_ArchieRayquaza,data/maps/SootopolisCity/scripts.inc,1599,SootopolisCity_Text_TryingMeaninglessToPokemon,"ARCHIE: KYOGRE and GROUDON both\nflew off to who knows where.\pThe weather in HOENN has returned\nto its normal state…\pHaha…\nHahaha…\pMaybe what we were trying to do was\nsomething small, even meaningless,\lto POKéMON…$","ARCHIE: KYOGRE and GROUDON both
+flew off to who knows where.
+[PAGE]
+The weather in HOENN has returned
+to its normal state…
+[PAGE]
+Haha…
+Hahaha…
+[PAGE]
+Maybe what we were trying to do was
+something small, even meaningless,
+to POKéMON…",,untranslated,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2d66888f162fdf06,236,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,1,Juan,SootopolisCity_Gym_1F_EventScript_Juan,data/maps/SootopolisCity_Gym_1F/scripts.inc,259,SootopolisCity_Gym_1F_Text_JuanPostBattle,"The TRAINERS who have gathered all\nthe GYM BADGES of HOENN should make\lway to the ultimate destination.\pThe POKéMON LEAGUE.\pTravel to the easternmost reaches\nof HOENN, to the island EVER GRANDE.\pThere, you shall find the POKéMON\nLEAGUE.$","The TRAINERS who have gathered all
+the GYM BADGES of HOENN should make
+way to the ultimate destination.
+[PAGE]
+The POKéMON LEAGUE.
+[PAGE]
+Travel to the easternmost reaches
+of HOENN, to the island EVER GRANDE.
+[PAGE]
+There, you shall find the POKéMON
+LEAGUE.",,untranslated,\n | \l | \p | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e4617a5d97c17e89,237,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,2,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,234,SootopolisCity_Gym_1F_Text_ReceivedRainBadge,{PLAYER} received the RAIN BADGE\nfrom JUAN.$,"{PLAYER} received the RAIN BADGE
+from JUAN.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_04c38272168a6c08,238,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,3,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,238,SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis,"Having the RAIN BADGE shall assure you\nthe full obedience of all your POKéMON\lto your every command.\pThe RAIN BADGE also allows the use\nof the HM move WATERFALL to scale\lwalls of cascading water.\pAnd, so that you never forget the\nbattle we shared, take this…$","Having the RAIN BADGE shall assure you
+the full obedience of all your POKéMON
+to your every command.
+[PAGE]
+The RAIN BADGE also allows the use
+of the HM move WATERFALL to scale
+walls of cascading water.
+[PAGE]
+And, so that you never forget the
+battle we shared, take this…",,untranslated,\n | \l | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_b78ca7c65ffc780f,239,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,4,,SootopolisCity_Gym_1F_EventScript_GiveWaterPulse,data/maps/SootopolisCity_Gym_1F/scripts.inc,248,SootopolisCity_Gym_1F_Text_ExplainWaterPulse,"The TECHNICAL MACHINE I handed you\ncontains WATER PULSE.\pIn use, it will occasionally confuse\nthe target with ultrasonic waves.\p… … … … … …$","The TECHNICAL MACHINE I handed you
+contains WATER PULSE.
+[PAGE]
+In use, it will occasionally confuse
+the target with ultrasonic waves.
+[PAGE]
+… … … … … …",,untranslated,\n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dd46d9c50f26106a,240,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,5,,SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge,data/maps/SootopolisCity_Gym_1F/scripts.inc,269,SootopolisCity_Gym_1F_Text_GoGetFortreeBadge,"There remains but one BADGE to\nobtain in HOENN.\pIf you wish to challenge the POKéMON\nLEAGUE, you must obtain the last\lBADGE from the GYM in FORTREE.$","There remains but one BADGE to
+obtain in HOENN.
+[PAGE]
+If you wish to challenge the POKéMON
+LEAGUE, you must obtain the last
+BADGE from the GYM in FORTREE.",,untranslated,\n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ae26a5585d0e39c3,241,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,1,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,120,VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore,"WALLY: Hi! {PLAYER}!\pI bet you're surprised to see me here!\pI made it all the way here, and it's\nall thanks to you!\p{PLAYER}, losing to you that time\nmade me stronger!\pBut I'm not going to lose anymore!\pI'm going to win! For the POKéMON who\ngave me courage and strength!\pOkay… Here I come!$","WALLY: Hi! {PLAYER}!
+[PAGE]
+I bet you're surprised to see me here!
+[PAGE]
+I made it all the way here, and it's
+all thanks to you!
+[PAGE]
+{PLAYER}, losing to you that time
+made me stronger!
+[PAGE]
+But I'm not going to lose anymore!
+[PAGE]
+I'm going to win! For the POKéMON who
+gave me courage and strength!
+[PAGE]
+Okay… Here I come!",,untranslated,{PLAYER} | \p | \p | \n | \p | {PLAYER} | \n | \p | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2c3eb5a86574bda7,242,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,2,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,136,VictoryRoad_1F_Text_WallyPostEntranceBattle,"WALLY: I couldn't beat you today,\n{PLAYER}, but one of these days, I'll\lcatch up to you!$","WALLY: I couldn't beat you today,
+{PLAYER}, but one of these days, I'll
+catch up to you!",,untranslated,\n | {PLAYER} | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_166dd7131ed8aba5,243,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,1,,EverGrandeCity_DrakesRoom_EventScript_Drake,data/maps/EverGrandeCity_DrakesRoom/scripts.inc,63,EverGrandeCity_DrakesRoom_Text_IntroSpeech,"I am the last of the POKéMON LEAGUE\nELITE FOUR, DRAKE the DRAGON master!\pIn their natural state, POKéMON are\nwild living things. They are free.\pAt times, they hinder us.\nAt times, they help us.\pFor us to battle with POKéMON as\npartners, do you know what it takes?\pDo you know what is needed?\pIf you don't, then you will never\nprevail over me!$","I am the last of the POKéMON LEAGUE
+ELITE FOUR, DRAKE the DRAGON master!
+[PAGE]
+In their natural state, POKéMON are
+wild living things. They are free.
+[PAGE]
+At times, they hinder us.
+At times, they help us.
+[PAGE]
+For us to battle with POKéMON as
+partners, do you know what it takes?
+[PAGE]
+Do you know what is needed?
+[PAGE]
+If you don't, then you will never
+prevail over me!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_27801ee152f487cf,244,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,2,,EverGrandeCity_GlaciasRoom_EventScript_Glacia,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc,60,EverGrandeCity_GlaciasRoom_Text_IntroSpeech,"Welcome, my name is GLACIA\nof the ELITE FOUR.\pI've traveled from afar to HOENN\nso that I may hone my ice skills.\pBut all I have seen are challenges by\nweak TRAINERS and their POKéMON.\pWhat about you?\pIt would please me to no end if I could\ngo all out against you!$","Welcome, my name is GLACIA
+of the ELITE FOUR.
+[PAGE]
+I've traveled from afar to HOENN
+so that I may hone my ice skills.
+[PAGE]
+But all I have seen are challenges by
+weak TRAINERS and their POKéMON.
+[PAGE]
+What about you?
+[PAGE]
+It would please me to no end if I could
+go all out against you!",,untranslated,\n | \p | \n | \p | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3e4d602d030fbda7,245,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,3,,EverGrandeCity_PhoebesRoom_EventScript_Phoebe,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc,60,EverGrandeCity_PhoebesRoom_Text_IntroSpeech,"Ahahaha!\pI'm PHOEBE of the ELITE FOUR.\nI did my training on MT. PYRE.\pWhile I trained, I gained the ability\nto commune with GHOST-type POKéMON.\pYes, the bond I developed with POKéMON\nis extremely tight.\pSo, come on, just try and see if you can\neven inflict damage on my POKéMON!$","Ahahaha!
+[PAGE]
+I'm PHOEBE of the ELITE FOUR.
+I did my training on MT. PYRE.
+[PAGE]
+While I trained, I gained the ability
+to commune with GHOST-type POKéMON.
+[PAGE]
+Yes, the bond I developed with POKéMON
+is extremely tight.
+[PAGE]
+So, come on, just try and see if you can
+even inflict damage on my POKéMON!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_eb6ec0975494eabc,246,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,4,,EverGrandeCity_SidneysRoom_EventScript_Sidney,data/maps/EverGrandeCity_SidneysRoom/scripts.inc,66,EverGrandeCity_SidneysRoom_Text_IntroSpeech,"Welcome, challenger!\nI'm SIDNEY of the ELITE FOUR.\pI like that look you're giving me.\nI guess you'll give me a good match.\lThat's good! Looking real good!\pAll right! You and me, let's enjoy\na battle that can only be staged\lhere in the POKéMON LEAGUE!$","Welcome, challenger!
+I'm SIDNEY of the ELITE FOUR.
+[PAGE]
+I like that look you're giving me.
+I guess you'll give me a good match.
+That's good! Looking real good!
+[PAGE]
+All right! You and me, let's enjoy
+a battle that can only be staged
+here in the POKéMON LEAGUE!",,untranslated,\n | \p | \n | \l | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2ebe47d3ac14fd8e,247,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,1,,EverGrandeCity_ChampionsRoom_EventScript_Wallace,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,221,EverGrandeCity_ChampionsRoom_Text_IntroSpeech,"WALLACE: Welcome, {PLAYER}{KUN}.\pThat incident in SOOTOPOLIS CITY…\nThat was superb work, putting an end\lto that crisis all by yourself.\pOops!\pIt wouldn't be fair to say that you\nalone ended the crisis.\pYou overcame that difficult situation\nby working as one with your POKéMON.\pWe TRAINERS raise POKéMON by giving\nthem items and by teaching them new\ltechniques for battle.\pBut we ourselves also learn many\nthings from POKéMON.\pAnd this is where your achievements\nare put to the test against what\lothers like you have achieved.\pNow!\pWho can most elegantly dance with\ntheir POKéMON in HOENN?\pShow me right here and now!$","WALLACE: Welcome, {PLAYER}{KUN}.
+[PAGE]
+That incident in SOOTOPOLIS CITY…
+That was superb work, putting an end
+to that crisis all by yourself.
+[PAGE]
+Oops!
+[PAGE]
+It wouldn't be fair to say that you
+alone ended the crisis.
+[PAGE]
+You overcame that difficult situation
+by working as one with your POKéMON.
+[PAGE]
+We TRAINERS raise POKéMON by giving
+them items and by teaching them new
+techniques for battle.
+[PAGE]
+But we ourselves also learn many
+things from POKéMON.
+[PAGE]
+And this is where your achievements
+are put to the test against what
+others like you have achieved.
+[PAGE]
+Now!
+[PAGE]
+Who can most elegantly dance with
+their POKéMON in HOENN?
+[PAGE]
+Show me right here and now!",,untranslated,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
+[PAGE]
+Here's some advice before you challenge
+the CHAMPION…",,untranslated,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7998d023049f109f,249,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,3,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,273,EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver,"MAY: Huh?\nWhat, what, what?\p{PLAYER}{KUN}…\nCould it be that…\lIt's already over?$","MAY: Huh?
+What, what, what?
+[PAGE]
+{PLAYER}{KUN}…
+Could it be that…
+It's already over?",,untranslated,\n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_002edf666920d96c,250,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,4,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,280,EverGrandeCity_ChampionsRoom_Text_BrendanAdvice,BRENDAN: {PLAYER}!\pHow would you like some advice before\nyou challenge the CHAMPION?…$,"BRENDAN: {PLAYER}!
+[PAGE]
+How would you like some advice before
+you challenge the CHAMPION?…",,untranslated,{PLAYER} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_2354d73bb4e62974,251,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,5,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,285,EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon,BRENDAN: {PLAYER}…\pAre you trying to tell me…\nYou've beaten the CHAMPION?$,"BRENDAN: {PLAYER}…
+[PAGE]
+Are you trying to tell me…
+You've beaten the CHAMPION?",,untranslated,{PLAYER} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_81ca23e1fc2c226a,252,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,6,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,290,EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex,"PROF. BIRCH: See?\nWhat did I tell you, {RIVAL}?\pDidn't I tell you that you don't need\nto worry about {PLAYER}{KUN}?\p… … … … … … … …\n{PLAYER}{KUN}, you've finally done it.\pWhen I heard that you defeated your\nown father at the PETALBURG GYM,\lI thought perhaps you had a chance…\pBut to think you've actually become\nthe CHAMPION!\pAh, yes!\pWhat became of your POKéDEX?\nHere, let me see.$","PROF. BIRCH: See?
+What did I tell you, {RIVAL}?
+[PAGE]
+Didn't I tell you that you don't need
+to worry about {PLAYER}{KUN}?
+[PAGE]
+… … … … … … … …
+{PLAYER}{KUN}, you've finally done it.
+[PAGE]
+When I heard that you defeated your
+own father at the PETALBURG GYM,
+I thought perhaps you had a chance…
+[PAGE]
+But to think you've actually become
+the CHAMPION!
+[PAGE]
+Ah, yes!
+[PAGE]
+What became of your POKéDEX?
+Here, let me see.",,untranslated,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dd762debedb89c77,253,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,7,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,306,EverGrandeCity_ChampionsRoom_Text_BirchCongratulations,"PROF. BIRCH: Anyways,\ncongratulations!\pNow, go proudly into the final room!$","PROF. BIRCH: Anyways,
+congratulations!
+[PAGE]
+Now, go proudly into the final room!",,untranslated,\n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_e48bce6d96070af2,254,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,8,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,311,EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe,"WALLACE: {PLAYER}{KUN}…\pNo, let me rephrase that properly.\pThe new CHAMPION!\pCome with me.$","WALLACE: {PLAYER}{KUN}…
+[PAGE]
+No, let me rephrase that properly.
+[PAGE]
+The new CHAMPION!
+[PAGE]
+Come with me.",,untranslated,{PLAYER} | {KUN} | \p | \p | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_44055334f4fe10fa,255,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,9,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,317,EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside,"WALLACE: I'm sorry, but…\pFrom here on, only those TRAINERS who\nhave become CHAMPIONS may enter.\pYou'll have to wait outside with\nPROF. BIRCH.$","WALLACE: I'm sorry, but…
+[PAGE]
+From here on, only those TRAINERS who
+have become CHAMPIONS may enter.
+[PAGE]
+You'll have to wait outside with
+PROF. BIRCH.",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_ba212f09bd9a9718,256,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,10,May,EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,324,EverGrandeCity_ChampionsRoom_Text_MayCongratulations,"MAY: Groan…\p… … … … … … … …\n… … … … … … … …\pI'm just joking! That's okay!\nThat's the rule!\p{PLAYER}{KUN}!\nHonestly, congratulations!$","MAY: Groan…
+[PAGE]
+… … … … … … … …
+… … … … … … … …
+[PAGE]
+I'm just joking! That's okay!
+That's the rule!
+[PAGE]
+{PLAYER}{KUN}!
+Honestly, congratulations!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_d3aa53241d06684c,257,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,11,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,333,EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations,"BRENDAN: Whaaaat?! … … … … …\n… … … … … … … …\pIt can't be helped if that's the rule.\p{PLAYER}, way to go!\nCongratulations!$","BRENDAN: Whaaaat?! … … … … …
+… … … … … … … …
+[PAGE]
+It can't be helped if that's the rule.
+[PAGE]
+{PLAYER}, way to go!
+Congratulations!",,untranslated,\n | \p | \p | {PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_7696ddbcad4cdaca,258,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,12,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,9,gBirchDexRatingText_SoYouveSeenAndCaught,"Hmhm…\pSo, you've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+[PAGE]
+So, you've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",,untranslated,\p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_dc0ce7c8455a31db,259,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,13,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,110,gBirchDexRatingText_OnANationwideBasis,"Hmhm…\nOn a nationwide basis…\pYou've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+On a nationwide basis…
+[PAGE]
+You've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",,untranslated,\n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_620c88648d5b14e6,260,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,1,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,81,EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions,WALLACE: This room…\pThis is where we keep records of\nPOKéMON that prevailed through\lharsh battles.\pIt is here that the LEAGUE CHAMPIONS\nare honored.$,"WALLACE: This room…
+[PAGE]
+This is where we keep records of
+POKéMON that prevailed through
+harsh battles.
+[PAGE]
+It is here that the LEAGUE CHAMPIONS
+are honored.",,untranslated,\p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
+name as a TRAINER who triumphed over
+the POKéMON LEAGUE, and the names of
+the partners who battled with you.",,untranslated,\n | \l | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

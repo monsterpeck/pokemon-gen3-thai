@@ -10,4 +10,4 @@ Go check it out, dear!
 [PAGE]
 DAD bought you a new clock to mark
 our move here.
-Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \pDA | \n | \lD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \p | \n | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

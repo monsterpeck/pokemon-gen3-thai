@@ -7,11 +7,11 @@ dlg_69bbf0b329ac7158,126,07,volcano,Fallarbor and Volcano,ฟอลลาร์�
 [PAGE]
 I don't know who you are, but if you get
 in the way of TEAM MAGMA, don't
-expect any mercy!",,untranslated,\p | \n | \le,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+expect any mercy!",,untranslated,\p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b1ce8521162aba50,127,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,3,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,244,MeteorFalls_1F_1R_Text_HoldItRightThereMagma,"Hold it right there, TEAM MAGMA!\pYou're badly mistaken if you think you\ncan have your way with the world!$","Hold it right there, TEAM MAGMA!
 [PAGE]
 You're badly mistaken if you think you
-can have your way with the world!",,untranslated,\p | \nca,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+can have your way with the world!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_c71a89510217f917,128,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,4,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,249,MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua,"Hehehe!\nEven TEAM AQUA joins us!\pBut it's too much trouble to deal with\nyou all…\pHeh, it doesn't matter!\pWe've got the METEORITE, so off to\nMT. CHIMNEY we go!\pHehehe! Be seeing you, you TEAM\nAQUA dingbats!$","Hehehe!
 Even TEAM AQUA joins us!
 [PAGE]
@@ -24,7 +24,7 @@ We've got the METEORITE, so off to
 MT. CHIMNEY we go!
 [PAGE]
 Hehehe! Be seeing you, you TEAM
-AQUA dingbats!",,untranslated,\nE | \pB | \n | \p | \p | \n | \p | \nA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+AQUA dingbats!",,untranslated,\n | \p | \n | \p | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e217e7b7f13bbeff,129,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,5,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,260,MeteorFalls_1F_1R_Text_ArchieSeenYouBefore,"ARCHIE: Didn't I see you before?\nAt SLATEPORT's MUSEUM?\pAh, so your name is {PLAYER}.\pAt the time, I thought you were one\nof TEAM MAGMA's goons.\pHumph…\nYou're one odd kid.\pTEAM MAGMA is a dangerous group of\ntotal fanatics.\pThey engage in destruction, claiming\nto expand the land mass.\pThey are the rivals to us,\nthe sea-loving TEAM AQUA!$","ARCHIE: Didn't I see you before?
 At SLATEPORT's MUSEUM?
 [PAGE]
@@ -43,7 +43,7 @@ They engage in destruction, claiming
 to expand the land mass.
 [PAGE]
 They are the rivals to us,
-the sea-loving TEAM AQUA!",,untranslated,\nA | \pA | {PLAYER} | \pA | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+the sea-loving TEAM AQUA!",,untranslated,\n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_ea4952bca9a7ff22,130,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,6,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,275,MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma,"BOSS, we should give chase to\nTEAM MAGMA…$","BOSS, we should give chase to
 TEAM MAGMA…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_de424b65d2ac84b8,131,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,7,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,279,MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo,"ARCHIE: Yes, yes, we must!\nWe've got to hurry.\pThere's no telling what TEAM MAGMA\nwill do at MT. CHIMNEY!$","ARCHIE: Yes, yes, we must!
@@ -54,4 +54,4 @@ will do at MT. CHIMNEY!",,untranslated,\n | \p | \n,,high,high,Resolved from a c
 dlg_620b24cda6ef26e8,132,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,8,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,285,MeteorFalls_1F_1R_Text_ArchieFarewell,"ARCHIE: {PLAYER}, you should keep\nan eye out for TEAM MAGMA, too.\pFarewell!$","ARCHIE: {PLAYER}, you should keep
 an eye out for TEAM MAGMA, too.
 [PAGE]
-Farewell!",,untranslated,{PLAYER} | \na | \pFa,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Farewell!",,untranslated,{PLAYER} | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

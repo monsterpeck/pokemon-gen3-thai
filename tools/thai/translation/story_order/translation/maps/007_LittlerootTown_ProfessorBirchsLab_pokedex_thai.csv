@@ -1,0 +1,35 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_68038fa36d7bdaf1,26,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,1,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,721,LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome,"PROF. BIRCH: {RIVAL}?\nGone home, I think.\pOr maybe that kid's scrabbling around\nin tall grass again somewhere…\pIf you or your POKéMON get tired,\nyou should get some rest at home.$","PROF. BIRCH: {RIVAL}?
+Gone home, I think.
+[PAGE]
+Or maybe that kid's scrabbling around
+in tall grass again somewhere…
+[PAGE]
+If you or your POKéMON get tired,
+you should get some rest at home.",ศ.เบิร์ช: {RIVAL} เหรอ?\nคงกลับบ้านไปแล้วละ\pหรือไม่ก็คงกำลังตะลุย\nพงหญ้าอยู่ที่ไหนสักแห่งอีก…\pถ้าเธอหรือโปเกมอนเหนื่อย\nก็กลับไปพักที่บ้านนะ$,draft_review,{RIVAL} | \n | \p | \n | \p | \n,{RIVAL},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_4a63ffe7b2d7349e,27,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,2,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,729,LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex,"PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\pI heard you beat {RIVAL} on\nyour first try. That's excellent!\p{RIVAL}'s been helping with my research\nfor a long time.\p{RIVAL} has an extensive history as\na TRAINER already.\pHere, {PLAYER}{KUN}, I ordered this for my\nresearch, but I think you should have\lthis POKéDEX.$","PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!
+[PAGE]
+I heard you beat {RIVAL} on
+your first try. That's excellent!
+[PAGE]
+{RIVAL}'s been helping with my research
+for a long time.
+[PAGE]
+{RIVAL} has an extensive history as
+a TRAINER already.
+[PAGE]
+Here, {PLAYER}{KUN}, I ordered this for my
+research, but I think you should have
+this POKéDEX.",ศ.เบิร์ช: อ้าว สวัสดี {PLAYER}{KUN}!\pได้ยินว่าเธอชนะ {RIVAL}\nได้ตั้งแต่ครั้งแรก ยอดเยี่ยมมาก!\p{RIVAL} ช่วยงานวิจัยของผม\nมานานแล้ว\p{RIVAL} เองก็มีประสบการณ์\nเป็นเทรนเนอร์มามากทีเดียว\pนี่ {PLAYER}{KUN} ผมสั่งสิ่งนี้มา\nเพื่อใช้ทำวิจัย แต่คิดว่าเธอ\lควรรับโปเกเด็กซ์นี้ไป$,draft_review,{PLAYER} | {KUN} | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER} | {RIVAL} | {RIVAL} | {RIVAL} | {PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_dacb535b10f34d0d,28,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,744,LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex,"PROF. BIRCH: The POKéDEX is a high-tech\ntool that automatically makes a record\lof any POKéMON you meet or catch.\pMy kid, {RIVAL}, goes everywhere\nwith it.\pWhenever my kid catches a rare POKéMON\nand records its data in the POKéDEX,\lwhy, {RIVAL} looks for me while I'm out\ldoing fieldwork, and shows me.$","PROF. BIRCH: The POKéDEX is a high-tech
+tool that automatically makes a record
+of any POKéMON you meet or catch.
+[PAGE]
+My kid, {RIVAL}, goes everywhere
+with it.
+[PAGE]
+Whenever my kid catches a rare POKéMON
+and records its data in the POKéDEX,
+why, {RIVAL} looks for me while I'm out
+doing fieldwork, and shows me.",ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอามาให้ดู$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_a1f8f8a1ea390b2a,29,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,4,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,741,LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex,{PLAYER} received the POKéDEX!$,{PLAYER} received the POKéDEX!,{PLAYER} ได้รับโปเกเด็กซ์!$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,

@@ -9,7 +9,7 @@ dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโป
 ARCHIE have gone away somewhere.
 [PAGE]
 Perhaps they've gone to MT. PYRE to
-return those ORBS…",,untranslated,\nA | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+return those ORBS…",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
 [PAGE]
 I've never been there.
@@ -32,7 +32,7 @@ involved in this crisis.
 Well, then, there's someone that
 I'd like you to meet.
 [PAGE]
-Come with me, please.",,untranslated,\n | \p | \n | \pA | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \pC,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Come with me, please.",,untranslated,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
 [PAGE]
 Does seeing GROUDON and KYOGRE make
@@ -42,7 +42,7 @@ But that's not true.
 POKéMON are really more…
 [PAGE]
 …Why am I asking you this?
-You already know.",,untranslated,{PLAYER} | {KUN} | \pD | \n | \pB | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+You already know.",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_d0a9580f9bb5ec14,228,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,,36,SootopolisCity,crisis,SootopolisCity,7,Wallace,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1634,SootopolisCity_Text_HereWereAreHelpWallace,"STEVEN: Okay, here we are!\pInside here you'll find someone named\nWALLACE.\pI think you have what's needed to\nhelp him…$","STEVEN: Okay, here we are!
 [PAGE]
 Inside here you'll find someone named

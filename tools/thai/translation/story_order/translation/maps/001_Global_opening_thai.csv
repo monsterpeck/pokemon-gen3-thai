@@ -1,0 +1,62 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_f05a5b388b38ad28,1,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,ศาสตราจารย์เบิร์ชแนะนำโลกโปเกมอน,1,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,1,gText_Birch_Welcome,Hi! Sorry to keep you waiting!\pWelcome to the world of POKéMON!\pMy name is BIRCH.\pBut everyone calls me the POKéMON\nPROFESSOR.\p$,"Hi! Sorry to keep you waiting!
+[PAGE]
+Welcome to the world of POKéMON!
+[PAGE]
+My name is BIRCH.
+[PAGE]
+But everyone calls me the POKéMON
+PROFESSOR.
+[PAGE]
+",สวัสดี! ขอโทษที่ให้รอนะ!\pยินดีต้อนรับสู่โลกของโปเกมอน!\pผมชื่อเบิร์ช\pแต่ทุกคนเรียกผมว่า\nศาสตราจารย์โปเกมอน\p$,draft_review,\p | \p | \p | \n | \p,,high,high,high,ok,ok,
+dlg_a0a50d7092ef23e5,2,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,ศาสตราจารย์เบิร์ชแนะนำโลกโปเกมอน,1,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,8,gText_Birch_Pokemon,This is what we call a “POKéMON.”\p\n$,"This is what we call a “POKéMON.”
+[PAGE]
+
+",สิ่งนี้เรียกว่า “โปเกมอน”\p\n$,draft_review,\p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_8413e20c18110096,3,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,ศาสตราจารย์เบิร์ชแนะนำโลกโปเกมอน,1,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,13,gText_Birch_MainSpeech,"This world is widely inhabited by\ncreatures known as POKéMON.\pWe humans live alongside POKéMON,\nat times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together\nand battle others like us.\pBut despite our closeness, we don't\nknow everything about POKéMON.\pIn fact, there are many, many\nsecrets surrounding POKéMON.\pTo unravel POKéMON mysteries,\nI've been undertaking research.\lThat's what I do.\p$","This world is widely inhabited by
+creatures known as POKéMON.
+[PAGE]
+We humans live alongside POKéMON,
+at times as friendly playmates, and
+at times as cooperative workmates.
+[PAGE]
+And sometimes, we band together
+and battle others like us.
+[PAGE]
+But despite our closeness, we don't
+know everything about POKéMON.
+[PAGE]
+In fact, there are many, many
+secrets surrounding POKéMON.
+[PAGE]
+To unravel POKéMON mysteries,
+I've been undertaking research.
+That's what I do.
+[PAGE]
+",โลกใบนี้มีสิ่งมีชีวิตที่เรียกว่า\nโปเกมอนอาศัยอยู่มากมาย\pมนุษย์เราใช้ชีวิตร่วมกับโปเกมอน\nบางครั้งก็เป็นเพื่อนเล่นที่สนิทสนม\lบางครั้งก็เป็นเพื่อนร่วมงานที่ช่วยเหลือกัน\pและบางครั้ง เราก็รวมพลังกัน\nต่อสู้กับกลุ่มอื่นเช่นเดียวกับเรา\pแต่แม้เราจะใกล้ชิดกันเพียงใด\nเราก็ยังไม่รู้ทุกอย่างเกี่ยวกับโปเกมอน\pที่จริงแล้ว โปเกมอนยังมีความลับ\nซ่อนอยู่อีกมากมายนัก\pผมจึงทำงานวิจัยเพื่อไข\nปริศนาของเหล่าโปเกมอน\lนี่แหละคืองานของผม\p$,draft_review,\n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_412f32d24928ff84,4,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,30,gText_Birch_AndYouAre,And you are?$,And you are?,แล้วเธอคือใครล่ะ?$,draft_review,,,high,high,high,ok,ok,
+dlg_008b1eacc20d2fa0,5,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,33,gText_Birch_BoyOrGirl,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?$,"{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?
+{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?",เธอเป็นเด็กผู้ชาย\nหรือเด็กผู้หญิงล่ะ?$,draft_review,{252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {29} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {15} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {6} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {39} | {0} | {0} | {244} | {6} | {1} | \n | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {21} | {1} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {58} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {12} | {0} | {0} | {244} | {4} | {1},,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_9ef890e3b20a3ebf,6,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,37,gText_Birch_WhatsYourName,All right.\nWhat's your name?$,"All right.
+What's your name?",เอาละ\nเธอชื่ออะไร?$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_531e30048ab5cfb4,7,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,4,Professor Birch,opening_sequence,data/text/birch_speech.inc,41,gText_Birch_SoItsPlayer,So it's {PLAYER}{KUN}?$,So it's {PLAYER}{KUN}?,ถ้าอย่างนั้น เธอคือ {PLAYER}{KUN} สินะ?$,draft_review,{PLAYER} | {KUN},{PLAYER},high,high,high,ok,ok,
+dlg_3d03c87c21475304,8,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,5,Professor Birch,opening_sequence,data/text/birch_speech.inc,44,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my\nhometown of LITTLEROOT.\lI get it now!\p$","Ah, okay!
+[PAGE]
+You're {PLAYER}{KUN} who's moving to my
+hometown of LITTLEROOT.
+I get it now!
+[PAGE]
+",อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองบ้านเกิดของผม ลิตเติลรูท\lตอนนี้เข้าใจแล้วละ!\p$,draft_review,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_745792a288a31bbd,9,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,6,Professor Birch,opening_sequence,data/text/birch_speech.inc,51,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
+[PAGE]
+Your very own adventure is about
+to unfold.
+[PAGE]
+Take courage, and leap into the
+world of POKéMON where dreams,
+adventure, and friendships await!
+[PAGE]
+Well, I'll be expecting you later.
+Come see me in my POKéMON LAB.
+[PAGE]
+",เอาละ พร้อมหรือยัง?\pการผจญภัยที่เป็นของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วผมจะรอพบเธอทีหลังนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$,draft_review,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED

@@ -7,11 +7,11 @@ dlg_69bbf0b329ac7158,126,07,volcano,Fallarbor and Volcano,ฟอลลาร์�
 [PAGE]
 I don't know who you are, but if you get
 in the way of TEAM MAGMA, don't
-expect any mercy!",,untranslated,\p | \n | \le,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+expect any mercy!",,untranslated,\p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b1ce8521162aba50,127,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,3,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,244,MeteorFalls_1F_1R_Text_HoldItRightThereMagma,"Hold it right there, TEAM MAGMA!\pYou're badly mistaken if you think you\ncan have your way with the world!$","Hold it right there, TEAM MAGMA!
 [PAGE]
 You're badly mistaken if you think you
-can have your way with the world!",,untranslated,\p | \nca,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+can have your way with the world!",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_c71a89510217f917,128,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,4,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,249,MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua,"Hehehe!\nEven TEAM AQUA joins us!\pBut it's too much trouble to deal with\nyou all…\pHeh, it doesn't matter!\pWe've got the METEORITE, so off to\nMT. CHIMNEY we go!\pHehehe! Be seeing you, you TEAM\nAQUA dingbats!$","Hehehe!
 Even TEAM AQUA joins us!
 [PAGE]
@@ -24,7 +24,7 @@ We've got the METEORITE, so off to
 MT. CHIMNEY we go!
 [PAGE]
 Hehehe! Be seeing you, you TEAM
-AQUA dingbats!",,untranslated,\nE | \pB | \n | \p | \p | \n | \p | \nA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+AQUA dingbats!",,untranslated,\n | \p | \n | \p | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e217e7b7f13bbeff,129,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,5,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,260,MeteorFalls_1F_1R_Text_ArchieSeenYouBefore,"ARCHIE: Didn't I see you before?\nAt SLATEPORT's MUSEUM?\pAh, so your name is {PLAYER}.\pAt the time, I thought you were one\nof TEAM MAGMA's goons.\pHumph…\nYou're one odd kid.\pTEAM MAGMA is a dangerous group of\ntotal fanatics.\pThey engage in destruction, claiming\nto expand the land mass.\pThey are the rivals to us,\nthe sea-loving TEAM AQUA!$","ARCHIE: Didn't I see you before?
 At SLATEPORT's MUSEUM?
 [PAGE]
@@ -43,7 +43,7 @@ They engage in destruction, claiming
 to expand the land mass.
 [PAGE]
 They are the rivals to us,
-the sea-loving TEAM AQUA!",,untranslated,\nA | \pA | {PLAYER} | \pA | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+the sea-loving TEAM AQUA!",,untranslated,\n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_ea4952bca9a7ff22,130,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,6,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,275,MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma,"BOSS, we should give chase to\nTEAM MAGMA…$","BOSS, we should give chase to
 TEAM MAGMA…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_de424b65d2ac84b8,131,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,7,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,279,MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo,"ARCHIE: Yes, yes, we must!\nWe've got to hurry.\pThere's no telling what TEAM MAGMA\nwill do at MT. CHIMNEY!$","ARCHIE: Yes, yes, we must!
@@ -54,7 +54,7 @@ will do at MT. CHIMNEY!",,untranslated,\n | \p | \n,,high,high,Resolved from a c
 dlg_620b24cda6ef26e8,132,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,8,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,285,MeteorFalls_1F_1R_Text_ArchieFarewell,"ARCHIE: {PLAYER}, you should keep\nan eye out for TEAM MAGMA, too.\pFarewell!$","ARCHIE: {PLAYER}, you should keep
 an eye out for TEAM MAGMA, too.
 [PAGE]
-Farewell!",,untranslated,{PLAYER} | \na | \pFa,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Farewell!",,untranslated,{PLAYER} | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_3a084ac6783a9ce7,133,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,1,Archie,MtChimney_EventScript_ArchieGoStopTeamMagma,data/maps/MtChimney/scripts.inc,652,MtChimney_Text_ArchieGoStopTeamMagma,"ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$","ARCHIE: Grr, {PLAYER}!
 I should've guessed you'd show up!
 [PAGE]
@@ -65,14 +65,14 @@ They're trying to inject the stolen
 METEORITE's power into the volcano!
 [PAGE]
 Doing something like that will cause
-the volcano's eruption!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \pD | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+the volcano's eruption!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_3e2b11896ebb1637,134,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,2,Archie,MtChimney_EventScript_ArchieBusyFighting,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
 [PAGE]
 I want to stop that MAXIE,
 but I can't!
 [PAGE]
 Not when I have my hands full battling
-three opponents at once!",,untranslated,\p | \nb | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+three opponents at once!",,untranslated,\p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_ed68ce020b1d6ba1,135,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,3,,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
 [PAGE]
 By amplifying its power with this
@@ -81,7 +81,7 @@ activity will instantly intensify…
 [PAGE]
 Its energy will grow deep inside
 the crater and…
-Fufufu…",,untranslated,\pB | \n | \lac | \p | \n | \lF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Fufufu…",,untranslated,\p | \n | \l | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e5fe9110f8a82454,136,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,4,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
 Who are you?
 [PAGE]
@@ -118,7 +118,7 @@ learn that much.
 [PAGE]
 But, no matter!
 I'll teach you the consequences of
-meddling in our grand design!",,untranslated,\n | \p | \n | \p | \n | \laf | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \pA | \n | \p | \n | \pB | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+meddling in our grand design!",,untranslated,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6d5968a287374b4b,137,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,5,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
 I will back off this time.
 [PAGE]
@@ -128,7 +128,7 @@ you've seen of TEAM MAGMA.
 Fufufu…
 [PAGE]
 Even without the METEORITE, if we
-obtain that ORB… Fufufu…",,untranslated,\n | \pB | \n | \pF | \pE | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+obtain that ORB… Fufufu…",,untranslated,\n | \p | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_31d1999313c6eb44,138,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,6,Archie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,669,MtChimney_Text_ArchieThankYou,"ARCHIE: {PLAYER}!\nThank you!\pWith your help, we thwarted TEAM\nMAGMA's destructive plan!\pBut… You…\nWhose side are you on?\pAh, it doesn't matter.\pWe will remain vigilant and keep up\nour pursuit of TEAM MAGMA.\p{PLAYER}, we shall meet again!$","ARCHIE: {PLAYER}!
 Thank you!
 [PAGE]
@@ -143,7 +143,7 @@ Ah, it doesn't matter.
 We will remain vigilant and keep up
 our pursuit of TEAM MAGMA.
 [PAGE]
-{PLAYER}, we shall meet again!",,untranslated,{PLAYER} | \n | \p | \n | \pB | \n | \pA | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+{PLAYER}, we shall meet again!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_42c985b1510208be,139,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,22,mt_chimney,Mt. Chimney,,22,MtChimney,chimney,MtChimney,7,,MtChimney_EventScript_MeteoriteMachine,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
 the mysterious machine.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_fe675caa94756773,140,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,,23,JaggedPass,jagged,JaggedPass,1,,JaggedPass_EventScript_OpenMagmaHideout,data/maps/JaggedPass/scripts.inc,239,JaggedPass_Text_BoulderShakingInResponseToEmblem,Oh! This boulder is shaking in response\nto the MAGMA EMBLEM!$,"Oh! This boulder is shaking in response
@@ -159,7 +159,7 @@ dlg_ad170cc8edbfbd94,142,07,volcano,Fallarbor and Volcano,ฟอลลาร์�
 Oh! I know! You battle like NORMAN,
 the GYM LEADER of PETALBURG.",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_85cc669a07cfd1db,143,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,2,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,327,LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the HEAT BADGE\nfrom FLANNERY.$,"{PLAYER} received the HEAT BADGE
-from FLANNERY.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+from FLANNERY.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_1082e920ad6c3157,144,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,3,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,331,LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis,"If you have a HEAT BADGE, all POKéMON\nup to Level 50, even those you get in\ltrades from other people, will obey\lyou completely.\pAnd, it lets POKéMON use the HM move\nSTRENGTH outside of battle.\pThis is a token of my appreciation.\nDon't be shy about taking it!$","If you have a HEAT BADGE, all POKéMON
 up to Level 50, even those you get in
 trades from other people, will obey
@@ -169,7 +169,7 @@ And, it lets POKéMON use the HM move
 STRENGTH outside of battle.
 [PAGE]
 This is a token of my appreciation.
-Don't be shy about taking it!",,untranslated,\n | \l | \l | \pA | \n | \p | \nD,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't be shy about taking it!",,untranslated,\n | \l | \l | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_dc7603a3e7b7cee7,145,07,volcano,Fallarbor and Volcano,ฟอลลาร์บอร์และภูเขาไฟ,24,lavaridge,Lavaridge,,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,4,,LavaridgeTown_Gym_1F_EventScript_GiveOverheat2,data/maps/LavaridgeTown_Gym_1F/scripts.inc,341,LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$,"That TM50 contains OVERHEAT.
 [PAGE]
 That move inflicts serious damage on
@@ -177,4 +177,4 @@ the opponent.
 [PAGE]
 But it also sharply cuts the SP. ATK
 of the POKéMON using it. It might not
-be suitable for longer battles.",,untranslated,\p | \n | \pB | \n | \lbe,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+be suitable for longer battles.",,untranslated,\p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

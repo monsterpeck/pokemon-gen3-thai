@@ -1,0 +1,114 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_2ebe47d3ac14fd8e,247,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,1,,EverGrandeCity_ChampionsRoom_EventScript_Wallace,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,221,EverGrandeCity_ChampionsRoom_Text_IntroSpeech,"WALLACE: Welcome, {PLAYER}{KUN}.\pThat incident in SOOTOPOLIS CITY…\nThat was superb work, putting an end\lto that crisis all by yourself.\pOops!\pIt wouldn't be fair to say that you\nalone ended the crisis.\pYou overcame that difficult situation\nby working as one with your POKéMON.\pWe TRAINERS raise POKéMON by giving\nthem items and by teaching them new\ltechniques for battle.\pBut we ourselves also learn many\nthings from POKéMON.\pAnd this is where your achievements\nare put to the test against what\lothers like you have achieved.\pNow!\pWho can most elegantly dance with\ntheir POKéMON in HOENN?\pShow me right here and now!$","WALLACE: Welcome, {PLAYER}{KUN}.
+[PAGE]
+That incident in SOOTOPOLIS CITY…
+That was superb work, putting an end
+to that crisis all by yourself.
+[PAGE]
+Oops!
+[PAGE]
+It wouldn't be fair to say that you
+alone ended the crisis.
+[PAGE]
+You overcame that difficult situation
+by working as one with your POKéMON.
+[PAGE]
+We TRAINERS raise POKéMON by giving
+them items and by teaching them new
+techniques for battle.
+[PAGE]
+But we ourselves also learn many
+things from POKéMON.
+[PAGE]
+And this is where your achievements
+are put to the test against what
+others like you have achieved.
+[PAGE]
+Now!
+[PAGE]
+Who can most elegantly dance with
+their POKéMON in HOENN?
+[PAGE]
+Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
+[PAGE]
+Here's some advice before you challenge
+the CHAMPION…",ฮารุกะ: {PLAYER}{KUN}!\pฉันมีคำแนะนำก่อนคุณจะท้าทาย\nแชมเปี้ยน…$,draft_review,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_7998d023049f109f,249,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,3,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,273,EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver,"MAY: Huh?\nWhat, what, what?\p{PLAYER}{KUN}…\nCould it be that…\lIt's already over?$","MAY: Huh?
+What, what, what?
+[PAGE]
+{PLAYER}{KUN}…
+Could it be that…
+It's already over?",ฮารุกะ: เอ๊ะ?\nอะไร อะไร อะไรนะ?\p{PLAYER}{KUN}…\nหรือว่า…\lจบไปแล้วเหรอ?$,draft_review,\n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER},high,high,high,ok,ok,
+dlg_002edf666920d96c,250,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,4,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,280,EverGrandeCity_ChampionsRoom_Text_BrendanAdvice,BRENDAN: {PLAYER}!\pHow would you like some advice before\nyou challenge the CHAMPION?…$,"BRENDAN: {PLAYER}!
+[PAGE]
+How would you like some advice before
+you challenge the CHAMPION?…",ยูคิ: {PLAYER}!\pอยากได้คำแนะนำก่อน\nท้าทายแชมเปี้ยนไหม?…$,draft_review,{PLAYER} | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_2354d73bb4e62974,251,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,5,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,285,EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon,BRENDAN: {PLAYER}…\pAre you trying to tell me…\nYou've beaten the CHAMPION?$,"BRENDAN: {PLAYER}…
+[PAGE]
+Are you trying to tell me…
+You've beaten the CHAMPION?",ยูคิ: {PLAYER}…\pหรือว่าเธอ…\nเอาชนะแชมเปี้ยนแล้ว?$,draft_review,{PLAYER} | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_81ca23e1fc2c226a,252,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,6,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,290,EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex,"PROF. BIRCH: See?\nWhat did I tell you, {RIVAL}?\pDidn't I tell you that you don't need\nto worry about {PLAYER}{KUN}?\p… … … … … … … …\n{PLAYER}{KUN}, you've finally done it.\pWhen I heard that you defeated your\nown father at the PETALBURG GYM,\lI thought perhaps you had a chance…\pBut to think you've actually become\nthe CHAMPION!\pAh, yes!\pWhat became of your POKéDEX?\nHere, let me see.$","PROF. BIRCH: See?
+What did I tell you, {RIVAL}?
+[PAGE]
+Didn't I tell you that you don't need
+to worry about {PLAYER}{KUN}?
+[PAGE]
+… … … … … … … …
+{PLAYER}{KUN}, you've finally done it.
+[PAGE]
+When I heard that you defeated your
+own father at the PETALBURG GYM,
+I thought perhaps you had a chance…
+[PAGE]
+But to think you've actually become
+the CHAMPION!
+[PAGE]
+Ah, yes!
+[PAGE]
+What became of your POKéDEX?
+Here, let me see.",ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$,draft_review,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
+dlg_dd762debedb89c77,253,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,7,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,306,EverGrandeCity_ChampionsRoom_Text_BirchCongratulations,"PROF. BIRCH: Anyways,\ncongratulations!\pNow, go proudly into the final room!$","PROF. BIRCH: Anyways,
+congratulations!
+[PAGE]
+Now, go proudly into the final room!",ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$,draft_review,\n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+dlg_e48bce6d96070af2,254,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,8,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,311,EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe,"WALLACE: {PLAYER}{KUN}…\pNo, let me rephrase that properly.\pThe new CHAMPION!\pCome with me.$","WALLACE: {PLAYER}{KUN}…
+[PAGE]
+No, let me rephrase that properly.
+[PAGE]
+The new CHAMPION!
+[PAGE]
+Come with me.",มิคุริ: {PLAYER}{KUN}…\pไม่สิ ขอเรียกให้ถูกต้องดีกว่า\pแชมเปี้ยนคนใหม่!\pตามฉันมา$,draft_review,{PLAYER} | {KUN} | \p | \p | \p,{PLAYER},high,high,high,ok,ok,
+dlg_44055334f4fe10fa,255,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,9,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,317,EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside,"WALLACE: I'm sorry, but…\pFrom here on, only those TRAINERS who\nhave become CHAMPIONS may enter.\pYou'll have to wait outside with\nPROF. BIRCH.$","WALLACE: I'm sorry, but…
+[PAGE]
+From here on, only those TRAINERS who
+have become CHAMPIONS may enter.
+[PAGE]
+You'll have to wait outside with
+PROF. BIRCH.",มิคุริ: ขอโทษด้วย แต่ว่า…\pจากนี้ไป เฉพาะเทรนเนอร์ที่\nได้เป็นแชมเปี้ยนเท่านั้นจึงจะเข้าได้\pเธอต้องรอข้างนอกกับ\nศ.เบิร์ช$,draft_review,\p | \n | \p | \n,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+dlg_ba212f09bd9a9718,256,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,10,May,EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,324,EverGrandeCity_ChampionsRoom_Text_MayCongratulations,"MAY: Groan…\p… … … … … … … …\n… … … … … … … …\pI'm just joking! That's okay!\nThat's the rule!\p{PLAYER}{KUN}!\nHonestly, congratulations!$","MAY: Groan…
+[PAGE]
+… … … … … … … …
+… … … … … … … …
+[PAGE]
+I'm just joking! That's okay!
+That's the rule!
+[PAGE]
+{PLAYER}{KUN}!
+Honestly, congratulations!",ฮารุกะ: โธ่…\p… … … … … … … …\n… … … … … … … …\pล้อเล่นน่ะ! ไม่เป็นไร!\nกฎก็ต้องเป็นกฎ!\p{PLAYER}{KUN}!\nขอแสดงความยินดีจากใจจริง!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_d3aa53241d06684c,257,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,11,Brendan,EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,333,EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations,"BRENDAN: Whaaaat?! … … … … …\n… … … … … … … …\pIt can't be helped if that's the rule.\p{PLAYER}, way to go!\nCongratulations!$","BRENDAN: Whaaaat?! … … … … …
+… … … … … … … …
+[PAGE]
+It can't be helped if that's the rule.
+[PAGE]
+{PLAYER}, way to go!
+Congratulations!",ยูคิ: อะไรนะ?! … … … … …\n… … … … … … … …\pถ้าเป็นกฎก็คงช่วยไม่ได้\p{PLAYER} ทำได้เยี่ยมมาก!\nยินดีด้วย!$,draft_review,\n | \p | \p | {PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_7696ddbcad4cdaca,258,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,12,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,9,gBirchDexRatingText_SoYouveSeenAndCaught,"Hmhm…\pSo, you've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+[PAGE]
+So, you've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",หึ ๆ…\pเธอพบโปเกมอนแล้ว {STR_VAR_1} ชนิด\nและจับได้ {STR_VAR_2} ชนิด…$,draft_review,\p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,high,ok,ok,
+dlg_dc0ce7c8455a31db,259,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,13,Professor Birch,ProfBirch_EventScript_RatePokedex,data/text/pokedex_rating.inc,110,gBirchDexRatingText_OnANationwideBasis,"Hmhm…\nOn a nationwide basis…\pYou've seen {STR_VAR_1} POKéMON,\nand you've caught {STR_VAR_2} POKéMON…$","Hmhm…
+On a nationwide basis…
+[PAGE]
+You've seen {STR_VAR_1} POKéMON,
+and you've caught {STR_VAR_2} POKéMON…",หึ ๆ…\nถ้านับทั่วทั้งประเทศ…\pเธอพบโปเกมอนแล้ว {STR_VAR_1} ชนิด\nและจับได้ {STR_VAR_2} ชนิด…$,draft_review,\n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},high,high,high,ok,ok,

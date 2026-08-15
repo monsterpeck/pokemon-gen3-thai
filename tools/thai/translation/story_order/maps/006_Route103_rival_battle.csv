@@ -10,7 +10,7 @@ Since we're here, let's have a quick
 battle!
 [PAGE]
 I'll give you a taste of what being
-a TRAINER is like.",,untranslated,{PLAYER} | {KUN} | \p | \na | \p | \nba | \p | \na,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+a TRAINER is like.",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_1d2c85c3dd45b39f,22,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,,7,Route103,rival_battle,Route103,3,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,315,Route103_Text_BrendanRoute103Pokemon,"BRENDAN: Okay, so it's this one and\nthat one that live on ROUTE 103…$","BRENDAN: Okay, so it's this one and
 that one that live on ROUTE 103…",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a2a36d33d4e71a0c,23,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,,7,Route103,rival_battle,Route103,4,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,319,Route103_Text_BrendanLetsBattle,"Hey, it's {PLAYER}!\p…Oh, yeah, Dad gave you a POKéMON.\pSince we're here, how about a little\nbattle?\pI'll teach you what being a TRAINER's\nabout!$","Hey, it's {PLAYER}!
@@ -21,7 +21,7 @@ Since we're here, how about a little
 battle?
 [PAGE]
 I'll teach you what being a TRAINER's
-about!",,untranslated,{PLAYER} | \p | \p | \nba | \p | \nab,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+about!",,untranslated,{PLAYER} | \p | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_1ba2a80d63962ccb,24,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,,7,Route103,rival_battle,Route103,5,May,Route103_EventScript_AfterMayBattle,data/maps/Route103/scripts.inc,305,Route103_Text_MayTimeToHeadBack,"MAY: I think I know why my dad has\nan eye out for you now.\pI mean, you just got that POKéMON,\nbut it already likes you.\pYou might be able to befriend any\nkind of POKéMON easily.\pWell, it's time to head back to\nthe LAB.$","MAY: I think I know why my dad has
 an eye out for you now.
 [PAGE]
@@ -32,7 +32,7 @@ You might be able to befriend any
 kind of POKéMON easily.
 [PAGE]
 Well, it's time to head back to
-the LAB.",,untranslated,\na | \p | \nb | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+the LAB.",,untranslated,\n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_5ba654e578399a89,25,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,,7,Route103,rival_battle,Route103,6,Brendan,Route103_EventScript_AfterBrendanBattle,data/maps/Route103/scripts.inc,330,Route103_Text_BrendanTimeToHeadBack,"BRENDAN: I think I get it.\nI think I know why my dad has his eye\lout for you now.\pLook, your POKéMON already likes you,\neven though you just got it.\p{PLAYER}, I get the feeling that you\ncould befriend any POKéMON with ease.\pWe should head back to the LAB.$","BRENDAN: I think I get it.
 I think I know why my dad has his eye
 out for you now.
@@ -43,4 +43,4 @@ even though you just got it.
 {PLAYER}, I get the feeling that you
 could befriend any POKéMON with ease.
 [PAGE]
-We should head back to the LAB.",,untranslated,\n | \l | \p | \ne | \p | {PLAYER} | \nc | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+We should head back to the LAB.",,untranslated,\n | \l | \p | \n | \p | {PLAYER} | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

@@ -23,11 +23,11 @@ Uh… Hehehe, so, uh, could I count
 on you to do that for me?
 [PAGE]
 Oh, that's right.
-Could you wait here a second?",,untranslated,\n | \p | \n | \pA | \n | \p | \n | \pC | \n | \p | \n | \p | \n | \p | \nC,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Could you wait here a second?",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_ef91cab884e7930d,75,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,3,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,285,RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe,Our PRESIDENT would like to have\na word with you.\pPlease come with me.$,"Our PRESIDENT would like to have
 a word with you.
 [PAGE]
-Please come with me.",,untranslated,\na | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Please come with me.",,untranslated,\n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6c5f3fd5f4fa792e,76,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,4,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,290,RustboroCity_DevonCorp_3F_Text_PleaseGoAhead,"Please, go ahead.$","Please, go ahead.",,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_52b589c9fb152fe9,77,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,5,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,197,RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor,"I'm MR. STONE, the PRESIDENT of\nthe DEVON CORPORATION.\pI'd just got word about you!\pYou saved our staff not just once,\nbut twice!\pI have a favor to ask of an amazing\nperson like you.\pI understand that you're delivering\na package to SLATEPORT's SHIPYARD.\pWell, on the way, could you stop off in\nDEWFORD TOWN?\pI was hoping that you'd deliver a\nLETTER to STEVEN in DEWFORD.$","I'm MR. STONE, the PRESIDENT of
 the DEVON CORPORATION.
@@ -47,14 +47,14 @@ Well, on the way, could you stop off in
 DEWFORD TOWN?
 [PAGE]
 I was hoping that you'd deliver a
-LETTER to STEVEN in DEWFORD.",,untranslated,\n | \p | \p | \nb | \p | \n | \p | \na | \p | \nDE | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+LETTER to STEVEN in DEWFORD.",,untranslated,\n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_d944c62595a62903,78,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,6,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,212,RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis,"MR. STONE: Now, you should know that\nI am a great PRESIDENT.\pSo, I'd never be so cheap as to ask\na favor for nothing in return.\pThat's why I want you to have this!$","MR. STONE: Now, you should know that
 I am a great PRESIDENT.
 [PAGE]
 So, I'd never be so cheap as to ask
 a favor for nothing in return.
 [PAGE]
-That's why I want you to have this!",,untranslated,\n | \p | \na | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+That's why I want you to have this!",,untranslated,\n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_8cdabd7f75be9916,79,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,7,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,219,RustboroCity_DevonCorp_3F_Text_ReceivedPokenav,{PLAYER} received a POKéNAV.$,{PLAYER} received a POKéNAV.,,untranslated,{PLAYER},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6e4ba929b10c625c,80,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,8,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,222,RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp,"MR. STONE: That device…\pIt's a POKéMON NAVIGATOR, or POKéNAV\nfor short.\pIt's an indispensable tool for any\nTRAINER on an adventure.\pIt has a map of the HOENN region.\pYou can check the locations of\nDEWFORD and SLATEPORT easily!\pBy the way, I've heard that sinister\ncriminals--MAGMA and AQUA, I believe--\lhave been making trouble far and wide.\pI think it would be best if you rested\nup before you go on your way.$","MR. STONE: That device…
 [PAGE]
@@ -74,6 +74,6 @@ criminals--MAGMA and AQUA, I believe--
 have been making trouble far and wide.
 [PAGE]
 I think it would be best if you rested
-up before you go on your way.",,untranslated,\p | \nf | \p | \n | \p | \p | \nDE | \pB | \nc | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+up before you go on your way.",,untranslated,\p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_80a46ed9b55cf555,81,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,9,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,237,RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare,"MR. STONE: Well, then, {PLAYER}{KUN},\ngo with caution and care!$","MR. STONE: Well, then, {PLAYER}{KUN},
 go with caution and care!",,untranslated,{PLAYER} | {KUN} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

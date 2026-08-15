@@ -1,0 +1,59 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_d918d79168cfccf1,167,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,1,Archie,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,483,MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo,"ARCHIE: TEAM MAGMA's MAXIE got ahead\nof us, but we also got what we wanted.\pThe RED ORB preserved at MT. PYRE…\nI, ARCHIE, now have it in my possession!\pFufufu… Now we can bring our ultimate\nobjective to fruition!\pOkay, TEAM!\nWe're pulling out!$","ARCHIE: TEAM MAGMA's MAXIE got ahead
+of us, but we also got what we wanted.
+[PAGE]
+The RED ORB preserved at MT. PYRE…
+I, ARCHIE, now have it in my possession!
+[PAGE]
+Fufufu… Now we can bring our ultimate
+objective to fruition!
+[PAGE]
+Okay, TEAM!
+We're pulling out!",อาโอคิ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริ…\nตอนนี้อยู่ในมือของฉัน อาโอคิแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
+dlg_3e6adbb836d10aa0,168,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,2,,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,493,MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis,"Oh, no…\nThis cannot happen…\pNot only the BLUE ORB, but even\nthe RED ORB has been taken…\pThe BLUE ORB and RED ORB must never\nbe separated. They belong together.\pWhat are those men trying to do with\nthe two ORBS?\p… … … … … …\n… … … … … …\pOh, yes. Was it TEAM MAGMA who came\nand took the BLUE ORB first?\pWell, in their haste, they left this\nbehind.\pI couldn't imagine what exactly it\ncould be.\pI would like you to have it.\nPerhaps it will be useful in some way.$","Oh, no…
+This cannot happen…
+[PAGE]
+Not only the BLUE ORB, but even
+the RED ORB has been taken…
+[PAGE]
+The BLUE ORB and RED ORB must never
+be separated. They belong together.
+[PAGE]
+What are those men trying to do with
+the two ORBS?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Oh, yes. Was it TEAM MAGMA who came
+and took the BLUE ORB first?
+[PAGE]
+Well, in their haste, they left this
+behind.
+[PAGE]
+I couldn't imagine what exactly it
+could be.
+[PAGE]
+I would like you to have it.
+Perhaps it will be useful in some way.",โอ้ ไม่นะ…\nเรื่องเช่นนี้เกิดขึ้นไม่ได้…\pไม่ใช่แค่ลูกแก้วสีน้ำเงิน\nแม้แต่ลูกแก้วสีแดงก็ถูกชิงไป…\pลูกแก้วสีน้ำเงินกับลูกแก้วสีแดง\nห้ามแยกจากกัน ทั้งสองต้องอยู่คู่กัน\pคนพวกนั้นคิดจะทำอะไร\nกับลูกแก้วทั้งสองกันแน่?\p… … … … … …\n… … … … … …\pอ้อ ใช่ ทีมแมกมาเป็นพวกที่มา\nเอาลูกแก้วสีน้ำเงินไปก่อนสินะ?\pแต่ตอนรีบร้อน พวกเขาทิ้ง\nสิ่งนี้เอาไว้\pฉันเองก็นึกไม่ออกว่า\nมันคืออะไรกันแน่\pฉันอยากมอบมันให้เธอ\nบางทีมันอาจมีประโยชน์ก็ได้$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,ok,review_long_line,
+dlg_735f1ef23f4ce480,169,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,3,,MtPyre_Summit_EventScript_OldLadyOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,533,MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs,The two men who took the ORBS came\nback to return them on their own.\pThose men…\nPerhaps they are not so evil after all…$,"The two men who took the ORBS came
+back to return them on their own.
+[PAGE]
+Those men…
+Perhaps they are not so evil after all…",ชายสองคนที่เอาลูกแก้วไป\nกลับมาคืนด้วยตัวเองแล้ว\pคนเหล่านั้น…\nบางทีอาจไม่ได้ชั่วร้ายนักก็ได้…$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_99952122a38c4d6b,170,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,4,,MtPyre_Summit_EventScript_OldLadyAfterOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,539,MtPyre_Summit_Text_SuperAncientPokemonTaughtUs,"The embodiments of the land, sea,\nand the sky…\pThat is said to be the identities of\nthe super-ancient POKéMON…\pIn the same way that we humans and\nPOKéMON have life, our world, too,\lis alive…\pThe super-ancient POKéMON have\ntaught us that…$","The embodiments of the land, sea,
+and the sky…
+[PAGE]
+That is said to be the identities of
+the super-ancient POKéMON…
+[PAGE]
+In the same way that we humans and
+POKéMON have life, our world, too,
+is alive…
+[PAGE]
+The super-ancient POKéMON have
+taught us that…",ตัวแทนแห่งผืนดิน ท้องทะเล\nและท้องฟ้า…\pกล่าวกันว่านั่นคือตัวตนของ\nโปเกมอนยุคบรรพกาล…\pเช่นเดียวกับมนุษย์และโปเกมอน\nที่มีชีวิต โลกของเราเองก็\lมีชีวิตเช่นกัน…\pโปเกมอนยุคบรรพกาล\nได้สอนเรื่องนั้นแก่เรา…$,draft_review,\n | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,ok,ok,
+dlg_e5b724b2524196f4,171,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,5,Maxie,MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs,data/maps/MtPyre_Summit/scripts.inc,585,MtPyre_Summit_Text_MaxieSilence,MAXIE: {PLAYER}…\p… … … … … …\n… … … … … …$,"MAXIE: {PLAYER}…
+[PAGE]
+… … … … … …
+… … … … … …",มัตสึบูสะ: {PLAYER}…\p… … … … … …\n… … … … … …$,draft_review,{PLAYER} | \p | \n,{PLAYER},high,high,high,ok,ok,

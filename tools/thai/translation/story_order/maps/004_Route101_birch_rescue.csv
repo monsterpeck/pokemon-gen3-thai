@@ -18,4 +18,4 @@ Oh?
 Hi, you're {PLAYER}{KUN}!
 [PAGE]
 This is not the place to chat, so come
-by my POKéMON LAB later, okay?",,untranslated,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \nb,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+by my POKéMON LAB later, okay?",,untranslated,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

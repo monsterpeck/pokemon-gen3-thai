@@ -10,7 +10,7 @@ Of course you are! Go!",,untranslated,{PLAYER} | {KUN} | \n | \p | \n | \p | \n,
 dlg_8f9454ec6b2ac0f0,152,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,2,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,491,Route119_Text_MayPresentForYou,"MAY: But I had absolutely nothing to\nworry about! Keep it up!\pAnd, here! I have a present for you.$","MAY: But I had absolutely nothing to
 worry about! Keep it up!
 [PAGE]
-And, here! I have a present for you.",,untranslated,\n | \pA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+And, here! I have a present for you.",,untranslated,\n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6be0ed70a0acd49c,153,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,3,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,496,Route119_Text_MayExplainFly,"MAY: Use FLY, and your POKéMON will\ninstantly carry you to any town you've\lalready visited.\pBut, to use FLY, you have to get\nthe GYM BADGE from FORTREE CITY.\lThat's important, so don't forget.\pYou should FLY home and visit\nLITTLEROOT for a change.\pI bet your mom's worried about you,\n{PLAYER}{KUN}.\pWell, let's meet again somewhere!$","MAY: Use FLY, and your POKéMON will
 instantly carry you to any town you've
 already visited.
@@ -25,7 +25,7 @@ LITTLEROOT for a change.
 I bet your mom's worried about you,
 {PLAYER}{KUN}.
 [PAGE]
-Well, let's meet again somewhere!",,untranslated,\n | \la | \pB | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Well, let's meet again somewhere!",,untranslated,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_83a72594b4c34bcc,154,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,4,Brendan,Route119_EventScript_BattleBrendan,data/maps/Route119/scripts.inc,509,Route119_Text_BrendanIntro,"BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$","BRENDAN: {PLAYER}! So this is where
 you've been looking for POKéMON?
 [PAGE]
@@ -46,7 +46,7 @@ you've already visited.
 But you need the FORTREE GYM BADGE 
 to do that.
 [PAGE]
-Anyway, I have to move along.",,untranslated,\n | \l | \pB | \n | \pA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Anyway, I have to move along.",,untranslated,\n | \l | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6f04353d49eb36ad,157,08,badges,Gyms and Weather Institute,ยิมและสถาบันอากาศ,27,route119_rival,Route 119 rival,,27,Route119,route119,Route119,7,,Route119_EventScript_RivalExitScottArrive,data/maps/Route119/scripts.inc,535,Route119_Text_ScottWayToGoBeSeeingYou,"SCOTT: Hahahah!\nWay to go, {PLAYER}{KUN}!\pI just passed by a TRAINER riding\na BIKE.\pYou just beat that TRAINER, didn't you?\nIt was pretty obvious that you did.\pThe kid looked really upset with\na face all red from anger.\pI sure seem to run into you often.\nAre you off to FORTREE GYM next?\pI expect that you'll do well at the GYM.\nWell, I'll be seeing you!$","SCOTT: Hahahah!
 Way to go, {PLAYER}{KUN}!
 [PAGE]
@@ -63,4 +63,4 @@ I sure seem to run into you often.
 Are you off to FORTREE GYM next?
 [PAGE]
 I expect that you'll do well at the GYM.
-Well, I'll be seeing you!",,untranslated,\n | {PLAYER} | {KUN} | \p | \na | \p | \n | \p | \na | \p | \nA | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Well, I'll be seeing you!",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

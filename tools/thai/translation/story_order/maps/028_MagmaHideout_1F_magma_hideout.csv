@@ -11,7 +11,7 @@ I have brought you the BLUE ORB.
 Let its shine awaken you!
 [PAGE]
 And show me…
-Show me the full extent of your power!",,untranslated,\p | \n | \p | \n | \p | \n | \pA | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Show me the full extent of your power!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_f34fbe4729fcf204,173,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,2,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,192,MagmaHideout_4F_Text_MaxieGroudonWhatsWrong,MAXIE: GROUDON!\nWhat's wrong?\pWasn't the BLUE ORB the key?\pGROUDON!\nWhere have you gone…$,"MAXIE: GROUDON!
 What's wrong?
 [PAGE]
@@ -42,4 +42,4 @@ With GROUDON gone, there is no longer
 any need for this blasted volcano.
 [PAGE]
 I am going after GROUDON, so this
-is where we part!",,untranslated,\n | \p | \na | \p | \n | \p | \n | \p | \na | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+is where we part!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,

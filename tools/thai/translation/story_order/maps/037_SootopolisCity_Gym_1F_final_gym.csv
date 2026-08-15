@@ -11,7 +11,7 @@ of HOENN, to the island EVER GRANDE.
 There, you shall find the POKéMON
 LEAGUE.",,untranslated,\n | \l | \p | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e4617a5d97c17e89,237,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,2,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,234,SootopolisCity_Gym_1F_Text_ReceivedRainBadge,{PLAYER} received the RAIN BADGE\nfrom JUAN.$,"{PLAYER} received the RAIN BADGE
-from JUAN.",,untranslated,{PLAYER} | \nf,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+from JUAN.",,untranslated,{PLAYER} | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_04c38272168a6c08,238,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,3,,SootopolisCity_Gym_1F_EventScript_JuanDefeated,data/maps/SootopolisCity_Gym_1F/scripts.inc,238,SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis,"Having the RAIN BADGE shall assure you\nthe full obedience of all your POKéMON\lto your every command.\pThe RAIN BADGE also allows the use\nof the HM move WATERFALL to scale\lwalls of cascading water.\pAnd, so that you never forget the\nbattle we shared, take this…$","Having the RAIN BADGE shall assure you
 the full obedience of all your POKéMON
 to your every command.
@@ -21,17 +21,17 @@ of the HM move WATERFALL to scale
 walls of cascading water.
 [PAGE]
 And, so that you never forget the
-battle we shared, take this…",,untranslated,\n | \l | \p | \n | \l | \pA | \nba,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+battle we shared, take this…",,untranslated,\n | \l | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_b78ca7c65ffc780f,239,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,4,,SootopolisCity_Gym_1F_EventScript_GiveWaterPulse,data/maps/SootopolisCity_Gym_1F/scripts.inc,248,SootopolisCity_Gym_1F_Text_ExplainWaterPulse,"The TECHNICAL MACHINE I handed you\ncontains WATER PULSE.\pIn use, it will occasionally confuse\nthe target with ultrasonic waves.\p… … … … … …$","The TECHNICAL MACHINE I handed you
 contains WATER PULSE.
 [PAGE]
 In use, it will occasionally confuse
 the target with ultrasonic waves.
 [PAGE]
-… … … … … …",,untranslated,\nc | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+… … … … … …",,untranslated,\n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_dd46d9c50f26106a,240,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,40,final_gym,Final Gym,,40,SootopolisCity_Gym_1F,final_gym,SootopolisCity Gym 1F,5,,SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge,data/maps/SootopolisCity_Gym_1F/scripts.inc,269,SootopolisCity_Gym_1F_Text_GoGetFortreeBadge,"There remains but one BADGE to\nobtain in HOENN.\pIf you wish to challenge the POKéMON\nLEAGUE, you must obtain the last\lBADGE from the GYM in FORTREE.$","There remains but one BADGE to
 obtain in HOENN.
 [PAGE]
 If you wish to challenge the POKéMON
 LEAGUE, you must obtain the last
-BADGE from the GYM in FORTREE.",,untranslated,\n | \p | \n | \lBA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+BADGE from the GYM in FORTREE.",,untranslated,\n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

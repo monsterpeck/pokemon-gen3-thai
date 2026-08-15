@@ -14,7 +14,7 @@ partners, do you know what it takes?
 Do you know what is needed?
 [PAGE]
 If you don't, then you will never
-prevail over me!",,untranslated,\nE | \p | \n | \pA | \nA | \pF | \n | \pD | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+prevail over me!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_27801ee152f487cf,244,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,2,,EverGrandeCity_GlaciasRoom_EventScript_Glacia,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc,60,EverGrandeCity_GlaciasRoom_Text_IntroSpeech,"Welcome, my name is GLACIA\nof the ELITE FOUR.\pI've traveled from afar to HOENN\nso that I may hone my ice skills.\pBut all I have seen are challenges by\nweak TRAINERS and their POKéMON.\pWhat about you?\pIt would please me to no end if I could\ngo all out against you!$","Welcome, my name is GLACIA
 of the ELITE FOUR.
 [PAGE]
@@ -27,7 +27,7 @@ weak TRAINERS and their POKéMON.
 What about you?
 [PAGE]
 It would please me to no end if I could
-go all out against you!",,untranslated,\n | \p | \n | \pB | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+go all out against you!",,untranslated,\n | \p | \n | \p | \n | \p | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_3e4d602d030fbda7,245,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,3,,EverGrandeCity_PhoebesRoom_EventScript_Phoebe,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc,60,EverGrandeCity_PhoebesRoom_Text_IntroSpeech,"Ahahaha!\pI'm PHOEBE of the ELITE FOUR.\nI did my training on MT. PYRE.\pWhile I trained, I gained the ability\nto commune with GHOST-type POKéMON.\pYes, the bond I developed with POKéMON\nis extremely tight.\pSo, come on, just try and see if you can\neven inflict damage on my POKéMON!$","Ahahaha!
 [PAGE]
 I'm PHOEBE of the ELITE FOUR.
@@ -40,7 +40,7 @@ Yes, the bond I developed with POKéMON
 is extremely tight.
 [PAGE]
 So, come on, just try and see if you can
-even inflict damage on my POKéMON!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \ne,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+even inflict damage on my POKéMON!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_eb6ec0975494eabc,246,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,4,,EverGrandeCity_SidneysRoom_EventScript_Sidney,data/maps/EverGrandeCity_SidneysRoom/scripts.inc,66,EverGrandeCity_SidneysRoom_Text_IntroSpeech,"Welcome, challenger!\nI'm SIDNEY of the ELITE FOUR.\pI like that look you're giving me.\nI guess you'll give me a good match.\lThat's good! Looking real good!\pAll right! You and me, let's enjoy\na battle that can only be staged\lhere in the POKéMON LEAGUE!$","Welcome, challenger!
 I'm SIDNEY of the ELITE FOUR.
 [PAGE]
@@ -50,4 +50,4 @@ That's good! Looking real good!
 [PAGE]
 All right! You and me, let's enjoy
 a battle that can only be staged
-here in the POKéMON LEAGUE!",,untranslated,\n | \p | \n | \l | \pA | \na | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+here in the POKéMON LEAGUE!",,untranslated,\n | \p | \n | \l | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

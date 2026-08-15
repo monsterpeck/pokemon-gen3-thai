@@ -1,0 +1,57 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_61953244313ffbe4,125,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,1,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,233,MeteorFalls_1F_1R_Text_WithThisMeteorite,"Hehehe!\pWith this METEORITE, that thing in\nMT. CHIMNEY will…$","Hehehe!
+[PAGE]
+With this METEORITE, that thing in
+MT. CHIMNEY will…",ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึกิจะ…$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_69bbf0b329ac7158,126,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,2,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,238,MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma,"Heh?\pI don't know who you are, but if you get\nin the way of TEAM MAGMA, don't\lexpect any mercy!$","Heh?
+[PAGE]
+I don't know who you are, but if you get
+in the way of TEAM MAGMA, don't
+expect any mercy!",หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าจะได้รับความเมตตา!$,draft_review,\p | \n | \l,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_b1ce8521162aba50,127,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,3,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,244,MeteorFalls_1F_1R_Text_HoldItRightThereMagma,"Hold it right there, TEAM MAGMA!\pYou're badly mistaken if you think you\ncan have your way with the world!$","Hold it right there, TEAM MAGMA!
+[PAGE]
+You're badly mistaken if you think you
+can have your way with the world!",หยุดเดี๋ยวนี้ ทีมแมกมา!\pถ้าคิดว่าจะทำอะไรกับโลกนี้\nตามใจชอบได้ ก็คิดผิดมหันต์!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_c71a89510217f917,128,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,4,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,249,MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua,"Hehehe!\nEven TEAM AQUA joins us!\pBut it's too much trouble to deal with\nyou all…\pHeh, it doesn't matter!\pWe've got the METEORITE, so off to\nMT. CHIMNEY we go!\pHehehe! Be seeing you, you TEAM\nAQUA dingbats!$","Hehehe!
+Even TEAM AQUA joins us!
+[PAGE]
+But it's too much trouble to deal with
+you all…
+[PAGE]
+Heh, it doesn't matter!
+[PAGE]
+We've got the METEORITE, so off to
+MT. CHIMNEY we go!
+[PAGE]
+Hehehe! Be seeing you, you TEAM
+AQUA dingbats!",ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึกิ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$,draft_review,\n | \p | \n | \p | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_e217e7b7f13bbeff,129,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,5,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,260,MeteorFalls_1F_1R_Text_ArchieSeenYouBefore,"ARCHIE: Didn't I see you before?\nAt SLATEPORT's MUSEUM?\pAh, so your name is {PLAYER}.\pAt the time, I thought you were one\nof TEAM MAGMA's goons.\pHumph…\nYou're one odd kid.\pTEAM MAGMA is a dangerous group of\ntotal fanatics.\pThey engage in destruction, claiming\nto expand the land mass.\pThey are the rivals to us,\nthe sea-loving TEAM AQUA!$","ARCHIE: Didn't I see you before?
+At SLATEPORT's MUSEUM?
+[PAGE]
+Ah, so your name is {PLAYER}.
+[PAGE]
+At the time, I thought you were one
+of TEAM MAGMA's goons.
+[PAGE]
+Humph…
+You're one odd kid.
+[PAGE]
+TEAM MAGMA is a dangerous group of
+total fanatics.
+[PAGE]
+They engage in destruction, claiming
+to expand the land mass.
+[PAGE]
+They are the rivals to us,
+the sea-loving TEAM AQUA!",อาโอคิ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$,draft_review,\n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_ea4952bca9a7ff22,130,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,6,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,275,MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma,"BOSS, we should give chase to\nTEAM MAGMA…$","BOSS, we should give chase to
+TEAM MAGMA…",บอส เราควรรีบตาม\nทีมแมกมาไป…$,draft_review,\n,,high,high,high,ok,ok,
+dlg_de424b65d2ac84b8,131,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,7,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,279,MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo,"ARCHIE: Yes, yes, we must!\nWe've got to hurry.\pThere's no telling what TEAM MAGMA\nwill do at MT. CHIMNEY!$","ARCHIE: Yes, yes, we must!
+We've got to hurry.
+[PAGE]
+There's no telling what TEAM MAGMA
+will do at MT. CHIMNEY!",อาโอคิ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึกิ!$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_620b24cda6ef26e8,132,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิสึเกะและน้ำตกริวเซ,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,8,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,285,MeteorFalls_1F_1R_Text_ArchieFarewell,"ARCHIE: {PLAYER}, you should keep\nan eye out for TEAM MAGMA, too.\pFarewell!$","ARCHIE: {PLAYER}, you should keep
+an eye out for TEAM MAGMA, too.
+[PAGE]
+Farewell!",อาโอคิ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$,draft_review,{PLAYER} | \n | \p,{PLAYER},high,high,high,ok,ok,

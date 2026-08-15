@@ -1,0 +1,992 @@
+﻿id,category,subcategory,story_order,map_name,location_name,speaker,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,duplicate_group,notes
+dlg_f05a5b388b38ad28,main_story,required_event,001.001,,,Professor Birch,data/text/birch_speech.inc,1,gText_Birch_Welcome,Hi! Sorry to keep you waiting!\pWelcome to the world of POKéMON!\pMy name is BIRCH.\pBut everyone calls me the POKéMON\nPROFESSOR.\p$,"Hi! Sorry to keep you waiting!
+[PAGE]
+Welcome to the world of POKéMON!
+[PAGE]
+My name is BIRCH.
+[PAGE]
+But everyone calls me the POKéMON
+PROFESSOR.
+[PAGE]
+",,untranslated,\p | \p | \p | \n | \p,,,Source path or label explicitly identifies progression.
+dlg_a0a50d7092ef23e5,main_story,required_event,001.002,,,Professor Birch,data/text/birch_speech.inc,8,gText_Birch_Pokemon,This is what we call a “POKéMON.”\p\n$,"This is what we call a “POKéMON.”
+[PAGE]
+
+",,untranslated,\p | \n,,,Source path or label explicitly identifies progression.
+dlg_8413e20c18110096,main_story,required_event,001.003,,,Professor Birch,data/text/birch_speech.inc,13,gText_Birch_MainSpeech,"This world is widely inhabited by\ncreatures known as POKéMON.\pWe humans live alongside POKéMON,\nat times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together\nand battle others like us.\pBut despite our closeness, we don't\nknow everything about POKéMON.\pIn fact, there are many, many\nsecrets surrounding POKéMON.\pTo unravel POKéMON mysteries,\nI've been undertaking research.\lThat's what I do.\p$","This world is widely inhabited by
+creatures known as POKéMON.
+[PAGE]
+We humans live alongside POKéMON,
+at times as friendly playmates, and
+at times as cooperative workmates.
+[PAGE]
+And sometimes, we band together
+and battle others like us.
+[PAGE]
+But despite our closeness, we don't
+know everything about POKéMON.
+[PAGE]
+In fact, there are many, many
+secrets surrounding POKéMON.
+[PAGE]
+To unravel POKéMON mysteries,
+I've been undertaking research.
+That's what I do.
+[PAGE]
+",,untranslated,\n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p,,,Source path or label explicitly identifies progression.
+dlg_412f32d24928ff84,main_story,required_event,001.004,,,Professor Birch,data/text/birch_speech.inc,30,gText_Birch_AndYouAre,And you are?$,And you are?,,untranslated,,,,Source path or label explicitly identifies progression.
+dlg_008b1eacc20d2fa0,main_story,required_event,001.005,,,Professor Birch,data/text/birch_speech.inc,33,gText_Birch_BoyOrGirl,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?$,"{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?
+{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?",,untranslated,{252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {29} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {15} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {6} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {39} | {0} | {0} | {244} | {6} | {1} | \n | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {21} | {1} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {58} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {12} | {0} | {0} | {244} | {4} | {1},,,Source path or label explicitly identifies progression.
+dlg_9ef890e3b20a3ebf,main_story,required_event,001.006,,,Professor Birch,data/text/birch_speech.inc,37,gText_Birch_WhatsYourName,All right.\nWhat's your name?$,"All right.
+What's your name?",,untranslated,\n,,,Source path or label explicitly identifies progression.
+dlg_531e30048ab5cfb4,main_story,required_event,001.007,,,Professor Birch,data/text/birch_speech.inc,41,gText_Birch_SoItsPlayer,So it's {PLAYER}{KUN}?$,So it's {PLAYER}{KUN}?,,untranslated,{PLAYER} | {KUN},{PLAYER},,Source path or label explicitly identifies progression.
+dlg_3d03c87c21475304,main_story,required_event,001.008,,,Professor Birch,data/text/birch_speech.inc,44,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my\nhometown of LITTLEROOT.\lI get it now!\p$","Ah, okay!
+[PAGE]
+You're {PLAYER}{KUN} who's moving to my
+hometown of LITTLEROOT.
+I get it now!
+[PAGE]
+",,untranslated,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},,Source path or label explicitly identifies progression.
+dlg_745792a288a31bbd,main_story,required_event,001.009,,,Professor Birch,data/text/birch_speech.inc,51,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
+[PAGE]
+Your very own adventure is about
+to unfold.
+[PAGE]
+Take courage, and leap into the
+world of POKéMON where dreams,
+adventure, and friendships await!
+[PAGE]
+Well, I'll be expecting you later.
+Come see me in my POKéMON LAB.
+[PAGE]
+",,untranslated,\p | \n | \p | \n | \l | \p | \n | \p,,,Source path or label explicitly identifies progression.
+dlg_cf65dad55510cbb0,main_story,required_event,,AquaHideout_1F,AquaHideout 1F,,data/maps/AquaHideout_1F/scripts.inc,90,AquaHideout_1F_Text_TeamMagmaAtMtChimney,What? What?\nAre you a TEAM MAGMA grunt?\pI hear that TEAM MAGMA is after\nan awesome POKéMON at MT. CHIMNEY.\pBut what is that POKéMON like?$,"What? What?
+Are you a TEAM MAGMA grunt?
+[PAGE]
+I hear that TEAM MAGMA is after
+an awesome POKéMON at MT. CHIMNEY.
+[PAGE]
+But what is that POKéMON like?",,untranslated,\n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_acba97b04ebadfc9,main_story,required_event,,BattleFrontier_OutsideEast,BattleFrontier OutsideEast,,data/maps/BattleFrontier_OutsideEast/scripts.inc,316,BattleFrontier_OutsideEast_Text_OnceBeatGymLeader,"I may not look that impressive now,\nbut I once beat a GYM LEADER.\pWho knows, maybe I should give it\nanother shot at glory.$","I may not look that impressive now,
+but I once beat a GYM LEADER.
+[PAGE]
+Who knows, maybe I should give it
+another shot at glory.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_9ee91ad4704a9d48,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,Wallace,data/maps/CaveOfOrigin_B1F/scripts.inc,61,CaveOfOrigin_B1F_Text_WallaceStory,"Ah, so you are {PLAYER}{KUN}?\nI've heard tales of your exploits.\pMy name is WALLACE.\pI was once the GYM LEADER of\nSOOTOPOLIS, but something came up.\pSo now, I've entrusted my mentor JUAN\nwith the GYM's operation.\p… … … … … …\n… … … … … …\pGROUDON and KYOGRE, the two POKéMON\nwreaking havoc here, are considered\lto be super-ancient POKéMON.\pBut there aren't just two super-\nancient POKéMON.\pThere is one more somewhere.\pSomewhere, there is a super-\nancient POKéMON named RAYQUAZA.\pIt's said that it was RAYQUAZA that\nbecalmed the two combatants in\lthe distant past.\pBut even I have no clue as to\nRAYQUAZA's whereabouts…$","Ah, so you are {PLAYER}{KUN}?
+I've heard tales of your exploits.
+[PAGE]
+My name is WALLACE.
+[PAGE]
+I was once the GYM LEADER of
+SOOTOPOLIS, but something came up.
+[PAGE]
+So now, I've entrusted my mentor JUAN
+with the GYM's operation.
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+GROUDON and KYOGRE, the two POKéMON
+wreaking havoc here, are considered
+to be super-ancient POKéMON.
+[PAGE]
+But there aren't just two super-
+ancient POKéMON.
+[PAGE]
+There is one more somewhere.
+[PAGE]
+Somewhere, there is a super-
+ancient POKéMON named RAYQUAZA.
+[PAGE]
+It's said that it was RAYQUAZA that
+becalmed the two combatants in
+the distant past.
+[PAGE]
+But even I have no clue as to
+RAYQUAZA's whereabouts…",,untranslated,{PLAYER} | {KUN} | \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_21f9fb2e64242ca7,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,,data/maps/CaveOfOrigin_B1F/scripts.inc,85,CaveOfOrigin_B1F_Text_WhereIsRayquaza,"WALLACE: {PLAYER}{KUN}, do you perhaps\nknow where RAYQUAZA is now?\pIf you do, please tell me.$","WALLACE: {PLAYER}{KUN}, do you perhaps
+know where RAYQUAZA is now?
+[PAGE]
+If you do, please tell me.",,untranslated,{PLAYER} | {KUN} | \n | \p,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_8116d2fd0acd4df7,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,,data/maps/CaveOfOrigin_B1F/scripts.inc,90,CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin,"WALLACE: The CAVE OF ORIGIN?\pBut that's right here!\nI need you to do better than that!\pPlease, I need you to think about\nwhere RAYQUAZA might be right now.$","WALLACE: The CAVE OF ORIGIN?
+[PAGE]
+But that's right here!
+I need you to do better than that!
+[PAGE]
+Please, I need you to think about
+where RAYQUAZA might be right now.",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_ac02995e9da80119,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,,data/maps/CaveOfOrigin_B1F/scripts.inc,97,CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat,"WALLACE: MT. PYRE?\pBut when I met the old lady there\nearlier, she made no mention of it.\pI very much doubt that the old lady\nwould try to hide something from me…\p{PLAYER}{KUN}, could you think about this\nmore carefully for me?$","WALLACE: MT. PYRE?
+[PAGE]
+But when I met the old lady there
+earlier, she made no mention of it.
+[PAGE]
+I very much doubt that the old lady
+would try to hide something from me…
+[PAGE]
+{PLAYER}{KUN}, could you think about this
+more carefully for me?",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_9efdeaf5854b1e2e,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,,data/maps/CaveOfOrigin_B1F/scripts.inc,106,CaveOfOrigin_B1F_Text_CantYouRememberSomehow,WALLACE: Huh? You don't remember?\nHmm… That's a problem…\pCan't you remember somehow?$,"WALLACE: Huh? You don't remember?
+Hmm… That's a problem…
+[PAGE]
+Can't you remember somehow?",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_2d9ab354729bb773,main_story,required_event,,CaveOfOrigin_B1F,CaveOfOrigin B1F,,data/maps/CaveOfOrigin_B1F/scripts.inc,111,CaveOfOrigin_B1F_Text_WellHeadToSkyPillar,"WALLACE: The SKY PILLAR?\pThat's it!\nIt must be the SKY PILLAR!\p{PLAYER}{KUN}, there's not a moment to lose!\nWe'll head to the SKY PILLAR right away!$","WALLACE: The SKY PILLAR?
+[PAGE]
+That's it!
+It must be the SKY PILLAR!
+[PAGE]
+{PLAYER}{KUN}, there's not a moment to lose!
+We'll head to the SKY PILLAR right away!",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_620c88648d5b14e6,main_story,required_event,,EverGrandeCity_HallOfFame,EverGrandeCity HallOfFame,,data/maps/EverGrandeCity_HallOfFame/scripts.inc,81,EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions,WALLACE: This room…\pThis is where we keep records of\nPOKéMON that prevailed through\lharsh battles.\pIt is here that the LEAGUE CHAMPIONS\nare honored.$,"WALLACE: This room…
+[PAGE]
+This is where we keep records of
+POKéMON that prevailed through
+harsh battles.
+[PAGE]
+It is here that the LEAGUE CHAMPIONS
+are honored.",,untranslated,\p | \n | \l | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_f8d2a6465c7b7c81,main_story,required_event,,EverGrandeCity_HallOfFame,EverGrandeCity HallOfFame,,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
+name as a TRAINER who triumphed over
+the POKéMON LEAGUE, and the names of
+the partners who battled with you.",,untranslated,\n | \l | \l,,,Map path or label explicitly identifies progression.
+dlg_8642e24df2fe2b19,main_story,required_event,,LavaridgeTown_Mart,LavaridgeTown Mart,,data/maps/LavaridgeTown_Mart/scripts.inc,40,LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney,"On MT. CHIMNEY's peak, there's a local\nspecialty that you can buy only there.\pGive it to a POKéMON--it will be elated.$","On MT. CHIMNEY's peak, there's a local
+specialty that you can buy only there.
+[PAGE]
+Give it to a POKéMON--it will be elated.",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_d52382a80983e615,main_story,required_event,,LilycoveCity,LilycoveCity,,data/maps/LilycoveCity/scripts.inc,604,LilycoveCity_Text_TeamAquaBeenTrainingWailmer,TEAM AQUA's been training their\nWAILMER in the cove.\pWe SAILORS can't get our boats out\nto sea with them in the way!$,"TEAM AQUA's been training their
+WAILMER in the cove.
+[PAGE]
+We SAILORS can't get our boats out
+to sea with them in the way!",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_26d186c08c2a3ece,main_story,required_event,,LilycoveCity,LilycoveCity,,data/maps/LilycoveCity/scripts.inc,610,LilycoveCity_Text_SomeonePuntedTeamAquaOut,"Ahoy, did you know?\pSomeone punted TEAM AQUA out of\nthe way for us!\pThat got the WAILMER out of the cove,\nso we can get our boats out again.$","Ahoy, did you know?
+[PAGE]
+Someone punted TEAM AQUA out of
+the way for us!
+[PAGE]
+That got the WAILMER out of the cove,
+so we can get our boats out again.",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_b591a5f22cf4065f,main_story,required_event,,LilycoveCity,LilycoveCity,,data/maps/LilycoveCity/scripts.inc,647,LilycoveCity_Text_TeamAquaRenovatedCavern,"Hm, you know of the peculiar cavern\nin this cove?\pThat had been a natural formation,\nbut then that TEAM AQUA lot came\lalong and made their renovations.\pThey call themselves\nthe “nature-loving TEAM AQUA”!\pBut what they do and what they say\ndon't match at all!$","Hm, you know of the peculiar cavern
+in this cove?
+[PAGE]
+That had been a natural formation,
+but then that TEAM AQUA lot came
+along and made their renovations.
+[PAGE]
+They call themselves
+the “nature-loving TEAM AQUA”!
+[PAGE]
+But what they do and what they say
+don't match at all!",,untranslated,\n | \p | \n | \l | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_a20c342b34fee9ab,main_story,required_event,,LilycoveCity,LilycoveCity,,data/maps/LilycoveCity/scripts.inc,658,LilycoveCity_Text_TeamAquaLotGoneForGood,"That cave in the cove…\pI didn't notice it right away,\nbut it's completely empty now.\pThat TEAM AQUA lot, they must\nhave gone away for good.$","That cave in the cove…
+[PAGE]
+I didn't notice it right away,
+but it's completely empty now.
+[PAGE]
+That TEAM AQUA lot, they must
+have gone away for good.",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_88ffdc624b0d0b23,main_story,required_event,,LilycoveCity,LilycoveCity,,data/maps/LilycoveCity/scripts.inc,733,LilycoveCity_Text_HeardTowerCalledSkyPillar,"I heard there's a tower somewhere out\non the sea routes.\pIt's called the SKY PILLAR, I hear.$","I heard there's a tower somewhere out
+on the sea routes.
+[PAGE]
+It's called the SKY PILLAR, I hear.",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_0f3bf62ab8213d3f,main_story,required_event,,LilycoveCity_CoveLilyMotel_1F,LilycoveCity CoveLilyMotel 1F,,data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.inc,83,LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua,"Oh, sorry, sorry!\nI was too involved in watching TV!\pSince that TEAM AQUA came to town,\nthe tourists have been staying away.$","Oh, sorry, sorry!
+I was too involved in watching TV!
+[PAGE]
+Since that TEAM AQUA came to town,
+the tourists have been staying away.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_bd705cc8a504bb05,main_story,required_event,,LittlerootTown_BrendansHouse_1F,LittlerootTown BrendansHouse 1F,,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc,289,PlayersHouse_1F_Text_MoversPokemonGoSetClock,"The mover's POKéMON do all the work\nof moving us in and cleaning up after.\lThis is so convenient!\p{PLAYER}, your room is upstairs.\nGo check it out, dear!\pDAD bought you a new clock to mark\nour move here.\lDon't forget to set it!$","The mover's POKéMON do all the work
+of moving us in and cleaning up after.
+This is so convenient!
+[PAGE]
+{PLAYER}, your room is upstairs.
+Go check it out, dear!
+[PAGE]
+DAD bought you a new clock to mark
+our move here.
+Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \p | \n | \l,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_36ea63b7ce608519,main_story,required_event,,MagmaHideout_4F,MagmaHideout 4F,Maxie,data/maps/MagmaHideout_4F/scripts.inc,181,MagmaHideout_4F_Text_MaxieAwakenGroudon,MAXIE: GROUDON…\pNothing could awaken you from your\nsleep bathed in magma…\pThis BLUE ORB is what you sought.\nWasn't it?\pI have brought you the BLUE ORB.\nLet its shine awaken you!\pAnd show me…\nShow me the full extent of your power!$,"MAXIE: GROUDON…
+[PAGE]
+Nothing could awaken you from your
+sleep bathed in magma…
+[PAGE]
+This BLUE ORB is what you sought.
+Wasn't it?
+[PAGE]
+I have brought you the BLUE ORB.
+Let its shine awaken you!
+[PAGE]
+And show me…
+Show me the full extent of your power!",,untranslated,\p | \n | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_c71a89510217f917,main_story,required_event,,MeteorFalls_1F_1R,MeteorFalls 1F 1R,,data/maps/MeteorFalls_1F_1R/scripts.inc,249,MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua,"Hehehe!\nEven TEAM AQUA joins us!\pBut it's too much trouble to deal with\nyou all…\pHeh, it doesn't matter!\pWe've got the METEORITE, so off to\nMT. CHIMNEY we go!\pHehehe! Be seeing you, you TEAM\nAQUA dingbats!$","Hehehe!
+Even TEAM AQUA joins us!
+[PAGE]
+But it's too much trouble to deal with
+you all…
+[PAGE]
+Heh, it doesn't matter!
+[PAGE]
+We've got the METEORITE, so off to
+MT. CHIMNEY we go!
+[PAGE]
+Hehehe! Be seeing you, you TEAM
+AQUA dingbats!",,untranslated,\n | \p | \n | \p | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_d51d8d6c11e6afb5,main_story,required_event,,MeteorFalls_1F_1R,MeteorFalls 1F 1R,,data/maps/MeteorFalls_1F_1R/scripts.inc,305,MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney,PROF. COZMO: But that TEAM MAGMA…\pWhat are they going to do with that\nMETEORITE at MT. CHIMNEY?$,"PROF. COZMO: But that TEAM MAGMA…
+[PAGE]
+What are they going to do with that
+METEORITE at MT. CHIMNEY?",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_1555411822879676,main_story,required_event,,MossdeepCity,MossdeepCity,,data/maps/MossdeepCity/scripts.inc,418,MossdeepCity_Text_SootopolisNewGymLeader,"Ahh… It feels great letting the waves\nwash over my feet…\pSpeaking of the waves, you know that\nisland city SOOTOPOLIS?\pI think the GYM there had a new\nLEADER come in.\pPeople tell me the new LEADER once\nmentored WALLACE.$","Ahh… It feels great letting the waves
+wash over my feet…
+[PAGE]
+Speaking of the waves, you know that
+island city SOOTOPOLIS?
+[PAGE]
+I think the GYM there had a new
+LEADER come in.
+[PAGE]
+People tell me the new LEADER once
+mentored WALLACE.",,untranslated,\n | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_07ee57bffb483b68,main_story,required_event,,MossdeepCity_PokemonCenter_1F,MossdeepCity PokemonCenter 1F,,data/maps/MossdeepCity_PokemonCenter_1F/scripts.inc,25,MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable,"The GYM LEADERS in this town are\na formidable duo.\pTheir combination attacks are, like,\nexcellent and wow!$","The GYM LEADERS in this town are
+a formidable duo.
+[PAGE]
+Their combination attacks are, like,
+excellent and wow!",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_ed68ce020b1d6ba1,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
+[PAGE]
+By amplifying its power with this
+machine, MT. CHIMNEY's volcanic
+activity will instantly intensify…
+[PAGE]
+Its energy will grow deep inside
+the crater and…
+Fufufu…",,untranslated,\p | \n | \l | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_e5fe9110f8a82454,main_story,required_event,,MtChimney,MtChimney,Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
+Who are you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+I'd heard ARCHIE bemoaning a child
+who's been meddling in TEAM AQUA's
+affairs.
+[PAGE]
+It must be you he meant.
+[PAGE]
+Humph! So you're thinking of
+interfering with us, TEAM MAGMA?
+[PAGE]
+Now you listen.
+Long ago, living things used the
+land to live and grow.
+[PAGE]
+That is why land is all important!
+It is the cradle of all!
+[PAGE]
+That is why TEAM MAGMA is dedicated
+to the expansion of the land mass.
+[PAGE]
+It is for further advancement of
+humankind and POKéMON!
+[PAGE]
+And for that, we need the power of
+what sleeps within this mountain…
+[PAGE]
+Oh! There was no need for you to
+learn that much.
+[PAGE]
+But, no matter!
+I'll teach you the consequences of
+meddling in our grand design!",,untranslated,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_c134f6ae42e00d98,main_story,required_event,,MtChimney,MtChimney,Maxie,data/maps/MtChimney/scripts.inc,565,MtChimney_Text_MaxieDefeat,"What?!\pI, MAXIE, was caught off guard?!$","What?!
+[PAGE]
+I, MAXIE, was caught off guard?!",,untranslated,\p,,,Map path or label explicitly identifies progression.
+dlg_6d5968a287374b4b,main_story,required_event,,MtChimney,MtChimney,Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
+I will back off this time.
+[PAGE]
+But don't think that this is the last
+you've seen of TEAM MAGMA.
+[PAGE]
+Fufufu…
+[PAGE]
+Even without the METEORITE, if we
+obtain that ORB… Fufufu…",,untranslated,\n | \p | \n | \p | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_1ceb8f2bfa0b16f9,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,578,MtChimney_Text_TabithaIntro,Hehehe!\pSo you've come all the way here!\pBut you're too late!\nI've already delivered the METEORITE\lfrom METEOR FALLS to the BOSS!$,"Hehehe!
+[PAGE]
+So you've come all the way here!
+[PAGE]
+But you're too late!
+I've already delivered the METEORITE
+from METEOR FALLS to the BOSS!",,untranslated,\p | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_ac88dbe1f02464a9,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,585,MtChimney_Text_TabithaDefeat,"Hehehe…\pEven though I've lost, if our leader\nawakens that thing…$","Hehehe…
+[PAGE]
+Even though I've lost, if our leader
+awakens that thing…",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_669127cbcde00209,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,590,MtChimney_Text_TabithaPostBattle,"BOSS, hurry!\nGive it the METEORITE's energy!\pHehehe…$","BOSS, hurry!
+Give it the METEORITE's energy!
+[PAGE]
+Hehehe…",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_eab7a56b0df38c8b,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,595,MtChimney_Text_Grunt2Intro,"We of TEAM MAGMA are working hard for\neveryone's sake.\pLike, if that thing's power made more\nland, there'd be more places to live.\pEveryone'd be happy!$","We of TEAM MAGMA are working hard for
+everyone's sake.
+[PAGE]
+Like, if that thing's power made more
+land, there'd be more places to live.
+[PAGE]
+Everyone'd be happy!",,untranslated,\n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_80334d6a55280f73,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,602,MtChimney_Text_Grunt2Defeat,Hunh?\nWhat do you mean I lost?$,"Hunh?
+What do you mean I lost?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_37631e945edafd2c,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,606,MtChimney_Text_Grunt2PostBattle,"Our BOSS says, “It will make everyone\nhappy.”\pBut why does everyone keep getting\nin our way?$","Our BOSS says, “It will make everyone
+happy.”
+[PAGE]
+But why does everyone keep getting
+in our way?",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_4643adc5b0ab932b,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,612,MtChimney_Text_Grunt1Intro,"If there were more land, I'd be able\nto get a big house of my own!\pI'm going to build it on hardened lava!$","If there were more land, I'd be able
+to get a big house of my own!
+[PAGE]
+I'm going to build it on hardened lava!",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_49c6872b2652a838,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,617,MtChimney_Text_Grunt1Defeat,My dream of a big house…$,My dream of a big house…,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_9083552880db8ac5,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,620,MtChimney_Text_Grunt1PostBattle,"A kid like you, you ought to be\nsplashing about in the waves!$","A kid like you, you ought to be
+splashing about in the waves!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_986824b3b8a6bccb,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,624,MtChimney_Text_TeamAquaAlwaysMessingWithPlans,That annoying TEAM AQUA…\nThey always mess with our plans!$,"That annoying TEAM AQUA…
+They always mess with our plans!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_a860538684a68d8c,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,628,MtChimney_Text_MeteoritesPackAmazingPower,METEORITES pack amazing power!$,METEORITES pack amazing power!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_ce55fa82c8f7da4e,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,631,MtChimney_Text_YouBetterNotMessWithUs,You'd better not mess with us!\pWe're trying to awaken that thing\nfor the benefit of everyone!$,"You'd better not mess with us!
+[PAGE]
+We're trying to awaken that thing
+for the benefit of everyone!",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_d36666875ae0f66a,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,636,MtChimney_Text_AquasNameSimilar,We're TEAM MAGMA!\pThey're TEAM AQUA!\pIt totally annoys me that they'd\nuse a name like ours!$,"We're TEAM MAGMA!
+[PAGE]
+They're TEAM AQUA!
+[PAGE]
+It totally annoys me that they'd
+use a name like ours!",,untranslated,\p | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_daa8da81d3b81e72,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,642,MtChimney_Text_DouseThemInFire,Yeah!\nDouse them in fire!$,"Yeah!
+Douse them in fire!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_9e0eaa0c8ac628ef,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,646,MtChimney_Text_KeepMakingMoreLand,We're going to keep making more land!$,We're going to keep making more land!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_c0c2759005a49289,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,649,MtChimney_Text_Bufoh,Bufoh!$,Bufoh!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_3a084ac6783a9ce7,main_story,required_event,,MtChimney,MtChimney,Archie,data/maps/MtChimney/scripts.inc,652,MtChimney_Text_ArchieGoStopTeamMagma,"ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$","ARCHIE: Grr, {PLAYER}!
+I should've guessed you'd show up!
+[PAGE]
+See for yourself what the fanatics
+of TEAM MAGMA are up to!
+[PAGE]
+They're trying to inject the stolen
+METEORITE's power into the volcano!
+[PAGE]
+Doing something like that will cause
+the volcano's eruption!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_3e2b11896ebb1637,main_story,required_event,,MtChimney,MtChimney,Archie,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
+[PAGE]
+I want to stop that MAXIE,
+but I can't!
+[PAGE]
+Not when I have my hands full battling
+three opponents at once!",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_31d1999313c6eb44,main_story,required_event,,MtChimney,MtChimney,Archie,data/maps/MtChimney/scripts.inc,669,MtChimney_Text_ArchieThankYou,"ARCHIE: {PLAYER}!\nThank you!\pWith your help, we thwarted TEAM\nMAGMA's destructive plan!\pBut… You…\nWhose side are you on?\pAh, it doesn't matter.\pWe will remain vigilant and keep up\nour pursuit of TEAM MAGMA.\p{PLAYER}, we shall meet again!$","ARCHIE: {PLAYER}!
+Thank you!
+[PAGE]
+With your help, we thwarted TEAM
+MAGMA's destructive plan!
+[PAGE]
+But… You…
+Whose side are you on?
+[PAGE]
+Ah, it doesn't matter.
+[PAGE]
+We will remain vigilant and keep up
+our pursuit of TEAM MAGMA.
+[PAGE]
+{PLAYER}, we shall meet again!",,untranslated,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},,Map path or label explicitly identifies progression.
+dlg_1bd4e1960302c4b2,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,681,MtChimney_Text_MagmaOutnumbersUs,Darn… TEAM MAGMA outnumbers us!\nWe can't keep up with them!$,"Darn… TEAM MAGMA outnumbers us!
+We can't keep up with them!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_ebe3ab981296a9df,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,685,MtChimney_Text_LessHabitatForWaterPokemon,"If they expand the land, there'll be\nless habitats for WATER POKéMON!$","If they expand the land, there'll be
+less habitats for WATER POKéMON!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_0bf06ecb62921e4c,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,689,MtChimney_Text_MagmasNameSimilar,We're TEAM AQUA!\pThey're TEAM MAGMA!\pIt burns me up that they'd use such\na confusing name!$,"We're TEAM AQUA!
+[PAGE]
+They're TEAM MAGMA!
+[PAGE]
+It burns me up that they'd use such
+a confusing name!",,untranslated,\p | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_5c5fe2d5915812e8,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,695,MtChimney_Text_Bushaa,Bushaa!$,Bushaa!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_671b8c077e245297,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,698,MtChimney_Text_LavaCookiesJust200,LAVA COOKIES are MT. CHIMNEY's local\nspecialty.\pTry one. It's just ¥200.$,"LAVA COOKIES are MT. CHIMNEY's local
+specialty.
+[PAGE]
+Try one. It's just ¥200.",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_3a9e7dda4ca6ab00,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,703,MtChimney_Text_ThankYouDear,"Thank you, dear!$","Thank you, dear!",,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_03c9dc8d56b10234,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,706,MtChimney_Text_YouveNotGotTheMoney,"Oh, dear. You can't buy a thing if\nyou've not got the money.$","Oh, dear. You can't buy a thing if
+you've not got the money.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_fb4ad8291ca6ff0e,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,710,MtChimney_Text_OhFineThen,"Oh, fine then.$","Oh, fine then.",,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_1357e522aad938f9,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,713,MtChimney_Text_MeteoriteFittedOnMachine,A METEORITE is fitted on a mysterious\nmachine…\pThe machine seems to be storing\nenergy in the METEORITE.$,"A METEORITE is fitted on a mysterious
+machine…
+[PAGE]
+The machine seems to be storing
+energy in the METEORITE.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_7be0051cc759f947,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,719,MtChimney_Text_RemoveTheMeteorite,A METEORITE is fitted on a mysterious\nmachine…\pDo you want to remove the METEORITE?$,"A METEORITE is fitted on a mysterious
+machine…
+[PAGE]
+Do you want to remove the METEORITE?",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_42c985b1510208be,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
+the mysterious machine.",,untranslated,{PLAYER} | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_525bad52ad5b4dac,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,728,MtChimney_Text_PlayerLeftMeteorite,{PLAYER} left the METEORITE where\nit was.$,"{PLAYER} left the METEORITE where
+it was.",,untranslated,{PLAYER} | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_554870797a5f0166,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,732,MtChimney_Text_MachineMakesNoResponse,This mysterious machine…\nIt makes no response whatsoever.$,"This mysterious machine…
+It makes no response whatsoever.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_de3225458f010395,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,736,MtChimney_Text_RouteSign,{DOWN_ARROW} JAGGED PATH\nLAVARIDGE TOWN AHEAD$,"{DOWN_ARROW} JAGGED PATH
+LAVARIDGE TOWN AHEAD",,untranslated,{DOWN_ARROW} | \n,,,Map path or label explicitly identifies progression.
+dlg_6602d5e9352f361f,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,740,MtChimney_Text_ShelbyIntro,I've been to the hot springs and\nrefreshed my tired bones.\lRight now I'm feeling strong!$,"I've been to the hot springs and
+refreshed my tired bones.
+Right now I'm feeling strong!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_4c833b7e8b0f1052,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,745,MtChimney_Text_ShelbyDefeat,"Oh, my goodness.\nNow, aren't you something!$","Oh, my goodness.
+Now, aren't you something!",,untranslated,\n,,dup_00547,Map path or label explicitly identifies progression.
+dlg_5cb2b102ddef9731,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,749,MtChimney_Text_ShelbyPostBattle,"Well, well, I've lost. I can't call\nmyself an EXPERT now, can I?$","Well, well, I've lost. I can't call
+myself an EXPERT now, can I?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_ea4f8d5344dd4e95,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,753,MtChimney_Text_ShelbyRegister,"Thank you, child. It was fun, as if\nI were battling my own grandchild.\pPlease, come see me again for\na rematch.$","Thank you, child. It was fun, as if
+I were battling my own grandchild.
+[PAGE]
+Please, come see me again for
+a rematch.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_4d9f0c9f1519c9a0,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,759,MtChimney_Text_ShelbyRematchIntro,"If you can mesh your heart with those\nof your POKéMON, why, you should be\lable to achieve great things.$","If you can mesh your heart with those
+of your POKéMON, why, you should be
+able to achieve great things.",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_e84b07c7e08982ab,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,764,MtChimney_Text_ShelbyRematchDefeat,"Oh, my goodness.\nNow, aren't you something!$","Oh, my goodness.
+Now, aren't you something!",,untranslated,\n,,dup_00547,Map path or label explicitly identifies progression.
+dlg_d5335663f341f9d5,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,768,MtChimney_Text_ShelbyPostRematch,Perhaps your heart has become one\nwith the hearts of your POKéMON.$,"Perhaps your heart has become one
+with the hearts of your POKéMON.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_b4796cc7b0c88e45,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,772,MtChimney_Text_MelissaIntro,"I've got the fire in me, baby.\nI can't stand it! I have to battle!$","I've got the fire in me, baby.
+I can't stand it! I have to battle!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_8acb911c596d697b,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,776,MtChimney_Text_MelissaDefeat,"Ooh, that was a scorching-hot match!$","Ooh, that was a scorching-hot match!",,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_04e32c2ed7d58eb7,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,779,MtChimney_Text_MelissaPostBattle,"The heat of MT. CHIMNEY warms\nme up, baby!$","The heat of MT. CHIMNEY warms
+me up, baby!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_daccf8f2a49a4aa8,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,783,MtChimney_Text_SheilaIntro,I've finally made it to MT. CHIMNEY.\nI want to make my POKéMON battle!$,"I've finally made it to MT. CHIMNEY.
+I want to make my POKéMON battle!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_c877085585a46eef,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,787,MtChimney_Text_SheilaDefeat,The way you battle…\nIt's like a MT. CHIMNEY eruption!$,"The way you battle…
+It's like a MT. CHIMNEY eruption!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_3f84d4fb6ff19c9b,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,791,MtChimney_Text_SheilaPostBattle,"Like I said, I've finally made it to\nMT. CHIMNEY. It would be a shame if\lI only do a little sightseeing…\pI want to get in some battles and buy\nCOOKIES as souvenirs.$","Like I said, I've finally made it to
+MT. CHIMNEY. It would be a shame if
+I only do a little sightseeing…
+[PAGE]
+I want to get in some battles and buy
+COOKIES as souvenirs.",,untranslated,\n | \l | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_d812ca0fbb1a7936,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,798,MtChimney_Text_ShirleyIntro,"Since I bathed in the hot springs,\nI've been feeling great!\lI'm sure I'm going to win!$","Since I bathed in the hot springs,
+I've been feeling great!
+I'm sure I'm going to win!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_f0711698868fc168,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,803,MtChimney_Text_ShirleyDefeat,Yowch!\nI'm getting a chill out of the water.$,"Yowch!
+I'm getting a chill out of the water.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_51e2d3da1f7bfdb6,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,807,MtChimney_Text_ShirleyPostBattle,I'll have to take another dip in the\nhot springs. Want to join me?\pJust joking!$,"I'll have to take another dip in the
+hot springs. Want to join me?
+[PAGE]
+Just joking!",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_cd7bf46f72e96a93,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,812,MtChimney_Text_SawyerIntro,This is one fine mountain! Plenty of\nhot people around for company!$,"This is one fine mountain! Plenty of
+hot people around for company!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_8363de9efe8cc8ff,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,816,MtChimney_Text_SawyerDefeat,"Oh, you're a real firebrand, too!$","Oh, you're a real firebrand, too!",,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_17ebdcbdf1abaa9a,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,819,MtChimney_Text_SawyerPostBattle,I think I need a dip in LAVARIDGE\nHOT SPRING with the locals!$,"I think I need a dip in LAVARIDGE
+HOT SPRING with the locals!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_7346074e0447b18c,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,823,MtChimney_Text_SawyerRegister,I like little fireballs like you.\nLet me register you in my POKéNAV.$,"I like little fireballs like you.
+Let me register you in my POKéNAV.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_eb942cdd3b08db03,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,827,MtChimney_Text_SawyerRematchIntro,I'm happily surrounded by hot people\naround these parts. I won't lose!$,"I'm happily surrounded by hot people
+around these parts. I won't lose!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_ee14859bee3bebeb,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,831,MtChimney_Text_SawyerRematchDefeat,"Gosh, you're still the same\nfirebrand as before!$","Gosh, you're still the same
+firebrand as before!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_7c8fa46c1923a6dd,main_story,required_event,,MtChimney,MtChimney,,data/maps/MtChimney/scripts.inc,835,MtChimney_Text_SawyerPostRematch,"Actually, it really is hot here.\nI'm overdressed for these parts.$","Actually, it really is hot here.
+I'm overdressed for these parts.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_7476af84e7c6e5d6,main_story,required_event,,MtChimney_CableCarStation,MtChimney CableCarStation,,data/maps/MtChimney_CableCarStation/scripts.inc,84,MtChimney_CableCarStation_Text_CableCarReadyGetOn,The CABLE CAR is ready to go down.\nWould you like to be on it?$,"The CABLE CAR is ready to go down.
+Would you like to be on it?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_e42d1c0db427842d,main_story,required_event,,MtChimney_CableCarStation,MtChimney CableCarStation,,data/maps/MtChimney_CableCarStation/scripts.inc,88,MtChimney_CableCarStation_Text_StepThisWay,Please step this way.$,Please step this way.,,untranslated,,,dup_00609,Map path or label explicitly identifies progression.
+dlg_61912d9164ce549c,main_story,required_event,,MtChimney_CableCarStation,MtChimney CableCarStation,,data/maps/MtChimney_CableCarStation/scripts.inc,91,MtChimney_CableCarStation_Text_RideAnotherTime,Please ride with us another time.$,Please ride with us another time.,,untranslated,,,dup_00607,Map path or label explicitly identifies progression.
+dlg_c4cce4dd46dea55a,main_story,required_event,,PacifidlogTown,PacifidlogTown,,data/maps/PacifidlogTown/scripts.inc,40,PacifidlogTown_Text_SkyPillarTooScary,"The SKY PILLAR?\p…Oh, you must mean that tall, tall\ntower a little further out.\pIf you asked me, I wouldn't climb it.\nIt's too scary to get up that high.\pLife at sea level in PACIFIDLOG,\nthat suits me fine.$","The SKY PILLAR?
+[PAGE]
+…Oh, you must mean that tall, tall
+tower a little further out.
+[PAGE]
+If you asked me, I wouldn't climb it.
+It's too scary to get up that high.
+[PAGE]
+Life at sea level in PACIFIDLOG,
+that suits me fine.",,untranslated,\p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_37eca4879919da3d,main_story,required_event,,PetalburgCity_Gym,PetalburgCity Gym,,data/maps/PetalburgCity_Gym/scripts.inc,1539,PetalburgCity_Gym_Text_EnterGymLeadersRoom,“GYM LEADER'S ROOM\p“See for yourself what POKéMON await\nyou!” the sign says.\pDo you want to go through?$,"“GYM LEADER'S ROOM
+[PAGE]
+“See for yourself what POKéMON await
+you!” the sign says.
+[PAGE]
+Do you want to go through?",,untranslated,\p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_3f86ce75f3c4dfcd,main_story,required_event,,PetalburgCity_House2,PetalburgCity House2,Norman,data/maps/PetalburgCity_House2/scripts.inc,11,PetalburgCity_House2_Text_NormanBecameGymLeader,NORMAN became our town's new\nGYM LEADER.\pI think he called his family over from\nsomewhere far away.$,"NORMAN became our town's new
+GYM LEADER.
+[PAGE]
+I think he called his family over from
+somewhere far away.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_336e8108b12b0684,main_story,required_event,,PetalburgWoods,PetalburgWoods,,data/maps/PetalburgWoods/scripts.inc,341,PetalburgWoods_Text_NoOneCrossesTeamAqua,"Hunh? What do you think you're doing?\nWhat, you're going to protect him?\pNo one who crosses TEAM AQUA\ngets any mercy, not even a kid!\pCome on and battle me!$","Hunh? What do you think you're doing?
+What, you're going to protect him?
+[PAGE]
+No one who crosses TEAM AQUA
+gets any mercy, not even a kid!
+[PAGE]
+Come on and battle me!",,untranslated,\n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_0a3cb3b6b3608ab9,main_story,required_event,,PetalburgWoods,PetalburgWoods,,data/maps/PetalburgWoods/scripts.inc,369,PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro,"Didn't that TEAM AQUA thug say\nthey were after something in\lRUSTBORO, too?$","Didn't that TEAM AQUA thug say
+they were after something in
+RUSTBORO, too?",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_8b0efa97a96d7d5f,main_story,required_event,,Route112,Route112,,data/maps/Route112/scripts.inc,129,Route112_Text_MtChimneyCableCarSign,MT. CHIMNEY CABLE CAR\n“A short walk {UP_ARROW} way!”$,"MT. CHIMNEY CABLE CAR
+“A short walk {UP_ARROW} way!”",,untranslated,\n | {UP_ARROW},,,Map path or label explicitly identifies progression.
+dlg_7d3d6b9bc5613a10,main_story,required_event,,Route112,Route112,,data/maps/Route112/scripts.inc,133,Route112_Text_MtChimneySign,"MT. CHIMNEY\p“For LAVARIDGE TOWN or the summit,\nplease take the CABLE CAR.”$","MT. CHIMNEY
+[PAGE]
+“For LAVARIDGE TOWN or the summit,
+please take the CABLE CAR.”",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_9c569fa2dbb39f53,main_story,required_event,,Route119,Route119,,data/maps/Route119/scripts.inc,565,Route119_Text_StayAwayFromWeatherInstitute,"We're standing lookout here.\pHey, you! Stay away from the WEATHER\nINSTITUTE. It's not safe.$","We're standing lookout here.
+[PAGE]
+Hey, you! Stay away from the WEATHER
+INSTITUTE. It's not safe.",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_d063d7a634fa25c5,main_story,required_event,,Route119,Route119,,data/maps/Route119/scripts.inc,570,Route119_Text_DontGoNearWeatherInstitute,"Lookout duty is surprisingly boring.\pHey, you! Please don't go near the\nWEATHER INSTITUTE.$","Lookout duty is surprisingly boring.
+[PAGE]
+Hey, you! Please don't go near the
+WEATHER INSTITUTE.",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_650c1f2ef6216e26,main_story,required_event,,Route119,Route119,,data/maps/Route119/scripts.inc,599,Route119_Text_WeatherInstitute,WEATHER INSTITUTE$,WEATHER INSTITUTE,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_0cbfafdf4b32af06,main_story,required_event,,Route119_House,Route119 House,,data/maps/Route119_House/scripts.inc,17,Route119_House_Text_RumorAboutCaveOfOrigin,I heard about a cave called the CAVE\nOF ORIGIN.\pPeople rumor that the spirits of\nPOKéMON are revived there. Could\lsomething like that really happen?$,"I heard about a cave called the CAVE
+OF ORIGIN.
+[PAGE]
+People rumor that the spirits of
+POKéMON are revived there. Could
+something like that really happen?",,untranslated,\n | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_c73f5e4346af8ca2,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,70,Route119_WeatherInstitute_1F_Text_Grunt1Intro,"The BOSS got interested in\nthe research they have going here,\lso he sent us out.\pYou quit meddling!$","The BOSS got interested in
+the research they have going here,
+so he sent us out.
+[PAGE]
+You quit meddling!",,untranslated,\n | \l | \p,,,Map path or label explicitly identifies progression.
+dlg_5bef41ad5852edf2,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,76,Route119_WeatherInstitute_1F_Text_Grunt1Defeat,Blast it…\nBlasted by a kid…$,"Blast it…
+Blasted by a kid…",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_5d357d932a4db8dc,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,80,Route119_WeatherInstitute_1F_Text_Grunt1PostBattle,Our BOSS knows everything.\pBut I'm just a GRUNT. What would I know\nabout what he's thinking?$,"Our BOSS knows everything.
+[PAGE]
+But I'm just a GRUNT. What would I know
+about what he's thinking?",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_43f56d8bc9285473,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,85,Route119_WeatherInstitute_1F_Text_Grunt4Intro,Huh?\nWhat's a kid doing here?$,"Huh?
+What's a kid doing here?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_7411a92c3001fb84,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,89,Route119_WeatherInstitute_1F_Text_Grunt4Defeat,Huh?\nI lost?!$,"Huh?
+I lost?!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_d8b9cba78d230c7b,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,93,Route119_WeatherInstitute_1F_Text_Grunt4PostBattle,"Oh, no…\nI'll catch an earful for losing to a kid…\pI should just take a nap in the bed…$","Oh, no…
+I'll catch an earful for losing to a kid…
+[PAGE]
+I should just take a nap in the bed…",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_534274fb4e9501fa,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,98,Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs,"While I was sleeping, everyone went\nupstairs!$","While I was sleeping, everyone went
+upstairs!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_950ce4df6c0e3440,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,102,Route119_WeatherInstitute_1F_Text_WowYoureStrong,"Wow, you're really strong!\pI wish I could be a POKéMON TRAINER\nlike you!$","Wow, you're really strong!
+[PAGE]
+I wish I could be a POKéMON TRAINER
+like you!",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_2416410fc73aece1,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,107,Route119_WeatherInstitute_1F_Text_ProfStudyingRain,"The PROFESSOR loves rain.\nThat's a fact.\pBut if it keeps raining, people will be in\ntrouble. That's another fact.\pAnd thus, the PROFESSOR is studying\nif the rain can be put to good use.$","The PROFESSOR loves rain.
+That's a fact.
+[PAGE]
+But if it keeps raining, people will be in
+trouble. That's another fact.
+[PAGE]
+And thus, the PROFESSOR is studying
+if the rain can be put to good use.",,untranslated,\n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_ee4466480bb0622d,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,115,Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather,"On the 2nd floor of the INSTITUTE,\nwe study the weather patterns over\lthe HOENN region.\pWe've been noticing temporary and\nisolated cases of droughts and\lheavy rain lately…$","On the 2nd floor of the INSTITUTE,
+we study the weather patterns over
+the HOENN region.
+[PAGE]
+We've been noticing temporary and
+isolated cases of droughts and
+heavy rain lately…",,untranslated,\n | \l | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_3d48e6447e079ccf,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,123,Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo,Hello!\nWe've been saved by your actions!\pWhat I don't understand is what on\nearth the AQUAS were up to.$,"Hello!
+We've been saved by your actions!
+[PAGE]
+What I don't understand is what on
+earth the AQUAS were up to.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_2353cfb220650f85,main_story,required_event,,Route119_WeatherInstitute_1F,Route119 WeatherInstitute 1F,,data/maps/Route119_WeatherInstitute_1F/scripts.inc,129,Route119_WeatherInstitute_1F_Text_TakeRestInBed,There's a bed…\nLet's take a rest.$,"There's a bed…
+Let's take a rest.",,untranslated,\n,,dup_00811,Map path or label explicitly identifies progression.
+dlg_1c5b0e95acf54572,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,205,Route119_WeatherInstitute_2F_Text_Grunt2Intro,The INSTITUTE created a type of\nPOKéMON that has something to do with\lthe weather. We're here to take them!$,"The INSTITUTE created a type of
+POKéMON that has something to do with
+the weather. We're here to take them!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_1adf8439da602ee7,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,210,Route119_WeatherInstitute_2F_Text_Grunt2Defeat,Our plan's being spoiled by a kid?$,Our plan's being spoiled by a kid?,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_1aa05a4dfce303a2,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,213,Route119_WeatherInstitute_2F_Text_Grunt2PostBattle,"If the POKéMON they made here can\ncontrol the weather freely, then we of\lTEAM AQUA definitely need it!$","If the POKéMON they made here can
+control the weather freely, then we of
+TEAM AQUA definitely need it!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_9b14a4ab4ef1c286,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,218,Route119_WeatherInstitute_2F_Text_Grunt3Intro,We're TEAM AQUA!\nWe appear wherever anything rare is\lfound!$,"We're TEAM AQUA!
+We appear wherever anything rare is
+found!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_1806892a0b65f677,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,223,Route119_WeatherInstitute_2F_Text_Grunt3Defeat,You got me!$,You got me!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_368ba7cc0c0d2f3a,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,226,Route119_WeatherInstitute_2F_Text_Grunt3PostBattle,You don't have any idea what we of\nTEAM AQUA are working towards!\lYou stay out of our way!$,"You don't have any idea what we of
+TEAM AQUA are working towards!
+You stay out of our way!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_770aceb05e6a4dfd,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,231,Route119_WeatherInstitute_2F_Text_Grunt5Intro,"Don't tell me you're looking for that\nweather POKéMON, too?\pThat's a no-no!\nWe were here to get it first!$","Don't tell me you're looking for that
+weather POKéMON, too?
+[PAGE]
+That's a no-no!
+We were here to get it first!",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_edefe97f1640f71b,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,237,Route119_WeatherInstitute_2F_Text_Grunt5Defeat,"Oh, will you look at my POKéMON?$","Oh, will you look at my POKéMON?",,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_436b93fcd5eb2447,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,240,Route119_WeatherInstitute_2F_Text_Grunt5PostBattle,"Humph, so what?\nWhat we want…\pWhat we really want isn't here…\nIhihihihi…$","Humph, so what?
+What we want…
+[PAGE]
+What we really want isn't here…
+Ihihihihi…",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_7b718f74ecd55148,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,246,Route119_WeatherInstitute_2F_Text_ShellyIntro,"Ahahahaha!\pYou're going to meddle in TEAM AQUA's\naffairs?\pYou're either absolutely fearless,\nsimply ignorant, or both!\pYou're so cute, you're disgusting!\nI'll put you down, kiddy!$","Ahahahaha!
+[PAGE]
+You're going to meddle in TEAM AQUA's
+affairs?
+[PAGE]
+You're either absolutely fearless,
+simply ignorant, or both!
+[PAGE]
+You're so cute, you're disgusting!
+I'll put you down, kiddy!",,untranslated,\p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_9732a91aae146075,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,255,Route119_WeatherInstitute_2F_Text_ShellyDefeat,Ahahahaha!\nYou're disgustingly strong!$,"Ahahahaha!
+You're disgustingly strong!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_13a3152f68944488,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,259,Route119_WeatherInstitute_2F_Text_ShellyPostBattle,"It's bad enough to have TEAM MAGMA\nblunder about, but now there's you!\pWhat makes you want to sniff around\nin our business, anyway?$","It's bad enough to have TEAM MAGMA
+blunder about, but now there's you!
+[PAGE]
+What makes you want to sniff around
+in our business, anyway?",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_6bc82f96214c6653,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,265,Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy,We have a situation here!\pA TEAM MAGMA mob just passed\nthe WEATHER INSTITUTE.\pThey appear to be headed for\nMT. PYRE!$,"We have a situation here!
+[PAGE]
+A TEAM MAGMA mob just passed
+the WEATHER INSTITUTE.
+[PAGE]
+They appear to be headed for
+MT. PYRE!",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_72d579cc12f30a2d,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,272,Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre,"What?!\pWe can't waste any more time here!\nWe have to hurry to MT. PYRE, too!\pAhahahaha!\nTEAM MAGMA, just you wait!$","What?!
+[PAGE]
+We can't waste any more time here!
+We have to hurry to MT. PYRE, too!
+[PAGE]
+Ahahahaha!
+TEAM MAGMA, just you wait!",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_15b8f87c5174f5d2,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,279,Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon,"Thanks!\nThanks to you, we're safe!\pIt might be an odd way of thanking you,\nbut take this POKéMON.$","Thanks!
+Thanks to you, we're safe!
+[PAGE]
+It might be an odd way of thanking you,
+but take this POKéMON.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_90fb5c64d2d394de,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,287,Route119_WeatherInstitute_2F_Text_NoRoomForPokemon,Hm? You don't seem to have any room\nfor this POKéMON.$,"Hm? You don't seem to have any room
+for this POKéMON.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_3949d91512dde4d1,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,290,Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform,{PLAYER} received CASTFORM!$,{PLAYER} received CASTFORM!,,untranslated,{PLAYER},{PLAYER},,Map path or label explicitly identifies progression.
+dlg_c2d3b191e1781d66,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,293,Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather,That POKéMON changes shape according\nto the weather conditions.\pThere're plenty of them in the\nINSTITUTE--go ahead and take it.$,"That POKéMON changes shape according
+to the weather conditions.
+[PAGE]
+There're plenty of them in the
+INSTITUTE--go ahead and take it.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_995c409b5d2bea2b,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,299,Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous,"I've been researching rain for many\nyears, but it's ridiculous to think that\lhumans can freely change the weather.$","I've been researching rain for many
+years, but it's ridiculous to think that
+humans can freely change the weather.",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_ab715d2f2f9af871,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,304,Route119_WeatherInstitute_2F_Text_GroudonWeather,"I track weather patterns over\nthe HOENN region.\pPresently, a drought has been recorded\nin {STR_VAR_1}.\pCould that mean, somewhere near\n{STR_VAR_1}…$","I track weather patterns over
+the HOENN region.
+[PAGE]
+Presently, a drought has been recorded
+in {STR_VAR_1}.
+[PAGE]
+Could that mean, somewhere near
+{STR_VAR_1}…",,untranslated,\n | \p | \n | {STR_VAR_1} | \p | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_1},,Map path or label explicitly identifies progression.
+dlg_f9cf96f99b7eaccb,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,312,Route119_WeatherInstitute_2F_Text_KyogreWeather,"I track weather patterns over\nthe HOENN region.\pPresently, heavy rainfall has been\nrecorded over {STR_VAR_1}.\pCould that mean, somewhere near\n{STR_VAR_1}…$","I track weather patterns over
+the HOENN region.
+[PAGE]
+Presently, heavy rainfall has been
+recorded over {STR_VAR_1}.
+[PAGE]
+Could that mean, somewhere near
+{STR_VAR_1}…",,untranslated,\n | \p | \n | {STR_VAR_1} | \p | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_1},,Map path or label explicitly identifies progression.
+dlg_a7bb72eca9108b95,main_story,required_event,,Route119_WeatherInstitute_2F,Route119 WeatherInstitute 2F,,data/maps/Route119_WeatherInstitute_2F/scripts.inc,320,Route119_WeatherInstitute_2F_Text_NoAbnormalWeather,"Abnormal weather conditions are\nno longer being reported.\pThe occasional rainfall is a blessing,\nreally.$","Abnormal weather conditions are
+no longer being reported.
+[PAGE]
+The occasional rainfall is a blessing,
+really.",,untranslated,\n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_f6ac483f9fcecb97,main_story,required_event,,RustboroCity,RustboroCity,,data/maps/RustboroCity/scripts.inc,1043,RustboroCity_Text_GymLeaderIsntEasyWithFire,"I challenged the GYM LEADER, but…\pIt's not going to be easy winning with\nmy FIRE-type POKéMON…\pFIRE-type POKéMON don't match up\nwell against ROCK-type POKéMON…$","I challenged the GYM LEADER, but…
+[PAGE]
+It's not going to be easy winning with
+my FIRE-type POKéMON…
+[PAGE]
+FIRE-type POKéMON don't match up
+well against ROCK-type POKéMON…",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_0027e4000ec8fec7,main_story,required_event,,SeafloorCavern_Entrance,SeafloorCavern Entrance,,data/maps/SeafloorCavern_Entrance/scripts.inc,58,SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep,"Hey!\nI remember your face!\pIf you're here, it must mean that\nyou're about to mess with us again!\pA punk like you, do you really think\nyou can take on TEAM AQUA?\pI'd say you're too early by about\na trillion years!\pYou're a perfect fit for the likes of\nTEAM MAGMA!\pSpeaking of TEAM MAGMA, I hear they\nwere spotted near MOSSDEEP.\pThat bunch of goons, they sure don't\nlook good near the sea!$","Hey!
+I remember your face!
+[PAGE]
+If you're here, it must mean that
+you're about to mess with us again!
+[PAGE]
+A punk like you, do you really think
+you can take on TEAM AQUA?
+[PAGE]
+I'd say you're too early by about
+a trillion years!
+[PAGE]
+You're a perfect fit for the likes of
+TEAM MAGMA!
+[PAGE]
+Speaking of TEAM MAGMA, I hear they
+were spotted near MOSSDEEP.
+[PAGE]
+That bunch of goons, they sure don't
+look good near the sea!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_712c3b885a284fc5,main_story,required_event,,SeafloorCavern_Entrance,SeafloorCavern Entrance,,data/maps/SeafloorCavern_Entrance/scripts.inc,74,SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort,"A punk like you, do you really think\nyou can take on TEAM AQUA?\pI'd say you're too early by about\na trillion years!\pYou're a perfect fit for the likes of\nTEAM MAGMA!\pSpeaking of TEAM MAGMA, I hear they\nwere spotted near MOSSDEEP.\pThat bunch of goons, they sure don't\nlook good near the sea!$","A punk like you, do you really think
+you can take on TEAM AQUA?
+[PAGE]
+I'd say you're too early by about
+a trillion years!
+[PAGE]
+You're a perfect fit for the likes of
+TEAM MAGMA!
+[PAGE]
+Speaking of TEAM MAGMA, I hear they
+were spotted near MOSSDEEP.
+[PAGE]
+That bunch of goons, they sure don't
+look good near the sea!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_7b5c292a947579af,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,13,SeafloorCavern_Room1_Text_Grunt1Intro,We don't need a kid around!\nGo on home already!$,"We don't need a kid around!
+Go on home already!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_2938397c43596c5a,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,17,SeafloorCavern_Room1_Text_Grunt1Defeat,I want to go home…$,I want to go home…,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_15c13b25a6b099d0,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,20,SeafloorCavern_Room1_Text_Grunt1PostBattle,I want to get a promotion so I can\nboss around the GRUNTS…$,"I want to get a promotion so I can
+boss around the GRUNTS…",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_0cea0d6f566b5816,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,24,SeafloorCavern_Room1_Text_Grunt2Intro,That submarine… It's tiny inside.\nI'm sore all over!$,"That submarine… It's tiny inside.
+I'm sore all over!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_dd1e9aade29a83df,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,28,SeafloorCavern_Room1_Text_Grunt2Defeat,Losing makes me sore!$,Losing makes me sore!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_0bbd667fcd9346c9,main_story,required_event,,SeafloorCavern_Room1,SeafloorCavern Room1,,data/maps/SeafloorCavern_Room1/scripts.inc,31,SeafloorCavern_Room1_Text_Grunt2PostBattle,"That submarine we jacked, man,\nit's brutal as a ride.\lIt's way too tight in there!$","That submarine we jacked, man,
+it's brutal as a ride.
+It's way too tight in there!",,untranslated,\n | \l,,,Map path or label explicitly identifies progression.
+dlg_0a971403edc34cae,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,13,SeafloorCavern_Room3_Text_ShellyIntro,"Ahahahaha!\pHow did you manage to get here without\na submarine?\lWhat an impressive child!\pBut… It won't do to have you\nmeddling about here.\pAnd, I do want payback for what\nhappened at the WEATHER INSTITUTE…\pI'm going to give you a little taste\nof pain! Resign yourself to it!$","Ahahahaha!
+[PAGE]
+How did you manage to get here without
+a submarine?
+What an impressive child!
+[PAGE]
+But… It won't do to have you
+meddling about here.
+[PAGE]
+And, I do want payback for what
+happened at the WEATHER INSTITUTE…
+[PAGE]
+I'm going to give you a little taste
+of pain! Resign yourself to it!",,untranslated,\p | \n | \l | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_30f1f34d8827c832,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,25,SeafloorCavern_Room3_Text_ShellyDefeat,Ahahahaha!\pOuch!$,"Ahahahaha!
+[PAGE]
+Ouch!",,untranslated,\p,,,Map path or label explicitly identifies progression.
+dlg_75070f450ae08c23,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,29,SeafloorCavern_Room3_Text_ShellyPostBattle,Ahahahaha!\nYou're so darn strong.\pIt's terribly disappointing that you're\nnot a TEAM AQUA member.\pYou could have enjoyed the fabulous\nworld our BOSS has promised as\lone of us…$,"Ahahahaha!
+You're so darn strong.
+[PAGE]
+It's terribly disappointing that you're
+not a TEAM AQUA member.
+[PAGE]
+You could have enjoyed the fabulous
+world our BOSS has promised as
+one of us…",,untranslated,\n | \p | \n | \p | \n | \l,,,Map path or label explicitly identifies progression.
+dlg_91fe8eab7ef16f8b,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,38,SeafloorCavern_Room3_Text_Grunt5Intro,"For our dream to become real, we need\nthe power of POKéMON.\pBut meddlers like you use the power of\nPOKéMON to mess with us even at\la place like this!\pLife just doesn't work the way we\nneed it to!$","For our dream to become real, we need
+the power of POKéMON.
+[PAGE]
+But meddlers like you use the power of
+POKéMON to mess with us even at
+a place like this!
+[PAGE]
+Life just doesn't work the way we
+need it to!",,untranslated,\n | \p | \n | \l | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_8b62a9aa0db6b225,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,47,SeafloorCavern_Room3_Text_Grunt5Defeat,Gwah!$,Gwah!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_88bdc5556c6e7f61,main_story,required_event,,SeafloorCavern_Room3,SeafloorCavern Room3,,data/maps/SeafloorCavern_Room3/scripts.inc,50,SeafloorCavern_Room3_Text_Grunt5PostBattle,"You know, we don't dare question\nthe motives of our leader.\pBut here you are, just some punk,\ngoing up against our BOSS.\pMaybe…\nYou must be something…$","You know, we don't dare question
+the motives of our leader.
+[PAGE]
+But here you are, just some punk,
+going up against our BOSS.
+[PAGE]
+Maybe…
+You must be something…",,untranslated,\n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_97d0e8d775af9375,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,13,SeafloorCavern_Room4_Text_Grunt3Intro,Who are you?\nWhere did you come in from?$,"Who are you?
+Where did you come in from?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_03077d6e6cf2c6bb,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,17,SeafloorCavern_Room4_Text_Grunt3Defeat,Lost it…$,Lost it…,,untranslated,,,dup_00448,Map path or label explicitly identifies progression.
+dlg_fabda0bbd91c705e,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,20,SeafloorCavern_Room4_Text_Grunt3PostBattle,I can't find the way out!\pI'm not afraid. Don't get me wrong!$,"I can't find the way out!
+[PAGE]
+I'm not afraid. Don't get me wrong!",,untranslated,\p,,,Map path or label explicitly identifies progression.
+dlg_33d37bd7be0a6245,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,24,SeafloorCavern_Room4_Text_Grunt4Intro,Who are you?\nWhere do you think you're going?$,"Who are you?
+Where do you think you're going?",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_70298dbed2c21e1c,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,28,SeafloorCavern_Room4_Text_Grunt4Defeat,I failed to win!$,I failed to win!,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_11d8c08a2994f138,main_story,required_event,,SeafloorCavern_Room4,SeafloorCavern Room4,,data/maps/SeafloorCavern_Room4/scripts.inc,31,SeafloorCavern_Room4_Text_Grunt4PostBattle,My partner forgot the map in that\nsubmarine!\pHow's that for being useless?$,"My partner forgot the map in that
+submarine!
+[PAGE]
+How's that for being useless?",,untranslated,\n | \p,,,Map path or label explicitly identifies progression.
+dlg_56c225a224c38318,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,217,SeafloorCavern_Room9_Text_ArchieHoldItRightThere,ARCHIE: Hold it right there.$,ARCHIE: Hold it right there.,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_e21be4ce24181c9d,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,220,SeafloorCavern_Room9_Text_ArchieSoItWasYou,"ARCHIE: Fufufu…\nSo it was you, after all.$","ARCHIE: Fufufu…
+So it was you, after all.",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_672712da70f8720a,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,224,SeafloorCavern_Room9_Text_ArchieBeholdKyogre,"ARCHIE: Behold!\pSee how beautiful it is, the sleeping\nform of the ancient POKéMON KYOGRE!\pI have waited so long for this day to\ncome…$","ARCHIE: Behold!
+[PAGE]
+See how beautiful it is, the sleeping
+form of the ancient POKéMON KYOGRE!
+[PAGE]
+I have waited so long for this day to
+come…",,untranslated,\p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_904db249c77a5fb4,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,231,SeafloorCavern_Room9_Text_ArchieYouMustDisappear,"ARCHIE: It surprises me, how you've\nmanaged to chase me here.\pBut that's all over now.\pFor the realization of my dream,\nyou must disappear now!$","ARCHIE: It surprises me, how you've
+managed to chase me here.
+[PAGE]
+But that's all over now.
+[PAGE]
+For the realization of my dream,
+you must disappear now!",,untranslated,\n | \p | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_0571e092a312718b,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,238,SeafloorCavern_Room9_Text_ArchieDefeat,What?!\nI lost to a mere child like you?!$,"What?!
+I lost to a mere child like you?!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_5b8c8d67abbc38ae,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,242,SeafloorCavern_Room9_Text_ArchieWithThisRedOrb,"ARCHIE: Fufufu…\pI commend you. I must recognize that\nyou are truly gifted.\pBut!\nI have this in my possession!\pWith this RED ORB, I can make KYOGRE…$","ARCHIE: Fufufu…
+[PAGE]
+I commend you. I must recognize that
+you are truly gifted.
+[PAGE]
+But!
+I have this in my possession!
+[PAGE]
+With this RED ORB, I can make KYOGRE…",,untranslated,\p | \n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_30a432ed17b0bf86,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,,data/maps/SeafloorCavern_Room9/scripts.inc,250,SeafloorCavern_Room9_Text_RedOrbShinesByItself,The RED ORB suddenly began shining\nby itself!$,"The RED ORB suddenly began shining
+by itself!",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_5e4dc15ea2604bc6,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,254,SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo,ARCHIE: What?!\pI didn't do anything.\nWhy did the RED ORB…\pWhere did KYOGRE go?$,"ARCHIE: What?!
+[PAGE]
+I didn't do anything.
+Why did the RED ORB…
+[PAGE]
+Where did KYOGRE go?",,untranslated,\p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_42f4426fdf01c018,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,260,SeafloorCavern_Room9_Text_ArchieAMessageFromOutside,ARCHIE: Hm? It's a message from our\nmembers outside…$,"ARCHIE: Hm? It's a message from our
+members outside…",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_50cdd92ec4d3dc51,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,264,SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard,"ARCHIE: Yes, what is it?\pHm…\nIt's raining heavily?\pGood… That should have happened.\nThat is why we awakened KYOGRE,\lto realize TEAM AQUA's vision of\lexpanding the sea.\pWhat?!\pIt's raining far harder than we\nenvisioned? You're in danger?\pThat can't be…\nThat's just not possible…\pHold your position and monitor\nthe situation!$","ARCHIE: Yes, what is it?
+[PAGE]
+Hm…
+It's raining heavily?
+[PAGE]
+Good… That should have happened.
+That is why we awakened KYOGRE,
+to realize TEAM AQUA's vision of
+expanding the sea.
+[PAGE]
+What?!
+[PAGE]
+It's raining far harder than we
+envisioned? You're in danger?
+[PAGE]
+That can't be…
+That's just not possible…
+[PAGE]
+Hold your position and monitor
+the situation!",,untranslated,\p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_57e3edbafd739069,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,280,SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear,ARCHIE: There's something wrong…\pThe RED ORB is supposed to awaken\nand control KYOGRE…\pBut… Why?\nWhy did KYOGRE disappear?\pWhy?!$,"ARCHIE: There's something wrong…
+[PAGE]
+The RED ORB is supposed to awaken
+and control KYOGRE…
+[PAGE]
+But… Why?
+Why did KYOGRE disappear?
+[PAGE]
+Why?!",,untranslated,\p | \n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_b1b9bedf4bbb9835,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Maxie,data/maps/SeafloorCavern_Room9/scripts.inc,288,SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought,"MAXIE: What have you wrought?\pARCHIE… You've finally awoken KYOGRE,\nhaven't you?\pWhat will happen to the world if this\ndownpour continues for all eternity?\pThe world's landmass will drown in\nthe deepening sea…$","MAXIE: What have you wrought?
+[PAGE]
+ARCHIE… You've finally awoken KYOGRE,
+haven't you?
+[PAGE]
+What will happen to the world if this
+downpour continues for all eternity?
+[PAGE]
+The world's landmass will drown in
+the deepening sea…",,untranslated,\p | \n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_b9b9dc0d0d6b7eb0,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Archie,data/maps/SeafloorCavern_Room9/scripts.inc,297,SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty,"ARCHIE: W-what?!\nDon't get all high and mighty with me!\pWasn't it you, TEAM MAGMA, that\ninfuriated GROUDON?\pSo long as I have this RED ORB,\nI should be able to control KYOGRE…\pI should be able to control it…$","ARCHIE: W-what?!
+Don't get all high and mighty with me!
+[PAGE]
+Wasn't it you, TEAM MAGMA, that
+infuriated GROUDON?
+[PAGE]
+So long as I have this RED ORB,
+I should be able to control KYOGRE…
+[PAGE]
+I should be able to control it…",,untranslated,\n | \p | \n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_881182be07580274,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Maxie,data/maps/SeafloorCavern_Room9/scripts.inc,306,SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue,MAXIE: We don't have the time to\nargue about it here!\pGet outside and see for yourself!\pSee if what you've wrought is the\nworld that we desired!$,"MAXIE: We don't have the time to
+argue about it here!
+[PAGE]
+Get outside and see for yourself!
+[PAGE]
+See if what you've wrought is the
+world that we desired!",,untranslated,\n | \p | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_648adc974a14e68d,main_story,required_event,,SeafloorCavern_Room9,SeafloorCavern Room9,Maxie,data/maps/SeafloorCavern_Room9/scripts.inc,313,SeafloorCavern_Room9_Text_MaxieComeOnPlayer,"MAXIE: {PLAYER}, come on, you have\nto get out of here, too!$","MAXIE: {PLAYER}, come on, you have
+to get out of here, too!",,untranslated,{PLAYER} | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_bcbb1836835fa5a3,main_story,required_event,,SkyPillar_Outside,SkyPillar Outside,,data/maps/SkyPillar_Outside/scripts.inc,138,SkyPillar_Outside_Text_DoorIsClosed,The door is closed.$,The door is closed.,,untranslated,,,dup_00807,Map path or label explicitly identifies progression.
+dlg_62cd9667f8720313,main_story,required_event,,SkyPillar_Outside,SkyPillar Outside,,data/maps/SkyPillar_Outside/scripts.inc,141,SkyPillar_Outside_Text_OpenedDoorToSkyPillar,"WALLACE: Oh, my, I'm terribly sorry!\pIn my haste, I didn't notice that\nI'd left you behind!\pI've opened the locked door of\nthe SKY PILLAR.\p{PLAYER}{KUN}, let's be on our way!$","WALLACE: Oh, my, I'm terribly sorry!
+[PAGE]
+In my haste, I didn't notice that
+I'd left you behind!
+[PAGE]
+I've opened the locked door of
+the SKY PILLAR.
+[PAGE]
+{PLAYER}{KUN}, let's be on our way!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN},{PLAYER},,Map path or label explicitly identifies progression.
+dlg_5ed157f43a6632fb,main_story,required_event,,SkyPillar_Outside,SkyPillar Outside,,data/maps/SkyPillar_Outside/scripts.inc,149,SkyPillar_Outside_Text_EarthquakeNotMomentToWaste,WALLACE: It's an earthquake!\pThere's not a moment to waste!\nWe've got to hurry!$,"WALLACE: It's an earthquake!
+[PAGE]
+There's not a moment to waste!
+We've got to hurry!",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_847ea0c983f7e391,main_story,required_event,,SkyPillar_Outside,SkyPillar Outside,,data/maps/SkyPillar_Outside/scripts.inc,154,SkyPillar_Outside_Text_SituationGettingWorse,WALLACE: Hmm…\nThe situation is getting worse…$,"WALLACE: Hmm…
+The situation is getting worse…",,untranslated,\n,,,Map path or label explicitly identifies progression.
+dlg_7ff2392c13cba811,main_story,required_event,,SkyPillar_Outside,SkyPillar Outside,,data/maps/SkyPillar_Outside/scripts.inc,158,SkyPillar_Outside_Text_GotToGoBackForSootopolis,WALLACE: This isn't good…\pThe weather distortion is spreading\neven here…\p{PLAYER}{KUN}.\pRAYQUAZA should be farther up\nfrom here.\pI'm worried about SOOTOPOLIS.\nI've got to go back.\pEverything is in your hands now.\nDon't fail us!$,"WALLACE: This isn't good…
+[PAGE]
+The weather distortion is spreading
+even here…
+[PAGE]
+{PLAYER}{KUN}.
+[PAGE]
+RAYQUAZA should be farther up
+from here.
+[PAGE]
+I'm worried about SOOTOPOLIS.
+I've got to go back.
+[PAGE]
+Everything is in your hands now.
+Don't fail us!",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_6b211e62d63b8b92,main_story,required_event,,SkyPillar_Top,SkyPillar Top,,data/maps/SkyPillar_Top/scripts.inc,179,SkyPillar_Top_Text_RayquazaFlewOff,The awakened RAYQUAZA flew off…$,The awakened RAYQUAZA flew off…,,untranslated,,,,Map path or label explicitly identifies progression.
+dlg_8e8d5256fa54aac6,main_story,required_event,,SlateportCity,SlateportCity,,data/maps/SlateportCity/scripts.inc,1310,SlateportCity_Text_YouDroveTeamAquaAway,"SCOTT: Huh?\nI'm sure I met you somewhere before.\pHave I introduced myself to you?\nIf not, my name's SCOTT.\pI just saw TEAM AQUA run away from\nhere like they were stung.\pLet me guess--you drove them away?$","SCOTT: Huh?
+I'm sure I met you somewhere before.
+[PAGE]
+Have I introduced myself to you?
+If not, my name's SCOTT.
+[PAGE]
+I just saw TEAM AQUA run away from
+here like they were stung.
+[PAGE]
+Let me guess--you drove them away?",,untranslated,\n | \p | \n | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_08ea04f3bc2092a7,main_story,required_event,,SlateportCity_Harbor,SlateportCity Harbor,,data/maps/SlateportCity_Harbor/scripts.inc,467,SlateportCity_Harbor_Text_TeamAquaLeftNeedDive,"CAPT. STERN: Oh, {PLAYER}{KUN}…\pOkay… So TEAM AQUA left before you\ncould stop them…\pOh, no, don't blame yourself.\nYou're not responsible for this.\pTrying to catch a submarine…\nIt's impossible for most people.\pYou would need a POKéMON that knows\nhow to DIVE…\pPerhaps if you went out to\nMOSSDEEP CITY…\pA lot of divers live out there, so\nsomeone might teach you…$","CAPT. STERN: Oh, {PLAYER}{KUN}…
+[PAGE]
+Okay… So TEAM AQUA left before you
+could stop them…
+[PAGE]
+Oh, no, don't blame yourself.
+You're not responsible for this.
+[PAGE]
+Trying to catch a submarine…
+It's impossible for most people.
+[PAGE]
+You would need a POKéMON that knows
+how to DIVE…
+[PAGE]
+Perhaps if you went out to
+MOSSDEEP CITY…
+[PAGE]
+A lot of divers live out there, so
+someone might teach you…",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_9758a7ae075cd9a8,main_story,required_event,,SlateportCity_OceanicMuseum_2F,SlateportCity OceanicMuseum 2F,,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,285,SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua,We're TEAM AQUA!\pOur BOSS wants those parts!\nShut your yap and fork them over!$,"We're TEAM AQUA!
+[PAGE]
+Our BOSS wants those parts!
+Shut your yap and fork them over!",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_c15588e7d6910800,main_story,required_event,,SootopolisCity,SootopolisCity,,data/maps/SootopolisCity/scripts.inc,1504,SootopolisCity_Text_CaveOfOriginPleaseLeave,"Who might you be?\pThis is the CAVE OF ORIGIN.\pThe spirits of POKéMON, becalmed at\nMT. PYRE, are said to be revived here.\pPlease leave.$","Who might you be?
+[PAGE]
+This is the CAVE OF ORIGIN.
+[PAGE]
+The spirits of POKéMON, becalmed at
+MT. PYRE, are said to be revived here.
+[PAGE]
+Please leave.",,untranslated,\p | \p | \n | \p,,,Map path or label explicitly identifies progression.
+dlg_e22de59284a8dd5b,main_story,required_event,,SootopolisCity,SootopolisCity,,data/maps/SootopolisCity/scripts.inc,1526,SootopolisCity_Text_CaveOfOriginSleepsToo,"This is the CAVE OF ORIGIN…\pWith the passing of the crisis,\nthe cave, too, shall sleep…$","This is the CAVE OF ORIGIN…
+[PAGE]
+With the passing of the crisis,
+the cave, too, shall sleep…",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_b7e2f6325e376b0e,main_story,required_event,,SootopolisCity,SootopolisCity,,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
+[PAGE]
+I've never been there.
+I wonder where it could be?",,untranslated,\p | \n,,,Map path or label explicitly identifies progression.
+dlg_4439fd1aa0f35e43,main_story,required_event,,SootopolisCity,SootopolisCity,,data/maps/SootopolisCity/scripts.inc,1661,SootopolisCity_Text_HaventYouScaledSkyPillar,WALLACE: Oh?\n{PLAYER}{KUN}?\pHaven't you scaled the SKY PILLAR\nyet?\pI'm sure that you can make it to\nthe top of the SKY PILLAR…$,"WALLACE: Oh?
+{PLAYER}{KUN}?
+[PAGE]
+Haven't you scaled the SKY PILLAR
+yet?
+[PAGE]
+I'm sure that you can make it to
+the top of the SKY PILLAR…",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},,Map path or label explicitly identifies progression.
+dlg_77c0e5dfb773e0ac,main_story,required_event,,Underwater_SeafloorCavern,Underwater SeafloorCavern,,data/maps/Underwater_SeafloorCavern/scripts.inc,42,Underwater_SeafloorCavern_Text_SubExplorer1,“SUBMARINE EXPLORER 1” is painted\non the hull.\pThis is the submarine TEAM AQUA\nstole in SLATEPORT!\pTEAM AQUA must have gone\nashore here.$,"“SUBMARINE EXPLORER 1” is painted
+on the hull.
+[PAGE]
+This is the submarine TEAM AQUA
+stole in SLATEPORT!
+[PAGE]
+TEAM AQUA must have gone
+ashore here.",,untranslated,\n | \p | \n | \p | \n,,,Map path or label explicitly identifies progression.
+dlg_b838b5d4617b61fc,main_story,required_event,,VerdanturfTown_House,VerdanturfTown House,,data/maps/VerdanturfTown_House/scripts.inc,17,VerdanturfTown_House_Text_DefeatEliteFourInARow,"In the POKéMON LEAGUE, I think the\nrules say that you have to battle the\lELITE FOUR all in a row.\pIf you lose to any of them, you have\nto begin your challenge again from the\lfirst one.$","In the POKéMON LEAGUE, I think the
+rules say that you have to battle the
+ELITE FOUR all in a row.
+[PAGE]
+If you lose to any of them, you have
+to begin your challenge again from the
+first one.",,untranslated,\n | \l | \p | \n | \l,,,Map path or label explicitly identifies progression.

@@ -10,7 +10,7 @@ Go check it out, dear!
 [PAGE]
 DAD bought you a new clock to mark
 our move here.
-Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \pDA | \n | \lD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't forget to set it!",,untranslated,\n | \l | \p | {PLAYER} | \n | \p | \n | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a1cf42cc4332f130,12,02,littleroot,Littleroot,ลิตเติลรูต,4,rival_intro,Rival introduction,,4,LittlerootTown_BrendansHouse_1F,rival_intro,LittlerootTown BrendansHouse 1F,1,Brendan,LittlerootTown_BrendansHouse_1F_EventScript_MeetRival,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc,381,RivalsHouse_1F_Text_BrendanWhoAreYou,"Hey!\nYou…\pWho are you?\pOh, you're {PLAYER}, aren't you?\nMoved in next door, right?\pI didn't know that you're a girl.\pDad, PROF. BIRCH, said that our new\nnext-door neighbor is a GYM LEADER's\lkid, so I assumed you'd be a guy.\pMy name's BRENDAN.\nSo, hi, neighbor!\pHuh? Hey, {PLAYER}, don't you have\na POKéMON?\pDo you want me to go catch you one?\pAw, darn, I forgot…\pI'm supposed to go help my dad catch\nsome wild POKéMON.\pSome other time, okay?$","Hey!
 You…
 [PAGE]
@@ -38,7 +38,7 @@ Aw, darn, I forgot…
 I'm supposed to go help my dad catch
 some wild POKéMON.
 [PAGE]
-Some other time, okay?",,untranslated,\n | \p | \p | {PLAYER} | \n | \p | \pDa | \n | \l | \p | \n | \p | {PLAYER} | \na | \pD | \pA | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Some other time, okay?",,untranslated,\n | \p | \p | {PLAYER} | \n | \p | \p | \n | \l | \p | \n | \p | {PLAYER} | \n | \p | \p | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_7cc549bb2e89937d,13,02,littleroot,Littleroot,ลิตเติลรูต,4,rival_intro,Rival introduction,,4,LittlerootTown_BrendansHouse_1F,rival_intro,LittlerootTown BrendansHouse 1F,2,May,LittlerootTown_MaysHouse_1F_EventScript_MeetRival,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc,357,RivalsHouse_1F_Text_MayWhoAreYou,"Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$","Huh?
 Who… Who are you?
 [PAGE]
@@ -71,7 +71,7 @@ Oh, no! I forgot!
 I was supposed to go help Dad catch
 some wild POKéMON!
 [PAGE]
-{PLAYER}{KUN}, I'll catch you later!",,untranslated,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \pE | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+{PLAYER}{KUN}, I'll catch you later!",,untranslated,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a3524918d5d08235,14,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,,5,Route101,birch_rescue,Route101,1,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,258,Route101_Text_HelpMe,H-help me!$,H-help me!,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_45ae69cb30f2cd90,15,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,,5,Route101,birch_rescue,Route101,2,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,261,Route101_Text_PleaseHelp,Hello! You over there!\nPlease! Help!\pIn my BAG!\nThere's a POKé BALL!$,"Hello! You over there!
 Please! Help!
@@ -91,7 +91,7 @@ Oh?
 Hi, you're {PLAYER}{KUN}!
 [PAGE]
 This is not the place to chat, so come
-by my POKéMON LAB later, okay?",,untranslated,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \nb,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+by my POKéMON LAB later, okay?",,untranslated,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_e1f579546c78b2f9,17,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,1,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,683,LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon,"PROF. BIRCH: So, {PLAYER}{KUN}.\pI've heard so much about you from\nyour father.\pI've heard that you don't have your\nown POKéMON yet.\pBut the way you battled earlier,\nyou pulled it off with aplomb!\pI guess you have your father's blood\nin your veins after all!\pOh, yes. As thanks for rescuing me,\nI'd like you to have the POKéMON you\lused earlier.\p{PLAYER} received the {STR_VAR_1}!$","PROF. BIRCH: So, {PLAYER}{KUN}.
 [PAGE]
 I've heard so much about you from
@@ -110,7 +110,7 @@ Oh, yes. As thanks for rescuing me,
 I'd like you to have the POKéMON you
 used earlier.
 [PAGE]
-{PLAYER} received the {STR_VAR_1}!",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \pB | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
+{PLAYER} received the {STR_VAR_1}!",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a85b0bd843afd737,18,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,2,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,698,LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon,"PROF. BIRCH: While you're at it, why not\ngive a nickname to that {STR_VAR_1}?$","PROF. BIRCH: While you're at it, why not
 give a nickname to that {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_2f2b9342597fd41c,19,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,702,LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival,"PROF. BIRCH: If you work at POKéMON\nand gain experience, I think you'll make\lan extremely good TRAINER.\pMy kid, {RIVAL}, is also studying\nPOKéMON while helping me out.\p{PLAYER}{KUN}, don't you think it might be\na good idea to go see {RIVAL}?$","PROF. BIRCH: If you work at POKéMON
@@ -121,4 +121,4 @@ My kid, {RIVAL}, is also studying
 POKéMON while helping me out.
 [PAGE]
 {PLAYER}{KUN}, don't you think it might be
-a good idea to go see {RIVAL}?",,untranslated,\na | \la | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \na | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,
+a good idea to go see {RIVAL}?",,untranslated,\n | \l | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,

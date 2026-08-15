@@ -1,19 +1,19 @@
 ﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
-dlg_6a0844540fa3131b,1,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,1,gText_Birch_Welcome,เริ่มเกมส์\nโปเกมอน\pผู้เล่น\nน้ำ เก็บไว้\pญี่ปุ่น\nความสามารถ\p$,"เริ่มเกมส์
-โปเกมอน
+dlg_f05a5b388b38ad28,1,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,1,gText_Birch_Welcome,Hi! Sorry to keep you waiting!\pWelcome to the world of POKéMON!\pMy name is BIRCH.\pBut everyone calls me the POKéMON\nPROFESSOR.\p$,"Hi! Sorry to keep you waiting!
 [PAGE]
-ผู้เล่น
-น้ำ เก็บไว้
+Welcome to the world of POKéMON!
 [PAGE]
-ญี่ปุ่น
-ความสามารถ
+My name is BIRCH.
 [PAGE]
-",,untranslated,\n | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_77cf587abdea02ed,2,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,9,gText_Birch_Pokemon,This is what we call a “POKéMON.”\p\n$,"This is what we call a “POKéMON.”
+But everyone calls me the POKéMON
+PROFESSOR.
+[PAGE]
+",,untranslated,\p | \p | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_a0a50d7092ef23e5,2,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,8,gText_Birch_Pokemon,This is what we call a “POKéMON.”\p\n$,"This is what we call a “POKéMON.”
 [PAGE]
 
 ",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_c3303253244a331f,3,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,14,gText_Birch_MainSpeech,"This world is widely inhabited by\ncreatures known as POKéMON.\pWe humans live alongside POKéMON,\nat times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together\nand battle others like us.\pBut despite our closeness, we don't\nknow everything about POKéMON.\pIn fact, there are many, many\nsecrets surrounding POKéMON.\pTo unravel POKéMON mysteries,\nI've been undertaking research.\lThat's what I do.\p$","This world is widely inhabited by
+dlg_8413e20c18110096,3,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,,1,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,13,gText_Birch_MainSpeech,"This world is widely inhabited by\ncreatures known as POKéMON.\pWe humans live alongside POKéMON,\nat times as friendly playmates, and\lat times as cooperative workmates.\pAnd sometimes, we band together\nand battle others like us.\pBut despite our closeness, we don't\nknow everything about POKéMON.\pIn fact, there are many, many\nsecrets surrounding POKéMON.\pTo unravel POKéMON mysteries,\nI've been undertaking research.\lThat's what I do.\p$","This world is widely inhabited by
 creatures known as POKéMON.
 [PAGE]
 We humans live alongside POKéMON,
@@ -33,21 +33,21 @@ To unravel POKéMON mysteries,
 I've been undertaking research.
 That's what I do.
 [PAGE]
-",,untranslated,\nc | \p | \na | \la | \pA | \na | \pB | \n | \p | \n | \p | \n | \l | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_cc9c40a6665fd680,4,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,31,gText_Birch_AndYouAre,And you are?$,And you are?,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_633c295a378fae87,5,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,34,gText_Birch_BoyOrGirl,Are you a boy?\nOr are you a girl?$,"Are you a boy?
-Or are you a girl?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_f2b125984cab4d78,6,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,38,gText_Birch_WhatsYourName,All right.\nWhat's your name?$,"All right.
+",,untranslated,\n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_412f32d24928ff84,4,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,30,gText_Birch_AndYouAre,And you are?$,And you are?,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_008b1eacc20d2fa0,5,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,33,gText_Birch_BoyOrGirl,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?$,"{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?
+{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?",,untranslated,{252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {29} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {15} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {6} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {39} | {0} | {0} | {244} | {6} | {1} | \n | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {21} | {1} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {58} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {12} | {0} | {0} | {244} | {4} | {1},,high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_9ef890e3b20a3ebf,6,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,3,Professor Birch,opening_sequence,data/text/birch_speech.inc,37,gText_Birch_WhatsYourName,All right.\nWhat's your name?$,"All right.
 What's your name?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_a864a55088a7cf7f,7,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,4,Professor Birch,opening_sequence,data/text/birch_speech.inc,42,gText_Birch_SoItsPlayer,So it's {PLAYER}{KUN}?$,So it's {PLAYER}{KUN}?,,untranslated,{PLAYER} | {KUN},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_2a0dc98b3b58d850,8,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,5,Professor Birch,opening_sequence,data/text/birch_speech.inc,45,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my\nhometown of LITTLEROOT.\lI get it now!\p$","Ah, okay!
+dlg_531e30048ab5cfb4,7,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,4,Professor Birch,opening_sequence,data/text/birch_speech.inc,41,gText_Birch_SoItsPlayer,So it's {PLAYER}{KUN}?$,So it's {PLAYER}{KUN}?,,untranslated,{PLAYER} | {KUN},{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+dlg_3d03c87c21475304,8,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,5,Professor Birch,opening_sequence,data/text/birch_speech.inc,44,gText_Birch_YourePlayer,"Ah, okay!\pYou're {PLAYER}{KUN} who's moving to my\nhometown of LITTLEROOT.\lI get it now!\p$","Ah, okay!
 [PAGE]
 You're {PLAYER}{KUN} who's moving to my
 hometown of LITTLEROOT.
 I get it now!
 [PAGE]
 ",,untranslated,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
-dlg_803130ce0265fba6,9,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,6,Professor Birch,opening_sequence,data/text/birch_speech.inc,52,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
+dlg_745792a288a31bbd,9,01,opening,Opening,บทนำ,2,player_setup,Player setup,,2,,opening,,6,Professor Birch,opening_sequence,data/text/birch_speech.inc,51,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
 [PAGE]
 Your very own adventure is about
 to unfold.
@@ -59,4 +59,4 @@ adventure, and friendships await!
 Well, I'll be expecting you later.
 Come see me in my POKéMON LAB.
 [PAGE]
-",,untranslated,\p | \n | \p | \n | \lad | \p | \nC | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+",,untranslated,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,

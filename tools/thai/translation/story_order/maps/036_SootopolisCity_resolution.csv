@@ -8,7 +8,7 @@ simple action puts everything right
 again as if nothing had happened…
 [PAGE]
 Fu…
-Fuhahaha…",,untranslated,\n | \pAf | \nf | \l | \la | \pF | \nF,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Fuhahaha…",,untranslated,\n | \p | \n | \l | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6e265d07775a618e,235,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,39,rayquaza,Rayquaza resolution,,39,SootopolisCity,resolution,SootopolisCity,2,,SootopolisCity_EventScript_ArchieRayquaza,data/maps/SootopolisCity/scripts.inc,1599,SootopolisCity_Text_TryingMeaninglessToPokemon,"ARCHIE: KYOGRE and GROUDON both\nflew off to who knows where.\pThe weather in HOENN has returned\nto its normal state…\pHaha…\nHahaha…\pMaybe what we were trying to do was\nsomething small, even meaningless,\lto POKéMON…$","ARCHIE: KYOGRE and GROUDON both
 flew off to who knows where.
 [PAGE]
@@ -20,4 +20,4 @@ Hahaha…
 [PAGE]
 Maybe what we were trying to do was
 something small, even meaningless,
-to POKéMON…",,untranslated,\nf | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+to POKéMON…",,untranslated,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,Resolved from a checklist event seed through direct or chained script references.,

@@ -1,0 +1,180 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_61953244313ffbe4,125,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,1,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,233,MeteorFalls_1F_1R_Text_WithThisMeteorite,"Hehehe!\pWith this METEORITE, that thing in\nMT. CHIMNEY will…$","Hehehe!
+[PAGE]
+With this METEORITE, that thing in
+MT. CHIMNEY will…",ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึกิจะ…$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_69bbf0b329ac7158,126,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,2,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,238,MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma,"Heh?\pI don't know who you are, but if you get\nin the way of TEAM MAGMA, don't\lexpect any mercy!$","Heh?
+[PAGE]
+I don't know who you are, but if you get
+in the way of TEAM MAGMA, don't
+expect any mercy!",หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าจะได้รับความเมตตา!$,draft_review,\p | \n | \l,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_b1ce8521162aba50,127,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,3,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,244,MeteorFalls_1F_1R_Text_HoldItRightThereMagma,"Hold it right there, TEAM MAGMA!\pYou're badly mistaken if you think you\ncan have your way with the world!$","Hold it right there, TEAM MAGMA!
+[PAGE]
+You're badly mistaken if you think you
+can have your way with the world!",หยุดเดี๋ยวนี้ ทีมแมกมา!\pถ้าคิดว่าจะทำอะไรกับโลกนี้\nตามใจชอบได้ ก็คิดผิดมหันต์!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_c71a89510217f917,128,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,4,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,249,MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua,"Hehehe!\nEven TEAM AQUA joins us!\pBut it's too much trouble to deal with\nyou all…\pHeh, it doesn't matter!\pWe've got the METEORITE, so off to\nMT. CHIMNEY we go!\pHehehe! Be seeing you, you TEAM\nAQUA dingbats!$","Hehehe!
+Even TEAM AQUA joins us!
+[PAGE]
+But it's too much trouble to deal with
+you all…
+[PAGE]
+Heh, it doesn't matter!
+[PAGE]
+We've got the METEORITE, so off to
+MT. CHIMNEY we go!
+[PAGE]
+Hehehe! Be seeing you, you TEAM
+AQUA dingbats!",ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึกิ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$,draft_review,\n | \p | \n | \p | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_e217e7b7f13bbeff,129,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,5,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,260,MeteorFalls_1F_1R_Text_ArchieSeenYouBefore,"ARCHIE: Didn't I see you before?\nAt SLATEPORT's MUSEUM?\pAh, so your name is {PLAYER}.\pAt the time, I thought you were one\nof TEAM MAGMA's goons.\pHumph…\nYou're one odd kid.\pTEAM MAGMA is a dangerous group of\ntotal fanatics.\pThey engage in destruction, claiming\nto expand the land mass.\pThey are the rivals to us,\nthe sea-loving TEAM AQUA!$","ARCHIE: Didn't I see you before?
+At SLATEPORT's MUSEUM?
+[PAGE]
+Ah, so your name is {PLAYER}.
+[PAGE]
+At the time, I thought you were one
+of TEAM MAGMA's goons.
+[PAGE]
+Humph…
+You're one odd kid.
+[PAGE]
+TEAM MAGMA is a dangerous group of
+total fanatics.
+[PAGE]
+They engage in destruction, claiming
+to expand the land mass.
+[PAGE]
+They are the rivals to us,
+the sea-loving TEAM AQUA!",อาโอคิ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$,draft_review,\n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_ea4952bca9a7ff22,130,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,6,,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,275,MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma,"BOSS, we should give chase to\nTEAM MAGMA…$","BOSS, we should give chase to
+TEAM MAGMA…",บอส เราควรรีบตาม\nทีมแมกมาไป…$,draft_review,\n,,high,high,high,ok,ok,
+dlg_de424b65d2ac84b8,131,07,volcano,Fallarbor and Volcano,ฮาจิทสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิทสึเกะและน้ำตกริวเซย์,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,7,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,279,MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo,"ARCHIE: Yes, yes, we must!\nWe've got to hurry.\pThere's no telling what TEAM MAGMA\nwill do at MT. CHIMNEY!$","ARCHIE: Yes, yes, we must!
+We've got to hurry.
+[PAGE]
+There's no telling what TEAM MAGMA
+will do at MT. CHIMNEY!",อาโอคิ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึกิ!$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_620b24cda6ef26e8,132,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิสึเกะและน้ำตกริวเซ,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,8,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,285,MeteorFalls_1F_1R_Text_ArchieFarewell,"ARCHIE: {PLAYER}, you should keep\nan eye out for TEAM MAGMA, too.\pFarewell!$","ARCHIE: {PLAYER}, you should keep
+an eye out for TEAM MAGMA, too.
+[PAGE]
+Farewell!",อาโอคิ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$,draft_review,{PLAYER} | \n | \p,{PLAYER},high,high,high,ok,ok,
+dlg_3a084ac6783a9ce7,133,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,1,Archie,MtChimney_EventScript_ArchieGoStopTeamMagma,data/maps/MtChimney/scripts.inc,652,MtChimney_Text_ArchieGoStopTeamMagma,"ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$","ARCHIE: Grr, {PLAYER}!
+I should've guessed you'd show up!
+[PAGE]
+See for yourself what the fanatics
+of TEAM MAGMA are up to!
+[PAGE]
+They're trying to inject the stolen
+METEORITE's power into the volcano!
+[PAGE]
+Doing something like that will cause
+the volcano's eruption!",อาโอคิ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันคิดจะฉีดพลังของ\nอุกกาบาตที่ขโมยมาใส่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_3e2b11896ebb1637,134,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,2,Archie,MtChimney_EventScript_ArchieBusyFighting,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
+[PAGE]
+I want to stop that MAXIE,
+but I can't!
+[PAGE]
+Not when I have my hands full battling
+three opponents at once!",อาโอคิ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_ed68ce020b1d6ba1,135,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,3,,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
+[PAGE]
+By amplifying its power with this
+machine, MT. CHIMNEY's volcanic
+activity will instantly intensify…
+[PAGE]
+Its energy will grow deep inside
+the crater and…
+Fufufu…",พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nการเคลื่อนไหวของภูเขาไฟ\lเอ็นโทสึกิจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$,draft_review,\p | \n | \l | \p | \n | \l,,high,high,medium,ok,ok,
+dlg_e5fe9110f8a82454,136,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,4,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
+Who are you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+I'd heard ARCHIE bemoaning a child
+who's been meddling in TEAM AQUA's
+affairs.
+[PAGE]
+It must be you he meant.
+[PAGE]
+Humph! So you're thinking of
+interfering with us, TEAM MAGMA?
+[PAGE]
+Now you listen.
+Long ago, living things used the
+land to live and grow.
+[PAGE]
+That is why land is all important!
+It is the cradle of all!
+[PAGE]
+That is why TEAM MAGMA is dedicated
+to the expansion of the land mass.
+[PAGE]
+It is for further advancement of
+humankind and POKéMON!
+[PAGE]
+And for that, we need the power of
+what sleeps within this mountain…
+[PAGE]
+Oh! There was no need for you to
+learn that much.
+[PAGE]
+But, no matter!
+I'll teach you the consequences of
+meddling in our grand design!",มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอคิบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้ายิ่งขึ้น\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$,draft_review,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,
+dlg_6d5968a287374b4b,137,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,5,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
+I will back off this time.
+[PAGE]
+But don't think that this is the last
+you've seen of TEAM MAGMA.
+[PAGE]
+Fufufu…
+[PAGE]
+Even without the METEORITE, if we
+obtain that ORB… Fufufu…",มัตสึบูสะ: พอแค่นี้ก่อน\nคราวนี้ฉันจะถอยไป\pแต่อย่าคิดว่านี่จะเป็นครั้งสุดท้าย\nที่แกได้เจอกับทีมแมกมา\pหึ ๆ ๆ…\pถึงไม่มีอุกกาบาต ถ้าเราได้\nลูกแก้วนั่นมา… หึ ๆ ๆ…$,draft_review,\n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
+dlg_31d1999313c6eb44,138,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,6,Archie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,669,MtChimney_Text_ArchieThankYou,"ARCHIE: {PLAYER}!\nThank you!\pWith your help, we thwarted TEAM\nMAGMA's destructive plan!\pBut… You…\nWhose side are you on?\pAh, it doesn't matter.\pWe will remain vigilant and keep up\nour pursuit of TEAM MAGMA.\p{PLAYER}, we shall meet again!$","ARCHIE: {PLAYER}!
+Thank you!
+[PAGE]
+With your help, we thwarted TEAM
+MAGMA's destructive plan!
+[PAGE]
+But… You…
+Whose side are you on?
+[PAGE]
+Ah, it doesn't matter.
+[PAGE]
+We will remain vigilant and keep up
+our pursuit of TEAM MAGMA.
+[PAGE]
+{PLAYER}, we shall meet again!",อาโอคิ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,high,ok,ok,
+dlg_42c985b1510208be,139,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,7,,MtChimney_EventScript_MeteoriteMachine,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
+the mysterious machine.",{PLAYER} นำอุกกาบาตออกจาก\nเครื่องจักรลึกลับแล้ว$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_fe675caa94756773,140,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,1,,JaggedPass_EventScript_OpenMagmaHideout,data/maps/JaggedPass/scripts.inc,239,JaggedPass_Text_BoulderShakingInResponseToEmblem,Oh! This boulder is shaking in response\nto the MAGMA EMBLEM!$,"Oh! This boulder is shaking in response
+to the MAGMA EMBLEM!",โอ้! ก้อนหินนี้กำลังสั่นตอบสนอง\nต่อตราสัญลักษณ์แมกมา!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_d1feb2740067b7ae,141,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,2,,JaggedPass_EventScript_MagmaHideoutGuard,data/maps/JaggedPass/scripts.inc,222,JaggedPass_Text_GruntIntro,Wah!\nWhat are you doing here?\pWhat am I doing in a place like this?\pWhat business is it of yours?$,"Wah!
+What are you doing here?
+[PAGE]
+What am I doing in a place like this?
+[PAGE]
+What business is it of yours?",ว้าก!\nแกมาทำอะไรที่นี่?\pฉันมาทำอะไรในที่แบบนี้น่ะเหรอ?\pไม่ใช่ธุระอะไรของแก!$,draft_review,\n | \p | \p,,high,high,medium,ok,ok,
+dlg_ad170cc8edbfbd94,142,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,1,Flannery,LavaridgeTown_Gym_1F_EventScript_Flannery,data/maps/LavaridgeTown_Gym_1F/scripts.inc,353,LavaridgeTown_Gym_1F_Text_FlanneryPostBattle,"Your power reminds me of someone…\pOh! I know! You battle like NORMAN,\nthe GYM LEADER of PETALBURG.$","Your power reminds me of someone…
+[PAGE]
+Oh! I know! You battle like NORMAN,
+the GYM LEADER of PETALBURG.",พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_85cc669a07cfd1db,143,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,2,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,327,LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the HEAT BADGE\nfrom FLANNERY.$,"{PLAYER} received the HEAT BADGE
+from FLANNERY.",{PLAYER} ได้รับฮีตแบดจ์\nจากอาสึนะ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_1082e920ad6c3157,144,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,3,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,331,LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis,"If you have a HEAT BADGE, all POKéMON\nup to Level 50, even those you get in\ltrades from other people, will obey\lyou completely.\pAnd, it lets POKéMON use the HM move\nSTRENGTH outside of battle.\pThis is a token of my appreciation.\nDon't be shy about taking it!$","If you have a HEAT BADGE, all POKéMON
+up to Level 50, even those you get in
+trades from other people, will obey
+you completely.
+[PAGE]
+And, it lets POKéMON use the HM move
+STRENGTH outside of battle.
+[PAGE]
+This is a token of my appreciation.
+Don't be shy about taking it!",ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$,draft_review,\n | \l | \l | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
+dlg_dc7603a3e7b7cee7,145,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,4,,LavaridgeTown_Gym_1F_EventScript_GiveOverheat2,data/maps/LavaridgeTown_Gym_1F/scripts.inc,341,LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$,"That TM50 contains OVERHEAT.
+[PAGE]
+That move inflicts serious damage on
+the opponent.
+[PAGE]
+But it also sharply cuts the SP. ATK
+of the POKéMON using it. It might not
+be suitable for longer battles.",TM50 บรรจุท่าโอเวอร์ฮีต\pท่านี้สร้างความเสียหายรุนแรง\nแก่คู่ต่อสู้\pแต่จะลดพลังโจมตีพิเศษของ\nโปเกมอนที่ใช้ลงอย่างมาก จึงอาจ\lไม่เหมาะกับการต่อสู้ที่ยืดเยื้อ$,draft_review,\p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,

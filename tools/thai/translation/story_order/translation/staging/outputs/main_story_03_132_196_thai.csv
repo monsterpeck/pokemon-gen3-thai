@@ -1,0 +1,485 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_620b24cda6ef26e8,132,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,21,meteor_falls,Fallarbor and Meteor Falls,ฮาจิสึเกะและน้ำตกริวเซ,21,MeteorFalls_1F_1R,meteor,MeteorFalls 1F 1R,8,Archie,MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene,data/maps/MeteorFalls_1F_1R/scripts.inc,285,MeteorFalls_1F_1R_Text_ArchieFarewell,"ARCHIE: {PLAYER}, you should keep\nan eye out for TEAM MAGMA, too.\pFarewell!$","ARCHIE: {PLAYER}, you should keep
+an eye out for TEAM MAGMA, too.
+[PAGE]
+Farewell!",อาโอคิ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$,draft_review,{PLAYER} | \n | \p,{PLAYER},high,high,high,ok,ok,
+dlg_3a084ac6783a9ce7,133,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,1,Archie,MtChimney_EventScript_ArchieGoStopTeamMagma,data/maps/MtChimney/scripts.inc,652,MtChimney_Text_ArchieGoStopTeamMagma,"ARCHIE: Grr, {PLAYER}!\nI should've guessed you'd show up!\pSee for yourself what the fanatics\nof TEAM MAGMA are up to!\pThey're trying to inject the stolen\nMETEORITE's power into the volcano!\pDoing something like that will cause\nthe volcano's eruption!$","ARCHIE: Grr, {PLAYER}!
+I should've guessed you'd show up!
+[PAGE]
+See for yourself what the fanatics
+of TEAM MAGMA are up to!
+[PAGE]
+They're trying to inject the stolen
+METEORITE's power into the volcano!
+[PAGE]
+Doing something like that will cause
+the volcano's eruption!",อาโอคิ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันคิดจะฉีดพลังของ\nอุกกาบาตที่ขโมยมาใส่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_3e2b11896ebb1637,134,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,2,Archie,MtChimney_EventScript_ArchieBusyFighting,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
+[PAGE]
+I want to stop that MAXIE,
+but I can't!
+[PAGE]
+Not when I have my hands full battling
+three opponents at once!",อาโอคิ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_ed68ce020b1d6ba1,135,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,3,,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
+[PAGE]
+By amplifying its power with this
+machine, MT. CHIMNEY's volcanic
+activity will instantly intensify…
+[PAGE]
+Its energy will grow deep inside
+the crater and…
+Fufufu…",พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nการเคลื่อนไหวของภูเขาไฟ\lเอ็นโทสึกิจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$,draft_review,\p | \n | \l | \p | \n | \l,,high,high,medium,ok,ok,
+dlg_e5fe9110f8a82454,136,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,4,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
+Who are you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+I'd heard ARCHIE bemoaning a child
+who's been meddling in TEAM AQUA's
+affairs.
+[PAGE]
+It must be you he meant.
+[PAGE]
+Humph! So you're thinking of
+interfering with us, TEAM MAGMA?
+[PAGE]
+Now you listen.
+Long ago, living things used the
+land to live and grow.
+[PAGE]
+That is why land is all important!
+It is the cradle of all!
+[PAGE]
+That is why TEAM MAGMA is dedicated
+to the expansion of the land mass.
+[PAGE]
+It is for further advancement of
+humankind and POKéMON!
+[PAGE]
+And for that, we need the power of
+what sleeps within this mountain…
+[PAGE]
+Oh! There was no need for you to
+learn that much.
+[PAGE]
+But, no matter!
+I'll teach you the consequences of
+meddling in our grand design!",มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอคิบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้ายิ่งขึ้น\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$,draft_review,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,
+dlg_6d5968a287374b4b,137,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,5,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
+I will back off this time.
+[PAGE]
+But don't think that this is the last
+you've seen of TEAM MAGMA.
+[PAGE]
+Fufufu…
+[PAGE]
+Even without the METEORITE, if we
+obtain that ORB… Fufufu…",มัตสึบูสะ: พอแค่นี้ก่อน\nคราวนี้ฉันจะถอยไป\pแต่อย่าคิดว่านี่จะเป็นครั้งสุดท้าย\nที่แกได้เจอกับทีมแมกมา\pหึ ๆ ๆ…\pถึงไม่มีอุกกาบาต ถ้าเราได้\nลูกแก้วนั่นมา… หึ ๆ ๆ…$,draft_review,\n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
+dlg_31d1999313c6eb44,138,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,6,Archie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,669,MtChimney_Text_ArchieThankYou,"ARCHIE: {PLAYER}!\nThank you!\pWith your help, we thwarted TEAM\nMAGMA's destructive plan!\pBut… You…\nWhose side are you on?\pAh, it doesn't matter.\pWe will remain vigilant and keep up\nour pursuit of TEAM MAGMA.\p{PLAYER}, we shall meet again!$","ARCHIE: {PLAYER}!
+Thank you!
+[PAGE]
+With your help, we thwarted TEAM
+MAGMA's destructive plan!
+[PAGE]
+But… You…
+Whose side are you on?
+[PAGE]
+Ah, it doesn't matter.
+[PAGE]
+We will remain vigilant and keep up
+our pursuit of TEAM MAGMA.
+[PAGE]
+{PLAYER}, we shall meet again!",อาโอคิ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,high,ok,ok,
+dlg_42c985b1510208be,139,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,7,,MtChimney_EventScript_MeteoriteMachine,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
+the mysterious machine.",{PLAYER} นำอุกกาบาตออกจาก\nเครื่องจักรลึกลับแล้ว$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_fe675caa94756773,140,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,1,,JaggedPass_EventScript_OpenMagmaHideout,data/maps/JaggedPass/scripts.inc,239,JaggedPass_Text_BoulderShakingInResponseToEmblem,Oh! This boulder is shaking in response\nto the MAGMA EMBLEM!$,"Oh! This boulder is shaking in response
+to the MAGMA EMBLEM!",โอ้! ก้อนหินนี้กำลังสั่นตอบสนอง\nต่อตราสัญลักษณ์แมกมา!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_d1feb2740067b7ae,141,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,23,jagged_magma,Jagged Pass and Magma,ทางขรุขระและทีมแมกมา,23,JaggedPass,jagged,JaggedPass,2,,JaggedPass_EventScript_MagmaHideoutGuard,data/maps/JaggedPass/scripts.inc,222,JaggedPass_Text_GruntIntro,Wah!\nWhat are you doing here?\pWhat am I doing in a place like this?\pWhat business is it of yours?$,"Wah!
+What are you doing here?
+[PAGE]
+What am I doing in a place like this?
+[PAGE]
+What business is it of yours?",ว้าก!\nแกมาทำอะไรที่นี่?\pฉันมาทำอะไรในที่แบบนี้น่ะเหรอ?\pไม่ใช่ธุระอะไรของแก!$,draft_review,\n | \p | \p,,high,high,medium,ok,ok,
+dlg_ad170cc8edbfbd94,142,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,1,Flannery,LavaridgeTown_Gym_1F_EventScript_Flannery,data/maps/LavaridgeTown_Gym_1F/scripts.inc,353,LavaridgeTown_Gym_1F_Text_FlanneryPostBattle,"Your power reminds me of someone…\pOh! I know! You battle like NORMAN,\nthe GYM LEADER of PETALBURG.$","Your power reminds me of someone…
+[PAGE]
+Oh! I know! You battle like NORMAN,
+the GYM LEADER of PETALBURG.",พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_85cc669a07cfd1db,143,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,2,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,327,LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the HEAT BADGE\nfrom FLANNERY.$,"{PLAYER} received the HEAT BADGE
+from FLANNERY.",{PLAYER} ได้รับฮีตแบดจ์\nจากอาสึนะ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_1082e920ad6c3157,144,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,3,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,331,LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis,"If you have a HEAT BADGE, all POKéMON\nup to Level 50, even those you get in\ltrades from other people, will obey\lyou completely.\pAnd, it lets POKéMON use the HM move\nSTRENGTH outside of battle.\pThis is a token of my appreciation.\nDon't be shy about taking it!$","If you have a HEAT BADGE, all POKéMON
+up to Level 50, even those you get in
+trades from other people, will obey
+you completely.
+[PAGE]
+And, it lets POKéMON use the HM move
+STRENGTH outside of battle.
+[PAGE]
+This is a token of my appreciation.
+Don't be shy about taking it!",ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$,draft_review,\n | \l | \l | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
+dlg_dc7603a3e7b7cee7,145,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,4,,LavaridgeTown_Gym_1F_EventScript_GiveOverheat2,data/maps/LavaridgeTown_Gym_1F/scripts.inc,341,LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$,"That TM50 contains OVERHEAT.
+[PAGE]
+That move inflicts serious damage on
+the opponent.
+[PAGE]
+But it also sharply cuts the SP. ATK
+of the POKéMON using it. It might not
+be suitable for longer battles.",TM50 บรรจุท่าโอเวอร์ฮีต\pท่านี้สร้างความเสียหายรุนแรง\nแก่คู่ต่อสู้\pแต่จะลดพลังโจมตีพิเศษของ\nโปเกมอนที่ใช้ลงอย่างมาก จึงอาจ\lไม่เหมาะกับการต่อสู้ที่ยืดเยื้อ$,draft_review,\p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,
+dlg_6bc82f96214c6653,146,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,26,weather,Weather Institute,สถาบันวิจัยสภาพอากาศ,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,1,,Route119_WeatherInstitute_2F_EventScript_ShellyDefeated,data/maps/Route119_WeatherInstitute_2F/scripts.inc,265,Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy,We have a situation here!\pA TEAM MAGMA mob just passed\nthe WEATHER INSTITUTE.\pThey appear to be headed for\nMT. PYRE!$,"We have a situation here!
+[PAGE]
+A TEAM MAGMA mob just passed
+the WEATHER INSTITUTE.
+[PAGE]
+They appear to be headed for
+MT. PYRE!",เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันวิจัยสภาพอากาศไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$,draft_review,\p | \n | \p | \n,,high,high,medium,ok,ok,
+dlg_72d579cc12f30a2d,147,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,26,weather,Weather Institute,สถาบันวิจัยสภาพอากาศ,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,2,,Route119_WeatherInstitute_2F_EventScript_ShellyDefeated,data/maps/Route119_WeatherInstitute_2F/scripts.inc,272,Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre,"What?!\pWe can't waste any more time here!\nWe have to hurry to MT. PYRE, too!\pAhahahaha!\nTEAM MAGMA, just you wait!$","What?!
+[PAGE]
+We can't waste any more time here!
+We have to hurry to MT. PYRE, too!
+[PAGE]
+Ahahahaha!
+TEAM MAGMA, just you wait!",ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$,draft_review,\p | \n | \p | \n,,high,high,medium,ok,ok,
+dlg_15b8f87c5174f5d2,148,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,26,weather,Weather Institute,สถาบันวิจัยสภาพอากาศ,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,3,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastform,data/maps/Route119_WeatherInstitute_2F/scripts.inc,279,Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon,"Thanks!\nThanks to you, we're safe!\pIt might be an odd way of thanking you,\nbut take this POKéMON.$","Thanks!
+Thanks to you, we're safe!
+[PAGE]
+It might be an odd way of thanking you,
+but take this POKéMON.",ขอบคุณ!\nเพราะคุณ พวกเราจึงปลอดภัย!\pอาจเป็นวิธีขอบคุณที่แปลกหน่อย\nแต่รับโปเกมอนตัวนี้ไปเถอะ$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_fbfff4949ad6b61d,149,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,26,weather,Weather Institute,สถาบันวิจัยสภาพอากาศ,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,4,,Route119_WeatherInstitute_2F_EventScript_ReceiveCastformParty,data/text/pc_transfer.inc,29,gText_NicknameThisPokemon,Do you want to give a nickname to\nthis {STR_VAR_1}?$,"Do you want to give a nickname to
+this {STR_VAR_1}?",อยากตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนี้ไหม?$,draft_review,\n | {STR_VAR_1},{STR_VAR_1},high,high,high,ok,ok,
+dlg_3949d91512dde4d1,150,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,26,weather,Weather Institute,สถาบันวิจัยสภาพอากาศ,26,Route119_WeatherInstitute_1F,weather,Route119 WeatherInstitute 1F,5,,Route119_WeatherInstitute_2F_EventScript_ReceivedCastformFanfare,data/maps/Route119_WeatherInstitute_2F/scripts.inc,290,Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform,{PLAYER} received CASTFORM!$,{PLAYER} received CASTFORM!,{PLAYER} ได้รับโพวารุน!$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,
+dlg_019f94a8aef9ea9b,151,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,1,May,Route119_EventScript_BattleMay,data/maps/Route119/scripts.inc,477,Route119_Text_MayIntro,MAY: {PLAYER}{KUN}!\nWhere were you? I was looking for you!\pHow much stronger have you gotten?\nLet me check for you!\pReady with your POKéMON?\nOf course you are! Go!$,"MAY: {PLAYER}{KUN}!
+Where were you? I was looking for you!
+[PAGE]
+How much stronger have you gotten?
+Let me check for you!
+[PAGE]
+Ready with your POKéMON?
+Of course you are! Go!",ฮารุกะ: {PLAYER}{KUN}!\nไปอยู่ที่ไหนมา? ฉันตามหาตั้งนาน!\pเก่งขึ้นแค่ไหนแล้วนะ?\nขอฉันทดสอบหน่อย!\pโปเกมอนพร้อมแล้วใช่ไหม?\nแน่นอนอยู่แล้ว! ลุยเลย!$,draft_review,{PLAYER} | {KUN} | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_8f9454ec6b2ac0f0,152,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,2,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,491,Route119_Text_MayPresentForYou,"MAY: But I had absolutely nothing to\nworry about! Keep it up!\pAnd, here! I have a present for you.$","MAY: But I had absolutely nothing to
+worry about! Keep it up!
+[PAGE]
+And, here! I have a present for you.",ฮารุกะ: แต่ดูแล้วฉันไม่ต้อง\nเป็นห่วงอะไรเลย! พยายามต่อไปนะ!\pแล้วก็นี่! ฉันมีของขวัญให้$,draft_review,\n | \p,,high,high,high,ok,ok,
+dlg_6be0ed70a0acd49c,153,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,3,May,Route119_EventScript_DefeatedMay,data/maps/Route119/scripts.inc,496,Route119_Text_MayExplainFly,"MAY: Use FLY, and your POKéMON will\ninstantly carry you to any town you've\lalready visited.\pBut, to use FLY, you have to get\nthe GYM BADGE from FORTREE CITY.\lThat's important, so don't forget.\pYou should FLY home and visit\nLITTLEROOT for a change.\pI bet your mom's worried about you,\n{PLAYER}{KUN}.\pWell, let's meet again somewhere!$","MAY: Use FLY, and your POKéMON will
+instantly carry you to any town you've
+already visited.
+[PAGE]
+But, to use FLY, you have to get
+the GYM BADGE from FORTREE CITY.
+That's important, so don't forget.
+[PAGE]
+You should FLY home and visit
+LITTLEROOT for a change.
+[PAGE]
+I bet your mom's worried about you,
+{PLAYER}{KUN}.
+[PAGE]
+Well, let's meet again somewhere!",ฮารุกะ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโวโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวาดามาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโวโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$,draft_review,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,high,ok,ok,
+dlg_83a72594b4c34bcc,154,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,4,Brendan,Route119_EventScript_BattleBrendan,data/maps/Route119/scripts.inc,509,Route119_Text_BrendanIntro,"BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$","BRENDAN: {PLAYER}! So this is where
+you've been looking for POKéMON?
+[PAGE]
+Let me see how good you got.
+I'll test you!
+[PAGE]
+Now!
+It's a battle, so battle!",ยูคิ: {PLAYER}! ที่นี่เองเหรอ\nที่เธอมาตามหาโปเกมอน?\pขอดูหน่อยว่าเก่งขึ้นแค่ไหน\nฉันจะทดสอบเธอเอง!\pเอาล่ะ!\nต่อสู้กันให้เต็มที่!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_558729c3a49c4cf8,155,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,5,Brendan,Route119_EventScript_DefeatedBrendan,data/maps/Route119/scripts.inc,521,Route119_Text_BrendanIllGiveYouThis,"BRENDAN: I'd say you're good enough\nto search for POKéMON anywhere.\pHere, I'll give you this.\nTry it out.$","BRENDAN: I'd say you're good enough
+to search for POKéMON anywhere.
+[PAGE]
+Here, I'll give you this.
+Try it out.",ยูคิ: ฝีมือระดับเธอคงไป\nตามหาโปเกมอนที่ไหนก็ได้แล้ว\pนี่ ฉันให้ของชิ้นนี้\nลองใช้ดูสิ$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_76bf541ad1e06184,156,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,6,Brendan,Route119_EventScript_DefeatedBrendan,data/maps/Route119/scripts.inc,527,Route119_Text_BrendanExplainFly,"BRENDAN: Use FLY, and your POKéMON\ninstantly carries you to any town\lyou've already visited.\pBut you need the FORTREE GYM BADGE \nto do that.\pAnyway, I have to move along.$","BRENDAN: Use FLY, and your POKéMON
+instantly carries you to any town
+you've already visited.
+[PAGE]
+But you need the FORTREE GYM BADGE 
+to do that.
+[PAGE]
+Anyway, I have to move along.",ยูคิ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวาดายิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$,draft_review,\n | \l | \p | \n | \p,,high,high,high,ok,ok,
+dlg_6f04353d49eb36ad,157,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,7,,Route119_EventScript_RivalExitScottArrive,data/maps/Route119/scripts.inc,535,Route119_Text_ScottWayToGoBeSeeingYou,"SCOTT: Hahahah!\nWay to go, {PLAYER}{KUN}!\pI just passed by a TRAINER riding\na BIKE.\pYou just beat that TRAINER, didn't you?\nIt was pretty obvious that you did.\pThe kid looked really upset with\na face all red from anger.\pI sure seem to run into you often.\nAre you off to FORTREE GYM next?\pI expect that you'll do well at the GYM.\nWell, I'll be seeing you!$","SCOTT: Hahahah!
+Way to go, {PLAYER}{KUN}!
+[PAGE]
+I just passed by a TRAINER riding
+a BIKE.
+[PAGE]
+You just beat that TRAINER, didn't you?
+It was pretty obvious that you did.
+[PAGE]
+The kid looked really upset with
+a face all red from anger.
+[PAGE]
+I sure seem to run into you often.
+Are you off to FORTREE GYM next?
+[PAGE]
+I expect that you'll do well at the GYM.
+Well, I'll be seeing you!",เอ็นทัตสึ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวาดายิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,medium,ok,review_long_line,
+dlg_90522eab9aeeb6c1,158,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,1,Winona,FortreeCity_Gym_EventScript_Winona,data/maps/FortreeCity_Gym/scripts.inc,273,FortreeCity_Gym_Text_WinonaPostBattle,"Though I fell to you, I will remain\ndevoted to BIRD POKéMON.$","Though I fell to you, I will remain
+devoted to BIRD POKéMON.",แม้ฉันจะแพ้เธอ แต่ฉันจะยังคง\nทุ่มเทให้โปเกมอนนกต่อไป$,draft_review,\n,,high,high,high,ok,ok,
+dlg_043520f7cee45426,159,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,2,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,250,FortreeCity_Gym_Text_ReceivedFeatherBadge,{PLAYER} received the FEATHER BADGE\nfrom WINONA.$,"{PLAYER} received the FEATHER BADGE
+from WINONA.",{PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนากิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_4ba2da8c6c4cb804,160,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,3,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,254,FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis,"With the FEATHER BADGE, all POKéMON up\nto LV 70, even those received through\ltrades, will obey your every command.\pYou will also be able to use\nthe HM move FLY outside of battle.\pAnd this…\nThis is a gift from me.$","With the FEATHER BADGE, all POKéMON up
+to LV 70, even those received through
+trades, will obey your every command.
+[PAGE]
+You will also be able to use
+the HM move FLY outside of battle.
+[PAGE]
+And this…
+This is a gift from me.",เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโวโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$,draft_review,\n | \l | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_edeb336fc52d099f,161,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,4,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,382,Route120_Text_StevenShowMeYourPower,"STEVEN: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$","STEVEN: {PLAYER}{KUN}, show me your true
+power as a TRAINER!",ไดโกะ: {PLAYER}{KUN} แสดงพลังที่แท้จริง\nในฐานะเทรนเนอร์ให้ฉันดูหน่อย!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_8a26b89ed2ec5faf,162,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,5,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,386,Route120_Text_StevenUsedDevonScope,STEVEN used the DEVON SCOPE.\pAn invisible POKéMON became completely\nvisible!\pThe startled POKéMON attacked!$,"STEVEN used the DEVON SCOPE.
+[PAGE]
+An invisible POKéMON became completely
+visible!
+[PAGE]
+The startled POKéMON attacked!",ไดโกะใช้เดวอนสโคป\pโปเกมอนที่มองไม่เห็น\nปรากฏตัวออกมาอย่างชัดเจน!\pโปเกมอนที่ตกใจจู่โจมเข้ามา!$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+dlg_98e1f16605e4b205,163,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,6,,Route120_EventScript_BridgeKecleon,data/maps/Route120/scripts.inc,409,Kecleon_Text_SomethingUnseeable,Something unseeable is in the way.$,Something unseeable is in the way.,มีบางสิ่งที่มองไม่เห็นขวางทางอยู่$,draft_review,,,high,high,high,ok,ok,
+dlg_e89bf2fc11073911,164,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,7,,FortreeCity_Gym_EventScript_GiveAerialAce,data/maps/FortreeCity_Gym/scripts.inc,263,FortreeCity_Gym_Text_ExplainAerialAce,TM40 contains AERIAL ACE.\pIts speed…\nNo POKéMON should be able to avoid it.\p… … … … … …$,"TM40 contains AERIAL ACE.
+[PAGE]
+Its speed…
+No POKéMON should be able to avoid it.
+[PAGE]
+… … … … … …",TM40 บรรจุท่าสึบาเมะกาเอชิ\pด้วยความเร็วของมัน…\nไม่มีโปเกมอนตัวไหนหลบได้แน่\p… … … … … …$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+dlg_972b63a027991002,165,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,8,Steven,Route120_EventScript_StevenGiveDeconScope,data/maps/Route120/scripts.inc,392,Route120_Text_StevenGiveDevonScope,"STEVEN: I see…\nYour battle style is intriguing.\pYour POKéMON have obviously grown\nsince I first met you in DEWFORD.\pI'd like you to have this\nDEVON SCOPE.\pWho knows, there may be other\nconcealed POKéMON.$","STEVEN: I see…
+Your battle style is intriguing.
+[PAGE]
+Your POKéMON have obviously grown
+since I first met you in DEWFORD.
+[PAGE]
+I'd like you to have this
+DEVON SCOPE.
+[PAGE]
+Who knows, there may be other
+concealed POKéMON.",ไดโกะ: เข้าใจแล้ว…\nรูปแบบการต่อสู้ของเธอน่าสนใจมาก\pโปเกมอนของเธอเติบโตขึ้นชัดเจน\nตั้งแต่ครั้งแรกที่พบกันที่มุโระ\pฉันอยากมอบ\nเดวอนสโคปนี้ให้เธอ\pใครจะรู้ อาจมีโปเกมอนตัวอื่น\nซ่อนตัวอยู่อีกก็ได้$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_2c9ae36316cdc574,166,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,9,Steven,Route120_EventScript_StevenGiveDeconScope,data/maps/Route120/scripts.inc,402,Route120_Text_StevenGoodbye,"STEVEN: {PLAYER}{KUN}.\pI enjoy seeing POKéMON and TRAINERS\nwho strive together.\pI think you're doing great.\pWell, let's meet again somewhere.$","STEVEN: {PLAYER}{KUN}.
+[PAGE]
+I enjoy seeing POKéMON and TRAINERS
+who strive together.
+[PAGE]
+I think you're doing great.
+[PAGE]
+Well, let's meet again somewhere.",ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nร่วมแรงพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \p,{PLAYER},high,high,high,ok,ok,
+dlg_d918d79168cfccf1,167,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,1,Archie,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,483,MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo,"ARCHIE: TEAM MAGMA's MAXIE got ahead\nof us, but we also got what we wanted.\pThe RED ORB preserved at MT. PYRE…\nI, ARCHIE, now have it in my possession!\pFufufu… Now we can bring our ultimate\nobjective to fruition!\pOkay, TEAM!\nWe're pulling out!$","ARCHIE: TEAM MAGMA's MAXIE got ahead
+of us, but we also got what we wanted.
+[PAGE]
+The RED ORB preserved at MT. PYRE…
+I, ARCHIE, now have it in my possession!
+[PAGE]
+Fufufu… Now we can bring our ultimate
+objective to fruition!
+[PAGE]
+Okay, TEAM!
+We're pulling out!",อาโอคิ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริ…\nตอนนี้อยู่ในมือของฉัน อาโอคิแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
+dlg_3e6adbb836d10aa0,168,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,2,,MtPyre_Summit_EventScript_TeamAquaExits,data/maps/MtPyre_Summit/scripts.inc,493,MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis,"Oh, no…\nThis cannot happen…\pNot only the BLUE ORB, but even\nthe RED ORB has been taken…\pThe BLUE ORB and RED ORB must never\nbe separated. They belong together.\pWhat are those men trying to do with\nthe two ORBS?\p… … … … … …\n… … … … … …\pOh, yes. Was it TEAM MAGMA who came\nand took the BLUE ORB first?\pWell, in their haste, they left this\nbehind.\pI couldn't imagine what exactly it\ncould be.\pI would like you to have it.\nPerhaps it will be useful in some way.$","Oh, no…
+This cannot happen…
+[PAGE]
+Not only the BLUE ORB, but even
+the RED ORB has been taken…
+[PAGE]
+The BLUE ORB and RED ORB must never
+be separated. They belong together.
+[PAGE]
+What are those men trying to do with
+the two ORBS?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Oh, yes. Was it TEAM MAGMA who came
+and took the BLUE ORB first?
+[PAGE]
+Well, in their haste, they left this
+behind.
+[PAGE]
+I couldn't imagine what exactly it
+could be.
+[PAGE]
+I would like you to have it.
+Perhaps it will be useful in some way.",โอ้ ไม่นะ…\nเรื่องเช่นนี้เกิดขึ้นไม่ได้…\pไม่ใช่แค่ลูกแก้วสีน้ำเงิน\nแม้แต่ลูกแก้วสีแดงก็ถูกชิงไป…\pลูกแก้วสีน้ำเงินกับลูกแก้วสีแดง\nห้ามแยกจากกัน ทั้งสองต้องอยู่คู่กัน\pคนพวกนั้นคิดจะทำอะไร\nกับลูกแก้วทั้งสองกันแน่?\p… … … … … …\n… … … … … …\pอ้อ ใช่ ทีมแมกมาเป็นพวกที่มา\nเอาลูกแก้วสีน้ำเงินไปก่อนสินะ?\pแต่ตอนรีบร้อน พวกเขาทิ้ง\nสิ่งนี้เอาไว้\pฉันเองก็นึกไม่ออกว่า\nมันคืออะไรกันแน่\pฉันอยากมอบมันให้เธอ\nบางทีมันอาจมีประโยชน์ก็ได้$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,ok,review_long_line,
+dlg_735f1ef23f4ce480,169,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,3,,MtPyre_Summit_EventScript_OldLadyOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,533,MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs,The two men who took the ORBS came\nback to return them on their own.\pThose men…\nPerhaps they are not so evil after all…$,"The two men who took the ORBS came
+back to return them on their own.
+[PAGE]
+Those men…
+Perhaps they are not so evil after all…",ชายสองคนที่เอาลูกแก้วไป\nกลับมาคืนด้วยตัวเองแล้ว\pคนเหล่านั้น…\nบางทีอาจไม่ได้ชั่วร้ายนักก็ได้…$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_99952122a38c4d6b,170,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,4,,MtPyre_Summit_EventScript_OldLadyAfterOrbsReturned,data/maps/MtPyre_Summit/scripts.inc,539,MtPyre_Summit_Text_SuperAncientPokemonTaughtUs,"The embodiments of the land, sea,\nand the sky…\pThat is said to be the identities of\nthe super-ancient POKéMON…\pIn the same way that we humans and\nPOKéMON have life, our world, too,\lis alive…\pThe super-ancient POKéMON have\ntaught us that…$","The embodiments of the land, sea,
+and the sky…
+[PAGE]
+That is said to be the identities of
+the super-ancient POKéMON…
+[PAGE]
+In the same way that we humans and
+POKéMON have life, our world, too,
+is alive…
+[PAGE]
+The super-ancient POKéMON have
+taught us that…",ตัวแทนแห่งผืนดิน ท้องทะเล\nและท้องฟ้า…\pกล่าวกันว่านั่นคือตัวตนของ\nโปเกมอนยุคบรรพกาล…\pเช่นเดียวกับมนุษย์และโปเกมอน\nที่มีชีวิต โลกของเราเองก็\lมีชีวิตเช่นกัน…\pโปเกมอนยุคบรรพกาล\nได้สอนเรื่องนั้นแก่เรา…$,draft_review,\n | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,ok,ok,
+dlg_e5b724b2524196f4,171,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,29,mt_pyre,Mt. Pyre,ภูเขาโอคุริบิ,29,MtPyre_Summit,mt_pyre,MtPyre Summit,5,Maxie,MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs,data/maps/MtPyre_Summit/scripts.inc,585,MtPyre_Summit_Text_MaxieSilence,MAXIE: {PLAYER}…\p… … … … … …\n… … … … … …$,"MAXIE: {PLAYER}…
+[PAGE]
+… … … … … …
+… … … … … …",มัตสึบูสะ: {PLAYER}…\p… … … … … …\n… … … … … …$,draft_review,{PLAYER} | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_36ea63b7ce608519,172,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,ฐานลับทีมแมกมา,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,1,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,181,MagmaHideout_4F_Text_MaxieAwakenGroudon,MAXIE: GROUDON…\pNothing could awaken you from your\nsleep bathed in magma…\pThis BLUE ORB is what you sought.\nWasn't it?\pI have brought you the BLUE ORB.\nLet its shine awaken you!\pAnd show me…\nShow me the full extent of your power!$,"MAXIE: GROUDON…
+[PAGE]
+Nothing could awaken you from your
+sleep bathed in magma…
+[PAGE]
+This BLUE ORB is what you sought.
+Wasn't it?
+[PAGE]
+I have brought you the BLUE ORB.
+Let its shine awaken you!
+[PAGE]
+And show me…
+Show me the full extent of your power!",มัตสึบูสะ: กราดอน…\pไม่มีสิ่งใดปลุกแกจากนิทรา\nท่ามกลางแมกมาได้…\pลูกแก้วสีน้ำเงินนี้คือสิ่งที่แกตามหา\nไม่ใช่หรือ?\pฉันนำลูกแก้วสีน้ำเงินมาให้แล้ว\nจงตื่นขึ้นด้วยประกายของมัน!\pแล้วแสดงให้ฉันดู…\nแสดงพลังทั้งหมดของแกออกมา!$,draft_review,\p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_f34fbe4729fcf204,173,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,ฐานลับทีมแมกมา,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,2,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,192,MagmaHideout_4F_Text_MaxieGroudonWhatsWrong,MAXIE: GROUDON!\nWhat's wrong?\pWasn't the BLUE ORB the key?\pGROUDON!\nWhere have you gone…$,"MAXIE: GROUDON!
+What's wrong?
+[PAGE]
+Wasn't the BLUE ORB the key?
+[PAGE]
+GROUDON!
+Where have you gone…",มัตสึบูสะ: กราดอน!\nเป็นอะไรไป?\pลูกแก้วสีน้ำเงินไม่ใช่กุญแจหรอกรึ?\pกราดอน!\nหายไปไหนแล้ว…$,draft_review,\n | \p | \p | \n,,high,high,high,ok,ok,
+dlg_4943951ba089dba9,174,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,ฐานลับทีมแมกมา,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,3,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,199,MagmaHideout_4F_Text_MaxieOhItWasYou,"MAXIE: Oh, so it was you?\pI've seen you poking around uninvited\nhere and there…\pI get it now!\nYou must have pulled a cheap stunt!$","MAXIE: Oh, so it was you?
+[PAGE]
+I've seen you poking around uninvited
+here and there…
+[PAGE]
+I get it now!
+You must have pulled a cheap stunt!",มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือ\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_0ced0caff1c00ef9,175,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,30,magma_hideout,Magma Hideout,ฐานลับทีมแมกมา,30,MagmaHideout_1F,magma_hideout,MagmaHideout 1F,4,Maxie,MagmaHideout_4F_EventScript_Maxie,data/maps/MagmaHideout_4F/scripts.inc,210,MagmaHideout_4F_Text_MaxieImGoingAfterGroudon,"MAXIE: There has to be some reason\nwhy GROUDON fled…\pThat's what you're trying to say,\naren't you?\p… … … … … …\n… … … … … …\pHumph…\nYou think I didn't know that?\pWith GROUDON gone, there is no longer\nany need for this blasted volcano.\pI am going after GROUDON, so this\nis where we part!$","MAXIE: There has to be some reason
+why GROUDON fled…
+[PAGE]
+That's what you're trying to say,
+aren't you?
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+Humph…
+You think I didn't know that?
+[PAGE]
+With GROUDON gone, there is no longer
+any need for this blasted volcano.
+[PAGE]
+I am going after GROUDON, so this
+is where we part!",มัตสึบูสะ: ต้องมีเหตุผลบางอย่าง\nที่กราดอนหนีไป…\pนั่นคือสิ่งที่แกพยายามจะบอก\nใช่ไหม?\p… … … … … …\n… … … … … …\pฮึ…\nคิดว่าฉันไม่รู้หรือ?\pเมื่อกราดอนไปแล้ว ภูเขาไฟ\nบ้า ๆ นี่ก็ไม่มีประโยชน์อีก\pฉันจะตามกราดอนไป\nเราแยกกันตรงนี้!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_4eda68ad2ec20a56,176,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,1,,SlateportCity_EventScript_OldWomanSternInterview,data/maps/SlateportCity/scripts.inc,1106,SlateportCity_Text_CaptSternBeingInterviewed,I was hoping that it was a famous star\nso I could get an autograph.\pBut who's that being interviewed?\nIsn't that CAPT. STERN?$,"I was hoping that it was a famous star
+so I could get an autograph.
+[PAGE]
+But who's that being interviewed?
+Isn't that CAPT. STERN?",ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันสเติร์นไม่ใช่หรือ?$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_7f0709929860c17b,177,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,2,,SlateportCity_EventScript_RichBoySternInterview,data/maps/SlateportCity/scripts.inc,1118,SlateportCity_Text_SternSaysDiscoveredSomething,CAPT. STERN says they discovered\nsomething at the bottom of the sea.\pI wonder what it is?\nWhat could it be?$,"CAPT. STERN says they discovered
+something at the bottom of the sea.
+[PAGE]
+I wonder what it is?
+What could it be?",กัปตันสเติร์นบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_29e6bfe52cbe76dc,178,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,3,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1145,SlateportCity_Text_SternMoveAheadWithExploration,"CAPT. STERN: Yes, indeed. We intend to\nmove ahead with our exploration.$","CAPT. STERN: Yes, indeed. We intend to
+move ahead with our exploration.",กัปตันสเติร์น: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$,draft_review,\n,,high,high,high,ok,ok,
+dlg_a24a9e2b5d3b180d,179,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,4,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1156,SlateportCity_Text_SternWhewFirstInterview,CAPT. STERN: Whew…\pThat was my first time to be filmed for\nTV. That was nerve-wracking.$,"CAPT. STERN: Whew…
+[PAGE]
+That was my first time to be filmed for
+TV. That was nerve-wracking.",กัปตันสเติร์น: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_f70b830d8ec236fd,180,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,5,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1161,SlateportCity_Text_OhPlayerWeMadeDiscovery,Oh! {PLAYER}{KUN}!\nYou're looking great!\pWe made a huge discovery on our last\nseafloor exploration.\pWe found an underwater cavern on\nROUTE 128.\pWe think it's the habitat of a POKéMON\nthat's said to have been long extinct.$,"Oh! {PLAYER}{KUN}!
+You're looking great!
+[PAGE]
+We made a huge discovery on our last
+seafloor exploration.
+[PAGE]
+We found an underwater cavern on
+ROUTE 128.
+[PAGE]
+We think it's the habitat of a POKéMON
+that's said to have been long extinct.",โอ้! {PLAYER}{KUN}!\nดูแข็งแรงดีนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$,draft_review,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_line,
+dlg_ac6bacd443ddc584,181,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,6,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1171,SlateportCity_Text_AquaWillAssumeControlOfSubmarine,"Fufufu…\nCAPT. STERN, I presume.\pWe of TEAM AQUA will assume\ncontrol of your submarine!\pYour objections are meaningless!\nWe expect your total cooperation!\pFufufu…\nJust watch and learn what TEAM\lAQUA has planned!$","Fufufu…
+CAPT. STERN, I presume.
+[PAGE]
+We of TEAM AQUA will assume
+control of your submarine!
+[PAGE]
+Your objections are meaningless!
+We expect your total cooperation!
+[PAGE]
+Fufufu…
+Just watch and learn what TEAM
+AQUA has planned!",หึ ๆ ๆ…\nกัปตันสเติร์นสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nเราหวังว่าแกจะให้ความร่วมมือเต็มที่!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,medium,ok,ok,
+dlg_0b38356a9d2a5891,182,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,7,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1182,SlateportCity_Text_SternWhatWasAllThat,CAPT. STERN: What was that all about?\pIt sounded like someone using\na megaphone…\pWhere did it come from?$,"CAPT. STERN: What was that all about?
+[PAGE]
+It sounded like someone using
+a megaphone…
+[PAGE]
+Where did it come from?",กัปตันสเติร์น: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+dlg_b97c111ae0282f20,183,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,8,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1188,SlateportCity_Text_FromHarborTryingToTakeSub,It's from the HARBOR!\pThe submarine!\nThey're trying to take it!$,"It's from the HARBOR!
+[PAGE]
+The submarine!
+They're trying to take it!",เสียงมาจากท่าเรือ!\pเรือดำน้ำ!\nพวกมันกำลังจะขโมยไป!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_5d595593ae009b8a,184,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,9,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1193,SlateportCity_Text_PleaseComeWithMe,"{PLAYER}{KUN}!\nPlease, come with me!$","{PLAYER}{KUN}!
+Please, come with me!",{PLAYER}{KUN}!\nมากับผมเร็ว!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_40ef2cebfda60ee7,185,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,10,,SlateportCity_Harbor_EventScript_CaptStern,data/maps/SlateportCity_Harbor/scripts.inc,442,SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum,CAPT. STERN: Those thugs…\pThey're the same lot who tried to rob\nthe DEVON GOODS at the MUSEUM.$,"CAPT. STERN: Those thugs…
+[PAGE]
+They're the same lot who tried to rob
+the DEVON GOODS at the MUSEUM.",กัปตันสเติร์น: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_85246ab6bfa6b21d,186,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,11,,SlateportCity_Harbor_EventScript_WhyStealSubmarine,data/maps/SlateportCity_Harbor/scripts.inc,458,SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine,"CAPT. STERN: Why…\pWhy would TEAM AQUA steal my\nSUBMARINE EXPLORER 1?\pThey can't be after the slumbering\nPOKéMON at the bottom of the sea…\pBut even if I were to chase them,\nI don't stand a chance against them…$","CAPT. STERN: Why…
+[PAGE]
+Why would TEAM AQUA steal my
+SUBMARINE EXPLORER 1?
+[PAGE]
+They can't be after the slumbering
+POKéMON at the bottom of the sea…
+[PAGE]
+But even if I were to chase them,
+I don't stand a chance against them…",กัปตันสเติร์น: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$,draft_review,\p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_4df79a104565cdd7,187,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,32,aqua_hideout,Aqua Hideout,ฐานลับทีมอควา,32,AquaHideout_1F,aqua_hideout,AquaHideout 1F,1,,AquaHideout_B2F_EventScript_SubmarineEscape,data/maps/AquaHideout_B2F/scripts.inc,102,AquaHideout_B2F_Text_OurBossGotThroughHisPreparations,"Hehehe!\pWhile I was toying with you, our BOSS\ngot through his preparations!$","Hehehe!
+[PAGE]
+While I was toying with you, our BOSS
+got through his preparations!",ฮี่ ๆ ๆ!\pระหว่างที่ฉันถ่วงเวลาแก บอสของเรา\nก็เตรียมการเสร็จเรียบร้อยแล้ว!$,draft_review,\p | \n,,high,high,medium,ok,ok,
+dlg_45b733a3659fa52c,188,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,1,Tate,MossdeepCity_Gym_EventScript_TateAndLiza,data/maps/MossdeepCity_Gym/scripts.inc,591,MossdeepCity_Gym_Text_TateAndLizaPostBattle,"TATE: Looks like the bond between you\nand your POKéMON is far stronger than\lthe bond that we share as twins.\pLIZA: You will become even stronger!\nWe've battled you, so we know.$","TATE: Looks like the bond between you
+and your POKéMON is far stronger than
+the bond that we share as twins.
+[PAGE]
+LIZA: You will become even stronger!
+We've battled you, so we know.",ฟู: สายสัมพันธ์ระหว่างเธอกับโปเกมอน\nแข็งแกร่งกว่าสายสัมพันธ์ของ\lพวกเราฝาแฝดเสียอีก\pรัน: เธอจะแข็งแกร่งขึ้นอีกแน่นอน!\nเพราะได้สู้กัน เราจึงรู้$,draft_review,\n | \l | \p | \n,,high,high,high,ok,review_long_line,
+dlg_16583cf9036a06e6,189,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,2,,MossdeepCity_Gym_EventScript_TateAndLizaDefeated,data/maps/MossdeepCity_Gym/scripts.inc,567,MossdeepCity_Gym_Text_ReceivedMindBadge,{PLAYER} received the MIND BADGE\nfrom TATE and LIZA.$,"{PLAYER} received the MIND BADGE
+from TATE and LIZA.",{PLAYER} ได้รับมายด์แบดจ์\nจากฟูกับรัน$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_43359ec54091c550,190,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,3,,MossdeepCity_Gym_EventScript_TateAndLizaDefeated,data/maps/MossdeepCity_Gym/scripts.inc,571,MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis,"TATE: The MIND BADGE enhances the\nSP. ATK and SP. DEF of POKéMON.\pLIZA: It also lets you use the HM move\nDIVE outside of battle.\pTATE: You should also take this, too.$","TATE: The MIND BADGE enhances the
+SP. ATK and SP. DEF of POKéMON.
+[PAGE]
+LIZA: It also lets you use the HM move
+DIVE outside of battle.
+[PAGE]
+TATE: You should also take this, too.",ฟู: มายด์แบดจ์ช่วยเพิ่ม\nพลังโจมตีพิเศษและพลังป้องกันพิเศษของโปเกมอน\pรัน: และยังทำให้ใช้ท่า HM\nไดฟ์นอกการต่อสู้ได้\pฟู: รับสิ่งนี้ไปด้วยนะ$,draft_review,\n | \p | \n | \p,,high,high,high,ok,review_long_line,
+dlg_bf9f721d101df3f8,191,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,33,mossdeep,Mossdeep,โทคุซาเนะ,33,MossdeepCity_Gym,mossdeep,MossdeepCity Gym,4,,MossdeepCity_Gym_EventScript_GiveCalmMind2,data/maps/MossdeepCity_Gym/scripts.inc,578,MossdeepCity_Gym_Text_ExplainCalmMind,TATE: That TM04 contains…\nLIZA: CALM MIND!\pTATE: It raises SP. ATK and…\nLIZA: It raises SP. DEF!\pTATE: It's a move that's perfect…\nLIZA: For PSYCHIC POKéMON!\p… … … … … …$,"TATE: That TM04 contains…
+LIZA: CALM MIND!
+[PAGE]
+TATE: It raises SP. ATK and…
+LIZA: It raises SP. DEF!
+[PAGE]
+TATE: It's a move that's perfect…
+LIZA: For PSYCHIC POKéMON!
+[PAGE]
+… … … … … …",ฟู: TM04 บรรจุท่า…\nรัน: เมโอมินด์!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+dlg_10a0c4da3c01bfa0,192,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,1,,MossdeepCity_SpaceCenter_1F_EventScript_SunStoneManMagma,data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc,319,MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis,"TEAM MAGMA can't be allowed to steal\nthe rocket fuel.\pOh, by the way, you can have this stone\nI found on the beach.$","TEAM MAGMA can't be allowed to steal
+the rocket fuel.
+[PAGE]
+Oh, by the way, you can have this stone
+I found on the beach.",ปล่อยให้ทีมแมกมาขโมย\nเชื้อเพลิงจรวดไม่ได้\pอ้อ จริงสิ รับหินก้อนนี้ไปเถอะ\nฉันเจอมันที่ชายหาด$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_79ce7f56167066ae,193,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,2,Steven,MossdeepCity_SpaceCenter_1F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc,351,MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel,"STEVEN: {PLAYER}{KUN}, have you read that\nproclamation already?\pTEAM MAGMA is coming after the rocket\nfuel on this island.\pI don't know what they'd need it for,\nbut they can't be allowed to take it.\pI'll keep an eye on things for\na while longer.\pIn the meantime, why don't you go\ncheck out the town?$","STEVEN: {PLAYER}{KUN}, have you read that
+proclamation already?
+[PAGE]
+TEAM MAGMA is coming after the rocket
+fuel on this island.
+[PAGE]
+I don't know what they'd need it for,
+but they can't be allowed to take it.
+[PAGE]
+I'll keep an eye on things for
+a while longer.
+[PAGE]
+In the meantime, why don't you go
+check out the town?",ไดโกะ: {PLAYER}{KUN} อ่านประกาศ\nฉบับนั้นแล้วหรือยัง?\pทีมแมกมากำลังหมายตา\nเชื้อเพลิงจรวดบนเกาะนี้\pไม่รู้ว่าพวกมันต้องการไปทำอะไร\nแต่ปล่อยให้เอาไปไม่ได้\pฉันจะคอยเฝ้าสถานการณ์\nต่ออีกสักพัก\pระหว่างนี้ลองไป\nดูรอบเมืองก่อนไหม?$,draft_review,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_70357e86f6ea09df,194,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,3,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,385,MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn,"What's wrong with you?\pYou're outnumbered three to one,\nbut you still want to take us on?$","What's wrong with you?
+[PAGE]
+You're outnumbered three to one,
+but you still want to take us on?",เป็นอะไรของแก?\pถึงจะเสียเปรียบสามต่อหนึ่ง\nแต่ยังคิดจะสู้กับพวกเราอีกหรือ?$,draft_review,\p | \n,,high,high,medium,ok,ok,
+dlg_0d1adf3d7c53be63,195,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,4,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,390,MossdeepCity_SpaceCenter_2F_Text_GoodAnswer,Good answer!\nThat's what a smart person'll do!$,"Good answer!
+That's what a smart person'll do!",ตอบได้ดี!\nคนฉลาดก็ต้องเลือกแบบนั้น!$,draft_review,\n,,high,high,medium,ok,ok,
+dlg_8199f6fe43038be0,196,10,mossdeep,Mossdeep and Space Center,โทคุซาเนะและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,5,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,394,MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro,"A reckless go-getter, are you?\nOkay, I'll go first!$","A reckless go-getter, are you?
+Okay, I'll go first!",ใจกล้าบ้าบิ่นสินะ?\nเอาล่ะ ฉันจะลุยก่อน!$,draft_review,\n,,high,high,medium,ok,ok,

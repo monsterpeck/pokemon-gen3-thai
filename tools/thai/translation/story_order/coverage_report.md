@@ -1,6 +1,6 @@
 # Story scope coverage report
 
-- Total player-visible rows: 17184
+- Total player-visible rows: 17250
 - Verified mandatory rows: 261
 - Story events: 45
 - Script graph nodes: 8411

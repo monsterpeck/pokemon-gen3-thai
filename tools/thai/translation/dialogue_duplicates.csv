@@ -1,0 +1,1001 @@
+﻿duplicate_group,english_raw,occurrence_count,source_labels,source_files
+dup_00001, BERRY,3,sText_BerrySuffix | sText_SpaceBerry | gText_Berry2,src/battle_message.c | src/berry_blender.c | src/strings.c
+dup_00002, min. ,2,sText_Min | gText_SpaceMin,src/berry_blender.c | src/strings.c
+dup_00003, points,3,gText_Points | gText_SpacePoints | gText_SpacePoints2,src/strings.c | src/strings.c | src/strings.c
+dup_00004, sec.,2,sText_Sec | gText_SpaceSec,src/berry_blender.c | src/strings.c
+dup_00005, time(s),3,gText_SpaceTimes | gText_SpaceTimes2 | gText_SpaceTimes3,src/strings.c | src/strings.c | src/strings.c
+dup_00006,01234,2,gText_UnionRoomChatKeyboard_01234Upper | gText_UnionRoomChatKeyboard_01234Lower,src/text_input_strings.c | src/text_input_strings.c
+dup_00007,1F,2,gText_1F | gText_TrainerHill1F,src/strings.c | src/strings.c
+dup_00008,2$,2,gTrickHouse_Mechadoll_Two | gTrickHouse_Mechadoll_Two2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00009,2F,2,gText_2F | gText_TrainerHill2F,src/strings.c | src/strings.c
+dup_00010,3F,2,gText_3F | gText_TrainerHill3F,src/strings.c | src/strings.c
+dup_00011,4F,2,gText_4F | gText_TrainerHill4F,src/strings.c | src/strings.c
+dup_00012,56789,2,gText_UnionRoomChatKeyboard_56789Upper | gText_UnionRoomChatKeyboard_56789Lower,src/text_input_strings.c | src/text_input_strings.c
+dup_00013,6$,2,gTrickHouse_Mechadoll_Six | gTrickHouse_Mechadoll_Six2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00014,7$,2,gTrickHouse_Mechadoll_Seven | gTrickHouse_Mechadoll_Seven2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00015,8$,2,gTrickHouse_Mechadoll_Eight | gTrickHouse_Mechadoll_Eight2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00016,A POKéMON that grows steadily is one\nyou can count on.$,2,Route120_Text_RobertPostBattle | Route120_Text_RobertRematchIntro,data/text/trainers.inc | data/text/trainers.inc
+dup_00017,A large doll.\nPlace it on a mat\nor a desk.,10,DecorDesc_SNORLAX_DOLL | DecorDesc_RHYDON_DOLL | DecorDesc_LAPRAS_DOLL | DecorDesc_VENUSAUR_DOLL | DecorDesc_CHARIZARD_DOLL | DecorDesc_BLASTOISE_DOLL | DecorDesc_WAILMER_DOLL | DecorDesc_REGIROCK_DOLL | DecorDesc_REGICE_DOLL | DecorDesc_REGISTEEL_DOLL,src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h | src/data/decoration/description.h
+dup_00018,A mysterious BERRY. It is rumored to,4,sBerryDescriptionPart1_Liechi | sBerryDescriptionPart1_Ganlon | sBerryDescriptionPart1_Salac | sBerryDescriptionPart1_Petaya,src/berry.c | src/berry.c | src/berry.c | src/berry.c
+dup_00019,A small fence that\nblocks passage.,2,DecorDesc_FENCE_LENGTH | DecorDesc_FENCE_WIDTH,src/data/decoration/description.h | src/data/decoration/description.h
+dup_00020,ABANDONED SHIP,2,sMapName_ABANDONED_SHIP | LandmarkName_AbandonedShip,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00021,ABIGAIL,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00022,ABSOL,3,nickname | nickname | inline_378,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00023,ACCEPT,2,gEasyChatWord_Accept | gText_Accept,src/data/easy_chat/easy_chat_group_battle.h | src/strings.c
+dup_00024,AIR LOCK,2,gEasyChatWord_AirLock | inline_159,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00025,ALAKAZAM,4,nickname | nickname | nickname | inline_67,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00026,ALTARIA,3,nickname | nickname | inline_361,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00027,ALTERING CAVE,2,sMapName_ALTERING_CAVE | LandmarkName_AlteringCave,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00028,AMELIE,2,inline_332 | inline_348,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00029,AMPHAROS,2,nickname | inline_183,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00030,AMY & LIV,6,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00031,AMY: I'm AMY.\nAnd this is my little sister LIV.\lWe battle together!$,2,Route103_Text_AmyIntro | Route103_Text_AmyRematchIntro,data/text/trainers.inc | data/text/trainers.inc
+dup_00032,"AMY: Uh-oh, you have only one\nPOKéMON with you.\lYou can't battle us like that.$",2,Route103_Text_AmyNotEnoughPokemon | Route103_Text_AmyRematchNotEnoughPokemon,data/text/trainers.inc | data/text/trainers.inc
+dup_00033,AMY: You have to think about all\nkinds of things when you're battling\lagainst two TRAINERS.$,2,Route103_Text_AmyPostBattle | Route103_Text_AmyRematchPostBattle,data/text/trainers.inc | data/text/trainers.inc
+dup_00034,ANCIENT TOMB,2,sMapName_ANCIENT_TOMB | LandmarkName_AncientTomb,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00035,ANDRES,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00036,ANNA & MEG,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00037,"ANNA: If you want to battle us,\nbring two POKéMON with you.$",2,Route117_Text_AnnaNotEnoughMons | Route117_Text_AnnaRematchNotEnoughMons,data/text/trainers.inc | data/text/trainers.inc
+dup_00038,ANNA: Your POKéMON have some good\ncombinations.\pI'd say you're second only to us!$,2,Route117_Text_AnnaPostBattle | Route117_Text_AnnaPostRematch,data/text/trainers.inc | data/text/trainers.inc
+dup_00039,ANNIE,2,inline_364 | inline_364,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00040,APPEAL,2,gEasyChatWord_Appeal | gText_MoveRelearnerAppeal,src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00041,ARCHIE,2,trainerName | gText_ExpandedPlaceholder_Archie,src/data/trainers.h | src/strings.c
+dup_00042,ARENA TRAP,2,gEasyChatWord_ArenaTrap | inline_153,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00043,ARM THRUST,2,categoryName | inline_295,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00044,ARMOR,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00045,ARTICUNO,2,nickname | inline_146,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00046,ARTURO,3,inline_420 | inline_420 | inline_420,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00047,ATTACK,4,sText_Attack2 | sText_Attack | gEasyChatWord_Attack | gText_Attack,src/battle_message.c | src/battle_message.c | src/data/easy_chat/easy_chat_group_battle.h | src/strings.c
+dup_00048,AVERY,3,trainerName | trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/battle_frontier/battle_tent.h | src/data/contest_opponents.h
+dup_00049,AZURILL,2,nickname | inline_352,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00050,"Ah, I see.\nWell, let's give it a try, shall we?$",2,RustboroCity_Flat1_2F_Text_LetsGiveItATry2 | RustboroCity_Flat1_2F_Text_LetsGiveItATry,data/maps/RustboroCity_Flat1_2F/scripts.inc | data/maps/RustboroCity_Flat1_2F/scripts.inc
+dup_00051,"Ah, hello, {PLAYER}{KUN}!\nThis is {STR_VAR_1}!\lI hope you've been keeping well.\pThey say you won {STR_VAR_3} straight\nbattles at the {STR_VAR_2}.\pI admire your energy!\nBye now.$",2,MatchCall_BattleFrontierStreakText13 | MatchCall_BattleFrontierRecordStreakText13,data/text/match_call.inc | data/text/match_call.inc
+dup_00052,"Ah, too bad for you!\pBut it was a good match.\nI hope you can win next time.$",2,RS_MysteryEventsHouse_Text_BattleLost | SootopolisCity_MysteryEventsHouse_1F_Text_TooBadForYou,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00053,"Ah, well played.$",2,Route121_Text_WalterDefeat | Route121_Text_WalterRematchDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00054,"Ah, {PLAYER}{KUN}.\nThis is {STR_VAR_1}.\pI hear you're the terror of\nthe {STR_VAR_2}?\pYou won, what, {STR_VAR_3} matches in\na row?\pYou're good, you.\nI wonder how many I can win?$",2,MatchCall_BattleFrontierStreakText11 | MatchCall_BattleFrontierRecordStreakText11,data/text/match_call.inc | data/text/match_call.inc
+dup_00055,"Ahhh!\n{STR_VAR_1}, you say!\lThanks for a most cool answer!\pI guess that's about all I wanted\nto ask you today.\pLet's meet here again, okay?\nThanks!$",2,gText_ApprenticeMonThanks6 | gText_ApprenticeMoveThanks6,data/text/apprentice.inc | data/text/apprentice.inc
+dup_00056,Ally,3,sText_AllyPkmnPrefix | sText_AllyPkmnPrefix2 | sText_AllyPkmnPrefix3,src/battle_message.c | src/battle_message.c | src/battle_message.c
+dup_00057,Anticipation swelled for\n{STR_VAR_1}'s appeal next.$,2,gText_AnticipationSwelledForMonsAppealNext2 | gText_AnticipationSwelledForMonsAppealNext,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00058,Attack in waves!,2,gText_MatchCallBugManiac_Jeffrey_Strategy | gText_MatchCallPkmnRanger_Jackson_Strategy,src/data/text/match_call_messages.h | src/data/text/match_call_messages.h
+dup_00059,Avoids sound-based moves.,2,sSoundproofDescription | sCacophonyDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00060,Awaiting a response from\nthe other TRAINER…,2,sText_AwaitingResponseFromTrainer | sText_AwaitingResponseFromTrainer2,src/data/union_room.h | src/data/union_room.h
+dup_00061,BAG,3,gEasyChatWord_Bag | gText_MenuOptionBag | gPCText_Bag,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c | src/strings.c
+dup_00062,BAGWORM,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00063,BALL,3,gEasyChatWord_Ball | categoryName | categoryName,src/data/easy_chat/easy_chat_group_hobbies.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00064,BALLOON,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00065,BALTOY,2,nickname | inline_320,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00066,BANETTE,3,nickname | nickname | inline_380,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00067,BARRIER,2,categoryName | inline_115,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00068,BAT,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00069,BATTLE,4,gEasyChatWord_Battle | sText_Battle | gText_Battle | gEasyChatGroupName_Battle,src/data/easy_chat/easy_chat_group_battle.h | src/data/union_room.h | src/strings.c | src/strings.c
+dup_00070,BATTLE ARENA,2,gText_BattleArena | gText_BattleArena2,src/strings.c | src/strings.c
+dup_00071,BATTLE ARMOR,2,gEasyChatWord_BattleArmor | inline_86,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00072,BATTLE BAG,2,gText_BattleBag | gText_BattleBag2,src/strings.c | src/strings.c
+dup_00073,BATTLE DOME,2,gText_BattleDome | gText_BattleDome2,src/strings.c | src/strings.c
+dup_00074,BATTLE FACTORY,2,gText_BattleFactory | gText_BattleFactory2,src/strings.c | src/strings.c
+dup_00075,BATTLE FRONTIER,2,sMapName_BATTLE_FRONTIER | gText_BattleFrontier,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00076,"BATTLE FRONTIER it is, then!$",2,LilycoveCity_Harbor_Text_BattleFrontierItIs | SlateportCity_Harbor_Text_BattleFrontierItIs,data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00077,BATTLE PALACE,2,gText_BattlePalace | gText_BattlePalace2,src/strings.c | src/strings.c
+dup_00078,BATTLE PIKE,2,gText_BattlePike | gText_BattlePike2,src/strings.c | src/strings.c
+dup_00079,BATTLE PYRAMID,2,gText_BattlePyramid | gText_BattlePyramid2,src/strings.c | src/strings.c
+dup_00080,BATTLE TOWER,4,gEasyChatWord_BattleTower | gText_BattleTower | gText_BattleTower2 | gText_BattleTower3,src/data/easy_chat/easy_chat_group_events.h | src/strings.c | src/strings.c | src/strings.c
+dup_00081,BAYLEEF,2,nickname | inline_155,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00082,BEAU,2,trainerName | trainerName,src/data/contest_opponents.h | src/data/trainers.h
+dup_00083,BEAUTY,4,gEasyChatWord_Beauty | inline_23 | gText_Beauty | gText_Beauty2,src/data/easy_chat/easy_chat_group_status.h | src/data/text/trainer_class_names.h | src/strings.c | src/strings.c
+dup_00084,BEAUTY CONTEST,3,gRibbonDescriptionPart1_BeautyContest | sText_BeautyContest | gText_BeautyContest,src/data/text/ribbon_descriptions.h | src/data/union_room.h | src/strings.c
+dup_00085,BEAUTY$,2,gContestBeauty | gContestMoveTypeBeautyText,data/text/contest_painting.inc | data/text/contest_strings.inc
+dup_00086,BEEDRILL,2,nickname | inline_17,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00087,BELLOSSOM,2,nickname | inline_184,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00088,BENJAMIN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00089,BERNIE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00090,BERRIES,3,gText_BerriesPocket | gText_Berries2 | gText_Berries,src/strings.c | src/strings.c | src/strings.c
+dup_00091,BERRY,2,gEasyChatWord_Berry | gText_Berry,src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00092,BERRY CRUSH,4,sText_BerryCrush | gText_BerryCrush3 | gText_BerryCrush | gText_BerryCrush2,src/data/union_room.h | src/strings.c | src/strings.c | src/strings.c
+dup_00093,BIG JAW,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00094,BIRD,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00095,BIRTH ISLAND,2,sMapName_BIRTH_ISLAND | gText_BirthIsland,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00096,BITE,3,categoryName | categoryName | inline_47,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00097,BIVALVE,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00098,BLACK BELT,2,name | inline_14,src/data/items.h | src/data/text/trainer_class_names.h
+dup_00099,BLACK FLUTE,3,name | gText_BlackFlute2 | gText_BlackFlute,src/data/items.h | src/strings.c | src/strings.c
+dup_00100,BLASTOISE,2,nickname | inline_11,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00101,BLAZE,3,gEasyChatWord_Blaze | categoryName | inline_148,src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/text/abilities.h
+dup_00102,BLAZIKEN,2,nickname | inline_284,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00103,BLISSEY,2,nickname | inline_244,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00104,BLUE FLUTE,3,name | gText_BlueFlute2 | gText_BlueFlute,src/data/items.h | src/strings.c | src/strings.c
+dup_00105,BLUE SHARD,2,name | gText_BlueShard,src/data/items.h | src/strings.c
+dup_00106,BLUE TENT,2,name | gText_BlueTent,src/data/decoration/header.h | src/strings.c
+dup_00107,BOUNCE,2,categoryName | inline_343,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00108,BRAWLY,6,trainerName | trainerName | trainerName | trainerName | trainerName | gText_Brawly,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/strings.c
+dup_00109,BRENDAN,17,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | gText_ExpandedPlaceholder_Brendan,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/strings.c
+dup_00110,"BRENDAN: I know you just became\na TRAINER, but I won't go easy!$",2,Route104_Text_BrendanIntro | RustboroCity_Text_BrendanIWontGoEasy,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00111,BRENDAN: What's the matter? Don't have\nany confidence in your POKéMON?$,2,Route104_Text_BrendanNoConfidence | RustboroCity_Text_BrendanNoConfidenceInPokemon,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00112,BRENDAN: What's up?\nWant to have a battle with me?$,2,Route104_Text_BrendanLetsBattle | RustboroCity_Text_BrendanWantToBattle,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00113,BROOKE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00114,BRYANT,2,trainerName | trainerName,src/data/contest_opponents.h | src/data/trainers.h
+dup_00115,BRYCE,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00116,BUG,2,inline_459 | gEasyChatWord_Bug,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00117,BUTTERFLY,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00118,"Before I show you to the BATTLE DOME,\nI must save the data. Is that okay?$",2,BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge | BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleDomeLobby/scripts.inc
+dup_00119,"Before you two battle, you should\nsave your progress.$",2,RS_MysteryEventsHouse_Text_SaveYourProgress | SootopolisCity_MysteryEventsHouse_1F_Text_SaveProgressBeforeBattle,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00120,Best score:,2,gText_BestScore | gText_BestScore2,src/strings.c | src/strings.c
+dup_00121,Blocks critical hits.,2,sBattleArmorDescription | sShellArmorDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00122,"Bravo, {STR_VAR_1}!\nBravo, {STR_VAR_2}!\pI hope we can count on seeing\n{STR_VAR_1} scale even greater heights!\pThat's all the time we have!\nUntil next time, see you!$",2,gTVBravoTrainerText07 | BravoTrainerBattleTower_Text_Outro,data/text/tv.inc | data/text/tv.inc
+dup_00123,CAITLIN,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00124,CALE,2,trainerName | trainerName,src/data/contest_opponents.h | src/data/trainers.h
+dup_00125,CALVIN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00126,CAMERON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00127,CANCEL,8,gEasyChatWord_Cancel | sText_Cancel | gText_Cancel7 | gPCText_Cancel | gText_UnusedCancel | gText_Cancel3 | gText_Cancel4 | gText_Cancel5,src/data/easy_chat/easy_chat_group_trendy_saying.h | src/data/trade.h | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00128,CARDS,2,gEasyChatWord_Cards | sText_Cards,src/data/easy_chat/easy_chat_group_hobbies.h | src/data/union_room.h
+dup_00129,CATHERINE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00130,CAVE OF ORIGIN,2,sMapName_CAVE_OF_ORIGIN | gText_CaveOfOrigin,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00131,CHALLENGE,2,gEasyChatWord_Challenge | gText_Challenge,src/data/easy_chat/easy_chat_group_battle.h | src/strings.c
+dup_00132,CHAMPION,2,inline_40 | gText_ChampionMatchCallDesc,src/data/text/trainer_class_names.h | src/strings.c
+dup_00133,CHARIZARD,2,nickname | inline_8,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00134,CHARMELEON,2,nickname | inline_7,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00135,CHAT,3,gEasyChatWord_Chat | sText_Chat2 | sText_Chat,src/data/easy_chat/easy_chat_group_hobbies.h | src/data/union_room.h | src/data/union_room.h
+dup_00136,CHEERING,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00137,CHIMECHO,2,nickname | inline_413,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00138,CHLOROPHYLL,2,gEasyChatWord_Chlorophyll | inline_116,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00139,CINDY,6,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00140,CLAMPERL,2,nickname | inline_375,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00141,CLAW FOSSIL,2,name | gText_ClawFossil,src/data/items.h | src/strings.c
+dup_00142,CLAY DOLL,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00143,CLAYDOL,2,nickname | inline_321,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00144,CLEAR BODY,2,gEasyChatWord_ClearBody | inline_111,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00145,CLEFAIRY,2,nickname | inline_37,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00146,CLEFFA,2,nickname | inline_175,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00147,CLOUD NINE,2,gEasyChatWord_CloudNine | inline_95,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00148,COCOON,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00149,COLOR CHANGE,2,gEasyChatWord_ColorChange | inline_98,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00150,COMPOUNDEYES,2,gEasyChatWord_Compoundeyes | inline_96,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00151,CONFIRM,3,gMenuText_Confirm | gText_Confirm2 | gText_Confirm3,src/strings.c | src/strings.c | src/strings.c
+dup_00152,COOL,3,gEasyChatWord_Cool | gText_Cool | gText_Cool2,src/data/easy_chat/easy_chat_group_status.h | src/strings.c | src/strings.c
+dup_00153,COOL CONTEST,2,gRibbonDescriptionPart1_CoolContest | sText_CoolContest,src/data/text/ribbon_descriptions.h | src/data/union_room.h
+dup_00154,COOLTRAINER,2,inline_7 | inline_50,src/data/text/trainer_class_names.h | src/data/text/trainer_class_names.h
+dup_00155,CORSOLA,2,nickname | inline_224,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00156,CORY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00157,COTTONWEED,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00158,CRISTIN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00159,CROBAT,2,nickname | inline_171,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00160,CROCONAW,2,nickname | inline_161,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00161,CUBONE,3,nickname | nickname | inline_106,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00162,CURRENT,2,gEasyChatWord_Current | gText_Current,src/data/easy_chat/easy_chat_group_time.h | src/strings.c
+dup_00163,CUTE,3,gEasyChatWord_Cute | gText_Cute | gText_Cute2,src/data/easy_chat/easy_chat_group_status.h | src/strings.c | src/strings.c
+dup_00164,CUTE CHARM,2,gEasyChatWord_CuteCharm | inline_138,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00165,CUTE CONTEST,2,gRibbonDescriptionPart1_CuteContest | sText_CuteContest,src/data/text/ribbon_descriptions.h | src/data/union_room.h
+dup_00166,CYNDY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00167,Combine two words or phrases,2,gText_CombineTwoWordsOrPhrases | gText_CombineTwoWordsOrPhrases2,src/strings.c | src/strings.c
+dup_00168,Communication standby…,6,sText_CommunicationStandby | gText_CommunicationStandby | gText_CommunicationStandby2 | gText_CommunicationStandby3 | gText_CommunicationStandby4 | gText_CommunicationStandby5,src/berry_blender.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00169,"Congratulations for advancing\nto the final match.\pFor the final match, you will challenge\nthe DOME ACE TUCKER.\pAre you ready?$",2,BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver | BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold,data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc
+dup_00170,Create a quiz!,2,gText_CreateAQuiz2 | gText_CreateAQuiz,src/strings.c | src/strings.c
+dup_00171,DAD,2,gText_Dad | gText_NormanMatchCallName,src/strings.c | src/strings.c
+dup_00172,DALTON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00173,DAMP,2,gEasyChatWord_Damp | inline_88,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00174,DAN: You don't even have two POKéMON.\nYou can't expect to beat us like that.$,2,AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons | AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons,data/maps/AbandonedShip_Rooms2_1F/scripts.inc | data/maps/AbandonedShip_Rooms2_1F/scripts.inc
+dup_00175,DANTE,2,inline_412 | inline_412,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00176,DARK,4,inline_470 | gEasyChatWord_Dark | categoryName | categoryName,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00177,DARKNESS,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00178,DAVID,2,inline_404 | trainerName,src/data/battle_frontier/apprentice.h | src/data/trainers.h
+dup_00179,DAY,2,gEasyChatWord_Day | gText_Day,src/data/easy_chat/easy_chat_group_time.h | src/strings.c
+dup_00180,DEEPSEASCALE,2,name | gText_DeepSeaScale,src/data/items.h | src/strings.c
+dup_00181,DEEPSEATOOTH,2,name | gText_DeepSeaTooth,src/data/items.h | src/strings.c
+dup_00182,DEFENSE,3,sText_Defense2 | sText_Defense | gText_Defense,src/battle_message.c | src/battle_message.c | src/strings.c
+dup_00183,DELIBIRD,2,nickname | inline_227,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00184,DENNIS,2,trainerName | gText_Dennis,src/data/battle_frontier/battle_tent.h | src/strings.c
+dup_00185,DESELECT,2,gMenuText_Deselect | gText_Deselect,src/strings.c | src/strings.c
+dup_00186,DESERT,2,LandmarkName_Desert | gPCText_Desert,src/landmark.c | src/strings.c
+dup_00187,DESERT RUINS,2,sMapName_DESERT_RUINS | LandmarkName_DesertRuins,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00188,DESERT UNDERPASS,2,sMapName_DESERT_UNDERPASS | LandmarkName_DesertUnderpass,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00189,DEWGONG,2,nickname | inline_89,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00190,DIANA,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00191,DISASTER,2,gEasyChatWord_Disaster | categoryName,src/data/easy_chat/easy_chat_group_feelings.h | src/data/pokemon/pokedex_entries.h
+dup_00192,DOCILE,2,gEasyChatWord_Docile | sDocileNatureName,src/data/easy_chat/easy_chat_group_conditions.h | src/data/text/nature_names.h
+dup_00193,DODRIO,2,nickname | inline_87,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00194,DOTS,2,nickname | nickname,src/data/contest_opponents.h | src/data/trade.h
+dup_00195,DOUBLE,2,gText_Double2 | gText_Double,src/strings.c | src/strings.c
+dup_00196,DOUBLE BATTLE,2,sText_DoubleBattle | gText_DoubleBattle,src/data/union_room.h | src/strings.c
+dup_00197,DRAGON,9,inline_469 | gEasyChatWord_Dragon | categoryName | categoryName | categoryName | categoryName | categoryName | categoryName | categoryName,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00198,DRAGONITE,2,nickname | inline_151,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00199,DRILL,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00200,DRIZZLE,2,gEasyChatWord_Drizzle | inline_84,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00201,DROUGHT,2,gEasyChatWord_Drought | inline_152,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00202,DUCK,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00203,DUDE,2,sText_Dude | gEasyChatWord_Dude,src/berry_blender.c | src/data/easy_chat/easy_chat_group_people.h
+dup_00204,DUGTRIO,2,nickname | inline_53,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00205,DUSCLOPS,4,nickname | nickname | nickname | inline_364,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00206,DUSTY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00207,DYLAN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00208,"Depending on its nature, a POKéMON may\nstart using moves that don't match its\lnature when it is in trouble.\pIf a POKéMON begins behaving oddly\nin a pinch, watch it carefully.$",2,BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger | VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00209,Do you want the {STR_VAR_2}\nMODE?,2,sText_DoYouWantXMode | sText_DoYouWantXMode2,src/data/union_room.h | src/data/union_room.h
+dup_00210,EARLY BIRD,2,gEasyChatWord_EarlyBird | inline_130,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00211,EDWIN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00212,EFFECT SPORE,2,gEasyChatWord_EffectSpore | inline_109,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00213,EGG,3,gEasyChatWord_Egg | categoryName | categoryName,src/data/easy_chat/easy_chat_group_trainer.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00214,ELECTABUZZ,2,nickname | inline_127,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00215,ELECTRIC,4,gEasyChatWord_Electric | categoryName | categoryName | categoryName,src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00216,ELECTRODE,3,nickname | nickname | inline_103,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00217,ELEKID,2,nickname | inline_241,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00218,ELITE FOUR,2,inline_33 | gText_EliteFourMatchCallDesc,src/data/text/trainer_class_names.h | src/strings.c
+dup_00219,ELLIOT,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00220,EMERALD,2,gEasyChatWord_Emerald | gText_ExpandedPlaceholder_Emerald,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c
+dup_00221,ENIGMA BERRY,2,sText_EnigmaBerry | name,src/battle_message.c | src/data/items.h
+dup_00222,ENTEI,2,nickname | inline_246,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00223,EON,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00224,ERNEST,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00225,ERUPTION,2,categoryName | inline_287,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00226,ESPEON,3,nickname | nickname | inline_198,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00227,ETHAN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00228,EVAN,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00229,EVENTS,3,gEasyChatWord_Events | gText_Events | gEasyChatGroupName_Events,src/data/easy_chat/easy_chat_group_events.h | src/strings.c | src/strings.c
+dup_00230,EVOLUTION,2,gEasyChatWord_Evolution | categoryName,src/data/easy_chat/easy_chat_group_events.h | src/data/pokemon/pokedex_entries.h
+dup_00231,EXEGGUTOR,2,nickname | inline_105,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00232,EXIT,8,sText_Exit | sText_Exit2 | gText_MenuOptionExit | gText_Exit | gText_UnusedExit | gText_Exit2 | gText_Exit3 | gText_Exit4,src/data/union_room.h | src/data/union_room.h | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00233,EXPLOUD,3,nickname | nickname | inline_374,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00234,Excellent,2,gText_Excellent2 | gText_Excellent,src/strings.c | src/strings.c
+dup_00235,"Excuse me!\pYou didn't save before you quit your\nchallenge last time.\pBecause of that, your challenge so far\nhas been disqualified. Sorry!$",2,BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting | BattleFrontier_BattleTowerLobby_Text_DidntSaveBeforeQuitting,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+dup_00236,Excuse me!\pYou don't have three eligible POKéMON.\pYou must have three different POKéMON\nof Level 50 or less to enter.\pThey also must be holding different\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pPlease come see me when you are ready.$,2,BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50 | BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+dup_00237,FAIRY,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00238,FARAWAY ISLAND,2,sMapName_FARAWAY_ISLAND | gText_FarawayIsland,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00239,FEELING,2,gEasyChatWord_Feeling | categoryName,src/data/easy_chat/easy_chat_group_speech.h | src/data/pokemon/pokedex_entries.h
+dup_00240,FERNANDO,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00241,FIERY PATH,2,sMapName_FIERY_PATH | LandmarkName_FieryPath,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00242,FIGHT,2,inline_454 | gEasyChatWord_Fight,src/battle_main.c | src/data/easy_chat/easy_chat_group_battle.h
+dup_00243,FIRE,2,inline_463 | gEasyChatWord_Fire,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00244,FIRE HORSE,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00245,FIREFLY,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00246,FISH,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00247,FIVE STAR,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00248,FLAAFFY,2,nickname | inline_182,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00249,FLAME,5,gEasyChatWord_Flame | categoryName | categoryName | categoryName | categoryName,src/data/easy_chat/easy_chat_group_trainer.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00250,FLAME BODY,2,gEasyChatWord_FlameBody | inline_131,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00251,FLANNERY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00252,FLAREON,2,nickname | inline_138,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00253,FLASH FIRE,2,gEasyChatWord_FlashFire | inline_100,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00254,FLOWER,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00255,FLYCATCHER,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00256,FLYGON,2,nickname | inline_336,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00257,FLYING,2,inline_455 | gEasyChatWord_Flying,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00258,FORECAST,2,gEasyChatWord_Forecast | inline_141,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00259,FOREST,2,categoryName | gPCText_Forest,src/data/pokemon/pokedex_entries.h | src/strings.c
+dup_00260,FORRETRESS,2,nickname | inline_207,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00261,FOX,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00262,FRANK,3,inline_388 | inline_388 | inline_388,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00263,FRIEND,2,gEasyChatWord_Friend | gText_Friend2,src/data/easy_chat/easy_chat_group_people.h | src/strings.c
+dup_00264,Foe,3,sText_FoePkmnPrefix2 | sText_FoePkmnPrefix3 | sText_FoePkmnPrefix4,src/battle_message.c | src/battle_message.c | src/battle_message.c
+dup_00265,From out of the ashes I leap! Hiyah!\nI challenge thee!$,2,Route113_Text_LaoIntro | Route113_Text_LaoRematchIntro,data/text/trainers.inc | data/text/trainers.inc
+dup_00266,GABBY & TY,6,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00267,GABRIELLE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00268,GARDEVOIR,3,nickname | nickname | inline_396,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00269,GAS,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00270,GENGAR,5,nickname | nickname | nickname | nickname | inline_96,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00271,GHOST,2,inline_460 | gEasyChatWord_Ghost,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00272,GILLIAN,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/battle_frontier/battle_frontier_trainers.h
+dup_00273,GINA & MIA,2,trainerName | trainerName,src/data/trainers.h | src/data/trainers.h
+dup_00274,GIVE,4,gEasyChatWord_Give | gMenuText_Give | gMenuText_Give2 | gPCText_Give,src/data/easy_chat/easy_chat_group_actions.h | src/strings.c | src/strings.c | src/strings.c
+dup_00275,GLACIA,2,trainerName | gText_Glacia,src/data/trainers.h | src/strings.c
+dup_00276,GLOOM,2,nickname | inline_46,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00277,GOLD,3,gEasyChatWord_Gold | gText_Gold | gText_GoldCard,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c | src/strings.c
+dup_00278,GOLDFISH,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00279,GOLDUCK,2,nickname | inline_57,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00280,GRANITE CAVE,2,sMapName_GRANITE_CAVE | LandmarkName_GraniteCave,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00281,GRASS,2,inline_465 | gEasyChatWord_Grass,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00282,GREEN SHARD,2,name | gText_GreenShard,src/data/items.h | src/strings.c
+dup_00283,GREETINGS,2,sText_Greetings | gEasyChatGroupName_Greetings,src/data/union_room.h | src/strings.c
+dup_00284,GROUDON,2,inline_407 | gText_ExpandedPlaceholder_Groudon,src/data/text/species_names.h | src/strings.c
+dup_00285,GROUND,2,inline_457 | gEasyChatWord_Ground,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00286,GRUMPIG,3,nickname | nickname | inline_354,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00287,GRUNT,53,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00288,GUTS,3,gEasyChatWord_Guts | categoryName | inline_144,src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/text/abilities.h
+dup_00289,GYARADOS,2,nickname | inline_132,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00290,"Good. Now, you must select your\nthree POKéMON.$",2,BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons | VerdanturfTown_BattleTentLobby_Text_SelectThreeMons,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00291,"Good.\nNow, follow me.$",2,BattleFrontier_BattlePalaceLobby_Text_FollowMe | VerdanturfTown_BattleTentLobby_Text_NowFollowMe,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00292,Greetings!\nIt's time for POKéMON NEWS.\pThis is the news you've all been\nwaiting for!\pLILYCOVE DEPARTMENT STORE's clear-out\nsale has finally arrived!\pAll the thingamajigs and doodads that\nyou've always dreamt about…\pYou may be in for fateful encounters\nwith them all!\pThat's the news on POKéMON NEWS.$,2,gPokeNewsTextLilycove_Ongoing | gPokeNewsTextLilycove_Ending,data/text/pokemon_news.inc | data/text/pokemon_news.inc
+dup_00293,Groan…$,3,Route103_Text_IsabelleDefeated | Route109_Text_RickyDefeated | Route111_Text_HaydenDefeat,data/text/trainers.inc | data/text/trainers.inc | data/text/trainers.inc
+dup_00294,HALEY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00295,HALL OF FAME,2,gEasyChatWord_HallOfFame | gText_HallOfFame,src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00296,HAPPINESS,3,gEasyChatWord_Happiness | categoryName | categoryName,src/data/easy_chat/easy_chat_group_feelings.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00297,HELLO,2,gEasyChatWord_Hello | gText_Hello,src/data/easy_chat/easy_chat_group_greetings.h | src/strings.c
+dup_00298,HERACROSS,2,nickname | inline_216,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00299,HITMONCHAN,3,nickname | nickname | inline_109,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00300,HITMONLEE,2,nickname | inline_108,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00301,HITMONTOP,2,nickname | inline_239,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00302,HOENN,2,gText_DexHoenn | gText_Hoenn,src/strings.c | src/strings.c
+dup_00303,HOUNDOOM,2,nickname | inline_231,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00304,HP,4,sText_HP2 | sText_HP | gText_HP3 | gText_HP4,src/battle_message.c | src/battle_message.c | src/strings.c | src/strings.c
+dup_00305,HUGE POWER,2,gEasyChatWord_HugePower | inline_119,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00306,HUSTLE,2,gEasyChatWord_Hustle | inline_137,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00307,HYPER,2,gEasyChatWord_Hyper | gText_Hyper,src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00308,HYPER CUTTER,2,gEasyChatWord_HyperCutter | inline_134,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00309,HYPNOSIS,3,categoryName | categoryName | inline_98,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00310,Have you completely forgotten\nabout {STR_VAR_1}?$,2,LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer | LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2,data/text/tv.inc | data/text/tv.inc
+dup_00311,"Hello!\pIt's time for POKéMON TODAY!\pBIG SIS: Hi! Is everyone peachy and\nperky today?\pToday, we're going to look at {STR_VAR_1}'s\nPOKéMON {STR_VAR_2}!\pBIG BRO: Yeah! That's what we're going\nto do!$",2,gTVPokemonTodayFailedText00 | gTVPokemonTodaySuccessfulText00,data/text/tv.inc | data/text/tv.inc
+dup_00312,"Hello, are you here for the ferry?\nMay I see your TICKET?$",3,BattleFrontier_OutsideWest_Text_MayISeeYourTicket | LilycoveCity_Harbor_Text_MayISeeYourTicket | SlateportCity_Harbor_Text_MayISeeYourTicket,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00313,"Hello, it's {STR_VAR_1}!\nI heard about you!\pThey said you won {STR_VAR_3} straight\nbattles at the {STR_VAR_2}.\pThat's special! I should try\nharder, too! See you!$",2,MatchCall_BattleFrontierStreakText2 | MatchCall_BattleFrontierRecordStreakText2,data/text/match_call.inc | data/text/match_call.inc
+dup_00314,"Hello, {PLAYER}{KUN}.\nIt's me, {STR_VAR_1}.\lAre you keeping well?\pSomeone passed on word about you.\nHow you won {STR_VAR_3} straight battles\lat a place named {STR_VAR_2}?\pThat's quite the tale.\nSee you!$",2,MatchCall_BattleFrontierStreakText12 | MatchCall_BattleFrontierRecordStreakText12,data/text/match_call.inc | data/text/match_call.inc
+dup_00315,Here you go!$,3,MauvilleCity_GameCorner_Text_HereYouGo | MauvilleCity_GameCorner_Text_HereYouGo2 | Route109_SeashoreHouse_Text_HereYouGo,data/maps/MauvilleCity_GameCorner/scripts.inc | data/maps/MauvilleCity_GameCorner/scripts.inc | data/maps/Route109_SeashoreHouse/scripts.inc
+dup_00316,"Hey there, {PLAYER}!\nIt's me, {STR_VAR_1}.\pI heard you went on a tear at\nthe {STR_VAR_2}!\pA big {STR_VAR_3}-win streak…\nThat is a big record, isn't it?\pI'd better get it together, too!\nCatch you soon!$",2,MatchCall_BattleFrontierStreakText3 | MatchCall_BattleFrontierRecordStreakText3,data/text/match_call.inc | data/text/match_call.inc
+dup_00317,"Hey!\nYou…\pWho are you?\pOh, you're {PLAYER}, aren't you?\nMoved in next door, right?\pI didn't know that you're a girl.\pDad, PROF. BIRCH, said that our new\nnext-door neighbor is a GYM LEADER's\lkid, so I assumed you'd be a guy.\pMy name's BRENDAN.\nSo, hi, neighbor!\pHuh? Hey, {PLAYER}, don't you have\na POKéMON?\pDo you want me to go catch you one?\pAw, darn, I forgot…\pI'm supposed to go help my dad catch\nsome wild POKéMON.\pSome other time, okay?$",2,RivalsHouse_1F_Text_BrendanWhoAreYou | RivalsHouse_2F_Text_BrendanWhoAreYou,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc | data/maps/LittlerootTown_MaysHouse_2F/scripts.inc
+dup_00318,"Hey, {PLAYER}{KUN}.\n{STR_VAR_1} here. What's up?\pThere's a rumor going around that\nyou strung together {STR_VAR_3} straight\lwins at the {STR_VAR_2}.\pI'd better step it up, too.\nSee you!$",2,MatchCall_BattleFrontierStreakText4 | MatchCall_BattleFrontierRecordStreakText4,data/text/match_call.inc | data/text/match_call.inc
+dup_00319,"Hm?\nAh, you've obtained a POKéNAV.\pI will gladly register you.\nAfter all, I have plenty of money.$",2,Route104_Text_WinstonRegister1 | Route104_Text_WinstonRegister2,data/text/trainers.inc | data/text/trainers.inc
+dup_00320,"Hmhm…\pThis one says it likes to battle!\nBut if it gets enough ouchies,\lit will turn sneaky!$",2,BattleFrontier_Lounge5_Text_NatureGirlTimid | BattleFrontier_Lounge5_Text_NatureGirlSassy,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00321,"Hmhm…\pThis one says it likes to battle!\nBut if it gets enough ouchies,\lit will worry about itself!$",2,BattleFrontier_Lounge5_Text_NatureGirlBrave | BattleFrontier_Lounge5_Text_NatureGirlImpish,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00322,Hmhm…\pThis one says it likes to battle!\nIt will battle even if it has a lot\lof ouchies!$,4,BattleFrontier_Lounge5_Text_NatureGirlHardy | BattleFrontier_Lounge5_Text_NatureGirlAdamant | BattleFrontier_Lounge5_Text_NatureGirlDocileNaiveQuietQuirky | BattleFrontier_Lounge5_Text_NatureGirlHasty,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00323,"Hmhm…\pThis one says it likes to be sneaky!\nBut if it gets enough ouchies,\lit will hit back!$",2,BattleFrontier_Lounge5_Text_NatureGirlLonely | BattleFrontier_Lounge5_Text_NatureGirlRelaxed,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00324,"Hmhm…\pThis one says it likes to be sneaky!\nBut if it gets enough ouchies,\lit will worry about itself!$",2,BattleFrontier_Lounge5_Text_NatureGirlBold | BattleFrontier_Lounge5_Text_NatureGirlJolly,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00325,Hmhm…\pThis one says it likes to be sneaky!\nIt says it likes to be sneaky even\lif it has a lot of ouchies!$,3,BattleFrontier_Lounge5_Text_NatureGirlLax | BattleFrontier_Lounge5_Text_NatureGirlSerious | BattleFrontier_Lounge5_Text_NatureGirlRash,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00326,"Hmhm…\pThis one says it looks after itself!\nBut if it gets enough ouchies,\lit will hit back!$",2,BattleFrontier_Lounge5_Text_NatureGirlNaughty | BattleFrontier_Lounge5_Text_NatureGirlGentle,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00327,"Hmhm…\pThis one says it looks after itself!\nBut if it gets enough ouchies,\lit will turn sneaky!$",2,BattleFrontier_Lounge5_Text_NatureGirlMild | BattleFrontier_Lounge5_Text_NatureGirlCareful,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00328,Hmhm…\pThis one says it looks after itself!\nIt says it worries about itself even\lif it has a lot of ouchies!$,2,BattleFrontier_Lounge5_Text_NatureGirlBashful | BattleFrontier_Lounge5_Text_NatureGirlCalm,data/maps/BattleFrontier_Lounge5/scripts.inc | data/maps/BattleFrontier_Lounge5/scripts.inc
+dup_00329,Hmm…\nYou're pretty good.$,3,Route104_Text_BrendanDefeat | Route110_Text_BrendanDefeated | RustboroCity_Text_BrendanDefeat,data/maps/Route104/scripts.inc | data/maps/Route110/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00330,"Huh?\nWho… Who are you?\p… … … … … … … …\n… … … … … … … …\pOh, you're {PLAYER}{KUN}.\nSo your move was today.\pUm… I'm MAY.\nGlad to meet you!\pI…\nI have this dream of becoming friends\lwith POKéMON all over the world.\pI… I heard about you, {PLAYER}{KUN}, from\nmy dad, PROF. BIRCH.\pI was hoping that you would be nice,\n{PLAYER}{KUN}, and that we could be friends.\pOh, this is silly, isn't it?\nI… I've just met you, {PLAYER}{KUN}.\pEheheh…\pOh, no! I forgot!\pI was supposed to go help Dad catch\nsome wild POKéMON!\p{PLAYER}{KUN}, I'll catch you later!$",2,RivalsHouse_1F_Text_MayWhoAreYou | RivalsHouse_2F_Text_MayWhoAreYou,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc | data/maps/LittlerootTown_MaysHouse_2F/scripts.inc
+dup_00331,Hunh?\nYour BAG is crammed full.$,2,SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1 | SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2,data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc | data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc
+dup_00332,I am saving your data.\nPlease wait.$,2,BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait | BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait,data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc
+dup_00333,"I beg your pardon?\nYou're looking for a ship?\pI'm sorry, the ferry service isn't\navailable at present…$",2,LilycoveCity_Harbor_Text_FerryUnavailable | SlateportCity_Harbor_Text_FerryServiceUnavailable,data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00334,I can't be popular if I lose.$,2,PetalburgWoods_Text_CantBePopularIfILose | PetalburgWoods_Text_CantBePopularIfLose,data/maps/PetalburgWoods/scripts.inc | data/maps/PetalburgWoods/scripts.inc
+dup_00335,I feel privileged for having seen\nyour POKéMON's exploits.\pThe results will be recorded.\nI must ask you to briefly wait.$,2,BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded | VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00336,I feel sad…$,2,Route123_Text_CameronDefeat | Route123_Text_CameronRematchDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00337,I give up!$,2,Route106_Text_DouglasDefeated | Route119_Text_KentDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00338,I hope to see a good match!$,2,RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch | SootopolisCity_MysteryEventsHouse_1F_Text_HopeToSeeGoodMatch,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00339,"I learned at the TRAINER'S SCHOOL\nthat a POKéNAV can register TRAINERS.\pI don't really get what that means,\nso can I just try it?$",2,Route116_Text_JerryRegister1 | Route116_Text_JerryRegister2,data/text/trainers.inc | data/text/trainers.inc
+dup_00340,I must save before I show you to\nthe BATTLE HALL. Is that okay?$,2,BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2 | BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc
+dup_00341,"I need to get more practices in,\nI guess.$",2,Route117_Text_MariaDefeat | Route117_Text_MariaRematchDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00342,I surrender!$,2,MossdeepCity_Gym_Text_SamanthaDefeat | Route125_Text_NolenDefeat,data/maps/MossdeepCity_Gym/scripts.inc | data/text/trainers.inc
+dup_00343,I urge you to enjoy the rest of your\nBattle Choice challenge…$,2,BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge | BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2,data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc | data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc
+dup_00344,I use different types.,2,gText_MatchCallYoungster_Calvin_Pokemon | gText_MatchCallPkmnRanger_Jackson_Pokemon,src/data/text/match_call_messages.h | src/data/text/match_call_messages.h
+dup_00345,I was beaten…$,2,FortreeCity_Gym_Text_AshleyDefeat | SootopolisCity_Gym_B1F_Text_OliviaDefeat,data/maps/FortreeCity_Gym/scripts.inc | data/maps/SootopolisCity_Gym_B1F/scripts.inc
+dup_00346,I will return your POKéMON in exchange\nfor our rental POKéMON.$,2,BattleFrontier_BattleFactoryLobby_Text_ReturnMons | SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00347,"I'll have to redo some courses at\nthe TRAINER'S SCHOOL.\lIf I don't, ROXANNE will be steamed.$",2,Route116_Text_JerryPostBattle | Route116_Text_JerryPostRematch,data/text/trainers.inc | data/text/trainers.inc
+dup_00348,I'm COOLTRAINER {STR_VAR_1}!$,2,BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro | BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro,data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc | data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc
+dup_00349,I'm TRIATHLETE {STR_VAR_1}!$,2,BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro | BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro,data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc | data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc
+dup_00350,"I'm sorry to say this, but you didn't\nsave before you quit playing last time.\pAs a result, you have been disqualified\nfrom your challenge.$",2,BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting | SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00351,"I'm sorry, but an EGG cannot take part\nin a POKéMON CONTEST.$",2,LilycoveCity_ContestLobby_Text_EggCannotTakePart | LilycoveCity_ContestLobby_Text_EggCannotTakePart2,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00352,ICE,2,inline_468 | gEasyChatWord_Ice,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00353,IDNo.,2,gText_IDNumber | gText_TrainerCardIDNo,src/strings.c | src/strings.c
+dup_00354,ILLUMINATE,2,gEasyChatWord_Illuminate | inline_117,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00355,ILLUMISE,3,nickname | nickname | inline_389,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00356,IMMUNITY,2,gEasyChatWord_Immunity | inline_99,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00357,INFO,5,sText_Info | gText_Info2 | gText_Info4 | gText_Info3 | gPCText_Info,src/data/union_room.h | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00358,INFORMATION,2,gEasyChatWord_Information | gText_Information,src/data/easy_chat/easy_chat_group_lifestyle.h | src/strings.c
+dup_00359,INNER FOCUS,2,gEasyChatWord_InnerFocus | inline_121,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00360,INSOMNIA,2,gEasyChatWord_Insomnia | inline_97,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00361,INTIMIDATE,2,gEasyChatWord_Intimidate | inline_104,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00362,IRON,2,name | categoryName,src/data/items.h | src/data/pokemon/pokedex_entries.h
+dup_00363,IRON ARMOR,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00364,ISAAC,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00365,ISABEL,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00366,ISAIAH,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00367,ISLAND CAVE,2,sMapName_ISLAND_CAVE | LandmarkName_IslandCave,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00368,ITEMS,2,gText_ItemsPocket | gText_Items,src/strings.c | src/strings.c
+dup_00369,IVYSAUR,2,nickname | inline_4,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00370,"If that {STR_VAR_1} is the best,\nI'll do as you suggest!\pWell, {PLAYER}, I have to roam free,\nbut don't you forget about me.\pSee you again, my smart friend!$",2,gText_ApprenticeMonThanks12 | gText_ApprenticeMoveThanks12,data/text/apprentice.inc | data/text/apprentice.inc
+dup_00371,"In a Battle Swap event, you may use\nonly three POKéMON.\pWhether you are renting or swapping,\nyour team may not have two or more\lof the same POKéMON.$",2,BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules | SlateportCity_BattleTentLobby_Text_ExplainBasicRules,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00372,It appears to be for use at the\nLILYCOVE CITY port.\pWhy not give it a try and see what\nit is about?$,3,sText_AuroraTicketUseAtPort | sText_MysticTicketUseAtPort | sText_MysteryGiftOldSeaMapUseAtPort,data/scripts/gift_aurora_ticket.inc | data/scripts/gift_mystic_ticket.inc | data/scripts/gift_old_sea_map.inc
+dup_00373,It cheapened the appeal\nof those ahead.$,2,gText_CheapenedAppealOfThoseAhead | gText_CheapenedAppealOfThoseAhead2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00374,It cheapened\n{STR_VAR_2}'s appeal.$,2,gText_CheapenedMonsAppeal | gText_CheapenedMonsAppeal2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00375,It filled its storage space.,2,gText_FilledStorageSpace | gText_FilledStorageSpace2,src/strings.c | src/strings.c
+dup_00376,It tried to startle the\nother POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,2,gText_TriedToStartleOtherMons | gText_TriedToStartleOtherPokemon,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00377,JACKI,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00378,JACKSON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00379,JAGGED PASS,2,sMapName_JAGGED_PASS | LandmarkName_JaggedPass,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00380,JAMES,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00381,"JAY: Oh, dear.\nWe've lost, my dear husband.$",2,MeteorFalls_1F_2R_Text_JayDefeat | MeteorFalls_1F_2R_Text_JayRematchDefeat,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00382,"JAY: Well, well, aren't you a young\nTRAINER?\pIf you'd care to battle with us, you'll\nhave to come back with more POKéMON.$",2,MeteorFalls_1F_2R_Text_JayNotEnoughMons | MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00383,JEFFREY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00384,JELLYFISH,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00385,JENNY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00386,JERRY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00387,JESSICA,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00388,JET,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00389,JIGGLYPUFF,3,nickname | nickname | inline_41,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00390,JOHN,2,trainerName | gText_John,src/data/battle_frontier/battle_frontier_trainers.h | src/strings.c
+dup_00391,JOHN & JAY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00392,"JOHN: Oh, my.\nWe've lost, dear wife.$",2,MeteorFalls_1F_2R_Text_JohnDefeat | MeteorFalls_1F_2R_Text_JohnRematchDefeat,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00393,JOHN: We've always battled POKéMON\ntogether as a twosome.\lWe've confidence in ourselves.$,2,MeteorFalls_1F_2R_Text_JohnIntro | MeteorFalls_1F_2R_Text_JohnRematchIntro,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00394,"JOHN: Well, well, what a young TRAINER!\pWill you battle with us? If so, you'll\nhave to return with more POKéMON.$",2,MeteorFalls_1F_2R_Text_JohnNotEnoughMons | MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00395,JOLLY,2,categoryName | sJollyNatureName,src/data/pokemon/pokedex_entries.h | src/data/text/nature_names.h
+dup_00396,JOLTEON,2,nickname | inline_137,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00397,JORGE,2,inline_396 | trainerName,src/data/battle_frontier/apprentice.h | src/data/contest_opponents.h
+dup_00398,JUAN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00399,JUMP,2,gText_Jump | gPCText_Jump,src/strings.c | src/strings.c
+dup_00400,JYNX,2,nickname | inline_126,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00401,KANGASKHAN,2,nickname | inline_117,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00402,KAREN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00403,KATELYN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00404,KAY,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00405,KEEN EYE,2,gEasyChatWord_KeenEye | inline_133,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00406,KELSEY,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00407,KEY ITEMS,2,gText_KeyItemsPocket | gText_Key_Items,src/strings.c | src/strings.c
+dup_00408,KINGLER,2,nickname | inline_101,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00409,KIRA & DAN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00410,"KIRA: Oh, you don't have two POKéMON?\nWe'll have to battle some other time!$",2,AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons | AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons,data/maps/AbandonedShip_Rooms2_1F/scripts.inc | data/maps/AbandonedShip_Rooms2_1F/scripts.inc
+dup_00411,KOJI,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00412,KYOGRE,2,inline_406 | gText_ExpandedPlaceholder_Kyogre,src/data/text/species_names.h | src/strings.c
+dup_00413,LADY,2,gEasyChatWord_Lady | inline_22,src/data/easy_chat/easy_chat_group_people.h | src/data/text/trainer_class_names.h
+dup_00414,LAMAR,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00415,LANTURN,2,nickname | inline_173,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00416,LAO,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00417,LAPRAS,2,nickname | inline_133,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00418,LAVA,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00419,LAYLA,2,inline_324 | inline_324,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00420,LEADER,2,gEasyChatWord_Leader | inline_34,src/data/easy_chat/easy_chat_group_battle.h | src/data/text/trainer_class_names.h
+dup_00421,LEAF,4,gEasyChatWord_Leaf | categoryName | categoryName | trainerName,src/data/easy_chat/easy_chat_group_trainer.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/trainers.h
+dup_00422,LET'S,2,gEasyChatWord_Lets | gText_Lets,src/data/easy_chat/easy_chat_group_endings.h | src/strings.c
+dup_00423,LETTER,2,gEasyChatWord_Letter | name,src/data/easy_chat/easy_chat_group_lifestyle.h | src/data/items.h
+dup_00424,LEVITATE,2,gEasyChatWord_Levitate | inline_108,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00425,LIAM,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00426,LICKITUNG,2,nickname | inline_110,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00427,LIGHT,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00428,LIGHTNING,3,categoryName | categoryName | gText_Lightning,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/strings.c
+dup_00429,LIGHTNINGROD,2,gEasyChatWord_Lightningrod | inline_113,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00430,LILA & ROY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00431,LILA: You're planning to battle us?\nNot unless you have two POKéMON.$,2,Route124_Text_LilaNotEnoughMons | Route124_Text_LilaRematchNotEnoughMons,data/text/trainers.inc | data/text/trainers.inc
+dup_00432,LILYCOVE CITY,2,sMapName_LILYCOVE_CITY | gText_LilycoveCity,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00433,"LILYCOVE CITY it is, then!$",2,BattleFrontier_OutsideWest_Text_LilycoveItIs | SlateportCity_Harbor_Text_LilycoveItIs,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00434,LIMBER,2,gEasyChatWord_Limber | inline_89,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00435,LINOONE,2,nickname | inline_291,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00436,LIONEL,2,inline_308 | inline_308,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/apprentice.h
+dup_00437,LIQUID OOZE,2,gEasyChatWord_LiquidOoze | inline_146,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00438,LIV: We battle together as one\nteam.$,2,Route103_Text_LivIntro | Route103_Text_LivRematchIntro,data/text/trainers.inc | data/text/trainers.inc
+dup_00439,LOLA,6,inline_324 | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/battle_frontier/apprentice.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00440,LONELY,2,categoryName | sLonelyNatureName,src/data/pokemon/pokedex_entries.h | src/data/text/nature_names.h
+dup_00441,LUCAS,2,trainerName | trainerName,src/data/trainers.h | src/data/trainers.h
+dup_00442,LUNATONE,2,nickname | inline_350,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00443,LV. 50,4,gText_Lv50 | gText_Lv50_3 | gText_Lv502 | gText_RecordsLv50,src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00444,LYDIA,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00445,La-lalala…$,2,Route118_Text_DaltonDefeat | Route118_Text_DaltonRematchDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00446,Lady,2,gText_Lady | gText_QuizLady_Lady,src/strings.c | src/strings.c
+dup_00447,"Let's get started, then!\pLet's BERRY BLENDER!$",2,BerryBlender_Text_LetsBerryBlender | BerryBlender_Text_LetsBerryBlender2,data/scripts/berry_blender.inc | data/scripts/berry_blender.inc
+dup_00448,Lost it…$,3,SeafloorCavern_Room4_Text_Grunt3Defeat | Route120_Text_JeffreyDefeat | Route125_Text_SharonDefeat,data/maps/SeafloorCavern_Room4/scripts.inc | data/text/trainers.inc | data/text/trainers.inc
+dup_00449,Lv. ,2,sText_Lv | gText_Level,src/data/trade.h | src/strings.c
+dup_00450,MACHAMP,2,nickname | inline_70,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00451,MACHINE,2,gEasyChatWord_Machine | gPCText_Machine,src/data/easy_chat/easy_chat_group_lifestyle.h | src/strings.c
+dup_00452,MACHOKE,2,nickname | inline_69,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00453,MACHOP,2,nickname | inline_68,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00454,MADELINE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00455,MAGBY,2,nickname | inline_242,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00456,MAGCARGO,2,nickname | inline_221,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00457,MAGMA ARMOR,2,gEasyChatWord_MagmaArmor | inline_122,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00458,MAGMA HIDEOUT,2,sMapName_MAGMA_HIDEOUT | LandmarkName_MagmaHideout,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00459,MAGNEMITE,2,nickname | inline_83,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00460,MAGNET,3,name | categoryName | categoryName,src/data/items.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00461,MAGNET PULL,2,gEasyChatWord_MagnetPull | inline_124,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00462,MAGNETON,2,nickname | inline_84,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00463,MANECTRIC,2,nickname | inline_340,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00464,MANTINE,2,nickname | inline_228,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00465,MARCO,2,trainerName | gText_Marco,src/data/battle_frontier/battle_frontier_trainers.h | src/strings.c
+dup_00466,MARIA,6,inline_332 | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/battle_frontier/apprentice.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00467,MARILL,2,nickname | inline_185,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00468,MARK,2,trainerName | gPCText_Mark,src/data/trainers.h | src/strings.c
+dup_00469,MAROWAK,2,nickname | inline_107,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00470,MARVEL SCALE,2,gEasyChatWord_MarvelScale | inline_145,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00471,MASTER,3,sText_Master | gEasyChatWord_Master | gText_Master,src/berry_blender.c | src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00472,MAXIE,4,trainerName | trainerName | trainerName | gText_ExpandedPlaceholder_Maxie,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/strings.c
+dup_00473,MAY,17,trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName | gText_ExpandedPlaceholder_May,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/strings.c
+dup_00474,"MAY: Oh, what's the matter?\pHaven't you caught or raised your\nPOKéMON very much?\pThat's not very good for a TRAINER!$",2,Route104_Text_MayHaventRaisedPokemon | RustboroCity_Text_MayOhHaventRaisedPokemonEnough,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00475,"MAY: So, what do you think?\nHow about a little battle here?$",2,Route104_Text_MayLetsBattle | RustboroCity_Text_MayWantToBattle,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00476,"MAY: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!$",2,Route104_Text_MayIntro | RustboroCity_Text_MayImNotGoingToLose,data/maps/Route104/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00477,MEDICHAM,2,nickname | inline_359,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00478,MEDITATE,3,categoryName | categoryName | inline_99,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00479,MEDITITE,2,nickname | inline_358,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00480,"MEG: Do you only have one POKéMON?\nWe can't battle with you, then.\pWe want to have a 2-on-2 battle.$",2,Route117_Text_MegNotEnoughMons | Route117_Text_MegRematchNotEnoughMons,data/text/trainers.inc | data/text/trainers.inc
+dup_00481,MEGANIUM,2,nickname | inline_156,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00482,MEOWTH,2,nickname | inline_54,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00483,METEOR FALLS,2,sMapName_METEOR_FALLS | LandmarkName_MeteorFalls,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00484,METEORITE,3,name | categoryName | categoryName,src/data/items.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00485,MIGUEL,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00486,MIKE,2,trainerName | trainerName,src/data/trainers.h | src/data/trainers.h
+dup_00487,MILTANK,2,nickname | inline_243,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00488,MINUN,3,nickname | nickname | inline_356,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00489,MINUS,2,gEasyChatWord_Minus | inline_140,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00490,MIRAGE TOWER,2,sMapName_MIRAGE_TOWER | LandmarkName_MirageTower,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00491,MISDREAVUS,3,nickname | nickname | inline_202,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00492,MISS,2,sText_Miss | gEasyChatWord_Miss,src/berry_blender.c | src/data/easy_chat/easy_chat_group_speech.h
+dup_00493,MOLE,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00494,MOLTRES,2,nickname | inline_148,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00495,MOM,2,gText_Mom | gText_MomMatchCallName,src/strings.c | src/strings.c
+dup_00496,MONEY,2,gEasyChatWord_Money | gText_TrainerCardMoney,src/data/easy_chat/easy_chat_group_lifestyle.h | src/strings.c
+dup_00497,MOONLIGHT,2,categoryName | inline_239,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00498,MOUSE,6,categoryName | categoryName | categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00499,MOVE,2,gEasyChatWord_Move | gPCText_Move,src/data/easy_chat/easy_chat_group_battle.h | src/strings.c
+dup_00500,"MR. BRINEY: Ahoy!\nFor you, I'll go out to sea anytime!\pNow, my friend, where are we bound?$",3,DewfordTown_Text_WhereAreWeBound | Route104_MrBrineysHouse_Text_WhereAreWeBound | Route109_Text_BrineyWhereAreWeBound,data/maps/DewfordTown/scripts.inc | data/maps/Route104_MrBrineysHouse/scripts.inc | data/maps/Route109/scripts.inc
+dup_00501,"MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$",2,Route104_MrBrineysHouse_Text_SetSailForDewford | Route109_Text_BrineyDewfordItIs,data/maps/Route104_MrBrineysHouse/scripts.inc | data/maps/Route109/scripts.inc
+dup_00502,MR. BRINEY: You just tell me whenever\nyou need to set sail again!$,2,DewfordTown_Text_JustTellMeWhenYouNeedToSetSail | Route109_Text_BrineyTellMeWhenYouNeedToSail,data/maps/DewfordTown/scripts.inc | data/maps/Route109/scripts.inc
+dup_00503,MR. MIME,2,nickname | inline_124,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00504,MT. PYRE,3,sMapName_MT__PYRE | LandmarkName_MtPyre | gText_MtPyre,src/data/region_map/region_map_entries.h | src/landmark.c | src/strings.c
+dup_00505,MUD FISH,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00506,MUK,2,nickname | inline_91,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00507,MULTI BATTLE,2,sText_MultiBattle | gText_MultiBattle,src/data/union_room.h | src/strings.c
+dup_00508,MULTI-LINK,2,gText_MultiLink | gText_MultiLink2,src/strings.c | src/strings.c
+dup_00509,MUSHROOM,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00510,MYSTIC,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00511,Maybe I'll go catch more POKéMON at\nthe SAFARI.$,2,Route121_Text_JessicaPostBattle | Route121_Text_JessicaPostRematch,data/text/trainers.inc | data/text/trainers.inc
+dup_00512,Mommy!$,2,Route109_Text_LolaDefeated | Route109_Text_LolaRematchDefeated,data/text/trainers.inc | data/text/trainers.inc
+dup_00513,"My dear challenger!\pYou did not save the game before\nshutting down, did you?\pIt is unfortunate, but that has\nresulted in your disqualification\lfrom your challenge.\pYou may, of course, start with a fresh\nchallenge.$",2,BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown | FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc
+dup_00514,"My dear challenger!\pYou do not have the three POKéMON\nrequired for entry.\pTo qualify, you must bring three\ndifferent kinds of POKéMON.\pThey also must not hold the same\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pWhen you have made your preparations,\nplease do return.$",2,BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen | FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc
+dup_00515,NAME,3,gEasyChatWord_Name | gText_Name | gPCText_Name,src/data/easy_chat/easy_chat_group_lifestyle.h | src/strings.c | src/strings.c
+dup_00516,NATURAL CURE,2,gEasyChatWord_NaturalCure | inline_112,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00517,NAVEL ROCK,2,sMapName_NAVEL_ROCK | gText_NavelRock,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00518,NEW MAUVILLE,2,sMapName_NEW_MAUVILLE | LandmarkName_NewMauville,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00519,NICOLAS,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00520,NIDOQUEEN,2,nickname | inline_33,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00521,NINETALES,4,nickname | nickname | nickname | inline_40,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00522,NO,5,gEasyChatWord_No | gText_No | gText_No4 | gText_No2 | gText_No3,src/data/easy_chat/easy_chat_group_greetings.h | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00523,NOB,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00524,NORMAL,3,inline_453 | gEasyChatWord_Normal | gText_Normal,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h | src/strings.c
+dup_00525,NORMAN,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00526,Negates weather effects.,2,sCloudNineDescription | sAirLockDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00527,No more decorations can be placed.\nThe most that can be placed are {STR_VAR_1}.,2,gText_NoMoreDecorations | gText_NoMoreDecorations2,src/strings.c | src/strings.c
+dup_00528,No. ,2,gText_Number | gText_Number2,src/strings.c | src/strings.c
+dup_00529,None$,5,gTrickHouse_Mechadoll_None | BravoTrainerBattleTower_Text_None1 | BravoTrainerBattleTower_Text_None2 | BravoTrainerBattleTower_Text_None3 | BravoTrainerBattleTower_Text_None4,data/text/trick_house_mechadolls.inc | data/text/tv.inc | data/text/tv.inc | data/text/tv.inc | data/text/tv.inc
+dup_00530,Now please select the two POKéMON\nthat are to be entered.$,2,BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons | BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2,data/maps/BattleFrontier_BattleTowerLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+dup_00531,OBLIVIOUS,2,gEasyChatWord_Oblivious | inline_94,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00532,OK,2,gText_Ok3 | gText_Ok2,src/strings.c | src/strings.c
+dup_00533,OMAR,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00534,OMASTAR,2,nickname | inline_141,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00535,OPEN LEVEL,4,gText_OpenLevel | gText_OpenLevel2 | gText_OpenLevel3 | gText_RecordsOpenLevel,src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00536,OPPONENT,2,gEasyChatWord_Opponent | gText_Opponent,src/data/easy_chat/easy_chat_group_people.h | src/strings.c
+dup_00537,OTHERS,2,gText_Others | gText_Others2,src/strings.c | src/strings.c
+dup_00538,OVERGROW,2,gEasyChatWord_Overgrow | inline_147,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00539,OWL,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00540,OWN TEMPO,2,gEasyChatWord_OwnTempo | inline_102,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00541,Obtained the {STR_VAR_2}!$,2,gText_ObtainedTheItem | gText_ObtainedTheDecor,data/text/obtain_item.inc | data/text/obtain_item.inc
+dup_00542,"Oh! Yes, correct!\pWe shall try again.\pIn which hand have I palmed the coin?\nThe right or left?$",2,FortreeCity_House2_Text_CorrectTryAgainWhichHand | FortreeCity_House2_Text_CorrectTryAgainWhichHand2,data/maps/FortreeCity_House2/scripts.inc | data/maps/FortreeCity_House2/scripts.inc
+dup_00543,"Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something on your PC,\nthen come back for this.$",3,sText_AuroraTicketBagFull | sText_MysticTicketBagFull | sText_MysteryGiftOldSeaMapBagFull,data/scripts/gift_aurora_ticket.inc | data/scripts/gift_mystic_ticket.inc | data/scripts/gift_old_sea_map.inc
+dup_00544,"Oh, darn.\nI've gone and lost.$",2,EverGrandeCity_PhoebesRoom_Text_Defeat | Route124_Text_JennyDefeat,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc | data/text/trainers.inc
+dup_00545,"Oh, dear, this won't do.$",2,Route110_Text_IsabelDefeated | Route110_Text_IsabelRematchDefeated,data/text/trainers.inc | data/text/trainers.inc
+dup_00546,"Oh, good, good!\pBut my house isn't all that sturdy.\pCould I ask you to keep it down to\na 3-on-3 match?$",2,RS_MysteryEventsHouse_Text_KeepItToA3On3 | SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00547,"Oh, my goodness.\nNow, aren't you something!$",2,MtChimney_Text_ShelbyDefeat | MtChimney_Text_ShelbyRematchDefeat,data/maps/MtChimney/scripts.inc | data/maps/MtChimney/scripts.inc
+dup_00548,"Oh, wow! Isn't that a POKéNAV?\nI have one, too! Please register me!$",2,Route116_Text_KarenRegister1 | Route116_Text_KarenRegister2,data/text/trainers.inc | data/text/trainers.inc
+dup_00549,"Oh, your BAG appears to be full.\pPlease make room in your BAG, then come\nsee me.$",2,BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom | BattleFrontier_BattleTowerLobby_Text_BagFullMakeRoom,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+dup_00550,"Oh, {PLAYER}{KUN}, hello…\nThis is {STR_VAR_1}.\pYou won {STR_VAR_3} straight battles at\nthe {STR_VAR_2}?\pThat's quite the accomplishment.\nI need to work harder.$",2,MatchCall_BattleFrontierStreakText10 | MatchCall_BattleFrontierRecordStreakText10,data/text/match_call.inc | data/text/match_call.inc
+dup_00551,"Oh, {PLAYER}{KUN}, hi there!\nThis is {STR_VAR_1}!\pI heard! Your {STR_VAR_3}-win streak at\nthe {STR_VAR_2}!\pThat is so cool!\nI'd better try harder, too!$",2,MatchCall_BattleFrontierStreakText9 | MatchCall_BattleFrontierRecordStreakText9,data/text/match_call.inc | data/text/match_call.inc
+dup_00552,Oh?\nYou seem to have no room for this.\pPlease make room in your BAG and\nlet me know.$,2,SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom | LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis,data/text/battle_tent.inc | data/text/lottery_corner.inc
+dup_00553,Oh?\nYour BAG seems to be full.\pI urge you to clear space and\nreturn for your prize.$,2,BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize | FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc
+dup_00554,Oh…\nYou've left me feeling the blues…$,5,MauvilleCity_PokemonCenter_1F_Text_TraderFeelingTheBlues | MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues | MauvilleCity_PokemonCenter_1F_Text_GiddyFeelingTheBlues | MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1 | MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2,data/scripts/mauville_man.inc | data/scripts/mauville_man.inc | data/scripts/mauville_man.inc | data/scripts/mauville_man.inc | data/scripts/mauville_man.inc
+dup_00555,"Okay, I will hold your POKéMON for\nsafekeeping while you compete.$",2,BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping | SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00556,"Okay, I'll take your POKéMON\nfor a few seconds.$",2,gText_IllTakeYourPkmn | gText_IllTakeYourPkmn2,data/text/pkmn_center_nurse.inc | data/text/pkmn_center_nurse.inc
+dup_00557,Old man: {STR_VAR_1} {STR_VAR_2}\nwas what {STR_VAR_3} from LITTLEROOT\ltaught me as being trendy…$,2,TrendWatcher_Text_MaleTaughtMePhrase | TrendWatcher_Text_FemaleTaughtMePhrase,data/text/tv.inc | data/text/tv.inc
+dup_00558,"Old man: {STR_VAR_3}!\nPlease, tell me something bigger than\lthat {STR_VAR_1} {STR_VAR_2}!$",2,TrendWatcher_Text_MaleTellMeBigger | TrendWatcher_Text_FemaleTellMeBigger,data/text/tv.inc | data/text/tv.inc
+dup_00559,"On CYCLING ROAD, you can go all out\nand cycle as fast as you'd like.\pIt feels great to go that fast, but try\nnot to crash into anyone!$",2,Route110_SeasideCyclingRoadNorthEntrance_Text_GoAllOutOnCyclingRoad | Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad,data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc | data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.inc
+dup_00560,One {STR_VAR_1}-using {STR_VAR_2}$,2,BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1 | BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1,data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc | data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc
+dup_00561,One {STR_VAR_2} with {STR_VAR_1} and$,2,BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1 | BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1,data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc | data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc
+dup_00562,Oops!$,2,SootopolisCity_Gym_B1F_Text_BethanyDefeat | Route131_Text_KevinDefeat,data/maps/SootopolisCity_Gym_B1F/scripts.inc | data/text/trainers.inc
+dup_00563,"Ouch, ouch, ouch!$",2,Route109_Text_AliceDefeated | Route115_Text_KoichiDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00564,PABLO,6,inline_412 | trainerName | trainerName | trainerName | trainerName | trainerName,src/data/battle_frontier/apprentice.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00565,PAIGE,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00566,PARENT,2,gEasyChatWord_Parent | categoryName,src/data/easy_chat/easy_chat_group_people.h | src/data/pokemon/pokedex_entries.h
+dup_00567,PEDRO,2,inline_372 | trainerName,src/data/battle_frontier/apprentice.h | src/data/battle_frontier/battle_frontier_trainers.h
+dup_00568,PETALBURG WOODS,2,sMapName_PETALBURG_WOODS | LandmarkName_PetalburgWoods,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00569,PHOEBE,2,trainerName | gText_Phoebe,src/data/trainers.h | src/strings.c
+dup_00570,PICKUP,2,gEasyChatWord_Pickup | inline_135,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00571,PIDGEOTTO,2,nickname | inline_19,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00572,PIG MONKEY,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00573,PIKACHU,2,nickname | inline_27,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00574,PINCER,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00575,PINECO,2,nickname | inline_206,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00576,PINSIR,3,nickname | nickname | inline_129,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00577,PLACE,2,gEasyChatWord_Place | gPCText_Place,src/data/easy_chat/easy_chat_group_people.h | src/strings.c
+dup_00578,PLUS,2,gEasyChatWord_Plus | inline_139,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00579,PLUSLE,3,nickname | nickname | inline_355,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00580,POISON,2,inline_456 | gEasyChatWord_Poison,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00581,POISON GAS,3,categoryName | categoryName | inline_142,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00582,POISON MOTH,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00583,POISON PIN,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00584,POISON POINT,2,gEasyChatWord_PoisonPoint | inline_120,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00585,POKé BALLS,3,gText_PokeBallsPocket | gText_Poke_Balls | gText_PokeBalls,src/strings.c | src/strings.c | src/strings.c
+dup_00586,POKéDEX,4,gEasyChatWord_Pokedex | gText_Pokedex | gText_MenuOptionPokedex | gText_TrainerCardPokedex,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c | src/strings.c | src/strings.c
+dup_00587,POKéMON,6,gEasyChatWord_Pokemon | gText_Pokemon | gText_Pokemon4 | gText_MenuOptionPokemon | gText_Pokemon2 | gEasyChatGroupName_Pokemon,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c | src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00588,POKéMON JUMP,2,sText_PokemonJump | gText_PokemonJump,src/data/union_room.h | src/strings.c
+dup_00589,POKéMON LEAGUE,3,sMapName_POK__MON_LEAGUE | gGiftRibbonDescriptionPart1_PokemonLeague | gText_PokemonLeague,src/data/region_map/region_map_entries.h | src/data/text/gift_ribbon_descriptions.h | src/strings.c
+dup_00590,POKéMON TRADES,2,sText_PokemonTrades | gText_PokemonTrades,src/data/union_room.h | src/strings.c
+dup_00591,POKéNAV,2,gEasyChatWord_Pokenav | gText_MenuOptionPokenav,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c
+dup_00592,POLITOED,2,nickname | inline_188,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00593,POLIWAG,2,nickname | inline_62,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00594,POOCHYENA$,3,gTrickHouse_Mechadoll_Poochyena | gTrickHouse_Mechadoll_Poochyena2 | gTrickHouse_Mechadoll_Poochyena3,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00595,PORYGON2,2,nickname | inline_235,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00596,PRESSURE,2,gEasyChatWord_Pressure | inline_128,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00597,PRETTY CHAIR,2,name | gText_PrettyChair,src/data/decoration/header.h | src/strings.c
+dup_00598,PRETTY DESK,2,name | gText_PrettyDesk,src/data/decoration/header.h | src/strings.c
+dup_00599,PSI,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00600,PSYCHIC,3,gEasyChatWord_Psychic | inline_97 | inline_31,src/data/easy_chat/easy_chat_group_status.h | src/data/text/move_names.h | src/data/text/trainer_class_names.h
+dup_00601,PSYDUCK,2,nickname | inline_56,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00602,PURE POWER,2,gEasyChatWord_PurePower | inline_156,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00603,Participation RIBBON,2,gGiftRibbonDescriptionPart2_Participation | gGiftRibbonDescriptionPart2_Participation2,src/data/text/gift_ribbon_descriptions.h | src/data/text/gift_ribbon_descriptions.h
+dup_00604,Please board the ferry and wait for\ndeparture.$,3,BattleFrontier_OutsideWest_Text_PleaseBoardFerry | LilycoveCity_Harbor_Text_PleaseBoard | SlateportCity_Harbor_Text_PleaseBoardFerry,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00605,Please decide which of you will\nbecome the GROUP LEADER.\pThe other players must then choose\n“JOIN GROUP.”$,2,LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader | CableClub_Text_ChooseGroupLeader,data/scripts/contest_hall.inc | data/text/cable_club.inc
+dup_00606,Please do visit again.$,3,CableClub_Text_PleaseVisitAgain | LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain | LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain2,data/text/cable_club.inc | data/text/lottery_corner.inc | data/text/lottery_corner.inc
+dup_00607,Please ride with us another time.$,2,MtChimney_CableCarStation_Text_RideAnotherTime | Route112_CableCarStation_Text_RideAnotherTime,data/maps/MtChimney_CableCarStation/scripts.inc | data/maps/Route112_CableCarStation/scripts.inc
+dup_00608,Please sail with us another time!$,3,BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime | LilycoveCity_Harbor_Text_SailAnotherTime | SlateportCity_Harbor_Text_SailAnotherTime,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00609,Please step this way.$,4,BattleFrontier_BattleFactoryLobby_Text_StepThisWay | MtChimney_CableCarStation_Text_StepThisWay | Route112_CableCarStation_Text_StepThisWay | SlateportCity_BattleTentLobby_Text_StepThisWay,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/maps/MtChimney_CableCarStation/scripts.inc | data/maps/Route112_CableCarStation/scripts.inc | data/text/battle_tent.inc
+dup_00610,Please wait.\n… … B Button: Cancel$,2,LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel | gText_PleaseWaitForLink,data/scripts/contest_hall.inc | data/text/cable_club.inc
+dup_00611,Prevents ability reduction.,2,sClearBodyDescription | sWhiteSmokeDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00612,Prevents sleep.,2,sInsomniaDescription | sVitalSpiritDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00613,QUILAVA,2,nickname | inline_158,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00614,Quit editing?,2,gText_QuitEditing | gText_QuitEditing2,src/strings.c | src/strings.c
+dup_00615,RAIKOU,2,nickname | inline_245,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00616,RAIN DISH,2,gEasyChatWord_RainDish | inline_126,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00617,RAPIDASH,2,nickname | inline_80,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00618,RATICATE,2,nickname | inline_22,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00619,RAUL,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00620,RAYMOND,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00621,RECORD,3,gText_Record3 | gText_Record2 | gText_Record,src/strings.c | src/strings.c | src/strings.c
+dup_00622,RECORD CORNER,2,sText_RecordCorner | gText_RecordCorner,src/data/union_room.h | src/strings.c
+dup_00623,RED,3,gEasyChatWord_Red | trainerName | gText_Red,src/data/easy_chat/easy_chat_group_trainer.h | src/data/trainers.h | src/strings.c
+dup_00624,RED FLUTE,3,name | gText_RedFlute2 | gText_RedFlute,src/data/items.h | src/strings.c | src/strings.c
+dup_00625,RED SHARD,2,name | gText_RedShard,src/data/items.h | src/strings.c
+dup_00626,RED TENT,2,name | gText_RedTent,src/data/decoration/header.h | src/strings.c
+dup_00627,REGISTER,2,gMenuText_Register | gText_Register2,src/strings.c | src/strings.c
+dup_00628,RELEASE,2,gEasyChatWord_Release | gPCText_Release,src/data/easy_chat/easy_chat_group_actions.h | src/strings.c
+dup_00629,RELICANTH,2,nickname | inline_383,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00630,REST,2,inline_159 | gText_Rest,src/data/text/move_names.h | src/strings.c
+dup_00631,RHYDON,2,nickname | inline_114,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00632,RHYHORN,2,nickname | inline_113,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00633,RIBBON awarded for,2,gGiftRibbonDescriptionPart1_ClearingAllChallenges | gRibbonDescriptionPart1_Effort,src/data/text/gift_ribbon_descriptions.h | src/data/text/ribbon_descriptions.h
+dup_00634,RICKY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00635,ROBERT,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00636,ROBERTO,2,trainerName | gText_Roberto,src/data/battle_frontier/battle_frontier_trainers.h | src/strings.c
+dup_00637,ROCK,4,inline_458 | gEasyChatWord_Rock | categoryName | categoryName,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00638,ROCK HEAD,3,gEasyChatWord_RockHead | categoryName | inline_151,src/data/easy_chat/easy_chat_group_status.h | src/data/pokemon/pokedex_entries.h | src/data/text/abilities.h
+dup_00639,RONALD,2,trainerName | trainerName,src/data/battle_frontier/battle_tent.h | src/data/trainers.h
+dup_00640,ROOT FOSSIL,2,name | gText_RootFossil,src/data/items.h | src/strings.c
+dup_00641,ROSA,2,inline_364 | trainerName,src/data/battle_frontier/apprentice.h | src/data/contest_opponents.h
+dup_00642,ROSE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00643,ROSELIA,2,nickname | inline_365,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00644,ROUGH SKIN,2,gEasyChatWord_RoughSkin | inline_106,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00645,ROUTE 10,2,sMapName_ROUTE_10_Clone | sMapName_ROUTE_10,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00646,ROUTE 4,2,sMapName_ROUTE_4_Clone | sMapName_ROUTE_4,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00647,ROXANNE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00648,"ROY: Did you want to battle us?\nBring two POKéMON, then.$",2,Route124_Text_RoyNotEnoughMons | Route124_Text_RoyRematchNotEnoughMons,data/text/trainers.inc | data/text/trainers.inc
+dup_00649,RUBEN,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/trainers.h
+dup_00650,RUBY,3,gEasyChatWord_Ruby | name | gText_ExpandedPlaceholder_Ruby,src/data/easy_chat/easy_chat_group_trainer.h | src/data/items.h | src/strings.c
+dup_00651,RUN AWAY,2,gEasyChatWord_RunAway | inline_132,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00652,RUSTURF TUNNEL,2,sMapName_RUSTURF_TUNNEL | LandmarkName_RusturfTunnel,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00653,RUSTURF TUNNEL\n“Linking RUSTBORO and VERDANTURF\p“The tunnel project has been\ncanceled.”$,2,Route116_Text_RusturfTunnelSign | VerdanturfTown_Text_RusturfTunnelSign,data/maps/Route116/scripts.inc | data/maps/VerdanturfTown/scripts.inc
+dup_00654,Raises ATTACK.,2,sHugePowerDescription | sPurePowerDescription,src/data/text/abilities.h | src/data/text/abilities.h
+dup_00655,Registered PROF. BIRCH\nin the POKéNAV.$,2,Route110_Text_RegisteredBirchInPokenav | MatchCall_Text_RegisteredBirch,data/maps/Route110/scripts.inc | data/text/match_call.inc
+dup_00656,SABLEYE,2,nickname | inline_324,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00657,SAFARI ZONE,2,sMapName_SAFARI_ZONE | sMapName_SAFARI_ZONE_Clone,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00658,SALAMENCE,2,nickname | inline_399,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00659,SAND STREAM,2,gEasyChatWord_SandStream | inline_127,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00660,SAND VEIL,2,gEasyChatWord_SandVeil | inline_90,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00661,SANDSTORM,2,inline_204 | gText_Sandstorm,src/data/text/move_names.h | src/strings.c
+dup_00662,SAPPHIRE,3,gEasyChatWord_Sapphire | name | gText_ExpandedPlaceholder_Sapphire,src/data/easy_chat/easy_chat_group_trainer.h | src/data/items.h | src/strings.c
+dup_00663,SAVING…\nDON'T TURN OFF THE POWER.,3,gText_HOFDexSaving | gText_SavingDontTurnOff_Chat | gText_SavingDontTurnOff2,src/strings.c | src/strings.c | src/strings.c
+dup_00664,SAWYER,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00665,SCORCHED SLAB,2,sMapName_SCORCHED_SLAB | LandmarkName_ScorchedSlab,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00666,SCREECH,2,categoryName | inline_106,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00667,SEA LION,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00668,SEAFLOOR,2,gPCText_Seafloor | gText_Seafloor,src/strings.c | src/strings.c
+dup_00669,SEAFLOOR CAVERN,2,sMapName_SEAFLOOR_CAVERN | LandmarkName_SeafloorCavern,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00670,SEALED CHAMBER,2,sMapName_SEALED_CHAMBER | LandmarkName_SealedChamber,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00671,SEALEO,2,nickname | inline_344,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00672,SEARCH,2,gEasyChatWord_Search | sText_Search,src/data/easy_chat/easy_chat_group_actions.h | src/data/union_room.h
+dup_00673,SECRET BASE,3,gEasyChatWord_SecretBase | sMapName_SECRET_BASE | gText_SecretBase,src/data/easy_chat/easy_chat_group_events.h | src/data/region_map/region_map_entries.h | src/strings.c
+dup_00674,SEED,4,categoryName | categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00675,SERENE GRACE,2,gEasyChatWord_SereneGrace | inline_114,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00676,SERIOUS,2,gEasyChatWord_Serious | sSeriousNatureName,src/data/easy_chat/easy_chat_group_battle.h | src/data/text/nature_names.h
+dup_00677,SHADOW TAG,2,gEasyChatWord_ShadowTag | inline_105,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00678,SHED SKIN,2,gEasyChatWord_ShedSkin | inline_143,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00679,SHELBY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00680,SHELL ARMOR,2,gEasyChatWord_ShellArmor | inline_157,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00681,SHELLFISH,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00682,SHELLY,2,trainerName | trainerName,src/data/trainers.h | src/data/trainers.h
+dup_00683,SHIELD DUST,2,gEasyChatWord_ShieldDust | inline_101,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00684,SHOAL CAVE,2,sMapName_SHOAL_CAVE | LandmarkName_ShoalCave,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00685,SHOW,2,gEasyChatWord_Show | gMenuText_Show,src/data/easy_chat/easy_chat_group_actions.h | src/strings.c
+dup_00686,SILVER,3,gEasyChatWord_Silver | gText_Silver | gText_SilverCard,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c | src/strings.c
+dup_00687,SIMPLE,2,gEasyChatWord_Simple | gPCText_Simple,src/data/easy_chat/easy_chat_group_conditions.h | src/strings.c
+dup_00688,SINGLE,2,gText_Single2 | gText_Single,src/strings.c | src/strings.c
+dup_00689,SINGLE BATTLE,2,sText_SingleBattle | gText_SingleBattle,src/data/union_room.h | src/strings.c
+dup_00690,SKITTY,2,nickname | inline_317,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00691,SKY PILLAR,3,sMapName_SKY_PILLAR | LandmarkName_SkyPillar | gText_SkyPillar,src/data/region_map/region_map_entries.h | src/landmark.c | src/strings.c
+dup_00692,SLAKING,2,nickname | inline_368,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00693,SLATEPORT CITY,2,sMapName_SLATEPORT_CITY | gText_SlateportCity,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00694,"SLATEPORT CITY it is, then!$",2,BattleFrontier_OutsideWest_Text_SlateportItIs | LilycoveCity_Harbor_Text_SlateportItIs,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc
+dup_00695,SLIDE,2,name | gEasyChatWord_Slide,src/data/decoration/header.h | src/data/easy_chat/easy_chat_group_actions.h
+dup_00696,SLOWBRO,2,nickname | inline_82,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00697,SLOWKING,3,nickname | nickname | inline_201,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00698,SLUDGE,3,categoryName | categoryName | inline_127,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00699,SMALL DESK,2,name | name,src/data/decoration/header.h | src/data/decoration/header.h
+dup_00700,SMART,3,gEasyChatWord_Smart | gText_Smart | gText_Smart2,src/data/easy_chat/easy_chat_group_status.h | src/strings.c | src/strings.c
+dup_00701,SMART CONTEST,2,gRibbonDescriptionPart1_SmartContest | sText_SmartContest,src/data/text/ribbon_descriptions.h | src/data/union_room.h
+dup_00702,SMEARGLE,7,nickname | nickname | nickname | nickname | nickname | nickname | inline_237,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00703,SMOOCHUM,2,nickname | inline_240,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00704,SNORLAX,2,nickname | inline_145,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00705,SNOW,2,gPCText_Snow | gText_Snow,src/strings.c | src/strings.c
+dup_00706,SOLROCK,2,nickname | inline_351,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00707,SORRY,2,gEasyChatWord_Sorry | gText_Sorry,src/data/easy_chat/easy_chat_group_greetings.h | src/strings.c
+dup_00708,SOUNDPROOF,2,gEasyChatWord_Soundproof | inline_125,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00709,SOUTHERN ISLAND,2,sMapName_SOUTHERN_ISLAND | gText_SouthernIsland,src/data/region_map/region_map_entries.h | src/strings.c
+dup_00710,SP. ATK,3,sText_SpAtk2 | sText_SpAtk | gText_SpAtk,src/battle_message.c | src/battle_message.c | src/strings.c
+dup_00711,SP. DEF,3,sText_SpDef2 | sText_SpDef | gText_SpDef,src/battle_message.c | src/battle_message.c | src/strings.c
+dup_00712,SPEED,2,sText_Speed | gText_Speed,src/battle_message.c | src/strings.c
+dup_00713,SPEED BOOST,2,gEasyChatWord_SpeedBoost | inline_85,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00714,SPHEAL,2,nickname | inline_343,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00715,SPIKES,2,categoryName | inline_194,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00716,SPINDA,3,nickname | nickname | inline_310,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00717,SPIRAL,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00718,STANTLER,3,nickname | nickname | inline_236,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00719,STAR SHAPE,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00720,STARMIE,4,nickname | nickname | nickname | inline_123,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00721,START,2,gEasyChatWord_Start | gText_Start,src/data/easy_chat/easy_chat_group_time.h | src/strings.c
+dup_00722,STARYU,2,nickname | inline_122,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00723,STATIC,2,gEasyChatWord_Static | inline_91,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00724,STEEL,2,inline_461 | gEasyChatWord_Steel,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00725,STENCH,2,gEasyChatWord_Stench | inline_83,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00726,STEVE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00727,STEVEN,3,trainerName | gText_Steven | gText_StevenMatchCallName,src/data/trainers.h | src/strings.c | src/strings.c
+dup_00728,STICKY HOLD,2,gEasyChatWord_StickyHold | inline_142,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00729,STORE,2,gEasyChatWord_Store | gPCText_Store,src/data/easy_chat/easy_chat_group_lifestyle.h | src/strings.c
+dup_00730,STRATEGY,2,gEasyChatWord_Strategy | gText_PokenavMatchCall_Strategy,src/data/easy_chat/easy_chat_group_battle.h | src/strings.c
+dup_00731,STURDY,2,gEasyChatWord_Sturdy | inline_87,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00732,SUCTION CUPS,2,gEasyChatWord_SuctionCups | inline_103,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00733,SUDOWOODO,2,nickname | inline_187,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00734,SUICUNE,2,nickname | inline_247,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00735,SUMMARY,5,sText_Summary | sText_Summary2 | gPCText_Summary | gText_Summary | gText_Summary2,src/data/trade.h | src/data/trade.h | src/strings.c | src/strings.c | src/strings.c
+dup_00736,SUMMER,2,trainerName | gEasyChatWord_Summer,src/data/contest_opponents.h | src/data/easy_chat/easy_chat_group_time.h
+dup_00737,SUN,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00738,SUNFLORA,2,nickname | inline_194,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00739,SUPER,2,gEasyChatWord_Super | gText_Super,src/data/easy_chat/easy_chat_group_events.h | src/strings.c
+dup_00740,SUPERPOWER,4,categoryName | categoryName | categoryName | inline_279,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00741,SWALLOW,2,categoryName | inline_259,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00742,SWAP,2,gText_Swap | gText_Swap2,src/strings.c | src/strings.c
+dup_00743,SWARM,2,gEasyChatWord_Swarm | inline_150,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00744,SWELLOW,2,nickname | inline_307,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00745,SWIFT SWIM,2,gEasyChatWord_SwiftSwim | inline_115,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00746,SYMBOLS,2,gText_Symbols2 | gText_Symbols,src/strings.c | src/strings.c
+dup_00747,SYNCHRONIZE,2,gEasyChatWord_Synchronize | inline_110,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00748,Same price$,2,gTrickHouse_Mechadoll_SamePrice | gTrickHouse_Mechadoll_SamePrice2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00749,Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$,2,gText_SetEventNumX | gText_SetEventNumX2,data/text/contest_link.inc | data/text/contest_link.inc
+dup_00750,"Sigh…\pYou do not have the three POKéMON\nrequired for the challenge.\pTo enter, you must provide three\ndifferent kinds of POKéMON.\pThey also must not be holding\nthe same kinds of items.\pEGGS{STR_VAR_1} ineligible.\pCome back when you have made\nyour preparations.$",3,BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen | VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50 | VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc | data/text/battle_tent.inc
+dup_00751,"So, it became a standoff.\pIt was a brilliant match in which\nneither side conceded a step!$",2,RS_MysteryEventsHouse_Text_BattleTie | SootopolisCity_MysteryEventsHouse_1F_Text_BrilliantStandoff,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00752,Somebody dropped out.\nThe link will be canceled.,2,gText_SomeoneDroppedOut | gText_SomeoneDroppedOut2,src/strings.c | src/strings.c
+dup_00753,Something unseeable is in the way.$,2,FortreeCity_Text_SomethingUnseeable | Kecleon_Text_SomethingUnseeable,data/maps/FortreeCity/scripts.inc | data/maps/Route120/scripts.inc
+dup_00754,Something unseeable is in the way.\pWant to use the DEVON SCOPE?$,2,FortreeCity_Text_UnseeableUseDevonScope | Kecleon_Text_WantToUseDevonScope,data/maps/FortreeCity/scripts.inc | data/maps/Route120/scripts.inc
+dup_00755,"Sorry, you can't walk on CYCLING\nROAD. It's too dangerous.\pPlease come back with a BIKE.$",2,Route110_SeasideCyclingRoadNorthEntrance_Text_TooDangerousToWalk | Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk,data/maps/Route110_SeasideCyclingRoadNorthEntrance/scripts.inc | data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.inc
+dup_00756,Startles all POKéMON that\nhave done their appeals.$,2,gText_StartleAllAppealed | gText_StartleAllAppealed2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00757,Startles the POKéMON that\nappealed before the user.$,2,gText_StartleAppealedBeforeUser | gText_StartleAppealedBeforeUser2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00758,Stop giving the POKéMON MAIL?,2,gText_StopGivingPkmnMail | gText_StopGivingPkmnMail2,src/strings.c | src/strings.c
+dup_00759,TABITHA,3,trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00760,TADPOLE,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00761,TAKE,2,gEasyChatWord_Take | gPCText_Take,src/data/easy_chat/easy_chat_group_actions.h | src/strings.c
+dup_00762,TANGELA,2,nickname | inline_116,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00763,TASTY,2,gEasyChatWord_Tasty | gText_Tasty,src/data/easy_chat/easy_chat_group_conditions.h | src/strings.c
+dup_00764,TATE&LIZA,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00765,THALIA,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00766,THANK YOU,2,gEasyChatWord_ThankYou | gText_ThankYou,src/data/easy_chat/easy_chat_group_greetings.h | src/strings.c
+dup_00767,THICK FAT,2,gEasyChatWord_ThickFat | inline_129,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00768,THUNDER,2,categoryName | inline_90,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00769,TIME,4,gEasyChatWord_Time | gText_Time | gText_TrainerCardTime | gEasyChatGroupName_Time,src/data/easy_chat/easy_chat_group_time.h | src/strings.c | src/strings.c | src/strings.c
+dup_00770,TIMOTHY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00771,TINY BIRD,3,categoryName | categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00772,TMs & HMs,2,gText_TMHMPocket | gText_TMs_Hms,src/strings.c | src/strings.c
+dup_00773,TOGEPI,2,nickname | inline_177,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00774,TOGETIC,2,nickname | inline_178,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00775,TONY,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00776,TORRENT,2,gEasyChatWord_Torrent | inline_149,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00777,TOSS,3,gMenuText_Toss | gText_Toss2 | gText_Toss,src/strings.c | src/strings.c | src/strings.c
+dup_00778,TOUGH,3,gEasyChatWord_Tough | gText_Tough | gText_Tough2,src/data/easy_chat/easy_chat_group_status.h | src/strings.c | src/strings.c
+dup_00779,TOUGH CONTEST,2,gRibbonDescriptionPart1_ToughContest | sText_ToughContest,src/data/text/ribbon_descriptions.h | src/data/union_room.h
+dup_00780,TOURNEY TREE,2,gText_Tourney_Tree | gText_TourneyTree,src/strings.c | src/strings.c
+dup_00781,TOXIC,2,inline_95 | gText_Toxic,src/data/text/move_names.h | src/strings.c
+dup_00782,TRACE,2,gEasyChatWord_Trace | inline_118,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00783,TRADE,4,gEasyChatWord_Trade | sText_Trade | sText_Trade2 | gText_Trade,src/data/easy_chat/easy_chat_group_trainer.h | src/data/trade.h | src/data/trade.h | src/strings.c
+dup_00784,TRAINER,2,gEasyChatWord_Trainer | gEasyChatGroupName_Trainer,src/data/easy_chat/easy_chat_group_trainer.h | src/strings.c
+dup_00785,TRAINER HILL,2,sMapName_TRAINER_HILL | LandmarkName_TrainerHill,src/data/region_map/region_map_entries.h | src/landmark.c
+dup_00786,TRAINER TOWER,2,sMapName_TRAINER_TOWER | sMapName_TRAINER_TOWER_Clone,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00787,TRANSFORM,2,categoryName | inline_147,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00788,TRENT,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00789,TRISTAN,2,trainerName | gText_Tristan,src/data/battle_frontier/battle_frontier_trainers.h | src/strings.c
+dup_00790,TROPIUS,2,nickname | inline_371,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00791,TRUANT,2,gEasyChatWord_Truant | inline_136,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00792,TUBER,2,inline_20 | inline_21,src/data/text/trainer_class_names.h | src/data/text/trainer_class_names.h
+dup_00793,TYLOR,2,trainerName | trainerName,src/data/battle_frontier/battle_frontier_trainers.h | src/data/contest_opponents.h
+dup_00794,TYRANITAR,2,nickname | inline_250,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00795,Thank you for playing!$,2,BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying | TrainerHill_Entrance_Text_ThankYouForPlaying,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/TrainerHill_Entrance/scripts.inc
+dup_00796,Thank you for using the MYSTERY\nGIFT System.$,3,sText_AuroraTicketThankYou | sText_MysticTicketThankYou | sText_MysteryGiftOldSeaMapThankYou,data/scripts/gift_aurora_ticket.inc | data/scripts/gift_mystic_ticket.inc | data/scripts/gift_old_sea_map.inc
+dup_00797,Thank you for using the MYSTERY\nGIFT System.\pYou must be {PLAYER}.\nThere is a ticket here for you.$,2,sText_AuroraTicketForYou | sText_MysticTicketForYou,data/scripts/gift_aurora_ticket.inc | data/scripts/gift_mystic_ticket.inc
+dup_00798,Thank you so much for participating!\pPlease wait while I save the game.$,2,BattleFrontier_BattleArenaLobby_Text_ThankYouWaitWhileSave | FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc
+dup_00799,Thank you!\nWe'll send it to your PC at home.$,2,BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC | MauvilleCity_GameCorner_Text_SendToYourHomePC,data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc | data/maps/MauvilleCity_GameCorner/scripts.inc
+dup_00800,"That was superlative!\pWhy, it was like seeing myself in\nmy youth again!$",2,RS_MysteryEventsHouse_Text_BattleWon | SootopolisCity_MysteryEventsHouse_1F_Text_ThatWasSuperlative,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00801,That's the way!$,2,VictoryRoad_B1F_Text_MichelleDefeat | SecretBase_Text_Trainer2AcceptBattle,data/maps/VictoryRoad_B1F/scripts.inc | data/text/secret_base_trainers.inc
+dup_00802,"That's, like, TM41, you know?\nHey, it's TORMENT, you hearing me?\pLike, it won't let the other guy\nuse the same move twice in a row, see?\pHey, now, you listen here, like,\nI'm not laying a torment on you!$",2,SlateportCity_ContestHall_Text_ExplainTorment | SlateportCity_BattleTentLobby_Text_ExplainTorment,data/maps/SlateportCity_BattleTentCorridor/scripts.inc | data/maps/SlateportCity_BattleTentLobby/scripts.inc
+dup_00803,The Battle Swap rules are listed.$,2,BattleFrontier_BattleFactoryLobby_Text_RulesAreListed | SlateportCity_BattleTentLobby_Text_RulesAreListed,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00804,The VERDANTURF BATTLE TENT\nrules are listed.$,2,VerdanturfTown_BattleTentLobby_Text_RulesAreListed2 | VerdanturfTown_BattleTentLobby_Text_RulesAreListed,data/text/battle_tent.inc | data/text/battle_tent.inc
+dup_00805,The best of luck to you.\nFarewell.$,2,BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell | BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2,data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc | data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc
+dup_00806,The door appears to be locked.$,2,RS_MysteryEventsHouse_Text_DoorIsLocked | SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00807,The door is closed.$,2,SkyPillar_Outside_Text_DoorIsClosed | SootopolisCity_Text_DoorIsClosed,data/maps/SkyPillar_Outside/scripts.inc | data/maps/SootopolisCity/scripts.inc
+dup_00808,"Then, where would you like to go?$",3,BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo | LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo | SlateportCity_Harbor_Text_WhereWouldYouLikeToGo,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00809,There are offensive moves that inflict\ndirect damage on the foe.\pThere are defensive moves that are\nused to prepare for enemy attacks or\lused to heal HP and so on.\pThere are also other somewhat-odd\nmoves that may enfeeble the foes with\lstat problems including poison and \lparalysis.\pPOKéMON will consider using moves in\nthese three categories.$,2,BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves | VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00810,"There are two key points to be aware\nof when swapping POKéMON.\pFirst, when swapping, you can't check\nthe stats of the POKéMON you are\labout to receive.\pSecond, the POKéMON on your team\nare lined up in sequence, depending on\lthe order in which you rented them.\pThis sequence remains unchanged\neven when swaps are made.$",2,BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules | SlateportCity_BattleTentLobby_Text_ExplainSwapNotes,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00811,There's a bed…\nLet's take a rest.$,2,Route119_WeatherInstitute_1F_Text_TakeRestInBed | SSTidalRooms_Text_TakeRestOnBed,data/maps/Route119_WeatherInstitute_1F/scripts.inc | data/maps/SSTidalRooms/scripts.inc
+dup_00812,There's no need to panic or stress.\nTake it easy. There's plenty of time.$,2,Route110_Text_BenjaminPostBattle | Route110_Text_BenjaminRematchPostBattle,data/text/trainers.inc | data/text/trainers.inc
+dup_00813,"This area is still under construction.\nIt's off-limits, sorry!$",2,SafariZone_South_Text_AreaOffLimits1 | SafariZone_South_Text_AreaOffLimits2,data/scripts/safari_zone.inc | data/scripts/safari_zone.inc
+dup_00814,This door appears to be locked\nright now…$,2,PetalburgCity_Gym_Text_DoorAppearsLocked | PetalburgCity_Gym_Text_DoorAppearsLocked2,data/maps/PetalburgCity_Gym/scripts.inc | data/maps/PetalburgCity_Gym/scripts.inc
+dup_00815,Time:,3,sText_Time | gText_TimeColon | gText_TimeColon2,src/berry_blender.c | src/strings.c | src/strings.c
+dup_00816,UNDERGROUND PATH,2,sMapName_UNDERGROUND_PATH | sMapName_UNDERGROUND_PATH_Clone,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00817,UNOWN,7,nickname | nickname | nickname | nickname | nickname | nickname | inline_203,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00818,URSARING,3,nickname | nickname | inline_219,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00819,USE,2,gEasyChatWord_Use | gMenuText_Use,src/data/easy_chat/easy_chat_group_actions.h | src/strings.c
+dup_00820,Urgh!\nI didn't expect you to be so strong!$,2,MeteorFalls_1F_2R_Text_NicolasDefeat | MeteorFalls_1F_2R_Text_NicolasRematchDefeat,data/maps/MeteorFalls_1F_2R/scripts.inc | data/maps/MeteorFalls_1F_2R/scripts.inc
+dup_00821,VALERIE,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00822,VAPOREON,2,nickname | inline_136,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00823,VENOMOTH,2,nickname | inline_51,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00824,VENUSAUR,2,nickname | inline_5,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00825,VICTORY ROAD,2,sMapName_VICTORY_ROAD | sMapName_VICTORY_ROAD_Clone,src/data/region_map/region_map_entries.h | src/data/region_map/region_map_entries.h
+dup_00826,VIGOROTH,2,nickname | inline_367,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00827,VIRTUAL,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00828,VITAL SPIRIT,2,gEasyChatWord_VitalSpirit | inline_154,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00829,VOLBEAT,2,nickname | inline_388,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00830,VOLCANO,4,categoryName | categoryName | categoryName | gPCText_Volcano,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h | src/strings.c
+dup_00831,VOLT ABSORB,2,gEasyChatWord_VoltAbsorb | inline_92,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00832,VOLTORB,2,nickname | inline_102,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00833,VULPIX,2,nickname | inline_39,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00834,"Very well, now select your\nthree POKéMON, please.$",2,BattleFrontier_BattleArenaLobby_Text_SelectThreeMons | FallarborTown_BattleTentLobby_Text_SelectThreeMons,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc
+dup_00835,WALK,2,gEasyChatWord_Walk | gMenuText_Walk,src/data/easy_chat/easy_chat_group_hobbies.h | src/strings.c
+dup_00836,WALLACE,2,trainerName | gText_Wallace,src/data/trainers.h | src/strings.c
+dup_00837,WALLY,7,gText_BattleWallyName | trainerName | trainerName | trainerName | trainerName | trainerName | trainerName,src/battle_message.c | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00838,WALTER,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00839,WARTORTLE,2,nickname | inline_10,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00840,WATER,2,inline_464 | gEasyChatWord_Water,src/battle_main.c | src/data/easy_chat/easy_chat_group_status.h
+dup_00841,WATER ABSORB,2,gEasyChatWord_WaterAbsorb | inline_93,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00842,WATER FISH,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00843,WATER VEIL,2,gEasyChatWord_WaterVeil | inline_123,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00844,WATTSON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00845,WEED,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00846,WEEZING,3,nickname | nickname | inline_112,src/data/battle_frontier/trainer_hill.h | src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00847,WHISKERS,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00848,WHISMUR,2,nickname | inline_372,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00849,WHITE FLUTE,3,name | gText_WhiteFlute2 | gText_WhiteFlute,src/data/items.h | src/strings.c | src/strings.c
+dup_00850,WHITE SMOKE,2,gEasyChatWord_WhiteSmoke | inline_155,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00851,WIGGLYTUFF,2,nickname | inline_42,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00852,WILTON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00853,WINGULL: Pihyoh!$,3,FortreeCity_House4_Text_Wingull | MossdeepCity_House2_Text_Wingull | Route119_House_Text_Wingull,data/maps/FortreeCity_House4/scripts.inc | data/maps/MossdeepCity_House2/scripts.inc | data/maps/Route119_House/scripts.inc
+dup_00854,WINONA,6,trainerName | trainerName | trainerName | trainerName | trainerName | gText_Winona,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/strings.c
+dup_00855,WINSTON,5,trainerName | trainerName | trainerName | trainerName | trainerName,src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h | src/data/trainers.h
+dup_00856,WISH,2,categoryName | inline_276,src/data/pokemon/pokedex_entries.h | src/data/text/move_names.h
+dup_00857,WITHDRAW,2,inline_113 | gPCText_Withdraw,src/data/text/move_names.h | src/strings.c
+dup_00858,WOBBUFFET,2,nickname | inline_204,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00859,WONDER CARDS,2,sText_WonderCards | gText_WonderCards,src/data/union_room.h | src/strings.c
+dup_00860,WONDER GUARD,2,gEasyChatWord_WonderGuard | inline_107,src/data/easy_chat/easy_chat_group_status.h | src/data/text/abilities.h
+dup_00861,WONDER NEWS,2,sText_WonderNews | gText_WonderNews,src/data/union_room.h | src/strings.c
+dup_00862,WOOD GECKO,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00863,WOOL,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00864,WOOPER,2,nickname | inline_196,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00865,WORM,2,categoryName | categoryName,src/data/pokemon/pokedex_entries.h | src/data/pokemon/pokedex_entries.h
+dup_00866,WYNAUT,2,nickname | inline_362,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00867,Want to play again?,2,gText_WantToPlayAgain | gText_WantToPlayAgain2,src/strings.c | src/strings.c
+dup_00868,We await your challenge on\nanother occasion!$,4,BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge | BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge2 | FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge | FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/text/battle_tent.inc | data/text/battle_tent.inc
+dup_00869,We hope to see you again!$,3,gText_WeHopeToSeeYouAgain | gText_WeHopeToSeeYouAgain2 | Text_WeHopeToSeeYouAgain,data/text/pkmn_center_nurse.inc | data/text/pkmn_center_nurse.inc | data/text/record_mix.inc
+dup_00870,We hope you will participate another\ntime.$,2,LilycoveCity_ContestLobby_Text_ParticipateAnotherTime | LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00871,We look forward to your next visit.$,2,BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit | SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00872,We'll return your personal POKéMON.$,2,BattleFrontier_BattleFactoryLobby_Text_WellReturnMons | SlateportCity_BattleTentLobby_Text_ReturnPersonalMons,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00873,"We're the CLEANUP BROTHERS!\pThe old one dumps the detergent,\nand the young one does the scrubbing!$",2,SSTidalLowerDeck_Text_PhillipPostBattle | SSTidalLowerDeck_Text_LeonardPostBattle,data/maps/SSTidalLowerDeck/scripts.inc | data/maps/SSTidalLowerDeck/scripts.inc
+dup_00874,"We've been waiting for you!\pBefore we resume your challenge,\nI must save the game.$",2,BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume | SlateportCity_BattleTentLobby_Text_BeenWaitingForYou,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00875,"When I was young, I traveled the world\nas a POKéMON TRAINER.\pNow that I've become an old buzzard,\nmy only amusement is watching young\lTRAINERS battle.$",2,RS_MysteryEventsHouse_Text_OldManGreeting | SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00876,"When not under command by its TRAINER,\na POKéMON may be unable to effectively\luse certain moves.\pA POKéMON is not good at using any\nmove that it dislikes.\pIf a POKéMON only knows moves that\ndo not match its nature, it will often\lbe unable to live up to its potential.$",2,BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered | VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00877,"When you have fortified your heart\nand POKéMON, you must return.$",2,BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified | VerdanturfTown_BattleTentLobby_Text_ReturnFortified,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00878,"When {STR_VAR_1} encountered the rare\n{STR_VAR_2}, the TRAINER sent out\lthe POKéMON {STR_VAR_3}.$",2,gTVBreakingNewsText02 | gTVBreakingNewsText06,data/text/tv.inc | data/text/tv.inc
+dup_00879,Which CONTEST would you like to enter?$,3,LilycoveCity_ContestLobby_Text_EnterWhichContest1 | LilycoveCity_ContestLobby_Text_EnterWhichContest2 | LilycoveCity_ContestLobby_Text_EnterWhichContest3,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00880,Which POKéMON would you like to enter?$,3,LilycoveCity_ContestLobby_Text_EnterWhichPokemon1 | LilycoveCity_ContestLobby_Text_EnterWhichPokemon2 | LilycoveCity_ContestLobby_Text_EnterWhichPokemon3,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00881,Which heading do you want to read?$,9,BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading | BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading | BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading | BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading | BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading | BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading | BattleFrontier_BattleTowerLobby_Text_ReadWhichHeading | SlateportCity_BattleTentLobby_Text_ReadWhichHeading | VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/maps/BattleFrontier_BattlePikeLobby/scripts.inc | data/maps/BattleFrontier_BattlePyramidLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc | data/text/battle_tent.inc | data/text/battle_tent.inc
+dup_00882,Which topic would you like?$,2,LilycoveCity_ContestLobby_Text_WhichTopic1 | LilycoveCity_ContestLobby_Text_WhichTopic2,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00883,Which would you like to learn about?$,2,BattleFrontier_ReceptionGate_Text_LearnAboutWhich2 | BattleFrontier_ReceptionGate_Text_LearnAboutWhich1,data/maps/BattleFrontier_ReceptionGate/scripts.inc | data/maps/BattleFrontier_ReceptionGate/scripts.inc
+dup_00884,With honor I admit defeat!$,2,Route113_Text_LaoDefeat | Route113_Text_LaoRematchDefeat,data/text/trainers.inc | data/text/trainers.inc
+dup_00885,"With my POKéMON, I have traveled\nto the world's four corners.\pYou might say I have some confidence\nin my abilities.$",2,Route121_Text_WalterIntro | Route121_Text_WalterRematchIntro,data/text/trainers.inc | data/text/trainers.inc
+dup_00886,Would you like to enter a CONTEST?$,2,LilycoveCity_ContestLobby_Text_EnterContest2 | LilycoveCity_ContestLobby_Text_EnterContest3,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00887,Would you like to save and quit\nthe game?$,2,BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame | BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame,data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc | data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.inc
+dup_00888,Would you like to save and\nquit the game?$,2,BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame | BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame,data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc
+dup_00889,"Wow!\n{PLAYER}, you are strong, after all!$",2,VictoryRoad_1F_Text_WallyEntranceDefeat | VictoryRoad_1F_Text_WallyDefeat,data/maps/VictoryRoad_1F/scripts.inc | data/maps/VictoryRoad_1F/scripts.inc
+dup_00890,YANMA,2,nickname | inline_195,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00891,YELLOW FLUTE,3,name | gText_YellowFlute2 | gText_YellowFlute,src/data/items.h | src/strings.c | src/strings.c
+dup_00892,YELLOW SHARD,2,name | gText_YellowShard,src/data/items.h | src/strings.c
+dup_00893,YES,4,gEasyChatWord_Yes | gText_Yes | gText_Yes2 | gText_Yes3,src/data/easy_chat/easy_chat_group_greetings.h | src/strings.c | src/strings.c | src/strings.c
+dup_00894,YES\nNO,2,sUnusedText_YesNo | gText_YesNo,src/berry_blender.c | src/strings.c
+dup_00895,Yikes!\nYou're better than I expected!$,3,Route104_Text_MayDefeat | Route110_Text_MayDefeated | RustboroCity_Text_MayDefeat,data/maps/Route104/scripts.inc | data/maps/Route110/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00896,You can't hold any more!,2,gText_CantHoldAnyMore | gText_CantHoldMore,src/strings.c | src/strings.c
+dup_00897,You declined the offer.\p,2,sText_OfferDeclined1 | sText_OfferDeclined2,src/data/union_room.h | src/data/union_room.h
+dup_00898,You don't have enough COINS.$,2,MauvilleCity_GameCorner_Text_NotEnoughCoins | Roulette_Text_NotEnoughCoins,data/maps/MauvilleCity_GameCorner/scripts.inc | data/scripts/roulette.inc
+dup_00899,You may swap POKéMON only with\nthe TRAINER you have just defeated.\pYou may swap for only those POKéMON\nused by the beaten TRAINER.$,2,BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules | SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules,data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/text/battle_tent.inc
+dup_00900,You really do have to be careful with\nany sort of fire in a forest.\pDon't ever underestimate the power\nof fire.$,2,Route114_Text_BerniePostBattle | Route114_Text_BerniePostRematch,data/text/trainers.inc | data/text/trainers.inc
+dup_00901,"You want to chat, huh?\nSure, just wait a little.",2,sText_WaitForChatMale | sText_WaitForChatMale2,src/data/union_room.h | src/data/union_room.h
+dup_00902,You won't battle? I'm disappointed\nthat I can't see you battle…$,2,RS_MysteryEventsHouse_Text_YouWontBattle | SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle,data/maps/MossdeepCity_GameCorner_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00903,You're loaded with items.\nI can't give you this GREAT BALL.$,2,PetalburgWoods_Text_YoureLoadedWithItems | RustboroCity_Text_YoureLoadedWithItems,data/maps/PetalburgWoods/scripts.inc | data/maps/RustboroCity/scripts.inc
+dup_00904,"You're strong, but should I register\nyou in my POKéNAV?\lMaybe I shouldn't…\pOkay, sure, I will register you!$",2,Route104_Text_HaleyRegister1 | Route104_Text_HaleyRegister2,data/text/trainers.inc | data/text/trainers.inc
+dup_00905,Your POKéMON appears to be in no\ncondition to take part in a CONTEST…$,2,LilycoveCity_ContestLobby_Text_MonInNoConditionForContest | LilycoveCity_ContestLobby_Text_MonInNoCondition2,data/scripts/contest_hall.inc | data/scripts/contest_hall.inc
+dup_00906,Your feat will be recorded.\nI must ask you to briefly wait.$,2,BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded | VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded,data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/text/battle_tent.inc
+dup_00907,Your final battle against TUCKER is\nnext. Are you ready?$,2,BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort | BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort,data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc
+dup_00908,Your record will be saved.\nPlease wait.$,2,BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved | BattleFrontier_BattleTowerLobby_Text_RecordWillBeSaved,data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc
+dup_00909,ZANGOOSE,2,nickname | inline_382,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00910,ZAPDOS,2,nickname | inline_147,src/data/battle_frontier/trainer_hill.h | src/data/text/species_names.h
+dup_00911,ZIGZAGOON$,2,gTrickHouse_Mechadoll_Zigzagoon | gTrickHouse_Mechadoll_Zigzagoon2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00912,ZUBAT$,2,gTrickHouse_Mechadoll_Zubat | gTrickHouse_Mechadoll_Zubat2,data/text/trick_house_mechadolls.inc | data/text/trick_house_mechadolls.inc
+dup_00913,\n,4,gText_NewLine | sText_NewLine | sText_NewLine | gText_NewLine2,src/battle_message.c | src/berry_blender.c | src/data/trade.h | src/strings.c
+dup_00914,and make a message.,2,gText_AndMakeAMessage | gText_AndMakeAMessage2,src/strings.c | src/strings.c
+dup_00915,are,2,gText_Are | gText_Are2,src/battle_message.c | src/battle_message.c
+dup_00916,at the BATTLE TOWER.,2,gRibbonDescriptionPart2_Winning | gRibbonDescriptionPart2_Victory,src/data/text/ribbon_descriptions.h | src/data/text/ribbon_descriptions.h
+dup_00917,{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{124}{0}{0}{244}{7}{1}{252}{25}{74}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{43}{0}{0}{244}{7}{1}{252}{25}{44}{0}{0}{244}{8}{1},2,gText_SpAtk3 | gText_SpAtk4,src/strings.c | src/strings.c
+dup_00918,{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{71}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1} {B_OPPONENT_MON1_NAME} {252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{20}{0}{0}{244}{6}{1}{252}{25}{33}{2}{0}{244}{7}{1}{252}{25}{42}{0}{0}{244}{6}{1}!\p,2,sText_WildPkmnAppeared | sText_LegendaryPkmnAppeared,src/battle_message.c | src/battle_message.c
+dup_00919,{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{130}{2}{0}{244}{7}{1},3,gText_ContinueMenuPokedex | gText_MenuPokedex | gText_SavingPokedex,src/strings.c | src/strings.c | src/strings.c
+dup_00920,{252}{25}{111}{1}{0}{244}{10}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{37}{2}{0}{244}{9}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{203}{0}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}…\n{252}{25}{109}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{71}{0}{0}{244}{7}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{46}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}$,2,gText_SavingDontTurnOff | gText_SavingDontTurnOffPower,data/text/save.inc | data/text/save.inc
+dup_00921,{252}{25}{117}{1}{0}{244}{11}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{109}{1}{0}{244}{7}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}\n{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{41}{2}{0}{244}{8}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{171}{2}{0}{244}{6}{1}{252}{25}{80}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{23}{0}{0}{244}{9}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1},6,sSunStoneDesc | sMoonStoneDesc | sFireStoneDesc | sThunderStoneDesc | sWaterStoneDesc | sLeafStoneDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00922,{252}{25}{126}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{142}{1}{0}{244}{7}{1}{252}{25}{24}{0}{0}{244}{10}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{4}{2}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{106}{1}{0}{244}{6}{1}{252}{25}{42}{0}{0}{244}{6}{1}!,2,gText_YourPartysFull | gText_PartyFull,src/strings.c | src/strings.c
+dup_00923,{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{154}{0}{0}{244}{7}{1}{252}{25}{134}{0}{0}{244}{7}{1}{252}{25}{37}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{78}{1}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{12}{0}{0}{244}{4}{1}\n{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{154}{0}{0}{244}{7}{1}{252}{25}{10}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1},2,sBeadMailDesc | sDreamMailDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00924,{252}{25}{140}{1}{0}{244}{6}{1}{252}{25}{18}{0}{0}{244}{8}{1}{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{71}{0}{0}{244}{7}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{210}{1}{0}{244}{7}{1}\n{252}{25}{37}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{105}{1}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{12}{0}{0}{244}{4}{1},4,sRoom1KeyDesc | sRoom2KeyDesc | sRoom4KeyDesc | sRoom6KeyDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00925,{252}{25}{141}{2}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{79}{1}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_ContinueMenuPlayer | gText_SavingPlayer,src/strings.c | src/strings.c
+dup_00926,{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{178}{0}{0}{244}{8}{1}{252}{25}{10}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1} {DYNAMIC 0} {252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{248}{1}{0}{244}{6}{1}.,2,gText_PkmnIsSelected | gText_ItemIsNowHeld,src/strings.c | src/strings.c
+dup_00927,{252}{25}{27}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{33}{2}{0}{244}{7}{1}{252}{25}{42}{0}{0}{244}{6}{1},2,gText_NoEntry | gText_MenuRetire,src/strings.c | src/strings.c
+dup_00928,{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{66}{1}{0}{244}{7}{1} {B_DEF_NAME_WITH_PREFIX}\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{76}{1}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{140}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1}!,2,sText_PkmnCantSleepInUproar | sText_PkmnCantSleepInUproar2,src/battle_message.c | src/battle_message.c
+dup_00929,{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{160}{1}{0}{244}{6}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{111}{1}{0}{244}{10}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{221}{2}{0}{244}{11}{1}.,2,sText_SandstormRages | sText_SandstormIsRaging,src/battle_message.c | src/battle_message.c
+dup_00930,{252}{25}{36}{0}{0}{244}{8}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{56}{0}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{24}{0}{0}{244}{10}{1}\n{252}{25}{154}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{49}{2}{0}{244}{7}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{248}{1}{0}{244}{6}{1}\n{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{93}{1}{0}{244}{7}{1}{252}{25}{95}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1},2,sRootFossilDesc | sClawFossilDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00931,{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{79}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1},4,gText_Cancel | gText_Cancel2 | gText_Cancel6 | gText_OptionMenuCancel,src/strings.c | src/strings.c | src/strings.c | src/strings.c
+dup_00932,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{1}{2}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{25}{0}{0}{244}{7}{1},2,gText_ContinueMenuBadges | gText_SavingBadges,src/strings.c | src/strings.c
+dup_00933,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{22}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_ChoosePokemon | gText_ChoosePokemon2,src/strings.c | src/strings.c
+dup_00934,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{42}{0}{0}{244}{6}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1},2,gText_ContinueMenuTime | gText_SavingTime,src/strings.c | src/strings.c
+dup_00935,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{43}{0}{0}{244}{7}{1}{252}{25}{44}{0}{0}{244}{8}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{150}{1}{0}{244}{6}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{24}{0}{0}{244}{10}{1}\n{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{211}{1}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1},4,sRedShardDesc | sBlueShardDesc | sYellowShardDesc | sGreenShardDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00936,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{78}{1}{0}{244}{5}{1}{252}{25}{42}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1},2,gText_Able | gText_Able2,src/strings.c | src/strings.c
+dup_00937,{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{128}{0}{0}{244}{7}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_Register | gText_NumberRegistered,src/strings.c | src/strings.c
+dup_00938,{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1},2,gText_Switch2 | gText_Switch,src/strings.c | src/strings.c
+dup_00939,{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{127}{0}{0}{244}{8}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{76}{1}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}!\p,2,sText_CantEscape2 | sText_CantEscape,src/battle_message.c | src/battle_message.c
+dup_00940,{252}{25}{46}{2}{0}{244}{5}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{4}{1}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_Take | gText_Take2,src/strings.c | src/strings.c
+dup_00941,{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{90}{1}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{127}{0}{0}{244}{8}{1}{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{66}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{142}{2}{0}{244}{6}{1}\n{252}{25}{24}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{71}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}\n{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}{252}{25}{151}{1}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{93}{2}{0}{244}{7}{1}{252}{25}{12}{0}{0}{244}{4}{1},2,sPokeDollDesc | sFluffyTailDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00942,{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{10}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{154}{0}{0}{244}{7}{1}{252}{25}{116}{2}{0}{244}{8}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{219}{1}{0}{244}{8}{1} HP\n{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{66}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{117}{1}{0}{244}{11}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{109}{1}{0}{244}{7}{1}{252}{25}{50}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1},5,sFigyBerryDesc | sWikiBerryDesc | sMagoBerryDesc | sAguavBerryDesc | sIapapaBerryDesc,src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h | src/data/text/item_descriptions.h
+dup_00943,{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{76}{1}{0}{244}{7}{1}{252}{25}{134}{0}{0}{244}{7}{1},3,gText_DexSearchTypeNone | gText_None | gText_DontHave,src/strings.c | src/strings.c | src/strings.c
+dup_00944,{252}{25}{83}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_Read2 | gText_Read,src/strings.c | src/strings.c
+dup_00945,{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{221}{1}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1},2,gText_Summary5 | gText_Info,src/strings.c | src/strings.c
+dup_00946,{252}{25}{87}{2}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{57}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1},3,gText_MainMenuOption | gText_Option | gText_MenuOption,src/strings.c | src/strings.c | src/strings.c
+dup_00947,{252}{25}{93}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{117}{1}{0}{244}{11}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}?,2,gText_WhatWouldYouLike | gText_WhatDoYouWantToDo,src/strings.c | src/strings.c
+dup_00948,{252}{25}{98}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{24}{2}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{74}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{43}{0}{0}{244}{7}{1}{252}{25}{44}{0}{0}{244}{8}{1},2,gText_SpDef3 | gText_SpDef4,src/strings.c | src/strings.c
+dup_00949,{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{18}{0}{0}{244}{8}{1}{252}{25}{214}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1},2,gText_MainMenuMysteryGift | gText_MainMenuMysteryGift2,src/strings.c | src/strings.c
+dup_00950,{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{142}{1}{0}{244}{7}{1}{252}{25}{24}{0}{0}{244}{10}{1}!\n{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{154}{0}{0}{244}{7}{1} PC {252}{25}{154}{0}{0}{244}{7}{1}{252}{25}{97}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{30}{0}{0}{244}{8}{1},2,gText_ThankYouIllSendItHome | gText_ThanksIllSendItHome,src/strings.c | src/strings.c
+dup_00951,{B_ATK_NAME_WITH_PREFIX} {252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{165}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}\n{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{37}{0}{0}{244}{7}{1}{252}{25}{28}{0}{0}{244}{7}{1} {B_BUFF1}!,2,sText_PkmnChangedType | sText_PkmnTransformedInto,src/battle_message.c | src/battle_message.c
+dup_00952,{B_ATK_NAME_WITH_PREFIX} {252}{25}{57}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1} {B_BUFF1}\n{B_BUFF2},2,sText_AttackersStatRose | sText_AttackersStatFell,src/battle_message.c | src/battle_message.c
+dup_00953,{B_BUTTON}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{79}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1},2,gText_PokenavMatchCall_CheckTrainerButtons | gText_PokenavRibbons_RibbonCheckButtons,src/strings.c | src/strings.c
+dup_00954,{B_DEF_NAME_WITH_PREFIX} {252}{25}{57}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1} {B_BUFF1}\n{B_BUFF2},2,gText_DefendersStatRose | sText_DefendersStatFell,src/battle_message.c | src/battle_message.c
+dup_00955,{B_DEF_NAME_WITH_PREFIX}\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{124}{0}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}!,2,sText_PkmnAvoidedAttack | sText_PkmnEvadedAttack,src/battle_message.c | src/battle_message.c
+dup_00956,{B_DEF_NAME_WITH_PREFIX}\n{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{76}{1}{0}{244}{7}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{92}{1}{0}{244}{7}{1}{252}{25}{46}{2}{0}{244}{5}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{33}{0}{0}{244}{6}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{31}{0}{0}{244}{7}{1}!,2,sText_PkmnWasntAffected | sText_PkmnUnaffected,src/battle_message.c | src/battle_message.c
+dup_00957,{B_SCR_ACTIVE_NAME_WITH_PREFIX} {252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{90}{1}{0}{244}{6}{1} {B_SCR_ACTIVE_ABILITY}\n{252}{25}{46}{2}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{44}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1} {B_BUFF1}!,2,sText_PkmnsXCuredYProblem | sText_PkmnsXCuredItsYProblem,src/battle_message.c | src/battle_message.c
+dup_00958,{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ,2,gText_EasyChatKeyboard_MNOPQRS | gText_NamingScreenKeyboard_MNOPQRS,src/text_input_strings.c | src/text_input_strings.c
+dup_00959,{CLEAR 11}T{CLEAR 6}U{CLEAR 6}V{CLEAR 26}W{CLEAR 6}X{CLEAR 6}Y{CLEAR 6}Z{CLEAR 26} ,2,gText_EasyChatKeyboard_TUVWXYZ | gText_NamingScreenKeyboard_TUVWXYZ,src/text_input_strings.c | src/text_input_strings.c
+dup_00960,{COLOR_HIGHLIGHT_SHADOW LIGHT_GREEN WHITE BLUE}♀{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},3,sText_FemaleSymbol | sText_FemaleSymbol | sText_FemaleSymbol,src/pokenav_conditions_search_results.c | src/pokenav_ribbons_list.c | src/pokenav_ribbons_summary.c
+dup_00961,{COLOR_HIGHLIGHT_SHADOW LIGHT_RED WHITE GREEN}♂{COLOR_HIGHLIGHT_SHADOW DARK_GRAY WHITE LIGHT_GRAY},3,sText_MaleSymbol | sText_MaleSymbol | sText_MaleSymbol,src/pokenav_conditions_search_results.c | src/pokenav_ribbons_list.c | src/pokenav_ribbons_summary.c
+dup_00962,{LV},2,gText_LevelSymbol | gText_Lv,src/strings.c | src/strings.c
+dup_00963,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6},2,gText_MoveInterfaceDynamicColors | gText_BattleSwitchWhich2,src/battle_message.c | src/battle_message.c
+dup_00964,{PKMN} TRAINER,4,inline_2 | inline_3 | inline_52 | inline_67,src/data/text/trainer_class_names.h | src/data/text/trainer_class_names.h | src/data/text/trainer_class_names.h | src/data/text/trainer_class_names.h
+dup_00965,{PLAYER} booted up the PC.$,2,SecretBase_Text_BootUpPC | Text_BootUpPC,data/scripts/secret_base.inc | data/text/pc.inc
+dup_00966,{PLAYER} doesn't have the TICKET…\pI'm terribly sorry.\pYou must have a TICKET to board\nthe ferry.$,3,BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard | LilycoveCity_Harbor_Text_NoTicket | SlateportCity_Harbor_Text_YouMustHaveTicket,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00967,{PLAYER} flashed the TICKET.\pPerfect! That's all you need!\pAnd where would you like to go?$,3,BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo | LilycoveCity_Harbor_Text_FlashTicketWhereTo | SlateportCity_Harbor_Text_FlashedTicketWhereTo,data/maps/BattleFrontier_OutsideWest/scripts.inc | data/maps/LilycoveCity_Harbor/scripts.inc | data/maps/SlateportCity_Harbor/scripts.inc
+dup_00968,{PLAYER} is the Level 50\nBattle Tournament Champion!\pCongratulations!$,2,BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ | BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2,data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc
+dup_00969,{PLAYER} is the Open Level\nBattle Tournament Champion!\pCongratulations!$,2,BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp | BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2,data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc | data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.inc
+dup_00970,{PLAYER} put the RIBBON on\n{STR_VAR_1}.$,2,LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon | ContestHall_Text_PutRibbonOnMon,data/maps/LilycoveCity_ContestLobby/scripts.inc | data/scripts/contest_hall.inc
+dup_00971,{PLAYER} received a POTION.$,2,SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1 | SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2,data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc | data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc
+dup_00972,{PLAYER} received a RIBBON.$,2,LilycoveCity_ContestLobby_Text_ReceivedARibbon | ContestHall_Text_ReceivedRibbon,data/maps/LilycoveCity_ContestLobby/scripts.inc | data/scripts/contest_hall.inc
+dup_00973,{PLAYER} received the prize\n{STR_VAR_1}.$,8,BattleFrontier_BattleArenaLobby_Text_ReceivedPrize | BattleFrontier_BattleDomeLobby_Text_ReceivedPrize | BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem | BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize | BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem | BattleFrontier_BattleTowerLobby_Text_ReceivedPrize | FallarborTown_BattleTentLobby_Text_ReceivedPrize | SlateportCity_BattleTentLobby_Text_ReceivedPrize,data/maps/BattleFrontier_BattleArenaLobby/scripts.inc | data/maps/BattleFrontier_BattleDomeLobby/scripts.inc | data/maps/BattleFrontier_BattleFactoryLobby/scripts.inc | data/maps/BattleFrontier_BattlePalaceLobby/scripts.inc | data/maps/BattleFrontier_BattlePyramidLobby/scripts.inc | data/maps/BattleFrontier_BattleTowerLobby/scripts.inc | data/text/battle_tent.inc | data/text/battle_tent.inc
+dup_00974,{STR_VAR_1},2,gText_Facility | gText_StrVar1,src/strings.c | src/strings.c
+dup_00975,{STR_VAR_1} {252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{62}{1}{0}{244}{6}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}?\n{252}{25}{93}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{143}{0}{0}{244}{6}{1}{252}{25}{153}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}?,2,gText_Var1CertainlyHowMany | gText_Var1CertainlyHowMany2,src/strings.c | src/strings.c
+dup_00976,{STR_VAR_1}$,3,SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Tie | SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Won | SootopolisCity_MysteryEventsHouse_1F_Text_StrVar1Lost,data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc | data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc
+dup_00977,{STR_VAR_1}'s appeal did\nnot go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,3,gText_MonsAppealDidNotGoWell | gText_MonsAppealDidNotGoWell2 | gText_MonsAppealDidNotGoWell3,data/text/contest_strings.inc | data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00978,{STR_VAR_1}'s appeal\nwent excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,2,gText_MonsAppealWentExcellently | gText_MonsAppealWentExcellently2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00979,{STR_VAR_1}'s appeal\nwent pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,2,gText_MonsAppealWentPrettyWell | gText_MonsAppealWentPrettyWell2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00980,{STR_VAR_1}'s appeal\nwent slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,2,gText_MonsAppealWentSlightlyWell | gText_MonsAppealWentSlightlyWell2,data/text/contest_strings.inc | data/text/contest_strings.inc
+dup_00981,{STR_VAR_1}.\n{STR_VAR_1}.\pHmmm… She's not smiling at all.\nMaybe WALDA is one serious child…$,2,RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll | RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2,data/maps/RustboroCity_Flat1_2F/scripts.inc | data/maps/RustboroCity_Flat1_2F/scripts.inc
+dup_00982,{STR_VAR_1}.{STR_VAR_2},3,gText_XDotY | gText_XDotY2 | gText_XDotY3,src/strings.c | src/strings.c | src/strings.c
+dup_00983,"{STR_VAR_1}? That's great!\pKnowing that you made the decision,\n{PLAYER}{KUN}, I won't be so upset if\lI lose.\pOkay, I'll look to you for advice again.\nBye!$",2,gText_ApprenticeMonThanks4 | gText_ApprenticeMoveThanks4,data/text/apprentice.inc | data/text/apprentice.inc
+dup_00984,{UNK_SPACER},3,sText_NoGenderSymbol | sText_NoGenderSymbol | sGenderlessIconString,src/pokenav_conditions_search_results.c | src/pokenav_ribbons_list.c | src/pokenav_ribbons_summary.c
+dup_00985,ดูด HP เท่ากับครึ่งหนึ่ง\nของความเสียหายที่ทำได้,4,sAbsorbDescription | sMegaDrainDescription | sLeechLifeDescription | sGigaDrainDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00986,ป้องกันการโจมตี\nใช้ต่อเนื่องอาจล้มเหลว,2,sProtectDescription | sDetectDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00987,พลังรุนแรงแต่ผู้ใช้ท่า\nขยับไม่ได้ในเทิร์นถัดไป,4,sHyperBeamDescription | sBlastBurnDescription | sHydroCannonDescription | sFrenzyPlantDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00988,ฟื้นฟู HP ตามปริมาณ\nที่ขึ้นกับสภาพอากาศ,3,sMorningSunDescription | sSynthesisDescription | sMoonlightDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00989,ฟื้นฟู HP ได้ถึง\nครึ่งหนึ่งของ HP สูงสุด,3,sRecoverDescription | sSoftBoiledDescription | sMilkDrinkDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00990,ยิงลำแสงประหลาด\nอาจทำให้คู่ต่อสู้สับสน,2,sPsybeamDescription | sSignalBeamDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00991,ลบผลการเพิ่ม\nการหลบหลีกของคู่ต่อสู้,2,sForesightDescription | sOdorSleuthDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00992,สร้างความเสียหายมากขึ้น\nเมื่อ HP ผู้ใช้ท่าลดลง,2,sFlailDescription | sReversalDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00993,สร้างความเสียหายรุนแรง\nแต่ผู้ใช้ท่าหมดสภาพ,2,sSelfDestructDescription | sExplosionDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00994,สร้างความเสียหายเท่ากับ\nเลเวลของผู้ใช้ท่า,2,sSeismicTossDescription | sNightShadeDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00995,อาละวาด 2 ถึง 3 เทิร์น\nแล้วผู้ใช้ท่าสับสน,3,sThrashDescription | sPetalDanceDescription | sOutrageDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00996,โจมตีด้วยพลังเต็มที่\nลดพลังโจมตีพิเศษอย่างมาก,2,sOverheatDescription | sPsychoBoostDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00997,โจมตีต่อเนื่อง 5 เทิร์น\nและแรงขึ้นทุกครั้ง,2,sRolloutDescription | sIceBallDescription,src/data/text/move_descriptions.h | src/data/text/move_descriptions.h
+dup_00998,“Hello” is the beginning of “good-bye.”\nI hope we meet again.$,2,Route104_Text_CindyPostBattle | Route104_Text_CindyPostRematch,data/text/trainers.inc | data/text/trainers.inc
+dup_00999,… … … … … …\n… … … … … …$,3,BattleFrontier_BattlePikeRoomNormal_Text_Silence | LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer | Route134_Text_HitoshiDefeat,data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc | data/scripts/lilycove_lady.inc | data/text/trainers.inc
+dup_01000,"…Er, {PLAYER}{KUN}?\n{STR_VAR_1} here…\pOh, yeah, you were over at\nthe {STR_VAR_2}, right?\pAnd you won {STR_VAR_3} battles in a row.\pOh, there goes a rare POKéMON!\nI have to go!$",2,MatchCall_BattleFrontierStreakText7 | MatchCall_BattleFrontierRecordStreakText7,data/text/match_call.inc | data/text/match_call.inc

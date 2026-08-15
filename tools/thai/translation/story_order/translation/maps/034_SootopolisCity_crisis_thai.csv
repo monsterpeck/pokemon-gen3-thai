@@ -1,0 +1,52 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_a9cd459000662ef7,222,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,1,,SootopolisCity_EventScript_Steven,data/maps/SootopolisCity/scripts.inc,1650,SootopolisCity_Text_SoThatsRayquaza,STEVEN: So that's RAYQUAZA…\pIt's incredible how the two rampaging\nPOKéMON would flee from it in fear…$,"STEVEN: So that's RAYQUAZA…
+[PAGE]
+It's incredible how the two rampaging
+POKéMON would flee from it in fear…",ไดโกะ: นั่นคือเร็คคูซา…\pเหลือเชื่อจริง ๆ ที่โปเกมอนคลุ้มคลั่ง\nสองตัวนั้นหวาดกลัวจนหนีไป…$,draft_review,\p | \n,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+dlg_5fe249944b18d8de,223,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,2,,SootopolisCity_EventScript_StevenHelpWallace,data/maps/SootopolisCity/scripts.inc,1641,SootopolisCity_Text_KnowWhatsNeededToHelpHim,STEVEN: I think you have what's\nneeded to help him…$,"STEVEN: I think you have what's
+needed to help him…",ไดโกะ: ฉันคิดว่าเธอมีสิ่งที่\nจำเป็นต้องใช้ช่วยเขา…$,draft_review,\n,,high,high,high,ok,ok,
+dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,3,Archie,SootopolisCity_EventScript_StevenMaxieArchieLeft,data/maps/SootopolisCity/scripts.inc,1655,SootopolisCity_Text_MaxieArchieLeft,STEVEN: It looks like both MAXIE and\nARCHIE have gone away somewhere.\pPerhaps they've gone to MT. PYRE to\nreturn those ORBS…$,"STEVEN: It looks like both MAXIE and
+ARCHIE have gone away somewhere.
+[PAGE]
+Perhaps they've gone to MT. PYRE to
+return those ORBS…",ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอคิจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
+[PAGE]
+I've never been there.
+I wonder where it could be?",ไดโกะ: หอคอยฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_2eb7f1b6277a7dc5,226,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,5,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1610,SootopolisCity_Text_InvolvedWithCrisisComeWithMe,"STEVEN: Those POKéMON fighting…\nGROUDON… And KYOGRE…\pThe two super-ancient POKéMON\nwere awakened from a long sleep…\pAnd now they are smashing each other\nwith their uncontrollable energy…\p…{PLAYER}{KUN}.\pYou being here now I'll take to mean\nthat you're prepared to become\linvolved in this crisis.\pWell, then, there's someone that\nI'd like you to meet.\pCome with me, please.$","STEVEN: Those POKéMON fighting…
+GROUDON… And KYOGRE…
+[PAGE]
+The two super-ancient POKéMON
+were awakened from a long sleep…
+[PAGE]
+And now they are smashing each other
+with their uncontrollable energy…
+[PAGE]
+…{PLAYER}{KUN}.
+[PAGE]
+You being here now I'll take to mean
+that you're prepared to become
+involved in this crisis.
+[PAGE]
+Well, then, there's someone that
+I'd like you to meet.
+[PAGE]
+Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคดึกดำบรรพ์ทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
+[PAGE]
+Does seeing GROUDON and KYOGRE make
+you think POKéMON are to be feared?
+[PAGE]
+But that's not true.
+POKéMON are really more…
+[PAGE]
+…Why am I asking you this?
+You already know.",ไดโกะ: ฟังนะ {PLAYER}{KUN}\pการได้เห็นกราดอนกับไคโอกา ทำให้\nเธอคิดว่าโปเกมอนน่ากลัวหรือเปล่า?\pแต่ไม่ใช่อย่างนั้น\nแท้จริงแล้วโปเกมอนนั้น…\p…ฉันถามเรื่องนี้ทำไมนะ?\nเธอรู้อยู่แล้วนี่นา$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_d0a9580f9bb5ec14,228,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,7,Wallace,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1634,SootopolisCity_Text_HereWereAreHelpWallace,"STEVEN: Okay, here we are!\pInside here you'll find someone named\nWALLACE.\pI think you have what's needed to\nhelp him…$","STEVEN: Okay, here we are!
+[PAGE]
+Inside here you'll find someone named
+WALLACE.
+[PAGE]
+I think you have what's needed to
+help him…",ไดโกะ: เอาละ ถึงแล้ว!\pข้างในนี้มีคนชื่อ\nมิคุริอยู่\pฉันคิดว่าเธอมีสิ่งที่\nจำเป็นต้องใช้ช่วยเขา…$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,

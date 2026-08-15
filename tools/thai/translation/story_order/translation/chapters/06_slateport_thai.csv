@@ -1,0 +1,227 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_f3193871c666b294,91,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,1,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,269,SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts,"Yes? If you're looking for STERN,\nthat would be me.\pAh! Those must be the parts I ordered\nfrom MR. STONE of DEVON.\pThank you! That's great!\nWe can prepare for our expedition now.$","Yes? If you're looking for STERN,
+that would be me.
+[PAGE]
+Ah! Those must be the parts I ordered
+from MR. STONE of DEVON.
+[PAGE]
+Thank you! That's great!
+We can prepare for our expedition now.",ครับ? ถ้าตามหาสเติร์น\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากคุณสโตนแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$,draft_review,\n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_bccdea658542d0e8,92,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,2,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,277,SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts,"Hehehe, hold it!\nWe'll take those parts!$","Hehehe, hold it!
+We'll take those parts!",ฮี่ ๆ เดี๋ยวก่อน!\nชิ้นส่วนนั่นพวกเราขอละ!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_6c9bfdabbe559c34,93,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,3,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,281,SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou,CAPT. STERN: Wh-what?\nWho are you people?$,"CAPT. STERN: Wh-what?
+Who are you people?",กัปตันสเติร์น: อะ-อะไรนะ?\nพวกแกเป็นใคร?$,draft_review,\n,,high,high,high,ok,ok,
+dlg_9758a7ae075cd9a8,94,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,4,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,285,SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua,We're TEAM AQUA!\pOur BOSS wants those parts!\nShut your yap and fork them over!$,"We're TEAM AQUA!
+[PAGE]
+Our BOSS wants those parts!
+Shut your yap and fork them over!",พวกเราคือทีมอควา!\pบอสของเราอยากได้ชิ้นส่วนนั่น!\nหุบปากแล้วส่งมาเดี๋ยวนี้!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_636ae9a849ca1131,95,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,5,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,294,SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious,"Oh, man, what a disaster…\nThe BOSS is going to be furious…$","Oh, man, what a disaster…
+The BOSS is going to be furious…",โธ่เอ๊ย พังไม่เป็นท่า…\nบอสต้องโกรธจัดแน่…$,draft_review,\n,,high,high,high,ok,ok,
+dlg_e8971e4703accf6a,96,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,6,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,298,SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis,"Humph, sniveling wimp!\nLet me take care of this!$","Humph, sniveling wimp!
+Let me take care of this!",ฮึ เจ้าขี้แพ้ขี้แย!\nให้ฉันจัดการเอง!$,draft_review,\n,,high,high,high,ok,ok,
+dlg_aa04df9ea54fa8e8,97,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,7,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,306,SlateportCity_OceanicMuseum_2F_Text_MeddlingKid,"Now what? If we don't get the parts,\nwe're in for it!\pArrgh, I didn't count on being meddled\nwith by some meddling kid!$","Now what? If we don't get the parts,
+we're in for it!
+[PAGE]
+Arrgh, I didn't count on being meddled
+with by some meddling kid!",เอาไงดี? ถ้าไม่ได้ชิ้นส่วนกลับไป\nพวกเราแย่แน่!\pกรอด ไม่คิดเลยว่าจะถูก\nเด็กจุ้นจ้านมาขวางงาน!$,draft_review,\n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_f04999e65407c9f5,98,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,8,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,312,SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong,"I came to see what was taking so\nlong to snatch some parts, and you\lsimps are held up by a mere child?$","I came to see what was taking so
+long to snatch some parts, and you
+simps are held up by a mere child?",ฉันมาดูว่าทำไมแค่ชิงชิ้นส่วน\nถึงใช้เวลานานนัก แล้วพวกแก\lกลับติดแหง็กเพราะเด็กคนเดียวเรอะ?$,draft_review,\n | \l,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_6e3b14603f596d92,99,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,9,Archie,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,317,SlateportCity_OceanicMuseum_2F_Text_ArchieWarning,"We are TEAM AQUA,\nand we love the sea!\pAnd I am TEAM AQUA's leader,\nARCHIE!\pWhat makes you interfere with us?\p…No! You can't be!\nYou're not one of TEAM MAGMA?\pWait, that can't be right.\nYou're not dressed for the part.\p… … … … … …\n… … … … … …\pPOKéMON, people… All life depends on\nthe sea.\pSo, TEAM AQUA is dedicated to\nthe expansion of the sea.\pDon't you agree? What we are doing\nis a magnificent undertaking.\pAh, fine…\nYou're still too young to understand\lour noble objective.\pBut, I warn you, don't even consider\ninterfering with our plans again.\pThe consequences will cost you\ndearly!\pAnd don't you forget it!$","We are TEAM AQUA,
+and we love the sea!
+[PAGE]
+And I am TEAM AQUA's leader,
+ARCHIE!
+[PAGE]
+What makes you interfere with us?
+[PAGE]
+…No! You can't be!
+You're not one of TEAM MAGMA?
+[PAGE]
+Wait, that can't be right.
+You're not dressed for the part.
+[PAGE]
+… … … … … …
+… … … … … …
+[PAGE]
+POKéMON, people… All life depends on
+the sea.
+[PAGE]
+So, TEAM AQUA is dedicated to
+the expansion of the sea.
+[PAGE]
+Don't you agree? What we are doing
+is a magnificent undertaking.
+[PAGE]
+Ah, fine…
+You're still too young to understand
+our noble objective.
+[PAGE]
+But, I warn you, don't even consider
+interfering with our plans again.
+[PAGE]
+The consequences will cost you
+dearly!
+[PAGE]
+And don't you forget it!",พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอคิ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$,draft_review,\n | \p | \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+dlg_9d72999ead10d4fe,100,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,10,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,344,SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs,"CAPT. STERN: You're…\nAh, okay, you're {PLAYER}{KUN}…\pAnyway, that was a tense situation!\nThank you for saving us!\pOh, yes, I almost forgot that you\neven brought the parts from DEVON!$","CAPT. STERN: You're…
+Ah, okay, you're {PLAYER}{KUN}…
+[PAGE]
+Anyway, that was a tense situation!
+Thank you for saving us!
+[PAGE]
+Oh, yes, I almost forgot that you
+even brought the parts from DEVON!",กัปตันสเติร์น: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_d19a36b6538ce9c5,101,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,11,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,352,SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo,"CAPT. STERN: Whoops!\nThere's no time to lose!\pWe have to set out on our ocean-floor\nexpedition really soon.\pThanks again, but now I've got\nto go!\pFeel free to wander around and check\nout our facilities, though.$","CAPT. STERN: Whoops!
+There's no time to lose!
+[PAGE]
+We have to set out on our ocean-floor
+expedition really soon.
+[PAGE]
+Thanks again, but now I've got
+to go!
+[PAGE]
+Feel free to wander around and check
+out our facilities, though.",กัปตันสเติร์น: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจพื้นมหาสมุทร\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_28a099c0293fe293,102,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,1,May,Route110_EventScript_MayBattle,data/maps/Route110/scripts.inc,756,Route110_Text_MayLetsBattle,"MAY: Hi, {PLAYER}{KUN}, long time no see!\pWhile I was searching for other\nPOKéMON, my POKéMON grew stronger.\pSo…\nHow about a little battle?$","MAY: Hi, {PLAYER}{KUN}, long time no see!
+[PAGE]
+While I was searching for other
+POKéMON, my POKéMON grew stronger.
+[PAGE]
+So…
+How about a little battle?",ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนาน!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็เก่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_1d20082a3ecc7ddc,103,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,2,May,Route110_EventScript_MayDefeated,data/maps/Route110/scripts.inc,767,Route110_Text_MayTakeThis,"MAY: {PLAYER}{KUN}, you've been busy\ntraining, too, haven't you?\pI think you deserve a reward!\nThis is from me!$","MAY: {PLAYER}{KUN}, you've been busy
+training, too, haven't you?
+[PAGE]
+I think you deserve a reward!
+This is from me!",ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ของฉันให้!$,draft_review,{PLAYER} | {KUN} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_871ba96348530430,104,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,3,May,Route110_EventScript_MayDefeated,data/maps/Route110/scripts.inc,773,Route110_Text_MayExplainItemfinder,"MAY: That's an ITEMFINDER.\pTry it out. If there is an item that's\nnot visible, it emits a sound.\pOkay, {PLAYER}{KUN}, let's meet again!\pI know it's a little silly coming from\nme, but I think you should train a lot\lharder for the next time.$","MAY: That's an ITEMFINDER.
+[PAGE]
+Try it out. If there is an item that's
+not visible, it emits a sound.
+[PAGE]
+Okay, {PLAYER}{KUN}, let's meet again!
+[PAGE]
+I know it's a little silly coming from
+me, but I think you should train a lot
+harder for the next time.",ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้อาจฟังดูตลก\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$,draft_review,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l,{PLAYER},high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
+dlg_fd31a8d537ec357f,105,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,4,Brendan,Route110_EventScript_BrendanBattle,data/maps/Route110/scripts.inc,782,Route110_Text_BrendanLetsBattle,"BRENDAN: Hey, {PLAYER}.\nSo this is where you were.\lHow's it going?\pHave you been raising your POKéMON?\nI'll check for you.$","BRENDAN: Hey, {PLAYER}.
+So this is where you were.
+How's it going?
+[PAGE]
+Have you been raising your POKéMON?
+I'll check for you.",ยูคิ: เฮ้ {PLAYER}\nอยู่นี่เองเหรอ\lเป็นยังไงบ้าง?\pเลี้ยงโปเกมอนให้เก่งขึ้นหรือยัง?\nเดี๋ยวฉันตรวจให้เอง$,draft_review,{PLAYER} | \n | \l | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_d3ccced86c75df3a,106,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,5,Brendan,Route110_EventScript_BrendanDefeated,data/maps/Route110/scripts.inc,793,Route110_Text_BrendanTakeThis,"BRENDAN: {PLAYER}, you've trained\nwithout me noticing…\pGood enough!\nHere, take this.$","BRENDAN: {PLAYER}, you've trained
+without me noticing…
+[PAGE]
+Good enough!
+Here, take this.",ยูคิ: {PLAYER} ฝึกเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$,draft_review,{PLAYER} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_d281b79c13882f2a,107,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,6,Brendan,Route110_EventScript_BrendanDefeated,data/maps/Route110/scripts.inc,799,Route110_Text_BrendanExplainItemfinder,"BRENDAN: That's an ITEMFINDER.\pUse it to root around for items that\naren't visible.\pIf it senses something, it emits\na sound.\pAnyway, I'm off to look for new\nPOKéMON.$","BRENDAN: That's an ITEMFINDER.
+[PAGE]
+Use it to root around for items that
+aren't visible.
+[PAGE]
+If it senses something, it emits
+a sound.
+[PAGE]
+Anyway, I'm off to look for new
+POKéMON.",ยูคิ: นั่นคือเครื่องค้นหาไอเทม\pใช้ค้นหาไอเทมที่\nมองไม่เห็นได้\pถ้ามันตรวจเจออะไร\nก็จะส่งเสียงออกมา\pเอาละ ฉันจะไปตามหา\nโปเกมอนตัวใหม่ต่อแล้ว$,draft_review,\p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_be3cc677576abfad,108,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,1,,MauvilleCity_EventScript_WallysUncle,data/maps/MauvilleCity/scripts.inc,460,MauvilleCity_Text_UncleHesTooPeppy,"UNCLE: It's because of POKéMON that\nthis boy's got more pep, I suppose…\lBut he's become a bit too peppy…$","UNCLE: It's because of POKéMON that
+this boy's got more pep, I suppose…
+But he's become a bit too peppy…",คุณลุง: คงเพราะโปเกมอน\nเด็กคนนี้ถึงได้กระปรี้กระเปร่าขึ้น…\lแต่ดูจะคึกเกินไปหน่อยแล้ว…$,draft_review,\n | \l,,high,high,high,ok,ok,
+dlg_f4f5fe77c8bb1be0,109,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,2,Wally,MauvilleCity_EventScript_UncleAskPlayerToBattleWally,data/maps/MauvilleCity/scripts.inc,497,MauvilleCity_Text_UncleCanYouBattleWally,"UNCLE: {PLAYER}{KUN}, was it?\nOn WALLY's behalf, can I ask you to\lbattle with him just this once?\pI don't think he's going to listen to\nany reason the way he is now.$","UNCLE: {PLAYER}{KUN}, was it?
+On WALLY's behalf, can I ask you to
+battle with him just this once?
+[PAGE]
+I don't think he's going to listen to
+any reason the way he is now.",คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n,{PLAYER},high,high,high,ok,ok,
+dlg_48288662c4edf402,110,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,3,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,465,MauvilleCity_Text_WallyWantToChallengeGym,"WALLY: Aww, UNCLE, please?\pI want to challenge this GYM and see\nhow much better I've become.\pPlease? May I, please?$","WALLY: Aww, UNCLE, please?
+[PAGE]
+I want to challenge this GYM and see
+how much better I've become.
+[PAGE]
+Please? May I, please?",มิตสึรุ: โธ่ คุณลุง ขอร้องละครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+dlg_776b6560c3cc25d0,111,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,4,,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,471,MauvilleCity_Text_UncleYourePushingIt,"UNCLE: Now hold on, WALLY.\pSince you started living with POKéMON,\nyou have grown quite a lot stronger.\pBut don't you think you're pushing it\nto suddenly challenge a GYM?$","UNCLE: Now hold on, WALLY.
+[PAGE]
+Since you started living with POKéMON,
+you have grown quite a lot stronger.
+[PAGE]
+But don't you think you're pushing it
+to suddenly challenge a GYM?",คุณลุง: เดี๋ยวก่อน มิตสึรุ\pตั้งแต่เริ่มใช้ชีวิตกับโปเกมอน\nเธอก็แข็งแกร่งขึ้นมากจริง ๆ\pแต่จู่ ๆ จะท้าทายยิมเลย\nไม่ฝืนตัวเองไปหน่อยหรือ?$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_ea21b86b9428270d,112,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,5,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,478,MauvilleCity_Text_WallyWeCanBeatAnyone,"WALLY: I'm not pushing it.\pIf I combine forces with RALTS,\nwe can beat anyone!$","WALLY: I'm not pushing it.
+[PAGE]
+If I combine forces with RALTS,
+we can beat anyone!",มิตสึรุ: ผมไม่ได้ฝืนตัวเองครับ\pถ้าผมกับราลทอสร่วมพลังกัน\nไม่ว่าใครเราก็ชนะได้!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_9c9adfc531c27500,113,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,6,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,483,MauvilleCity_Text_WallyWillYouBattleMe,"WALLY: Oh! Hi, {PLAYER}!\pI've gotten a lot stronger since\nwe met.\p{PLAYER}, I want you and my UNCLE to\nunderstand that.\p{PLAYER}, please, will you have\na battle with me?$","WALLY: Oh! Hi, {PLAYER}!
+[PAGE]
+I've gotten a lot stronger since
+we met.
+[PAGE]
+{PLAYER}, I want you and my UNCLE to
+understand that.
+[PAGE]
+{PLAYER}, please, will you have
+a battle with me?",มิตสึรุ: อ๊ะ! สวัสดี {PLAYER}!\pตั้งแต่พบกันครั้งก่อน\nผมแข็งแกร่งขึ้นมากแล้ว\p{PLAYER} ผมอยากให้คุณกับคุณลุง\nเข้าใจเรื่องนั้น\p{PLAYER} ได้โปรด\nสู้กับผมสักครั้งได้ไหม?$,draft_review,{PLAYER} | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
+dlg_cb17948871baa56c,114,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,7,,MauvilleCity_EventScript_WallyAndUncleExitNorth,data/maps/MauvilleCity/scripts.inc,536,MauvilleCity_Text_UncleVisitUsSometime,"UNCLE: {PLAYER}{KUN}, it just dawned on me\nthat you must be the TRAINER who kept\lan eye out for WALLY when he caught\lhis POKéMON.\pWhy don't you visit us in VERDANTURF\nsometime?\lI'm sure WALLY would enjoy it.$","UNCLE: {PLAYER}{KUN}, it just dawned on me
+that you must be the TRAINER who kept
+an eye out for WALLY when he caught
+his POKéMON.
+[PAGE]
+Why don't you visit us in VERDANTURF
+sometime?
+I'm sure WALLY would enjoy it.",คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยดูแลมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$,draft_review,{PLAYER} | {KUN} | \n | \l | \l | \p | \n | \l,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_a2a0edd5b970588e,115,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,8,,MauvilleCity_EventScript_DefeatedWally,data/maps/MauvilleCity/scripts.inc,561,MauvilleCity_Text_ScottYouDidntHoldBack,"SCOTT: Hehe…\nI was watching that match!\pYou're friends with that boy WALLY,\naren't you?\pBut you didn't hold anything back\nand beat him impressively.\pYeah! That's what a real POKéMON\nbattle is all about!\pI idolize TRAINERS like that!\p… … … … … …\nI'll be cheering for you!$","SCOTT: Hehe…
+I was watching that match!
+[PAGE]
+You're friends with that boy WALLY,
+aren't you?
+[PAGE]
+But you didn't hold anything back
+and beat him impressively.
+[PAGE]
+Yeah! That's what a real POKéMON
+battle is all about!
+[PAGE]
+I idolize TRAINERS like that!
+[PAGE]
+… … … … … …
+I'll be cheering for you!",สก็อต: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
+dlg_fb648835502d4cf7,116,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,9,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,508,MauvilleCity_Text_WallyHereICome,"WALLY: {PLAYER}, thank you.\pOkay… Here I come!$","WALLY: {PLAYER}, thank you.
+[PAGE]
+Okay… Here I come!",มิตสึรุ: {PLAYER} ขอบคุณครับ\pเอาละ… ผมมาแล้ว!$,draft_review,{PLAYER} | \p,{PLAYER},high,high,high,ok,ok,
+dlg_a08d097557c3e6c2,117,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,10,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,517,MauvilleCity_Text_WallyIllGoBackToVerdanturf,WALLY: UNCLE…\nI'll go back to VERDANTURF…$,"WALLY: UNCLE…
+I'll go back to VERDANTURF…",มิตสึรุ: คุณลุง…\nผมจะกลับชิดาเกะครับ…$,draft_review,\n,,high,high,high,ok,ok,
+dlg_6ebacc9d8cd36793,118,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,11,,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,521,MauvilleCity_Text_ThankYouNotEnoughToBattle,"{PLAYER}, thank you.\nBeing a TRAINER is tough, isn't it?\pIt's not enough just to have POKéMON\nand make them battle. That isn't what\lbeing a real TRAINER is about.$","{PLAYER}, thank you.
+Being a TRAINER is tough, isn't it?
+[PAGE]
+It's not enough just to have POKéMON
+and make them battle. That isn't what
+being a real TRAINER is about.",{PLAYER} ขอบคุณนะ\nการเป็นเทรนเนอร์นี่ลำบากจริง ๆ ว่าไหม?\pแค่มีโปเกมอนแล้วสั่งให้ต่อสู้\nยังไม่พอ นั่นไม่ใช่ความหมายของ\lการเป็นเทรนเนอร์ที่แท้จริง$,draft_review,{PLAYER} | \n | \p | \n | \l,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_1dd9ce5252a610ca,119,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,12,,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,528,MauvilleCity_Text_UncleNoNeedToBeDown,"UNCLE: WALLY, there's no need to be so\ndown on yourself.\pWhy, what's keeping you from becoming\nstronger and stronger?\pCome on, let's go home.\nEveryone's waiting for you.$","UNCLE: WALLY, there's no need to be so
+down on yourself.
+[PAGE]
+Why, what's keeping you from becoming
+stronger and stronger?
+[PAGE]
+Come on, let's go home.
+Everyone's waiting for you.",คุณลุง: มิตสึรุ ไม่ต้อง\nผิดหวังในตัวเองขนาดนั้น\pไม่มีอะไรขวางเธอจากการ\nแข็งแกร่งขึ้นเรื่อย ๆ หรอก\pไป กลับบ้านกันเถอะ\nทุกคนกำลังรอเธออยู่$,draft_review,\n | \p | \n | \p | \n,,high,high,high,ok,ok,
+dlg_d86f9ae4036a91a5,120,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,13,Wally,MauvilleCity_EventScript_WallyRequestBattleAgain,data/maps/MauvilleCity/scripts.inc,504,MauvilleCity_Text_WallyPleaseBattleMe,"WALLY: {PLAYER}, please!\nBattle with me, please.$","WALLY: {PLAYER}, please!
+Battle with me, please.",มิตสึรุ: {PLAYER} ได้โปรด!\nสู้กับผมอีกครั้งนะครับ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_29cf2d6c137f7d7c,121,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,14,Wattson,MauvilleCity_Gym_EventScript_Wattson,data/maps/MauvilleCity_Gym/scripts.inc,375,MauvilleCity_Gym_Text_WattsonPostBattle,"I swell with optimism, seeing a promising\nyoung TRAINER like you!$","I swell with optimism, seeing a promising
+young TRAINER like you!",พอเห็นเทรนเนอร์รุ่นเยาว์ที่มีอนาคต\nอย่างเธอแล้ว ฉันก็เปี่ยมด้วยความหวัง!$,draft_review,\n,,high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
+dlg_fc810b4e66b7f5bb,122,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,15,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,353,MauvilleCity_Gym_Text_ReceivedDynamoBadge,{PLAYER} received the DYNAMO BADGE\nfrom WATTSON.$,"{PLAYER} received the DYNAMO BADGE
+from WATTSON.",{PLAYER} ได้รับไดนาโมแบดจ์\nจากเทสเซ็น$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_885f72022e6a7a31,123,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,16,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,357,MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis,"With the DYNAMO BADGE, POKéMON can\nuse ROCK SMASH out of battle.\pAnd, it will make your POKéMON a little\nbit faster, too.\pHmm…\nYou should take this, too!$","With the DYNAMO BADGE, POKéMON can
+use ROCK SMASH out of battle.
+[PAGE]
+And, it will make your POKéMON a little
+bit faster, too.
+[PAGE]
+Hmm…
+You should take this, too!",เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้ร็อกสแมชนอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$,draft_review,\n | \p | \n | \p | \n,,high,high,medium,review,ok,
+dlg_ffb1954314bec3d3,124,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,17,,MauvilleCity_Gym_EventScript_GiveShockWave,data/maps/MauvilleCity_Gym/scripts.inc,365,MauvilleCity_Gym_Text_ExplainShockWave,That TM34 there contains SHOCK WAVE.\pIt's a trustworthy move that never\nmisses! You can count on it!\p… … … … … …$,"That TM34 there contains SHOCK WAVE.
+[PAGE]
+It's a trustworthy move that never
+misses! You can count on it!
+[PAGE]
+… … … … … …",TM34 นั่นบรรจุท่าช็อกเวฟ\pเป็นท่าที่ไว้ใจได้และไม่มีวัน\nพลาดเป้า! เชื่อมือได้เลย!\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,

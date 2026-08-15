@@ -28,7 +28,7 @@ CATEGORIES = [
 ]
 NPC_CATEGORIES = {"optional_npc", "trainer", "match_call", "sign", "interaction"}
 SYSTEM_CATEGORIES = {"tutorial", "system", "menu", "battle", "item"}
-CONTROL_RE = re.compile(r"\\[nplvcx](?:[0-9A-Fa-f]{0,2})?|\{[^{}]+\}")
+CONTROL_RE = re.compile(r"\\[npl]|\\[vcx](?:[0-9A-Fa-f]{0,2})?|\{[^{}]+\}")
 PLACEHOLDER_RE = re.compile(
     r"\{(?:PLAYER|RIVAL|STR_VAR_[123]|POKEBLOCK|"
     r"[A-Z0-9_]*(?:NAME|BUFF|TRAINER|SPECIES|MOVE|ABILITY)[A-Z0-9_]*)\}"

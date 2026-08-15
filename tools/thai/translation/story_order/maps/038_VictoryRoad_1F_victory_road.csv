@@ -14,7 +14,7 @@ But I'm not going to lose anymore!
 I'm going to win! For the POKéMON who
 gave me courage and strength!
 [PAGE]
-Okay… Here I come!",,untranslated,{PLAYER} | \p | \p | \na | \p | {PLAYER} | \n | \pB | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Okay… Here I come!",,untranslated,{PLAYER} | \p | \p | \n | \p | {PLAYER} | \n | \p | \p | \n | \p,{PLAYER} | {PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_2c3eb5a86574bda7,242,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,2,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,136,VictoryRoad_1F_Text_WallyPostEntranceBattle,"WALLY: I couldn't beat you today,\n{PLAYER}, but one of these days, I'll\lcatch up to you!$","WALLY: I couldn't beat you today,
 {PLAYER}, but one of these days, I'll
-catch up to you!",,untranslated,\n | {PLAYER} | \lca,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+catch up to you!",,untranslated,\n | {PLAYER} | \l,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

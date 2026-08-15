@@ -17,11 +17,11 @@ I'll keep an eye on things for
 a while longer.
 [PAGE]
 In the meantime, why don't you go
-check out the town?",,untranslated,{PLAYER} | {KUN} | \n | \p | \nf | \p | \nb | \p | \na | \p | \nc,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+check out the town?",,untranslated,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_70357e86f6ea09df,194,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,3,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,385,MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn,"What's wrong with you?\pYou're outnumbered three to one,\nbut you still want to take us on?$","What's wrong with you?
 [PAGE]
 You're outnumbered three to one,
-but you still want to take us on?",,untranslated,\p | \nb,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+but you still want to take us on?",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_0d1adf3d7c53be63,195,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,4,,MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,390,MossdeepCity_SpaceCenter_2F_Text_GoodAnswer,Good answer!\nThat's what a smart person'll do!$,"Good answer!
 That's what a smart person'll do!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_8199f6fe43038be0,196,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,5,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,394,MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro,"A reckless go-getter, are you?\nOkay, I'll go first!$","A reckless go-getter, are you?
@@ -29,7 +29,7 @@ Okay, I'll go first!",,untranslated,\n,,high,high,Resolved from a checklist even
 dlg_abc5b37215d62d43,197,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,6,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,402,MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro,It's too soon to be relieved!\nI'm up next!$,"It's too soon to be relieved!
 I'm up next!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_18051728da20cef1,198,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,7,,MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,410,MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro,I bet you want to take a break.\nBut I'm not about to let you do that!$,"I bet you want to take a break.
-But I'm not about to let you do that!",,untranslated,\nB,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+But I'm not about to let you do that!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_63197315c2211581,199,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,8,,MossdeepCity_SpaceCenter_2F_EventScript_ScientistMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,361,MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel,Why would TEAM MAGMA want to steal\nour rocket fuel in the first place?$,"Why would TEAM MAGMA want to steal
 our rocket fuel in the first place?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_ff6b7727bf98e870,200,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,9,,MossdeepCity_SpaceCenter_2F_EventScript_GentlemanMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,371,MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis,"If TEAM MAGMA takes the rocket fuel,\nI won't be able to go to space!\pThey can't be allowed to get away\nwith such an outrage!$","If TEAM MAGMA takes the rocket fuel,
@@ -38,13 +38,13 @@ I won't be able to go to space!
 They can't be allowed to get away
 with such an outrage!",,untranslated,\n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_33a9a5236748bb7b,201,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,10,,MossdeepCity_SpaceCenter_2F_EventScript_RichBoyMagma,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,381,MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace,"TEAM MAGMA…\nDo they want to go to space, too?$","TEAM MAGMA…
-Do they want to go to space, too?",,untranslated,\nD,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Do they want to go to space, too?",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_9bb71a44ed8e9cc8,202,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,11,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Maxie,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,437,MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere,MAXIE: Clear out of the way!\nDon't you dare interfere!$,"MAXIE: Clear out of the way!
-Don't you dare interfere!",,untranslated,\nD,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't you dare interfere!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_fad0e7d043c9af8c,203,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,12,Steven,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,441,MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel,STEVEN: TEAM MAGMA…\pWhat's the point of stealing rocket\nfuel?$,"STEVEN: TEAM MAGMA…
 [PAGE]
 What's the point of stealing rocket
-fuel?",,untranslated,\p | \nf,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+fuel?",,untranslated,\p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_220e2ebc787a03bc,204,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,13,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_Steven,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,446,MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano,"MAXIE: Fufufu… Since you're so\ncurious, you deserve an explanation.\pWe're going to jettison the entire\nload into MT. CHIMNEY!\pWith GROUDON gone, we have no need\nfor that slag heap of a mountain!\pSo we'll use the fuel's power to make\nthe volcano erupt!\pIt will be savage!$","MAXIE: Fufufu… Since you're so
 curious, you deserve an explanation.
 [PAGE]
@@ -57,7 +57,7 @@ for that slag heap of a mountain!
 So we'll use the fuel's power to make
 the volcano erupt!
 [PAGE]
-It will be savage!",,untranslated,\nc | \p | \n | \p | \nf | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+It will be savage!",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_104f959b73f4cfdb,205,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,14,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,474,MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided,"MAXIE: We failed to make the volcano\nerupt…\pWe failed to control GROUDON after\nwe had awoken it…\pIs our goal to expand the land\nmisguided?\p… … … … … …\n… … … … … …\pIf…\nIf we, TEAM MAGMA, are wrong…\l… … … … … …\pThen might TEAM AQUA's goal to expand\nthe sea also be equally misguided?$","MAXIE: We failed to make the volcano
 erupt…
 [PAGE]
@@ -75,7 +75,7 @@ If we, TEAM MAGMA, are wrong…
 … … … … … …
 [PAGE]
 Then might TEAM AQUA's goal to expand
-the sea also be equally misguided?",,untranslated,\ne | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+the sea also be equally misguided?",,untranslated,\n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_1d1b84c3dd049a67,206,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,15,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,489,MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp,MAXIE: All right…\nWe will give up on the fuel…\pThere appear to be more important\nmatters that I must examine…$,"MAXIE: All right…
 We will give up on the fuel…
 [PAGE]
@@ -91,4 +91,4 @@ Please come see me at home
 after this.
 [PAGE]
 Oh, yes, I don't live in RUSTBORO CITY.
-I live right here on this island.",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \naf | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+I live right here on this island.",,untranslated,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

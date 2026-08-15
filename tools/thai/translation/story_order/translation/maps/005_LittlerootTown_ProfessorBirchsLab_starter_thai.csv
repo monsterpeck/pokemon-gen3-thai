@@ -1,0 +1,31 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_e1f579546c78b2f9,17,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,1,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,683,LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon,"PROF. BIRCH: So, {PLAYER}{KUN}.\pI've heard so much about you from\nyour father.\pI've heard that you don't have your\nown POKéMON yet.\pBut the way you battled earlier,\nyou pulled it off with aplomb!\pI guess you have your father's blood\nin your veins after all!\pOh, yes. As thanks for rescuing me,\nI'd like you to have the POKéMON you\lused earlier.\p{PLAYER} received the {STR_VAR_1}!$","PROF. BIRCH: So, {PLAYER}{KUN}.
+[PAGE]
+I've heard so much about you from
+your father.
+[PAGE]
+I've heard that you don't have your
+own POKéMON yet.
+[PAGE]
+But the way you battled earlier,
+you pulled it off with aplomb!
+[PAGE]
+I guess you have your father's blood
+in your veins after all!
+[PAGE]
+Oh, yes. As thanks for rescuing me,
+I'd like you to have the POKéMON you
+used earlier.
+[PAGE]
+{PLAYER} received the {STR_VAR_1}!",ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากคุณพ่อมาเยอะเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่มีสายเลือด\nของคุณพ่ออยู่ในตัว!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+dlg_a85b0bd843afd737,18,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,2,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,698,LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon,"PROF. BIRCH: While you're at it, why not\ngive a nickname to that {STR_VAR_1}?$","PROF. BIRCH: While you're at it, why not
+give a nickname to that {STR_VAR_1}?",ศ.เบิร์ช: ไหน ๆ แล้ว จะไม่ลอง\nตั้งชื่อเล่นให้ {STR_VAR_1} ตัวนั้นหน่อยหรือ?$,draft_review,\n | {STR_VAR_1},{STR_VAR_1},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+dlg_2f2b9342597fd41c,19,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,702,LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival,"PROF. BIRCH: If you work at POKéMON\nand gain experience, I think you'll make\lan extremely good TRAINER.\pMy kid, {RIVAL}, is also studying\nPOKéMON while helping me out.\p{PLAYER}{KUN}, don't you think it might be\na good idea to go see {RIVAL}?$","PROF. BIRCH: If you work at POKéMON
+and gain experience, I think you'll make
+an extremely good TRAINER.
+[PAGE]
+My kid, {RIVAL}, is also studying
+POKéMON while helping me out.
+[PAGE]
+{PLAYER}{KUN}, don't you think it might be
+a good idea to go see {RIVAL}?",ศ.เบิร์ช: ถ้าเธอฝึกฝนโปเกมอน\nและสั่งสมประสบการณ์ ผมว่าเธอจะเป็น\lเทรนเนอร์ที่เก่งกาจมากแน่ ๆ\p{RIVAL} ลูกของผมก็กำลังศึกษา\nโปเกมอนและคอยช่วยงานผมอยู่\p{PLAYER}{KUN} ลองไปหา\n{RIVAL} ดูก็ดีนะ ว่าไหม?$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,high,ok,ok,LINEBREAK_ADJUSTED

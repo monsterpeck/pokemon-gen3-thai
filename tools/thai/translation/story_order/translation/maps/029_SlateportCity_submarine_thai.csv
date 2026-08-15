@@ -1,0 +1,66 @@
+﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
+dlg_4eda68ad2ec20a56,176,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,1,,SlateportCity_EventScript_OldWomanSternInterview,data/maps/SlateportCity/scripts.inc,1106,SlateportCity_Text_CaptSternBeingInterviewed,I was hoping that it was a famous star\nso I could get an autograph.\pBut who's that being interviewed?\nIsn't that CAPT. STERN?$,"I was hoping that it was a famous star
+so I could get an autograph.
+[PAGE]
+But who's that being interviewed?
+Isn't that CAPT. STERN?",ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันสเติร์นไม่ใช่หรือ?$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_7f0709929860c17b,177,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,2,,SlateportCity_EventScript_RichBoySternInterview,data/maps/SlateportCity/scripts.inc,1118,SlateportCity_Text_SternSaysDiscoveredSomething,CAPT. STERN says they discovered\nsomething at the bottom of the sea.\pI wonder what it is?\nWhat could it be?$,"CAPT. STERN says they discovered
+something at the bottom of the sea.
+[PAGE]
+I wonder what it is?
+What could it be?",กัปตันสเติร์นบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$,draft_review,\n | \p | \n,,high,high,medium,ok,ok,
+dlg_29e6bfe52cbe76dc,178,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,3,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1145,SlateportCity_Text_SternMoveAheadWithExploration,"CAPT. STERN: Yes, indeed. We intend to\nmove ahead with our exploration.$","CAPT. STERN: Yes, indeed. We intend to
+move ahead with our exploration.",กัปตันสเติร์น: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$,draft_review,\n,,high,high,high,ok,ok,
+dlg_a24a9e2b5d3b180d,179,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,4,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1156,SlateportCity_Text_SternWhewFirstInterview,CAPT. STERN: Whew…\pThat was my first time to be filmed for\nTV. That was nerve-wracking.$,"CAPT. STERN: Whew…
+[PAGE]
+That was my first time to be filmed for
+TV. That was nerve-wracking.",กัปตันสเติร์น: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_f70b830d8ec236fd,180,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,5,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1161,SlateportCity_Text_OhPlayerWeMadeDiscovery,Oh! {PLAYER}{KUN}!\nYou're looking great!\pWe made a huge discovery on our last\nseafloor exploration.\pWe found an underwater cavern on\nROUTE 128.\pWe think it's the habitat of a POKéMON\nthat's said to have been long extinct.$,"Oh! {PLAYER}{KUN}!
+You're looking great!
+[PAGE]
+We made a huge discovery on our last
+seafloor exploration.
+[PAGE]
+We found an underwater cavern on
+ROUTE 128.
+[PAGE]
+We think it's the habitat of a POKéMON
+that's said to have been long extinct.",โอ้! {PLAYER}{KUN}!\nดูแข็งแรงดีนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$,draft_review,{PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_line,
+dlg_ac6bacd443ddc584,181,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,6,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1171,SlateportCity_Text_AquaWillAssumeControlOfSubmarine,"Fufufu…\nCAPT. STERN, I presume.\pWe of TEAM AQUA will assume\ncontrol of your submarine!\pYour objections are meaningless!\nWe expect your total cooperation!\pFufufu…\nJust watch and learn what TEAM\lAQUA has planned!$","Fufufu…
+CAPT. STERN, I presume.
+[PAGE]
+We of TEAM AQUA will assume
+control of your submarine!
+[PAGE]
+Your objections are meaningless!
+We expect your total cooperation!
+[PAGE]
+Fufufu…
+Just watch and learn what TEAM
+AQUA has planned!",หึ ๆ ๆ…\nกัปตันสเติร์นสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nเราหวังว่าแกจะให้ความร่วมมือเต็มที่!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,medium,ok,ok,
+dlg_0b38356a9d2a5891,182,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,7,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1182,SlateportCity_Text_SternWhatWasAllThat,CAPT. STERN: What was that all about?\pIt sounded like someone using\na megaphone…\pWhere did it come from?$,"CAPT. STERN: What was that all about?
+[PAGE]
+It sounded like someone using
+a megaphone…
+[PAGE]
+Where did it come from?",กัปตันสเติร์น: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+dlg_b97c111ae0282f20,183,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,8,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1188,SlateportCity_Text_FromHarborTryingToTakeSub,It's from the HARBOR!\pThe submarine!\nThey're trying to take it!$,"It's from the HARBOR!
+[PAGE]
+The submarine!
+They're trying to take it!",เสียงมาจากท่าเรือ!\pเรือดำน้ำ!\nพวกมันกำลังจะขโมยไป!$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_5d595593ae009b8a,184,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,9,,SlateportCity_EventScript_CaptStern,data/maps/SlateportCity/scripts.inc,1193,SlateportCity_Text_PleaseComeWithMe,"{PLAYER}{KUN}!\nPlease, come with me!$","{PLAYER}{KUN}!
+Please, come with me!",{PLAYER}{KUN}!\nมากับผมเร็ว!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+dlg_40ef2cebfda60ee7,185,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,10,,SlateportCity_Harbor_EventScript_CaptStern,data/maps/SlateportCity_Harbor/scripts.inc,442,SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum,CAPT. STERN: Those thugs…\pThey're the same lot who tried to rob\nthe DEVON GOODS at the MUSEUM.$,"CAPT. STERN: Those thugs…
+[PAGE]
+They're the same lot who tried to rob
+the DEVON GOODS at the MUSEUM.",กัปตันสเติร์น: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$,draft_review,\p | \n,,high,high,high,ok,ok,
+dlg_85246ab6bfa6b21d,186,09,hideouts,Orbs and Hideouts,ลูกแก้วและฐานลับ,31,submarine,Slateport submarine,เรือดำน้ำแห่งไคไน,31,SlateportCity,submarine,SlateportCity,11,,SlateportCity_Harbor_EventScript_WhyStealSubmarine,data/maps/SlateportCity_Harbor/scripts.inc,458,SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine,"CAPT. STERN: Why…\pWhy would TEAM AQUA steal my\nSUBMARINE EXPLORER 1?\pThey can't be after the slumbering\nPOKéMON at the bottom of the sea…\pBut even if I were to chase them,\nI don't stand a chance against them…$","CAPT. STERN: Why…
+[PAGE]
+Why would TEAM AQUA steal my
+SUBMARINE EXPLORER 1?
+[PAGE]
+They can't be after the slumbering
+POKéMON at the bottom of the sea…
+[PAGE]
+But even if I were to chase them,
+I don't stand a chance against them…",กัปตันสเติร์น: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$,draft_review,\p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,

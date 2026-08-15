@@ -1,6 +1,6 @@
 ﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,scope_evidence,notes
 dlg_08674d7717f93db0,68,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,14,rusturf,Rusturf Tunnel,,14,RusturfTunnel,rusturf,RusturfTunnel,1,,RusturfTunnel_EventScript_AquaGruntBackUp,data/maps/RusturfTunnel/scripts.inc,419,RusturfTunnel_Text_ComeAndGetSome,"What, are you coming?\nCome and get some, then!$","What, are you coming?
-Come and get some, then!",,untranslated,\nC,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Come and get some, then!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_fac0960bd1369f1f,69,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,14,rusturf,Rusturf Tunnel,,14,RusturfTunnel,rusturf,RusturfTunnel,2,,RusturfTunnel_EventScript_Grunt,data/maps/RusturfTunnel/scripts.inc,426,RusturfTunnel_Text_GruntIntro,"Grah, keelhaul it all!\pThat hostage POKéMON turned out to\nbe worthless!\pAnd to think I made a getaway…\nIn this tunnel to nowhere!\pHey! You!\nSo you want to battle me?$","Grah, keelhaul it all!
 [PAGE]
 That hostage POKéMON turned out to
@@ -10,7 +10,7 @@ And to think I made a getaway…
 In this tunnel to nowhere!
 [PAGE]
 Hey! You!
-So you want to battle me?",,untranslated,\p | \nbe | \pA | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+So you want to battle me?",,untranslated,\p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_d362788277a67aac,70,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,14,rusturf,Rusturf Tunnel,,14,RusturfTunnel,rusturf,RusturfTunnel,3,,RusturfTunnel_EventScript_Grunt,data/maps/RusturfTunnel/scripts.inc,439,RusturfTunnel_Text_GruntTakePackage,"This is plain not right…\pThe BOSS told me this would be a\nslick-and-easy job to pull.\pAll I had to do was steal some package\nfrom DEVON.\pTch!\nYou want it back that badly, take it!$","This is plain not right…
 [PAGE]
 The BOSS told me this would be a
@@ -20,9 +20,9 @@ All I had to do was steal some package
 from DEVON.
 [PAGE]
 Tch!
-You want it back that badly, take it!",,untranslated,\p | \n | \pA | \nf | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+You want it back that badly, take it!",,untranslated,\p | \n | \p | \n | \p | \n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_2a1b92399c937260,71,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,14,rusturf,Rusturf Tunnel,,14,RusturfTunnel,rusturf,RusturfTunnel,4,,RusturfTunnel_EventScript_Grunt,data/maps/RusturfTunnel/scripts.inc,448,RusturfTunnel_Text_PeekoGladToSeeYouSafe,PEEKO!\nAm I glad to see you're safe!$,"PEEKO!
-Am I glad to see you're safe!",,untranslated,\nA,,high,high,Resolved from a checklist event seed through direct or chained script references.,
+Am I glad to see you're safe!",,untranslated,\n,,high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6917422c3af8974f,72,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,14,rusturf,Rusturf Tunnel,,14,RusturfTunnel,rusturf,RusturfTunnel,5,,RusturfTunnel_EventScript_Grunt,data/maps/RusturfTunnel/scripts.inc,452,RusturfTunnel_Text_ThankYouLetsGoHomePeeko,"PEEKO owes her life to you!\pThey call me MR. BRINEY.\nAnd, you are?\p… … … … … … … …\n… … … … … … … …\pAh, so you are {PLAYER}{KUN}!\nI sincerely thank you!\pNow, if there's anything that troubles\nyou, don't hesitate to tell me!\pYou can usually find me in my cottage\nby the sea near PETALBURG WOODS.\pCome, PEEKO, we should make our way\nhome.\pPEEKO: Pihyoh!$","PEEKO owes her life to you!
 [PAGE]
 They call me MR. BRINEY.
@@ -43,4 +43,4 @@ by the sea near PETALBURG WOODS.
 Come, PEEKO, we should make our way
 home.
 [PAGE]
-PEEKO: Pihyoh!",,untranslated,\p | \nA | \p | \n | \pA | {PLAYER} | {KUN} | \n | \p | \n | \p | \nb | \pC | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+PEEKO: Pihyoh!",,untranslated,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,

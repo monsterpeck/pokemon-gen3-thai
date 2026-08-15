@@ -17,7 +17,7 @@ Oh, yes. As thanks for rescuing me,
 I'd like you to have the POKéMON you
 used earlier.
 [PAGE]
-{PLAYER} received the {STR_VAR_1}!",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \pB | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
+{PLAYER} received the {STR_VAR_1}!",,untranslated,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_a85b0bd843afd737,18,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,2,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,698,LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon,"PROF. BIRCH: While you're at it, why not\ngive a nickname to that {STR_VAR_1}?$","PROF. BIRCH: While you're at it, why not
 give a nickname to that {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_2f2b9342597fd41c,19,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,702,LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival,"PROF. BIRCH: If you work at POKéMON\nand gain experience, I think you'll make\lan extremely good TRAINER.\pMy kid, {RIVAL}, is also studying\nPOKéMON while helping me out.\p{PLAYER}{KUN}, don't you think it might be\na good idea to go see {RIVAL}?$","PROF. BIRCH: If you work at POKéMON
@@ -28,4 +28,4 @@ My kid, {RIVAL}, is also studying
 POKéMON while helping me out.
 [PAGE]
 {PLAYER}{KUN}, don't you think it might be
-a good idea to go see {RIVAL}?",,untranslated,\na | \la | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \na | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,
+a good idea to go see {RIVAL}?",,untranslated,\n | \l | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,Resolved from a checklist event seed through direct or chained script references.,

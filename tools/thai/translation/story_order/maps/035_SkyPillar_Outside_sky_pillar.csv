@@ -28,5 +28,5 @@ I'm worried about SOOTOPOLIS.
 I've got to go back.
 [PAGE]
 Everything is in your hands now.
-Don't fail us!",,untranslated,\p | \ne | \p | {PLAYER} | {KUN} | \p | \nf | \p | \n | \pE | \nD,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
+Don't fail us!",,untranslated,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,Resolved from a checklist event seed through direct or chained script references.,
 dlg_6b211e62d63b8b92,233,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,5,,SkyPillar_Top_EventScript_AwakenRayquaza,data/maps/SkyPillar_Top/scripts.inc,179,SkyPillar_Top_Text_RayquazaFlewOff,The awakened RAYQUAZA flew off…$,The awakened RAYQUAZA flew off…,,untranslated,,,high,high,Resolved from a checklist event seed through direct or chained script references.,
