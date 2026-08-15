@@ -1,0 +1,13 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0021,sText_PlayerWhiteout2,src/battle_message.c,{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS},{B_PLAYER_NAME} หมดสติ!{PAUSE_UNTIL_PRESS},1,1,,46,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0208,sText_123Poof,src/battle_message.c,"{PAUSE 32}1, {PAUSE 15}2, and{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Poof!\p","{PAUSE 32}1, {PAUSE 15}2, แล้วก็{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}ปุฟ!\p",1,1,,140,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0312,sText_ItemsCantBeUsedNow,src/battle_message.c,Items can't be used now.{PAUSE 64},ตอนนี้ใช้ไอเทมไม่ได้.{PAUSE 64},1,1,,105,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0374,sText_WildPkmnAppearedPause,src/battle_message.c,Wild {B_OPPONENT_MON1_NAME} appeared!{PAUSE 127},โปเกมอนป่า {B_OPPONENT_MON1_NAME} ปรากฏตัว!{PAUSE 127},1,1,,111,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0403,sText_WildFled,src/battle_message.c,{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} fled!,{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} หนีไปแล้ว!,1,1,,59,MEDIUM,มี control code,src/battle_message.c,{},pass,pending
+SM0410,sText_PlayerLostAgainstLinkTrainer,src/battle_message.c,"Player lost against
+{B_LINK_OPPONENT1_NAME}!","ผู้เล่นพ่ายแพ้ให้
+{B_LINK_OPPONENT1_NAME}!",1,1,,94,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0411,sText_PlayerBattledToDrawLinkTrainer,src/battle_message.c,"Player battled to a draw against
+{B_LINK_OPPONENT1_NAME}!","ผู้เล่นเสมอกับ
+{B_LINK_OPPONENT1_NAME}!",1,1,,84,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0413,sText_ApostropheS,src/battle_message.c,'s,'s,1,1,,16,MEDIUM,ใช้หลายพื้นที่ UI; บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending

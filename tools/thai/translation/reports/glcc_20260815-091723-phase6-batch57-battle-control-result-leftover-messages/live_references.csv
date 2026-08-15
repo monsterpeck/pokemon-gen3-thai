@@ -1,0 +1,9 @@
+﻿symbol,reference
+sText_PlayerWhiteout2,"src/battle_message.c:539:    [STRINGID_PLAYERWHITEOUT2 - BATTLESTRINGS_TABLE_START] = sText_PlayerWhiteout2,"
+sText_123Poof,"src/battle_message.c:726:    [STRINGID_123POOF - BATTLESTRINGS_TABLE_START] = sText_123Poof,"
+sText_ItemsCantBeUsedNow,"src/battle_message.c:830:    [STRINGID_ITEMSCANTBEUSEDNOW - BATTLESTRINGS_TABLE_START] = sText_ItemsCantBeUsedNow,"
+sText_WildPkmnAppearedPause,src/battle_message.c:2029:                stringPtr = sText_WildPkmnAppearedPause;
+sText_WildFled,src/battle_message.c:2178:                stringPtr = sText_WildFled;
+sText_PlayerLostAgainstLinkTrainer,src/battle_message.c:2226:                    stringPtr = sText_PlayerLostAgainstLinkTrainer;
+sText_PlayerBattledToDrawLinkTrainer,src/battle_message.c:2229:                    stringPtr = sText_PlayerBattledToDrawLinkTrainer;
+sText_ApostropheS,"src/battle_message.c:2900:            StringCopy(textBuff, sText_ApostropheS); // 's"
