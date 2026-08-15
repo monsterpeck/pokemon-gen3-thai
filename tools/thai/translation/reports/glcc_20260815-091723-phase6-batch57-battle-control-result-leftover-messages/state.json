@@ -1,10 +1,10 @@
 {
   "batch_id": "20260815-091723-phase6-batch57-battle-control-result-leftover-messages",
   "locked_head": "3d6f393fa9e394bd85c42df31269d36d3c73aef6",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 8,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 408,
     "pending": 10,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "614d1313c3a60c72e89407a05ff37c516d25b67b50011b3b91207a0aafd0237b",
-  "normal_rom_sha256": "614d1313c3a60c72e89407a05ff37c516d25b67b50011b3b91207a0aafd0237b"
+  "normal_rom_sha256": "614d1313c3a60c72e89407a05ff37c516d25b67b50011b3b91207a0aafd0237b",
+  "qa_note": "Batch 57 QA Gallery reviewed: 8/8 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
