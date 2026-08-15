@@ -626,7 +626,7 @@ extern u16 gBattle_WIN1H;
 extern u16 gBattle_WIN1V;
 extern u8 gDisplayedStringBattle[300];
 extern u8 gBattleTextBuff1[TEXT_BUFF_ARRAY_COUNT];
-extern u8 gBattleTextBuff2[TEXT_BUFF_ARRAY_COUNT];
+extern u8 gBattleTextBuff2[256];
 extern u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT];
 extern u32 gBattleTypeFlags;
 extern u8 gBattleEnvironment;
