@@ -1105,10 +1105,7 @@ SlateportCity_Text_BattleTentBuiltRecently:
 	.string "for the BATTLE TENT!$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
-	.string "I was hoping that it was a famous star\n"
-	.string "so I could get an autograph.\p"
-	.string "But who's that being interviewed?\n"
-	.string "Isn't that CAPT. STERN?$"
+.string "ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันคุสโนกิไม่ใช่หรือ?$"
 
 SlateportCity_Text_InterviewerSoCool:
 	.string "That lady interviewer is so cool\n"
@@ -1117,10 +1114,7 @@ SlateportCity_Text_InterviewerSoCool:
 	.string "an international journalist!$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
-	.string "CAPT. STERN says they discovered\n"
-	.string "something at the bottom of the sea.\p"
-	.string "I wonder what it is?\n"
-	.string "What could it be?$"
+.string "กัปตันคุสโนกิบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
 	.string "What's going on here?\p"
@@ -1144,8 +1138,7 @@ SlateportCity_Text_MostInvaluableExperience:
 	.string "invaluable experience…$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
-	.string "CAPT. STERN: Yes, indeed. We intend to\n"
-	.string "move ahead with our exploration.$"
+.string "กัปตันคุสโนกิ: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
 	.string "GABBY: That's wonderful, CAPT. STERN!\n"
@@ -1155,45 +1148,22 @@ SlateportCity_Text_GabbyWonderfulThanksForInterview:
 	.string "with news of more discoveries!$"
 
 SlateportCity_Text_SternWhewFirstInterview:
-	.string "CAPT. STERN: Whew…\p"
-	.string "That was my first time to be filmed for\n"
-	.string "TV. That was nerve-wracking.$"
+.string "กัปตันคุสโนกิ: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
-	.string "Oh! {PLAYER}{KUN}!\n"
-	.string "You're looking great!\p"
-	.string "We made a huge discovery on our last\n"
-	.string "seafloor exploration.\p"
-	.string "We found an underwater cavern on\n"
-	.string "ROUTE 128.\p"
-	.string "We think it's the habitat of a POKéMON\n"
-	.string "that's said to have been long extinct.$"
+.string "โอ้! {PLAYER}{KUN}!\nดูดีมากเลยนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\n"
-	.string "CAPT. STERN, I presume.\p"
-	.string "We of TEAM AQUA will assume\n"
-	.string "control of your submarine!\p"
-	.string "Your objections are meaningless!\n"
-	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
-	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!$"
+.string "หึ ๆ ๆ…\nกัปตันคุสโนกิสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nให้ความร่วมมือแต่โดยดีซะ!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
-	.string "CAPT. STERN: What was that all about?\p"
-	.string "It sounded like someone using\n"
-	.string "a megaphone…\p"
-	.string "Where did it come from?$"
+.string "กัปตันคุสโนกิ: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
-	.string "It's from the HARBOR!\p"
-	.string "The submarine!\n"
-	.string "They're trying to take it!$"
+.string "เสียงมาจากท่าเรือ!\pเรือดำน้ำ!\nพวกมันกำลังจะขโมยไป!$"
 
 SlateportCity_Text_PleaseComeWithMe:
-	.string "{PLAYER}{KUN}!\n"
-	.string "Please, come with me!$"
+.string "{PLAYER}{KUN}!\nมากับผมเร็ว!$"
 
 SlateportCity_Text_BattleTentSign:
 	.string "BATTLE TENT SLATEPORT SITE\n"

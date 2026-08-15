@@ -352,30 +352,20 @@ MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Take this BADGE!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-	.string "{PLAYER} received the DYNAMO BADGE\n"
-	.string "from WATTSON.$"
+.string "{PLAYER} ได้รับไดนาโมแบดจ์\nจากเท็ตเซ็น$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
-	.string "With the DYNAMO BADGE, POKéMON can\n"
-	.string "use ROCK SMASH out of battle.\p"
-	.string "And, it will make your POKéMON a little\n"
-	.string "bit faster, too.\p"
-	.string "Hmm…\n"
-	.string "You should take this, too!$"
+.string "เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้อิวะคุดากินอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$"
 
 MauvilleCity_Gym_Text_ExplainShockWave:
-	.string "That TM34 there contains SHOCK WAVE.\p"
-	.string "It's a trustworthy move that never\n"
-	.string "misses! You can count on it!\p"
-	.string "… … … … … …$"
+.string "TM34 นั่นบรรจุท่าเด็งเงกิฮะ\pเป็นท่าที่ไม่มีวันพลาดเป้า!\nวางใจได้เลย!\p… … … … … …$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:
 	.string "Registered GYM LEADER WATTSON\n"
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
-	.string "I swell with optimism, seeing a promising\n"
-	.string "young TRAINER like you!$"
+.string "พอเห็นเทรนเนอร์รุ่นใหม่อนาคตไกล\nอย่างเธอแล้ว ฉันก็ชื่นใจจริง ๆ!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Wahahahah!\n"

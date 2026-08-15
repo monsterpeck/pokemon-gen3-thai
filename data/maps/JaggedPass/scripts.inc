@@ -221,10 +221,7 @@ JaggedPass_Text_EthanPostRematch:
 	.string "in MAUVILLE CITY…$"
 
 JaggedPass_Text_GruntIntro:
-	.string "Wah!\n"
-	.string "What are you doing here?\p"
-	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+.string "ว้าก!\nแกมาทำอะไรที่นี่?\pฉันมาทำอะไรในที่แบบนี้น่ะเหรอ?\pไม่ใช่ธุระอะไรของแก!$"
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
@@ -238,8 +235,7 @@ JaggedPass_Text_GoWhereverYouWant:
 	.string "Go wherever you want!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
-	.string "Oh! This boulder is shaking in response\n"
-	.string "to the MAGMA EMBLEM!$"
+.string "โอ้! ก้อนหินนี้กำลังสั่นตอบสนอง\nต่อตราสัญลักษณ์แมกมา!$"
 
 JaggedPass_Text_JulioIntro:
 	.string "Aiyeeh! It's awfully scary to shoot\n"

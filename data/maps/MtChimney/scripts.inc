@@ -527,54 +527,17 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
-	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
-	.string "activity will instantly intensify…\p"
-	.string "Its energy will grow deep inside\n"
-	.string "the crater and…\l"
-	.string "Fufufu…$"
+.string "พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nพลังปะทุของภูเขาเอ็นโทสึ\lจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
-	.string "Who are you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
-	.string "who's been meddling in TEAM AQUA's\l"
-	.string "affairs.\p"
-	.string "It must be you he meant.\p"
-	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, TEAM MAGMA?\p"
-	.string "Now you listen.\n"
-	.string "Long ago, living things used the\l"
-	.string "land to live and grow.\p"
-	.string "That is why land is all important!\n"
-	.string "It is the cradle of all!\p"
-	.string "That is why TEAM MAGMA is dedicated\n"
-	.string "to the expansion of the land mass.\p"
-	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
-	.string "And for that, we need the power of\n"
-	.string "what sleeps within this mountain…\p"
-	.string "Oh! There was no need for you to\n"
-	.string "learn that much.\p"
-	.string "But, no matter!\n"
-	.string "I'll teach you the consequences of\l"
-	.string "meddling in our grand design!$"
+.string "มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอกิริบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้า\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$"
 
 MtChimney_Text_MaxieDefeat:
 	.string "What?!\p"
 	.string "I, MAXIE, was caught off guard?!$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
-	.string "I will back off this time.\p"
-	.string "But don't think that this is the last\n"
-	.string "you've seen of TEAM MAGMA.\p"
-	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+.string "มัตสึบูสะ: พอแค่นี้ก่อน\nคราวนี้ฉันจะถอยไป\pแต่อย่าคิดว่านี่จะเป็นครั้งสุดท้าย\nที่แกได้เจอกับทีมแมกมา\pหึ ๆ ๆ…\pถึงไม่มีอุกกาบาต ถ้าเราได้\nลูกแก้วนั่นมา… หึ ๆ ๆ…$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
@@ -651,33 +614,13 @@ MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "ARCHIE: Grr, {PLAYER}!\n"
-	.string "I should've guessed you'd show up!\p"
-	.string "See for yourself what the fanatics\n"
-	.string "of TEAM MAGMA are up to!\p"
-	.string "They're trying to inject the stolen\n"
-	.string "METEORITE's power into the volcano!\p"
-	.string "Doing something like that will cause\n"
-	.string "the volcano's eruption!$"
+.string "อาโอกิริ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันกำลังส่งพลังของ\nอุกกาบาตที่ขโมยมาเข้าสู่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "ARCHIE: Grrr…\p"
-	.string "I want to stop that MAXIE,\n"
-	.string "but I can't!\p"
-	.string "Not when I have my hands full battling\n"
-	.string "three opponents at once!$"
+.string "อาโอกิริ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "ARCHIE: {PLAYER}!\n"
-	.string "Thank you!\p"
-	.string "With your help, we thwarted TEAM\n"
-	.string "MAGMA's destructive plan!\p"
-	.string "But… You…\n"
-	.string "Whose side are you on?\p"
-	.string "Ah, it doesn't matter.\p"
-	.string "We will remain vigilant and keep up\n"
-	.string "our pursuit of TEAM MAGMA.\p"
-	.string "{PLAYER}, we shall meet again!$"
+.string "อาโอกิริ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$"
 
 MtChimney_Text_MagmaOutnumbersUs:
 	.string "Darn… TEAM MAGMA outnumbers us!\n"
@@ -723,8 +666,7 @@ MtChimney_Text_RemoveTheMeteorite:
 	.string "Do you want to remove the METEORITE?$"
 
 MtChimney_Text_PlayerRemovedMeteorite:
-	.string "{PLAYER} removed the METEORITE from\n"
-	.string "the mysterious machine.$"
+.string "{PLAYER} นำอุกกาบาตออกจาก\nเครื่องจักรลึกลับแล้ว$"
 
 MtChimney_Text_PlayerLeftMeteorite:
 	.string "{PLAYER} left the METEORITE where\n"

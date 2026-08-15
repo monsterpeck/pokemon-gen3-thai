@@ -196,48 +196,19 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 	end
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
-	.string "I'm MR. STONE, the PRESIDENT of\n"
-	.string "the DEVON CORPORATION.\p"
-	.string "I'd just got word about you!\p"
-	.string "You saved our staff not just once,\n"
-	.string "but twice!\p"
-	.string "I have a favor to ask of an amazing\n"
-	.string "person like you.\p"
-	.string "I understand that you're delivering\n"
-	.string "a package to SLATEPORT's SHIPYARD.\p"
-	.string "Well, on the way, could you stop off in\n"
-	.string "DEWFORD TOWN?\p"
-	.string "I was hoping that you'd deliver a\n"
-	.string "LETTER to STEVEN in DEWFORD.$"
+.string "ผมคือประธานสึวาบุกิ\nแห่งบริษัทเดวอน\pผมเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pผมมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pผมอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
-	.string "MR. STONE: Now, you should know that\n"
-	.string "I am a great PRESIDENT.\p"
-	.string "So, I'd never be so cheap as to ask\n"
-	.string "a favor for nothing in return.\p"
-	.string "That's why I want you to have this!$"
+.string "ประธานสึวาบุกิ: คุณควรรู้ไว้นะว่า\nผมเป็นประธานผู้ยิ่งใหญ่\pผมจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ผมอยากมอบนี่ให้คุณ!$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
-	.string "{PLAYER} received a POKéNAV.$"
+.string "{PLAYER} ได้รับโปเกนาวี$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-	.string "MR. STONE: That device…\p"
-	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
-	.string "for short.\p"
-	.string "It's an indispensable tool for any\n"
-	.string "TRAINER on an adventure.\p"
-	.string "It has a map of the HOENN region.\p"
-	.string "You can check the locations of\n"
-	.string "DEWFORD and SLATEPORT easily!\p"
-	.string "By the way, I've heard that sinister\n"
-	.string "criminals--MAGMA and AQUA, I believe--\l"
-	.string "have been making trouble far and wide.\p"
-	.string "I think it would be best if you rested\n"
-	.string "up before you go on your way.$"
+.string "ประธานสึวาบุกิ: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ผมได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
-	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
-	.string "go with caution and care!$"
+.string "ประธานสึวาบุกิ: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$"
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
 	.string "MR. STONE: I'm counting on you!$"
@@ -266,30 +237,13 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "TRAINERS in the POKéMON LEAGUE?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-	.string "This is the DEVON CORPORATION's\n"
-	.string "third floor.\p"
-	.string "Our PRESIDENT's OFFICE is on\n"
-	.string "this floor.\p"
-	.string "Anyway, I can't tell you how much I'm\n"
-	.string "grateful for what you've done.\p"
-	.string "Um… By the way, that parcel\n"
-	.string "you got back for us…\p"
-	.string "Could I get you to deliver that to\n"
-	.string "the SHIPYARD in SLATEPORT?\p"
-	.string "It would be awful if those robbers\n"
-	.string "tried to take it again.\p"
-	.string "Uh… Hehehe, so, uh, could I count\n"
-	.string "on you to do that for me?\p"
-	.string "Oh, that's right.\n"
-	.string "Could you wait here a second?$"
+.string "ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณคุณ\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
-	.string "Our PRESIDENT would like to have\n"
-	.string "a word with you.\p"
-	.string "Please come with me.$"
+.string "ท่านประธานอยาก\nคุยกับคุณหน่อย\pเชิญตามผมมาครับ$"
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
-	.string "Please, go ahead.$"
+.string "เชิญเข้าไปได้เลยครับ$"
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
 	.string "If you visit the SHIPYARD in SLATEPORT,\n"

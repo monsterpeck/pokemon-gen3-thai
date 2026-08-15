@@ -905,52 +905,22 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+.string "แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$"
 
 LittlerootTown_Text_WaitPlayer:
 	.string "MOM: Wait, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+.string "แม่: {PLAYER}! {PLAYER}! ลูกไป\nแนะนำตัวกับ ศ.เบิร์ชแล้วหรือยัง?\pว้าย! โปเกมอนน่ารักจัง!\nได้มาจาก ศ.เบิร์ชสินะ ดีจริง ๆ!\pสมเป็นลูกของพ่อจริง ๆ\nลูกกับโปเกมอนดูเข้ากันดีนะ!\pนี่จ้ะ! ถ้าจะออกไปผจญภัย\nก็สวมรองเท้าวิ่งคู่นี้นะ\pแล้วลูกจะก้าวฉับไวขึ้น!$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
+.string "{PLAYER} เปลี่ยนเป็น\nรองเท้าวิ่งแล้ว$"
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
+.string "แม่: {PLAYER} รองเท้าคู่นั้น\nมีคู่มือมาด้วยนะ\p“ขณะสวมรองเท้าวิ่ง ให้กดปุ่ม B\nเพื่อวิ่งด้วยความเร็วสูง!\p“สวมรองเท้าวิ่งแล้วออกไปโลดแล่น\nกลางแจ้งอันกว้างใหญ่!”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+.string "… … … … … … … …\n… … … … … … … …\pไม่นึกเลยว่าตอนนี้ลูกจะมี\nโปเกมอนเป็นของตัวเองแล้ว…\lพ่อของลูกต้องดีใจมากแน่ ๆ\p…แต่ระวังตัวด้วยนะ\nถ้ามีอะไรเกิดขึ้นก็กลับบ้านมาได้เสมอ\pเอาละ ไปให้เต็มที่เลยนะลูก!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "If you use a PC, you can store items\n"

@@ -197,31 +197,16 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "LEAGUE STONE BADGE.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+.string "{PLAYER} ได้รับสโตนแบดจ์\nจากสึสึจิ$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-	.string "The STONE BADGE heightens the ATTACK\n"
-	.string "power of your POKéMON.\p"
-	.string "It also enables them to use the HM move\n"
-	.string "CUT outside of battle.\p"
-	.string "Please take this with you, too.$"
+.string "สโตนแบดจ์จะเพิ่ม\nพลังโจมตีของโปเกมอนคุณ\pและทำให้โปเกมอนใช้ท่า HM คัต\nนอกการต่อสู้ได้ด้วย\pโปรดรับสิ่งนี้ไปด้วยค่ะ$"
 
 RustboroCity_Gym_Text_ExplainRockTomb:
-	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
-	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
-	.string "If you use a TM, it instantly teaches\n"
-	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
+.string "เครื่องเทคนิค TM39\nบรรจุท่ากังเซกิฟูจิ\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-	.string "Since you are so strong, you should\n"
-	.string "challenge other GYM LEADERS.\p"
-	.string "By battling many TRAINERS, you should\n"
-	.string "learn many things.$"
+.string "ในเมื่อคุณแข็งแกร่งถึงเพียงนี้\nก็ควรไปท้าสู้กับยิมลีดเดอร์คนอื่น\pการต่อสู้กับเทรนเนอร์มากมาย\nจะทำให้คุณได้เรียนรู้อีกหลายสิ่ง$"
 
 RustboroCity_Gym_Text_GymStatue:
 	.string "RUSTBORO CITY POKéMON GYM$"

@@ -268,97 +268,45 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-	.string "Yes? If you're looking for STERN,\n"
-	.string "that would be me.\p"
-	.string "Ah! Those must be the parts I ordered\n"
-	.string "from MR. STONE of DEVON.\p"
-	.string "Thank you! That's great!\n"
-	.string "We can prepare for our expedition now.$"
+.string "ครับ? ถ้าตามหากัปตันคุสโนกิ\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากประธานสึวาบุกิแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
-	.string "Hehehe, hold it!\n"
-	.string "We'll take those parts!$"
+.string "ฮี่ ๆ เดี๋ยวก่อน!\nชิ้นส่วนนั่นพวกเราขอละ!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
-	.string "CAPT. STERN: Wh-what?\n"
-	.string "Who are you people?$"
+.string "กัปตันคุสโนกิ: อะ-อะไรนะ?\nพวกแกเป็นใคร?$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're TEAM AQUA!\p"
-	.string "Our BOSS wants those parts!\n"
-	.string "Shut your yap and fork them over!$"
+.string "พวกเราคือทีมอควา!\pบอสของเราอยากได้ชิ้นส่วนนั่น!\nหุบปากแล้วส่งมาเดี๋ยวนี้!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
 	.string "Awaaaah!\n"
 	.string "A kid beat me!$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-	.string "Oh, man, what a disaster…\n"
-	.string "The BOSS is going to be furious…$"
+.string "โธ่เอ๊ย พังไม่เป็นท่า…\nบอสต้องโกรธจัดแน่…$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
-	.string "Humph, sniveling wimp!\n"
-	.string "Let me take care of this!$"
+.string "ฮึ เจ้าขี้แพ้ขี้แย!\nให้ฉันจัดการเอง!$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
 	.string "What?!\n"
 	.string "I lost, too!$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-	.string "Now what? If we don't get the parts,\n"
-	.string "we're in for it!\p"
-	.string "Arrgh, I didn't count on being meddled\n"
-	.string "with by some meddling kid!$"
+.string "เอาไงดี? ถ้าไม่ได้ชิ้นส่วนกลับไป\nพวกเราแย่แน่!\pกรอด ไม่คิดเลยว่าจะถูก\nเด็กจุ้นจ้านมาขวางงาน!$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-	.string "I came to see what was taking so\n"
-	.string "long to snatch some parts, and you\l"
-	.string "simps are held up by a mere child?$"
+.string "ฉันมาดูว่าทำไมแค่ชิงชิ้นส่วน\nถึงใช้เวลานานนัก แล้วพวกแก\lกลับติดแหง็กเพราะเด็กคนเดียวเรอะ?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "We are TEAM AQUA,\n"
-	.string "and we love the sea!\p"
-	.string "And I am TEAM AQUA's leader,\n"
-	.string "ARCHIE!\p"
-	.string "What makes you interfere with us?\p"
-	.string "…No! You can't be!\n"
-	.string "You're not one of TEAM MAGMA?\p"
-	.string "Wait, that can't be right.\n"
-	.string "You're not dressed for the part.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "POKéMON, people… All life depends on\n"
-	.string "the sea.\p"
-	.string "So, TEAM AQUA is dedicated to\n"
-	.string "the expansion of the sea.\p"
-	.string "Don't you agree? What we are doing\n"
-	.string "is a magnificent undertaking.\p"
-	.string "Ah, fine…\n"
-	.string "You're still too young to understand\l"
-	.string "our noble objective.\p"
-	.string "But, I warn you, don't even consider\n"
-	.string "interfering with our plans again.\p"
-	.string "The consequences will cost you\n"
-	.string "dearly!\p"
-	.string "And don't you forget it!$"
+.string "พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอกิริ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-	.string "CAPT. STERN: You're…\n"
-	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
-	.string "Anyway, that was a tense situation!\n"
-	.string "Thank you for saving us!\p"
-	.string "Oh, yes, I almost forgot that you\n"
-	.string "even brought the parts from DEVON!$"
+.string "กัปตันคุสโนกิ: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-	.string "CAPT. STERN: Whoops!\n"
-	.string "There's no time to lose!\p"
-	.string "We have to set out on our ocean-floor\n"
-	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
-	.string "to go!\p"
-	.string "Feel free to wander around and check\n"
-	.string "out our facilities, though.$"
+.string "กัปตันคุสโนกิ: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจก้นทะเล\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"

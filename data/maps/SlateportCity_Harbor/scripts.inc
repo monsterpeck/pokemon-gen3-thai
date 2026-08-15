@@ -441,9 +441,7 @@ SlateportCity_Harbor_Text_SubTooSmallForMe:
 	.string "any room for the CAPTAIN…$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
-	.string "CAPT. STERN: Those thugs…\p"
-	.string "They're the same lot who tried to rob\n"
-	.string "the DEVON GOODS at the MUSEUM.$"
+.string "กัปตันคุสโนกิ: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "ARCHIE: Oh?\n"
@@ -457,13 +455,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "Fwahahahaha…$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
-	.string "CAPT. STERN: Why…\p"
-	.string "Why would TEAM AQUA steal my\n"
-	.string "SUBMARINE EXPLORER 1?\p"
-	.string "They can't be after the slumbering\n"
-	.string "POKéMON at the bottom of the sea…\p"
-	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…$"
+.string "กัปตันคุสโนกิ: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "CAPT. STERN: Oh, {PLAYER}{KUN}…\p"

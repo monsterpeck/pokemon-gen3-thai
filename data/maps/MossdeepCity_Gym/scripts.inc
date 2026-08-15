@@ -566,35 +566,20 @@ MossdeepCity_Gym_Text_TateAndLizaDefeat:
 	.string "LIZA: So, in recognition, take this.$"
 
 MossdeepCity_Gym_Text_ReceivedMindBadge:
-	.string "{PLAYER} received the MIND BADGE\n"
-	.string "from TATE and LIZA.$"
+.string "{PLAYER} ได้รับมายด์แบดจ์\nจากฟูกับรัน$"
 
 MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis:
-	.string "TATE: The MIND BADGE enhances the\n"
-	.string "SP. ATK and SP. DEF of POKéMON.\p"
-	.string "LIZA: It also lets you use the HM move\n"
-	.string "DIVE outside of battle.\p"
-	.string "TATE: You should also take this, too.$"
+.string "ฟู: มายด์แบดจ์ช่วยเพิ่ม\nพลังโจมตีพิเศษและพลังป้องกันพิเศษของโปเกมอน\pรัน: และยังทำให้ใช้ท่า HM\nไดฟ์นอกการต่อสู้ได้\pฟู: รับสิ่งนี้ไปด้วยนะ$"
 
 MossdeepCity_Gym_Text_ExplainCalmMind:
-	.string "TATE: That TM04 contains…\n"
-	.string "LIZA: CALM MIND!\p"
-	.string "TATE: It raises SP. ATK and…\n"
-	.string "LIZA: It raises SP. DEF!\p"
-	.string "TATE: It's a move that's perfect…\n"
-	.string "LIZA: For PSYCHIC POKéMON!\p"
-	.string "… … … … … …$"
+.string "ฟู: TM04 บรรจุท่า…\nรัน: เมโซ!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:
 	.string "Registered GYM LEADERS TATE & LIZA\n"
 	.string "in the POKéNAV.$"
 
 MossdeepCity_Gym_Text_TateAndLizaPostBattle:
-	.string "TATE: Looks like the bond between you\n"
-	.string "and your POKéMON is far stronger than\l"
-	.string "the bond that we share as twins.\p"
-	.string "LIZA: You will become even stronger!\n"
-	.string "We've battled you, so we know.$"
+.string "ฟู: สายสัมพันธ์ระหว่างเธอกับโปเกมอน\nแข็งแกร่งกว่าสายสัมพันธ์ของ\lพวกเราฝาแฝดเสียอีก\pรัน: เธอจะแข็งแกร่งขึ้นอีกแน่นอน!\nเพราะได้สู้กัน เราจึงรู้$"
 
 MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons:
 	.string "TATE: Hehehe… Were you surprised?\p"

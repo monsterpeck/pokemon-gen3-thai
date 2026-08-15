@@ -360,8 +360,7 @@ MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets:
 	.string "rockets.$"
 
 MossdeepCity_SpaceCenter_2F_Text_WhyWouldMagmaStealRocketFuel:
-	.string "Why would TEAM MAGMA want to steal\n"
-	.string "our rocket fuel in the first place?$"
+.string "ว่าแต่ทำไมทีมแมกมาถึงอยาก\nขโมยเชื้อเพลิงจรวดของเรากัน?$"
 
 MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "If only I was a little younger, I would\n"
@@ -370,47 +369,37 @@ MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut:
 	.string "I can and will try!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MagmaCantGetAwayWithThis:
-	.string "If TEAM MAGMA takes the rocket fuel,\n"
-	.string "I won't be able to go to space!\p"
-	.string "They can't be allowed to get away\n"
-	.string "with such an outrage!$"
+.string "ถ้าทีมแมกมาเอาเชื้อเพลิงจรวดไป\nฉันก็ไปอวกาศไม่ได้สิ!\pปล่อยให้พวกมันก่อเรื่องเลวร้าย\nแบบนี้แล้วหนีไปไม่ได้!$"
 
 MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace:
 	.string "I wish ordinary people could go into\n"
 	.string "space one day…$"
 
 MossdeepCity_SpaceCenter_2F_Text_DoesMagmaWantToGoToSpace:
-	.string "TEAM MAGMA…\n"
-	.string "Do they want to go to space, too?$"
+.string "ทีมแมกมา…\nพวกนั้นก็อยากไปอวกาศหรือ?$"
 
 MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn:
-	.string "What's wrong with you?\p"
-	.string "You're outnumbered three to one,\n"
-	.string "but you still want to take us on?$"
+.string "เป็นอะไรของแก?\pถึงจะเสียเปรียบสามต่อหนึ่ง\nแต่ยังคิดจะสู้กับพวกเราอีกหรือ?$"
 
 MossdeepCity_SpaceCenter_2F_Text_GoodAnswer:
-	.string "Good answer!\n"
-	.string "That's what a smart person'll do!$"
+.string "ตอบได้ดี!\nคนฉลาดก็ต้องเลือกแบบนั้น!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro:
-	.string "A reckless go-getter, are you?\n"
-	.string "Okay, I'll go first!$"
+.string "ใจกล้าบ้าบิ่นสินะ?\nเอาล่ะ ฉันจะลุยก่อน!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat:
 	.string "I lost!\n"
 	.string "But!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro:
-	.string "It's too soon to be relieved!\n"
-	.string "I'm up next!$"
+.string "อย่าเพิ่งโล่งใจไป!\nคนต่อไปคือฉัน!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat:
 	.string "I lost, too!\n"
 	.string "But!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro:
-	.string "I bet you want to take a break.\n"
-	.string "But I'm not about to let you do that!$"
+.string "คงอยากพักสักหน่อยสินะ\nแต่ฉันไม่ยอมให้พักหรอก!$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat:
 	.string "We should've taken a break…\n"
@@ -436,24 +425,13 @@ MossdeepCity_SpaceCenter_2F_Text_WellTakeCareOfYou:
 	.string "we'll take care of you at the same time!$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
-	.string "MAXIE: Clear out of the way!\n"
-	.string "Don't you dare interfere!$"
+.string "มัตสึบูสะ: หลีกทางไป!\nอย่าบังอาจมาขวาง!$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
-	.string "STEVEN: TEAM MAGMA…\p"
-	.string "What's the point of stealing rocket\n"
-	.string "fuel?$"
+.string "ไดโกะ: ทีมแมกมา…\pขโมยเชื้อเพลิงจรวดไป\nเพื่ออะไรกัน?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
-	.string "MAXIE: Fufufu… Since you're so\n"
-	.string "curious, you deserve an explanation.\p"
-	.string "We're going to jettison the entire\n"
-	.string "load into MT. CHIMNEY!\p"
-	.string "With GROUDON gone, we have no need\n"
-	.string "for that slag heap of a mountain!\p"
-	.string "So we'll use the fuel's power to make\n"
-	.string "the volcano erupt!\p"
-	.string "It will be savage!$"
+.string "มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
 	.string "STEVEN: {PLAYER}{KUN}!\n"
@@ -473,32 +451,10 @@ MossdeepCity_SpaceCenter_Text_TabithaDefeat:
 	.string "I'm with our leader…$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided:
-	.string "MAXIE: We failed to make the volcano\n"
-	.string "erupt…\p"
-	.string "We failed to control GROUDON after\n"
-	.string "we had awoken it…\p"
-	.string "Is our goal to expand the land\n"
-	.string "misguided?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "If…\n"
-	.string "If we, TEAM MAGMA, are wrong…\l"
-	.string "… … … … … …\p"
-	.string "Then might TEAM AQUA's goal to expand\n"
-	.string "the sea also be equally misguided?$"
+.string "มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายในการขยายผืนดิน\nของเราจะผิดจริง ๆ?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$"
 
 MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
-	.string "MAXIE: All right…\n"
-	.string "We will give up on the fuel…\p"
-	.string "There appear to be more important\n"
-	.string "matters that I must examine…$"
+.string "มัตสึบูสะ: เอาเถอะ…\nเราจะเลิกยุ่งกับเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$"
 
 MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
-	.string "STEVEN: Whew, that was too tense.\n"
-	.string "{PLAYER}{KUN}, thank you.\p"
-	.string "I have something to give you as\n"
-	.string "thanks for your support.\p"
-	.string "Please come see me at home\n"
-	.string "after this.\p"
-	.string "Oh, yes, I don't live in RUSTBORO CITY.\n"
-	.string "I live right here on this island.$"
+.string "ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซึมิ\nแต่อยู่บนเกาะนี้เอง$"

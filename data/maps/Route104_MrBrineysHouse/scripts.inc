@@ -95,28 +95,13 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "MR. BRINEY: Hold on, lass!\n"
-	.string "Wait up, PEEKO!$"
+.string "คุณฮากิ: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? You're {PLAYER}{KUN}!\n"
-	.string "You saved my darling PEEKO!\l"
-	.string "We owe so much to you!\p"
-	.string "What's that?\n"
-	.string "You want to sail with me?\p"
-	.string "Hmhm…\p"
-	.string "You have a LETTER bound for DEWFORD\n"
-	.string "and a package for SLATEPORT, then?\p"
-	.string "Quite the busy life you must lead!\p"
-	.string "But, certainly, what you're asking is\n"
-	.string "no problem at all.\p"
-	.string "You've come to the right man!\n"
-	.string "We'll set sail for DEWFORD.$"
+.string "หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pหึหึ…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "MR. BRINEY: DEWFORD it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+.string "คุณฮากิ: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 	.string "MR. BRINEY: Is that so?\n"
@@ -125,22 +110,10 @@ Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a LETTER to DEWFORD\n"
-	.string "and a package to SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+.string "คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+.string "คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันคุสโนกิที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "MR. BRINEY: Ahoy!\n"

@@ -1579,14 +1579,7 @@ SootopolisCity_Text_GroudonPleaseStop:
 	.string "SOOTOPOLIS, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-	.string "MAXIE: So the super-ancient POKéMON\n"
-	.string "weren't only GROUDON and KYOGRE…\p"
-	.string "After all our fruitless scheming and\n"
-	.string "frantic efforts, that one POKéMON's\l"
-	.string "simple action puts everything right\l"
-	.string "again as if nothing had happened…\p"
-	.string "Fu…\n"
-	.string "Fuhahaha…$"
+.string "มัตสึบูสะ: โปเกมอนยุคดึกดำบรรพ์\nไม่ได้มีเพียงกราดอนกับไคโอกา…\pหลังแผนการไร้ผลและความพยายาม\nอย่างบ้าคลั่งทั้งหมดของเรา โปเกมอน\lเพียงตัวเดียวกลับแก้ไขทุกอย่าง\lราวกับไม่เคยเกิดอะไรขึ้น…\pหึ…\nฮ่า ๆ ๆ ๆ…$"
 
 SootopolisCity_Text_KyogreCalmDown:
 	.string "ARCHIE: KYOGRE! What's wrong?!\n"
@@ -1598,66 +1591,28 @@ SootopolisCity_Text_KyogreCalmDown:
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
-	.string "flew off to who knows where.\p"
-	.string "The weather in HOENN has returned\n"
-	.string "to its normal state…\p"
-	.string "Haha…\n"
-	.string "Hahaha…\p"
-	.string "Maybe what we were trying to do was\n"
-	.string "something small, even meaningless,\l"
-	.string "to POKéMON…$"
+.string "อาโอกิริ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$"
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
-	.string "STEVEN: Those POKéMON fighting…\n"
-	.string "GROUDON… And KYOGRE…\p"
-	.string "The two super-ancient POKéMON\n"
-	.string "were awakened from a long sleep…\p"
-	.string "And now they are smashing each other\n"
-	.string "with their uncontrollable energy…\p"
-	.string "…{PLAYER}{KUN}.\p"
-	.string "You being here now I'll take to mean\n"
-	.string "that you're prepared to become\l"
-	.string "involved in this crisis.\p"
-	.string "Well, then, there's someone that\n"
-	.string "I'd like you to meet.\p"
-	.string "Come with me, please.$"
+.string "ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$"
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
-	.string "STEVEN: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
-	.string "you think POKéMON are to be feared?\p"
-	.string "But that's not true.\n"
-	.string "POKéMON are really more…\p"
-	.string "…Why am I asking you this?\n"
-	.string "You already know.$"
+.string "ไดโกะ: ฟังนะ {PLAYER}{KUN}\pการได้เห็นกราดอนกับไคโอกา ทำให้\nเธอคิดว่าโปเกมอนน่ากลัวหรือเปล่า?\pแต่ไม่ใช่อย่างนั้น\nแท้จริงแล้วโปเกมอนนั้น…\p…ฉันถามเรื่องนี้ทำไมนะ?\nเธอรู้อยู่แล้วนี่นา$"
 
 SootopolisCity_Text_HereWereAreHelpWallace:
-	.string "STEVEN: Okay, here we are!\p"
-	.string "Inside here you'll find someone named\n"
-	.string "WALLACE.\p"
-	.string "I think you have what's needed to\n"
-	.string "help him…$"
+.string "ไดโกะ: เอาละ ถึงแล้ว!\pข้างในนี้มีคนชื่อ\nมิคุริอยู่\pฉันคิดว่าเธอมีสิ่งที่\nจำเป็นต้องใช้ช่วยเขา…$"
 
 SootopolisCity_Text_KnowWhatsNeededToHelpHim:
-	.string "STEVEN: I think you have what's\n"
-	.string "needed to help him…$"
+.string "ไดโกะ: ฉันคิดว่าเธอมีสิ่งที่\nจำเป็นต้องใช้ช่วยเขา…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "STEVEN: The SKY PILLAR…\p"
-	.string "I've never been there.\n"
-	.string "I wonder where it could be?$"
+.string "ไดโกะ: เสาหลักแห่งฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "STEVEN: So that's RAYQUAZA…\p"
-	.string "It's incredible how the two rampaging\n"
-	.string "POKéMON would flee from it in fear…$"
+.string "ไดโกะ: นั่นคือเร็คคูซา…\pเหลือเชื่อจริง ๆ ที่โปเกมอนคลุ้มคลั่ง\nสองตัวนั้นหวาดกลัวจนหนีไป…$"
 
 SootopolisCity_Text_MaxieArchieLeft:
-	.string "STEVEN: It looks like both MAXIE and\n"
-	.string "ARCHIE have gone away somewhere.\p"
-	.string "Perhaps they've gone to MT. PYRE to\n"
-	.string "return those ORBS…$"
+.string "ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอกิริจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "WALLACE: Oh?\n"

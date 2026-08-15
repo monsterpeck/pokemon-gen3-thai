@@ -755,56 +755,30 @@ Route110_Text_AquaActionsBringSmiles:
 	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle:
-	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+.string "ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนานเลยนะ!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็แข็งแกร่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$"
 
 Route110_Text_MayDefeated:
 	.string "Yikes!\n"
 	.string "You're better than I expected!$"
 
 Route110_Text_MayTakeThis:
-	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
+.string "ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ฉันให้!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
-	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+.string "ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้ก็ดูแปลก ๆ นะ\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$"
 
 Route110_Text_BrendanLetsBattle:
-	.string "BRENDAN: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+.string "ยูคิ: เฮ้ {PLAYER}\nอยู่นี่เองเหรอ\lเป็นยังไงบ้าง?\pเลี้ยงโปเกมอนให้เก่งขึ้นหรือยัง?\nเดี๋ยวฉันตรวจให้เอง$"
 
 Route110_Text_BrendanDefeated:
 	.string "Hmm…\n"
 	.string "You're pretty good.$"
 
 Route110_Text_BrendanTakeThis:
-	.string "BRENDAN: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take this.$"
+.string "ยูคิ: {PLAYER} ฝึกจนเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
-	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.$"
+.string "ยูคิ: นั่นคือเครื่องค้นหาไอเทม\pใช้ค้นหาไอเทมที่\nมองไม่เห็นได้\pถ้ามันตรวจเจออะไร\nก็จะส่งเสียงออกมา\pเอาละ ฉันจะไปตามหา\nโปเกมอนตัวใหม่ต่อแล้ว$"
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"

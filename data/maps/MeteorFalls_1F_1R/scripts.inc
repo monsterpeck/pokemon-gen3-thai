@@ -232,61 +232,28 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
-	.string "Hehehe!\p"
-	.string "With this METEORITE, that thing in\n"
-	.string "MT. CHIMNEY will…$"
+.string "ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึจะ…$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
-	.string "Heh?\p"
-	.string "I don't know who you are, but if you get\n"
-	.string "in the way of TEAM MAGMA, don't\l"
-	.string "expect any mercy!$"
+.string "หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าพวกเราจะปรานี!$"
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
-	.string "Hold it right there, TEAM MAGMA!\p"
-	.string "You're badly mistaken if you think you\n"
-	.string "can have your way with the world!$"
+.string "หยุดเดี๋ยวนี้ ทีมแมกมา!\pถ้าคิดว่าจะทำอะไรกับโลกนี้\nตามใจชอบได้ ก็คิดผิดมหันต์!$"
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
-	.string "Hehehe!\n"
-	.string "Even TEAM AQUA joins us!\p"
-	.string "But it's too much trouble to deal with\n"
-	.string "you all…\p"
-	.string "Heh, it doesn't matter!\p"
-	.string "We've got the METEORITE, so off to\n"
-	.string "MT. CHIMNEY we go!\p"
-	.string "Hehehe! Be seeing you, you TEAM\n"
-	.string "AQUA dingbats!$"
+.string "ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
-	.string "ARCHIE: Didn't I see you before?\n"
-	.string "At SLATEPORT's MUSEUM?\p"
-	.string "Ah, so your name is {PLAYER}.\p"
-	.string "At the time, I thought you were one\n"
-	.string "of TEAM MAGMA's goons.\p"
-	.string "Humph…\n"
-	.string "You're one odd kid.\p"
-	.string "TEAM MAGMA is a dangerous group of\n"
-	.string "total fanatics.\p"
-	.string "They engage in destruction, claiming\n"
-	.string "to expand the land mass.\p"
-	.string "They are the rivals to us,\n"
-	.string "the sea-loving TEAM AQUA!$"
+.string "อาโอกิริ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$"
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
-	.string "BOSS, we should give chase to\n"
-	.string "TEAM MAGMA…$"
+.string "บอส เราควรรีบตาม\nทีมแมกมาไป…$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
-	.string "ARCHIE: Yes, yes, we must!\n"
-	.string "We've got to hurry.\p"
-	.string "There's no telling what TEAM MAGMA\n"
-	.string "will do at MT. CHIMNEY!$"
+.string "อาโอกิริ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึ!$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
-	.string "ARCHIE: {PLAYER}, you should keep\n"
-	.string "an eye out for TEAM MAGMA, too.\p"
-	.string "Farewell!$"
+.string "อาโอกิริ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
 	.string "I… I'm COZMO…\n"

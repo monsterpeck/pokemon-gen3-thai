@@ -476,12 +476,7 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
-	.string "How much stronger have you gotten?\n"
-	.string "Let me check for you!\p"
-	.string "Ready with your POKéMON?\n"
-	.string "Of course you are! Go!$"
+.string "ฮารุกะ: {PLAYER}{KUN}!\nไปอยู่ที่ไหนมา? ฉันตามหาตั้งนาน!\pเก่งขึ้นแค่ไหนแล้วนะ?\nขอฉันทดสอบหน่อย!\pโปเกมอนพร้อมแล้วใช่ไหม?\nแน่นอนอยู่แล้ว! ลุยเลย!$"
 
 Route119_Text_MayDefeat:
 	.string "Achah!\n"
@@ -490,62 +485,26 @@ Route119_Text_MayDefeat:
 	.string "struggling with your training.$"
 
 Route119_Text_MayPresentForYou:
-	.string "MAY: But I had absolutely nothing to\n"
-	.string "worry about! Keep it up!\p"
-	.string "And, here! I have a present for you.$"
+.string "ฮารุกะ: แต่ดูแล้วฉันไม่ต้อง\nเป็นห่วงอะไรเลย! พยายามต่อไปนะ!\pแล้วก็นี่! ฉันมีของขวัญให้$"
 
 Route119_Text_MayExplainFly:
-	.string "MAY: Use FLY, and your POKéMON will\n"
-	.string "instantly carry you to any town you've\l"
-	.string "already visited.\p"
-	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from FORTREE CITY.\l"
-	.string "That's important, so don't forget.\p"
-	.string "You should FLY home and visit\n"
-	.string "LITTLEROOT for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
+.string "ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$"
 
 Route119_Text_BrendanIntro:
-	.string "BRENDAN: {PLAYER}! So this is where\n"
-	.string "you've been looking for POKéMON?\p"
-	.string "Let me see how good you got.\n"
-	.string "I'll test you!\p"
-	.string "Now!\n"
-	.string "It's a battle, so battle!$"
+.string "ยูคิ: {PLAYER}! ที่นี่เองเหรอ\nที่เธอมาตามหาโปเกมอน?\pขอดูหน่อยว่าเก่งขึ้นแค่ไหน\nฉันจะทดสอบเธอเอง!\pเอาล่ะ!\nต่อสู้กันให้เต็มที่!$"
 
 Route119_Text_BrendanDefeat:
 	.string "Hmm…\n"
 	.string "You've gotten pretty darn decent.$"
 
 Route119_Text_BrendanIllGiveYouThis:
-	.string "BRENDAN: I'd say you're good enough\n"
-	.string "to search for POKéMON anywhere.\p"
-	.string "Here, I'll give you this.\n"
-	.string "Try it out.$"
+.string "ยูคิ: ฝีมือระดับเธอคงไป\nตามหาโปเกมอนที่ไหนก็ได้แล้ว\pนี่ ฉันให้ของชิ้นนี้\nลองใช้ดูสิ$"
 
 Route119_Text_BrendanExplainFly:
-	.string "BRENDAN: Use FLY, and your POKéMON\n"
-	.string "instantly carries you to any town\l"
-	.string "you've already visited.\p"
-	.string "But you need the FORTREE GYM BADGE \n"
-	.string "to do that.\p"
-	.string "Anyway, I have to move along.$"
+.string "ยูคิ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวะมากิยิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
-	.string "Way to go, {PLAYER}{KUN}!\p"
-	.string "I just passed by a TRAINER riding\n"
-	.string "a BIKE.\p"
-	.string "You just beat that TRAINER, didn't you?\n"
-	.string "It was pretty obvious that you did.\p"
-	.string "The kid looked really upset with\n"
-	.string "a face all red from anger.\p"
-	.string "I sure seem to run into you often.\n"
-	.string "Are you off to FORTREE GYM next?\p"
-	.string "I expect that you'll do well at the GYM.\n"
-	.string "Well, I'll be seeing you!$"
+.string "เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:

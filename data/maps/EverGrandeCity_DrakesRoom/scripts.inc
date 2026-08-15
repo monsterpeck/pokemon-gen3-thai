@@ -62,17 +62,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-	.string "I am the last of the POKéMON LEAGUE\n"
-	.string "ELITE FOUR, DRAKE the DRAGON master!\p"
-	.string "In their natural state, POKéMON are\n"
-	.string "wild living things. They are free.\p"
-	.string "At times, they hinder us.\n"
-	.string "At times, they help us.\p"
-	.string "For us to battle with POKéMON as\n"
-	.string "partners, do you know what it takes?\p"
-	.string "Do you know what is needed?\p"
-	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
+.string "ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนเป็นสิ่งมีชีวิต\nป่าที่รักอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
 	.string "Superb, it should be said.$"

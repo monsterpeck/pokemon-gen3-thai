@@ -318,10 +318,7 @@ MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
 	.string "its meteor showers for a long time.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-	.string "TEAM MAGMA can't be allowed to steal\n"
-	.string "the rocket fuel.\p"
-	.string "Oh, by the way, you can have this stone\n"
-	.string "I found on the beach.$"
+.string "ปล่อยให้ทีมแมกมาขโมย\nเชื้อเพลิงจรวดไม่ได้\pอ้อ จริงสิ รับหินก้อนนี้ไปเถอะ\nฉันเจอมันที่ชายหาด$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
 	.string "With TEAM MAGMA around, I guess\n"
@@ -350,16 +347,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
-	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
-	.string "fuel on this island.\p"
-	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
-	.string "I'll keep an eye on things for\n"
-	.string "a while longer.\p"
-	.string "In the meantime, why don't you go\n"
-	.string "check out the town?$"
+.string "ไดโกะ: {PLAYER}{KUN} อ่านประกาศ\nฉบับนั้นแล้วหรือยัง?\pทีมแมกมากำลังหมายตา\nเชื้อเพลิงจรวดบนเกาะนี้\pไม่รู้ว่าพวกมันต้องการไปทำอะไร\nแต่ปล่อยให้เอาไปไม่ได้\pฉันจะคอยเฝ้าสถานการณ์\nต่ออีกสักพัก\pระหว่างนี้ลองไป\nดูรอบเมืองก่อนไหม?$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "As promised, we've come for\n"

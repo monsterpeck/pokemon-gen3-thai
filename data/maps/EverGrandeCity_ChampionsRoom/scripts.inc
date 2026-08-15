@@ -220,27 +220,7 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
-	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
-	.string "That incident in SOOTOPOLIS CITY…\n"
-	.string "That was superb work, putting an end\l"
-	.string "to that crisis all by yourself.\p"
-	.string "Oops!\p"
-	.string "It wouldn't be fair to say that you\n"
-	.string "alone ended the crisis.\p"
-	.string "You overcame that difficult situation\n"
-	.string "by working as one with your POKéMON.\p"
-	.string "We TRAINERS raise POKéMON by giving\n"
-	.string "them items and by teaching them new\l"
-	.string "techniques for battle.\p"
-	.string "But we ourselves also learn many\n"
-	.string "things from POKéMON.\p"
-	.string "And this is where your achievements\n"
-	.string "are put to the test against what\l"
-	.string "others like you have achieved.\p"
-	.string "Now!\p"
-	.string "Who can most elegantly dance with\n"
-	.string "their POKéMON in HOENN?\p"
-	.string "Show me right here and now!$"
+.string "มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "I, the CHAMPION, fall in defeat…\p"
@@ -267,74 +247,32 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "HOENN region…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
-	.string "MAY: {PLAYER}{KUN}!\p"
-	.string "Here's some advice before you challenge\n"
-	.string "the CHAMPION…$"
+.string "ฮารุกะ: {PLAYER}{KUN}!\pฉันมีคำแนะนำก่อนคุณจะท้าทาย\nแชมเปี้ยน…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
-	.string "MAY: Huh?\n"
-	.string "What, what, what?\p"
-	.string "{PLAYER}{KUN}…\n"
-	.string "Could it be that…\l"
-	.string "It's already over?$"
+.string "ฮารุกะ: เอ๊ะ?\nอะไร อะไร อะไรนะ?\p{PLAYER}{KUN}…\nหรือว่า…\lจบไปแล้วเหรอ?$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
-	.string "BRENDAN: {PLAYER}!\p"
-	.string "How would you like some advice before\n"
-	.string "you challenge the CHAMPION?…$"
+.string "ยูคิ: {PLAYER}!\pอยากได้คำแนะนำก่อน\nท้าทายแชมเปี้ยนไหม?…$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
-	.string "BRENDAN: {PLAYER}…\p"
-	.string "Are you trying to tell me…\n"
-	.string "You've beaten the CHAMPION?$"
+.string "ยูคิ: {PLAYER}…\pหรือว่าเธอ…\nเอาชนะแชมเปี้ยนแล้ว?$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
-	.string "PROF. BIRCH: See?\n"
-	.string "What did I tell you, {RIVAL}?\p"
-	.string "Didn't I tell you that you don't need\n"
-	.string "to worry about {PLAYER}{KUN}?\p"
-	.string "… … … … … … … …\n"
-	.string "{PLAYER}{KUN}, you've finally done it.\p"
-	.string "When I heard that you defeated your\n"
-	.string "own father at the PETALBURG GYM,\l"
-	.string "I thought perhaps you had a chance…\p"
-	.string "But to think you've actually become\n"
-	.string "the CHAMPION!\p"
-	.string "Ah, yes!\p"
-	.string "What became of your POKéDEX?\n"
-	.string "Here, let me see.$"
+.string "ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$"
 
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
-	.string "PROF. BIRCH: Anyways,\n"
-	.string "congratulations!\p"
-	.string "Now, go proudly into the final room!$"
+.string "ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
-	.string "WALLACE: {PLAYER}{KUN}…\p"
-	.string "No, let me rephrase that properly.\p"
-	.string "The new CHAMPION!\p"
-	.string "Come with me.$"
+.string "มิคุริ: {PLAYER}{KUN}…\pไม่สิ ขอเรียกให้ถูกต้องดีกว่า\pแชมเปี้ยนคนใหม่!\pตามฉันมา$"
 
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
-	.string "WALLACE: I'm sorry, but…\p"
-	.string "From here on, only those TRAINERS who\n"
-	.string "have become CHAMPIONS may enter.\p"
-	.string "You'll have to wait outside with\n"
-	.string "PROF. BIRCH.$"
+.string "มิคุริ: ขอโทษด้วย แต่ว่า…\pจากนี้ไป เฉพาะเทรนเนอร์ที่\nได้เป็นแชมเปี้ยนเท่านั้นจึงจะเข้าได้\pเธอต้องรอข้างนอกกับ\nศ.เบิร์ช$"
 
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
-	.string "MAY: Groan…\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "I'm just joking! That's okay!\n"
-	.string "That's the rule!\p"
-	.string "{PLAYER}{KUN}!\n"
-	.string "Honestly, congratulations!$"
+.string "ฮารุกะ: โธ่…\p… … … … … … … …\n… … … … … … … …\pล้อเล่นน่ะ! ไม่เป็นไร!\nกฎก็ต้องเป็นกฎ!\p{PLAYER}{KUN}!\nขอแสดงความยินดีจากใจจริง!$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
-	.string "BRENDAN: Whaaaat?! … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "It can't be helped if that's the rule.\p"
-	.string "{PLAYER}, way to go!\n"
-	.string "Congratulations!$"
+.string "ยูคิ: อะไรนะ?! … … … … …\n… … … … … … … …\pถ้าเป็นกฎก็คงช่วยไม่ได้\p{PLAYER} ทำได้เยี่ยมมาก!\nยินดีด้วย!$"
 

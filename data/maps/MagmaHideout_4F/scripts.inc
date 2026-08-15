@@ -180,44 +180,17 @@ MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "MAXIE should have awakened GROUDON…$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "MAXIE: GROUDON…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This BLUE ORB is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the BLUE ORB.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+.string "มัตสึบูสะ: กราดอน…\pไม่มีสิ่งใดปลุกแกจากนิทรา\nท่ามกลางแมกมาได้…\pลูกแก้วสีน้ำเงินนี้คือสิ่งที่แกตามหา\nไม่ใช่หรือ?\pฉันนำลูกแก้วสีน้ำเงินมาให้แล้ว\nจงตื่นขึ้นด้วยประกายของมัน!\pแล้วแสดงให้ฉันดู…\nแสดงพลังทั้งหมดของแกออกมา!$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "MAXIE: GROUDON!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
-	.string "GROUDON!\n"
-	.string "Where have you gone…$"
+.string "มัตสึบูสะ: กราดอน!\nเป็นอะไรไป?\pลูกแก้วสีน้ำเงินไม่ใช่กุญแจหรอกรึ?\pกราดอน!\nหายไปไหนแล้ว…$"
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+.string "มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือยุ่ง\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
 	.string "What makes you so adept at handling\n"
 	.string "POKéMON?$"
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "MAXIE: There has to be some reason\n"
-	.string "why GROUDON fled…\p"
-	.string "That's what you're trying to say,\n"
-	.string "aren't you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Humph…\n"
-	.string "You think I didn't know that?\p"
-	.string "With GROUDON gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after GROUDON, so this\n"
-	.string "is where we part!$"
+.string "มัตสึบูสะ: ต้องมีเหตุผลบางอย่าง\nที่กราดอนหนีไป…\pนั่นคือสิ่งที่แกพยายามจะบอก\nใช่ไหม?\p… … … … … …\n… … … … … …\pฮึ…\nคิดว่าฉันไม่รู้หรือ?\pเมื่อกราดอนไปแล้ว ภูเขาไฟ\nบ้า ๆ นี่ก็ไม่มีประโยชน์อีก\pฉันจะตามกราดอนไป\nเราแยกกันตรงนี้!$"

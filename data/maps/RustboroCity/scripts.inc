@@ -1088,42 +1088,27 @@ RustboroCity_Text_TradePokemonGrowFast:
 	.string "BADGES, it may not obey you…$"
 
 RustboroCity_Text_OutOfTheWay:
-	.string "Get out!\n"
-	.string "Out of the way!$"
+.string "หลบไป!\nอย่าขวางทาง!$"
 
 RustboroCity_Text_WaitDontTakeMyGoods:
-	.string "Wait! Pleeeaaase!\p"
-	.string "Don't take my GOODS!$"
+.string "เดี๋ยวก่อน! ได้โปรดดดด!\pอย่าเอาสินค้าของฉันไป!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
-	.string "Oh, it's you!\p"
-	.string "You're that fantastic TRAINER who\n"
-	.string "helped me in PETALBURG WOODS!\p"
-	.string "Help me! I was robbed by TEAM AQUA!\n"
-	.string "I have to get the DEVON GOODS back!\p"
-	.string "If I don't…\n"
-	.string "I'm going to be in serious trouble.$"
+.string "อ้าว คุณนี่เอง!\pคุณคือเทรนเนอร์ยอดฝีมือที่\nช่วยผมในป่าโทวกะนี่นา!\pช่วยด้วย! ผมถูกทีมอควาปล้น!\nต้องเอาสินค้าเดวอนกลับมาให้ได้!\pถ้าเอากลับมาไม่ได้…\nผมต้องเดือดร้อนหนักแน่ ๆ$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 	.string "That shady character, I think he took\n"
 	.string "off towards the tunnel over there.$"
 
 RustboroCity_Text_YouGotItThankYou:
-	.string "Oh! How did it go?\n"
-	.string "The DEVON GOODS?\p"
-	.string "You did!\n"
-	.string "You got them back!\p"
-	.string "You really are a great TRAINER!\p"
-	.string "I know! As my thanks, I'll give you\n"
-	.string "another GREAT BALL!$"
+.string "อ้าว! เป็นยังไงบ้าง?\nสินค้าเดวอนล่ะ?\pทำได้แล้ว!\nเอากลับมาได้แล้ว!\pคุณเป็นเทรนเนอร์ที่ยอดเยี่ยมจริง ๆ!\pรู้แล้ว! เพื่อเป็นการขอบคุณ\nผมจะให้เกรตบอลอีกลูก!$"
 
 RustboroCity_Text_YoureLoadedWithItems:
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
 
 RustboroCity_Text_PleaseComeWithMe:
-	.string "Excuse me, please!\n"
-	.string "Please come with me!$"
+.string "ขอโทษนะครับ!\nช่วยมากับผมหน่อย!$"
 
 RustboroCity_Text_MayHiLetsRegister:
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"

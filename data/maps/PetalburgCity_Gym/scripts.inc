@@ -1137,133 +1137,55 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-	.string "DAD: Hm?\p"
-	.string "Well, if it isn't {PLAYER}!\n"
-	.string "So you're all finished moving in?\p"
-	.string "I'm surprised that you managed to\n"
-	.string "get here by yourself.\p"
-	.string "Oh, I see.\n"
-	.string "You're with your POKéMON.\p"
-	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
-	.string "That's great news!\n"
-	.string "I'll be looking forward to it!$"
+.string "พ่อ: หืม?\pอ้าว {PLAYER} นี่นา!\nย้ายบ้านเสร็จเรียบร้อยแล้วหรือ?\pพ่อแปลกใจนะที่ลูก\nมาถึงนี่ได้ด้วยตัวเอง\pอ้อ เข้าใจแล้ว\nลูกมากับโปเกมอนนี่เอง\pอืม… ถ้าอย่างนั้นลูกคงจะ\nเป็นเทรนเนอร์เหมือนพ่อสินะ {PLAYER}\pเป็นข่าวดีจริง ๆ!\nพ่อจะตั้งตารอนะ!$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-	.string "Um… I…\n"
-	.string "I'd like to get a POKéMON, please…$"
+.string "เอ่อ… ผม…\nผมอยากได้โปเกมอนสักตัวครับ…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-	.string "DAD: Hm? You're… Uh… Oh, right.\n"
-	.string "You're WALLY, right?$"
+.string "พ่อ: หืม? เธอคือ… เอ่อ… อ๋อ ใช่\nเธอชื่อมิตสึรุสินะ?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
-	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…$"
+.string "มิตสึรุ: ผมกำลังจะไปพักกับ\nญาติที่เมืองชิดาเกะครับ\pผมคิดว่าถ้าไปคนเดียวคงเหงา\nเลยอยากพาโปเกมอนไปด้วยสักตัว\pแต่ผมไม่เคยจับโปเกมอนมาก่อน\nเลยไม่รู้ว่าต้องทำยังไง…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "DAD: Hm. I see.$"
+.string "พ่อ: อืม เข้าใจแล้ว$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-	.string "DAD: {PLAYER}, you heard that,\n"
-	.string "right?\p"
-	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.$"
+.string "พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วคอยช่วยให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "WALLY, here, I'll loan you my POKéMON.\p"
-	.string "WALLY received a ZIGZAGOON!$"
+.string "มิตสึรุ เอ้า ฉันให้ยืมโปเกมอนของฉัน\pมิตสึรุได้รับจิกุซากุมะ!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-	.string "WALLY: Oh, wow!\n"
-	.string "A POKéMON!\p"
-	.string "DAD: Hm. I'll give you a POKé BALL, too.\n"
-	.string "Go for it!\p"
-	.string "WALLY received a POKé BALL!$"
+.string "มิตสึรุ: ว้าว!\nโปเกมอน!\pพ่อ: อืม ฉันให้โปเกบอลด้วยลูกหนึ่ง\nลองดูเลย!\pมิตสึรุได้รับโปเกบอล!$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
-	.string "WALLY: Oh, wow!\n"
-	.string "Thank you!$"
+.string "มิตสึรุ: ว้าว!\nขอบคุณมากครับ!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+.string "{PLAYER}… จะมากับผม\nจริง ๆ หรือครับ?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "DAD: So, did it work out?$"
+.string "พ่อ: เป็นยังไง สำเร็จไหม?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
-	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here's your POKéMON back.\p"
-	.string "{PLAYER}, thank you for coming along\n"
-	.string "with me.\p"
-	.string "You two are why I was able to catch\n"
-	.string "my POKéMON.\p"
-	.string "I promise I'll take really good\n"
-	.string "care of it.\p"
-	.string "Oh! My mom's waiting for me,\n"
-	.string "so I have to go!\p"
-	.string "Bye, {PLAYER}!$"
+.string "มิตสึรุ: ขอบคุณครับ สำเร็จแล้ว\nนี่โปเกมอนของคุณครับ\p{PLAYER} ขอบคุณที่\nมากับผมนะครับ\pเพราะคุณสองคน ผมจึง\nจับโปเกมอนของตัวเองได้\pผมสัญญาว่าจะดูแลมัน\nอย่างดีที่สุดครับ\pอ๊ะ! แม่กำลังรอผมอยู่\nผมต้องไปแล้วครับ!\pลาก่อนนะ {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-	.string "DAD: Now…\p"
-	.string "{PLAYER}, if you want to become a\n"
-	.string "strong TRAINER, here's my advice.\p"
-	.string "Head for RUSTBORO CITY beyond this\n"
-	.string "town.\p"
-	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other POKéMON\n"
-	.string "GYMS and defeat their LEADERS.\p"
-	.string "Collect BADGES from them,\n"
-	.string "understood?\p"
-	.string "Of course, I'm a GYM LEADER, too.\n"
-	.string "We'll battle one day, {PLAYER}.\p"
-	.string "But that's only after you become\n"
-	.string "stronger.$"
+.string "พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองคานาซึมิ\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ สึสึจิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "DAD: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
-	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
-	.string "{PLAYER}, I want you to challenge me\n"
-	.string "when you become a lot stronger.\p"
-	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?$"
+.string "พ่อ: หืม? ลูกไม่ได้จะไป\nโปเกมอนยิมที่เมืองคานาซึมิหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-	.string "DAD: I see… So, you've beaten\n"
-	.string "the GYM LEADER in RUSTBORO CITY.\p"
-	.string "But there are many more TRAINERS\n"
-	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in DEWFORD TOWN is a\n"
-	.string "GYM LEADER named BRAWLY.\p"
-	.string "You should go challenge him.$"
+.string "พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองคานาซึมิได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองมุโระ\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-	.string "DAD: Hm… {PLAYER}, you have gotten\n"
-	.string "stronger.\p"
-	.string "I can tell by the number of BADGES\n"
-	.string "that you've earned.$"
+.string "พ่อ: อืม… {PLAYER} ลูก\nแข็งแกร่งขึ้นแล้วนะ\pพ่อดูออกจากจำนวนแบดจ์\nที่ลูกได้รับมา$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "DAD: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
-	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
-	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
-	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
-	.string "{PLAYER}, you'd better give it your\n"
-	.string "best shot, too!$"
+.string "พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็\nสู้ให้เต็มที่เหมือนกัน!$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "…\p"
@@ -1274,48 +1196,25 @@ PetalburgCity_Gym_Text_NormanDefeat:
 	.string "Here, take this.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+.string "{PLAYER} ได้รับบาลานซ์แบดจ์\nจากพ่อ!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-	.string "DAD: With that BADGE, the DEFENSE\n"
-	.string "of all your POKéMON will increase.\p"
-	.string "POKéMON that know the HM move SURF\n"
-	.string "will be able to travel over water.\p"
-	.string "This is my gift to you. {PLAYER}, I'm\n"
-	.string "sure you can use it correctly.$"
+.string "พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM นามิโนริ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "DAD: TM42 contains FACADE.\p"
-	.string "It doubles the power of moves if\n"
-	.string "the POKéMON is poisoned, paralyzed,\l"
-	.string "or burned.\p"
-	.string "It might be able to turn a bad\n"
-	.string "situation into an advantage.$"
+.string "พ่อ: TM42 บรรจุท่าคาราเก็งกิ\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "DAD: As the GYM LEADER, I can't\n"
-	.string "express how upset I am…\p"
-	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+.string "พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ เป็นความรู้สึกที่แปลกดี…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
-	.string "Ah, there you are, {PLAYER}{KUN}!\p"
-	.string "Please come with me.\n"
-	.string "I have something I want you to have.$"
+.string "อ้าว อยู่นี่เอง {PLAYER}{KUN}!\pช่วยมากับฉันหน่อย\nฉันมีของอยากมอบให้$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
-	.string "NORMAN, you don't mind, do you?\p"
-	.string "Let me borrow your {PLAYER}{KUN} for\n"
-	.string "a minute or two.$"
+.string "เซ็นริ คงไม่ว่าอะไรนะ?\pขอยืมตัว {PLAYER}{KUN} ของนาย\nสักครู่หนึ่ง$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "DAD: {PLAYER}, you should go visit\n"
-	.string "your mother every so often.\p"
-	.string "I'm going to stay here and redouble\n"
-	.string "my training.\p"
-	.string "It would bother me as a TRAINER to\n"
-	.string "not avenge my loss to you, {PLAYER}!$"
+.string "พ่อ: {PLAYER} ลูกควรแวะไปหา\nแม่บ้างเป็นครั้งคราวนะ\pพ่อจะอยู่ที่นี่และ\nฝึกฝนให้หนักยิ่งกว่าเดิม\pในฐานะเทรนเนอร์ พ่อยอมไม่ได้\nถ้ายังไม่ได้แก้มือกับลูก {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "DAD: {PLAYER}, how are things going?\p"

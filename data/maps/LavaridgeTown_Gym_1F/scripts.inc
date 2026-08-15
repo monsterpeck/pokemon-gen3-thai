@@ -326,35 +326,20 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "For that, you deserve this.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-	.string "{PLAYER} received the HEAT BADGE\n"
-	.string "from FLANNERY.$"
+.string "{PLAYER} ได้รับฮีตแบดจ์\nจากอาสึนะ$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
-	.string "If you have a HEAT BADGE, all POKéMON\n"
-	.string "up to Level 50, even those you get in\l"
-	.string "trades from other people, will obey\l"
-	.string "you completely.\p"
-	.string "And, it lets POKéMON use the HM move\n"
-	.string "STRENGTH outside of battle.\p"
-	.string "This is a token of my appreciation.\n"
-	.string "Don't be shy about taking it!$"
+.string "ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้จากการแลกเปลี่ยนก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริกินอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$"
 
 LavaridgeTown_Gym_1F_Text_ExplainOverheat:
-	.string "That TM50 contains OVERHEAT.\p"
-	.string "That move inflicts serious damage on\n"
-	.string "the opponent.\p"
-	.string "But it also sharply cuts the SP. ATK\n"
-	.string "of the POKéMON using it. It might not\l"
-	.string "be suitable for longer battles.$"
+.string "TM50 บรรจุท่าโอเวอร์ฮีต\pท่านี้สร้างความเสียหายรุนแรง\nแก่คู่ต่อสู้\pแต่จะลดพลังโจมตีพิเศษของ\nโปเกมอนที่ใช้ลงอย่างมาก จึงอาจ\lไม่เหมาะกับการต่อสู้ที่ยืดเยื้อ$"
 
 LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 	.string "Registered GYM LEADER FLANNERY\n"
 	.string "in the POKéNAV.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+.string "พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนเซ็นริ\nยิมลีดเดอร์แห่งโทวกะเลย$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
 	.string "LAVARIDGE TOWN POKéMON GYM$"

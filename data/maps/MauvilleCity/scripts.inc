@@ -459,36 +459,19 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-	.string "UNCLE: It's because of POKéMON that\n"
-	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+.string "คุณลุง: คงเพราะโปเกมอน\nเด็กคนนี้ถึงได้กระปรี้กระเปร่าขึ้น…\lแต่ดูจะคึกเกินไปหน่อยแล้ว…$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-	.string "WALLY: Aww, UNCLE, please?\p"
-	.string "I want to challenge this GYM and see\n"
-	.string "how much better I've become.\p"
-	.string "Please? May I, please?$"
+.string "มิตสึรุ: โธ่ คุณลุง ขอร้องล่ะครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$"
 
 MauvilleCity_Text_UncleYourePushingIt:
-	.string "UNCLE: Now hold on, WALLY.\p"
-	.string "Since you started living with POKéMON,\n"
-	.string "you have grown quite a lot stronger.\p"
-	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a GYM?$"
+.string "คุณลุง: เดี๋ยวก่อน มิตสึรุ\pตั้งแต่เริ่มใช้ชีวิตกับโปเกมอน\nเธอก็แข็งแกร่งขึ้นมากจริง ๆ\pแต่จู่ ๆ จะท้าทายยิมเลย\nไม่ฝืนตัวเองไปหน่อยหรือ?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
-	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
-	.string "we can beat anyone!$"
+.string "มิตสึรุ: ผมไม่ได้ฝืนตัวเองครับ\pถ้าผมกับราลทอสร่วมพลังกัน\nไม่ว่าใครเราก็ชนะได้!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "WALLY: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "{PLAYER}, I want you and my UNCLE to\n"
-	.string "understand that.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+.string "มิตสึรุ: อ๊ะ! สวัสดี {PLAYER}!\pตั้งแต่พบกันครั้งก่อน\nผมแข็งแกร่งขึ้นมากแล้ว\p{PLAYER} ผมอยากให้คุณกับคุณลุง\nเข้าใจเรื่องนั้น\p{PLAYER} ได้โปรด\nสู้กับผมสักครั้งได้ไหม?$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 	.string "WALLY: Oh… If you won't battle me,\n"
@@ -496,19 +479,13 @@ MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 	.string "become really strong.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-	.string "UNCLE: {PLAYER}{KUN}, was it?\n"
-	.string "On WALLY's behalf, can I ask you to\l"
-	.string "battle with him just this once?\p"
-	.string "I don't think he's going to listen to\n"
-	.string "any reason the way he is now.$"
+.string "คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอร้องแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
-	.string "WALLY: {PLAYER}, please!\n"
-	.string "Battle with me, please.$"
+.string "มิตสึรุ: {PLAYER} ได้โปรด!\nสู้กับผมอีกครั้งนะครับ$"
 
 MauvilleCity_Text_WallyHereICome:
-	.string "WALLY: {PLAYER}, thank you.\p"
-	.string "Okay… Here I come!$"
+.string "มิตสึรุ: {PLAYER} ขอบคุณครับ\pเอาละ… ผมมาแล้ว!$"
 
 MauvilleCity_Text_WallyDefeat:
 	.string "WALLY: … … … … … … …\p"
@@ -516,32 +493,16 @@ MauvilleCity_Text_WallyDefeat:
 	.string "I lost…$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
-	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+.string "มิตสึรุ: คุณลุง…\nผมจะกลับไปชิดาเกะครับ…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
-	.string "It's not enough just to have POKéMON\n"
-	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+.string "{PLAYER} ขอบคุณนะ\nการเป็นเทรนเนอร์นี่ลำบากจริง ๆ ว่าไหม?\pแค่มีโปเกมอนแล้วสั่งให้ต่อสู้\nยังไม่พอ นั่นไม่ใช่ความหมายของ\lการเป็นเทรนเนอร์ที่แท้จริง$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-	.string "UNCLE: WALLY, there's no need to be so\n"
-	.string "down on yourself.\p"
-	.string "Why, what's keeping you from becoming\n"
-	.string "stronger and stronger?\p"
-	.string "Come on, let's go home.\n"
-	.string "Everyone's waiting for you.$"
+.string "คุณลุง: มิตสึรุ ไม่ต้อง\nผิดหวังในตัวเองขนาดนั้น\pไม่มีอะไรขวางเธอจากการ\nแข็งแกร่งขึ้นเรื่อย ๆ หรอก\pไป กลับบ้านกันเถอะ\nทุกคนกำลังรอเธออยู่$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
-	.string "an eye out for WALLY when he caught\l"
-	.string "his POKéMON.\p"
-	.string "Why don't you visit us in VERDANTURF\n"
-	.string "sometime?\l"
-	.string "I'm sure WALLY would enjoy it.$"
+.string "คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยช่วยมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$"
 
 
 MauvilleCity_Text_WallyPokenavCall:
@@ -560,17 +521,7 @@ MauvilleCity_Text_RegisteredWally:
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-	.string "SCOTT: Hehe…\n"
-	.string "I was watching that match!\p"
-	.string "You're friends with that boy WALLY,\n"
-	.string "aren't you?\p"
-	.string "But you didn't hold anything back\n"
-	.string "and beat him impressively.\p"
-	.string "Yeah! That's what a real POKéMON\n"
-	.string "battle is all about!\p"
-	.string "I idolize TRAINERS like that!\p"
-	.string "… … … … … …\n"
-	.string "I'll be cheering for you!$"
+.string "เอนิชิดะ: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"

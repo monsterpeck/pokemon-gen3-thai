@@ -287,56 +287,29 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+.string "ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$"
 
 Route103_Text_MayLetsBattle:
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
-	.string "Since we're here, let's have a quick\n"
-	.string "battle!\p"
-	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+.string "อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$"
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
 	.string "{PLAYER}{KUN}, you're pretty good!$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
-	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+.string "ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+.string "ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$"
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!$"
+.string "เฮ้ {PLAYER} นี่นา!\p…อ๋อ จริงสิ พ่อให้โปเกมอนเธอมาแล้วนี่\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักหน่อยไหม?\pฉันจะสอนให้รู้เองว่า\nการเป็นเทรนเนอร์คืออะไร!$"
 
 Route103_Text_BrendanDefeated:
 	.string "Huh, {PLAYER}, you're not too shabby.$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+.string "ยูคิ: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My POKéMON is staggeringly tired…\n"

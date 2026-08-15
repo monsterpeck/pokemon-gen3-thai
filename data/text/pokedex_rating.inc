@@ -8,9 +8,7 @@ gBirchDexRatingText_Cancel::
 	.string "POKéMON to make it worthwhile.$"
 
 gBirchDexRatingText_SoYouveSeenAndCaught::
-	.string "Hmhm…\p"
-	.string "So, you've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+.string "หึ ๆ…\pเธอพบโปเกมอนแล้ว {STR_VAR_1} ชนิด\nและจับได้ {STR_VAR_2} ชนิด…$"
 
 gBirchDexRatingText_LessThan10::
 	.string "Go into grassy areas more and look\n"
@@ -109,7 +107,4 @@ gBirchDexRatingText_DexCompleted::
 	.string "Your POKéDEX is complete!$"
 
 gBirchDexRatingText_OnANationwideBasis::
-	.string "Hmhm…\n"
-	.string "On a nationwide basis…\p"
-	.string "You've seen {STR_VAR_1} POKéMON,\n"
-	.string "and you've caught {STR_VAR_2} POKéMON…$"
+.string "หึ ๆ…\nถ้านับทั่วทั้งประเทศ…\pเธอพบโปเกมอนแล้ว {STR_VAR_1} ชนิด\nและจับได้ {STR_VAR_2} ชนิด…$"

@@ -140,30 +140,13 @@ SkyPillar_Outside_Text_DoorIsClosed:
 	.string "The door is closed.$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
-	.string "In my haste, I didn't notice that\n"
-	.string "I'd left you behind!\p"
-	.string "I've opened the locked door of\n"
-	.string "the SKY PILLAR.\p"
-	.string "{PLAYER}{KUN}, let's be on our way!$"
+.string "มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nเสาหลักแห่งฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
-	.string "WALLACE: It's an earthquake!\p"
-	.string "There's not a moment to waste!\n"
-	.string "We've got to hurry!$"
+.string "มิคุริ: แผ่นดินไหว!\pจะเสียเวลาแม้แต่วินาทีเดียวไม่ได้!\nเราต้องรีบแล้ว!$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-	.string "WALLACE: Hmm…\n"
-	.string "The situation is getting worse…$"
+.string "มิคุริ: อืม…\nสถานการณ์เลวร้ายลงเรื่อย ๆ…$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-	.string "WALLACE: This isn't good…\p"
-	.string "The weather distortion is spreading\n"
-	.string "even here…\p"
-	.string "{PLAYER}{KUN}.\p"
-	.string "RAYQUAZA should be farther up\n"
-	.string "from here.\p"
-	.string "I'm worried about SOOTOPOLIS.\n"
-	.string "I've got to go back.\p"
-	.string "Everything is in your hands now.\n"
-	.string "Don't fail us!$"
+.string "มิคุริ: ไม่ดีแล้ว…\pความแปรปรวนของอากาศลามมา\nถึงที่นี่แล้ว…\p{PLAYER}{KUN}\pเร็คคูซาน่าจะอยู่สูงขึ้นไป\nจากตรงนี้\pฉันเป็นห่วงเมืองรูเนะ\nต้องกลับไปแล้ว\pทุกอย่างอยู่ในมือเธอแล้ว\nอย่าทำให้พวกเราผิดหวัง!$"

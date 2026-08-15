@@ -119,25 +119,14 @@ VictoryRoad_1F_EventScript_Katelynn::
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
-	.string "WALLY: Hi! {PLAYER}!\p"
-	.string "I bet you're surprised to see me here!\p"
-	.string "I made it all the way here, and it's\n"
-	.string "all thanks to you!\p"
-	.string "{PLAYER}, losing to you that time\n"
-	.string "made me stronger!\p"
-	.string "But I'm not going to lose anymore!\p"
-	.string "I'm going to win! For the POKéMON who\n"
-	.string "gave me courage and strength!\p"
-	.string "Okay… Here I come!$"
+.string "มิตสึรุ: สวัสดี {PLAYER}!\pคงตกใจที่เห็นผมที่นี่สินะครับ!\pผมมาถึงที่นี่ได้ ทั้งหมดนี้\nเป็นเพราะคุณ!\p{PLAYER} การแพ้คุณในครั้งนั้น\nทำให้ผมแข็งแกร่งขึ้น!\pแต่ผมจะไม่แพ้อีกแล้ว!\pผมจะชนะ! เพื่อโปเกมอนที่\nมอบความกล้าและพลังให้ผม!\pเอาละ… ผมมาแล้ว!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
 	.string "Wow!\n"
 	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
-	.string "WALLY: I couldn't beat you today,\n"
-	.string "{PLAYER}, but one of these days, I'll\l"
-	.string "catch up to you!$"
+.string "มิตสึรุ: วันนี้ผมเอาชนะคุณไม่ได้\n{PLAYER} แต่สักวันหนึ่ง ผมจะ\lตามคุณให้ทัน!$"
 
 VictoryRoad_1F_Text_WallyIntro:
 	.string "WALLY: Hi! {PLAYER}!\p"

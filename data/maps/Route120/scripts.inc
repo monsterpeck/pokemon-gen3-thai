@@ -381,34 +381,19 @@ Route120_Text_StevenReadyForBattle:
 	.string "ready for battle?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+.string "ไดโกะ: {PLAYER}{KUN} แสดงพลังที่แท้จริง\nในฐานะเทรนเนอร์ให้ฉันดูหน่อย!$"
 
 Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
-	.string "The startled POKéMON attacked!$"
+.string "ไดโกะใช้เดวอนสโคป\pโปเกมอนที่มองไม่เห็น\nปรากฏตัวออกมาอย่างชัดเจน!\pโปเกมอนที่ตกใจจู่โจมเข้ามา!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+.string "ไดโกะ: เข้าใจแล้ว…\nรูปแบบการต่อสู้ของเธอน่าสนใจมาก\pโปเกมอนของเธอเติบโตขึ้นชัดเจน\nตั้งแต่ครั้งแรกที่พบกันที่มุโระ\pฉันอยากมอบ\nเดวอนสโคปนี้ให้เธอ\pใครจะรู้ อาจมีโปเกมอนตัวอื่น\nซ่อนตัวอยู่อีกก็ได้$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+.string "ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$"
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+.string "มีบางสิ่งที่มองไม่เห็นขวางทางอยู่$"
 
 Kecleon_Text_WantToUseDevonScope:
 	.string "Something unseeable is in the way.\p"

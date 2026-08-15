@@ -682,32 +682,13 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the POKéMON you\l"
-	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+.string "ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-	.string "PROF. BIRCH: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?$"
+.string "ศ.เบิร์ช: ไหน ๆ แล้ว ลองตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนั้นหน่อยไหม?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-	.string "PROF. BIRCH: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
-	.string "My kid, {RIVAL}, is also studying\n"
-	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see {RIVAL}?$"
+.string "ศ.เบิร์ช: ถ้าเธอฝึกฝนโปเกมอน\nและสั่งสมประสบการณ์ ผมว่าเธอจะเป็น\lเทรนเนอร์ที่เก่งกาจมากแน่ ๆ\p{RIVAL} ลูกของผมก็กำลังศึกษา\nโปเกมอนและคอยช่วยงานผมอยู่\p{PLAYER}{KUN} ลองไปหา\n{RIVAL} ดูก็ดีนะ ว่าไหม?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "PROF. BIRCH: Great!\n"
@@ -720,38 +701,16 @@ LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "You should go meet my kid.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-	.string "PROF. BIRCH: {RIVAL}?\n"
-	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
-	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.$"
+.string "ศ.เบิร์ช: {RIVAL} เหรอ?\nคงกลับบ้านไปแล้วละ\pหรือไม่ก็คงกำลังตะลุย\nพงหญ้าอยู่ที่ไหนสักแห่งอีก…\pถ้าเธอหรือโปเกมอนเหนื่อย\nก็กลับไปพักที่บ้านนะ$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
-	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat {RIVAL} on\n"
-	.string "your first try. That's excellent!\p"
-	.string "{RIVAL}'s been helping with my research\n"
-	.string "for a long time.\p"
-	.string "{RIVAL} has an extensive history as\n"
-	.string "a TRAINER already.\p"
-	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
-	.string "research, but I think you should have\l"
-	.string "this POKéDEX.$"
+.string "ศ.เบิร์ช: อ้าว สวัสดี {PLAYER}{KUN}!\pได้ยินว่าเธอชนะ {RIVAL}\nได้ตั้งแต่ครั้งแรก ยอดเยี่ยมมาก!\p{RIVAL} ช่วยงานวิจัยของผม\nมานานแล้ว\p{RIVAL} เองก็มีประสบการณ์\nเป็นเทรนเนอร์มามากทีเดียว\pนี่ {PLAYER}{KUN} ผมสั่งสิ่งนี้มา\nเพื่อใช้ทำวิจัย แต่คิดว่าเธอ\lควรรับโปเกเด็กซ์นี้ไป$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "{PLAYER} received the POKéDEX!$"
+.string "{PLAYER} ได้รับโปเกเด็กซ์!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+.string "ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"

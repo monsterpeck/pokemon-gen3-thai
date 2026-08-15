@@ -1,61 +1,26 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
-	.string "$"
+.string "สวัสดี! ขอโทษที่ให้รอนะ!\pยินดีต้อนรับสู่โลกของโปเกมอน!\pผมชื่อเบิร์ช\pแต่ทุกคนเรียกผมว่า\nศาสตราจารย์โปเกมอน\p$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
-	.string "\n"
-	.string "$"
+.string "สิ่งนี้เรียกว่า “โปเกมอน”\p\n$"
 
 gText_Birch_MainSpeech::
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "We humans live alongside POKéMON,\n"
-	.string "at times as friendly playmates, and\l"
-	.string "at times as cooperative workmates.\p"
-	.string "And sometimes, we band together\n"
-	.string "and battle others like us.\p"
-	.string "But despite our closeness, we don't\n"
-	.string "know everything about POKéMON.\p"
-	.string "In fact, there are many, many\n"
-	.string "secrets surrounding POKéMON.\p"
-	.string "To unravel POKéMON mysteries,\n"
-	.string "I've been undertaking research.\l"
-	.string "That's what I do.\p"
-	.string "$"
+.string "โลกใบนี้มีสิ่งมีชีวิตที่เรียกว่า\nโปเกมอนอาศัยอยู่มากมาย\pมนุษย์เราใช้ชีวิตร่วมกับโปเกมอน\nบางครั้งก็เป็นเพื่อนเล่นที่สนิทสนม\lบางครั้งก็เป็นเพื่อนร่วมงานที่ช่วยเหลือกัน\pและบางครั้ง เราก็รวมพลังกัน\nต่อสู้กับกลุ่มอื่นเช่นเดียวกับเรา\pแต่แม้เราจะใกล้ชิดกันเพียงใด\nเราก็ยังไม่รู้ทุกอย่างเกี่ยวกับโปเกมอน\pที่จริงแล้ว โปเกมอนยังมีความลับ\nซ่อนอยู่อีกมากมายนัก\pผมจึงทำงานวิจัยเพื่อไข\nปริศนาของเหล่าโปเกมอน\lนี่แหละคืองานของผม\p$"
 
 gText_Birch_AndYouAre::
-	.string "And you are?$"
+.string "แล้วเธอคือใครล่ะ?$"
 
 gText_Birch_BoyOrGirl::
-	.string "{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?\n"
-	.string "{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?$"
+.string "เธอเป็นเด็กผู้ชาย\nหรือเด็กผู้หญิงล่ะ?$"
 
 gText_Birch_WhatsYourName::
-	.string "All right.\n"
-	.string "What's your name?$"
+.string "เอาละ\nเธอชื่ออะไร?$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's {PLAYER}{KUN}?$"
+.string "ถ้าอย่างนั้น เธอคือ {PLAYER}{KUN} สินะ?$"
 
 gText_Birch_YourePlayer::
-	.string "Ah, okay!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
-	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!\p"
-	.string "$"
+.string "อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของผม\lตอนนี้เข้าใจแล้วละ!\p$"
 
 gText_Birch_AreYouReady::
-	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
-	.string "$"
+.string "เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$"

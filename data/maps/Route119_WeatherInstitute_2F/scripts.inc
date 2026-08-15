@@ -264,24 +264,13 @@ Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
 	.string "in our business, anyway?$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
-	.string "We have a situation here!\p"
-	.string "A TEAM MAGMA mob just passed\n"
-	.string "the WEATHER INSTITUTE.\p"
-	.string "They appear to be headed for\n"
-	.string "MT. PYRE!$"
+.string "เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันอุตุนิยมวิทยาไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$"
 
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
-	.string "What?!\p"
-	.string "We can't waste any more time here!\n"
-	.string "We have to hurry to MT. PYRE, too!\p"
-	.string "Ahahahaha!\n"
-	.string "TEAM MAGMA, just you wait!$"
+.string "ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริบิเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
-	.string "Thanks!\n"
-	.string "Thanks to you, we're safe!\p"
-	.string "It might be an odd way of thanking you,\n"
-	.string "but take this POKéMON.$"
+.string "ขอบคุณ!\nเพราะคุณ พวกเราจึงปลอดภัย!\pอาจเป็นวิธีขอบคุณที่แปลกหน่อย\nแต่รับโปเกมอนตัวนี้ไปเถอะ$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
@@ -289,7 +278,7 @@ Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "for this POKéMON.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
-	.string "{PLAYER} received CASTFORM!$"
+.string "{PLAYER} ได้รับโพวารุน!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
 	.string "That POKéMON changes shape according\n"

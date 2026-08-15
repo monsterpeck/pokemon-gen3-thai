@@ -249,31 +249,20 @@ FortreeCity_Gym_Text_WinonaDefeat:
 	.string "I present to you this GYM BADGE.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
-	.string "{PLAYER} received the FEATHER BADGE\n"
-	.string "from WINONA.$"
+.string "{PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนางิ$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all POKéMON up\n"
-	.string "to LV 70, even those received through\l"
-	.string "trades, will obey your every command.\p"
-	.string "You will also be able to use\n"
-	.string "the HM move FLY outside of battle.\p"
-	.string "And this…\n"
-	.string "This is a gift from me.$"
+.string "เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโอะโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$"
 
 FortreeCity_Gym_Text_ExplainAerialAce:
-	.string "TM40 contains AERIAL ACE.\p"
-	.string "Its speed…\n"
-	.string "No POKéMON should be able to avoid it.\p"
-	.string "… … … … … …$"
+.string "TM40 บรรจุท่าสึบาเมะกาเอชิ\pด้วยความเร็วของมัน…\nไม่มีโปเกมอนตัวไหนหลบได้แน่\p… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
 	.string "Registered GYM LEADER WINONA\n"
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+.string "แม้ฉันจะแพ้เธอ แต่ฉันจะยังคง\nทุ่มเทให้โปเกมอนนกต่อไป$"
 
 FortreeCity_Gym_Text_GymStatue:
 	.string "FORTREE CITY POKéMON GYM$"

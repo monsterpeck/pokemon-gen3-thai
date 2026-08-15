@@ -482,34 +482,10 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 	.string "with us members and our leader.$"
 
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
-	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
-	.string "of us, but we also got what we wanted.\p"
-	.string "The RED ORB preserved at MT. PYRE…\n"
-	.string "I, ARCHIE, now have it in my possession!\p"
-	.string "Fufufu… Now we can bring our ultimate\n"
-	.string "objective to fruition!\p"
-	.string "Okay, TEAM!\n"
-	.string "We're pulling out!$"
+.string "อาโอกิริ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริบิ…\nตอนนี้อยู่ในมือของฉัน อาโอกิริแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$"
 
 MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
-	.string "Oh, no…\n"
-	.string "This cannot happen…\p"
-	.string "Not only the BLUE ORB, but even\n"
-	.string "the RED ORB has been taken…\p"
-	.string "The BLUE ORB and RED ORB must never\n"
-	.string "be separated. They belong together.\p"
-	.string "What are those men trying to do with\n"
-	.string "the two ORBS?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Oh, yes. Was it TEAM MAGMA who came\n"
-	.string "and took the BLUE ORB first?\p"
-	.string "Well, in their haste, they left this\n"
-	.string "behind.\p"
-	.string "I couldn't imagine what exactly it\n"
-	.string "could be.\p"
-	.string "I would like you to have it.\n"
-	.string "Perhaps it will be useful in some way.$"
+.string "โอ้ ไม่นะ…\nเรื่องเช่นนี้เกิดขึ้นไม่ได้…\pไม่ใช่แค่ลูกแก้วสีน้ำเงิน\nแม้แต่ลูกแก้วสีแดงก็ถูกชิงไป…\pลูกแก้วสีน้ำเงินกับลูกแก้วสีแดง\nห้ามแยกจากกัน ทั้งสองต้องอยู่คู่กัน\pคนพวกนั้นคิดจะทำอะไร\nกับลูกแก้วทั้งสองกันแน่?\p… … … … … …\n… … … … … …\pอ้อ ใช่ ทีมแมกมาเป็นพวกที่มา\nเอาลูกแก้วสีน้ำเงินไปก่อนสินะ?\pแต่ตอนรีบร้อน พวกเขาทิ้ง\nสิ่งนี้เอาไว้\pฉันเองก็นึกไม่ออกว่า\nมันคืออะไรกันแน่\pฉันอยากมอบมันให้เธอ\nบางทีมันอาจมีประโยชน์ก็ได้$"
 
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
 	.string "The BLUE ORB and RED ORB taken by\n"
@@ -532,21 +508,10 @@ MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "a POKéMON, but no one knows.$"
 
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
-	.string "The two men who took the ORBS came\n"
-	.string "back to return them on their own.\p"
-	.string "Those men…\n"
-	.string "Perhaps they are not so evil after all…$"
+.string "ชายสองคนที่เอาลูกแก้วไป\nกลับมาคืนด้วยตัวเองแล้ว\pคนเหล่านั้น…\nบางทีอาจไม่ได้ชั่วร้ายนักก็ได้…$"
 
 MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
-	.string "The embodiments of the land, sea,\n"
-	.string "and the sky…\p"
-	.string "That is said to be the identities of\n"
-	.string "the super-ancient POKéMON…\p"
-	.string "In the same way that we humans and\n"
-	.string "POKéMON have life, our world, too,\l"
-	.string "is alive…\p"
-	.string "The super-ancient POKéMON have\n"
-	.string "taught us that…$"
+.string "ตัวแทนแห่งผืนดิน ท้องทะเล\nและท้องฟ้า…\pกล่าวกันว่านั่นคือตัวตนของ\nโปเกมอนยุคบรรพกาล…\pเช่นเดียวกับมนุษย์และโปเกมอน\nที่มีชีวิต โลกของเราเองก็\lมีชีวิตเช่นกัน…\pโปเกมอนยุคบรรพกาล\nได้สอนเรื่องนั้นแก่เรา…$"
 
 MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "MT. PYRE is where we calm the spirits\n"
@@ -584,9 +549,7 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 	.string "Well, that, too, is fine…$"
 
 MtPyre_Summit_Text_MaxieSilence:
-	.string "MAXIE: {PLAYER}…\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+.string "มัตสึบูสะ: {PLAYER}…\p… … … … … …\n… … … … … …$"
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "It is my role to pass on the legends\n"

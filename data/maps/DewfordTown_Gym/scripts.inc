@@ -396,32 +396,20 @@ DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+.string "{PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The KNUCKLE BADGE makes all POKéMON\n"
-	.string "up to Level 30, even those you get in\l"
-	.string "trades, obey without question.\p"
-	.string "And, you'll be able to use the HM move\n"
-	.string "FLASH outside of battle.\p"
-	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.$"
+.string "นัคเคิลแบดจ์ทำให้โปเกมอน\nถึงเลเวล 30 เชื่อฟังทุกคำสั่ง\lแม้จะได้มาจากการแลกเปลี่ยน\pและยังใช้ท่า HM แฟลช\nนอกการต่อสู้ได้ด้วย\pถ้าต้องการ ก็รับเครื่องเทคนิค\nนี้ไปใช้ด้วย$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
-	.string "… … … … … …$"
+.string "TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "Registered GYM LEADER BRAWLY\n"
 	.string "in the POKéNAV.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!$"
+.string "ฉันมองเห็นพรสวรรค์ของเธอเติบโต\nเป็นคลื่นยักษ์ที่สั่นสะเทือน\lเหล่าเทรนเนอร์ในสักวัน!$"
 
 DewfordTown_Gym_Text_GymStatue:
 	.string "DEWFORD TOWN POKéMON GYM$"

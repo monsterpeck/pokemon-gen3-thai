@@ -233,46 +233,23 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "you with this, the RAIN BADGE!$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
-	.string "{PLAYER} received the RAIN BADGE\n"
-	.string "from JUAN.$"
+.string "{PLAYER} ได้รับอาเมะแบดจ์\nจากอาดัน$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
-	.string "Having the RAIN BADGE shall assure you\n"
-	.string "the full obedience of all your POKéMON\l"
-	.string "to your every command.\p"
-	.string "The RAIN BADGE also allows the use\n"
-	.string "of the HM move WATERFALL to scale\l"
-	.string "walls of cascading water.\p"
-	.string "And, so that you never forget the\n"
-	.string "battle we shared, take this…$"
+.string "เมื่อมีอาเมะแบดจ์ โปเกมอนทุกตัว\nจะเชื่อฟังทุกคำสั่งของเจ้า\lอย่างสมบูรณ์\pอาเมะแบดจ์ยังทำให้ใช้ท่า HM\nทากิโนโบริ เพื่อไต่ขึ้นไปตาม\lม่านน้ำตกได้\pและเพื่อไม่ให้เจ้าลืมการต่อสู้\nที่เรามีร่วมกัน รับสิ่งนี้ไป…$"
 
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
-	.string "The TECHNICAL MACHINE I handed you\n"
-	.string "contains WATER PULSE.\p"
-	.string "In use, it will occasionally confuse\n"
-	.string "the target with ultrasonic waves.\p"
-	.string "… … … … … …$"
+.string "เทคนิคแมชชีนที่ข้ามอบให้\nบรรจุท่ามิซึโนะฮาโด\pเมื่อใช้ บางครั้งคลื่นเสียงความถี่สูง\nจะทำให้เป้าหมายสับสน\p… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "Registered GYM LEADER JUAN\n"
 	.string "in the POKéNAV.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-	.string "The TRAINERS who have gathered all\n"
-	.string "the GYM BADGES of HOENN should make\l"
-	.string "way to the ultimate destination.\p"
-	.string "The POKéMON LEAGUE.\p"
-	.string "Travel to the easternmost reaches\n"
-	.string "of HOENN, to the island EVER GRANDE.\p"
-	.string "There, you shall find the POKéMON\n"
-	.string "LEAGUE.$"
+.string "เหล่าเทรนเนอร์ผู้รวบรวม\nยิมแบดจ์แห่งโฮเอ็นครบแล้ว จง\lมุ่งหน้าสู่จุดหมายสูงสุด\pโปเกมอนลีก\pเดินทางไปยังปลายสุดทางตะวันออก\nของโฮเอ็น สู่เกาะไซยู\pที่นั่น เจ้าจะพบกับโปเกมอน\nลีก$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
-	.string "There remains but one BADGE to\n"
-	.string "obtain in HOENN.\p"
-	.string "If you wish to challenge the POKéMON\n"
-	.string "LEAGUE, you must obtain the last\l"
-	.string "BADGE from the GYM in FORTREE.$"
+.string "ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวะมากิ$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
 	.string "SOOTOPOLIS CITY POKéMON GYM$"

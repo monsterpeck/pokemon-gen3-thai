@@ -101,9 +101,7 @@ AquaHideout_B2F_Text_MattDefeat:
 	.string "So, I lost, too…$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "Hehehe!\p"
-	.string "While I was toying with you, our BOSS\n"
-	.string "got through his preparations!$"
+.string "ฮี่ ๆ ๆ!\pระหว่างที่ฉันถ่วงเวลาแก บอสของเรา\nก็เตรียมการเสร็จเรียบร้อยแล้ว!$"
 
 AquaHideout_B2F_Text_MattPostBattle:
 	.string "Hehehe!\p"

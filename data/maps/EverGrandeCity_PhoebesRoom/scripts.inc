@@ -59,15 +59,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "I did my training on MT. PYRE.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with GHOST-type POKéMON.\p"
-	.string "Yes, the bond I developed with POKéMON\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my POKéMON!$"
+.string "อ๊ะฮ่า ๆ!\pฉันคือฟูโยแห่งสี่จตุรเทพ\nฉันฝึกฝนอยู่ที่ภูเขาโอคุริบิ\pระหว่างฝึก ฉันได้ความสามารถ\nในการสื่อใจกับโปเกมอนประเภทผี\pใช่แล้ว สายสัมพันธ์ที่ฉันสร้าง\nกับโปเกมอนแน่นแฟ้นสุด ๆ\pเอ้า ลองดูสิว่าเธอจะสร้าง\nความเสียหายให้โปเกมอนของฉันได้ไหม!$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
 	.string "Oh, darn.\n"
