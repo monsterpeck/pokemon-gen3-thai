@@ -1,0 +1,21 @@
+{
+  "batch_id": "20260814-221750-phase6-batch55-battle-trainer-sendout-withdraw-messages",
+  "locked_head": "1e55e02f60483303e3696f3ae4a5c1dd3da16a12",
+  "state": "applied_build_passed",
+  "item_count": 10,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 388,
+    "pending": 30,
+    "blocked": 18
+  },
+  "inventory_after": {
+    "proof_passed": 388,
+    "pending": 20,
+    "translated_pending_qa": 10,
+    "blocked": 18
+  },
+  "preview_rom_sha256": "ef674a0c72e6e0106eb040ddb0d65e0bcf68ef48f93caf2a1ef8a908f20b5667",
+  "normal_rom_sha256": "ef674a0c72e6e0106eb040ddb0d65e0bcf68ef48f93caf2a1ef8a908f20b5667"
+}

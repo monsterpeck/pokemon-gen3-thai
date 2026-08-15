@@ -1,0 +1,15 @@
+﻿symbol,reference
+sText_LinkTrainerSentOutPkmn,src/battle_message.c:2075:                    stringPtr = sText_LinkTrainerSentOutPkmn;
+sText_PkmnThatsEnough,src/battle_message.c:2083:                stringPtr = sText_PkmnThatsEnough;
+sText_PkmnOkComeBack,src/battle_message.c:2087:                stringPtr = sText_PkmnOkComeBack;
+sText_PkmnGoodComeBack,src/battle_message.c:2089:                stringPtr = sText_PkmnGoodComeBack;
+sText_LinkTrainer2WithdrewPkmn,src/battle_message.c:2096:                    stringPtr = sText_LinkTrainer2WithdrewPkmn;
+sText_LinkTrainer1WithdrewPkmn,src/battle_message.c:2098:                    stringPtr = sText_LinkTrainer1WithdrewPkmn;
+sText_Trainer1WithdrewPkmn,src/battle_message.c:2102:                stringPtr = sText_Trainer1WithdrewPkmn;
+sText_YourFoesWeakGetEmPkmn,src/battle_message.c:2116:                stringPtr = sText_YourFoesWeakGetEmPkmn;
+sText_Trainer1SentOutPkmn2,src/battle_message.c:2125:                        stringPtr = sText_Trainer1SentOutPkmn2;
+sText_Trainer1SentOutPkmn2,src/battle_message.c:2134:                        stringPtr = sText_Trainer1SentOutPkmn2;
+sText_Trainer1SentOutPkmn2,src/battle_message.c:2144:                        stringPtr = sText_Trainer1SentOutPkmn2;
+sText_Trainer1SentOutPkmn2,src/battle_message.c:2150:                    stringPtr = sText_Trainer1SentOutPkmn2;
+sText_Trainer2SentOutPkmn,src/battle_message.c:2127:                        stringPtr = sText_Trainer2SentOutPkmn;
+sText_Trainer2SentOutPkmn,src/battle_message.c:2146:                        stringPtr = sText_Trainer2SentOutPkmn;

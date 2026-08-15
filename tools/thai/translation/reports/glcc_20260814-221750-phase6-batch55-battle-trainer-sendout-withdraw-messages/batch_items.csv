@@ -1,0 +1,31 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0385,sText_LinkTrainerSentOutPkmn,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} sent out
+{B_OPPONENT_MON1_NAME}!","{B_LINK_OPPONENT1_NAME} ส่ง
+{B_OPPONENT_MON1_NAME} ออกมา!",1,1,,71,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0386,sText_PkmnThatsEnough,src/battle_message.c,"{B_BUFF1}, that's enough!
+Come back!","{B_BUFF1}, พอแล้ว!
+กลับมา!",1,1,,107,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0388,sText_PkmnOkComeBack,src/battle_message.c,"{B_BUFF1}, OK!
+Come back!","{B_BUFF1}, โอเค!
+กลับมา!",1,1,,96,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0389,sText_PkmnGoodComeBack,src/battle_message.c,"{B_BUFF1}, good!
+Come back!","{B_BUFF1}, ดีมาก!
+กลับมา!",1,1,,98,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0390,sText_LinkTrainer2WithdrewPkmn,src/battle_message.c,"{B_LINK_SCR_TRAINER_NAME} withdrew
+{B_BUFF1}!","{B_LINK_SCR_TRAINER_NAME} เรียก
+{B_BUFF1} กลับ!",1,1,,73,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0391,sText_LinkTrainer1WithdrewPkmn,src/battle_message.c,"{B_LINK_OPPONENT1_NAME} withdrew
+{B_BUFF1}!","{B_LINK_OPPONENT1_NAME} เรียก
+{B_BUFF1} กลับ!",1,1,,73,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0392,sText_Trainer1WithdrewPkmn,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+withdrew {B_BUFF1}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME}
+เรียก {B_BUFF1} กลับ!",1,1,,77,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0396,sText_YourFoesWeakGetEmPkmn,src/battle_message.c,"Your foe's weak!
+Get 'em, {B_BUFF1}!","คู่ต่อสู้อ่อนแรงแล้ว!
+จัดการเลย {B_BUFF1}!",1,1,,161,MEDIUM,หลายบรรทัด,src/battle_message.c,{},pass,pending
+SM0397,sText_Trainer1SentOutPkmn2,src/battle_message.c,"{B_TRAINER1_CLASS} {B_TRAINER1_NAME} sent
+out {B_BUFF1}!","{B_TRAINER1_CLASS} {B_TRAINER1_NAME} ส่ง
+{B_BUFF1} ออกมา!",4,4,,75,MEDIUM,หลายบรรทัด; ใช้งาน 4 จุด,src/battle_message.c,{},pass,pending
+SM0398,sText_Trainer2SentOutPkmn,src/battle_message.c,"{B_TRAINER2_CLASS} {B_TRAINER2_NAME} sent
+out {B_BUFF1}!","{B_TRAINER2_CLASS} {B_TRAINER2_NAME} ส่ง
+{B_BUFF1} ออกมา!",2,2,,75,MEDIUM,หลายบรรทัด; ใช้งาน 2 จุด,src/battle_message.c,{},pass,pending
