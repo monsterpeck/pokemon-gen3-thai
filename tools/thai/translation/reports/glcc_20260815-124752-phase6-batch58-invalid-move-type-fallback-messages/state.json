@@ -1,0 +1,20 @@
+{
+  "batch_id": "20260815-124752-phase6-batch58-invalid-move-type-fallback-messages",
+  "locked_head": "f09b51d435cc6905c642490c135726da51160536",
+  "state": "applied_build_passed",
+  "item_count": 18,
+  "manifest_count_is_dynamic": true,
+  "visual_qa": "pending",
+  "inventory_before": {
+    "proof_passed": 416,
+    "blocked": 2,
+    "pending": 18
+  },
+  "inventory_after": {
+    "proof_passed": 416,
+    "blocked": 2,
+    "translated_pending_qa": 18
+  },
+  "preview_rom_sha256": "ea24497e584ecf5be6b179cbd3e2644c2c5b0ad4d1b9711202fad2ab6f2443b4",
+  "normal_rom_sha256": "ea24497e584ecf5be6b179cbd3e2644c2c5b0ad4d1b9711202fad2ab6f2443b4"
+}

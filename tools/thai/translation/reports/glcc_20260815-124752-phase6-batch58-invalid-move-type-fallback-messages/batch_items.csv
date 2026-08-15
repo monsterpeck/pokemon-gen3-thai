@@ -1,0 +1,19 @@
+﻿ui_id,symbol,source_file,source_text,target_text,inventory_usage_count,live_reference_count,width_limit_px,calculated_width_px,risk_level,risk_reasons,reference_files,qa_samples,analysis_result,visual_qa_status
+SM0419,sATypeMove_Table[0],src/battle_message.c,a NORMAL move,ท่าประเภทปกติ,1,1,,66,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0420,sATypeMove_Table[1],src/battle_message.c,a FIGHTING move,ท่าประเภทต่อสู้,1,1,,65,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0421,sATypeMove_Table[2],src/battle_message.c,a FLYING move,ท่าประเภทบิน,1,1,,61,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0422,sATypeMove_Table[3],src/battle_message.c,a POISON move,ท่าประเภทพิษ,1,1,,62,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0423,sATypeMove_Table[4],src/battle_message.c,a GROUND move,ท่าประเภทดิน,1,1,,61,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0424,sATypeMove_Table[5],src/battle_message.c,a ROCK move,ท่าประเภทหิน,1,1,,61,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0425,sATypeMove_Table[6],src/battle_message.c,a BUG move,ท่าประเภทแมลง,1,1,,70,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0426,sATypeMove_Table[7],src/battle_message.c,a GHOST move,ท่าประเภทผี,1,1,,52,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0427,sATypeMove_Table[8],src/battle_message.c,a STEEL move,ท่าประเภทเหล็ก,1,1,,69,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0428,sATypeMove_Table[9],src/battle_message.c,a ??? move,ท่าประเภท???,1,1,,70,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0429,sATypeMove_Table[10],src/battle_message.c,a FIRE move,ท่าประเภทไฟ,1,1,,60,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0430,sATypeMove_Table[11],src/battle_message.c,a WATER move,ท่าประเภทน้ำ,1,1,,57,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0431,sATypeMove_Table[12],src/battle_message.c,a GRASS move,ท่าประเภทหญ้า,1,1,,65,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0432,sATypeMove_Table[13],src/battle_message.c,an ELECTRIC move,ท่าประเภทไฟฟ้า,1,1,,72,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0433,sATypeMove_Table[14],src/battle_message.c,a PSYCHIC move,ท่าประเภทพลังจิต,1,1,,77,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0434,sATypeMove_Table[15],src/battle_message.c,an ICE move,ท่าประเภทน้ำแข็ง,1,1,,74,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0435,sATypeMove_Table[16],src/battle_message.c,a DRAGON move,ท่าประเภทมังกร,1,1,,68,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
+SM0436,sATypeMove_Table[17],src/battle_message.c,a DARK move,ท่าประเภทความมืด,1,1,,84,LOW,บรรทัดเดียว ไม่มี token,src/battle_message.c,{},pass,pending
