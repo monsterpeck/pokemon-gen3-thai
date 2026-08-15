@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayRoute103Pokemon`
 - English preview: MAY: Let's see… The POKéMON found<br>on ROUTE 103 include…
-- Thai: เมย์: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
+- Thai: ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayLetsBattle`
 - English preview: Oh, hi, {PLAYER}{KUN}!<br>[PAGE]<br>…Oh, I see, my dad gave you<br>a POKéMON as a gift.<br>[PAGE]<br>Since we're here, let's have a quick<br>battle!<br>[PAGE]<br>I'll give you a taste of what being<br>a TRAINER is like.
-- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้สัมผัสว่า\nการเป็นเทรนเนอร์เป็นยังไง$
+- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanRoute103Pokemon`
 - English preview: BRENDAN: Okay, so it's this one and<br>that one that live on ROUTE 103…
-- Thai: เบรนแดน: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
+- Thai: ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayTimeToHeadBack`
 - English preview: MAY: I think I know why my dad has<br>an eye out for you now.<br>[PAGE]<br>I mean, you just got that POKéMON,<br>but it already likes you.<br>[PAGE]<br>You might be able to befriend any<br>kind of POKéMON easily.<br>[PAGE]<br>Well, it's time to head back to<br>the LAB.
-- Thai: เมย์: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
+- Thai: ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -107,7 +107,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanTimeToHeadBack`
 - English preview: BRENDAN: I think I get it.<br>I think I know why my dad has his eye<br>out for you now.<br>[PAGE]<br>Look, your POKéMON already likes you,<br>even though you just got it.<br>[PAGE]<br>{PLAYER}, I get the feeling that you<br>could befriend any POKéMON with ease.<br>[PAGE]<br>We should head back to the LAB.
-- Thai: เบรนแดน: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
+- Thai: ยูคิ: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
 - Placeholders: {PLAYER}
 - Control codes: \n | \l | \p | \n | \p | {PLAYER} | \n | \p
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex`
 - English preview: PROF. BIRCH: The POKéDEX is a high-tech<br>tool that automatically makes a record<br>of any POKéMON you meet or catch.<br>[PAGE]<br>My kid, {RIVAL}, goes everywhere<br>with it.<br>[PAGE]<br>Whenever my kid catches a rare POKéMON<br>and records its data in the POKéDEX,<br>why, {RIVAL} looks for me while I'm out<br>doing fieldwork, and shows me.
-- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอามาให้ดู$
+- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$
 - Placeholders: {RIVAL} | {RIVAL}
 - Control codes: \n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l
 - Translation confidence: high
@@ -202,7 +202,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LittlerootTown_Text_OurNewHomeLetsGoInside`
 - English preview: MOM: {PLAYER}, we're here, honey!<br>[PAGE]<br>It must be tiring riding with our things<br>in the moving truck.<br>[PAGE]<br>Well, this is LITTLEROOT TOWN.<br>[PAGE]<br>How do you like it?<br>This is our new home!<br>[PAGE]<br>It has a quaint feel, but it seems to be<br>an easy place to live, don't you think?<br>[PAGE]<br>And, you get your own room, {PLAYER}!<br>Let's go inside.
-- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองลิตเติลรูท\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
+- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: {PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high

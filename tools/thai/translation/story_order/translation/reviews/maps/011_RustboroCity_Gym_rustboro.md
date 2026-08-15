@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ReceivedStoneBadge`
 - English preview: {PLAYER} received the STONE BADGE<br>from ROXANNE.
-- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากคานาซึมิ$
+- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากสึสึจิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: medium
@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ExplainRockTomb`
 - English preview: That TECHNICAL MACHINE, TM39,<br>contains ROCK TOMB.<br>[PAGE]<br>It not only inflicts damage by dropping<br>rocks, it also lowers SPEED.<br>[PAGE]<br>If you use a TM, it instantly teaches<br>the move to a POKéMON.<br>[PAGE]<br>Remember, a TM can be used only once,<br>so think before you use it.
-- Thai: เครื่องเทคนิค TM39 เครื่องนั้น\nบรรจุท่าร็อกทูมบ์\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
+- Thai: เครื่องเทคนิค TM39\nบรรจุท่ากังเซกิฟูจิ\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high

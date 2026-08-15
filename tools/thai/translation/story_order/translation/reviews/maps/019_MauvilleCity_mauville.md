@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_UncleCanYouBattleWally`
 - English preview: UNCLE: {PLAYER}{KUN}, was it?<br>On WALLY's behalf, can I ask you to<br>battle with him just this once?<br>[PAGE]<br>I don't think he's going to listen to<br>any reason the way he is now.
-- Thai: คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$
+- Thai: คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอร้องแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \p | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_WallyWantToChallengeGym`
 - English preview: WALLY: Aww, UNCLE, please?<br>[PAGE]<br>I want to challenge this GYM and see<br>how much better I've become.<br>[PAGE]<br>Please? May I, please?
-- Thai: มิตสึรุ: โธ่ คุณลุง ขอร้องละครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$
+- Thai: มิตสึรุ: โธ่ คุณลุง ขอร้องล่ะครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: high
@@ -126,7 +126,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Text_UncleVisitUsSometime`
 - English preview: UNCLE: {PLAYER}{KUN}, it just dawned on me<br>that you must be the TRAINER who kept<br>an eye out for WALLY when he caught<br>his POKéMON.<br>[PAGE]<br>Why don't you visit us in VERDANTURF<br>sometime?<br>I'm sure WALLY would enjoy it.
-- Thai: คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยดูแลมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$
+- Thai: คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยช่วยมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \l | \p | \n | \l
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Text_ScottYouDidntHoldBack`
 - English preview: SCOTT: Hehe…<br>I was watching that match!<br>[PAGE]<br>You're friends with that boy WALLY,<br>aren't you?<br>[PAGE]<br>But you didn't hold anything back<br>and beat him impressively.<br>[PAGE]<br>Yeah! That's what a real POKéMON<br>battle is all about!<br>[PAGE]<br>I idolize TRAINERS like that!<br>[PAGE]<br>… … … … … …<br>I'll be cheering for you!
-- Thai: สก็อต: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$
+- Thai: เอนิชิดะ: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -183,7 +183,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_WallyIllGoBackToVerdanturf`
 - English preview: WALLY: UNCLE…<br>I'll go back to VERDANTURF…
-- Thai: มิตสึรุ: คุณลุง…\nผมจะกลับชิดาเกะครับ…$
+- Thai: มิตสึรุ: คุณลุง…\nผมจะกลับไปชิดาเกะครับ…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -259,7 +259,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wattson
 - Source label: `MauvilleCity_Gym_Text_WattsonPostBattle`
 - English preview: I swell with optimism, seeing a promising<br>young TRAINER like you!
-- Thai: พอเห็นเทรนเนอร์รุ่นเยาว์ที่มีอนาคต\nอย่างเธอแล้ว ฉันก็เปี่ยมด้วยความหวัง!$
+- Thai: พอเห็นเทรนเนอร์รุ่นใหม่อนาคตไกล\nอย่างเธอแล้ว ฉันก็ชื่นใจจริง ๆ!$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: medium
@@ -278,7 +278,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ReceivedDynamoBadge`
 - English preview: {PLAYER} received the DYNAMO BADGE<br>from WATTSON.
-- Thai: {PLAYER} ได้รับไดนาโมแบดจ์\nจากเทสเซ็น$
+- Thai: {PLAYER} ได้รับไดนาโมแบดจ์\nจากเท็ตเซ็น$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -297,7 +297,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis`
 - English preview: With the DYNAMO BADGE, POKéMON can<br>use ROCK SMASH out of battle.<br>[PAGE]<br>And, it will make your POKéMON a little<br>bit faster, too.<br>[PAGE]<br>Hmm…<br>You should take this, too!
-- Thai: เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้ร็อกสแมชนอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$
+- Thai: เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้อิวะคุดากินอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -316,7 +316,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ExplainShockWave`
 - English preview: That TM34 there contains SHOCK WAVE.<br>[PAGE]<br>It's a trustworthy move that never<br>misses! You can count on it!<br>[PAGE]<br>… … … … … …
-- Thai: TM34 นั่นบรรจุท่าช็อกเวฟ\pเป็นท่าที่ไว้ใจได้และไม่มีวัน\nพลาดเป้า! เชื่อมือได้เลย!\p… … … … … …$
+- Thai: TM34 นั่นบรรจุท่าเด็งเงกิฮะ\pเป็นท่าที่ไม่มีวันพลาดเป้า!\nวางใจได้เลย!\p… … … … … …$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: medium

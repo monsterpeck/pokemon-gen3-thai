@@ -6,7 +6,7 @@ POKéMON that prevailed through
 harsh battles.
 [PAGE]
 It is here that the LEAGUE CHAMPIONS
-are honored.",มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,
+are honored.",มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nแชมเปี้ยนแห่งลีก$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,
 dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,หอเกียรติยศ,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
 name as a TRAINER who triumphed over
 the POKéMON LEAGUE, and the names of

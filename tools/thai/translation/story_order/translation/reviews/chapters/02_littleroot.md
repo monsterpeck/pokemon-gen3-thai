@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `RivalsHouse_1F_Text_BrendanWhoAreYou`
 - English preview: Hey!<br>You…<br>[PAGE]<br>Who are you?<br>[PAGE]<br>Oh, you're {PLAYER}, aren't you?<br>Moved in next door, right?<br>[PAGE]<br>I didn't know that you're a girl.<br>[PAGE]<br>Dad, PROF. BIRCH, said that our new<br>next-door neighbor is a GYM LEADER's<br>kid, so I assumed you'd be a guy.<br>[PAGE]<br>My name's BRENDAN.<br>So, hi, neighbor!<br>[PAGE]<br>Huh? Hey, {PLAYER}, don't you have<br>a POKéMON?<br>[PAGE]<br>Do you want me to go catch you one?<br>[PAGE]<br>Aw, darn, I forgot…<br>[PAGE]<br>I'm supposed to go help my dad catch<br>some wild POKéMON.<br>[PAGE]<br>Some other time, okay?
-- Thai: เฮ้!\nเธอน่ะ…\pเป็นใครกัน?\pอ๋อ เธอคือ {PLAYER} ใช่ไหม?\nคนที่เพิ่งย้ายมาอยู่ข้างบ้านสินะ\pไม่รู้มาก่อนเลยว่าเธอเป็นผู้หญิง\pพ่อของฉัน ศ.เบิร์ช บอกว่าเพื่อนบ้านใหม่\nเป็นลูกของยิมลีดเดอร์\lฉันเลยนึกว่าจะเป็นผู้ชายน่ะ\pฉันชื่อเบรนแดน\nยินดีที่ได้รู้จักนะ เพื่อนบ้าน!\pเอ๊ะ? {PLAYER} เธอยังไม่มี\nโปเกมอนเหรอ?\pอยากให้ฉันไปจับมาให้สักตัวไหม?\pอ๊ะ แย่ละ ลืมไปเลย…\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา\pไว้คราวหน้านะ ตกลงไหม?$
+- Thai: เฮ้!\nเธอน่ะ…\pเป็นใครกัน?\pอ๋อ เธอคือ {PLAYER} ใช่ไหม?\nคนที่เพิ่งย้ายมาอยู่ข้างบ้านสินะ\pไม่รู้มาก่อนเลยว่าเธอเป็นผู้หญิง\pพ่อของฉัน ศ.เบิร์ช บอกว่าเพื่อนบ้านใหม่\nเป็นลูกของยิมลีดเดอร์\lฉันเลยนึกว่าจะเป็นผู้ชายน่ะ\pฉันชื่อยูคิ\nยินดีที่ได้รู้จักนะ เพื่อนบ้าน!\pเอ๊ะ? {PLAYER} เธอยังไม่มี\nโปเกมอนเหรอ?\pอยากให้ฉันไปจับมาให้สักตัวไหม?\pอ๊ะ แย่ละ ลืมไปเลย…\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา\pไว้คราวหน้านะ ตกลงไหม?$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \p | {PLAYER} | \n | \p | \p | \n | \l | \p | \n | \p | {PLAYER} | \n | \p | \p | \p | \n | \p
 - Translation confidence: medium
@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `RivalsHouse_1F_Text_MayWhoAreYou`
 - English preview: Huh?<br>Who… Who are you?<br>[PAGE]<br>… … … … … … … …<br>… … … … … … … …<br>[PAGE]<br>Oh, you're {PLAYER}{KUN}.<br>So your move was today.<br>[PAGE]<br>Um… I'm MAY.<br>Glad to meet you!<br>[PAGE]<br>I…<br>I have this dream of becoming friends<br>with POKéMON all over the world.<br>[PAGE]<br>I… I heard about you, {PLAYER}{KUN}, from<br>my dad, PROF. BIRCH.<br>[PAGE]<br>I was hoping that you would be nice,<br>{PLAYER}{KUN}, and that we could be friends.<br>[PAGE]<br>Oh, this is silly, isn't it?<br>I… I've just met you, {PLAYER}{KUN}.<br>[PAGE]<br>Eheheh…<br>[PAGE]<br>Oh, no! I forgot!<br>[PAGE]<br>I was supposed to go help Dad catch<br>some wild POKéMON!<br>[PAGE]<br>{PLAYER}{KUN}, I'll catch you later!
-- Thai: เอ๊ะ?\nคะ… คุณเป็นใครคะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะคะ\pเอ่อ… ฉันชื่อเมย์ค่ะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลยค่ะ\pฉัน… ได้ยินเรื่องของคุณ {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ชค่ะ\pฉันหวังว่าคุณจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะคะ\nทั้งที่ฉัน… เพิ่งพบคุณแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะคะ!$
+- Thai: เอ๊ะ?\nคะ… คุณเป็นใครคะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะคะ\pเอ่อ… ฉันชื่อฮารุกะค่ะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลยค่ะ\pฉัน… ได้ยินเรื่องของคุณ {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ชค่ะ\pฉันหวังว่าคุณจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะคะ\nทั้งที่ฉัน… เพิ่งพบคุณแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะคะ!$
 - Placeholders: {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN}
 - Translation confidence: medium
@@ -126,7 +126,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route101_Text_YouSavedMe`
 - English preview: PROF. BIRCH: Whew…<br>[PAGE]<br>I was in the tall grass studying wild<br>POKéMON when I was jumped.<br>[PAGE]<br>You saved me.<br>Thanks a lot!<br>[PAGE]<br>Oh?<br>[PAGE]<br>Hi, you're {PLAYER}{KUN}!<br>[PAGE]<br>This is not the place to chat, so come<br>by my POKéMON LAB later, okay?
-- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมนะ?$
+- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมทีหลังนะ$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon`
 - English preview: PROF. BIRCH: So, {PLAYER}{KUN}.<br>[PAGE]<br>I've heard so much about you from<br>your father.<br>[PAGE]<br>I've heard that you don't have your<br>own POKéMON yet.<br>[PAGE]<br>But the way you battled earlier,<br>you pulled it off with aplomb!<br>[PAGE]<br>I guess you have your father's blood<br>in your veins after all!<br>[PAGE]<br>Oh, yes. As thanks for rescuing me,<br>I'd like you to have the POKéMON you<br>used earlier.<br>[PAGE]<br>{PLAYER} received the {STR_VAR_1}!
-- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากคุณพ่อมาเยอะเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่มีสายเลือด\nของคุณพ่ออยู่ในตัว!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
+- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
 - Placeholders: {PLAYER} | {PLAYER} | {STR_VAR_1}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1}
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon`
 - English preview: PROF. BIRCH: While you're at it, why not<br>give a nickname to that {STR_VAR_1}?
-- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว จะไม่ลอง\nตั้งชื่อเล่นให้ {STR_VAR_1} ตัวนั้นหน่อยหรือ?$
+- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว ลองตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนั้นหน่อยไหม?$
 - Placeholders: {STR_VAR_1}
 - Control codes: \n | {STR_VAR_1}
 - Translation confidence: high

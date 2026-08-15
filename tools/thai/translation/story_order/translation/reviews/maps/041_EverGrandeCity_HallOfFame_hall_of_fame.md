@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions`
 - English preview: WALLACE: This room…<br>[PAGE]<br>This is where we keep records of<br>POKéMON that prevailed through<br>harsh battles.<br>[PAGE]<br>It is here that the LEAGUE CHAMPIONS<br>are honored.
-- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$
+- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nแชมเปี้ยนแห่งลีก$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n
 - Translation confidence: high

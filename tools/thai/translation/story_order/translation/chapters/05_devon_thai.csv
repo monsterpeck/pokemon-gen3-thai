@@ -70,7 +70,7 @@ by the sea near PETALBURG WOODS.
 Come, PEEKO, we should make our way
 home.
 [PAGE]
-PEEKO: Pihyoh!",พีโกะรอดมาได้ก็เพราะคุณ!\pคนเรียกฉันว่าคุณบรินี\nแล้วคุณคือ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+PEEKO: Pihyoh!",พีโกะรอดมาได้ก็เพราะคุณ!\pฉันชื่อฮากิ\nแล้วคุณล่ะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_a33aefbe6eb63e63,73,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,1,,RustboroCity_DevonCorp_1F_EventScript_GoodsRecovered,data/maps/RustboroCity_DevonCorp_1F/scripts.inc,103,RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered,It sounds like they've recovered\nthe ripped-off DEVON GOODS.$,"It sounds like they've recovered
 the ripped-off DEVON GOODS.",ดูเหมือนจะได้สินค้าเดวอน\nที่ถูกขโมยกลับมาแล้วนะ$,draft_review,\n,,high,high,high,ok,ok,
 dlg_d4bd710202b46c0c,74,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,2,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,267,RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere,"This is the DEVON CORPORATION's\nthird floor.\pOur PRESIDENT's OFFICE is on\nthis floor.\pAnyway, I can't tell you how much I'm\ngrateful for what you've done.\pUm… By the way, that parcel\nyou got back for us…\pCould I get you to deliver that to\nthe SHIPYARD in SLATEPORT?\pIt would be awful if those robbers\ntried to take it again.\pUh… Hehehe, so, uh, could I count\non you to do that for me?\pOh, that's right.\nCould you wait here a second?$","This is the DEVON CORPORATION's
@@ -95,7 +95,7 @@ Uh… Hehehe, so, uh, could I count
 on you to do that for me?
 [PAGE]
 Oh, that's right.
-Could you wait here a second?",ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณเรื่องที่คุณช่วยไว้\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
+Could you wait here a second?",ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณคุณ\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
 dlg_ef91cab884e7930d,75,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,3,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,285,RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe,Our PRESIDENT would like to have\na word with you.\pPlease come with me.$,"Our PRESIDENT would like to have
 a word with you.
 [PAGE]
@@ -119,14 +119,14 @@ Well, on the way, could you stop off in
 DEWFORD TOWN?
 [PAGE]
 I was hoping that you'd deliver a
-LETTER to STEVEN in DEWFORD.",ฉันคือคุณสโตน ประธาน\nบริษัทเดวอน\pฉันเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pฉันมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pฉันอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$,draft_review,\n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+LETTER to STEVEN in DEWFORD.",ผมคือประธานสึวาบุกิ\nแห่งบริษัทเดวอน\pผมเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pผมมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pผมอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$,draft_review,\n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
 dlg_d944c62595a62903,78,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,6,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,212,RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis,"MR. STONE: Now, you should know that\nI am a great PRESIDENT.\pSo, I'd never be so cheap as to ask\na favor for nothing in return.\pThat's why I want you to have this!$","MR. STONE: Now, you should know that
 I am a great PRESIDENT.
 [PAGE]
 So, I'd never be so cheap as to ask
 a favor for nothing in return.
 [PAGE]
-That's why I want you to have this!",คุณสโตน: คุณควรรู้ไว้นะว่า\nฉันเป็นประธานผู้ยิ่งใหญ่\pฉันจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ฉันอยากมอบนี่ให้คุณ!$,draft_review,\n | \p | \n | \p,,high,high,high,ok,ok,
+That's why I want you to have this!",ประธานสึวาบุกิ: คุณควรรู้ไว้นะว่า\nผมเป็นประธานผู้ยิ่งใหญ่\pผมจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ผมอยากมอบนี่ให้คุณ!$,draft_review,\n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_8cdabd7f75be9916,79,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,7,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,219,RustboroCity_DevonCorp_3F_Text_ReceivedPokenav,{PLAYER} received a POKéNAV.$,{PLAYER} received a POKéNAV.,{PLAYER} ได้รับโปเกนาวี$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,
 dlg_6e4ba929b10c625c,80,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,8,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,222,RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp,"MR. STONE: That device…\pIt's a POKéMON NAVIGATOR, or POKéNAV\nfor short.\pIt's an indispensable tool for any\nTRAINER on an adventure.\pIt has a map of the HOENN region.\pYou can check the locations of\nDEWFORD and SLATEPORT easily!\pBy the way, I've heard that sinister\ncriminals--MAGMA and AQUA, I believe--\lhave been making trouble far and wide.\pI think it would be best if you rested\nup before you go on your way.$","MR. STONE: That device…
 [PAGE]
@@ -146,11 +146,11 @@ criminals--MAGMA and AQUA, I believe--
 have been making trouble far and wide.
 [PAGE]
 I think it would be best if you rested
-up before you go on your way.",คุณสโตน: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ฉันได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$,draft_review,\p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+up before you go on your way.",ประธานสึวาบุกิ: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ผมได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$,draft_review,\p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
 dlg_80a46ed9b55cf555,81,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,9,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,237,RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare,"MR. STONE: Well, then, {PLAYER}{KUN},\ngo with caution and care!$","MR. STONE: Well, then, {PLAYER}{KUN},
-go with caution and care!",คุณสโตน: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+go with caution and care!",ประธานสึวาบุกิ: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_59680c8db999e859,82,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,1,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,96,Route104_MrBrineysHouse_Text_WaitUpPeeko,"MR. BRINEY: Hold on, lass!\nWait up, PEEKO!$","MR. BRINEY: Hold on, lass!
-Wait up, PEEKO!",คุณบรินี: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$,draft_review,\n,,high,high,high,ok,ok,
+Wait up, PEEKO!",คุณฮากิ: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$,draft_review,\n,,high,high,high,ok,ok,
 dlg_8b8f8c1d77b9c2c7,83,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,2,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,100,Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford,"Hm? You're {PLAYER}{KUN}!\nYou saved my darling PEEKO!\lWe owe so much to you!\pWhat's that?\nYou want to sail with me?\pHmhm…\pYou have a LETTER bound for DEWFORD\nand a package for SLATEPORT, then?\pQuite the busy life you must lead!\pBut, certainly, what you're asking is\nno problem at all.\pYou've come to the right man!\nWe'll set sail for DEWFORD.$","Hm? You're {PLAYER}{KUN}!
 You saved my darling PEEKO!
 We owe so much to you!
@@ -169,7 +169,7 @@ But, certainly, what you're asking is
 no problem at all.
 [PAGE]
 You've come to the right man!
-We'll set sail for DEWFORD.",หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pฮึ่มฮึ่ม…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
+We'll set sail for DEWFORD.",หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pหึหึ…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
 dlg_5a21047689f2dce8,84,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,3,,Route104_MrBrineysHouse_EventScript_SailBothDeliveries,data/maps/Route104_MrBrineysHouse/scripts.inc,126,Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a LETTER to DEWFORD\nand a package to SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
 I know exactly what you want to say!
 [PAGE]
@@ -179,7 +179,7 @@ and a package to SLATEPORT.
 What you need me to do is no problem
 at all--I'm the man for the job!
 [PAGE]
-First, we'll set sail for DEWFORD.",คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+First, we'll set sail for DEWFORD.",คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_4fedb8a481fa3e6c,85,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,4,,Route104_MrBrineysHouse_EventScript_SailDeliverPackage,data/maps/Route104_MrBrineysHouse/scripts.inc,135,Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a package to\nCAPT. STERN in SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
 I know exactly what you want to say!
 [PAGE]
@@ -189,16 +189,16 @@ CAPT. STERN in SLATEPORT.
 What you need me to do is no problem
 at all--I'm the man for the job!
 [PAGE]
-First, we'll set sail for DEWFORD.",คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันสเติร์นที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+First, we'll set sail for DEWFORD.",คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันคุสโนกิที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_7eaad53685c1854a,86,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,5,,Route104_MrBrineysHouse_EventScript_SailToDewford,data/maps/Route104_MrBrineysHouse/scripts.inc,115,Route104_MrBrineysHouse_Text_SetSailForDewford,"MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$","MR. BRINEY: DEWFORD it is, then!
 [PAGE]
 Anchors aweigh!
-PEEKO, we're setting sail, my darling!",คุณบรินี: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$,draft_review,\p | \n,,high,high,high,ok,ok,
+PEEKO, we're setting sail, my darling!",คุณฮากิ: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$,draft_review,\p | \n,,high,high,high,ok,ok,
 dlg_dbb46905c78db3fa,87,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,มุโระและถ้ำอิชิ,17,DewfordTown_Gym,dewford,DewfordTown Gym,1,Brawly,DewfordTown_Gym_EventScript_Brawly,data/maps/DewfordTown_Gym/scripts.inc,420,DewfordTown_Gym_Text_BrawlyPostBattle,I can see your talent becoming a giant\nwave to cause a storm of astonishment\lamong TRAINERS one day!$,"I can see your talent becoming a giant
 wave to cause a storm of astonishment
 among TRAINERS one day!",ฉันมองเห็นพรสวรรค์ของเธอเติบโต\nเป็นคลื่นยักษ์ที่สั่นสะเทือน\lเหล่าเทรนเนอร์ในสักวัน!$,draft_review,\n | \l,,high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
 dlg_b5f1597d44c6a945,88,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,มุโระและถ้ำอิชิ,17,DewfordTown_Gym,dewford,DewfordTown Gym,2,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,397,DewfordTown_Gym_Text_ReceivedKnuckleBadge,{PLAYER} received the KNUCKLE BADGE\nfrom BRAWLY.$,"{PLAYER} received the KNUCKLE BADGE
-from BRAWLY.",{PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทกิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+from BRAWLY.",{PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_c511203430171749,89,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,มุโระและถ้ำอิชิ,17,DewfordTown_Gym,dewford,DewfordTown Gym,3,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,401,DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis,"The KNUCKLE BADGE makes all POKéMON\nup to Level 30, even those you get in\ltrades, obey without question.\pAnd, you'll be able to use the HM move\nFLASH outside of battle.\pIf you'd like, use this TECHNICAL\nMACHINE, too.$","The KNUCKLE BADGE makes all POKéMON
 up to Level 30, even those you get in
 trades, obey without question.
@@ -213,4 +213,4 @@ dlg_0e086d2f7643bdb7,90,05,devon,Devon and Dewford,เดวอนและด�
 It's a move that raises both ATTACK
 and DEFENSE stats.
 [PAGE]
-… … … … … …",TM08 บรรจุท่าบัลก์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,
+… … … … … …",TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,

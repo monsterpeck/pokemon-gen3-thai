@@ -1,6 +1,6 @@
 ﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
 dlg_59680c8db999e859,82,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,1,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,96,Route104_MrBrineysHouse_Text_WaitUpPeeko,"MR. BRINEY: Hold on, lass!\nWait up, PEEKO!$","MR. BRINEY: Hold on, lass!
-Wait up, PEEKO!",คุณบรินี: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$,draft_review,\n,,high,high,high,ok,ok,
+Wait up, PEEKO!",คุณฮากิ: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$,draft_review,\n,,high,high,high,ok,ok,
 dlg_8b8f8c1d77b9c2c7,83,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,2,,Route104_MrBrineysHouse_EventScript_SailingIntro,data/maps/Route104_MrBrineysHouse/scripts.inc,100,Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford,"Hm? You're {PLAYER}{KUN}!\nYou saved my darling PEEKO!\lWe owe so much to you!\pWhat's that?\nYou want to sail with me?\pHmhm…\pYou have a LETTER bound for DEWFORD\nand a package for SLATEPORT, then?\pQuite the busy life you must lead!\pBut, certainly, what you're asking is\nno problem at all.\pYou've come to the right man!\nWe'll set sail for DEWFORD.$","Hm? You're {PLAYER}{KUN}!
 You saved my darling PEEKO!
 We owe so much to you!
@@ -19,7 +19,7 @@ But, certainly, what you're asking is
 no problem at all.
 [PAGE]
 You've come to the right man!
-We'll set sail for DEWFORD.",หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pฮึ่มฮึ่ม…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
+We'll set sail for DEWFORD.",หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pหึหึ…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n,{PLAYER},high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
 dlg_5a21047689f2dce8,84,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,3,,Route104_MrBrineysHouse_EventScript_SailBothDeliveries,data/maps/Route104_MrBrineysHouse/scripts.inc,126,Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a LETTER to DEWFORD\nand a package to SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
 I know exactly what you want to say!
 [PAGE]
@@ -29,7 +29,7 @@ and a package to SLATEPORT.
 What you need me to do is no problem
 at all--I'm the man for the job!
 [PAGE]
-First, we'll set sail for DEWFORD.",คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+First, we'll set sail for DEWFORD.",คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_4fedb8a481fa3e6c,85,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,4,,Route104_MrBrineysHouse_EventScript_SailDeliverPackage,data/maps/Route104_MrBrineysHouse/scripts.inc,135,Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford,"MR. BRINEY: Ahoy!\nI know exactly what you want to say!\pYou're to deliver a package to\nCAPT. STERN in SLATEPORT.\pWhat you need me to do is no problem\nat all--I'm the man for the job!\pFirst, we'll set sail for DEWFORD.$","MR. BRINEY: Ahoy!
 I know exactly what you want to say!
 [PAGE]
@@ -39,8 +39,8 @@ CAPT. STERN in SLATEPORT.
 What you need me to do is no problem
 at all--I'm the man for the job!
 [PAGE]
-First, we'll set sail for DEWFORD.",คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันสเติร์นที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+First, we'll set sail for DEWFORD.",คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันคุสโนกิที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_7eaad53685c1854a,86,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,16,briney,Mr. Briney,คุณบรินี,16,DewfordTown,briney,DewfordTown,5,,Route104_MrBrineysHouse_EventScript_SailToDewford,data/maps/Route104_MrBrineysHouse/scripts.inc,115,Route104_MrBrineysHouse_Text_SetSailForDewford,"MR. BRINEY: DEWFORD it is, then!\pAnchors aweigh!\nPEEKO, we're setting sail, my darling!$","MR. BRINEY: DEWFORD it is, then!
 [PAGE]
 Anchors aweigh!
-PEEKO, we're setting sail, my darling!",คุณบรินี: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$,draft_review,\p | \n,,high,high,high,ok,ok,
+PEEKO, we're setting sail, my darling!",คุณฮากิ: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$,draft_review,\p | \n,,high,high,high,ok,ok,

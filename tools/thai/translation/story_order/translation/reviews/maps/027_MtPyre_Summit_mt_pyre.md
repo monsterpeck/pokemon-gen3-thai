@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo`
 - English preview: ARCHIE: TEAM MAGMA's MAXIE got ahead<br>of us, but we also got what we wanted.<br>[PAGE]<br>The RED ORB preserved at MT. PYRE…<br>I, ARCHIE, now have it in my possession!<br>[PAGE]<br>Fufufu… Now we can bring our ultimate<br>objective to fruition!<br>[PAGE]<br>Okay, TEAM!<br>We're pulling out!
-- Thai: อาโอคิ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริ…\nตอนนี้อยู่ในมือของฉัน อาโอคิแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
+- Thai: อาโอกิริ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริบิ…\nตอนนี้อยู่ในมือของฉัน อาโอกิริแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high

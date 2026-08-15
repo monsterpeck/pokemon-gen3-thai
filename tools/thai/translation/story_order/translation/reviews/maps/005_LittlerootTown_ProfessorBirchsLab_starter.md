@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon`
 - English preview: PROF. BIRCH: So, {PLAYER}{KUN}.<br>[PAGE]<br>I've heard so much about you from<br>your father.<br>[PAGE]<br>I've heard that you don't have your<br>own POKéMON yet.<br>[PAGE]<br>But the way you battled earlier,<br>you pulled it off with aplomb!<br>[PAGE]<br>I guess you have your father's blood<br>in your veins after all!<br>[PAGE]<br>Oh, yes. As thanks for rescuing me,<br>I'd like you to have the POKéMON you<br>used earlier.<br>[PAGE]<br>{PLAYER} received the {STR_VAR_1}!
-- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากคุณพ่อมาเยอะเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่มีสายเลือด\nของคุณพ่ออยู่ในตัว!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
+- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
 - Placeholders: {PLAYER} | {PLAYER} | {STR_VAR_1}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1}
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon`
 - English preview: PROF. BIRCH: While you're at it, why not<br>give a nickname to that {STR_VAR_1}?
-- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว จะไม่ลอง\nตั้งชื่อเล่นให้ {STR_VAR_1} ตัวนั้นหน่อยหรือ?$
+- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว ลองตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนั้นหน่อยไหม?$
 - Placeholders: {STR_VAR_1}
 - Control codes: \n | {STR_VAR_1}
 - Translation confidence: high

@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ReceivedKnuckleBadge`
 - English preview: {PLAYER} received the KNUCKLE BADGE<br>from BRAWLY.
-- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทกิ$
+- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ExplainBulkUp`
 - English preview: That TM08 contains BULK UP.<br>[PAGE]<br>It's a move that raises both ATTACK<br>and DEFENSE stats.<br>[PAGE]<br>… … … … … …
-- Thai: TM08 บรรจุท่าบัลก์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
+- Thai: TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: medium

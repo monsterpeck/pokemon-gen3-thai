@@ -23,7 +23,7 @@ Uh… Hehehe, so, uh, could I count
 on you to do that for me?
 [PAGE]
 Oh, that's right.
-Could you wait here a second?",ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณเรื่องที่คุณช่วยไว้\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
+Could you wait here a second?",ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณคุณ\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_page,LINEBREAK_ADJUSTED
 dlg_ef91cab884e7930d,75,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,3,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,285,RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe,Our PRESIDENT would like to have\na word with you.\pPlease come with me.$,"Our PRESIDENT would like to have
 a word with you.
 [PAGE]
@@ -47,14 +47,14 @@ Well, on the way, could you stop off in
 DEWFORD TOWN?
 [PAGE]
 I was hoping that you'd deliver a
-LETTER to STEVEN in DEWFORD.",ฉันคือคุณสโตน ประธาน\nบริษัทเดวอน\pฉันเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pฉันมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pฉันอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$,draft_review,\n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+LETTER to STEVEN in DEWFORD.",ผมคือประธานสึวาบุกิ\nแห่งบริษัทเดวอน\pผมเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pผมมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pผมอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$,draft_review,\n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
 dlg_d944c62595a62903,78,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,6,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,212,RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis,"MR. STONE: Now, you should know that\nI am a great PRESIDENT.\pSo, I'd never be so cheap as to ask\na favor for nothing in return.\pThat's why I want you to have this!$","MR. STONE: Now, you should know that
 I am a great PRESIDENT.
 [PAGE]
 So, I'd never be so cheap as to ask
 a favor for nothing in return.
 [PAGE]
-That's why I want you to have this!",คุณสโตน: คุณควรรู้ไว้นะว่า\nฉันเป็นประธานผู้ยิ่งใหญ่\pฉันจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ฉันอยากมอบนี่ให้คุณ!$,draft_review,\n | \p | \n | \p,,high,high,high,ok,ok,
+That's why I want you to have this!",ประธานสึวาบุกิ: คุณควรรู้ไว้นะว่า\nผมเป็นประธานผู้ยิ่งใหญ่\pผมจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ผมอยากมอบนี่ให้คุณ!$,draft_review,\n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_8cdabd7f75be9916,79,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,7,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,219,RustboroCity_DevonCorp_3F_Text_ReceivedPokenav,{PLAYER} received a POKéNAV.$,{PLAYER} received a POKéNAV.,{PLAYER} ได้รับโปเกนาวี$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,
 dlg_6e4ba929b10c625c,80,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,8,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,222,RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp,"MR. STONE: That device…\pIt's a POKéMON NAVIGATOR, or POKéNAV\nfor short.\pIt's an indispensable tool for any\nTRAINER on an adventure.\pIt has a map of the HOENN region.\pYou can check the locations of\nDEWFORD and SLATEPORT easily!\pBy the way, I've heard that sinister\ncriminals--MAGMA and AQUA, I believe--\lhave been making trouble far and wide.\pI think it would be best if you rested\nup before you go on your way.$","MR. STONE: That device…
 [PAGE]
@@ -74,6 +74,6 @@ criminals--MAGMA and AQUA, I believe--
 have been making trouble far and wide.
 [PAGE]
 I think it would be best if you rested
-up before you go on your way.",คุณสโตน: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ฉันได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$,draft_review,\p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+up before you go on your way.",ประธานสึวาบุกิ: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ผมได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$,draft_review,\p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
 dlg_80a46ed9b55cf555,81,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,15,devon_corp,Devon Corporation,บริษัทเดวอน,15,RustboroCity_DevonCorp_1F,devon_corp,RustboroCity DevonCorp 1F,9,,RustboroCity_DevonCorp_3F_EventScript_MeetPresident,data/maps/RustboroCity_DevonCorp_3F/scripts.inc,237,RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare,"MR. STONE: Well, then, {PLAYER}{KUN},\ngo with caution and care!$","MR. STONE: Well, then, {PLAYER}{KUN},
-go with caution and care!",คุณสโตน: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
+go with caution and care!",ประธานสึวาบุกิ: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,

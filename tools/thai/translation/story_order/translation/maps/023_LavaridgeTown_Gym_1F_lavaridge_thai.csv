@@ -2,7 +2,7 @@
 dlg_ad170cc8edbfbd94,142,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,1,Flannery,LavaridgeTown_Gym_1F_EventScript_Flannery,data/maps/LavaridgeTown_Gym_1F/scripts.inc,353,LavaridgeTown_Gym_1F_Text_FlanneryPostBattle,"Your power reminds me of someone…\pOh! I know! You battle like NORMAN,\nthe GYM LEADER of PETALBURG.$","Your power reminds me of someone…
 [PAGE]
 Oh! I know! You battle like NORMAN,
-the GYM LEADER of PETALBURG.",พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$,draft_review,\p | \n,,high,high,high,ok,ok,
+the GYM LEADER of PETALBURG.",พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนเซ็นริ\nยิมลีดเดอร์แห่งโทวกะเลย$,draft_review,\p | \n,,high,high,high,ok,ok,
 dlg_85cc669a07cfd1db,143,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,2,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,327,LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the HEAT BADGE\nfrom FLANNERY.$,"{PLAYER} received the HEAT BADGE
 from FLANNERY.",{PLAYER} ได้รับฮีตแบดจ์\nจากอาสึนะ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_1082e920ad6c3157,144,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,3,,LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated,data/maps/LavaridgeTown_Gym_1F/scripts.inc,331,LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis,"If you have a HEAT BADGE, all POKéMON\nup to Level 50, even those you get in\ltrades from other people, will obey\lyou completely.\pAnd, it lets POKéMON use the HM move\nSTRENGTH outside of battle.\pThis is a token of my appreciation.\nDon't be shy about taking it!$","If you have a HEAT BADGE, all POKéMON
@@ -14,7 +14,7 @@ And, it lets POKéMON use the HM move
 STRENGTH outside of battle.
 [PAGE]
 This is a token of my appreciation.
-Don't be shy about taking it!",ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$,draft_review,\n | \l | \l | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
+Don't be shy about taking it!",ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้จากการแลกเปลี่ยนก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริกินอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$,draft_review,\n | \l | \l | \p | \n | \p | \n,,high,high,high,ok,review_long_line,
 dlg_dc7603a3e7b7cee7,145,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,24,lavaridge,Lavaridge,ฟุเอ็น,24,LavaridgeTown_Gym_1F,lavaridge,LavaridgeTown Gym 1F,4,,LavaridgeTown_Gym_1F_EventScript_GiveOverheat2,data/maps/LavaridgeTown_Gym_1F/scripts.inc,341,LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the POKéMON using it. It might not\lbe suitable for longer battles.$,"That TM50 contains OVERHEAT.
 [PAGE]
 That move inflicts serious damage on

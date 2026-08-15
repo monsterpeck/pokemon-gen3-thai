@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LittlerootTown_Text_OurNewHomeLetsGoInside`
 - English preview: MOM: {PLAYER}, we're here, honey!<br>[PAGE]<br>It must be tiring riding with our things<br>in the moving truck.<br>[PAGE]<br>Well, this is LITTLEROOT TOWN.<br>[PAGE]<br>How do you like it?<br>This is our new home!<br>[PAGE]<br>It has a quaint feel, but it seems to be<br>an easy place to live, don't you think?<br>[PAGE]<br>And, you get your own room, {PLAYER}!<br>Let's go inside.
-- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองลิตเติลรูท\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
+- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: {PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high

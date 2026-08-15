@@ -25,7 +25,7 @@ battle a greenhorn TRAINER.
 when you become a lot stronger.
 [PAGE]
 I'll battle you, {PLAYER}, when you
-can show me four GYM BADGES, okay?",พ่อ: หืม? ลูกไม่ได้กำลังจะไป\nโปเกมอนยิมที่เมืองรัสต์โบโรหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$,draft_review,\n | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
+can show me four GYM BADGES, okay?",พ่อ: หืม? ลูกไม่ได้จะไป\nโปเกมอนยิมที่เมืองคานาซึมิหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$,draft_review,\n | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
 dlg_52b66c5569e850e3,37,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,3,Norman,PetalburgCity_Gym_EventScript_NormanOneBadge,data/maps/PetalburgCity_Gym/scripts.inc,1238,PetalburgCity_Gym_Text_NormanGoToDewford,"DAD: I see… So, you've beaten\nthe GYM LEADER in RUSTBORO CITY.\pBut there are many more TRAINERS\nwho are stronger than you, {PLAYER}.\pAcross the sea in DEWFORD TOWN is a\nGYM LEADER named BRAWLY.\pYou should go challenge him.$","DAD: I see… So, you've beaten
 the GYM LEADER in RUSTBORO CITY.
 [PAGE]
@@ -35,7 +35,7 @@ who are stronger than you, {PLAYER}.
 Across the sea in DEWFORD TOWN is a
 GYM LEADER named BRAWLY.
 [PAGE]
-You should go challenge him.",พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองรัสต์โบโรได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองดิวฟอร์ด\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$,draft_review,\n | \p | \n | {PLAYER} | \p | \n | \p,{PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
+You should go challenge him.",พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองคานาซึมิได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองมุโระ\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$,draft_review,\n | \p | \n | {PLAYER} | \p | \n | \p,{PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
 dlg_341cabcfb47a1d38,38,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,4,,PetalburgCity_Gym_EventScript_NormanTwoBadges,data/maps/PetalburgCity_Gym/scripts.inc,1247,PetalburgCity_Gym_Text_YouHaveGottenStronger,"DAD: Hm… {PLAYER}, you have gotten\nstronger.\pI can tell by the number of BADGES\nthat you've earned.$","DAD: Hm… {PLAYER}, you have gotten
 stronger.
 [PAGE]
@@ -66,7 +66,7 @@ I will do everything in my power as
 a GYM LEADER to win.
 [PAGE]
 {PLAYER}, you'd better give it your
-best shot, too!",พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็จง\nสู้ให้เต็มที่เช่นกัน!$,draft_review,\n | \p | \n | \p | {PLAYER} | \p | \n | \p | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+best shot, too!",พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็\nสู้ให้เต็มที่เหมือนกัน!$,draft_review,\n | \p | \n | \p | {PLAYER} | \p | \n | \p | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_02937a0c67770c8c,41,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,7,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1275,PetalburgCity_Gym_Text_ReceivedBalanceBadge,{PLAYER} received the BALANCE BADGE\nfrom DAD!$,"{PLAYER} received the BALANCE BADGE
 from DAD!",{PLAYER} ได้รับบาลานซ์แบดจ์\nจากพ่อ!$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_1349dbfc0225bf7b,42,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,8,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1279,PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis,"DAD: With that BADGE, the DEFENSE\nof all your POKéMON will increase.\pPOKéMON that know the HM move SURF\nwill be able to travel over water.\pThis is my gift to you. {PLAYER}, I'm\nsure you can use it correctly.$","DAD: With that BADGE, the DEFENSE
@@ -76,12 +76,12 @@ POKéMON that know the HM move SURF
 will be able to travel over water.
 [PAGE]
 This is my gift to you. {PLAYER}, I'm
-sure you can use it correctly.",พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM เซิร์ฟ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$,draft_review,\n | \p | \n | \p | {PLAYER} | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+sure you can use it correctly.",พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM นามิโนริ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$,draft_review,\n | \p | \n | \p | {PLAYER} | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_189afa7d715ce58f,43,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,9,,PetalburgCity_Gym_EventScript_NormanBattle,data/maps/PetalburgCity_Gym/scripts.inc,1295,PetalburgCity_Gym_Text_DadHappyAndSad,"DAD: As the GYM LEADER, I can't\nexpress how upset I am…\pBut as a father, it makes me both\nhappy and a little sad. It's odd…$","DAD: As the GYM LEADER, I can't
 express how upset I am…
 [PAGE]
 But as a father, it makes me both
-happy and a little sad. It's odd…",พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ ความรู้สึกแปลกจริง…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+happy and a little sad. It's odd…",พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ เป็นความรู้สึกที่แปลกดี…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_ca804248caf18a66,44,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,10,,PetalburgCity_Gym_EventScript_WallysDadArrives,data/maps/PetalburgCity_Gym/scripts.inc,1301,PetalburgCity_Gym_Text_PleaseComeWithMe,"Ah, there you are, {PLAYER}{KUN}!\pPlease come with me.\nI have something I want you to have.$","Ah, there you are, {PLAYER}{KUN}!
 [PAGE]
 Please come with me.
@@ -97,4 +97,4 @@ the POKéMON is poisoned, paralyzed,
 or burned.
 [PAGE]
 It might be able to turn a bad
-situation into an advantage.",พ่อ: TM42 บรรจุท่าแฟซาด\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+situation into an advantage.",พ่อ: TM42 บรรจุท่าคาราเก็งกิ\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED

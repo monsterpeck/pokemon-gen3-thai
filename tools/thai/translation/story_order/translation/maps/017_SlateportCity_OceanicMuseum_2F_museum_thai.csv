@@ -6,11 +6,11 @@ Ah! Those must be the parts I ordered
 from MR. STONE of DEVON.
 [PAGE]
 Thank you! That's great!
-We can prepare for our expedition now.",ครับ? ถ้าตามหาสเติร์น\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากคุณสโตนแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$,draft_review,\n | \p | \n | \p | \n,,high,high,high,ok,ok,
+We can prepare for our expedition now.",ครับ? ถ้าตามหากัปตันคุสโนกิ\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากประธานสึวาบุกิแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$,draft_review,\n | \p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_bccdea658542d0e8,92,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,2,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,277,SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts,"Hehehe, hold it!\nWe'll take those parts!$","Hehehe, hold it!
 We'll take those parts!",ฮี่ ๆ เดี๋ยวก่อน!\nชิ้นส่วนนั่นพวกเราขอละ!$,draft_review,\n,,high,high,high,ok,ok,
 dlg_6c9bfdabbe559c34,93,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,3,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,281,SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou,CAPT. STERN: Wh-what?\nWho are you people?$,"CAPT. STERN: Wh-what?
-Who are you people?",กัปตันสเติร์น: อะ-อะไรนะ?\nพวกแกเป็นใคร?$,draft_review,\n,,high,high,high,ok,ok,
+Who are you people?",กัปตันคุสโนกิ: อะ-อะไรนะ?\nพวกแกเป็นใคร?$,draft_review,\n,,high,high,high,ok,ok,
 dlg_9758a7ae075cd9a8,94,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,4,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,285,SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua,We're TEAM AQUA!\pOur BOSS wants those parts!\nShut your yap and fork them over!$,"We're TEAM AQUA!
 [PAGE]
 Our BOSS wants those parts!
@@ -63,7 +63,7 @@ interfering with our plans again.
 The consequences will cost you
 dearly!
 [PAGE]
-And don't you forget it!",พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอคิ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$,draft_review,\n | \p | \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
+And don't you forget it!",พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอกิริ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$,draft_review,\n | \p | \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p,,high,high,medium,review,review_long_page,LINEBREAK_ADJUSTED
 dlg_9d72999ead10d4fe,100,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,10,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,344,SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs,"CAPT. STERN: You're…\nAh, okay, you're {PLAYER}{KUN}…\pAnyway, that was a tense situation!\nThank you for saving us!\pOh, yes, I almost forgot that you\neven brought the parts from DEVON!$","CAPT. STERN: You're…
 Ah, okay, you're {PLAYER}{KUN}…
 [PAGE]
@@ -71,7 +71,7 @@ Anyway, that was a tense situation!
 Thank you for saving us!
 [PAGE]
 Oh, yes, I almost forgot that you
-even brought the parts from DEVON!",กัปตันสเติร์น: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+even brought the parts from DEVON!",กัปตันคุสโนกิ: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
 dlg_d19a36b6538ce9c5,101,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,18,museum,Slateport Museum,พิพิธภัณฑ์ไคไน,18,SlateportCity_OceanicMuseum_2F,museum,SlateportCity OceanicMuseum 2F,11,,SlateportCity_OceanicMuseum_2F_EventScript_CaptStern,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc,352,SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo,"CAPT. STERN: Whoops!\nThere's no time to lose!\pWe have to set out on our ocean-floor\nexpedition really soon.\pThanks again, but now I've got\nto go!\pFeel free to wander around and check\nout our facilities, though.$","CAPT. STERN: Whoops!
 There's no time to lose!
 [PAGE]
@@ -82,4 +82,4 @@ Thanks again, but now I've got
 to go!
 [PAGE]
 Feel free to wander around and check
-out our facilities, though.",กัปตันสเติร์น: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจพื้นมหาสมุทร\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+out our facilities, though.",กัปตันคุสโนกิ: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจก้นทะเล\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,

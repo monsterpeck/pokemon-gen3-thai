@@ -1,21 +1,21 @@
 ﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
-dlg_56c225a224c38318,208,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,1,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,217,SeafloorCavern_Room9_Text_ArchieHoldItRightThere,ARCHIE: Hold it right there.$,ARCHIE: Hold it right there.,อาโอคิ: หยุดอยู่ตรงนั้น$,draft_review,,,high,high,high,ok,ok,
+dlg_56c225a224c38318,208,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,1,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,217,SeafloorCavern_Room9_Text_ArchieHoldItRightThere,ARCHIE: Hold it right there.$,ARCHIE: Hold it right there.,อาโอกิริ: หยุดอยู่ตรงนั้น$,draft_review,,,high,high,high,ok,ok,
 dlg_e21be4ce24181c9d,209,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,2,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,220,SeafloorCavern_Room9_Text_ArchieSoItWasYou,"ARCHIE: Fufufu…\nSo it was you, after all.$","ARCHIE: Fufufu…
-So it was you, after all.",อาโอคิ: หึ ๆ ๆ…\nเป็นแกจริง ๆ สินะ$,draft_review,\n,,high,high,high,ok,ok,
+So it was you, after all.",อาโอกิริ: หึ ๆ ๆ…\nเป็นแกจริง ๆ สินะ$,draft_review,\n,,high,high,high,ok,ok,
 dlg_672712da70f8720a,210,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,3,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,224,SeafloorCavern_Room9_Text_ArchieBeholdKyogre,"ARCHIE: Behold!\pSee how beautiful it is, the sleeping\nform of the ancient POKéMON KYOGRE!\pI have waited so long for this day to\ncome…$","ARCHIE: Behold!
 [PAGE]
 See how beautiful it is, the sleeping
 form of the ancient POKéMON KYOGRE!
 [PAGE]
 I have waited so long for this day to
-come…",อาโอคิ: จงดูให้ดี!\pดูร่างอันงดงามของโปเกมอนโบราณ\nไคโอกาที่กำลังหลับใหล!\pฉันเฝ้ารอวันนี้มา\nแสนนาน…$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+come…",อาโอกิริ: จงดูให้ดี!\pดูร่างอันงดงามของโปเกมอนยุคบรรพกาล\nไคโอกาที่กำลังหลับใหล!\pฉันเฝ้ารอวันนี้มา\nแสนนาน…$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_904db249c77a5fb4,211,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,4,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,231,SeafloorCavern_Room9_Text_ArchieYouMustDisappear,"ARCHIE: It surprises me, how you've\nmanaged to chase me here.\pBut that's all over now.\pFor the realization of my dream,\nyou must disappear now!$","ARCHIE: It surprises me, how you've
 managed to chase me here.
 [PAGE]
 But that's all over now.
 [PAGE]
 For the realization of my dream,
-you must disappear now!",อาโอคิ: น่าประหลาดใจจริง ๆ ที่แก\nตามฉันมาถึงที่นี่ได้\pแต่ทุกอย่างจบลงแล้ว\pเพื่อให้ความฝันของฉันเป็นจริง\nแกต้องหายไปเดี๋ยวนี้!$,draft_review,\n | \p | \p | \n,,high,high,high,ok,ok,
+you must disappear now!",อาโอกิริ: น่าประหลาดใจจริง ๆ ที่แก\nตามฉันมาถึงที่นี่ได้\pแต่ทุกอย่างจบลงแล้ว\pเพื่อให้ความฝันของฉันเป็นจริง\nแกต้องหายไปเดี๋ยวนี้!$,draft_review,\n | \p | \p | \n,,high,high,high,ok,ok,
 dlg_5b8c8d67abbc38ae,212,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,5,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,242,SeafloorCavern_Room9_Text_ArchieWithThisRedOrb,"ARCHIE: Fufufu…\pI commend you. I must recognize that\nyou are truly gifted.\pBut!\nI have this in my possession!\pWith this RED ORB, I can make KYOGRE…$","ARCHIE: Fufufu…
 [PAGE]
 I commend you. I must recognize that
@@ -24,7 +24,7 @@ you are truly gifted.
 But!
 I have this in my possession!
 [PAGE]
-With this RED ORB, I can make KYOGRE…",อาโอคิ: หึ ๆ ๆ…\pฉันขอชม แกมีฝีมือ\nไม่ธรรมดาจริง ๆ\pแต่ว่า!\nฉันมีสิ่งนี้อยู่ในมือ!\pด้วยลูกแก้วสีแดงนี้ ฉันจะทำให้ไคโอกา…$,draft_review,\p | \n | \p | \n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+With this RED ORB, I can make KYOGRE…",อาโอกิริ: หึ ๆ ๆ…\pต้องยอมรับเลยว่าแกมีฝีมือ\nไม่ธรรมดาจริง ๆ\pแต่ว่า!\nฉันมีสิ่งนี้อยู่ในมือ!\pด้วยลูกแก้วสีแดงนี้ ฉันจะทำให้ไคโอกา…$,draft_review,\p | \n | \p | \n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
 dlg_30a432ed17b0bf86,213,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,6,,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,250,SeafloorCavern_Room9_Text_RedOrbShinesByItself,The RED ORB suddenly began shining\nby itself!$,"The RED ORB suddenly began shining
 by itself!",จู่ ๆ ลูกแก้วสีแดงก็เริ่มส่องแสง\nขึ้นมาเอง!$,draft_review,\n,,high,high,high,ok,ok,
 dlg_5e4dc15ea2604bc6,214,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,7,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,254,SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo,ARCHIE: What?!\pI didn't do anything.\nWhy did the RED ORB…\pWhere did KYOGRE go?$,"ARCHIE: What?!
@@ -32,9 +32,9 @@ dlg_5e4dc15ea2604bc6,214,11,crisis,Ancient Pokémon Crisis,วิกฤตโป
 I didn't do anything.
 Why did the RED ORB…
 [PAGE]
-Where did KYOGRE go?",อาโอคิ: อะไรนะ?!\pฉันยังไม่ได้ทำอะไรเลย\nทำไมลูกแก้วสีแดงถึง…\pไคโอกาหายไปไหนแล้ว?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+Where did KYOGRE go?",อาโอกิริ: อะไรนะ?!\pฉันยังไม่ได้ทำอะไรเลย\nทำไมลูกแก้วสีแดงถึง…\pไคโอกาหายไปไหนแล้ว?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
 dlg_42f4426fdf01c018,215,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,8,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,260,SeafloorCavern_Room9_Text_ArchieAMessageFromOutside,ARCHIE: Hm? It's a message from our\nmembers outside…$,"ARCHIE: Hm? It's a message from our
-members outside…",อาโอคิ: หืม? ข้อความจาก\nพวกที่อยู่ข้างนอก…$,draft_review,\n,,high,high,high,ok,ok,
+members outside…",อาโอกิริ: หืม? ข้อความจาก\nพวกที่อยู่ข้างนอก…$,draft_review,\n,,high,high,high,ok,ok,
 dlg_50cdd92ec4d3dc51,216,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,9,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,264,SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard,"ARCHIE: Yes, what is it?\pHm…\nIt's raining heavily?\pGood… That should have happened.\nThat is why we awakened KYOGRE,\lto realize TEAM AQUA's vision of\lexpanding the sea.\pWhat?!\pIt's raining far harder than we\nenvisioned? You're in danger?\pThat can't be…\nThat's just not possible…\pHold your position and monitor\nthe situation!$","ARCHIE: Yes, what is it?
 [PAGE]
 Hm…
@@ -54,7 +54,7 @@ That can't be…
 That's just not possible…
 [PAGE]
 Hold your position and monitor
-the situation!",อาโอคิ: ว่าไง มีอะไร?\pหืม…\nฝนตกหนักงั้นหรือ?\pดี… ต้องเป็นแบบนั้นอยู่แล้ว\nเราเลยปลุกไคโอกาขึ้นมา\lเพื่อทำให้อุดมการณ์ขยายผืนทะเล\lของทีมอควาเป็นจริง\pว่าไงนะ?!\pฝนตกหนักกว่าที่เราคาดไว้มาก?\nพวกแกกำลังตกอยู่ในอันตราย?\pเป็นไปไม่ได้…\nไม่มีทางเป็นแบบนั้น…\pอยู่ประจำตำแหน่งและเฝ้าดู\nสถานการณ์ต่อไป!$,draft_review,\p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+the situation!",อาโอกิริ: ว่าไง มีอะไร?\pหืม…\nฝนตกหนักงั้นหรือ?\pดี… ต้องเป็นแบบนั้นอยู่แล้ว\nเราเลยปลุกไคโอกาขึ้นมา\lเพื่อทำให้อุดมการณ์ในการขยายผืนทะเล\lของทีมอควาเป็นจริง\pว่าไงนะ?!\pฝนตกหนักกว่าที่เราคาดไว้มาก?\nพวกแกกำลังตกอยู่ในอันตราย?\pเป็นไปไม่ได้…\nไม่มีทางเป็นแบบนั้น…\pอยู่ประจำตำแหน่งและเฝ้าดู\nสถานการณ์ต่อไป!$,draft_review,\p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_57e3edbafd739069,217,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,10,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,280,SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear,ARCHIE: There's something wrong…\pThe RED ORB is supposed to awaken\nand control KYOGRE…\pBut… Why?\nWhy did KYOGRE disappear?\pWhy?!$,"ARCHIE: There's something wrong…
 [PAGE]
 The RED ORB is supposed to awaken
@@ -63,7 +63,7 @@ and control KYOGRE…
 But… Why?
 Why did KYOGRE disappear?
 [PAGE]
-Why?!",อาโอคิ: มีอะไรผิดปกติ…\pลูกแก้วสีแดงควรจะปลุก\nและควบคุมไคโอกาได้…\pแต่… ทำไม?\nทำไมไคโอกาถึงหายไป?\pทำไมกัน?!$,draft_review,\p | \n | \p | \n | \p,,high,high,high,ok,ok,
+Why?!",อาโอกิริ: มีอะไรผิดปกติ…\pลูกแก้วสีแดงควรจะปลุก\nและควบคุมไคโอกาได้…\pแต่… ทำไม?\nทำไมไคโอกาถึงหายไป?\pทำไมกัน?!$,draft_review,\p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_b1b9bedf4bbb9835,218,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,11,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,288,SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought,"MAXIE: What have you wrought?\pARCHIE… You've finally awoken KYOGRE,\nhaven't you?\pWhat will happen to the world if this\ndownpour continues for all eternity?\pThe world's landmass will drown in\nthe deepening sea…$","MAXIE: What have you wrought?
 [PAGE]
 ARCHIE… You've finally awoken KYOGRE,
@@ -73,7 +73,7 @@ What will happen to the world if this
 downpour continues for all eternity?
 [PAGE]
 The world's landmass will drown in
-the deepening sea…",มัตสึบูสะ: แกทำอะไรลงไป?\pอาโอคิ… ในที่สุดแกก็ปลุกไคโอกา\nขึ้นมาแล้วสินะ?\pถ้าฝนเทลงมาเช่นนี้ชั่วนิรันดร์\nโลกจะเป็นอย่างไร?\pผืนแผ่นดินทั้งโลกจะจมลง\nในทะเลที่สูงขึ้น…$,draft_review,\p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
+the deepening sea…",มัตสึบูสะ: แกทำอะไรลงไป?\pอาโอกิริ… ในที่สุดแกก็ปลุกไคโอกา\nขึ้นมาแล้วสินะ?\pถ้าฝนเทลงมาเช่นนี้ชั่วนิรันดร์\nโลกจะเป็นอย่างไร?\pผืนแผ่นดินทั้งโลกจะจมลง\nในทะเลที่สูงขึ้น…$,draft_review,\p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_b9b9dc0d0d6b7eb0,219,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,12,Archie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,297,SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty,"ARCHIE: W-what?!\nDon't get all high and mighty with me!\pWasn't it you, TEAM MAGMA, that\ninfuriated GROUDON?\pSo long as I have this RED ORB,\nI should be able to control KYOGRE…\pI should be able to control it…$","ARCHIE: W-what?!
 Don't get all high and mighty with me!
 [PAGE]
@@ -83,7 +83,7 @@ infuriated GROUDON?
 So long as I have this RED ORB,
 I should be able to control KYOGRE…
 [PAGE]
-I should be able to control it…",อาโอคิ: อะ… อะไรนะ?!\nอย่ามาทำวางท่าสูงส่งกับฉัน!\pทีมแมกมาของแกไม่ใช่หรือ\nที่ทำให้กราดอนโกรธเกรี้ยว?\pตราบใดที่ฉันมีลูกแก้วสีแดง\nฉันก็ควรควบคุมไคโอกาได้…\pฉันควรควบคุมมันได้สิ…$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+I should be able to control it…",อาโอกิริ: อะ… อะไรนะ?!\nอย่ามาทำเป็นวางท่าเหนือฉัน!\pทีมแมกมาของแกไม่ใช่หรือ\nที่ทำให้กราดอนโกรธเกรี้ยว?\pตราบใดที่ฉันมีลูกแก้วสีแดง\nฉันก็ควรควบคุมไคโอกาได้…\pฉันควรควบคุมมันได้สิ…$,draft_review,\n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_881182be07580274,220,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,35,seafloor,Seafloor Cavern,ถ้ำใต้ทะเล,35,SeafloorCavern_Room9,seafloor,SeafloorCavern Room9,13,Maxie,SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre,data/maps/SeafloorCavern_Room9/scripts.inc,306,SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue,MAXIE: We don't have the time to\nargue about it here!\pGet outside and see for yourself!\pSee if what you've wrought is the\nworld that we desired!$,"MAXIE: We don't have the time to
 argue about it here!
 [PAGE]
@@ -103,11 +103,11 @@ dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโป
 ARCHIE have gone away somewhere.
 [PAGE]
 Perhaps they've gone to MT. PYRE to
-return those ORBS…",ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอคิจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+return those ORBS…",ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอกิริจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
 dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
 [PAGE]
 I've never been there.
-I wonder where it could be?",ไดโกะ: หอคอยฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$,draft_review,\p | \n,,high,high,high,ok,ok,
+I wonder where it could be?",ไดโกะ: เสาหลักแห่งฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$,draft_review,\p | \n,,high,high,high,ok,ok,
 dlg_2eb7f1b6277a7dc5,226,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,5,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1610,SootopolisCity_Text_InvolvedWithCrisisComeWithMe,"STEVEN: Those POKéMON fighting…\nGROUDON… And KYOGRE…\pThe two super-ancient POKéMON\nwere awakened from a long sleep…\pAnd now they are smashing each other\nwith their uncontrollable energy…\p…{PLAYER}{KUN}.\pYou being here now I'll take to mean\nthat you're prepared to become\linvolved in this crisis.\pWell, then, there's someone that\nI'd like you to meet.\pCome with me, please.$","STEVEN: Those POKéMON fighting…
 GROUDON… And KYOGRE…
 [PAGE]
@@ -126,7 +126,7 @@ involved in this crisis.
 Well, then, there's someone that
 I'd like you to meet.
 [PAGE]
-Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคดึกดำบรรพ์ทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
 [PAGE]
 Does seeing GROUDON and KYOGRE make
@@ -152,7 +152,7 @@ I'd left you behind!
 I've opened the locked door of
 the SKY PILLAR.
 [PAGE]
-{PLAYER}{KUN}, let's be on our way!",มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nหอคอยฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN},{PLAYER},high,high,high,ok,ok,
+{PLAYER}{KUN}, let's be on our way!",มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nเสาหลักแห่งฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN},{PLAYER},high,high,high,ok,ok,
 dlg_5ed157f43a6632fb,230,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,38,sky_pillar,Sky Pillar,หอคอยฟ้า,38,SkyPillar_Outside,sky_pillar,SkyPillar Outside,2,,SkyPillar_Outside_EventScript_WallaceScene,data/maps/SkyPillar_Outside/scripts.inc,149,SkyPillar_Outside_Text_EarthquakeNotMomentToWaste,WALLACE: It's an earthquake!\pThere's not a moment to waste!\nWe've got to hurry!$,"WALLACE: It's an earthquake!
 [PAGE]
 There's not a moment to waste!
@@ -196,4 +196,4 @@ Hahaha…
 [PAGE]
 Maybe what we were trying to do was
 something small, even meaningless,
-to POKéMON…",อาโอคิ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$,draft_review,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,ok,
+to POKéMON…",อาโอกิริ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$,draft_review,\n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,ok,

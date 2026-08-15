@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_ChampionsRoom_Text_IntroSpeech`
 - English preview: WALLACE: Welcome, {PLAYER}{KUN}.<br>[PAGE]<br>That incident in SOOTOPOLIS CITY…<br>That was superb work, putting an end<br>to that crisis all by yourself.<br>[PAGE]<br>Oops!<br>[PAGE]<br>It wouldn't be fair to say that you<br>alone ended the crisis.<br>[PAGE]<br>You overcame that difficult situation<br>by working as one with your POKéMON.<br>[PAGE]<br>We TRAINERS raise POKéMON by giving<br>them items and by teaching them new<br>techniques for battle.<br>[PAGE]<br>But we ourselves also learn many<br>things from POKéMON.<br>[PAGE]<br>And this is where your achievements<br>are put to the test against what<br>others like you have achieved.<br>[PAGE]<br>Now!<br>[PAGE]<br>Who can most elegantly dance with<br>their POKéMON in HOENN?<br>[PAGE]<br>Show me right here and now!
-- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
+- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p
 - Translation confidence: high
@@ -107,7 +107,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex`
 - English preview: PROF. BIRCH: See?<br>What did I tell you, {RIVAL}?<br>[PAGE]<br>Didn't I tell you that you don't need<br>to worry about {PLAYER}{KUN}?<br>[PAGE]<br>… … … … … … … …<br>{PLAYER}{KUN}, you've finally done it.<br>[PAGE]<br>When I heard that you defeated your<br>own father at the PETALBURG GYM,<br>I thought perhaps you had a chance…<br>[PAGE]<br>But to think you've actually become<br>the CHAMPION!<br>[PAGE]<br>Ah, yes!<br>[PAGE]<br>What became of your POKéDEX?<br>Here, let me see.
-- Thai: ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$
+- Thai: ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$
 - Placeholders: {RIVAL} | {PLAYER} | {PLAYER}
 - Control codes: \n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -126,7 +126,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchCongratulations`
 - English preview: PROF. BIRCH: Anyways,<br>congratulations!<br>[PAGE]<br>Now, go proudly into the final room!
-- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$
+- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$
 - Placeholders: —
 - Control codes: \n | \p
 - Translation confidence: high

@@ -5,7 +5,7 @@ challenge other GYM LEADERS.
 By battling many TRAINERS, you should
 learn many things.",ในเมื่อคุณแข็งแกร่งถึงเพียงนี้\nก็ควรไปท้าสู้กับยิมลีดเดอร์คนอื่น\pการต่อสู้กับเทรนเนอร์มากมาย\nจะทำให้คุณได้เรียนรู้อีกหลายสิ่ง$,draft_review,\n | \p | \n,,high,high,medium,review,ok,LINEBREAK_ADJUSTED
 dlg_bde9acfada6ecdb8,60,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,12,rustboro,Rustboro progression,Rustboro progression,12,RustboroCity_Gym,rustboro,RustboroCity Gym,2,,RustboroCity_Gym_EventScript_RoxanneDefeated,data/maps/RustboroCity_Gym/scripts.inc,198,RustboroCity_Gym_Text_ReceivedStoneBadge,{PLAYER} received the STONE BADGE\nfrom ROXANNE.$,"{PLAYER} received the STONE BADGE
-from ROXANNE.",{PLAYER} ได้รับสโตนแบดจ์\nจากคานาซึมิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
+from ROXANNE.",{PLAYER} ได้รับสโตนแบดจ์\nจากสึสึจิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,medium,review,ok,LINEBREAK_ADJUSTED
 dlg_48d242ce72b871a1,61,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,12,rustboro,Rustboro progression,Rustboro progression,12,RustboroCity_Gym,rustboro,RustboroCity Gym,3,,RustboroCity_Gym_EventScript_RoxanneDefeated,data/maps/RustboroCity_Gym/scripts.inc,202,RustboroCity_Gym_Text_StoneBadgeInfoTakeThis,"The STONE BADGE heightens the ATTACK\npower of your POKéMON.\pIt also enables them to use the HM move\nCUT outside of battle.\pPlease take this with you, too.$","The STONE BADGE heightens the ATTACK
 power of your POKéMON.
 [PAGE]
@@ -23,4 +23,4 @@ If you use a TM, it instantly teaches
 the move to a POKéMON.
 [PAGE]
 Remember, a TM can be used only once,
-so think before you use it.",เครื่องเทคนิค TM39 เครื่องนั้น\nบรรจุท่าร็อกทูมบ์\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+so think before you use it.",เครื่องเทคนิค TM39\nบรรจุท่ากังเซกิฟูจิ\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED

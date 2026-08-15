@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Gym_1F_Text_GoGetFortreeBadge`
 - English preview: There remains but one BADGE to<br>obtain in HOENN.<br>[PAGE]<br>If you wish to challenge the POKéMON<br>LEAGUE, you must obtain the last<br>BADGE from the GYM in FORTREE.
-- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวาดาม$
+- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวะมากิ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \l
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_DrakesRoom_Text_IntroSpeech`
 - English preview: I am the last of the POKéMON LEAGUE<br>ELITE FOUR, DRAKE the DRAGON master!<br>[PAGE]<br>In their natural state, POKéMON are<br>wild living things. They are free.<br>[PAGE]<br>At times, they hinder us.<br>At times, they help us.<br>[PAGE]<br>For us to battle with POKéMON as<br>partners, do you know what it takes?<br>[PAGE]<br>Do you know what is needed?<br>[PAGE]<br>If you don't, then you will never<br>prevail over me!
-- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนคือสิ่งมีชีวิต\nป่าที่มีอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
+- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนเป็นสิ่งมีชีวิต\nป่าที่รักอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_GlaciasRoom_Text_IntroSpeech`
 - English preview: Welcome, my name is GLACIA<br>of the ELITE FOUR.<br>[PAGE]<br>I've traveled from afar to HOENN<br>so that I may hone my ice skills.<br>[PAGE]<br>But all I have seen are challenges by<br>weak TRAINERS and their POKéMON.<br>[PAGE]<br>What about you?<br>[PAGE]<br>It would please me to no end if I could<br>go all out against you!
-- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่พบมีเพียงคำท้าจาก\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
+- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่ผ่านมาฉันพบเพียง\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_ChampionsRoom_Text_IntroSpeech`
 - English preview: WALLACE: Welcome, {PLAYER}{KUN}.<br>[PAGE]<br>That incident in SOOTOPOLIS CITY…<br>That was superb work, putting an end<br>to that crisis all by yourself.<br>[PAGE]<br>Oops!<br>[PAGE]<br>It wouldn't be fair to say that you<br>alone ended the crisis.<br>[PAGE]<br>You overcame that difficult situation<br>by working as one with your POKéMON.<br>[PAGE]<br>We TRAINERS raise POKéMON by giving<br>them items and by teaching them new<br>techniques for battle.<br>[PAGE]<br>But we ourselves also learn many<br>things from POKéMON.<br>[PAGE]<br>And this is where your achievements<br>are put to the test against what<br>others like you have achieved.<br>[PAGE]<br>Now!<br>[PAGE]<br>Who can most elegantly dance with<br>their POKéMON in HOENN?<br>[PAGE]<br>Show me right here and now!
-- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
+- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p
 - Translation confidence: high
@@ -316,7 +316,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex`
 - English preview: PROF. BIRCH: See?<br>What did I tell you, {RIVAL}?<br>[PAGE]<br>Didn't I tell you that you don't need<br>to worry about {PLAYER}{KUN}?<br>[PAGE]<br>… … … … … … … …<br>{PLAYER}{KUN}, you've finally done it.<br>[PAGE]<br>When I heard that you defeated your<br>own father at the PETALBURG GYM,<br>I thought perhaps you had a chance…<br>[PAGE]<br>But to think you've actually become<br>the CHAMPION!<br>[PAGE]<br>Ah, yes!<br>[PAGE]<br>What became of your POKéDEX?<br>Here, let me see.
-- Thai: ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$
+- Thai: ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$
 - Placeholders: {RIVAL} | {PLAYER} | {PLAYER}
 - Control codes: \n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -335,7 +335,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchCongratulations`
 - English preview: PROF. BIRCH: Anyways,<br>congratulations!<br>[PAGE]<br>Now, go proudly into the final room!
-- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$
+- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$
 - Placeholders: —
 - Control codes: \n | \p
 - Translation confidence: high
@@ -468,7 +468,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions`
 - English preview: WALLACE: This room…<br>[PAGE]<br>This is where we keep records of<br>POKéMON that prevailed through<br>harsh battles.<br>[PAGE]<br>It is here that the LEAGUE CHAMPIONS<br>are honored.
-- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$
+- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nแชมเปี้ยนแห่งลีก$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n
 - Translation confidence: high

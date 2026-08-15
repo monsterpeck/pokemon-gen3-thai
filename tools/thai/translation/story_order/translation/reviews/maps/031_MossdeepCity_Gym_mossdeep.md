@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MossdeepCity_Gym_Text_ExplainCalmMind`
 - English preview: TATE: That TM04 contains…<br>LIZA: CALM MIND!<br>[PAGE]<br>TATE: It raises SP. ATK and…<br>LIZA: It raises SP. DEF!<br>[PAGE]<br>TATE: It's a move that's perfect…<br>LIZA: For PSYCHIC POKéMON!<br>[PAGE]<br>… … … … … …
-- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโอมินด์!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
+- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโซ!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high

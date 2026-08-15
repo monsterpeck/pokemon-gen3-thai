@@ -7,13 +7,13 @@ On WALLY's behalf, can I ask you to
 battle with him just this once?
 [PAGE]
 I don't think he's going to listen to
-any reason the way he is now.",คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n,{PLAYER},high,high,high,ok,ok,
+any reason the way he is now.",คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอร้องแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$,draft_review,{PLAYER} | {KUN} | \n | \l | \p | \n,{PLAYER},high,high,high,ok,ok,
 dlg_48288662c4edf402,110,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,3,Wally,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,465,MauvilleCity_Text_WallyWantToChallengeGym,"WALLY: Aww, UNCLE, please?\pI want to challenge this GYM and see\nhow much better I've become.\pPlease? May I, please?$","WALLY: Aww, UNCLE, please?
 [PAGE]
 I want to challenge this GYM and see
 how much better I've become.
 [PAGE]
-Please? May I, please?",มิตสึรุ: โธ่ คุณลุง ขอร้องละครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
+Please? May I, please?",มิตสึรุ: โธ่ คุณลุง ขอร้องล่ะครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$,draft_review,\p | \n | \p,,high,high,high,ok,ok,
 dlg_776b6560c3cc25d0,111,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,4,,MauvilleCity_EventScript_Wally,data/maps/MauvilleCity/scripts.inc,471,MauvilleCity_Text_UncleYourePushingIt,"UNCLE: Now hold on, WALLY.\pSince you started living with POKéMON,\nyou have grown quite a lot stronger.\pBut don't you think you're pushing it\nto suddenly challenge a GYM?$","UNCLE: Now hold on, WALLY.
 [PAGE]
 Since you started living with POKéMON,
@@ -42,7 +42,7 @@ his POKéMON.
 [PAGE]
 Why don't you visit us in VERDANTURF
 sometime?
-I'm sure WALLY would enjoy it.",คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยดูแลมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$,draft_review,{PLAYER} | {KUN} | \n | \l | \l | \p | \n | \l,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+I'm sure WALLY would enjoy it.",คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยช่วยมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$,draft_review,{PLAYER} | {KUN} | \n | \l | \l | \p | \n | \l,{PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_a2a0edd5b970588e,115,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,8,,MauvilleCity_EventScript_DefeatedWally,data/maps/MauvilleCity/scripts.inc,561,MauvilleCity_Text_ScottYouDidntHoldBack,"SCOTT: Hehe…\nI was watching that match!\pYou're friends with that boy WALLY,\naren't you?\pBut you didn't hold anything back\nand beat him impressively.\pYeah! That's what a real POKéMON\nbattle is all about!\pI idolize TRAINERS like that!\p… … … … … …\nI'll be cheering for you!$","SCOTT: Hehe…
 I was watching that match!
 [PAGE]
@@ -58,12 +58,12 @@ battle is all about!
 I idolize TRAINERS like that!
 [PAGE]
 … … … … … …
-I'll be cheering for you!",สก็อต: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
+I'll be cheering for you!",เอนิชิดะ: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
 dlg_fb648835502d4cf7,116,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,9,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,508,MauvilleCity_Text_WallyHereICome,"WALLY: {PLAYER}, thank you.\pOkay… Here I come!$","WALLY: {PLAYER}, thank you.
 [PAGE]
 Okay… Here I come!",มิตสึรุ: {PLAYER} ขอบคุณครับ\pเอาละ… ผมมาแล้ว!$,draft_review,{PLAYER} | \p,{PLAYER},high,high,high,ok,ok,
 dlg_a08d097557c3e6c2,117,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,10,Wally,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,517,MauvilleCity_Text_WallyIllGoBackToVerdanturf,WALLY: UNCLE…\nI'll go back to VERDANTURF…$,"WALLY: UNCLE…
-I'll go back to VERDANTURF…",มิตสึรุ: คุณลุง…\nผมจะกลับชิดาเกะครับ…$,draft_review,\n,,high,high,high,ok,ok,
+I'll go back to VERDANTURF…",มิตสึรุ: คุณลุง…\nผมจะกลับไปชิดาเกะครับ…$,draft_review,\n,,high,high,high,ok,ok,
 dlg_6ebacc9d8cd36793,118,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,11,,MauvilleCity_EventScript_BattleWally,data/maps/MauvilleCity/scripts.inc,521,MauvilleCity_Text_ThankYouNotEnoughToBattle,"{PLAYER}, thank you.\nBeing a TRAINER is tough, isn't it?\pIt's not enough just to have POKéMON\nand make them battle. That isn't what\lbeing a real TRAINER is about.$","{PLAYER}, thank you.
 Being a TRAINER is tough, isn't it?
 [PAGE]
@@ -81,9 +81,9 @@ Everyone's waiting for you.",คุณลุง: มิตสึรุ ไม่
 dlg_d86f9ae4036a91a5,120,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,13,Wally,MauvilleCity_EventScript_WallyRequestBattleAgain,data/maps/MauvilleCity/scripts.inc,504,MauvilleCity_Text_WallyPleaseBattleMe,"WALLY: {PLAYER}, please!\nBattle with me, please.$","WALLY: {PLAYER}, please!
 Battle with me, please.",มิตสึรุ: {PLAYER} ได้โปรด!\nสู้กับผมอีกครั้งนะครับ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_29cf2d6c137f7d7c,121,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,14,Wattson,MauvilleCity_Gym_EventScript_Wattson,data/maps/MauvilleCity_Gym/scripts.inc,375,MauvilleCity_Gym_Text_WattsonPostBattle,"I swell with optimism, seeing a promising\nyoung TRAINER like you!$","I swell with optimism, seeing a promising
-young TRAINER like you!",พอเห็นเทรนเนอร์รุ่นเยาว์ที่มีอนาคต\nอย่างเธอแล้ว ฉันก็เปี่ยมด้วยความหวัง!$,draft_review,\n,,high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
+young TRAINER like you!",พอเห็นเทรนเนอร์รุ่นใหม่อนาคตไกล\nอย่างเธอแล้ว ฉันก็ชื่นใจจริง ๆ!$,draft_review,\n,,high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
 dlg_fc810b4e66b7f5bb,122,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,15,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,353,MauvilleCity_Gym_Text_ReceivedDynamoBadge,{PLAYER} received the DYNAMO BADGE\nfrom WATTSON.$,"{PLAYER} received the DYNAMO BADGE
-from WATTSON.",{PLAYER} ได้รับไดนาโมแบดจ์\nจากเทสเซ็น$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+from WATTSON.",{PLAYER} ได้รับไดนาโมแบดจ์\nจากเท็ตเซ็น$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_885f72022e6a7a31,123,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,16,,MauvilleCity_Gym_EventScript_WattsonDefeated,data/maps/MauvilleCity_Gym/scripts.inc,357,MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis,"With the DYNAMO BADGE, POKéMON can\nuse ROCK SMASH out of battle.\pAnd, it will make your POKéMON a little\nbit faster, too.\pHmm…\nYou should take this, too!$","With the DYNAMO BADGE, POKéMON can
 use ROCK SMASH out of battle.
 [PAGE]
@@ -91,10 +91,10 @@ And, it will make your POKéMON a little
 bit faster, too.
 [PAGE]
 Hmm…
-You should take this, too!",เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้ร็อกสแมชนอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$,draft_review,\n | \p | \n | \p | \n,,high,high,medium,review,ok,
+You should take this, too!",เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้อิวะคุดากินอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$,draft_review,\n | \p | \n | \p | \n,,high,high,medium,review,ok,
 dlg_ffb1954314bec3d3,124,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,20,mauville_wally,Mauville and Wally,คินเซ็ตสึและมิตสึรุ,20,MauvilleCity,mauville,MauvilleCity,17,,MauvilleCity_Gym_EventScript_GiveShockWave,data/maps/MauvilleCity_Gym/scripts.inc,365,MauvilleCity_Gym_Text_ExplainShockWave,That TM34 there contains SHOCK WAVE.\pIt's a trustworthy move that never\nmisses! You can count on it!\p… … … … … …$,"That TM34 there contains SHOCK WAVE.
 [PAGE]
 It's a trustworthy move that never
 misses! You can count on it!
 [PAGE]
-… … … … … …",TM34 นั่นบรรจุท่าช็อกเวฟ\pเป็นท่าที่ไว้ใจได้และไม่มีวัน\nพลาดเป้า! เชื่อมือได้เลย!\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,
+… … … … … …",TM34 นั่นบรรจุท่าเด็งเงกิฮะ\pเป็นท่าที่ไม่มีวันพลาดเป้า!\nวางใจได้เลย!\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,

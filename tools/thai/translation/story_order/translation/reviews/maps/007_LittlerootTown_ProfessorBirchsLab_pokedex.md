@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex`
 - English preview: PROF. BIRCH: The POKéDEX is a high-tech<br>tool that automatically makes a record<br>of any POKéMON you meet or catch.<br>[PAGE]<br>My kid, {RIVAL}, goes everywhere<br>with it.<br>[PAGE]<br>Whenever my kid catches a rare POKéMON<br>and records its data in the POKéDEX,<br>why, {RIVAL} looks for me while I'm out<br>doing fieldwork, and shows me.
-- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอามาให้ดู$
+- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$
 - Placeholders: {RIVAL} | {RIVAL}
 - Control codes: \n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l
 - Translation confidence: high

@@ -13,7 +13,7 @@ It has a quaint feel, but it seems to be
 an easy place to live, don't you think?
 [PAGE]
 And, you get your own room, {PLAYER}!
-Let's go inside.",แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองลิตเติลรูท\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$,draft_review,{PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+Let's go inside.",แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$,draft_review,{PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_f4cbe5e2e14292ec,31,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,2,,LittlerootTown_EventScript_GiveRunningShoes,data/maps/LittlerootTown/scripts.inc,921,LittlerootTown_Text_WearTheseRunningShoes,"MOM: {PLAYER}! {PLAYER}! Did you\nintroduce yourself to PROF. BIRCH?\pOh! What an adorable POKéMON!\nYou got it from PROF. BIRCH. How nice!\pYou're your father's child, all right.\nYou look good together with POKéMON!\pHere, honey! If you're going out on an\nadventure, wear these RUNNING SHOES.\pThey'll put a zip in your step!$","MOM: {PLAYER}! {PLAYER}! Did you
 introduce yourself to PROF. BIRCH?
 [PAGE]

@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanGoToRustboro`
 - English preview: DAD: Hm? Aren't you going to the<br>POKéMON GYM in RUSTBORO CITY?<br>[PAGE]<br>There's no challenge for me to<br>battle a greenhorn TRAINER.<br>[PAGE]<br>{PLAYER}, I want you to challenge me<br>when you become a lot stronger.<br>[PAGE]<br>I'll battle you, {PLAYER}, when you<br>can show me four GYM BADGES, okay?
-- Thai: พ่อ: หืม? ลูกไม่ได้กำลังจะไป\nโปเกมอนยิมที่เมืองรัสต์โบโรหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$
+- Thai: พ่อ: หืม? ลูกไม่ได้จะไป\nโปเกมอนยิมที่เมืองคานาซึมิหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \n
 - Translation confidence: medium
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanGoToDewford`
 - English preview: DAD: I see… So, you've beaten<br>the GYM LEADER in RUSTBORO CITY.<br>[PAGE]<br>But there are many more TRAINERS<br>who are stronger than you, {PLAYER}.<br>[PAGE]<br>Across the sea in DEWFORD TOWN is a<br>GYM LEADER named BRAWLY.<br>[PAGE]<br>You should go challenge him.
-- Thai: พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองรัสต์โบโรได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองดิวฟอร์ด\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$
+- Thai: พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองคานาซึมิได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองมุโระ\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | {PLAYER} | \p | \n | \p
 - Translation confidence: medium
@@ -107,7 +107,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanIntro`
 - English preview: DAD: Hm…<br>So, you did get four GYM BADGES.<br>[PAGE]<br>Fine, as I promised, we will have<br>a POKéMON battle.<br>[PAGE]<br>{PLAYER}…<br>[PAGE]<br>I'm so happy that I can have<br>a real battle with my own child.<br>[PAGE]<br>But, a battle is a battle!<br>[PAGE]<br>I will do everything in my power as<br>a GYM LEADER to win.<br>[PAGE]<br>{PLAYER}, you'd better give it your<br>best shot, too!
-- Thai: พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็จง\nสู้ให้เต็มที่เช่นกัน!$
+- Thai: พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็\nสู้ให้เต็มที่เหมือนกัน!$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \p | \n | \p | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis`
 - English preview: DAD: With that BADGE, the DEFENSE<br>of all your POKéMON will increase.<br>[PAGE]<br>POKéMON that know the HM move SURF<br>will be able to travel over water.<br>[PAGE]<br>This is my gift to you. {PLAYER}, I'm<br>sure you can use it correctly.
-- Thai: พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM เซิร์ฟ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$
+- Thai: พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM นามิโนริ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_DadHappyAndSad`
 - English preview: DAD: As the GYM LEADER, I can't<br>express how upset I am…<br>[PAGE]<br>But as a father, it makes me both<br>happy and a little sad. It's odd…
-- Thai: พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ ความรู้สึกแปลกจริง…$
+- Thai: พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ เป็นความรู้สึกที่แปลกดี…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_ExplainFacade`
 - English preview: DAD: TM42 contains FACADE.<br>[PAGE]<br>It doubles the power of moves if<br>the POKéMON is poisoned, paralyzed,<br>or burned.<br>[PAGE]<br>It might be able to turn a bad<br>situation into an advantage.
-- Thai: พ่อ: TM42 บรรจุท่าแฟซาด\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$
+- Thai: พ่อ: TM42 บรรจุท่าคาราเก็งกิ\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n
 - Translation confidence: high
@@ -278,7 +278,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_DadGoCollectBadges`
 - English preview: DAD: Now…<br>[PAGE]<br>{PLAYER}, if you want to become a<br>strong TRAINER, here's my advice.<br>[PAGE]<br>Head for RUSTBORO CITY beyond this<br>town.<br>[PAGE]<br>There, you should challenge<br>the GYM LEADER, ROXANNE.<br>[PAGE]<br>After her, go on to other POKéMON<br>GYMS and defeat their LEADERS.<br>[PAGE]<br>Collect BADGES from them,<br>understood?<br>[PAGE]<br>Of course, I'm a GYM LEADER, too.<br>We'll battle one day, {PLAYER}.<br>[PAGE]<br>But that's only after you become<br>stronger.
-- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองรัสต์โบโร\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ คานาซึมิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
+- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองคานาซึมิ\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ สึสึจิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \p | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | {PLAYER} | \p | \n
 - Translation confidence: medium
@@ -373,7 +373,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `PetalburgCity_Gym_Text_DadPlayerGoWithWally`
 - English preview: DAD: {PLAYER}, you heard that,<br>right?<br>[PAGE]<br>Go with WALLY and make sure that he<br>safely catches a POKéMON.
-- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วช่วยดูให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
+- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วคอยช่วยให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n
 - Translation confidence: high
@@ -487,7 +487,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ReceivedStoneBadge`
 - English preview: {PLAYER} received the STONE BADGE<br>from ROXANNE.
-- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากคานาซึมิ$
+- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากสึสึจิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: medium
@@ -525,7 +525,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ExplainRockTomb`
 - English preview: That TECHNICAL MACHINE, TM39,<br>contains ROCK TOMB.<br>[PAGE]<br>It not only inflicts damage by dropping<br>rocks, it also lowers SPEED.<br>[PAGE]<br>If you use a TM, it instantly teaches<br>the move to a POKéMON.<br>[PAGE]<br>Remember, a TM can be used only once,<br>so think before you use it.
-- Thai: เครื่องเทคนิค TM39 เครื่องนั้น\nบรรจุท่าร็อกทูมบ์\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
+- Thai: เครื่องเทคนิค TM39\nบรรจุท่ากังเซกิฟูจิ\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high

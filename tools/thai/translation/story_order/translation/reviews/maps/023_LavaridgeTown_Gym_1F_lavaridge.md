@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Flannery
 - Source label: `LavaridgeTown_Gym_1F_Text_FlanneryPostBattle`
 - English preview: Your power reminds me of someone…<br>[PAGE]<br>Oh! I know! You battle like NORMAN,<br>the GYM LEADER of PETALBURG.
-- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$
+- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนเซ็นริ\nยิมลีดเดอร์แห่งโทวกะเลย$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis`
 - English preview: If you have a HEAT BADGE, all POKéMON<br>up to Level 50, even those you get in<br>trades from other people, will obey<br>you completely.<br>[PAGE]<br>And, it lets POKéMON use the HM move<br>STRENGTH outside of battle.<br>[PAGE]<br>This is a token of my appreciation.<br>Don't be shy about taking it!
-- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
+- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้จากการแลกเปลี่ยนก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริกินอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
 - Placeholders: —
 - Control codes: \n | \l | \l | \p | \n | \p | \n
 - Translation confidence: high

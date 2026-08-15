@@ -1,18 +1,18 @@
 ﻿term_type,english,thai,status,first_dialogue_id,first_source,occurrence_count,notes
-move,Aerial Ace,สึบาเมะกาเอชิ,draft,dlg_e89bf2fc11073911,data/maps/FortreeCity_Gym/scripts.inc:263,1,Move name used by the completed master.
-character,Archie,อาโอคิ,draft,dlg_e217e7b7f13bbeff,data/maps/MeteorFalls_1F_1R/scripts.inc:260,20,Japanese-character naming used by the completed master.
+move,Aerial Ace,สึบาเมะกาเอชิ,locked,dlg_e89bf2fc11073911,data/maps/FortreeCity_Gym/scripts.inc:263,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+character,Archie,อาโอกิริ,locked,dlg_e217e7b7f13bbeff,data/maps/MeteorFalls_1F_1R/scripts.inc:260,20,Human Review Phase C: Japanese-based character naming policy; Archie = アオギリ = อาโอกิริ.
 technical,Badge,แบดจ์,draft,dlg_2833d41c93d5f47b,data/maps/PetalburgCity_Gym/scripts.inc:1228,25,Core progression term; named badge entries define individual names.
 technical,Bag,กระเป๋า,draft,dlg_45ae69cb30f2cd90,data/maps/Route101/scripts.inc:261,1,Inventory container term used by the completed master.
 item,Balance Badge,บาลานซ์แบดจ์,draft,dlg_02937a0c67770c8c,data/maps/PetalburgCity_Gym/scripts.inc:1275,1,Badge name used by the completed master.
 technical,Bike,จักรยาน,draft,dlg_6f04353d49eb36ad,data/maps/Route119/scripts.inc:535,1,Travel item category used by the completed master.
-character,Birch,เบิร์ช,draft,dlg_f05a5b388b38ad28,data/text/birch_speech.inc:1,15,Use เบิร์ช in the full name; title form is ศ.เบิร์ช.
+character,Birch,เบิร์ช,locked,dlg_f05a5b388b38ad28,data/text/birch_speech.inc:1,15,Human Review Phase C: accepted under established character naming policy.
 item,Blue Orb,ลูกแก้วสีน้ำเงิน,draft,dlg_3e6adbb836d10aa0,data/maps/MtPyre_Summit/scripts.inc:493,6,Key Item term used by the completed master.
-title,Boss,หัวหน้า,draft,dlg_d362788277a67aac,data/maps/RusturfTunnel/scripts.inc:439,5,Organizational form of address; retain faction context.
-character,Brawly,โทคิ,draft,dlg_52b66c5569e850e3,data/maps/PetalburgCity_Gym/scripts.inc:1238,2,Japanese-character naming used by the completed master.
-character,Brendan,ยูคิ,review,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,12,The immutable master uses both เบรนแดน and ยูคิ; later Japanese-name policy uses ยูคิ. Human harmonization is required.
-move,Bulk Up,บิลด์อัป,draft,dlg_0e086d2f7643bdb7,data/maps/DewfordTown_Gym/scripts.inc:410,1,Move name used by the completed master.
-move,Calm Mind,เมกะฮอร์น,review,dlg_bf9f721d101df3f8,data/maps/MossdeepCity_Gym/scripts.inc:578,1,"The completed master appears to render CALM MIND as เมกะฮอร์น, which is a different move; human correction is required."
-character,Captain Stern,กัปตันคุสโนกิ,draft,dlg_6c9bfdabbe559c34,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc:281,10,Use กัปตันคุสโนกิ; short source form STERN refers to the same person.
+title,Boss,บอส,locked,dlg_d362788277a67aac,data/maps/RusturfTunnel/scripts.inc:439,5,Human Review Phase C: retained the natural villain-dialogue term used consistently in the reviewed master.
+character,Brawly,โทคิ,locked,dlg_52b66c5569e850e3,data/maps/PetalburgCity_Gym/scripts.inc:1238,2,Human Review Phase C: accepted under established character naming policy.
+character,Brendan,ยูคิ,locked,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,12,Human Review Phase C: harmonized to Japanese-based project naming policy; Brendan = ยูคิ.
+move,Bulk Up,บิลด์อัป,locked,dlg_0e086d2f7643bdb7,data/maps/DewfordTown_Gym/scripts.inc:410,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+move,Calm Mind,เมโซ,locked,dlg_bf9f721d101df3f8,data/maps/MossdeepCity_Gym/scripts.inc:578,1,Human Review Phase C: corrected to Japanese move name めいそう (Meisō); prior glossary value referenced a different move.
+character,Captain Stern,กัปตันคุสโนกิ,locked,dlg_6c9bfdabbe559c34,data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc:281,10,Human Review Phase C: accepted under established character naming policy.
 pokemon,Castform,โพวารุน,draft,dlg_3949d91512dde4d1,data/maps/Route119_WeatherInstitute_2F/scripts.inc:290,1,Authoritative species_names_cross_reference.csv spelling.
 title,Champion,แชมเปี้ยน,draft,dlg_025c0ed4eb72f302,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc:268,7,Use แชมเปี้ยน; league champion compounds retain this spelling.
 recurring_phrase,Dad,พ่อ,draft,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,22,Familial address; particle and pronoun vary by speaker context.
@@ -20,90 +20,90 @@ organization,Devon Corporation,บริษัทเดวอน,draft,dlg_3af01
 place,Devon Corporation office,สำนักงานบริษัทเดวอน,draft,dlg_d4bd710202b46c0c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:267,1,Building reference in the Devon Corporation story sequence.
 item,Devon Goods,สินค้าเดวอน,draft,dlg_fc09693422d97c87,data/maps/RustboroCity/scripts.inc:1093,5,Story item term used by the completed master.
 item,Devon Scope,เดวอนสโคป,draft,dlg_8a26b89ed2ec5faf,data/maps/Route120/scripts.inc:386,1,Key Item name used by the completed master.
-place,Dewford Town,เมืองมุโระ,draft,dlg_52b66c5569e850e3,data/maps/PetalburgCity_Gym/scripts.inc:1238,9,Japanese-location naming used by the completed master.
-character,Drake,เก็นจิ,draft,dlg_166dd7131ed8aba5,data/maps/EverGrandeCity_DrakesRoom/scripts.inc:63,1,Japanese-character naming used by the completed master.
+place,Dewford Town,เมืองมุโระ,locked,dlg_52b66c5569e850e3,data/maps/PetalburgCity_Gym/scripts.inc:1238,9,Human Review Phase C: locked to Japanese-based location naming policy.
+character,Drake,เก็นจิ,locked,dlg_166dd7131ed8aba5,data/maps/EverGrandeCity_DrakesRoom/scripts.inc:63,1,Human Review Phase C: accepted under established character naming policy.
 item,Dynamo Badge,ไดนาโมแบดจ์,draft,dlg_fc810b4e66b7f5bb,data/maps/MauvilleCity_Gym/scripts.inc:353,2,Badge name used by the completed master.
 title,Elite Four,สี่จตุรเทพ,draft,dlg_27801ee152f487cf,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc:60,3,Title used by the completed master.
-place,Ever Grande,ไซยู,draft,dlg_2d66888f162fdf06,data/maps/SootopolisCity_Gym_1F/scripts.inc:259,1,Japanese-location naming used by the completed master.
-move,Facade,คาราเก็งกิ,draft,dlg_5ffaf85215a0f479,data/maps/PetalburgCity_Gym/scripts.inc:1287,1,Move name used by the completed master.
+place,Ever Grande,ไซยู,locked,dlg_2d66888f162fdf06,data/maps/SootopolisCity_Gym_1F/scripts.inc:259,1,Human Review Phase C: Japanese-based project location decision retained in reviewed story text.
+move,Facade,คาราเก็งกิ,locked,dlg_5ffaf85215a0f479,data/maps/PetalburgCity_Gym/scripts.inc:1287,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
 item,Feather Badge,เฟเธอร์แบดจ์,draft,dlg_043520f7cee45426,data/maps/FortreeCity_Gym/scripts.inc:250,2,Badge name used by the completed master.
-character,Flannery,อาสึนะ,draft,dlg_85cc669a07cfd1db,data/maps/LavaridgeTown_Gym_1F/scripts.inc:327,1,Japanese-character naming used by the completed master.
-move,Fly,โซระโอะโทบุ,draft,dlg_6be0ed70a0acd49c,data/maps/Route119/scripts.inc:496,5,Move name used by the completed master.
-place,Fortree City,เมืองฮิวาดาม,draft,dlg_6be0ed70a0acd49c,data/maps/Route119/scripts.inc:496,4,Japanese-location naming used by the completed master.
-place,Fortree Gym,ฮิวาดามยิม,draft,dlg_76bf541ad1e06184,data/maps/Route119/scripts.inc:527,2,Gym location name used by the completed master.
-character,Glacia,พริม,draft,dlg_27801ee152f487cf,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc:60,1,Japanese-character naming used by the completed master.
+character,Flannery,อาสึนะ,locked,dlg_85cc669a07cfd1db,data/maps/LavaridgeTown_Gym_1F/scripts.inc:327,1,Human Review Phase C: accepted under established character naming policy.
+move,Fly,โซระโอะโทบุ,locked,dlg_6be0ed70a0acd49c,data/maps/Route119/scripts.inc:496,5,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+place,Fortree City,เมืองฮิวะมากิ,locked,dlg_6be0ed70a0acd49c,data/maps/Route119/scripts.inc:496,4,Human Review Phase C: Japanese name ヒワマキシティ (Hiwamaki City).
+place,Fortree Gym,ฮิวะมากิยิม,locked,dlg_76bf541ad1e06184,data/maps/Route119/scripts.inc:527,2,Human Review Phase C: Japanese name ヒワマキジム (Hiwamaki Gym).
+character,Glacia,พริม,locked,dlg_27801ee152f487cf,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc:60,1,Human Review Phase C: accepted under established character naming policy.
 item,Great Ball,เกรตบอล,draft,dlg_785cd46b2fc2f8ec,data/maps/RustboroCity/scripts.inc:1110,1,Item name used by the completed master.
 pokemon,Groudon,กราดอน,draft,dlg_36ea63b7ce608519,data/maps/MagmaHideout_4F/scripts.inc:181,11,Authoritative species_names_cross_reference.csv spelling.
 title,Gym Leader,ยิมลีดเดอร์,draft,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,8,Title used by the completed master.
 place,Harbor,ท่าเรือ,draft,dlg_b97c111ae0282f20,data/maps/SlateportCity/scripts.inc:1188,1,Slateport harbor location term.
 item,Heat Badge,ฮีตแบดจ์,draft,dlg_85cc669a07cfd1db,data/maps/LavaridgeTown_Gym_1F/scripts.inc:327,2,Badge name used by the completed master.
 technical,HM,HM,draft,dlg_f7f989a1a6ff5a66,data/maps/PetalburgCity_Gym/scripts.inc:1138,17,Keep the Latin abbreviation.
-place,Hoenn,โฮเอ็น,draft,dlg_6e4ba929b10c625c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:222,7,Region spelling used consistently in the completed master.
-item,Itemfinder,ไอเทมไฟน์เดอร์,draft,dlg_871ba96348530430,data/maps/Route110/scripts.inc:773,2,Key Item name used by the completed master.
-character,Juan,อาดัน,draft,dlg_e4617a5d97c17e89,data/maps/SootopolisCity_Gym_1F/scripts.inc:234,1,Japanese-character naming used by the completed master.
+place,Hoenn,โฮเอ็น,locked,dlg_6e4ba929b10c625c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:222,7,Human Review Phase C: Region name accepted in reviewed story text.
+item,Itemfinder,เครื่องค้นหาไอเทม,locked,dlg_871ba96348530430,data/maps/Route110/scripts.inc:773,2,Human Review Phase C: natural Thai term retained from the reviewed story text.
+character,Juan,อาดัน,locked,dlg_e4617a5d97c17e89,data/maps/SootopolisCity_Gym_1F/scripts.inc:234,1,Human Review Phase C: accepted under established character naming policy.
 item,Knuckle Badge,นัคเคิลแบดจ์,draft,dlg_b5f1597d44c6a945,data/maps/DewfordTown_Gym/scripts.inc:397,2,Badge name used by the completed master.
 pokemon,Kyogre,ไคโอกา,draft,dlg_672712da70f8720a,data/maps/SeafloorCavern_Room9/scripts.inc:224,12,Authoritative species_names_cross_reference.csv spelling.
 item,Letter,จดหมาย,draft,dlg_8b8f8c1d77b9c2c7,data/maps/Route104_MrBrineysHouse/scripts.inc:100,2,Story item term; context identifies the Devon president’s letter.
-place,Littleroot Town,เมืองลิตเติลรูท,review,dlg_3d03c87c21475304,data/text/birch_speech.inc:44,2,Completed master retains an English-based location transliteration; confirm against the Japanese-location naming policy.
-character,Liza,รัน,draft,dlg_16583cf9036a06e6,data/maps/MossdeepCity_Gym/scripts.inc:567,1,Japanese-character naming used by the completed master.
-item,Magma Emblem,ตราแม็กมา,draft,dlg_fe675caa94756773,data/maps/JaggedPass/scripts.inc:239,1,Key Item name used by the completed master.
-character,Maxie,มัตสึบูสะ,draft,dlg_3e2b11896ebb1637,data/maps/MtChimney/scripts.inc:662,18,Japanese-character naming used by the completed master.
-character,May,ฮารุกะ,review,dlg_7cc549bb2e89937d,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:357,16,The immutable master uses both เมย์ and ฮารุกะ; later Japanese-name policy uses ฮารุกะ. Human harmonization is required.
+place,Littleroot Town,เมืองมิโชโระ,locked,dlg_3d03c87c21475304,data/text/birch_speech.inc:44,2,Human Review Phase C: locked to Japanese-based location naming policy.
+character,Liza,รัน,locked,dlg_16583cf9036a06e6,data/maps/MossdeepCity_Gym/scripts.inc:567,1,Human Review Phase C: accepted under established character naming policy.
+item,Magma Emblem,ตราสัญลักษณ์แมกมา,locked,dlg_fe675caa94756773,data/maps/JaggedPass/scripts.inc:239,1,Human Review Phase C: harmonized with the reviewed story wording.
+character,Maxie,มัตสึบูสะ,locked,dlg_3e2b11896ebb1637,data/maps/MtChimney/scripts.inc:662,18,Human Review Phase C: accepted under established character naming policy.
+character,May,ฮารุกะ,locked,dlg_7cc549bb2e89937d,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:357,16,Human Review Phase C: harmonized to Japanese-based project naming policy; May = ฮารุกะ.
 item,Meteorite,อุกกาบาต,draft,dlg_61953244313ffbe4,data/maps/MeteorFalls_1F_1R/scripts.inc:233,5,Story item term used by the completed master.
 item,Mind Badge,มายด์แบดจ์,draft,dlg_16583cf9036a06e6,data/maps/MossdeepCity_Gym/scripts.inc:567,2,Badge name used by the completed master.
 recurring_phrase,Mom,แม่,draft,dlg_c9c9cfc75f70e8e3,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:285,6,Familial address; particle and pronoun vary by speaker context.
-character,Mr. Briney,คุณฮากิ,draft,dlg_6917422c3af8974f,data/maps/RusturfTunnel/scripts.inc:452,5,Japanese-character naming used by the completed master.
-character,Mr. Stone,ประธานสึวาบุกิ,draft,dlg_52b589c9fb152fe9,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:197,5,Completed master uses the president title with the Japanese surname.
-place,Mt. Chimney,ภูเขาเอ็นทตสึ,draft,dlg_de424b65d2ac84b8,data/maps/MeteorFalls_1F_1R/scripts.inc:279,3,Japanese-location naming used by the completed master.
-place,Mt. Pyre,ภูเขาโอคุริบิ,draft,dlg_72d579cc12f30a2d,data/maps/Route119_WeatherInstitute_2F/scripts.inc:272,4,Japanese-location naming used by the completed master.
+character,Mr. Briney,คุณฮากิ,locked,dlg_6917422c3af8974f,data/maps/RusturfTunnel/scripts.inc:452,5,Human Review Phase C: accepted under established character naming policy.
+character,Mr. Stone,ประธานสึวาบุกิ,locked,dlg_52b589c9fb152fe9,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:197,5,Human Review Phase C: accepted under established character naming policy.
+place,Mt. Chimney,ภูเขาเอ็นโทสึ,locked,dlg_de424b65d2ac84b8,data/maps/MeteorFalls_1F_1R/scripts.inc:279,3,Human Review Phase C: Japanese name えんとつ山 (Entotsu-yama); harmonized spelling.
+place,Mt. Pyre,ภูเขาโอคุริบิ,locked,dlg_72d579cc12f30a2d,data/maps/Route119_WeatherInstitute_2F/scripts.inc:272,4,Human Review Phase C: Japanese name おくりび山 (Okuribi-yama); harmonized spelling.
 place,Museum,พิพิธภัณฑ์,draft,dlg_e217e7b7f13bbeff,data/maps/MeteorFalls_1F_1R/scripts.inc:260,2,Oceanic Museum reference in the Slateport sequence.
-character,Norman,เซ็นริ,draft,dlg_258c92ca2f19d536,data/maps/PetalburgCity_Gym/scripts.inc:1306,2,Japanese-character naming used by the completed master.
-move,Overheat,โอเวอร์ฮีต,draft,dlg_dc7603a3e7b7cee7,data/maps/LavaridgeTown_Gym_1F/scripts.inc:341,1,Move name used by the completed master.
-character,Peeko,พีโกะ,draft,dlg_2a1b92399c937260,data/maps/RusturfTunnel/scripts.inc:448,5,Character name as used in the completed master.
-place,Petalburg,โทวกะ,draft,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,4,Japanese-location naming used by the completed master.
-place,Petalburg Woods,ป่าโทวกะ,draft,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,2,Japanese-location naming used by the completed master.
-character,Phoebe,ฟูโย,draft,dlg_3e4d602d030fbda7,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc:60,1,Japanese-character naming used by the completed master.
+character,Norman,เซ็นริ,locked,dlg_258c92ca2f19d536,data/maps/PetalburgCity_Gym/scripts.inc:1306,2,Human Review Phase C: accepted under established character naming policy.
+move,Overheat,โอเวอร์ฮีต,locked,dlg_dc7603a3e7b7cee7,data/maps/LavaridgeTown_Gym_1F/scripts.inc:341,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+character,Peeko,พีโกะ,locked,dlg_2a1b92399c937260,data/maps/RusturfTunnel/scripts.inc:448,5,Human Review Phase C: accepted under established character naming policy.
+place,Petalburg,โทวกะ,locked,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,4,Human Review Phase C: Japanese-based project location decision retained in reviewed story text.
+place,Petalburg Woods,ป่าโทวกะ,locked,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,2,Human Review Phase C: Japanese-based project location decision retained in reviewed story text.
+character,Phoebe,ฟูโย,locked,dlg_3e4d602d030fbda7,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc:60,1,Human Review Phase C: accepted under established character naming policy.
 item,Poké Ball,โปเกบอล,draft,dlg_45ae69cb30f2cd90,data/maps/Route101/scripts.inc:261,3,Core item term used by the completed master.
 technical,Pokédex,โปเกเด็กซ์,draft,dlg_4a63ffe7b2d7349e,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc:729,5,Core device term used consistently.
 technical,Pokémon,โปเกมอน,draft,dlg_f05a5b388b38ad28,data/text/birch_speech.inc:1,111,Core franchise term used consistently.
-place,Pokémon Gym,ยิมโปเกมอน,draft,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,20,Core facility term; city-specific compounds retain ยิม.
+place,Pokémon Gym,โปเกมอนยิม,locked,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,20,Human Review Phase C: harmonized with the reviewed story wording.
 place,Pokémon Lab,แล็บโปเกมอน,draft,dlg_745792a288a31bbd,data/text/birch_speech.inc:51,4,Professor Birch’s laboratory term.
 organization,Pokémon League,โปเกมอนลีก,draft,dlg_2d66888f162fdf06,data/maps/SootopolisCity_Gym_1F/scripts.inc:259,4,Organization and destination term used consistently.
 technical,PokéNav,โปเกนาวี,draft,dlg_8cdabd7f75be9916,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:219,3,Device name used by the completed master.
 title,President,ประธาน,draft,dlg_d4bd710202b46c0c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:267,4,Corporate title used in the Devon sequence.
-character,Professor Birch,ศ.เบิร์ช,draft,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,13,Preferred compact title form in dialogue.
+character,Professor Birch,ศ.เบิร์ช,locked,dlg_a1cf42cc4332f130,data/maps/LittlerootTown_MaysHouse_1F/scripts.inc:381,13,Human Review Phase C: accepted under established character naming policy.
 item,Rain Badge,อาเมะแบดจ์,draft,dlg_e4617a5d97c17e89,data/maps/SootopolisCity_Gym_1F/scripts.inc:234,3,Badge name used by the completed master.
 pokemon,Ralts,ราลทอส,draft,dlg_ea21b86b9428270d,data/maps/MauvilleCity/scripts.inc:478,1,Authoritative species_names_cross_reference.csv spelling.
 pokemon,Rayquaza,เร็คคูซา,draft,dlg_a9cd459000662ef7,data/maps/SootopolisCity/scripts.inc:1650,2,Authoritative species_names_cross_reference.csv spelling.
 item,Red Orb,ลูกแก้วสีแดง,draft,dlg_d918d79168cfccf1,data/maps/MtPyre_Summit/scripts.inc:483,8,Key Item term used by the completed master.
-move,Rock Smash,อิวะคุดากิ,draft,dlg_885f72022e6a7a31,data/maps/MauvilleCity_Gym/scripts.inc:357,1,Move name used by the completed master.
-move,Rock Tomb,กังเซกิฟูจิ,draft,dlg_e739b5163d24a801,data/maps/RustboroCity_Gym/scripts.inc:209,1,Move name used by the completed master.
-place,Route,ถนนหมายเลข,draft,dlg_302bf4be4220a361,data/maps/Route103/scripts.inc:288,2,Use before the route number.
-character,Roxanne,สึツジ,review,dlg_01331361d491fc05,data/maps/PetalburgCity_Gym/scripts.inc:1211,2,Thai master contains a Japanese glyph in the spelling สึツジ; human correction is required.
+move,Rock Smash,อิวะคุดากิ,locked,dlg_885f72022e6a7a31,data/maps/MauvilleCity_Gym/scripts.inc:357,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+move,Rock Tomb,กังเซกิฟูจิ,locked,dlg_e739b5163d24a801,data/maps/RustboroCity_Gym/scripts.inc:209,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+place,Route,เส้นทาง,locked,dlg_302bf4be4220a361,data/maps/Route103/scripts.inc:288,2,Human Review Phase C: generic route label aligned with reviewed story wording.
+character,Roxanne,สึสึจิ,locked,dlg_01331361d491fc05,data/maps/PetalburgCity_Gym/scripts.inc:1211,2,Human Review Phase C: Japanese-based character name; Roxanne = สึสึจิ.
 item,Running Shoes,รองเท้าวิ่ง,draft,dlg_f4cbe5e2e14292ec,data/maps/LittlerootTown/scripts.inc:921,2,Key Item term used by the completed master.
-place,Rustboro City,เมืองคานาซึมิ,draft,dlg_2833d41c93d5f47b,data/maps/PetalburgCity_Gym/scripts.inc:1228,4,Japanese-location naming used by the completed master.
-character,Scott,เอนิชิดะ,draft,dlg_a2a0edd5b970588e,data/maps/MauvilleCity/scripts.inc:561,2,Japanese-character naming used by the completed master.
+place,Rustboro City,เมืองคานาซึมิ,locked,dlg_2833d41c93d5f47b,data/maps/PetalburgCity_Gym/scripts.inc:1228,4,Human Review Phase C: locked to Japanese-based location naming policy.
+character,Scott,เอนิชิดะ,locked,dlg_a2a0edd5b970588e,data/maps/MauvilleCity/scripts.inc:561,2,Human Review Phase C: accepted under established character naming policy.
 place,Shipyard,อู่ต่อเรือ,draft,dlg_d4bd710202b46c0c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:267,2,Slateport shipyard location term.
-move,Shock Wave,เด็งเงกิฮะ,draft,dlg_ffb1954314bec3d3,data/maps/MauvilleCity_Gym/scripts.inc:365,1,Move name used by the completed master.
-character,Sidney,คาเง็ตสึ,draft,dlg_eb6ec0975494eabc,data/maps/EverGrandeCity_SidneysRoom/scripts.inc:66,1,Japanese-character naming used by the completed master.
-place,Sky Pillar,เสาหลักแห่งฟ้า,draft,dlg_b7e2f6325e376b0e,data/maps/SootopolisCity/scripts.inc:1645,2,Location term used by the completed master.
-place,Slateport,ไคนัน,draft,dlg_d4bd710202b46c0c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:267,7,Japanese-location naming used by the completed master.
-place,Sootopolis City,เมืองรูเนะ,draft,dlg_7ff2392c13cba811,data/maps/SkyPillar_Outside/scripts.inc:158,2,Japanese-location naming used by the completed master.
-character,Steven,ไดโกะ,draft,dlg_52b589c9fb152fe9,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:197,15,Japanese-character naming used by the completed master.
+move,Shock Wave,เด็งเงกิฮะ,locked,dlg_ffb1954314bec3d3,data/maps/MauvilleCity_Gym/scripts.inc:365,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+character,Sidney,คาเง็ตสึ,locked,dlg_eb6ec0975494eabc,data/maps/EverGrandeCity_SidneysRoom/scripts.inc:66,1,Human Review Phase C: accepted under established character naming policy.
+place,Sky Pillar,เสาหลักแห่งฟ้า,locked,dlg_b7e2f6325e376b0e,data/maps/SootopolisCity/scripts.inc:1645,2,Human Review Phase C: proper-name wording harmonized across story text.
+place,Slateport,ไคไน,locked,dlg_d4bd710202b46c0c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:267,7,Human Review Phase C: retained the already-locked Japanese-based project location decision.
+place,Sootopolis City,เมืองรูเนะ,locked,dlg_7ff2392c13cba811,data/maps/SkyPillar_Outside/scripts.inc:158,2,Human Review Phase C: Japanese-based project location decision retained in reviewed story text.
+character,Steven,ไดโกะ,locked,dlg_52b589c9fb152fe9,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:197,15,Human Review Phase C: accepted under established character naming policy.
 item,Stone Badge,สโตนแบดจ์,draft,dlg_bde9acfada6ecdb8,data/maps/RustboroCity_Gym/scripts.inc:198,2,Badge name used by the completed master.
-move,Strength,ไคริกิ,draft,dlg_ae26a5585d0e39c3,data/maps/VictoryRoad_1F/scripts.inc:120,1,Move name used by the completed master.
-move,Surf,นามิโนริ,draft,dlg_1349dbfc0225bf7b,data/maps/PetalburgCity_Gym/scripts.inc:1279,1,Move name used by the completed master.
-character,Tate,ฟู,draft,dlg_45b733a3659fa52c,data/maps/MossdeepCity_Gym/scripts.inc:591,4,Japanese-character naming used by the completed master.
-organization,Team Aqua,ทีมอควา,draft,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,13,Organization name used by the completed master.
-organization,Team Magma,ทีมแม็กมา,draft,dlg_6e4ba929b10c625c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:222,28,Organization name used by the completed master.
+move,Strength,ไคริกิ,locked,dlg_ae26a5585d0e39c3,data/maps/VictoryRoad_1F/scripts.inc:120,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+move,Surf,นามิโนริ,locked,dlg_1349dbfc0225bf7b,data/maps/PetalburgCity_Gym/scripts.inc:1279,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+character,Tate,ฟู,locked,dlg_45b733a3659fa52c,data/maps/MossdeepCity_Gym/scripts.inc:591,4,Human Review Phase C: accepted under established character naming policy.
+organization,Team Aqua,ทีมอควา,locked,dlg_3af0169168c5908b,data/maps/RustboroCity/scripts.inc:1097,13,Human Review Phase C: accepted as the consistent organization name in the reviewed story master.
+organization,Team Magma,ทีมแมกมา,locked,dlg_6e4ba929b10c625c,data/maps/RustboroCity_DevonCorp_3F/scripts.inc:222,28,Human Review Phase C: harmonized to the spelling consistently used in the reviewed story master.
 technical,Technical Machine,เทคนิคแมชชีน,draft,dlg_5ffaf85215a0f479,data/maps/PetalburgCity_Gym/scripts.inc:1287,11,TM remains TM where the source uses the abbreviation.
 technical,Trainer,เทรนเนอร์,draft,dlg_2f2b9342597fd41c,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc:702,27,Core role term used consistently.
-place,Verdanturf Town,เมืองชิดาเกะ,draft,dlg_f98cda4ae5188207,data/maps/PetalburgCity_Gym/scripts.inc:1159,3,Japanese-location naming used by the completed master.
-character,Wallace,มิคุริ,draft,dlg_62cd9667f8720313,data/maps/SkyPillar_Outside/scripts.inc:141,9,Japanese-character naming used by the completed master.
-character,Wally,มิตสึรุ,draft,dlg_5a8bd4e5faf57436,data/maps/PetalburgCity_Gym/scripts.inc:1198,21,Japanese-character naming used by the completed master.
-move,Water Pulse,มิซึโนะฮาโด,draft,dlg_b78ca7c65ffc780f,data/maps/SootopolisCity_Gym_1F/scripts.inc:248,1,Move name used by the completed master.
-move,Waterfall,ทากิโนโบริ,draft,dlg_04c38272168a6c08,data/maps/SootopolisCity_Gym_1F/scripts.inc:238,1,Move name used by the completed master.
-character,Wattson,เท็ตเซ็น,draft,dlg_fc810b4e66b7f5bb,data/maps/MauvilleCity_Gym/scripts.inc:353,1,Japanese-character naming used by the completed master.
-place,Weather Institute,สถาบันอุตุนิยมวิทยา,draft,dlg_6bc82f96214c6653,data/maps/Route119_WeatherInstitute_2F/scripts.inc:265,1,Building name used by the completed master.
-character,Winona,นางิ,draft,dlg_043520f7cee45426,data/maps/FortreeCity_Gym/scripts.inc:250,1,Japanese-character naming used by the completed master.
+place,Verdanturf Town,เมืองชิดาเกะ,locked,dlg_f98cda4ae5188207,data/maps/PetalburgCity_Gym/scripts.inc:1159,3,Human Review Phase C: Japanese-based project location decision retained in reviewed story text.
+character,Wallace,มิคุริ,locked,dlg_62cd9667f8720313,data/maps/SkyPillar_Outside/scripts.inc:141,9,Human Review Phase C: accepted under established character naming policy.
+character,Wally,มิตสึรุ,locked,dlg_5a8bd4e5faf57436,data/maps/PetalburgCity_Gym/scripts.inc:1198,21,Human Review Phase C: accepted under established character naming policy.
+move,Water Pulse,มิซึโนะฮาโด,locked,dlg_b78ca7c65ffc780f,data/maps/SootopolisCity_Gym_1F/scripts.inc:248,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+move,Waterfall,ทากิโนโบริ,locked,dlg_04c38272168a6c08,data/maps/SootopolisCity_Gym_1F/scripts.inc:238,1,Human Review Phase C: term accepted/harmonized using the existing project move glossary.
+character,Wattson,เท็ตเซ็น,locked,dlg_fc810b4e66b7f5bb,data/maps/MauvilleCity_Gym/scripts.inc:353,1,Human Review Phase C: accepted under established character naming policy.
+place,Weather Institute,สถาบันอุตุนิยมวิทยา,locked,dlg_6bc82f96214c6653,data/maps/Route119_WeatherInstitute_2F/scripts.inc:265,1,Human Review Phase C: facility term harmonized across story text.
+character,Winona,นางิ,locked,dlg_043520f7cee45426,data/maps/FortreeCity_Gym/scripts.inc:250,1,Human Review Phase C: accepted under established character naming policy.
 pokemon,Zigzagoon,จิกุซากุมะ,draft,dlg_eead62b58595e8b5,data/maps/PetalburgCity_Gym/scripts.inc:1176,1,Authoritative species_names_cross_reference.csv spelling.

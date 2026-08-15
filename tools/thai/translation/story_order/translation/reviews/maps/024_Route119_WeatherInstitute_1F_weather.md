@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy`
 - English preview: We have a situation here!<br>[PAGE]<br>A TEAM MAGMA mob just passed<br>the WEATHER INSTITUTE.<br>[PAGE]<br>They appear to be headed for<br>MT. PYRE!
-- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันวิจัยสภาพอากาศไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
+- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันอุตุนิยมวิทยาไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre`
 - English preview: What?!<br>[PAGE]<br>We can't waste any more time here!<br>We have to hurry to MT. PYRE, too!<br>[PAGE]<br>Ahahahaha!<br>TEAM MAGMA, just you wait!
-- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
+- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริบิเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium

@@ -2,7 +2,7 @@
 dlg_90522eab9aeeb6c1,158,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,1,Winona,FortreeCity_Gym_EventScript_Winona,data/maps/FortreeCity_Gym/scripts.inc,273,FortreeCity_Gym_Text_WinonaPostBattle,"Though I fell to you, I will remain\ndevoted to BIRD POKéMON.$","Though I fell to you, I will remain
 devoted to BIRD POKéMON.",แม้ฉันจะแพ้เธอ แต่ฉันจะยังคง\nทุ่มเทให้โปเกมอนนกต่อไป$,draft_review,\n,,high,high,high,ok,ok,
 dlg_043520f7cee45426,159,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,2,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,250,FortreeCity_Gym_Text_ReceivedFeatherBadge,{PLAYER} received the FEATHER BADGE\nfrom WINONA.$,"{PLAYER} received the FEATHER BADGE
-from WINONA.",{PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนากิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+from WINONA.",{PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนางิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_4ba2da8c6c4cb804,160,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,3,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,254,FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis,"With the FEATHER BADGE, all POKéMON up\nto LV 70, even those received through\ltrades, will obey your every command.\pYou will also be able to use\nthe HM move FLY outside of battle.\pAnd this…\nThis is a gift from me.$","With the FEATHER BADGE, all POKéMON up
 to LV 70, even those received through
 trades, will obey your every command.
@@ -11,7 +11,7 @@ You will also be able to use
 the HM move FLY outside of battle.
 [PAGE]
 And this…
-This is a gift from me.",เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโวโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$,draft_review,\n | \l | \p | \n | \p | \n,,high,high,high,ok,ok,
+This is a gift from me.",เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโอะโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$,draft_review,\n | \l | \p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_edeb336fc52d099f,161,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,4,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,382,Route120_Text_StevenShowMeYourPower,"STEVEN: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$","STEVEN: {PLAYER}{KUN}, show me your true
 power as a TRAINER!",ไดโกะ: {PLAYER}{KUN} แสดงพลังที่แท้จริง\nในฐานะเทรนเนอร์ให้ฉันดูหน่อย!$,draft_review,{PLAYER} | {KUN} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_8a26b89ed2ec5faf,162,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,5,Steven,Route120_EventScript_StevenBattleKecleon,data/maps/Route120/scripts.inc,386,Route120_Text_StevenUsedDevonScope,STEVEN used the DEVON SCOPE.\pAn invisible POKéMON became completely\nvisible!\pThe startled POKéMON attacked!$,"STEVEN used the DEVON SCOPE.
@@ -45,4 +45,4 @@ who strive together.
 [PAGE]
 I think you're doing great.
 [PAGE]
-Well, let's meet again somewhere.",ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nร่วมแรงพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \p,{PLAYER},high,high,high,ok,ok,
+Well, let's meet again somewhere.",ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \p,{PLAYER},high,high,high,ok,ok,

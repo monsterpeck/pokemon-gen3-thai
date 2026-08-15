@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo`
 - English preview: ARCHIE: TEAM MAGMA's MAXIE got ahead<br>of us, but we also got what we wanted.<br>[PAGE]<br>The RED ORB preserved at MT. PYRE…<br>I, ARCHIE, now have it in my possession!<br>[PAGE]<br>Fufufu… Now we can bring our ultimate<br>objective to fruition!<br>[PAGE]<br>Okay, TEAM!<br>We're pulling out!
-- Thai: อาโอคิ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริ…\nตอนนี้อยู่ในมือของฉัน อาโอคิแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
+- Thai: อาโอกิริ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริบิ…\nตอนนี้อยู่ในมือของฉัน อาโอกิริแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MagmaHideout_4F_Text_MaxieOhItWasYou`
 - English preview: MAXIE: Oh, so it was you?<br>[PAGE]<br>I've seen you poking around uninvited<br>here and there…<br>[PAGE]<br>I get it now!<br>You must have pulled a cheap stunt!
-- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือ\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
+- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือยุ่ง\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high
@@ -183,7 +183,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_CaptSternBeingInterviewed`
 - English preview: I was hoping that it was a famous star<br>so I could get an autograph.<br>[PAGE]<br>But who's that being interviewed?<br>Isn't that CAPT. STERN?
-- Thai: ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันสเติร์นไม่ใช่หรือ?$
+- Thai: ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันคุสโนกิไม่ใช่หรือ?$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: medium
@@ -202,7 +202,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternSaysDiscoveredSomething`
 - English preview: CAPT. STERN says they discovered<br>something at the bottom of the sea.<br>[PAGE]<br>I wonder what it is?<br>What could it be?
-- Thai: กัปตันสเติร์นบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$
+- Thai: กัปตันคุสโนกิบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: medium
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternMoveAheadWithExploration`
 - English preview: CAPT. STERN: Yes, indeed. We intend to<br>move ahead with our exploration.
-- Thai: กัปตันสเติร์น: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$
+- Thai: กัปตันคุสโนกิ: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -240,7 +240,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternWhewFirstInterview`
 - English preview: CAPT. STERN: Whew…<br>[PAGE]<br>That was my first time to be filmed for<br>TV. That was nerve-wracking.
-- Thai: กัปตันสเติร์น: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$
+- Thai: กัปตันคุสโนกิ: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -259,7 +259,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_OhPlayerWeMadeDiscovery`
 - English preview: Oh! {PLAYER}{KUN}!<br>You're looking great!<br>[PAGE]<br>We made a huge discovery on our last<br>seafloor exploration.<br>[PAGE]<br>We found an underwater cavern on<br>ROUTE 128.<br>[PAGE]<br>We think it's the habitat of a POKéMON<br>that's said to have been long extinct.
-- Thai: โอ้! {PLAYER}{KUN}!\nดูแข็งแรงดีนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$
+- Thai: โอ้! {PLAYER}{KUN}!\nดูดีมากเลยนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -278,7 +278,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_AquaWillAssumeControlOfSubmarine`
 - English preview: Fufufu…<br>CAPT. STERN, I presume.<br>[PAGE]<br>We of TEAM AQUA will assume<br>control of your submarine!<br>[PAGE]<br>Your objections are meaningless!<br>We expect your total cooperation!<br>[PAGE]<br>Fufufu…<br>Just watch and learn what TEAM<br>AQUA has planned!
-- Thai: หึ ๆ ๆ…\nกัปตันสเติร์นสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nเราหวังว่าแกจะให้ความร่วมมือเต็มที่!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$
+- Thai: หึ ๆ ๆ…\nกัปตันคุสโนกิสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nให้ความร่วมมือแต่โดยดีซะ!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: medium
@@ -297,7 +297,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternWhatWasAllThat`
 - English preview: CAPT. STERN: What was that all about?<br>[PAGE]<br>It sounded like someone using<br>a megaphone…<br>[PAGE]<br>Where did it come from?
-- Thai: กัปตันสเติร์น: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$
+- Thai: กัปตันคุสโนกิ: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: high
@@ -354,7 +354,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum`
 - English preview: CAPT. STERN: Those thugs…<br>[PAGE]<br>They're the same lot who tried to rob<br>the DEVON GOODS at the MUSEUM.
-- Thai: กัปตันสเติร์น: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$
+- Thai: กัปตันคุสโนกิ: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -373,7 +373,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine`
 - English preview: CAPT. STERN: Why…<br>[PAGE]<br>Why would TEAM AQUA steal my<br>SUBMARINE EXPLORER 1?<br>[PAGE]<br>They can't be after the slumbering<br>POKéMON at the bottom of the sea…<br>[PAGE]<br>But even if I were to chase them,<br>I don't stand a chance against them…
-- Thai: กัปตันสเติร์น: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$
+- Thai: กัปตันคุสโนกิ: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p | \n
 - Translation confidence: high

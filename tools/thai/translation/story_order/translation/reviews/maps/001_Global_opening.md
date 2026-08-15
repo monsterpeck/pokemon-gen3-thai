@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `gText_Birch_YourePlayer`
 - English preview: Ah, okay!<br>[PAGE]<br>You're {PLAYER}{KUN} who's moving to my<br>hometown of LITTLEROOT.<br>I get it now!<br>[PAGE]<br>
-- Thai: อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองบ้านเกิดของผม ลิตเติลรูท\lตอนนี้เข้าใจแล้วละ!\p$
+- Thai: อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของผม\lตอนนี้เข้าใจแล้วละ!\p$
 - Placeholders: {PLAYER}
 - Control codes: \p | {PLAYER} | {KUN} | \n | \l | \p
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `gText_Birch_AreYouReady`
 - English preview: All right, are you ready?<br>[PAGE]<br>Your very own adventure is about<br>to unfold.<br>[PAGE]<br>Take courage, and leap into the<br>world of POKéMON where dreams,<br>adventure, and friendships await!<br>[PAGE]<br>Well, I'll be expecting you later.<br>Come see me in my POKéMON LAB.<br>[PAGE]<br>
-- Thai: เอาละ พร้อมหรือยัง?\pการผจญภัยที่เป็นของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วผมจะรอพบเธอทีหลังนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$
+- Thai: เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \l | \p | \n | \p
 - Translation confidence: high

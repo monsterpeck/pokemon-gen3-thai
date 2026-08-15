@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SootopolisCity_Text_MaxieArchieLeft`
 - English preview: STEVEN: It looks like both MAXIE and<br>ARCHIE have gone away somewhere.<br>[PAGE]<br>Perhaps they've gone to MT. PYRE to<br>return those ORBS…
-- Thai: ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอคิจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$
+- Thai: ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอกิริจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_NeverBeenToSkyPillar`
 - English preview: STEVEN: The SKY PILLAR…<br>[PAGE]<br>I've never been there.<br>I wonder where it could be?
-- Thai: ไดโกะ: หอคอยฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$
+- Thai: ไดโกะ: เสาหลักแห่งฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_InvolvedWithCrisisComeWithMe`
 - English preview: STEVEN: Those POKéMON fighting…<br>GROUDON… And KYOGRE…<br>[PAGE]<br>The two super-ancient POKéMON<br>were awakened from a long sleep…<br>[PAGE]<br>And now they are smashing each other<br>with their uncontrollable energy…<br>[PAGE]<br>…{PLAYER}{KUN}.<br>[PAGE]<br>You being here now I'll take to mean<br>that you're prepared to become<br>involved in this crisis.<br>[PAGE]<br>Well, then, there's someone that<br>I'd like you to meet.<br>[PAGE]<br>Come with me, please.
-- Thai: ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคดึกดำบรรพ์ทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$
+- Thai: ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p
 - Translation confidence: high

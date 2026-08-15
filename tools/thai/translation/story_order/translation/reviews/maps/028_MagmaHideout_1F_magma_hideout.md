@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MagmaHideout_4F_Text_MaxieOhItWasYou`
 - English preview: MAXIE: Oh, so it was you?<br>[PAGE]<br>I've seen you poking around uninvited<br>here and there…<br>[PAGE]<br>I get it now!<br>You must have pulled a cheap stunt!
-- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือ\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
+- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือยุ่ง\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high

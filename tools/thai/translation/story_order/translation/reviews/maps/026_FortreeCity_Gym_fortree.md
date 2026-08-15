@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ReceivedFeatherBadge`
 - English preview: {PLAYER} received the FEATHER BADGE<br>from WINONA.
-- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนากิ$
+- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนางิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis`
 - English preview: With the FEATHER BADGE, all POKéMON up<br>to LV 70, even those received through<br>trades, will obey your every command.<br>[PAGE]<br>You will also be able to use<br>the HM move FLY outside of battle.<br>[PAGE]<br>And this…<br>This is a gift from me.
-- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโวโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
+- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโอะโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
 - Placeholders: —
 - Control codes: \n | \l | \p | \n | \p | \n
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Steven
 - Source label: `Route120_Text_StevenGoodbye`
 - English preview: STEVEN: {PLAYER}{KUN}.<br>[PAGE]<br>I enjoy seeing POKéMON and TRAINERS<br>who strive together.<br>[PAGE]<br>I think you're doing great.<br>[PAGE]<br>Well, let's meet again somewhere.
-- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nร่วมแรงพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
+- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \p
 - Translation confidence: high

@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RusturfTunnel_Text_ThankYouLetsGoHomePeeko`
 - English preview: PEEKO owes her life to you!<br>[PAGE]<br>They call me MR. BRINEY.<br>And, you are?<br>[PAGE]<br>… … … … … … … …<br>… … … … … … … …<br>[PAGE]<br>Ah, so you are {PLAYER}{KUN}!<br>I sincerely thank you!<br>[PAGE]<br>Now, if there's anything that troubles<br>you, don't hesitate to tell me!<br>[PAGE]<br>You can usually find me in my cottage<br>by the sea near PETALBURG WOODS.<br>[PAGE]<br>Come, PEEKO, we should make our way<br>home.<br>[PAGE]<br>PEEKO: Pihyoh!
-- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pคนเรียกฉันว่าคุณบรินี\nแล้วคุณคือ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
+- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pฉันชื่อฮากิ\nแล้วคุณล่ะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p
 - Translation confidence: high

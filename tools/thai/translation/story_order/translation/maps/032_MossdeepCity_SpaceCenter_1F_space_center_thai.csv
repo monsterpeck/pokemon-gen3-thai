@@ -57,7 +57,7 @@ for that slag heap of a mountain!
 So we'll use the fuel's power to make
 the volcano erupt!
 [PAGE]
-It will be savage!",มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึกิ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
+It will be savage!",มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p,,high,high,high,ok,ok,
 dlg_104f959b73f4cfdb,205,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,14,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,474,MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided,"MAXIE: We failed to make the volcano\nerupt…\pWe failed to control GROUDON after\nwe had awoken it…\pIs our goal to expand the land\nmisguided?\p… … … … … …\n… … … … … …\pIf…\nIf we, TEAM MAGMA, are wrong…\l… … … … … …\pThen might TEAM AQUA's goal to expand\nthe sea also be equally misguided?$","MAXIE: We failed to make the volcano
 erupt…
 [PAGE]
@@ -75,12 +75,12 @@ If we, TEAM MAGMA, are wrong…
 … … … … … …
 [PAGE]
 Then might TEAM AQUA's goal to expand
-the sea also be equally misguided?",มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายที่จะขยายผืนดิน\nของเรานั้นผิดกันแน่?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,high,ok,ok,
+the sea also be equally misguided?",มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายในการขยายผืนดิน\nของเราจะผิดจริง ๆ?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n,,high,high,high,ok,ok,
 dlg_1d1b84c3dd049a67,206,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,15,Maxie,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,489,MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp,MAXIE: All right…\nWe will give up on the fuel…\pThere appear to be more important\nmatters that I must examine…$,"MAXIE: All right…
 We will give up on the fuel…
 [PAGE]
 There appear to be more important
-matters that I must examine…",มัตสึบูสะ: เอาเถอะ…\nเราจะยอมทิ้งเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+matters that I must examine…",มัตสึบูสะ: เอาเถอะ…\nเราจะเลิกยุ่งกับเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
 dlg_63d0a5b1cfa2160d,207,10,mossdeep,Mossdeep and Space Center,มอสส์ดีปและศูนย์อวกาศ,34,space_center,Space Center,ศูนย์อวกาศ,34,MossdeepCity_SpaceCenter_1F,space_center,MossdeepCity SpaceCenter 1F,16,Steven,MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha,data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc,495,MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome,"STEVEN: Whew, that was too tense.\n{PLAYER}{KUN}, thank you.\pI have something to give you as\nthanks for your support.\pPlease come see me at home\nafter this.\pOh, yes, I don't live in RUSTBORO CITY.\nI live right here on this island.$","STEVEN: Whew, that was too tense.
 {PLAYER}{KUN}, thank you.
 [PAGE]
@@ -91,4 +91,4 @@ Please come see me at home
 after this.
 [PAGE]
 Oh, yes, I don't live in RUSTBORO CITY.
-I live right here on this island.",ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซูมิ\nแต่อยู่บนเกาะนี้เอง$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+I live right here on this island.",ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซึมิ\nแต่อยู่บนเกาะนี้เอง$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,

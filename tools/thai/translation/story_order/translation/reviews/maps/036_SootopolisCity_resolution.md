@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_TryingMeaninglessToPokemon`
 - English preview: ARCHIE: KYOGRE and GROUDON both<br>flew off to who knows where.<br>[PAGE]<br>The weather in HOENN has returned<br>to its normal state…<br>[PAGE]<br>Haha…<br>Hahaha…<br>[PAGE]<br>Maybe what we were trying to do was<br>something small, even meaningless,<br>to POKéMON…
-- Thai: อาโอคิ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$
+- Thai: อาโอกิริ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: high

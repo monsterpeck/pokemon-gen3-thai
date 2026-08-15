@@ -1,6 +1,6 @@
 ﻿id,global_order,chapter_order,chapter_id,chapter_title_en,chapter_title_th,event_order,event_id,event_title_en,event_title_th,map_order,map_name,map_period,location_name,dialogue_order,speaker,script_label,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,chronology_confidence,scope_confidence,translation_confidence,term_review,length_review,translation_notes
 dlg_302bf4be4220a361,20,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,1,May,Route103_EventScript_RivalMay,data/maps/Route103/scripts.inc,288,Route103_Text_MayRoute103Pokemon,MAY: Let's see… The POKéMON found\non ROUTE 103 include…$,"MAY: Let's see… The POKéMON found
-on ROUTE 103 include…",เมย์: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+on ROUTE 103 include…",ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_31e833de1ea33667,21,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,2,May,Route103_EventScript_RivalMay,data/maps/Route103/scripts.inc,292,Route103_Text_MayLetsBattle,"Oh, hi, {PLAYER}{KUN}!\p…Oh, I see, my dad gave you\na POKéMON as a gift.\pSince we're here, let's have a quick\nbattle!\pI'll give you a taste of what being\na TRAINER is like.$","Oh, hi, {PLAYER}{KUN}!
 [PAGE]
 …Oh, I see, my dad gave you
@@ -10,9 +10,9 @@ Since we're here, let's have a quick
 battle!
 [PAGE]
 I'll give you a taste of what being
-a TRAINER is like.",อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้สัมผัสว่า\nการเป็นเทรนเนอร์เป็นยังไง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+a TRAINER is like.",อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_1d2c85c3dd45b39f,22,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,3,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,315,Route103_Text_BrendanRoute103Pokemon,"BRENDAN: Okay, so it's this one and\nthat one that live on ROUTE 103…$","BRENDAN: Okay, so it's this one and
-that one that live on ROUTE 103…",เบรนแดน: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+that one that live on ROUTE 103…",ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_a2a36d33d4e71a0c,23,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,4,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,319,Route103_Text_BrendanLetsBattle,"Hey, it's {PLAYER}!\p…Oh, yeah, Dad gave you a POKéMON.\pSince we're here, how about a little\nbattle?\pI'll teach you what being a TRAINER's\nabout!$","Hey, it's {PLAYER}!
 [PAGE]
 …Oh, yeah, Dad gave you a POKéMON.
@@ -32,7 +32,7 @@ You might be able to befriend any
 kind of POKéMON easily.
 [PAGE]
 Well, it's time to head back to
-the LAB.",เมย์: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+the LAB.",ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_5ba654e578399a89,25,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,6,Brendan,Route103_EventScript_AfterBrendanBattle,data/maps/Route103/scripts.inc,330,Route103_Text_BrendanTimeToHeadBack,"BRENDAN: I think I get it.\nI think I know why my dad has his eye\lout for you now.\pLook, your POKéMON already likes you,\neven though you just got it.\p{PLAYER}, I get the feeling that you\ncould befriend any POKéMON with ease.\pWe should head back to the LAB.$","BRENDAN: I think I get it.
 I think I know why my dad has his eye
 out for you now.
@@ -43,7 +43,7 @@ even though you just got it.
 {PLAYER}, I get the feeling that you
 could befriend any POKéMON with ease.
 [PAGE]
-We should head back to the LAB.",เบรนแดน: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$,draft_review,\n | \l | \p | \n | \p | {PLAYER} | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+We should head back to the LAB.",ยูคิ: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$,draft_review,\n | \l | \p | \n | \p | {PLAYER} | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_68038fa36d7bdaf1,26,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,1,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,721,LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome,"PROF. BIRCH: {RIVAL}?\nGone home, I think.\pOr maybe that kid's scrabbling around\nin tall grass again somewhere…\pIf you or your POKéMON get tired,\nyou should get some rest at home.$","PROF. BIRCH: {RIVAL}?
 Gone home, I think.
 [PAGE]
@@ -76,7 +76,7 @@ with it.
 Whenever my kid catches a rare POKéMON
 and records its data in the POKéDEX,
 why, {RIVAL} looks for me while I'm out
-doing fieldwork, and shows me.",ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอามาให้ดู$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+doing fieldwork, and shows me.",ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_a1f8f8a1ea390b2a,29,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,4,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,741,LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex,{PLAYER} received the POKéDEX!$,{PLAYER} received the POKéDEX!,{PLAYER} ได้รับโปเกเด็กซ์!$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,
 dlg_44f775b1fbf29ce7,30,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,1,,LittlerootTown_EventScript_GoInsideWithMom,data/maps/LittlerootTown/scripts.inc,906,LittlerootTown_Text_OurNewHomeLetsGoInside,"MOM: {PLAYER}, we're here, honey!\pIt must be tiring riding with our things\nin the moving truck.\pWell, this is LITTLEROOT TOWN.\pHow do you like it?\nThis is our new home!\pIt has a quaint feel, but it seems to be\nan easy place to live, don't you think?\pAnd, you get your own room, {PLAYER}!\nLet's go inside.$","MOM: {PLAYER}, we're here, honey!
 [PAGE]
@@ -92,7 +92,7 @@ It has a quaint feel, but it seems to be
 an easy place to live, don't you think?
 [PAGE]
 And, you get your own room, {PLAYER}!
-Let's go inside.",แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองลิตเติลรูท\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$,draft_review,{PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+Let's go inside.",แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$,draft_review,{PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_f4cbe5e2e14292ec,31,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,2,,LittlerootTown_EventScript_GiveRunningShoes,data/maps/LittlerootTown/scripts.inc,921,LittlerootTown_Text_WearTheseRunningShoes,"MOM: {PLAYER}! {PLAYER}! Did you\nintroduce yourself to PROF. BIRCH?\pOh! What an adorable POKéMON!\nYou got it from PROF. BIRCH. How nice!\pYou're your father's child, all right.\nYou look good together with POKéMON!\pHere, honey! If you're going out on an\nadventure, wear these RUNNING SHOES.\pThey'll put a zip in your step!$","MOM: {PLAYER}! {PLAYER}! Did you
 introduce yourself to PROF. BIRCH?
 [PAGE]

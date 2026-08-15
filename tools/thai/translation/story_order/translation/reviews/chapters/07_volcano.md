@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_WithThisMeteorite`
 - English preview: Hehehe!<br>[PAGE]<br>With this METEORITE, that thing in<br>MT. CHIMNEY will…
-- Thai: ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึกิจะ…$
+- Thai: ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึจะ…$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma`
 - English preview: Heh?<br>[PAGE]<br>I don't know who you are, but if you get<br>in the way of TEAM MAGMA, don't<br>expect any mercy!
-- Thai: หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าจะได้รับความเมตตา!$
+- Thai: หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าพวกเราจะปรานี!$
 - Placeholders: —
 - Control codes: \p | \n | \l
 - Translation confidence: high
@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua`
 - English preview: Hehehe!<br>Even TEAM AQUA joins us!<br>[PAGE]<br>But it's too much trouble to deal with<br>you all…<br>[PAGE]<br>Heh, it doesn't matter!<br>[PAGE]<br>We've got the METEORITE, so off to<br>MT. CHIMNEY we go!<br>[PAGE]<br>Hehehe! Be seeing you, you TEAM<br>AQUA dingbats!
-- Thai: ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึกิ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$
+- Thai: ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \p | \n | \p | \n
 - Translation confidence: high
@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieSeenYouBefore`
 - English preview: ARCHIE: Didn't I see you before?<br>At SLATEPORT's MUSEUM?<br>[PAGE]<br>Ah, so your name is {PLAYER}.<br>[PAGE]<br>At the time, I thought you were one<br>of TEAM MAGMA's goons.<br>[PAGE]<br>Humph…<br>You're one odd kid.<br>[PAGE]<br>TEAM MAGMA is a dangerous group of<br>total fanatics.<br>[PAGE]<br>They engage in destruction, claiming<br>to expand the land mass.<br>[PAGE]<br>They are the rivals to us,<br>the sea-loving TEAM AQUA!
-- Thai: อาโอคิ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$
+- Thai: อาโอกิริ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -126,7 +126,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo`
 - English preview: ARCHIE: Yes, yes, we must!<br>We've got to hurry.<br>[PAGE]<br>There's no telling what TEAM MAGMA<br>will do at MT. CHIMNEY!
-- Thai: อาโอคิ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึกิ!$
+- Thai: อาโอกิริ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึ!$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieFarewell`
 - English preview: ARCHIE: {PLAYER}, you should keep<br>an eye out for TEAM MAGMA, too.<br>[PAGE]<br>Farewell!
-- Thai: อาโอคิ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$
+- Thai: อาโอกิริ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p
 - Translation confidence: high
@@ -164,7 +164,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieGoStopTeamMagma`
 - English preview: ARCHIE: Grr, {PLAYER}!<br>I should've guessed you'd show up!<br>[PAGE]<br>See for yourself what the fanatics<br>of TEAM MAGMA are up to!<br>[PAGE]<br>They're trying to inject the stolen<br>METEORITE's power into the volcano!<br>[PAGE]<br>Doing something like that will cause<br>the volcano's eruption!
-- Thai: อาโอคิ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันคิดจะฉีดพลังของ\nอุกกาบาตที่ขโมยมาใส่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$
+- Thai: อาโอกิริ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันกำลังส่งพลังของ\nอุกกาบาตที่ขโมยมาเข้าสู่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -183,7 +183,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieIHaveMyHandsFull`
 - English preview: ARCHIE: Grrr…<br>[PAGE]<br>I want to stop that MAXIE,<br>but I can't!<br>[PAGE]<br>Not when I have my hands full battling<br>three opponents at once!
-- Thai: อาโอคิ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$
+- Thai: อาโอกิริ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high
@@ -202,7 +202,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MtChimney_Text_MeteoriteWillActivateVolcano`
 - English preview: The power contained in the METEORITE…<br>[PAGE]<br>By amplifying its power with this<br>machine, MT. CHIMNEY's volcanic<br>activity will instantly intensify…<br>[PAGE]<br>Its energy will grow deep inside<br>the crater and…<br>Fufufu…
-- Thai: พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nการเคลื่อนไหวของภูเขาไฟ\lเอ็นโทสึกิจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$
+- Thai: พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nพลังปะทุของภูเขาเอ็นโทสึ\lจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n | \l
 - Translation confidence: medium
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MtChimney_Text_MaxieIntro`
 - English preview: MAXIE: Hm?<br>Who are you?<br>[PAGE]<br>… … … … … …<br>… … … … … …<br>[PAGE]<br>I'd heard ARCHIE bemoaning a child<br>who's been meddling in TEAM AQUA's<br>affairs.<br>[PAGE]<br>It must be you he meant.<br>[PAGE]<br>Humph! So you're thinking of<br>interfering with us, TEAM MAGMA?<br>[PAGE]<br>Now you listen.<br>Long ago, living things used the<br>land to live and grow.<br>[PAGE]<br>That is why land is all important!<br>It is the cradle of all!<br>[PAGE]<br>That is why TEAM MAGMA is dedicated<br>to the expansion of the land mass.<br>[PAGE]<br>It is for further advancement of<br>humankind and POKéMON!<br>[PAGE]<br>And for that, we need the power of<br>what sleeps within this mountain…<br>[PAGE]<br>Oh! There was no need for you to<br>learn that much.<br>[PAGE]<br>But, no matter!<br>I'll teach you the consequences of<br>meddling in our grand design!
-- Thai: มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอคิบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้ายิ่งขึ้น\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$
+- Thai: มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอกิริบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้า\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: high
@@ -259,7 +259,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieThankYou`
 - English preview: ARCHIE: {PLAYER}!<br>Thank you!<br>[PAGE]<br>With your help, we thwarted TEAM<br>MAGMA's destructive plan!<br>[PAGE]<br>But… You…<br>Whose side are you on?<br>[PAGE]<br>Ah, it doesn't matter.<br>[PAGE]<br>We will remain vigilant and keep up<br>our pursuit of TEAM MAGMA.<br>[PAGE]<br>{PLAYER}, we shall meet again!
-- Thai: อาโอคิ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$
+- Thai: อาโอกิริ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER}
 - Translation confidence: high
@@ -335,7 +335,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Flannery
 - Source label: `LavaridgeTown_Gym_1F_Text_FlanneryPostBattle`
 - English preview: Your power reminds me of someone…<br>[PAGE]<br>Oh! I know! You battle like NORMAN,<br>the GYM LEADER of PETALBURG.
-- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$
+- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนเซ็นริ\nยิมลีดเดอร์แห่งโทวกะเลย$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -373,7 +373,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis`
 - English preview: If you have a HEAT BADGE, all POKéMON<br>up to Level 50, even those you get in<br>trades from other people, will obey<br>you completely.<br>[PAGE]<br>And, it lets POKéMON use the HM move<br>STRENGTH outside of battle.<br>[PAGE]<br>This is a token of my appreciation.<br>Don't be shy about taking it!
-- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
+- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้จากการแลกเปลี่ยนก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริกินอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
 - Placeholders: —
 - Control codes: \n | \l | \l | \p | \n | \p | \n
 - Translation confidence: high

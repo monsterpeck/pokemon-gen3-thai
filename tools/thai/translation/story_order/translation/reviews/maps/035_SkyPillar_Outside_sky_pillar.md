@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SkyPillar_Outside_Text_OpenedDoorToSkyPillar`
 - English preview: WALLACE: Oh, my, I'm terribly sorry!<br>[PAGE]<br>In my haste, I didn't notice that<br>I'd left you behind!<br>[PAGE]<br>I've opened the locked door of<br>the SKY PILLAR.<br>[PAGE]<br>{PLAYER}{KUN}, let's be on our way!
-- Thai: มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nหอคอยฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$
+- Thai: มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nเสาหลักแห่งฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | {PLAYER} | {KUN}
 - Translation confidence: high

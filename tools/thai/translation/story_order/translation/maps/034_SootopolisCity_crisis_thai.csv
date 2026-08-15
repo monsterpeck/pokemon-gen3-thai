@@ -9,11 +9,11 @@ dlg_3e9330ccd919163e,224,11,crisis,Ancient Pokémon Crisis,วิกฤตโป
 ARCHIE have gone away somewhere.
 [PAGE]
 Perhaps they've gone to MT. PYRE to
-return those ORBS…",ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอคิจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
+return those ORBS…",ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอกิริจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$,draft_review,\n | \p | \n,,high,high,high,ok,ok,
 dlg_b7e2f6325e376b0e,225,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,4,,SootopolisCity_EventScript_StevenHelpedWallace,data/maps/SootopolisCity/scripts.inc,1645,SootopolisCity_Text_NeverBeenToSkyPillar,STEVEN: The SKY PILLAR…\pI've never been there.\nI wonder where it could be?$,"STEVEN: The SKY PILLAR…
 [PAGE]
 I've never been there.
-I wonder where it could be?",ไดโกะ: หอคอยฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$,draft_review,\p | \n,,high,high,high,ok,ok,
+I wonder where it could be?",ไดโกะ: เสาหลักแห่งฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$,draft_review,\p | \n,,high,high,high,ok,ok,
 dlg_2eb7f1b6277a7dc5,226,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,5,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1610,SootopolisCity_Text_InvolvedWithCrisisComeWithMe,"STEVEN: Those POKéMON fighting…\nGROUDON… And KYOGRE…\pThe two super-ancient POKéMON\nwere awakened from a long sleep…\pAnd now they are smashing each other\nwith their uncontrollable energy…\p…{PLAYER}{KUN}.\pYou being here now I'll take to mean\nthat you're prepared to become\linvolved in this crisis.\pWell, then, there's someone that\nI'd like you to meet.\pCome with me, please.$","STEVEN: Those POKéMON fighting…
 GROUDON… And KYOGRE…
 [PAGE]
@@ -32,7 +32,7 @@ involved in this crisis.
 Well, then, there's someone that
 I'd like you to meet.
 [PAGE]
-Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคดึกดำบรรพ์ทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
 [PAGE]
 Does seeing GROUDON and KYOGRE make

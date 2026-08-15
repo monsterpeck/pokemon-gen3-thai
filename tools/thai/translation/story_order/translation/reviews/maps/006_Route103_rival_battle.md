@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayRoute103Pokemon`
 - English preview: MAY: Let's see… The POKéMON found<br>on ROUTE 103 include…
-- Thai: เมย์: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
+- Thai: ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayLetsBattle`
 - English preview: Oh, hi, {PLAYER}{KUN}!<br>[PAGE]<br>…Oh, I see, my dad gave you<br>a POKéMON as a gift.<br>[PAGE]<br>Since we're here, let's have a quick<br>battle!<br>[PAGE]<br>I'll give you a taste of what being<br>a TRAINER is like.
-- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้สัมผัสว่า\nการเป็นเทรนเนอร์เป็นยังไง$
+- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanRoute103Pokemon`
 - English preview: BRENDAN: Okay, so it's this one and<br>that one that live on ROUTE 103…
-- Thai: เบรนแดน: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
+- Thai: ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayTimeToHeadBack`
 - English preview: MAY: I think I know why my dad has<br>an eye out for you now.<br>[PAGE]<br>I mean, you just got that POKéMON,<br>but it already likes you.<br>[PAGE]<br>You might be able to befriend any<br>kind of POKéMON easily.<br>[PAGE]<br>Well, it's time to head back to<br>the LAB.
-- Thai: เมย์: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
+- Thai: ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -107,7 +107,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanTimeToHeadBack`
 - English preview: BRENDAN: I think I get it.<br>I think I know why my dad has his eye<br>out for you now.<br>[PAGE]<br>Look, your POKéMON already likes you,<br>even though you just got it.<br>[PAGE]<br>{PLAYER}, I get the feeling that you<br>could befriend any POKéMON with ease.<br>[PAGE]<br>We should head back to the LAB.
-- Thai: เบรนแดน: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
+- Thai: ยูคิ: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
 - Placeholders: {PLAYER}
 - Control codes: \n | \l | \p | \n | \p | {PLAYER} | \n | \p
 - Translation confidence: high

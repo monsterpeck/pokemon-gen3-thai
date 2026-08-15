@@ -183,7 +183,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RusturfTunnel_Text_ThankYouLetsGoHomePeeko`
 - English preview: PEEKO owes her life to you!<br>[PAGE]<br>They call me MR. BRINEY.<br>And, you are?<br>[PAGE]<br>… … … … … … … …<br>… … … … … … … …<br>[PAGE]<br>Ah, so you are {PLAYER}{KUN}!<br>I sincerely thank you!<br>[PAGE]<br>Now, if there's anything that troubles<br>you, don't hesitate to tell me!<br>[PAGE]<br>You can usually find me in my cottage<br>by the sea near PETALBURG WOODS.<br>[PAGE]<br>Come, PEEKO, we should make our way<br>home.<br>[PAGE]<br>PEEKO: Pihyoh!
-- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pคนเรียกฉันว่าคุณบรินี\nแล้วคุณคือ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
+- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pฉันชื่อฮากิ\nแล้วคุณล่ะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere`
 - English preview: This is the DEVON CORPORATION's<br>third floor.<br>[PAGE]<br>Our PRESIDENT's OFFICE is on<br>this floor.<br>[PAGE]<br>Anyway, I can't tell you how much I'm<br>grateful for what you've done.<br>[PAGE]<br>Um… By the way, that parcel<br>you got back for us…<br>[PAGE]<br>Could I get you to deliver that to<br>the SHIPYARD in SLATEPORT?<br>[PAGE]<br>It would be awful if those robbers<br>tried to take it again.<br>[PAGE]<br>Uh… Hehehe, so, uh, could I count<br>on you to do that for me?<br>[PAGE]<br>Oh, that's right.<br>Could you wait here a second?
-- Thai: ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณเรื่องที่คุณช่วยไว้\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$
+- Thai: ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณคุณ\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -278,7 +278,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor`
 - English preview: I'm MR. STONE, the PRESIDENT of<br>the DEVON CORPORATION.<br>[PAGE]<br>I'd just got word about you!<br>[PAGE]<br>You saved our staff not just once,<br>but twice!<br>[PAGE]<br>I have a favor to ask of an amazing<br>person like you.<br>[PAGE]<br>I understand that you're delivering<br>a package to SLATEPORT's SHIPYARD.<br>[PAGE]<br>Well, on the way, could you stop off in<br>DEWFORD TOWN?<br>[PAGE]<br>I was hoping that you'd deliver a<br>LETTER to STEVEN in DEWFORD.
-- Thai: ฉันคือคุณสโตน ประธาน\nบริษัทเดวอน\pฉันเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pฉันมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pฉันอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$
+- Thai: ผมคือประธานสึวาบุกิ\nแห่งบริษัทเดวอน\pผมเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pผมมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pผมอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$
 - Placeholders: —
 - Control codes: \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -297,7 +297,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis`
 - English preview: MR. STONE: Now, you should know that<br>I am a great PRESIDENT.<br>[PAGE]<br>So, I'd never be so cheap as to ask<br>a favor for nothing in return.<br>[PAGE]<br>That's why I want you to have this!
-- Thai: คุณสโตน: คุณควรรู้ไว้นะว่า\nฉันเป็นประธานผู้ยิ่งใหญ่\pฉันจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ฉันอยากมอบนี่ให้คุณ!$
+- Thai: ประธานสึวาบุกิ: คุณควรรู้ไว้นะว่า\nผมเป็นประธานผู้ยิ่งใหญ่\pผมจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ผมอยากมอบนี่ให้คุณ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p
 - Translation confidence: high
@@ -335,7 +335,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp`
 - English preview: MR. STONE: That device…<br>[PAGE]<br>It's a POKéMON NAVIGATOR, or POKéNAV<br>for short.<br>[PAGE]<br>It's an indispensable tool for any<br>TRAINER on an adventure.<br>[PAGE]<br>It has a map of the HOENN region.<br>[PAGE]<br>You can check the locations of<br>DEWFORD and SLATEPORT easily!<br>[PAGE]<br>By the way, I've heard that sinister<br>criminals--MAGMA and AQUA, I believe--<br>have been making trouble far and wide.<br>[PAGE]<br>I think it would be best if you rested<br>up before you go on your way.
-- Thai: คุณสโตน: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ฉันได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$
+- Thai: ประธานสึวาบุกิ: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ผมได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n
 - Translation confidence: medium
@@ -354,7 +354,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare`
 - English preview: MR. STONE: Well, then, {PLAYER}{KUN},<br>go with caution and care!
-- Thai: คุณสโตน: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$
+- Thai: ประธานสึวาบุกิ: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n
 - Translation confidence: high
@@ -373,7 +373,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_WaitUpPeeko`
 - English preview: MR. BRINEY: Hold on, lass!<br>Wait up, PEEKO!
-- Thai: คุณบรินี: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$
+- Thai: คุณฮากิ: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -392,7 +392,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford`
 - English preview: Hm? You're {PLAYER}{KUN}!<br>You saved my darling PEEKO!<br>We owe so much to you!<br>[PAGE]<br>What's that?<br>You want to sail with me?<br>[PAGE]<br>Hmhm…<br>[PAGE]<br>You have a LETTER bound for DEWFORD<br>and a package for SLATEPORT, then?<br>[PAGE]<br>Quite the busy life you must lead!<br>[PAGE]<br>But, certainly, what you're asking is<br>no problem at all.<br>[PAGE]<br>You've come to the right man!<br>We'll set sail for DEWFORD.
-- Thai: หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pฮึ่มฮึ่ม…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$
+- Thai: หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pหึหึ…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n
 - Translation confidence: high
@@ -411,7 +411,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford`
 - English preview: MR. BRINEY: Ahoy!<br>I know exactly what you want to say!<br>[PAGE]<br>You're to deliver a LETTER to DEWFORD<br>and a package to SLATEPORT.<br>[PAGE]<br>What you need me to do is no problem<br>at all--I'm the man for the job!<br>[PAGE]<br>First, we'll set sail for DEWFORD.
-- Thai: คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
+- Thai: คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -430,7 +430,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford`
 - English preview: MR. BRINEY: Ahoy!<br>I know exactly what you want to say!<br>[PAGE]<br>You're to deliver a package to<br>CAPT. STERN in SLATEPORT.<br>[PAGE]<br>What you need me to do is no problem<br>at all--I'm the man for the job!<br>[PAGE]<br>First, we'll set sail for DEWFORD.
-- Thai: คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันสเติร์นที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
+- Thai: คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันคุสโนกิที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -449,7 +449,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_SetSailForDewford`
 - English preview: MR. BRINEY: DEWFORD it is, then!<br>[PAGE]<br>Anchors aweigh!<br>PEEKO, we're setting sail, my darling!
-- Thai: คุณบรินี: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$
+- Thai: คุณฮากิ: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -487,7 +487,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ReceivedKnuckleBadge`
 - English preview: {PLAYER} received the KNUCKLE BADGE<br>from BRAWLY.
-- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทกิ$
+- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -525,7 +525,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ExplainBulkUp`
 - English preview: That TM08 contains BULK UP.<br>[PAGE]<br>It's a move that raises both ATTACK<br>and DEFENSE stats.<br>[PAGE]<br>… … … … … …
-- Thai: TM08 บรรจุท่าบัลก์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
+- Thai: TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: medium

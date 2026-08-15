@@ -3,7 +3,7 @@ dlg_dbb46905c78db3fa,87,05,devon,Devon and Dewford,เดวอนและด�
 wave to cause a storm of astonishment
 among TRAINERS one day!",ฉันมองเห็นพรสวรรค์ของเธอเติบโต\nเป็นคลื่นยักษ์ที่สั่นสะเทือน\lเหล่าเทรนเนอร์ในสักวัน!$,draft_review,\n | \l,,high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
 dlg_b5f1597d44c6a945,88,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,มุโระและถ้ำอิชิ,17,DewfordTown_Gym,dewford,DewfordTown Gym,2,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,397,DewfordTown_Gym_Text_ReceivedKnuckleBadge,{PLAYER} received the KNUCKLE BADGE\nfrom BRAWLY.$,"{PLAYER} received the KNUCKLE BADGE
-from BRAWLY.",{PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทกิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
+from BRAWLY.",{PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,
 dlg_c511203430171749,89,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,17,dewford,Dewford and Granite Cave,มุโระและถ้ำอิชิ,17,DewfordTown_Gym,dewford,DewfordTown Gym,3,,DewfordTown_Gym_EventScript_BrawlyDefeated,data/maps/DewfordTown_Gym/scripts.inc,401,DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis,"The KNUCKLE BADGE makes all POKéMON\nup to Level 30, even those you get in\ltrades, obey without question.\pAnd, you'll be able to use the HM move\nFLASH outside of battle.\pIf you'd like, use this TECHNICAL\nMACHINE, too.$","The KNUCKLE BADGE makes all POKéMON
 up to Level 30, even those you get in
 trades, obey without question.
@@ -18,4 +18,4 @@ dlg_0e086d2f7643bdb7,90,05,devon,Devon and Dewford,เดวอนและด�
 It's a move that raises both ATTACK
 and DEFENSE stats.
 [PAGE]
-… … … … … …",TM08 บรรจุท่าบัลก์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,
+… … … … … …",TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$,draft_review,\p | \n | \p,,high,high,medium,review,ok,

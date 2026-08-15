@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route101_Text_YouSavedMe`
 - English preview: PROF. BIRCH: Whew…<br>[PAGE]<br>I was in the tall grass studying wild<br>POKéMON when I was jumped.<br>[PAGE]<br>You saved me.<br>Thanks a lot!<br>[PAGE]<br>Oh?<br>[PAGE]<br>Hi, you're {PLAYER}{KUN}!<br>[PAGE]<br>This is not the place to chat, so come<br>by my POKéMON LAB later, okay?
-- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมนะ?$
+- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมทีหลังนะ$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n
 - Translation confidence: high

@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy`
 - English preview: We have a situation here!<br>[PAGE]<br>A TEAM MAGMA mob just passed<br>the WEATHER INSTITUTE.<br>[PAGE]<br>They appear to be headed for<br>MT. PYRE!
-- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันวิจัยสภาพอากาศไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
+- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันอุตุนิยมวิทยาไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre`
 - English preview: What?!<br>[PAGE]<br>We can't waste any more time here!<br>We have to hurry to MT. PYRE, too!<br>[PAGE]<br>Ahahahaha!<br>TEAM MAGMA, just you wait!
-- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
+- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริบิเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route119_Text_MayExplainFly`
 - English preview: MAY: Use FLY, and your POKéMON will<br>instantly carry you to any town you've<br>already visited.<br>[PAGE]<br>But, to use FLY, you have to get<br>the GYM BADGE from FORTREE CITY.<br>That's important, so don't forget.<br>[PAGE]<br>You should FLY home and visit<br>LITTLEROOT for a change.<br>[PAGE]<br>I bet your mom's worried about you,<br>{PLAYER}{KUN}.<br>[PAGE]<br>Well, let's meet again somewhere!
-- Thai: ฮารุกะ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโวโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวาดามาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโวโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$
+- Thai: ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$
 - Placeholders: {PLAYER}
 - Control codes: \n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p
 - Translation confidence: high
@@ -202,7 +202,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route119_Text_BrendanExplainFly`
 - English preview: BRENDAN: Use FLY, and your POKéMON<br>instantly carries you to any town<br>you've already visited.<br>[PAGE]<br>But you need the FORTREE GYM BADGE <br>to do that.<br>[PAGE]<br>Anyway, I have to move along.
-- Thai: ยูคิ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวาดายิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$
+- Thai: ยูคิ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวะมากิยิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$
 - Placeholders: —
 - Control codes: \n | \l | \p | \n | \p
 - Translation confidence: high
@@ -221,7 +221,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_Text_ScottWayToGoBeSeeingYou`
 - English preview: SCOTT: Hahahah!<br>Way to go, {PLAYER}{KUN}!<br>[PAGE]<br>I just passed by a TRAINER riding<br>a BIKE.<br>[PAGE]<br>You just beat that TRAINER, didn't you?<br>It was pretty obvious that you did.<br>[PAGE]<br>The kid looked really upset with<br>a face all red from anger.<br>[PAGE]<br>I sure seem to run into you often.<br>Are you off to FORTREE GYM next?<br>[PAGE]<br>I expect that you'll do well at the GYM.<br>Well, I'll be seeing you!
-- Thai: เอ็นทัตสึ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวาดายิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$
+- Thai: เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$
 - Placeholders: {PLAYER}
 - Control codes: \n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -259,7 +259,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ReceivedFeatherBadge`
 - English preview: {PLAYER} received the FEATHER BADGE<br>from WINONA.
-- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนากิ$
+- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนางิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -278,7 +278,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis`
 - English preview: With the FEATHER BADGE, all POKéMON up<br>to LV 70, even those received through<br>trades, will obey your every command.<br>[PAGE]<br>You will also be able to use<br>the HM move FLY outside of battle.<br>[PAGE]<br>And this…<br>This is a gift from me.
-- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโวโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
+- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโอะโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
 - Placeholders: —
 - Control codes: \n | \l | \p | \n | \p | \n
 - Translation confidence: high
@@ -392,7 +392,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Steven
 - Source label: `Route120_Text_StevenGoodbye`
 - English preview: STEVEN: {PLAYER}{KUN}.<br>[PAGE]<br>I enjoy seeing POKéMON and TRAINERS<br>who strive together.<br>[PAGE]<br>I think you're doing great.<br>[PAGE]<br>Well, let's meet again somewhere.
-- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nร่วมแรงพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
+- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \p
 - Translation confidence: high

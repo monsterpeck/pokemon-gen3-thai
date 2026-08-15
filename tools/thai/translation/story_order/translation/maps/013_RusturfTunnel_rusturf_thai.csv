@@ -43,4 +43,4 @@ by the sea near PETALBURG WOODS.
 Come, PEEKO, we should make our way
 home.
 [PAGE]
-PEEKO: Pihyoh!",พีโกะรอดมาได้ก็เพราะคุณ!\pคนเรียกฉันว่าคุณบรินี\nแล้วคุณคือ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+PEEKO: Pihyoh!",พีโกะรอดมาได้ก็เพราะคุณ!\pฉันชื่อฮากิ\nแล้วคุณล่ะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$,draft_review,\p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED

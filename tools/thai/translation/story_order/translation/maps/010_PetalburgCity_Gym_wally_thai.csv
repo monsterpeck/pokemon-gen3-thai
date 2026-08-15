@@ -37,7 +37,7 @@ Of course, I'm a GYM LEADER, too.
 We'll battle one day, {PLAYER}.
 [PAGE]
 But that's only after you become
-stronger.",พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองรัสต์โบโร\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ คานาซึมิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$,draft_review,\p | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | {PLAYER} | \p | \n,{PLAYER} | {PLAYER},high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
+stronger.",พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองคานาซึมิ\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ สึสึจิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$,draft_review,\p | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | {PLAYER} | \p | \n,{PLAYER} | {PLAYER},high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
 dlg_494a02b492be76e5,50,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,Wally tutorial,11,PetalburgCity_Gym,wally,PetalburgCity Gym,4,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1151,PetalburgCity_Gym_Text_WallyIdLikeAPokemon,"Um… I…\nI'd like to get a POKéMON, please…$","Um… I…
 I'd like to get a POKéMON, please…",เอ่อ… ผม…\nผมอยากได้โปเกมอนสักตัวครับ…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_20ec25c2eaea2190,51,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,Wally tutorial,11,PetalburgCity_Gym,wally,PetalburgCity Gym,5,Wally,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1155,PetalburgCity_Gym_Text_DadOhYoureWallyRight,"DAD: Hm? You're… Uh… Oh, right.\nYou're WALLY, right?$","DAD: Hm? You're… Uh… Oh, right.
@@ -55,7 +55,7 @@ dlg_c91c18103becdb2f,54,04,petalburg,Petalburg and Rustboro,เพทัลเ�
 right?
 [PAGE]
 Go with WALLY and make sure that he
-safely catches a POKéMON.",พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วช่วยดูให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$,draft_review,{PLAYER} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+safely catches a POKéMON.",พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วคอยช่วยให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$,draft_review,{PLAYER} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_eead62b58595e8b5,55,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,11,wally_tutorial,Wally tutorial,Wally tutorial,11,PetalburgCity_Gym,wally,PetalburgCity Gym,9,,PetalburgCity_Gym_EventScript_BeginWallyTutorial,data/maps/PetalburgCity_Gym/scripts.inc,1176,PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon,"WALLY, here, I'll loan you my POKéMON.\pWALLY received a ZIGZAGOON!$","WALLY, here, I'll loan you my POKéMON.
 [PAGE]
 WALLY received a ZIGZAGOON!",มิตสึรุ เอ้า ฉันให้ยืมโปเกมอนของฉัน\pมิตสึรุได้รับจิกุซากุมะ!$,draft_review,\p,,high,high,high,ok,ok,LINEBREAK_ADJUSTED

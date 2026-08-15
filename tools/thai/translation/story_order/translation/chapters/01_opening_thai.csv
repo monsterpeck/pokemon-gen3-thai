@@ -46,7 +46,7 @@ You're {PLAYER}{KUN} who's moving to my
 hometown of LITTLEROOT.
 I get it now!
 [PAGE]
-",อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองบ้านเกิดของผม ลิตเติลรูท\lตอนนี้เข้าใจแล้วละ!\p$,draft_review,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+",อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของผม\lตอนนี้เข้าใจแล้วละ!\p$,draft_review,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_745792a288a31bbd,9,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,6,Professor Birch,opening_sequence,data/text/birch_speech.inc,51,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
 [PAGE]
 Your very own adventure is about
@@ -59,4 +59,4 @@ adventure, and friendships await!
 Well, I'll be expecting you later.
 Come see me in my POKéMON LAB.
 [PAGE]
-",เอาละ พร้อมหรือยัง?\pการผจญภัยที่เป็นของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วผมจะรอพบเธอทีหลังนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$,draft_review,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+",เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$,draft_review,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED

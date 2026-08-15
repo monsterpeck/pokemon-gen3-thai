@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Gym_1F_Text_GoGetFortreeBadge`
 - English preview: There remains but one BADGE to<br>obtain in HOENN.<br>[PAGE]<br>If you wish to challenge the POKéMON<br>LEAGUE, you must obtain the last<br>BADGE from the GYM in FORTREE.
-- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวาดาม$
+- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวะมากิ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \l
 - Translation confidence: high

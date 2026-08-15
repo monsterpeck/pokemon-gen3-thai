@@ -29,7 +29,7 @@ Now!
 Who can most elegantly dance with
 their POKéMON in HOENN?
 [PAGE]
-Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
 [PAGE]
 Here's some advice before you challenge
@@ -67,11 +67,11 @@ the CHAMPION!
 Ah, yes!
 [PAGE]
 What became of your POKéDEX?
-Here, let me see.",ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$,draft_review,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
+Here, let me see.",ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$,draft_review,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
 dlg_dd762debedb89c77,253,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,7,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,306,EverGrandeCity_ChampionsRoom_Text_BirchCongratulations,"PROF. BIRCH: Anyways,\ncongratulations!\pNow, go proudly into the final room!$","PROF. BIRCH: Anyways,
 congratulations!
 [PAGE]
-Now, go proudly into the final room!",ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$,draft_review,\n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+Now, go proudly into the final room!",ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$,draft_review,\n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
 dlg_e48bce6d96070af2,254,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,8,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,311,EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe,"WALLACE: {PLAYER}{KUN}…\pNo, let me rephrase that properly.\pThe new CHAMPION!\pCome with me.$","WALLACE: {PLAYER}{KUN}…
 [PAGE]
 No, let me rephrase that properly.

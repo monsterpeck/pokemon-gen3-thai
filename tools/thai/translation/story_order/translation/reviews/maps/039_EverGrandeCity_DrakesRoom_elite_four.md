@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_DrakesRoom_Text_IntroSpeech`
 - English preview: I am the last of the POKéMON LEAGUE<br>ELITE FOUR, DRAKE the DRAGON master!<br>[PAGE]<br>In their natural state, POKéMON are<br>wild living things. They are free.<br>[PAGE]<br>At times, they hinder us.<br>At times, they help us.<br>[PAGE]<br>For us to battle with POKéMON as<br>partners, do you know what it takes?<br>[PAGE]<br>Do you know what is needed?<br>[PAGE]<br>If you don't, then you will never<br>prevail over me!
-- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนคือสิ่งมีชีวิต\nป่าที่มีอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
+- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนเป็นสิ่งมีชีวิต\nป่าที่รักอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_GlaciasRoom_Text_IntroSpeech`
 - English preview: Welcome, my name is GLACIA<br>of the ELITE FOUR.<br>[PAGE]<br>I've traveled from afar to HOENN<br>so that I may hone my ice skills.<br>[PAGE]<br>But all I have seen are challenges by<br>weak TRAINERS and their POKéMON.<br>[PAGE]<br>What about you?<br>[PAGE]<br>It would please me to no end if I could<br>go all out against you!
-- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่พบมีเพียงคำท้าจาก\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
+- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่ผ่านมาฉันพบเพียง\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high

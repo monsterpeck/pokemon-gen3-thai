@@ -69,7 +69,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MossdeepCity_Gym_Text_ExplainCalmMind`
 - English preview: TATE: That TM04 contains…<br>LIZA: CALM MIND!<br>[PAGE]<br>TATE: It raises SP. ATK and…<br>LIZA: It raises SP. DEF!<br>[PAGE]<br>TATE: It's a move that's perfect…<br>LIZA: For PSYCHIC POKéMON!<br>[PAGE]<br>… … … … … …
-- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโอมินด์!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
+- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโซ!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -316,7 +316,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano`
 - English preview: MAXIE: Fufufu… Since you're so<br>curious, you deserve an explanation.<br>[PAGE]<br>We're going to jettison the entire<br>load into MT. CHIMNEY!<br>[PAGE]<br>With GROUDON gone, we have no need<br>for that slag heap of a mountain!<br>[PAGE]<br>So we'll use the fuel's power to make<br>the volcano erupt!<br>[PAGE]<br>It will be savage!
-- Thai: มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึกิ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$
+- Thai: มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -335,7 +335,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided`
 - English preview: MAXIE: We failed to make the volcano<br>erupt…<br>[PAGE]<br>We failed to control GROUDON after<br>we had awoken it…<br>[PAGE]<br>Is our goal to expand the land<br>misguided?<br>[PAGE]<br>… … … … … …<br>… … … … … …<br>[PAGE]<br>If…<br>If we, TEAM MAGMA, are wrong…<br>… … … … … …<br>[PAGE]<br>Then might TEAM AQUA's goal to expand<br>the sea also be equally misguided?
-- Thai: มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายที่จะขยายผืนดิน\nของเรานั้นผิดกันแน่?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$
+- Thai: มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายในการขยายผืนดิน\nของเราจะผิดจริง ๆ?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n
 - Translation confidence: high
@@ -354,7 +354,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp`
 - English preview: MAXIE: All right…<br>We will give up on the fuel…<br>[PAGE]<br>There appear to be more important<br>matters that I must examine…
-- Thai: มัตสึบูสะ: เอาเถอะ…\nเราจะยอมทิ้งเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$
+- Thai: มัตสึบูสะ: เอาเถอะ…\nเราจะเลิกยุ่งกับเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -373,7 +373,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Steven
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome`
 - English preview: STEVEN: Whew, that was too tense.<br>{PLAYER}{KUN}, thank you.<br>[PAGE]<br>I have something to give you as<br>thanks for your support.<br>[PAGE]<br>Please come see me at home<br>after this.<br>[PAGE]<br>Oh, yes, I don't live in RUSTBORO CITY.<br>I live right here on this island.
-- Thai: ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซูมิ\nแต่อยู่บนเกาะนี้เอง$
+- Thai: ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซึมิ\nแต่อยู่บนเกาะนี้เอง$
 - Placeholders: {PLAYER}
 - Control codes: \n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n
 - Translation confidence: high

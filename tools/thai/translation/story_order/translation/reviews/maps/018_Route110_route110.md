@@ -12,7 +12,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayLetsBattle`
 - English preview: MAY: Hi, {PLAYER}{KUN}, long time no see!<br>[PAGE]<br>While I was searching for other<br>POKéMON, my POKéMON grew stronger.<br>[PAGE]<br>So…<br>How about a little battle?
-- Thai: ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนาน!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็เก่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$
+- Thai: ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนานเลยนะ!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็แข็งแกร่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n
 - Translation confidence: high
@@ -31,7 +31,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayTakeThis`
 - English preview: MAY: {PLAYER}{KUN}, you've been busy<br>training, too, haven't you?<br>[PAGE]<br>I think you deserve a reward!<br>This is from me!
-- Thai: ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ของฉันให้!$
+- Thai: ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ฉันให้!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \p | \n
 - Translation confidence: high
@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayExplainItemfinder`
 - English preview: MAY: That's an ITEMFINDER.<br>[PAGE]<br>Try it out. If there is an item that's<br>not visible, it emits a sound.<br>[PAGE]<br>Okay, {PLAYER}{KUN}, let's meet again!<br>[PAGE]<br>I know it's a little silly coming from<br>me, but I think you should train a lot<br>harder for the next time.
-- Thai: ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้อาจฟังดูตลก\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$
+- Thai: ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้ก็ดูแปลก ๆ นะ\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l
 - Translation confidence: medium
@@ -88,7 +88,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route110_Text_BrendanTakeThis`
 - English preview: BRENDAN: {PLAYER}, you've trained<br>without me noticing…<br>[PAGE]<br>Good enough!<br>Here, take this.
-- Thai: ยูคิ: {PLAYER} ฝึกเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$
+- Thai: ยูคิ: {PLAYER} ฝึกจนเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n
 - Translation confidence: high

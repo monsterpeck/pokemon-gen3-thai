@@ -9,14 +9,14 @@ They're trying to inject the stolen
 METEORITE's power into the volcano!
 [PAGE]
 Doing something like that will cause
-the volcano's eruption!",อาโอคิ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันคิดจะฉีดพลังของ\nอุกกาบาตที่ขโมยมาใส่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+the volcano's eruption!",อาโอกิริ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันกำลังส่งพลังของ\nอุกกาบาตที่ขโมยมาเข้าสู่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
 dlg_3e2b11896ebb1637,134,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,2,Archie,MtChimney_EventScript_ArchieBusyFighting,data/maps/MtChimney/scripts.inc,662,MtChimney_Text_ArchieIHaveMyHandsFull,"ARCHIE: Grrr…\pI want to stop that MAXIE,\nbut I can't!\pNot when I have my hands full battling\nthree opponents at once!$","ARCHIE: Grrr…
 [PAGE]
 I want to stop that MAXIE,
 but I can't!
 [PAGE]
 Not when I have my hands full battling
-three opponents at once!",อาโอคิ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
+three opponents at once!",อาโอกิริ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$,draft_review,\p | \n | \p | \n,,high,high,high,ok,ok,
 dlg_ed68ce020b1d6ba1,135,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,3,,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,528,MtChimney_Text_MeteoriteWillActivateVolcano,"The power contained in the METEORITE…\pBy amplifying its power with this\nmachine, MT. CHIMNEY's volcanic\lactivity will instantly intensify…\pIts energy will grow deep inside\nthe crater and…\lFufufu…$","The power contained in the METEORITE…
 [PAGE]
 By amplifying its power with this
@@ -25,7 +25,7 @@ activity will instantly intensify…
 [PAGE]
 Its energy will grow deep inside
 the crater and…
-Fufufu…",พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nการเคลื่อนไหวของภูเขาไฟ\lเอ็นโทสึกิจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$,draft_review,\p | \n | \l | \p | \n | \l,,high,high,medium,ok,ok,
+Fufufu…",พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nพลังปะทุของภูเขาเอ็นโทสึ\lจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$,draft_review,\p | \n | \l | \p | \n | \l,,high,high,medium,ok,ok,
 dlg_e5fe9110f8a82454,136,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,4,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,537,MtChimney_Text_MaxieIntro,"MAXIE: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pI'd heard ARCHIE bemoaning a child\nwho's been meddling in TEAM AQUA's\laffairs.\pIt must be you he meant.\pHumph! So you're thinking of\ninterfering with us, TEAM MAGMA?\pNow you listen.\nLong ago, living things used the\lland to live and grow.\pThat is why land is all important!\nIt is the cradle of all!\pThat is why TEAM MAGMA is dedicated\nto the expansion of the land mass.\pIt is for further advancement of\nhumankind and POKéMON!\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pOh! There was no need for you to\nlearn that much.\pBut, no matter!\nI'll teach you the consequences of\lmeddling in our grand design!$","MAXIE: Hm?
 Who are you?
 [PAGE]
@@ -62,7 +62,7 @@ learn that much.
 [PAGE]
 But, no matter!
 I'll teach you the consequences of
-meddling in our grand design!",มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอคิบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้ายิ่งขึ้น\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$,draft_review,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,
+meddling in our grand design!",มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอกิริบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้า\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$,draft_review,\n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l,,high,high,high,ok,review_long_line,
 dlg_6d5968a287374b4b,137,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,5,Maxie,MtChimney_EventScript_Maxie,data/maps/MtChimney/scripts.inc,569,MtChimney_Text_MaxieYouHaventSeenLastOfMagma,"MAXIE: But, enough.\nI will back off this time.\pBut don't think that this is the last\nyou've seen of TEAM MAGMA.\pFufufu…\pEven without the METEORITE, if we\nobtain that ORB… Fufufu…$","MAXIE: But, enough.
 I will back off this time.
 [PAGE]
@@ -87,6 +87,6 @@ Ah, it doesn't matter.
 We will remain vigilant and keep up
 our pursuit of TEAM MAGMA.
 [PAGE]
-{PLAYER}, we shall meet again!",อาโอคิ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,high,ok,ok,
+{PLAYER}, we shall meet again!",อาโอกิริ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$,draft_review,{PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER},{PLAYER} | {PLAYER},high,high,high,ok,ok,
 dlg_42c985b1510208be,139,07,volcano,Fallarbor and Volcano,ฮาจิสึเกะและภูเขาไฟ,22,mt_chimney,Mt. Chimney,ภูเขาเอ็นโทสึกิ,22,MtChimney,chimney,MtChimney,7,,MtChimney_EventScript_MeteoriteMachine,data/maps/MtChimney/scripts.inc,724,MtChimney_Text_PlayerRemovedMeteorite,{PLAYER} removed the METEORITE from\nthe mysterious machine.$,"{PLAYER} removed the METEORITE from
 the mysterious machine.",{PLAYER} นำอุกกาบาตออกจาก\nเครื่องจักรลึกลับแล้ว$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,

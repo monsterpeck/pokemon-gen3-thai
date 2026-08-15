@@ -25,7 +25,7 @@ LITTLEROOT for a change.
 I bet your mom's worried about you,
 {PLAYER}{KUN}.
 [PAGE]
-Well, let's meet again somewhere!",ฮารุกะ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโวโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวาดามาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโวโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$,draft_review,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,high,ok,ok,
+Well, let's meet again somewhere!",ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$,draft_review,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,high,ok,ok,
 dlg_83a72594b4c34bcc,154,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,4,Brendan,Route119_EventScript_BattleBrendan,data/maps/Route119/scripts.inc,509,Route119_Text_BrendanIntro,"BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$","BRENDAN: {PLAYER}! So this is where
 you've been looking for POKéMON?
 [PAGE]
@@ -46,7 +46,7 @@ you've already visited.
 But you need the FORTREE GYM BADGE 
 to do that.
 [PAGE]
-Anyway, I have to move along.",ยูคิ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวาดายิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$,draft_review,\n | \l | \p | \n | \p,,high,high,high,ok,ok,
+Anyway, I have to move along.",ยูคิ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวะมากิยิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$,draft_review,\n | \l | \p | \n | \p,,high,high,high,ok,ok,
 dlg_6f04353d49eb36ad,157,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,7,,Route119_EventScript_RivalExitScottArrive,data/maps/Route119/scripts.inc,535,Route119_Text_ScottWayToGoBeSeeingYou,"SCOTT: Hahahah!\nWay to go, {PLAYER}{KUN}!\pI just passed by a TRAINER riding\na BIKE.\pYou just beat that TRAINER, didn't you?\nIt was pretty obvious that you did.\pThe kid looked really upset with\na face all red from anger.\pI sure seem to run into you often.\nAre you off to FORTREE GYM next?\pI expect that you'll do well at the GYM.\nWell, I'll be seeing you!$","SCOTT: Hahahah!
 Way to go, {PLAYER}{KUN}!
 [PAGE]
@@ -63,4 +63,4 @@ I sure seem to run into you often.
 Are you off to FORTREE GYM next?
 [PAGE]
 I expect that you'll do well at the GYM.
-Well, I'll be seeing you!",เอ็นทัตสึ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวาดายิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,medium,ok,review_long_line,
+Well, I'll be seeing you!",เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,medium,ok,review_long_line,

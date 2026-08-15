@@ -153,7 +153,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `gText_Birch_YourePlayer`
 - English preview: Ah, okay!<br>[PAGE]<br>You're {PLAYER}{KUN} who's moving to my<br>hometown of LITTLEROOT.<br>I get it now!<br>[PAGE]<br>
-- Thai: อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองบ้านเกิดของผม ลิตเติลรูท\lตอนนี้เข้าใจแล้วละ!\p$
+- Thai: อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของผม\lตอนนี้เข้าใจแล้วละ!\p$
 - Placeholders: {PLAYER}
 - Control codes: \p | {PLAYER} | {KUN} | \n | \l | \p
 - Translation confidence: high
@@ -172,7 +172,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `gText_Birch_AreYouReady`
 - English preview: All right, are you ready?<br>[PAGE]<br>Your very own adventure is about<br>to unfold.<br>[PAGE]<br>Take courage, and leap into the<br>world of POKéMON where dreams,<br>adventure, and friendships await!<br>[PAGE]<br>Well, I'll be expecting you later.<br>Come see me in my POKéMON LAB.<br>[PAGE]<br>
-- Thai: เอาละ พร้อมหรือยัง?\pการผจญภัยที่เป็นของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วผมจะรอพบเธอทีหลังนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$
+- Thai: เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \l | \p | \n | \p
 - Translation confidence: high
@@ -239,7 +239,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `RivalsHouse_1F_Text_BrendanWhoAreYou`
 - English preview: Hey!<br>You…<br>[PAGE]<br>Who are you?<br>[PAGE]<br>Oh, you're {PLAYER}, aren't you?<br>Moved in next door, right?<br>[PAGE]<br>I didn't know that you're a girl.<br>[PAGE]<br>Dad, PROF. BIRCH, said that our new<br>next-door neighbor is a GYM LEADER's<br>kid, so I assumed you'd be a guy.<br>[PAGE]<br>My name's BRENDAN.<br>So, hi, neighbor!<br>[PAGE]<br>Huh? Hey, {PLAYER}, don't you have<br>a POKéMON?<br>[PAGE]<br>Do you want me to go catch you one?<br>[PAGE]<br>Aw, darn, I forgot…<br>[PAGE]<br>I'm supposed to go help my dad catch<br>some wild POKéMON.<br>[PAGE]<br>Some other time, okay?
-- Thai: เฮ้!\nเธอน่ะ…\pเป็นใครกัน?\pอ๋อ เธอคือ {PLAYER} ใช่ไหม?\nคนที่เพิ่งย้ายมาอยู่ข้างบ้านสินะ\pไม่รู้มาก่อนเลยว่าเธอเป็นผู้หญิง\pพ่อของฉัน ศ.เบิร์ช บอกว่าเพื่อนบ้านใหม่\nเป็นลูกของยิมลีดเดอร์\lฉันเลยนึกว่าจะเป็นผู้ชายน่ะ\pฉันชื่อเบรนแดน\nยินดีที่ได้รู้จักนะ เพื่อนบ้าน!\pเอ๊ะ? {PLAYER} เธอยังไม่มี\nโปเกมอนเหรอ?\pอยากให้ฉันไปจับมาให้สักตัวไหม?\pอ๊ะ แย่ละ ลืมไปเลย…\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา\pไว้คราวหน้านะ ตกลงไหม?$
+- Thai: เฮ้!\nเธอน่ะ…\pเป็นใครกัน?\pอ๋อ เธอคือ {PLAYER} ใช่ไหม?\nคนที่เพิ่งย้ายมาอยู่ข้างบ้านสินะ\pไม่รู้มาก่อนเลยว่าเธอเป็นผู้หญิง\pพ่อของฉัน ศ.เบิร์ช บอกว่าเพื่อนบ้านใหม่\nเป็นลูกของยิมลีดเดอร์\lฉันเลยนึกว่าจะเป็นผู้ชายน่ะ\pฉันชื่อยูคิ\nยินดีที่ได้รู้จักนะ เพื่อนบ้าน!\pเอ๊ะ? {PLAYER} เธอยังไม่มี\nโปเกมอนเหรอ?\pอยากให้ฉันไปจับมาให้สักตัวไหม?\pอ๊ะ แย่ละ ลืมไปเลย…\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา\pไว้คราวหน้านะ ตกลงไหม?$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \p | {PLAYER} | \n | \p | \p | \n | \l | \p | \n | \p | {PLAYER} | \n | \p | \p | \p | \n | \p
 - Translation confidence: medium
@@ -258,7 +258,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `RivalsHouse_1F_Text_MayWhoAreYou`
 - English preview: Huh?<br>Who… Who are you?<br>[PAGE]<br>… … … … … … … …<br>… … … … … … … …<br>[PAGE]<br>Oh, you're {PLAYER}{KUN}.<br>So your move was today.<br>[PAGE]<br>Um… I'm MAY.<br>Glad to meet you!<br>[PAGE]<br>I…<br>I have this dream of becoming friends<br>with POKéMON all over the world.<br>[PAGE]<br>I… I heard about you, {PLAYER}{KUN}, from<br>my dad, PROF. BIRCH.<br>[PAGE]<br>I was hoping that you would be nice,<br>{PLAYER}{KUN}, and that we could be friends.<br>[PAGE]<br>Oh, this is silly, isn't it?<br>I… I've just met you, {PLAYER}{KUN}.<br>[PAGE]<br>Eheheh…<br>[PAGE]<br>Oh, no! I forgot!<br>[PAGE]<br>I was supposed to go help Dad catch<br>some wild POKéMON!<br>[PAGE]<br>{PLAYER}{KUN}, I'll catch you later!
-- Thai: เอ๊ะ?\nคะ… คุณเป็นใครคะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะคะ\pเอ่อ… ฉันชื่อเมย์ค่ะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลยค่ะ\pฉัน… ได้ยินเรื่องของคุณ {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ชค่ะ\pฉันหวังว่าคุณจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะคะ\nทั้งที่ฉัน… เพิ่งพบคุณแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะคะ!$
+- Thai: เอ๊ะ?\nคะ… คุณเป็นใครคะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะคะ\pเอ่อ… ฉันชื่อฮารุกะค่ะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลยค่ะ\pฉัน… ได้ยินเรื่องของคุณ {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ชค่ะ\pฉันหวังว่าคุณจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะคะ\nทั้งที่ฉัน… เพิ่งพบคุณแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะคะ!$
 - Placeholders: {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN}
 - Translation confidence: medium
@@ -319,7 +319,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route101_Text_YouSavedMe`
 - English preview: PROF. BIRCH: Whew…<br>[PAGE]<br>I was in the tall grass studying wild<br>POKéMON when I was jumped.<br>[PAGE]<br>You saved me.<br>Thanks a lot!<br>[PAGE]<br>Oh?<br>[PAGE]<br>Hi, you're {PLAYER}{KUN}!<br>[PAGE]<br>This is not the place to chat, so come<br>by my POKéMON LAB later, okay?
-- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมนะ?$
+- Thai: ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมทีหลังนะ$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n
 - Translation confidence: high
@@ -342,7 +342,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon`
 - English preview: PROF. BIRCH: So, {PLAYER}{KUN}.<br>[PAGE]<br>I've heard so much about you from<br>your father.<br>[PAGE]<br>I've heard that you don't have your<br>own POKéMON yet.<br>[PAGE]<br>But the way you battled earlier,<br>you pulled it off with aplomb!<br>[PAGE]<br>I guess you have your father's blood<br>in your veins after all!<br>[PAGE]<br>Oh, yes. As thanks for rescuing me,<br>I'd like you to have the POKéMON you<br>used earlier.<br>[PAGE]<br>{PLAYER} received the {STR_VAR_1}!
-- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากคุณพ่อมาเยอะเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่มีสายเลือด\nของคุณพ่ออยู่ในตัว!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
+- Thai: ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$
 - Placeholders: {PLAYER} | {PLAYER} | {STR_VAR_1}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1}
 - Translation confidence: high
@@ -361,7 +361,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon`
 - English preview: PROF. BIRCH: While you're at it, why not<br>give a nickname to that {STR_VAR_1}?
-- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว จะไม่ลอง\nตั้งชื่อเล่นให้ {STR_VAR_1} ตัวนั้นหน่อยหรือ?$
+- Thai: ศ.เบิร์ช: ไหน ๆ แล้ว ลองตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนั้นหน่อยไหม?$
 - Placeholders: {STR_VAR_1}
 - Control codes: \n | {STR_VAR_1}
 - Translation confidence: high
@@ -405,7 +405,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayRoute103Pokemon`
 - English preview: MAY: Let's see… The POKéMON found<br>on ROUTE 103 include…
-- Thai: เมย์: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
+- Thai: ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -424,7 +424,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayLetsBattle`
 - English preview: Oh, hi, {PLAYER}{KUN}!<br>[PAGE]<br>…Oh, I see, my dad gave you<br>a POKéMON as a gift.<br>[PAGE]<br>Since we're here, let's have a quick<br>battle!<br>[PAGE]<br>I'll give you a taste of what being<br>a TRAINER is like.
-- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้สัมผัสว่า\nการเป็นเทรนเนอร์เป็นยังไง$
+- Thai: อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -443,7 +443,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanRoute103Pokemon`
 - English preview: BRENDAN: Okay, so it's this one and<br>that one that live on ROUTE 103…
-- Thai: เบรนแดน: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
+- Thai: ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -481,7 +481,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route103_Text_MayTimeToHeadBack`
 - English preview: MAY: I think I know why my dad has<br>an eye out for you now.<br>[PAGE]<br>I mean, you just got that POKéMON,<br>but it already likes you.<br>[PAGE]<br>You might be able to befriend any<br>kind of POKéMON easily.<br>[PAGE]<br>Well, it's time to head back to<br>the LAB.
-- Thai: เมย์: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
+- Thai: ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -500,7 +500,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route103_Text_BrendanTimeToHeadBack`
 - English preview: BRENDAN: I think I get it.<br>I think I know why my dad has his eye<br>out for you now.<br>[PAGE]<br>Look, your POKéMON already likes you,<br>even though you just got it.<br>[PAGE]<br>{PLAYER}, I get the feeling that you<br>could befriend any POKéMON with ease.<br>[PAGE]<br>We should head back to the LAB.
-- Thai: เบรนแดน: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
+- Thai: ยูคิ: ฉันพอเข้าใจแล้ว\nตอนนี้รู้แล้วว่าทำไมพ่อ\lถึงสนใจเธอ\pดูสิ โปเกมอนของเธอชอบเธอแล้ว\nทั้งที่เพิ่งได้มาแท้ ๆ\p{PLAYER} ฉันรู้สึกว่าเธอ\nผูกมิตรกับโปเกมอนตัวไหนก็ได้แน่\pเรากลับไปที่แล็บกันเถอะ$
 - Placeholders: {PLAYER}
 - Control codes: \n | \l | \p | \n | \p | {PLAYER} | \n | \p
 - Translation confidence: high
@@ -561,7 +561,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex`
 - English preview: PROF. BIRCH: The POKéDEX is a high-tech<br>tool that automatically makes a record<br>of any POKéMON you meet or catch.<br>[PAGE]<br>My kid, {RIVAL}, goes everywhere<br>with it.<br>[PAGE]<br>Whenever my kid catches a rare POKéMON<br>and records its data in the POKéDEX,<br>why, {RIVAL} looks for me while I'm out<br>doing fieldwork, and shows me.
-- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอามาให้ดู$
+- Thai: ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$
 - Placeholders: {RIVAL} | {RIVAL}
 - Control codes: \n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l
 - Translation confidence: high
@@ -603,7 +603,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LittlerootTown_Text_OurNewHomeLetsGoInside`
 - English preview: MOM: {PLAYER}, we're here, honey!<br>[PAGE]<br>It must be tiring riding with our things<br>in the moving truck.<br>[PAGE]<br>Well, this is LITTLEROOT TOWN.<br>[PAGE]<br>How do you like it?<br>This is our new home!<br>[PAGE]<br>It has a quaint feel, but it seems to be<br>an easy place to live, don't you think?<br>[PAGE]<br>And, you get your own room, {PLAYER}!<br>Let's go inside.
-- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองลิตเติลรูท\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
+- Thai: แม่: {PLAYER} ถึงแล้วจ้ะ!\pนั่งมากับข้าวของในรถขนย้าย\nคงเหนื่อยน่าดูเลยนะ\pที่นี่คือเมืองมิโชโระ\pเป็นยังไงบ้าง?\nนี่คือบ้านใหม่ของเรา!\pบรรยากาศเรียบง่าย แต่ก็ดูเป็น\nเมืองที่อยู่สบาย ว่าไหม?\pแถมลูกยังมีห้องของตัวเองด้วยนะ {PLAYER}!\nเข้าไปข้างในกันเถอะ$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: {PLAYER} | \p | \n | \p | \p | \n | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high
@@ -723,7 +723,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanGoToRustboro`
 - English preview: DAD: Hm? Aren't you going to the<br>POKéMON GYM in RUSTBORO CITY?<br>[PAGE]<br>There's no challenge for me to<br>battle a greenhorn TRAINER.<br>[PAGE]<br>{PLAYER}, I want you to challenge me<br>when you become a lot stronger.<br>[PAGE]<br>I'll battle you, {PLAYER}, when you<br>can show me four GYM BADGES, okay?
-- Thai: พ่อ: หืม? ลูกไม่ได้กำลังจะไป\nโปเกมอนยิมที่เมืองรัสต์โบโรหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$
+- Thai: พ่อ: หืม? ลูกไม่ได้จะไป\nโปเกมอนยิมที่เมืองคานาซึมิหรือ?\pให้พ่อต่อสู้กับเทรนเนอร์มือใหม่\nก็ไม่ท้าทายเลย\p{PLAYER} พ่ออยากให้ลูกมาท้าสู้\nตอนที่แข็งแกร่งกว่านี้มากแล้ว\pพ่อจะสู้กับลูก {PLAYER} เมื่อลูก\nเอายิมแบดจ์ 4 อันมาให้ดู ตกลงไหม?$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \n | \p | {PLAYER} | \n
 - Translation confidence: medium
@@ -742,7 +742,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanGoToDewford`
 - English preview: DAD: I see… So, you've beaten<br>the GYM LEADER in RUSTBORO CITY.<br>[PAGE]<br>But there are many more TRAINERS<br>who are stronger than you, {PLAYER}.<br>[PAGE]<br>Across the sea in DEWFORD TOWN is a<br>GYM LEADER named BRAWLY.<br>[PAGE]<br>You should go challenge him.
-- Thai: พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองรัสต์โบโรได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองดิวฟอร์ด\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$
+- Thai: พ่อ: เข้าใจแล้ว… ลูกเอาชนะ\nยิมลีดเดอร์แห่งเมืองคานาซึมิได้แล้ว\pแต่ยังมีเทรนเนอร์อีกมาก\nที่แข็งแกร่งกว่าลูกนะ {PLAYER}\pอีกฟากทะเล ที่เมืองมุโระ\nมียิมลีดเดอร์ชื่อโทคิ\pลูกควรไปท้าสู้กับเขา$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | {PLAYER} | \p | \n | \p
 - Translation confidence: medium
@@ -799,7 +799,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Norman
 - Source label: `PetalburgCity_Gym_Text_NormanIntro`
 - English preview: DAD: Hm…<br>So, you did get four GYM BADGES.<br>[PAGE]<br>Fine, as I promised, we will have<br>a POKéMON battle.<br>[PAGE]<br>{PLAYER}…<br>[PAGE]<br>I'm so happy that I can have<br>a real battle with my own child.<br>[PAGE]<br>But, a battle is a battle!<br>[PAGE]<br>I will do everything in my power as<br>a GYM LEADER to win.<br>[PAGE]<br>{PLAYER}, you'd better give it your<br>best shot, too!
-- Thai: พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็จง\nสู้ให้เต็มที่เช่นกัน!$
+- Thai: พ่อ: อืม…\nในที่สุดลูกก็ได้ยิมแบดจ์มา 4 อัน\pเอาละ ตามที่สัญญาไว้\nเราจะมาดวลโปเกมอนกัน\p{PLAYER}…\pพ่อดีใจเหลือเกินที่ได้ต่อสู้\nอย่างจริงจังกับลูกของตัวเอง\pแต่การต่อสู้ก็คือการต่อสู้!\pพ่อจะใช้พลังทั้งหมดที่มี\nในฐานะยิมลีดเดอร์เพื่อคว้าชัย\p{PLAYER} ลูกเองก็\nสู้ให้เต็มที่เหมือนกัน!$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \p | \n | \p | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high
@@ -837,7 +837,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis`
 - English preview: DAD: With that BADGE, the DEFENSE<br>of all your POKéMON will increase.<br>[PAGE]<br>POKéMON that know the HM move SURF<br>will be able to travel over water.<br>[PAGE]<br>This is my gift to you. {PLAYER}, I'm<br>sure you can use it correctly.
-- Thai: พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM เซิร์ฟ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$
+- Thai: พ่อ: แบดจ์นั้นจะเพิ่ม\nพลังป้องกันของโปเกมอนทุกตัว\pโปเกมอนที่รู้จักท่า HM นามิโนริ\nจะเดินทางข้ามผิวน้ำได้\pนี่คือของขวัญจากพ่อ {PLAYER}\nพ่อมั่นใจว่าลูกจะใช้มันได้ถูกต้อง$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | \p | {PLAYER} | \n
 - Translation confidence: high
@@ -856,7 +856,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_DadHappyAndSad`
 - English preview: DAD: As the GYM LEADER, I can't<br>express how upset I am…<br>[PAGE]<br>But as a father, it makes me both<br>happy and a little sad. It's odd…
-- Thai: พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ ความรู้สึกแปลกจริง…$
+- Thai: พ่อ: ในฐานะยิมลีดเดอร์\nพ่อเสียใจจนบรรยายไม่ถูก…\pแต่ในฐานะพ่อ พ่อทั้งดีใจ\nและเศร้านิด ๆ เป็นความรู้สึกที่แปลกดี…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -913,7 +913,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_ExplainFacade`
 - English preview: DAD: TM42 contains FACADE.<br>[PAGE]<br>It doubles the power of moves if<br>the POKéMON is poisoned, paralyzed,<br>or burned.<br>[PAGE]<br>It might be able to turn a bad<br>situation into an advantage.
-- Thai: พ่อ: TM42 บรรจุท่าแฟซาด\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$
+- Thai: พ่อ: TM42 บรรจุท่าคาราเก็งกิ\pหากโปเกมอนติดพิษ เป็นอัมพาต\nหรือติดไฟ พลังของท่า\lจะเพิ่มขึ้นเป็นสองเท่า\pมันอาจพลิกสถานการณ์เลวร้าย\nให้กลายเป็นข้อได้เปรียบได้$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n
 - Translation confidence: high
@@ -974,7 +974,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_DadGoCollectBadges`
 - English preview: DAD: Now…<br>[PAGE]<br>{PLAYER}, if you want to become a<br>strong TRAINER, here's my advice.<br>[PAGE]<br>Head for RUSTBORO CITY beyond this<br>town.<br>[PAGE]<br>There, you should challenge<br>the GYM LEADER, ROXANNE.<br>[PAGE]<br>After her, go on to other POKéMON<br>GYMS and defeat their LEADERS.<br>[PAGE]<br>Collect BADGES from them,<br>understood?<br>[PAGE]<br>Of course, I'm a GYM LEADER, too.<br>We'll battle one day, {PLAYER}.<br>[PAGE]<br>But that's only after you become<br>stronger.
-- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองรัสต์โบโร\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ คานาซึมิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
+- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองคานาซึมิ\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ สึสึจิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \p | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | {PLAYER} | \p | \n
 - Translation confidence: medium
@@ -1069,7 +1069,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `PetalburgCity_Gym_Text_DadPlayerGoWithWally`
 - English preview: DAD: {PLAYER}, you heard that,<br>right?<br>[PAGE]<br>Go with WALLY and make sure that he<br>safely catches a POKéMON.
-- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วช่วยดูให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
+- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วคอยช่วยให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n
 - Translation confidence: high
@@ -1187,7 +1187,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ReceivedStoneBadge`
 - English preview: {PLAYER} received the STONE BADGE<br>from ROXANNE.
-- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากคานาซึมิ$
+- Thai: {PLAYER} ได้รับสโตนแบดจ์\nจากสึสึจิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: medium
@@ -1225,7 +1225,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_Gym_Text_ExplainRockTomb`
 - English preview: That TECHNICAL MACHINE, TM39,<br>contains ROCK TOMB.<br>[PAGE]<br>It not only inflicts damage by dropping<br>rocks, it also lowers SPEED.<br>[PAGE]<br>If you use a TM, it instantly teaches<br>the move to a POKéMON.<br>[PAGE]<br>Remember, a TM can be used only once,<br>so think before you use it.
-- Thai: เครื่องเทคนิค TM39 เครื่องนั้น\nบรรจุท่าร็อกทูมบ์\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
+- Thai: เครื่องเทคนิค TM39\nบรรจุท่ากังเซกิฟูจิ\pนอกจากสร้างความเสียหายด้วยการ\nทิ้งหินใส่แล้ว ยังลดความเร็วด้วย\pเมื่อใช้ TM โปเกมอนจะเรียนรู้\nท่านั้นได้ทันที\pจำไว้นะคะว่า TM ใช้ได้เพียงครั้งเดียว\nจึงควรคิดให้ดีก่อนใช้$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -1425,7 +1425,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RusturfTunnel_Text_ThankYouLetsGoHomePeeko`
 - English preview: PEEKO owes her life to you!<br>[PAGE]<br>They call me MR. BRINEY.<br>And, you are?<br>[PAGE]<br>… … … … … … … …<br>… … … … … … … …<br>[PAGE]<br>Ah, so you are {PLAYER}{KUN}!<br>I sincerely thank you!<br>[PAGE]<br>Now, if there's anything that troubles<br>you, don't hesitate to tell me!<br>[PAGE]<br>You can usually find me in my cottage<br>by the sea near PETALBURG WOODS.<br>[PAGE]<br>Come, PEEKO, we should make our way<br>home.<br>[PAGE]<br>PEEKO: Pihyoh!
-- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pคนเรียกฉันว่าคุณบรินี\nแล้วคุณคือ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
+- Thai: พีโกะรอดมาได้ก็เพราะคุณ!\pฉันชื่อฮากิ\nแล้วคุณล่ะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN} สินะ!\nขอบคุณจากใจจริง!\pถ้ามีอะไรเดือดร้อน\nก็บอกฉันได้เสมอนะ!\pปกติฉันอยู่กระท่อมริมทะเล\nใกล้ป่าโทวกะ\pไปกันเถอะพีโกะ\nกลับบ้านกัน\pพีโกะ: ปีฮโยะ!$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -1467,7 +1467,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere`
 - English preview: This is the DEVON CORPORATION's<br>third floor.<br>[PAGE]<br>Our PRESIDENT's OFFICE is on<br>this floor.<br>[PAGE]<br>Anyway, I can't tell you how much I'm<br>grateful for what you've done.<br>[PAGE]<br>Um… By the way, that parcel<br>you got back for us…<br>[PAGE]<br>Could I get you to deliver that to<br>the SHIPYARD in SLATEPORT?<br>[PAGE]<br>It would be awful if those robbers<br>tried to take it again.<br>[PAGE]<br>Uh… Hehehe, so, uh, could I count<br>on you to do that for me?<br>[PAGE]<br>Oh, that's right.<br>Could you wait here a second?
-- Thai: ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณเรื่องที่คุณช่วยไว้\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$
+- Thai: ที่นี่คือชั้นสาม\nของบริษัทเดวอน\pห้องประธานอยู่\nบนชั้นนี้\pไม่รู้จะขอบคุณคุณ\nยังไงถึงจะพอจริง ๆ\pเอ่อ… ว่าแต่พัสดุที่\nคุณเอากลับมาให้เรา…\pช่วยนำไปส่งที่อู่ต่อเรือ\nในไคไนได้ไหม?\pคงแย่มากถ้าพวกโจร\nมาชิงไปอีก\pเอ่อ… แหะ ๆ คือว่า ฝากคุณ\nจัดการเรื่องนี้ได้ไหม?\pอ้อ จริงสิ\nช่วยรอตรงนี้สักครู่นะ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -1524,7 +1524,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor`
 - English preview: I'm MR. STONE, the PRESIDENT of<br>the DEVON CORPORATION.<br>[PAGE]<br>I'd just got word about you!<br>[PAGE]<br>You saved our staff not just once,<br>but twice!<br>[PAGE]<br>I have a favor to ask of an amazing<br>person like you.<br>[PAGE]<br>I understand that you're delivering<br>a package to SLATEPORT's SHIPYARD.<br>[PAGE]<br>Well, on the way, could you stop off in<br>DEWFORD TOWN?<br>[PAGE]<br>I was hoping that you'd deliver a<br>LETTER to STEVEN in DEWFORD.
-- Thai: ฉันคือคุณสโตน ประธาน\nบริษัทเดวอน\pฉันเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pฉันมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pฉันอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$
+- Thai: ผมคือประธานสึวาบุกิ\nแห่งบริษัทเดวอน\pผมเพิ่งได้ยินเรื่องของคุณ!\pคุณช่วยพนักงานของเราไว้\nถึงสองครั้ง!\pผมมีเรื่องอยากขอร้อง\nคนเก่งอย่างคุณ\pได้ยินว่าคุณจะนำพัสดุไปส่ง\nที่อู่ต่อเรือในไคไน\pระหว่างทางช่วยแวะ\nเมืองมุโระได้ไหม?\pผมอยากให้คุณนำจดหมาย\nไปส่งให้ไดโกะที่มุโระ$
 - Placeholders: —
 - Control codes: \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -1543,7 +1543,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis`
 - English preview: MR. STONE: Now, you should know that<br>I am a great PRESIDENT.<br>[PAGE]<br>So, I'd never be so cheap as to ask<br>a favor for nothing in return.<br>[PAGE]<br>That's why I want you to have this!
-- Thai: คุณสโตน: คุณควรรู้ไว้นะว่า\nฉันเป็นประธานผู้ยิ่งใหญ่\pฉันจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ฉันอยากมอบนี่ให้คุณ!$
+- Thai: ประธานสึวาบุกิ: คุณควรรู้ไว้นะว่า\nผมเป็นประธานผู้ยิ่งใหญ่\pผมจึงไม่ขอให้ใครช่วยฟรี ๆ\nโดยไม่มีสิ่งตอบแทนแน่นอน\pเพราะอย่างนั้น ผมอยากมอบนี่ให้คุณ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p
 - Translation confidence: high
@@ -1581,7 +1581,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp`
 - English preview: MR. STONE: That device…<br>[PAGE]<br>It's a POKéMON NAVIGATOR, or POKéNAV<br>for short.<br>[PAGE]<br>It's an indispensable tool for any<br>TRAINER on an adventure.<br>[PAGE]<br>It has a map of the HOENN region.<br>[PAGE]<br>You can check the locations of<br>DEWFORD and SLATEPORT easily!<br>[PAGE]<br>By the way, I've heard that sinister<br>criminals--MAGMA and AQUA, I believe--<br>have been making trouble far and wide.<br>[PAGE]<br>I think it would be best if you rested<br>up before you go on your way.
-- Thai: คุณสโตน: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ฉันได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$
+- Thai: ประธานสึวาบุกิ: อุปกรณ์ชิ้นนั้น…\pชื่อเต็มคือโปเกมอนเนวิเกเตอร์\nหรือเรียกสั้น ๆ ว่าโปเกนาวี\pเป็นเครื่องมือที่ขาดไม่ได้สำหรับ\nเทรนเนอร์ผู้ออกผจญภัย\pในนั้นมีแผนที่ภูมิภาคโฮเอ็น\pคุณตรวจดูตำแหน่งของ\nมุโระกับไคไนได้ง่าย ๆ!\pว่าแต่ ผมได้ยินว่าพวกอาชญากร\nที่เรียกว่าทีมแมกมากับทีมอควา\lกำลังก่อเรื่องไปทั่ว\pพักผ่อนให้เต็มที่ก่อน\nออกเดินทางต่อจะดีกว่านะ$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p | \p | \n | \p | \n | \l | \p | \n
 - Translation confidence: medium
@@ -1600,7 +1600,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare`
 - English preview: MR. STONE: Well, then, {PLAYER}{KUN},<br>go with caution and care!
-- Thai: คุณสโตน: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$
+- Thai: ประธานสึวาบุกิ: ถ้าอย่างนั้น {PLAYER}{KUN}\nเดินทางอย่างระมัดระวังนะ!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n
 - Translation confidence: high
@@ -1623,7 +1623,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_WaitUpPeeko`
 - English preview: MR. BRINEY: Hold on, lass!<br>Wait up, PEEKO!
-- Thai: คุณบรินี: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$
+- Thai: คุณฮากิ: เดี๋ยวก่อนสาวน้อย!\nรอด้วย พีโกะ!$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -1642,7 +1642,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford`
 - English preview: Hm? You're {PLAYER}{KUN}!<br>You saved my darling PEEKO!<br>We owe so much to you!<br>[PAGE]<br>What's that?<br>You want to sail with me?<br>[PAGE]<br>Hmhm…<br>[PAGE]<br>You have a LETTER bound for DEWFORD<br>and a package for SLATEPORT, then?<br>[PAGE]<br>Quite the busy life you must lead!<br>[PAGE]<br>But, certainly, what you're asking is<br>no problem at all.<br>[PAGE]<br>You've come to the right man!<br>We'll set sail for DEWFORD.
-- Thai: หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pฮึ่มฮึ่ม…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$
+- Thai: หืม? คุณคือ {PLAYER}{KUN} นี่!\nคุณช่วยพีโกะสุดที่รักของฉันไว้!\lพวกเราติดหนี้บุญคุณมากจริง ๆ!\pว่าไงนะ?\nอยากออกเรือไปกับฉันเหรอ?\pหึหึ…\pคุณมีจดหมายต้องส่งที่มุโระ\nกับพัสดุสำหรับไคไนสินะ?\pชีวิตยุ่งไม่เบาเลยนะ!\pแต่เรื่องที่ขอมานั้น\nไม่มีปัญหาเลย\pคุณมาถูกคนแล้ว!\nเราออกเรือไปมุโระกันเถอะ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \p | \n | \p | \p | \n | \p | \p | \n | \p | \n
 - Translation confidence: high
@@ -1661,7 +1661,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford`
 - English preview: MR. BRINEY: Ahoy!<br>I know exactly what you want to say!<br>[PAGE]<br>You're to deliver a LETTER to DEWFORD<br>and a package to SLATEPORT.<br>[PAGE]<br>What you need me to do is no problem<br>at all--I'm the man for the job!<br>[PAGE]<br>First, we'll set sail for DEWFORD.
-- Thai: คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
+- Thai: คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องส่งจดหมายที่มุโระ\nและส่งพัสดุที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -1680,7 +1680,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford`
 - English preview: MR. BRINEY: Ahoy!<br>I know exactly what you want to say!<br>[PAGE]<br>You're to deliver a package to<br>CAPT. STERN in SLATEPORT.<br>[PAGE]<br>What you need me to do is no problem<br>at all--I'm the man for the job!<br>[PAGE]<br>First, we'll set sail for DEWFORD.
-- Thai: คุณบรินี: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันสเติร์นที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
+- Thai: คุณฮากิ: โอ้โฮ่!\nฉันรู้แล้วว่าคุณจะพูดอะไร!\pคุณต้องนำพัสดุไปส่งให้\nกัปตันคุสโนกิที่ไคไน\pเรื่องที่อยากให้ฉันช่วยไม่มีปัญหา\nฉันนี่แหละเหมาะกับงานนี้!\pก่อนอื่น ออกเรือไปมุโระกัน!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -1699,7 +1699,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route104_MrBrineysHouse_Text_SetSailForDewford`
 - English preview: MR. BRINEY: DEWFORD it is, then!<br>[PAGE]<br>Anchors aweigh!<br>PEEKO, we're setting sail, my darling!
-- Thai: คุณบรินี: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$
+- Thai: คุณฮากิ: งั้นไปมุโระกัน!\pถอนสมอ!\nพีโกะ ออกเรือกันนะที่รัก!$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -1741,7 +1741,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ReceivedKnuckleBadge`
 - English preview: {PLAYER} received the KNUCKLE BADGE<br>from BRAWLY.
-- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทกิ$
+- Thai: {PLAYER} ได้รับนัคเคิลแบดจ์\nจากโทคิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -1779,7 +1779,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `DewfordTown_Gym_Text_ExplainBulkUp`
 - English preview: That TM08 contains BULK UP.<br>[PAGE]<br>It's a move that raises both ATTACK<br>and DEFENSE stats.<br>[PAGE]<br>… … … … … …
-- Thai: TM08 บรรจุท่าบัลก์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
+- Thai: TM08 บรรจุท่าบิลด์อัป\pเป็นท่าที่เพิ่มทั้งพลังโจมตี\nและพลังป้องกัน\p… … … … … …$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: medium
@@ -1804,7 +1804,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts`
 - English preview: Yes? If you're looking for STERN,<br>that would be me.<br>[PAGE]<br>Ah! Those must be the parts I ordered<br>from MR. STONE of DEVON.<br>[PAGE]<br>Thank you! That's great!<br>We can prepare for our expedition now.
-- Thai: ครับ? ถ้าตามหาสเติร์น\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากคุณสโตนแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$
+- Thai: ครับ? ถ้าตามหากัปตันคุสโนกิ\nผมนี่แหละครับ\pอ๊ะ! นั่นต้องเป็นชิ้นส่วนที่ผมสั่ง\nจากประธานสึวาบุกิแห่งเดวอนแน่ ๆ\pขอบคุณครับ! เยี่ยมเลย!\nทีนี้ก็เตรียมออกสำรวจได้แล้ว$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -1842,7 +1842,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou`
 - English preview: CAPT. STERN: Wh-what?<br>Who are you people?
-- Thai: กัปตันสเติร์น: อะ-อะไรนะ?\nพวกแกเป็นใคร?$
+- Thai: กัปตันคุสโนกิ: อะ-อะไรนะ?\nพวกแกเป็นใคร?$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -1956,7 +1956,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SlateportCity_OceanicMuseum_2F_Text_ArchieWarning`
 - English preview: We are TEAM AQUA,<br>and we love the sea!<br>[PAGE]<br>And I am TEAM AQUA's leader,<br>ARCHIE!<br>[PAGE]<br>What makes you interfere with us?<br>[PAGE]<br>…No! You can't be!<br>You're not one of TEAM MAGMA?<br>[PAGE]<br>Wait, that can't be right.<br>You're not dressed for the part.<br>[PAGE]<br>… … … … … …<br>… … … … … …<br>[PAGE]<br>POKéMON, people… All life depends on<br>the sea.<br>[PAGE]<br>So, TEAM AQUA is dedicated to<br>the expansion of the sea.<br>[PAGE]<br>Don't you agree? What we are doing<br>is a magnificent undertaking.<br>[PAGE]<br>Ah, fine…<br>You're still too young to understand<br>our noble objective.<br>[PAGE]<br>But, I warn you, don't even consider<br>interfering with our plans again.<br>[PAGE]<br>The consequences will cost you<br>dearly!<br>[PAGE]<br>And don't you forget it!
-- Thai: พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอคิ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$
+- Thai: พวกเราคือทีมอควา\nผู้รักท้องทะเล!\pและฉันคือหัวหน้าทีมอควา\nอาโอกิริ!\pทำไมแกถึงมาขวางพวกเรา?\p…ไม่! หรือว่าแก!\nแกไม่ใช่พวกทีมแมกมาหรือ?\pเดี๋ยวสิ ไม่น่าใช่\nแต่งตัวไม่เหมือนพวกมันเลย\p… … … … … …\n… … … … … …\pโปเกมอน มนุษย์… ทุกชีวิตล้วน\nต้องพึ่งพาท้องทะเล\pทีมอควาจึงมุ่งมั่นที่จะ\nขยายผืนทะเล\pไม่เห็นด้วยหรือ? สิ่งที่เราทำ\nคือภารกิจอันยิ่งใหญ่\pเอาเถอะ…\nแกยังเด็กเกินกว่าจะเข้าใจ\lเป้าหมายอันสูงส่งของเรา\pแต่ขอเตือนไว้ อย่าคิด\nขัดขวางแผนของเราอีก\pไม่อย่างนั้นแกจะต้อง\nชดใช้อย่างสาสม!\pจำใส่หัวไว้ด้วย!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p
 - Translation confidence: medium
@@ -1975,7 +1975,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs`
 - English preview: CAPT. STERN: You're…<br>Ah, okay, you're {PLAYER}{KUN}…<br>[PAGE]<br>Anyway, that was a tense situation!<br>Thank you for saving us!<br>[PAGE]<br>Oh, yes, I almost forgot that you<br>even brought the parts from DEVON!
-- Thai: กัปตันสเติร์น: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$
+- Thai: กัปตันคุสโนกิ: คุณคือ…\nอ๋อ เข้าใจแล้ว {PLAYER}{KUN} สินะ…\pเมื่อกี้สถานการณ์คับขันจริง ๆ!\nขอบคุณที่ช่วยพวกเราไว้!\pอ้อ ใช่ ผมเกือบลืมไปเลยว่า\nคุณนำชิ้นส่วนจากเดวอนมาด้วย!$
 - Placeholders: {PLAYER}
 - Control codes: \n | {PLAYER} | {KUN} | \p | \n | \p | \n
 - Translation confidence: high
@@ -1994,7 +1994,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo`
 - English preview: CAPT. STERN: Whoops!<br>There's no time to lose!<br>[PAGE]<br>We have to set out on our ocean-floor<br>expedition really soon.<br>[PAGE]<br>Thanks again, but now I've got<br>to go!<br>[PAGE]<br>Feel free to wander around and check<br>out our facilities, though.
-- Thai: กัปตันสเติร์น: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจพื้นมหาสมุทร\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$
+- Thai: กัปตันคุสโนกิ: อ๊ะ!\nไม่มีเวลาแล้ว!\pเราต้องรีบออกเดินทาง\nไปสำรวจก้นทะเล\pขอบคุณอีกครั้งนะ แต่ตอนนี้\nผมต้องไปแล้ว!\pเชิญเดินชมอุปกรณ์ต่าง ๆ\nของเราได้ตามสบายครับ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -2017,7 +2017,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayLetsBattle`
 - English preview: MAY: Hi, {PLAYER}{KUN}, long time no see!<br>[PAGE]<br>While I was searching for other<br>POKéMON, my POKéMON grew stronger.<br>[PAGE]<br>So…<br>How about a little battle?
-- Thai: ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนาน!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็เก่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$
+- Thai: ฮารุกะ: สวัสดี {PLAYER}{KUN} ไม่ได้เจอกันนานเลยนะ!\pระหว่างที่ฉันตามหา\nโปเกมอนตัวอื่น โปเกมอนของฉันก็แข็งแกร่งขึ้น\pงั้น…\nมาสู้กันสักหน่อยไหม?$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \n
 - Translation confidence: high
@@ -2036,7 +2036,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayTakeThis`
 - English preview: MAY: {PLAYER}{KUN}, you've been busy<br>training, too, haven't you?<br>[PAGE]<br>I think you deserve a reward!<br>This is from me!
-- Thai: ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ของฉันให้!$
+- Thai: ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ฉันให้!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \p | \n
 - Translation confidence: high
@@ -2055,7 +2055,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route110_Text_MayExplainItemfinder`
 - English preview: MAY: That's an ITEMFINDER.<br>[PAGE]<br>Try it out. If there is an item that's<br>not visible, it emits a sound.<br>[PAGE]<br>Okay, {PLAYER}{KUN}, let's meet again!<br>[PAGE]<br>I know it's a little silly coming from<br>me, but I think you should train a lot<br>harder for the next time.
-- Thai: ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้อาจฟังดูตลก\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$
+- Thai: ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้ก็ดูแปลก ๆ นะ\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l
 - Translation confidence: medium
@@ -2093,7 +2093,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route110_Text_BrendanTakeThis`
 - English preview: BRENDAN: {PLAYER}, you've trained<br>without me noticing…<br>[PAGE]<br>Good enough!<br>Here, take this.
-- Thai: ยูคิ: {PLAYER} ฝึกเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$
+- Thai: ยูคิ: {PLAYER} ฝึกจนเก่งขึ้น\nโดยที่ฉันไม่ทันสังเกตเลย…\pใช้ได้เลย!\nเอ้า รับนี่ไป$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n
 - Translation confidence: high
@@ -2154,7 +2154,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_UncleCanYouBattleWally`
 - English preview: UNCLE: {PLAYER}{KUN}, was it?<br>On WALLY's behalf, can I ask you to<br>battle with him just this once?<br>[PAGE]<br>I don't think he's going to listen to<br>any reason the way he is now.
-- Thai: คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$
+- Thai: คุณลุง: {PLAYER}{KUN} ใช่ไหม?\nฉันขอร้องแทนมิตสึรุ ให้คุณ\lสู้กับเขาสักครั้งได้ไหม?\pสภาพแบบนี้ ต่อให้พูดอย่างไร\nเขาก็คงไม่ฟังแล้ว$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \p | \n
 - Translation confidence: high
@@ -2173,7 +2173,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_WallyWantToChallengeGym`
 - English preview: WALLY: Aww, UNCLE, please?<br>[PAGE]<br>I want to challenge this GYM and see<br>how much better I've become.<br>[PAGE]<br>Please? May I, please?
-- Thai: มิตสึรุ: โธ่ คุณลุง ขอร้องละครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$
+- Thai: มิตสึรุ: โธ่ คุณลุง ขอร้องล่ะครับ!\pผมอยากท้าทายยิมนี้ เพื่อดูว่า\nตัวเองเก่งขึ้นแค่ไหน\pขอเถอะนะครับ ได้ไหมครับ?$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: high
@@ -2249,7 +2249,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Text_UncleVisitUsSometime`
 - English preview: UNCLE: {PLAYER}{KUN}, it just dawned on me<br>that you must be the TRAINER who kept<br>an eye out for WALLY when he caught<br>his POKéMON.<br>[PAGE]<br>Why don't you visit us in VERDANTURF<br>sometime?<br>I'm sure WALLY would enjoy it.
-- Thai: คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยดูแลมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$
+- Thai: คุณลุง: {PLAYER}{KUN} ฉันเพิ่งนึกได้\nว่าคุณคงเป็นเทรนเนอร์ที่\lคอยช่วยมิตสึรุตอนเขาจับ\lโปเกมอนสินะ\pว่าง ๆ มาเยี่ยมเราที่ชิดาเกะ\nบ้างนะ\lมิตสึรุต้องดีใจแน่$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \l | \l | \p | \n | \l
 - Translation confidence: high
@@ -2268,7 +2268,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Text_ScottYouDidntHoldBack`
 - English preview: SCOTT: Hehe…<br>I was watching that match!<br>[PAGE]<br>You're friends with that boy WALLY,<br>aren't you?<br>[PAGE]<br>But you didn't hold anything back<br>and beat him impressively.<br>[PAGE]<br>Yeah! That's what a real POKéMON<br>battle is all about!<br>[PAGE]<br>I idolize TRAINERS like that!<br>[PAGE]<br>… … … … … …<br>I'll be cheering for you!
-- Thai: สก็อต: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$
+- Thai: เอนิชิดะ: ฮี่ ๆ…\nฉันดูการต่อสู้นั่นอยู่!\pคุณเป็นเพื่อนกับมิตสึรุ\nใช่ไหม?\pแต่ก็ไม่ออมมือ และเอาชนะเขา\nได้อย่างยอดเยี่ยม\pใช่แล้ว! การต่อสู้ของโปเกมอน\nที่แท้จริงต้องแบบนี้!\pฉันชื่นชมเทรนเนอร์แบบคุณ!\p… … … … … …\nฉันจะคอยเอาใจช่วยนะ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -2306,7 +2306,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `MauvilleCity_Text_WallyIllGoBackToVerdanturf`
 - English preview: WALLY: UNCLE…<br>I'll go back to VERDANTURF…
-- Thai: มิตสึรุ: คุณลุง…\nผมจะกลับชิดาเกะครับ…$
+- Thai: มิตสึรุ: คุณลุง…\nผมจะกลับไปชิดาเกะครับ…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -2382,7 +2382,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wattson
 - Source label: `MauvilleCity_Gym_Text_WattsonPostBattle`
 - English preview: I swell with optimism, seeing a promising<br>young TRAINER like you!
-- Thai: พอเห็นเทรนเนอร์รุ่นเยาว์ที่มีอนาคต\nอย่างเธอแล้ว ฉันก็เปี่ยมด้วยความหวัง!$
+- Thai: พอเห็นเทรนเนอร์รุ่นใหม่อนาคตไกล\nอย่างเธอแล้ว ฉันก็ชื่นใจจริง ๆ!$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: medium
@@ -2401,7 +2401,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ReceivedDynamoBadge`
 - English preview: {PLAYER} received the DYNAMO BADGE<br>from WATTSON.
-- Thai: {PLAYER} ได้รับไดนาโมแบดจ์\nจากเทสเซ็น$
+- Thai: {PLAYER} ได้รับไดนาโมแบดจ์\nจากเท็ตเซ็น$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -2420,7 +2420,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis`
 - English preview: With the DYNAMO BADGE, POKéMON can<br>use ROCK SMASH out of battle.<br>[PAGE]<br>And, it will make your POKéMON a little<br>bit faster, too.<br>[PAGE]<br>Hmm…<br>You should take this, too!
-- Thai: เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้ร็อกสแมชนอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$
+- Thai: เมื่อมีไดนาโมแบดจ์ โปเกมอนจะ\nใช้อิวะคุดากินอกการต่อสู้ได้\pและยังทำให้โปเกมอนของเธอ\nเร็วขึ้นเล็กน้อยด้วย\pอืม…\nรับนี่ไปด้วยสิ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -2439,7 +2439,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MauvilleCity_Gym_Text_ExplainShockWave`
 - English preview: That TM34 there contains SHOCK WAVE.<br>[PAGE]<br>It's a trustworthy move that never<br>misses! You can count on it!<br>[PAGE]<br>… … … … … …
-- Thai: TM34 นั่นบรรจุท่าช็อกเวฟ\pเป็นท่าที่ไว้ใจได้และไม่มีวัน\nพลาดเป้า! เชื่อมือได้เลย!\p… … … … … …$
+- Thai: TM34 นั่นบรรจุท่าเด็งเงกิฮะ\pเป็นท่าที่ไม่มีวันพลาดเป้า!\nวางใจได้เลย!\p… … … … … …$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: medium
@@ -2464,7 +2464,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_WithThisMeteorite`
 - English preview: Hehehe!<br>[PAGE]<br>With this METEORITE, that thing in<br>MT. CHIMNEY will…
-- Thai: ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึกิจะ…$
+- Thai: ฮี่ ๆ!\pเมื่อมีอุกกาบาตนี่ เจ้าสิ่งนั้น\nบนภูเขาเอ็นโทสึจะ…$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -2483,7 +2483,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma`
 - English preview: Heh?<br>[PAGE]<br>I don't know who you are, but if you get<br>in the way of TEAM MAGMA, don't<br>expect any mercy!
-- Thai: หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าจะได้รับความเมตตา!$
+- Thai: หือ?\pไม่รู้หรอกว่าแกเป็นใคร แต่ถ้ามา\nขวางทางทีมแมกมา ก็อย่าหวัง\lว่าพวกเราจะปรานี!$
 - Placeholders: —
 - Control codes: \p | \n | \l
 - Translation confidence: high
@@ -2521,7 +2521,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua`
 - English preview: Hehehe!<br>Even TEAM AQUA joins us!<br>[PAGE]<br>But it's too much trouble to deal with<br>you all…<br>[PAGE]<br>Heh, it doesn't matter!<br>[PAGE]<br>We've got the METEORITE, so off to<br>MT. CHIMNEY we go!<br>[PAGE]<br>Hehehe! Be seeing you, you TEAM<br>AQUA dingbats!
-- Thai: ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึกิ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$
+- Thai: ฮี่ ๆ!\nแม้แต่ทีมอควาก็มาด้วย!\pแต่รับมือพวกแกทั้งหมด\nก็ยุ่งยากเกินไป…\pช่างเถอะ ไม่สำคัญ!\pเราได้อุกกาบาตมาแล้ว ต่อไปก็\nมุ่งหน้าไปภูเขาเอ็นโทสึ!\pฮี่ ๆ! แล้วเจอกันใหม่ พวกทีม\nอควาสมองทึบ!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \p | \n | \p | \n
 - Translation confidence: high
@@ -2540,7 +2540,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieSeenYouBefore`
 - English preview: ARCHIE: Didn't I see you before?<br>At SLATEPORT's MUSEUM?<br>[PAGE]<br>Ah, so your name is {PLAYER}.<br>[PAGE]<br>At the time, I thought you were one<br>of TEAM MAGMA's goons.<br>[PAGE]<br>Humph…<br>You're one odd kid.<br>[PAGE]<br>TEAM MAGMA is a dangerous group of<br>total fanatics.<br>[PAGE]<br>They engage in destruction, claiming<br>to expand the land mass.<br>[PAGE]<br>They are the rivals to us,<br>the sea-loving TEAM AQUA!
-- Thai: อาโอคิ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$
+- Thai: อาโอกิริ: ฉันเคยเห็นแกมาก่อนใช่ไหม?\nที่พิพิธภัณฑ์ในไคไน?\pอ๋อ แกชื่อ {PLAYER} สินะ\pตอนนั้นฉันนึกว่าแกเป็นหนึ่ง\nในลูกสมุนของทีมแมกมา\pฮึ…\nแกนี่เป็นเด็กประหลาดจริง ๆ\pทีมแมกมาคือกลุ่มอันตราย\nที่เต็มไปด้วยพวกคลั่งลัทธิ\pพวกมันทำลายล้าง โดยอ้างว่า\nต้องการขยายผืนแผ่นดิน\pพวกมันคือศัตรูของเรา\nทีมอควาผู้รักท้องทะเล!$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | {PLAYER} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -2578,7 +2578,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo`
 - English preview: ARCHIE: Yes, yes, we must!<br>We've got to hurry.<br>[PAGE]<br>There's no telling what TEAM MAGMA<br>will do at MT. CHIMNEY!
-- Thai: อาโอคิ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึกิ!$
+- Thai: อาโอกิริ: ใช่ ต้องตามไป!\nเราต้องรีบแล้ว\pไม่รู้ว่าทีมแมกมาจะทำอะไร\nที่ภูเขาเอ็นโทสึ!$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -2597,7 +2597,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MeteorFalls_1F_1R_Text_ArchieFarewell`
 - English preview: ARCHIE: {PLAYER}, you should keep<br>an eye out for TEAM MAGMA, too.<br>[PAGE]<br>Farewell!
-- Thai: อาโอคิ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$
+- Thai: อาโอกิริ: {PLAYER} ระวัง\nทีมแมกมาด้วยล่ะ\pลาก่อน!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p
 - Translation confidence: high
@@ -2620,7 +2620,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieGoStopTeamMagma`
 - English preview: ARCHIE: Grr, {PLAYER}!<br>I should've guessed you'd show up!<br>[PAGE]<br>See for yourself what the fanatics<br>of TEAM MAGMA are up to!<br>[PAGE]<br>They're trying to inject the stolen<br>METEORITE's power into the volcano!<br>[PAGE]<br>Doing something like that will cause<br>the volcano's eruption!
-- Thai: อาโอคิ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันคิดจะฉีดพลังของ\nอุกกาบาตที่ขโมยมาใส่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$
+- Thai: อาโอกิริ: ฮึ่ม {PLAYER}!\nนึกแล้วว่าแกต้องโผล่มา!\pดูเอาเองว่าพวกคลั่งลัทธิ\nทีมแมกมากำลังทำอะไร!\pพวกมันกำลังส่งพลังของ\nอุกกาบาตที่ขโมยมาเข้าสู่ภูเขาไฟ!\pทำแบบนั้นภูเขาไฟ\nจะปะทุขึ้นมา!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -2639,7 +2639,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieIHaveMyHandsFull`
 - English preview: ARCHIE: Grrr…<br>[PAGE]<br>I want to stop that MAXIE,<br>but I can't!<br>[PAGE]<br>Not when I have my hands full battling<br>three opponents at once!
-- Thai: อาโอคิ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$
+- Thai: อาโอกิริ: ฮึ่ม…\pฉันอยากหยุดมัตสึบูสะ\nแต่ทำไม่ได้!\pในเมื่อฉันต้องรับมือศัตรู\nสามคนพร้อมกันแบบนี้!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high
@@ -2658,7 +2658,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MtChimney_Text_MeteoriteWillActivateVolcano`
 - English preview: The power contained in the METEORITE…<br>[PAGE]<br>By amplifying its power with this<br>machine, MT. CHIMNEY's volcanic<br>activity will instantly intensify…<br>[PAGE]<br>Its energy will grow deep inside<br>the crater and…<br>Fufufu…
-- Thai: พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nการเคลื่อนไหวของภูเขาไฟ\lเอ็นโทสึกิจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$
+- Thai: พลังที่อยู่ในอุกกาบาต…\pถ้าใช้เครื่องนี้ขยายพลัง\nพลังปะทุของภูเขาเอ็นโทสึ\lจะรุนแรงขึ้นทันที…\pพลังจะเพิ่มพูนลึกลงไป\nในปล่องภูเขาไฟ แล้วก็…\lหึ ๆ ๆ…$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n | \l
 - Translation confidence: medium
@@ -2677,7 +2677,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MtChimney_Text_MaxieIntro`
 - English preview: MAXIE: Hm?<br>Who are you?<br>[PAGE]<br>… … … … … …<br>… … … … … …<br>[PAGE]<br>I'd heard ARCHIE bemoaning a child<br>who's been meddling in TEAM AQUA's<br>affairs.<br>[PAGE]<br>It must be you he meant.<br>[PAGE]<br>Humph! So you're thinking of<br>interfering with us, TEAM MAGMA?<br>[PAGE]<br>Now you listen.<br>Long ago, living things used the<br>land to live and grow.<br>[PAGE]<br>That is why land is all important!<br>It is the cradle of all!<br>[PAGE]<br>That is why TEAM MAGMA is dedicated<br>to the expansion of the land mass.<br>[PAGE]<br>It is for further advancement of<br>humankind and POKéMON!<br>[PAGE]<br>And for that, we need the power of<br>what sleeps within this mountain…<br>[PAGE]<br>Oh! There was no need for you to<br>learn that much.<br>[PAGE]<br>But, no matter!<br>I'll teach you the consequences of<br>meddling in our grand design!
-- Thai: มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอคิบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้ายิ่งขึ้น\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$
+- Thai: มัตสึบูสะ: หืม?\nแกเป็นใคร?\p… … … … … …\n… … … … … …\pได้ยินอาโอกิริบ่นถึงเด็กคนหนึ่ง\nที่คอยยุ่งเรื่องของทีมอควา\lอยู่บ่อย ๆ\pคงหมายถึงแกสินะ\pฮึ! คิดจะมาขัดขวาง\nพวกเราทีมแมกมางั้นรึ?\pฟังให้ดี\nนานมาแล้ว เหล่าสิ่งมีชีวิตอาศัย\lผืนดินเพื่อดำรงชีวิตและเติบโต\pเพราะอย่างนั้นผืนดินจึงสำคัญที่สุด!\nมันคือแหล่งกำเนิดของทุกชีวิต!\pนั่นคือเหตุผลที่ทีมแมกมาทุ่มเท\nเพื่อขยายผืนแผ่นดิน\pทั้งหมดก็เพื่อความก้าวหน้า\nของมนุษย์และโปเกมอน!\pและเพื่อการนั้น เราต้องใช้พลัง\nของสิ่งที่หลับใหลอยู่ในภูเขานี้…\pโอ้! แกไม่จำเป็นต้อง\nรู้มากถึงเพียงนั้นนี่นา\pแต่ช่างเถอะ!\nฉันจะสอนให้รู้ถึงผลของการ\lขัดขวางแผนการอันยิ่งใหญ่ของเรา!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \l | \p | \p | \n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: high
@@ -2715,7 +2715,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtChimney_Text_ArchieThankYou`
 - English preview: ARCHIE: {PLAYER}!<br>Thank you!<br>[PAGE]<br>With your help, we thwarted TEAM<br>MAGMA's destructive plan!<br>[PAGE]<br>But… You…<br>Whose side are you on?<br>[PAGE]<br>Ah, it doesn't matter.<br>[PAGE]<br>We will remain vigilant and keep up<br>our pursuit of TEAM MAGMA.<br>[PAGE]<br>{PLAYER}, we shall meet again!
-- Thai: อาโอคิ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$
+- Thai: อาโอกิริ: {PLAYER}!\nขอบใจมาก!\pด้วยความช่วยเหลือของแก เราจึงหยุด\nแผนทำลายล้างของทีมแมกมาได้!\pแต่… แก…\nอยู่ฝ่ายไหนกันแน่?\pช่างเถอะ ไม่สำคัญหรอก\pเราจะเฝ้าระวังและตามล่า\nทีมแมกมาต่อไป\p{PLAYER} แล้วพบกันใหม่!$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n | \p | \n | \p | \p | \n | \p | {PLAYER}
 - Translation confidence: high
@@ -2799,7 +2799,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Flannery
 - Source label: `LavaridgeTown_Gym_1F_Text_FlanneryPostBattle`
 - English preview: Your power reminds me of someone…<br>[PAGE]<br>Oh! I know! You battle like NORMAN,<br>the GYM LEADER of PETALBURG.
-- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนนอร์แมน\nยิมลีดเดอร์แห่งโทวกะเลย$
+- Thai: พลังของเธอทำให้ฉันนึกถึงใครบางคน…\pอ๋อ! รู้แล้ว! เธอต่อสู้เหมือนเซ็นริ\nยิมลีดเดอร์แห่งโทวกะเลย$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -2837,7 +2837,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis`
 - English preview: If you have a HEAT BADGE, all POKéMON<br>up to Level 50, even those you get in<br>trades from other people, will obey<br>you completely.<br>[PAGE]<br>And, it lets POKéMON use the HM move<br>STRENGTH outside of battle.<br>[PAGE]<br>This is a token of my appreciation.<br>Don't be shy about taking it!
-- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้รับแลกเปลี่ยนมาก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริคีนอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
+- Thai: ถ้ามีฮีตแบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 50 แม้แต่โปเกมอนที่\lได้จากการแลกเปลี่ยนก็จะเชื่อฟัง\lเธออย่างสมบูรณ์\pและยังทำให้โปเกมอนใช้ท่า HM\nไคริกินอกการต่อสู้ได้\pนี่คือของแทนคำขอบคุณจากฉัน\nรับไปได้เลย ไม่ต้องเกรงใจ!$
 - Placeholders: —
 - Control codes: \n | \l | \l | \p | \n | \p | \n
 - Translation confidence: high
@@ -2881,7 +2881,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy`
 - English preview: We have a situation here!<br>[PAGE]<br>A TEAM MAGMA mob just passed<br>the WEATHER INSTITUTE.<br>[PAGE]<br>They appear to be headed for<br>MT. PYRE!
-- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันวิจัยสภาพอากาศไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
+- Thai: เกิดเรื่องใหญ่แล้ว!\pกลุ่มทีมแมกมาเพิ่งผ่าน\nสถาบันอุตุนิยมวิทยาไป\pดูเหมือนพวกมันกำลังมุ่งหน้า\nไปยังภูเขาโอคุริบิ!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium
@@ -2900,7 +2900,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre`
 - English preview: What?!<br>[PAGE]<br>We can't waste any more time here!<br>We have to hurry to MT. PYRE, too!<br>[PAGE]<br>Ahahahaha!<br>TEAM MAGMA, just you wait!
-- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
+- Thai: ว่าไงนะ?!\pเราจะเสียเวลาที่นี่ต่อไปไม่ได้!\nต้องรีบไปภูเขาโอคุริบิเหมือนกัน!\pฮ่า ๆ ๆ ๆ!\nทีมแมกมา คอยดูก็แล้วกัน!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: medium
@@ -3018,7 +3018,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: May
 - Source label: `Route119_Text_MayExplainFly`
 - English preview: MAY: Use FLY, and your POKéMON will<br>instantly carry you to any town you've<br>already visited.<br>[PAGE]<br>But, to use FLY, you have to get<br>the GYM BADGE from FORTREE CITY.<br>That's important, so don't forget.<br>[PAGE]<br>You should FLY home and visit<br>LITTLEROOT for a change.<br>[PAGE]<br>I bet your mom's worried about you,<br>{PLAYER}{KUN}.<br>[PAGE]<br>Well, let's meet again somewhere!
-- Thai: ฮารุกะ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโวโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวาดามาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโวโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$
+- Thai: ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$
 - Placeholders: {PLAYER}
 - Control codes: \n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p
 - Translation confidence: high
@@ -3075,7 +3075,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Brendan
 - Source label: `Route119_Text_BrendanExplainFly`
 - English preview: BRENDAN: Use FLY, and your POKéMON<br>instantly carries you to any town<br>you've already visited.<br>[PAGE]<br>But you need the FORTREE GYM BADGE <br>to do that.<br>[PAGE]<br>Anyway, I have to move along.
-- Thai: ยูคิ: ถ้าใช้โซระโวโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวาดายิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$
+- Thai: ยูคิ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ต้องมีฮิวะมากิยิมแบดจ์ \nถึงจะใช้ได้\pเอาล่ะ ฉันต้องไปต่อแล้ว$
 - Placeholders: —
 - Control codes: \n | \l | \p | \n | \p
 - Translation confidence: high
@@ -3094,7 +3094,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `Route119_Text_ScottWayToGoBeSeeingYou`
 - English preview: SCOTT: Hahahah!<br>Way to go, {PLAYER}{KUN}!<br>[PAGE]<br>I just passed by a TRAINER riding<br>a BIKE.<br>[PAGE]<br>You just beat that TRAINER, didn't you?<br>It was pretty obvious that you did.<br>[PAGE]<br>The kid looked really upset with<br>a face all red from anger.<br>[PAGE]<br>I sure seem to run into you often.<br>Are you off to FORTREE GYM next?<br>[PAGE]<br>I expect that you'll do well at the GYM.<br>Well, I'll be seeing you!
-- Thai: เอ็นทัตสึ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวาดายิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$
+- Thai: เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$
 - Placeholders: {PLAYER}
 - Control codes: \n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: medium
@@ -3136,7 +3136,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ReceivedFeatherBadge`
 - English preview: {PLAYER} received the FEATHER BADGE<br>from WINONA.
-- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนากิ$
+- Thai: {PLAYER} ได้รับเฟเธอร์แบดจ์\nจากนางิ$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n
 - Translation confidence: high
@@ -3155,7 +3155,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis`
 - English preview: With the FEATHER BADGE, all POKéMON up<br>to LV 70, even those received through<br>trades, will obey your every command.<br>[PAGE]<br>You will also be able to use<br>the HM move FLY outside of battle.<br>[PAGE]<br>And this…<br>This is a gift from me.
-- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโวโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
+- Thai: เมื่อมีเฟเธอร์แบดจ์ โปเกมอนทุกตัว\nจนถึงเลเวล 70 แม้แต่โปเกมอนที่ได้\lจากการแลกเปลี่ยนก็จะเชื่อฟังทุกคำสั่ง\pและยังใช้ท่า HM โซระโอะโทบุ\nนอกการต่อสู้ได้ด้วย\pและนี่…\nคือของขวัญจากฉัน$
 - Placeholders: —
 - Control codes: \n | \l | \p | \n | \p | \n
 - Translation confidence: high
@@ -3269,7 +3269,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Steven
 - Source label: `Route120_Text_StevenGoodbye`
 - English preview: STEVEN: {PLAYER}{KUN}.<br>[PAGE]<br>I enjoy seeing POKéMON and TRAINERS<br>who strive together.<br>[PAGE]<br>I think you're doing great.<br>[PAGE]<br>Well, let's meet again somewhere.
-- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nร่วมแรงพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
+- Thai: ไดโกะ: {PLAYER}{KUN}\pฉันชอบที่ได้เห็นโปเกมอนกับเทรนเนอร์\nพยายามไปด้วยกัน\pฉันว่าเธอทำได้ดีมาก\pไว้พบกันใหม่ที่ไหนสักแห่ง$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \p | \p
 - Translation confidence: high
@@ -3294,7 +3294,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo`
 - English preview: ARCHIE: TEAM MAGMA's MAXIE got ahead<br>of us, but we also got what we wanted.<br>[PAGE]<br>The RED ORB preserved at MT. PYRE…<br>I, ARCHIE, now have it in my possession!<br>[PAGE]<br>Fufufu… Now we can bring our ultimate<br>objective to fruition!<br>[PAGE]<br>Okay, TEAM!<br>We're pulling out!
-- Thai: อาโอคิ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริ…\nตอนนี้อยู่ในมือของฉัน อาโอคิแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
+- Thai: อาโอกิริ: มัตสึบูสะจากทีมแมกมา\nชิงลงมือก่อนเรา แต่เราก็ได้สิ่งที่ต้องการ\pลูกแก้วสีแดงซึ่งเก็บรักษาไว้ที่ภูเขาโอคุริบิ…\nตอนนี้อยู่ในมือของฉัน อาโอกิริแล้ว!\pหึ ๆ ๆ… ทีนี้เราก็ทำให้เป้าหมาย\nสูงสุดของเราเป็นจริงได้!\pเอาล่ะ ทุกคน!\nถอนกำลัง!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -3431,7 +3431,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MagmaHideout_4F_Text_MaxieOhItWasYou`
 - English preview: MAXIE: Oh, so it was you?<br>[PAGE]<br>I've seen you poking around uninvited<br>here and there…<br>[PAGE]<br>I get it now!<br>You must have pulled a cheap stunt!
-- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือ\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
+- Thai: มัตสึบูสะ: อ้อ ฝีมือแกสินะ?\pฉันเห็นแกเที่ยวสอดมือยุ่ง\nไปทั่วโดยไม่ได้รับเชิญ…\pเข้าใจแล้ว!\nแกต้องเล่นตุกติกแน่!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high
@@ -3473,7 +3473,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_CaptSternBeingInterviewed`
 - English preview: I was hoping that it was a famous star<br>so I could get an autograph.<br>[PAGE]<br>But who's that being interviewed?<br>Isn't that CAPT. STERN?
-- Thai: ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันสเติร์นไม่ใช่หรือ?$
+- Thai: ฉันหวังว่าจะเป็นดาราดัง\nจะได้ขอลายเซ็นเสียหน่อย\pแต่คนที่กำลังให้สัมภาษณ์นั่นใคร?\nกัปตันคุสโนกิไม่ใช่หรือ?$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: medium
@@ -3492,7 +3492,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternSaysDiscoveredSomething`
 - English preview: CAPT. STERN says they discovered<br>something at the bottom of the sea.<br>[PAGE]<br>I wonder what it is?<br>What could it be?
-- Thai: กัปตันสเติร์นบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$
+- Thai: กัปตันคุสโนกิบอกว่าพวกเขาค้นพบ\nบางอย่างที่ก้นทะเล\pสงสัยจังว่าคืออะไร?\nจะเป็นอะไรกันนะ?$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: medium
@@ -3511,7 +3511,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternMoveAheadWithExploration`
 - English preview: CAPT. STERN: Yes, indeed. We intend to<br>move ahead with our exploration.
-- Thai: กัปตันสเติร์น: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$
+- Thai: กัปตันคุสโนกิ: ใช่ครับ เราตั้งใจจะ\nเดินหน้าสำรวจต่อไป$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -3530,7 +3530,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternWhewFirstInterview`
 - English preview: CAPT. STERN: Whew…<br>[PAGE]<br>That was my first time to be filmed for<br>TV. That was nerve-wracking.
-- Thai: กัปตันสเติร์น: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$
+- Thai: กัปตันคุสโนกิ: เฮ้อ…\pนี่เป็นครั้งแรกที่ผมถูกถ่ายทำ\nออกทีวี ตื่นเต้นจนเกร็งเลยครับ$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -3549,7 +3549,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_OhPlayerWeMadeDiscovery`
 - English preview: Oh! {PLAYER}{KUN}!<br>You're looking great!<br>[PAGE]<br>We made a huge discovery on our last<br>seafloor exploration.<br>[PAGE]<br>We found an underwater cavern on<br>ROUTE 128.<br>[PAGE]<br>We think it's the habitat of a POKéMON<br>that's said to have been long extinct.
-- Thai: โอ้! {PLAYER}{KUN}!\nดูแข็งแรงดีนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$
+- Thai: โอ้! {PLAYER}{KUN}!\nดูดีมากเลยนะ!\pการสำรวจก้นทะเลครั้งล่าสุด\nทำให้เราค้นพบครั้งใหญ่\pเราพบถ้ำใต้ทะเลอยู่ที่\nเส้นทาง 128\pเราคิดว่านั่นคือถิ่นอาศัยของโปเกมอน\nที่ว่ากันว่าสูญพันธุ์ไปนานแล้ว$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -3568,7 +3568,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_AquaWillAssumeControlOfSubmarine`
 - English preview: Fufufu…<br>CAPT. STERN, I presume.<br>[PAGE]<br>We of TEAM AQUA will assume<br>control of your submarine!<br>[PAGE]<br>Your objections are meaningless!<br>We expect your total cooperation!<br>[PAGE]<br>Fufufu…<br>Just watch and learn what TEAM<br>AQUA has planned!
-- Thai: หึ ๆ ๆ…\nกัปตันสเติร์นสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nเราหวังว่าแกจะให้ความร่วมมือเต็มที่!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$
+- Thai: หึ ๆ ๆ…\nกัปตันคุสโนกิสินะ\pพวกเราทีมอควาจะยึด\nเรือดำน้ำของแกไป!\pคัดค้านไปก็ไร้ความหมาย!\nให้ความร่วมมือแต่โดยดีซะ!\pหึ ๆ ๆ…\nจงดูและเรียนรู้ว่า\lทีมอความีแผนการอะไร!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: medium
@@ -3587,7 +3587,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Text_SternWhatWasAllThat`
 - English preview: CAPT. STERN: What was that all about?<br>[PAGE]<br>It sounded like someone using<br>a megaphone…<br>[PAGE]<br>Where did it come from?
-- Thai: กัปตันสเติร์น: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$
+- Thai: กัปตันคุสโนกิ: เมื่อกี้มันอะไรกัน?\pฟังเหมือนเสียงใครบางคน\nพูดผ่านโทรโข่ง…\pดังมาจากไหนกัน?$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: high
@@ -3644,7 +3644,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum`
 - English preview: CAPT. STERN: Those thugs…<br>[PAGE]<br>They're the same lot who tried to rob<br>the DEVON GOODS at the MUSEUM.
-- Thai: กัปตันสเติร์น: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$
+- Thai: กัปตันคุสโนกิ: พวกอันธพาลนั่น…\pเป็นพวกเดียวกับที่พยายามปล้น\nสินค้าเดวอนในพิพิธภัณฑ์$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -3663,7 +3663,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine`
 - English preview: CAPT. STERN: Why…<br>[PAGE]<br>Why would TEAM AQUA steal my<br>SUBMARINE EXPLORER 1?<br>[PAGE]<br>They can't be after the slumbering<br>POKéMON at the bottom of the sea…<br>[PAGE]<br>But even if I were to chase them,<br>I don't stand a chance against them…
-- Thai: กัปตันสเติร์น: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$
+- Thai: กัปตันคุสโนกิ: ทำไม…\pทำไมทีมอควาต้องขโมย\nเรือดำน้ำเอ็กซ์พลอเรอร์ 1 ของผม?\pคงไม่ได้เล็งโปเกมอนที่หลับใหล\nอยู่ก้นทะเลหรอกนะ…\pแต่ถึงผมจะตามไป\nก็ไม่มีทางสู้พวกมันได้…$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -3768,7 +3768,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `MossdeepCity_Gym_Text_ExplainCalmMind`
 - English preview: TATE: That TM04 contains…<br>LIZA: CALM MIND!<br>[PAGE]<br>TATE: It raises SP. ATK and…<br>LIZA: It raises SP. DEF!<br>[PAGE]<br>TATE: It's a move that's perfect…<br>LIZA: For PSYCHIC POKéMON!<br>[PAGE]<br>… … … … … …
-- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโอมินด์!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
+- Thai: ฟู: TM04 บรรจุท่า…\nรัน: เมโซ!\pฟู: ช่วยเพิ่มพลังโจมตีพิเศษและ…\nรัน: เพิ่มพลังป้องกันพิเศษ!\pฟู: เป็นท่าที่เหมาะมาก…\nรัน: สำหรับโปเกมอนพลังจิต!\p… … … … … …$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -4019,7 +4019,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano`
 - English preview: MAXIE: Fufufu… Since you're so<br>curious, you deserve an explanation.<br>[PAGE]<br>We're going to jettison the entire<br>load into MT. CHIMNEY!<br>[PAGE]<br>With GROUDON gone, we have no need<br>for that slag heap of a mountain!<br>[PAGE]<br>So we'll use the fuel's power to make<br>the volcano erupt!<br>[PAGE]<br>It will be savage!
-- Thai: มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึกิ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$
+- Thai: มัตสึบูสะ: หึ ๆ ๆ… ในเมื่อแก\nอยากรู้นัก ฉันจะอธิบายให้ฟัง\pเราจะทิ้งเชื้อเพลิงทั้งหมด\nลงไปในภูเขาเอ็นโทสึ!\pเมื่อกราดอนไม่อยู่ ภูเขาที่เป็น\nกองขยะนั่นก็ไม่มีประโยชน์!\pเราจึงจะใช้พลังของเชื้อเพลิง\nทำให้ภูเขาไฟปะทุ!\pมันจะต้องรุนแรงยิ่งนัก!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -4038,7 +4038,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieWeFailedIsAquaAlsoMisguided`
 - English preview: MAXIE: We failed to make the volcano<br>erupt…<br>[PAGE]<br>We failed to control GROUDON after<br>we had awoken it…<br>[PAGE]<br>Is our goal to expand the land<br>misguided?<br>[PAGE]<br>… … … … … …<br>… … … … … …<br>[PAGE]<br>If…<br>If we, TEAM MAGMA, are wrong…<br>… … … … … …<br>[PAGE]<br>Then might TEAM AQUA's goal to expand<br>the sea also be equally misguided?
-- Thai: มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายที่จะขยายผืนดิน\nของเรานั้นผิดกันแน่?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$
+- Thai: มัตสึบูสะ: เราทำให้ภูเขาไฟ\nปะทุไม่สำเร็จ…\pเราควบคุมกราดอนที่\nปลุกขึ้นมาไม่ได้…\pหรือเป้าหมายในการขยายผืนดิน\nของเราจะผิดจริง ๆ?\p… … … … … …\n… … … … … …\pถ้า…\nถ้าพวกเราทีมแมกมาเป็นฝ่ายผิด…\l… … … … … …\pถ้าอย่างนั้น เป้าหมายขยายผืนทะเล\nของทีมอควาก็อาจผิดเช่นกันหรือ?$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | \n
 - Translation confidence: high
@@ -4057,7 +4057,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp`
 - English preview: MAXIE: All right…<br>We will give up on the fuel…<br>[PAGE]<br>There appear to be more important<br>matters that I must examine…
-- Thai: มัตสึบูสะ: เอาเถอะ…\nเราจะยอมทิ้งเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$
+- Thai: มัตสึบูสะ: เอาเถอะ…\nเราจะเลิกยุ่งกับเชื้อเพลิง…\pดูเหมือนฉันมีเรื่องสำคัญกว่า\nที่ต้องตรวจสอบ…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -4076,7 +4076,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Steven
 - Source label: `MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome`
 - English preview: STEVEN: Whew, that was too tense.<br>{PLAYER}{KUN}, thank you.<br>[PAGE]<br>I have something to give you as<br>thanks for your support.<br>[PAGE]<br>Please come see me at home<br>after this.<br>[PAGE]<br>Oh, yes, I don't live in RUSTBORO CITY.<br>I live right here on this island.
-- Thai: ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซูมิ\nแต่อยู่บนเกาะนี้เอง$
+- Thai: ไดโกะ: เฮ้อ ตึงเครียดจริง ๆ\n{PLAYER}{KUN} ขอบใจนะ\pฉันมีของอยากมอบให้\nเพื่อตอบแทนที่ช่วยเหลือ\pเสร็จเรื่องแล้วช่วยมาหาฉัน\nที่บ้านด้วยนะ\pอ้อ บ้านฉันไม่ได้อยู่เมืองคานาซึมิ\nแต่อยู่บนเกาะนี้เอง$
 - Placeholders: {PLAYER}
 - Control codes: \n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -4101,7 +4101,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieHoldItRightThere`
 - English preview: ARCHIE: Hold it right there.
-- Thai: อาโอคิ: หยุดอยู่ตรงนั้น$
+- Thai: อาโอกิริ: หยุดอยู่ตรงนั้น$
 - Placeholders: —
 - Control codes: —
 - Translation confidence: high
@@ -4120,7 +4120,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieSoItWasYou`
 - English preview: ARCHIE: Fufufu…<br>So it was you, after all.
-- Thai: อาโอคิ: หึ ๆ ๆ…\nเป็นแกจริง ๆ สินะ$
+- Thai: อาโอกิริ: หึ ๆ ๆ…\nเป็นแกจริง ๆ สินะ$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -4139,7 +4139,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieBeholdKyogre`
 - English preview: ARCHIE: Behold!<br>[PAGE]<br>See how beautiful it is, the sleeping<br>form of the ancient POKéMON KYOGRE!<br>[PAGE]<br>I have waited so long for this day to<br>come…
-- Thai: อาโอคิ: จงดูให้ดี!\pดูร่างอันงดงามของโปเกมอนโบราณ\nไคโอกาที่กำลังหลับใหล!\pฉันเฝ้ารอวันนี้มา\nแสนนาน…$
+- Thai: อาโอกิริ: จงดูให้ดี!\pดูร่างอันงดงามของโปเกมอนยุคบรรพกาล\nไคโอกาที่กำลังหลับใหล!\pฉันเฝ้ารอวันนี้มา\nแสนนาน…$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n
 - Translation confidence: high
@@ -4158,7 +4158,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieYouMustDisappear`
 - English preview: ARCHIE: It surprises me, how you've<br>managed to chase me here.<br>[PAGE]<br>But that's all over now.<br>[PAGE]<br>For the realization of my dream,<br>you must disappear now!
-- Thai: อาโอคิ: น่าประหลาดใจจริง ๆ ที่แก\nตามฉันมาถึงที่นี่ได้\pแต่ทุกอย่างจบลงแล้ว\pเพื่อให้ความฝันของฉันเป็นจริง\nแกต้องหายไปเดี๋ยวนี้!$
+- Thai: อาโอกิริ: น่าประหลาดใจจริง ๆ ที่แก\nตามฉันมาถึงที่นี่ได้\pแต่ทุกอย่างจบลงแล้ว\pเพื่อให้ความฝันของฉันเป็นจริง\nแกต้องหายไปเดี๋ยวนี้!$
 - Placeholders: —
 - Control codes: \n | \p | \p | \n
 - Translation confidence: high
@@ -4177,7 +4177,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieWithThisRedOrb`
 - English preview: ARCHIE: Fufufu…<br>[PAGE]<br>I commend you. I must recognize that<br>you are truly gifted.<br>[PAGE]<br>But!<br>I have this in my possession!<br>[PAGE]<br>With this RED ORB, I can make KYOGRE…
-- Thai: อาโอคิ: หึ ๆ ๆ…\pฉันขอชม แกมีฝีมือ\nไม่ธรรมดาจริง ๆ\pแต่ว่า!\nฉันมีสิ่งนี้อยู่ในมือ!\pด้วยลูกแก้วสีแดงนี้ ฉันจะทำให้ไคโอกา…$
+- Thai: อาโอกิริ: หึ ๆ ๆ…\pต้องยอมรับเลยว่าแกมีฝีมือ\nไม่ธรรมดาจริง ๆ\pแต่ว่า!\nฉันมีสิ่งนี้อยู่ในมือ!\pด้วยลูกแก้วสีแดงนี้ ฉันจะทำให้ไคโอกา…$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -4215,7 +4215,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo`
 - English preview: ARCHIE: What?!<br>[PAGE]<br>I didn't do anything.<br>Why did the RED ORB…<br>[PAGE]<br>Where did KYOGRE go?
-- Thai: อาโอคิ: อะไรนะ?!\pฉันยังไม่ได้ทำอะไรเลย\nทำไมลูกแก้วสีแดงถึง…\pไคโอกาหายไปไหนแล้ว?$
+- Thai: อาโอกิริ: อะไรนะ?!\pฉันยังไม่ได้ทำอะไรเลย\nทำไมลูกแก้วสีแดงถึง…\pไคโอกาหายไปไหนแล้ว?$
 - Placeholders: —
 - Control codes: \p | \n | \p
 - Translation confidence: high
@@ -4234,7 +4234,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieAMessageFromOutside`
 - English preview: ARCHIE: Hm? It's a message from our<br>members outside…
-- Thai: อาโอคิ: หืม? ข้อความจาก\nพวกที่อยู่ข้างนอก…$
+- Thai: อาโอกิริ: หืม? ข้อความจาก\nพวกที่อยู่ข้างนอก…$
 - Placeholders: —
 - Control codes: \n
 - Translation confidence: high
@@ -4253,7 +4253,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard`
 - English preview: ARCHIE: Yes, what is it?<br>[PAGE]<br>Hm…<br>It's raining heavily?<br>[PAGE]<br>Good… That should have happened.<br>That is why we awakened KYOGRE,<br>to realize TEAM AQUA's vision of<br>expanding the sea.<br>[PAGE]<br>What?!<br>[PAGE]<br>It's raining far harder than we<br>envisioned? You're in danger?<br>[PAGE]<br>That can't be…<br>That's just not possible…<br>[PAGE]<br>Hold your position and monitor<br>the situation!
-- Thai: อาโอคิ: ว่าไง มีอะไร?\pหืม…\nฝนตกหนักงั้นหรือ?\pดี… ต้องเป็นแบบนั้นอยู่แล้ว\nเราเลยปลุกไคโอกาขึ้นมา\lเพื่อทำให้อุดมการณ์ขยายผืนทะเล\lของทีมอควาเป็นจริง\pว่าไงนะ?!\pฝนตกหนักกว่าที่เราคาดไว้มาก?\nพวกแกกำลังตกอยู่ในอันตราย?\pเป็นไปไม่ได้…\nไม่มีทางเป็นแบบนั้น…\pอยู่ประจำตำแหน่งและเฝ้าดู\nสถานการณ์ต่อไป!$
+- Thai: อาโอกิริ: ว่าไง มีอะไร?\pหืม…\nฝนตกหนักงั้นหรือ?\pดี… ต้องเป็นแบบนั้นอยู่แล้ว\nเราเลยปลุกไคโอกาขึ้นมา\lเพื่อทำให้อุดมการณ์ในการขยายผืนทะเล\lของทีมอควาเป็นจริง\pว่าไงนะ?!\pฝนตกหนักกว่าที่เราคาดไว้มาก?\nพวกแกกำลังตกอยู่ในอันตราย?\pเป็นไปไม่ได้…\nไม่มีทางเป็นแบบนั้น…\pอยู่ประจำตำแหน่งและเฝ้าดู\nสถานการณ์ต่อไป!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \l | \l | \p | \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -4272,7 +4272,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear`
 - English preview: ARCHIE: There's something wrong…<br>[PAGE]<br>The RED ORB is supposed to awaken<br>and control KYOGRE…<br>[PAGE]<br>But… Why?<br>Why did KYOGRE disappear?<br>[PAGE]<br>Why?!
-- Thai: อาโอคิ: มีอะไรผิดปกติ…\pลูกแก้วสีแดงควรจะปลุก\nและควบคุมไคโอกาได้…\pแต่… ทำไม?\nทำไมไคโอกาถึงหายไป?\pทำไมกัน?!$
+- Thai: อาโอกิริ: มีอะไรผิดปกติ…\pลูกแก้วสีแดงควรจะปลุก\nและควบคุมไคโอกาได้…\pแต่… ทำไม?\nทำไมไคโอกาถึงหายไป?\pทำไมกัน?!$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -4291,7 +4291,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Maxie
 - Source label: `SeafloorCavern_Room9_Text_MaxieWhatHaveYouWrought`
 - English preview: MAXIE: What have you wrought?<br>[PAGE]<br>ARCHIE… You've finally awoken KYOGRE,<br>haven't you?<br>[PAGE]<br>What will happen to the world if this<br>downpour continues for all eternity?<br>[PAGE]<br>The world's landmass will drown in<br>the deepening sea…
-- Thai: มัตสึบูสะ: แกทำอะไรลงไป?\pอาโอคิ… ในที่สุดแกก็ปลุกไคโอกา\nขึ้นมาแล้วสินะ?\pถ้าฝนเทลงมาเช่นนี้ชั่วนิรันดร์\nโลกจะเป็นอย่างไร?\pผืนแผ่นดินทั้งโลกจะจมลง\nในทะเลที่สูงขึ้น…$
+- Thai: มัตสึบูสะ: แกทำอะไรลงไป?\pอาโอกิริ… ในที่สุดแกก็ปลุกไคโอกา\nขึ้นมาแล้วสินะ?\pถ้าฝนเทลงมาเช่นนี้ชั่วนิรันดร์\nโลกจะเป็นอย่างไร?\pผืนแผ่นดินทั้งโลกจะจมลง\nในทะเลที่สูงขึ้น…$
 - Placeholders: —
 - Control codes: \p | \n | \p | \n | \p | \n
 - Translation confidence: high
@@ -4310,7 +4310,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty`
 - English preview: ARCHIE: W-what?!<br>Don't get all high and mighty with me!<br>[PAGE]<br>Wasn't it you, TEAM MAGMA, that<br>infuriated GROUDON?<br>[PAGE]<br>So long as I have this RED ORB,<br>I should be able to control KYOGRE…<br>[PAGE]<br>I should be able to control it…
-- Thai: อาโอคิ: อะ… อะไรนะ?!\nอย่ามาทำวางท่าสูงส่งกับฉัน!\pทีมแมกมาของแกไม่ใช่หรือ\nที่ทำให้กราดอนโกรธเกรี้ยว?\pตราบใดที่ฉันมีลูกแก้วสีแดง\nฉันก็ควรควบคุมไคโอกาได้…\pฉันควรควบคุมมันได้สิ…$
+- Thai: อาโอกิริ: อะ… อะไรนะ?!\nอย่ามาทำเป็นวางท่าเหนือฉัน!\pทีมแมกมาของแกไม่ใช่หรือ\nที่ทำให้กราดอนโกรธเกรี้ยว?\pตราบใดที่ฉันมีลูกแก้วสีแดง\nฉันก็ควรควบคุมไคโอกาได้…\pฉันควรควบคุมมันได้สิ…$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p
 - Translation confidence: high
@@ -4409,7 +4409,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Archie
 - Source label: `SootopolisCity_Text_MaxieArchieLeft`
 - English preview: STEVEN: It looks like both MAXIE and<br>ARCHIE have gone away somewhere.<br>[PAGE]<br>Perhaps they've gone to MT. PYRE to<br>return those ORBS…
-- Thai: ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอคิจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$
+- Thai: ไดโกะ: ดูเหมือนทั้งมัตสึบูสะกับ\nอาโอกิริจะไปที่ไหนสักแห่งแล้ว\pบางทีอาจไปภูเขาโอคุริบิ\nเพื่อคืนลูกแก้วเหล่านั้น…$
 - Placeholders: —
 - Control codes: \n | \p | \n
 - Translation confidence: high
@@ -4428,7 +4428,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_NeverBeenToSkyPillar`
 - English preview: STEVEN: The SKY PILLAR…<br>[PAGE]<br>I've never been there.<br>I wonder where it could be?
-- Thai: ไดโกะ: หอคอยฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$
+- Thai: ไดโกะ: เสาหลักแห่งฟ้า…\pฉันไม่เคยไปที่นั่นเลย\nไม่รู้ว่าอยู่ที่ไหนกันนะ?$
 - Placeholders: —
 - Control codes: \p | \n
 - Translation confidence: high
@@ -4447,7 +4447,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_InvolvedWithCrisisComeWithMe`
 - English preview: STEVEN: Those POKéMON fighting…<br>GROUDON… And KYOGRE…<br>[PAGE]<br>The two super-ancient POKéMON<br>were awakened from a long sleep…<br>[PAGE]<br>And now they are smashing each other<br>with their uncontrollable energy…<br>[PAGE]<br>…{PLAYER}{KUN}.<br>[PAGE]<br>You being here now I'll take to mean<br>that you're prepared to become<br>involved in this crisis.<br>[PAGE]<br>Well, then, there's someone that<br>I'd like you to meet.<br>[PAGE]<br>Come with me, please.
-- Thai: ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคดึกดำบรรพ์ทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$
+- Thai: ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$
 - Placeholders: {PLAYER}
 - Control codes: \n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p
 - Translation confidence: high
@@ -4508,7 +4508,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SkyPillar_Outside_Text_OpenedDoorToSkyPillar`
 - English preview: WALLACE: Oh, my, I'm terribly sorry!<br>[PAGE]<br>In my haste, I didn't notice that<br>I'd left you behind!<br>[PAGE]<br>I've opened the locked door of<br>the SKY PILLAR.<br>[PAGE]<br>{PLAYER}{KUN}, let's be on our way!
-- Thai: มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nหอคอยฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$
+- Thai: มิคุริ: โอ้ ต้องขอโทษจริง ๆ!\pฉันรีบร้อนจนไม่ทันสังเกตว่า\nทิ้งเธอไว้ข้างหลัง!\pฉันเปิดประตูที่ล็อกไว้ของ\nเสาหลักแห่งฟ้าแล้ว\p{PLAYER}{KUN} ไปกันเถอะ!$
 - Placeholders: {PLAYER}
 - Control codes: \p | \n | \p | \n | \p | {PLAYER} | {KUN}
 - Translation confidence: high
@@ -4626,7 +4626,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Text_TryingMeaninglessToPokemon`
 - English preview: ARCHIE: KYOGRE and GROUDON both<br>flew off to who knows where.<br>[PAGE]<br>The weather in HOENN has returned<br>to its normal state…<br>[PAGE]<br>Haha…<br>Hahaha…<br>[PAGE]<br>Maybe what we were trying to do was<br>something small, even meaningless,<br>to POKéMON…
-- Thai: อาโอคิ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$
+- Thai: อาโอกิริ: ทั้งไคโอกาและกราดอน\nบินไปไหนแล้วก็ไม่รู้\pสภาพอากาศในโฮเอ็นกลับคืน\nเป็นปกติแล้ว…\pฮ่า ๆ…\nฮ่า ๆ ๆ…\pบางทีสิ่งที่เราพยายามทำอาจเล็กน้อย\nหรือไร้ความหมายเสียด้วยซ้ำ\lสำหรับโปเกมอน…$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \l
 - Translation confidence: high
@@ -4727,7 +4727,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `SootopolisCity_Gym_1F_Text_GoGetFortreeBadge`
 - English preview: There remains but one BADGE to<br>obtain in HOENN.<br>[PAGE]<br>If you wish to challenge the POKéMON<br>LEAGUE, you must obtain the last<br>BADGE from the GYM in FORTREE.
-- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวาดาม$
+- Thai: ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวะมากิ$
 - Placeholders: —
 - Control codes: \n | \p | \n | \l
 - Translation confidence: high
@@ -4792,7 +4792,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_DrakesRoom_Text_IntroSpeech`
 - English preview: I am the last of the POKéMON LEAGUE<br>ELITE FOUR, DRAKE the DRAGON master!<br>[PAGE]<br>In their natural state, POKéMON are<br>wild living things. They are free.<br>[PAGE]<br>At times, they hinder us.<br>At times, they help us.<br>[PAGE]<br>For us to battle with POKéMON as<br>partners, do you know what it takes?<br>[PAGE]<br>Do you know what is needed?<br>[PAGE]<br>If you don't, then you will never<br>prevail over me!
-- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนคือสิ่งมีชีวิต\nป่าที่มีอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
+- Thai: ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนเป็นสิ่งมีชีวิต\nป่าที่รักอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -4811,7 +4811,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_GlaciasRoom_Text_IntroSpeech`
 - English preview: Welcome, my name is GLACIA<br>of the ELITE FOUR.<br>[PAGE]<br>I've traveled from afar to HOENN<br>so that I may hone my ice skills.<br>[PAGE]<br>But all I have seen are challenges by<br>weak TRAINERS and their POKéMON.<br>[PAGE]<br>What about you?<br>[PAGE]<br>It would please me to no end if I could<br>go all out against you!
-- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่พบมีเพียงคำท้าจาก\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
+- Thai: ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่ผ่านมาฉันพบเพียง\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$
 - Placeholders: —
 - Control codes: \n | \p | \n | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -4872,7 +4872,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_ChampionsRoom_Text_IntroSpeech`
 - English preview: WALLACE: Welcome, {PLAYER}{KUN}.<br>[PAGE]<br>That incident in SOOTOPOLIS CITY…<br>That was superb work, putting an end<br>to that crisis all by yourself.<br>[PAGE]<br>Oops!<br>[PAGE]<br>It wouldn't be fair to say that you<br>alone ended the crisis.<br>[PAGE]<br>You overcame that difficult situation<br>by working as one with your POKéMON.<br>[PAGE]<br>We TRAINERS raise POKéMON by giving<br>them items and by teaching them new<br>techniques for battle.<br>[PAGE]<br>But we ourselves also learn many<br>things from POKéMON.<br>[PAGE]<br>And this is where your achievements<br>are put to the test against what<br>others like you have achieved.<br>[PAGE]<br>Now!<br>[PAGE]<br>Who can most elegantly dance with<br>their POKéMON in HOENN?<br>[PAGE]<br>Show me right here and now!
-- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
+- Thai: มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p
 - Translation confidence: high
@@ -4967,7 +4967,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex`
 - English preview: PROF. BIRCH: See?<br>What did I tell you, {RIVAL}?<br>[PAGE]<br>Didn't I tell you that you don't need<br>to worry about {PLAYER}{KUN}?<br>[PAGE]<br>… … … … … … … …<br>{PLAYER}{KUN}, you've finally done it.<br>[PAGE]<br>When I heard that you defeated your<br>own father at the PETALBURG GYM,<br>I thought perhaps you had a chance…<br>[PAGE]<br>But to think you've actually become<br>the CHAMPION!<br>[PAGE]<br>Ah, yes!<br>[PAGE]<br>What became of your POKéDEX?<br>Here, let me see.
-- Thai: ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$
+- Thai: ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$
 - Placeholders: {RIVAL} | {PLAYER} | {PLAYER}
 - Control codes: \n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n
 - Translation confidence: high
@@ -4986,7 +4986,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Professor Birch
 - Source label: `EverGrandeCity_ChampionsRoom_Text_BirchCongratulations`
 - English preview: PROF. BIRCH: Anyways,<br>congratulations!<br>[PAGE]<br>Now, go proudly into the final room!
-- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$
+- Thai: ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$
 - Placeholders: —
 - Control codes: \n | \p
 - Translation confidence: high
@@ -5123,7 +5123,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions`
 - English preview: WALLACE: This room…<br>[PAGE]<br>This is where we keep records of<br>POKéMON that prevailed through<br>harsh battles.<br>[PAGE]<br>It is here that the LEAGUE CHAMPIONS<br>are honored.
-- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$
+- Thai: มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nแชมเปี้ยนแห่งลีก$
 - Placeholders: —
 - Control codes: \p | \n | \l | \p | \n
 - Translation confidence: high

@@ -34,7 +34,7 @@ obtain in HOENN.
 [PAGE]
 If you wish to challenge the POKéMON
 LEAGUE, you must obtain the last
-BADGE from the GYM in FORTREE.",ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวาดาม$,draft_review,\n | \p | \n | \l,,high,high,high,ok,ok,
+BADGE from the GYM in FORTREE.",ยังเหลือแบดจ์อีกหนึ่งชิ้น\nที่ต้องคว้ามาในโฮเอ็น\pหากปรารถนาจะท้าทายโปเกมอน\nลีก เจ้าต้องรับแบดจ์สุดท้าย\lจากยิมในฮิวะมากิ$,draft_review,\n | \p | \n | \l,,high,high,high,ok,ok,
 dlg_ae26a5585d0e39c3,241,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,41,victory_road,Victory Road,ถนนแห่งชัยชนะ,41,VictoryRoad_1F,victory_road,VictoryRoad 1F,1,Wally,VictoryRoad_1F_EventScript_WallyEntranceBattle,data/maps/VictoryRoad_1F/scripts.inc,120,VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore,"WALLY: Hi! {PLAYER}!\pI bet you're surprised to see me here!\pI made it all the way here, and it's\nall thanks to you!\p{PLAYER}, losing to you that time\nmade me stronger!\pBut I'm not going to lose anymore!\pI'm going to win! For the POKéMON who\ngave me courage and strength!\pOkay… Here I come!$","WALLY: Hi! {PLAYER}!
 [PAGE]
 I bet you're surprised to see me here!
@@ -69,7 +69,7 @@ partners, do you know what it takes?
 Do you know what is needed?
 [PAGE]
 If you don't, then you will never
-prevail over me!",ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนคือสิ่งมีชีวิต\nป่าที่มีอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+prevail over me!",ข้าคือคนสุดท้ายแห่งสี่จตุรเทพ\nของโปเกมอนลีก เก็นจิผู้เชี่ยวชาญมังกร!\pโดยธรรมชาติ โปเกมอนเป็นสิ่งมีชีวิต\nป่าที่รักอิสระ\pบางครั้งพวกมันขัดขวางเรา\nบางครั้งก็ช่วยเหลือเรา\pเจ้ารู้หรือไม่ว่าต้องมีสิ่งใด\nจึงจะสู้เคียงข้างโปเกมอนได้?\pรู้หรือไม่ว่าสิ่งใดจำเป็น?\pหากไม่รู้ เจ้าก็ไม่มีวัน\nเอาชนะข้าได้!$,draft_review,\n | \p | \n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
 dlg_27801ee152f487cf,244,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,สี่จตุรเทพ,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,2,,EverGrandeCity_GlaciasRoom_EventScript_Glacia,data/maps/EverGrandeCity_GlaciasRoom/scripts.inc,60,EverGrandeCity_GlaciasRoom_Text_IntroSpeech,"Welcome, my name is GLACIA\nof the ELITE FOUR.\pI've traveled from afar to HOENN\nso that I may hone my ice skills.\pBut all I have seen are challenges by\nweak TRAINERS and their POKéMON.\pWhat about you?\pIt would please me to no end if I could\ngo all out against you!$","Welcome, my name is GLACIA
 of the ELITE FOUR.
 [PAGE]
@@ -82,7 +82,7 @@ weak TRAINERS and their POKéMON.
 What about you?
 [PAGE]
 It would please me to no end if I could
-go all out against you!",ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่พบมีเพียงคำท้าจาก\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$,draft_review,\n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
+go all out against you!",ยินดีต้อนรับ ฉันชื่อพริม\nแห่งสี่จตุรเทพ\pฉันเดินทางจากแดนไกลมายังโฮเอ็น\nเพื่อขัดเกลาทักษะน้ำแข็ง\pแต่ที่ผ่านมาฉันพบเพียง\nเทรนเนอร์อ่อนแอกับโปเกมอนของพวกเขา\pแล้วเธอล่ะ?\pถ้าฉันได้สู้กับเธออย่างเต็มกำลัง\nคงน่ายินดียิ่งนัก!$,draft_review,\n | \p | \n | \p | \n | \p | \p | \n,,high,high,high,ok,ok,
 dlg_3e4d602d030fbda7,245,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,42,elite_four,Elite Four,สี่จตุรเทพ,42,EverGrandeCity_DrakesRoom,elite_four,EverGrandeCity DrakesRoom,3,,EverGrandeCity_PhoebesRoom_EventScript_Phoebe,data/maps/EverGrandeCity_PhoebesRoom/scripts.inc,60,EverGrandeCity_PhoebesRoom_Text_IntroSpeech,"Ahahaha!\pI'm PHOEBE of the ELITE FOUR.\nI did my training on MT. PYRE.\pWhile I trained, I gained the ability\nto commune with GHOST-type POKéMON.\pYes, the bond I developed with POKéMON\nis extremely tight.\pSo, come on, just try and see if you can\neven inflict damage on my POKéMON!$","Ahahaha!
 [PAGE]
 I'm PHOEBE of the ELITE FOUR.
@@ -136,7 +136,7 @@ Now!
 Who can most elegantly dance with
 their POKéMON in HOENN?
 [PAGE]
-Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบผลงาน\nของเธอกับความสำเร็จ\lของคนอื่นที่เหมือนกับเธอ\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
 [PAGE]
 Here's some advice before you challenge
@@ -174,11 +174,11 @@ the CHAMPION!
 Ah, yes!
 [PAGE]
 What became of your POKéDEX?
-Here, let me see.",ศ.เบิร์ช: เห็นไหม?\nฉันบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lฉันคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอฉันดูหน่อย$,draft_review,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
+Here, let me see.",ศ.เบิร์ช: เห็นไหม?\nผมบอกแล้วไม่ใช่หรือ {RIVAL}?\pบอกแล้วว่าไม่ต้องเป็นห่วง\n{PLAYER}{KUN} หรอก\p… … … … … … … …\n{PLAYER}{KUN} ในที่สุดก็ทำสำเร็จ\pตอนที่ได้ยินว่าเธอเอาชนะ\nพ่อของตัวเองที่โทวกะยิม\lผมคิดว่าเธออาจมีโอกาส…\pแต่ไม่นึกว่าจะได้เป็น\nแชมเปี้ยนจริง ๆ!\pอ้อ ใช่แล้ว!\pโปเกเด็กซ์ของเธอเป็นยังไงบ้าง?\nขอผมดูหน่อย$,draft_review,\n | {RIVAL} | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p | \p | \n,{RIVAL} | {PLAYER} | {PLAYER},high,high,high,ok,ok,
 dlg_dd762debedb89c77,253,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,7,Professor Birch,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,306,EverGrandeCity_ChampionsRoom_Text_BirchCongratulations,"PROF. BIRCH: Anyways,\ncongratulations!\pNow, go proudly into the final room!$","PROF. BIRCH: Anyways,
 congratulations!
 [PAGE]
-Now, go proudly into the final room!",ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิได้เลย!$,draft_review,\n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
+Now, go proudly into the final room!",ศ.เบิร์ช: เอาเป็นว่า\nขอแสดงความยินดี!\pเข้าไปในห้องสุดท้ายอย่างภาคภูมิใจได้เลย!$,draft_review,\n | \p,,high,high,high,ok,review_long_line,THAI_LONG_LINE_REVIEW
 dlg_e48bce6d96070af2,254,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,8,Wallace,EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,311,EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe,"WALLACE: {PLAYER}{KUN}…\pNo, let me rephrase that properly.\pThe new CHAMPION!\pCome with me.$","WALLACE: {PLAYER}{KUN}…
 [PAGE]
 No, let me rephrase that properly.
@@ -226,7 +226,7 @@ POKéMON that prevailed through
 harsh battles.
 [PAGE]
 It is here that the LEAGUE CHAMPIONS
-are honored.",มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nลีกแชมเปี้ยน$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,
+are honored.",มิคุริ: ห้องนี้…\pคือสถานที่เก็บบันทึกโปเกมอน\nที่ฝ่าฟันการต่อสู้อันดุเดือด\lจนคว้าชัยชนะมาได้\pและเป็นสถานที่เชิดชูเหล่า\nแชมเปี้ยนแห่งลีก$,draft_review,\p | \n | \l | \p | \n,,high,high,high,ok,ok,
 dlg_f8d2a6465c7b7c81,261,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,44,hall_of_fame,Hall of Fame,หอเกียรติยศ,44,EverGrandeCity_HallOfFame,hall_of_fame,EverGrandeCity HallOfFame,2,,EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame,data/maps/EverGrandeCity_HallOfFame/scripts.inc,89,EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames,"WALLACE: Come on, let's record your\nname as a TRAINER who triumphed over\lthe POKéMON LEAGUE, and the names of\lthe partners who battled with you.$","WALLACE: Come on, let's record your
 name as a TRAINER who triumphed over
 the POKéMON LEAGUE, and the names of

@@ -50,7 +50,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: —
 - Source label: `PetalburgCity_Gym_Text_DadGoCollectBadges`
 - English preview: DAD: Now…<br>[PAGE]<br>{PLAYER}, if you want to become a<br>strong TRAINER, here's my advice.<br>[PAGE]<br>Head for RUSTBORO CITY beyond this<br>town.<br>[PAGE]<br>There, you should challenge<br>the GYM LEADER, ROXANNE.<br>[PAGE]<br>After her, go on to other POKéMON<br>GYMS and defeat their LEADERS.<br>[PAGE]<br>Collect BADGES from them,<br>understood?<br>[PAGE]<br>Of course, I'm a GYM LEADER, too.<br>We'll battle one day, {PLAYER}.<br>[PAGE]<br>But that's only after you become<br>stronger.
-- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองรัสต์โบโร\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ คานาซึมิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
+- Thai: พ่อ: เอาละ…\p{PLAYER} ถ้าลูกอยากเป็น\nเทรนเนอร์ที่แข็งแกร่ง พ่อมีคำแนะนำ\pมุ่งหน้าไปยังเมืองคานาซึมิ\nที่อยู่เลยเมืองนี้ไป\pที่นั่น ลูกควรท้าสู้กับ\nยิมลีดเดอร์ สึสึจิ\pจากนั้นก็ไปยังโปเกมอนยิมอื่น\nและเอาชนะเหล่าลีดเดอร์\pรวบรวมแบดจ์จากพวกเขา\nเข้าใจไหม?\pแน่นอน พ่อเองก็เป็นยิมลีดเดอร์\nสักวันเราจะได้สู้กัน {PLAYER}\pแต่ต้องรอจนลูก\nแข็งแกร่งกว่านี้ก่อน$
 - Placeholders: {PLAYER} | {PLAYER}
 - Control codes: \p | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | {PLAYER} | \p | \n
 - Translation confidence: medium
@@ -145,7 +145,7 @@ Generated deterministically from `dialogue_main_story_thai.csv`.
 - Speaker: Wally
 - Source label: `PetalburgCity_Gym_Text_DadPlayerGoWithWally`
 - English preview: DAD: {PLAYER}, you heard that,<br>right?<br>[PAGE]<br>Go with WALLY and make sure that he<br>safely catches a POKéMON.
-- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วช่วยดูให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
+- Thai: พ่อ: {PLAYER} ได้ยินแล้ว\nใช่ไหม?\pไปกับมิตสึรุ แล้วคอยช่วยให้เขา\nจับโปเกมอนได้อย่างปลอดภัย$
 - Placeholders: {PLAYER}
 - Control codes: {PLAYER} | \n | \p | \n
 - Translation confidence: high
