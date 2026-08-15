@@ -1,10 +1,10 @@
 {
   "batch_id": "20260814-221750-phase6-batch55-battle-trainer-sendout-withdraw-messages",
   "locked_head": "1e55e02f60483303e3696f3ae4a5c1dd3da16a12",
-  "state": "applied_build_passed",
+  "state": "visual_qa_passed",
   "item_count": 10,
   "manifest_count_is_dynamic": true,
-  "visual_qa": "pending",
+  "visual_qa": "proof_passed",
   "inventory_before": {
     "proof_passed": 388,
     "pending": 30,
@@ -17,5 +17,6 @@
     "blocked": 18
   },
   "preview_rom_sha256": "ef674a0c72e6e0106eb040ddb0d65e0bcf68ef48f93caf2a1ef8a908f20b5667",
-  "normal_rom_sha256": "ef674a0c72e6e0106eb040ddb0d65e0bcf68ef48f93caf2a1ef8a908f20b5667"
+  "normal_rom_sha256": "ef674a0c72e6e0106eb040ddb0d65e0bcf68ef48f93caf2a1ef8a908f20b5667",
+  "qa_note": "Batch 55 QA Gallery reviewed: 10/10 pages passed. All selected strings were verified for correct Thai font rendering, spacing, clipping, layout, punctuation, placeholders, and terminology consistency."
 }
