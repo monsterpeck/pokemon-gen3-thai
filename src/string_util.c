@@ -470,12 +470,15 @@ static const u8 *ExpandPlaceholder_KunChan(void)
         return gText_ExpandedPlaceholder_Chan;
 }
 
+static const u8 sText_RivalHaruka[] = _("{252}{25}{49}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{161}{1}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}");
+static const u8 sText_RivalYuki[] = _("{252}{25}{222}{1}{0}{244}{6}{1}{252}{25}{52}{0}{0}{244}{7}{1}");
+
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
     if (gSaveBlock2Ptr->playerGender == MALE)
-        return gText_ExpandedPlaceholder_May;
+        return sText_RivalHaruka;
     else
-        return gText_ExpandedPlaceholder_Brendan;
+        return sText_RivalYuki;
 }
 
 static const u8 *ExpandPlaceholder_Version(void)

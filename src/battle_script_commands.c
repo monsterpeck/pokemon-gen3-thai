@@ -28,6 +28,7 @@
 #include "pokemon_storage_system.h"
 #include "task.h"
 #include "naming_screen.h"
+#include "thai_name.h"
 #include "battle_setup.h"
 #include "overworld.h"
 #include "party_menu.h"
@@ -10268,11 +10269,19 @@ static void Cmd_trygivecaughtmonnick(void)
             GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gBattleStruct->caughtMonNick);
             FreeAllWindowBuffers();
 
+#ifdef THAI_NAMING_PRODUCTION
+            DoThaiNamingScreen(NAMING_SCREEN_CAUGHT_MON, gBattleStruct->caughtMonNick, FALSE,
+                               GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_SPECIES),
+                               GetMonGender(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]]),
+                               GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_PERSONALITY, NULL),
+                               BattleMainCB2);
+#else
             DoNamingScreen(NAMING_SCREEN_CAUGHT_MON, gBattleStruct->caughtMonNick,
                            GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_SPECIES),
                            GetMonGender(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]]),
                            GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_PERSONALITY, NULL),
                            BattleMainCB2);
+#endif
 
             gBattleCommunication[MULTIUSE_STATE]++;
         }
@@ -10281,6 +10290,10 @@ static void Cmd_trygivecaughtmonnick(void)
         if (gMain.callback2 == BattleMainCB2 && !gPaletteFade.active)
         {
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gBattleStruct->caughtMonNick);
+#ifdef THAI_NAMING_PRODUCTION
+            if (DidThaiNamingScreenCommit())
+                SetBoxMonNicknameThai(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]].box, TRUE);
+#endif
             gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
         }
         break;

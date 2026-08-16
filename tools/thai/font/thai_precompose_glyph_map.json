@@ -23,7 +23,7 @@
     256,
     768
   ],
-  "glyph_count": 761,
+  "glyph_count": 765,
   "csv_encoding": "cp874",
   "csv_count": 781,
   "csv_unique_count": 781,
@@ -18371,6 +18371,100 @@
         12
       ],
       "composite_source": "json"
+    },
+    {
+      "name": "ษั",
+      "target_index": 761,
+      "category": "manual_candidate",
+      "source": "sandbox_candidate_from_ษ_plus_mark",
+      "project_source": "glyph762_candidate_cell.png",
+      "locked": false,
+      "left": 0,
+      "width": 7,
+      "advance": 8,
+      "source_bbox": null,
+      "target_bbox": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "composite_source": "json"
+    },
+    {
+      "name": "จุ้",
+      "target_index": 762,
+      "category": "precompose_cluster",
+      "source": "phaseE_visual_candidate",
+      "project_source": "candidate_ju_tone.png",
+      "locked": true,
+      "left": 0,
+      "width": 5,
+      "advance": 6,
+      "source_bbox": null,
+      "target_bbox": [
+        0,
+        3,
+        5,
+        13
+      ],
+      "composite_source": "json",
+      "source_parts": [
+        "จ",
+        "ุ",
+        "้"
+      ]
+    },
+    {
+      "name": "ง็",
+      "target_index": 763,
+      "category": "precompose_cluster",
+      "source": "phaseE_visual_candidate",
+      "project_source": "candidate_ngo_maitaikhu.png",
+      "locked": true,
+      "left": 0,
+      "width": 3,
+      "advance": 4,
+      "source_bbox": null,
+      "target_bbox": [
+        0,
+        2,
+        4,
+        11
+      ],
+      "composite_source": "json",
+      "source_parts": [
+        "ง",
+        "็"
+      ]
+    },
+    {
+      "name": "ฬิ",
+      "target_index": 764,
+      "category": "precompose_cluster",
+      "source": "phaseE_visual_candidate",
+      "project_source": "candidate_lho_sara_i.png",
+      "locked": true,
+      "left": 0,
+      "width": 8,
+      "advance": 9,
+      "source_bbox": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "target_bbox": [
+        0,
+        3,
+        8,
+        11
+      ],
+      "composite_source": "json",
+      "source_parts": [
+        "ฬ",
+        "ิ"
+      ]
     }
   ]
 }

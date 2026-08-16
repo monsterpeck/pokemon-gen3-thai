@@ -19,7 +19,7 @@ FLAGS = 1
 THAI_RE = re.compile(r"[\u0E00-\u0E7F]+")
 STRING_RE = re.compile(r'"(?:\\.|[^"\\])*"')
 EXPECTED_FORMAT = "pokemon-gen3-thai-precompose-full-v1"
-EXPECTED_COUNT = 761
+EXPECTED_COUNT = 765
 
 
 class PrecomposeError(ValueError):

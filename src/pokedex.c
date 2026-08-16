@@ -3757,7 +3757,7 @@ static void Task_LoadSizeScreen(u8 taskId)
         break;
     case 3:
         {
-            u8 string[64];
+            u8 string[128];
 
             StringCopy(string, gText_SizeComparedTo);
             StringAppend(string, gSaveBlock2Ptr->playerName);

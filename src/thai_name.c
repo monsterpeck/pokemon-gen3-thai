@@ -159,7 +159,24 @@ bool32 ThaiShapeCompactName(
         }
 
         if (!IsThaiCompactNameId(source[sourcePos]))
-            return FALSE;
+        {
+            /*
+             * Mixed Thai/Western naming:
+             * 0xA1..0xF6 are the existing one-byte Western printable
+             * characters used for digits, punctuation, A-Z and a-z.
+             *
+             * Keep 0xF7+ rejected: those values are dynamic/control/prefix
+             * bytes and must never be copied through as ordinary name text.
+             */
+            if (source[sourcePos] < 0xA1 || source[sourcePos] > 0xF6)
+                return FALSE;
+
+            if (destinationPos + 1 >= sizeof(temporary))
+                return FALSE;
+
+            temporary[destinationPos++] = source[sourcePos++];
+            continue;
+        }
 
         for (mapPos = 0; mapPos < THAI_NAMING_RUNTIME_MAP_COUNT; mapPos++)
         {

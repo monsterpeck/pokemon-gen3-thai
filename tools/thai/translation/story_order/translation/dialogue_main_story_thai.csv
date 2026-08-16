@@ -8,7 +8,7 @@ My name is BIRCH.
 But everyone calls me the POKéMON
 PROFESSOR.
 [PAGE]
-",สวัสดี! ขอโทษที่ให้รอนะ!\pยินดีต้อนรับสู่โลกของโปเกมอน!\pผมชื่อเบิร์ช\pแต่ทุกคนเรียกผมว่า\nศาสตราจารย์โปเกมอน\p$,draft_review,\p | \p | \p | \n | \p,,high,high,high,ok,ok,
+",สวัสดี! ขอโทษที่ให้รอนะ!\pยินดีต้อนรับสู่โลกของโปเกมอน!\pฉันชื่อเบิร์ช\pแต่ทุกคนเรียกฉันว่า\nศาสตราจารย์โปเกมอน\p$,draft_review,\p | \p | \p | \n | \p,,high,high,high,ok,ok,
 dlg_a0a50d7092ef23e5,2,01,opening,Opening,บทนำ,1,birch_intro,Professor Birch introduction,ศาสตราจารย์เบิร์ชแนะนำโลกโปเกมอน,1,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,8,gText_Birch_Pokemon,This is what we call a “POKéMON.”\p\n$,"This is what we call a “POKéMON.”
 [PAGE]
 
@@ -33,7 +33,7 @@ To unravel POKéMON mysteries,
 I've been undertaking research.
 That's what I do.
 [PAGE]
-",โลกใบนี้มีสิ่งมีชีวิตที่เรียกว่า\nโปเกมอนอาศัยอยู่มากมาย\pมนุษย์เราใช้ชีวิตร่วมกับโปเกมอน\nบางครั้งก็เป็นเพื่อนเล่นที่สนิทสนม\lบางครั้งก็เป็นเพื่อนร่วมงานที่ช่วยเหลือกัน\pและบางครั้ง เราก็รวมพลังกัน\nต่อสู้กับกลุ่มอื่นเช่นเดียวกับเรา\pแต่แม้เราจะใกล้ชิดกันเพียงใด\nเราก็ยังไม่รู้ทุกอย่างเกี่ยวกับโปเกมอน\pที่จริงแล้ว โปเกมอนยังมีความลับ\nซ่อนอยู่อีกมากมายนัก\pผมจึงทำงานวิจัยเพื่อไข\nปริศนาของเหล่าโปเกมอน\lนี่แหละคืองานของผม\p$,draft_review,\n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+",โลกใบนี้มีสิ่งมีชีวิตที่เรียกว่า\nโปเกมอนอาศัยอยู่มากมาย\pมนุษย์เราใช้ชีวิตร่วมกับโปเกมอน\nบางครั้งก็เป็นเพื่อนเล่นที่สนิทสนม\lบางครั้งก็เป็นเพื่อนร่วมงานที่ช่วยเหลือกัน\pและบางครั้ง เราก็รวมพลังกัน\nต่อสู้กับกลุ่มอื่นเช่นเดียวกับเรา\pแต่แม้เราจะใกล้ชิดกันเพียงใด\nเราก็ยังไม่รู้ทุกอย่างเกี่ยวกับโปเกมอน\pที่จริงแล้ว โปเกมอนยังมีความลับ\nซ่อนอยู่อีกมากมายนัก\pฉันจึงทำงานวิจัยเพื่อไข\nปริศนาของเหล่าโปเกมอน\lนี่แหละคืองานของฉัน\p$,draft_review,\n | \p | \n | \l | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_412f32d24928ff84,4,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,1,Professor Birch,opening_sequence,data/text/birch_speech.inc,30,gText_Birch_AndYouAre,And you are?$,And you are?,แล้วเธอคือใครล่ะ?$,draft_review,,,high,high,high,ok,ok,
 dlg_008b1eacc20d2fa0,5,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,2,Professor Birch,opening_sequence,data/text/birch_speech.inc,33,gText_Birch_BoyOrGirl,{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?$,"{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{29}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{15}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}?
 {252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{3}{2}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{58}{0}{0}{244}{8}{1}{252}{25}{12}{0}{0}{244}{4}{1}?",เธอเป็นเด็กผู้ชาย\nหรือเด็กผู้หญิงล่ะ?$,draft_review,{252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {29} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {15} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {6} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {39} | {0} | {0} | {244} | {6} | {1} | \n | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {21} | {1} | {0} | {244} | {6} | {1} | {252} | {25} | {48} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {8} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {30} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {3} | {0} | {0} | {244} | {4} | {1} | {252} | {25} | {3} | {2} | {0} | {244} | {7} | {1} | {252} | {25} | {8} | {0} | {0} | {244} | {6} | {1} | {252} | {25} | {46} | {0} | {0} | {244} | {7} | {1} | {252} | {25} | {58} | {0} | {0} | {244} | {8} | {1} | {252} | {25} | {12} | {0} | {0} | {244} | {4} | {1},,high,high,high,ok,ok,LINEBREAK_ADJUSTED
@@ -46,7 +46,7 @@ You're {PLAYER}{KUN} who's moving to my
 hometown of LITTLEROOT.
 I get it now!
 [PAGE]
-",อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของผม\lตอนนี้เข้าใจแล้วละ!\p$,draft_review,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+",อ๋อ เข้าใจแล้ว!\pเธอคือ {PLAYER}{KUN} ที่กำลังจะย้ายมา\nอยู่เมืองมิโชโระ บ้านเกิดของฉัน\lตอนนี้เข้าใจแล้วละ!\p$,draft_review,\p | {PLAYER} | {KUN} | \n | \l | \p,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_745792a288a31bbd,9,01,opening,Opening,บทนำ,2,player_setup,Player setup,Player setup,2,,opening,,6,Professor Birch,opening_sequence,data/text/birch_speech.inc,51,gText_Birch_AreYouReady,"All right, are you ready?\pYour very own adventure is about\nto unfold.\pTake courage, and leap into the\nworld of POKéMON where dreams,\ladventure, and friendships await!\pWell, I'll be expecting you later.\nCome see me in my POKéMON LAB.\p$","All right, are you ready?
 [PAGE]
 Your very own adventure is about
@@ -59,7 +59,7 @@ adventure, and friendships await!
 Well, I'll be expecting you later.
 Come see me in my POKéMON LAB.
 [PAGE]
-",เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาผมที่แล็บโปเกมอนด้วยล่ะ\p$,draft_review,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+",เอาละ พร้อมหรือยัง?\pการผจญภัยของเธอเอง\nกำลังจะเริ่มต้นขึ้นแล้ว\pรวบรวมความกล้า แล้วก้าวสู่\nโลกแห่งโปเกมอน ที่ซึ่งความฝัน\lการผจญภัย และมิตรภาพรออยู่!\pแล้วไว้เจอกันอีกทีนะ\nมาหาฉันที่แล็บโปเกมอนด้วยล่ะ\p$,draft_review,\p | \n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_c9c9cfc75f70e8e3,10,02,littleroot,Littleroot,ลิตเติลรูต,3,littleroot_arrival,Littleroot arrival,Littleroot arrival,3,LittlerootTown_BrendansHouse_1F,arrival,LittlerootTown BrendansHouse 1F,1,,PlayersHouse_1F_EventScript_EnterHouseMovingIn,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc,285,PlayersHouse_1F_Text_IsntItNiceInHere,"MOM: See, {PLAYER}?\nIsn't it nice in here, too?$","MOM: See, {PLAYER}?
 Isn't it nice in here, too?",แม่: ดูสิ {PLAYER}\nข้างในก็น่าอยู่ใช่ไหมล่ะ?$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_bd705cc8a504bb05,11,02,littleroot,Littleroot,ลิตเติลรูต,3,littleroot_arrival,Littleroot arrival,Littleroot arrival,3,LittlerootTown_BrendansHouse_1F,arrival,LittlerootTown BrendansHouse 1F,2,,PlayersHouse_1F_EventScript_EnterHouseMovingIn,data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc,289,PlayersHouse_1F_Text_MoversPokemonGoSetClock,"The mover's POKéMON do all the work\nof moving us in and cleaning up after.\lThis is so convenient!\p{PLAYER}, your room is upstairs.\nGo check it out, dear!\pDAD bought you a new clock to mark\nour move here.\lDon't forget to set it!$","The mover's POKéMON do all the work
@@ -132,7 +132,7 @@ Oh, no! I forgot!
 I was supposed to go help Dad catch
 some wild POKéMON!
 [PAGE]
-{PLAYER}{KUN}, I'll catch you later!",เอ๊ะ?\nคะ… คุณเป็นใครคะ?\p… … … … … … … …\n… … … … … … … …\pอ๋อ คุณคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะคะ\pเอ่อ… ฉันชื่อฮารุกะค่ะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลยค่ะ\pฉัน… ได้ยินเรื่องของคุณ {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ชค่ะ\pฉันหวังว่าคุณจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะคะ\nทั้งที่ฉัน… เพิ่งพบคุณแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะคะ!$,draft_review,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,medium,ok,review_long_line,LINEBREAK_ADJUSTED
+{PLAYER}{KUN}, I'll catch you later!",เอ๊ะ?\nอะ… นายเป็นใคร?\p… … … … … … … …\n… … … … … … … …\pอ๋อ นายคือ {PLAYER}{KUN}\nวันนี้เพิ่งย้ายมาสินะ\pเอ่อ… ฉันชื่อฮารุกะ\nยินดีที่ได้รู้จักนะ!\pฉัน…\nฉันฝันอยากเป็นเพื่อนกับโปเกมอน\lทั่วทั้งโลกเลย\pฉัน… ได้ยินเรื่องของนาย {PLAYER}{KUN}\nจากพ่อ ศ.เบิร์ช\pฉันหวังว่านายจะใจดี\nและเราจะได้เป็นเพื่อนกันนะ {PLAYER}{KUN}\pพูดอะไรน่าอายจังเลยนะ\nทั้งที่ฉัน… เพิ่งพบนายแท้ ๆ {PLAYER}{KUN}\pเอเฮะเฮะ…\pอ๊ะ ไม่นะ! ฉันลืมไปเลย!\pฉันต้องไปช่วยพ่อจับ\nโปเกมอนป่านี่นา!\p{PLAYER}{KUN} แล้วเจอกันนะ!$,draft_review,\n | \p | \n | \p | {PLAYER} | {KUN} | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {KUN} | \n | \p | \n | {PLAYER} | {KUN} | \p | \n | {PLAYER} | {KUN} | \p | \p | \p | \n | \p | {PLAYER} | {KUN},{PLAYER} | {PLAYER} | {PLAYER} | {PLAYER} | {PLAYER},high,high,medium,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_a3524918d5d08235,14,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,Birch rescue,5,Route101,birch_rescue,Route101,1,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,258,Route101_Text_HelpMe,H-help me!$,H-help me!,ชะ-ช่วยด้วย!$,draft_review,,,high,high,high,ok,ok,
 dlg_45ae69cb30f2cd90,15,02,littleroot,Littleroot,ลิตเติลรูต,5,birch_rescue,Birch rescue,Birch rescue,5,Route101,birch_rescue,Route101,2,,Route101_EventScript_StartBirchRescue,data/maps/Route101/scripts.inc,261,Route101_Text_PleaseHelp,Hello! You over there!\nPlease! Help!\pIn my BAG!\nThere's a POKé BALL!$,"Hello! You over there!
 Please! Help!
@@ -152,7 +152,7 @@ Oh?
 Hi, you're {PLAYER}{KUN}!
 [PAGE]
 This is not the place to chat, so come
-by my POKéMON LAB later, okay?",ศ.เบิร์ช: เฮ้อ…\pผมกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยผมไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของผมทีหลังนะ$,draft_review,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+by my POKéMON LAB later, okay?",ศ.เบิร์ช: เฮ้อ…\pฉันกำลังศึกษาโปเกมอนป่า\nในพงหญ้า แล้วจู่ ๆ ก็ถูกจู่โจม\pเธอช่วยฉันไว้\nขอบใจมากนะ!\pโอ๊ะ?\pสวัสดี เธอคือ {PLAYER}{KUN} นี่นา!\pที่นี่ไม่เหมาะจะคุยกัน\nไว้แวะมาที่แล็บโปเกมอนของฉันทีหลังนะ$,draft_review,\p | \n | \p | \n | \p | \p | {PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_e1f579546c78b2f9,17,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,1,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,683,LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon,"PROF. BIRCH: So, {PLAYER}{KUN}.\pI've heard so much about you from\nyour father.\pI've heard that you don't have your\nown POKéMON yet.\pBut the way you battled earlier,\nyou pulled it off with aplomb!\pI guess you have your father's blood\nin your veins after all!\pOh, yes. As thanks for rescuing me,\nI'd like you to have the POKéMON you\lused earlier.\p{PLAYER} received the {STR_VAR_1}!$","PROF. BIRCH: So, {PLAYER}{KUN}.
 [PAGE]
 I've heard so much about you from
@@ -171,7 +171,7 @@ Oh, yes. As thanks for rescuing me,
 I'd like you to have the POKéMON you
 used earlier.
 [PAGE]
-{PLAYER} received the {STR_VAR_1}!",ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pผมได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยผมไว้\nผมอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+{PLAYER} received the {STR_VAR_1}!",ศ.เบิร์ช: เอาละ {PLAYER}{KUN}\pฉันได้ยินเรื่องของเธอ\nจากพ่อของเธอมามากเลย\pได้ยินว่าเธอยังไม่มี\nโปเกมอนเป็นของตัวเอง\pแต่จากฝีมือต่อสู้เมื่อกี้\nเธอทำได้อย่างยอดเยี่ยมเลย!\pสมแล้วที่เป็นลูก\nของพ่อเธอจริง ๆ!\pจริงสิ เพื่อขอบคุณที่ช่วยฉันไว้\nฉันอยากมอบโปเกมอน\lที่เธอใช้เมื่อกี้ให้\p{PLAYER} ได้รับ {STR_VAR_1}!$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n | \l | \p | {PLAYER} | {STR_VAR_1},{PLAYER} | {PLAYER} | {STR_VAR_1},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_a85b0bd843afd737,18,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,2,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,698,LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon,"PROF. BIRCH: While you're at it, why not\ngive a nickname to that {STR_VAR_1}?$","PROF. BIRCH: While you're at it, why not
 give a nickname to that {STR_VAR_1}?",ศ.เบิร์ช: ไหน ๆ แล้ว ลองตั้งชื่อเล่นให้\n{STR_VAR_1} ตัวนั้นหน่อยไหม?$,draft_review,\n | {STR_VAR_1},{STR_VAR_1},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_2f2b9342597fd41c,19,02,littleroot,Littleroot,ลิตเติลรูต,6,starter,Starter selection,Starter selection,6,LittlerootTown_ProfessorBirchsLab,starter,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,702,LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival,"PROF. BIRCH: If you work at POKéMON\nand gain experience, I think you'll make\lan extremely good TRAINER.\pMy kid, {RIVAL}, is also studying\nPOKéMON while helping me out.\p{PLAYER}{KUN}, don't you think it might be\na good idea to go see {RIVAL}?$","PROF. BIRCH: If you work at POKéMON
@@ -182,7 +182,7 @@ My kid, {RIVAL}, is also studying
 POKéMON while helping me out.
 [PAGE]
 {PLAYER}{KUN}, don't you think it might be
-a good idea to go see {RIVAL}?",ศ.เบิร์ช: ถ้าเธอฝึกฝนโปเกมอน\nและสั่งสมประสบการณ์ ผมว่าเธอจะเป็น\lเทรนเนอร์ที่เก่งกาจมากแน่ ๆ\p{RIVAL} ลูกของผมก็กำลังศึกษา\nโปเกมอนและคอยช่วยงานผมอยู่\p{PLAYER}{KUN} ลองไปหา\n{RIVAL} ดูก็ดีนะ ว่าไหม?$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+a good idea to go see {RIVAL}?",ศ.เบิร์ช: ถ้าเธอฝึกฝนโปเกมอน\nและสั่งสมประสบการณ์ ฉันว่าเธอจะเป็น\lเทรนเนอร์ที่เก่งกาจมากแน่ ๆ\p{RIVAL} ลูกของฉันก็กำลังศึกษา\nโปเกมอนและคอยช่วยงานฉันอยู่\p{PLAYER}{KUN} ลองไปหา\n{RIVAL} ดูก็ดีนะ ว่าไหม?$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | {RIVAL},{RIVAL} | {PLAYER} | {RIVAL},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_302bf4be4220a361,20,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,1,May,Route103_EventScript_RivalMay,data/maps/Route103/scripts.inc,288,Route103_Text_MayRoute103Pokemon,MAY: Let's see… The POKéMON found\non ROUTE 103 include…$,"MAY: Let's see… The POKéMON found
 on ROUTE 103 include…",ฮารุกะ: ไหนดูซิ… โปเกมอนที่พบ\nบนถนนหมายเลข 103 มี…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_31e833de1ea33667,21,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,2,May,Route103_EventScript_RivalMay,data/maps/Route103/scripts.inc,292,Route103_Text_MayLetsBattle,"Oh, hi, {PLAYER}{KUN}!\p…Oh, I see, my dad gave you\na POKéMON as a gift.\pSince we're here, let's have a quick\nbattle!\pI'll give you a taste of what being\na TRAINER is like.$","Oh, hi, {PLAYER}{KUN}!
@@ -194,7 +194,7 @@ Since we're here, let's have a quick
 battle!
 [PAGE]
 I'll give you a taste of what being
-a TRAINER is like.",อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญกับคุณสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้คุณได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+a TRAINER is like.",อ้าว สวัสดี {PLAYER}{KUN}!\p…อ๋อ เข้าใจแล้ว พ่อให้โปเกมอน\nเป็นของขวัญให้นายสินะ\pไหน ๆ ก็มาเจอกันแล้ว\nมาสู้กันสักยกเถอะ!\pฉันจะให้นายได้รู้ว่า\nการเป็นเทรนเนอร์เป็นยังไง$,draft_review,{PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_1d2c85c3dd45b39f,22,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,3,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,315,Route103_Text_BrendanRoute103Pokemon,"BRENDAN: Okay, so it's this one and\nthat one that live on ROUTE 103…$","BRENDAN: Okay, so it's this one and
 that one that live on ROUTE 103…",ยูคิ: เอาละ ตัวนี้กับ\nตัวนั้นอาศัยอยู่บนถนนหมายเลข 103…$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_a2a36d33d4e71a0c,23,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,4,Brendan,Route103_EventScript_RivalBrendan,data/maps/Route103/scripts.inc,319,Route103_Text_BrendanLetsBattle,"Hey, it's {PLAYER}!\p…Oh, yeah, Dad gave you a POKéMON.\pSince we're here, how about a little\nbattle?\pI'll teach you what being a TRAINER's\nabout!$","Hey, it's {PLAYER}!
@@ -216,7 +216,7 @@ You might be able to befriend any
 kind of POKéMON easily.
 [PAGE]
 Well, it's time to head back to
-the LAB.",ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจคุณ\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับคุณ\nแต่ก็ชอบคุณแล้วนี่นา\pคุณอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+the LAB.",ฮารุกะ: ตอนนี้ฉันเข้าใจแล้วว่า\nทำไมพ่อถึงสนใจนาย\pโปเกมอนตัวนั้นเพิ่งมาอยู่กับนาย\nแต่ก็ชอบนายแล้วนี่นา\pนายอาจผูกมิตรกับโปเกมอน\nชนิดไหนก็ได้อย่างง่ายดายเลยนะ\pเอาละ ได้เวลากลับ\nไปที่แล็บแล้วค่ะ$,draft_review,\n | \p | \n | \p | \n | \p | \n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_5ba654e578399a89,25,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,7,rival_1,First rival battle,First rival battle,7,Route103,rival_battle,Route103,6,Brendan,Route103_EventScript_AfterBrendanBattle,data/maps/Route103/scripts.inc,330,Route103_Text_BrendanTimeToHeadBack,"BRENDAN: I think I get it.\nI think I know why my dad has his eye\lout for you now.\pLook, your POKéMON already likes you,\neven though you just got it.\p{PLAYER}, I get the feeling that you\ncould befriend any POKéMON with ease.\pWe should head back to the LAB.$","BRENDAN: I think I get it.
 I think I know why my dad has his eye
 out for you now.
@@ -249,7 +249,7 @@ a TRAINER already.
 [PAGE]
 Here, {PLAYER}{KUN}, I ordered this for my
 research, but I think you should have
-this POKéDEX.",ศ.เบิร์ช: อ้าว สวัสดี {PLAYER}{KUN}!\pได้ยินว่าเธอชนะ {RIVAL}\nได้ตั้งแต่ครั้งแรก ยอดเยี่ยมมาก!\p{RIVAL} ช่วยงานวิจัยของผม\nมานานแล้ว\p{RIVAL} เองก็มีประสบการณ์\nเป็นเทรนเนอร์มามากทีเดียว\pนี่ {PLAYER}{KUN} ผมสั่งสิ่งนี้มา\nเพื่อใช้ทำวิจัย แต่คิดว่าเธอ\lควรรับโปเกเด็กซ์นี้ไป$,draft_review,{PLAYER} | {KUN} | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER} | {RIVAL} | {RIVAL} | {RIVAL} | {PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+this POKéDEX.",ศ.เบิร์ช: อ้าว สวัสดี {PLAYER}{KUN}!\pได้ยินว่าเธอชนะ {RIVAL}\nได้ตั้งแต่ครั้งแรก ยอดเยี่ยมมาก!\p{RIVAL} ช่วยงานวิจัยของฉัน\nมานานแล้ว\p{RIVAL} เองก็มีประสบการณ์\nเป็นเทรนเนอร์มามากทีเดียว\pนี่ {PLAYER}{KUN} ฉันสั่งสิ่งนี้มา\nเพื่อใช้ทำวิจัย แต่คิดว่าเธอ\lควรรับโปเกเด็กซ์นี้ไป$,draft_review,{PLAYER} | {KUN} | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {RIVAL} | \n | \p | {PLAYER} | {KUN} | \n | \l,{PLAYER} | {RIVAL} | {RIVAL} | {RIVAL} | {PLAYER},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_dacb535b10f34d0d,28,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,3,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,744,LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex,"PROF. BIRCH: The POKéDEX is a high-tech\ntool that automatically makes a record\lof any POKéMON you meet or catch.\pMy kid, {RIVAL}, goes everywhere\nwith it.\pWhenever my kid catches a rare POKéMON\nand records its data in the POKéDEX,\lwhy, {RIVAL} looks for me while I'm out\ldoing fieldwork, and shows me.$","PROF. BIRCH: The POKéDEX is a high-tech
 tool that automatically makes a record
 of any POKéMON you meet or catch.
@@ -260,7 +260,7 @@ with it.
 Whenever my kid catches a rare POKéMON
 and records its data in the POKéDEX,
 why, {RIVAL} looks for me while I'm out
-doing fieldwork, and shows me.",ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของผม\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lผมที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ผมดู$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
+doing fieldwork, and shows me.",ศ.เบิร์ช: โปเกเด็กซ์เป็นอุปกรณ์\nไฮเทคที่บันทึกข้อมูลโปเกมอน\lทุกตัวที่พบหรือจับได้โดยอัตโนมัติ\p{RIVAL} ลูกของฉัน\nพกมันติดตัวไปทุกแห่ง\pพอจับโปเกมอนหายากและบันทึกข้อมูล\nลงโปเกเด็กซ์ได้ {RIVAL} ก็จะตามหา\lฉันที่กำลังสำรวจภาคสนาม\lแล้วเอาข้อมูลมาให้ฉันดู$,draft_review,\n | \l | \p | {RIVAL} | \n | \p | \n | \l | {RIVAL} | \l,{RIVAL} | {RIVAL},high,high,high,ok,review_long_line,LINEBREAK_ADJUSTED
 dlg_a1f8f8a1ea390b2a,29,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,8,pokedex,Pokédex handoff,Pokédex handoff,8,LittlerootTown_ProfessorBirchsLab,pokedex,LittlerootTown ProfessorBirchsLab,4,Professor Birch,LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex,data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc,741,LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex,{PLAYER} received the POKéDEX!$,{PLAYER} received the POKéDEX!,{PLAYER} ได้รับโปเกเด็กซ์!$,draft_review,{PLAYER},{PLAYER},high,high,high,ok,ok,
 dlg_44f775b1fbf29ce7,30,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,1,,LittlerootTown_EventScript_GoInsideWithMom,data/maps/LittlerootTown/scripts.inc,906,LittlerootTown_Text_OurNewHomeLetsGoInside,"MOM: {PLAYER}, we're here, honey!\pIt must be tiring riding with our things\nin the moving truck.\pWell, this is LITTLEROOT TOWN.\pHow do you like it?\nThis is our new home!\pIt has a quaint feel, but it seems to be\nan easy place to live, don't you think?\pAnd, you get your own room, {PLAYER}!\nLet's go inside.$","MOM: {PLAYER}, we're here, honey!
 [PAGE]
@@ -289,7 +289,7 @@ You look good together with POKéMON!
 Here, honey! If you're going out on an
 adventure, wear these RUNNING SHOES.
 [PAGE]
-They'll put a zip in your step!",แม่: {PLAYER}! {PLAYER}! ลูกไป\nแนะนำตัวกับ ศ.เบิร์ชแล้วหรือยัง?\pว้าย! โปเกมอนน่ารักจัง!\nได้มาจาก ศ.เบิร์ชสินะ ดีจริง ๆ!\pสมเป็นลูกของพ่อจริง ๆ\nลูกกับโปเกมอนดูเข้ากันดีนะ!\pนี่จ้ะ! ถ้าจะออกไปผจญภัย\nก็สวมรองเท้าวิ่งคู่นี้นะ\pแล้วลูกจะก้าวฉับไวขึ้น!$,draft_review,{PLAYER} | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+They'll put a zip in your step!",แม่: {PLAYER}! {PLAYER}! ลูกไป\nแนะนำตัวกับ ศ.เบิร์ชแล้วหรือยัง?\pว้าย! โปเกมอนน่ารักจัง!\nได้มาจาก ศ.เบิร์ชสินะ ดีจริง ๆ!\pสมเป็นลูกของพ่อจริง ๆ\nลูกกับโปเกมอนดูเข้ากันดีนะ!\pนี่จ้ะ! ถ้าจะออกไปผจญภัย\nก็สวมรองเท้าวิ่งคู่นี้นะ\pแล้วลูกจะวิ่งได้เร็วขึ้น!$,draft_review,{PLAYER} | {PLAYER} | \n | \p | \n | \p | \n | \p | \n | \p,{PLAYER} | {PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_51478fab2a0bb5f5,32,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,3,,LittlerootTown_EventScript_GiveRunningShoes,data/maps/LittlerootTown/scripts.inc,932,LittlerootTown_Text_SwitchShoesWithRunningShoes,{PLAYER} switched shoes with the\nRUNNING SHOES.$,"{PLAYER} switched shoes with the
 RUNNING SHOES.",{PLAYER} เปลี่ยนเป็น\nรองเท้าวิ่งแล้ว$,draft_review,{PLAYER} | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_4066e0935321b02a,33,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,4,,LittlerootTown_EventScript_GiveRunningShoes,data/maps/LittlerootTown/scripts.inc,936,LittlerootTown_Text_ExplainRunningShoes,"MOM: {PLAYER}, those shoes came with\ninstructions.\p“Press the B Button while wearing these\nRUNNING SHOES to run extra-fast!\p“Slip on these RUNNING SHOES and race\nin the great outdoors!”$","MOM: {PLAYER}, those shoes came with
@@ -299,7 +299,7 @@ instructions.
 RUNNING SHOES to run extra-fast!
 [PAGE]
 “Slip on these RUNNING SHOES and race
-in the great outdoors!”",แม่: {PLAYER} รองเท้าคู่นั้น\nมีคู่มือมาด้วยนะ\p“ขณะสวมรองเท้าวิ่ง ให้กดปุ่ม B\nเพื่อวิ่งด้วยความเร็วสูง!\p“สวมรองเท้าวิ่งแล้วออกไปโลดแล่น\nกลางแจ้งอันกว้างใหญ่!”$,draft_review,{PLAYER} | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
+in the great outdoors!”",แม่: {PLAYER} รองเท้าคู่นั้น\nมีคู่มือมาด้วยนะ\p“ขณะสวมรองเท้าวิ่ง ให้กดปุ่ม B\nเพื่อวิ่งด้วยความเร็วสูง!\p“สวมรองเท้าวิ่ง แล้วออกไปผจญภัย\nในโลกกว้างกันเลย!”$,draft_review,{PLAYER} | \n | \p | \n | \p | \n,{PLAYER},high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_c1b0de35fc067f84,34,03,pokedex,Rival and Pokédex,คู่แข่งและโปเกเด็กซ์,9,pokeballs,Poké Ball handoff,Poké Ball handoff,9,LittlerootTown,pokeballs,LittlerootTown,5,,LittlerootTown_EventScript_GiveRunningShoes,data/maps/LittlerootTown/scripts.inc,944,LittlerootTown_Text_ComeHomeIfAnythingHappens,"… … … … … … … …\n… … … … … … … …\pTo think that you have your very own\nPOKéMON now…\lYour father will be overjoyed.\p…But please be careful.\nIf anything happens, you can come home.\pGo on, go get them, honey!$","… … … … … … … …
 … … … … … … … …
 [PAGE]
@@ -310,7 +310,7 @@ Your father will be overjoyed.
 …But please be careful.
 If anything happens, you can come home.
 [PAGE]
-Go on, go get them, honey!",… … … … … … … …\n… … … … … … … …\pไม่นึกเลยว่าตอนนี้ลูกจะมี\nโปเกมอนเป็นของตัวเองแล้ว…\lพ่อของลูกต้องดีใจมากแน่ ๆ\p…แต่ระวังตัวด้วยนะ\nถ้ามีอะไรเกิดขึ้นก็กลับบ้านมาได้เสมอ\pเอาละ ไปให้เต็มที่เลยนะลูก!$,draft_review,\n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+Go on, go get them, honey!",… … … … … … … …\n… … … … … … … …\pไม่นึกเลยว่าตอนนี้ลูกจะมี\nโปเกมอนเป็นของตัวเองแล้ว…\lพ่อของลูกต้องดีใจมากแน่ ๆ\p…แต่ระวังตัวด้วยนะ\nถ้ามีอะไรเกิดขึ้นก็กลับบ้านมาได้เสมอ\pเอาละ ลุยให้เต็มที่เลยนะลูก!$,draft_review,\n | \p | \n | \l | \p | \n | \p,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_f7f989a1a6ff5a66,35,04,petalburg,Petalburg and Rustboro,เพทัลเบิร์กและรัสต์โบโร,10,petalburg_norman,Petalburg and Norman,Petalburg and Norman,10,PetalburgCity_Gym,norman,PetalburgCity Gym,1,,PetalburgCity_Gym_EventScript_Norman,data/maps/PetalburgCity_Gym/scripts.inc,1138,PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon,"DAD: Hm?\pWell, if it isn't {PLAYER}!\nSo you're all finished moving in?\pI'm surprised that you managed to\nget here by yourself.\pOh, I see.\nYou're with your POKéMON.\pHm… Then I guess you're going to\nbecome a TRAINER like me, {PLAYER}.\pThat's great news!\nI'll be looking forward to it!$","DAD: Hm?
 [PAGE]
 Well, if it isn't {PLAYER}!
@@ -510,7 +510,7 @@ dlg_55e2e299eaa32230,63,05,devon,Devon and Dewford,เดวอนและด�
 Out of the way!",หลบไป!\nอย่าขวางทาง!$,draft_review,\n,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_fc09693422d97c87,64,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,Devon Goods theft,13,Route116,devon_theft,Route116,2,,RustboroCity_EventScript_StolenGoodsScene,data/maps/RustboroCity/scripts.inc,1093,RustboroCity_Text_WaitDontTakeMyGoods,Wait! Pleeeaaase!\pDon't take my GOODS!$,"Wait! Pleeeaaase!
 [PAGE]
-Don't take my GOODS!",เดี๋ยวก่อน! ได้โปรดดดด!\pอย่าเอาสินค้าของฉันไป!$,draft_review,\p,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
+Don't take my GOODS!",เดี๋ยวก่อน! ได้โปรดดดด!\pอย่าเอาสินค้าของผมไป!$,draft_review,\p,,high,high,high,ok,ok,LINEBREAK_ADJUSTED
 dlg_3af0169168c5908b,65,05,devon,Devon and Dewford,เดวอนและดิวฟอร์ด,13,devon_theft,Devon Goods theft,Devon Goods theft,13,Route116,devon_theft,Route116,3,,RustboroCity_EventScript_EmployeeAskToGetGoods,data/maps/RustboroCity/scripts.inc,1097,RustboroCity_Text_HelpMeIWasRobbed,"Oh, it's you!\pYou're that fantastic TRAINER who\nhelped me in PETALBURG WOODS!\pHelp me! I was robbed by TEAM AQUA!\nI have to get the DEVON GOODS back!\pIf I don't…\nI'm going to be in serious trouble.$","Oh, it's you!
 [PAGE]
 You're that fantastic TRAINER who
@@ -816,7 +816,7 @@ dlg_1d20082a3ecc7ddc,103,06,slateport,Slateport and Mauville,ไคไนแล�
 training, too, haven't you?
 [PAGE]
 I think you deserve a reward!
-This is from me!",ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่าคุณควรได้รางวัล!\nนี่ ฉันให้!$,draft_review,{PLAYER} | {KUN} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
+This is from me!",ฮารุกะ: {PLAYER}{KUN} เองก็ขยัน\nฝึกมาตลอดสินะ?\pฉันว่านายควรได้รางวัล!\nนี่ ฉันให้!$,draft_review,{PLAYER} | {KUN} | \n | \p | \n,{PLAYER},high,high,high,ok,ok,
 dlg_871ba96348530430,104,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,3,May,Route110_EventScript_MayDefeated,data/maps/Route110/scripts.inc,773,Route110_Text_MayExplainItemfinder,"MAY: That's an ITEMFINDER.\pTry it out. If there is an item that's\nnot visible, it emits a sound.\pOkay, {PLAYER}{KUN}, let's meet again!\pI know it's a little silly coming from\nme, but I think you should train a lot\lharder for the next time.$","MAY: That's an ITEMFINDER.
 [PAGE]
 Try it out. If there is an item that's
@@ -826,7 +826,7 @@ Okay, {PLAYER}{KUN}, let's meet again!
 [PAGE]
 I know it's a little silly coming from
 me, but I think you should train a lot
-harder for the next time.",ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้ก็ดูแปลก ๆ นะ\nแต่คราวหน้าคุณควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$,draft_review,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l,{PLAYER},high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
+harder for the next time.",ฮารุกะ: นั่นคือเครื่องค้นหาไอเทม\pลองใช้ดูนะ ถ้ามีไอเทมที่\nมองไม่เห็น มันจะส่งเสียงออกมา\pเอาละ {PLAYER}{KUN} แล้วพบกันใหม่นะ!\pฉันพูดแบบนี้ก็ดูแปลก ๆ นะ\nแต่คราวหน้านายควรฝึกให้\lหนักกว่านี้อีกเยอะนะ$,draft_review,\p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l,{PLAYER},high,high,medium,review,review_long_line,LINEBREAK_ADJUSTED
 dlg_fd31a8d537ec357f,105,06,slateport,Slateport and Mauville,ไคไนและคินเซ็ตสึ,19,route110_rival,Route 110 rival,คู่แข่งบนถนนหมายเลข 110,19,Route110,route110,Route110,4,Brendan,Route110_EventScript_BrendanBattle,data/maps/Route110/scripts.inc,782,Route110_Text_BrendanLetsBattle,"BRENDAN: Hey, {PLAYER}.\nSo this is where you were.\lHow's it going?\pHave you been raising your POKéMON?\nI'll check for you.$","BRENDAN: Hey, {PLAYER}.
 So this is where you were.
 How's it going?
@@ -1174,7 +1174,7 @@ LITTLEROOT for a change.
 I bet your mom's worried about you,
 {PLAYER}{KUN}.
 [PAGE]
-Well, let's meet again somewhere!",ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพาเธอไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่ของเธอคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$,draft_review,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,high,ok,ok,
+Well, let's meet again somewhere!",ฮารุกะ: ถ้าใช้โซระโอะโทบุ โปเกมอน\nจะพานายไปยังเมืองที่เคยไปมาแล้ว\lได้ในพริบตา\pแต่ถ้าจะใช้โซระโอะโทบุ ต้องได้\nยิมแบดจ์จากเมืองฮิวะมากิมาก่อน\lเรื่องนี้สำคัญ อย่าลืมล่ะ\pลองใช้โซระโอะโทบุกลับบ้าน\nไปเยี่ยมเมืองมิโชโระบ้างสิ\pแม่นายคงเป็นห่วงแล้วนะ\n{PLAYER}{KUN}\pไว้พบกันใหม่ที่ไหนสักแห่งนะ!$,draft_review,\n | \l | \p | \n | \l | \p | \n | \p | \n | {PLAYER} | {KUN} | \p,{PLAYER},high,high,high,ok,ok,
 dlg_83a72594b4c34bcc,154,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,27,route119_rival,Route 119 rival,คู่แข่งบนเส้นทาง 119,27,Route119,route119,Route119,4,Brendan,Route119_EventScript_BattleBrendan,data/maps/Route119/scripts.inc,509,Route119_Text_BrendanIntro,"BRENDAN: {PLAYER}! So this is where\nyou've been looking for POKéMON?\pLet me see how good you got.\nI'll test you!\pNow!\nIt's a battle, so battle!$","BRENDAN: {PLAYER}! So this is where
 you've been looking for POKéMON?
 [PAGE]
@@ -1212,7 +1212,7 @@ I sure seem to run into you often.
 Are you off to FORTREE GYM next?
 [PAGE]
 I expect that you'll do well at the GYM.
-Well, I'll be seeing you!",เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงก่ำด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,medium,ok,review_long_line,
+Well, I'll be seeing you!",เอนิชิดะ: ฮ่า ๆ ๆ!\nทำได้ดีมาก {PLAYER}{KUN}!\pเมื่อกี้ฉันเดินผ่านเทรนเนอร์\nที่ขี่จักรยานอยู่คนหนึ่ง\pเธอเพิ่งชนะเทรนเนอร์คนนั้น\nมาใช่ไหม? ดูออกทันทีเลย\pเด็กคนนั้นดูหัวเสียมาก\nหน้าแดงด้วยความโกรธ\pดูเหมือนฉันจะเจอเธอบ่อยนะ\nต่อไปจะไปฮิวะมากิยิมหรือ?\pฉันมั่นใจว่าเธอจะทำได้ดีที่ยิม\nแล้วพบกันใหม่!$,draft_review,\n | {PLAYER} | {KUN} | \p | \n | \p | \n | \p | \n | \p | \n | \p | \n,{PLAYER},high,high,medium,ok,review_long_line,
 dlg_90522eab9aeeb6c1,158,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,1,Winona,FortreeCity_Gym_EventScript_Winona,data/maps/FortreeCity_Gym/scripts.inc,273,FortreeCity_Gym_Text_WinonaPostBattle,"Though I fell to you, I will remain\ndevoted to BIRD POKéMON.$","Though I fell to you, I will remain
 devoted to BIRD POKéMON.",แม้ฉันจะแพ้เธอ แต่ฉันจะยังคง\nทุ่มเทให้โปเกมอนนกต่อไป$,draft_review,\n,,high,high,high,ok,ok,
 dlg_043520f7cee45426,159,08,badges,Gyms and Weather Institute,ยิมและสถาบันวิจัยสภาพอากาศ,28,fortree,Fortree,ฮิวาดา,28,FortreeCity_Gym,fortree,FortreeCity Gym,2,,FortreeCity_Gym_EventScript_WinonaDefeated,data/maps/FortreeCity_Gym/scripts.inc,250,FortreeCity_Gym_Text_ReceivedFeatherBadge,{PLAYER} received the FEATHER BADGE\nfrom WINONA.$,"{PLAYER} received the FEATHER BADGE
@@ -1676,7 +1676,7 @@ involved in this crisis.
 Well, then, there's someone that
 I'd like you to meet.
 [PAGE]
-Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับวิกฤตนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Come with me, please.",ไดโกะ: โปเกมอนที่กำลังสู้กัน…\nกราดอน… และไคโอกา…\pโปเกมอนยุคบรรพกาลทั้งสอง\nตื่นจากการหลับใหลอันยาวนาน…\pตอนนี้พวกมันกำลังปะทะกัน\nด้วยพลังที่ควบคุมไม่ได้…\p…{PLAYER}{KUN}\pการที่เธอมาถึงที่นี่ หมายความว่า\nพร้อมจะเข้ามาพัวพัน\lกับเรื่องนี้แล้วสินะ\pถ้าอย่างนั้น มีคนหนึ่ง\nที่ฉันอยากให้เธอพบ\pตามฉันมา$,draft_review,\n | \p | \n | \p | \n | \p | {PLAYER} | {KUN} | \p | \n | \l | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_585a3ab7c24ab2ed,227,11,crisis,Ancient Pokémon Crisis,วิกฤตโปเกมอนโบราณ,36,crisis,Groudon and Kyogre crisis,วิกฤตกราดอนและไคโอกา,36,SootopolisCity,crisis,SootopolisCity,6,,SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin,data/maps/SootopolisCity/scripts.inc,1625,SootopolisCity_Text_DoesThisMakeYourFearPokemon,"STEVEN: Listen, {PLAYER}{KUN}.\pDoes seeing GROUDON and KYOGRE make\nyou think POKéMON are to be feared?\pBut that's not true.\nPOKéMON are really more…\p…Why am I asking you this?\nYou already know.$","STEVEN: Listen, {PLAYER}{KUN}.
 [PAGE]
 Does seeing GROUDON and KYOGRE make
@@ -1884,11 +1884,11 @@ Now!
 Who can most elegantly dance with
 their POKéMON in HOENN?
 [PAGE]
-Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติวิกฤต\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติวิกฤต\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
+Show me right here and now!",มิคุริ: ยินดีต้อนรับ {PLAYER}{KUN}\pเหตุการณ์ที่เมืองรูเนะ…\nเธอทำได้ยอดเยี่ยมมาก ยุติเหตุร้าย\lนั้นได้ด้วยตัวคนเดียว\pอ๊ะ!\pจะบอกว่าเธอยุติเหตุร้าย\nเพียงลำพังคงไม่ยุติธรรม\pเธอก้าวผ่านสถานการณ์ยากลำบาก\nด้วยการรวมใจเป็นหนึ่งกับโปเกมอน\pพวกเราเทรนเนอร์เลี้ยงดูโปเกมอน\nด้วยไอเทม และสอนเทคนิคใหม่ ๆ\lเพื่อใช้ต่อสู้\pแต่ตัวเราเองก็ได้เรียนรู้\nหลายสิ่งจากโปเกมอนเช่นกัน\pและที่นี่คือสถานที่ทดสอบความสำเร็จ\nของเธอ เทียบกับผลงาน\lของเทรนเนอร์คนอื่นที่มาถึงจุดนี้\pเอาละ!\pใครจะร่ายรำเคียงคู่โปเกมอน\nได้สง่างามที่สุดในโฮเอ็น?\pแสดงให้ฉันเห็นที่นี่เดี๋ยวนี้!$,draft_review,{PLAYER} | {KUN} | \p | \n | \l | \p | \p | \n | \p | \n | \p | \n | \l | \p | \n | \p | \n | \l | \p | \p | \n | \p,{PLAYER},high,high,high,ok,ok,
 dlg_025c0ed4eb72f302,248,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,2,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,268,EverGrandeCity_ChampionsRoom_Text_MayAdvice,MAY: {PLAYER}{KUN}!\pHere's some advice before you challenge\nthe CHAMPION…$,"MAY: {PLAYER}{KUN}!
 [PAGE]
 Here's some advice before you challenge
-the CHAMPION…",ฮารุกะ: {PLAYER}{KUN}!\pฉันมีคำแนะนำก่อนคุณจะท้าทาย\nแชมเปี้ยน…$,draft_review,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,high,ok,ok,
+the CHAMPION…",ฮารุกะ: {PLAYER}{KUN}!\pฉันมีคำแนะนำก่อนนายจะท้าทาย\nแชมเปี้ยน…$,draft_review,{PLAYER} | {KUN} | \p | \n,{PLAYER},high,high,high,ok,ok,
 dlg_7998d023049f109f,249,12,league,Final Badge and League,เข็มกลัดสุดท้ายและลีก,43,champion,Champion,แชมเปี้ยน,43,EverGrandeCity_ChampionsRoom,champion,EverGrandeCity ChampionsRoom,3,May,EverGrandeCity_ChampionsRoom_EventScript_MayAdvice,data/maps/EverGrandeCity_ChampionsRoom/scripts.inc,273,EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver,"MAY: Huh?\nWhat, what, what?\p{PLAYER}{KUN}…\nCould it be that…\lIt's already over?$","MAY: Huh?
 What, what, what?
 [PAGE]

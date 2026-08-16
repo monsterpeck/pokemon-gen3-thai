@@ -513,6 +513,10 @@ static const u8 *const sFemalePresetNames[] = {
 // If they aren't, the smaller of the two sizes will be used and any extra names will be ignored.
 #define NUM_PRESET_NAMES min(ARRAY_COUNT(sMalePresetNames), ARRAY_COUNT(sFemalePresetNames))
 
+#ifdef THAI_NAMING_PRODUCTION
+#include "data/thai_default_player_names.inc"
+#endif
+
 enum
 {
     HAS_NO_SAVED_GAME,  //NEW GAME, OPTION
@@ -2144,6 +2148,32 @@ static s8 NewGameBirchSpeech_ProcessGenderMenuInput(void)
 
 static void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    const u8 *thaiName;
+    const u8 *legacyName;
+
+    if (gSaveBlock2Ptr->playerGender == MALE)
+    {
+        thaiName = sMalePresetNamesThai[nameId];
+        legacyName = sMalePresetNamesLegacy[nameId];
+    }
+    else
+    {
+        thaiName = sFemalePresetNamesThai[nameId];
+        legacyName = sFemalePresetNamesLegacy[nameId];
+    }
+
+    /*
+     * Never copy an FC19-shaped Thai preset into playerName.
+     * playerName is the vanilla fixed-length legacy buffer.
+     *
+     * Keep a safe English fallback there and store the actual
+     * Thai preset in the compact Thai sidecar.
+     */
+    StringCopy(gSaveBlock2Ptr->playerName, legacyName);
+    StringCopy(gSaveBlock2Ptr->thaiPlayerName, thaiName);
+    SetPlayerNameThai(TRUE);
+#else
     const u8 *name;
     u8 i;
 
@@ -2151,12 +2181,11 @@ static void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
         name = sMalePresetNames[nameId];
     else
         name = sFemalePresetNames[nameId];
+
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
+
     gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
-#ifdef THAI_NAMING_PRODUCTION
-    memset(gSaveBlock2Ptr->thaiPlayerName, EOS, sizeof(gSaveBlock2Ptr->thaiPlayerName));
-    SetPlayerNameThai(FALSE);
 #endif
 }
 

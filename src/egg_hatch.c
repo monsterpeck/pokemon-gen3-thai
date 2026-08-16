@@ -31,6 +31,7 @@
 #include "field_weather.h"
 #include "international_string_util.h"
 #include "naming_screen.h"
+#include "thai_name.h"
 #include "pokemon_storage_system.h"
 #include "field_screen_effect.h"
 #include "trade.h"
@@ -577,6 +578,10 @@ static void CB2_LoadEggHatch(void)
 static void EggHatchSetMonNickname(void)
 {
     SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar3);
+#ifdef THAI_NAMING_PRODUCTION
+    if (DidThaiNamingScreenCommit())
+        SetBoxMonNicknameThai(&gPlayerParty[gSpecialVar_0x8004].box, TRUE);
+#endif
     FreeMonSpritesGfx();
     Free(sEggHatchData);
     SetMainCallback2(CB2_ReturnToField);
@@ -692,7 +697,12 @@ static void CB2_EggHatch(void)
             species = GetMonData(&gPlayerParty[sEggHatchData->eggPartyId], MON_DATA_SPECIES);
             gender = GetMonGender(&gPlayerParty[sEggHatchData->eggPartyId]);
             personality = GetMonData(&gPlayerParty[sEggHatchData->eggPartyId], MON_DATA_PERSONALITY, 0);
+#ifdef THAI_NAMING_PRODUCTION
+            DoThaiNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar3, FALSE,
+                               species, gender, personality, EggHatchSetMonNickname);
+#else
             DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar3, species, gender, personality, EggHatchSetMonNickname);
+#endif
             break;
         case 1: // No
         case MENU_B_PRESSED:

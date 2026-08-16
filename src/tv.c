@@ -27,6 +27,7 @@
 #include "text.h"
 #include "script_menu.h"
 #include "naming_screen.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "region_map.h"
 #include "decoration.h"
@@ -3295,12 +3296,24 @@ void ChangePokemonNickname(void)
 
     GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar3);
     GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar2);
+#ifdef THAI_NAMING_PRODUCTION
+    DoThaiNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, TRUE,
+                       GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES, NULL),
+                       GetMonGender(&gPlayerParty[gSpecialVar_0x8004]),
+                       GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_PERSONALITY, NULL),
+                       ChangePokemonNickname_CB);
+#else
     DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES, NULL), GetMonGender(&gPlayerParty[gSpecialVar_0x8004]), GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_PERSONALITY, NULL), ChangePokemonNickname_CB);
+#endif
 }
 
 void ChangePokemonNickname_CB(void)
 {
     SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar2);
+#ifdef THAI_NAMING_PRODUCTION
+    if (DidThaiNamingScreenCommit())
+        SetBoxMonNicknameThai(&gPlayerParty[gSpecialVar_0x8004].box, TRUE);
+#endif
     CB2_ReturnToFieldContinueScriptPlayMapMusic();
 }
 
@@ -3311,12 +3324,28 @@ void ChangeBoxPokemonNickname(void)
     boxMon = GetBoxedMonPtr(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos);
     GetBoxMonData(boxMon, MON_DATA_NICKNAME, gStringVar3);
     GetBoxMonData(boxMon, MON_DATA_NICKNAME, gStringVar2);
+#ifdef THAI_NAMING_PRODUCTION
+    DoThaiNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, TRUE,
+                       GetBoxMonData(boxMon, MON_DATA_SPECIES, NULL),
+                       GetBoxMonGender(boxMon),
+                       GetBoxMonData(boxMon, MON_DATA_PERSONALITY, NULL),
+                       ChangeBoxPokemonNickname_CB);
+#else
     DoNamingScreen(NAMING_SCREEN_NICKNAME, gStringVar2, GetBoxMonData(boxMon, MON_DATA_SPECIES, NULL), GetBoxMonGender(boxMon), GetBoxMonData(boxMon, MON_DATA_PERSONALITY, NULL), ChangeBoxPokemonNickname_CB);
+#endif
 }
 
 static void ChangeBoxPokemonNickname_CB(void)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    struct BoxPokemon *boxMon = GetBoxedMonPtr(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos);
+#endif
+
     SetBoxMonNickAt(gSpecialVar_MonBoxId, gSpecialVar_MonBoxPos, gStringVar2);
+#ifdef THAI_NAMING_PRODUCTION
+    if (DidThaiNamingScreenCommit())
+        SetBoxMonNicknameThai(boxMon, TRUE);
+#endif
     CB2_ReturnToFieldContinueScriptPlayMapMusic();
 }
 
