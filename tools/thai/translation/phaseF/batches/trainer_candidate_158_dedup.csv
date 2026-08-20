@@ -1,0 +1,648 @@
+﻿id,category,subcategory,story_order,map_name,location_name,speaker,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,duplicate_group,notes,scope_group,scope_subgroup,policy,scope_status,canonical_tracker,reason,scope_decision,dedup_decision,dedup_evidence
+dlg_c453eaf56e7fad90,trainer,trainer_dialogue,,,,,data/text/tv.inc,45,gTVBravoTrainerText00,"Yeah!\nIt's BRAVO TRAINER time!\pToday, we're going to profile a POKéMON\nbelonging to {STR_VAR_1}.\pNow, this POKéMON boasts a {STR_VAR_3}\nRank in the {STR_VAR_2} Category.$","Yeah!
+It's BRAVO TRAINER time!
+[PAGE]
+Today, we're going to profile a POKéMON
+belonging to {STR_VAR_1}.
+[PAGE]
+Now, this POKéMON boasts a {STR_VAR_3}
+Rank in the {STR_VAR_2} Category.",,untranslated,\n | \p | \n | {STR_VAR_1} | \p | {STR_VAR_3} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_3} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_02bd007e6db34716,trainer,trainer_dialogue,,,,,data/text/tv.inc,53,gTVBravoTrainerText01,Introducing {STR_VAR_2} the\n{STR_VAR_1}!\pThe nickname {STR_VAR_2}…\pEven the nickname exudes an air that\nproclaims “{STR_VAR_3}”!$,"Introducing {STR_VAR_2} the
+{STR_VAR_1}!
+[PAGE]
+The nickname {STR_VAR_2}…
+[PAGE]
+Even the nickname exudes an air that
+proclaims “{STR_VAR_3}”!",,untranslated,{STR_VAR_2} | \n | {STR_VAR_1} | \p | {STR_VAR_2} | \p | \n | {STR_VAR_3},{STR_VAR_2} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_123e2396c1e69054,trainer,trainer_dialogue,,,,,data/text/tv.inc,60,gTVBravoTrainerText02,"Anyway, when the TRAINER {STR_VAR_1}\nentered the POKéMON in a CONTEST,\lwe managed to get a few impassioned\lquotes about the trusty partner.$","Anyway, when the TRAINER {STR_VAR_1}
+entered the POKéMON in a CONTEST,
+we managed to get a few impassioned
+quotes about the trusty partner.",,untranslated,{STR_VAR_1} | \n | \l | \l,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_7385dbb2ea824a15,trainer,trainer_dialogue,,,,,data/text/tv.inc,66,gTVBravoTrainerText03,"Asked about the CONTEST afterwards,\n{STR_VAR_1} happily replied with a huge\lgrin, “{STR_VAR_2}!”\pWell, sure, {STR_VAR_1}'s POKéMON came in\nnumber {STR_VAR_3} in the CONTEST.\pThat line perfectly suits {STR_VAR_1}\nright now, I'd say!$","Asked about the CONTEST afterwards,
+{STR_VAR_1} happily replied with a huge
+grin, “{STR_VAR_2}!”
+[PAGE]
+Well, sure, {STR_VAR_1}'s POKéMON came in
+number {STR_VAR_3} in the CONTEST.
+[PAGE]
+That line perfectly suits {STR_VAR_1}
+right now, I'd say!",,untranslated,\n | {STR_VAR_1} | \l | {STR_VAR_2} | \p | {STR_VAR_1} | \n | {STR_VAR_3} | \p | {STR_VAR_1} | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_3} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_14d8894f2d926058,trainer,trainer_dialogue,,,,,data/text/tv.inc,75,gTVBravoTrainerText04,"Asked about the CONTEST afterwards,\n{STR_VAR_1} replied with a tinge of\lbitterness, “{STR_VAR_2}.”\pWell, sure, {STR_VAR_1}'s POKéMON came in\nnumber {STR_VAR_3} in the CONTEST.\p{STR_VAR_1}'s disappointment comes across\nloud and clear, I'd say!$","Asked about the CONTEST afterwards,
+{STR_VAR_1} replied with a tinge of
+bitterness, “{STR_VAR_2}.”
+[PAGE]
+Well, sure, {STR_VAR_1}'s POKéMON came in
+number {STR_VAR_3} in the CONTEST.
+[PAGE]
+{STR_VAR_1}'s disappointment comes across
+loud and clear, I'd say!",,untranslated,\n | {STR_VAR_1} | \l | {STR_VAR_2} | \p | {STR_VAR_1} | \n | {STR_VAR_3} | \p | {STR_VAR_1} | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_3} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_64c19a24743ee7e8,trainer,trainer_dialogue,,,,,data/text/tv.inc,84,gTVBravoTrainerText05,"Wouldn't you also like to know what\n{STR_VAR_1} imagines {STR_VAR_2} to be?\pYou bet we did!\nSo we asked, of course!\pThe answer is all perfectly condensed:\n“{STR_VAR_3}!”\pThat's what the concept of {STR_VAR_2}\nrepresents to {STR_VAR_1}!$","Wouldn't you also like to know what
+{STR_VAR_1} imagines {STR_VAR_2} to be?
+[PAGE]
+You bet we did!
+So we asked, of course!
+[PAGE]
+The answer is all perfectly condensed:
+“{STR_VAR_3}!”
+[PAGE]
+That's what the concept of {STR_VAR_2}
+represents to {STR_VAR_1}!",,untranslated,\n | {STR_VAR_1} | {STR_VAR_2} | \p | \n | \p | \n | {STR_VAR_3} | \p | {STR_VAR_2} | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_60cecf33b2242796,trainer,trainer_dialogue,,,,,data/text/tv.inc,94,gTVBravoTrainerText06,The last move {STR_VAR_2} used by\nthe {STR_VAR_1} is entirely about\l“{STR_VAR_3}”!$,"The last move {STR_VAR_2} used by
+the {STR_VAR_1} is entirely about
+“{STR_VAR_3}”!",,untranslated,{STR_VAR_2} | \n | {STR_VAR_1} | \l | {STR_VAR_3},{STR_VAR_2} | {STR_VAR_1} | {STR_VAR_3},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_962b219112817676,trainer,trainer_dialogue,,,,,data/text/tv.inc,99,gTVBravoTrainerText07,"Bravo, {STR_VAR_1}!\nBravo, {STR_VAR_2}!\pI hope we can count on seeing\n{STR_VAR_1} scale even greater heights!\pThat's all the time we have!\nUntil next time, see you!$","Bravo, {STR_VAR_1}!
+Bravo, {STR_VAR_2}!
+[PAGE]
+I hope we can count on seeing
+{STR_VAR_1} scale even greater heights!
+[PAGE]
+That's all the time we have!
+Until next time, see you!",,untranslated,{STR_VAR_1} | \n | {STR_VAR_2} | \p | \n | {STR_VAR_1} | \p | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1},dup_00122,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_62c36f36a9d58c3d,trainer,trainer_dialogue,,,,,data/text/tv.inc,107,gTVBravoTrainerText08,Introducing the TRAINER's {STR_VAR_1}!$,Introducing the TRAINER's {STR_VAR_1}!,,untranslated,{STR_VAR_1},{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_463f813c9d4e56fc,trainer,trainer_dialogue,,,,,data/text/tv.inc,168,BravoTrainerBattleTower_Text_Intro,"Yeah!\nIt's BRAVO TRAINER time!\pToday, we're going to profile {STR_VAR_1},\nwho took the BATTLE TOWER challenge!\pFor the challenge, {STR_VAR_1} entered\none wicked {STR_VAR_2}.$","Yeah!
+It's BRAVO TRAINER time!
+[PAGE]
+Today, we're going to profile {STR_VAR_1},
+who took the BATTLE TOWER challenge!
+[PAGE]
+For the challenge, {STR_VAR_1} entered
+one wicked {STR_VAR_2}.",,untranslated,\n | \p | {STR_VAR_1} | \n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_77f8bf5ab57b7cf8,trainer,trainer_dialogue,,,,,data/text/tv.inc,176,BravoTrainerBattleTower_Text_NewRecord,"The pair set a new record of {STR_VAR_2} wins\nin a row in {STR_VAR_1} competition!\lBravo, TRAINER!$","The pair set a new record of {STR_VAR_2} wins
+in a row in {STR_VAR_1} competition!
+Bravo, TRAINER!",,untranslated,{STR_VAR_2} | \n | {STR_VAR_1} | \l,{STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_989e5d52caa43931,trainer,trainer_dialogue,,,,,data/text/tv.inc,181,BravoTrainerBattleTower_Text_Lost,"The twosome finally succumbed to\n{STR_VAR_1} in match number {STR_VAR_2}.\lNice try, TRAINER!\pBut, hey, it's just bad luck to run into\n{STR_VAR_1} so early in the challenge.\pWe asked the TRAINER for impressions\non the match with {STR_VAR_1}.$","The twosome finally succumbed to
+{STR_VAR_1} in match number {STR_VAR_2}.
+Nice try, TRAINER!
+[PAGE]
+But, hey, it's just bad luck to run into
+{STR_VAR_1} so early in the challenge.
+[PAGE]
+We asked the TRAINER for impressions
+on the match with {STR_VAR_1}.",,untranslated,\n | {STR_VAR_1} | {STR_VAR_2} | \l | \p | \n | {STR_VAR_1} | \p | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_51d9c70642983a96,trainer,trainer_dialogue,,,,,data/text/tv.inc,190,BravoTrainerBattleTower_Text_Won,"The twosome won it all by defeating\n{STR_VAR_1}'s {STR_VAR_2} thoroughly.\lBravo, TRAINER!\pKnocking off even {STR_VAR_1}…\nIt defies belief! Simply astounding!\pWe asked the TRAINER for impressions\non the moment of glory.$","The twosome won it all by defeating
+{STR_VAR_1}'s {STR_VAR_2} thoroughly.
+Bravo, TRAINER!
+[PAGE]
+Knocking off even {STR_VAR_1}…
+It defies belief! Simply astounding!
+[PAGE]
+We asked the TRAINER for impressions
+on the moment of glory.",,untranslated,\n | {STR_VAR_1} | {STR_VAR_2} | \l | \p | {STR_VAR_1} | \n | \p | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_ebfd2c372b342dc1,trainer,trainer_dialogue,,,,,data/text/tv.inc,199,BravoTrainerBattleTower_Text_LostFinal,"After a string of wins, the pair finally\nsuccumbed to {STR_VAR_1}'s {STR_VAR_2},\ltheir final hurdle.\pNice try, TRAINER!\pStill, you have to give credit.\nYou don't see many famous combinations\llike {STR_VAR_1} and {STR_VAR_2}.\pWe asked the TRAINER for impressions\non battling the celebrity pair.$","After a string of wins, the pair finally
+succumbed to {STR_VAR_1}'s {STR_VAR_2},
+their final hurdle.
+[PAGE]
+Nice try, TRAINER!
+[PAGE]
+Still, you have to give credit.
+You don't see many famous combinations
+like {STR_VAR_1} and {STR_VAR_2}.
+[PAGE]
+We asked the TRAINER for impressions
+on battling the celebrity pair.",,untranslated,\n | {STR_VAR_1} | {STR_VAR_2} | \l | \p | \p | \n | \l | {STR_VAR_1} | {STR_VAR_2} | \p | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_af5d11a1408ec3ff,trainer,trainer_dialogue,,,,,data/text/tv.inc,210,BravoTrainerBattleTower_Text_Satisfied,"This is what the TRAINER had to say:\n“I'm satisfied!”\pNow isn't that a refreshing reply?\nBravo, TRAINER!\pIsn't it out-and-out awesome to be\nable to battle to full satisfaction?\pI found out exactly how satisfied\nwhen I heard the TRAINER say this:$","This is what the TRAINER had to say:
+“I'm satisfied!”
+[PAGE]
+Now isn't that a refreshing reply?
+Bravo, TRAINER!
+[PAGE]
+Isn't it out-and-out awesome to be
+able to battle to full satisfaction?
+[PAGE]
+I found out exactly how satisfied
+when I heard the TRAINER say this:",,untranslated,\n | \p | \n | \p | \n | \p | \n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1fb8d647341578ce,trainer,trainer_dialogue,,,,,data/text/tv.inc,220,BravoTrainerBattleTower_Text_Unsatisfied,"This is what the TRAINER had to say:\n“I'm not satisfied…”\pOur TRAINER was obviously a little down\nwhen that was uttered.\pStill, it's not easy to be able to battle\nwith complete satisfaction, am I right?\pAnyway, I found out how dissatisfied\nour TRAINER was when I heard this:$","This is what the TRAINER had to say:
+“I'm not satisfied…”
+[PAGE]
+Our TRAINER was obviously a little down
+when that was uttered.
+[PAGE]
+Still, it's not easy to be able to battle
+with complete satisfaction, am I right?
+[PAGE]
+Anyway, I found out how dissatisfied
+our TRAINER was when I heard this:",,untranslated,\n | \p | \n | \p | \n | \p | \n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_904dbd9dfbb859ad,trainer,trainer_dialogue,,,,,data/text/tv.inc,230,BravoTrainerBattleTower_Text_None1,None$,None,,untranslated,,,dup_00529,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_26a7450089830455,trainer,trainer_dialogue,,,,,data/text/tv.inc,233,BravoTrainerBattleTower_Text_None2,None$,None,,untranslated,,,dup_00529,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0e96123c99612f89,trainer,trainer_dialogue,,,,,data/text/tv.inc,236,BravoTrainerBattleTower_Text_None3,None$,None,,untranslated,,,dup_00529,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d5e731fb1acf4f35,trainer,trainer_dialogue,,,,,data/text/tv.inc,239,BravoTrainerBattleTower_Text_None4,None$,None,,untranslated,,,dup_00529,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_21db962aa7c77c45,trainer,trainer_dialogue,,,,,data/text/tv.inc,242,BravoTrainerBattleTower_Text_Response,“{STR_VAR_1}.”$,“{STR_VAR_1}.”,,untranslated,{STR_VAR_1},{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_5d95e2c619c0e9a4,trainer,trainer_dialogue,,,,,data/text/tv.inc,245,BravoTrainerBattleTower_Text_ResponseSatisfied,"“{STR_VAR_1}.”\nNow isn't that great?\pIt really expresses {STR_VAR_2}'s joy,\nI'd say.\pThat battle with {STR_VAR_3} at the\nend… It really was what you'd call\l“{STR_VAR_1}”!$","“{STR_VAR_1}.”
+Now isn't that great?
+[PAGE]
+It really expresses {STR_VAR_2}'s joy,
+I'd say.
+[PAGE]
+That battle with {STR_VAR_3} at the
+end… It really was what you'd call
+“{STR_VAR_1}”!",,untranslated,{STR_VAR_1} | \n | \p | {STR_VAR_2} | \n | \p | {STR_VAR_3} | \n | \l | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_4ea03e19d11948c3,trainer,trainer_dialogue,,,,,data/text/tv.inc,254,BravoTrainerBattleTower_Text_ResponseUnsatisfied,"“{STR_VAR_1}.”\nNow isn't that fitting?\pThat battle with {STR_VAR_3} at the\nend… You can't describe it as anything\lelse but “{STR_VAR_1}”!\p{STR_VAR_2}'s disappointment comes across\nloud and clear, I'd say!$","“{STR_VAR_1}.”
+Now isn't that fitting?
+[PAGE]
+That battle with {STR_VAR_3} at the
+end… You can't describe it as anything
+else but “{STR_VAR_1}”!
+[PAGE]
+{STR_VAR_2}'s disappointment comes across
+loud and clear, I'd say!",,untranslated,{STR_VAR_1} | \n | \p | {STR_VAR_3} | \n | \l | {STR_VAR_1} | \p | {STR_VAR_2} | \n,{STR_VAR_1} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c3dbb74753db7847,trainer,trainer_dialogue,,,,,data/text/tv.inc,263,BravoTrainerBattleTower_Text_Outro,"Bravo, {STR_VAR_1}!\nBravo, {STR_VAR_2}!\pI hope we can count on seeing\n{STR_VAR_1} scale even greater heights!\pThat's all the time we have!\nUntil next time, see you!$","Bravo, {STR_VAR_1}!
+Bravo, {STR_VAR_2}!
+[PAGE]
+I hope we can count on seeing
+{STR_VAR_1} scale even greater heights!
+[PAGE]
+That's all the time we have!
+Until next time, see you!",,untranslated,{STR_VAR_1} | \n | {STR_VAR_2} | \p | \n | {STR_VAR_1} | \p | \n,{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1},dup_00122,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f42b436f0c3972cd,trainer,trainer_dialogue,,,,,data/text/tv.inc,614,LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer,"Hi, there!\pI'm a big fan of {STR_VAR_1}.\nWhat's your opinion of {STR_VAR_1}?$","Hi, there!
+[PAGE]
+I'm a big fan of {STR_VAR_1}.
+What's your opinion of {STR_VAR_1}?",,untranslated,\p | {STR_VAR_1} | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_bab9dd42841da34d,trainer,trainer_dialogue,,,,,data/text/tv.inc,619,LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink,"I see, I see. That's what you think\nabout the TRAINER.$","I see, I see. That's what you think
+about the TRAINER.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_ec06afc9d8b34dac,trainer,trainer_dialogue,,,,,data/text/tv.inc,623,LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer,Have you completely forgotten\nabout {STR_VAR_1}?$,"Have you completely forgotten
+about {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},dup_00310,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_8b3cc848bc4468d6,trainer,trainer_dialogue,,,,,data/text/tv.inc,627,LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2,I'm a big fan of {STR_VAR_1}.\nWhat's your opinion of {STR_VAR_1}?$,"I'm a big fan of {STR_VAR_1}.
+What's your opinion of {STR_VAR_1}?",,untranslated,{STR_VAR_1} | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f5efb5edf679e18a,trainer,trainer_dialogue,,,,,data/text/tv.inc,631,LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer,How strong would you rate {STR_VAR_1}\non a scale of one hundred?$,"How strong would you rate {STR_VAR_1}
+on a scale of one hundred?",,untranslated,{STR_VAR_1} | \n,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_7d592914283114a3,trainer,trainer_dialogue,,,,,data/text/tv.inc,635,LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2,Have you completely forgotten\nabout {STR_VAR_1}?$,"Have you completely forgotten
+about {STR_VAR_1}?",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},dup_00310,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_535117534ab773f3,trainer,trainer_dialogue,,,,,data/text/tv.inc,639,LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer,"Oh, I see!\nYou should meet {STR_VAR_1} sometime.\lI'm sure you'll become a fan, too!$","Oh, I see!
+You should meet {STR_VAR_1} sometime.
+I'm sure you'll become a fan, too!",,untranslated,\n | {STR_VAR_1} | \l,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a2ec60f6d006b16c,trainer,trainer_dialogue,,,,,data/text/tv.inc,644,LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo,"I see, I see.\pThank you!\nThat's very useful to know.\pI'll share this information with other\n{STR_VAR_1} fans and discuss it.$","I see, I see.
+[PAGE]
+Thank you!
+That's very useful to know.
+[PAGE]
+I'll share this information with other
+{STR_VAR_1} fans and discuss it.",,untranslated,\p | \n | \p | \n | {STR_VAR_1},{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f5bf3e48275e5667,trainer,trainer_dialogue,,,,,data/text/tv.inc,651,LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial,There's going to be a TV special on\n{STR_VAR_1} very soon.\pI hope you catch it!$,"There's going to be a TV special on
+{STR_VAR_1} very soon.
+[PAGE]
+I hope you catch it!",,untranslated,\n | {STR_VAR_1} | \p,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_54065c45bb1fb4ee,trainer,trainer_dialogue,,,,,data/text/tv.inc,656,gTVTrainerFanClubSpecialText00,"TRAINER FAN CLUB\n{STR_VAR_1} SPECIAL!\pThis is a special presentation for\nthe fans of {STR_VAR_1} all over HOENN!\pToday, we ask the question, “What do\npeople think of {STR_VAR_1}?”\pWe posed the question to {STR_VAR_2}\nas the TRAINER representative.\pWe asked, “In one word, how would\nyou describe {STR_VAR_1}?”\pThe reply: “{STR_VAR_3}.”\pKudos to {STR_VAR_2}!\nWhat a perceptive opinion!\p“{STR_VAR_3} {STR_VAR_1}.”\nIt has such a nice ring to it!\p{STR_VAR_2} also scored {STR_VAR_1}'s\nstrength from 0 to 100.$","TRAINER FAN CLUB
+{STR_VAR_1} SPECIAL!
+[PAGE]
+This is a special presentation for
+the fans of {STR_VAR_1} all over HOENN!
+[PAGE]
+Today, we ask the question, “What do
+people think of {STR_VAR_1}?”
+[PAGE]
+We posed the question to {STR_VAR_2}
+as the TRAINER representative.
+[PAGE]
+We asked, “In one word, how would
+you describe {STR_VAR_1}?”
+[PAGE]
+The reply: “{STR_VAR_3}.”
+[PAGE]
+Kudos to {STR_VAR_2}!
+What a perceptive opinion!
+[PAGE]
+“{STR_VAR_3} {STR_VAR_1}.”
+It has such a nice ring to it!
+[PAGE]
+{STR_VAR_2} also scored {STR_VAR_1}'s
+strength from 0 to 100.",,untranslated,\n | {STR_VAR_1} | \p | \n | {STR_VAR_1} | \p | \n | {STR_VAR_1} | \p | {STR_VAR_2} | \n | \p | \n | {STR_VAR_1} | \p | {STR_VAR_3} | \p | {STR_VAR_2} | \n | \p | {STR_VAR_3} | {STR_VAR_1} | \n | \p | {STR_VAR_2} | {STR_VAR_1} | \n,{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_3} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d889f5420ee15199,trainer,trainer_dialogue,,,,,data/text/tv.inc,675,gTVTrainerFanClubSpecialText01,The score was {STR_VAR_3} points!\nThat is a very high score indeed!\p{STR_VAR_2} must obviously hold\n{STR_VAR_1} in very high esteem.$,"The score was {STR_VAR_3} points!
+That is a very high score indeed!
+[PAGE]
+{STR_VAR_2} must obviously hold
+{STR_VAR_1} in very high esteem.",,untranslated,{STR_VAR_3} | \n | \p | {STR_VAR_2} | \n | {STR_VAR_1},{STR_VAR_3} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_6f0910d31d130ece,trainer,trainer_dialogue,,,,,data/text/tv.inc,681,gTVTrainerFanClubSpecialText02,The score was {STR_VAR_3} points!\nThat is quite a good score.\p{STR_VAR_2} must consider\n{STR_VAR_1} to be a rival.$,"The score was {STR_VAR_3} points!
+That is quite a good score.
+[PAGE]
+{STR_VAR_2} must consider
+{STR_VAR_1} to be a rival.",,untranslated,{STR_VAR_3} | \n | \p | {STR_VAR_2} | \n | {STR_VAR_1},{STR_VAR_3} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_b27936b573047e2f,trainer,trainer_dialogue,,,,,data/text/tv.inc,687,gTVTrainerFanClubSpecialText03,The score was {STR_VAR_3} points!\nThat's a rather weak score.\p{STR_VAR_2} must consider\n{STR_VAR_1} to be a mere sidekick.$,"The score was {STR_VAR_3} points!
+That's a rather weak score.
+[PAGE]
+{STR_VAR_2} must consider
+{STR_VAR_1} to be a mere sidekick.",,untranslated,{STR_VAR_3} | \n | \p | {STR_VAR_2} | \n | {STR_VAR_1},{STR_VAR_3} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_2ec8fac08772747a,trainer,trainer_dialogue,,,,,data/text/tv.inc,693,gTVTrainerFanClubSpecialText04,The score was {STR_VAR_3} point(s)!\nThat's a terrible score.\p{STR_VAR_2} must consider\n{STR_VAR_1} to be an underling.$,"The score was {STR_VAR_3} point(s)!
+That's a terrible score.
+[PAGE]
+{STR_VAR_2} must consider
+{STR_VAR_1} to be an underling.",,untranslated,{STR_VAR_3} | \n | \p | {STR_VAR_2} | \n | {STR_VAR_1},{STR_VAR_3} | {STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_b7f9082cfd74199a,trainer,trainer_dialogue,,,,,data/text/tv.inc,699,gTVTrainerFanClubSpecialText05,"There you have it, folks!\pI think we all learned something\nnew about {STR_VAR_1}.\pIn closing, I'll leave you with\n{STR_VAR_2}'s words.\p{STR_VAR_3} {STR_VAR_1}!$","There you have it, folks!
+[PAGE]
+I think we all learned something
+new about {STR_VAR_1}.
+[PAGE]
+In closing, I'll leave you with
+{STR_VAR_2}'s words.
+[PAGE]
+{STR_VAR_3} {STR_VAR_1}!",,untranslated,\p | \n | {STR_VAR_1} | \p | \n | {STR_VAR_2} | \p | {STR_VAR_3} | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_e7ab25122b6950f3,trainer,trainer_dialogue,,,,,data/text/tv.inc,1169,gTVTodaysRivalTrainerText00,"TODAY'S RIVAL TRAINER!\pHello, fellow POKéMON TRAINERS!\nHow are we all doing today?\pToday, like every other day,\nwe'll examine one of our rivals!$","TODAY'S RIVAL TRAINER!
+[PAGE]
+Hello, fellow POKéMON TRAINERS!
+How are we all doing today?
+[PAGE]
+Today, like every other day,
+we'll examine one of our rivals!",,untranslated,\p | \n | \p | \n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c7d084e797713ae1,trainer,trainer_dialogue,,,,,data/text/tv.inc,1176,gTVTodaysRivalTrainerText07,"Today's rival TRAINER is {STR_VAR_1},\nwho's around {STR_VAR_3} now.\p{STR_VAR_1} has so far registered\n{STR_VAR_2} POKéMON in the POKéDEX.$","Today's rival TRAINER is {STR_VAR_1},
+who's around {STR_VAR_3} now.
+[PAGE]
+{STR_VAR_1} has so far registered
+{STR_VAR_2} POKéMON in the POKéDEX.",,untranslated,{STR_VAR_1} | \n | {STR_VAR_3} | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1061ed1302dbf718,trainer,trainer_dialogue,,,,,data/text/tv.inc,1182,gTVTodaysRivalTrainerText08,"Today's rival TRAINER is {STR_VAR_1},\nwho's in a SECRET BASE now.\p{STR_VAR_1} has so far registered\n{STR_VAR_2} POKéMON in the POKéDEX.$","Today's rival TRAINER is {STR_VAR_1},
+who's in a SECRET BASE now.
+[PAGE]
+{STR_VAR_1} has so far registered
+{STR_VAR_2} POKéMON in the POKéDEX.",,untranslated,{STR_VAR_1} | \n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_008a6369089f2b79,trainer,trainer_dialogue,,,,,data/text/tv.inc,1188,gTVTodaysRivalTrainerText09,"Today's rival TRAINER is {STR_VAR_1}.\pSo far, {STR_VAR_1} has registered\n{STR_VAR_2} POKéMON in the POKéDEX.$","Today's rival TRAINER is {STR_VAR_1}.
+[PAGE]
+So far, {STR_VAR_1} has registered
+{STR_VAR_2} POKéMON in the POKéDEX.",,untranslated,{STR_VAR_1} | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_25d651dab2f101ce,trainer,trainer_dialogue,,,,,data/text/tv.inc,1193,gTVTodaysRivalTrainerText10,"Today's rival TRAINER is {STR_VAR_1},\nwho's on a ferry now.\p{STR_VAR_1} has so far registered\n{STR_VAR_2} POKéMON in the POKéDEX.$$","Today's rival TRAINER is {STR_VAR_1},
+who's on a ferry now.
+[PAGE]
+{STR_VAR_1} has so far registered
+{STR_VAR_2} POKéMON in the POKéDEX.",,untranslated,{STR_VAR_1} | \n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0290c518b2153c9f,trainer,trainer_dialogue,,,,,data/text/tv.inc,1201,gTVTodaysRivalTrainerText01,And how many BADGES does our rival\nhave? The number is {STR_VAR_1}!$,"And how many BADGES does our rival
+have? The number is {STR_VAR_1}!",,untranslated,\n | {STR_VAR_1},{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c275545be4e484c3,trainer,trainer_dialogue,,,,,data/text/tv.inc,1205,gTVTodaysRivalTrainerText02,But our rival hasn't obtained\na single BADGE yet!$,"But our rival hasn't obtained
+a single BADGE yet!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_3e04abd2ff223490,trainer,trainer_dialogue,,,,,data/text/tv.inc,1209,gTVTodaysRivalTrainerText03,Our rival hasn't obtained a single\nBATTLE FRONTIER Symbol yet.$,"Our rival hasn't obtained a single
+BATTLE FRONTIER Symbol yet.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_502c7beab68649dd,trainer,trainer_dialogue,,,,,data/text/tv.inc,1213,gTVTodaysRivalTrainerText04,Let's see how many BATTLE FRONTIER\nSymbols our rival has.\pGold Symbols: {STR_VAR_1}!\nSilver Symbols: {STR_VAR_2}!$,"Let's see how many BATTLE FRONTIER
+Symbols our rival has.
+[PAGE]
+Gold Symbols: {STR_VAR_1}!
+Silver Symbols: {STR_VAR_2}!",,untranslated,\n | \p | {STR_VAR_1} | \n | {STR_VAR_2},{STR_VAR_1} | {STR_VAR_2},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_98d38b0964d337e3,trainer,trainer_dialogue,,,,,data/text/tv.inc,1219,gTVTodaysRivalTrainerText05,Our rival has collected {STR_VAR_1} Battle\nPoint(s) at the BATTLE FRONTIER.$,"Our rival has collected {STR_VAR_1} Battle
+Point(s) at the BATTLE FRONTIER.",,untranslated,{STR_VAR_1} | \n,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_e2fa8853b387443b,trainer,trainer_dialogue,,,,,data/text/tv.inc,1223,gTVTodaysRivalTrainerText06,"So, how did you measure up in\ncomparison to {STR_VAR_1}?\pThe adventure rolls on!\pFellow TRAINERS!\pLet's all keep moving forward\nand ahead of our rivals!$","So, how did you measure up in
+comparison to {STR_VAR_1}?
+[PAGE]
+The adventure rolls on!
+[PAGE]
+Fellow TRAINERS!
+[PAGE]
+Let's all keep moving forward
+and ahead of our rivals!",,untranslated,\n | {STR_VAR_1} | \p | \p | \p | \n,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_b4e80048b3f7899a,trainer,trainer_dialogue,,,,,data/text/tv.inc,1653,gTVTrainerFanClubText00,"All together now!\nTRAINER FAN CLUB!\pMC: How's everyone groovin'?\nToday, we've rounded up the fans of\lthe hyper-popular TRAINER {STR_VAR_1}!\pFANS: Wrooooooaaaaah!\pFANS: {STR_VAR_1}!\pMC: Everyone!\nHow do you like {STR_VAR_1}?!\pFANS: We love {STR_VAR_1}!\pMC: What do you love about\n{STR_VAR_1}?!$","All together now!
+TRAINER FAN CLUB!
+[PAGE]
+MC: How's everyone groovin'?
+Today, we've rounded up the fans of
+the hyper-popular TRAINER {STR_VAR_1}!
+[PAGE]
+FANS: Wrooooooaaaaah!
+[PAGE]
+FANS: {STR_VAR_1}!
+[PAGE]
+MC: Everyone!
+How do you like {STR_VAR_1}?!
+[PAGE]
+FANS: We love {STR_VAR_1}!
+[PAGE]
+MC: What do you love about
+{STR_VAR_1}?!",,untranslated,\n | \p | \n | \l | {STR_VAR_1} | \p | \p | {STR_VAR_1} | \p | \n | {STR_VAR_1} | \p | {STR_VAR_1} | \p | \n | {STR_VAR_1},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_6acb7012958c456d,trainer,trainer_dialogue,,,,,data/text/tv.inc,1667,gTVTrainerFanClubText01,FANS: Their cool way of throwing\nPOKé BALLS!$,"FANS: Their cool way of throwing
+POKé BALLS!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_01bc549f8d78eb8c,trainer,trainer_dialogue,,,,,data/text/tv.inc,1671,gTVTrainerFanClubText02,FANS: Their adorable way of running!$,FANS: Their adorable way of running!,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_4849df87294d6915,trainer,trainer_dialogue,,,,,data/text/tv.inc,1674,gTVTrainerFanClubText03,FANS: How the TRAINER turns tough\nwhen the going gets tough!$,"FANS: How the TRAINER turns tough
+when the going gets tough!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_33990b6c10f02049,trainer,trainer_dialogue,,,,,data/text/tv.inc,1678,gTVTrainerFanClubText04,FANS: The TRAINER's knowledge of\nPOKéMON!$,"FANS: The TRAINER's knowledge of
+POKéMON!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1e1b7b0204fdf6bf,trainer,trainer_dialogue,,,,,data/text/tv.inc,1682,gTVTrainerFanClubText05,FANS: The TRAINER's kindness toward\nall POKéMON!$,"FANS: The TRAINER's kindness toward
+all POKéMON!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_12e47e57476286ad,trainer,trainer_dialogue,,,,,data/text/tv.inc,1686,gTVTrainerFanClubText06,FANS: The TRAINER's amazing\nBIKE-riding techniques!$,"FANS: The TRAINER's amazing
+BIKE-riding techniques!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_78845f58dade228e,trainer,trainer_dialogue,,,,,data/text/tv.inc,1690,gTVTrainerFanClubText07,FANS: The TRAINER's impressive\nitem-buying style!$,"FANS: The TRAINER's impressive
+item-buying style!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a7157946c88d23bb,trainer,trainer_dialogue,,,,,data/text/tv.inc,1694,gTVTrainerFanClubText08,FANS: The TRAINER's charming way\nof nicknaming POKéMON!$,"FANS: The TRAINER's charming way
+of nicknaming POKéMON!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d94a1c4002b75563,trainer,trainer_dialogue,,,,,data/text/tv.inc,1698,gTVTrainerFanClubText09,FANS: The TRAINER's nifty style of\ndecorating a SECRET BASE!$,"FANS: The TRAINER's nifty style of
+decorating a SECRET BASE!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1d43ef720eed9204,trainer,trainer_dialogue,,,,,data/text/tv.inc,1702,gTVTrainerFanClubText10,FANS: The TRAINER's bold ways of\nusing TMs!$,"FANS: The TRAINER's bold ways of
+using TMs!",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_925aff3867f662df,trainer,trainer_dialogue,,,,,data/text/tv.inc,1706,gTVTrainerFanClubText11,"MC: As you've just seen, {STR_VAR_1}\nis hot! Like, too hot to touch, yow!\pAmong {STR_VAR_1}'s FANS\nthere's a special slogan!\pMC: When I say {STR_VAR_1},\nyou say…\pFANS: {STR_VAR_2}!\pFANS: {STR_VAR_3}!\pFANS: {STR_VAR_2}!\pFANS: {STR_VAR_3}!\pMC: That's right, when someone says,\n“{STR_VAR_1}”…\pCome back with, “{STR_VAR_2}\n{STR_VAR_3}!”\pThat has such a unique ring to it!\nI can see why people become FANS\lof {STR_VAR_1}!\pOkay, you, in front of the TV, join us!\nAll together now!\pMC: When I say {STR_VAR_1},\nyou say…\pFANS: {STR_VAR_2}!\pFANS: {STR_VAR_3}!\pFANS: {STR_VAR_2}!\pFANS: {STR_VAR_3}!\pMC: Thanks for joining us, all you\nwild FANS of {STR_VAR_1}!\lThat's the show! See you again!\pMC: When I say {STR_VAR_1},\nyou say…\pFANS: {STR_VAR_2}!\pFANS: {STR_VAR_3}!$","MC: As you've just seen, {STR_VAR_1}
+is hot! Like, too hot to touch, yow!
+[PAGE]
+Among {STR_VAR_1}'s FANS
+there's a special slogan!
+[PAGE]
+MC: When I say {STR_VAR_1},
+you say…
+[PAGE]
+FANS: {STR_VAR_2}!
+[PAGE]
+FANS: {STR_VAR_3}!
+[PAGE]
+FANS: {STR_VAR_2}!
+[PAGE]
+FANS: {STR_VAR_3}!
+[PAGE]
+MC: That's right, when someone says,
+“{STR_VAR_1}”…
+[PAGE]
+Come back with, “{STR_VAR_2}
+{STR_VAR_3}!”
+[PAGE]
+That has such a unique ring to it!
+I can see why people become FANS
+of {STR_VAR_1}!
+[PAGE]
+Okay, you, in front of the TV, join us!
+All together now!
+[PAGE]
+MC: When I say {STR_VAR_1},
+you say…
+[PAGE]
+FANS: {STR_VAR_2}!
+[PAGE]
+FANS: {STR_VAR_3}!
+[PAGE]
+FANS: {STR_VAR_2}!
+[PAGE]
+FANS: {STR_VAR_3}!
+[PAGE]
+MC: Thanks for joining us, all you
+wild FANS of {STR_VAR_1}!
+That's the show! See you again!
+[PAGE]
+MC: When I say {STR_VAR_1},
+you say…
+[PAGE]
+FANS: {STR_VAR_2}!
+[PAGE]
+FANS: {STR_VAR_3}!",,untranslated,{STR_VAR_1} | \n | \p | {STR_VAR_1} | \n | \p | {STR_VAR_1} | \n | \p | {STR_VAR_2} | \p | {STR_VAR_3} | \p | {STR_VAR_2} | \p | {STR_VAR_3} | \p | \n | {STR_VAR_1} | \p | {STR_VAR_2} | \n | {STR_VAR_3} | \p | \n | \l | {STR_VAR_1} | \p | \n | \p | {STR_VAR_1} | \n | \p | {STR_VAR_2} | \p | {STR_VAR_3} | \p | {STR_VAR_2} | \p | {STR_VAR_3} | \p | \n | {STR_VAR_1} | \l | \p | {STR_VAR_1} | \n | \p | {STR_VAR_2} | \p | {STR_VAR_3},{STR_VAR_1} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_1} | {STR_VAR_2} | {STR_VAR_3},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_515f0f4bddafd132,trainer,trainer_dialogue,,,,,data/text/tv.inc,2834,gTVInSearchOfTrainersText00,"IN SEARCH OF TRAINERS…\pGABBY: Hi! Today I'm visiting an area\nnear {STR_VAR_1}.\pWe're trying to spot some up-and-\ncoming new talent in the field.\pToday, we turned our lens on the\nTRAINER {PLAYER}.\pThere's something about this TRAINER\nthat piqued our interest.$","IN SEARCH OF TRAINERS…
+[PAGE]
+GABBY: Hi! Today I'm visiting an area
+near {STR_VAR_1}.
+[PAGE]
+We're trying to spot some up-and-
+coming new talent in the field.
+[PAGE]
+Today, we turned our lens on the
+TRAINER {PLAYER}.
+[PAGE]
+There's something about this TRAINER
+that piqued our interest.",,untranslated,\p | \n | {STR_VAR_1} | \p | \n | \p | \n | {PLAYER} | \p | \n,{STR_VAR_1} | {PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_7d7f6eeb7eb17ef3,trainer,trainer_dialogue,,,,,data/text/tv.inc,2845,gTVInSearchOfTrainersText01,"We've battled {PLAYER} before, but we\ncan attest that the TRAINER has most\ldefinitely improved from before.\pI knew we were onto someone special\nwhen we spotted this TRAINER!$","We've battled {PLAYER} before, but we
+can attest that the TRAINER has most
+definitely improved from before.
+[PAGE]
+I knew we were onto someone special
+when we spotted this TRAINER!",,untranslated,{PLAYER} | \n | \l | \p | \n,{PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_de8654ece16c1509,trainer,trainer_dialogue,,,,,data/text/tv.inc,2852,gTVInSearchOfTrainersText02,"The best way to determine how strong\na TRAINER is…\pWell, the fastest way is to battle.\nAnd so we began our investigation!\p… …\pThat's how we ended up in battle\nwith {PLAYER}.\pIn a dominating performance, we were\nflattened, rolled up, and tossed aside!\p{PLAYER} is ruthlessly strong…\pHere's our impressions after having\nbattled our featured TRAINER.$","The best way to determine how strong
+a TRAINER is…
+[PAGE]
+Well, the fastest way is to battle.
+And so we began our investigation!
+[PAGE]
+… …
+[PAGE]
+That's how we ended up in battle
+with {PLAYER}.
+[PAGE]
+In a dominating performance, we were
+flattened, rolled up, and tossed aside!
+[PAGE]
+{PLAYER} is ruthlessly strong…
+[PAGE]
+Here's our impressions after having
+battled our featured TRAINER.",,untranslated,\n | \p | \n | \p | \p | \n | {PLAYER} | \p | \n | \p | {PLAYER} | \p | \n,{PLAYER} | {PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_23d8f608610e5e86,trainer,trainer_dialogue,,,,,data/text/tv.inc,2866,gTVInSearchOfTrainersText03,The combination of {STR_VAR_1} and\n{STR_VAR_3} was divine!\pThe sight of them--{STR_VAR_1} and\n{STR_VAR_3}--selflessly supporting\leach other in the thick of battle…\pIt was a marvelous sight to behold!\p{STR_VAR_2} was the move the TRAINER\nused last in our battle.\pThe move {STR_VAR_2} is {STR_VAR_1}\nand {STR_VAR_3}'s sign of friendship!$,"The combination of {STR_VAR_1} and
+{STR_VAR_3} was divine!
+[PAGE]
+The sight of them--{STR_VAR_1} and
+{STR_VAR_3}--selflessly supporting
+each other in the thick of battle…
+[PAGE]
+It was a marvelous sight to behold!
+[PAGE]
+{STR_VAR_2} was the move the TRAINER
+used last in our battle.
+[PAGE]
+The move {STR_VAR_2} is {STR_VAR_1}
+and {STR_VAR_3}'s sign of friendship!",,untranslated,{STR_VAR_1} | \n | {STR_VAR_3} | \p | {STR_VAR_1} | \n | {STR_VAR_3} | \l | \p | \p | {STR_VAR_2} | \n | \p | {STR_VAR_2} | {STR_VAR_1} | \n | {STR_VAR_3},{STR_VAR_1} | {STR_VAR_3} | {STR_VAR_1} | {STR_VAR_3} | {STR_VAR_2} | {STR_VAR_2} | {STR_VAR_1} | {STR_VAR_3},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_9bc90bd2809183db,trainer,trainer_dialogue,,,,,data/text/tv.inc,2878,gTVInSearchOfTrainersText04,"…I lost confidence in myself as\na result of our encounter.\pWe were beaten before we could launch\na single attack.\lOhhh… Snivel…\pIn spite of that, {PLAYER}'s battles\nare worth seeing.\pI recommend confident TRAINERS to\nchallenge {PLAYER}.$","…I lost confidence in myself as
+a result of our encounter.
+[PAGE]
+We were beaten before we could launch
+a single attack.
+Ohhh… Snivel…
+[PAGE]
+In spite of that, {PLAYER}'s battles
+are worth seeing.
+[PAGE]
+I recommend confident TRAINERS to
+challenge {PLAYER}.",,untranslated,\n | \p | \n | \l | \p | {PLAYER} | \n | \p | \n | {PLAYER},{PLAYER} | {PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_8b9f1da285fb1ae1,trainer,trainer_dialogue,,,,,data/text/tv.inc,2889,gTVInSearchOfTrainersText05,"There's only one thing to be said.\nDon't you dare throw a POKé BALL during\la TRAINER battle!\p{PLAYER} is certainly strong, but has\nno clue about the basic rules.\pTo our TV audience, I have a request.\pIf you see {PLAYER}, please caution\nthe TRAINER!$","There's only one thing to be said.
+Don't you dare throw a POKé BALL during
+a TRAINER battle!
+[PAGE]
+{PLAYER} is certainly strong, but has
+no clue about the basic rules.
+[PAGE]
+To our TV audience, I have a request.
+[PAGE]
+If you see {PLAYER}, please caution
+the TRAINER!",,untranslated,\n | \l | \p | {PLAYER} | \n | \p | \p | {PLAYER} | \n,{PLAYER} | {PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_5897ccc4696302d2,trainer,trainer_dialogue,,,,,data/text/tv.inc,2899,gTVInSearchOfTrainersText06,{PLAYER} is adept at reading the\nopponent's actions.\pThe timing of item usage was remarkably\neffective!$,"{PLAYER} is adept at reading the
+opponent's actions.
+[PAGE]
+The timing of item usage was remarkably
+effective!",,untranslated,{PLAYER} | \n | \p | \n,{PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_fe1ab6672963c547,trainer,trainer_dialogue,,,,,data/text/tv.inc,2905,gTVInSearchOfTrainersText07,"Honestly speaking, I thought that\nI might even be pretty good.\pWhile we did end up losing, we did have\na hotly contested battle.\pBut if you're struggling against me,\nyou have a ways to go, {PLAYER}!$","Honestly speaking, I thought that
+I might even be pretty good.
+[PAGE]
+While we did end up losing, we did have
+a hotly contested battle.
+[PAGE]
+But if you're struggling against me,
+you have a ways to go, {PLAYER}!",,untranslated,\n | \p | \n | \p | \n | {PLAYER},{PLAYER},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0e618a9b6712c14c,trainer,trainer_dialogue,,,,,data/text/tv.inc,2913,gTVInSearchOfTrainersText08,"After our battle, we asked {PLAYER} for\na succinct summary.\pThe TRAINER replied, “{STR_VAR_1}.”\p{PLAYER}'s POKéMON {STR_VAR_2} and\n{STR_VAR_3}…\lAnd “{STR_VAR_1}”…\pMmm! That's deep! There's deep\nsignificance behind that quote!\pIt's no surprise--a good TRAINER has\ngood things to say.\pThat's all for today!\nSee you again on our next broadcast!$","After our battle, we asked {PLAYER} for
+a succinct summary.
+[PAGE]
+The TRAINER replied, “{STR_VAR_1}.”
+[PAGE]
+{PLAYER}'s POKéMON {STR_VAR_2} and
+{STR_VAR_3}…
+And “{STR_VAR_1}”…
+[PAGE]
+Mmm! That's deep! There's deep
+significance behind that quote!
+[PAGE]
+It's no surprise--a good TRAINER has
+good things to say.
+[PAGE]
+That's all for today!
+See you again on our next broadcast!",,untranslated,{PLAYER} | \n | \p | {STR_VAR_1} | \p | {PLAYER} | {STR_VAR_2} | \n | {STR_VAR_3} | \l | {STR_VAR_1} | \p | \n | \p | \n | \p | \n,{PLAYER} | {STR_VAR_1} | {PLAYER} | {STR_VAR_2} | {STR_VAR_3} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Trainer-tagged TV/media text; outside locked spoken-trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f3cec7a438da6424,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_feelings.h,63,gEasyChatWord_Defeated,DEFEATED,DEFEATED,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_5d4e9d3f4af71f8c,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,1,gEasyChatWord_IChooseYou,I CHOOSE YOU,I CHOOSE YOU,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_50275d4c8697abb7,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,2,gEasyChatWord_Gotcha,GOTCHA,GOTCHA,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c253bfbc161be103,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,3,gEasyChatWord_Trade,TRADE,TRADE,,untranslated,,,dup_00783,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_168be9d01eccb48e,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,4,gEasyChatWord_Sapphire,SAPPHIRE,SAPPHIRE,,untranslated,,,dup_00662,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_90cd43697d9f5251,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,5,gEasyChatWord_Evolve,EVOLVE,EVOLVE,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_2c29e90c16f16054,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,6,gEasyChatWord_Encyclopedia,ENCYCLOPEDIA,ENCYCLOPEDIA,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_5912e63c7f82000a,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,7,gEasyChatWord_Nature,NATURE,NATURE,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d5955033812eec98,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,8,gEasyChatWord_Center,CENTER,CENTER,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_63cfd8c524a311c8,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,9,gEasyChatWord_Egg,EGG,EGG,,untranslated,,,dup_00213,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_37f7b2c83529a6df,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,10,gEasyChatWord_Link,LINK,LINK,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_89b6ce7cb6db1551,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,11,gEasyChatWord_SpAbility,SP. ABILITY,SP. ABILITY,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a31a7ae085040fea,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,12,gEasyChatWord_Trainer,TRAINER,TRAINER,,untranslated,,,dup_00784,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_398ef2d3e3395650,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,13,gEasyChatWord_Version,VERSION,VERSION,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f0b3bfe966a8dad9,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,14,gEasyChatWord_Pokenav,POKéNAV,POKéNAV,,untranslated,,,dup_00591,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,COVERED_ALREADY_DUPLICATE,tools/thai/translation/phaseF/closure_overlay.csv
+dlg_cb9c4d13419d1f4c,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,15,gEasyChatWord_Pokemon,POKéMON,POKéMON,,untranslated,,,dup_00587,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,COVERED_ALREADY_DUPLICATE,tools/thai/translation/phaseF/closure_overlay.csv
+dlg_8a81fdbb4be91cc4,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,16,gEasyChatWord_Get,GET,GET,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c6a8e4edd67c20e0,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,17,gEasyChatWord_Pokedex,POKéDEX,POKéDEX,,untranslated,,,dup_00586,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,COVERED_ALREADY_DUPLICATE,tools/thai/translation/phaseF/closure_overlay.csv
+dlg_10759846bfe90084,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,18,gEasyChatWord_Ruby,RUBY,RUBY,,untranslated,,,dup_00650,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_3391db00d55e46cd,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,19,gEasyChatWord_Level,LEVEL,LEVEL,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_93ab774d0a3ab1fe,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,20,gEasyChatWord_Red,RED,RED,,untranslated,,,dup_00623,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_2a4c3db38c12b8c6,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,21,gEasyChatWord_Green,GREEN,GREEN,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d55d6c7cfe51fc7c,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,22,gEasyChatWord_Bag,BAG,BAG,,untranslated,,,dup_00061,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,COVERED_ALREADY_DUPLICATE,tools/thai/translation/phaseF/closure_overlay.csv
+dlg_7a999b0437e8c92e,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,23,gEasyChatWord_Flame,FLAME,FLAME,,untranslated,,,dup_00249,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c677223df2e02625,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,24,gEasyChatWord_Gold,GOLD,GOLD,,untranslated,,,dup_00277,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1472ea855f335134,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,25,gEasyChatWord_Leaf,LEAF,LEAF,,untranslated,,,dup_00421,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_caef755a62e2fe7c,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,26,gEasyChatWord_Silver,SILVER,SILVER,,untranslated,,,dup_00686,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d01c486007685353,trainer,trainer_dialogue,,,,,src/data/easy_chat/easy_chat_group_trainer.h,27,gEasyChatWord_Emerald,EMERALD,EMERALD,,untranslated,,,dup_00220,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_e616ce25eb9f52d3,trainer,trainer_dialogue,,,,,src/data/union_room.h,96,sText_OtherTrainerUnavailableNow,The other TRAINER doesn't appear\nto be available now…\p,"The other TRAINER doesn't appear
+to be available now…
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_2aa91d67aa170858,trainer,trainer_dialogue,,,,,src/data/union_room.h,97,sText_CantTransmitTrainerTooFar,You can't transmit with a TRAINER\nwho is too far away.\p,"You can't transmit with a TRAINER
+who is too far away.
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_81d1855a9bbd8e87,trainer,trainer_dialogue,,,,,src/data/union_room.h,98,sText_TrainersNotReadyYet,The other TRAINER(S) is/are not\nready yet.\p,"The other TRAINER(S) is/are not
+ready yet.
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_fbefae372e51c0d7,trainer,trainer_dialogue,,,,,src/data/union_room.h,113,sText_TrainerAppearsUnavailable,The other TRAINER appears\nunavailable…\p,"The other TRAINER appears
+unavailable…
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_daae05298ce9cbef,trainer,trainer_dialogue,,,,,src/data/union_room.h,215,sText_AwaitingResponseFromTrainer,Awaiting a response from\nthe other TRAINER…,"Awaiting a response from
+the other TRAINER…",,untranslated,\n,,dup_00060,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_2d8e0b5f2ce40dc2,trainer,trainer_dialogue,,,,,src/data/union_room.h,223,sText_ShowTrainerCard,The other TRAINER showed\nyou their TRAINER CARD.\pWould you like to show your\nTRAINER CARD?,"The other TRAINER showed
+you their TRAINER CARD.
+[PAGE]
+Would you like to show your
+TRAINER CARD?",,untranslated,\n | \p | \n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_15275bfdcd69ff76,trainer,trainer_dialogue,,,,,src/data/union_room.h,256,sText_TrainerAppearsBusy,……\nThe TRAINER appears to be busy…\p,"……
+The TRAINER appears to be busy…
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_4c65ab2068a44c87,trainer,trainer_dialogue,,,,,src/data/union_room.h,259,sText_ShowTrainerCardMale,"Sure thing! As my “Greetings,”\nhere's my TRAINER CARD.","Sure thing! As my “Greetings,”
+here's my TRAINER CARD.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_9ab8851da5f82dfe,trainer,trainer_dialogue,,,,,src/data/union_room.h,262,sText_ShowTrainerCardFemale,"As my introduction, I'll show you\nmy TRAINER CARD.","As my introduction, I'll show you
+my TRAINER CARD.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_eb49686c258f16c7,trainer,trainer_dialogue,,,,,src/data/union_room.h,319,sText_ShowTrainerCardDeclinedMale,Huh? My TRAINER CARD…\nWhere'd it go now?\lSorry! I'll show you another time!\p,"Huh? My TRAINER CARD…
+Where'd it go now?
+Sorry! I'll show you another time!
+[PAGE]
+",,untranslated,\n | \l | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_fbbeed755f52dd1e,trainer,trainer_dialogue,,,,,src/data/union_room.h,320,sText_ShowTrainerCardDeclinedFemale,Oh? Now where did I put my\nTRAINER CARD?…\lSorry! I'll show you later!\p,"Oh? Now where did I put my
+TRAINER CARD?…
+Sorry! I'll show you later!
+[PAGE]
+",,untranslated,\n | \l | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_664349209810681b,trainer,trainer_dialogue,,,,,src/data/union_room.h,335,sText_TrainerBattleBusy,"Whoops! Sorry, but I have to do\nsomething else.\lAnother time, okay?\p","Whoops! Sorry, but I have to do
+something else.
+Another time, okay?
+[PAGE]
+",,untranslated,\n | \l | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c98718ab42b09368,trainer,trainer_dialogue,,,,,src/data/union_room.h,405,sText_ShowedTrainerCardMale1,I'm just showing my TRAINER CARD\nas my way of greeting.\p,"I'm just showing my TRAINER CARD
+as my way of greeting.
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_9f690d1ed07b41e4,trainer,trainer_dialogue,,,,,src/data/union_room.h,406,sText_ShowedTrainerCardMale2,I hope I get to know you better!\p,"I hope I get to know you better!
+[PAGE]
+",,untranslated,\p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_6a43f410049c941c,trainer,trainer_dialogue,,,,,src/data/union_room.h,407,sText_ShowedTrainerCardFemale1,We're showing each other our\nTRAINER CARDS to get acquainted.\p,"We're showing each other our
+TRAINER CARDS to get acquainted.
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_512f0e40928cee5a,trainer,trainer_dialogue,,,,,src/data/union_room.h,408,sText_ShowedTrainerCardFemale2,Glad to meet you.\nPlease don't be a stranger!\p,"Glad to meet you.
+Please don't be a stranger!
+[PAGE]
+",,untranslated,\n | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_bdb5bb71f2e9800e,trainer,trainer_dialogue,,,,,src/data/union_room.h,459,sText_TradeTrainersWillBeListed,TRAINERS wishing to make a trade\nwill be listed.,"TRAINERS wishing to make a trade
+will be listed.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a5a3d3f8af96473c,trainer,trainer_dialogue,,,,,src/data/union_room.h,460,sText_ChooseTrainerToTradeWith2,Please choose the TRAINER with whom\nyou would like to trade POKéMON.,"Please choose the TRAINER with whom
+you would like to trade POKéMON.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_98db00e989990558,trainer,trainer_dialogue,,,,,src/data/union_room.h,461,sText_AskTrainerToMakeTrade,Would you like to ask {STR_VAR_1} to\nmake a trade?,"Would you like to ask {STR_VAR_1} to
+make a trade?",,untranslated,{STR_VAR_1} | \n,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_844cad653ce77111,trainer,trainer_dialogue,,,,,src/data/union_room.h,462,sText_AwaitingResponseFromTrainer2,Awaiting a response from\nthe other TRAINER…,"Awaiting a response from
+the other TRAINER…",,untranslated,\n,,dup_00060,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_056085259507d551,trainer,trainer_dialogue,,,,,src/data/union_room.h,464,sText_DontHaveTypeTrainerWants,You don't have a {STR_VAR_2}-type\nPOKéMON that {STR_VAR_1} wants.\p,"You don't have a {STR_VAR_2}-type
+POKéMON that {STR_VAR_1} wants.
+[PAGE]
+",,untranslated,{STR_VAR_2} | \n | {STR_VAR_1} | \p,{STR_VAR_2} | {STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_84441fa3da066423,trainer,trainer_dialogue,,,,,src/data/union_room.h,465,sText_DontHaveEggTrainerWants,You don't have an EGG that\n{STR_VAR_1} wants.\p,"You don't have an EGG that
+{STR_VAR_1} wants.
+[PAGE]
+",,untranslated,\n | {STR_VAR_1} | \p,{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_8e2e39c4d73c1534,trainer,trainer_dialogue,,,,,src/data/union_room.h,478,sText_ChooseTrainer,Please choose a TRAINER.,Please choose a TRAINER.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a55b9c8c62c0f564,trainer,trainer_dialogue,,,,,src/data/union_room.h,479,sText_ChooseTrainerSingleBattle,Please choose a TRAINER for\na SINGLE BATTLE.,"Please choose a TRAINER for
+a SINGLE BATTLE.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d95b345c266b8865,trainer,trainer_dialogue,,,,,src/data/union_room.h,480,sText_ChooseTrainerDoubleBattle,Please choose a TRAINER for\na DOUBLE BATTLE.,"Please choose a TRAINER for
+a DOUBLE BATTLE.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_83a4ac102a33cfed,trainer,trainer_dialogue,,,,,src/data/union_room.h,482,sText_ChooseTrainerToTradeWith,Please choose the TRAINER to\ntrade with.,"Please choose the TRAINER to
+trade with.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a86776b41d193dd5,trainer,trainer_dialogue,,,,,src/data/union_room.h,483,sText_ChooseTrainerToShareWonderCards,Please choose the TRAINER who is\nsharing WONDER CARDS.,"Please choose the TRAINER who is
+sharing WONDER CARDS.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_ff2c4b342ed5ef06,trainer,trainer_dialogue,,,,,src/data/union_room.h,484,sText_ChooseTrainerToShareWonderNews,Please choose the TRAINER who is\nsharing WONDER NEWS.,"Please choose the TRAINER who is
+sharing WONDER NEWS.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a8bc0ac520e112fa,trainer,trainer_dialogue,,,,,src/data/union_room.h,529,sText_PleaseWaitForOtherTrainersToGather,Please wait for other TRAINERS to\ngather and get ready.,"Please wait for other TRAINERS to
+gather and get ready.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0e76bff7ea1149bc,trainer,trainer_dialogue,,,,,src/data/union_room.h,580,sText_TrainerCardInfoPage1,This is {DYNAMIC 0} {DYNAMIC 1}'s\nTRAINER CARD…\l{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\p,"This is {DYNAMIC 0} {DYNAMIC 1}'s
+TRAINER CARD…
+{DYNAMIC 2}
+[PAGE]
+POKéDEX: {DYNAMIC 3}
+TIME:    {DYNAMIC 4}:{DYNAMIC 5}
+[PAGE]
+",,untranslated,{DYNAMIC 0} | {DYNAMIC 1} | \n | \l | {DYNAMIC 2} | \p | {DYNAMIC 3} | \n | {DYNAMIC 4} | {DYNAMIC 5} | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_81265cd4fb934917,trainer,trainer_dialogue,,,,,src/data/union_room.h,581,sText_TrainerCardInfoPage2,BATTLES: WINS: {DYNAMIC 0}  LOSSES: {DYNAMIC 2}\nTRADES: {DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p,"BATTLES: WINS: {DYNAMIC 0}  LOSSES: {DYNAMIC 2}
+TRADES: {DYNAMIC 3}
+[PAGE]
+“{DYNAMIC 4} {DYNAMIC 5}
+{DYNAMIC 6} {DYNAMIC 7}”
+[PAGE]
+",,untranslated,{DYNAMIC 0} | {DYNAMIC 2} | \n | {DYNAMIC 3} | \p | {DYNAMIC 4} | {DYNAMIC 5} | \n | {DYNAMIC 6} | {DYNAMIC 7} | \p,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_8e9bfc9b7595ef93,trainer,trainer_dialogue,,,,,src/data/union_room.h,590,sText_FinishedCheckingPlayersTrainerCard,Finished checking {DYNAMIC 1}'s\nTRAINER CARD.{PAUSE 60},"Finished checking {DYNAMIC 1}'s
+TRAINER CARD.{PAUSE 60}",,untranslated,{DYNAMIC 1} | \n | {PAUSE 60},,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_9eeaf3af1c4a4809,trainer,trainer_dialogue,,,,,src/mystery_event_msg.c,11,gText_MysteryEventNewTrainer,A new TRAINER has arrived in\nHOENN.,"A new TRAINER has arrived in
+HOENN.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_b822a9c4876bbbcf,trainer,trainer_dialogue,,,,,src/strings.c,807,gText_PyramidTrainers,PYRAMID: TRAINERS,PYRAMID: TRAINERS,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_010d89d18673048c,trainer,trainer_dialogue,,,,,src/strings.c,814,gText_BattleTrainers,BATTLE TRAINERS,BATTLE TRAINERS,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_6e8c216933c7e1b3,trainer,trainer_dialogue,,,,,src/strings.c,957,gText_CallRegisteredTrainer,Call a registered TRAINER.,Call a registered TRAINER.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_e9556023e4e432b5,trainer,trainer_dialogue,,,,,src/strings.c,961,gText_NoTrainersRegistered,No TRAINERS are registered.,No TRAINERS are registered.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f9fecbd72719d70b,trainer,trainer_dialogue,,,,,src/strings.c,1035,gText_TheTrainersImage,the TRAINER's image.,the TRAINER's image.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_41824795a5d47eb9,trainer,trainer_dialogue,,,,,src/strings.c,1202,gText_TrainerCardName,NAME: ,NAME: ,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_f1236bf4142b0c82,trainer,trainer_dialogue,,,,,src/strings.c,1203,gText_TrainerCardIDNo,IDNo.,IDNo.,,untranslated,,,dup_00353,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_dbc8f284828aa121,trainer,trainer_dialogue,,,,,src/strings.c,1204,gText_TrainerCardMoney,MONEY,MONEY,,untranslated,,,dup_00496,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0a96791b435ae4fe,trainer,trainer_dialogue,,,,,src/strings.c,1206,gText_TrainerCardPokedex,POKéDEX,POKéDEX,,untranslated,,,dup_00586,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,COVERED_ALREADY_DUPLICATE,tools/thai/translation/phaseF/closure_overlay.csv
+dlg_5f9df0bf90eb7669,trainer,trainer_dialogue,,,,,src/strings.c,1210,gText_TrainerCardTime,TIME,TIME,,untranslated,,,dup_00769,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d713a472c67e04e8,trainer,trainer_dialogue,,,,,src/strings.c,1212,gText_Var1sTrainerCard,{STR_VAR_1}'s TRAINER CARD,{STR_VAR_1}'s TRAINER CARD,,untranslated,{STR_VAR_1},{STR_VAR_1},,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_a5e2a13061132bee,trainer,trainer_dialogue,,,,,src/strings.c,1220,gText_WaitingTrainerFinishReading,Waiting for the other TRAINER to\nfinish reading your TRAINER CARD.,"Waiting for the other TRAINER to
+finish reading your TRAINER CARD.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_e989eef7219b6520,trainer,trainer_dialogue,,,,,src/strings.c,1380,gText_CheckTrainerCard,Check TRAINER CARD.,Check TRAINER CARD.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_7ee1cd6451fe2c1a,trainer,trainer_dialogue,,,,,src/strings.c,1608,gEasyChatGroupName_Trainer,TRAINER,TRAINER,,untranslated,,,dup_00784,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_4e1de27bb709966d,trainer,trainer_dialogue,,,,,src/strings.c,1771,gText_NewTrainerReceived,A new TRAINER has arrived.,A new TRAINER has arrived.,,untranslated,,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_7a75e2ee1c35da97,trainer,trainer_dialogue,,,,,src/strings.c,1783,gText_CantAcceptCardFromTrainer,You can't accept a WONDER CARD\nfrom this TRAINER.,"You can't accept a WONDER CARD
+from this TRAINER.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_3e446d9f5d566aee,trainer,trainer_dialogue,,,,,src/strings.c,1785,gText_CantAcceptNewsFromTrainer,You can't accept WONDER NEWS\nfrom this TRAINER.,"You can't accept WONDER NEWS
+from this TRAINER.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_0256cca6917b809f,trainer,trainer_dialogue,,,,,src/strings.c,1805,gText_OtherTrainerHasCard,The other TRAINER has the same\nWONDER CARD already.,"The other TRAINER has the same
+WONDER CARD already.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d52dd9ede51a36aa,trainer,trainer_dialogue,,,,,src/strings.c,1807,gText_OtherTrainerHasNews,The other TRAINER has the same\nWONDER NEWS already.,"The other TRAINER has the same
+WONDER NEWS already.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_ddca7ab914b5bdc9,trainer,trainer_dialogue,,,,,src/strings.c,1809,gText_OtherTrainerHasStamp,The other TRAINER has the same\nSTAMP already.,"The other TRAINER has the same
+STAMP already.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_1608dc547c0739bd,trainer,trainer_dialogue,,,,,src/strings.c,1811,gText_OtherTrainerCanceled,The other TRAINER canceled\ncommunication.,"The other TRAINER canceled
+communication.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_449f09c5a1dbffe7,trainer,trainer_dialogue,,,,,src/strings.c,1813,gText_CantSendGiftToTrainer,You can't send a MYSTERY GIFT to\nthis TRAINER.,"You can't send a MYSTERY GIFT to
+this TRAINER.",,untranslated,\n,,,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_ea7937a23343bfa4,trainer,trainer_dialogue,,,,,src/strings.c,1853,gText_TrainerHill1F,1F,1F,,untranslated,,,dup_00007,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_d43bc2f315fab8a7,trainer,trainer_dialogue,,,,,src/strings.c,1854,gText_TrainerHill2F,2F,2F,,untranslated,,,dup_00009,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c8fb388d3e44a04f,trainer,trainer_dialogue,,,,,src/strings.c,1855,gText_TrainerHill3F,3F,3F,,untranslated,,,dup_00010,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,
+dlg_c757ce6ec9747c19,trainer,trainer_dialogue,,,,,src/strings.c,1856,gText_TrainerHill4F,4F,4F,,untranslated,,,dup_00011,,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE,NEEDS_TRANSLATION,

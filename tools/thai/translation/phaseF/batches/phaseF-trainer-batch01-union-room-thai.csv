@@ -1,0 +1,108 @@
+﻿id,category,subcategory,story_order,map_name,location_name,speaker,source_file,source_line,source_label,english_raw,english_preview,thai,translation_status,control_codes,placeholders,duplicate_group,notes,scope_group,scope_subgroup,policy,scope_status,canonical_tracker,reason,scope_decision
+dlg_e616ce25eb9f52d3,trainer,trainer_dialogue,,,,,src/data/union_room.h,96,sText_OtherTrainerUnavailableNow,The other TRAINER doesn't appear\nto be available now…\p,"The other TRAINER doesn't appear
+to be available now…
+[PAGE]
+",ดูเหมือนเทรนเนอร์อีกฝ่าย\nจะยังไม่ว่างตอนนี้…\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_2aa91d67aa170858,trainer,trainer_dialogue,,,,,src/data/union_room.h,97,sText_CantTransmitTrainerTooFar,You can't transmit with a TRAINER\nwho is too far away.\p,"You can't transmit with a TRAINER
+who is too far away.
+[PAGE]
+",ไม่สามารถสื่อสารกับเทรนเนอร์\nที่อยู่ไกลเกินไปได้\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_81d1855a9bbd8e87,trainer,trainer_dialogue,,,,,src/data/union_room.h,98,sText_TrainersNotReadyYet,The other TRAINER(S) is/are not\nready yet.\p,"The other TRAINER(S) is/are not
+ready yet.
+[PAGE]
+",เทรนเนอร์อีกฝ่าย\nยังไม่พร้อมในตอนนี้\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_fbefae372e51c0d7,trainer,trainer_dialogue,,,,,src/data/union_room.h,113,sText_TrainerAppearsUnavailable,The other TRAINER appears\nunavailable…\p,"The other TRAINER appears
+unavailable…
+[PAGE]
+",ดูเหมือนเทรนเนอร์อีกฝ่าย\nจะยังไม่ว่าง…\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_daae05298ce9cbef,trainer,trainer_dialogue,,,,,src/data/union_room.h,215,sText_AwaitingResponseFromTrainer,Awaiting a response from\nthe other TRAINER…,"Awaiting a response from
+the other TRAINER…",กำลังรอการตอบกลับจาก\nเทรนเนอร์อีกฝ่าย…,applied,\n,,dup_00060,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_2d8e0b5f2ce40dc2,trainer,trainer_dialogue,,,,,src/data/union_room.h,223,sText_ShowTrainerCard,The other TRAINER showed\nyou their TRAINER CARD.\pWould you like to show your\nTRAINER CARD?,"The other TRAINER showed
+you their TRAINER CARD.
+[PAGE]
+Would you like to show your
+TRAINER CARD?",เทรนเนอร์อีกฝ่ายแสดง\nบัตรเทรนเนอร์ให้คุณดู\pต้องการแสดงบัตรเทรนเนอร์\nของคุณหรือไม่?,applied,\n | \p | \n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_15275bfdcd69ff76,trainer,trainer_dialogue,,,,,src/data/union_room.h,256,sText_TrainerAppearsBusy,……\nThe TRAINER appears to be busy…\p,"……
+The TRAINER appears to be busy…
+[PAGE]
+",……\nดูเหมือนเทรนเนอร์จะไม่ว่าง…\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_4c65ab2068a44c87,trainer,trainer_dialogue,,,,,src/data/union_room.h,259,sText_ShowTrainerCardMale,"Sure thing! As my “Greetings,”\nhere's my TRAINER CARD.","Sure thing! As my “Greetings,”
+here's my TRAINER CARD.",ได้เลย! ถือเป็นคำทักทาย\nนี่บัตรเทรนเนอร์ของผม,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_9ab8851da5f82dfe,trainer,trainer_dialogue,,,,,src/data/union_room.h,262,sText_ShowTrainerCardFemale,"As my introduction, I'll show you\nmy TRAINER CARD.","As my introduction, I'll show you
+my TRAINER CARD.",ขอแนะนำตัวด้วยการให้ดู\nบัตรเทรนเนอร์ของฉันนะ,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_eb49686c258f16c7,trainer,trainer_dialogue,,,,,src/data/union_room.h,319,sText_ShowTrainerCardDeclinedMale,Huh? My TRAINER CARD…\nWhere'd it go now?\lSorry! I'll show you another time!\p,"Huh? My TRAINER CARD…
+Where'd it go now?
+Sorry! I'll show you another time!
+[PAGE]
+",เอ๊ะ? บัตรเทรนเนอร์ของผม…\nหายไปไหนแล้วนะ?\lขอโทษ! ไว้คราวหน้าจะให้ดู!\p,applied,\n | \l | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_fbbeed755f52dd1e,trainer,trainer_dialogue,,,,,src/data/union_room.h,320,sText_ShowTrainerCardDeclinedFemale,Oh? Now where did I put my\nTRAINER CARD?…\lSorry! I'll show you later!\p,"Oh? Now where did I put my
+TRAINER CARD?…
+Sorry! I'll show you later!
+[PAGE]
+",เอ๊ะ? ฉันวางบัตรเทรนเนอร์\nไว้ที่ไหนนะ?…\lขอโทษนะ! ไว้คราวหน้าจะให้ดู!\p,applied,\n | \l | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_664349209810681b,trainer,trainer_dialogue,,,,,src/data/union_room.h,335,sText_TrainerBattleBusy,"Whoops! Sorry, but I have to do\nsomething else.\lAnother time, okay?\p","Whoops! Sorry, but I have to do
+something else.
+Another time, okay?
+[PAGE]
+",อ๊ะ! โทษที พอดีมีธุระ\nอย่างอื่นต้องทำ\lไว้คราวหน้านะ?\p,applied,\n | \l | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_c98718ab42b09368,trainer,trainer_dialogue,,,,,src/data/union_room.h,405,sText_ShowedTrainerCardMale1,I'm just showing my TRAINER CARD\nas my way of greeting.\p,"I'm just showing my TRAINER CARD
+as my way of greeting.
+[PAGE]
+",ผมแค่ให้ดูบัตรเทรนเนอร์\nแทนคำทักทายน่ะ\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_9f690d1ed07b41e4,trainer,trainer_dialogue,,,,,src/data/union_room.h,406,sText_ShowedTrainerCardMale2,I hope I get to know you better!\p,"I hope I get to know you better!
+[PAGE]
+",หวังว่าเราจะได้รู้จักกันมากขึ้นนะ!\p,applied,\p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_6a43f410049c941c,trainer,trainer_dialogue,,,,,src/data/union_room.h,407,sText_ShowedTrainerCardFemale1,We're showing each other our\nTRAINER CARDS to get acquainted.\p,"We're showing each other our
+TRAINER CARDS to get acquainted.
+[PAGE]
+",เราแลกกันดูบัตรเทรนเนอร์\nเพื่อทำความรู้จักกันน่ะ\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_512f0e40928cee5a,trainer,trainer_dialogue,,,,,src/data/union_room.h,408,sText_ShowedTrainerCardFemale2,Glad to meet you.\nPlease don't be a stranger!\p,"Glad to meet you.
+Please don't be a stranger!
+[PAGE]
+",ยินดีที่ได้รู้จักนะ\nไว้คุยกันอีก!\p,applied,\n | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_bdb5bb71f2e9800e,trainer,trainer_dialogue,,,,,src/data/union_room.h,459,sText_TradeTrainersWillBeListed,TRAINERS wishing to make a trade\nwill be listed.,"TRAINERS wishing to make a trade
+will be listed.",เทรนเนอร์ที่ต้องการแลกเปลี่ยน\nจะแสดงในรายชื่อ,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_a5a3d3f8af96473c,trainer,trainer_dialogue,,,,,src/data/union_room.h,460,sText_ChooseTrainerToTradeWith2,Please choose the TRAINER with whom\nyou would like to trade POKéMON.,"Please choose the TRAINER with whom
+you would like to trade POKéMON.",โปรดเลือกเทรนเนอร์ที่คุณ\nต้องการแลกโปเกมอนด้วย,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_98db00e989990558,trainer,trainer_dialogue,,,,,src/data/union_room.h,461,sText_AskTrainerToMakeTrade,Would you like to ask {STR_VAR_1} to\nmake a trade?,"Would you like to ask {STR_VAR_1} to
+make a trade?",ต้องการขอให้ {STR_VAR_1}\nแลกเปลี่ยนหรือไม่?,applied,{STR_VAR_1} | \n,{STR_VAR_1},,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_844cad653ce77111,trainer,trainer_dialogue,,,,,src/data/union_room.h,462,sText_AwaitingResponseFromTrainer2,Awaiting a response from\nthe other TRAINER…,"Awaiting a response from
+the other TRAINER…",กำลังรอการตอบกลับจาก\nเทรนเนอร์อีกฝ่าย…,applied,\n,,dup_00060,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_056085259507d551,trainer,trainer_dialogue,,,,,src/data/union_room.h,464,sText_DontHaveTypeTrainerWants,You don't have a {STR_VAR_2}-type\nPOKéMON that {STR_VAR_1} wants.\p,"You don't have a {STR_VAR_2}-type
+POKéMON that {STR_VAR_1} wants.
+[PAGE]
+",คุณไม่มีโปเกมอนประเภท {STR_VAR_2}\nที่ {STR_VAR_1} ต้องการ\p,applied,{STR_VAR_2} | \n | {STR_VAR_1} | \p,{STR_VAR_2} | {STR_VAR_1},,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_84441fa3da066423,trainer,trainer_dialogue,,,,,src/data/union_room.h,465,sText_DontHaveEggTrainerWants,You don't have an EGG that\n{STR_VAR_1} wants.\p,"You don't have an EGG that
+{STR_VAR_1} wants.
+[PAGE]
+",คุณไม่มีไข่โปเกมอนที่\n{STR_VAR_1} ต้องการ\p,applied,\n | {STR_VAR_1} | \p,{STR_VAR_1},,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_8e2e39c4d73c1534,trainer,trainer_dialogue,,,,,src/data/union_room.h,478,sText_ChooseTrainer,Please choose a TRAINER.,Please choose a TRAINER.,โปรดเลือกเทรนเนอร์,applied,,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_a55b9c8c62c0f564,trainer,trainer_dialogue,,,,,src/data/union_room.h,479,sText_ChooseTrainerSingleBattle,Please choose a TRAINER for\na SINGLE BATTLE.,"Please choose a TRAINER for
+a SINGLE BATTLE.",โปรดเลือกเทรนเนอร์สำหรับ\nการต่อสู้เดี่ยว,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_d95b345c266b8865,trainer,trainer_dialogue,,,,,src/data/union_room.h,480,sText_ChooseTrainerDoubleBattle,Please choose a TRAINER for\na DOUBLE BATTLE.,"Please choose a TRAINER for
+a DOUBLE BATTLE.",โปรดเลือกเทรนเนอร์สำหรับ\nการต่อสู้คู่,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_83a4ac102a33cfed,trainer,trainer_dialogue,,,,,src/data/union_room.h,482,sText_ChooseTrainerToTradeWith,Please choose the TRAINER to\ntrade with.,"Please choose the TRAINER to
+trade with.",โปรดเลือกเทรนเนอร์ที่\nต้องการแลกเปลี่ยนด้วย,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_a86776b41d193dd5,trainer,trainer_dialogue,,,,,src/data/union_room.h,483,sText_ChooseTrainerToShareWonderCards,Please choose the TRAINER who is\nsharing WONDER CARDS.,"Please choose the TRAINER who is
+sharing WONDER CARDS.",โปรดเลือกเทรนเนอร์ที่กำลัง\nแบ่งปันวันเดอร์การ์ด,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_ff2c4b342ed5ef06,trainer,trainer_dialogue,,,,,src/data/union_room.h,484,sText_ChooseTrainerToShareWonderNews,Please choose the TRAINER who is\nsharing WONDER NEWS.,"Please choose the TRAINER who is
+sharing WONDER NEWS.",โปรดเลือกเทรนเนอร์ที่กำลัง\nแบ่งปันวันเดอร์นิวส์,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_a8bc0ac520e112fa,trainer,trainer_dialogue,,,,,src/data/union_room.h,529,sText_PleaseWaitForOtherTrainersToGather,Please wait for other TRAINERS to\ngather and get ready.,"Please wait for other TRAINERS to
+gather and get ready.",โปรดรอให้เทรนเนอร์คนอื่น\nมารวมตัวและเตรียมพร้อม,applied,\n,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_0e76bff7ea1149bc,trainer,trainer_dialogue,,,,,src/data/union_room.h,580,sText_TrainerCardInfoPage1,This is {DYNAMIC 0} {DYNAMIC 1}'s\nTRAINER CARD…\l{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\p,"This is {DYNAMIC 0} {DYNAMIC 1}'s
+TRAINER CARD…
+{DYNAMIC 2}
+[PAGE]
+POKéDEX: {DYNAMIC 3}
+TIME:    {DYNAMIC 4}:{DYNAMIC 5}
+[PAGE]
+",นี่คือบัตรเทรนเนอร์ของ\n{DYNAMIC 0} {DYNAMIC 1}…\l{DYNAMIC 2}\pโปเกเด็กซ์: {DYNAMIC 3}\nเวลา:    {DYNAMIC 4}:{DYNAMIC 5}\p,applied,{DYNAMIC 0} | {DYNAMIC 1} | \n | \l | {DYNAMIC 2} | \p | {DYNAMIC 3} | \n | {DYNAMIC 4} | {DYNAMIC 5} | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_81265cd4fb934917,trainer,trainer_dialogue,,,,,src/data/union_room.h,581,sText_TrainerCardInfoPage2,BATTLES: WINS: {DYNAMIC 0}  LOSSES: {DYNAMIC 2}\nTRADES: {DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p,"BATTLES: WINS: {DYNAMIC 0}  LOSSES: {DYNAMIC 2}
+TRADES: {DYNAMIC 3}
+[PAGE]
+“{DYNAMIC 4} {DYNAMIC 5}
+{DYNAMIC 6} {DYNAMIC 7}”
+[PAGE]
+",ต่อสู้: ชนะ {DYNAMIC 0}  แพ้ {DYNAMIC 2}\nแลกเปลี่ยน: {DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p,applied,{DYNAMIC 0} | {DYNAMIC 2} | \n | {DYNAMIC 3} | \p | {DYNAMIC 4} | {DYNAMIC 5} | \n | {DYNAMIC 6} | {DYNAMIC 7} | \p,,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
+dlg_8e9bfc9b7595ef93,trainer,trainer_dialogue,,,,,src/data/union_room.h,590,sText_FinishedCheckingPlayersTrainerCard,Finished checking {DYNAMIC 1}'s\nTRAINER CARD.{PAUSE 60},"Finished checking {DYNAMIC 1}'s
+TRAINER CARD.{PAUSE 60}",ดูบัตรเทรนเนอร์ของ {DYNAMIC 1}\nเรียบร้อยแล้ว{PAUSE 60},applied,{DYNAMIC 1} | \n | {PAUSE 60},,,phaseF-trainer-batch01 Union Room contextual draft; Technical gates PASS; runtime QA deferred OPTIONAL,Trainer,Spoken Trainer Dialogue,HOLD_FOR_SCOPE_DECISION,HOLD,Phase F Trainer Waves,Not spoken Trainer dialogue; removed from locked Trainer scope.,TRANSLATE
