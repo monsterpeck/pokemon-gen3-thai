@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_controllers.h"
@@ -393,7 +394,7 @@ static const u8 sText_LinkTrainerSentOutTwoPkmn[] = _("{B_LINK_OPPONENT1_NAME} {
 static const u8 sText_TwoLinkTrainersSentOutPkmn[] = _("{B_LINK_OPPONENT1_NAME} {252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1} {B_LINK_OPPONENT_MON1_NAME} {252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}!\n{B_LINK_OPPONENT2_NAME} {252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1} {B_LINK_OPPONENT_MON2_NAME} {252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{45}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}!");
 static const u8 sText_LinkTrainerSentOutPkmn2[] = _("{B_LINK_OPPONENT1_NAME} {252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}\n{B_BUFF1} {252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}!");
 static const u8 sText_LinkTrainerMultiSentOutPkmn[] = _("{B_LINK_SCR_TRAINER_NAME} {252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}\n{B_BUFF1} {252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}!");
-static const u8 sText_GoPkmn[] = _("{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {B_PLAYER_MON1_NAME}!");
+static const u8 sText_GoPkmn[] = _("{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {B_ACTIVE_NAME_WITH_PREFIX}!");
 static const u8 sText_GoTwoPkmn[] = _("{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {B_PLAYER_MON1_NAME} {252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}\n{B_PLAYER_MON2_NAME}!");
 static const u8 sText_GoPkmn2[] = _("{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {B_BUFF1}!");
 static const u8 sText_DoItPkmn[] = _("{252}{25}{162}{1}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {B_BUFF1}!");
@@ -407,14 +408,14 @@ static const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, {252}{25}{123}{0}{0}{24
 static const u8 sText_Trainer1WithdrewPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\n{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{136}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1} {B_BUFF1} {252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}!");
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} {252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{136}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}\n{B_BUFF1} {252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}!");
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_SCR_TRAINER_NAME} {252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{136}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}\n{B_BUFF1} {252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{31}{0}{0}{244}{7}{1}!");
-static const u8 sText_WildPkmnPrefix[] = _("Wild ");
-static const u8 sText_FoePkmnPrefix[] = _("Foe ");
+static const u8 sText_WildPkmnPrefix[] = _("{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{71}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1} ");
+static const u8 sText_FoePkmnPrefix[] = _("{252}{25}{73}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1} ");
 static const u8 sText_EmptyString8[] = _("");
-static const u8 sText_FoePkmnPrefix2[] = _("Foe");
+static const u8 sText_FoePkmnPrefix2[] = _("{252}{25}{73}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}");
 static const u8 sText_AllyPkmnPrefix[] = _("Ally");
-static const u8 sText_FoePkmnPrefix3[] = _("Foe");
+static const u8 sText_FoePkmnPrefix3[] = _("{252}{25}{73}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}");
 static const u8 sText_AllyPkmnPrefix2[] = _("Ally");
-static const u8 sText_FoePkmnPrefix4[] = _("Foe");
+static const u8 sText_FoePkmnPrefix4[] = _("{252}{25}{73}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{85}{1}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}");
 static const u8 sText_AllyPkmnPrefix3[] = _("Ally");
 static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX} {252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{90}{1}{0}{244}{6}{1}\n{B_BUFF2}");
 static const u8 sText_ExclamationMark[] = _("!");
@@ -2283,6 +2284,40 @@ static const u8 *TryGetStatusString(u8 *src)
     return NULL;
 }
 
+#ifdef THAI_NAMING_PRODUCTION
+EWRAM_DATA static u8 sThaiBattleNicknameText[256] = {0};
+#endif
+
+static const u8 *ResolveBattleNicknameForText(struct Pokemon *mon, u8 *nickname)
+{
+#ifdef THAI_NAMING_PRODUCTION
+    u16 species = GetMonData(mon, MON_DATA_SPECIES);
+
+    if (IsBoxMonNicknameThai(&mon->box))
+    {
+        if (ThaiShapeCompactName(
+                nickname,
+                StringLength(nickname),
+                POKEMON_NAME_LENGTH,
+                sThaiBattleNicknameText,
+                sizeof(sThaiBattleNicknameText)))
+            return sThaiBattleNicknameText;
+
+        return GetSpeciesNameForDisplay(species);
+    }
+#endif
+
+    StringGet_Nickname(nickname);
+
+#ifdef THAI_NAMING_PRODUCTION
+    if (species < NUM_SPECIES
+     && StringCompare(nickname, gSpeciesNames[species]) == 0)
+        return GetSpeciesNameForDisplay(species);
+#endif
+
+    return nickname;
+}
+
 #define HANDLE_NICKNAME_STRING_CASE(battler, monIndex)                \
     if (GetBattlerSide(battler) != B_SIDE_PLAYER)                     \
     {                                                                   \
@@ -2302,8 +2337,11 @@ static const u8 *TryGetStatusString(u8 *src)
     {                                                                   \
         GetMonData(&gPlayerParty[monIndex], MON_DATA_NICKNAME, text);   \
     }                                                                   \
-    StringGet_Nickname(text);                                           \
-    toCpy = text;
+    toCpy = ResolveBattleNicknameForText(                          \
+        GetBattlerSide(battler) != B_SIDE_PLAYER                   \
+            ? &gEnemyParty[monIndex]                                \
+            : &gPlayerParty[monIndex],                              \
+        text);
 
 // Ensure the defined length for an item name can contain the full defined length of a berry name.
 // This ensures that custom Enigma Berry names will fit in the text buffer at the top of BattleStringExpandPlaceholders.
@@ -2595,7 +2633,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 if (gBattleTypeFlags & BATTLE_TYPE_RECORDED)
                     toCpy = gLinkPlayers[0].name;
                 else
-                    toCpy = gSaveBlock2Ptr->playerName;
+                    toCpy = GetPlayerNameForDisplay();
                 break;
             case B_TXT_TRAINER1_LOSE_TEXT: // trainerA lose text
                 if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
@@ -2818,6 +2856,26 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             }
             StringGet_Nickname(nickname);
             StringAppend(dst, nickname);
+            srcID += 3;
+            break;
+        case B_BUFF_MON_NICK_WITH_PREFIX_THAI:
+            if (GetBattlerSide(src[srcID + 1]) == B_SIDE_PLAYER)
+            {
+                GetMonData(&gPlayerParty[src[srcID + 2]], MON_DATA_NICKNAME, nickname);
+                StringAppend(dst, ResolveBattleNicknameForText(
+                    &gPlayerParty[src[srcID + 2]], nickname));
+            }
+            else
+            {
+                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                    StringAppend(dst, sText_FoePkmnPrefix);
+                else
+                    StringAppend(dst, sText_WildPkmnPrefix);
+
+                GetMonData(&gEnemyParty[src[srcID + 2]], MON_DATA_NICKNAME, nickname);
+                StringAppend(dst, ResolveBattleNicknameForText(
+                    &gEnemyParty[src[srcID + 2]], nickname));
+            }
             srcID += 3;
             break;
         case B_BUFF_STAT: // stats
