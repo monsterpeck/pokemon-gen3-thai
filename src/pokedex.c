@@ -3761,7 +3761,7 @@ static void Task_LoadSizeScreen(u8 taskId)
             u8 string[128];
 
             StringCopy(string, gText_SizeComparedTo);
-            StringAppend(string, gSaveBlock2Ptr->playerName);
+            StringAppend(string, GetPlayerNameForDisplay());
             PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, DISPLAY_WIDTH), 121);
             gMain.state++;
         }
