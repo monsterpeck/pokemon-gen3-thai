@@ -4500,25 +4500,17 @@ static void UNUSED UnusedPrintNum(u8 windowId, u16 num, u8 left, u8 top)
 
 static u8 PrintCryScreenSpeciesName(u8 windowId, u16 num, u8 left, u8 top)
 {
-    u8 str[POKEMON_NAME_LENGTH + 1];
-    u8 i;
+    static const u8 sUnknownSpeciesName[] = _("-----");
+    const u8 *name;
 
-    for (i = 0; i < ARRAY_COUNT(str); i++)
-        str[i] = EOS;
     num = NationalPokedexNumToSpecies(num);
-    switch (num)
-    {
-    default:
-        for (i = 0; gSpeciesNames[num][i] != EOS && i < POKEMON_NAME_LENGTH; i++)
-            str[i] = gSpeciesNames[num][i];
-        break;
-    case 0:
-        for (i = 0; i < 5; i++)
-            str[i] = CHAR_HYPHEN;
-        break;
-    }
-    PrintInfoSubMenuText(windowId, str, left, top);
-    return i;
+    if (num)
+        name = GetSpeciesNameForDisplay(num);
+    else
+        name = sUnknownSpeciesName;
+
+    PrintInfoSubMenuText(windowId, name, left, top);
+    return StringLength(name);
 }
 
 static void UNUSED UnusedPrintMonName(u8 windowId, const u8 *name, u8 left, u8 top)
