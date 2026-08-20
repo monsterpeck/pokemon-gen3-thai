@@ -1,4 +1,6 @@
 #include "global.h"
+#include "thai_name.h"
+#include "constants/abilities.h"
 #include "main.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -2749,7 +2751,6 @@ static void PrintMonInfo(void)
 
 static void PrintNotEggInfo(void)
 {
-    u8 strArray[16];
     struct Pokemon *mon = &sMonSummaryScreen->currentMon;
     struct PokeSummary *summary = &sMonSummaryScreen->summary;
     u16 dexNum = SpeciesToPokedexNum(summary->species);
@@ -2785,9 +2786,9 @@ static void PrintNotEggInfo(void)
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, gStringVar1, 24, 17, 0, 1);
     GetMonNickname(mon, gStringVar1);
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, gStringVar1, 0, 1, 0, 1);
-    strArray[0] = CHAR_SLASH;
-    StringCopy(&strArray[1], &gSpeciesNames[summary->species2][0]);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, strArray, 0, 1, 0, 1);
+    gStringVar1[0] = CHAR_SLASH;
+    StringCopy(&gStringVar1[1], GetSpeciesNameForDisplay(summary->species2));
+    PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, gStringVar1, 0, 1, 0, 1);
     PrintGenderSymbol(mon, summary->species2);
     PutWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME);
     PutWindowTilemap(PSS_LABEL_WINDOW_PORTRAIT_SPECIES);
@@ -3082,15 +3083,21 @@ static void Task_PrintInfoPage(u8 taskId)
 static void PrintMonOTName(void)
 {
     int x, windowId;
+    const u8 *otName = sMonSummaryScreen->summary.OTName;
+
     if (InBattleFactory() != TRUE && InSlateportBattleTent() != TRUE)
     {
+        if (sMonSummaryScreen->monList.mons != gEnemyParty
+         && DoesMonOTMatchOwner() == TRUE)
+            otName = GetPlayerNameForDisplay();
+
         windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ORIGINAL_TRAINER);
         PrintTextOnWindow(windowId, gText_OTSlash, 0, 1, 0, 1);
         x = GetStringWidth(FONT_NORMAL, gText_OTSlash, 0);
         if (sMonSummaryScreen->summary.OTGender == 0)
-            PrintTextOnWindow(windowId, sMonSummaryScreen->summary.OTName, x, 1, 0, 5);
+            PrintTextOnWindow(windowId, otName, x, 1, 0, 5);
         else
-            PrintTextOnWindow(windowId, sMonSummaryScreen->summary.OTName, x, 1, 0, 6);
+            PrintTextOnWindow(windowId, otName, x, 1, 0, 6);
     }
 }
 
@@ -3113,12 +3120,19 @@ static void PrintMonAbilityName(void)
 
 static void PrintMonAbilityDescription(void)
 {
+    static const u8 sThaiBlazeDescription[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{101}{0}{0}{244}{8}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{68}{1}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{36}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{44}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{26}{2}{0}{244}{7}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{25}{2}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}");
     u8 ability = GetAbilityBySpecies(sMonSummaryScreen->summary.species, sMonSummaryScreen->summary.abilityNum);
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilityDescriptionPointers[ability], 0, 17, 0, 0);
+    const u8 *description = gAbilityDescriptionPointers[ability];
+
+    if (ability == ABILITY_BLAZE)
+        description = sThaiBlazeDescription;
+
+    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), description, 0, 17, 0, 0);
 }
 
 static void BufferMonTrainerMemo(void)
 {
+    static const u8 sThaiRoute101Name[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{108}{1}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{12}{0}{0}{244}{4}{1} 101");
     struct PokeSummary *sum = &sMonSummaryScreen->summary;
     const u8 *text;
 
@@ -3139,8 +3153,13 @@ static void BufferMonTrainerMemo(void)
 
         if (sum->metLocation < MAPSEC_NONE)
         {
-            GetMapNameHandleAquaHideout(metLocationString, sum->metLocation);
-            DynamicPlaceholderTextUtil_SetPlaceholderPtr(4, metLocationString);
+            if (sum->metLocation == MAPSEC_ROUTE_101)
+                DynamicPlaceholderTextUtil_SetPlaceholderPtr(4, sThaiRoute101Name);
+            else
+            {
+                GetMapNameHandleAquaHideout(metLocationString, sum->metLocation);
+                DynamicPlaceholderTextUtil_SetPlaceholderPtr(4, metLocationString);
+            }
         }
 
         if (DoesMonOTMatchOwner() == TRUE)
@@ -3828,10 +3847,10 @@ static void SetMonTypeIcons(void)
     }
     else
     {
-        SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].types[0], 152, 48, SPRITE_ARR_ID_TYPE);
+        SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].types[0], 132, 48, SPRITE_ARR_ID_TYPE);
         if (gSpeciesInfo[summary->species].types[0] != gSpeciesInfo[summary->species].types[1])
         {
-            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].types[1], 192, 48, SPRITE_ARR_ID_TYPE + 1);
+            SetTypeSpritePosAndPal(gSpeciesInfo[summary->species].types[1], 172, 48, SPRITE_ARR_ID_TYPE + 1);
             SetSpriteInvisibility(SPRITE_ARR_ID_TYPE + 1, FALSE);
         }
         else
