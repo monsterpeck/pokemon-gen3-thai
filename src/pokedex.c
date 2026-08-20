@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "battle_main.h"
 #include "bg.h"
 #include "data.h"
@@ -4102,7 +4103,7 @@ static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite)
 static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
 {
     u8 str[16];
-    u8 str2[32];
+    u8 str2[176];
     u16 natNum;
     const u8 *name;
     const u8 *category;
@@ -4118,7 +4119,7 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     PrintInfoScreenText(str, 0x60, 0x19);
     natNum = NationalPokedexNumToSpecies(num);
     if (natNum)
-        name = gSpeciesNames[natNum];
+        name = GetSpeciesNameForDisplay(natNum);
     else
         name = sText_TenDashes2;
     PrintInfoScreenText(name, 0x84, 0x19);
