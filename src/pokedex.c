@@ -2450,7 +2450,7 @@ static u8 CreateMonName(u16 num, u8 left, u8 top)
 
     num = NationalPokedexNumToSpecies(num);
     if (num)
-        str = gSpeciesNames[num];
+        str = GetSpeciesNameForDisplay(num);
     else
         str = sText_TenDashes;
     PrintMonDexNumAndName(0, FONT_NARROW, str, left, top);
