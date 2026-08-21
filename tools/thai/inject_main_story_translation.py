@@ -91,7 +91,7 @@ def parse_assembly_targets(text: str) -> list[dict[str, object]]:
         targets.append(
             {
                 "label": label.group(1),
-                "line": clean.count("\n", 0, label.start()) + 1,
+                "line": clean.count("\n", 0, label.start(1)) + 1,
                 "raw": "".join(
                     extraction.decode_literal(fragment.group(1)) for fragment in fragments
                 ),
@@ -103,7 +103,71 @@ def parse_assembly_targets(text: str) -> list[dict[str, object]]:
     return targets
 
 
-def guard_syntax(row_id: str, field: str, text: str) -> None:
+def parse_c_targets(text: str) -> list[dict[str, object]]:
+    """Add replacement spans to the extractor's C parsing semantics."""
+    clean = extraction.strip_comments(text)
+    targets: list[dict[str, object]] = []
+    macro = re.compile(r"(?<![A-Za-z0-9_])_\s*\(")
+    position = 0
+
+    while True:
+        match = macro.search(clean, position)
+        if not match:
+            break
+
+        index, depth, quoted = match.end(), 1, False
+        while index < len(clean) and depth:
+            char = clean[index]
+            if quoted:
+                if char == "\\":
+                    index += 2
+                    continue
+                if char == '"':
+                    quoted = False
+            elif char == '"':
+                quoted = True
+            elif char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+            index += 1
+
+        position = max(index, match.end())
+        if depth:
+            continue
+
+        expression_start = match.end()
+        expression_end = index - 1
+        expression = clean[expression_start:expression_end]
+
+        fragments = re.findall(r'"((?:\\.|[^"\\])*)"', expression)
+        if not fragments:
+            continue
+
+        line = clean.count("\n", 0, match.start()) + 1
+        preceding = clean[max(0, match.start() - 600):match.start()]
+        symbols = re.findall(
+            r"([A-Za-z_][A-Za-z0-9_]*)\s*(?:\[[^;=]*\])?\s*=\s*$",
+            preceding,
+        )
+
+        targets.append(
+            {
+                "label": symbols[-1] if symbols else f"inline_{line}",
+                "line": line,
+                "raw": "".join(
+                    extraction.decode_literal(fragment) for fragment in fragments
+                ),
+                "start": expression_start,
+                "end": expression_end,
+                "indent": "",
+            }
+        )
+
+    return targets
+
+
+def guard_syntax(row_id: str, field: str, text: str, require_terminator: bool = True) -> None:
     escape_starts = {match.start() for match in VALID_ESCAPE_RE.finditer(text)}
     for match in re.finditer(r"\\", text):
         if match.start() not in escape_starts:
@@ -114,24 +178,39 @@ def guard_syntax(row_id: str, field: str, text: str) -> None:
         raise InjectionError(f"{row_id}: malformed brace sequence in {field}")
     recognized = {
         (match.start(), match.end())
-        for pattern in (validation.CONTROL_RE, validation.PLACEHOLDER_RE, NUMERIC_BRACE_RE)
+        for pattern in (
+            validation.CONTROL_RE,
+            validation.PLACEHOLDER_RE,
+            NUMERIC_BRACE_RE,
+            re.compile(r"\{CLEAR_TO [0-9]+\}"),
+        )
         for match in pattern.finditer(text)
         if match.group(0).startswith("{")
     }
     if brace_spans != recognized:
         raise InjectionError(f"{row_id}: malformed control or placeholder in {field}")
-    if text.count("$") != 1 or not text.endswith("$"):
-        raise InjectionError(f"{row_id}: malformed string terminator in {field}")
+    if require_terminator:
+        terminator = re.search(r"\$+$", text)
+        if not terminator or "$" in text[:terminator.start()]:
+            raise InjectionError(f"{row_id}: malformed string terminator in {field}")
+    elif "$" in text:
+        raise InjectionError(f"{row_id}: unexpected string terminator in {field}")
 
 
 def guard_translation(row: dict[str, str]) -> None:
     row_id, english, thai = row["id"], row["english_raw"], row["thai"]
     if not thai:
         raise InjectionError(f"{row_id}: empty Thai translation")
-    guard_syntax(row_id, "english_raw", english)
-    guard_syntax(row_id, "thai", thai)
+    require_terminator = not row["source_file"].endswith(".c")
+    guard_syntax(row_id, "english_raw", english, require_terminator)
+    guard_syntax(row_id, "thai", thai, require_terminator)
     if validation.PLACEHOLDER_RE.findall(thai) != validation.PLACEHOLDER_RE.findall(english):
         raise InjectionError(f"{row_id}: placeholder mismatch")
+    if require_terminator:
+        english_term = re.search(r"\$+$", english).group(0)
+        thai_term = re.search(r"\$+$", thai).group(0)
+        if thai_term != english_term:
+            raise InjectionError(f"{row_id}: string terminator mismatch")
     if validation.required_controls(thai) != validation.required_controls(english):
         raise InjectionError(f"{row_id}: required control sequence mismatch")
     for code in (r"\n", r"\l"):
@@ -141,8 +220,8 @@ def guard_translation(row: dict[str, str]) -> None:
 
 def source_path(value: str) -> Path:
     path = (ROOT / value).resolve()
-    if ROOT not in path.parents or not path.is_file() or path.suffix != ".inc":
-        raise InjectionError(f"invalid assembly source_file: {value}")
+    if ROOT not in path.parents or not path.is_file() or path.suffix not in {".inc", ".c"}:
+        raise InjectionError(f"invalid translation source_file: {value}")
     return path
 
 
@@ -156,16 +235,28 @@ def resolve(rows: list[dict[str, str]]) -> tuple[list[Target], dict[Path, str]]:
         path = source_path(row["source_file"])
         if path not in texts:
             texts[path] = path.read_text(encoding="utf-8")
-            parsed[path] = parse_assembly_targets(texts[path])
+            parsed[path] = (
+                parse_assembly_targets(texts[path])
+                if path.suffix == ".inc"
+                else parse_c_targets(texts[path])
+            )
         try:
             line = int(row["source_line"])
         except ValueError as error:
             raise InjectionError(f'{row["id"]}: invalid source_line') from error
-        candidates = [
-            entry
-            for entry in parsed[path]
-            if entry["label"] == row["source_label"] and entry["line"] == line
-        ]
+        if path.suffix == ".inc":
+            candidates = [
+                entry
+                for entry in parsed[path]
+                if entry["label"] == row["source_label"] and entry["line"] == line
+            ]
+        else:
+            candidates = [
+                entry
+                for entry in parsed[path]
+                if entry["label"] == row["source_label"]
+                and entry["raw"] == row["english_raw"]
+            ]
         if not candidates:
             raise InjectionError(f'{row["id"]}: source target missing')
         if len(candidates) != 1:
@@ -199,7 +290,10 @@ def rendered_sources(targets: list[Target], texts: dict[Path, str]) -> dict[Path
     for path, path_targets in by_path.items():
         output = texts[path]
         for target in sorted(path_targets, key=lambda item: item.start, reverse=True):
-            replacement = f'{target.indent}.string "{encode_assembly_body(target.thai)}"\n'
+            if target.path.suffix == ".c":
+                replacement = f'"{encode_assembly_body(target.thai)}"'
+            else:
+                replacement = f'{target.indent}.string "{encode_assembly_body(target.thai)}"\n'
             output = output[:target.start] + replacement + output[target.end:]
         rendered[path] = output
     return rendered
@@ -250,7 +344,6 @@ def main(argv: list[str] | None = None) -> int:
     except (InjectionError, OSError, UnicodeError, csv.Error) as error:
         print(f"injection failed: {error}", file=sys.stderr)
         return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

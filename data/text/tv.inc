@@ -44,69 +44,31 @@ LilycoveCity_ContestLobby_Text_LookingForwardToNextContest:
 	.string "POKéMON CONTEST.$"
 
 gTVBravoTrainerText00::
-	.string "Yeah!\n"
-	.string "It's BRAVO TRAINER time!\p"
-	.string "Today, we're going to profile a POKéMON\n"
-	.string "belonging to {STR_VAR_1}.\p"
-	.string "Now, this POKéMON boasts a {STR_VAR_3}\n"
-	.string "Rank in the {STR_VAR_2} Category.$"
+.string "เย่!\nถึงเวลาบราโว เทรนเนอร์!\pวันนี้เราจะพาไปรู้จักโปเกมอน\nของ {STR_VAR_1}\pโปเกมอนตัวนี้ได้แรงก์ {STR_VAR_3}\nในหมวด {STR_VAR_2}$"
 
 gTVBravoTrainerText01::
-	.string "Introducing {STR_VAR_2} the\n"
-	.string "{STR_VAR_1}!\p"
-	.string "The nickname {STR_VAR_2}…\p"
-	.string "Even the nickname exudes an air that\n"
-	.string "proclaims “{STR_VAR_3}”!$"
+.string "ขอแนะนำ {STR_VAR_2}\n{STR_VAR_1}!\pชื่อเล่น {STR_VAR_2}…\pแค่ชื่อเล่นก็ยังเปล่งประกาย\nราวกับประกาศว่า “{STR_VAR_3}”!$"
 
 gTVBravoTrainerText02::
-	.string "Anyway, when the TRAINER {STR_VAR_1}\n"
-	.string "entered the POKéMON in a CONTEST,\l"
-	.string "we managed to get a few impassioned\l"
-	.string "quotes about the trusty partner.$"
+.string "เมื่อเทรนเนอร์ {STR_VAR_1}\nส่งโปเกมอนลงคอนเทสต์\lเราได้ฟังคำพูดเปี่ยมอารมณ์\lเกี่ยวกับคู่หูคู่ใจด้วย$"
 
 gTVBravoTrainerText03::
-	.string "Asked about the CONTEST afterwards,\n"
-	.string "{STR_VAR_1} happily replied with a huge\l"
-	.string "grin, “{STR_VAR_2}!”\p"
-	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
-	.string "That line perfectly suits {STR_VAR_1}\n"
-	.string "right now, I'd say!$"
+.string "หลังคอนเทสต์ เราถามความรู้สึก\n{STR_VAR_1} ยิ้มกว้างแล้วตอบ\lอย่างดีใจว่า “{STR_VAR_2}!”\pก็แน่ล่ะ โปเกมอนของ {STR_VAR_1}\nได้อันดับ {STR_VAR_3} ในคอนเทสต์\pคำพูดนั้นเหมาะกับ {STR_VAR_1}\nในตอนนี้จริง ๆ!$"
 
 gTVBravoTrainerText04::
-	.string "Asked about the CONTEST afterwards,\n"
-	.string "{STR_VAR_1} replied with a tinge of\l"
-	.string "bitterness, “{STR_VAR_2}.”\p"
-	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
-	.string "number {STR_VAR_3} in the CONTEST.\p"
-	.string "{STR_VAR_1}'s disappointment comes across\n"
-	.string "loud and clear, I'd say!$"
+.string "หลังคอนเทสต์ เราถามความรู้สึก\n{STR_VAR_1} ตอบด้วยน้ำเสียง\lขมขื่นว่า “{STR_VAR_2}.”\pก็แน่ล่ะ โปเกมอนของ {STR_VAR_1}\nได้อันดับ {STR_VAR_3} ในคอนเทสต์\pความผิดหวังของ {STR_VAR_1}\nชัดเจนมากเลยทีเดียว!$"
 
 gTVBravoTrainerText05::
-	.string "Wouldn't you also like to know what\n"
-	.string "{STR_VAR_1} imagines {STR_VAR_2} to be?\p"
-	.string "You bet we did!\n"
-	.string "So we asked, of course!\p"
-	.string "The answer is all perfectly condensed:\n"
-	.string "“{STR_VAR_3}!”\p"
-	.string "That's what the concept of {STR_VAR_2}\n"
-	.string "represents to {STR_VAR_1}!$"
+.string "อยากรู้ไหมว่า {STR_VAR_1}\nมอง {STR_VAR_2} ว่าเป็นอะไร?\pแน่นอนว่าเราอยากรู้!\nเลยถามไปตามตรง!\pคำตอบสรุปทุกอย่างได้พอดี:\n“{STR_VAR_3}!”\pแนวคิดของ {STR_VAR_2} นั้น\nสำหรับ {STR_VAR_1} ก็คือสิ่งนี้!$"
 
 gTVBravoTrainerText06::
-	.string "The last move {STR_VAR_2} used by\n"
-	.string "the {STR_VAR_1} is entirely about\l"
-	.string "“{STR_VAR_3}”!$"
+.string "ท่าสุดท้าย {STR_VAR_2} ที่\n{STR_VAR_1} ใช้นั้นสื่อถึง\l“{STR_VAR_3}” ได้เต็ม ๆ!$"
 
 gTVBravoTrainerText07::
-	.string "Bravo, {STR_VAR_1}!\n"
-	.string "Bravo, {STR_VAR_2}!\p"
-	.string "I hope we can count on seeing\n"
-	.string "{STR_VAR_1} scale even greater heights!\p"
-	.string "That's all the time we have!\n"
-	.string "Until next time, see you!$"
+.string "บราโว {STR_VAR_1}!\nบราโว {STR_VAR_2}!\pหวังว่าเราจะได้เห็น {STR_VAR_1}\nก้าวไปได้สูงกว่านี้อีก!\pหมดเวลาของเราแล้ว!\nไว้พบกันใหม่!$"
 
 gTVBravoTrainerText08::
-	.string "Introducing the TRAINER's {STR_VAR_1}!$"
+.string "ขอแนะนำ {STR_VAR_1} ของเทรนเนอร์!$"
 
 BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
 	.string "Hello! You're the TRAINER who just had\n"
@@ -167,107 +129,49 @@ BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
 	.string "next battle!$"
 
 BravoTrainerBattleTower_Text_Intro::
-	.string "Yeah!\n"
-	.string "It's BRAVO TRAINER time!\p"
-	.string "Today, we're going to profile {STR_VAR_1},\n"
-	.string "who took the BATTLE TOWER challenge!\p"
-	.string "For the challenge, {STR_VAR_1} entered\n"
-	.string "one wicked {STR_VAR_2}.$"
+.string "เย่!\nถึงเวลาบราโว เทรนเนอร์!\pวันนี้เราจะพาไปรู้จัก {STR_VAR_1}\nผู้ท้าทายแบทเทิลทาวเวอร์!\pในการท้าทายครั้งนี้ {STR_VAR_1} ส่ง\n{STR_VAR_2} สุดแกร่งลงสนาม$"
 
 BravoTrainerBattleTower_Text_NewRecord::
-	.string "The pair set a new record of {STR_VAR_2} wins\n"
-	.string "in a row in {STR_VAR_1} competition!\l"
-	.string "Bravo, TRAINER!$"
+.string "ทั้งคู่สร้างสถิติใหม่ ชนะ {STR_VAR_2} ครั้ง\nรวดในการแข่งขัน {STR_VAR_1}!\lบราโว เทรนเนอร์!$"
 
 BravoTrainerBattleTower_Text_Lost::
-	.string "The twosome finally succumbed to\n"
-	.string "{STR_VAR_1} in match number {STR_VAR_2}.\l"
-	.string "Nice try, TRAINER!\p"
-	.string "But, hey, it's just bad luck to run into\n"
-	.string "{STR_VAR_1} so early in the challenge.\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on the match with {STR_VAR_1}.$"
+.string "สุดท้ายทั้งคู่ก็พ่ายให้กับ\n{STR_VAR_1} ในแมตช์ที่ {STR_VAR_2}\lทำได้ดีแล้ว เทรนเนอร์!\pแต่ก็แค่โชคร้ายที่ต้องเจอ\n{STR_VAR_1} เร็วขนาดนี้\pเราเลยถามเทรนเนอร์ถึงความรู้สึก\nหลังแมตช์กับ {STR_VAR_1}$"
 
 BravoTrainerBattleTower_Text_Won::
-	.string "The twosome won it all by defeating\n"
-	.string "{STR_VAR_1}'s {STR_VAR_2} thoroughly.\l"
-	.string "Bravo, TRAINER!\p"
-	.string "Knocking off even {STR_VAR_1}…\n"
-	.string "It defies belief! Simply astounding!\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on the moment of glory.$"
+.string "ทั้งคู่คว้าชัยด้วยการเอาชนะ\nโปเกมอนของ {STR_VAR_1} อย่าง {STR_VAR_2} แบบหมดจด\lบราโว เทรนเนอร์!\pเอาชนะแม้แต่ {STR_VAR_1} ได้…\nเหลือเชื่อจริง ๆ! สุดยอดมาก!\pเราเลยถามเทรนเนอร์ถึงความรู้สึก\nในช่วงเวลาแห่งชัยชนะ$"
 
 BravoTrainerBattleTower_Text_LostFinal::
-	.string "After a string of wins, the pair finally\n"
-	.string "succumbed to {STR_VAR_1}'s {STR_VAR_2},\l"
-	.string "their final hurdle.\p"
-	.string "Nice try, TRAINER!\p"
-	.string "Still, you have to give credit.\n"
-	.string "You don't see many famous combinations\l"
-	.string "like {STR_VAR_1} and {STR_VAR_2}.\p"
-	.string "We asked the TRAINER for impressions\n"
-	.string "on battling the celebrity pair.$"
+.string "หลังชนะต่อเนื่องหลายครั้ง ทั้งคู่\nก็พ่ายต่อโปเกมอนของ {STR_VAR_1} อย่าง {STR_VAR_2}\lซึ่งเป็นด่านสุดท้าย\pทำได้ดีแล้ว เทรนเนอร์!\pแต่ต้องยอมรับเลยว่า\nคู่ดังระดับ {STR_VAR_1} กับ {STR_VAR_2}\lไม่ได้เห็นกันบ่อย ๆ\pเราเลยถามเทรนเนอร์ถึงความรู้สึก\nหลังสู้กับคู่คนดังนี้$"
 
 BravoTrainerBattleTower_Text_Satisfied::
-	.string "This is what the TRAINER had to say:\n"
-	.string "“I'm satisfied!”\p"
-	.string "Now isn't that a refreshing reply?\n"
-	.string "Bravo, TRAINER!\p"
-	.string "Isn't it out-and-out awesome to be\n"
-	.string "able to battle to full satisfaction?\p"
-	.string "I found out exactly how satisfied\n"
-	.string "when I heard the TRAINER say this:$"
+.string "เทรนเนอร์พูดว่า:\n“พอใจมาก!”\pเป็นคำตอบที่ฟังแล้วชื่นใจจริงไหม?\nบราโว เทรนเนอร์!\pการได้ต่อสู้จนพอใจเต็มที่\nมันสุดยอดจริง ๆ ใช่ไหมล่ะ?\pแล้วผมก็รู้ว่าพอใจแค่ไหน\nเมื่อได้ยินเทรนเนอร์พูดว่า:$"
 
 BravoTrainerBattleTower_Text_Unsatisfied::
-	.string "This is what the TRAINER had to say:\n"
-	.string "“I'm not satisfied…”\p"
-	.string "Our TRAINER was obviously a little down\n"
-	.string "when that was uttered.\p"
-	.string "Still, it's not easy to be able to battle\n"
-	.string "with complete satisfaction, am I right?\p"
-	.string "Anyway, I found out how dissatisfied\n"
-	.string "our TRAINER was when I heard this:$"
+.string "เทรนเนอร์พูดว่า:\n“ยังไม่พอใจ…”\pเห็นได้ชัดว่าเทรนเนอร์ของเรา\nดูหดหู่เล็กน้อยตอนพูดแบบนั้น\pแต่การได้ต่อสู้จนพอใจเต็มที่\nไม่ใช่เรื่องง่ายเลย จริงไหม?\pอย่างไรก็ตาม ผมก็รู้ว่าไม่พอใจ\nแค่ไหนเมื่อได้ยินคำนี้:$"
 
 BravoTrainerBattleTower_Text_None1::
-	.string "None$"
+.string "ไม่มี$"
 
 BravoTrainerBattleTower_Text_None2::
-	.string "None$"
+.string "ไม่มี$"
 
 BravoTrainerBattleTower_Text_None3::
-	.string "None$"
+.string "ไม่มี$"
 
 BravoTrainerBattleTower_Text_None4::
-	.string "None$"
+.string "ไม่มี$"
 
 BravoTrainerBattleTower_Text_Response::
-	.string "“{STR_VAR_1}.”$"
+.string "“{STR_VAR_1}.”$"
 
 BravoTrainerBattleTower_Text_ResponseSatisfied::
-	.string "“{STR_VAR_1}.”\n"
-	.string "Now isn't that great?\p"
-	.string "It really expresses {STR_VAR_2}'s joy,\n"
-	.string "I'd say.\p"
-	.string "That battle with {STR_VAR_3} at the\n"
-	.string "end… It really was what you'd call\l"
-	.string "“{STR_VAR_1}”!$"
+.string "“{STR_VAR_1}.”\nยอดไปเลยใช่ไหม?\pผมว่ามันสื่อถึงความดีใจของ\n{STR_VAR_2} ได้จริง ๆ\pการต่อสู้กับ {STR_VAR_3} ในช่วง\nท้าย… เรียกได้เต็มปากเลยว่า\l“{STR_VAR_1}”!$"
 
 BravoTrainerBattleTower_Text_ResponseUnsatisfied::
-	.string "“{STR_VAR_1}.”\n"
-	.string "Now isn't that fitting?\p"
-	.string "That battle with {STR_VAR_3} at the\n"
-	.string "end… You can't describe it as anything\l"
-	.string "else but “{STR_VAR_1}”!\p"
-	.string "{STR_VAR_2}'s disappointment comes across\n"
-	.string "loud and clear, I'd say!$"
+.string "“{STR_VAR_1}.”\nเข้ากันดีใช่ไหม?\pการต่อสู้กับ {STR_VAR_3} ในช่วง\nท้าย… จะเรียกเป็นอย่างอื่น\lนอกจาก “{STR_VAR_1}” ไม่ได้เลย!\pความผิดหวังของ {STR_VAR_2}\nชัดเจนมากเลยทีเดียว!$"
 
 BravoTrainerBattleTower_Text_Outro::
-	.string "Bravo, {STR_VAR_1}!\n"
-	.string "Bravo, {STR_VAR_2}!\p"
-	.string "I hope we can count on seeing\n"
-	.string "{STR_VAR_1} scale even greater heights!\p"
-	.string "That's all the time we have!\n"
-	.string "Until next time, see you!$"
+.string "บราโว {STR_VAR_1}!\nบราโว {STR_VAR_2}!\pหวังว่าเราจะได้เห็น {STR_VAR_1}\nก้าวไปได้สูงกว่านี้อีก!\pหมดเวลาของเราแล้ว!\nไว้พบกันใหม่!$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "Wow!\p"
@@ -613,97 +517,49 @@ gTV3CheersForPokeblocksText05::
 	.string "Our slogan is “3 CHEERS FOR {POKEBLOCK}S!”$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
-	.string "Hi, there!\p"
-	.string "I'm a big fan of {STR_VAR_1}.\n"
-	.string "What's your opinion of {STR_VAR_1}?$"
+.string "สวัสดี!\pฉันเป็นแฟนตัวยงของ {STR_VAR_1}\nเธอคิดยังไงกับ {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink::
-	.string "I see, I see. That's what you think\n"
-	.string "about the TRAINER.$"
+.string "อืม ๆ อย่างนั้นเองสินะ\nเธอมองเทรนเนอร์แบบนั้นเอง$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer::
-	.string "Have you completely forgotten\n"
-	.string "about {STR_VAR_1}?$"
+.string "ลืม {STR_VAR_1}\nไปหมดแล้วเหรอ?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2::
-	.string "I'm a big fan of {STR_VAR_1}.\n"
-	.string "What's your opinion of {STR_VAR_1}?$"
+.string "ฉันเป็นแฟนตัวยงของ {STR_VAR_1}\nเธอคิดยังไงกับ {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer::
-	.string "How strong would you rate {STR_VAR_1}\n"
-	.string "on a scale of one hundred?$"
+.string "ถ้าให้คะแนนความแข็งแกร่งของ {STR_VAR_1}\nเต็มร้อย จะให้เท่าไร?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2::
-	.string "Have you completely forgotten\n"
-	.string "about {STR_VAR_1}?$"
+.string "ลืม {STR_VAR_1}\nไปหมดแล้วเหรอ?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer::
-	.string "Oh, I see!\n"
-	.string "You should meet {STR_VAR_1} sometime.\l"
-	.string "I'm sure you'll become a fan, too!$"
+.string "อ๋อ เข้าใจแล้ว!\nไว้ลองไปเจอ {STR_VAR_1} ดูสิ\lรับรองว่าเธอก็จะกลายเป็นแฟนแน่!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo::
-	.string "I see, I see.\p"
-	.string "Thank you!\n"
-	.string "That's very useful to know.\p"
-	.string "I'll share this information with other\n"
-	.string "{STR_VAR_1} fans and discuss it.$"
+.string "อืม ๆ เข้าใจแล้ว\pขอบคุณนะ!\nข้อมูลนี้มีประโยชน์มาก\pฉันจะเอาไปบอกแฟนคนอื่นของ\n{STR_VAR_1} แล้วคุยกันดู$"
 
 LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
-	.string "There's going to be a TV special on\n"
-	.string "{STR_VAR_1} very soon.\p"
-	.string "I hope you catch it!$"
+.string "อีกไม่นานจะมีรายการทีวีพิเศษ\nเกี่ยวกับ {STR_VAR_1}\pอย่าพลาดชมล่ะ!$"
 
 gTVTrainerFanClubSpecialText00::
-	.string "TRAINER FAN CLUB\n"
-	.string "{STR_VAR_1} SPECIAL!\p"
-	.string "This is a special presentation for\n"
-	.string "the fans of {STR_VAR_1} all over HOENN!\p"
-	.string "Today, we ask the question, “What do\n"
-	.string "people think of {STR_VAR_1}?”\p"
-	.string "We posed the question to {STR_VAR_2}\n"
-	.string "as the TRAINER representative.\p"
-	.string "We asked, “In one word, how would\n"
-	.string "you describe {STR_VAR_1}?”\p"
-	.string "The reply: “{STR_VAR_3}.”\p"
-	.string "Kudos to {STR_VAR_2}!\n"
-	.string "What a perceptive opinion!\p"
-	.string "“{STR_VAR_3} {STR_VAR_1}.”\n"
-	.string "It has such a nice ring to it!\p"
-	.string "{STR_VAR_2} also scored {STR_VAR_1}'s\n"
-	.string "strength from 0 to 100.$"
+.string "แฟนคลับเทรนเนอร์\nตอนพิเศษ {STR_VAR_1}!\pนี่คือรายการพิเศษสำหรับแฟน\n{STR_VAR_1} ทั่วทั้งโฮเอ็น!\pวันนี้เราจะถามว่า “ทุกคนคิด\nอย่างไรกับ {STR_VAR_1}?”\pเราไปถาม {STR_VAR_2}\nในฐานะตัวแทนเทรนเนอร์\pคำถามคือ “ถ้าให้พูดคำเดียว\nจะบรรยาย {STR_VAR_1} ว่าอะไร?”\pคำตอบคือ “{STR_VAR_3}.”\pยอดเยี่ยม {STR_VAR_2}!\nเป็นความเห็นที่เฉียบคมจริง ๆ!\p“{STR_VAR_3} {STR_VAR_1}.”\nฟังดูเข้ากันดีจริง ๆ!\p{STR_VAR_2} ยังให้คะแนนความแข็งแกร่ง\nของ {STR_VAR_1} จาก 0 ถึง 100 ด้วย$"
 
 gTVTrainerFanClubSpecialText01::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is a very high score indeed!\p"
-	.string "{STR_VAR_2} must obviously hold\n"
-	.string "{STR_VAR_1} in very high esteem.$"
+.string "ได้ {STR_VAR_3} คะแนน!\nสูงมากจริง ๆ!\pเห็นได้ชัดว่า {STR_VAR_2}\nชื่นชม {STR_VAR_1} มากทีเดียว$"
 
 gTVTrainerFanClubSpecialText02::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That is quite a good score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a rival.$"
+.string "ได้ {STR_VAR_3} คะแนน!\nถือว่าดีทีเดียว\p{STR_VAR_2} คงมอง\n{STR_VAR_1} เป็นคู่แข่ง$"
 
 gTVTrainerFanClubSpecialText03::
-	.string "The score was {STR_VAR_3} points!\n"
-	.string "That's a rather weak score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be a mere sidekick.$"
+.string "ได้ {STR_VAR_3} คะแนน!\nค่อนข้างต่ำเลยนะ\p{STR_VAR_2} คงมอง\n{STR_VAR_1} เป็นแค่ผู้ช่วย$"
 
 gTVTrainerFanClubSpecialText04::
-	.string "The score was {STR_VAR_3} point(s)!\n"
-	.string "That's a terrible score.\p"
-	.string "{STR_VAR_2} must consider\n"
-	.string "{STR_VAR_1} to be an underling.$"
+.string "ได้ {STR_VAR_3} คะแนน!\nแย่มากเลย\p{STR_VAR_2} คงมอง\n{STR_VAR_1} เป็นลูกน้อง$"
 
 gTVTrainerFanClubSpecialText05::
-	.string "There you have it, folks!\p"
-	.string "I think we all learned something\n"
-	.string "new about {STR_VAR_1}.\p"
-	.string "In closing, I'll leave you with\n"
-	.string "{STR_VAR_2}'s words.\p"
-	.string "{STR_VAR_3} {STR_VAR_1}!$"
+.string "ทั้งหมดก็มีเท่านี้!\pคิดว่าเราได้รู้อะไรใหม่ ๆ\nเกี่ยวกับ {STR_VAR_1} แล้ว\pก่อนจบ ขอฝากคำพูดของ\n{STR_VAR_2} ไว้ให้ทุกคน\p{STR_VAR_3} {STR_VAR_1}!$"
 
 gTVNameRaterText00::
 	.string "And now, it's time for…\n"
@@ -1168,66 +1024,37 @@ gTVWorldOfMastersText02::
 	.string "Please tune in next time.$"
 
 gTVTodaysRivalTrainerText00::
-	.string "TODAY'S RIVAL TRAINER!\p"
-	.string "Hello, fellow POKéMON TRAINERS!\n"
-	.string "How are we all doing today?\p"
-	.string "Today, like every other day,\n"
-	.string "we'll examine one of our rivals!$"
+.string "เทรนเนอร์คู่แข่งวันนี้!\pสวัสดี เหล่าเทรนเนอร์โปเกมอน!\nวันนี้เป็นยังไงกันบ้าง?\pเช่นเดียวกับทุกวัน วันนี้เรา\nจะมาดูคู่แข่งคนหนึ่งกัน!$"
 
 gTVTodaysRivalTrainerText07::
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's around {STR_VAR_3} now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+.string "{STR_VAR_1} คือเทรนเนอร์คู่แข่งวันนี้\nตอนนี้อยู่แถว {STR_VAR_3}\pจนถึงตอนนี้ {STR_VAR_1} ลงทะเบียน\nโปเกมอนในโปเกเด็กซ์แล้ว {STR_VAR_2} ตัว$"
 
 gTVTodaysRivalTrainerText08::
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's in a SECRET BASE now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+.string "{STR_VAR_1} คือเทรนเนอร์คู่แข่งวันนี้\nตอนนี้อยู่ในฐานลับ\pจนถึงตอนนี้ {STR_VAR_1} ลงทะเบียน\nโปเกมอนในโปเกเด็กซ์แล้ว {STR_VAR_2} ตัว$"
 
 gTVTodaysRivalTrainerText09::
-	.string "Today's rival TRAINER is {STR_VAR_1}.\p"
-	.string "So far, {STR_VAR_1} has registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
+.string "เทรนเนอร์คู่แข่งวันนี้คือ {STR_VAR_1}\pจนถึงตอนนี้ {STR_VAR_1} ลงทะเบียน\nโปเกมอนในโปเกเด็กซ์แล้ว {STR_VAR_2} ตัว$"
 
 gTVTodaysRivalTrainerText10::
-	.string "Today's rival TRAINER is {STR_VAR_1},\n"
-	.string "who's on a ferry now.\p"
-	.string "{STR_VAR_1} has so far registered\n"
-	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
-
-	.string "$"
+.string "{STR_VAR_1} คือเทรนเนอร์คู่แข่งวันนี้\nตอนนี้อยู่บนเรือข้ามฟาก\pจนถึงตอนนี้ {STR_VAR_1} ลงทะเบียน\nโปเกมอนในโปเกเด็กซ์แล้ว {STR_VAR_2} ตัว$$"
 
 gTVTodaysRivalTrainerText01::
-	.string "And how many BADGES does our rival\n"
-	.string "have? The number is {STR_VAR_1}!$"
+.string "แล้วคู่แข่งของเรามีแบดจ์\nกี่อัน? คำตอบคือ {STR_VAR_1}!$"
 
 gTVTodaysRivalTrainerText02::
-	.string "But our rival hasn't obtained\n"
-	.string "a single BADGE yet!$"
+.string "แต่คู่แข่งของเรายังไม่ได้\nแบดจ์เลยสักอัน!$"
 
 gTVTodaysRivalTrainerText03::
-	.string "Our rival hasn't obtained a single\n"
-	.string "BATTLE FRONTIER Symbol yet.$"
+.string "คู่แข่งของเรายังไม่มีซิมโบล\nของแบทเทิลฟรอนเทียร์แม้แต่อันเดียว$"
 
 gTVTodaysRivalTrainerText04::
-	.string "Let's see how many BATTLE FRONTIER\n"
-	.string "Symbols our rival has.\p"
-	.string "Gold Symbols: {STR_VAR_1}!\n"
-	.string "Silver Symbols: {STR_VAR_2}!$"
+.string "มาดูกันว่าคู่แข่งของเรามีซิมโบล\nแบทเทิลฟรอนเทียร์กี่อัน\pซิมโบลทอง: {STR_VAR_1}!\nซิมโบลเงิน: {STR_VAR_2}!$"
 
 gTVTodaysRivalTrainerText05::
-	.string "Our rival has collected {STR_VAR_1} Battle\n"
-	.string "Point(s) at the BATTLE FRONTIER.$"
+.string "คู่แข่งของเราสะสมแบทเทิลพอยต์\nที่แบทเทิลฟรอนเทียร์ได้ {STR_VAR_1} แต้ม$"
 
 gTVTodaysRivalTrainerText06::
-	.string "So, how did you measure up in\n"
-	.string "comparison to {STR_VAR_1}?\p"
-	.string "The adventure rolls on!\p"
-	.string "Fellow TRAINERS!\p"
-	.string "Let's all keep moving forward\n"
-	.string "and ahead of our rivals!$"
+.string "แล้วเมื่อเทียบกับ {STR_VAR_1}\nเธอเป็นอย่างไรบ้าง?\pการผจญภัยยังดำเนินต่อไป!\pเหล่าเทรนเนอร์ทั้งหลาย!\pเดินหน้าต่อไป\nและแซงคู่แข่งของเราให้ได้!$"
 
 TrendWatcher_Text_Intro::
 	.string "DEWFORD TREND-WATCHER NETWORK!\p"
@@ -1652,91 +1479,40 @@ gTVThePokemonBattleSeminarText06::
 	.string "Until next time, farewell!$"
 
 gTVTrainerFanClubText00::
-	.string "All together now!\n"
-	.string "TRAINER FAN CLUB!\p"
-	.string "MC: How's everyone groovin'?\n"
-	.string "Today, we've rounded up the fans of\l"
-	.string "the hyper-popular TRAINER {STR_VAR_1}!\p"
-	.string "FANS: Wrooooooaaaaah!\p"
-	.string "FANS: {STR_VAR_1}!\p"
-	.string "MC: Everyone!\n"
-	.string "How do you like {STR_VAR_1}?!\p"
-	.string "FANS: We love {STR_VAR_1}!\p"
-	.string "MC: What do you love about\n"
-	.string "{STR_VAR_1}?!$"
+.string "พร้อมกันนะ!\nแฟนคลับเทรนเนอร์!\pพิธีกร: ทุกคนสนุกกันไหม?\nวันนี้เรารวมเหล่าแฟนของ\lเทรนเนอร์สุดฮอต {STR_VAR_1} มาแล้ว!\pแฟน ๆ: วู้ววววววว!\pแฟน ๆ: {STR_VAR_1}!\pพิธีกร: ทุกคน!\nชอบ {STR_VAR_1} แค่ไหน?!\pแฟน ๆ: เรารัก {STR_VAR_1}!\pพิธีกร: แล้วชอบอะไรในตัว\n{STR_VAR_1}?!$"
 
 gTVTrainerFanClubText01::
-	.string "FANS: Their cool way of throwing\n"
-	.string "POKé BALLS!$"
+.string "แฟน ๆ: ท่าโยนโปเกบอล\nที่เท่สุด ๆ!$"
 
 gTVTrainerFanClubText02::
-	.string "FANS: Their adorable way of running!$"
+.string "แฟน ๆ: ท่าวิ่งที่น่ารักสุด ๆ!$"
 
 gTVTrainerFanClubText03::
-	.string "FANS: How the TRAINER turns tough\n"
-	.string "when the going gets tough!$"
+.string "แฟน ๆ: เวลาสถานการณ์ยาก\nเทรนเนอร์ก็ยิ่งแกร่งขึ้น!$"
 
 gTVTrainerFanClubText04::
-	.string "FANS: The TRAINER's knowledge of\n"
-	.string "POKéMON!$"
+.string "แฟน ๆ: ความรู้เรื่อง\nโปเกมอนของเทรนเนอร์!$"
 
 gTVTrainerFanClubText05::
-	.string "FANS: The TRAINER's kindness toward\n"
-	.string "all POKéMON!$"
+.string "แฟน ๆ: ความอ่อนโยนของเทรนเนอร์\nที่มีต่อโปเกมอนทุกตัว!$"
 
 gTVTrainerFanClubText06::
-	.string "FANS: The TRAINER's amazing\n"
-	.string "BIKE-riding techniques!$"
+.string "แฟน ๆ: เทคนิคการขี่\nจักรยานสุดยอดของเทรนเนอร์!$"
 
 gTVTrainerFanClubText07::
-	.string "FANS: The TRAINER's impressive\n"
-	.string "item-buying style!$"
+.string "แฟน ๆ: สไตล์ซื้อไอเทม\nที่สุดแสนโดดเด่น!$"
 
 gTVTrainerFanClubText08::
-	.string "FANS: The TRAINER's charming way\n"
-	.string "of nicknaming POKéMON!$"
+.string "แฟน ๆ: วิธีตั้งชื่อเล่นโปเกมอน\nที่มีเสน่ห์สุด ๆ!$"
 
 gTVTrainerFanClubText09::
-	.string "FANS: The TRAINER's nifty style of\n"
-	.string "decorating a SECRET BASE!$"
+.string "แฟน ๆ: สไตล์ตกแต่ง\nฐานลับที่เก๋สุด ๆ!$"
 
 gTVTrainerFanClubText10::
-	.string "FANS: The TRAINER's bold ways of\n"
-	.string "using TMs!$"
+.string "แฟน ๆ: วิธีใช้ TM\nที่กล้าได้กล้าเสีย!$"
 
 gTVTrainerFanClubText11::
-	.string "MC: As you've just seen, {STR_VAR_1}\n"
-	.string "is hot! Like, too hot to touch, yow!\p"
-	.string "Among {STR_VAR_1}'s FANS\n"
-	.string "there's a special slogan!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "MC: That's right, when someone says,\n"
-	.string "“{STR_VAR_1}”…\p"
-	.string "Come back with, “{STR_VAR_2}\n"
-	.string "{STR_VAR_3}!”\p"
-	.string "That has such a unique ring to it!\n"
-	.string "I can see why people become FANS\l"
-	.string "of {STR_VAR_1}!\p"
-	.string "Okay, you, in front of the TV, join us!\n"
-	.string "All together now!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!\p"
-	.string "MC: Thanks for joining us, all you\n"
-	.string "wild FANS of {STR_VAR_1}!\l"
-	.string "That's the show! See you again!\p"
-	.string "MC: When I say {STR_VAR_1},\n"
-	.string "you say…\p"
-	.string "FANS: {STR_VAR_2}!\p"
-	.string "FANS: {STR_VAR_3}!$"
+.string "พิธีกร: อย่างที่เห็น {STR_VAR_1}\nฮอตมาก! ร้อนจนแตะไม่ได้เลย!\pในหมู่แฟนของ {STR_VAR_1}\nมีคำขวัญพิเศษด้วย!\pพิธีกร: ถ้าฉันพูด {STR_VAR_1}\nทุกคนตอบว่า…\pแฟน ๆ: {STR_VAR_2}!\pแฟน ๆ: {STR_VAR_3}!\pแฟน ๆ: {STR_VAR_2}!\pแฟน ๆ: {STR_VAR_3}!\pพิธีกร: ใช่แล้ว ถ้ามีใครพูดว่า\n“{STR_VAR_1}”…\pให้ตอบกลับว่า “{STR_VAR_2}\n{STR_VAR_3}!”\pฟังดูมีเอกลักษณ์จริง ๆ!\nเข้าใจแล้วว่าทำไมทุกคนถึงเป็นแฟน\lของ {STR_VAR_1}!\pเอาละ คนหน้าทีวี มาร่วมด้วย!\nพร้อมกันนะ!\pพิธีกร: ถ้าฉันพูด {STR_VAR_1}\nทุกคนตอบว่า…\pแฟน ๆ: {STR_VAR_2}!\pแฟน ๆ: {STR_VAR_3}!\pแฟน ๆ: {STR_VAR_2}!\pแฟน ๆ: {STR_VAR_3}!\pพิธีกร: ขอบคุณเหล่าแฟนสุดคึก\nของ {STR_VAR_1} ทุกคน!\lจบรายการแล้ว! ไว้พบกันใหม่!\pพิธีกร: ถ้าฉันพูด {STR_VAR_1}\nทุกคนตอบว่า…\pแฟน ๆ: {STR_VAR_2}!\pแฟน ๆ: {STR_VAR_3}!$"
 
 TVSpotTheCuties_Text_Intro::
 	.string "SPOT THE CUTIES!\n"
@@ -2833,97 +2609,31 @@ GabbyAndTy_Text_TyDefeat:
 	.string "That whole battle's on camera.$"
 
 gTVInSearchOfTrainersText00::
-	.string "IN SEARCH OF TRAINERS…\p"
-	.string "GABBY: Hi! Today I'm visiting an area\n"
-	.string "near {STR_VAR_1}.\p"
-	.string "We're trying to spot some up-and-\n"
-	.string "coming new talent in the field.\p"
-	.string "Today, we turned our lens on the\n"
-	.string "TRAINER {PLAYER}.\p"
-	.string "There's something about this TRAINER\n"
-	.string "that piqued our interest.$"
+.string "ตามหาเทรนเนอร์…\pแก็บบี: สวัสดี! วันนี้ฉันมาอยู่\nแถว {STR_VAR_1}\pเรากำลังมองหาดาวรุ่งหน้าใหม่\nที่น่าจับตามอง\pวันนี้เราหันกล้องไปหา\nเทรนเนอร์ {PLAYER}\pเทรนเนอร์คนนี้มีบางอย่าง\nที่สะดุดความสนใจของเรา$"
 
 gTVInSearchOfTrainersText01::
-	.string "We've battled {PLAYER} before, but we\n"
-	.string "can attest that the TRAINER has most\l"
-	.string "definitely improved from before.\p"
-	.string "I knew we were onto someone special\n"
-	.string "when we spotted this TRAINER!$"
+.string "เราเคยสู้กับ {PLAYER} มาก่อน แต่\nขอยืนยันว่าเทรนเนอร์คนนี้เก่งขึ้น\lกว่าเดิมอย่างชัดเจน\pตอนเห็นเทรนเนอร์คนนี้ ฉันก็รู้เลย\nว่าเราพบคนพิเศษเข้าแล้ว!$"
 
 gTVInSearchOfTrainersText02::
-	.string "The best way to determine how strong\n"
-	.string "a TRAINER is…\p"
-	.string "Well, the fastest way is to battle.\n"
-	.string "And so we began our investigation!\p"
-	.string "… …\p"
-	.string "That's how we ended up in battle\n"
-	.string "with {PLAYER}.\p"
-	.string "In a dominating performance, we were\n"
-	.string "flattened, rolled up, and tossed aside!\p"
-	.string "{PLAYER} is ruthlessly strong…\p"
-	.string "Here's our impressions after having\n"
-	.string "battled our featured TRAINER.$"
+.string "วิธีที่ดีที่สุดในการวัดว่า\nเทรนเนอร์แข็งแกร่งแค่ไหน…\pแน่นอน วิธีเร็วที่สุดคือสู้กัน\nเราจึงเริ่มการสำรวจ!\p… …\pนั่นคือเหตุผลที่เราได้สู้\nกับ {PLAYER}\pเราถูกถล่มจนเละ\nแทบไม่มีทางสู้เลย!\p{PLAYER} แข็งแกร่งแบบไร้ปรานี…\pนี่คือความรู้สึกหลังจากได้\nสู้กับเทรนเนอร์คนเด่นของเรา$"
 
 gTVInSearchOfTrainersText03::
-	.string "The combination of {STR_VAR_1} and\n"
-	.string "{STR_VAR_3} was divine!\p"
-	.string "The sight of them--{STR_VAR_1} and\n"
-	.string "{STR_VAR_3}--selflessly supporting\l"
-	.string "each other in the thick of battle…\p"
-	.string "It was a marvelous sight to behold!\p"
-	.string "{STR_VAR_2} was the move the TRAINER\n"
-	.string "used last in our battle.\p"
-	.string "The move {STR_VAR_2} is {STR_VAR_1}\n"
-	.string "and {STR_VAR_3}'s sign of friendship!$"
+.string "คู่ของ {STR_VAR_1} กับ\n{STR_VAR_3} ช่างลงตัวสุด ๆ!\pภาพที่ {STR_VAR_1} และ\n{STR_VAR_3} คอยช่วยเหลือ\lกันกลางการต่อสู้…\pเป็นภาพที่ยอดเยี่ยมจริง ๆ!\p{STR_VAR_2} คือท่าที่เทรนเนอร์\nใช้เป็นท่าสุดท้ายในครั้งนั้น\pท่า {STR_VAR_2} คือสัญลักษณ์มิตรภาพ\nของ {STR_VAR_1} กับ {STR_VAR_3}!$"
 
 gTVInSearchOfTrainersText04::
-	.string "…I lost confidence in myself as\n"
-	.string "a result of our encounter.\p"
-	.string "We were beaten before we could launch\n"
-	.string "a single attack.\l"
-	.string "Ohhh… Snivel…\p"
-	.string "In spite of that, {PLAYER}'s battles\n"
-	.string "are worth seeing.\p"
-	.string "I recommend confident TRAINERS to\n"
-	.string "challenge {PLAYER}.$"
+.string "…หลังจากเจอกันครั้งนั้น\nฉันเสียความมั่นใจไปเลย\pเราแพ้ก่อนจะได้ออก\nท่าโจมตีแม้แต่ครั้งเดียว\lฮือ… ฮึก…\pถึงอย่างนั้น การต่อสู้ของ {PLAYER}\nก็คุ้มค่าที่จะดู\pขอแนะนำเทรนเนอร์ที่มั่นใจ\nให้ลองท้าทาย {PLAYER}$"
 
 gTVInSearchOfTrainersText05::
-	.string "There's only one thing to be said.\n"
-	.string "Don't you dare throw a POKé BALL during\l"
-	.string "a TRAINER battle!\p"
-	.string "{PLAYER} is certainly strong, but has\n"
-	.string "no clue about the basic rules.\p"
-	.string "To our TV audience, I have a request.\p"
-	.string "If you see {PLAYER}, please caution\n"
-	.string "the TRAINER!$"
+.string "มีเรื่องเดียวที่ต้องพูด\nอย่าโยนโปเกบอลระหว่าง\lการต่อสู้กับเทรนเนอร์เด็ดขาด!\p{PLAYER} แข็งแกร่งก็จริง แต่\nไม่รู้กฎพื้นฐานเอาเสียเลย\pฉันมีเรื่องอยากขอผู้ชมทางทีวี\pถ้าเห็น {PLAYER} ช่วยเตือน\nเทรนเนอร์คนนี้ด้วย!$"
 
 gTVInSearchOfTrainersText06::
-	.string "{PLAYER} is adept at reading the\n"
-	.string "opponent's actions.\p"
-	.string "The timing of item usage was remarkably\n"
-	.string "effective!$"
+.string "{PLAYER} อ่านการเคลื่อนไหว\nของคู่ต่อสู้ได้เก่งมาก\pจังหวะใช้ไอเทมก็มีประสิทธิภาพ\nอย่างน่าทึ่ง!$"
 
 gTVInSearchOfTrainersText07::
-	.string "Honestly speaking, I thought that\n"
-	.string "I might even be pretty good.\p"
-	.string "While we did end up losing, we did have\n"
-	.string "a hotly contested battle.\p"
-	.string "But if you're struggling against me,\n"
-	.string "you have a ways to go, {PLAYER}!$"
+.string "พูดตามตรง ฉันเคยคิดว่า\nตัวเองก็เก่งพอตัวเหมือนกัน\pแม้สุดท้ายเราจะแพ้ แต่ก็เป็น\nการต่อสู้ที่สูสีดุเดือด\pแต่ถ้ายังลำบากกับฉันอยู่\nก็ต้องไปอีกไกลนะ {PLAYER}!$"
 
 gTVInSearchOfTrainersText08::
-	.string "After our battle, we asked {PLAYER} for\n"
-	.string "a succinct summary.\p"
-	.string "The TRAINER replied, “{STR_VAR_1}.”\p"
-	.string "{PLAYER}'s POKéMON {STR_VAR_2} and\n"
-	.string "{STR_VAR_3}…\l"
-	.string "And “{STR_VAR_1}”…\p"
-	.string "Mmm! That's deep! There's deep\n"
-	.string "significance behind that quote!\p"
-	.string "It's no surprise--a good TRAINER has\n"
-	.string "good things to say.\p"
-	.string "That's all for today!\n"
-	.string "See you again on our next broadcast!$"
+.string "หลังการต่อสู้ เราขอให้ {PLAYER}\nสรุปสั้น ๆ หนึ่งคำ\pเทรนเนอร์ตอบว่า “{STR_VAR_1}.”\pโปเกมอนของ {PLAYER} คือ {STR_VAR_2} กับ\n{STR_VAR_3}…\lแล้วก็ “{STR_VAR_1}”…\pอืม! ลึกซึ้งจริง ๆ! คำพูดนั้น\nต้องมีความหมายลึกซ่อนอยู่แน่!\pไม่แปลกเลย เทรนเนอร์ที่ดี\nย่อมมีคำพูดดี ๆ\pวันนี้หมดเวลาแล้ว!\nพบกันใหม่ในการออกอากาศครั้งหน้า!$"
 
 ContestLadyShow_Text_Intro::
 	.string "“POKéMON CONTEST LIVE UPDATES!”\p"
