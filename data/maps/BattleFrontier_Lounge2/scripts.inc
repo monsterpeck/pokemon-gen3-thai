@@ -113,257 +113,108 @@ BattleFrontier_Lounge2_EventScript_TriathleteF::
 	end
 
 BattleFrontier_Lounge2_Text_FrontierManiacIntro::
-	.string "Howdy! When it comes to news about\n"
-	.string "the BATTLE FRONTIER, I'm no. 1.\p"
-	.string "You can think of me as\n"
-	.string "the FRONTIER MANIAC.\p"
-	.string "Just checking, but you are a TRAINER,\n"
-	.string "isn't that right?\p"
-	.string "I'll happily share the hottest news\n"
-	.string "I gathered about the BATTLE FRONTIER.$"
+.string "ว่าไง! ถ้าเป็นข่าวเรื่อง\nแบทเทิลฟรอนเทียร์ ฉันคือเบอร์หนึ่ง.\pจะเรียกฉันว่า\nฟรอนเทียร์มาเนียกก็ได้.\pขอถามให้แน่ใจ เธอเป็นเทรนเนอร์\nใช่ไหม?\pฉันยินดีเล่าข่าวเด็ดล่าสุด\nที่รวบรวมมาจากแบทเทิลฟรอนเทียร์.$"
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
-	.string "Howdy! Did you swing by to grill me\n"
-	.string "about the latest word? Oh, all right!$"
+.string "ว่าไง! แวะมาซักฉันเรื่อง\nข่าวล่าสุดสินะ? ได้เลย!$"
 
 @ Unused
 BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
-	.string "Well? Well? Well?\p"
-	.string "I'm sure my information's been\n"
-	.string "seriously useful to you, right?$"
+.string "เป็นไง? เป็นไง? เป็นไง?\pข้อมูลของฉันมีประโยชน์\nกับเธอมากเลยใช่ไหม?$"
 
 BattleFrontier_Lounge2_Text_FacilityIsHottest::
-	.string "Let's see now…\p"
-	.string "It sounds like the {STR_VAR_1}\n"
-	.string "is the hottest place going.$"
+.string "ขอดูก่อนนะ…\pได้ยินว่าตอนนี้ {STR_VAR_1}\nกำลังฮิตที่สุดเลย.$"
 
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
-	.string "Let's see now…\p"
-	.string "It sounds like BATTLE TOWER\n"
-	.string "{STR_VAR_1} is the hottest.$"
+.string "ขอดูก่อนนะ…\pได้ยินว่าตอนนี้แบทเทิลทาวเวอร์\n{STR_VAR_1} กำลังฮิตที่สุด.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this mysterious TRAINER called\n"
-	.string "the SALON MAIDEN that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์ลึกลับ\nที่เรียกกันว่า ซาลอนเมเดน.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
-	.string "Have you battled the SALON MAIDEN?\p"
-	.string "When she's measuring up her opponent,\n"
-	.string "she apparently uses these POKéMON:\p"
-	.string "A PSYCHIC-type PSI POKéMON,\n"
-	.string "a FIRE-type VOLCANO POKéMON,\l"
-	.string "and a NORMAL-type SLEEPING POKéMON.$"
+.string "เคยสู้กับซาลอนเมเดนหรือยัง?\pตอนที่เธอกำลังหยั่งเชิงคู่ต่อสู้\nได้ยินว่าเธอใช้โปเกมอนเหล่านี้:\pโปเกมอนพลังจิต ประเภท PSYCHIC,\nโปเกมอนภูเขาไฟ ประเภท FIRE,\lและโปเกมอนจอมหลับ ประเภท NORMAL.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
-	.string "Have you battled the SALON MAIDEN\n"
-	.string "when she's serious?\p"
-	.string "When she's battling flat out,\n"
-	.string "she apparently uses these POKéMON:\p"
-	.string "A DRAGON & PSYCHIC EON POKéMON,\n"
-	.string "an ELECTRIC-type THUNDER POKéMON,\l"
-	.string "and a NORMAL-type SLEEPING POKéMON.$"
+.string "เคยสู้กับซาลอนเมเดน\nตอนที่เธอเอาจริงหรือยัง?\pตอนที่สู้เต็มกำลัง\nได้ยินว่าเธอใช้โปเกมอนเหล่านี้:\pโปเกมอนอีออน ประเภท DRAGON & PSYCHIC,\nโปเกมอนสายฟ้า ประเภท ELECTRIC,\lและโปเกมอนจอมหลับ ประเภท NORMAL.$"
 
 BattleFrontier_Lounge2_Text_DomeAceIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this flamboyant TRAINER called\n"
-	.string "the DOME ACE that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์สุดฉูดฉาด\nที่เรียกกันว่า โดมเอซ.$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
-	.string "Have you battled the DOME ACE?\p"
-	.string "When he's treating the opponent\n"
-	.string "lightly, he uses these three POKéMON:\p"
-	.string "A DRAGON & FLYING DRAGON POKéMON,\n"
-	.string "a WATER & GROUND MUD FISH POKéMON,\l"
-	.string "and a FIRE & FLYING FLAME POKéMON.$"
+.string "เคยสู้กับโดมเอซหรือยัง?\pตอนที่เขายังไม่เอาจริงกับคู่ต่อสู้\nเขาใช้โปเกมอนสามตัวนี้:\pโปเกมอนมังกร ประเภท DRAGON & FLYING,\nโปเกมอนปลาโคลน ประเภท WATER & GROUND,\lและโปเกมอนเปลวไฟ ประเภท FIRE & FLYING.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-	.string "Have you battled the DOME ACE\n"
-	.string "when he's serious?\p"
-	.string "When he's demonstrating his strategy,\n"
-	.string "he uses these three POKéMON:\p"
-	.string "A DRAGON & FLYING EON POKéMON,\n"
-	.string "a WATER & GROUND MUD FISH POKéMON,\l"
-	.string "and a STEEL- & PSYCHIC-type IRON LEG\l"
-	.string "POKéMON.$"
+.string "เคยสู้กับโดมเอซ\nตอนที่เขาเอาจริงหรือยัง?\pตอนที่เขาแสดงกลยุทธ์เต็มที่\nเขาใช้โปเกมอนสามตัวนี้:\pโปเกมอนอีออน ประเภท DRAGON & FLYING,\nโปเกมอนปลาโคลน ประเภท WATER & GROUND,\lและโปเกมอนขาเหล็ก ประเภท\lSTEEL & PSYCHIC.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this freaky TRAINER called\n"
-	.string "the FACTORY HEAD that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์สุดประหลาด\nที่เรียกกันว่า แฟกทอรีเฮด.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-	.string "Have you battled the FACTORY HEAD\n"
-	.string "already?\p"
-	.string "Let me think… When he goes to battle,\n"
-	.string "he just gets three rental POKéMON.\p"
-	.string "He battles under pretty much the same\n"
-	.string "conditions as you.$"
+.string "เคยสู้กับแฟกทอรีเฮด\nมาแล้วหรือยัง?\pขอคิดก่อน… เวลาเขาลงสู้\nเขาจะใช้โปเกมอนเช่าสามตัว.\pเงื่อนไขการต่อสู้ของเขา\nแทบจะเหมือนกับของเธอเลย.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
-	.string "Have you battled the FACTORY HEAD\n"
-	.string "when he's serious?\p"
-	.string "When he goes seriously to battle,\n"
-	.string "he still gets three rental POKéMON.\p"
-	.string "He battles under virtually the same\n"
-	.string "conditions as you.$"
+.string "เคยสู้กับแฟกทอรีเฮด\nตอนที่เขาเอาจริงหรือยัง?\pถึงจะเอาจริง เขาก็ยังใช้\nโปเกมอนเช่าสามตัวเหมือนเดิม.\pเงื่อนไขการต่อสู้ของเขา\nแทบจะเหมือนกับของเธอเลย.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this scary TRAINER called\n"
-	.string "the PIKE QUEEN that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์สุดน่ากลัว\nที่เรียกกันว่า ไพค์ควีน.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
-	.string "Have you battled the PIKE QUEEN\n"
-	.string "before?\p"
-	.string "When she's in a good mood, they say\n"
-	.string "she uses these three POKéMON:\p"
-	.string "A POISON-type FANG SNAKE POKéMON,\n"
-	.string "a BUG & ROCK MOLD POKéMON,\l"
-	.string "and a WATER-type TENDER POKéMON.$"
+.string "เคยสู้กับไพค์ควีน\nมาก่อนหรือยัง?\pเขาว่าตอนที่เธออารมณ์ดี\nเธอใช้โปเกมอนสามตัวนี้:\pโปเกมอนงูเขี้ยว ประเภท POISON,\nโปเกมอนรา ประเภท BUG & ROCK,\lและโปเกมอนอ่อนโยน ประเภท WATER.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
-	.string "Have you battled the PIKE QUEEN\n"
-	.string "when she's serious?\p"
-	.string "When she's seriously annoyed, they say\n"
-	.string "she uses these three POKéMON:\p"
-	.string "A POISON-type FANG SNAKE POKéMON,\n"
-	.string "a STEEL & GROUND IRON SNAKE POKéMON,\l"
-	.string "and a WATER- & FLYING-type ATROCIOUS\l"
-	.string "POKéMON.$"
+.string "เคยสู้กับไพค์ควีน\nตอนที่เธอเอาจริงหรือยัง?\pเขาว่าตอนที่เธอโมโหจริงจัง\nเธอใช้โปเกมอนสามตัวนี้:\pโปเกมอนงูเขี้ยว ประเภท POISON,\nโปเกมอนงูเหล็ก ประเภท STEEL & GROUND,\lและโปเกมอนโหดเหี้ยม ประเภท\lWATER & FLYING.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this cute TRAINER called\n"
-	.string "the ARENA TYCOON that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์สุดน่ารัก\nที่เรียกกันว่า อารีนาไทคูน.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
-	.string "Have you battled the ARENA TYCOON\n"
-	.string "before?\p"
-	.string "When she's assessing the foe's ability,\n"
-	.string "she supposedly uses these POKéMON:\p"
-	.string "A BUG & FIGHTING SINGLE HORN POKéMON,\n"
-	.string "a DARK-type MOONLIGHT POKéMON,\l"
-	.string "and a BUG & GHOST SHED POKéMON.$"
+.string "เคยสู้กับอารีนาไทคูน\nมาก่อนหรือยัง?\pตอนที่เธอกำลังประเมินฝีมือคู่ต่อสู้\nได้ยินว่าเธอใช้โปเกมอนเหล่านี้:\pโปเกมอนเขาเดี่ยว ประเภท BUG & FIGHTING,\nโปเกมอนแสงจันทร์ ประเภท DARK,\lและโปเกมอนเปลือกคราบ ประเภท BUG & GHOST.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
-	.string "Have you battled the ARENA TYCOON\n"
-	.string "when she's serious?\p"
-	.string "When she battles for keeps,\n"
-	.string "she supposedly uses these POKéMON:\p"
-	.string "A DARK-type MOONLIGHT POKéMON,\n"
-	.string "a GHOST & POISON SHADOW POKéMON\l"
-	.string "and a GRASS- & FIGHTING-type\l"
-	.string "MUSHROOM POKéMON.$"
+.string "เคยสู้กับอารีนาไทคูน\nตอนที่เธอเอาจริงหรือยัง?\pตอนที่เธอสู้แบบเอาเป็นเอาตาย\nได้ยินว่าเธอใช้โปเกมอนเหล่านี้:\pโปเกมอนแสงจันทร์ ประเภท DARK,\nโปเกมอนเงา ประเภท GHOST & POISON,\lและโปเกมอนเห็ด ประเภท\lGRASS & FIGHTING.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this sinister TRAINER called\n"
-	.string "the PALACE MAVEN that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์บรรยากาศน่ากลัว\nที่เรียกกันว่า พาเลซมาเวน.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
-	.string "Have you battled the PALACE MAVEN\n"
-	.string "before?\p"
-	.string "When he's testing the opponent's\n"
-	.string "spirit, he's said to use these POKéMON:\p"
-	.string "A POISON & FLYING-type BAT POKéMON,\n"
-	.string "a NORMAL-type LAZY POKéMON, and a\l"
-	.string "WATER- & ICE-type TRANSPORT POKéMON.$"
+.string "เคยสู้กับพาเลซมาเวน\nมาก่อนหรือยัง?\pตอนที่เขาทดสอบจิตใจคู่ต่อสู้\nได้ยินว่าเขาใช้โปเกมอนเหล่านี้:\pโปเกมอนค้างคาว ประเภท POISON & FLYING,\nโปเกมอนจอมขี้เกียจ ประเภท NORMAL และ\lโปเกมอนขนส่ง ประเภท WATER & ICE.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-	.string "Have you battled the PALACE MAVEN\n"
-	.string "when he's serious?\p"
-	.string "When he throws his entire might into\n"
-	.string "battle, he's said to use these POKéMON:\p"
-	.string "A FIRE-type LEGENDARY POKéMON,\n"
-	.string "a NORMAL-type LAZY POKéMON,\l"
-	.string "and a WATER-type AURORA POKéMON.$"
+.string "เคยสู้กับพาเลซมาเวน\nตอนที่เขาเอาจริงหรือยัง?\pตอนที่เขาทุ่มพลังทั้งหมดเข้าสู้\nได้ยินว่าเขาใช้โปเกมอนเหล่านี้:\pโปเกมอนในตำนาน ประเภท FIRE,\nโปเกมอนจอมขี้เกียจ ประเภท NORMAL,\lและโปเกมอนออโรรา ประเภท WATER.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingIsThere::
-	.string "Bet you didn't know this!\p"
-	.string "One of those top TRAINERS that SCOTT\n"
-	.string "calls the FRONTIER BRAINS is there.\p"
-	.string "It's this fiery-hot TRAINER called\n"
-	.string "the PYRAMID KING that runs the place.$"
+.string "พนันได้เลยว่าเธอยังไม่รู้!\pหนึ่งในยอดเทรนเนอร์ที่สก็อตต์\nเรียกว่าฟรอนเทียร์เบรนอยู่ที่นั่น.\pผู้ดูแลคือเทรนเนอร์เลือดร้อน\nที่เรียกกันว่า พีระมิดคิง.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
-	.string "Have you battled the PYRAMID KING\n"
-	.string "before?\p"
-	.string "When he's checking the foe's power,\n"
-	.string "he apparently uses these POKéMON:\p"
-	.string "A ROCK-type ROCK PEAK POKéMON,\n"
-	.string "an ICE-type ICEBERG POKéMON,\l"
-	.string "and a STEEL-type IRON POKéMON.$"
+.string "เคยสู้กับพีระมิดคิง\nมาก่อนหรือยัง?\pตอนที่เขากำลังวัดพลังคู่ต่อสู้\nได้ยินว่าเขาใช้โปเกมอนเหล่านี้:\pโปเกมอนยอดหิน ประเภท ROCK,\nโปเกมอนภูเขาน้ำแข็ง ประเภท ICE,\lและโปเกมอนเหล็ก ประเภท STEEL.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
-	.string "Have you battled the PYRAMID KING\n"
-	.string "when he's serious?\p"
-	.string "When he's pumped with hot power,\n"
-	.string "he apparently uses these POKéMON:\p"
-	.string "An ICE & FLYING FREEZE POKéMON, an\n"
-	.string "ELECTRIC & FLYING ELECTRIC POKéMON,\l"
-	.string "and a FIRE- & FLYING-type FLAME\l"
-	.string "POKéMON.$"
+.string "เคยสู้กับพีระมิดคิง\nตอนที่เขาเอาจริงหรือยัง?\pตอนที่พลังร้อนแรงพลุ่งพล่าน\nได้ยินว่าเขาใช้โปเกมอนเหล่านี้:\pโปเกมอนเยือกแข็ง ประเภท ICE & FLYING,\nโปเกมอนไฟฟ้า ประเภท ELECTRIC & FLYING,\lและโปเกมอนเปลวไฟ ประเภท\lFIRE & FLYING.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
-	.string "Sure, there are several places where\n"
-	.string "you can enter DOUBLE BATTLES.\p"
-	.string "But the DOUBLE BATTLE ROOMS of\n"
-	.string "the BATTLE TOWER are, like, basic!\p"
-	.string "They're where you should learn about\n"
-	.string "how DOUBLE BATTLES are played here\l"
-	.string "in the BATTLE FRONTIER.$"
+.string "แน่นอน มีหลายแห่งที่เข้า\nดับเบิลแบทเทิลได้.\pแต่ห้องดับเบิลแบทเทิลของ\nแบทเทิลทาวเวอร์น่ะ เป็นพื้นฐานเลย!\pเหมาะสำหรับเรียนรู้ว่า\nดับเบิลแบทเทิลที่แบทเทิลฟรอนเทียร์\lเล่นกันยังไง.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-	.string "Watch yourself in the battles here.\p"
-	.string "I hear there are TRAINERS that have\n"
-	.string "strategies they developed just for\l"
-	.string "DOUBLE BATTLES.$"
+.string "เวลาแบทเทิลที่นี่ต้องระวังให้ดี.\pได้ยินว่ามีเทรนเนอร์ที่คิด\nกลยุทธ์ขึ้นมาโดยเฉพาะสำหรับ\lดับเบิลแบทเทิลเลยนะ.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
-	.string "Once you're confident and comfortable\n"
-	.string "with DOUBLE BATTLES here, you should\l"
-	.string "think about challenging other places\l"
-	.string "offering DOUBLE BATTLES.$"
+.string "ถ้ามั่นใจและคุ้นเคยกับ\nดับเบิลแบทเทิลที่นี่แล้ว ก็น่าจะ\lลองท้าสถานที่อื่นที่มี\lดับเบิลแบทเทิลดูนะ.$"
 
 BattleFrontier_Lounge2_Text_MultiBattleAdvice::
-	.string "All sorts of TRAINERS gather in\n"
-	.string "the BATTLE SALON.\p"
-	.string "Just think--you may run into your\n"
-	.string "friends or followers!\l"
-	.string "You should look carefully!$"
+.string "มีเทรนเนอร์สารพัดแบบมารวมตัวกัน\nที่แบทเทิลซาลอน.\pลองคิดดูสิ อาจได้เจอ\nเพื่อนหรือคนรู้จักของเธอก็ได้!\lลองมองหาให้ดีนะ!$"
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
-	.string "If you're with a friend, head for the\n"
-	.string "LINK MULTI BATTLE ROOM.\p"
-	.string "If you play with a strong friend,\n"
-	.string "you can expect to see tough foes!$"
+.string "ถ้ามากับเพื่อน ให้ไปที่\nห้องลิงก์มัลติแบทเทิล.\pถ้าเล่นกับเพื่อนที่เก่ง\nก็เตรียมเจอคู่ต่อสู้สุดแกร่งได้เลย!$"
 
 BattleFrontier_Lounge2_Text_NewsGatheringPower::
-	.string "What amazing news-gathering power!\n"
-	.string "My mentor's like none other!$"
+.string "พลังรวบรวมข่าวสุดยอดจริง ๆ!\nสมกับเป็นอาจารย์ของฉัน!$"
 
 BattleFrontier_Lounge2_Text_AmazingPowersOfObservation::
-	.string "What amazing powers of observation!\n"
-	.string "My mentor's like none other!$"
+.string "ช่างสังเกตสุดยอดจริง ๆ!\nสมกับเป็นอาจารย์ของฉัน!$"
 
 BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
-	.string "What amazing power of persuasion!\n"
-	.string "My mentor's like none other!$"
+.string "พลังโน้มน้าวสุดยอดจริง ๆ!\nสมกับเป็นอาจารย์ของฉัน!$"
 
 BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
-	.string "…What is this place?\n"
-	.string "It's scaring me…$"
+.string "…ที่นี่มันอะไรกัน?\nชักน่ากลัวแล้วสิ…$"
 

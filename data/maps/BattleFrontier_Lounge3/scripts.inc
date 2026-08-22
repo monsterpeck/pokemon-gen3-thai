@@ -198,271 +198,124 @@ BattleFrontier_Lounge3_EventScript_FaceOriginalDirection::
 	end
 
 BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
-	.string "…What's that you want?\p"
-	.string "Can't you see we're kind of busy here?\n"
-	.string "Can't your business wait till later?$"
+.string "…มีอะไรล่ะ?\pไม่เห็นหรือว่าเรากำลังยุ่งกันอยู่?\nธุระของเธอไว้ทีหลังไม่ได้รึ?$"
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
-	.string "…Huh?\n"
-	.string "You look to me like a tough TRAINER.\p"
-	.string "Heheh…\n"
-	.string "Listen, I have this proposition.\p"
-	.string "We have a little group going here,\n"
-	.string "and we play a little game with what\l"
-	.string "goes on in the BATTLE FRONTIER.\p"
-	.string "The rules are really simple.\p"
-	.string "First, we pick one of the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Then, we each pick a different TRAINER\n"
-	.string "who's taking that facility's challenge,\l"
-	.string "and bet with our Battle Points.\p"
-	.string "The guy who bet on the TRAINER with\n"
-	.string "the best record takes all the Battle\l"
-	.string "Points in the pool.\p"
-	.string "Sounds simple, huh?\n"
-	.string "So, anyway…$"
+.string "…หืม?\nดูแล้วเธอน่าจะเป็นเทรนเนอร์ฝีมือดี.\pหึหึ…\nฟังข้อเสนอของฉันหน่อยสิ.\pพวกเรารวมกลุ่มกันเล่นเกมเล็ก ๆ\nเกี่ยวกับสิ่งที่เกิดขึ้นใน\lแบทเทิลฟรอนเทียร์.\pกติกาง่ายมาก.\pก่อนอื่น เราจะเลือกสถานที่หนึ่ง\nในแบทเทิลฟรอนเทียร์.\pจากนั้นแต่ละคนเลือกเทรนเนอร์คนละคน\nที่กำลังท้าสถานที่นั้นอยู่\lแล้วเดิมพันด้วยแบทเทิลพอยต์.\pคนที่เลือกเทรนเนอร์ซึ่งทำสถิติได้ดีที่สุด\nจะได้แบทเทิลพอยต์ทั้งหมด\lในกองเดิมพันไป.\pง่ายดีใช่ไหม?\nเอาล่ะ…$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's SINGLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะไปท้า\nห้องซิงเกิลแบทเทิลของ\lแบทเทิลทาวเวอร์.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's DOUBLE BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะไปท้า\nห้องดับเบิลแบทเทิลของ\lแบทเทิลทาวเวอร์.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "TOWER's MULTI BATTLE ROOMS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะไปท้า\nห้องมัลติแบทเทิลของ\lแบทเทิลทาวเวอร์.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's SINGLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nทัวร์นาเมนต์ซิงเกิลแบทเทิลของ\lแบทเทิลโดม.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "DOME's DOUBLE BATTLE Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nทัวร์นาเมนต์ดับเบิลแบทเทิลของ\lแบทเทิลโดม.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Single Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nแบทเทิลสวอปซิงเกิลทัวร์นาเมนต์ของ\lแบทเทิลแฟกทอรี.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "FACTORY's Battle Swap Double Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nแบทเทิลสวอปดับเบิลทัวร์นาเมนต์ของ\lแบทเทิลแฟกทอรี.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's SINGLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะไปท้า\nฮอลล์ซิงเกิลแบทเทิลของ\lแบทเทิลพาเลซ.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be challenging the BATTLE\l"
-	.string "PALACE's DOUBLE BATTLE HALLS.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะไปท้า\nฮอลล์ดับเบิลแบทเทิลของ\lแบทเทิลพาเลซ.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleArena::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "ARENA's Set KO Tourney.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nเซ็ต KO ทัวร์นาเมนต์ของ\lแบทเทิลอารีนา.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE PIKE's\l"
-	.string "Battle Choice.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nแบทเทิลไพค์\lในแบทเทิลชอยซ์.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
-	.string "What I'm looking for is a TRAINER who's\n"
-	.string "going to be entering the BATTLE\l"
-	.string "PYRAMID's Battle Quest.\p"
-	.string "But so far, I haven't seen a TRAINER\n"
-	.string "that has that winning quality.$"
+.string "ฉันกำลังหาเทรนเนอร์ที่จะเข้า\nแบทเทิลเควสต์ของ\lแบทเทิลพีระมิด.\pแต่จนถึงตอนนี้ยังไม่เห็นเทรนเนอร์\nที่ดูมีแววชนะเลย.$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
-	.string "I'll see to it that you benefit, too.\n"
-	.string "So how about it?\l"
-	.string "How about entering that event for me?$"
+.string "ฉันจะให้เธอได้ประโยชน์ด้วยแน่นอน.\nว่าไงล่ะ?\lช่วยลงแข่งรายการนั้นให้ฉันหน่อยไหม?$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
-	.string "All right, that's perfect.\n"
-	.string "So, uh… How about spotting me some\l"
-	.string "of your Battle Points?\p"
-	.string "Trust me, I'll show you my gratitude\n"
-	.string "afterward.$"
+.string "ดีเลย เยี่ยมมาก.\nงั้น เอ่อ… ช่วยออกแบทเทิลพอยต์\lของเธอให้ฉันหน่อยได้ไหม?\pเชื่อฉันเถอะ หลังจากนั้น\nฉันจะตอบแทนเธอแน่นอน.$"
 
 BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
-	.string "Great, great!\n"
-	.string "So, how much can you spot me?$"
+.string "เยี่ยม เยี่ยม!\nแล้วจะออกให้ฉันเท่าไร?$"
 
 BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints::
-	.string "Oh, no, no, no!\n"
-	.string "You don't have enough Battle Points!\p"
-	.string "I wish you wouldn't monkey around and\n"
-	.string "waste everyone's time!$"
+.string "โอ้ ไม่ ไม่ ไม่!\nแบทเทิลพอยต์ของเธอไม่พอ!\pอย่ามาเล่นอะไรไร้สาระ\nให้ทุกคนเสียเวลาสิ!$"
 
 BattleFrontier_Lounge3_Text_ThanksOffYouGo::
-	.string "Heheh! Thanks much!\n"
-	.string "So, off you go!$"
+.string "หึหึ! ขอบใจมาก!\nเอาล่ะ ไปได้แล้ว!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "SINGLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปห้องซิงเกิลแบทเทิล\nของแบทเทิลทาวเวอร์ทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "DOUBLE BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปห้องดับเบิลแบทเทิล\nของแบทเทิลทาวเวอร์ทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
-	.string "Get to the BATTLE TOWER's\n"
-	.string "MULTI BATTLE ROOMS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปห้องมัลติแบทเทิล\nของแบทเทิลทาวเวอร์ทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
-	.string "Get to the BATTLE DOME's\n"
-	.string "SINGLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปทัวร์นาเมนต์ซิงเกิลแบทเทิล\nของแบทเทิลโดมทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
-	.string "Get to the BATTLE DOME's\n"
-	.string "DOUBLE BATTLE Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปทัวร์นาเมนต์ดับเบิลแบทเทิล\nของแบทเทิลโดมทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Single Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปแบทเทิลสวอปซิงเกิลทัวร์นาเมนต์\nของแบทเทิลแฟกทอรีทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
-	.string "Get to the BATTLE FACTORY's\n"
-	.string "Battle Swap Double Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปแบทเทิลสวอปดับเบิลทัวร์นาเมนต์\nของแบทเทิลแฟกทอรีทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "SINGLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปฮอลล์ซิงเกิลแบทเทิล\nของแบทเทิลพาเลซทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
-	.string "Get to the BATTLE PALACE's\n"
-	.string "DOUBLE BATTLE HALLS pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปฮอลล์ดับเบิลแบทเทิล\nของแบทเทิลพาเลซทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleArena::
-	.string "Get to the BATTLE ARENA's\n"
-	.string "Set KO Tourney pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปเซ็ต KO ทัวร์นาเมนต์\nของแบทเทิลอารีนาทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePike::
-	.string "Get to the BATTLE PIKE's\n"
-	.string "Battle Choice pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปแบทเทิลชอยซ์\nของแบทเทิลไพค์ทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
-	.string "Get to the BATTLE PYRAMID's\n"
-	.string "Battle Quest pronto!\p"
-	.string "It's a must-win situation!\n"
-	.string "Don't blow your chance!\l"
-	.string "Both of our futures depend on you!$"
+.string "รีบไปแบทเทิลเควสต์\nของแบทเทิลพีระมิดทันที!\pงานนี้ต้องชนะเท่านั้น!\nอย่าทำโอกาสหลุดมือล่ะ!\lอนาคตของเราสองคนขึ้นอยู่กับเธอ!$"
 
 BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
-	.string "Oh, it's you…\n"
-	.string "Nice try…\p"
-	.string "I hate to break it to you, but I can't\n"
-	.string "return your Battle Points…\p"
-	.string "I guess we'll have to let it motivate\n"
-	.string "us to try harder next time!$"
+.string "อ้อ เธอนี่เอง…\nพยายามได้ดีแล้ว…\pเสียใจด้วย แต่ฉันคืน\nแบทเทิลพอยต์ให้ไม่ได้…\pเอาเรื่องนี้เป็นแรงผลักดัน\nให้คราวหน้าพยายามมากขึ้นก็แล้วกัน!$"
 
 BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
-	.string "Oh, yes!\n"
-	.string "Hello there, champ!\p"
-	.string "I knew you could!\n"
-	.string "I knew you would!\l"
-	.string "We're both big winners!\p"
-	.string "I'll return your Battle Points and,\n"
-	.string "of course, a little extra from me!$"
+.string "โอ้ เยี่ยม!\nหวัดดี แชมป์!\pฉันรู้อยู่แล้วว่าเธอทำได้!\nรู้อยู่แล้วว่าเธอต้องชนะ!\lเราสองคนเป็นผู้ชนะ!\pฉันจะคืนแบทเทิลพอยต์ให้\nพร้อมของแถมจากฉันอีกนิดหน่อย!$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_1} Battle Points.$"
+.string "{PLAYER} ได้รับ\nแบทเทิลพอยต์ {STR_VAR_1} แต้ม.$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
-	.string "If you're up for another challenge,\n"
-	.string "please do think of me!$"
+.string "ถ้าอยากท้าประลองอีกครั้ง\nอย่าลืมนึกถึงฉันนะ!$"
 
 BattleFrontier_Lounge3_Text_NotInterested::
-	.string "Not interested?! You shouldn't be\n"
-	.string "so afraid to take a chance!$"
+.string "ไม่สนใจงั้นเหรอ?! อย่ากลัว\nที่จะเสี่ยงหน่อยเลย!$"
 
 BattleFrontier_Lounge3_Text_Oh::
-	.string "Oh…$"
+.string "โอ้…$"
 
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
-	.string "I backed the wrong TRAINER again!\p"
-	.string "Maybe I should be battling normally\n"
-	.string "like everyone else…$"
+.string "{252}{25}{29}{2}{0}{244}{8}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{121}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{72}{0}{0}{244}{6}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{142}{0}{0}{244}{6}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{106}{1}{0}{244}{6}{1}{252}{25}{42}{0}{0}{244}{6}{1}!\p{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{21}{1}{0}{244}{6}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{29}{2}{0}{244}{8}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{42}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{66}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{142}{2}{0}{244}{6}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{32}{0}{0}{244}{7}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{65}{0}{0}{244}{7}{1}\n{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{19}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{51}{1}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{123}{0}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{7}{0}{0}{244}{5}{1}…$"
 
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
-	.string "That TRAINER…\p"
-	.string "He's good, but he gets rattled too\n"
-	.string "easily to survive the BATTLE DOME…$"
+.string "{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{88}{2}{0}{244}{8}{1}{252}{25}{30}{0}{0}{244}{8}{1}…\p{252}{25}{131}{0}{0}{244}{6}{1}{252}{25}{19}{1}{0}{244}{7}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{123}{0}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{7}{0}{0}{244}{5}{1} {252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{66}{1}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{140}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{9}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{18}{0}{0}{244}{8}{1}{252}{25}{59}{1}{0}{244}{4}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{50}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{32}{0}{0}{244}{7}{1}\n{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{33}{2}{0}{244}{7}{1}{252}{25}{42}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{31}{0}{0}{244}{7}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{67}{0}{0}{244}{7}{1}{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{38}{0}{0}{244}{7}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}…$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
-	.string "Giggle!\n"
-	.string "I know a winner when I see one!$"
+.string "คิกคิก!\nฉันดูออกว่าใครเป็นผู้ชนะ!$"
 
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
-	.string "Those TRAINERS…\n"
-	.string "What are they doing?\l"
-	.string "They should be taking challenges.$"
+.string "เทรนเนอร์พวกนั้น…\nทำอะไรกันอยู่นะ?\lน่าจะไปท้าประลองกันได้แล้ว.$"
