@@ -45,21 +45,11 @@ BattleFrontier_Mart_EventScript_Boy::
 	end
 
 BattleFrontier_Mart_Text_ChaperonGrandson:
-	.string "We came here to chaperon our\n"
-	.string "grandson.\p"
-	.string "But since we're here, we thought\n"
-	.string "we should get some souvenirs.$"
+.string "เรามาที่นี่เพื่อดูแล\nหลานชายของเรา.\pแต่ไหน ๆ ก็มาถึงแล้ว ก็เลยคิดว่า\nน่าจะซื้อของฝากกลับไปสักหน่อย.$"
 
 BattleFrontier_Mart_Text_ProteinMakeNiceGift:
-	.string "Dear, what do you think of this?\n"
-	.string "Wouldn't this make a nice gift?\p"
-	.string "It's…PRO…TE…IN?\n"
-	.string "It sounds delicious, doesn't it?$"
+.string "คุณคะ ดูนี่สิ\nซื้อเป็นของฝากดีไหม?\pเขียนว่า… PRO…TE…IN?\nฟังดูน่าอร่อยจังเลยนะ?$"
 
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
-	.string "A lot of the BATTLE FRONTIER's\n"
-	.string "facilities don't allow the use of items\l"
-	.string "during battles.\p"
-	.string "That rule makes things tougher than\n"
-	.string "they already are!$"
+.string "สถานที่หลายแห่งในแบทเทิลฟรอนเทียร์\nไม่อนุญาตให้ใช้ไอเทม\lระหว่างการต่อสู้.\pแค่กฎข้อนี้ก็ทำให้การต่อสู้\nยากขึ้นไปอีกแล้ว!$"
 
