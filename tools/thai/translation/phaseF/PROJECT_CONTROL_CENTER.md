@@ -6,8 +6,8 @@ status: ACTIVE
 last_updated_local: "2026-08-22 23:04 +07:00"
 repo: "~/dev/projects/pokeemerald-phaseF-remaining-thai-translation"
 branch: "work/phaseF-remaining-thai-translation"
-authoritative_head: "db49febad"
-authoritative_head_message: "translation: refresh Phase F scope dashboard"
+authoritative_head: "de074bf93"
+authoritative_head_message: "translation: add Phase F project control center"
 production_macro: "THAI_NAMING_PRODUCTION"
 ---
 
@@ -362,101 +362,67 @@ Do not convert `5955` into project completion percentage or translation backlog.
 
 ---
 
-# 12. Current active problem — Battle HOLD reconciliation
+# 12. Battle HOLD 505 canonical reconciliation — CLOSED
 
-## What is proven
+Battle HOLD review pool:
+**505 / 505 terminally reconciled**
 
-Battle HOLD candidate set:
-**505**
+Final canonical disposition:
 
-Composition:
-- A Core Battle System: 106
-- B Easy Chat / Battle: 63
-- C TV / Battle Interview: 50
-- D Union Room / Link Battle UI: 20
-- E Shared Battle UI / Labels: 18
-- F Cable Club / Link Battle: 9
-- G Map / Trainer Battle Dialogue: 223
-- H Other text / Ability descriptions: 2
-- I Other Battle System / UI: 8
-- J Other / Mystery Gift Battle Count Card: 6
+- `COVERED_ALREADY`: **286**
+- `NEEDS_TRANSLATION`: **153**
+- `PRESERVE_EXISTING`: **26**
+- `NOT_APPLICABLE`: **32**
+- `HOLD_FOR_CONTEXT`: **8**
+- unresolved outside approved HOLD: **0**
 
-The 505 set is exactly:
-- deferred non-facility battle tracker: **415**
-- deferred other-groups battle tracker: **90**
-- overlap: **0**
-- union: **505**
-
-Initial user-approved proposal:
-- translate A+B+C+D+E+F+G+H+J = **497**
-- keep I = **HOLD 8**
-
-## Why translation is PAUSED
-
-The 497 proposal is **not yet authorized for translation**.
-
-Direct contradiction found:
-- historical/dedicated reconciliation evidence shows some familiar Battle/Trainer targets were already `COVERED_ALREADY`,
-- but the attempted final-reconcile join reported:
-  **153 selected IDs missing from `phaseF-selected-hold-groups1-4-final-reconcile.csv`**.
-
-This proves that the old final-reconcile pack is incomplete for the current 497 candidate set and cannot be used as sole authority.
-
-Earlier dedup checks that searched only translated batch artifacts returned 0 covered, but they were insufficient because:
-- some closed work was recorded by dedicated trackers,
-- early Phase F work was done offline,
-- not every closed target necessarily has a committed `*-thai.csv` artifact.
-
-## Current BLOCKER
-
-Before translating any of the Battle 497 candidates, create **one canonical row-level reconciliation for all 505 IDs**.
-
-Required terminal disposition for every ID:
-- `COVERED_ALREADY`
-- `NEEDS_TRANSLATION`
-- `PRESERVE_EXISTING`
-- `NOT_APPLICABLE`
-- `HOLD_FOR_CONTEXT`
-
-The reconciliation must use the authority order in Section 0 and must explicitly account for:
-- closed Battle/System normal scope,
-- closed Trainer Spoken Dialogue scope,
-- Easy Chat/Union Room/TV or other closed dedicated tracks where applicable,
-- offline Phase F evidence registered in the repository,
-- current source state only when necessary to resolve an ID not covered by a tracker.
-
-### Important anti-loop limit
-
-This reconciliation is the **one final audit for the Battle 505 decision**.
-After all 505 IDs have terminal dispositions, do not open another Battle scope audit.
-Translate only rows marked `NEEDS_TRANSLATION`.
-
----
-
-# 13. Exact next step
-
-**Do not translate `phaseF-battle-hold-selected-497.csv` yet.**
-
-Next task:
-create and close:
+Canonical tracker:
 
 `tools/thai/translation/phaseF/batches/phaseF-battle-hold-505-canonical-reconcile.csv`
 
-It must contain all 505 IDs and a terminal disposition for each row.
+Actionable translation pack:
 
-After that:
-1. user reviews only the genuinely new `NEEDS_TRANSLATION` functional groups,
-2. scope is locked,
-3. translate in as few batches as safely possible,
-4. run control/placeholder + font/precompose + layout gates,
-5. Dry-run,
-6. Apply,
-7. Build once,
-8. runtime QA only for constrained UI/special buffers/new reproducible risk,
-9. commit,
-10. update this Control Center immediately.
+`tools/thai/translation/phaseF/batches/phaseF-battle-hold-actionable-153.csv`
 
----
+Important historical correction:
+
+The earlier proposal to translate 497 rows is superseded.
+It contained already-covered / preserve / N/A targets because older IDs and historical trackers
+did not provide a complete current view.
+
+The final 505 reconciliation proved:
+- 286 rows already covered by closed work,
+- 26 rows intentionally preserved,
+- 32 rows not applicable,
+- 8 Group-I rows intentionally held for context,
+- only 153 rows are genuinely actionable.
+
+**Do not reopen the Battle 505 scope audit.**
+Only the 153 `NEEDS_TRANSLATION` rows are eligible for translation.
+
+# 13. Exact next step
+
+Current actionable Battle translation scope:
+**153 rows**
+
+Next task:
+
+1. Read the complete `phaseF-battle-hold-actionable-153.csv`.
+2. Explain the player-visible context of the remaining 153 only.
+3. Preserve all locked terminology/policies.
+4. Translate the 153 in one batch if layout/runtime constraints permit.
+5. Run:
+   - control/placeholder gate,
+   - font/precompose gate,
+   - width/height/message-block layout gate.
+6. If a structural expansion has plausible crash/corruption risk, STOP and ask the user before changing it.
+7. Dry-run.
+8. Apply.
+9. Build once.
+10. Commit.
+11. Update this Control Center immediately.
+
+Battle 505 scope reconciliation is CLOSED and must not be repeated.
 
 # 14. New-chat bootstrap instruction
 
