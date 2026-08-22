@@ -283,192 +283,97 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 	end
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough TRAINER.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "BEAUTY around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your POKéMON special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+.string "ฮะฮะฮะ!\pดูจากตอนนี้คงไม่รู้หรอก\nแต่เมื่อก่อนฉันเป็นเทรนเนอร์ที่แกร่งมาก.\pใคร ๆ ก็รู้จักฉันในฐานะสาวงาม\nที่แกร่งที่สุดเลยนะ!\p… … … … … …\pอะไรอีกล่ะ?\nไม่เชื่อฉันสินะ.\pฉันไม่เหมือนยายขี้โม้ตรงนั้นหรอก\nฉันมีฝีมือจริง ๆ!\pจะพิสูจน์ให้ดู.\nฉันสอนท่าพิเศษแถมน่ารัก\lให้โปเกมอนของเธอได้.\pแต่บทเรียนของฉันไม่ฟรีนะ.\nจ่ายค่าท่าที่สอนด้วย\lแบทเทิลพอยต์นิดหน่อยเป็นไง?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute POKéMON moves?$"
+.string "ฮะฮะฮะ!\pกลับมาเรียนท่าโปเกมอน\nแบบพิเศษแถมน่ารักอีกแล้วเหรอ?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+.string "เอาล่ะ ๆ ดูนี่!\nอยากให้ฉันสอนท่าไหน?$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+.string "ท่า {STR_VAR_1} สินะ?\nต้องใช้ {STR_VAR_2} แบทเทิลพอยต์ ตกลงไหม?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the POKéMON\n"
-	.string "I should teach the move to.$"
+.string "เอาล่ะ ๆ ทีนี้เลือกโปเกมอน\nที่จะให้ฉันสอนท่านี้.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+.string "อะไรเนี่ย…\nแบทเทิลพอยต์ไม่พอนี่นา!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+.string "เห็นฝีมือฉันแล้วใช่ไหม?\nงั้นขอรับแบทเทิลพอยต์ไปล่ะนะ!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+.string "ว่าไงนะ?\nไม่เอาเหรอ…\pถ้าอยากเห็นฝีมือฉันเมื่อไร\nก็แวะมาได้ตลอดเลย!$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic TRAINER.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible SWIMMER around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your POKéMON hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+.string "หึหึหึ!\pตอนนี้อาจดูไม่ออก แต่เมื่อก่อน\nฉันเป็นเทรนเนอร์ชั้นยอดเลยนะ.\pใคร ๆ ก็รู้จักฉันในฐานะนักว่ายน้ำ\nผู้ไร้เทียมทานที่สุดเลยล่ะ!\p… … … … … …\pเป็นอะไรไป?\nไม่เชื่อฉันสินะ.\pฉันไม่เหมือนยายตัวตลกตรงนั้นหรอก\nฉันมีประสบการณ์จริง ๆ!\pฉันพิสูจน์ให้ดูได้.\nฉันสอนท่าหนักแน่นแต่สวยงาม\lให้โปเกมอนของเธอได้.\pแต่บทเรียนของฉันไม่ฟรีนะ.\nจ่ายค่าท่าที่สอนด้วย\lแบทเทิลพอยต์นิดหน่อยเป็นไง?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty POKéMON moves?$"
+.string "หึหึหึ!\pมาเรียนท่าโปเกมอน\nแบบหนักแน่นแต่สวยงามเหรอ?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+.string "สองคนนั้นชอบเหน็บแนมกัน\nจนคงคิดว่าพวกเธอ\lไม่ถูกกันใช่ไหม.\pแต่ถ้าเป็นแบบนั้นจริง ก็คงไม่\nมายืนอยู่ด้วยกันตรงนี้หรอก จริงไหม?$"
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee YOUNGSTER,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us TRAINERS.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their POKéMON moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+.string "ตอนฉันยังเป็นเด็กตัวเล็ก ๆ\nสองคนนั้นทั้งแกร่งและงดงามมาก.\pพวกเธอเป็นไอดอลของเหล่าเทรนเนอร์.\pแม้ตอนนี้ อายุจะเพิ่มขึ้น แต่\nฝีมือของพวกเธอก็ไม่ได้ลดลง.\pจริง ๆ แล้ว ท่าของโปเกมอนพวกเธอ\nยิ่งขัดเกลาจนเฉียบคมกว่าเดิม.\pแต่… ไม่รู้ทำไม ฉันอดรู้สึกไม่ได้\nว่า…\pกาลเวลาช่างโหดร้ายจริง ๆ…$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum HP.$"
+.string "ฟื้น HP ได้\nสูงสุดครึ่งหนึ่งของ\nHP สูงสุดของผู้ใช้.$"
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+.string "สร้างความเสียหาย\nเท่ากับเลเวล\nของผู้ใช้.$"
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+.string "ฟื้น HP ครึ่งหนึ่ง\nของความเสียหายที่ทำ\nกับคู่ต่อสู้ที่หลับอยู่.$"
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+.string "หมัดทรงพลัง\nที่ปล่อยออกมาด้วย\nพลังมหาศาล.$"
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+.string "ลูกเตะที่\nทรงพลังอย่างยิ่ง\nด้วยแรงมหาศาล.$"
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+.string "พุ่งชนด้วยทั้งตัว\nและอาจทำให้\nเป็นอัมพาต.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+.string "ขว้างก้อนหินใหญ่\nใส่คู่ต่อสู้ อาจ\nทำให้ชะงัก.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+.string "โต้กลับการโจมตี\nกายภาพด้วยพลัง\nเป็นสองเท่า.$"
 
 BattleFrontier_Lounge7_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+.string "ปล่อยกระแสไฟ\nอ่อน ๆ ที่ทำให้\nคู่ต่อสู้เป็นอัมพาต.$"
 
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises ATTACK.$"
+.string "ระบำต่อสู้\nที่เพิ่ม ATTACK\nอย่างมาก.$"
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise DEFENSE.$"
+.string "ม้วนตัวเพื่อ\nซ่อนจุดอ่อนและ\nเพิ่ม DEFENSE.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+.string "โจมตีด้วยเสียงดัง\nใช้ได้เฉพาะตอน\nกำลังหลับ.$"
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+.string "สาดโคลนใส่\nหน้าคู่ต่อสู้เพื่อ\nลดความแม่นยำ.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+.string "ปล่อยลำแสง\nรูปดาวที่\nไม่มีวันพลาด.$"
 
 BattleFrontier_Lounge7_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's SPEED.$"
+.string "โจมตีด้วยความเย็น\nพร้อมลด SPEED\nของคู่ต่อสู้.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+.string "ทนการโจมตีใด ๆ\nได้ 1 เทิร์น\nโดยเหลือ HP 1.$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+.string "คัดลอกผลที่เกิด\nกับคู่ต่อสู้มา\nใช้กับตัวเอง.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+.string "หมัดเยือกแข็ง\nที่อาจทำให้\nคู่ต่อสู้แข็งตัว.$"
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+.string "หมัดชาร์จไฟ\nที่อาจทำให้\nคู่ต่อสู้เป็นอัมพาต.$"
 
 BattleFrontier_Lounge7_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+.string "หมัดเพลิง\nที่อาจทำให้\nคู่ต่อสู้ถูกเผาไหม้.$"

@@ -41,162 +41,86 @@ BattleFrontier_Lounge5_EventScript_LittleBoy::
 	end
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting::
-	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
-	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+.string "ฮิฮิ!\nฉันรู้ว่าโปเกมอนกำลังคิดอะไรอยู่!\pขอร้องล่ะ!\nขอดูโปเกมอนของเธอหน่อยได้ไหม?$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
-	.string "Boo!\n"
-	.string "Cheapie!$"
+.string "โธ่!\nขี้เหนียวจัง!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nถึงจะเจ็บมาก ๆ\lก็ยังสู้ต่อ!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLonely::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาเอาคืน!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBrave::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nแต่ถ้าเจ็บมากพอ\lก็จะเริ่มห่วงตัวเอง!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAdamant::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nถึงจะเจ็บมาก ๆ\lก็ยังสู้ต่อ!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNaughty::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาเอาคืน!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBold::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nแต่ถ้าเจ็บมากพอ\lก็จะเริ่มห่วงตัวเอง!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDocileNaiveQuietQuirky::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nถึงจะเจ็บมาก ๆ\lก็ยังสู้ต่อ!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRelaxed::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาเอาคืน!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlImpish::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nแต่ถ้าเจ็บมากพอ\lก็จะเริ่มห่วงตัวเอง!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLax::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nต่อให้เจ็บมาก ๆ\lก็ยังใช้ลูกเล่นเหมือนเดิม!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlTimid::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาใช้ลูกเล่น!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHasty::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nถึงจะเจ็บมาก ๆ\lก็ยังสู้ต่อ!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSerious::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nต่อให้เจ็บมาก ๆ\lก็ยังใช้ลูกเล่นเหมือนเดิม!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlJolly::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nแต่ถ้าเจ็บมากพอ\lก็จะเริ่มห่วงตัวเอง!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlModest::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself whether\l"
-	.string "or not it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nไม่ว่าจะเจ็บมากหรือไม่\lก็ยังคอยห่วงตัวเองอยู่!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlMild::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาใช้ลูกเล่น!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBashful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nถึงจะเจ็บมาก ๆ\lก็ยังคอยห่วงตัวเองอยู่!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRash::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบใช้ลูกเล่น!\nต่อให้เจ็บมาก ๆ\lก็ยังใช้ลูกเล่นเหมือนเดิม!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCalm::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nถึงจะเจ็บมาก ๆ\lก็ยังคอยห่วงตัวเองอยู่!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlGentle::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาเอาคืน!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSassy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+.string "อืม…\pตัวนี้บอกว่าชอบสู้!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาใช้ลูกเล่น!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCareful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+.string "อืม…\pตัวนี้บอกว่าชอบดูแลตัวเอง!\nแต่ถ้าเจ็บมากพอ\lก็จะหันมาใช้ลูกเล่น!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
-	.string "That's silly! An EGG is asleep!\n"
-	.string "I can't talk to it!$"
+.string "แบบนั้นไม่ได้สิ! ไข่กำลังหลับอยู่!\nฉันคุยกับมันไม่ได้หรอก!$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
-	.string "How charming!\n"
-	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+.string "น่ารักจริง ๆ!\nเด็กผู้หญิงตัวน้อยคนนั้นบอกว่า\lเข้าใจภาษาโปเกมอนด้วยนะ!$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
-	.string "I have this feeling that the little girl\n"
-	.string "is saying something profound.$"
+.string "ฉันรู้สึกว่าเด็กคนนั้น\nกำลังพูดอะไรที่ลึกซึ้งมากเลย.$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
-	.string "I know something!\p"
-	.string "That little girl plays at the red house\n"
-	.string "a lot!$"
+.string "ฉันรู้อะไรอย่างหนึ่ง!\pเด็กคนนั้นไปเล่นที่บ้านสีแดง\nบ่อยมากเลย!$"
 
