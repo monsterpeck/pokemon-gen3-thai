@@ -1,5 +1,7 @@
 #include "global.h"
+#include "data.h"
 #include "thai_name.h"
+#include "data/text/thai_species_names.inc"
 
 #ifdef THAI_NAMING_PRODUCTION
 
@@ -211,6 +213,18 @@ bool32 ThaiShapeCompactName(
 
     memcpy(destination, temporary, destinationPos);
     return TRUE;
+}
+
+
+const u8 *GetSpeciesNameForDisplay(u16 species)
+{
+    if (species < NUM_SPECIES && sThaiSpeciesNames[species] != NULL)
+        return sThaiSpeciesNames[species];
+
+    if (species < NUM_SPECIES)
+        return gSpeciesNames[species];
+
+    return gSpeciesNames[SPECIES_NONE];
 }
 
 #endif // THAI_NAMING_PRODUCTION

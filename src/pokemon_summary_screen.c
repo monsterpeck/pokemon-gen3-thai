@@ -2785,6 +2785,30 @@ static void PrintNotEggInfo(void)
     StringAppend(gStringVar1, gStringVar2);
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_SPECIES, gStringVar1, 24, 17, 0, 1);
     GetMonNickname(mon, gStringVar1);
+#ifdef THAI_NAMING_PRODUCTION
+    if (IsBoxMonNicknameThai(&mon->box))
+    {
+        // Thai nicknames are stored in compact form. Shape them only for
+        // display, using the existing global string buffer so no extra
+        // IWRAM scratch buffer is required.
+        if (!ThaiShapeCompactName(
+                gStringVar1,
+                StringLength(gStringVar1),
+                POKEMON_NAME_LENGTH,
+                gStringVar1,
+                sizeof(gStringVar1)))
+        {
+            StringCopy(gStringVar1, GetSpeciesNameForDisplay(summary->species2));
+        }
+    }
+    else if (summary->species2 < NUM_SPECIES
+          && StringCompare(gStringVar1, gSpeciesNames[summary->species2]) == 0)
+    {
+        // Default vanilla nickname stays unchanged in save data, but the
+        // canonical Thai species name is used for display.
+        StringCopy(gStringVar1, GetSpeciesNameForDisplay(summary->species2));
+    }
+#endif
     PrintTextOnWindow(PSS_LABEL_WINDOW_PORTRAIT_NICKNAME, gStringVar1, 0, 1, 0, 1);
     gStringVar1[0] = CHAR_SLASH;
     StringCopy(&gStringVar1[1], GetSpeciesNameForDisplay(summary->species2));
@@ -3148,7 +3172,13 @@ static void BufferMonTrainerMemo(void)
     else
     {
         u8 *metLevelString = Alloc(32);
+#ifdef THAI_NAMING_PRODUCTION
+        // Thai precomposed map names expand to multi-byte positioned-glyph
+        // sequences and require a larger runtime buffer.
+        u8 *metLocationString = Alloc(512);
+#else
         u8 *metLocationString = Alloc(32);
+#endif
         GetMetLevelString(metLevelString);
 
         if (sum->metLocation < MAPSEC_NONE)

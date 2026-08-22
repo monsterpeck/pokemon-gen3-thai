@@ -4,7 +4,9 @@
 #include "global.h"
 #include "constants/global.h"
 
+
 #ifdef THAI_NAMING_PRODUCTION
+
 
 #define THAI_NAME_MAX_SOURCE_LENGTH POKEMON_NAME_LENGTH
 #define THAI_NAME_SHAPED_CAPACITY ((THAI_NAME_MAX_SOURCE_LENGTH * 8) + 1)
@@ -26,6 +28,9 @@ bool32 IsBoxNameThai(u8 boxId);
 void SetBoxNameThai(u8 boxId, bool32 isThai);
 
 bool32 IsThaiCompactNameId(u8 compactId);
+
+const u8 *GetSpeciesNameForDisplay(u16 species);
+
 
 bool32 ThaiShapeCompactName(
     const u8 *source,

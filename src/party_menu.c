@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -2287,13 +2288,54 @@ static void DisplayPartyPokemonBarDetail(u8 windowId, const u8 *str, u8 color, c
 static void DisplayPartyPokemonNickname(struct Pokemon *mon, struct PartyMenuBox *menuBox, u8 c)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
+    const u8 *displayName = nickname;
+    u16 species = GetMonData(mon, MON_DATA_SPECIES);
 
-    if (GetMonData(mon, MON_DATA_SPECIES) != SPECIES_NONE)
+#ifdef THAI_NAMING_PRODUCTION
+    static u8 sThaiPartyNickname[256];
+#endif
+
+    if (species != SPECIES_NONE)
     {
         if (c == 1)
             menuBox->infoRects->blitFunc(menuBox->windowId, menuBox->infoRects->dimensions[0] >> 3, menuBox->infoRects->dimensions[1] >> 3, menuBox->infoRects->dimensions[2] >> 3, menuBox->infoRects->dimensions[3] >> 3, FALSE);
-        GetMonNickname(mon, nickname);
-        DisplayPartyPokemonBarDetail(menuBox->windowId, nickname, 0, menuBox->infoRects->dimensions);
+
+        GetMonData(mon, MON_DATA_NICKNAME, nickname);
+
+#ifdef THAI_NAMING_PRODUCTION
+        if (IsBoxMonNicknameThai(&mon->box))
+        {
+            if (ThaiShapeCompactName(
+                    nickname,
+                    StringLength(nickname),
+                    POKEMON_NAME_LENGTH,
+                    sThaiPartyNickname,
+                    sizeof(sThaiPartyNickname)))
+            {
+                displayName = sThaiPartyNickname;
+            }
+            else
+            {
+                displayName = GetSpeciesNameForDisplay(species);
+            }
+        }
+        else
+#endif
+        {
+            StringGet_Nickname(nickname);
+
+#ifdef THAI_NAMING_PRODUCTION
+            if (species < NUM_SPECIES
+             && StringCompare(nickname, gSpeciesNames[species]) == 0)
+                displayName = GetSpeciesNameForDisplay(species);
+#endif
+        }
+
+        DisplayPartyPokemonBarDetail(
+            menuBox->windowId,
+            displayName,
+            0,
+            menuBox->infoRects->dimensions);
     }
 }
 
