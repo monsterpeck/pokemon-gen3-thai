@@ -431,291 +431,209 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
-	.string "CORNER.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+.string "สวัสดี ที่นี่คือจุดแลก\nแบทเทิลพอยต์.\pเราจะนำแบทเทิลพอยต์ที่คุณสะสม\nมาแลกเป็นของรางวัลดี ๆ.\pโปรดเลือกของรางวัลจากรายการนี้.$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+.string "โปรดเลือกของรางวัลจากรายการนี้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the KISS POSTER.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก KISS POSTER แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the KISS CUSHION.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก KISS CUSHION แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the SMOOCHUM DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก SMOOCHUM DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the TOGEPI DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก TOGEPI DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the MEOWTH DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก MEOWTH DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CLEFAIRY DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the DITTO DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก DITTO DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the CYNDAQUIL DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CYNDAQUIL DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the CHIKORITA DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CHIKORITA DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the TOTODILE DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก TOTODILE DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the LAPRAS DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก LAPRAS DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the SNORLAX DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก SNORLAX DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก VENUSAUR DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CHARIZARD DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the BLASTOISE DOLL.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก BLASTOISE DOLL แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the PROTEIN.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก PROTEIN แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the CALCIUM.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CALCIUM แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the IRON.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก IRON แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the ZINC.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก ZINC แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the CARBOS.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CARBOS แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "You've chosen the HP UP.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก HP UP แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the BRIGHTPOWDER.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก BRIGHTPOWDER แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the WHITE HERB.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก WHITE HERB แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the QUICK CLAW.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก QUICK CLAW แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the MENTAL HERB.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก MENTAL HERB แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the CHOICE BAND.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก CHOICE BAND แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the KING'S ROCK.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก KING'S ROCK แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the FOCUS BAND.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก FOCUS BAND แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the SCOPE LENS.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก SCOPE LENS แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the LEFTOVERS.\n"
-	.string "Is that correct?$"
+.string "คุณเลือก LEFTOVERS แล้ว.\nถูกต้องไหม?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+.string "ขอบคุณ!\nเราจะส่งไปยัง PC ที่บ้านของคุณ.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+.string "นี่คือของรางวัลของคุณ!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+.string "ขออภัยจริง ๆ…\nแบทเทิลพอยต์ของคุณไม่พอ…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+.string "ขออภัยจริง ๆ…\nดูเหมือน PC ของคุณจะเต็มแล้ว…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+.string "ขออภัยจริง ๆ…\nคุณไม่มีที่ว่างสำหรับถือมัน…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+.string "ขอบคุณมาก.\pเชิญมาอีกเมื่อคุณสะสม\nแบทเทิลพอยต์ได้มากพอแล้ว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush DOLLS!\l"
-	.string "Little plush DOLLS!\l"
-	.string "I wish I had them all!$"
+.string "โอ้ น่ารักจัง!\nฉันอยากได้พวกนั้น!\lเบาะก็น่ารัก!\lตุ๊กตาผ้าตัวใหญ่!\lตุ๊กตาผ้าตัวเล็ก!\lฉันอยากได้ทั้งหมดเลย!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+.string "ปล่อยให้แม่จัดการเอง!\pถ้าเป็นของที่ลูกอยากได้ แม่จะ\nทำทุกอย่างเพื่อหามาให้เลยจ้ะ!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+.string "ถ้าได้ไอเทมจากที่นี่มา\nโปเกมอนของฉันจะแกร่งขึ้น.\pต้องแกร่งขึ้นแน่!\nไม่มีข้อสงสัยเลย!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, SMOOCHUM?$"
+.string "หา?\nจ้องอะไรอยู่?\pฉันไม่ชอบให้ใครมาจ้อง\nตุ๊กตาผ้าของฉันแบบนั้น.\pถ้าอยากได้ก็ไปหามาเองสิ!\nจริงไหม มูจูรู?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+.string "รู้ไหม?\pถ้าทำสถิติได้ยาวขึ้นที่\nสถานที่แบทเทิลต่าง ๆ ก็จะ\lได้รับแบทเทิลพอยต์มากขึ้นเรื่อย ๆ.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a SMOOCHUM print.$"
+.string "โปสเตอร์ขนาดใหญ่ลายมูจูรู.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A SMOOCHUM cushion.\n"
-	.string "Place it on a mat or a desk.$"
+.string "เบาะรองนั่งลายมูจูรู.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A SMOOCHUM DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "SMOOCHUM DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A TOGEPI DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "TOGEPI DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A MEOWTH DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "MEOWTH DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A CLEFAIRY DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "CLEFAIRY DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A DITTO DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "DITTO DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A CYNDAQUIL DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "CYNDAQUIL DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A CHIKORITA DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "CHIKORITA DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A TOTODILE DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "TOTODILE DOLL.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large DOLL.\n"
-	.string "Place it on a mat or a desk.$"
+.string "ตุ๊กตาขนาดใหญ่.\nวางบนเสื่อหรือโต๊ะได้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "Raises the stat ATTACK of one\n"
-	.string "POKéMON.$"
+.string "เพิ่มพลังโจมตีของโปเกมอน\nหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Raises the stat SP. ATK of one\n"
-	.string "POKéMON.$"
+.string "เพิ่มพลังโจมตีพิเศษของโปเกมอน\nหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
-	.string "Raises the stat DEFENSE of one\n"
-	.string "POKéMON.$"
+.string "เพิ่มพลังป้องกันของโปเกมอน\nหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "Raises the stat SP. DEF of one\n"
-	.string "POKéMON.$"
+.string "เพิ่มพลังป้องกันพิเศษของโปเกมอน\nหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "Raises the stat SPEED of one\n"
-	.string "POKéMON.$"
+.string "เพิ่มความเร็วของโปเกมอน\nหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "Raises the HP of one POKéMON.$"
+.string "เพิ่ม HP ของโปเกมอนหนึ่งตัว.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "HP in battle.$"
+.string "ไอเทมถือที่ค่อย ๆ ฟื้นฟู HP\nระหว่างการต่อสู้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+.string "ไอเทมถือที่ฟื้นคืน\nค่าสถานะที่ถูกลด.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+.string "ไอเทมถือที่บางครั้งทำให้\nได้โจมตีก่อน.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps POKéMON out\n"
-	.string "of infatuation.$"
+.string "ไอเทมถือที่แก้อาการหลงเสน่ห์\nของโปเกมอน.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+.string "ไอเทมถือที่ส่องแสง\nลดความแม่นยำของคู่ต่อสู้.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+.string "เพิ่มพลังของท่า แต่จะใช้ได้\nเพียงท่านั้น.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+.string "ไอเทมถือที่อาจทำให้คู่ต่อสู้ชะงัก\nเมื่อถูกโจมตี.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+.string "ไอเทมถือที่บางครั้ง\nป้องกันการหมดสภาพ.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+.string "ไอเทมถือที่เพิ่ม\nโอกาสโจมตีคริติคอล.$"
