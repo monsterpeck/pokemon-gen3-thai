@@ -294,212 +294,98 @@ BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide::
 	end
 
 BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
-	.string "Is it your first time here?\n"
-	.string "Please step this way!$"
+.string "มาที่นี่ครั้งแรกใช่ไหม?\nเชิญทางนี้เลย!$"
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
-	.string "The front lines of POKéMON battling!\n"
-	.string "Welcome to the BATTLE FRONTIER!$"
+.string "แนวหน้าของการต่อสู้โปเกมอน!\nยินดีต้อนรับสู่แบทเทิลฟรอนเทียร์!$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
-	.string "For a first-time visitor, we issue\n"
-	.string "the FRONTIER PASS.\p"
-	.string "It's for use at all the facilities\n"
-	.string "in the BATTLE FRONTIER.\p"
-	.string "Here you are!$"
+.string "สำหรับผู้มาเยือนครั้งแรก เราจะมอบ\nฟรอนเทียร์พาสให้.\pใช้ได้กับทุกสถานที่\nในแบทเทิลฟรอนเทียร์.\pรับไปเลย!$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
-	.string "{PLAYER} obtained\n"
-	.string "the FRONTIER PASS.$"
+.string "{PLAYER} ได้รับ\nฟรอนเทียร์พาส.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-	.string "{PLAYER} placed the TRAINER CARD\n"
-	.string "in the FRONTIER PASS.$"
+.string "{PLAYER} {252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{81}{1}{0}{244}{6}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{25}{0}{0}{244}{7}{1}\n{252}{25}{41}{0}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{4}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{36}{0}{0}{244}{8}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{126}{0}{0}{244}{7}{1}{252}{25}{39}{0}{0}{244}{6}{1}{252}{25}{18}{2}{0}{244}{5}{1}{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{45}{0}{0}{244}{6}{1}$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
-	.string "We hope you enjoy all that the BATTLE\n"
-	.string "FRONTIER has to offer!$"
+.string "ขอให้สนุกกับทุกสิ่งที่\nแบทเทิลฟรอนเทียร์มีให้!$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
-	.string "???: Well, if it isn't {PLAYER}{KUN}!\n"
-	.string "You came out here!$"
+.string "???: อ้าว นี่ {PLAYER}{KUN} ไม่ใช่เหรอ!\nมาถึงที่นี่แล้วสินะ!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "GUIDE: Oh! MR. SCOTT, sir!\n"
-	.string "Good day to you, sir!$"
+.string "ไกด์: โอ้! คุณสก็อตต์ครับ!\nสวัสดีครับ!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
-	.string "SCOTT: It's great to see you here,\n"
-	.string "it really is!\p"
-	.string "I hope you'll take your time and\n"
-	.string "explore everywhere.\p"
-	.string "Naturally, I hope you'll also experience\n"
-	.string "the pure essence of battling.\p"
-	.string "I also have my quarters here, so feel\n"
-	.string "free to visit if you have time.$"
+.string "สก็อตต์: ดีใจจริง ๆ ที่ได้เจอเธอที่นี่\nจริง ๆ นะ!\pหวังว่าเธอจะค่อย ๆ ใช้เวลา\nสำรวจให้ทั่วเลย.\pแน่นอน ฉันก็หวังให้เธอได้สัมผัส\nแก่นแท้ของการต่อสู้ด้วย.\pฉันมีห้องพักอยู่ที่นี่เหมือนกัน ถ้ามี\nเวลาก็แวะมาได้เลย.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
-	.string "I'm your guide to the various facilities\n"
-	.string "here in the BATTLE FRONTIER.$"
+.string "ฉันคือไกด์แนะนำสถานที่ต่าง ๆ\nภายในแบทเทิลฟรอนเทียร์.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
-	.string "Which would you like to learn about?$"
+.string "อยากรู้เรื่องไหน?$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
-	.string "It is the gigantic tower considered\n"
-	.string "to be the BATTLE FRONTIER's symbol.\p"
-	.string "There are four kinds of BATTLE ROOMS\n"
-	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
-	.string "and LINK MULTI BATTLES.$"
+.string "หอคอยขนาดยักษ์ที่ถือเป็น\nสัญลักษณ์ของแบทเทิลฟรอนเทียร์.\pภายในมีแบทเทิลรูม 4 แบบ\nสำหรับซิงเกิล ดับเบิล มัลติ\lและลิงก์มัลติแบทเทิล.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
-	.string "The BATTLE DOME is the large building\n"
-	.string "shaped like a huge egg.\p"
-	.string "Events named Battle Tourneys are held\n"
-	.string "in this facility.\p"
-	.string "The Battle Tourneys are offered in\n"
-	.string "two courses--for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+.string "แบทเทิลโดมคืออาคารขนาดใหญ่\nรูปทรงเหมือนไข่ยักษ์.\pที่นี่จัดการแข่งขัน\nที่เรียกว่าแบทเทิลทัวร์นีย์.\pแบทเทิลทัวร์นีย์มี\n2 คอร์ส คือซิงเกิลและดับเบิล\lแบทเทิล.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
-	.string "The BATTLE PALACE is the red building\n"
-	.string "on the right of the BATTLE FRONTIER.\p"
-	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and DOUBLE BATTLES.$"
+.string "แบทเทิลพาเลซคืออาคารสีแดง\nทางขวาของแบทเทิลฟรอนเทียร์.\pมีแบทเทิลฮอลล์ 2 แบบ\nสำหรับซิงเกิลและดับเบิลแบทเทิล.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
-	.string "The BATTLE ARENA is the dojo-like\n"
-	.string "building at the center-right of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Set KO Tourney\n"
-	.string "takes place at the BATTLE ARENA.$"
+.string "แบทเทิลอารีนาคืออาคารคล้ายโดโจ\nอยู่บริเวณกลางค่อนไปทางขวา\lของแบทเทิลฟรอนเทียร์.\pที่นี่จัดการแข่งขันที่เรียกว่า\nเซ็ต KO ทัวร์นีย์.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
-	.string "The BATTLE FACTORY is the large\n"
-	.string "building that is the closest to us.\p"
-	.string "An event called the Battle Swap\n"
-	.string "is conducted there.\p"
-	.string "The Battle Swap event is offered in\n"
-	.string "two courses for SINGLE and DOUBLE\l"
-	.string "BATTLES.$"
+.string "แบทเทิลแฟกทอรีคืออาคารขนาดใหญ่\nที่อยู่ใกล้เราที่สุด.\pที่นี่จัดการแข่งขันที่เรียกว่า\nแบทเทิลสวอป.\pแบทเทิลสวอปมี\n2 คอร์ส คือซิงเกิลและดับเบิล\lแบทเทิล.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-	.string "The BATTLE PIKE is the building shaped\n"
-	.string "like a POKéMON at the center-left of\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "An event called the Battle Choice\n"
-	.string "is conducted there.$"
+.string "แบทเทิลไพค์คืออาคารที่มีรูปทรง\nเหมือนโปเกมอน อยู่บริเวณกลางค่อนไปซ้าย\lของแบทเทิลฟรอนเทียร์.\pที่นี่จัดการแข่งขันที่เรียกว่า\nแบทเทิลชอยซ์.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
-	.string "The BATTLE PYRAMID is the enormous\n"
-	.string "pyramid.\p"
-	.string "An event called the Battle Quest\n"
-	.string "is conducted there.$"
+.string "แบทเทิลพีระมิดคือ\nพีระมิดขนาดมหึมา.\pที่นี่จัดการแข่งขันที่เรียกว่า\nแบทเทิลเควสต์.$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
-	.string "The RANKING HALL is located near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "There, you may see the most fantastic\n"
-	.string "records left by the TRAINERS that\l"
-	.string "took on the many challenges of\l"
-	.string "the BATTLE FRONTIER.$"
+.string "แรงกิงฮอลล์อยู่ใกล้\nแบทเทิลทาวเวอร์.\pที่นั่นคุณจะได้เห็นสถิติสุดยอด\nของเหล่าเทรนเนอร์ที่เคย\lท้าประลองมากมายใน\lแบทเทิลฟรอนเทียร์.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
-	.string "The EXCHANGE SERVICE CORNER is near\n"
-	.string "the BATTLE TOWER.\p"
-	.string "The Battle Points you have earned in\n"
-	.string "the BATTLE FRONTIER may be exchanged\l"
-	.string "for fabulous prizes there.$"
+.string "เอ็กซ์เชนจ์เซอร์วิสคอร์เนอร์อยู่ใกล้\nแบทเทิลทาวเวอร์.\pแบทเทิลพอยต์ที่คุณได้รับจาก\nแบทเทิลฟรอนเทียร์สามารถนำไปแลก\lของรางวัลชั้นเยี่ยมที่นั่นได้.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-	.string "I'm your guide to the basic rules that\n"
-	.string "are common to all the challenges\l"
-	.string "offered by the facilities in the BATTLE\l"
-	.string "FRONTIER.$"
+.string "ฉันคือไกด์อธิบายกฎพื้นฐานที่\nใช้ร่วมกันในการท้าประลองต่าง ๆ\lของสถานที่ในแบทเทิล\lฟรอนเทียร์.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
-	.string "What would you like to learn about?$"
+.string "อยากรู้เรื่องอะไร?$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
-	.string "All the challenges at the BATTLE\n"
-	.string "FRONTIER's facilities come in\l"
-	.string "two courses--Level 50 and Open Level.$"
+.string "การท้าประลองทั้งหมดในสถานที่\nของแบทเทิลฟรอนเทียร์มี\l2 คอร์ส คือเลเวล 50 และโอเพนเลเวล.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-	.string "The Level 50 course is open to POKéMON\n"
-	.string "up to and including Level 50.\p"
-	.string "Please keep in mind, however, that\n"
-	.string "no TRAINER you face will have any\l"
-	.string "POKéMON below Level 50.\p"
-	.string "This course is the entry level for\n"
-	.string "battles at the BATTLE FRONTIER.\p"
-	.string "To begin, we hope you will challenge\n"
-	.string "this course.$"
+.string "คอร์สเลเวล 50 เปิดให้โปเกมอน\nที่มีเลเวลไม่เกิน 50 เข้าร่วม.\pแต่โปรดจำไว้ว่าเทรนเนอร์\nคู่ต่อสู้จะไม่มีโปเกมอน\lที่ต่ำกว่าเลเวล 50.\pคอร์สนี้เป็นระดับเริ่มต้นสำหรับ\nการต่อสู้ในแบทเทิลฟรอนเทียร์.\pเราแนะนำให้เริ่มท้าประลอง\nจากคอร์สนี้.$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-	.string "The Open Level course places no limit\n"
-	.string "on the levels of POKéMON entering\l"
-	.string "challenges.\p"
-	.string "The levels of your opponents will\n"
-	.string "be adjusted to match the levels of\l"
-	.string "your POKéMON.\p"
-	.string "However, no TRAINER you face will\n"
-	.string "have any POKéMON below Level 60.$"
+.string "คอร์สโอเพนเลเวลไม่จำกัด\nเลเวลของโปเกมอนที่เข้า\lท้าประลอง.\pเลเวลของคู่ต่อสู้จะถูกปรับ\nให้ตรงกับเลเวลของ\lโปเกมอนของคุณ.\pอย่างไรก็ตาม เทรนเนอร์คู่ต่อสู้\nจะไม่มีโปเกมอนต่ำกว่าเลเวล 60.$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
-	.string "Virtually any kind of POKéMON may take\n"
-	.string "on the challenges at all facilities.\p"
-	.string "EGGS and certain kinds of POKéMON,\n"
-	.string "however, are not permitted.\p"
-	.string "The numbers of POKéMON required for\n"
-	.string "challenges will depend on the facility.\p"
-	.string "At all facilities, however, two or more\n"
-	.string "of the same kind of POKéMON are not\l"
-	.string "permitted.$"
+.string "โปเกมอนเกือบทุกชนิดสามารถ\nเข้าท้าประลองได้ทุกสถานที่.\pแต่ไข่และโปเกมอนบางชนิด\nไม่ได้รับอนุญาต.\pจำนวนโปเกมอนที่ต้องใช้ในการ\nท้าประลองขึ้นอยู่กับแต่ละสถานที่.\pแต่ทุกสถานที่จะไม่อนุญาตให้\nใช้โปเกมอนชนิดเดียวกันตั้งแต่\l2 ตัวขึ้นไป.$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-	.string "When entering a challenge at a BATTLE\n"
-	.string "FRONTIER facility, POKéMON may not\l"
-	.string "be holding the same kind of item.\p"
-	.string "Please make sure that all POKéMON\n"
-	.string "entering a challenge are holding\l"
-	.string "different items.$"
+.string "เมื่อเข้าท้าประลองในสถานที่\nของแบทเทิลฟรอนเทียร์ โปเกมอน\lห้ามถือไอเทมชนิดเดียวกัน.\pโปรดตรวจให้แน่ใจว่าโปเกมอน\nทุกตัวที่เข้าท้าประลองถือ\lไอเทมต่างชนิดกัน.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "I'm your guide to the FRONTIER PASS.$"
+.string "ฉันคือไกด์แนะนำฟรอนเทียร์พาส.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
-	.string "Which would you like to learn about?$"
+.string "อยากรู้เรื่องไหน?$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
-	.string "There are seven facilities at\n"
-	.string "the BATTLE FRONTIER.\p"
-	.string "TRAINERS who gain recognition for\n"
-	.string "their abilities may be rewarded with\l"
-	.string "symbols from each of the facilities.\p"
-	.string "To earn a symbol, TRAINERS may need\n"
-	.string "to defeat other TRAINERS in a row,\l"
-	.string "and may need to win events repeatedly.\p"
-	.string "It's certainly not easy to win symbols.\n"
-	.string "I wish you the best of luck!$"
+.string "แบทเทิลฟรอนเทียร์มี\nสถานที่ทั้งหมด 7 แห่ง.\pเทรนเนอร์ที่ได้รับการยอมรับ\nในฝีมือ อาจได้รับ\lสัญลักษณ์จากแต่ละสถานที่.\pเพื่อรับสัญลักษณ์ เทรนเนอร์อาจต้อง\nชนะเทรนเนอร์คนอื่นต่อเนื่อง\lและอาจต้องชนะการแข่งขันหลายครั้ง.\pการได้สัญลักษณ์ไม่ใช่เรื่องง่ายเลย.\nขอให้โชคดี!$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
-	.string "It is possible to record one battle\n"
-	.string "on your FRONTIER PASS.\p"
-	.string "You may record a battle you had with\n"
-	.string "a friend or friends.\p"
-	.string "Or you may record a battle conducted\n"
-	.string "at the BATTLE FRONTIER excluding\l"
-	.string "matches at the BATTLE PIKE or\l"
-	.string "the BATTLE PYRAMID.\p"
-	.string "You may choose to record your match\n"
-	.string "at the end of a battle.$"
+.string "สามารถบันทึกการต่อสู้ 1 ครั้ง\nไว้ในฟรอนเทียร์พาสได้.\pคุณอาจบันทึกการต่อสู้ที่เล่นกับ\nเพื่อนหนึ่งคนหรือหลายคน.\pหรือบันทึกการต่อสู้ที่เกิดขึ้น\nในแบทเทิลฟรอนเทียร์ ยกเว้น\lการแข่งขันในแบทเทิลไพค์หรือ\lแบทเทิลพีระมิด.\pเมื่อการต่อสู้จบ คุณสามารถเลือก\nบันทึกแมตช์นั้นได้.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
-	.string "Battle Points are rewards given to\n"
-	.string "TRAINERS who battled outstandingly\l"
-	.string "at the BATTLE FRONTIER.\p"
-	.string "You may trade in your Battle Points\n"
-	.string "for prizes at the EXCHANGE SERVICE\l"
-	.string "CORNER.$"
+.string "แบทเทิลพอยต์คือรางวัลที่มอบให้\nเทรนเนอร์ที่ต่อสู้ได้ยอดเยี่ยม\lในแบทเทิลฟรอนเทียร์.\pคุณสามารถนำแบทเทิลพอยต์\nไปแลกของรางวัลที่เอ็กซ์เชนจ์เซอร์วิส\lคอร์เนอร์ได้.$"
 
