@@ -49,3 +49,21 @@
 | main_story | 191 | 191 | 0 | 0 |
 | sign | 126 | 116 | 0 | 10 |
 | tutorial | 2 | 2 | 0 | 0 |
+
+<!-- GROUP7_STATUS_BEGIN -->
+## Group 7 — Battle Frontier / Battle Tent
+
+**Status: DONE**
+
+- Explicit facility scope: **1,700**
+- Translated / applied / build-closed: **1,610 / 1,610**
+- PRESERVE_DATA: **80**
+- NOT_APPLICABLE: **10**
+- Remaining actionable: **0**
+- Batches **01–24 CLOSED**
+- Final commit: `ecee9f81a`
+- Final build: EWRAM 95.84% / IWRAM 96.03% / ROM 47.52%
+
+> Historical Batch CSVs may still contain their original HOLD metadata.
+> They are not authoritative for current Group 7 completion.
+<!-- GROUP7_STATUS_END -->
