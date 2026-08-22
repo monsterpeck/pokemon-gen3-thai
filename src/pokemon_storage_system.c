@@ -1242,6 +1242,19 @@ static const union AffineAnimCmd *const sAffineAnims_ReleaseMon[] =
 
 #include "data/wallpapers.h"
 
+#ifdef THAI_NAMING_PRODUCTION
+/* THAI_STORAGE_DISPLAY_BUFFERS
+ * Compact Thai nicknames must never be sent directly to the text printer.
+ * Keep storage/save buffers unchanged and shape only into display scratch.
+ */
+EWRAM_DATA static u8 sThaiStorageMonNameText[256] = {0};
+EWRAM_DATA static u8 sThaiStorageMonSpeciesName[256] = {0};
+EWRAM_DATA static u8 sThaiStorageReleaseMonNameText[256] = {0};
+EWRAM_DATA static u8 sThaiStorageMessageText[256] = {0};
+EWRAM_DATA static bool8 sStorageDisplayMonNicknameThai = FALSE;
+#endif
+
+
 static const u16 sUnusedColor = RGB(26, 29, 8);
 
 static const struct SpriteSheet sSpriteSheet_Arrow = {sArrow_Gfx, sizeof(sArrow_Gfx), GFXTAG_ARROW};
@@ -3999,16 +4012,42 @@ static void PrintDisplayMonInfo(void)
     FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(1));
     if (sStorage->boxOption != OPTION_MOVE_ITEMS)
     {
+#ifdef THAI_NAMING_PRODUCTION
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO,
+            sStorageDisplayMonNicknameThai ? FONT_NARROW : FONT_NORMAL,
+            (sStorage->displayMonSpecies == SPECIES_NONE || sStorage->displayMonIsEgg)
+                ? sStorage->displayMonNameText : sThaiStorageMonNameText,
+            sStorageDisplayMonNicknameThai ? 0 : 6,
+            0, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT,
+            (sStorage->displayMonSpecies == SPECIES_NONE || sStorage->displayMonIsEgg)
+                ? sStorage->displayMonSpeciesName : sThaiStorageMonSpeciesName,
+            6, 15, TEXT_SKIP_DRAW, NULL);
+#else
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_NORMAL, sStorage->displayMonNameText, 6, 0, TEXT_SKIP_DRAW, NULL);
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonSpeciesName, 6, 15, TEXT_SKIP_DRAW, NULL);
+#endif
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonGenderLvlText, 10, 29, TEXT_SKIP_DRAW, NULL);
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SMALL, sStorage->displayMonItemName, 6, 43, TEXT_SKIP_DRAW, NULL);
     }
     else
     {
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SMALL, sStorage->displayMonItemName, 6, 0, TEXT_SKIP_DRAW, NULL);
+#ifdef THAI_NAMING_PRODUCTION
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO,
+            sStorageDisplayMonNicknameThai ? FONT_NARROW : FONT_NORMAL,
+            (sStorage->displayMonSpecies == SPECIES_NONE || sStorage->displayMonIsEgg)
+                ? sStorage->displayMonNameText : sThaiStorageMonNameText,
+            sStorageDisplayMonNicknameThai ? 0 : 6,
+            13, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT,
+            (sStorage->displayMonSpecies == SPECIES_NONE || sStorage->displayMonIsEgg)
+                ? sStorage->displayMonSpeciesName : sThaiStorageMonSpeciesName,
+            6, 28, TEXT_SKIP_DRAW, NULL);
+#else
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_NORMAL, sStorage->displayMonNameText, 6, 13, TEXT_SKIP_DRAW, NULL);
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonSpeciesName, 6, 28, TEXT_SKIP_DRAW, NULL);
+#endif
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonGenderLvlText, 10, 42, TEXT_SKIP_DRAW, NULL);
     }
 
@@ -4290,12 +4329,21 @@ static void PrintMessage(u8 id)
     case MSG_VAR_MON_NAME_1:
     case MSG_VAR_MON_NAME_2:
     case MSG_VAR_MON_NAME_3:
-        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sStorage->displayMonName);
+#ifdef THAI_NAMING_PRODUCTION
+        if (sStorage->displayMonSpecies != SPECIES_NONE && !sStorage->displayMonIsEgg)
+            DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sThaiStorageMonNameText);
+        else
+#endif
+            DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sStorage->displayMonName);
         break;
     case MSG_VAR_RELEASE_MON_1:
     case MSG_VAR_RELEASE_MON_2:
     case MSG_VAR_RELEASE_MON_3:
+#ifdef THAI_NAMING_PRODUCTION
+        DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sThaiStorageReleaseMonNameText);
+#else
         DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, sStorage->releaseMonName);
+#endif
         break;
     case MSG_VAR_ITEM_NAME:
         if (IsMovingItem())
@@ -4311,9 +4359,17 @@ static void PrintMessage(u8 id)
         break;
     }
 
+#ifdef THAI_NAMING_PRODUCTION
+    DynamicPlaceholderTextUtil_ExpandPlaceholders(sThaiStorageMessageText, sMessages[id].text);
+#else
     DynamicPlaceholderTextUtil_ExpandPlaceholders(sStorage->messageText, sMessages[id].text);
+#endif
     FillWindowPixelBuffer(WIN_MESSAGE, PIXEL_FILL(1));
+#ifdef THAI_NAMING_PRODUCTION
+    AddTextPrinterParameterized(WIN_MESSAGE, FONT_NORMAL, sThaiStorageMessageText, 0, 1, TEXT_SKIP_DRAW, NULL);
+#else
     AddTextPrinterParameterized(WIN_MESSAGE, FONT_NORMAL, sStorage->messageText, 0, 1, TEXT_SKIP_DRAW, NULL);
+#endif
     DrawTextBorderOuter(WIN_MESSAGE, 2, 14);
     PutWindowTilemap(WIN_MESSAGE);
     CopyWindowToVram(WIN_MESSAGE, COPYWIN_GFX);
@@ -6450,6 +6506,12 @@ static void InitReleaseMon(void)
 
     SetReleaseMon(mode, sCursorPosition);
     StringCopy(sStorage->releaseMonName, sStorage->displayMonName);
+#ifdef THAI_NAMING_PRODUCTION
+    if (sStorage->displayMonSpecies != SPECIES_NONE && !sStorage->displayMonIsEgg)
+        StringCopy(sThaiStorageReleaseMonNameText, sThaiStorageMonNameText);
+    else
+        StringCopy(sThaiStorageReleaseMonNameText, sStorage->releaseMonName);
+#endif
 }
 
 static bool8 TryHideReleaseMon(void)
@@ -6883,6 +6945,9 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
 
             GetMonData(mon, MON_DATA_NICKNAME, sStorage->displayMonName);
             StringGet_Nickname(sStorage->displayMonName);
+#ifdef THAI_NAMING_PRODUCTION
+            sStorageDisplayMonNicknameThai = IsBoxMonNicknameThai(&mon->box);
+#endif
             sStorage->displayMonLevel = GetMonData(mon, MON_DATA_LEVEL);
             sStorage->displayMonMarkings = GetMonData(mon, MON_DATA_MARKINGS);
             sStorage->displayMonPersonality = GetMonData(mon, MON_DATA_PERSONALITY);
@@ -6908,6 +6973,9 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
 
             GetBoxMonData(boxMon, MON_DATA_NICKNAME, sStorage->displayMonName);
             StringGet_Nickname(sStorage->displayMonName);
+#ifdef THAI_NAMING_PRODUCTION
+            sStorageDisplayMonNicknameThai = IsBoxMonNicknameThai(boxMon);
+#endif
             sStorage->displayMonLevel = GetLevelFromBoxMonExp(boxMon);
             sStorage->displayMonMarkings = GetBoxMonData(boxMon, MON_DATA_MARKINGS);
             sStorage->displayMonPersonality = GetBoxMonData(boxMon, MON_DATA_PERSONALITY);
@@ -6946,11 +7014,51 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         if (sStorage->displayMonSpecies == SPECIES_NIDORAN_F || sStorage->displayMonSpecies == SPECIES_NIDORAN_M)
             gender = MON_GENDERLESS;
 
+#ifdef THAI_NAMING_PRODUCTION
+        if (sStorageDisplayMonNicknameThai)
+        {
+            if (!ThaiShapeCompactName(
+                    sStorage->displayMonName,
+                    StringLength(sStorage->displayMonName),
+                    POKEMON_NAME_LENGTH,
+                    gStringVar1,
+                    sizeof(gStringVar1)))
+            {
+                StringCopy(gStringVar1, GetSpeciesNameForDisplay(sStorage->displayMonSpecies));
+            }
+        }
+        else if (sStorage->displayMonSpecies < NUM_SPECIES
+              && StringCompare(
+                     sStorage->displayMonName,
+                     gSpeciesNames[sStorage->displayMonSpecies]) == 0)
+        {
+            StringCopy(gStringVar1, GetSpeciesNameForDisplay(sStorage->displayMonSpecies));
+        }
+        else
+        {
+            StringCopy(gStringVar1, sStorage->displayMonName);
+        }
+
+        StringCopyPadded(
+            sThaiStorageMonNameText,
+            gStringVar1,
+            CHAR_SPACE,
+            5);
+
+        txtPtr = sThaiStorageMonSpeciesName;
+        *(txtPtr)++ = CHAR_SLASH;
+        StringCopyPadded(
+            txtPtr,
+            GetSpeciesNameForDisplay(sStorage->displayMonSpecies),
+            CHAR_SPACE,
+            5);
+#else
         StringCopyPadded(sStorage->displayMonNameText, sStorage->displayMonName, CHAR_SPACE, 5);
 
         txtPtr = sStorage->displayMonSpeciesName;
         *(txtPtr)++ = CHAR_SLASH;
         StringCopyPadded(txtPtr, gSpeciesNames[sStorage->displayMonSpecies], CHAR_SPACE, 5);
+#endif
 
         txtPtr = sStorage->displayMonGenderLvlText;
         *(txtPtr)++ = EXT_CTRL_CODE_BEGIN;
@@ -7985,14 +8093,31 @@ static void SetMenuText(u8 textId)
 {
     if (sStorage->menuItemsCount < ARRAY_COUNT(sStorage->menuItems))
     {
-        u8 len;
+        u8 widthTiles;
+#ifdef THAI_NAMING_PRODUCTION
+        u16 pixelWidth;
+#endif
         struct StorageMenu *menu = &sStorage->menuItems[sStorage->menuItemsCount];
 
         menu->text = sMenuTexts[textId];
         menu->textId = textId;
-        len = StringLength(menu->text);
-        if (len > sStorage->menuWidth)
-            sStorage->menuWidth = len;
+
+#ifdef THAI_NAMING_PRODUCTION
+        // Thai shaped strings contain multiple bytes per visible glyph.
+        // Window geometry must be based on rendered pixels, not byte length.
+        pixelWidth = GetStringWidth(FONT_NORMAL, menu->text, 0);
+        widthTiles = (pixelWidth + 7) / 8;
+
+        // AddMenu adds 2 tiles of padding. Keep the complete window
+        // within the 29-tile horizontal area to prevent underflow.
+        if (widthTiles > 27)
+            widthTiles = 27;
+#else
+        widthTiles = StringLength(menu->text);
+#endif
+
+        if (widthTiles > sStorage->menuWidth)
+            sStorage->menuWidth = widthTiles;
 
         sStorage->menuItemsCount++;
     }

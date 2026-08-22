@@ -503,3 +503,15 @@ source/baseline change, or direct contradictory evidence.
 Targeted runtime QA may follow for constrained/special UI only
 (Easy Chat / Union Room / Mystery Gift / other dedicated fixed UI).
 Do not rebuild solely for that QA.
+
+Battle 153 closure commit: `f5f9c040d` — `translation: complete remaining Battle HOLD scope`
+
+## Canonical troubleshooting guide
+
+Solved runtime/build/tooling issues are recorded in:
+
+`docs/PEKEEMERALD_RUNTIME_TROUBLESHOOTING.md`
+
+Future chats must consult this guide before opening a new audit.
+A matching CLOSED issue must reuse its proven solution unless new
+reproducible contradictory evidence exists.
