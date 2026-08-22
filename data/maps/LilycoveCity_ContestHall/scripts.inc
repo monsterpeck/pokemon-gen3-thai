@@ -465,8 +465,7 @@ LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
 	.string "distracted by another POKéMON.$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
-	.string "My POKéMON has never won in a battle,\n"
-	.string "but put it in a CONTEST and look out!$"
+.string "โปเกมอนฉันไม่เคยชนะการต่อสู้,\nแต่พอเข้าคอนเทสต์แล้ว ดูให้ดี!$"
 
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
 	.string "My POKéMON's PETAL DANCE is a marvel\n"

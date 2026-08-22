@@ -71,62 +71,31 @@ gTVBravoTrainerText08::
 .string "ขอแนะนำ {STR_VAR_1} ของเทรนเนอร์!$"
 
 BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
-	.string "Hello! You're the TRAINER who just had\n"
-	.string "a battle, right?\p"
-	.string "I'm gathering interviews with TRAINERS\n"
-	.string "all over the place.\p"
-	.string "May I get a few words from you about\n"
-	.string "your impressions on battling?$"
+.string "สวัสดี! คุณคือเทรนเนอร์ที่เพิ่ง\nสู้มาใช่ไหม?\pฉันกำลังสัมภาษณ์เทรนเนอร์\nจากทั่วทุกแห่ง.\pขอถามความรู้สึกเกี่ยวกับ\nการต่อสู้สักหน่อยได้ไหม?$"
 
 BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
-	.string "You will? Really?\n"
-	.string "Thank you!\l"
-	.string "Then, uh…\p"
-	.string "How did things turn out in\n"
-	.string "the BATTLE TOWER today?\p"
-	.string "Were you satisfied with the battle?\n"
-	.string "Or are you unhappy?$"
+.string "จริงเหรอ? ยอมให้สัมภาษณ์เหรอ?\nขอบคุณมาก!\lงั้น เอ่อ…\pวันนี้ที่แบทเทิลทาวเวอร์\nเป็นยังไงบ้าง?\pพอใจกับการต่อสู้ไหม?\nหรือยังไม่พอใจ?$"
 
 BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou::
-	.string "Oh…\n"
-	.string "Sorry we disturbed you.\p"
-	.string "Please give us an interview the next\n"
-	.string "time you visit the BATTLE TOWER.$"
+.string "อ้อ…\nขอโทษที่รบกวนนะ.\pคราวหน้าที่มาแบทเทิลทาวเวอร์\nช่วยให้สัมภาษณ์เราด้วยนะ.$"
 
 BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle::
-	.string "Well, of course!\p"
-	.string "That unmistakable look of satisfaction\n"
-	.string "on your face…\p"
-	.string "It's obvious that you've had a great\n"
-	.string "battle.$"
+.string "แน่นอนอยู่แล้ว!\pดูจากสีหน้าที่พอใจ\nอย่างเห็นได้ชัด…\pแสดงว่าคุณคงได้ต่อสู้\nอย่างยอดเยี่ยมแน่ ๆ.$"
 
 BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned::
-	.string "Oh, I see…\p"
-	.string "Well, it certainly is difficult to make a\n"
-	.string "battle turn out exactly as planned.$"
+.string "อ้อ เข้าใจแล้ว…\pการทำให้การต่อสู้เป็นไป\nตามแผนทุกอย่างไม่ใช่เรื่องง่ายเลย.$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle::
-	.string "Oh, oh, may I ask one more question?\p"
-	.string "If you were to describe your\n"
-	.string "impressions about this battle with\l"
-	.string "one saying, what would it be?$"
+.string "อ้อ ขอถามอีกข้อได้ไหม?\pถ้าให้บอกความรู้สึก\nเกี่ยวกับการต่อสู้ครั้งนี้\lด้วยคำพูดสั้น ๆ จะว่าอย่างไร?$"
 
 BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine::
-	.string "Oh, that is stunningly cool!\p"
-	.string "That's a great line!\n"
-	.string "I hope you'll do great next time, too.\p"
-	.string "I hope to see you again!$"
+.string "โอ้ ฟังดูเท่มาก!\pเป็นคำพูดที่ยอดเยี่ยม!\nครั้งหน้าก็ขอให้ทำได้ดีนะ.\pหวังว่าจะได้เจอกันอีก!$"
 
 BattleFrontier_BattleTowerLobby_Text_SilentType::
-	.string "Oh, I see…\p"
-	.string "Still, being the silent type is also\n"
-	.string "cool, isn't it?\p"
-	.string "I hope you'll give me the opportunity\n"
-	.string "to share your thoughts again!$"
+.string "อ้อ เข้าใจแล้ว…\pแต่คนพูดน้อยก็ดู\nเท่เหมือนกันนะ?\pหวังว่าคราวหน้าจะได้ฟัง\nความเห็นของคุณอีก!$"
 
 BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
-	.string "I'll be looking forward to your\n"
-	.string "next battle!$"
+.string "ฉันจะตั้งตารอ\nการต่อสู้ครั้งต่อไปของคุณ!$"
 
 BravoTrainerBattleTower_Text_Intro::
 .string "เย่!\nถึงเวลาบราโว เทรนเนอร์!\pวันนี้เราจะพาไปรู้จัก {STR_VAR_1}\nผู้ท้าทายแบทเทิลทาวเวอร์!\pในการท้าทายครั้งนี้ {STR_VAR_1} ส่ง\n{STR_VAR_2} สุดแกร่งลงสนาม$"
@@ -1438,45 +1407,25 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "in all HOENN!$"
 
 gTVThePokemonBattleSeminarText00::
-	.string "THE POKéMON BATTLE SEMINAR!\p"
-	.string "We examine battles to see what\n"
-	.string "lessons we may learn from others.\p"
-	.string "Today's case study is on {STR_VAR_1}'s\n"
-	.string "battle.\p"
-	.string "{STR_VAR_1}'s {STR_VAR_2} was\n"
-	.string "battling one {STR_VAR_3}…$"
+.string "สัมมนาการต่อสู้โปเกมอน!\pเราจะศึกษาการต่อสู้เพื่อดูว่า\nเรียนรู้อะไรจากคนอื่นได้บ้าง.\pวันนี้เรามาดู {STR_VAR_1}\nต่อสู้กัน.\p{STR_VAR_1} ใช้ {STR_VAR_2}\nต่อสู้กับ {STR_VAR_3}…$"
 
 gTVThePokemonBattleSeminarText01::
-	.string "And it used the move {STR_VAR_3}\n"
-	.string "on the {STR_VAR_2}…\p"
-	.string "Hmm… {STR_VAR_1}!\n"
-	.string "That's the wrong thing to do!$"
+.string "แล้วมันใช้ท่า {STR_VAR_3}\nใส่ {STR_VAR_2}…\pอืม… {STR_VAR_1}!\nทำแบบนั้นไม่ถูกนะ!$"
 
 gTVThePokemonBattleSeminarText02::
-	.string "In addition to the doomed move,\n"
-	.string "the TRAINER's {STR_VAR_1} also knew$"
+.string "นอกจากท่าที่เลือกพลาดแล้ว,\n{STR_VAR_1} ของเทรนเนอร์ยังรู้จัก$"
 
 gTVThePokemonBattleSeminarText03::
-	.string "the moves {STR_VAR_1}, {STR_VAR_2},\n"
-	.string "and {STR_VAR_3}.$"
+.string "ท่า {STR_VAR_1}, {STR_VAR_2},\nและ {STR_VAR_3}.$"
 
 gTVThePokemonBattleSeminarText04::
-	.string "the moves {STR_VAR_1} and\n"
-	.string "{STR_VAR_2}.$"
+.string "ท่า {STR_VAR_1} และ\n{STR_VAR_2}.$"
 
 gTVThePokemonBattleSeminarText05::
-	.string "the move {STR_VAR_2}.$"
+.string "ท่า {STR_VAR_2}.$"
 
 gTVThePokemonBattleSeminarText06::
-	.string "So, in this situation, what should\n"
-	.string "the TRAINER have used?\p"
-	.string "… … … … … …\n"
-	.string "The move {STR_VAR_1}!\p"
-	.string "The move {STR_VAR_1} would have been\n"
-	.string "absolutely better than {STR_VAR_2}.\p"
-	.string "Viewers, I urge you to learn from this\n"
-	.string "case and battle with intelligence!\p"
-	.string "Until next time, farewell!$"
+.string "แล้วสถานการณ์แบบนี้ควรใช้\nท่าไหนดี?\p… … … … … …\nท่า {STR_VAR_1}!\pท่า {STR_VAR_1} เหมาะกว่า\n{STR_VAR_2} อย่างแน่นอน.\pผู้ชมทุกท่าน จงเรียนรู้จากกรณีนี้\nและต่อสู้อย่างมีชั้นเชิง!\pพบกันใหม่คราวหน้า!$"
 
 gTVTrainerFanClubText00::
 .string "พร้อมกันนะ!\nแฟนคลับเทรนเนอร์!\pพิธีกร: ทุกคนสนุกกันไหม?\nวันนี้เรารวมเหล่าแฟนของ\lเทรนเนอร์สุดฮอต {STR_VAR_1} มาแล้ว!\pแฟน ๆ: วู้ววววววว!\pแฟน ๆ: {STR_VAR_1}!\pพิธีกร: ทุกคน!\nชอบ {STR_VAR_1} แค่ไหน?!\pแฟน ๆ: เรารัก {STR_VAR_1}!\pพิธีกร: แล้วชอบอะไรในตัว\n{STR_VAR_1}?!$"
@@ -1656,129 +1605,61 @@ TVSpotTheCuties_Text_Outro::
 	.string "I bid you all farewell!$"
 
 gTVPokemonNewsBattleFrontierText00::
-	.string "Greetings!\n"
-	.string "It's time for POKéMON NEWS.\p"
-	.string "We've got some uplifting news from\n"
-	.string "the BATTLE FRONTIER.$"
+.string "สวัสดีครับ!\nได้เวลาข่าวโปเกมอน.\pวันนี้มีข่าวน่ายินดีจาก\nแบทเทิลฟรอนเทียร์.$"
 
 gTVPokemonNewsBattleFrontierText01::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's SINGLE BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในซิงเกิลแบทเทิลรูมของ\lแบทเทิลทาวเวอร์.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText02::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's DOUBLE BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในดับเบิลแบทเทิลรูมของ\lแบทเทิลทาวเวอร์.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText03::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's MULTI BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในมัลติแบทเทิลรูมของ\lแบทเทิลทาวเวอร์.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText04::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE TOWER's LINK MULTI BATTLE\l"
-	.string "ROOM challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในลิงก์มัลติแบทเทิลรูมของ\lแบทเทิลทาวเวอร์.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText05::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
-	.string "SINGLE BATTLE Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nคว้าแชมป์ต่อเนื่อง {STR_VAR_2} ครั้ง\lในซิงเกิลแบทเทิลทัวร์นาเมนต์\lของแบทเทิลโดม.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText06::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-championship-streak record\l"
-	.string "competing in the BATTLE DOME's\l"
-	.string "DOUBLE BATTLE Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nคว้าแชมป์ต่อเนื่อง {STR_VAR_2} ครั้ง\lในดับเบิลแบทเทิลทัวร์นาเมนต์\lของแบทเทิลโดม.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText07::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE FACTORY's Battle\l"
-	.string "Swap Single challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในแบทเทิลสวอปซิงเกิล\lของแบทเทิลแฟกทอรี.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText08::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE FACTORY's Battle\l"
-	.string "Swap Double challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในแบทเทิลสวอปดับเบิล\lของแบทเทิลแฟกทอรี.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText09::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "record of clearing {STR_VAR_2} rooms\l"
-	.string "while on the BATTLE PIKE's Battle\l"
-	.string "Choice challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nผ่านห้องได้ถึง {STR_VAR_2} ห้อง\lในแบทเทิลชอยซ์\lของแบทเทิลไพค์.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText10::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while\l"
-	.string "competing in the BATTLE ARENA's\l"
-	.string "Set KO Tournaments.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในเซ็ต KO ทัวร์นาเมนต์\lของแบทเทิลอารีนา.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText11::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE PALACE's SINGLE BATTLE\l"
-	.string "HALL challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในซิงเกิลแบทเทิลฮอลล์\lของแบทเทิลพาเลซ.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText12::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "{STR_VAR_2}-win-streak record while on\l"
-	.string "the BATTLE PALACE's DOUBLE BATTLE\l"
-	.string "HALL challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nชนะติดต่อกัน {STR_VAR_2} ครั้ง\lในดับเบิลแบทเทิลฮอลล์\lของแบทเทิลพาเลซ.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText13::
-	.string "The TRAINER {STR_VAR_1} set a new\n"
-	.string "record of clearing {STR_VAR_2} floors\l"
-	.string "while on the BATTLE PYRAMID's\l"
-	.string "Battle Quest challenge.\p"
-	.string "Here's to {STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} ทำสถิติใหม่\nผ่านได้ถึง {STR_VAR_2} ชั้น\lในแบทเทิลเควสต์\lของแบทเทิลพีระมิด.\pยินดีกับ {STR_VAR_1}!$"
 
 gTVPokemonNewsBattleFrontierText14::
-	.string "And to the three POKéMON, {STR_VAR_1},\n"
-	.string "{STR_VAR_2}, and {STR_VAR_3}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+.string "และโปเกมอนทั้งสาม {STR_VAR_1},\n{STR_VAR_2} และ {STR_VAR_3}!\pขอแสดงความยินดีกับ\nผลงานที่ทำลายสถิติ!$"
 
 gTVPokemonNewsBattleFrontierText15::
-	.string "And to the two POKéMON, {STR_VAR_1}\n"
-	.string "and {STR_VAR_2}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+.string "และโปเกมอนทั้งสอง {STR_VAR_1}\nกับ {STR_VAR_2}!\pขอแสดงความยินดีกับ\nผลงานที่ทำลายสถิติ!$"
 
 gTVPokemonNewsBattleFrontierText16::
-	.string "And to the four POKéMON: {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}!\p"
-	.string "{STR_VAR_3}!$"
+.string "และโปเกมอนทั้งสี่: {STR_VAR_1}!\p{STR_VAR_2}!\p{STR_VAR_3}!$"
 
 gTVPokemonNewsBattleFrontierText17::
-	.string "And {STR_VAR_1}!\p"
-	.string "Congratulations for your\n"
-	.string "record-breaking performance!$"
+.string "และ {STR_VAR_1}!\pขอแสดงความยินดีกับ\nผลงานที่ทำลายสถิติ!$"
 
 gTVPokemonNewsBattleFrontierText18::
-	.string "Let's hope for more record-setting\n"
-	.string "feats from {STR_VAR_1} and the loyal\l"
-	.string "POKéMON!\p"
-	.string "That's the news on POKéMON NEWS!$"
+.string "หวังว่าจะมีสถิติใหม่ ๆ\nจาก {STR_VAR_1} กับโปเกมอนคู่ใจ!\l\pจบข่าวโปเกมอนเพียงเท่านี้!$"
 
 gTVWhatsNo1InHoennTodayText00::
 	.string "WHAT'S NO. 1 IN HOENN TODAY?\n"
@@ -1988,36 +1869,13 @@ TVSecretBaseSecrets_Text_HuggedCushion::
 	.string "about something?$"
 
 TVSecretBaseSecrets_Text_BattledWon::
-	.string "The visitor is chatting with\n"
-	.string "{STR_VAR_1}!\p"
-	.string "It looks like they're going to\n"
-	.string "have a battle!\p"
-	.string "And…\p"
-	.string "It's the visitor!\n"
-	.string "The visitor won an away match!\p"
-	.string "The visitor is doing\n"
-	.string "a victory dance!$"
+.string "ผู้มาเยือนกำลังคุยกับ\n{STR_VAR_1}!\pดูเหมือนว่าจะ\nต่อสู้กันแล้ว!\pและ…\pผู้มาเยือนชนะ!\nคว้าชัยนอกบ้านได้สำเร็จ!\pผู้มาเยือนกำลัง\nเต้นฉลองชัย!$"
 
 TVSecretBaseSecrets_Text_BattledLost::
-	.string "The visitor is chatting with\n"
-	.string "{STR_VAR_1}!\p"
-	.string "It looks like they're going to\n"
-	.string "have a battle!\p"
-	.string "And…\p"
-	.string "It's {STR_VAR_1}!\n"
-	.string "The visitor has lost!\p"
-	.string "The visitor looks dejected!$"
+.string "ผู้มาเยือนกำลังคุยกับ\n{STR_VAR_1}!\pดูเหมือนว่าจะ\nต่อสู้กันแล้ว!\pและ…\pเป็น {STR_VAR_1}!\nผู้มาเยือนแพ้แล้ว!\pผู้มาเยือนดูหงอยไปเลย!$"
 
 TVSecretBaseSecrets_Text_DeclinedBattle::
-	.string "The visitor is chatting with\n"
-	.string "{STR_VAR_1}!\p"
-	.string "It looks like they're going to\n"
-	.string "have a battle!\p"
-	.string "And…\p"
-	.string "No, the visitor has refused!\p"
-	.string "There won't be a battle after all!\p"
-	.string "Did the visitor find {STR_VAR_1}\n"
-	.string "unappealing?$"
+.string "ผู้มาเยือนกำลังคุยกับ\n{STR_VAR_1}!\pดูเหมือนว่าจะ\nต่อสู้กันแล้ว!\pและ…\pไม่! ผู้มาเยือนปฏิเสธ!\pสุดท้ายก็ไม่ได้สู้กัน!\pหรือผู้มาเยือนไม่ถูกใจ {STR_VAR_1}\nกันนะ?$"
 
 TVSecretBaseSecrets_Text_UsedPoster::
 	.string "The visitor is staring intently\n"
@@ -2033,15 +1891,7 @@ TVSecretBaseSecrets_Text_UsedNoteMat::
 	.string "The visitor composed a funny tune!$"
 
 TVSecretBaseSecrets_Text_BattledDraw::
-	.string "The visitor is chatting with\n"
-	.string "{STR_VAR_1}!\p"
-	.string "It looks like they're going to\n"
-	.string "have a battle!\p"
-	.string "And…\p"
-	.string "It's a draw!\n"
-	.string "Nothing's resolved!\p"
-	.string "Both TRAINERS appear to be very\n"
-	.string "disappointed!$"
+.string "ผู้มาเยือนกำลังคุยกับ\n{STR_VAR_1}!\pดูเหมือนว่าจะ\nต่อสู้กันแล้ว!\pและ…\pเสมอกัน!\nยังตัดสินกันไม่ได้!\pเทรนเนอร์ทั้งคู่ดู\nผิดหวังมาก!$"
 
 TVSecretBaseSecrets_Text_UsedSpinMat::
 	.string "The visitor stepped on\n"
@@ -2423,60 +2273,31 @@ ContestLiveUpdates_Text_Outro::
 	.string "You're the CONTEST winner!$"
 
 gTVPokemonBattleUpdateText00::
-	.string "“POKéMON BATTLE UPDATE!”\p"
-	.string "Bringing you the results of POKéMON\n"
-	.string "battles as they come in!$"
+.string "“อัปเดตโปเกมอนแบทเทิล!”\pรายงานผลการต่อสู้ของโปเกมอน\nทันทีที่ข่าวเข้ามา!$"
 
 gTVPokemonBattleUpdateText01::
-	.string "The TRAINERS {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} faced each other in\l"
-	.string "a {STR_VAR_3} BATTLE.\p"
-	.string "This match ended in victory for\n"
-	.string "{STR_VAR_1}!$"
+.string "เทรนเนอร์ {STR_VAR_1} และ\n{STR_VAR_2} เผชิญหน้ากันใน\l{STR_VAR_3} แบทเทิล.\pการต่อสู้ครั้งนี้จบด้วยชัยชนะของ\n{STR_VAR_1}!$"
 
 gTVPokemonBattleUpdateText02::
-	.string "In the battle, {STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} was a formidable force\l"
-	.string "using {STR_VAR_3}!$"
+.string "ในการต่อสู้ {STR_VAR_1} ส่ง\n{STR_VAR_2} โชว์พลังได้โดดเด่น\lใช้ {STR_VAR_3}!$"
 
 gTVPokemonBattleUpdateText03::
-	.string "{STR_VAR_1}'s {STR_VAR_2} had a weak\n"
-	.string "showing that really hurt.$"
+.string "{STR_VAR_1} ส่ง {STR_VAR_2}\nแต่ผลงานไม่ดีจนเสียเปรียบ.$"
 
 gTVPokemonBattleUpdateText04::
-	.string "Congratulations on your victory,\n"
-	.string "{STR_VAR_1}!\p"
-	.string "And for the defeated {STR_VAR_2},\n"
-	.string "we hope for a better result next time!\p"
-	.string "This concludes this episode of\n"
-	.string "“POKéMON BATTLE UPDATE!”$"
+.string "ยินดีกับชัยชนะของ\n{STR_VAR_1}!\pส่วน {STR_VAR_2} ที่พ่ายแพ้\nขอให้คราวหน้าทำได้ดีกว่านี้!\pจบรายการ\n“อัปเดตโปเกมอนแบทเทิล!”$"
 
 gTVPokemonBattleUpdateText05::
-	.string "The teams of TRAINERS {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} met in a MULTI BATTLE.\p"
-	.string "This match ended in victory for\n"
-	.string "{STR_VAR_1}'s team.$"
+.string "ทีมของเทรนเนอร์ {STR_VAR_1} และ\n{STR_VAR_2} พบกันในมัลติแบทเทิล.\pการต่อสู้จบด้วยชัยชนะของ\nทีม {STR_VAR_1}.$"
 
 gTVPokemonBattleUpdateText06::
-	.string "In the battle, the {STR_VAR_2} on\n"
-	.string "{STR_VAR_1}'s team was a formidable\l"
-	.string "force using {STR_VAR_3}.$"
+.string "ในการต่อสู้ {STR_VAR_2} ของทีม\n{STR_VAR_1} โชว์พลังได้โดดเด่น\lด้วยท่า {STR_VAR_3}.$"
 
 gTVPokemonBattleUpdateText07::
-	.string "The weak showing by the {STR_VAR_3}\n"
-	.string "on {STR_VAR_2}'s team really hurt.\p"
-	.string "Congratulations on your team's\n"
-	.string "victory, {STR_VAR_1}!\p"
-	.string "As for the defeated {STR_VAR_2}'s team,\n"
-	.string "we hope for a better result next time!\p"
-	.string "This concludes this episode of\n"
-	.string "“POKéMON BATTLE UPDATE!”$"
+.string "{STR_VAR_3} ของทีม\n{STR_VAR_2} พลาดจนเสียเปรียบ.\pยินดีกับชัยชนะของทีม\n{STR_VAR_1}!\pส่วนทีม {STR_VAR_2} ที่พ่ายแพ้\nขอให้คราวหน้าทำได้ดีกว่านี้!\pจบรายการ\n“อัปเดตโปเกมอนแบทเทิล!”$"
 
 GabbyAndTy_Text_GabbyPreFirstBattle:
-	.string "GABBY: Oh! We've just spotted a tough-\n"
-	.string "looking TRAINER here of all places!\p"
-	.string "Okay, roll camera!\n"
-	.string "Let's get this interview.$"
+.string "GABBY: โอ้! เราเจอเทรนเนอร์\nท่าทางเก่งอยู่ตรงนี้พอดี!\pโอเค เดินกล้อง!\nมาเริ่มสัมภาษณ์กันเลย.$"
 
 GabbyAndTy_Text_GabbyIntro:
 	.string "GABBY: Oh! You're {PLAYER}! Hi!\n"
@@ -2580,9 +2401,7 @@ GabbyAndTy_Text_GabbyDefeat:
 	.string "Did you get all that on camera?$"
 
 GabbyAndTy_Text_TyPreFirstBattle:
-	.string "TY: Hey, lookie here! A tough-looking\n"
-	.string "TRAINER here, of all places!\l"
-	.string "Camera's rolling!$"
+.string "TY: เฮ้ ดูนี่สิ! เทรนเนอร์เก่ง ๆ\nอยู่ตรงนี้พอดี!\lกล้องกำลังถ่ายแล้ว!$"
 
 GabbyAndTy_Text_TyIntro:
 	.string "TY: Hey, lookie here!\n"
@@ -2591,8 +2410,7 @@ GabbyAndTy_Text_TyIntro:
 	.string "here camera!$"
 
 GabbyAndTy_Text_TyPostBattle:
-	.string "TY: You're a natural!\n"
-	.string "Got me some prime footage right here!$"
+.string "TY: คุณมีพรสวรรค์จริง ๆ!\nได้ภาพเด็ดมาเต็ม ๆ เลย!$"
 
 GabbyAndTy_Text_TyNotEnoughMons:
 	.string "TY: Do you only have the one POKéMON\n"

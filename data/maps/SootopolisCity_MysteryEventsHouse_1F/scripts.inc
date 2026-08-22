@@ -163,11 +163,7 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 	step_end
 
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
-	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
-	.string "Now that I've become an old buzzard,\n"
-	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+.string "ตอนหนุ่ม ๆ ฉันเคยเดินทางไปทั่วโลก\nในฐานะโปเกมอนเทรนเนอร์.\pตอนนี้แก่จนหมดแรงเดินทางแล้ว,\nความสนุกอย่างเดียวของฉันคือดู\lเทรนเนอร์หนุ่มสาวต่อสู้กัน.$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 	.string "The door appears to be locked.$"
@@ -179,8 +175,7 @@ SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
 	.string "{STR_VAR_1}?$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_YouWontBattle:
-	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
+.string "ไม่สู้กันเหรอ? น่าเสียดายจัง\nฉันอดดูพวกเธอสู้กันเลย…$"
 
 SootopolisCity_MysteryEventsHouse_1F_Text_KeepItTo3On3:
 	.string "Oh, good, good!\p"

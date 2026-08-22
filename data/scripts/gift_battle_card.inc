@@ -24,22 +24,7 @@ MysteryGiftScript_BattleCardInfo:
 	end
 
 sText_MysteryGiftBattleCountCard:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Your BATTLE COUNT CARD keeps\n"
-	.string "track of your battle record against\l"
-	.string "TRAINERS with the same CARD.\p"
-	.string "Look for and battle TRAINERS who\n"
-	.string "have the same CARD as you.\p"
-	.string "You may check the overall rankings\n"
-	.string "by reading the NEWS.\p"
-	.string "Please do give it a try!$"
+.string "ขอบคุณที่ใช้ระบบของขวัญ\nลึกลับ.\pแบทเทิลเคานต์การ์ดของคุณจะ\nบันทึกผลการต่อสู้กับเทรนเนอร์\lที่ถือการ์ดแบบเดียวกัน.\pลองตามหาและต่อสู้กับเทรนเนอร์\nที่ถือการ์ดแบบเดียวกับคุณ.\pคุณตรวจอันดับรวมได้\nจากการอ่านข่าว.\pลองใช้ดูนะ!$"
 
 sText_MysteryGiftBattleCountCard_WonPrize:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Congratulations!\p"
-	.string "You have won a prize for winning\n"
-	.string "three battles!\p"
-	.string "We hope you will be inspired to\n"
-	.string "battle some more.$"
+.string "ขอบคุณที่ใช้ระบบของขวัญ\nลึกลับ.\pยินดีด้วย!\pคุณได้รับรางวัลจากการชนะ\nการต่อสู้ครบสามครั้ง!\pหวังว่าคุณจะมีกำลังใจ\nออกไปต่อสู้อีกนะ.$"

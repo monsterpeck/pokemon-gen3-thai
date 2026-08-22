@@ -564,18 +564,13 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 	.string "bounced in ROULETTE!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle::
-	.string "The BATTLE TOWER Challenger$"
+.string "ผู้ท้าทายแบทเทิลทาวเวอร์$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction::
-	.string "Took the BATTLE TOWER challenge$"
+.string "เข้าท้าทายแบทเทิลทาวเวอร์$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
-	.string "This is a tale of a TRAINER\n"
-	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER took the BATTLE TOWER\n"
-	.string "challenge {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who aspires\n"
-	.string "for excellence in the BATTLE TOWER!$"
+.string "นี่คือเรื่องราวของเทรนเนอร์\nชื่อ {STR_VAR_3}.\pเขาท้าทายแบทเทิลทาวเวอร์\nมาแล้ว {STR_VAR_1} ครั้ง!\p{STR_VAR_3} คือเทรนเนอร์ที่มุ่งมั่น\nสู่ความเป็นเลิศในแบทเทิลทาวเวอร์!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
 	.string "The Blend-Loving TRAINER$"

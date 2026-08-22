@@ -472,3 +472,34 @@ If a future chat finds a contradiction:
 - then close the issue.
 
 This file exists specifically to prevent repeated scoping, duplicate translation, and context loss across chats.
+
+## Battle actionable 153 — technical closure
+
+Canonical actionable pack:
+`tools/thai/translation/phaseF/batches/phaseF-battle-hold-actionable-153-thai.csv`
+
+Status:
+- translation: 153/153
+- font/precompose: PASS 153/153
+- controls/placeholders: PASS
+- page/line structure: PASS
+- real layout gate: PASS 153/153
+- injector dry-run: PASS 153/153
+- injector apply: PASS 153/153
+- source files modified: 11
+- structural/window/buffer change: NONE
+- production build: PASS
+
+Build metrics:
+- EWRAM: 251236 B / 95.84%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15974118 B / 47.61%
+
+Battle HOLD 505 reconciliation remains CLOSED.
+The earlier 497 proposal remains superseded.
+No further Battle 505 audit or rebuild is required absent a new reproducible failure,
+source/baseline change, or direct contradictory evidence.
+
+Targeted runtime QA may follow for constrained/special UI only
+(Easy Chat / Union Room / Mystery Gift / other dedicated fixed UI).
+Do not rebuild solely for that QA.

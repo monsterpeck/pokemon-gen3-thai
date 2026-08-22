@@ -13,8 +13,7 @@ CableClub_Text_TradeUsingLinkCable::
 	.string "using a GBA Game Link cable.$"
 
 CableClub_Text_BattleUsingLinkCable::
-	.string "You may battle another TRAINER\n"
-	.string "using a GBA Game Link cable.$"
+.string "คุณสามารถต่อสู้กับเทรนเนอร์คนอื่น\nผ่าน GBA Game Link Cable ได้.$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
 	.string "You can use the RECORD CORNER with\n"
@@ -25,8 +24,7 @@ CableClub_Text_CloseThisMenu:
 	.string "Close this menu.$"
 
 CableClub_Text_NeedTwoMonsForDoubleBattle:
-	.string "For a DOUBLE BATTLE, you must\n"
-	.string "have at least two POKéMON.$"
+.string "ดับเบิลแบทเทิลต้องมีโปเกมอน\nอย่างน้อยสองตัว.$"
 
 CableClub_Text_NeedTwoMonsToTrade:
 	.string "For trading, you must have at\n"
@@ -86,12 +84,10 @@ CableClub_Text_IncorrectNumberOfParticipants:
 	.string "incorrect.$"
 
 CableClub_Text_CantSingleBattleWithXPlayers:
-	.string "The SINGLE BATTLE Mode can't be\n"
-	.string "played by {STR_VAR_1} players.$"
+.string "โหมดซิงเกิลแบทเทิลเล่นพร้อมกัน\n{STR_VAR_1} คนไม่ได้.$"
 
 CableClub_Text_CantDoubleBattleWithXPlayers:
-	.string "The DOUBLE BATTLE Mode can't be\n"
-	.string "played by {STR_VAR_1} players.$"
+.string "โหมดดับเบิลแบทเทิลเล่นพร้อมกัน\n{STR_VAR_1} คนไม่ได้.$"
 
 CableClub_Text_NeedFourPlayers:
 	.string "There must be four players to play\n"
@@ -124,8 +120,7 @@ CableClub_Text_GotToLookAtColoredTrainerCard:
 	.string "It's a {STR_VAR_2} card!$"
 
 BattleColosseum_2P_Text_TakePlaceStartBattle:
-	.string "Please take your place and start\n"
-	.string "your battle.$"
+.string "กรุณาเข้าประจำที่แล้ว\nเริ่มการต่อสู้ได้เลย.$"
 
 TradeCenter_Text_TakeSeatStartTrade:
 	.string "Please take your seat and start\n"
@@ -190,8 +185,7 @@ CableClub_Text_YouMayTradeHere::
 	.string "with another TRAINER.$"
 
 CableClub_Text_YouMayBattleHere::
-	.string "You may battle with your friends\n"
-	.string "here.$"
+.string "คุณสามารถต่อสู้กับเพื่อน\nได้ที่นี่.$"
 
 CableClub_Text_CanMakeBerryPowder::
 	.string "Two to five TRAINERS can make\n"
@@ -211,7 +205,7 @@ CableClub_Text_CancelSelectedItem::
 
 @ Unused
 CableClub_Text_WhichBattleMode:
-	.string "Which battle mode would you like?$"
+.string "ต้องการเลือกโหมดแบทเทิลแบบไหน?$"
 
 @ Unused
 CableClub_Text_ReturnsToPreviousStep:
@@ -343,8 +337,7 @@ CableClub_Text_TradePokemon:
 	.string "Would you like to trade POKéMON?$"
 
 CableClub_Text_PlayWhichBattleMode:
-	.string "Which Battle Mode would you like\n"
-	.string "to play?$"
+.string "ต้องการเล่นโหมดแบทเทิล\nแบบไหน?$"
 
 CableClub_Text_AccessRecordCorner:
 	.string "Would you like to access\n"
@@ -355,19 +348,7 @@ CableClub_Text_UseBerryCrush:
 	.string "BERRY CRUSH System?$"
 
 CableClub_Text_ExplainBattleModes:
-	.string "There are three Battle Modes.\p"
-	.string "SINGLE BATTLE is for two TRAINERS\n"
-	.string "with one or more POKéMON each.\p"
-	.string "Each TRAINER can have one POKéMON\n"
-	.string "in battle at a time.\p"
-	.string "DOUBLE BATTLE is for two TRAINERS\n"
-	.string "with two or more POKéMON each.\p"
-	.string "Each TRAINER will send out two\n"
-	.string "POKéMON in battle at a time.\p"
-	.string "MULTI BATTLE is for four TRAINERS\n"
-	.string "with one or more POKéMON each.\p"
-	.string "Each TRAINER can have one POKéMON\n"
-	.string "in battle at a time.$"
+.string "โหมดแบทเทิลมีสามแบบ.\pซิงเกิลแบทเทิล: เทรนเนอร์สองคน\nแต่ละคนมีโปเกมอนอย่างน้อยหนึ่งตัว.\pแต่ละคนส่งโปเกมอนลงสนาม\nได้ครั้งละหนึ่งตัว.\pดับเบิลแบทเทิล: เทรนเนอร์สองคน\nแต่ละคนมีโปเกมอนอย่างน้อยสองตัว.\pแต่ละคนส่งโปเกมอนลงสนาม\nพร้อมกันครั้งละสองตัว.\pมัลติแบทเทิล: เทรนเนอร์สี่คน\nแต่ละคนมีโปเกมอนอย่างน้อยหนึ่งตัว.\pแต่ละคนส่งโปเกมอนลงสนาม\nได้ครั้งละหนึ่งตัว.$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo:
 	.string "Please decide which of you two\n"
