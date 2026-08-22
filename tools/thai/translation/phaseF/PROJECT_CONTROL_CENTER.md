@@ -6,8 +6,8 @@ status: ACTIVE
 last_updated_local: "2026-08-22 23:04 +07:00"
 repo: "~/dev/projects/pokeemerald-phaseF-remaining-thai-translation"
 branch: "work/phaseF-remaining-thai-translation"
-authoritative_head: "de074bf93"
-authoritative_head_message: "translation: add Phase F project control center"
+authoritative_head: "6ac3327a5"
+authoritative_head_message: "thai: fix Pokemon Storage display runtime"
 production_macro: "THAI_NAMING_PRODUCTION"
 ---
 
@@ -515,3 +515,25 @@ Solved runtime/build/tooling issues are recorded in:
 Future chats must consult this guide before opening a new audit.
 A matching CLOSED issue must reuse its proven solution unless new
 reproducible contradictory evidence exists.
+
+## Pokémon Storage runtime closure
+
+Commit:
+`6ac3327a5` — `thai: fix Pokemon Storage display runtime`
+
+Runtime proof:
+- Thai nickname display: PASS
+- Thai species display: PASS
+- Storage bottom messages: PASS
+- action-menu geometry: PASS
+- visual corruption: resolved
+- EWRAM: 252260 B / 96.23%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15974646 B / 47.61%
+
+Canonical issue record:
+`docs/PEKEEMERALD_RUNTIME_TROUBLESHOOTING.md`
+
+Status: CLOSED.
+Do not reopen absent a new reproducible failure, source/baseline change,
+or direct contradictory evidence.

@@ -274,7 +274,7 @@ Final build metrics:
 ## Status
 
 CLOSED / runtime proven.
-Commit checkpoint pending at time this entry was created.
+Proven commit: `6ac3327a5` — `thai: fix Pokemon Storage display runtime`.
 
 ---
 
