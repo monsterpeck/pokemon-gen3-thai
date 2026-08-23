@@ -249,3 +249,52 @@ or show the desired screen/location, then trace only that affected runtime path.
 Ability-description and Title-Screen-credit work must be reviewed in the current
 working tree and committed/pushed before treating the remote branch as
 synchronized. Do not assume the previous pushed HEAD contains these changes.
+
+## AUTHORITATIVE PRODUCTION BUILD — MANDATORY
+
+For every ROM-affecting production source/asset change, use exactly:
+
+```bash
+cd ~/dev/projects/pokeemerald-phaseF-remaining-thai-translation && \
+make -j"$(nproc)" CPPFLAGS="-iquote include -Wno-trigraphs -DMODERN=0 -I tools/agbcc/include -I tools/agbcc -nostdinc -undef -std=gnu89 -DTHAI_NAMING_PRODUCTION"
+```
+
+### Why this exact command is mandatory
+
+1. `cd ~/dev/projects/pokeemerald-phaseF-remaining-thai-translation`
+   - Builds the authoritative Phase F production worktree.
+   - Prevents accidentally building another repo, worktree, or obsolete baseline.
+
+2. `make -j"$(nproc)"`
+   - Uses the established project build path with the available CPU cores.
+
+3. The complete `CPPFLAGS` value must be preserved:
+   - `-iquote include`
+   - `-Wno-trigraphs`
+   - `-DMODERN=0`
+   - `-I tools/agbcc/include`
+   - `-I tools/agbcc`
+   - `-nostdinc`
+   - `-undef`
+   - `-std=gnu89`
+   - `-DTHAI_NAMING_PRODUCTION`
+   - Supplying `CPPFLAGS=` on the command line replaces the value used for that invocation,
+     so do not shorten it to only the Thai production macro.
+
+4. `-DTHAI_NAMING_PRODUCTION` is mandatory:
+   - It is part of the current production Thai Naming/runtime baseline.
+   - It affects runtime structures and behavior used by the Thai player-name implementation.
+   - Building without the production configuration previously caused Thai player-name,
+     Trainer Card, and runtime/save-layout mismatch symptoms.
+
+5. Use `CPPFLAGS`, not `CFLAGS`:
+   - This is a preprocessor configuration for the agbcc build path.
+
+### Build discipline
+
+- ROM-affecting source/asset change -> run the authoritative Production Build once.
+- If the Production Build passes and there is no new reproducible failure -> Build Gate CLOSED.
+- Do not routinely run `make clean`.
+- Docs/tracker-only changes require no ROM rebuild.
+- Do not use bare `make` as the authoritative closure build.
+- Record EWRAM / IWRAM / ROM from the successful production build.
