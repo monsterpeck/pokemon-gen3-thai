@@ -820,6 +820,22 @@ static void Task_DisplayMainMenu(u8 taskId)
                 FillWindowPixelBuffer(1, PIXEL_FILL(0xA));
                 AddTextPrinterParameterized3(0, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
                 AddTextPrinterParameterized3(1, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+
+                // Show translation credit even before a save file exists.
+                FillWindowPixelBuffer(8, PIXEL_FILL(0));
+                AddTextPrinterParameterized4(
+                    8,
+                    FONT_SMALL_NARROW,
+                    GetStringCenterAlignXOffset(FONT_SMALL_NARROW, sText_MainMenuCredit, 28 * 8),
+                    1,
+                    0,
+                    0,
+                    sTextColor_Headers,
+                    TEXT_SKIP_DRAW,
+                    sText_MainMenuCredit);
+                PutWindowTilemap(8);
+                CopyWindowToVram(8, COPYWIN_GFX);
+
                 PutWindowTilemap(0);
                 PutWindowTilemap(1);
                 CopyWindowToVram(0, COPYWIN_GFX);
