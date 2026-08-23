@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "bg.h"
 #include "data.h"
 #include "decompress.h"
@@ -15,6 +16,7 @@
 #include "sprite.h"
 #include "starter_choose.h"
 #include "strings.h"
+#include "string_util.h"
 #include "task.h"
 #include "text.h"
 #include "text_window.h"
@@ -95,6 +97,8 @@ static const struct WindowTemplate sWindowTemplate_StarterLabel =
     .paletteNum = 14,
     .baseBlock = 0x0274
 };
+
+EWRAM_DATA static u8 sStarterSpeciesNameDisplay[256] = {0};
 
 static const u8 sPokeballCoords[STARTER_MON_COUNT][2] =
 {
@@ -569,7 +573,7 @@ static void Task_DeclineStarter(u8 taskId)
 
 static void CreateStarterPokemonLabel(u8 selection)
 {
-    u8 categoryText[32];
+    u8 categoryText[176];
     struct WindowTemplate winTemplate;
     const u8 *speciesName;
     s32 width;
@@ -577,7 +581,20 @@ static void CreateStarterPokemonLabel(u8 selection)
 
     u16 species = GetStarterPokemon(selection);
     CopyMonCategoryText(SpeciesToNationalPokedexNum(species), categoryText);
+#ifdef THAI_NAMING_PRODUCTION
+    StringCopy(sStarterSpeciesNameDisplay, GetSpeciesNameForDisplay(species));
+    while (GetStringWidth(FONT_NORMAL, sStarterSpeciesNameDisplay, 0) > 0x68
+        && FitThaiPositionedGlyphAdvances(
+               sStarterSpeciesNameDisplay,
+               GetStringWidth(FONT_NORMAL, sStarterSpeciesNameDisplay, 0),
+               0x68,
+               3))
+    {
+    }
+    speciesName = sStarterSpeciesNameDisplay;
+#else
     speciesName = gSpeciesNames[species];
+#endif
 
     winTemplate = sWindowTemplate_StarterLabel;
     winTemplate.tilemapLeft = sStarterLabelCoords[selection][0];

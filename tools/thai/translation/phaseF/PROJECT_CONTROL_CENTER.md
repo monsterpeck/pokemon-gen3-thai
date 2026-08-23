@@ -657,3 +657,58 @@ or direct contradictory evidence.
 Next exact step:
 Select the next genuinely non-closed translation scope from canonical authority.
 Do not infer backlog from stale broad inventories.
+
+
+## Starter / Lead-Mon / Nickname Species Display — CLOSED (2026-08-23)
+
+Classification:
+- `Pokémon Species Names` → `Runtime Display Integration`
+- This is NOT a new translation scope.
+- Canonical species tracker remains CLOSED at 386/386.
+- Required translation count remains unchanged.
+- Pending remains 0.
+
+New reproducible runtime failure:
+- starter selection label displayed legacy English species names,
+- `bufferleadmonspeciesname` inserted legacy English species names into field dialogue,
+- Pokémon nickname Naming Screen header displayed legacy English species names,
+- first implementation caused a black screen when entering the Naming Screen.
+
+Confirmed root causes:
+- `src/starter_choose.c::CreateStarterPokemonLabel()` read `gSpeciesNames[species]` directly.
+- `src/scrcmd.c::ScrCmd_bufferleadmonspeciesname()` read `gSpeciesNames[species]` directly.
+- `src/naming_screen.c::DrawMonTextEntryBox()` read `gSpeciesNames[...]` directly.
+- the new 256-byte starter display scratch initially consumed default static/IWRAM space; moving it to `EWRAM_DATA` restored the proven IWRAM baseline and removed the Naming Screen black-screen regression.
+
+Production fix:
+- resolve affected species display paths through `GetSpeciesNameForDisplay()`.
+- Starter label keeps its 104 px display budget.
+- Naming header keeps its existing 17-tile window; usable text area is 128 px from x=8 and species-name fitting reserves the actual title width.
+- fitting modifies only FC19 positioned-glyph `advance` values in a mutable display copy.
+- minimum fitted advance is 3 px.
+- canonical species wording is unchanged.
+- save/nickname storage is unchanged.
+- global font metrics are unchanged.
+- window dimensions are unchanged.
+
+Shared-effect note:
+- `ScrCmd_bufferleadmonspeciesname()` is intentionally shared by multiple map scripts.
+- All callers now receive the canonical Thai species display name.
+- This is expected runtime-display behavior and MUST NOT be reclassified as untranslated generic dialogue/system rows.
+
+Final production build PASS:
+- EWRAM: 252772 B / 96.42%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15980070 B / 47.62%
+
+Runtime QA PASS:
+- Starter selection canonical Thai species labels: PASS
+- Littleroot Lab received-starter species name: PASS
+- nickname prompt species name: PASS
+- Pokémon Naming Screen header canonical Thai species name: PASS
+- Naming Screen black screen: RESOLVED
+
+Do not reopen this runtime path unless there is a new reproducible failure,
+source/baseline change, or direct contradictory evidence.
+Do not create a new translation backlog from direct `gSpeciesNames[]`,
+RAW candidates, BASELINE_EXACT rows, or historical HOLD data for these paths.

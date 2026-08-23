@@ -74,8 +74,9 @@
 - Pokémon Species Names: canonical Thai 386/386 remains CLOSED.
 - Battle Healthbox Thai name width: CLOSED at `de5c005f6`; full Thai name + gender runtime PASS.
 - Capture / Pokédex direct species-name resolution: CLOSED at `8424a2dc4`; canonical Thai species name runtime PASS.
+- Starter / lead-mon / Pokémon nickname species display integration: CLOSED; canonical Species Names remain 386/386 DONE, pending 0. Starter label, `bufferleadmonspeciesname`, and Naming Screen header runtime PASS; this is runtime integration, NOT a translation backlog.
 - Trainer Spoken Dialogue: 1633/1633 CLOSED; do not reopen for Trainer Class work.
-- Trainer Class Names: NEW approved scope, 66 entries, 0 DONE / 66 PENDING.
+- Trainer Class Names: 66/66 CLOSED; Battle Intro runtime PASS; PokéNav Match Call and Union Room Trainer Card runtime QA OPTIONAL/WAIVED.
 - Trainer individual names: separate OPTIONAL scope; not included in the 66 Trainer Class entries.
 
 <!-- GROUP8_SPECIAL_NPC_STATUS -->

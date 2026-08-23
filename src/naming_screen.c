@@ -2254,7 +2254,28 @@ static void DrawMonTextEntryBox(void)
 {
     u8 buffer[256];
 
+#ifdef THAI_NAMING_PRODUCTION
+    {
+        const u8 *speciesName = GetSpeciesNameForDisplay(sNamingScreen->monSpecies);
+        u32 titleWidth = GetStringWidth(FONT_NORMAL, sNamingScreen->template->title, 0);
+        u32 maxSpeciesWidth = titleWidth < 128 ? 128 - titleWidth : 0;
+
+        StringCopy(buffer, speciesName);
+
+        while (maxSpeciesWidth > 0
+            && GetStringWidth(FONT_NORMAL, buffer, 0) > maxSpeciesWidth
+            && FitThaiPositionedGlyphAdvances(
+                   buffer,
+                   GetStringWidth(FONT_NORMAL, buffer, 0),
+                   maxSpeciesWidth,
+                   3))
+        {
+        }
+    }
+#else
     StringCopy(buffer, gSpeciesNames[sNamingScreen->monSpecies]);
+#endif
+
     StringAppend(buffer, sNamingScreen->template->title);
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
@@ -3130,7 +3151,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
 };
 
 #ifdef THAI_NAMING_KEYBOARD_K3C
-static const u8 sText_ThaiNamingPrototype[] = _("THAI NAMING PROTOTYPE");
+static const u8 sText_ThaiNamingPrototype[] = _("ตั้งชื่อภาษาไทย");
 static const struct NamingScreenTemplate sThaiPrototypeNamingTemplate =
 {
     .copyExistingString = FALSE,

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "frontier_util.h"
 #include "battle_setup.h"
 #include "berry.h"
@@ -1563,7 +1564,12 @@ bool8 ScrCmd_bufferleadmonspeciesname(struct ScriptContext *ctx)
     u8 *dest = sScriptStringVars[stringVarIndex];
     u8 partyIndex = GetLeadMonIndex();
     u32 species = GetMonData(&gPlayerParty[partyIndex], MON_DATA_SPECIES, NULL);
+
+#ifdef THAI_NAMING_PRODUCTION
+    StringCopy(dest, GetSpeciesNameForDisplay(species));
+#else
     StringCopy(dest, gSpeciesNames[species]);
+#endif
     return FALSE;
 }
 

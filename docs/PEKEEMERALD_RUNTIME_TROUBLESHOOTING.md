@@ -638,3 +638,124 @@ When a scope is completed:
    by future broad scans.
 
 The Dashboard is a decision authority, not a discovery list.
+
+
+## Starter / Lead-Mon / Naming Screen still shows English species name — CLOSED (2026-08-23)
+
+### Symptom
+
+Canonical Thai Pokémon Species Names were already complete 386/386, but some
+player-visible paths still showed legacy English names.
+
+Reproduced examples:
+- Starter selection showed `TORCHIC` instead of `อาจาโม`.
+- Littleroot Lab dialogue using `bufferleadmonspeciesname` showed the legacy English name.
+- the Pokémon nickname Naming Screen header showed `TORCHIC`.
+- after the first implementation, entering the Naming Screen produced a black screen.
+
+This is a runtime-display integration failure, NOT missing translation data.
+
+### Root cause
+
+Three affected paths bypassed the canonical Thai-aware resolver:
+
+- `src/starter_choose.c::CreateStarterPokemonLabel()`
+  used `gSpeciesNames[species]`.
+- `src/scrcmd.c::ScrCmd_bufferleadmonspeciesname()`
+  used `gSpeciesNames[species]`.
+- `src/naming_screen.c::DrawMonTextEntryBox()`
+  used `gSpeciesNames[sNamingScreen->monSpecies]`.
+
+The first implementation also introduced:
+
+`static u8 sStarterSpeciesNameDisplay[256];`
+
+in default static storage. IWRAM increased from the proven 31468 B baseline to
+31740 B. Entering the Naming Screen then black-screened.
+
+Moving the scratch buffer to:
+
+`EWRAM_DATA static u8 sStarterSpeciesNameDisplay[256] = {0};`
+
+returned IWRAM to 31468 B and the reproduced black screen disappeared.
+
+### Proven fix
+
+Use:
+
+`GetSpeciesNameForDisplay(species)`
+
+for the affected display-only species paths.
+
+Do NOT change:
+- canonical Japanese-based Thai species names,
+- Pokémon nickname/save structures,
+- `POKEMON_NAME_LENGTH`,
+- global Thai font metrics,
+- window dimensions.
+
+### Width handling
+
+Starter label:
+- window width = 13 tiles = 104 px.
+- center/display the canonical Thai species name within that existing 104 px budget.
+- if required, adapt only FC19 positioned-glyph `advance` values in the mutable display copy.
+- minimum adaptive advance = 3 px.
+
+Pokémon Naming Screen header:
+- `WIN_TEXT_ENTRY_BOX` width = 17 tiles = 136 px.
+- text begins at x=8, leaving 128 px usable.
+- measure the existing title first.
+- species budget = `128 - titleWidth`.
+- fit only the species-name display copy.
+- never compress or rewrite the title itself.
+
+The shared helper:
+
+`FitThaiPositionedGlyphAdvances()`
+
+is display-only and inert unless explicitly called.
+
+### Important FC19 note
+
+`GetStringWidth()` already understands
+`EXT_CTRL_CODE_THAI_POSITIONED_GLYPH` and reads the positioned-glyph advance.
+Do not blame FC19 width parsing for this resolved black-screen case unless new
+direct evidence appears.
+
+### Shared script-command behavior
+
+`ScrCmd_bufferleadmonspeciesname()` is used by multiple map scripts.
+
+Changing it to `GetSpeciesNameForDisplay()` intentionally makes all callers
+receive the canonical Thai species display name. This is the correct shared
+runtime behavior.
+
+Do NOT treat those map usages as new untranslated dialogue/system backlog.
+
+### Final evidence
+
+Production build PASS:
+- EWRAM: 252772 B / 96.42%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15980070 B / 47.62%
+
+Runtime QA:
+- Starter selection canonical Thai species names: PASS
+- Littleroot Lab received-starter name: PASS
+- nickname prompt species name: PASS
+- Pokémon Naming Screen header: PASS
+- Naming Screen black screen: RESOLVED
+
+### Reopen rule
+
+CLOSED.
+
+Reopen only for:
+- a new reproducible failure,
+- source/baseline change,
+- direct contradictory evidence.
+
+Do not reopen Species Names 386/386 or create translation scope from
+`gSpeciesNames[]`, RAW candidates, BASELINE_EXACT rows, historical HOLD pools,
+or generic source scans for this already-closed runtime path.

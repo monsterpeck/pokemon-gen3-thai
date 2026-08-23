@@ -70,6 +70,7 @@ If a reproducible issue appears later, reopen only that specific path.
 - Pokémon Storage Thai display runtime: CLOSED
 - Historical Sign HOLD 10: CLOSED
 - Species Names: 386/386 DONE
+- Starter / lead-mon / nickname species display integration: CLOSED
 - Battle Healthbox Thai width handling: CLOSED
 - Capture / Pokédex species-name resolution: CLOSED
 - Trainer Class Names: 66/66 CLOSED
@@ -134,3 +135,41 @@ Before opening any audit or translation batch, follow
 A raw candidate, BASELINE_EXACT row, historical HOLD, or broad inventory hit
 MUST NOT be treated as remaining work unless the current Control Center /
 Dashboard shows that scope as PENDING or unresolved HOLD.
+
+
+## Starter / Lead-Mon / Nickname Species Display Closure
+
+Status: CLOSED / runtime PASS.
+
+Classification:
+- Pokémon Species Names → Runtime Display Integration.
+- NOT a new translation scope.
+- Species Names remain 386/386 DONE, pending 0.
+
+Affected paths closed:
+- Starter selection label → canonical Thai species display.
+- `ScrCmd_bufferleadmonspeciesname()` → canonical Thai species display for all callers.
+- Pokémon Naming Screen header → canonical Thai species display with species-only adaptive fitting.
+
+Layout / safety:
+- Starter label budget: 104 px.
+- Naming header: 17 tiles; printing begins at x=8, therefore 128 px usable.
+- Naming fitting reserves the actual title width and compresses only mutable FC19 species-name advances.
+- minimum adaptive advance: 3 px.
+- canonical species strings, save/nickname storage, global font metrics, and window dimensions remain unchanged.
+- `sStarterSpeciesNameDisplay[256]` must remain `EWRAM_DATA`; default static placement caused the reproduced Naming Screen black-screen regression.
+
+Final build:
+- EWRAM 252772 B / 96.42%
+- IWRAM 31468 B / 96.03%
+- ROM 15980070 B / 47.62%
+
+Runtime proof:
+- Starter labels: PASS
+- Lab received-starter species name: PASS
+- nickname prompt: PASS
+- Naming Screen header: PASS
+- black screen: RESOLVED
+
+Do not reopen or regenerate translation scope from these paths unless a new
+reproducible runtime failure, source/baseline change, or direct contradiction appears.

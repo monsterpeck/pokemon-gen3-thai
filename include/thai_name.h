@@ -30,6 +30,7 @@ void SetBoxNameThai(u8 boxId, bool32 isThai);
 bool32 IsThaiCompactNameId(u8 compactId);
 
 const u8 *GetSpeciesNameForDisplay(u16 species);
+bool32 FitThaiPositionedGlyphAdvances(u8 *text, u32 originalWidth, u32 maxWidth, u8 minAdvance);
 
 
 bool32 ThaiShapeCompactName(

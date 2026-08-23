@@ -126,6 +126,45 @@ static bool32 RuntimeKeyMatches(
     return TRUE;
 }
 
+bool32 FitThaiPositionedGlyphAdvances(u8 *text, u32 originalWidth, u32 maxWidth, u8 minAdvance)
+{
+    u32 i;
+    bool32 changed = FALSE;
+
+    if (originalWidth <= maxWidth || originalWidth == 0)
+        return FALSE;
+
+    for (i = 0; text[i] != EOS;)
+    {
+        /* FC19: begin, Thai positioned glyph, glyph lo/hi, x, y, advance, flags. */
+        if (text[i] == 0xFC && text[i + 1] == 0x19)
+        {
+            u32 advance = text[i + 6];
+            u32 scaled = (advance * maxWidth) / originalWidth;
+
+            if (scaled < minAdvance)
+                scaled = minAdvance;
+            if (scaled > advance)
+                scaled = advance;
+
+            if (scaled < advance)
+            {
+                text[i + 6] = scaled;
+                changed = TRUE;
+            }
+
+            i += 8;
+        }
+        else
+        {
+            i++;
+        }
+    }
+
+    return changed;
+}
+
+
 bool32 ThaiShapeCompactName(
     const u8 *source,
     u8 length,
