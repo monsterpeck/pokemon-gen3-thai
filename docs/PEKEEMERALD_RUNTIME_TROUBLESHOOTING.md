@@ -844,3 +844,34 @@ Final production build PASS:
 - IWRAM 31468 B / 96.03%
 - ROM 15988814 B / 47.65%
 
+
+## Main Menu credit missing on fresh/no-save ROM — CLOSED 2026-08-24
+
+Symptom:
+- BPS applied successfully and ROM matched production bytes.
+- Translation credit appeared with an existing save but was absent on the
+  `NEW GAME / OPTION` menu when no save file existed.
+
+Root cause:
+- Footer rendering was implemented only in `HAS_SAVED_GAME`.
+- `HAS_NO_SAVED_GAME` did not draw the dedicated credit window.
+
+Production fix:
+- Reuse the existing dedicated credit window and text in
+  `HAS_NO_SAVED_GAME`.
+- No font, window geometry, save structure, or existing translation scope
+  changes were required.
+
+Runtime QA:
+- Saved-game Main Menu credit: PASS.
+- No-save Main Menu credit: PASS.
+
+Production build:
+- EWRAM 252772 B / 96.42%
+- IWRAM 31468 B / 96.03%
+- ROM 15988878 B / 47.65%
+
+Release consequence:
+- First release candidate is SUPERSEDED.
+- Authoritative release source is `d0440c5bc`.
+

@@ -840,3 +840,50 @@ Release status: READY FOR PUBLIC DISTRIBUTION.
 Do not rebuild, regenerate, or re-verify this release artifact unless the
 production ROM/source changes or a reproducible release failure is reported.
 
+
+## 2026-08-24 — AUTHORITATIVE PUBLIC RELEASE V2 READY
+
+This release supersedes the earlier 2026-08-24 release candidate.
+
+Reason for supersession:
+- Main Menu translation credit originally rendered only in `HAS_SAVED_GAME`.
+- Runtime testing of a freshly patched ROM with no save exposed the missing footer.
+- `HAS_NO_SAVED_GAME` now renders the same dedicated credit footer.
+- Runtime QA PASS with save and without save.
+
+Release source:
+- Production source commit: `d0440c5bc`
+- Fix: `thai: show main menu credit without save data`
+- Required clean base SHA-1:
+  `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+- Production ROM SHA-1:
+  `bca43db50b1b4ee2d00d50169393e8c9b1673f10`
+
+Final production build:
+- EWRAM: 252772 B / 96.42%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15988878 B / 47.65%
+- Build Gate: CLOSED
+
+Patch:
+- Format: BPS
+- BPS SHA-1:
+  `605cbcbfaa6251d3b9fbd667f0df253e7ddedcaf`
+- BPS SHA-256:
+  `90d6521136a9d561d5cf1f66c83e514dbe142199b3d68bb776824e3caaa210b1`
+- Apply-back verification: BYTE IDENTICAL PASS
+
+Release package:
+- `PekeEmerald-Thai-2026-08-24.zip`
+- Size: 1092374 bytes
+- ZIP SHA-256:
+  `5ddb3a89e69a988ec8fa28f7ba303447fde6fbbcfbda1dc8fc18061b4374377f`
+
+The previous release hashes/package are SUPERSEDED and must not be used as
+the current public-release authority.
+
+Release V2 status: READY FOR PUBLIC DISTRIBUTION.
+
+Do not rebuild, regenerate, or re-verify this release unless production source
+changes or a new reproducible release failure is reported.
+
