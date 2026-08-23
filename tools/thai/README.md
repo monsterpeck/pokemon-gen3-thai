@@ -1,3 +1,23 @@
+## IMPORTANT — ACTIVE PRODUCTION THAI FONT BASELINE
+
+For all current PekeEmerald production translation, shaping, rendering, and build work:
+
+- ACTIVE MAP: `tools/thai/font/thai_precompose_glyph_map.json`
+- ACTIVE ATLAS: `graphics/fonts/thai_shaped.png`
+- ACTIVE SHAPER: `tools/thai/shape_thai_precompose.py`
+- PRODUCTION GLYPHS: 768 (`0..767`)
+
+Legacy/reference only:
+
+- `tools/thai/font/thai_shaped_glyph_map.json`
+- NotoSansThai evidence/reference pipeline
+- `render_thai_proof.py`
+- historical shaping/report tools that explicitly depend on the legacy map
+
+Do not select a font map by filename similarity.
+Do not use the Noto pipeline for production rendering.
+Do not fall back to historical 761-glyph snapshots or sandbox copies.
+
 # Thai localization toolchain
 
 Production Thai text remains ordinary Unicode in source and is shaped by HarfBuzz during the build. The compiler stream contains explicit positioned-glyph commands consumed by a small renderer decoder; the GBA performs no Thai grammatical shaping. The former runtime combining layer remains only as recovery compatibility code and is not used by build-time-shaped source strings.

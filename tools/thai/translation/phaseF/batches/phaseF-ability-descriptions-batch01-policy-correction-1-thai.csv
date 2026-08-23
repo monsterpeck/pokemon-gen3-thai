@@ -1,0 +1,2 @@
+﻿ability,source_symbol,baseline_current,thai_text,reason,wording_status,max_width_px,width_status
+ABILITY_SPEED_BOOST,sSpeedBoostDescription,เพิ่ม SPEED ขึ้นเรื่อย ๆ,เพิ่มความเร็วขึ้นเรื่อย ๆ,Terminology consistency: SPEED in description prose -> ความเร็ว,APPROVED,144,PASS_144PX

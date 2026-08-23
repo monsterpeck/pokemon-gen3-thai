@@ -1,0 +1,16 @@
+﻿row_id,ability,source_symbol,baseline_english,thai_text,wording_status,max_width_px,width_status
+17,ABILITY_IMMUNITY,sImmunityDescription,Prevents poisoning.,ป้องกันการติดพิษ,APPROVED,144,PASS_144PX
+18,ABILITY_FLASH_FIRE,sFlashFireDescription,Powers up if hit by fire.,เพิ่มพลังเมื่อโดนท่าไฟ,APPROVED,144,PASS_144PX
+19,ABILITY_SHIELD_DUST,sShieldDustDescription,Prevents added effects.,ป้องกันผลเสริมของท่า,APPROVED,144,PASS_144PX
+20,ABILITY_OWN_TEMPO,sOwnTempoDescription,Prevents confusion.,ป้องกันอาการสับสน,APPROVED,144,PASS_144PX
+21,ABILITY_SUCTION_CUPS,sSuctionCupsDescription,Firmly anchors the body.,ป้องกันการถูกบังคับสลับตัว,APPROVED,144,PASS_144PX
+22,ABILITY_INTIMIDATE,sIntimidateDescription,Lowers the foe's ATTACK.,ลดพลังโจมตีของคู่ต่อสู้,APPROVED,144,PASS_144PX
+23,ABILITY_SHADOW_TAG,sShadowTagDescription,Prevents the foe's escape.,ไม่ให้คู่ต่อสู้หนีหรือสลับตัว,APPROVED,144,PASS_144PX
+24,ABILITY_ROUGH_SKIN,sRoughSkinDescription,Hurts to touch.,สร้างความเสียหายเมื่อถูกสัมผัส,APPROVED,144,PASS_144PX
+25,ABILITY_WONDER_GUARD,sWonderGuardDescription,“Super effective” hits.,โดนเฉพาะท่าที่ได้ผลมาก,APPROVED,144,PASS_144PX
+26,ABILITY_LEVITATE,sLevitateDescription,Not hit by GROUND attacks.,ไม่โดนท่าพื้นดิน,APPROVED,144,PASS_144PX
+27,ABILITY_EFFECT_SPORE,sEffectSporeDescription,Leaves spores on contact.,อาจติดสถานะผิดปกติเมื่อสัมผัส,APPROVED,144,PASS_144PX
+28,ABILITY_SYNCHRONIZE,sSynchronizeDescription,Passes on status problems.,ส่งต่อสถานะผิดปกติ,APPROVED,144,PASS_144PX
+29,ABILITY_CLEAR_BODY,sClearBodyDescription,Prevents ability reduction.,ป้องกันค่าสถานะลดลง,APPROVED,144,PASS_144PX
+30,ABILITY_NATURAL_CURE,sNaturalCureDescription,Heals upon switching out.,รักษาสถานะผิดปกติเมื่อสลับออก,APPROVED,144,PASS_144PX
+31,ABILITY_LIGHTNING_ROD,sLightningRodDescription,Draws electrical moves.,ดึงดูดท่าไฟฟ้า,APPROVED,144,PASS_144PX

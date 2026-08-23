@@ -26,6 +26,7 @@
 enum {
     TAG_VERSION = 1000,
     TAG_PRESS_START_COPYRIGHT,
+    TAG_THAI_CREDIT,
     TAG_LOGO_SHINE,
 };
 
@@ -64,6 +65,12 @@ static const u32 sTitleScreenRayquazaGfx[] = INCGFX_U32("graphics/title_screen/r
 static const u32 sTitleScreenRayquazaTilemap[] = INCGFX_U32("graphics/title_screen/rayquaza.bin", ".lz");
 static const u32 sTitleScreenLogoShineGfx[] = INCGFX_U32("graphics/title_screen/logo_shine.png", ".4bpp.lz");
 static const u32 sTitleScreenCloudsGfx[] = INCGFX_U32("graphics/title_screen/clouds.png", ".4bpp.lz");
+
+static const u32 sTitleScreenThaiCreditGfx[] = INCGFX_U32(
+    "graphics/title_screen/thai_credit_banner.png",
+    ".4bpp.lz",
+    "-mwidth 4 -mheight 4 -num_tiles 80 -Wnum_tiles"
+);
 
 
 
@@ -211,6 +218,23 @@ static const struct OamData sOamData_CopyrightBanner =
     .affineParam = 0,
 };
 
+static const struct OamData sOamData_ThaiCreditBanner =
+{
+    .y = DISPLAY_HEIGHT,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_4BPP,
+    .shape = SPRITE_SHAPE(32x32),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(32x32),
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
 static const union AnimCmd sAnim_PressStart_0[] =
 {
     ANIMCMD_FRAME(1, 4),
@@ -266,6 +290,43 @@ static const union AnimCmd sAnim_Copyright_4[] =
 #define NUM_PRESS_START_FRAMES 5
 #define NUM_COPYRIGHT_FRAMES 5
 
+#define NUM_THAI_CREDIT_FRAMES 5
+
+static const union AnimCmd sAnim_ThaiCredit_0[] =
+{
+    ANIMCMD_FRAME(0, 4),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_ThaiCredit_1[] =
+{
+    ANIMCMD_FRAME(16, 4),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_ThaiCredit_2[] =
+{
+    ANIMCMD_FRAME(32, 4),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_ThaiCredit_3[] =
+{
+    ANIMCMD_FRAME(48, 4),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_ThaiCredit_4[] =
+{
+    ANIMCMD_FRAME(64, 4),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sThaiCreditAnimTable[NUM_THAI_CREDIT_FRAMES] =
+{
+    sAnim_ThaiCredit_0,
+    sAnim_ThaiCredit_1,
+    sAnim_ThaiCredit_2,
+    sAnim_ThaiCredit_3,
+    sAnim_ThaiCredit_4,
+};
+
 static const union AnimCmd *const sStartCopyrightBannerAnimTable[NUM_PRESS_START_FRAMES + NUM_COPYRIGHT_FRAMES] =
 {
     sAnim_PressStart_0,
@@ -298,6 +359,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_PressStart[] =
         .data = gTitleScreenPressStartGfx,
         .size = 0x520,
         .tag = TAG_PRESS_START_COPYRIGHT
+    },
+    {},
+};
+
+static const struct SpriteTemplate sThaiCreditBannerSpriteTemplate =
+{
+    .tileTag = TAG_THAI_CREDIT,
+    .paletteTag = TAG_PRESS_START_COPYRIGHT,
+    .oam = &sOamData_ThaiCreditBanner,
+    .anims = sThaiCreditAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCB_PressStartCopyrightBanner,
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_ThaiCredit[] =
+{
+    {
+        .data = sTitleScreenThaiCreditGfx,
+        .size = 0xA00,
+        .tag = TAG_THAI_CREDIT
     },
     {},
 };
@@ -428,9 +510,9 @@ static void CreatePressStartBanner(s16 x, s16 y)
     u8 spriteId;
 
     x -= 64;
-    for (i = 0; i < NUM_PRESS_START_FRAMES; i++, x += 32)
+    for (i = 0; i < NUM_THAI_CREDIT_FRAMES; i++, x += 32)
     {
-        spriteId = CreateSprite(&sStartCopyrightBannerSpriteTemplate, x, y, 0);
+        spriteId = CreateSprite(&sThaiCreditBannerSpriteTemplate, x, y, 0);
         StartSpriteAnim(&gSprites[spriteId], i);
         gSprites[spriteId].sAnimate = TRUE;
     }
@@ -612,6 +694,7 @@ void CB2_InitTitleScreen(void)
         gReservedSpritePaletteCount = 9;
         LoadCompressedSpriteSheet(&sSpriteSheet_EmeraldVersion[0]);
         LoadCompressedSpriteSheet(&sSpriteSheet_PressStart[0]);
+        LoadCompressedSpriteSheet(&sSpriteSheet_ThaiCredit[0]);
         LoadCompressedSpriteSheet(&sPokemonLogoShineSpriteSheet[0]);
         LoadPalette(gTitleScreenEmeraldVersionPal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         LoadSpritePalette(&sSpritePalette_PressStart[0]);

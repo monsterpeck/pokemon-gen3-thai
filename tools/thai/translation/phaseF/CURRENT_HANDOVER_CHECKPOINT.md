@@ -173,3 +173,79 @@ Runtime proof:
 
 Do not reopen or regenerate translation scope from these paths unless a new
 reproducible runtime failure, source/baseline change, or direct contradiction appears.
+
+
+## Current Active Scope — Ability Descriptions
+
+- User-selected scope.
+- Required: 77 real Ability descriptions.
+- Done/covered: 77.
+- Pending: 0.
+- NOT_APPLICABLE: 1 (`ABILITY_NONE`).
+- Canonical tracker:
+  `tools/thai/translation/phaseF/batches/phaseF-ability-descriptions-78-canonical-reconcile.csv`
+- Translate descriptions only.
+- Ability heading/names, Nature names, and Type names are not part of this scope.
+- Batch 01: CLOSED 15/15 after width gate, apply and production build.
+- Latest build: EWRAM 252772 B / 96.42%, IWRAM 31468 B / 96.03%, ROM 15981646 B / 47.63%.
+- Next step: Batch 02 context/translation review from the remaining 60 PENDING descriptions.
+
+
+## Ability Descriptions — Final Batch Direction
+
+- Batch 02 CLOSED.
+- Latest production build: EWRAM 252772 B / 96.42%, IWRAM 31468 B / 96.03%, ROM 15983334 B / 47.63%.
+- Remaining 45 PENDING descriptions are approved to proceed as one final batch.
+- Reuse established project terminology before proposing wording.
+
+
+## Ability Descriptions — CLOSED
+
+- 77/77 DONE.
+- 0 PENDING.
+- Final build: EWRAM 252772 B / 96.42%, IWRAM 31468 B / 96.03%, ROM 15988046 B / 47.65%.
+- Runtime Summary QA PASS.
+- No window resize required.
+- Do not reopen absent new reproducible failure/source-baseline change/direct contradiction.
+
+## 2026-08-23 — Title Screen Credit CLOSED / next credit location
+
+### Closed in this checkpoint
+
+- Ability Descriptions: CLOSED 77/77, PENDING 0.
+- Title Screen Translation Credit: CLOSED 1/1, PENDING 0.
+- Final Title Screen wording:
+  - `Thai by Emu`
+  - `เข้าเส้น`
+- Final runtime visual QA: PASS.
+- Dedicated banner: 160x32, five 32x32 sprites.
+- Blink preserved.
+- Copyright preserved.
+- Original `press_start.png` preserved.
+- Indexed runtime palette issue resolved.
+
+### Production Thai-font lock
+
+Use only:
+
+- `tools/thai/font/thai_precompose_glyph_map.json`
+- `graphics/fonts/thai_shaped.png`
+- `tools/thai/shape_thai_precompose.py`
+- 768 glyphs (`0..767`)
+
+Do not use the Noto/reference pipeline or
+`thai_shaped_glyph_map.json` for production rendering.
+
+### Next exact workflow
+
+The next user-selected work is to add translation credit at one more in-game
+location.
+
+Do not broad-audit the game for credit locations. Wait for the user to identify
+or show the desired screen/location, then trace only that affected runtime path.
+
+### Repository synchronization
+
+Ability-description and Title-Screen-credit work must be reviewed in the current
+working tree and committed/pushed before treating the remote branch as
+synchronized. Do not assume the previous pushed HEAD contains these changes.

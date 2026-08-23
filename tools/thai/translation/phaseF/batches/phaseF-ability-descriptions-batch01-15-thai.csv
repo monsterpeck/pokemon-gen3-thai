@@ -1,0 +1,16 @@
+﻿row_id,ability,source_symbol,baseline_english,thai_text,wording_status,max_width_px,width_status
+1,ABILITY_STENCH,sStenchDescription,Helps repel wild POKéMON.,ช่วยลดการพบโปเกมอนป่า,APPROVED,144,PASS_144PX
+2,ABILITY_DRIZZLE,sDrizzleDescription,Summons rain in battle.,เรียกฝนในการต่อสู้,APPROVED,144,PASS_144PX
+3,ABILITY_SPEED_BOOST,sSpeedBoostDescription,Gradually boosts SPEED.,เพิ่ม SPEED ขึ้นเรื่อย ๆ,APPROVED,144,PASS_144PX
+5,ABILITY_STURDY,sSturdyDescription,Negates 1-hit KO attacks.,ป้องกันท่าที่ทำให้สลบในทีเดียว,APPROVED,144,PASS_144PX
+6,ABILITY_DAMP,sDampDescription,Prevents self-destruction.,ป้องกันการระเบิดตัวเอง,APPROVED,144,PASS_144PX
+7,ABILITY_LIMBER,sLimberDescription,Prevents paralysis.,ป้องกันอาการอัมพาต,APPROVED,144,PASS_144PX
+8,ABILITY_SAND_VEIL,sSandVeilDescription,Ups evasion in a sandstorm.,เพิ่มการหลบหลีกในพายุทราย,APPROVED,144,PASS_144PX
+9,ABILITY_STATIC,sStaticDescription,Paralyzes on contact.,อาจทำให้อัมพาตเมื่อสัมผัส,APPROVED,144,PASS_144PX
+10,ABILITY_VOLT_ABSORB,sVoltAbsorbDescription,Turns electricity into HP.,ดูดซับไฟฟ้าเพื่อฟื้น HP,APPROVED,144,PASS_144PX
+11,ABILITY_WATER_ABSORB,sWaterAbsorbDescription,Changes water into HP.,ดูดซับน้ำเพื่อฟื้น HP,APPROVED,144,PASS_144PX
+12,ABILITY_OBLIVIOUS,sObliviousDescription,Prevents attraction.,ป้องกันอาการหลงรัก,APPROVED,144,PASS_144PX
+13,ABILITY_CLOUD_NINE,sCloudNineDescription,Negates weather effects.,ยกเลิกผลของสภาพอากาศ,APPROVED,144,PASS_144PX
+14,ABILITY_COMPOUND_EYES,sCompoundEyesDescription,Raises accuracy.,เพิ่มความแม่นยำ,APPROVED,144,PASS_144PX
+15,ABILITY_INSOMNIA,sInsomniaDescription,Prevents sleep.,ป้องกันการหลับ,APPROVED,144,PASS_144PX
+16,ABILITY_COLOR_CHANGE,sColorChangeDescription,Changes type to foe's move.,เปลี่ยนประเภทตามท่าของคู่ต่อสู้,APPROVED,144,PASS_144PX

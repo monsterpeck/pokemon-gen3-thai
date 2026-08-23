@@ -712,3 +712,63 @@ Do not reopen this runtime path unless there is a new reproducible failure,
 source/baseline change, or direct contradictory evidence.
 Do not create a new translation backlog from direct `gSpeciesNames[]`,
 RAW candidates, BASELINE_EXACT rows, or historical HOLD data for these paths.
+
+
+## Ability Descriptions — ACTIVE SCOPE
+
+Canonical tracker:
+`tools/thai/translation/phaseF/batches/phaseF-ability-descriptions-78-canonical-reconcile.csv`
+
+State:
+- 77 real Ability descriptions required.
+- 77 covered/closed.
+- 0 PENDING translation.
+- 1 NOT_APPLICABLE (`ABILITY_NONE`).
+- Status: IN_PROGRESS.
+
+Scope lock:
+- Translate descriptions only.
+- Keep `ABILITY` heading English.
+- Keep Ability Names English.
+- Keep Nature Names English.
+- Type Names remain outside this scope and must not be translated piecemeal.
+
+Existing coverage must not be translated twice:
+- `ABILITY_BATTLE_ARMOR`: canonical Thai description already present.
+- `ABILITY_BLAZE`: Thai Summary runtime override already player-visible.
+
+
+Ability Descriptions Batch 01: CLOSED
+- 15 descriptions translated/applied.
+- Width gate PASS 15/15 within existing 144 px single-line budget.
+- No window resize.
+- Production build PASS: EWRAM 252772 B, IWRAM 31468 B, ROM 15981646 B.
+- Current Ability Description scope: 17/77 DONE, 60 PENDING.
+
+
+Ability Descriptions Batch 02: CLOSED
+- 15 descriptions translated/applied.
+- Batch 01 SPEED BOOST terminology correction applied.
+- Width gate PASS; no window resize.
+- Production build PASS: EWRAM 252772 B, IWRAM 31468 B, ROM 15983334 B.
+- Current scope: 32/77 DONE, 45 PENDING.
+- User approved all remaining 45 as one final batch.
+
+
+Ability Descriptions: CLOSED 77/77
+- 75 descriptions translated in canonical source.
+- Existing BATTLE ARMOR Thai + BLAZE Summary runtime override complete total coverage.
+- Width/layout PASS within existing Summary window; no resize.
+- Final production build PASS: EWRAM 252772 B, IWRAM 31468 B, ROM 15988046 B.
+- Runtime Summary QA PASS.
+
+## CLOSED — Title Screen Translation Credit
+
+- User-selected credit insertion is complete.
+- Final visual: `Thai by Emu` / `เข้าเส้น`.
+- Dedicated 160x32 sprite asset is wired into the Title Screen path.
+- Five 32x32 sprites retain the original blink callback.
+- Copyright path remains unchanged.
+- Runtime QA PASS.
+- PENDING: 0.
+- Next user-selected scope: second in-game translation-credit location; exact location has not yet been chosen.

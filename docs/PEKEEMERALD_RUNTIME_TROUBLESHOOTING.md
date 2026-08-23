@@ -759,3 +759,52 @@ Reopen only for:
 Do not reopen Species Names 386/386 or create translation scope from
 `gSpeciesNames[]`, RAW candidates, BASELINE_EXACT rows, historical HOLD pools,
 or generic source scans for this already-closed runtime path.
+
+## Title Screen credit banners and indexed OBJ palettes
+
+### Proven Title Screen credit implementation
+
+The approved Title Screen translation credit uses a dedicated graphic asset:
+
+- `graphics/title_screen/thai_credit_banner.png`
+- 160x32 px
+- five 32x32 OBJ sprites
+- wording:
+  - `Thai by Emu`
+  - `เข้าเส้น`
+
+The original `press_start.png` remains intact because it is also used by the
+copyright banner. The new credit uses its own sprite sheet while retaining the
+existing Press Start blink callback.
+
+### Critical indexed-palette rule
+
+A PNG can look correct in an image viewer but render incorrectly in-game when
+its palette indices do not match the OBJ palette actually loaded at runtime.
+
+For this Title Screen path the sprite template uses the existing
+Press Start/Copyright palette. Therefore the credit bitmap's pixel indices must
+be remapped to the indices of that runtime palette rather than relying on RGB
+values embedded in the standalone PNG.
+
+Symptoms of a bad index mapping included:
+
+- white text becoming faint/gray in-game;
+- black appearing as an opaque rectangle;
+- an asset looking correct in Windows but wrong in the ROM.
+
+The proven fix is to keep index 0 transparent and remap foreground/shadow pixel
+indices against the palette used by `gTitleScreenPressStartPal`.
+
+### Production Thai-font authority
+
+For current PekeEmerald production work use only:
+
+- `tools/thai/font/thai_precompose_glyph_map.json`
+- `graphics/fonts/thai_shaped.png`
+- `tools/thai/shape_thai_precompose.py`
+- production glyph count: 768 (`0..767`)
+
+`thai_shaped_glyph_map.json`, Noto-based proof tooling, and historical shaping
+artifacts are legacy/reference paths and must not be selected for production
+rendering merely because their filenames appear related.

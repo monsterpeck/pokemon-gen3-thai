@@ -1,0 +1,46 @@
+﻿row_id,ability,source_symbol,baseline_english,thai_text,wording_status,max_width_px,measured_width_px,width_method,width_status
+32,ABILITY_SERENE_GRACE,sSereneGraceDescription,Promotes added effects.,เพิ่มโอกาสเกิดผลเสริม,APPROVED,144,98,EXACT_THAI,PASS_144PX
+33,ABILITY_SWIFT_SWIM,sSwiftSwimDescription,Raises SPEED in rain.,เพิ่มความเร็วเมื่อฝนตก,APPROVED,144,103,EXACT_THAI,PASS_144PX
+34,ABILITY_CHLOROPHYLL,sChlorophyllDescription,Raises SPEED in sunshine.,เพิ่มความเร็วเมื่อมีแสงแดด,APPROVED,144,121,EXACT_THAI,PASS_144PX
+35,ABILITY_ILLUMINATE,sIlluminateDescription,Encounter rate increases.,เพิ่มโอกาสพบโปเกมอนป่า,APPROVED,144,115,EXACT_THAI,PASS_144PX
+36,ABILITY_TRACE,sTraceDescription,Copies special ability.,คัดลอกความสามารถของคู่ต่อสู้,APPROVED,144,130,EXACT_THAI,PASS_144PX
+37,ABILITY_HUGE_POWER,sHugePowerDescription,Raises ATTACK.,เพิ่มพลังโจมตี,APPROVED,144,62,EXACT_THAI,PASS_144PX
+38,ABILITY_POISON_POINT,sPoisonPointDescription,Poisons foe on contact.,อาจทำให้ติดพิษเมื่อสัมผัส,APPROVED,144,112,EXACT_THAI,PASS_144PX
+39,ABILITY_INNER_FOCUS,sInnerFocusDescription,Prevents flinching.,ป้องกันการชะงัก,APPROVED,144,68,EXACT_THAI,PASS_144PX
+40,ABILITY_MAGMA_ARMOR,sMagmaArmorDescription,Prevents freezing.,ป้องกันการแช่แข็ง,APPROVED,144,76,EXACT_THAI,PASS_144PX
+41,ABILITY_WATER_VEIL,sWaterVeilDescription,Prevents burns.,ป้องกันสถานะไหม้,APPROVED,144,80,EXACT_THAI,PASS_144PX
+42,ABILITY_MAGNET_PULL,sMagnetPullDescription,Traps STEEL-type POKéMON.,กักโปเกมอนประเภทเหล็กไว้,APPROVED,144,125,EXACT_THAI,PASS_144PX
+43,ABILITY_SOUNDPROOF,sSoundproofDescription,Avoids sound-based moves.,ป้องกันท่าที่ใช้เสียง,APPROVED,144,81,EXACT_THAI,PASS_144PX
+44,ABILITY_RAIN_DISH,sRainDishDescription,Slight HP recovery in rain.,ฟื้น HP เล็กน้อยเมื่อฝนตก,APPROVED,144,128,SAFE_UPPER_BOUND,PASS_144PX
+45,ABILITY_SAND_STREAM,sSandStreamDescription,Summons a sandstorm.,เรียกพายุทราย,APPROVED,144,62,EXACT_THAI,PASS_144PX
+46,ABILITY_PRESSURE,sPressureDescription,Raises foe's PP usage.,ทำให้คู่ต่อสู้ใช้ PP มากขึ้น,APPROVED,144,127,SAFE_UPPER_BOUND,PASS_144PX
+47,ABILITY_THICK_FAT,sThickFatDescription,Heat-and-cold protection.,ลดพลังท่าไฟและน้ำแข็ง,APPROVED,144,102,EXACT_THAI,PASS_144PX
+48,ABILITY_EARLY_BIRD,sEarlyBirdDescription,Awakens quickly from sleep.,ตื่นจากการหลับเร็วขึ้น,APPROVED,144,98,EXACT_THAI,PASS_144PX
+49,ABILITY_FLAME_BODY,sFlameBodyDescription,Burns the foe on contact.,อาจทำให้ไหม้เมื่อสัมผัส,APPROVED,144,102,EXACT_THAI,PASS_144PX
+50,ABILITY_RUN_AWAY,sRunAwayDescription,Makes escaping easier.,ช่วยให้หนีได้ง่ายขึ้น,APPROVED,144,89,EXACT_THAI,PASS_144PX
+51,ABILITY_KEEN_EYE,sKeenEyeDescription,Prevents loss of accuracy.,ป้องกันความแม่นยำลดลง,APPROVED,144,109,EXACT_THAI,PASS_144PX
+52,ABILITY_HYPER_CUTTER,sHyperCutterDescription,Prevents ATTACK reduction.,ป้องกันพลังโจมตีลดลง,APPROVED,144,97,EXACT_THAI,PASS_144PX
+53,ABILITY_PICKUP,sPickupDescription,May pick up items.,อาจเก็บไอเทมได้,APPROVED,144,76,EXACT_THAI,PASS_144PX
+54,ABILITY_TRUANT,sTruantDescription,Moves only every two turns.,ออกท่าได้ทุก 2 เทิร์น,APPROVED,144,103,SAFE_UPPER_BOUND,PASS_144PX
+55,ABILITY_HUSTLE,sHustleDescription,Trades accuracy for power.,เพิ่มพลังแต่ลดความแม่นยำ,APPROVED,144,119,EXACT_THAI,PASS_144PX
+56,ABILITY_CUTE_CHARM,sCuteCharmDescription,Infatuates on contact.,อาจทำให้หลงรักเมื่อสัมผัส,APPROVED,144,110,EXACT_THAI,PASS_144PX
+57,ABILITY_PLUS,sPlusDescription,Powers up with MINUS.,เพิ่มพลังเมื่ออยู่กับ MINUS,APPROVED,144,127,SAFE_UPPER_BOUND,PASS_144PX
+58,ABILITY_MINUS,sMinusDescription,Powers up with PLUS.,เพิ่มพลังเมื่ออยู่กับ PLUS,APPROVED,144,119,SAFE_UPPER_BOUND,PASS_144PX
+59,ABILITY_FORECAST,sForecastDescription,Changes with the weather.,เปลี่ยนตามสภาพอากาศ,APPROVED,144,101,EXACT_THAI,PASS_144PX
+60,ABILITY_STICKY_HOLD,sStickyHoldDescription,Prevents item theft.,ป้องกันไอเทมถูกขโมย,APPROVED,144,97,EXACT_THAI,PASS_144PX
+61,ABILITY_SHED_SKIN,sShedSkinDescription,Heals the body by shedding.,ลอกคราบเพื่อรักษาสถานะผิดปกติ,APPROVED,144,144,EXACT_THAI,PASS_144PX
+62,ABILITY_GUTS,sGutsDescription,Ups ATTACK if suffering.,เพิ่มพลังโจมตีเมื่อติดสถานะ,APPROVED,144,122,EXACT_THAI,PASS_144PX
+63,ABILITY_MARVEL_SCALE,sMarvelScaleDescription,Ups DEFENSE if suffering.,เพิ่มพลังป้องกันเมื่อผิดปกติ,APPROVED,144,118,EXACT_THAI,PASS_144PX
+64,ABILITY_LIQUID_OOZE,sLiquidOozeDescription,Draining causes injury.,ทำร้ายผู้ที่ดูดพลัง,APPROVED,144,71,EXACT_THAI,PASS_144PX
+65,ABILITY_OVERGROW,sOvergrowDescription,Ups GRASS moves in a pinch.,เพิ่มพลังท่าหญ้าเมื่อ HP ต่ำ,APPROVED,144,127,SAFE_UPPER_BOUND,PASS_144PX
+67,ABILITY_TORRENT,sTorrentDescription,Ups WATER moves in a pinch.,เพิ่มพลังท่าน้ำเมื่อ HP ต่ำ,APPROVED,144,119,SAFE_UPPER_BOUND,PASS_144PX
+68,ABILITY_SWARM,sSwarmDescription,Ups BUG moves in a pinch.,เพิ่มพลังท่าแมลงเมื่อ HP ต่ำ,APPROVED,144,132,SAFE_UPPER_BOUND,PASS_144PX
+69,ABILITY_ROCK_HEAD,sRockHeadDescription,Prevents recoil damage.,ป้องกันความเสียหายสะท้อน,APPROVED,144,120,EXACT_THAI,PASS_144PX
+70,ABILITY_DROUGHT,sDroughtDescription,Summons sunlight in battle.,เรียกแสงแดดในการต่อสู้,APPROVED,144,108,EXACT_THAI,PASS_144PX
+71,ABILITY_ARENA_TRAP,sArenaTrapDescription,Prevents fleeing.,ไม่ให้คู่ต่อสู้หนีหรือสลับตัว,APPROVED,144,118,EXACT_THAI,PASS_144PX
+72,ABILITY_VITAL_SPIRIT,sVitalSpiritDescription,Prevents sleep.,ป้องกันการหลับ,APPROVED,144,66,EXACT_THAI,PASS_144PX
+73,ABILITY_WHITE_SMOKE,sWhiteSmokeDescription,Prevents ability reduction.,ป้องกันค่าสถานะลดลง,APPROVED,144,94,EXACT_THAI,PASS_144PX
+74,ABILITY_PURE_POWER,sPurePowerDescription,Raises ATTACK.,เพิ่มพลังโจมตี,APPROVED,144,62,EXACT_THAI,PASS_144PX
+75,ABILITY_SHELL_ARMOR,sShellArmorDescription,Blocks critical hits.,ป้องกันการโจมตีคริติคอล,APPROVED,144,110,EXACT_THAI,PASS_144PX
+76,ABILITY_CACOPHONY,sCacophonyDescription,Avoids sound-based moves.,ป้องกันท่าที่ใช้เสียง,APPROVED,144,81,EXACT_THAI,PASS_144PX
+77,ABILITY_AIR_LOCK,sAirLockDescription,Negates weather effects.,ยกเลิกผลของสภาพอากาศ,APPROVED,144,108,EXACT_THAI,PASS_144PX

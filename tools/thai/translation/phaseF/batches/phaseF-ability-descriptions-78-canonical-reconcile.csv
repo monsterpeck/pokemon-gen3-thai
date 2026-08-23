@@ -1,0 +1,79 @@
+﻿row_id,ability,source_symbol,english_raw,source_file,disposition,closure_status,reason
+0,ABILITY_NONE,sNoneDescription,No special ability.,src/data/text/abilities.h,NOT_APPLICABLE,DONE,Placeholder/no real Pokémon Ability; excluded from required_total.
+1,ABILITY_STENCH,sStenchDescription,Helps repel wild POKéMON.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+2,ABILITY_DRIZZLE,sDrizzleDescription,Summons rain in battle.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+3,ABILITY_SPEED_BOOST,sSpeedBoostDescription,Gradually boosts SPEED.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+4,ABILITY_BATTLE_ARMOR,sBattleArmorDescription,ป้องกันการโจมตีคริติคอล.,src/data/text/abilities.h,COVERED_ALREADY,DONE,Canonical Ability description already Thai in src/data/text/abilities.h.
+5,ABILITY_STURDY,sSturdyDescription,Negates 1-hit KO attacks.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+6,ABILITY_DAMP,sDampDescription,Prevents self-destruction.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+7,ABILITY_LIMBER,sLimberDescription,Prevents paralysis.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+8,ABILITY_SAND_VEIL,sSandVeilDescription,Ups evasion in a sandstorm.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+9,ABILITY_STATIC,sStaticDescription,Paralyzes on contact.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+10,ABILITY_VOLT_ABSORB,sVoltAbsorbDescription,Turns electricity into HP.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+11,ABILITY_WATER_ABSORB,sWaterAbsorbDescription,Changes water into HP.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+12,ABILITY_OBLIVIOUS,sObliviousDescription,Prevents attraction.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+13,ABILITY_CLOUD_NINE,sCloudNineDescription,Negates weather effects.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+14,ABILITY_COMPOUND_EYES,sCompoundEyesDescription,Raises accuracy.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+15,ABILITY_INSOMNIA,sInsomniaDescription,Prevents sleep.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+16,ABILITY_COLOR_CHANGE,sColorChangeDescription,Changes type to foe's move.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 01 translated/applied; width gate PASS; production build PASS.
+17,ABILITY_IMMUNITY,sImmunityDescription,Prevents poisoning.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+18,ABILITY_FLASH_FIRE,sFlashFireDescription,Powers up if hit by fire.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+19,ABILITY_SHIELD_DUST,sShieldDustDescription,Prevents added effects.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+20,ABILITY_OWN_TEMPO,sOwnTempoDescription,Prevents confusion.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+21,ABILITY_SUCTION_CUPS,sSuctionCupsDescription,Firmly anchors the body.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+22,ABILITY_INTIMIDATE,sIntimidateDescription,Lowers the foe's ATTACK.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+23,ABILITY_SHADOW_TAG,sShadowTagDescription,Prevents the foe's escape.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+24,ABILITY_ROUGH_SKIN,sRoughSkinDescription,Hurts to touch.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+25,ABILITY_WONDER_GUARD,sWonderGuardDescription,“Super effective” hits.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+26,ABILITY_LEVITATE,sLevitateDescription,Not hit by GROUND attacks.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+27,ABILITY_EFFECT_SPORE,sEffectSporeDescription,Leaves spores on contact.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+28,ABILITY_SYNCHRONIZE,sSynchronizeDescription,Passes on status problems.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+29,ABILITY_CLEAR_BODY,sClearBodyDescription,Prevents ability reduction.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+30,ABILITY_NATURAL_CURE,sNaturalCureDescription,Heals upon switching out.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+31,ABILITY_LIGHTNING_ROD,sLightningRodDescription,Draws electrical moves.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Batch 02 translated/applied; terminology and width gates PASS; production build PASS.
+32,ABILITY_SERENE_GRACE,sSereneGraceDescription,Promotes added effects.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+33,ABILITY_SWIFT_SWIM,sSwiftSwimDescription,Raises SPEED in rain.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+34,ABILITY_CHLOROPHYLL,sChlorophyllDescription,Raises SPEED in sunshine.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+35,ABILITY_ILLUMINATE,sIlluminateDescription,Encounter rate increases.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+36,ABILITY_TRACE,sTraceDescription,Copies special ability.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+37,ABILITY_HUGE_POWER,sHugePowerDescription,Raises ATTACK.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+38,ABILITY_POISON_POINT,sPoisonPointDescription,Poisons foe on contact.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+39,ABILITY_INNER_FOCUS,sInnerFocusDescription,Prevents flinching.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+40,ABILITY_MAGMA_ARMOR,sMagmaArmorDescription,Prevents freezing.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+41,ABILITY_WATER_VEIL,sWaterVeilDescription,Prevents burns.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+42,ABILITY_MAGNET_PULL,sMagnetPullDescription,Traps STEEL-type POKéMON.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+43,ABILITY_SOUNDPROOF,sSoundproofDescription,Avoids sound-based moves.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+44,ABILITY_RAIN_DISH,sRainDishDescription,Slight HP recovery in rain.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+45,ABILITY_SAND_STREAM,sSandStreamDescription,Summons a sandstorm.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+46,ABILITY_PRESSURE,sPressureDescription,Raises foe's PP usage.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+47,ABILITY_THICK_FAT,sThickFatDescription,Heat-and-cold protection.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+48,ABILITY_EARLY_BIRD,sEarlyBirdDescription,Awakens quickly from sleep.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+49,ABILITY_FLAME_BODY,sFlameBodyDescription,Burns the foe on contact.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+50,ABILITY_RUN_AWAY,sRunAwayDescription,Makes escaping easier.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+51,ABILITY_KEEN_EYE,sKeenEyeDescription,Prevents loss of accuracy.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+52,ABILITY_HYPER_CUTTER,sHyperCutterDescription,Prevents ATTACK reduction.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+53,ABILITY_PICKUP,sPickupDescription,May pick up items.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+54,ABILITY_TRUANT,sTruantDescription,Moves only every two turns.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+55,ABILITY_HUSTLE,sHustleDescription,Trades accuracy for power.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+56,ABILITY_CUTE_CHARM,sCuteCharmDescription,Infatuates on contact.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+57,ABILITY_PLUS,sPlusDescription,Powers up with MINUS.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+58,ABILITY_MINUS,sMinusDescription,Powers up with PLUS.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+59,ABILITY_FORECAST,sForecastDescription,Changes with the weather.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+60,ABILITY_STICKY_HOLD,sStickyHoldDescription,Prevents item theft.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+61,ABILITY_SHED_SKIN,sShedSkinDescription,Heals the body by shedding.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+62,ABILITY_GUTS,sGutsDescription,Ups ATTACK if suffering.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+63,ABILITY_MARVEL_SCALE,sMarvelScaleDescription,Ups DEFENSE if suffering.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+64,ABILITY_LIQUID_OOZE,sLiquidOozeDescription,Draining causes injury.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+65,ABILITY_OVERGROW,sOvergrowDescription,Ups GRASS moves in a pinch.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+66,ABILITY_BLAZE,sBlazeDescription,Ups FIRE moves in a pinch.,src/data/text/abilities.h,COVERED_ALREADY,DONE,Player-visible Thai description already provided by existing Summary runtime override; canonicalization may occur during apply.
+67,ABILITY_TORRENT,sTorrentDescription,Ups WATER moves in a pinch.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+68,ABILITY_SWARM,sSwarmDescription,Ups BUG moves in a pinch.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+69,ABILITY_ROCK_HEAD,sRockHeadDescription,Prevents recoil damage.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+70,ABILITY_DROUGHT,sDroughtDescription,Summons sunlight in battle.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+71,ABILITY_ARENA_TRAP,sArenaTrapDescription,Prevents fleeing.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+72,ABILITY_VITAL_SPIRIT,sVitalSpiritDescription,Prevents sleep.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+73,ABILITY_WHITE_SMOKE,sWhiteSmokeDescription,Prevents ability reduction.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+74,ABILITY_PURE_POWER,sPurePowerDescription,Raises ATTACK.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+75,ABILITY_SHELL_ARMOR,sShellArmorDescription,Blocks critical hits.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+76,ABILITY_CACOPHONY,sCacophonyDescription,Avoids sound-based moves.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.
+77,ABILITY_AIR_LOCK,sAirLockDescription,Negates weather effects.,src/data/text/abilities.h,TRANSLATE_REQUIRED,DONE,Final Ability Description batch translated/applied; width gate PASS; production build PASS.

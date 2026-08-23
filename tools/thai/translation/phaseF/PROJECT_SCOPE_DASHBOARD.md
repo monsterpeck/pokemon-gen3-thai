@@ -14,6 +14,7 @@
 | Contest | Contest Move Names | PRESERVE_EXISTING | - | - | 0 | POLICY_LOCKED |
 | Contest | Contest Move/Effect Descriptions | TRANSLATE_REQUIRED | 48 | 48 | 0 | DONE |
 | Pokémon | Species Names | COVERED_BY_DEDICATED_TRACKER | 386 | 386 | 0 | DONE |
+| Pokémon | Ability Descriptions | TRANSLATE_REQUIRED | 77 | 77 | 0 | DONE |
 | Story | Main Story | TRANSLATE_REQUIRED | 191 | 191 | 0 | DONE |
 | Trainer | Spoken Trainer Dialogue | TRANSLATE_REQUIRED | 1633 | 1633 | 0 | DONE |
 | Trainer | Trainer Class Names | TRANSLATE_REQUIRED | 66 | 66 | 0 | DONE |
@@ -105,3 +106,83 @@ Canonical tracker:
 
 Thai pack:
 `tools/thai/translation/phaseF/batches/phaseF-group8-special-npc-actionable-12-thai.csv`
+
+
+## Ability Descriptions — REGISTERED
+
+- User-selected new scope.
+- Required real Abilities: 77.
+- Existing/closed: 17.
+- Pending translation: 60.
+- `ABILITY_NONE`: NOT_APPLICABLE.
+- Canonical tracker: `batches/phaseF-ability-descriptions-78-canonical-reconcile.csv`.
+- `ABILITY` heading: preserve English.
+- Ability Names: preserve English.
+- Nature Names: preserve English.
+- Type Names: out of this scope; do not translate piecemeal.
+
+
+### Ability Descriptions Batch 01 — CLOSED
+
+- Rows: 15/15.
+- Wording: APPROVED 15/15.
+- Width/layout: PASS 15/15, 144 px / 1 line, no window resize.
+- Injection dry-run: PASS.
+- Apply: PASS 15/15.
+- Production build: PASS.
+- EWRAM: 252772 B / 96.42%.
+- IWRAM: 31468 B / 96.03%.
+- ROM: 15981646 B / 47.63%.
+- Scope total after Batch 01: DONE 17/77, PENDING 60.
+
+
+### Ability Descriptions Batch 02 — CLOSED
+
+- Rows: 15/15.
+- Batch 01 terminology correction: 1/1.
+- Terminology gate: PASS.
+- Width/layout: PASS 16/16 within existing 144 px / 1-line budget.
+- Window resize: NO.
+- Apply: PASS 16/16 source changes.
+- Production build: PASS.
+- EWRAM: 252772 B / 96.42%.
+- IWRAM: 31468 B / 96.03%.
+- ROM: 15983334 B / 47.63%.
+- Scope total: 32/77 DONE, 45 PENDING.
+- Remaining 45 approved as one final batch.
+
+
+### Ability Descriptions — CLOSED 77/77
+
+- Required: 77.
+- DONE: 77.
+- PENDING: 0.
+- Final 45 width/layout: PASS 45/45 within existing 144 px / 1-line window.
+- Window resize: NO.
+- Production build: PASS.
+- EWRAM: 252772 B / 96.42%.
+- IWRAM: 31468 B / 96.03%.
+- ROM: 15988046 B / 47.65%.
+- Runtime Summary QA: PASS (SYNCHRONIZE / SOUNDPROOF sampled).
+
+### Title Screen Translation Credit — CLOSED
+
+- Scope: user-selected Title Screen translation credit.
+- Status: DONE / CLOSED.
+- Required: 1.
+- DONE: 1.
+- PENDING: 0.
+- Final wording:
+  - `Thai by Emu`
+  - `เข้าเส้น`
+- Runtime implementation:
+  - dedicated `graphics/title_screen/thai_credit_banner.png`;
+  - 160x32 px total;
+  - five 32x32 OBJ sprites;
+  - original title-screen blink behavior preserved;
+  - original copyright banner preserved;
+  - original `graphics/title_screen/press_start.png` unchanged.
+- Production build: PASS.
+- Final runtime visual QA: PASS.
+- Final palette: remapped to the actual runtime Press Start/Copyright OBJ palette.
+- Do not reopen absent a new reproducible runtime failure, source/baseline change, or direct contradictory evidence.
