@@ -342,26 +342,30 @@ Therefore:
 
 # 11. Current HOLD landscape
 
-After excluding:
-- closed Group 7 facility rows,
-- closed Trainer translation scope,
-- Trainer `PRESERVE_DATA`,
-- policy-locked names,
+Battle review is now CLOSED and must not be counted as remaining HOLD work.
 
-a prior review observed an Unclassified HOLD pool of:
+Historical prior-review pools still not canonically closed:
 
 - system: **4437**
 - item: **1003**
-- battle: **505**
 - sign: **10**
-- total: **5955**
 
-These counts are **review-pool counts**, not “required translation remaining.”
+Historical non-Battle review-pool total: **5450**
 
-Do not convert `5955` into project completion percentage or translation backlog.
+Important:
 
----
+These are **review-pool counts only**, not translation backlog and not project
+completion numbers.
 
+`battle: 505` is CLOSED:
+- 286 COVERED_ALREADY
+- 153 translated / applied / build-passed
+- 26 PRESERVE_EXISTING
+- 32 NOT_APPLICABLE
+- 8 intentional HOLD
+- 0 unresolved
+
+Do not use `remaining_translation_inventory.csv` to infer current backlog.
 # 12. Battle HOLD 505 canonical reconciliation — CLOSED
 
 Battle HOLD review pool:
@@ -402,27 +406,17 @@ Only the 153 `NEEDS_TRANSLATION` rows are eligible for translation.
 
 # 13. Exact next step
 
-Current actionable Battle translation scope:
-**153 rows**
+Historical Sign HOLD 10 is CLOSED.
 
-Next task:
+Do not reopen:
+- Battle 505 / actionable 153
+- Trainer expanded scope
+- Group 7 Battle Frontier / Battle Tent
+- Pokémon Storage runtime issue
+- Historical Sign HOLD 10 / End Credits 9
 
-1. Read the complete `phaseF-battle-hold-actionable-153.csv`.
-2. Explain the player-visible context of the remaining 153 only.
-3. Preserve all locked terminology/policies.
-4. Translate the 153 in one batch if layout/runtime constraints permit.
-5. Run:
-   - control/placeholder gate,
-   - font/precompose gate,
-   - width/height/message-block layout gate.
-6. If a structural expansion has plausible crash/corruption risk, STOP and ask the user before changing it.
-7. Dry-run.
-8. Apply.
-9. Build once.
-10. Commit.
-11. Update this Control Center immediately.
-
-Battle 505 scope reconciliation is CLOSED and must not be repeated.
+Next work must be selected from the remaining non-closed HOLD landscape
+using this Control Center as authority, not the stale remaining inventory.
 
 # 14. New-chat bootstrap instruction
 
@@ -537,3 +531,32 @@ Canonical issue record:
 Status: CLOSED.
 Do not reopen absent a new reproducible failure, source/baseline change,
 or direct contradictory evidence.
+
+## Historical Sign HOLD 10 — CLOSED
+
+Final disposition:
+- `PRESERVE_EXISTING`: **9** — End Credits / Staff Credits, terminally excluded
+- `TRANSLATED`: **1** — `gEasyChatWord_Design`: `DESIGN` → `ออกแบบ`
+- unresolved: **0**
+
+Gates for the actionable row:
+- context/scope approval: PASS
+- font/precompose: PASS
+- layout: 39 px / 96 px
+- injector dry-run: PASS 1/1
+- injector apply: PASS 1/1
+- production build: PASS
+
+Build:
+- EWRAM: 252260 B / 96.23%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15974686 B / 47.61%
+
+Canonical tracker:
+`tools/thai/translation/phaseF/batches/phaseF-sign-hold-10-canonical-reconcile.csv`
+
+Translation pack:
+`tools/thai/translation/phaseF/batches/phaseF-sign-hold-actionable-1-thai.csv`
+
+The 9 End Credits rows must not return to translation scope absent a
+source/policy change or direct contradictory evidence.
