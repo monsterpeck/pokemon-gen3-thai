@@ -28,6 +28,53 @@ struct Pokenav_MatchCallMenu
     struct PokenavMatchCallEntry matchCallEntries[MAX_REMATCH_ENTRIES - 1];
 };
 
+
+#ifdef THAI_NAMING_PRODUCTION
+#define THAI_MATCH_CALL_CLASS_WIDTH_PX 69
+#define THAI_MATCH_CALL_MIN_ADVANCE_PX 3
+#define THAI_PRECOMPOSE_CTRL_CODE 25
+#define THAI_PRECOMPOSE_GLYPH_SIZE 8
+#define THAI_PRECOMPOSE_ADVANCE_OFFSET 6
+
+EWRAM_DATA static u8 sThaiMatchCallClassName[256] = {};
+
+static void FitThaiMatchCallClassName(u8 *str, u32 maxWidth)
+{
+    u32 i;
+    bool32 changed;
+
+    while (GetStringWidth(FONT_NARROW, str, 0) > maxWidth)
+    {
+        changed = FALSE;
+
+        for (i = 0; str[i] != EOS;)
+        {
+            if (str[i] == EXT_CTRL_CODE_BEGIN
+             && str[i + 1] == THAI_PRECOMPOSE_CTRL_CODE)
+            {
+                if (str[i + THAI_PRECOMPOSE_ADVANCE_OFFSET] > THAI_MATCH_CALL_MIN_ADVANCE_PX)
+                {
+                    str[i + THAI_PRECOMPOSE_ADVANCE_OFFSET]--;
+                    changed = TRUE;
+
+                    if (GetStringWidth(FONT_NARROW, str, 0) <= maxWidth)
+                        return;
+                }
+
+                i += THAI_PRECOMPOSE_GLYPH_SIZE;
+            }
+            else
+            {
+                i++;
+            }
+        }
+
+        if (!changed)
+            return;
+    }
+}
+#endif
+
 static u32 CB2_HandleMatchCallInput(struct Pokenav_MatchCallMenu *);
 static u32 GetExitMatchCallMenuId(struct Pokenav_MatchCallMenu *);
 static u32 CB2_HandleMatchCallOptionsInput(struct Pokenav_MatchCallMenu *);
@@ -415,7 +462,16 @@ void BufferMatchCallNameAndDesc(struct PokenavMatchCallEntry *matchCallEntry, u8
 
     if (className && trainerName)
     {
-        u8 *str2 = GetStringClearToWidth(str, FONT_NARROW, className, 69);
+        u8 *str2;
+#ifdef THAI_NAMING_PRODUCTION
+        if (StringLength(className) < sizeof(sThaiMatchCallClassName))
+        {
+            StringCopy(sThaiMatchCallClassName, className);
+            FitThaiMatchCallClassName(sThaiMatchCallClassName, THAI_MATCH_CALL_CLASS_WIDTH_PX);
+            className = sThaiMatchCallClassName;
+        }
+#endif
+        str2 = GetStringClearToWidth(str, FONT_NARROW, className, 69);
         GetStringClearToWidth(str2, FONT_NARROW, trainerName, 51);
     }
     else

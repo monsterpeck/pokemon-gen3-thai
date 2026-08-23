@@ -596,13 +596,20 @@ source/policy change or direct contradictory evidence.
 - Runtime QA PASS: capture messages and Pokédex flow show canonical Thai species name correctly.
 - Reopen only for a new reproducible direct-name-resolution regression, source/baseline change, or direct contradictory evidence.
 
-## Trainer Class Names — OPEN (2026-08-23)
+## Trainer Class Names — CLOSED (2026-08-23)
 
-- User-approved intended scope: translate all Trainer Class labels used by the game.
-- Source table: `src/data/text/trainer_class_names.h`
-- Required table entries: 66
-- Current: 0 DONE / 66 PENDING
-- Dedicated tracker: `tools/thai/translation/phaseF/batches/phaseF-trainer-class-66-scope.csv`
-- This scope is separate from Trainer Spoken Dialogue 1633/1633 CLOSED.
-- Trainer individual names (e.g. JOSE) are NOT part of this scope.
-- Individual-name JP→TH transliteration remains OPTIONAL/separate pending a reliable mapping.
+- Scope: 66/66 DONE; 0 PENDING.
+- Tracker: `tools/thai/translation/phaseF/batches/phaseF-trainer-class-66-scope.csv`
+- Source: `src/data/text/trainer_class_names.h`
+- Root blocker: original `gTrainerClassNames[][13]` fixed 13-byte rows cannot hold shaped Thai safely.
+- Proven fix: production pointer table; English non-production fallback preserved.
+- Union Room: bypass 15-byte temporary copy and use direct class-string pointer.
+- PokéNav Match Call: 69px class budget; 52 direct fit, 14 adaptive fit, 0 hard-width risks.
+- Adaptive fit changes display advance only; canonical Thai wording unchanged.
+- Build PASS: EWRAM 252516 B / 96.33%, IWRAM 31468 B / 96.03%, ROM 15979302 B / 47.62%.
+- Battle Intro runtime PASS.
+- PokéNav Match Call runtime QA: OPTIONAL / WAIVED.
+- Union Room Trainer Card runtime QA: OPTIONAL / WAIVED.
+- Trainer individual names remain OPTIONAL / separate.
+- Trainer Spoken Dialogue remains CLOSED 1633/1633.
+- Reopen only for new reproducible failure, source/baseline change, or direct contradictory evidence.

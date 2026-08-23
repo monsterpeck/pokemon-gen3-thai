@@ -474,3 +474,47 @@ Final build PASS: EWRAM 252260 B, IWRAM 31468 B, ROM 15975102 B.
 
 **Do not reopen**
 Unless a new reproducible direct-name-resolution failure appears, source/baseline changes, or direct contradictory evidence is found.
+
+## Trainer Class fixed-row overflow — CLOSED (2026-08-23)
+
+### Symptom / requirement
+Trainer Class labels needed Thai, but the original table was `gTrainerClassNames[][13]`.
+
+### Root cause
+Thai precomposed strings are longer than the original fixed 13-byte English rows.
+Direct replacement would be unsafe.
+
+A second risk existed in Union Room because `trainerCardStrBuffer[12][15]`
+was used as a temporary Trainer Class destination.
+
+PokéNav Match Call also has a real 69px Trainer Class display budget.
+
+### Proven fix
+1. Convert production Trainer Class storage to a pointer table.
+2. Preserve English non-production fallback.
+3. Union Room: point the dynamic placeholder directly to the Trainer Class string.
+4. PokéNav: use a 256-byte display scratch and reduce Thai advance only when needed.
+5. Minimum adaptive advance: 3px.
+6. Do not alter save data, wireless structs, or canonical Thai wording.
+
+### Evidence
+- Rows: 66/66
+- Font/precompose: PASS 66/66
+- PokéNav direct fit: 52
+- Adaptive fit: 14
+- Hard width risk: 0
+- Max encoded size: 121 bytes
+- Build: PASS
+- Battle Intro runtime: PASS
+- PokéNav / Union Room runtime: OPTIONAL / WAIVED
+
+### Avoid
+- Do not force Thai into `[13]`.
+- Do not enlarge save or wireless structures for display text.
+- Do not globally shorten canonical class names for one screen.
+- Do not reopen all 66 rows for one future screen-specific problem.
+
+### Reopen only when
+A new reproducible regression appears, source/baseline changes,
+or direct contradictory evidence is found.
+

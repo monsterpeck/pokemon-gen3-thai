@@ -1,0 +1,67 @@
+﻿entry_index,trainer_class_constant,english_name,scope_status,thai_name,note
+1,TRAINER_CLASS_PKMN_TRAINER_1,{PKMN} TRAINER,PROPOSED,เทรนเนอร์โปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+2,TRAINER_CLASS_PKMN_TRAINER_2,{PKMN} TRAINER,PROPOSED,เทรนเนอร์โปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+3,TRAINER_CLASS_HIKER,HIKER,PROPOSED,นักเดินป่า,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+4,TRAINER_CLASS_TEAM_AQUA,TEAM AQUA,PROPOSED,ทีมอควา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+5,TRAINER_CLASS_PKMN_BREEDER,{PKMN} BREEDER,PROPOSED,นักเพาะพันธุ์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+6,TRAINER_CLASS_COOLTRAINER,COOLTRAINER,PROPOSED,เทรนเนอร์ชั้นยอด,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+7,TRAINER_CLASS_BIRD_KEEPER,BIRD KEEPER,PROPOSED,ผู้เลี้ยงนก,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+8,TRAINER_CLASS_COLLECTOR,COLLECTOR,PROPOSED,นักสะสม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+9,TRAINER_CLASS_SWIMMER_M,SWIMMER♂,PROPOSED,นักว่ายน้ำ♂,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+10,TRAINER_CLASS_TEAM_MAGMA,TEAM MAGMA,PROPOSED,ทีมแมกมา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+11,TRAINER_CLASS_EXPERT,EXPERT,PROPOSED,ผู้เชี่ยวชาญ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+12,TRAINER_CLASS_AQUA_ADMIN,AQUA ADMIN,PROPOSED,แอดมินอควา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+13,TRAINER_CLASS_BLACK_BELT,BLACK BELT,PROPOSED,สายดำ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+14,TRAINER_CLASS_AQUA_LEADER,AQUA LEADER,PROPOSED,หัวหน้าทีมอควา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+15,TRAINER_CLASS_HEX_MANIAC,HEX MANIAC,PROPOSED,สาวไสยศาสตร์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+16,TRAINER_CLASS_AROMA_LADY,AROMA LADY,PROPOSED,สาวอโรมา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+17,TRAINER_CLASS_RUIN_MANIAC,RUIN MANIAC,PROPOSED,นักสำรวจซาก,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+18,TRAINER_CLASS_INTERVIEWER,INTERVIEWER,PROPOSED,ผู้สัมภาษณ์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+19,TRAINER_CLASS_TUBER_F,TUBER,PROPOSED,เด็กห่วงยาง,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+20,TRAINER_CLASS_TUBER_M,TUBER,PROPOSED,เด็กห่วงยาง,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+21,TRAINER_CLASS_LADY,LADY,PROPOSED,คุณหนู,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+22,TRAINER_CLASS_BEAUTY,BEAUTY,PROPOSED,สาวงาม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+23,TRAINER_CLASS_RICH_BOY,RICH BOY,PROPOSED,คุณชาย,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+24,TRAINER_CLASS_POKEMANIAC,POKéMANIAC,PROPOSED,นักคลั่งโปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+25,TRAINER_CLASS_GUITARIST,GUITARIST,PROPOSED,มือกีตาร์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+26,TRAINER_CLASS_KINDLER,KINDLER,PROPOSED,นักจุดไฟ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+27,TRAINER_CLASS_CAMPER,CAMPER,PROPOSED,นักตั้งแคมป์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+28,TRAINER_CLASS_PICNICKER,PICNICKER,PROPOSED,นักปิกนิก,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+29,TRAINER_CLASS_BUG_MANIAC,BUG MANIAC,PROPOSED,นักคลั่งแมลง,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+30,TRAINER_CLASS_PSYCHIC,PSYCHIC,PROPOSED,ผู้มีพลังจิต,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+31,TRAINER_CLASS_GENTLEMAN,GENTLEMAN,PROPOSED,สุภาพบุรุษ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+32,TRAINER_CLASS_ELITE_FOUR,ELITE FOUR,PROPOSED,จตุรเทพ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+33,TRAINER_CLASS_LEADER,LEADER,PROPOSED,หัวหน้ายิม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+34,TRAINER_CLASS_SCHOOL_KID,SCHOOL KID,PROPOSED,นักเรียน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+35,TRAINER_CLASS_SR_AND_JR,SR. AND JR.,PROPOSED,รุ่นพี่ & รุ่นน้อง,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+36,TRAINER_CLASS_WINSTRATE,WINSTRATE,PROPOSED,ตระกูลวินสเตรต,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+37,TRAINER_CLASS_POKEFAN,POKéFAN,PROPOSED,แฟนโปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+38,TRAINER_CLASS_YOUNGSTER,YOUNGSTER,PROPOSED,เด็กหนุ่ม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+39,TRAINER_CLASS_CHAMPION,CHAMPION,PROPOSED,แชมเปียน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+40,TRAINER_CLASS_FISHERMAN,FISHERMAN,PROPOSED,นักตกปลา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+41,TRAINER_CLASS_TRIATHLETE,TRIATHLETE,PROPOSED,นักไตรกีฬา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+42,TRAINER_CLASS_DRAGON_TAMER,DRAGON TAMER,PROPOSED,นักฝึกมังกร,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+43,TRAINER_CLASS_NINJA_BOY,NINJA BOY,PROPOSED,เด็กนินจา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+44,TRAINER_CLASS_BATTLE_GIRL,BATTLE GIRL,PROPOSED,สาวนักสู้,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+45,TRAINER_CLASS_PARASOL_LADY,PARASOL LADY,PROPOSED,สาวถือร่ม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+46,TRAINER_CLASS_SWIMMER_F,SWIMMER♀,PROPOSED,นักว่ายน้ำ♀,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+47,TRAINER_CLASS_TWINS,TWINS,PROPOSED,ฝาแฝด,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+48,TRAINER_CLASS_SAILOR,SAILOR,PROPOSED,กะลาสี,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+49,TRAINER_CLASS_COOLTRAINER_2,COOLTRAINER,PROPOSED,เทรนเนอร์ชั้นยอด,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+50,TRAINER_CLASS_MAGMA_ADMIN,MAGMA ADMIN,PROPOSED,แอดมินแมกมา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+51,TRAINER_CLASS_RIVAL,{PKMN} TRAINER,PROPOSED,เทรนเนอร์โปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+52,TRAINER_CLASS_BUG_CATCHER,BUG CATCHER,PROPOSED,นักจับแมลง,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+53,TRAINER_CLASS_PKMN_RANGER,{PKMN} RANGER,PROPOSED,เรนเจอร์โปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+54,TRAINER_CLASS_MAGMA_LEADER,MAGMA LEADER,PROPOSED,หัวหน้าทีมแมกมา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+55,TRAINER_CLASS_LASS,LASS,PROPOSED,เด็กสาว,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+56,TRAINER_CLASS_YOUNG_COUPLE,YOUNG COUPLE,PROPOSED,คู่รักหนุ่มสาว,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+57,TRAINER_CLASS_OLD_COUPLE,OLD COUPLE,PROPOSED,คู่รักสูงวัย,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+58,TRAINER_CLASS_SIS_AND_BRO,SIS AND BRO,PROPOSED,พี่สาว & น้องชาย,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+59,TRAINER_CLASS_SALON_MAIDEN,SALON MAIDEN,PROPOSED,สาวแห่งซาลอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+60,TRAINER_CLASS_DOME_ACE,DOME ACE,PROPOSED,ยอดฝีมือโดม,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+61,TRAINER_CLASS_PALACE_MAVEN,PALACE MAVEN,PROPOSED,ปรมาจารย์พาเลซ,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+62,TRAINER_CLASS_ARENA_TYCOON,ARENA TYCOON,PROPOSED,เจ้าสังเวียนอารีนา,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+63,TRAINER_CLASS_FACTORY_HEAD,FACTORY HEAD,PROPOSED,หัวหน้าแฟกทอรี,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+64,TRAINER_CLASS_PIKE_QUEEN,PIKE QUEEN,PROPOSED,ราชินีไพค์,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+65,TRAINER_CLASS_PYRAMID_KING,PYRAMID KING,PROPOSED,ราชาพีระมิด,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.
+66,TRAINER_CLASS_RS_PROTAG,{PKMN} TRAINER,PROPOSED,เทรนเนอร์โปเกมอน,Thai Trainer Class proposal approved for preflight; individual Trainer names remain outside this scope.

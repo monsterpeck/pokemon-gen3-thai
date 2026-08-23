@@ -4445,8 +4445,7 @@ static void ViewURoomPartnerTrainerCard(u8 *unused, struct WirelessLink_URoom *d
 
     DynamicPlaceholderTextUtil_Reset();
 
-    StringCopy(data->trainerCardStrBuffer[0], gTrainerClassNames[GetUnionRoomTrainerClass()]);
-    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, data->trainerCardStrBuffer[0]);
+    DynamicPlaceholderTextUtil_SetPlaceholderPtr(0, gTrainerClassNames[GetUnionRoomTrainerClass()]);
 
     DynamicPlaceholderTextUtil_SetPlaceholderPtr(1, trainerCard->playerName);
 
