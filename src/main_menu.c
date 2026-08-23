@@ -290,6 +290,8 @@ static const u16 sBirchSpeechBgGradientPal[] = INCGFX_U16("graphics/birch_speech
 #define MENU_WIN_VCOORDS(n) WIN_RANGE(((MENU_TOP_WIN##n - 1) * 8) + MENU_SHADOW_PADDING, (MENU_TOP_WIN##n + MENU_HEIGHT_WIN##n + 1) * 8 - MENU_SHADOW_PADDING)
 #define MENU_SCROLL_SHIFT WIN_RANGE(32, 32)
 
+static const u8 sText_MainMenuCredit[] = _("Font by Plae Pai Len Pai {EMOJI_PIPE} Mod by RetroSpective");
+
 static const struct WindowTemplate sWindowTemplates_MainMenu[] =
 {
     // No saved game
@@ -373,6 +375,16 @@ static const struct WindowTemplate sWindowTemplates_MainMenu[] =
         .height = MENU_HEIGHT_ERROR,
         .paletteNum = 15,
         .baseBlock = 0x16D
+    },
+    // Translation credit footer
+    {
+        .bg = 0,
+        .tilemapLeft = 1,
+        .tilemapTop = 18,
+        .width = 28,
+        .height = 2,
+        .paletteNum = 15,
+        .baseBlock = 0x300
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -823,6 +835,21 @@ static void Task_DisplayMainMenu(u8 taskId)
                 AddTextPrinterParameterized3(3, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
                 AddTextPrinterParameterized3(4, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
                 MainMenu_FormatSavegameText();
+
+                FillWindowPixelBuffer(8, PIXEL_FILL(0));
+                AddTextPrinterParameterized4(
+                    8,
+                    FONT_SMALL_NARROW,
+                    GetStringCenterAlignXOffset(FONT_SMALL_NARROW, sText_MainMenuCredit, 28 * 8),
+                    1,
+                    0,
+                    0,
+                    sTextColor_Headers,
+                    TEXT_SKIP_DRAW,
+                    sText_MainMenuCredit);
+                PutWindowTilemap(8);
+                CopyWindowToVram(8, COPYWIN_GFX);
+
                 PutWindowTilemap(2);
                 PutWindowTilemap(3);
                 PutWindowTilemap(4);

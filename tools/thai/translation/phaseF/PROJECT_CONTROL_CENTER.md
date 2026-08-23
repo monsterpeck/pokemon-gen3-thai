@@ -772,3 +772,44 @@ Ability Descriptions: CLOSED 77/77
 - Runtime QA PASS.
 - PENDING: 0.
 - Next user-selected scope: second in-game translation-credit location; exact location has not yet been chosen.
+
+
+## Release-prep closures — 2026-08-24
+
+### Translation Credit #2 — CLOSED
+
+- Main Menu / Continue footer.
+- Final text: `Font by Plae Pai Len Pai | Mod by RetroSpective`
+- Runtime QA: PASS.
+- Production build PASS:
+  - EWRAM 252772 B / 96.42%
+  - IWRAM 31468 B / 96.03%
+  - ROM 15988806 B / 47.65%
+- Title Screen Credit remains separately CLOSED.
+
+### New Game PC Gifts — CLOSED
+
+New games receive the following items in Bedroom PC Item Storage:
+- Potion x50
+- Super Potion x60
+- Rare Candy x100
+
+Source:
+`src/player_pc.c::sNewGamePCItems`
+
+Runtime QA: PASS 3/3.
+
+Final production build:
+- EWRAM 252772 B / 96.42%
+- IWRAM 31468 B / 96.03%
+- ROM 15988814 B / 47.65%
+
+Existing saves are unchanged.
+Save structures and PC capacity are unchanged.
+Build Gate: CLOSED.
+
+### Current next step
+
+Release patch preparation.
+Do not infer new translation backlog from historical inventories.
+

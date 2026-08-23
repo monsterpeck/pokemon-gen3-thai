@@ -298,3 +298,53 @@ make -j"$(nproc)" CPPFLAGS="-iquote include -Wno-trigraphs -DMODERN=0 -I tools/a
 - Docs/tracker-only changes require no ROM rebuild.
 - Do not use bare `make` as the authoritative closure build.
 - Record EWRAM / IWRAM / ROM from the successful production build.
+
+
+## 2026-08-24 — Translation Credit #2 CLOSED
+
+- Location: Main Menu / Continue screen footer.
+- Final wording:
+  `Font by Plae Pai Len Pai | Mod by RetroSpective`
+- Implementation: dedicated footer window in `src/main_menu.c`.
+- Existing Main Menu window IDs 0-7 preserved.
+- Credit separator uses `{EMOJI_PIPE}` charmap token.
+- Runtime visual QA: PASS.
+- No overlap, clipping, or visual corruption observed.
+- Production build: PASS.
+  - EWRAM: 252772 B / 96.42%
+  - IWRAM: 31468 B / 96.03%
+  - ROM: 15988806 B / 47.65%
+- Title Screen Translation Credit remains CLOSED and unchanged.
+
+## 2026-08-24 — New Game PC Gifts CLOSED
+
+New Game PC Item Storage now starts with:
+- Potion x50
+- Super Potion x60
+- Rare Candy x100
+
+Implementation:
+- `src/player_pc.c`
+- `sNewGamePCItems[]`
+- New Game initialization only.
+- Existing saves are not retroactively modified.
+- Save structures and PC capacity unchanged.
+
+Runtime QA:
+- Potion x50: PASS
+- Super Potion x60: PASS
+- Rare Candy x100: PASS
+
+Final production build:
+- EWRAM: 252772 B / 96.42%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15988814 B / 47.65%
+
+Build Gate: CLOSED.
+
+## Next exact step
+
+Prepare the public release patch from the authoritative production ROM/worktree.
+Do not reopen completed translation/runtime scopes unless a new reproducible
+failure, baseline/source change, or direct contradiction appears.
+

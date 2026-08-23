@@ -808,3 +808,39 @@ For current PekeEmerald production work use only:
 `thai_shaped_glyph_map.json`, Noto-based proof tooling, and historical shaping
 artifacts are legacy/reference paths and must not be selected for production
 rendering merely because their filenames appear related.
+
+
+## Main Menu footer credit / New Game PC gifts — CLOSED 2026-08-24
+
+### Main Menu footer credit
+
+Observed implementation requirement:
+- Raw `|` inside the `_()` credit string failed agbcc with U+007C.
+- Proven solution: use `{EMOJI_PIPE}` from `charmap.txt`.
+- Final player-visible text:
+  `Font by Plae Pai Len Pai | Mod by RetroSpective`
+- Runtime QA PASS.
+
+Do not replace `{EMOJI_PIPE}` with a raw `|` unless the text compiler behavior
+changes and is re-proven.
+
+### New Game PC gifts
+
+Initial PC contents are controlled by:
+`src/player_pc.c::sNewGamePCItems`
+
+Closed production configuration:
+- `ITEM_POTION, 50`
+- `ITEM_SUPER_POTION, 60`
+- `ITEM_RARE_CANDY, 100`
+- terminal `ITEM_NONE, 0`
+
+`NewGameInitPCItems()` clears the New Game PC item slots and loads this table.
+This does not retroactively modify existing save files.
+
+Runtime QA PASS 3/3.
+Final production build PASS:
+- EWRAM 252772 B / 96.42%
+- IWRAM 31468 B / 96.03%
+- ROM 15988814 B / 47.65%
+

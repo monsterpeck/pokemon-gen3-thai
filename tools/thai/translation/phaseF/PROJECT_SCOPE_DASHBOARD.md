@@ -186,3 +186,24 @@ Thai pack:
 - Final runtime visual QA: PASS.
 - Final palette: remapped to the actual runtime Press Start/Copyright OBJ palette.
 - Do not reopen absent a new reproducible runtime failure, source/baseline change, or direct contradictory evidence.
+
+
+## Release-prep additions — CLOSED
+
+### Translation Credit #2
+
+- Location: Main Menu / Continue footer
+- Status: DONE / CLOSED
+- Runtime QA: PASS
+- Text: `Font by Plae Pai Len Pai | Mod by RetroSpective`
+
+### New Game PC Gifts
+
+- Potion: 50
+- Super Potion: 60
+- Rare Candy: 100
+- Status: DONE / CLOSED
+- Runtime QA: PASS
+- Production build: PASS
+- Final ROM: 15988814 B / 47.65%
+
