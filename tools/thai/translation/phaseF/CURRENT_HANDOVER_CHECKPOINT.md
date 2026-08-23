@@ -125,3 +125,12 @@ Only use checks relevant to the actual scope.
 2. Record returned commit hash as authoritative HEAD.
 3. Start a fresh chat using this checkpoint.
 4. Continue from current Control Center; do not infer backlog from stale broad inventories.
+
+## Mandatory startup rule for every new chat
+Before opening any audit or translation batch, follow
+`Mandatory Dashboard Reading Protocol` in
+`docs/PEKEEMERALD_RUNTIME_TROUBLESHOOTING.md`.
+
+A raw candidate, BASELINE_EXACT row, historical HOLD, or broad inventory hit
+MUST NOT be treated as remaining work unless the current Control Center /
+Dashboard shows that scope as PENDING or unresolved HOLD.

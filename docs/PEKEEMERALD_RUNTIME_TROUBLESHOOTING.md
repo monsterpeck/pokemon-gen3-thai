@@ -529,3 +529,112 @@ or direct contradictory evidence is found.
 - Do not force navigation or block closure solely to obtain runtime proof.
 - If a reproducible issue appears during normal play, reopen only the affected path.
 - Do not rerun preflight, injection, or build unless source/baseline changes or the failure requires it.
+
+## Mandatory Dashboard Reading Protocol
+
+This protocol is MANDATORY at the start of every new chat/session before
+creating a new audit, HOLD group, reconcile pack, or translation batch.
+
+### Canonical authority order
+1. `tools/thai/translation/phaseF/PROJECT_CONTROL_CENTER.md`
+2. `tools/thai/translation/phaseF/PROJECT_SCOPE_DASHBOARD.md`
+3. `tools/thai/translation/phaseF/project_scope_summary.csv`
+4. Dedicated canonical tracker explicitly named by the Control Center/Dashboard
+5. Historical inventories / broad discovery pools / old HOLD packs
+
+Lower-priority files MUST NOT override a CLOSED/DONE decision from a higher
+authority unless there is a new reproducible failure, source/baseline change,
+or direct contradictory evidence.
+
+### How to read the Dashboard
+
+`DONE` / `CLOSED`
+- Scope decision is finished.
+- If `pending = 0`, do NOT audit that scope again.
+- New raw hits that resemble this scope are presumed historical/duplicate/
+  covered until direct contradictory evidence proves otherwise.
+- Do NOT create a new translation batch from those hits.
+
+`PENDING`
+- This is real remaining actionable work inside the approved scope.
+- Only these rows/counts are eligible to become the next translation batch.
+
+`HOLD`
+- This means a decision is still unresolved.
+- HOLD does NOT mean "translate this".
+- Reconcile context once, then decide TRANSLATE_REQUIRED,
+  PRESERVE_EXISTING, NOT_APPLICABLE, or COVERED_ALREADY.
+
+`PRESERVE_EXISTING`
+- Intentional non-translation. Not backlog.
+
+`NOT_APPLICABLE`
+- Not a translation target. Not backlog.
+
+`COVERED_ALREADY`
+- Already handled by another closed scope/tracker. Not backlog.
+
+### Critical interpretation rules
+
+1. `BASELINE EXACT` does NOT mean "untranslated".
+   It only means the current source still matches the baseline used by that audit.
+
+2. `RAW CANDIDATES` does NOT mean "remaining work".
+   It is only a discovery/reconcile pool.
+
+3. A historical HOLD count does NOT override Dashboard `DONE / pending=0`.
+
+4. If Dashboard says a scope is DONE and its canonical tracker is closed,
+   STOP. Do not inspect the same source again merely because a broad scan found it.
+
+5. Before opening any new audit, answer:
+   "Which Dashboard row says this work is still PENDING/HOLD?"
+   If no such canonical row exists, do not open the audit.
+
+6. If a raw candidate appears to belong to a CLOSED scope:
+   classify it as probable `COVERED_ALREADY` and verify only if there is
+   direct contradictory evidence that can change that decision.
+
+7. Do not infer backlog from:
+   - `remaining_translation_inventory.csv`
+   - `dialogue_master.csv`
+   - old reconcile packs
+   - old HOLD packs
+   - broad source scans
+   unless the Dashboard/Control Center explicitly points to them as current authority.
+
+### Mandatory new-chat startup sequence
+
+Before any source scan or audit:
+
+1. Confirm repo / branch / current HEAD.
+2. Read `PROJECT_CONTROL_CENTER.md`.
+3. Read `PROJECT_SCOPE_DASHBOARD.md`.
+4. Read `project_scope_summary.csv`.
+5. Identify ONLY rows with current `PENDING > 0` or unresolved `HOLD`.
+6. Ignore CLOSED/DONE scopes.
+7. Only then inspect a dedicated tracker or source if needed.
+
+### Decision gate
+
+A new audit is allowed only when:
+- Dashboard/Control Center shows real PENDING/HOLD work, OR
+- a new reproducible runtime failure exists, OR
+- source/baseline changed, OR
+- direct contradictory evidence exists.
+
+Otherwise:
+`AUDIT NOT ALLOWED — CANONICAL SCOPE ALREADY CLOSED`
+
+### Closure discipline
+
+When a scope is completed:
+1. Update canonical tracker.
+2. Update `project_scope_summary.csv`.
+3. Update `PROJECT_SCOPE_DASHBOARD.md`.
+4. Update `PROJECT_CONTROL_CENTER.md`.
+5. Record reusable technical fixes in this troubleshooting guide.
+6. From that point forward the scope is CLOSED and must not be rediscovered
+   by future broad scans.
+
+The Dashboard is a decision authority, not a discovery list.
