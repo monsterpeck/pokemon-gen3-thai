@@ -207,3 +207,30 @@ Thai pack:
 - Production build: PASS
 - Final ROM: 15988814 B / 47.65%
 
+
+## 2026-08-24 — Public Release Package READY
+
+Release source:
+- Authoritative HEAD: `f9309dc19`
+- Production ROM SHA-1: `e92a748200eb5d59baff7a8bc3dd7dc295b16d4a`
+- Required clean base SHA-1: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+
+Patch:
+- Format: BPS
+- File: `PekeEmerald-Thai.bps`
+- BPS SHA-1: `db56b658bbda108793a740a59d209efe80fd995e`
+- BPS SHA-256: `648eae9b857025c494a76281c713fcd17abfe4a6c3521117f1f215984db71b2c`
+- Apply-back verification: BYTE IDENTICAL PASS
+
+Release package:
+- File: `PekeEmerald-Thai-2026-08-24.zip`
+- Size: 1094279 bytes
+- ZIP SHA-256: `925d17def4964c8564eda125400537bd6f2ebe3bc8798de5e630beb0a7fe8bfb`
+- Contains patch + Thai README + SHA256SUMS.
+- No original or pre-patched commercial ROM is included.
+
+Release status: READY FOR PUBLIC DISTRIBUTION.
+
+Do not rebuild, regenerate, or re-verify this release artifact unless the
+production ROM/source changes or a reproducible release failure is reported.
+
