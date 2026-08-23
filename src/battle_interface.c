@@ -1,6 +1,7 @@
 #include "global.h"
 #include "battle.h"
 #include "pokemon.h"
+#include "thai_name.h"
 #include "battle_controllers.h"
 #include "battle_interface.h"
 #include "graphics.h"
@@ -1909,9 +1910,115 @@ static void SpriteCB_StatusSummaryBalls_OnSwitchout(struct Sprite *sprite)
     sprite->y2 = gSprites[barSpriteId].y2;
 }
 
+#ifdef THAI_NAMING_PRODUCTION
+static u8 sThaiHealthboxNickname[256];
+
+#define THAI_HEALTHBOX_WIDTH_PX 56
+#define THAI_HEALTHBOX_GENDER_WIDTH_PX 5
+#define THAI_HEALTHBOX_MIN_ADVANCE_PX 3
+
+static u32 GetThaiHealthboxNameWidth(const u8 *str)
+{
+    u32 i = 0;
+    u32 width = 0;
+    u32 len = StringLength(str);
+
+    while (i + 7 < len)
+    {
+        if (str[i]     == 252
+         && str[i + 1] == 25
+         && str[i + 4] == 0
+         && str[i + 5] == 244
+         && str[i + 7] == 1)
+        {
+            width += str[i + 6];
+            i += 8;
+        }
+        else
+        {
+            i++;
+        }
+    }
+
+    return width;
+}
+
+static bool8 FitThaiHealthboxName(u8 *str, u32 maxWidth)
+{
+    u32 i;
+    u32 len = StringLength(str);
+    u32 originalWidth = GetThaiHealthboxNameWidth(str);
+    u32 width;
+    bool8 changed;
+
+    if (originalWidth == 0 || originalWidth <= maxWidth)
+        return TRUE;
+
+    for (i = 0; i + 7 < len;)
+    {
+        if (str[i]     == 252
+         && str[i + 1] == 25
+         && str[i + 4] == 0
+         && str[i + 5] == 244
+         && str[i + 7] == 1)
+        {
+            u32 advance = str[i + 6];
+            u32 scaled = (advance * maxWidth) / originalWidth;
+
+            if (scaled < THAI_HEALTHBOX_MIN_ADVANCE_PX)
+                scaled = THAI_HEALTHBOX_MIN_ADVANCE_PX;
+            if (scaled > advance)
+                scaled = advance;
+
+            str[i + 6] = scaled;
+            i += 8;
+        }
+        else
+        {
+            i++;
+        }
+    }
+
+    width = GetThaiHealthboxNameWidth(str);
+
+    while (width > maxWidth)
+    {
+        changed = FALSE;
+
+        for (i = 0; i + 7 < len && width > maxWidth;)
+        {
+            if (str[i]     == 252
+             && str[i + 1] == 25
+             && str[i + 4] == 0
+             && str[i + 5] == 244
+             && str[i + 7] == 1)
+            {
+                if (str[i + 6] > THAI_HEALTHBOX_MIN_ADVANCE_PX)
+                {
+                    str[i + 6]--;
+                    width--;
+                    changed = TRUE;
+                }
+                i += 8;
+            }
+            else
+            {
+                i++;
+            }
+        }
+
+        if (!changed)
+            break;
+    }
+
+    return width <= maxWidth;
+}
+#endif
+
 static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
+    const u8 *displayName;
     void *ptr;
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
@@ -1919,31 +2026,99 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     u8 gender;
 
     StringCopy(gDisplayedStringBattle, gText_HealthboxNickname);
+
+    species = GetMonData(mon, MON_DATA_SPECIES);
     GetMonData(mon, MON_DATA_NICKNAME, nickname);
-    StringGet_Nickname(nickname);
-    ptr = StringAppend(gDisplayedStringBattle, nickname);
+    displayName = nickname;
+
+#ifdef THAI_NAMING_PRODUCTION
+    if (IsBoxMonNicknameThai(&mon->box))
+    {
+        if (ThaiShapeCompactName(
+                nickname,
+                StringLength(nickname),
+                POKEMON_NAME_LENGTH,
+                sThaiHealthboxNickname,
+                sizeof(sThaiHealthboxNickname)))
+        {
+            displayName = sThaiHealthboxNickname;
+        }
+        else
+        {
+            /* Safe fallback: never feed compact Thai IDs to the text printer. */
+            StringCopy(sThaiHealthboxNickname, GetSpeciesNameForDisplay(species));
+            displayName = sThaiHealthboxNickname;
+        }
+    }
+    else
+#endif
+    {
+        StringGet_Nickname(nickname);
+
+#ifdef THAI_NAMING_PRODUCTION
+        /* Default nickname is the legacy English species name. */
+        if (species < NUM_SPECIES
+         && StringCompare(nickname, gSpeciesNames[species]) == 0)
+        {
+            StringCopy(sThaiHealthboxNickname, GetSpeciesNameForDisplay(species));
+            displayName = sThaiHealthboxNickname;
+        }
+#endif
+    }
 
     gender = GetMonGender(mon);
-    species = GetMonData(mon, MON_DATA_SPECIES);
 
-    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && StringCompare(nickname, gSpeciesNames[species]) == 0)
+    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M)
+     && StringCompare(nickname, gSpeciesNames[species]) == 0)
         gender = 100;
 
-    // AddTextPrinterAndCreateWindowOnHealthbox's arguments are the same in all 3 cases.
-    // It's possible they may have been different in early development phases.
+#ifdef THAI_NAMING_PRODUCTION
+    if (displayName == sThaiHealthboxNickname)
+    {
+        u32 maxNameWidth = THAI_HEALTHBOX_WIDTH_PX;
+
+        /*
+         * Keep the gender symbol visible. Reserve its 5 px first, then
+         * compress only the mutable healthbox display advances as needed.
+         */
+        if (gender == MON_MALE || gender == MON_FEMALE)
+            maxNameWidth -= THAI_HEALTHBOX_GENDER_WIDTH_PX;
+
+        /*
+         * This changes only the healthbox scratch display stream.
+         * Canonical names, nicknames in save data, and other screens
+         * remain untouched.
+         */
+        if (!FitThaiHealthboxName(sThaiHealthboxNickname, maxNameWidth)
+         && (gender == MON_MALE || gender == MON_FEMALE))
+        {
+            /* Extreme fallback: preserve the full name rather than clip it. */
+            gender = 100;
+            FitThaiHealthboxName(
+                sThaiHealthboxNickname,
+                THAI_HEALTHBOX_WIDTH_PX);
+        }
+    }
+#endif
+
+    ptr = StringAppend(gDisplayedStringBattle, displayName);
+
     switch (gender)
     {
     default:
         StringCopy(ptr, gText_HealthboxGender_None);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(
+            gDisplayedStringBattle, 0, 3, 2, &windowId);
         break;
     case MON_MALE:
         StringCopy(ptr, gText_HealthboxGender_Male);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(
+            gDisplayedStringBattle, 0, 3, 2, &windowId);
         break;
     case MON_FEMALE:
         StringCopy(ptr, gText_HealthboxGender_Female);
-        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(gDisplayedStringBattle, 0, 3, 2, &windowId);
+        windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(
+            gDisplayedStringBattle, 0, 3, 2, &windowId);
         break;
     }
 
@@ -1951,17 +2126,26 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
 
     if (GetBattlerSide(gSprites[healthboxSpriteId].data[6]) == B_SIDE_PLAYER)
     {
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x40 + spriteTileNum), windowTileData, 6);
+        TextIntoHealthboxObject(
+            (void *)(OBJ_VRAM0 + 0x40 + spriteTileNum),
+            windowTileData,
+            6);
+
         ptr = (void *)(OBJ_VRAM0);
+
         if (!IsDoubleBattle())
             ptr += spriteTileNum + 0x800;
         else
             ptr += spriteTileNum + 0x400;
+
         TextIntoHealthboxObject(ptr, windowTileData + 0xC0, 1);
     }
     else
     {
-        TextIntoHealthboxObject((void *)(OBJ_VRAM0 + 0x20 + spriteTileNum), windowTileData, 7);
+        TextIntoHealthboxObject(
+            (void *)(OBJ_VRAM0 + 0x20 + spriteTileNum),
+            windowTileData,
+            7);
     }
 
     RemoveWindowOnHealthbox(windowId);

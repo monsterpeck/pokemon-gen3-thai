@@ -560,3 +560,25 @@ Translation pack:
 
 The 9 End Credits rows must not return to translation scope absent a
 source/policy change or direct contradictory evidence.
+
+## Healthbox Pokémon Name Width — CLOSED (2026-08-23)
+
+- Runtime display budget: 56 px total, `FONT_SMALL`.
+- Gender symbol width: 5 px.
+- Canonical Thai species audit: 386/386.
+  - PASS: 377
+  - RISK_WITH_GENDER: 6
+  - OVERFLOW: 3
+- Production fix: healthbox-only adaptive Thai advance fitting.
+  - gendered Thai names reserve 5 px for `♂/♀` and fit name within 51 px.
+  - genderless names may use full 56 px.
+  - canonical species names remain unchanged.
+  - nickname/save storage remains unchanged.
+  - Pokédex / Party / Summary / PC Storage remain unchanged.
+  - Healthbox dimensions and structures remain unchanged.
+- Build PASS:
+  - EWRAM 252260 B / 96.23%
+  - IWRAM 31468 B / 96.03%
+  - ROM 15975078 B / 47.61%
+- Runtime QA PASS: long Thai name renders fully with gender symbol visible and no healthbox corruption.
+- Reopen only for a new reproducible clipping/layout regression, source/baseline change, or direct contradictory evidence.

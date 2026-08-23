@@ -431,3 +431,26 @@ or direct contradictory evidence.
 
 ### Status
 CLOSED / OPEN BLOCKER.
+
+
+## Battle Healthbox Thai name clipping with gender — CLOSED (2026-08-23)
+
+**Symptom**
+Long Thai Pokémon names could be clipped in the 7-tile Battle Healthbox. An intermediate fix preserved the full name by hiding `♂/♀`, but this was visually undesirable.
+
+**Root cause**
+The Healthbox copies only 7 text tiles = 56 px. Thai shaped names use per-glyph advance values, while the gender symbol consumes another 5 px.
+
+**Proven fix**
+Keep canonical/save names untouched and adjust only the mutable Healthbox Thai display stream:
+- gendered names: fit Thai name within 51 px, preserving the 5 px gender symbol.
+- genderless names: fit within 56 px.
+- use existing Thai shaped glyph advance values; do not resize the Healthbox, save structs, nickname storage, or canonical species strings.
+
+**Evidence**
+386 canonical species audited: 377 PASS, 6 gender-risk, 3 overflow.
+Final build PASS: EWRAM 252260 B, IWRAM 31468 B, ROM 15975078 B.
+Runtime QA PASS: full Thai name + gender visible, no clipping or geometry corruption.
+
+**Do not reopen**
+Unless a new reproducible clipping/layout failure appears, source/baseline changes, or direct contradictory evidence is found.
