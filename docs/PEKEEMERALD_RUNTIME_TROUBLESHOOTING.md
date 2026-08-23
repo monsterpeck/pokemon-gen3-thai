@@ -454,3 +454,23 @@ Runtime QA PASS: full Thai name + gender visible, no clipping or geometry corrup
 
 **Do not reopen**
 Unless a new reproducible clipping/layout failure appears, source/baseline changes, or direct contradictory evidence is found.
+
+
+## Capture / Pokédex battle message still showed English species name — CLOSED (2026-08-23)
+
+**Symptom**
+Capture and Pokédex-related battle messages displayed the English default species name even though the Battle Healthbox correctly showed the Thai canonical name.
+
+**Root cause**
+`B_TXT_OPPONENT_MON1_NAME` bypassed the existing Thai-aware battle nickname resolver and used the vanilla nickname path.
+
+**Proven fix**
+Route `B_TXT_OPPONENT_MON1_NAME` through `ResolveBattleNicknameForText()`.
+This preserves Thai custom nicknames and resolves default species names through `GetSpeciesNameForDisplay()`.
+
+**Evidence**
+Runtime QA PASS across capture/caught/nickname-prompt/Pokédex flow.
+Final build PASS: EWRAM 252260 B, IWRAM 31468 B, ROM 15975102 B.
+
+**Do not reopen**
+Unless a new reproducible direct-name-resolution failure appears, source/baseline changes, or direct contradictory evidence is found.

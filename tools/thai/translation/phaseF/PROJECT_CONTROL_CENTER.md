@@ -582,3 +582,16 @@ source/policy change or direct contradictory evidence.
   - ROM 15975078 B / 47.61%
 - Runtime QA PASS: long Thai name renders fully with gender symbol visible and no healthbox corruption.
 - Reopen only for a new reproducible clipping/layout regression, source/baseline change, or direct contradictory evidence.
+
+
+## Battle Capture / Pokédex Pokémon Name Resolution — CLOSED (2026-08-23)
+
+- Symptom: Battle Healthbox showed canonical Thai species name, but capture/Pokédex messages still displayed the legacy English name.
+- Root cause: `B_TXT_OPPONENT_MON1_NAME` used vanilla nickname resolution.
+- Fix: reuse `ResolveBattleNicknameForText()` for the direct opponent MON1 placeholder.
+- Default species names now resolve through `GetSpeciesNameForDisplay()`.
+- Thai custom nicknames remain shaped/preserved.
+- Healthbox, save structures, Party, PC Storage and canonical species names are unchanged.
+- Build PASS: EWRAM 252260 B / 96.23%, IWRAM 31468 B / 96.03%, ROM 15975102 B / 47.61%.
+- Runtime QA PASS: capture messages and Pokédex flow show canonical Thai species name correctly.
+- Reopen only for a new reproducible direct-name-resolution regression, source/baseline change, or direct contradictory evidence.

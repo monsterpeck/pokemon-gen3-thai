@@ -2421,8 +2421,9 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
             case B_TXT_OPPONENT_MON1_NAME: // first enemy poke name
                 GetMonData(&gEnemyParty[gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT)]],
                            MON_DATA_NICKNAME, text);
-                StringGet_Nickname(text);
-                toCpy = text;
+                toCpy = ResolveBattleNicknameForText(
+                    &gEnemyParty[gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT)]],
+                    text);
                 break;
             case B_TXT_PLAYER_MON2_NAME: // second player poke name
                 GetMonData(&gPlayerParty[gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT)]],
