@@ -613,3 +613,47 @@ source/policy change or direct contradictory evidence.
 - Trainer individual names remain OPTIONAL / separate.
 - Trainer Spoken Dialogue remains CLOSED 1633/1633.
 - Reopen only for new reproducible failure, source/baseline change, or direct contradictory evidence.
+
+## Group 8 — Special NPC Systems — CLOSED (2026-08-23)
+
+Final reconciliation:
+- total reviewed: **21**
+- `TRANSLATE_REQUIRED`: **12**
+- `PRESERVE_EXISTING`: **9**
+- `HOLD_FOR_CONTEXT`: **0**
+- unresolved: **0**
+
+Translation/apply:
+- translated: **12/12**
+- injection dry-run: PASS 12/12
+- injection apply: PASS 12/12
+- source modified: `src/strings.c`
+
+Production build:
+- MODE: `THAI_NAMING_PRODUCTION`
+- STATUS: PASS
+- EWRAM: **252516 B / 96.33%**
+- IWRAM: **31468 B / 96.03%**
+- ROM: **15979790 B / 47.62%**
+- BUILD GATE: CLOSED
+
+Runtime QA:
+- Contest Lady: OPTIONAL / WAIVED
+- Quiz Lady: OPTIONAL / WAIVED
+- Favor Lady: OPTIONAL / WAIVED
+- Reason: user has not naturally reached these paths yet.
+- If a reproducible issue appears later, reopen only the affected path.
+
+Canonical tracker:
+`tools/thai/translation/phaseF/batches/phaseF-group8-special-npc-21-canonical-reconcile.csv`
+
+Actionable Thai pack:
+`tools/thai/translation/phaseF/batches/phaseF-group8-special-npc-actionable-12-thai.csv`
+
+The 9 `PRESERVE_EXISTING` rows are terminally excluded from translation scope.
+Do not reopen Group 8 absent a new reproducible failure, source/baseline change,
+or direct contradictory evidence.
+
+Next exact step:
+Select the next genuinely non-closed translation scope from canonical authority.
+Do not infer backlog from stale broad inventories.

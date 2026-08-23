@@ -518,3 +518,14 @@ PokéNav Match Call also has a real 69px Trainer Class display budget.
 A new reproducible regression appears, source/baseline changes,
 or direct contradictory evidence is found.
 
+
+
+## Group 8 Special NPC Systems — Runtime QA Deferral
+
+- Scope: Contest Lady / Quiz Lady / Favor Lady player-visible text.
+- Translation/apply/build: PASS 12/12.
+- Production build: EWRAM 252516 B / 96.33%, IWRAM 31468 B / 96.03%, ROM 15979790 B / 47.62%.
+- Runtime QA is OPTIONAL / WAIVED because these paths have not been naturally reached yet.
+- Do not force navigation or block closure solely to obtain runtime proof.
+- If a reproducible issue appears during normal play, reopen only the affected path.
+- Do not rerun preflight, injection, or build unless source/baseline changes or the failure requires it.

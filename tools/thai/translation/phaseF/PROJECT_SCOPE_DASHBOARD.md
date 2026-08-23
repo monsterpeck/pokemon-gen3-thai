@@ -77,3 +77,30 @@
 - Trainer Spoken Dialogue: 1633/1633 CLOSED; do not reopen for Trainer Class work.
 - Trainer Class Names: NEW approved scope, 66 entries, 0 DONE / 66 PENDING.
 - Trainer individual names: separate OPTIONAL scope; not included in the 66 Trainer Class entries.
+
+<!-- GROUP8_SPECIAL_NPC_STATUS -->
+## Group 8 — Special NPC Systems — CLOSED
+
+| Classification | Count |
+|---|---:|
+| Reconciled rows | 21 |
+| TRANSLATE_REQUIRED | 12 |
+| Translated / applied / build-passed | 12 |
+| PRESERVE_EXISTING | 9 |
+| HOLD_FOR_CONTEXT | 0 |
+| Unresolved | 0 |
+| Pending | 0 |
+
+Production build: **PASS**
+- EWRAM: 252516 B / 96.33%
+- IWRAM: 31468 B / 96.03%
+- ROM: 15979790 B / 47.62%
+
+Runtime QA: **OPTIONAL / WAIVED**
+Reopen only the affected player-visible path if a reproducible issue is found later.
+
+Canonical tracker:
+`tools/thai/translation/phaseF/batches/phaseF-group8-special-npc-21-canonical-reconcile.csv`
+
+Thai pack:
+`tools/thai/translation/phaseF/batches/phaseF-group8-special-npc-actionable-12-thai.csv`
