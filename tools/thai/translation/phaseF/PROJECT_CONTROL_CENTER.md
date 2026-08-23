@@ -595,3 +595,14 @@ source/policy change or direct contradictory evidence.
 - Build PASS: EWRAM 252260 B / 96.23%, IWRAM 31468 B / 96.03%, ROM 15975102 B / 47.61%.
 - Runtime QA PASS: capture messages and Pokédex flow show canonical Thai species name correctly.
 - Reopen only for a new reproducible direct-name-resolution regression, source/baseline change, or direct contradictory evidence.
+
+## Trainer Class Names — OPEN (2026-08-23)
+
+- User-approved intended scope: translate all Trainer Class labels used by the game.
+- Source table: `src/data/text/trainer_class_names.h`
+- Required table entries: 66
+- Current: 0 DONE / 66 PENDING
+- Dedicated tracker: `tools/thai/translation/phaseF/batches/phaseF-trainer-class-66-scope.csv`
+- This scope is separate from Trainer Spoken Dialogue 1633/1633 CLOSED.
+- Trainer individual names (e.g. JOSE) are NOT part of this scope.
+- Individual-name JP→TH transliteration remains OPTIONAL/separate pending a reliable mapping.

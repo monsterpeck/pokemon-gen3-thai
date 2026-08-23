@@ -1,0 +1,67 @@
+﻿entry_index,trainer_class_constant,english_name,scope_status,thai_name,note
+1,TRAINER_CLASS_PKMN_TRAINER_1,{PKMN} TRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+2,TRAINER_CLASS_PKMN_TRAINER_2,{PKMN} TRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+3,TRAINER_CLASS_HIKER,HIKER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+4,TRAINER_CLASS_TEAM_AQUA,TEAM AQUA,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+5,TRAINER_CLASS_PKMN_BREEDER,{PKMN} BREEDER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+6,TRAINER_CLASS_COOLTRAINER,COOLTRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+7,TRAINER_CLASS_BIRD_KEEPER,BIRD KEEPER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+8,TRAINER_CLASS_COLLECTOR,COLLECTOR,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+9,TRAINER_CLASS_SWIMMER_M,SWIMMER♂,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+10,TRAINER_CLASS_TEAM_MAGMA,TEAM MAGMA,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+11,TRAINER_CLASS_EXPERT,EXPERT,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+12,TRAINER_CLASS_AQUA_ADMIN,AQUA ADMIN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+13,TRAINER_CLASS_BLACK_BELT,BLACK BELT,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+14,TRAINER_CLASS_AQUA_LEADER,AQUA LEADER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+15,TRAINER_CLASS_HEX_MANIAC,HEX MANIAC,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+16,TRAINER_CLASS_AROMA_LADY,AROMA LADY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+17,TRAINER_CLASS_RUIN_MANIAC,RUIN MANIAC,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+18,TRAINER_CLASS_INTERVIEWER,INTERVIEWER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+19,TRAINER_CLASS_TUBER_F,TUBER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+20,TRAINER_CLASS_TUBER_M,TUBER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+21,TRAINER_CLASS_LADY,LADY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+22,TRAINER_CLASS_BEAUTY,BEAUTY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+23,TRAINER_CLASS_RICH_BOY,RICH BOY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+24,TRAINER_CLASS_POKEMANIAC,POKéMANIAC,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+25,TRAINER_CLASS_GUITARIST,GUITARIST,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+26,TRAINER_CLASS_KINDLER,KINDLER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+27,TRAINER_CLASS_CAMPER,CAMPER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+28,TRAINER_CLASS_PICNICKER,PICNICKER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+29,TRAINER_CLASS_BUG_MANIAC,BUG MANIAC,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+30,TRAINER_CLASS_PSYCHIC,PSYCHIC,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+31,TRAINER_CLASS_GENTLEMAN,GENTLEMAN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+32,TRAINER_CLASS_ELITE_FOUR,ELITE FOUR,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+33,TRAINER_CLASS_LEADER,LEADER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+34,TRAINER_CLASS_SCHOOL_KID,SCHOOL KID,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+35,TRAINER_CLASS_SR_AND_JR,SR. AND JR.,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+36,TRAINER_CLASS_WINSTRATE,WINSTRATE,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+37,TRAINER_CLASS_POKEFAN,POKéFAN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+38,TRAINER_CLASS_YOUNGSTER,YOUNGSTER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+39,TRAINER_CLASS_CHAMPION,CHAMPION,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+40,TRAINER_CLASS_FISHERMAN,FISHERMAN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+41,TRAINER_CLASS_TRIATHLETE,TRIATHLETE,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+42,TRAINER_CLASS_DRAGON_TAMER,DRAGON TAMER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+43,TRAINER_CLASS_NINJA_BOY,NINJA BOY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+44,TRAINER_CLASS_BATTLE_GIRL,BATTLE GIRL,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+45,TRAINER_CLASS_PARASOL_LADY,PARASOL LADY,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+46,TRAINER_CLASS_SWIMMER_F,SWIMMER♀,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+47,TRAINER_CLASS_TWINS,TWINS,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+48,TRAINER_CLASS_SAILOR,SAILOR,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+49,TRAINER_CLASS_COOLTRAINER_2,COOLTRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+50,TRAINER_CLASS_MAGMA_ADMIN,MAGMA ADMIN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+51,TRAINER_CLASS_RIVAL,{PKMN} TRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+52,TRAINER_CLASS_BUG_CATCHER,BUG CATCHER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+53,TRAINER_CLASS_PKMN_RANGER,{PKMN} RANGER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+54,TRAINER_CLASS_MAGMA_LEADER,MAGMA LEADER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+55,TRAINER_CLASS_LASS,LASS,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+56,TRAINER_CLASS_YOUNG_COUPLE,YOUNG COUPLE,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+57,TRAINER_CLASS_OLD_COUPLE,OLD COUPLE,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+58,TRAINER_CLASS_SIS_AND_BRO,SIS AND BRO,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+59,TRAINER_CLASS_SALON_MAIDEN,SALON MAIDEN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+60,TRAINER_CLASS_DOME_ACE,DOME ACE,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+61,TRAINER_CLASS_PALACE_MAVEN,PALACE MAVEN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+62,TRAINER_CLASS_ARENA_TYCOON,ARENA TYCOON,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+63,TRAINER_CLASS_FACTORY_HEAD,FACTORY HEAD,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+64,TRAINER_CLASS_PIKE_QUEEN,PIKE QUEEN,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+65,TRAINER_CLASS_PYRAMID_KING,PYRAMID KING,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.
+66,TRAINER_CLASS_RS_PROTAG,{PKMN} TRAINER,NEEDS_TRANSLATION,,User-approved Trainer Class translation scope; individual Trainer names excluded.

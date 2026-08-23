@@ -16,6 +16,7 @@
 | Pokémon | Species Names | COVERED_BY_DEDICATED_TRACKER | 386 | 386 | 0 | DONE |
 | Story | Main Story | TRANSLATE_REQUIRED | 191 | 191 | 0 | DONE |
 | Trainer | Spoken Trainer Dialogue | TRANSLATE_REQUIRED | 1633 | 1633 | 0 | DONE |
+| Trainer | Trainer Class Names | TRANSLATE_REQUIRED | 66 | 0 | 66 | PENDING |
 | Core UI | Player-facing Core UI | COVERED_BY_DEDICATED_TRACKER | 504 actionable | 504 | 0 | DONE |
 | Battle/System | Normal Player-facing Messages | COVERED_BY_DEDICATED_TRACKER | 434 actionable | 434 | 0 | DONE |
 | Optional NPC | Optional NPC Dialogue | TRANSLATE_REQUIRED | 1820 | 1820 | 0 | DONE |
@@ -67,3 +68,12 @@
 > Historical Batch CSVs may still contain their original HOLD metadata.
 > They are not authoritative for current Group 7 completion.
 <!-- GROUP7_STATUS_END -->
+
+## Runtime Closure Checkpoints — 2026-08-23
+
+- Pokémon Species Names: canonical Thai 386/386 remains CLOSED.
+- Battle Healthbox Thai name width: CLOSED at `de5c005f6`; full Thai name + gender runtime PASS.
+- Capture / Pokédex direct species-name resolution: CLOSED at `8424a2dc4`; canonical Thai species name runtime PASS.
+- Trainer Spoken Dialogue: 1633/1633 CLOSED; do not reopen for Trainer Class work.
+- Trainer Class Names: NEW approved scope, 66 entries, 0 DONE / 66 PENDING.
+- Trainer individual names: separate OPTIONAL scope; not included in the 66 Trainer Class entries.
