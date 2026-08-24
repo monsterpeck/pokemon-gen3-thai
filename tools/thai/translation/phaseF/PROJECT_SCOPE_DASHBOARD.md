@@ -364,3 +364,48 @@ This release supersedes all earlier 2026-08-24 release packages and hashes.
 Reopen the release gate only for a new reproducible runtime defect,
 a source/baseline change, or direct contradictory evidence.
 <!-- FINAL_RELEASE_20260824_END -->
+
+## Runtime Closure — Evolution / Rare Candy Pokémon Display Names
+
+Status: **CLOSED / BUILD + RUNTIME QA PASS**
+
+Scope closed:
+- Normal Evolution and Trade Evolution Pokémon-name display
+- Evolution start / success / cancel messages
+- Rare Candy level-up Pokémon-name display
+- Move learn / forget / stop-learning Pokémon-name display
+- Custom Thai nickname display
+- Auto/default nickname policy via canonical Thai species display
+- Applies generically to all Pokémon species; no species whitelist
+
+Root cause:
+- Several vanilla consumers used independent nickname/display paths.
+- Thai shaped names cannot be treated as ordinary fixed-size nickname strings everywhere.
+- Move-learning paths must respect the battle text-buffer contract rather than copying expanded shaped text into compact buffers.
+
+Permanent implementation rule:
+- Use the centralized Pokémon Display Name API for player-visible Pokémon names.
+- Custom Thai nickname -> preserve and shape the player's nickname.
+- Auto/default nickname -> GetSpeciesNameForDisplay(species).
+- Custom non-Thai nickname -> preserve original nickname.
+- Do not modify stored nickname/species data merely to change display text.
+- Do not create per-species fixes or duplicate display-name resolvers for individual screens.
+
+Runtime QA:
+- Rare Candy level-up custom Thai nickname: PASS
+- Move learn / forget custom Thai nickname: PASS
+- Evolution custom Thai nickname: PASS
+- Evolution Thai start/success text: PASS
+- Post-evolution Thai species display: PASS
+- No blank / corrupted Thai Pokémon names observed in tested flows.
+
+Latest production build:
+- EWRAM: 252772 B / 256 KB / 96.42%
+- IWRAM: 31468 B / 32 KB / 96.03%
+- ROM: 15990926 B / 32 MB / 47.66%
+
+Reopen only for:
+- a new reproducible display failure,
+- source/baseline change, or
+- direct contradictory runtime evidence.
+

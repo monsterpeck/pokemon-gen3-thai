@@ -1265,9 +1265,9 @@ const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
     0xFFFF // Never read
 };
 
-const u8 gText_PkmnIsEvolving[] = _("What?\n{STR_VAR_1} is evolving!");
-const u8 gText_CongratsPkmnEvolved[] = _("Congratulations! Your {STR_VAR_1}\nevolved into {STR_VAR_2}!{WAIT_SE}\p");
-const u8 gText_PkmnStoppedEvolving[] = _("Huh? {STR_VAR_1}\nstopped evolving!\p");
+const u8 gText_PkmnIsEvolving[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{95}{2}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}?\n{STR_VAR_1} {252}{25}{111}{1}{0}{244}{10}{1}{252}{25}{47}{2}{0}{244}{6}{1}{252}{25}{12}{0}{0}{244}{4}{1}{252}{25}{80}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{23}{0}{0}{244}{9}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}!");
+const u8 gText_CongratsPkmnEvolved[] = _("{252}{25}{77}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{123}{0}{0}{244}{7}{1}{252}{25}{92}{1}{0}{244}{7}{1}{252}{25}{42}{0}{0}{244}{6}{1}{252}{25}{39}{0}{0}{244}{6}{1}! {STR_VAR_1}\n{252}{25}{80}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{23}{0}{0}{244}{9}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{8}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1} {STR_VAR_2}!{WAIT_SE}\p");
+const u8 gText_PkmnStoppedEvolving[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{95}{2}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}? {STR_VAR_1}\n{252}{25}{46}{0}{0}{244}{7}{1}{252}{25}{160}{1}{0}{244}{6}{1}{252}{25}{25}{0}{0}{244}{7}{1}{252}{25}{80}{0}{0}{244}{6}{1}{252}{25}{48}{2}{0}{244}{6}{1}{252}{25}{23}{0}{0}{244}{9}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{40}{0}{0}{244}{5}{1}{252}{25}{2}{0}{0}{244}{7}{1}{252}{25}{106}{1}{0}{244}{6}{1}{252}{25}{42}{0}{0}{244}{6}{1}!\p");
 const u8 gText_EllipsisQuestionMark[] = _("……?\p");
 const u8 gText_WhatWillPkmnDo[] = _("{B_ACTIVE_NAME_WITH_PREFIX}\n{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{117}{1}{0}{244}{11}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}?");
 const u8 gText_WhatWillPkmnDo2[] = _("{B_PLAYER_NAME}\n{252}{25}{13}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{117}{1}{0}{244}{11}{1}{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}{252}{25}{5}{0}{0}{244}{6}{1}{252}{25}{40}{0}{0}{244}{5}{1}?");
@@ -2909,6 +2909,21 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         case B_BUFF_SPECIES: // species name
             GetSpeciesName(dst, T1_READ_16(&src[srcID + 1]));
             srcID += 3;
+            break;
+        case B_BUFF_PLAYER_MON_NAME_THAI:
+#ifdef THAI_NAMING_PRODUCTION
+            if (!CopyMonNameForDisplay(
+                    &gPlayerParty[src[srcID + 1]],
+                    sThaiBattleNicknameText,
+                    sizeof(sThaiBattleNicknameText)))
+                sThaiBattleNicknameText[0] = EOS;
+            StringAppend(dst, sThaiBattleNicknameText);
+#else
+            GetMonData(&gPlayerParty[src[srcID + 1]], MON_DATA_NICKNAME, nickname);
+            StringGet_Nickname(nickname);
+            StringAppend(dst, nickname);
+#endif
+            srcID += 2;
             break;
         case B_BUFF_MON_NICK: // poke nick without prefix
             if (GetBattlerSide(src[srcID + 1]) == B_SIDE_PLAYER)

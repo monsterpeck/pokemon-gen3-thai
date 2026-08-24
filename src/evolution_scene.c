@@ -2,6 +2,7 @@
 #include "malloc.h"
 #include "battle.h"
 #include "battle_message.h"
+#include "thai_name.h"
 #include "bg.h"
 #include "data.h"
 #include "decompress.h"
@@ -251,9 +252,18 @@ void EvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, bool8 canStopEvo, u
     sEvoStructPtr = AllocZeroed(sizeof(struct EvoInfo));
     AllocateMonSpritesGfx();
 
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(mon, gStringVar1, sizeof(gStringVar1)))
+    {
+        GetMonData(mon, MON_DATA_NICKNAME, name);
+        StringCopy_Nickname(gStringVar1, name);
+    }
+    StringCopy(gStringVar2, GetSpeciesNameForDisplay(postEvoSpecies));
+#else
     GetMonData(mon, MON_DATA_NICKNAME, name);
     StringCopy_Nickname(gStringVar1, name);
     StringCopy(gStringVar2, gSpeciesNames[postEvoSpecies]);
+#endif
 
     // preEvo sprite
     currSpecies = GetMonData(mon, MON_DATA_SPECIES);
@@ -473,9 +483,18 @@ void TradeEvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, u8 preEvoSprit
     const struct CompressedSpritePalette *pokePal;
     u8 id;
 
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(mon, gStringVar1, sizeof(gStringVar1)))
+    {
+        GetMonData(mon, MON_DATA_NICKNAME, name);
+        StringCopy_Nickname(gStringVar1, name);
+    }
+    StringCopy(gStringVar2, GetSpeciesNameForDisplay(postEvoSpecies));
+#else
     GetMonData(mon, MON_DATA_NICKNAME, name);
     StringCopy_Nickname(gStringVar1, name);
     StringCopy(gStringVar2, gSpeciesNames[postEvoSpecies]);
+#endif
 
     gAffineAnimsDisabled = TRUE;
 
@@ -775,7 +794,9 @@ static void Task_EvolutionScene(u8 taskId)
             var = MonTryLearningNewMove(mon, gTasks[taskId].tLearnsFirstMove);
             if (var != MOVE_NONE && !gTasks[taskId].tEvoWasStopped)
             {
+                #ifndef THAI_NAMING_PRODUCTION
                 u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+                #endif
                 if (!(gTasks[taskId].tBits & TASK_BIT_LEARN_MOVE))
                 {
                     StopMapMusic();
@@ -785,8 +806,14 @@ static void Task_EvolutionScene(u8 taskId)
                 gTasks[taskId].tBits |= TASK_BIT_LEARN_MOVE;
                 gTasks[taskId].tLearnsFirstMove = FALSE;
                 gTasks[taskId].tLearnMoveState = MVSTATE_INTRO_MSG_1;
+#ifdef THAI_NAMING_PRODUCTION
+                PREPARE_PLAYER_MON_NAME_THAI_BUFFER(
+                    gBattleTextBuff1,
+                    gTasks[taskId].tPartyId)
+#else
                 GetMonData(mon, MON_DATA_NICKNAME, nickname);
                 StringCopy_Nickname(gBattleTextBuff1, nickname);
+#endif
 
                 if (var == MON_HAS_MAX_MOVES)
                     gTasks[taskId].tState = EVOSTATE_REPLACE_MOVE;
@@ -1194,12 +1221,20 @@ static void Task_TradeEvolutionScene(u8 taskId)
             var = MonTryLearningNewMove(mon, gTasks[taskId].tLearnsFirstMove);
             if (var != MOVE_NONE && !gTasks[taskId].tEvoWasStopped)
             {
+                #ifndef THAI_NAMING_PRODUCTION
                 u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+                #endif
                 gTasks[taskId].tBits |= TASK_BIT_LEARN_MOVE;
                 gTasks[taskId].tLearnsFirstMove = FALSE;
                 gTasks[taskId].tLearnMoveState = 0;
+#ifdef THAI_NAMING_PRODUCTION
+                PREPARE_PLAYER_MON_NAME_THAI_BUFFER(
+                    gBattleTextBuff1,
+                    gTasks[taskId].tPartyId)
+#else
                 GetMonData(mon, MON_DATA_NICKNAME, nickname);
                 StringCopy_Nickname(gBattleTextBuff1, nickname);
+#endif
 
                 if (var == MON_HAS_MAX_MOVES)
                     gTasks[taskId].tState = T_EVOSTATE_REPLACE_MOVE;

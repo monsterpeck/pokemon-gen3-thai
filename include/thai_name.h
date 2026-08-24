@@ -16,6 +16,7 @@
 #define THAI_BOX_WALLPAPER_ID_MASK   0x7F
 
 struct BoxPokemon;
+struct Pokemon;
 
 bool32 IsPlayerNameThai(void);
 void SetPlayerNameThai(bool32 isThai);
@@ -30,6 +31,7 @@ void SetBoxNameThai(u8 boxId, bool32 isThai);
 bool32 IsThaiCompactNameId(u8 compactId);
 
 const u8 *GetSpeciesNameForDisplay(u16 species);
+bool32 CopyMonNameForDisplay(struct Pokemon *mon, u8 *destination, u16 destinationCapacity);
 bool32 FitThaiPositionedGlyphAdvances(u8 *text, u32 originalWidth, u32 maxWidth, u8 minAdvance);
 
 

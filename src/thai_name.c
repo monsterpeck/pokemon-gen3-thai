@@ -1,6 +1,8 @@
 #include "global.h"
 #include "data.h"
 #include "thai_name.h"
+#include "string_util.h"
+#include "international_string_util.h"
 #include "data/text/thai_species_names.inc"
 
 #ifdef THAI_NAMING_PRODUCTION
@@ -264,6 +266,49 @@ const u8 *GetSpeciesNameForDisplay(u16 species)
         return gSpeciesNames[species];
 
     return gSpeciesNames[SPECIES_NONE];
+}
+
+
+bool32 CopyMonNameForDisplay(struct Pokemon *mon, u8 *destination, u16 destinationCapacity)
+{
+    u8 nickname[POKEMON_NAME_LENGTH + 1];
+    const u8 *display;
+    u16 species;
+
+    if (destination == NULL || destinationCapacity == 0)
+        return FALSE;
+
+    species = GetMonData(mon, MON_DATA_SPECIES);
+    GetMonData(mon, MON_DATA_NICKNAME, nickname);
+
+    if (IsBoxMonNicknameThai(&mon->box))
+    {
+        if (ThaiShapeCompactName(
+                nickname,
+                StringLength(nickname),
+                POKEMON_NAME_LENGTH,
+                destination,
+                destinationCapacity))
+            return TRUE;
+
+        display = GetSpeciesNameForDisplay(species);
+    }
+    else
+    {
+        StringGet_Nickname(nickname);
+
+        if (species < NUM_SPECIES
+         && StringCompare(nickname, gSpeciesNames[species]) == 0)
+            display = GetSpeciesNameForDisplay(species);
+        else
+            display = nickname;
+    }
+
+    if (StringLength(display) + 1 > destinationCapacity)
+        return FALSE;
+
+    StringCopy(destination, display);
+    return TRUE;
 }
 
 #endif // THAI_NAMING_PRODUCTION

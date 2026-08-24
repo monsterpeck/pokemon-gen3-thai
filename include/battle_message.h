@@ -76,6 +76,7 @@
 #define B_BUFF_ABILITY                  9
 #define B_BUFF_ITEM                     10
 #define B_BUFF_MON_NICK_WITH_PREFIX_THAI 11
+#define B_BUFF_PLAYER_MON_NAME_THAI     12
 
 #define B_BUFF_PLACEHOLDER_BEGIN        0xFD
 #define B_BUFF_EOS                      0xFF
@@ -199,6 +200,14 @@
     textVar[3] = partyId;                                                    \
     textVar[4] = B_BUFF_EOS;                                                 \
 }                                                                            \
+
+#define PREPARE_PLAYER_MON_NAME_THAI_BUFFER(textVar, partyId)  \
+{                                                               \
+    textVar[0] = B_BUFF_PLACEHOLDER_BEGIN;                      \
+    textVar[1] = B_BUFF_PLAYER_MON_NAME_THAI;                   \
+    textVar[2] = partyId;                                       \
+    textVar[3] = B_BUFF_EOS;                                    \
+}
 
 #define PREPARE_MON_NICK_BUFFER(textVar, battler, partyId)      \
 {                                                               \

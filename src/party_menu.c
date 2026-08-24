@@ -4773,6 +4773,15 @@ static void DisplayLearnMoveMessageAndClose(u8 taskId, const u8 *str)
 
 // move[1] doesn't use constants cause I don't know if it's actually a move ID storage
 
+static void BufferPartyMonNameForDisplay(struct Pokemon *mon)
+{
+#ifdef THAI_NAMING_PRODUCTION
+    if (CopyMonNameForDisplay(mon, gStringVar1, 0x100))
+        return;
+#endif
+    GetMonNickname(mon, gStringVar1);
+}
+
 void ItemUseCB_TMHM(u8 taskId, TaskFunc task)
 {
     struct Pokemon *mon;
@@ -4783,7 +4792,7 @@ void ItemUseCB_TMHM(u8 taskId, TaskFunc task)
     mon = &gPlayerParty[gPartyMenu.slotId];
     move = gPartyMenu.data;
     item = gSpecialVar_ItemId;
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     move[0] = ItemIdToBattleMoveId(item);
     StringCopy(gStringVar2, gMoveNames[move[0]]);
     move[1] = 0;
@@ -4821,7 +4830,7 @@ static void Task_LearnedMove(u8 taskId)
         if (item < ITEM_HM01)
             RemoveBagItem(item, 1);
     }
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     StringCopy(gStringVar2, gMoveNames[move[0]]);
     StringExpandPlaceholders(gStringVar4, gText_PkmnLearnedMove3);
     DisplayPartyMenuMessage(gStringVar4, TRUE);
@@ -4916,7 +4925,7 @@ static void DisplayPartyMenuForgotMoveMessage(u8 taskId)
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     u16 move = GetMonData(mon, MON_DATA_MOVE1 + GetMoveSlotToReplace());
 
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     StringCopy(gStringVar2, gMoveNames[move]);
     DisplayLearnMoveMessage(gText_12PoofForgotMove);
     gTasks[taskId].func = Task_PartyMenuReplaceMove;
@@ -4962,7 +4971,7 @@ static void Task_HandleStopLearningMoveYesNoInput(u8 taskId)
     switch (Menu_ProcessInputNoWrapClearOnChoose())
     {
     case 0:
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         StringCopy(gStringVar2, gMoveNames[gPartyMenu.data[0]]);
         StringExpandPlaceholders(gStringVar4, gText_MoveNotLearned);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
@@ -4981,7 +4990,7 @@ static void Task_HandleStopLearningMoveYesNoInput(u8 taskId)
         PlaySE(SE_SELECT);
         // fallthrough
     case 1:
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         StringCopy(gStringVar2, gMoveNames[gPartyMenu.data[0]]);
         DisplayLearnMoveMessage(gText_PkmnNeedsToReplaceMove);
         gTasks[taskId].func = Task_ReplaceMoveYesNo;
@@ -5027,7 +5036,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         PlayFanfareByFanfareNum(FANFARE_LEVEL_UP);
         UpdateMonDisplayInfoAfterRareCandy(gPartyMenu.slotId, mon);
         RemoveBagItem(gSpecialVar_ItemId, 1);
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
         StringExpandPlaceholders(gStringVar4, gText_PkmnElevatedToLvVar2);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
@@ -5155,7 +5164,7 @@ static void PartyMenuTryEvolution(u8 taskId)
 
 static void DisplayMonNeedsToReplaceMove(u8 taskId)
 {
-    GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+    BufferPartyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId]);
     StringCopy(gStringVar2, gMoveNames[gMoveToLearn]);
     StringExpandPlaceholders(gStringVar4, gText_PkmnNeedsToReplaceMove);
     DisplayPartyMenuMessage(gStringVar4, TRUE);
@@ -5166,7 +5175,7 @@ static void DisplayMonNeedsToReplaceMove(u8 taskId)
 
 static void DisplayMonLearnedMove(u8 taskId, u16 move)
 {
-    GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+    BufferPartyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId]);
     StringCopy(gStringVar2, gMoveNames[move]);
     StringExpandPlaceholders(gStringVar4, gText_PkmnLearnedMove3);
     DisplayPartyMenuMessage(gStringVar4, TRUE);
@@ -5261,7 +5270,7 @@ static void Task_SacredAshLoop(u8 taskId)
 
 static void Task_SacredAshDisplayHPRestored(u8 taskId)
 {
-    GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+    BufferPartyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId]);
     StringExpandPlaceholders(gStringVar4, gText_PkmnHPRestoredByVar2);
     DisplayPartyMenuMessage(gStringVar4, FALSE);
     ScheduleBgCopyTilemapToVram(2);
@@ -5367,7 +5376,7 @@ static void TryTutorSelectedMon(u8 taskId)
     {
         mon = &gPlayerParty[gPartyMenu.slotId];
         move = &gPartyMenu.data[0];
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         gPartyMenu.data[0] = GetTutorMove(gSpecialVar_0x8005);
         StringCopy(gStringVar2, gMoveNames[gPartyMenu.data[0]]);
         move[1] = 2;
