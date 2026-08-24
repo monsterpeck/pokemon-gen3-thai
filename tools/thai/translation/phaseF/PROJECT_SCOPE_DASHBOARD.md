@@ -409,3 +409,38 @@ Reopen only for:
 - source/baseline change, or
 - direct contradictory runtime evidence.
 
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:START -->
+## Global Pokémon Display Name Consumers
+
+| Item | Status |
+|---|---|
+| Source remediation | CLOSED |
+| Party / item messages | PASS |
+| Field / Relearner / Pokéblock | PASS |
+| Species-only consumers | PASS |
+| Trade / Hall of Fame | PASS |
+| Daycare / Egg Hatch | PASS |
+| PokéNav lists / Search / Ribbon | PASS |
+| PokéNav Condition Graph | PASS |
+| Use Pokéblock formatter | PASS |
+| Contest / Contest Util | PASS |
+| TV species display | 90/90 PASS |
+| TV full Pokémon-name display | 16/16 PASS |
+| TV Name Rater structural handling | PASS |
+| Lottery / Storage / Script buffers | PASS |
+| Battle placeholders / Link / buffers | PASS |
+| Custom Thai nickname | PASS |
+| Auto/default canonical Thai species | PASS |
+| Custom non-Thai nickname | PRESERVED |
+| Stored/save nickname data | PRESERVED |
+| Capacity blockers | 0 |
+| Remaining actionable blockers | **0** |
+
+Release source: `95fbe5676`
+
+Build: EWRAM 252,772 B (96.42%); IWRAM 31,644 B (96.57%); ROM 15,992,502 B (47.66%); BUILD_RC=0.
+
+Release authority: ROM SHA-1 `2a9e0d6f3967f60a2030de4cfff533109f79028d`; BPS SHA-256 `79eda0fda490e7b482e1df1294a816eb4f98128b1a2544394071afc9115c7145`; ZIP SHA-256 `38019b0f150d900916041c1ea68a6a5cc83ca339f4e6b3c2c49da23fecbd6b54`.
+
+Gate: do not reopen without a new reproducible failure, source/baseline change, or direct contradictory evidence.
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:END -->

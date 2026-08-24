@@ -1003,3 +1003,26 @@ Reopen only for:
 - source/baseline change, or
 - direct contradictory runtime evidence.
 
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:START -->
+## Global Pokémon Display Name — Runtime Troubleshooting
+
+Status: **CLOSED**
+
+Typical symptom: Pokémon name is correct in some screens but falls back to raw English/default naming in another consumer. Confirmed trigger was Party Menu Give/Take Item showing the raw default name instead of the canonical Thai species name.
+
+Root cause: many independent subsystems consume `MON_DATA_NICKNAME`, `gSpeciesNames[]`, Box data, recorded TV/Contest names, battle buffers, and fixed-size UI buffers directly.
+
+Correct display strategy: live Party → `CopyMonNameForDisplay()`; Box → `CopyBoxMonNameForDisplay()`; recorded/snapshot → `CopyStoredMonNameForDisplay()`; species-only → `GetSpeciesNameForDisplay()`.
+
+Preserve raw data: stored nickname/save data, link packets, nickname editing buffers, Contest/TV records, normalization/comparison logic, and transport buffers that resolve names later must remain raw unless they are the actual defect.
+
+Capacity rule: shaped Thai can be much larger than vanilla nickname storage. Never write shaped Thai into an unknown-size destination. Closed fixes include 128-byte PokéNav production buffers, explicit Use Pokéblock formatter capacity, Trade display capacity handling, and TV Name Rater avoiding byte slicing of shaped Thai streams.
+
+Avoid: species-specific whitelist, mutating stored nickname for display, blindly replacing every `MON_DATA_NICKNAME`/`gSpeciesNames[]` use, byte-slicing shaped Thai, or rebuilding repeatedly for confidence.
+
+Verification: production build PASS — EWRAM 252,772 B (96.42%), IWRAM 31,644 B (96.57%), ROM 15,992,502 B (47.66%), BUILD_RC=0. Runtime PASS for custom Thai and auto/default names in Give/Take Item.
+
+Release authority: source `95fbe5676`; ROM SHA-1 `2a9e0d6f3967f60a2030de4cfff533109f79028d`; BPS SHA-1 `0ae84fe6745983b04b09cf807777cfcf2aac97f7`; BPS SHA-256 `79eda0fda490e7b482e1df1294a816eb4f98128b1a2544394071afc9115c7145`; ZIP 1,122,110 bytes; ZIP SHA-256 `38019b0f150d900916041c1ea68a6a5cc83ca339f4e6b3c2c49da23fecbd6b54`; BPS byte-identical PASS.
+
+Reopen only for a new reproducible failure, source/baseline change, or direct contradiction.
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:END -->

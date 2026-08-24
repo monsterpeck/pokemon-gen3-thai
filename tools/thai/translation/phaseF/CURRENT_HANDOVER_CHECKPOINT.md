@@ -550,3 +550,24 @@ Reopen only for:
 - source/baseline change, or
 - direct contradictory runtime evidence.
 
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:START -->
+## Global Pokémon Display Name — Authoritative Closure
+
+Status: **CLOSED — BUILD + RUNTIME QA + RELEASE PACKAGE PASS**
+
+Source commit: `95fbe5676` — `thai: unify Pokemon display names globally`
+
+Permanent policy: custom Thai nickname → shaped display; auto/default → canonical Thai species; custom non-Thai → preserve; live Party → `CopyMonNameForDisplay()`; Box → `CopyBoxMonNameForDisplay()`; stored/snapshot → `CopyStoredMonNameForDisplay()`; species-only → `GetSpeciesNameForDisplay()`; never mutate stored nickname merely for display; no species whitelist; shaped Thai buffers require proven capacity.
+
+Closed families: Party Give/Take/medicine/switch/Move Deleter; field actions; Move Relearner; Pokéblock; species-only UI; Trade; Hall of Fame; Daycare; Egg Hatch; PokéNav list/search/ribbon/condition; Contest; TV; Lottery; Storage; script buffers; battle placeholders/link/species buffers.
+
+Build PASS: EWRAM 252,772 B (96.42%); IWRAM 31,644 B (96.57%); ROM 15,992,502 B (47.66%); `BUILD_RC=0`.
+
+Runtime QA PASS: custom Thai nickname and auto/default canonical Thai species both display correctly in Party Give Item and Take Item.
+
+Release authority: ROM SHA-1 `2a9e0d6f3967f60a2030de4cfff533109f79028d`; BPS SHA-1 `0ae84fe6745983b04b09cf807777cfcf2aac97f7`; BPS SHA-256 `79eda0fda490e7b482e1df1294a816eb4f98128b1a2544394071afc9115c7145`; ZIP 1,122,110 bytes; ZIP SHA-256 `38019b0f150d900916041c1ea68a6a5cc83ca339f4e6b3c2c49da23fecbd6b54`; BPS byte-identical PASS.
+
+Reopen only for new reproducible failure, source/baseline change, or direct contradiction. Do not rerun global inventory/build/BPS/package for confidence.
+
+Next: refresh remaining canonical docs → docs commit → push → fresh-chat handover.
+<!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:END -->
