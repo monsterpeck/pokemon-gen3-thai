@@ -995,11 +995,13 @@ static const s8 sContestExcitementTable[CONTEST_CATEGORIES_COUNT][CONTEST_CATEGO
 };
 
 
+#ifdef THAI_NAMING_PRODUCTION
+EWRAM_DATA static u8 sContestMonNameDisplay[THAI_NAME_SHAPED_CAPACITY] = {0};
+#endif
+
 static const u8 *GetContestMonNameForDisplay(u8 contestant)
 {
 #ifdef THAI_NAMING_PRODUCTION
-    static u8 sContestMonNameDisplay[THAI_NAME_SHAPED_CAPACITY];
-
     if (CopyStoredMonNameForDisplay(
             gContestMons[contestant].species,
             gContestMons[contestant].nickname,

@@ -402,11 +402,13 @@ static const u8 sContestLinkTextColors[4] = {TEXT_COLOR_WHITE, TEXT_DYNAMIC_COLO
 
 
 
+#ifdef THAI_NAMING_PRODUCTION
+EWRAM_DATA static u8 sContestUtilMonNameDisplay[THAI_NAME_SHAPED_CAPACITY] = {0};
+#endif
+
 static const u8 *GetContestUtilMonNameForDisplay(u8 contestant)
 {
 #ifdef THAI_NAMING_PRODUCTION
-    static u8 sContestUtilMonNameDisplay[THAI_NAME_SHAPED_CAPACITY];
-
     if (CopyStoredMonNameForDisplay(
             gContestMons[contestant].species,
             gContestMons[contestant].nickname,
