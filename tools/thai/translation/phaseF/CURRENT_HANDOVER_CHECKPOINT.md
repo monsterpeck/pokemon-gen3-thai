@@ -422,3 +422,40 @@ Release V2 status: READY FOR PUBLIC DISTRIBUTION.
 Do not rebuild, regenerate, or re-verify this release unless production source
 changes or a new reproducible release failure is reported.
 
+<!-- ODAMAKI_POLICY_CLOSURE_START -->
+## Professor Odamaki Naming Policy Closure — 2026-08-24
+
+Status: **CLOSED / RUNTIME PASS**
+
+Player-visible naming policy:
+- Professor Birch -> `ศ.โอดามากิ`
+- Bare self-introduction `เบิร์ช` -> `โอดามากิ`
+- Full-title form `ศาสตราจารย์เบิร์ช` -> `ศาสตราจารย์โอดามากิ`
+- Internal identifiers such as `ProfBirch_*`, `BIRCH_*`, flags, map IDs, functions and filenames remain unchanged.
+
+Applied scope:
+- 14 production source files
+- 50 changed lines
+- 52 player-visible name replacements
+
+Runtime QA PASS:
+- New Game professor introduction
+- Early-game mother dialogue
+- Starter rescue screen
+- Route 101 professor dialogue
+- Professor's Lab dialogue
+- No observed layout regression from the longer Odamaki name
+
+Authoritative production build after closure:
+- EWRAM: 252772 B / 256 KB / 96.42%
+- IWRAM: 31468 B / 32 KB / 96.03%
+- ROM: 15990214 B / 32 MB / 47.65%
+
+Reopen only if:
+- a reproducible player-visible `เบิร์ช` / `เบริซ์` / English `BIRCH` leak is found,
+- a layout/runtime regression appears,
+- or the source/baseline changes.
+
+Previous release package/checksums created before this naming-policy change are superseded.
+Next release step: commit this closure, then regenerate and byte-verify the final BPS package from the authoritative production ROM.
+<!-- ODAMAKI_POLICY_CLOSURE_END -->
