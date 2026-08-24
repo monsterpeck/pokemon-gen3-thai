@@ -449,7 +449,7 @@ Runtime QA PASS:
 Authoritative production build after closure:
 - EWRAM: 252772 B / 256 KB / 96.42%
 - IWRAM: 31468 B / 32 KB / 96.03%
-- ROM: 15990214 B / 32 MB / 47.65%
+- ROM: 15990286 B / 32 MB / 47.65%
 
 Reopen only if:
 - a reproducible player-visible `เบิร์ช` / `เบริซ์` / English `BIRCH` leak is found,
@@ -466,27 +466,27 @@ Next release step: commit this closure, then regenerate and byte-verify the fina
 Status: **CLOSED / RELEASE VERIFIED**
 
 Authoritative production ROM:
-- SHA-1: `4257a4f903cd272e62fbebde1b8c882f3837ef95`
+- SHA-1: `9c0ee64dc5d543c9d90fc470371bc0fe273c2823`
 - Build memory:
   - EWRAM: 252772 B / 256 KB / 96.42%
   - IWRAM: 31468 B / 32 KB / 96.03%
-  - ROM: 15990214 B / 32 MB / 47.65%
+  - ROM: 15990286 B / 32 MB / 47.65%
 
 Required clean base ROM:
 - SHA-1: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
 
 Final BPS:
 - File: `PekeEmerald-Thai-2026-08-24-FINAL.bps`
-- SHA-1: `395439f6247bb7db1f28b11f16ade469061d451e`
-- SHA-256: `425058cd6209a7468dad80cf827dffe72c5b9dfcc2588b2fb08067523adfbc99`
+- SHA-1: `d4dee6ccd4d37f56a0c86a0c853fbb1dcf968118`
+- SHA-256: `2d6f832e3acacc4bf68e5eb3b7bea0d63bc0f243c79e7f5391a026044a9f8cd5`
 - Create: PASS
 - Apply: PASS
 - Byte-identical verification against authoritative production ROM: PASS
 
 Final public ZIP:
 - File: `PekeEmerald-Thai-2026-08-24-FINAL.zip`
-- Size: 1,100,168 bytes
-- SHA-256: `decf3fb4047ff23bb5df78c57fa531d277ebbab7de7661021002592896867219`
+- Size: 1,099,592 bytes
+- SHA-256: `5e02d74576468bcb615635ac1b784e018410339dbabe38c136562506f9ad8a05`
 - Local package path: `/home/luffy/dev/releases/PekeEmerald-Thai-2026-08-24-FINAL.zip`
 
 Package contents include:
