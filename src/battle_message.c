@@ -2288,6 +2288,17 @@ static const u8 *TryGetStatusString(u8 *src)
 EWRAM_DATA static u8 sThaiBattleNicknameText[256] = {0};
 #endif
 
+static const u8 sText_TrainerNameHaruka[] = _("{252}{25}{49}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{161}{1}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}");
+
+static const u8 *ResolveTrainerNameForText(u16 trainerId)
+{
+    if (gTrainers[trainerId].trainerPic == TRAINER_PIC_MAY
+     || gTrainers[trainerId].trainerPic == TRAINER_PIC_RS_MAY)
+        return sText_TrainerNameHaruka;
+
+    return gTrainers[trainerId].trainerName;
+}
+
 static const u8 *ResolveBattleNicknameForText(struct Pokemon *mon, u8 *nickname)
 {
 #ifdef THAI_NAMING_PRODUCTION
@@ -2622,7 +2633,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 }
                 else
                 {
-                    toCpy = gTrainers[gTrainerBattleOpponent_A].trainerName;
+                    toCpy = ResolveTrainerNameForText(gTrainerBattleOpponent_A);
                 }
                 break;
             case B_TXT_LINK_PLAYER_NAME: // link player name
@@ -2740,7 +2751,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 }
                 else
                 {
-                    toCpy = gTrainers[gTrainerBattleOpponent_B].trainerName;
+                    toCpy = ResolveTrainerNameForText(gTrainerBattleOpponent_B);
                 }
                 break;
             case B_TXT_TRAINER2_LOSE_TEXT:
