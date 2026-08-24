@@ -938,8 +938,8 @@ Final BPS:
 
 Final public ZIP:
 - File: `PekeEmerald-Thai-2026-08-24-FINAL.zip`
-- Size: 1,098,411 bytes
-- SHA-256: `65c1c427674c5842a3bfcafae0b2af4e7b8868d89d9d85682c949e38c656065e`
+- Size: 1,100,168 bytes
+- SHA-256: `decf3fb4047ff23bb5df78c57fa531d277ebbab7de7661021002592896867219`
 - Local package path: `/home/luffy/dev/releases/PekeEmerald-Thai-2026-08-24-FINAL.zip`
 
 Package contents include:
