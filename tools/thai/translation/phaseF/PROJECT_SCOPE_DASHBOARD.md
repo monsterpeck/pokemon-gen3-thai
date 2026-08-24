@@ -444,3 +444,22 @@ Release authority: ROM SHA-1 `2a9e0d6f3967f60a2030de4cfff533109f79028d`; BPS SHA
 
 Gate: do not reopen without a new reproducible failure, source/baseline change, or direct contradictory evidence.
 <!-- GLOBAL_POKEMON_DISPLAY_NAME_CLOSURE:END -->
+
+## 2026-08-24 — IWRAM HOTFIX RELEASE CLOSURE
+
+- Source hotfix: `bcaa3b6b0` — `fix: move contest Thai name scratch buffers to EWRAM`
+- Root cause: two Contest Thai display scratch buffers were placed in IWRAM; moving them to EWRAM removed the IWRAM regression.
+- Production build: PASS
+  - EWRAM: 252936 B / 256 KB / 96.49%
+  - IWRAM: 31468 B / 32 KB / 96.03%
+  - ROM: 15992502 B / 32 MB / 47.66%
+- Runtime QA: PASS; the prior black-screen freeze no longer reproduces after the IWRAM regression removal.
+- Delta fast-forward audio stutter is tracked separately as emulator behavior and is not a ROM regression unless it reproduces at normal 1x speed after a cold emulator launch.
+- ROM SHA-1: `ae70979957f8cf0ff401e4eadbea768a634fa0f3`
+- Final BPS SHA-1: `fb3092e548548784ca01ea9a755c2ca26eaea9e7`
+- Final BPS SHA-256: `8c85e04435c8fe9f62d91f1069737d178050ad9e972cf1c7e906e3a03a57f8c2`
+- BPS apply byte-identical verification: PASS
+- Final ZIP size: 1121494 bytes
+- Final ZIP SHA-256: `885032c29494bb685722e2fec2ca3fa180f08c746d32a02bd9eae6fb7b855cb6`
+- This hotfix release supersedes all earlier 2026-08-24 ROM/BPS/ZIP hashes and packages.
+- Anti-loop: do not rebuild, re-audit, regenerate BPS/package, or reopen closed global Pokémon display-name gates unless there is a new reproducible failure, source/baseline change, or direct contradictory evidence.
