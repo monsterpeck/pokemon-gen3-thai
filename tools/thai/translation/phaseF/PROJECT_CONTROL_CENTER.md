@@ -924,3 +924,49 @@ Reopen only if:
 Previous release package/checksums created before this naming-policy change are superseded.
 Next release step: commit this closure, then regenerate and byte-verify the final BPS package from the authoritative production ROM.
 <!-- ODAMAKI_POLICY_CLOSURE_END -->
+
+<!-- FINAL_RELEASE_20260824_START -->
+## Final Public Release Package — 2026-08-24
+
+Status: **CLOSED / RELEASE VERIFIED**
+
+Authoritative production ROM:
+- SHA-1: `4257a4f903cd272e62fbebde1b8c882f3837ef95`
+- Build memory:
+  - EWRAM: 252772 B / 256 KB / 96.42%
+  - IWRAM: 31468 B / 32 KB / 96.03%
+  - ROM: 15990214 B / 32 MB / 47.65%
+
+Required clean base ROM:
+- SHA-1: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+
+Final BPS:
+- File: `PekeEmerald-Thai-2026-08-24-FINAL.bps`
+- SHA-1: `395439f6247bb7db1f28b11f16ade469061d451e`
+- SHA-256: `425058cd6209a7468dad80cf827dffe72c5b9dfcc2588b2fb08067523adfbc99`
+- Create: PASS
+- Apply: PASS
+- Byte-identical verification against authoritative production ROM: PASS
+
+Final public ZIP:
+- File: `PekeEmerald-Thai-2026-08-24-FINAL.zip`
+- Size: 1,098,411 bytes
+- SHA-256: `65c1c427674c5842a3bfcafae0b2af4e7b8868d89d9d85682c949e38c656065e`
+- Local package path: `/home/luffy/dev/releases/PekeEmerald-Thai-2026-08-24-FINAL.zip`
+
+Package contents include:
+- BPS patch
+- Detailed Thai installation / usage README
+- SHA-1 checksum file
+- SHA-256 checksum file
+
+Distribution policy:
+- Distribute the BPS patch only.
+- Do not redistribute the clean Pokémon Emerald ROM.
+- Do not redistribute a pre-patched `.gba` ROM.
+
+This release supersedes all earlier 2026-08-24 release packages and hashes.
+
+Reopen the release gate only for a new reproducible runtime defect,
+a source/baseline change, or direct contradictory evidence.
+<!-- FINAL_RELEASE_20260824_END -->
