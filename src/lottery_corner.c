@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "lottery_corner.h"
 #include "event_data.h"
 #include "pokemon.h"
@@ -108,15 +109,38 @@ void PickLotteryCornerTicket(void)
         if (box == TOTAL_BOXES_COUNT)
         {
             gSpecialVar_0x8006 = 0;
+    #ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[slot],
+                gStringVar1,
+                sizeof(gStringVar1)))
+        {
             GetMonData(&gPlayerParty[slot], MON_DATA_NICKNAME, gStringVar1);
+            StringGet_Nickname(gStringVar1);
+        }
+#else
+        GetMonData(&gPlayerParty[slot], MON_DATA_NICKNAME, gStringVar1);
+        StringGet_Nickname(gStringVar1);
+#endif
         }
         else
         {
             gSpecialVar_0x8006 = 1;
+    #ifdef THAI_NAMING_PRODUCTION
+        if (!CopyBoxMonNameForDisplay(
+                &gPokemonStoragePtr->boxes[box][slot],
+                gStringVar1,
+                sizeof(gStringVar1)))
+        {
             GetBoxMonData(&gPokemonStoragePtr->boxes[box][slot], MON_DATA_NICKNAME, gStringVar1);
+            StringGet_Nickname(gStringVar1);
         }
+#else
+        GetBoxMonData(&gPokemonStoragePtr->boxes[box][slot], MON_DATA_NICKNAME, gStringVar1);
         StringGet_Nickname(gStringVar1);
-    }
+#endif
+        }
+        }
 }
 
 static u8 GetMatchingDigits(u16 winNumber, u16 otId)

@@ -1,5 +1,7 @@
 #include "global.h"
 #include "thai_name.h"
+
+static void BufferPartyMonNameForDisplay(struct Pokemon *mon);
 #include "malloc.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -1763,7 +1765,7 @@ static void Task_ReturnToChooseMonAfterText(u8 taskId)
 
 static void DisplayGaveHeldItemMessage(struct Pokemon *mon, u16 item, bool8 keepOpen, u8 unused)
 {
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     CopyItemName(item, gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_PkmnWasGivenItem);
     DisplayPartyMenuMessage(gStringVar4, keepOpen);
@@ -1772,7 +1774,7 @@ static void DisplayGaveHeldItemMessage(struct Pokemon *mon, u16 item, bool8 keep
 
 static void DisplayTookHeldItemMessage(struct Pokemon *mon, u16 item, bool8 keepOpen)
 {
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     CopyItemName(item, gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_ReceivedItemFromPkmn);
     DisplayPartyMenuMessage(gStringVar4, keepOpen);
@@ -1781,7 +1783,7 @@ static void DisplayTookHeldItemMessage(struct Pokemon *mon, u16 item, bool8 keep
 
 static void DisplayAlreadyHoldingItemSwitchMessage(struct Pokemon *mon, u16 item, bool8 keepOpen)
 {
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     CopyItemName(item, gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_PkmnAlreadyHoldingItemSwitch);
     DisplayPartyMenuMessage(gStringVar4, keepOpen);
@@ -2741,7 +2743,7 @@ static bool8 CreateSelectionWindow(u8 taskId)
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     u16 item;
 
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
     if (gPartyMenu.menuType != PARTY_MENU_TYPE_STORE_PYRAMID_HELD_ITEMS)
     {
@@ -3324,7 +3326,7 @@ static void CursorCb_TakeItem(u8 taskId)
     switch (TryTakeMonItem(mon))
     {
     case 0: // Not holding item
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         StringExpandPlaceholders(gStringVar4, gText_PkmnNotHolding);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
         break;
@@ -3350,7 +3352,7 @@ static void CursorCb_Toss(u8 taskId)
     PartyMenuRemoveWindow(&sPartyMenuInternal->windowId[1]);
     if (item == ITEM_NONE)
     {
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         StringExpandPlaceholders(gStringVar4, gText_PkmnNotHolding);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
         gTasks[taskId].func = Task_UpdateHeldItemSprite;
@@ -3704,7 +3706,7 @@ static void CursorCb_Trade2(u8 taskId)
         break;
     default: // CAN_TRADE_MON
         PlaySE(SE_SELECT);
-        GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+        BufferPartyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId]);
         StringExpandPlaceholders(gStringVar4, gJPText_AreYouSureYouWantToSpinTradeMon);
         DisplayPartyMenuMessage(gStringVar4, TRUE);
         gTasks[taskId].func = Task_SpinTradeYesNo;
@@ -4493,7 +4495,7 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
         }
         else
         {
-            GetMonNickname(mon, gStringVar1);
+            BufferPartyMonNameForDisplay(mon);
             GetMedicineItemEffectMessage(item);
             DisplayPartyMenuMessage(gStringVar4, TRUE);
             ScheduleBgCopyTilemapToVram(2);
@@ -4504,7 +4506,7 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
 
 static void Task_DisplayHPRestoredMessage(u8 taskId)
 {
-    GetMonNickname(&gPlayerParty[gPartyMenu.slotId], gStringVar1);
+    BufferPartyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId]);
     StringExpandPlaceholders(gStringVar4, gText_PkmnHPRestoredByVar2);
     DisplayPartyMenuMessage(gStringVar4, FALSE);
     ScheduleBgCopyTilemapToVram(2);
@@ -4546,7 +4548,7 @@ void ItemUseCB_ReduceEV(u8 taskId, TaskFunc task)
         gPartyMenuUseExitCallback = TRUE;
         PlaySE(SE_USE_ITEM);
         RemoveBagItem(item, 1);
-        GetMonNickname(mon, gStringVar1);
+        BufferPartyMonNameForDisplay(mon);
         ItemEffectToStatString(effectType, gStringVar2);
         if (friendship != newFriendship)
         {
@@ -5864,7 +5866,7 @@ static bool8 TrySwitchInPokemon(void)
     }
     if (GetMonData(&gPlayerParty[slot], MON_DATA_HP) == 0)
     {
-        GetMonNickname(&gPlayerParty[slot], gStringVar1);
+        BufferPartyMonNameForDisplay(&gPlayerParty[slot]);
         StringExpandPlaceholders(gStringVar4, gText_PkmnHasNoEnergy);
         return FALSE;
     }
@@ -5872,7 +5874,7 @@ static bool8 TrySwitchInPokemon(void)
     {
         if (GetBattlerSide(i) == B_SIDE_PLAYER && GetPartyIdFromBattleSlot(slot) == gBattlerPartyIndexes[i])
         {
-            GetMonNickname(&gPlayerParty[slot], gStringVar1);
+            BufferPartyMonNameForDisplay(&gPlayerParty[slot]);
             StringExpandPlaceholders(gStringVar4, gText_PkmnAlreadyInBattle);
             return FALSE;
         }
@@ -5884,7 +5886,7 @@ static bool8 TrySwitchInPokemon(void)
     }
     if (GetPartyIdFromBattleSlot(slot) == gBattleStruct->prevSelectedPartySlot)
     {
-        GetMonNickname(&gPlayerParty[slot], gStringVar1);
+        BufferPartyMonNameForDisplay(&gPlayerParty[slot]);
         StringExpandPlaceholders(gStringVar4, gText_PkmnAlreadySelected);
         return FALSE;
     }
@@ -5896,7 +5898,7 @@ static bool8 TrySwitchInPokemon(void)
     if (gPartyMenu.action == PARTY_ACTION_CANT_SWITCH)
     {
         u8 currBattler = gBattlerInMenuId;
-        GetMonNickname(&gPlayerParty[GetPartyIdFromBattlePartyId(gBattlerPartyIndexes[currBattler])], gStringVar1);
+        BufferPartyMonNameForDisplay(&gPlayerParty[GetPartyIdFromBattlePartyId(gBattlerPartyIndexes[currBattler])]);
         StringExpandPlaceholders(gStringVar4, gText_PkmnCantSwitchOut);
         return FALSE;
     }
@@ -6413,7 +6415,7 @@ void BufferMoveDeleterNicknameAndMove(void)
     struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
     u16 move = GetMonData(mon, MON_DATA_MOVE1 + gSpecialVar_0x8005);
 
-    GetMonNickname(mon, gStringVar1);
+    BufferPartyMonNameForDisplay(mon);
     StringCopy(gStringVar2, gMoveNames[move]);
 }
 

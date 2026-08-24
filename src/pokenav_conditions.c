@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "data.h"
 #include "decompress.h"
 #include "main.h"
@@ -25,7 +26,11 @@ struct Pokenav_ConditionMenu
     u32 (*callback)(struct Pokenav_ConditionMenu *);
     u8 fill2[0x18];
     u8 locationText[CONDITION_MONS_LOADED][24];
+#ifdef THAI_NAMING_PRODUCTION
+    u8 nameText[CONDITION_MONS_LOADED][128];
+#else
     u8 nameText[CONDITION_MONS_LOADED][64];
+#endif
     struct ConditionGraph graph;
     u8 numSparkles[CONDITION_MONS_LOADED];
     u8 monMarks[CONDITION_MONS_LOADED];
@@ -336,6 +341,7 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
 {
     u16 boxId, monId, gender, species, level, lvlDigits;
     struct BoxPokemon *boxMon;
+    u8 rawNickname[POKEMON_NAME_BUFFER_SIZE];
     u8 *txtPtr, *str_;
     struct PokenavMonList *monListPtr = GetSubstructPtr(POKENAV_SUBSTRUCT_MON_LIST);
 
@@ -350,22 +356,42 @@ static u8 *CopyConditionMonNameGender(u8 *str, u16 listId, bool8 skipPadding)
     if (GetBoxOrPartyMonData(boxId, monId, MON_DATA_IS_EGG, NULL))
         return StringCopyPadded(str, gText_EggNickname, CHAR_SPACE, POKEMON_NAME_LENGTH + 2);
 
-    GetBoxOrPartyMonData(boxId, monId, MON_DATA_NICKNAME, str);
-    StringGet_Nickname(str);
     species = GetBoxOrPartyMonData(boxId, monId, MON_DATA_SPECIES, NULL);
+
+    GetBoxOrPartyMonData(boxId, monId, MON_DATA_NICKNAME, rawNickname);
+    StringGet_Nickname(rawNickname);
+
     if (boxId == TOTAL_BOXES_COUNT)
     {
         level = GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL);
         gender = GetMonGender(&gPlayerParty[monId]);
+
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[monId],
+                str,
+                THAI_NAME_SHAPED_CAPACITY))
+#endif
+            StringCopy(str, rawNickname);
     }
     else
     {
         boxMon = GetBoxedMonPtr(boxId, monId);
         gender = GetBoxMonGender(boxMon);
         level = GetLevelFromBoxMonExp(boxMon);
+
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyBoxMonNameForDisplay(
+                boxMon,
+                str,
+                THAI_NAME_SHAPED_CAPACITY))
+#endif
+            StringCopy(str, rawNickname);
     }
 
-    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && !StringCompare(str, gSpeciesNames[species]))
+    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M)
+     && species < NUM_SPECIES
+     && !StringCompare(rawNickname, gSpeciesNames[species]))
         gender = MON_GENDERLESS;
 
     str_ = str; // For some reason, a variable is needed to match.

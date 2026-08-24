@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "hall_of_fame.h"
 #include "task.h"
 #include "palette.h"
@@ -1113,7 +1114,11 @@ static void HallOfFame_PrintWelcomeText(u8 unusedPossiblyWindowId, u8 unused2)
 
 static void HallOfFame_PrintMonInfo(struct HallofFameMon *currMon, u8 unused1, u8 unused2)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    u8 text[max(96, THAI_NAME_SHAPED_CAPACITY + 8)];
+#else
     u8 text[max(32, POKEMON_NAME_LENGTH + 1)];
+#endif
     u8 *stringPtr;
     s32 dexNumber;
     s32 width;
@@ -1147,8 +1152,18 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon *currMon, u8 unused1, u
     }
 
     // nickname, species names, gender and level
-    memcpy(text, currMon->nickname, POKEMON_NAME_LENGTH);
-    text[POKEMON_NAME_LENGTH] = EOS;
+#ifdef THAI_NAMING_PRODUCTION
+    if (currMon->species == SPECIES_EGG
+     || !CopyStoredMonNameForDisplay(
+            currMon->species,
+            currMon->nickname,
+            text,
+            sizeof(text)))
+#endif
+    {
+        memcpy(text, currMon->nickname, POKEMON_NAME_LENGTH);
+        text[POKEMON_NAME_LENGTH] = EOS;
+    }
     if (currMon->species == SPECIES_EGG)
     {
         width = GetStringCenterAlignXOffset(FONT_NORMAL, text, 0xD0);
@@ -1161,7 +1176,7 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon *currMon, u8 unused1, u
         AddTextPrinterParameterized3(0, FONT_NORMAL, width, 1, sMonInfoTextColors, TEXT_SKIP_DRAW, text);
 
         text[0] = CHAR_SLASH;
-        stringPtr = StringCopy(text + 1, gSpeciesNames[currMon->species]);
+        stringPtr = StringCopy(text + 1, GetSpeciesNameForDisplay(currMon->species));
 
         if (currMon->species != SPECIES_NIDORAN_M && currMon->species != SPECIES_NIDORAN_F)
         {

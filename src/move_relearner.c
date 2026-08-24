@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "main.h"
 #include "battle.h"
 #include "bg.h"
@@ -908,8 +909,19 @@ static void CreateLearnableMovesList(void)
         sMoveRelearnerStruct->menuItems[i].id = sMoveRelearnerStruct->movesToLearn[i];
     }
 
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(
+            &gPlayerParty[sMoveRelearnerStruct->partyMon],
+            gStringVar1,
+            sizeof(gStringVar1)))
+    {
+        GetMonData(&gPlayerParty[sMoveRelearnerStruct->partyMon], MON_DATA_NICKNAME, nickname);
+        StringCopy_Nickname(gStringVar1, nickname);
+    }
+#else
     GetMonData(&gPlayerParty[sMoveRelearnerStruct->partyMon], MON_DATA_NICKNAME, nickname);
     StringCopy_Nickname(gStringVar1, nickname);
+#endif
     sMoveRelearnerStruct->menuItems[sMoveRelearnerStruct->numMenuChoices].name = gText_Cancel;
     sMoveRelearnerStruct->menuItems[sMoveRelearnerStruct->numMenuChoices].id = LIST_CANCEL;
     sMoveRelearnerStruct->numMenuChoices++;

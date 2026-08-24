@@ -56,7 +56,11 @@ struct PokenavList
     struct Sprite *rightArrow;
     struct Sprite *upArrow;
     struct Sprite *downArrow;
+#ifdef THAI_NAMING_PRODUCTION
+    u8 itemTextBuffer[128];
+#else
     u8 itemTextBuffer[64];
+#endif
     u8 tilemapBuffer[BG_SCREEN_SIZE];
     struct PokenavListWindowState windowState;
     s32 eraseIndex;

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "battle.h"
 #include "battle_factory_screen.h"
 #include "battle_factory.h"
@@ -1884,7 +1885,7 @@ static void Select_PrintMonSpecies(void)
 
     FillWindowPixelBuffer(SELECT_WIN_SPECIES, PIXEL_FILL(0));
     species = GetMonData(&sFactorySelectScreen->mons[monId].monData, MON_DATA_SPECIES, NULL);
-    StringCopy(gStringVar4, gSpeciesNames[species]);
+    StringCopy(gStringVar4, GetSpeciesNameForDisplay(species));
     x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 86);
     AddTextPrinterParameterized3(SELECT_WIN_SPECIES, FONT_NORMAL, x, 1, sSpeciesNameTextColors, 0, gStringVar4);
     CopyWindowToVram(SELECT_WIN_SPECIES, COPYWIN_GFX);
@@ -1996,7 +1997,7 @@ static u8 Select_OptionOthers(void)
 static void Select_PrintMonCategory(void)
 {
     u16 species;
-    u8 text[30];
+    u8 text[176];
     u8 x;
     u8 monId = sFactorySelectScreen->cursorPos;
     if (monId < SELECTABLE_MONS_COUNT)
@@ -3789,7 +3790,7 @@ static void Swap_PrintMonSpecies(void)
             species = GetMonData(&gPlayerParty[monId], MON_DATA_SPECIES, NULL);
         else
             species = GetMonData(&gEnemyParty[monId], MON_DATA_SPECIES, NULL);
-        StringCopy(gStringVar4, gSpeciesNames[species]);
+        StringCopy(gStringVar4, GetSpeciesNameForDisplay(species));
         x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 86);
         AddTextPrinterParameterized3(SWAP_WIN_SPECIES, FONT_NORMAL, x, 1, sSwapSpeciesNameTextColors, 0, gStringVar4);
         CopyWindowToVram(SWAP_WIN_SPECIES, COPYWIN_FULL);
@@ -3898,7 +3899,7 @@ static void Swap_PrintMonSpeciesAtFade(void)
             species = GetMonData(&gPlayerParty[monId], MON_DATA_SPECIES, NULL);
         else
             species = GetMonData(&gEnemyParty[monId], MON_DATA_SPECIES, NULL);
-        StringCopy(gStringVar4, gSpeciesNames[species]);
+        StringCopy(gStringVar4, GetSpeciesNameForDisplay(species));
         x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 86);
         AddTextPrinterParameterized3(SWAP_WIN_SPECIES_AT_FADE, FONT_NORMAL, x, 1, sSwapSpeciesNameTextColors, 0, gStringVar4);
         CopyWindowToVram(SWAP_WIN_SPECIES_AT_FADE, COPYWIN_FULL);
@@ -3925,7 +3926,7 @@ static void Swap_PrintMonSpeciesForTransition(void)
             species = GetMonData(&gPlayerParty[monId], MON_DATA_SPECIES, NULL);
         else
             species = GetMonData(&gEnemyParty[monId], MON_DATA_SPECIES, NULL);
-        StringCopy(gStringVar4, gSpeciesNames[species]);
+        StringCopy(gStringVar4, GetSpeciesNameForDisplay(species));
         x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 86);
         AddTextPrinterParameterized3(SWAP_WIN_SPECIES, FONT_NORMAL, x, 1, sSwapSpeciesNameTextColors, 0, gStringVar4);
         CopyWindowToVram(SWAP_WIN_SPECIES, COPYWIN_FULL);
@@ -3935,7 +3936,7 @@ static void Swap_PrintMonSpeciesForTransition(void)
 static void Swap_PrintMonCategory(void)
 {
     u16 species;
-    u8 text[30];
+    u8 text[176];
     u8 x;
     u8 monId = sFactorySwapScreen->cursorPos;
 

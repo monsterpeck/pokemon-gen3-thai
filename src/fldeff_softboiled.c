@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "menu.h"
 #include "party_menu.h"
 #include "pokemon.h"
@@ -73,7 +74,12 @@ static void Task_SoftboiledRestoreHealth(u8 taskId)
 
 static void Task_DisplayHPRestoredMessage(u8 taskId)
 {
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(&gPlayerParty[gPartyMenu.slotId2], gStringVar1, sizeof(gStringVar1)))
+        GetMonNickname(&gPlayerParty[gPartyMenu.slotId2], gStringVar1);
+#else
     GetMonNickname(&gPlayerParty[gPartyMenu.slotId2], gStringVar1);
+#endif
     StringExpandPlaceholders(gStringVar4, gText_PkmnHPRestoredByVar2);
     DisplayPartyMenuMessage(gStringVar4, FALSE);
     ScheduleBgCopyTilemapToVram(2);

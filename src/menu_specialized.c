@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle_main.h"
 #include "contest_effect.h"
@@ -903,10 +904,11 @@ s32 GetBoxOrPartyMonData(u16 boxId, u16 monId, s32 request, u8 *dst)
 }
 
 // Gets the name/gender/level string for the condition menu
-static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
+static u8 *GetConditionMenuMonString(u8 *dst, u16 dstCapacity, u16 boxId, u16 monId)
 {
     u16 box, mon, species, level, gender;
     struct BoxPokemon *boxMon;
+    u8 rawNickname[POKEMON_NAME_BUFFER_SIZE];
     u8 *str;
 
     box = boxId;
@@ -918,9 +920,31 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
     *(dst++) = TEXT_COLOR_LIGHT_BLUE;
     if (GetBoxOrPartyMonData(box, mon, MON_DATA_IS_EGG, NULL))
         return StringCopyPadded(dst, gText_EggNickname, 0, POKEMON_NAME_LENGTH + 2);
-    GetBoxOrPartyMonData(box, mon, MON_DATA_NICKNAME, dst);
-    StringGet_Nickname(dst);
+    GetBoxOrPartyMonData(box, mon, MON_DATA_NICKNAME, rawNickname);
+    StringGet_Nickname(rawNickname);
     species = GetBoxOrPartyMonData(box, mon, MON_DATA_SPECIES, NULL);
+
+#ifdef THAI_NAMING_PRODUCTION
+    if (box == TOTAL_BOXES_COUNT)
+    {
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[mon],
+                dst,
+                dstCapacity))
+            StringCopy(dst, rawNickname);
+    }
+    else
+    {
+        boxMon = GetBoxedMonPtr(box, mon);
+        if (!CopyBoxMonNameForDisplay(
+                boxMon,
+                dst,
+                dstCapacity))
+            StringCopy(dst, rawNickname);
+    }
+#else
+    StringCopy(dst, rawNickname);
+#endif
     if (box == TOTAL_BOXES_COUNT) // Party mon.
     {
         level = GetMonData(&gPlayerParty[mon], MON_DATA_LEVEL);
@@ -933,7 +957,7 @@ static u8 *GetConditionMenuMonString(u8 *dst, u16 boxId, u16 monId)
         level = GetLevelFromBoxMonExp(boxMon);
     }
 
-    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && !StringCompare(dst, gSpeciesNames[species]))
+    if ((species == SPECIES_NIDORAN_F || species == SPECIES_NIDORAN_M) && !StringCompare(rawNickname, gSpeciesNames[species]))
         gender = MON_GENDERLESS;
 
     for (str = dst; *str != EOS; str++)
@@ -998,7 +1022,7 @@ static u8 *BufferConditionMenuSpacedStringN(u8 *dst, const u8 *src, s16 n)
     return dst;
 }
 
-void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 boxId, u16 monId, u16 partyId, u16 numMons, bool8 excludesCancel)
+void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 nameDstCapacity, u16 boxId, u16 monId, u16 partyId, u16 numMons, bool8 excludesCancel)
 {
     u16 i;
     u16 box = boxId;
@@ -1012,7 +1036,15 @@ void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 boxId
 
     if (partyId != numMons)
     {
-        GetConditionMenuMonString(nameDst, box, mon);
+#ifdef THAI_NAMING_PRODUCTION
+        // Reserve room for the existing color/gender/level suffix.
+        if (nameDstCapacity > 32)
+            GetConditionMenuMonString(nameDst, nameDstCapacity - 32, box, mon);
+        else
+            nameDst[0] = EOS;
+#else
+        GetConditionMenuMonString(nameDst, nameDstCapacity, box, mon);
+#endif
         locationDst[0] = EXT_CTRL_CODE_BEGIN;
         locationDst[1] = EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW;
         locationDst[2] = TEXT_COLOR_BLUE;
@@ -1502,12 +1534,12 @@ static void ShowAllConditionSparkles(struct Sprite *sprite)
 
 static const u8 *const sLvlUpStatStrings[NUM_STATS] =
 {
-    gText_MaxHP,
-    gText_Attack,
-    gText_Defense,
-    gText_SpAtk,
-    gText_SpDef,
-    gText_Speed
+    gText_HP4,
+    gText_Attack3,
+    gText_Defense3,
+    gText_SpAtk4,
+    gText_SpDef4,
+    gText_Speed2
 };
 
 void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bgClr, u8 fgClr, u8 shadowClr)

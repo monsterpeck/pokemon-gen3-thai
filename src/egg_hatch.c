@@ -377,7 +377,12 @@ static void AddHatchedMonToParty(u8 id)
     GetSetPokedexFlag(species, FLAG_SET_SEEN);
     GetSetPokedexFlag(species, FLAG_SET_CAUGHT);
 
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(mon, gStringVar1, sizeof(gStringVar1)))
+        GetMonNickname2(mon, gStringVar1);
+#else
     GetMonNickname2(mon, gStringVar1);
+#endif
 
     ball = ITEM_POKE_BALL;
     SetMonData(mon, MON_DATA_POKEBALL, &ball);
@@ -408,7 +413,15 @@ static bool8 _CheckDaycareMonReceivedMail(struct DayCare *daycare, u8 daycareId)
         && (StringCompareWithoutExtCtrlCodes(nickname, daycareMon->mail.monName) != 0
          || StringCompareWithoutExtCtrlCodes(gSaveBlock2Ptr->playerName, daycareMon->mail.otName) != 0))
     {
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyBoxMonNameForDisplay(
+                &daycareMon->mon,
+                gStringVar1,
+                sizeof(gStringVar1)))
+            StringCopy(gStringVar1, nickname);
+#else
         StringCopy(gStringVar1, nickname);
+#endif
         TVShowConvertInternationalString(gStringVar2, daycareMon->mail.otName, daycareMon->mail.gameLanguage);
         TVShowConvertInternationalString(gStringVar3, daycareMon->mail.monName, daycareMon->mail.monLanguage);
         return TRUE;
@@ -656,7 +669,15 @@ static void CB2_EggHatch(void)
         break;
     case 5:
         // "{mon} hatched from egg" message/fanfare
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[sEggHatchData->eggPartyId],
+                gStringVar1,
+                sizeof(gStringVar1)))
+            GetMonNickname2(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
+#else
         GetMonNickname2(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
+#endif
         StringExpandPlaceholders(gStringVar4, gText_HatchedFromEgg);
         EggHatchPrintMessage(sEggHatchData->windowId, gStringVar4, 0, 3, TEXT_SKIP_DRAW);
         PlayFanfare(MUS_EVOLVED);
@@ -674,7 +695,15 @@ static void CB2_EggHatch(void)
         break;
     case 8:
         // Ready the nickname prompt
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[sEggHatchData->eggPartyId],
+                gStringVar1,
+                sizeof(gStringVar1)))
+            GetMonNickname2(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
+#else
         GetMonNickname2(&gPlayerParty[sEggHatchData->eggPartyId], gStringVar1);
+#endif
         StringExpandPlaceholders(gStringVar4, gText_NicknameHatchPrompt);
         EggHatchPrintMessage(sEggHatchData->windowId, gStringVar4, 0, 2, 1);
         sEggHatchData->state++;

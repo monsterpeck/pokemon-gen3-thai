@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "main.h"
 #include "dma3.h"
 #include "pokeblock.h"
@@ -101,7 +102,11 @@ struct UsePokeblockMenu
     struct Sprite *condition[2];
     u8 toLoadSelection;
     u8 locationStrings[NUM_SELECTIONS_LOADED][24]; // Gets an "in party" or "in box #" string that never gets printed
+#ifdef THAI_NAMING_PRODUCTION
+    u8 monNameStrings[NUM_SELECTIONS_LOADED][128];
+#else
     u8 monNameStrings[NUM_SELECTIONS_LOADED][64];
+#endif
     struct ConditionGraph graph;
     u8 numSparkles[NUM_SELECTIONS_LOADED];
     s8 curLoadId;
@@ -867,8 +872,19 @@ static void AskUsePokeblock(void)
 {
     u8 stringBuffer[0x40];
 
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(
+            &gPlayerParty[GetPartyIdFromSelectionId(sMenu->info.curSelection)],
+            stringBuffer,
+            sizeof(stringBuffer)))
+    {
+        GetMonData(&gPlayerParty[GetPartyIdFromSelectionId(sMenu->info.curSelection)], MON_DATA_NICKNAME, stringBuffer);
+        StringGet_Nickname(stringBuffer);
+    }
+#else
     GetMonData(&gPlayerParty[GetPartyIdFromSelectionId(sMenu->info.curSelection)], MON_DATA_NICKNAME, stringBuffer);
     StringGet_Nickname(stringBuffer);
+#endif
     StringAppend(stringBuffer, gText_GetsAPokeBlockQuestion);
     StringCopy(gStringVar4, stringBuffer);
     FillWindowPixelBuffer(WIN_TEXT, 17);
@@ -1203,7 +1219,15 @@ static void LoadMonInfo(s16 partyId, u8 loadId)
     u8 numSelections = sMenu->info.numSelections;
     bool8 excludesCancel = FALSE; // whether or not numSelections excludes Cancel from the count
 
-    GetConditionMenuMonNameAndLocString(sMenu->locationStrings[loadId], sMenu->monNameStrings[loadId], boxId, monId, partyId, numSelections, excludesCancel);
+    GetConditionMenuMonNameAndLocString(
+        sMenu->locationStrings[loadId],
+        sMenu->monNameStrings[loadId],
+        sizeof(sMenu->monNameStrings[loadId]),
+        boxId,
+        monId,
+        partyId,
+        numSelections,
+        excludesCancel);
     GetConditionMenuMonConditions(&sMenu->graph, sMenu->numSparkles, boxId, monId, partyId, loadId, numSelections, excludesCancel);
     GetConditionMenuMonGfx(sMenu->partySheets[loadId], sMenu->partyPalettes[loadId], boxId, monId, partyId, numSelections, excludesCancel);
 }

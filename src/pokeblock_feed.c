@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle.h"
 #include "bg.h"
@@ -861,7 +862,12 @@ static void Task_PrintAtePokeblockMessage(u8 taskId)
     struct Pokeblock *pokeblock = &gSaveBlock1Ptr->pokeblocks[gSpecialVar_ItemId];
 
     gPokeblockGain = PokeblockGetGain(GetNature(mon), pokeblock);
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(mon, gStringVar1, sizeof(gStringVar1)))
+        GetMonNickname(mon, gStringVar1);
+#else
     GetMonNickname(mon, gStringVar1);
+#endif
     PokeblockCopyName(pokeblock, gStringVar2);
 
     if (gPokeblockGain == 0)

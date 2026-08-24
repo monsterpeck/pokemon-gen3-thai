@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "battle_tower.h"
 #include "apprentice.h"
 #include "event_data.h"
@@ -2447,7 +2448,7 @@ static void GetPotentialPartnerMoveAndSpecies(u16 trainerId, u16 monId)
     }
 
     StringCopy(gStringVar1, gMoveNames[move]);
-    StringCopy(gStringVar2, gSpeciesNames[species]);
+    StringCopy(gStringVar2, GetSpeciesNameForDisplay(species));
 }
 
 // For multi battles in the Battle Tower, the player may choose a partner by talking to them

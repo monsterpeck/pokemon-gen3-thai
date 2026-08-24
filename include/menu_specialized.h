@@ -111,7 +111,7 @@ bool8 ConditionMenu_UpdateMonEnter(struct ConditionGraph *graph, s16 *x);
 bool8 ConditionMenu_UpdateMonExit(struct ConditionGraph *graph, s16 *x);
 bool8 MoveConditionMonOnscreen(s16 *x);
 bool8 MoveConditionMonOffscreen(s16 *x);
-void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 boxId, u16 monId, u16 partyId, u16 numMons, bool8 excludesCancel);
+void GetConditionMenuMonNameAndLocString(u8 *locationDst, u8 *nameDst, u16 nameDstCapacity, u16 boxId, u16 monId, u16 partyId, u16 numMons, bool8 excludesCancel);
 void GetConditionMenuMonConditions(struct ConditionGraph *graph, u8 *numSparkles, u16 boxId, u16 monId, u16 partyId, u16 id, u16 numMons, bool8 excludesCancel);
 void GetConditionMenuMonGfx(void *tilesDst, void *palDst, u16 boxId, u16 monId, u16 partyId, u16 numMons, bool8 excludesCancel);
 void LoadConditionMonPicTemplate(struct SpriteSheet *sheet, struct SpriteTemplate *template, struct SpritePalette *pal);

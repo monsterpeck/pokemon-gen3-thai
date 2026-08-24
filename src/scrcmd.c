@@ -1553,7 +1553,7 @@ bool8 ScrCmd_bufferspeciesname(struct ScriptContext *ctx)
     u8 stringVarIndex = ScriptReadByte(ctx);
     u16 species = VarGet(ScriptReadHalfword(ctx));
 
-    StringCopy(sScriptStringVars[stringVarIndex], gSpeciesNames[species]);
+    StringCopy(sScriptStringVars[stringVarIndex], GetSpeciesNameForDisplay(species));
     return FALSE;
 }
 
@@ -1578,8 +1578,16 @@ bool8 ScrCmd_bufferpartymonnick(struct ScriptContext *ctx)
     u8 stringVarIndex = ScriptReadByte(ctx);
     u16 partyIndex = VarGet(ScriptReadHalfword(ctx));
 
-    GetMonData(&gPlayerParty[partyIndex], MON_DATA_NICKNAME, sScriptStringVars[stringVarIndex]);
-    StringGet_Nickname(sScriptStringVars[stringVarIndex]);
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(
+            &gPlayerParty[partyIndex],
+            sScriptStringVars[stringVarIndex],
+            0x100))
+#endif
+    {
+        GetMonData(&gPlayerParty[partyIndex], MON_DATA_NICKNAME, sScriptStringVars[stringVarIndex]);
+        StringGet_Nickname(sScriptStringVars[stringVarIndex]);
+    }
     return FALSE;
 }
 

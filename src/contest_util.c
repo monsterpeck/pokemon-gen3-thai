@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_gfx_sfx_util.h"
@@ -400,6 +401,23 @@ static const struct SpriteSheet sSpriteSheet_WirelessIndicatorWindow =
 static const u8 sContestLinkTextColors[4] = {TEXT_COLOR_WHITE, TEXT_DYNAMIC_COLOR_6, TEXT_DYNAMIC_COLOR_5};
 
 
+
+static const u8 *GetContestUtilMonNameForDisplay(u8 contestant)
+{
+#ifdef THAI_NAMING_PRODUCTION
+    static u8 sContestUtilMonNameDisplay[THAI_NAME_SHAPED_CAPACITY];
+
+    if (CopyStoredMonNameForDisplay(
+            gContestMons[contestant].species,
+            gContestMons[contestant].nickname,
+            sContestUtilMonNameDisplay,
+            sizeof(sContestUtilMonNameDisplay)))
+        return sContestUtilMonNameDisplay;
+#endif
+
+    return gContestMons[contestant].nickname;
+}
+
 static void InitContestResultsDisplay(void)
 {
     int i;
@@ -503,7 +521,7 @@ static void LoadContestMonName(u8 monIndex)
     if (monIndex == gContestPlayerMonIndex)
         str = StringCopy(gDisplayedStringBattle, gText_ColorDarkGray);
 
-    StringCopy(str, mon->nickname);
+    StringCopy(str, GetContestUtilMonNameForDisplay(monIndex));
     AddContestTextPrinter(monIndex, gDisplayedStringBattle, 0);
     StringCopy(str, gText_Slash);
     StringAppend(str, mon->trainerName);
@@ -860,7 +878,7 @@ static void Task_AnnounceWinner(u8 taskId)
             GET_CONTEST_WINNER_ID(i);
             StringCopy(gStringVar1, gContestMons[i].trainerName);
             ConvertInternationalContestantName(gStringVar1);
-            StringCopy(gStringVar2, gContestMons[i].nickname);
+            StringCopy(gStringVar2, GetContestUtilMonNameForDisplay(i));
             StringExpandPlaceholders(winnerTextBuffer, gText_ContestantsMonWon);
             x = DrawResultsTextWindow(winnerTextBuffer, sContestResults->data->slidingTextBoxSpriteId);
             StartTextBoxSlideIn(x, TEXT_BOX_Y, -1, 1088);
@@ -2070,7 +2088,7 @@ void BufferContestantTrainerName(void)
 
 void BufferContestantMonNickname(void)
 {
-    StringCopy(gStringVar3, gContestMons[gSpecialVar_0x8006].nickname);
+    StringCopy(gStringVar3, GetContestUtilMonNameForDisplay(gSpecialVar_0x8006));
 }
 
 // Unused script special
@@ -2111,7 +2129,7 @@ void BufferContestWinnerMonName(void)
 {
     u8 i;
     GET_CONTEST_WINNER_ID(i);
-    StringCopy(gStringVar1, gContestMons[i].nickname);
+    StringCopy(gStringVar1, GetContestUtilMonNameForDisplay(i));
 }
 
 void CB2_SetStartContestCallback(void)
@@ -2457,7 +2475,7 @@ void GetContestantNamesAtRank(void)
     }
 
     // Use contestant id to get names
-    StringCopy(gStringVar1, gContestMons[i].nickname);
+    StringCopy(gStringVar1, GetContestUtilMonNameForDisplay(i));
     StringCopy(gStringVar2, gContestMons[i].trainerName);
     ConvertInternationalContestantName(gStringVar2);
 

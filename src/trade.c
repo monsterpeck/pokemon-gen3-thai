@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle_anim.h"
 #include "battle_interface.h"
@@ -268,7 +269,7 @@ static void CB1_UpdateLink(void);
 static void RunTradeMenuCallback(void);
 static void SetSelectedMon(u8);
 static void DrawSelectedMonScreen(u8);
-static u8 GetMonNicknameWidth(u8 *, u8, u8);
+static u8 GetMonNicknameWidth(u8 *, u16, u8, u8);
 static void BufferMovesString(u8 *, u8, u8);
 static void PrintPartyNicknames(u8);
 static void PrintLevelAndGender(u8, u8, u8, u8, u8, u8);
@@ -1864,7 +1865,11 @@ static void SetSelectedMon(u8 cursorPosition)
 static void DrawSelectedMonScreen(u8 whichParty)
 {
     s8 nameStringWidth;
+#ifdef THAI_NAMING_PRODUCTION
+    u8 nickname[THAI_NAME_SHAPED_CAPACITY];
+#else
     u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+#endif
     u8 movesString[56];
     u8 i;
     u8 partyIdx;
@@ -1926,7 +1931,7 @@ static void DrawSelectedMonScreen(u8 whichParty)
         gSprites[sTradeMenu->partySpriteIds[selectedMonParty][partyIdx]].y2 = 0;
 
         // Print selected pokemon's name and moves
-        nameStringWidth = GetMonNicknameWidth(nickname, selectedMonParty, partyIdx);
+        nameStringWidth = GetMonNicknameWidth(nickname, sizeof(nickname), selectedMonParty, partyIdx);
         AddTextPrinterParameterized3((whichParty * 2) + 14, FONT_SMALL, (80 - nameStringWidth) / 2, 4, sTradeTextColors, 0, nickname);
         BufferMovesString(movesString, selectedMonParty, partyIdx);
         AddTextPrinterParameterized4((whichParty * 2) + 15, FONT_NORMAL, 0, 0, 0, 0, sTradeTextColors, 0, movesString);
@@ -1948,16 +1953,24 @@ static void DrawSelectedMonScreen(u8 whichParty)
     }
 }
 
-static u8 GetMonNicknameWidth(u8 *str, u8 whichParty, u8 partyIdx)
+static u8 GetMonNicknameWidth(u8 *str, u16 strCapacity, u8 whichParty, u8 partyIdx)
 {
     u8 nickname[POKEMON_NAME_LENGTH + 1];
+    struct Pokemon *mon;
 
     if (whichParty == TRADE_PLAYER)
-        GetMonData(&gPlayerParty[partyIdx], MON_DATA_NICKNAME, nickname);
+        mon = &gPlayerParty[partyIdx];
     else
-        GetMonData(&gEnemyParty[partyIdx], MON_DATA_NICKNAME, nickname);
+        mon = &gEnemyParty[partyIdx];
 
-    StringCopy_Nickname(str, nickname);
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(mon, str, strCapacity))
+#endif
+    {
+        GetMonData(mon, MON_DATA_NICKNAME, nickname);
+        StringCopy_Nickname(str, nickname);
+    }
+
     return GetStringWidth(FONT_SMALL, str, GetFontAttribute(FONT_SMALL, FONTATTR_LETTER_SPACING));
 }
 
@@ -2007,13 +2020,22 @@ static void PrintPartyNicknames(u8 whichParty)
 {
     u8 i;
     u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+#ifdef THAI_NAMING_PRODUCTION
+    u8 str[THAI_NAME_SHAPED_CAPACITY];
+#else
     u8 str[max(32, POKEMON_NAME_BUFFER_SIZE)];
+#endif
     struct Pokemon *party = (whichParty == TRADE_PLAYER) ? gPlayerParty : gEnemyParty;
 
     for (i = 0; i < sTradeMenu->partyCounts[whichParty]; i++)
     {
-        GetMonData(&party[i], MON_DATA_NICKNAME, nickname);
-        StringCopy_Nickname(str, nickname);
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(&party[i], str, sizeof(str)))
+#endif
+        {
+            GetMonData(&party[i], MON_DATA_NICKNAME, nickname);
+            StringCopy_Nickname(str, nickname);
+        }
         PrintPartyMonNickname(whichParty, i, str);
     }
 }
@@ -3337,18 +3359,43 @@ static void BufferTradeSceneStrings(void)
     {
         mpId = GetMultiplayerId();
         StringCopy(gStringVar1, gLinkPlayers[mpId ^ 1].name);
-        GetMonData(&gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE], MON_DATA_NICKNAME, name);
-        StringCopy_Nickname(gStringVar3, name);
-        GetMonData(&gPlayerParty[gSelectedTradeMonPositions[TRADE_PLAYER]], MON_DATA_NICKNAME, name);
-        StringCopy_Nickname(gStringVar2, name);
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE],
+                gStringVar3,
+                sizeof(gStringVar3)))
+#endif
+        {
+            GetMonData(&gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE], MON_DATA_NICKNAME, name);
+            StringCopy_Nickname(gStringVar3, name);
+        }
+
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[gSelectedTradeMonPositions[TRADE_PLAYER]],
+                gStringVar2,
+                sizeof(gStringVar2)))
+#endif
+        {
+            GetMonData(&gPlayerParty[gSelectedTradeMonPositions[TRADE_PLAYER]], MON_DATA_NICKNAME, name);
+            StringCopy_Nickname(gStringVar2, name);
+        }
     }
     else
     {
         ingameTrade = &sIngameTrades[gSpecialVar_0x8004];
         StringCopy(gStringVar1, ingameTrade->otName);
         StringCopy_Nickname(gStringVar3, ingameTrade->nickname);
-        GetMonData(&gPlayerParty[gSpecialVar_0x8005], MON_DATA_NICKNAME, name);
-        StringCopy_Nickname(gStringVar2, name);
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gPlayerParty[gSpecialVar_0x8005],
+                gStringVar2,
+                sizeof(gStringVar2)))
+#endif
+        {
+            GetMonData(&gPlayerParty[gSpecialVar_0x8005], MON_DATA_NICKNAME, name);
+            StringCopy_Nickname(gStringVar2, name);
+        }
     }
 }
 
@@ -4532,8 +4579,8 @@ static void SpriteCB_BouncingPokeballArrive(struct Sprite *sprite)
 u16 GetInGameTradeSpeciesInfo(void)
 {
     const struct InGameTrade *inGameTrade = &sIngameTrades[gSpecialVar_0x8004];
-    StringCopy(gStringVar1, gSpeciesNames[inGameTrade->requestedSpecies]);
-    StringCopy(gStringVar2, gSpeciesNames[inGameTrade->species]);
+    StringCopy(gStringVar1, GetSpeciesNameForDisplay(inGameTrade->requestedSpecies));
+    StringCopy(gStringVar2, GetSpeciesNameForDisplay(inGameTrade->species));
     return inGameTrade->requestedSpecies;
 }
 
@@ -4541,9 +4588,17 @@ static void BufferInGameTradeMonName(void)
 {
     u8 nickname[max(32, POKEMON_NAME_BUFFER_SIZE)];
     const struct InGameTrade *inGameTrade = &sIngameTrades[gSpecialVar_0x8004];
-    GetMonData(&gPlayerParty[gSpecialVar_0x8005], MON_DATA_NICKNAME, nickname);
-    StringCopy_Nickname(gStringVar1, nickname);
-    StringCopy(gStringVar2, gSpeciesNames[inGameTrade->species]);
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(
+            &gPlayerParty[gSpecialVar_0x8005],
+            gStringVar1,
+            sizeof(gStringVar1)))
+#endif
+    {
+        GetMonData(&gPlayerParty[gSpecialVar_0x8005], MON_DATA_NICKNAME, nickname);
+        StringCopy_Nickname(gStringVar1, nickname);
+    }
+    StringCopy(gStringVar2, GetSpeciesNameForDisplay(inGameTrade->species));
 }
 
 static void CreateInGameTradePokemonInternal(u8 whichPlayerMon, u8 whichInGameTrade)

@@ -4,6 +4,8 @@
 #include "global.h"
 #include "constants/global.h"
 
+const u8 *GetSpeciesNameForDisplay(u16 species);
+
 
 #ifdef THAI_NAMING_PRODUCTION
 
@@ -30,8 +32,14 @@ void SetBoxNameThai(u8 boxId, bool32 isThai);
 
 bool32 IsThaiCompactNameId(u8 compactId);
 
-const u8 *GetSpeciesNameForDisplay(u16 species);
 bool32 CopyMonNameForDisplay(struct Pokemon *mon, u8 *destination, u16 destinationCapacity);
+bool32 CopyBoxMonNameForDisplay(struct BoxPokemon *mon, u8 *destination, u16 destinationCapacity);
+bool32 CopyStoredMonNameForDisplay(
+    u16 species,
+    const u8 *nickname,
+    u8 *destination,
+    u16 destinationCapacity
+);
 bool32 FitThaiPositionedGlyphAdvances(u8 *text, u32 originalWidth, u32 maxWidth, u8 minAdvance);
 
 

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "pokenav.h"
 #include "bg.h"
 #include "menu.h"
@@ -711,7 +712,16 @@ static void BufferSearchMonListItem(struct PokenavMonListItem *item, u8 *dest)
         struct Pokemon *mon = &gPlayerParty[item->monId];
         gender = GetMonGender(mon);
         level = GetLevelFromMonExp(mon);
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(mon, gStringVar3, sizeof(gStringVar3)))
+        {
+            GetMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+            StringGet_Nickname(gStringVar3);
+        }
+#else
         GetMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+        StringGet_Nickname(gStringVar3);
+#endif
     }
     // Mon is in PC
     else
@@ -719,10 +729,17 @@ static void BufferSearchMonListItem(struct PokenavMonListItem *item, u8 *dest)
         struct BoxPokemon *mon = GetBoxedMonPtr(item->boxId, item->monId);
         gender = GetBoxMonGender(mon);
         level = GetLevelFromBoxMonExp(mon);
+#ifdef THAI_NAMING_PRODUCTION
+        if (!CopyBoxMonNameForDisplay(mon, gStringVar3, sizeof(gStringVar3)))
+        {
+            GetBoxMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+            StringGet_Nickname(gStringVar3);
+        }
+#else
         GetBoxMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+        StringGet_Nickname(gStringVar3);
+#endif
     }
-
-    StringGet_Nickname(gStringVar3);
     dest = GetStringClearToWidth(dest, FONT_NORMAL, gStringVar3, 60);
     switch (gender)
     {

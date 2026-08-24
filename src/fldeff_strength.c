@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "event_data.h"
 #include "event_scripts.h"
 #include "field_effect.h"
@@ -38,7 +39,12 @@ bool8 FldEff_UseStrength(void)
     u8 taskId = CreateFieldMoveTask();
     gTasks[taskId].data[8] = (u32)StartStrengthFieldEffect >> 16;
     gTasks[taskId].data[9] = (u32)StartStrengthFieldEffect;
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(&gPlayerParty[gFieldEffectArguments[0]], gStringVar1, sizeof(gStringVar1)))
+        GetMonNickname(&gPlayerParty[gFieldEffectArguments[0]], gStringVar1);
+#else
     GetMonNickname(&gPlayerParty[gFieldEffectArguments[0]], gStringVar1);
+#endif
     return FALSE;
 }
 

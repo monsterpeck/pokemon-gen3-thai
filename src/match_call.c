@@ -1,4 +1,5 @@
 #include "global.h"
+#include "thai_name.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_setup.h"
@@ -1784,7 +1785,7 @@ static void PopulateSpeciesFromTrainerLocation(int matchCallId, u8 *destStr)
 
             if (numSpecies)
             {
-                StringCopy(destStr, gSpeciesNames[species[Random() % numSpecies]]);
+                StringCopy(destStr, GetSpeciesNameForDisplay(species[Random() % numSpecies]));
                 return;
             }
         }
@@ -1817,7 +1818,7 @@ static void PopulateSpeciesFromTrainerParty(int matchCallId, u8 *destStr)
         speciesName = gSpeciesNames[party.ItemDefaultMoves[monId].species];
         break;
     case F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM:
-        speciesName = gSpeciesNames[party.ItemCustomMoves[monId].species];
+        speciesName = GetSpeciesNameForDisplay(party.ItemCustomMoves[monId].species);
         break;
     }
 

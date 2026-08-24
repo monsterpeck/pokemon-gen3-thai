@@ -311,4 +311,117 @@ bool32 CopyMonNameForDisplay(struct Pokemon *mon, u8 *destination, u16 destinati
     return TRUE;
 }
 
+
+
+bool32 CopyBoxMonNameForDisplay(
+    struct BoxPokemon *mon,
+    u8 *destination,
+    u16 destinationCapacity)
+{
+    u16 species;
+    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+    const u8 *display;
+
+    if (mon == NULL || destination == NULL || destinationCapacity == 0)
+        return FALSE;
+
+    species = GetBoxMonData(mon, MON_DATA_SPECIES);
+    GetBoxMonData(mon, MON_DATA_NICKNAME, nickname);
+
+    if (IsBoxMonNicknameThai(mon))
+    {
+        if (ThaiShapeCompactName(
+                nickname,
+                StringLength(nickname),
+                POKEMON_NAME_LENGTH,
+                destination,
+                destinationCapacity))
+            return TRUE;
+
+        display = GetSpeciesNameForDisplay(species);
+    }
+    else
+    {
+        StringGet_Nickname(nickname);
+
+        if (species < NUM_SPECIES
+         && StringCompare(nickname, gSpeciesNames[species]) == 0)
+            display = GetSpeciesNameForDisplay(species);
+        else
+            display = nickname;
+    }
+
+    if (StringLength(display) + 1 > destinationCapacity)
+        return FALSE;
+
+    StringCopy(destination, display);
+    return TRUE;
+}
+
+bool32 CopyStoredMonNameForDisplay(
+    u16 species,
+    const u8 *nickname,
+    u8 *destination,
+    u16 destinationCapacity)
+{
+    u8 normalized[POKEMON_NAME_LENGTH + 1];
+    const u8 *display;
+    u8 i;
+    bool32 hasThaiCompact = FALSE;
+
+    if (nickname == NULL || destination == NULL || destinationCapacity == 0)
+        return FALSE;
+
+    for (i = 0; i < POKEMON_NAME_LENGTH && nickname[i] != EOS; i++)
+        normalized[i] = nickname[i];
+    normalized[i] = EOS;
+
+    StringGet_Nickname(normalized);
+
+    if (species < NUM_SPECIES
+     && StringCompare(normalized, gSpeciesNames[species]) == 0)
+    {
+        display = GetSpeciesNameForDisplay(species);
+        if (StringLength(display) + 1 > destinationCapacity)
+            return FALSE;
+
+        StringCopy(destination, display);
+        return TRUE;
+    }
+
+    for (i = 0; normalized[i] != EOS; i++)
+    {
+        if (IsThaiCompactNameId(normalized[i]))
+        {
+            hasThaiCompact = TRUE;
+            break;
+        }
+    }
+
+    if (hasThaiCompact
+     && ThaiShapeCompactName(
+            normalized,
+            StringLength(normalized),
+            POKEMON_NAME_LENGTH,
+            destination,
+            destinationCapacity))
+        return TRUE;
+
+    if (StringLength(normalized) + 1 > destinationCapacity)
+        return FALSE;
+
+    StringCopy(destination, normalized);
+    return TRUE;
+}
+
 #endif // THAI_NAMING_PRODUCTION
+
+#ifndef THAI_NAMING_PRODUCTION
+const u8 *GetSpeciesNameForDisplay(u16 species)
+{
+    if (species < NUM_SPECIES)
+        return gSpeciesNames[species];
+
+    return gSpeciesNames[SPECIES_NONE];
+}
+#endif

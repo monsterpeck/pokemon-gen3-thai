@@ -6080,7 +6080,15 @@ static void DrawLevelUpBannerText(void)
 
     monLevel = GetMonData(&gPlayerParty[gBattleStruct->expGetterMonId], MON_DATA_LEVEL);
     monGender = GetMonGender(&gPlayerParty[gBattleStruct->expGetterMonId]);
+#ifdef THAI_NAMING_PRODUCTION
+    if (!CopyMonNameForDisplay(
+            &gPlayerParty[gBattleStruct->expGetterMonId],
+            gStringVar4,
+            sizeof(gStringVar4)))
+        GetMonNickname(&gPlayerParty[gBattleStruct->expGetterMonId], gStringVar4);
+#else
     GetMonNickname(&gPlayerParty[gBattleStruct->expGetterMonId], gStringVar4);
+#endif
 
     printerTemplate.currentChar = gStringVar4;
     printerTemplate.windowId = B_WIN_LEVEL_UP_BANNER;
@@ -10061,12 +10069,28 @@ static void Cmd_givecaughtmon(void)
         {
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SENT_SOMEONES_PC;
             StringCopy(gStringVar1, GetBoxNamePtr(VarGet(VAR_PC_BOX_TO_SEND_MON)));
+    #ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]],
+                gStringVar2,
+                sizeof(gStringVar2)))
             GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+#else
+        GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+#endif
         }
         else
         {
             StringCopy(gStringVar1, GetBoxNamePtr(VarGet(VAR_PC_BOX_TO_SEND_MON))); // box the mon was sent to
+    #ifdef THAI_NAMING_PRODUCTION
+        if (!CopyMonNameForDisplay(
+                &gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]],
+                gStringVar2,
+                sizeof(gStringVar2)))
             GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+#else
+        GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+#endif
             StringCopy(gStringVar3, GetBoxNamePtr(GetPCBoxToSendMon())); //box the mon was going to be sent to
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SOMEONES_BOX_FULL;
         }

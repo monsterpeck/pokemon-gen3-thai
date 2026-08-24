@@ -7057,7 +7057,7 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
 
         txtPtr = sStorage->displayMonSpeciesName;
         *(txtPtr)++ = CHAR_SLASH;
-        StringCopyPadded(txtPtr, gSpeciesNames[sStorage->displayMonSpecies], CHAR_SPACE, 5);
+        StringCopyPadded(txtPtr, GetSpeciesNameForDisplay(sStorage->displayMonSpecies), CHAR_SPACE, 5);
 #endif
 
         txtPtr = sStorage->displayMonGenderLvlText;
