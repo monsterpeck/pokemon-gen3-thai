@@ -463,3 +463,49 @@ Gate: do not reopen without a new reproducible failure, source/baseline change, 
 - Final ZIP SHA-256: `885032c29494bb685722e2fec2ca3fa180f08c746d32a02bd9eae6fb7b855cb6`
 - This hotfix release supersedes all earlier 2026-08-24 ROM/BPS/ZIP hashes and packages.
 - Anti-loop: do not rebuild, re-audit, regenerate BPS/package, or reopen closed global Pokémon display-name gates unless there is a new reproducible failure, source/baseline change, or direct contradictory evidence.
+
+## 2026-08-30 — Berry Tree + Rustboro Post-Battle Remediation CLOSED
+
+This section SUPERSEDES all earlier public-release authority/hash lines in this file.
+
+Source commit:
+- `2d08f7733` — `translation: close berry tree and Rustboro post-battle gaps`
+- Pushed to `origin/work/phaseF-remaining-thai-translation`: PASS
+
+Reopened only from new reproducible runtime evidence:
+- Berry Tree interaction: 18 translated labels + 1 non-language `!` preserve = 19/19 classified.
+- Rustboro Gym post-battle: Josh / Tommy / Marc = 3/3 translated.
+- The three Rustboro rows previously marked `COVERED_ALREADY` are a proven false closure and are superseded by this remediation.
+- Targeted post-Fortree main-story audit: 95/95 checked rows already Thai encoded; do not reopen the full post-Gym-6 main-story scope without new contradictory runtime evidence.
+
+Gates:
+- Placeholder/control preservation: PASS
+- Thai encoder/precompose: PASS
+- Target-only source diff: PASS
+- Production build: PASS
+- Runtime QA from Delta screenshots: PASS
+- BPS create/apply: PASS
+- Byte-identical patched ROM verification: PASS
+- Release package refresh: PASS
+
+Production build metrics:
+- EWRAM: 252,936 B / 256 KB (96.49%)
+- IWRAM: 31,468 B / 32 KB (96.03%)
+- ROM: 15,994,918 B / 32 MB (47.67%)
+
+Release authority:
+- Clean base ROM SHA-1: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+- Production ROM SHA-1: `a0af8d4efdd2d7489ffc3a3ad262d69839786965`
+- BPS: `PekeEmerald-Thai-2026-08-30-FINAL.bps`
+- BPS SHA-1: `60e56a07227de295e54bdcea8b8fb5c5358c4fd6`
+- BPS SHA-256: `65284453702139e25b51966828ce0b6535de8bb6a50be9939e35f6d9bfae36b2`
+- ZIP: `PekeEmerald-Thai-2026-08-30-FINAL.zip`
+- ZIP size: 1,121,247 bytes
+- ZIP SHA-256: `8876f2aa645709743f488fd8aacdbeddfadc8a636d6d3506b799cc3a820de208`
+
+Local public release directory now contains only the 2026-08-30 FINAL BPS and ZIP.
+The 2026-08-24 package is superseded and removed from the release directory.
+
+Anti-loop:
+- Do not rebuild, rerun this remediation audit, regenerate BPS/ZIP, or retest these closed paths merely for confidence.
+- Reopen only for a new reproducible runtime defect, source/baseline change, or direct contradictory evidence.
