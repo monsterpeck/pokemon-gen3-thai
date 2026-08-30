@@ -509,3 +509,36 @@ The 2026-08-24 package is superseded and removed from the release directory.
 Anti-loop:
 - Do not rebuild, rerun this remediation audit, regenerate BPS/ZIP, or retest these closed paths merely for confidence.
 - Reopen only for a new reproducible runtime defect, source/baseline change, or direct contradictory evidence.
+## 2026-08-30 — Battle text hardening + Thai field reflow CLOSED
+
+Source commit: `864848777` — `thai: harden battle text and reflow field dialogue`
+
+Closed remediation:
+- Localized the unregistered-SELECT system prompt; `SELECT` remains the literal button name.
+- Expanded `gDisplayedStringBattle` from 300 to 2048 bytes. Real trainer lose/defeat maximum measured 1,593 B; conservative normal-battle expansion maximum 1,676 B, both below 2,048 B.
+- Added centralized Thai battle-display names for 8 Gym Leaders, 4 Elite Four members, and Champion Wallace; ordinary Trainer names remain under the existing English-name policy.
+- Reflowed 99 static field-dialogue labels across 34 files using Thai word boundaries and production glyph advances. Runtime placeholders were not force-reflowed. Field box = 216 px; safety limit = 208 px; final maximum line = 180 px.
+
+Runtime QA PASS:
+- SELECT prompt displays Thai correctly.
+- Boss battle display shows localized leader names correctly.
+- Representative Rustboro/Slateport line-break cases no longer split Thai words unnaturally.
+- Winona full post-battle flow PASS: defeat text -> Feather Badge -> TM40 -> dialogue completion -> field control restored; no freeze.
+
+Authoritative production build (already passed; do not rebuild for confidence):
+- EWRAM: 254,684 B / 256 KB (97.15%)
+- IWRAM: 31,468 B / 32 KB (96.03%)
+- ROM: 15,995,870 B / 32 MB
+
+Superseding release authority:
+- ROM SHA-1: `a8f4de05976118d2bbca93e54df046764c84fdb5`
+- BPS SHA-1: `e51457c240ef378c4a141f87ebcd1fed5e10f0d3`
+- BPS SHA-256: `ac90981c4b85ba98ad6447cdaa84d0c43cb5f043c7d5ef43b8b77ef3dc99f0fa`
+- BPS apply byte-identical: PASS
+- FINAL ZIP: `PekeEmerald-Thai-2026-08-30-FINAL.zip`
+- ZIP size: 1,124,116 bytes
+- ZIP SHA-256: `5af736d619ba19586a942b31ca8394d40319935f9ad6a999361d73bc04280af1`
+
+This supersedes the earlier 2026-08-30 package hashes. Reopen only for a new reproducible failure, source/baseline change, or direct contradictory evidence.
+
+OPTIONAL cosmetic item not applied in this release: Thai glyph cluster `งั้` advance 7 -> 6 px. Do not block release on it.
