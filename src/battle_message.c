@@ -2290,11 +2290,46 @@ EWRAM_DATA static u8 sThaiBattleNicknameText[256] = {0};
 
 static const u8 sText_TrainerNameHaruka[] = _("{252}{25}{49}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{161}{1}{0}{244}{5}{1}{252}{25}{8}{0}{0}{244}{6}{1}{252}{25}{7}{0}{0}{244}{5}{1}");
 
+#ifdef THAI_NAMING_PRODUCTION
+static const u8 sText_TrainerNameRoxanne[] = _("{252}{25}{216}{0}{0}{244}{6}{1}{252}{25}{216}{0}{0}{244}{6}{1}{252}{25}{53}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNameBrawly[] = _("{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{28}{0}{0}{244}{7}{1}{252}{25}{52}{0}{0}{244}{7}{1}");
+static const u8 sText_TrainerNameWattson[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{6}{2}{0}{244}{7}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{216}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}");
+static const u8 sText_TrainerNameFlannery[] = _("{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{216}{0}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{7}{0}{0}{244}{5}{1}");
+static const u8 sText_TrainerNameNorman[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{216}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{78}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNameWinona[] = _("{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{129}{2}{0}{244}{5}{1}");
+static const u8 sText_TrainerNameJuan[] = _("{252}{25}{48}{0}{0}{244}{6}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{32}{2}{0}{244}{7}{1}{252}{25}{30}{0}{0}{244}{8}{1}");
+static const u8 sText_TrainerNameSidney[] = _("{252}{25}{10}{0}{0}{244}{7}{1}{252}{25}{6}{0}{0}{244}{4}{1}{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{251}{2}{0}{244}{4}{1}{252}{25}{26}{0}{0}{244}{7}{1}{252}{25}{216}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNamePhoebe[] = _("{252}{25}{219}{1}{0}{244}{8}{1}{252}{25}{0}{0}{0}{244}{5}{1}{252}{25}{39}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNameGlacia[] = _("{252}{25}{35}{0}{0}{244}{8}{1}{252}{25}{78}{0}{0}{244}{6}{1}{252}{25}{38}{0}{0}{244}{7}{1}");
+static const u8 sText_TrainerNameDrake[] = _("{252}{25}{3}{0}{0}{244}{4}{1}{252}{25}{0}{2}{0}{244}{6}{1}{252}{25}{30}{0}{0}{244}{8}{1}{252}{25}{53}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNameWallace[] = _("{252}{25}{76}{0}{0}{244}{7}{1}{252}{25}{142}{1}{0}{244}{7}{1}{252}{25}{78}{0}{0}{244}{6}{1}");
+static const u8 sText_TrainerNameTateLiza[] = _("{252}{25}{219}{1}{0}{244}{8}{1}&{252}{25}{46}{2}{0}{244}{5}{1}{252}{25}{30}{0}{0}{244}{8}{1}");
+#endif
+
 static const u8 *ResolveTrainerNameForText(u16 trainerId)
 {
     if (gTrainers[trainerId].trainerPic == TRAINER_PIC_MAY
      || gTrainers[trainerId].trainerPic == TRAINER_PIC_RS_MAY)
         return sText_TrainerNameHaruka;
+
+#ifdef THAI_NAMING_PRODUCTION
+    switch (gTrainers[trainerId].trainerPic)
+    {
+    case TRAINER_PIC_LEADER_ROXANNE:       return sText_TrainerNameRoxanne;
+    case TRAINER_PIC_LEADER_BRAWLY:        return sText_TrainerNameBrawly;
+    case TRAINER_PIC_LEADER_WATTSON:       return sText_TrainerNameWattson;
+    case TRAINER_PIC_LEADER_FLANNERY:      return sText_TrainerNameFlannery;
+    case TRAINER_PIC_LEADER_NORMAN:        return sText_TrainerNameNorman;
+    case TRAINER_PIC_LEADER_WINONA:        return sText_TrainerNameWinona;
+    case TRAINER_PIC_LEADER_TATE_AND_LIZA: return sText_TrainerNameTateLiza;
+    case TRAINER_PIC_LEADER_JUAN:          return sText_TrainerNameJuan;
+    case TRAINER_PIC_ELITE_FOUR_SIDNEY:    return sText_TrainerNameSidney;
+    case TRAINER_PIC_ELITE_FOUR_PHOEBE:    return sText_TrainerNamePhoebe;
+    case TRAINER_PIC_ELITE_FOUR_GLACIA:    return sText_TrainerNameGlacia;
+    case TRAINER_PIC_ELITE_FOUR_DRAKE:     return sText_TrainerNameDrake;
+    case TRAINER_PIC_CHAMPION_WALLACE:     return sText_TrainerNameWallace;
+    }
+#endif
 
     return gTrainers[trainerId].trainerName;
 }
