@@ -542,3 +542,32 @@ Superseding release authority:
 This supersedes the earlier 2026-08-30 package hashes. Reopen only for a new reproducible failure, source/baseline change, or direct contradictory evidence.
 
 OPTIONAL cosmetic item not applied in this release: Thai glyph cluster `งั้` advance 7 -> 6 px. Do not block release on it.
+
+## 2026-08-31 — PokéNav + whole-field line-break remediation CLOSED
+
+This section SUPERSEDES the 2026-08-30 release authority above.
+
+Source commit:
+- `1ac517a34` — `thai: harden PokeNav condition and field line breaks`
+- Pushed to `origin/work/phaseF-remaining-thai-translation`: PASS
+
+Closed runtime defects:
+- Match Call tile corruption: production `PokenavList::itemTextBuffer` expanded 128 -> 512 bytes for positioned Thai list rows.
+- Condition redraw/search corruption: production `locationText` expanded 24 -> 64 bytes; current mon name/location are rebuilt from authoritative `currIndex` at render time instead of trusting the rotating preload text cache.
+- Whole-field line-break regression: dirty production worktree audit checked 2,410 Thai field strings; 125 raw candidates reduced to 103 real break moves across 92 labels / 39 files. Permanent gate: raw 22 / allowed 22 / actionable 0 = PASS.
+- Source hygiene: synthetic HEAD reproduced only 3 HEAD-level line-break defects; the source commit stages those 3 plus PokéNav fixes and the permanent linter. The other 100 worktree-only reflows sit on pre-existing dirty translation changes and were intentionally not staged, preventing old scope from leaking into this commit.
+
+Runtime QA from user screenshots: Match Call PASS; Condition CANCEL -> back-scroll PASS; Condition Search/COOL detail PASS; reported field-dialogue split PASS.
+Production build PASS: EWRAM 254,684 B / 256 KB (97.15%); IWRAM 31,468 B / 32 KB (96.03%); ROM 15,995,886 B / 32 MB.
+Permanent gate: `python3 tools/thai/audit_field_linebreaks.py` -> checked 2410 / raw 22 / allowed 22 / actionable 0 / PASS.
+
+Superseding release authority:
+- Clean base ROM SHA-1: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`
+- Production ROM SHA-1: `50b57e301070df9928626e8939451b98fd78b072`
+- BPS SHA-1: `4e1f927f6b75a96a39b7877d754e811d1330255c`
+- BPS SHA-256: `6ef2d904eaf879d9e2000a54f21f5ee9846ce24c94d08462d5fc914366bfb115`
+- BPS apply byte-identical: PASS
+- FINAL ZIP size: 1,123,456 bytes
+- FINAL ZIP SHA-256: `b9a0e77fccfafb341da532814ee96d93ac90b9a7d5d5ff50797ce57f986e94ee`
+
+Anti-loop: do not rebuild, refresh, re-audit these PokéNav paths, or rerun whole-field reflow without a new reproducible failure, source/baseline change, or direct contradiction.
