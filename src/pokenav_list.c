@@ -57,7 +57,9 @@ struct PokenavList
     struct Sprite *upArrow;
     struct Sprite *downArrow;
 #ifdef THAI_NAMING_PRODUCTION
-    u8 itemTextBuffer[128];
+    // Positioned Thai list rows can exceed 128 bytes even when they fit visually.
+    // Keep enough room for Match Call class/name rows and Condition display names.
+    u8 itemTextBuffer[512];
 #else
     u8 itemTextBuffer[64];
 #endif

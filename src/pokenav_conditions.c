@@ -25,10 +25,11 @@ struct Pokenav_ConditionMenu
     s16 toLoadListIndex;
     u32 (*callback)(struct Pokenav_ConditionMenu *);
     u8 fill2[0x18];
-    u8 locationText[CONDITION_MONS_LOADED][24];
 #ifdef THAI_NAMING_PRODUCTION
+    u8 locationText[CONDITION_MONS_LOADED][64];
     u8 nameText[CONDITION_MONS_LOADED][128];
 #else
+    u8 locationText[CONDITION_MONS_LOADED][24];
     u8 nameText[CONDITION_MONS_LOADED][64];
 #endif
     struct ConditionGraph graph;
@@ -615,6 +616,14 @@ u8 GetConditionGraphMenuToLoadId(void)
 u8 *GetConditionMonNameText(u8 loadId)
 {
     struct Pokenav_ConditionMenu *menu = GetSubstructPtr(POKENAV_SUBSTRUCT_CONDITION_GRAPH_MENU);
+#ifdef THAI_NAMING_PRODUCTION
+    struct PokenavMonList *monListPtr = GetSubstructPtr(POKENAV_SUBSTRUCT_MON_LIST);
+
+    // Rebuild the current mon's derived display text at render time instead of
+    // trusting the rotating preload cache. This keeps Thai name/location text
+    // synchronized after CANCEL traversal and when entering Search detail.
+    CopyMonNameGenderLocation(monListPtr->currIndex, loadId);
+#endif
     return menu->nameText[loadId];
 }
 
