@@ -571,3 +571,18 @@ Superseding release authority:
 - FINAL ZIP SHA-256: `b9a0e77fccfafb341da532814ee96d93ac90b9a7d5d5ff50797ce57f986e94ee`
 
 Anti-loop: do not rebuild, refresh, re-audit these PokéNav paths, or rerun whole-field reflow without a new reproducible failure, source/baseline change, or direct contradiction.
+
+## 2026-08-31 — Release package naming correction CLOSED
+
+This packaging-only correction supersedes the `2026-08-30-FINAL` filename from the prior closure. ROM and BPS payloads were NOT regenerated.
+
+Correct release name:
+- `PekeEmerald-Thai-2026-08-31-FINAL`
+- BPS SHA-1 unchanged: `4e1f927f6b75a96a39b7877d754e811d1330255c`
+- BPS SHA-256 unchanged: `6ef2d904eaf879d9e2000a54f21f5ee9846ce24c94d08462d5fc914366bfb115`
+- ZIP SHA-256: `621f7755bcf5dd0bb4e4018ab9382929c7a2176bdc133fb13419ee6652ef1ecf`
+- ZIP size: 1,123,457 bytes
+
+Package audit: ZIP contains the correctly named BPS, updated README, SHA1SUMS.txt, and SHA256SUMS.txt; internal checksums PASS. Old `2026-08-30-FINAL` BPS/ZIP files were removed to prevent release ambiguity.
+
+No ROM build, BPS creation, BPS apply, or release refresh was performed for this naming correction.
