@@ -2444,22 +2444,65 @@ static void CreateCaughtBall(bool16 owned, u8 x, u8 y, u16 unused)
         FillWindowPixelRect(0, PIXEL_FILL(0), x * 8, y * 8, 8, 16);
 }
 
+#ifdef THAI_NAMING_PRODUCTION
+#define THAI_POKEDEX_LIST_NAME_WIDTH_PX 56
+
+static void FitThaiPokedexListSpeciesName(u8 *str)
+{
+    u32 i;
+    u32 len = StringLength(str);
+    u32 width = GetStringWidth(FONT_NARROW, str, 0);
+
+    /* Canonical species glyphs have 1 px spacing; remove spacing only. */
+    for (i = 0; i + 7 < len && width > THAI_POKEDEX_LIST_NAME_WIDTH_PX;)
+    {
+        if (str[i] == EXT_CTRL_CODE_BEGIN
+         && str[i + 1] == EXT_CTRL_CODE_THAI_POSITIONED_GLYPH)
+        {
+            if (str[i + 6] > 0)
+            {
+                str[i + 6]--;
+                width--;
+            }
+            i += 8;
+        }
+        else
+        {
+            i++;
+        }
+    }
+}
+#endif
+
 static u8 CreateMonName(u16 num, u8 left, u8 top)
 {
     const u8 *str;
+#ifdef THAI_NAMING_PRODUCTION
+    u8 listName[THAI_NAME_SHAPED_CAPACITY];
+#endif
 
     num = NationalPokedexNumToSpecies(num);
     if (num)
+    {
         str = GetSpeciesNameForDisplay(num);
+#ifdef THAI_NAMING_PRODUCTION
+        StringCopy(listName, str);
+        FitThaiPokedexListSpeciesName(listName);
+        str = listName;
+#endif
+    }
     else
+    {
         str = sText_TenDashes;
+    }
     PrintMonDexNumAndName(0, FONT_NARROW, str, left, top);
     return StringLength(str);
 }
 
 static void ClearMonListEntry(u8 x, u8 y, u16 unused)
 {
-    FillWindowPixelRect(0, PIXEL_FILL(0), x * 8, y * 8, 0x60, 16);
+    /* Also clear the 8 px spill strip beside the 56 px species-name slot. */
+    FillWindowPixelRect(0, PIXEL_FILL(0), x * 8, y * 8, 0x68, 16);
 }
 
 // u16 ignored is passed but never used

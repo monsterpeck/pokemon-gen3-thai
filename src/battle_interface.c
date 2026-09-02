@@ -1943,6 +1943,43 @@ static u32 GetThaiHealthboxNameWidth(const u8 *str)
     return width;
 }
 
+static bool8 FitThaiHealthboxSpeciesName(u8 *str, u32 maxWidth)
+{
+    u32 i;
+    u32 len = StringLength(str);
+    u32 width = GetThaiHealthboxNameWidth(str);
+
+    if (width <= maxWidth)
+        return TRUE;
+
+    /*
+     * Canonical species names use a 1 px inter-glyph spacing. Remove only
+     * that spacing so Thai glyph bitmaps never overlap in the healthbox.
+     */
+    for (i = 0; i + 7 < len && width > maxWidth;)
+    {
+        if (str[i]     == 252
+         && str[i + 1] == 25
+         && str[i + 4] == 0
+         && str[i + 5] == 244
+         && str[i + 7] == 1)
+        {
+            if (str[i + 6] > 0)
+            {
+                str[i + 6]--;
+                width--;
+            }
+            i += 8;
+        }
+        else
+        {
+            i++;
+        }
+    }
+
+    return width <= maxWidth;
+}
+
 static bool8 FitThaiHealthboxName(u8 *str, u32 maxWidth)
 {
     u32 i;
@@ -2024,6 +2061,9 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
     u8 *windowTileData;
     u16 species;
     u8 gender;
+#ifdef THAI_NAMING_PRODUCTION
+    bool8 isCanonicalSpeciesDisplay = FALSE;
+#endif
 
     StringCopy(gDisplayedStringBattle, gText_HealthboxNickname);
 
@@ -2048,6 +2088,7 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
             /* Safe fallback: never feed compact Thai IDs to the text printer. */
             StringCopy(sThaiHealthboxNickname, GetSpeciesNameForDisplay(species));
             displayName = sThaiHealthboxNickname;
+            isCanonicalSpeciesDisplay = TRUE;
         }
     }
     else
@@ -2062,6 +2103,7 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
         {
             StringCopy(sThaiHealthboxNickname, GetSpeciesNameForDisplay(species));
             displayName = sThaiHealthboxNickname;
+            isCanonicalSpeciesDisplay = TRUE;
         }
 #endif
     }
@@ -2089,10 +2131,22 @@ static void UpdateNickInHealthbox(u8 healthboxSpriteId, struct Pokemon *mon)
          * Canonical names, nicknames in save data, and other screens
          * remain untouched.
          */
-        if (!FitThaiHealthboxName(sThaiHealthboxNickname, maxNameWidth)
-         && (gender == MON_MALE || gender == MON_FEMALE))
+        if (isCanonicalSpeciesDisplay)
         {
-            /* Extreme fallback: preserve the full name rather than clip it. */
+            if (!FitThaiHealthboxSpeciesName(sThaiHealthboxNickname, maxNameWidth)
+             && (gender == MON_MALE || gender == MON_FEMALE))
+            {
+                /* Keep canonical Thai glyphs readable; drop gender before overlap. */
+                gender = 100;
+                FitThaiHealthboxSpeciesName(
+                    sThaiHealthboxNickname,
+                    THAI_HEALTHBOX_WIDTH_PX);
+            }
+        }
+        else if (!FitThaiHealthboxName(sThaiHealthboxNickname, maxNameWidth)
+              && (gender == MON_MALE || gender == MON_FEMALE))
+        {
+            /* Custom nickname fallback keeps the previously closed behavior. */
             gender = 100;
             FitThaiHealthboxName(
                 sThaiHealthboxNickname,
@@ -2329,7 +2383,8 @@ static void UpdateSafariBallsTextOnHealthbox(u8 healthboxSpriteId)
 
 static void UpdateLeftNoOfBallsTextOnHealthbox(u8 healthboxSpriteId)
 {
-    u8 text[16];
+    /* Thai positioned-glyph label is 42 bytes before the ball count. */
+    u8 text[64];
     u8 *txtPtr;
     u32 windowId, spriteTileNum;
     u8 *windowTileData;
