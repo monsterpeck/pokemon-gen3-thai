@@ -1174,3 +1174,16 @@ Correct release name:
 Package audit: ZIP contains the correctly named BPS, updated README, SHA1SUMS.txt, and SHA256SUMS.txt; internal checksums PASS. Old `2026-08-30-FINAL` BPS/ZIP files were removed to prevent release ambiguity.
 
 No ROM build, BPS creation, BPS apply, or release refresh was performed for this naming correction.
+
+## 2026-09-03 — Safari / Healthbox / Pokédex runtime closure
+- Source authority: `b21e5c8d4 — thai: harden Safari battle and Pokedex list`.
+- Safari freezes were traced to two deterministic overruns: `gStringVar4[1000]` versus Thai field text up to 3,202 B, and Safari ball-count `text[16]` versus a 42 B Thai label. Fixed to 4,096 B and 64 B respectively.
+- Reporter-save runtime QA PASS: Safari entry and wild encounter no longer freeze.
+- Canonical Thai healthbox names now remove only the proven 1 px inter-glyph spacing; custom Thai nickname fitting remains unchanged. 386-species safe-fit audit unresolved = 0.
+- Pokédex list uses a 56 px species-name slot. Thai overflow had left stale pixels in x=232..239 because row clearing ended at x=231. Names now fit to 56 px and row clear reaches x=240 exactly.
+- Pokédex runtime QA PASS at representative reported regions including No125 and unseen `----------` rows.
+- Production build PASS: EWRAM 257,780 B / 256 KB (98.34%); IWRAM 31,468 B / 32 KB (96.03%); ROM 15,996,182 B.
+- Current release authority: `PekeEmerald-Thai-2026-09-03-FINAL`.
+- ROM SHA-1 `e450d29ca263bff2608fefff0070154d54542daa`; BPS SHA-1 `ff66a12660ec803d58f68204130f47bf13780deb`; BPS SHA-256 `725a202b80b37d85496a9d087e358eb07cdb36bb4af968ec7a7c36d90f1ef5dc`.
+- ZIP SHA-256 `7917d8b8dd2cf18ca3f18ff42aeb4a66e7e14daddcf8f551e0d751aedc2a43a0`; ZIP size 1,123,979 B; BPS apply byte-identical PASS.
+- These runtime gates are CLOSED and must not be re-audited absent a new reproducible failure, source/baseline change, or direct contradiction.

@@ -586,3 +586,18 @@ Correct release name:
 Package audit: ZIP contains the correctly named BPS, updated README, SHA1SUMS.txt, and SHA256SUMS.txt; internal checksums PASS. Old `2026-08-30-FINAL` BPS/ZIP files were removed to prevent release ambiguity.
 
 No ROM build, BPS creation, BPS apply, or release refresh was performed for this naming correction.
+
+## 2026-09-03 — Runtime remediation status
+- Safari battle freeze: CLOSED / PASS.
+  - `gStringVar4` expanded 1000 -> 4096 B after measured field text exceeded vanilla capacity.
+  - Safari ball-count scratch expanded 16 -> 64 B after 42 B Thai label overflow was confirmed.
+- Battle healthbox canonical Thai name overlap: CLOSED / PASS.
+  - Canonical species fitting removes at most 1 px inter-glyph spacing; custom Thai nickname path unchanged.
+  - 386-species safe-fit audit: unresolved 0.
+- Pokédex list right-edge stale pixels: CLOSED / PASS.
+  - 56 px list-name fit added; row clear widened `0x60 -> 0x68`, ending exactly at x=240.
+  - Runtime QA PASS around No043–No051 and No123–No130 including No125 and blank `----------` rows.
+- Source: `b21e5c8d4`.
+- Release: `PekeEmerald-Thai-2026-09-03-FINAL`.
+- ROM SHA-1 `e450d29ca263bff2608fefff0070154d54542daa`; BPS SHA-1 `ff66a12660ec803d58f68204130f47bf13780deb`; byte-identical PASS.
+- No further audit/build/refresh is required unless new reproducible evidence appears.

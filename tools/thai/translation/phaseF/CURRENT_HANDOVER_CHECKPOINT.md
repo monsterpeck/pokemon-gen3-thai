@@ -713,3 +713,21 @@ Correct release name:
 Package audit: ZIP contains the correctly named BPS, updated README, SHA1SUMS.txt, and SHA256SUMS.txt; internal checksums PASS. Old `2026-08-30-FINAL` BPS/ZIP files were removed to prevent release ambiguity.
 
 No ROM build, BPS creation, BPS apply, or release refresh was performed for this naming correction.
+
+## 2026-09-03 — Safari battle / healthbox / Pokédex remediation CLOSED
+- Source commit: `b21e5c8d4 — thai: harden Safari battle and Pokedex list`
+- Safari entry/wild-battle freeze root causes were real buffer overruns:
+  - `gStringVar4`: `1000 -> 4096` bytes. Safari welcome = 1,526 B; worst measured static field text = 3,202 B.
+  - Safari battle ball-count scratch: `text[16] -> text[64]`; Thai label alone is 42 B before appending the count.
+- Runtime QA with reporter save: entering Safari and reaching a wild encounter no longer freezes.
+- Canonical Thai healthbox names now remove at most the 1 px inter-glyph spacing; custom Thai nickname behavior is unchanged. Species audit: 386 rows, unresolved 0.
+- Pokédex list root cause: 56 px name slot could spill into x=232..239 while row clear stopped at x=231. Canonical names are now safely fit to 56 px and row clear is `0x60 -> 0x68` (exactly to x=240).
+- Pokédex runtime QA PASS around No043–No051 and No123–No130 including No125; no right-edge stale pixels on named or `----------` rows.
+- Production build PASS: EWRAM 257,780 B; IWRAM 31,468 B; ROM 15,996,182 B.
+- Release: `PekeEmerald-Thai-2026-09-03-FINAL`
+- ROM SHA-1: `e450d29ca263bff2608fefff0070154d54542daa`
+- BPS SHA-1: `ff66a12660ec803d58f68204130f47bf13780deb`
+- BPS SHA-256: `725a202b80b37d85496a9d087e358eb07cdb36bb4af968ec7a7c36d90f1ef5dc`
+- ZIP SHA-256: `7917d8b8dd2cf18ca3f18ff42aeb4a66e7e14daddcf8f551e0d751aedc2a43a0`; size 1,123,979 B.
+- BPS apply byte-identical: PASS.
+- Safari battle, this healthbox remediation, and Pokédex list spill are CLOSED; do not reopen without a new reproducible regression/source change/direct contradiction.

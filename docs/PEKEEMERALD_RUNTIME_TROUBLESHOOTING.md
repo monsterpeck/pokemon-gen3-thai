@@ -1168,3 +1168,12 @@ Correct release name:
 Package audit: ZIP contains the correctly named BPS, updated README, SHA1SUMS.txt, and SHA256SUMS.txt; internal checksums PASS. Old `2026-08-30-FINAL` BPS/ZIP files were removed to prevent release ambiguity.
 
 No ROM build, BPS creation, BPS apply, or release refresh was performed for this naming correction.
+
+## 2026-09-03 — Safari freeze and Pokédex edge-artifact lessons
+- If Safari entry succeeds but the first wild encounter freezes, inspect Safari-specific healthbox scratch buffers before map/battle-state logic. In this closure, `gText_SafariBallLeft` was 42 B while `UpdateLeftNoOfBallsTextOnHealthbox()` used `u8 text[16]`, causing deterministic stack corruption. Production fix: 64 B.
+- Field-message Thai positioned streams can be far larger in bytes than their visual width. `gStringVar4[1000]` was insufficient: Safari welcome measured 1,526 B and the largest measured static field message was 3,202 B. Production fix: 4,096 B.
+- Do not solve canonical Thai healthbox overflow by aggressively shrinking advances below glyph widths. Remove only the proven 1 px inter-glyph spacing; if necessary preserve the full canonical name before gender. Keep custom-nickname behavior separate.
+- Pokédex list name slot is 56 px (`x=176..231`). Thai names could draw into x=232..239, but vanilla row clearing stopped at x=231. This left stale pixels visible on later short names and even `----------` rows. Production fix: fit canonical names to 56 px and clear 104 px from x=136, ending exactly at x=240.
+- BG1 holds the Pokédex list frame at higher priority than the BG2 text window, so clearing the extra transparent 8 px strip does not erase the frame.
+- Runtime proof for this closure used the reporter save and verified Safari wild encounter plus Pokédex list regions around No043–No051 and No123–No130.
+- Source authority: `b21e5c8d4`; release ROM SHA-1 `e450d29ca263bff2608fefff0070154d54542daa`.
